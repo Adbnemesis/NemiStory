@@ -1,0 +1,84 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/backgrounds/bg_room_corner.png" id="1_bg"]
+[ext_resource type="PackedScene" path="res://scenes/components/StoryCamera.tscn" id="2_cam"]
+[ext_resource type="PackedScene" path="res://scenes/components/StoryCharacter.tscn" id="3_char"]
+[ext_resource type="PackedScene" path="res://scenes/components/StoryProp.tscn" id="4_prop"]
+[ext_resource type="Texture2D" path="res://assets/props/prop_clapboard.png" id="5_clap"]
+[ext_resource type="Texture2D" path="res://assets/props/prop_stylus.png" id="6_stylus"]
+[ext_resource type="Texture2D" path="res://assets/props/prop_cat_drawing.png" id="7_cat"]
+[ext_resource type="PackedScene" path="res://scenes/components/SpeechBubble.tscn" id="8_bubble"]
+[ext_resource type="Script" path="res://animations/demo_storytime_poc/poc_director.gd" id="9_dir"]
+
+[node name="POCDemo" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(640, 360)
+texture = ExtResource("1_bg")
+
+[node name="Camera2D" parent="." instance=ExtResource("2_cam")]
+position = Vector2(640, 360)
+
+[node name="Storyteller" parent="." instance=ExtResource("3_char")]
+position = Vector2(720, 380)
+
+[node name="Props" type="Node2D" parent="."]
+
+[node name="Clapboard" parent="Props" instance=ExtResource("4_prop")]
+visible = false
+position = Vector2(250, 480)
+
+[node name="Sprite2D" parent="Props/Clapboard" index="0"]
+texture = ExtResource("5_clap")
+
+[node name="Stylus" parent="Props" instance=ExtResource("4_prop")]
+visible = false
+position = Vector2(820, 410)
+
+[node name="Sprite2D" parent="Props/Stylus" index="0"]
+texture = ExtResource("6_stylus")
+
+[node name="CatDrawing" parent="Props" instance=ExtResource("4_prop")]
+visible = false
+position = Vector2(380, 340)
+
+[node name="Sprite2D" parent="Props/CatDrawing" index="0"]
+texture = ExtResource("7_cat")
+
+[node name="SpeechBubble" parent="." instance=ExtResource("8_bubble")]
+visible = false
+position = Vector2(570, 200)
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Subtitle" type="Label" parent="UI"]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 120.0
+offset_top = -80.0
+offset_right = -120.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 1, 1, 0.9)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 30
+text = "..."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Director" type="Node" parent="." node_paths=PackedStringArray("character", "camera", "speech_bubble", "subtitle_label")]
+script = ExtResource("9_dir")
+character = NodePath("../Storyteller")
+camera = NodePath("../Camera2D")
+speech_bubble = NodePath("../SpeechBubble")
+subtitle_label = NodePath("../UI/Subtitle")
+
+[editable path="Props/Clapboard"]
+[editable path="Props/Stylus"]
+[editable path="Props/CatDrawing"]
