@@ -1,0 +1,382 @@
+# NEMI — AI SPECIFICATION (V1)
+# Machine-readable character configuration for AI scriptwriters, animators, and directors.
+# Source of truth for automated generation, validation, and acting choreographies.
+
+version: "1.0.0"
+character: "Nemi"
+
+identity:
+  name: "Nemi"
+  age: 24
+  role: "Protagonist, storyteller, and animator"
+  channel_format: "2D Illustrated Storytelling / Animatics"
+  first_video_context: "First serious attempt at digital storytelling and 2D animation on YouTube"
+  gender_presentation: "Visually female; never verbally stated or referenced"
+
+canon:
+  confirmed_facts:
+    - name: "Nemi"
+    - age: 24
+    - primary_goal: "Tell personal stories through 2D animation on YouTube"
+    - status: "Novice animator; learning frame-by-frame production workflow"
+  confirmed_hobbies:
+    - "Singing"
+    - "Watching anime & reading manga/manhwa"
+    - "Gym & weight training"
+    - "Storytelling & writing"
+    - "2D digital animation & illustration"
+  visual_canon:
+    hair: "Auburn / copper-ginger with volume and expressive bangs"
+    eyes: "Vibrant emerald green, large expressive pupils, dynamic gaze control"
+    outfit: "Relaxed sage-green oversized hoodie with off-the-shoulder drape, dark pleated skirt, sporty sneakers"
+    rig_type: "Godot 2D procedural bone rig with 100% dynamic vector polyline drawing"
+    art_modes:
+      - "COLOR (cel shaded, palette accents)"
+      - "MONOCHROME (deep burgundy ink lines #3E081E, paper cream background, pink hatch blush)"
+
+gender_self_reference_rule:
+  strict_enforcement: true
+  description: "Nemi must NEVER verbally define, categorize, or discuss her gender."
+  banned_self_descriptors:
+    - "a girl"
+    - "a woman"
+    - "female"
+    - "feminine"
+    - "female creator"
+    - "female artist"
+  banned_pronouns_for_self:
+    - "she"
+    - "her"
+    - "herself"
+  dialogue_rule: "Her visual design speaks for itself. She introduces herself simply as 'I'm Nemi, I'm 24'."
+  validation_regex_check: "(?i)\\b(as a girl|as a woman|i am a girl|i'm a girl|i am a woman|i'm a woman|she actually|her own self)\\b"
+
+personality:
+  archetype: "The Observant, Creative, Self-Aware Overthinker"
+  energy_profile:
+    default_state: "Calm, conversational, warm, quietly observant"
+    high_state: "Passionate hyperfocus, rapid-fire analysis, excitement"
+    low_state: "Deadpan stillness, slouched exhaustion, mild existential dread"
+  core_traits:
+    - "Observant of social nuances and tiny absurdities"
+    - "Creative, imaginative, narrative-driven thinker"
+    - "Self-aware and capable of self-irony"
+    - "Subtly chaotic in execution"
+    - "Capable of genuine authority on subjects she loves"
+    - "Vulnerable and honest about blunders"
+
+traits:
+  positive:
+    - "Empathic perspective-taking"
+    - "Stubborn artistic persistence"
+    - "Incisive comedic timing"
+    - "Authentic curiosity"
+  vulnerable:
+    - "Overthinks brief interactions"
+    - "Distracted by niche research rabbit holes"
+    - "Impatient with slow repetitive tasks"
+    - "Post-upload imposter panic"
+
+strengths:
+  - strength: "Narrative Framing"
+    narrative_impact: "Can make buying a pair of socks sound like a high-stakes espionage thriller."
+  - strength: "Deadpan Delivery"
+    narrative_impact: "Delivers devastating truths and awkward revelations with total vocal flatness."
+  - strength: "Visual Metaphor"
+    narrative_impact: "Naturally translates abstract feelings into illustrated comedic props and doodles."
+  - strength: "Relatable Honesty"
+    narrative_impact: "Audiences trust her because she never pretends to be flawless or superior."
+
+flaws:
+  - flaw: "Procrastination via Rabbit Holes"
+    story_fuel: "Spends 4 hours researching Victorian door hinges instead of finishing scene 3."
+  - flaw: "Overconfidence in Theory"
+    story_fuel: "Assumes an exercise or animation technique is trivial until gravity or math strikes back."
+  - flaw: "Social Replay Syndrome"
+    story_fuel: "Replaying a 10-second conversation in her head for three consecutive days."
+  - flaw: "Stubborn Physical Independence"
+    story_fuel: "Refusing to make two trips to carry groceries, leading to structural collapse."
+
+contradictions:
+  - "Ambitious in scope, but prone to creative procrastination"
+  - "Loves analytical gym science, but attempts heavy sets with zero warm-up"
+  - "Confident storyteller in private, awkward when ordering coffee in public"
+  - "Perfectionist about line quality, but gets impatient after 30 seconds of inbetweening"
+  - "Knows better than to do something foolish, says so out loud, and does it anyway"
+
+humor:
+  primary_styles:
+    - "Observational hyper-specificity"
+    - "Deadpan understatement"
+    - "Awkward pauses and lingering stares"
+    - "Overconfidence crashing into reality"
+    - "Rule of Three escalation"
+    - "Visual-verbal irony (narration says one thing, animation shows the opposite)"
+  banned_humor:
+    - "Rapid-fire stand-up punchlines every single sentence"
+    - "Loud screaming / screeching ear-rape audio"
+    - "Forced Gen-Z / TikTok buzzword spam"
+    - "Mean-spirited punching down"
+    - "Constant fourth-wall demolition"
+
+deadpan_system:
+  timing_protocol:
+    statement: "Nemi delivers a plain, factual, or mildly optimistic statement."
+    event: "Sudden visual failure, contradictory evidence, or silent realization."
+    pause_duration: "1.0s to 1.8s of absolute dead air."
+    eye_action: "Eyes snap to dead-center camera, locking gaze with viewer."
+    expression: "Flat mouth, neutral eyebrows, zero body bobbing."
+    recovery_dialogue: "'...Yeah.' or '...Cool.' or 'That didn't work.'"
+    camera_behavior: "Zero-motion hold or subtle snap zoom (1.1x)."
+
+speech_style:
+  formality: "Casual, spoken, colloquial, conversational"
+  tone: "Intimate, warm, confiding, slightly self-ironic"
+  sentence_length: "Variable rhythm: 1-word fragments mixed with punchy compound thoughts"
+  syntax_patterns:
+    - "Conversational fragments ('Wait.', 'Actually, no.', 'Okay, listen.')"
+    - "Mid-sentence self-corrections ('I had everything planned out—well, mostly planned out—okay, I had a sticky note.')"
+    - "Rhetorical reality checks ('Please tell me I'm not the only one who does this.')"
+    - "Conversational pivots ('Anyway...', 'Moving on.', 'So yeah.')"
+  avoid_patterns:
+    - "Formal essay transitions ('Furthermore', 'In conclusion', 'Thus')"
+    - "Generic YouTuber greetings ('Hey guys welcome back!', 'Make sure to smash like!')"
+    - "Overly polished broadcast presenter cadence"
+
+vocal_personality:
+  pitch_range: "Natural mid-range with dynamic drops during deadpan beats"
+  pacing: "Brisk conversational clip (140-165 WPM) punctuated by sudden 0-frame stops"
+  vocal_habits:
+    - "Breathy exhale laugh on self-embarrassing moments"
+    - "Subtle pitch drop on deadpan punchlines"
+    - "Speed acceleration when hyperfocusing on anime lore or animation details"
+
+storytelling_style:
+  core_approach: "Character-driven personal escalation"
+  hook_speed: "Immediate attention capture within 0.0s to 3.0s"
+  context_speed: "Full narrative premise established within first 15 seconds"
+  escalation_engine: "Situation moves from normal -> slightly odd -> deeply awkward -> catastrophic realization"
+  payoff_style: "Honest reflection with an understated, funny realization or callback"
+
+script_cadence:
+  average_sentence_duration_seconds: 1.8
+  sentence_length_distribution:
+    short_punchy_fragments: "40%"
+    moderate_compound_sentences: "45%"
+    longer_escalating_run_ons: "15%"
+  pause_placement:
+    - "Directly before a punchline (0.4s to 0.8s hold)"
+    - "Immediately after a shocking reveal (1.0s to 1.5s deadpan hold)"
+    - "During mid-thought pivot or self-correction (0.3s breath)"
+  visual_event_frequency: "Visual cue, doodle, or camera punch every 1.5 to 2.8 seconds"
+
+hook_patterns:
+  - pattern: "INTERRUPTION"
+    template: "Wait—before you say anything, hear me out."
+    intent: "Stops the scroll instantly with high conversational urgency."
+  - pattern: "IMMEDIATE_PREDICAMENT"
+    template: "So I did something today that I cannot legally defend."
+    intent: "Drops the viewer right into the aftermath of a blunder."
+  - pattern: "CONTRADICTION"
+    template: "I thought animating 24 frames a second was going to be relaxing."
+    intent: "Sets up immediate ironic dissonance."
+  - pattern: "SELF_AWARE_CONFESSION"
+    template: "I probably shouldn't admit this on the internet, but here we are."
+    intent: "Builds instant intimate camaraderie."
+  - pattern: "RHETORICAL_CHECK"
+    template: "Please tell me I'm not the only person whose brain does this at 2:00 AM."
+    intent: "Invites universal empathy and validation."
+
+narrative_patterns:
+  standard_flow:
+    1_hook: "0:00 - 0:05: Immediate interruption, curiosity, or predicament."
+    2_context: "0:05 - 0:15: High-speed premise introduction; no slow exposition."
+    3_normalcy: "0:15 - 0:30: Establishing the baseline intention or rational plan."
+    4_first_crack: "0:30 - 0:50: The first tiny miscalculation or odd detail appears."
+    5_escalation: "0:50 - 1:15: Compounding errors, doubling down, internal rationalization."
+    6_climax_realization: "1:15 - 1:35: The moment reality collides with ambition; peak chaos."
+    7_deadpan_aftermath: "1:35 - 1:50: Stillness, assessment of damage, quiet recovery."
+    8_understated_outro: "1:50 - 2:00: Natural closing observation, callback, and sign-off."
+
+emotional_states:
+  neutral:
+    facial: "Relaxed eyes, subtle smile, neutral eyebrows"
+    body: "Upright, loose shoulders, hands at rest"
+    acting_tempo: "Moderate, gentle breathing idle"
+  curious:
+    facial: "Eyebrows raised, eyes wide, head tilted 10 degrees"
+    body: "Leaning forward slightly into camera"
+    acting_tempo: "Snappy head tilt, quick settle"
+  happy:
+    facial: "Curved eye lids, bright smile, light blush"
+    body: "Open chest, slight shoulder bounce"
+    acting_tempo: "Fluid, upbeat settle"
+  excited:
+    facial: "Stars/sparkles in pupils, wide toothy grin, intense blush"
+    body: "Both hands raised near chest, upright posture"
+    acting_tempo: "Quick stepped bounce on 3s"
+  confused:
+    facial: "Asymmetric eyebrows, squinted gaze, mouth pursed to one side"
+    body: "Weight shifted to one hip, one hand raised scratching head"
+    acting_tempo: "Held static pose for 1.8s"
+  suspicious:
+    facial: "Heavy narrow lids, tiny pupils, tight straight mouth"
+    body: "Shoulders drawn in, leaning backward away from subject"
+    acting_tempo: "Slow deliberate movement, frozen settle"
+  annoyed:
+    facial: "Down-turned mouth, furrowed brow, sharp side-eye"
+    body: "Arms crossed over chest, stiff neck"
+    acting_tempo: "Sudden sharp snap into pose"
+  frustrated:
+    facial: "Grimacing teeth, twitching eyebrow, heavy forehead shadow"
+    body: "Hands balled into fists, head shaking slightly"
+    acting_tempo: "Stepped 2-frame vibration cycle"
+  embarrassed:
+    facial: "Dense pink diagonal hatching on cheeks, eyes looking away, nervous wavy mouth"
+    body: "Shoulders hunched, head lowered, arms tucked"
+    acting_tempo: "Instant snap into slouch, prolonged 2.5s hold"
+  angry:
+    facial: "Angular aggressive eyebrows, sharp open yell mouth, fiery eyes"
+    body: "Forward lunge, pointing finger aggressively"
+    acting_tempo: "1-frame screen shake impulse, held on impact"
+  sad:
+    facial: "Drooping eyelids, downturned soft mouth, watery sparkle highlight"
+    body: "Defeated slump, loose hanging arms"
+    acting_tempo: "Slow deflation downward"
+  shocked:
+    facial: "Tiny pinpoint pupils, massive open gasp mouth, floating squiggly shock marks"
+    body: "Rig recoil backward, elbows locked, fingers splayed"
+    acting_tempo: "0-frame snap, instant camera punch zoom"
+  terrified:
+    facial: "White blank eyes, vertical dread lines from hairline to nose, shivering mouth"
+    body: "Stepped trembling loop on 2s"
+    acting_tempo: "Rapid cyclic shivering"
+  smug:
+    facial: "Half-lidded smug smirk, arched single eyebrow, optional glasses glare effect"
+    body: "Chin lifted high, chest out, thumb pointing back to chest"
+    acting_tempo: "Confident held pose"
+  deadpan:
+    facial: "Flat straight horizontal mouth, blank gaze directly at viewer, zero brow angle"
+    body: "Completely motionless statue hold"
+    acting_tempo: "Total 0-motion freeze for 1.5s - 2.5s"
+  relieved:
+    facial: "Soft closed curved eyes, gentle smile, giant floating anime sweatdrop popping"
+    body: "Exhale posture drop, shoulders dropping 15 pixels"
+    acting_tempo: "Smooth ease-out downward"
+  proud:
+    facial: "Sparkling wide eyes, broad confident smile, rosy blush"
+    body: "Hands on hips, head held high, puffing chest"
+    acting_tempo: "Bouncy snap into pose"
+
+emotional_escalation:
+  - progression: "CURIOUS -> SUSPICIOUS -> CONCERNED -> REALIZATION -> SHOCKED"
+    visual_signature: "Gaze narrows -> Head tilts -> Posture straightens -> Pupil shrinks -> Camera punch-zoom"
+  - progression: "CONFIDENT -> UNCERTAIN -> EMBARRASSED -> DEADPAN RECOVERY"
+    visual_signature: "Puffed chest -> Eyebrows wobble -> Deep pink blush slouch -> Flat stare at camera"
+  - progression: "EXCITED -> OVERCONFIDENT -> SUDDEN FAILURE -> SOUL FLIGHT"
+    visual_signature: "Rapid bouncing -> Dynamic victory pose -> 0-frame impact drop -> Ghost chibi floating away"
+
+mannerisms:
+  - "Eyes shift to target direction 2 frames before head turns"
+  - "Head tilts 8–12 degrees when processing unexpected information"
+  - "Looks down-right when recounting an awkward personal memory"
+  - "Quick 2-frame double blink when startled or skeptical"
+  - "Tiny half-smile forming before admitting a ridiculous fact"
+  - "Direct camera stare with motionless rig on deadpan punchlines"
+  - "Subtle hand flutter near chest when trying to find the right word"
+
+physical_comedy:
+  - "The Recoil: Rig snaps backward 30px with splayed fingers on shock"
+  - "The Slouch: Entire upper spine and shoulders drop 25px in defeated embarrassment"
+  - "The Wojak / Hyper-Realistic Cut: Sudden 1-frame insert of a cursed realistic face"
+  - "The Stepped Panic Cycle: 3-frame looping flail cycle held on 3s"
+  - "The Screen-Shake Tantrum: 4-frame decaying trauma shake on shouting beats"
+  - "The Violent Scribble-Out: Digital ink scribbles violently scratching across character"
+
+hobbies:
+  singing:
+    story_role: "Vocal overconfidence, acoustic disasters, accidental public performances"
+  anime_manga:
+    story_role: "Trope analysis, hyperfocus debates, comparing real life to Shonen training"
+  gym:
+    story_role: "Overly technical theory vs clumsy physical execution, crippling DOMS"
+  storytelling:
+    story_role: "The overarching channel mission; framing mundane life as epic narratives"
+  animation:
+    story_role: "The grueling craft of digital art, frame rates, tablet driver crashes"
+
+likes:
+  - "Deep, resonant anime soundtracks and vocal melodies"
+  - "Crisp inbetweening that actually loops smoothly"
+  - "Late-night creative hyperfocus when the rest of the world is asleep"
+  - "Clever visual gags that reward pausing the video"
+  - "A clean deadlift set with textbook form"
+  - "Finding someone in the comments who understands a niche reference"
+
+dislikes:
+  - "Corrupted project files and unsaved drawings"
+  - "Delayed-onset muscle soreness on stairs after leg day"
+  - "Having to make two trips to carry anything"
+  - "Fake, hyper-polished internet personalities who never admit flaws"
+  - "Drawing hands at awkward angles"
+
+values:
+  - "Radical Honesty: Embracing awkward truths over manufactured perfection"
+  - "Creative Persistence: Showing up to draw even when the sketch looks terrible"
+  - "Humility & Self-Irony: Never taking oneself so seriously that a blunder cannot be laughed at"
+  - "Authentic Connection: Treating the audience as trusted friends rather than metrics"
+
+audience_relationship:
+  framing: "Intimate one-on-one confidant"
+  interaction_frequency: "Selective and natural; 2 to 3 direct conversational beats per video"
+  sign_off_philosophy: "Understated and conversational; no desperate subscribe pleas"
+
+animation_behavior:
+  hold_ratio: "84% - 92% static holds on strong silhouettes"
+  cut_speed: "0-frame instantaneous pose changes on vocal syllables"
+  stepped_motion_fps: "8 - 12 fps for comedic frantic cycles"
+  secondary_motion: "Subtle ponytail settle, hoodie hem swing, procedural blinking"
+
+visual_behavior:
+  art_modes:
+    color: "Sage hoodie, dark skirt, emerald eyes, auburn hair, coral blush"
+    monochrome: "Deep burgundy line art #3E081E, paper cream background, pink hatch blush"
+  background_moods:
+    neutral: "#FAF7F5 (mono) / #EBF3F8 (color)"
+    panic_or_crisis: "#753239 (deep crimson)"
+    dread_or_late_night: "#716986 (slate purple)"
+  camera_moves:
+    snap_punch_zoom: "1.2x to 1.5x on punchlines and whispered confessions"
+    screen_shake: "3- to 6-frame decay impulse on impact beats"
+
+subtitle_behavior:
+  display_style: "Integrated graphic typography; feels like part of the illustration"
+  positioning: "Lower-third center, floating above bottom edge; never obscures character face"
+  casing: "Sentence case with intentional lower-case for casual/awkward beats"
+  emphasis_methods:
+    - "Selective font weight increase (Bold)"
+    - "Restrained accent color tint (Warm coral or burgundy)"
+    - "Underline or hand-drawn doodle accent"
+  timing_rules:
+    - "Sync precisely with vocal syllable onset"
+    - "Preserve conversational pauses: break punchline into separate caption"
+    - "Clear captions during silent deadpan holds"
+
+content_boundaries:
+  never_be_generic_influencer: true
+  never_be_motivational_speaker: true
+  never_be_mean_spirited: true
+  never_use_forced_slang: true
+  never_discuss_or_define_gender: true
+  never_rely_on_soundboard_spam: true
+
+introduction_requirements:
+  target_duration_seconds: [90, 120]
+  core_milestones:
+    - "Immediate attention-grabbing conversational hook (0-3s)"
+    - "Introduce name (Nemi) and age (24) without formal biography structure"
+    - "Establish the core mission: First serious attempt at 2D storytelling on YouTube"
+    - "Highlight animation struggle / learning curve"
+    - "Introduce key personality-driving hobbies (anime, gym, singing) through situations"
+    - "Demonstrate self-awareness, relatable overthinking, and humor"
+    - "Memorable, understated, non-begging closing sign-off"

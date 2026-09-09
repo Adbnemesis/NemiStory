@@ -1,0 +1,1 @@
+docs/Nemi_Character_Bible.md
