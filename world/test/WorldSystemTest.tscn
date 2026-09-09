@@ -1,0 +1,34 @@
+[gd_scene load_steps=8 format=3 uid="uid://d1e2f3a4b5c6d"]
+
+[ext_resource type="Script" path="res://world/test/WorldSystemTest.gd" id="1_test"]
+[ext_resource type="Script" path="res://world/WorldSystemDirector.gd" id="2_director"]
+[ext_resource type="Script" path="res://world/backgrounds/WorldEnvironment.gd" id="3_env"]
+[ext_resource type="Script" path="res://world/annotations/WorldAnnotation.gd" id="4_annot"]
+[ext_resource type="Script" path="res://world/doodles/WorldDoodles.gd" id="5_doodle"]
+[ext_resource type="Script" path="res://world/camera/StoryCamera2D.gd" id="6_cam"]
+[ext_resource type="PackedScene" path="res://characters/nemi/nemi.tscn" id="7_nemi"]
+[ext_resource type="PackedScene" path="res://world/test/WorldHUD.tscn" id="8_hud"]
+
+[node name="WorldSystemTest" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="Director" type="Node2D" parent="."]
+script = ExtResource("2_director")
+
+[node name="Environment" type="Node2D" parent="Director"]
+script = ExtResource("3_env")
+
+[node name="Annotations" type="Node2D" parent="Director"]
+script = ExtResource("4_annot")
+
+[node name="Doodles" type="Node2D" parent="Director"]
+script = ExtResource("5_doodle")
+
+[node name="Camera2D" type="Camera2D" parent="Director"]
+position = Vector2(640, 360)
+script = ExtResource("6_cam")
+
+[node name="Nemi" parent="." instance=ExtResource("7_nemi")]
+position = Vector2(640, 440)
+
+[node name="WorldHUD" parent="." instance=ExtResource("8_hud")]
