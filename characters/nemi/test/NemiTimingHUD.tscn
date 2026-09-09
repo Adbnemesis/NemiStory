@@ -1,0 +1,151 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7hudacttest"]
+
+[ext_resource type="Script" path="res://characters/nemi/test/NemiTimingHUD.gd" id="1_hud"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hud"]
+bg_color = Color(0.12, 0.08, 0.14, 0.88)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.38, 0.24, 0.44, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="TimingHUD" type="CanvasLayer"]
+script = ExtResource("1_hud")
+
+[node name="Panel" type="PanelContainer" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -310.0
+offset_top = 16.0
+offset_right = -16.0
+offset_bottom = 224.0
+grow_horizontal = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_hud")
+
+[node name="Margin" type="MarginContainer" parent="Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 10
+
+[node name="VBox" type="VBoxContainer" parent="Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Title" type="Label" parent="Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.98, 0.82, 0.42, 1)
+theme_override_font_sizes/font_size = 13
+text = "★ NEMI TIMING & ACTING MONITOR"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="ActionRow" type="HBoxContainer" parent="Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/Margin/VBox/ActionRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.7, 0.7, 0.75, 1)
+theme_override_font_sizes/font_size = 11
+text = "Action:"
+
+[node name="ActionVal" type="Label" parent="Panel/Margin/VBox/ActionRow"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 11
+text = "IDLE"
+
+[node name="StateRow" type="HBoxContainer" parent="Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/Margin/VBox/StateRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.7, 0.7, 0.75, 1)
+theme_override_font_sizes/font_size = 11
+text = "State:"
+
+[node name="StateVal" type="Label" parent="Panel/Margin/VBox/StateRow"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.4, 0.9, 0.4, 1)
+theme_override_font_sizes/font_size = 11
+text = "IDLE"
+
+[node name="ExprRow" type="HBoxContainer" parent="Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/Margin/VBox/ExprRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.7, 0.7, 0.75, 1)
+theme_override_font_sizes/font_size = 11
+text = "Expression:"
+
+[node name="ExprVal" type="Label" parent="Panel/Margin/VBox/ExprRow"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.85, 0.6, 1)
+theme_override_font_sizes/font_size = 11
+text = "NEUTRAL"
+
+[node name="TimeRow" type="HBoxContainer" parent="Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/Margin/VBox/TimeRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.7, 0.7, 0.75, 1)
+theme_override_font_sizes/font_size = 11
+text = "Duration / Hold:"
+
+[node name="TimeVal" type="Label" parent="Panel/Margin/VBox/TimeRow"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.5, 0.8, 1, 1)
+theme_override_font_sizes/font_size = 11
+text = "0.00s / 0.00s"
+
+[node name="ProgressBar" type="ProgressBar" parent="Panel/Margin/VBox"]
+custom_minimum_size = Vector2(0, 6)
+layout_mode = 2
+show_percentage = false
+
+[node name="IntensityRow" type="HBoxContainer" parent="Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/Margin/VBox/IntensityRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.7, 0.7, 0.75, 1)
+theme_override_font_sizes/font_size = 11
+text = "Intensity:"
+
+[node name="IntensityVal" type="Label" parent="Panel/Margin/VBox/IntensityRow"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.7, 0.9, 1)
+theme_override_font_sizes/font_size = 11
+text = "0.50"
+
+[node name="ModeRow" type="HBoxContainer" parent="Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/Margin/VBox/ModeRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.7, 0.7, 0.75, 1)
+theme_override_font_sizes/font_size = 11
+text = "Art Mode:"
+
+[node name="ModeVal" type="Label" parent="Panel/Margin/VBox/ModeRow"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6, 1, 0.8, 1)
+theme_override_font_sizes/font_size = 11
+text = "COLOR"

@@ -1,0 +1,183 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://characters/nemi/test/NemiActingTest.gd" id="1_test"]
+[ext_resource type="PackedScene" uid="uid://c6xk7b1v8qwn2" path="res://characters/nemi/nemi.tscn" id="2_nemi"]
+[ext_resource type="PackedScene" path="res://characters/nemi/test/NemiTimingHUD.tscn" id="3_hud"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
+bg_color = Color(0.12, 0.08, 0.14, 0.88)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.38, 0.24, 0.44, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="NemiActingTest" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 1280.0
+offset_bottom = 720.0
+color = Color(0.980392, 0.968627, 0.960784, 1)
+
+[node name="FloorLine" type="Line2D" parent="."]
+points = PackedVector2Array(60, 640, 1220, 640)
+width = 2.0
+default_color = Color(0.24, 0.03, 0.12, 0.35)
+
+[node name="Nemi" parent="." instance=ExtResource("2_nemi")]
+position = Vector2(640, 420)
+scale = Vector2(1.15, 1.15)
+
+[node name="TimingHUD" parent="." instance=ExtResource("3_hud")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TopBar" type="PanelContainer" parent="CanvasLayer"]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 950.0
+offset_bottom = 76.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="Margin" type="MarginContainer" parent="CanvasLayer/TopBar"]
+layout_mode = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 6
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 6
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/TopBar/Margin"]
+layout_mode = 2
+
+[node name="TestTitle" type="Label" parent="CanvasLayer/TopBar/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.98, 0.82, 0.42, 1)
+theme_override_font_sizes/font_size = 14
+text = "NEMI — ACTING & ANIMATION LANGUAGE V2 (TEMPORAL REWORK)"
+
+[node name="StatusLabel" type="Label" parent="CanvasLayer/TopBar/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.85, 0.85, 0.9, 1)
+theme_override_font_sizes/font_size = 11
+text = "Ready. Press Keys A-J (or 1-0) to run the 10 Authoritative Acting Tests."
+
+[node name="LeftPanel" type="PanelContainer" parent="CanvasLayer"]
+offset_left = 16.0
+offset_top = 84.0
+offset_right = 264.0
+offset_bottom = 704.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="Margin" type="MarginContainer" parent="CanvasLayer/LeftPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/LeftPanel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="SectionTitle" type="Label" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.98, 0.82, 0.42, 1)
+theme_override_font_sizes/font_size = 11
+text = "AUTHORITATIVE TESTS (A - J)"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+
+[node name="BtnTestA" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[A/1] Attention (Eye-Lead)"
+
+[node name="BtnTestB" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[B/2] Conversational"
+
+[node name="BtnTestC" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[C/3] Confusion (Thinking)"
+
+[node name="BtnTestD" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[D/4] Realization (Delay)"
+
+[node name="BtnTestE" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[E/5] Shock & Recoil"
+
+[node name="BtnTestF" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[F/6] Deadpan (Stillness)"
+
+[node name="BtnTestG" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[G/7] Exaggerated Action"
+
+[node name="BtnTestH" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[H/8] Novel Combination"
+
+[node name="BtnTestI" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[I/9] Multi-Stage Reaction"
+
+[node name="BtnTestJ" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[J/0] Three Intensities"
+
+[node name="HSeparator2" type="HSeparator" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+
+[node name="BtnFreeze" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[Space] Freeze Frame"
+
+[node name="BtnReset" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[R] Reset Baseline"
+
+[node name="BtnMode" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[M] Color / Monochrome"
+
+[node name="BtnHUD" type="Button" parent="CanvasLayer/LeftPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "[H] Toggle Timing HUD"
+
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnTestA" to="." method="run_test_a_attention"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnTestB" to="." method="run_test_b_conversational"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnTestC" to="." method="run_test_c_confusion"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnTestD" to="." method="run_test_d_realization"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnTestE" to="." method="run_test_e_shock"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnTestF" to="." method="run_test_f_deadpan"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnTestG" to="." method="run_test_g_exaggerated_action"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnTestH" to="." method="run_test_h_novel_combination"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnTestI" to="." method="run_test_i_multistage_reaction"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnTestJ" to="." method="run_test_j_three_intensities"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnFreeze" to="." method="_on_freeze_pressed"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnReset" to="." method="_on_reset_pressed"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnMode" to="." method="_on_mode_pressed"]
+[connection signal="pressed" from="CanvasLayer/LeftPanel/Margin/VBox/BtnHUD" to="." method="_on_hud_pressed"]

@@ -1,0 +1,271 @@
+[gd_scene load_steps=12 format=3 uid="uid://c6xk7b1v8qwn2"]
+
+[ext_resource type="Script" path="res://characters/nemi/nemi.gd" id="1_nemi"]
+[ext_resource type="Script" path="res://characters/nemi/parts/NemiTorsoPart.gd" id="2_torso"]
+[ext_resource type="Script" path="res://characters/nemi/parts/NemiNeckPart.gd" id="3_neck"]
+[ext_resource type="Script" path="res://characters/nemi/parts/NemiHeadPart.gd" id="4_head"]
+[ext_resource type="Script" path="res://characters/nemi/parts/NemiHairPart.gd" id="5_hair"]
+[ext_resource type="Script" path="res://characters/nemi/parts/NemiFace.gd" id="6_face"]
+[ext_resource type="Script" path="res://characters/nemi/parts/NemiLimbPart.gd" id="7_limb"]
+[ext_resource type="Script" path="res://characters/nemi/parts/NemiSkirtPart.gd" id="8_skirt"]
+[ext_resource type="Script" path="res://characters/nemi/parts/NemiLegPart.gd" id="9_leg"]
+[ext_resource type="Script" path="res://characters/nemi/parts/NemiBagPart.gd" id="10_bag"]
+[ext_resource type="Script" path="res://characters/nemi/drawing/NemiRigDebug.gd" id="11_debug"]
+
+[node name="Nemi" type="Node2D"]
+script = ExtResource("1_nemi")
+
+[node name="Skeleton2D" type="Skeleton2D" parent="."]
+
+[node name="RootBone" type="Bone2D" parent="Skeleton2D"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="TorsoBone" type="Bone2D" parent="Skeleton2D/RootBone"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="TorsoVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone"]
+z_index = 5
+script = ExtResource("2_torso")
+
+[node name="BagVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone"]
+z_index = 11
+script = ExtResource("10_bag")
+
+[node name="NeckBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone"]
+position = Vector2(0, -74)
+rest = Transform2D(1, 0, 0, 1, 0, -74)
+
+[node name="NeckVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone"]
+z_index = 4
+script = ExtResource("3_neck")
+
+[node name="HeadBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone"]
+position = Vector2(0, -18)
+rest = Transform2D(1, 0, 0, 1, 0, -18)
+
+[node name="HeadTipBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone"]
+position = Vector2(0, -96)
+rest = Transform2D(1, 0, 0, 1, 0, -96)
+auto_calculate_length_and_angle = false
+length = 16.0
+bone_angle = -1.5708
+
+[node name="HeadVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone"]
+z_index = 6
+script = ExtResource("4_head")
+
+[node name="BangsVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone"]
+z_index = 7
+script = ExtResource("5_hair")
+section = 1
+
+[node name="FaceVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone"]
+z_index = 8
+script = ExtResource("6_face")
+
+[node name="HairBackBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone"]
+position = Vector2(0, -60)
+rest = Transform2D(1, 0, 0, 1, 0, -60)
+
+[node name="HairBackVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone/HairBackBone"]
+position = Vector2(0, 60)
+z_index = 1
+script = ExtResource("5_hair")
+
+[node name="HairBackTipBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone/HairBackBone"]
+position = Vector2(0, 190)
+rest = Transform2D(1, 0, 0, 1, 0, 190)
+auto_calculate_length_and_angle = false
+length = 16.0
+bone_angle = 1.5708
+
+[node name="HairLeftBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone"]
+position = Vector2(-35, -50)
+rest = Transform2D(1, 0, 0, 1, -35, -50)
+
+[node name="HairLeftVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone/HairLeftBone"]
+position = Vector2(35, 50)
+z_index = 9
+script = ExtResource("5_hair")
+section = 2
+
+[node name="HairLeftTipBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone/HairLeftBone"]
+position = Vector2(0, 110)
+rest = Transform2D(1, 0, 0, 1, 0, 110)
+auto_calculate_length_and_angle = false
+length = 16.0
+bone_angle = 1.5708
+
+[node name="HairRightBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone"]
+position = Vector2(35, -50)
+rest = Transform2D(1, 0, 0, 1, 35, -50)
+
+[node name="HairRightVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone/HairRightBone"]
+position = Vector2(-35, 50)
+z_index = 9
+script = ExtResource("5_hair")
+section = 3
+
+[node name="HairRightTipBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/NeckBone/HeadBone/HairRightBone"]
+position = Vector2(0, 110)
+rest = Transform2D(1, 0, 0, 1, 0, 110)
+auto_calculate_length_and_angle = false
+length = 16.0
+bone_angle = 1.5708
+
+[node name="LeftUpperArmBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone"]
+position = Vector2(-44, -68)
+rest = Transform2D(1, 0, 0, 1, -44, -68)
+
+[node name="LeftUpperArmVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/LeftUpperArmBone"]
+z_index = 10
+script = ExtResource("7_limb")
+
+[node name="LeftLowerArmBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/LeftUpperArmBone"]
+position = Vector2(0, 62)
+rest = Transform2D(1, 0, 0, 1, 0, 62)
+
+[node name="LeftLowerArmVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/LeftUpperArmBone/LeftLowerArmBone"]
+z_index = 10
+script = ExtResource("7_limb")
+limb_type = 1
+
+[node name="LeftHandBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/LeftUpperArmBone/LeftLowerArmBone"]
+position = Vector2(0, 52)
+rest = Transform2D(1, 0, 0, 1, 0, 52)
+
+[node name="LeftHandVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/LeftUpperArmBone/LeftLowerArmBone/LeftHandBone"]
+z_index = 10
+script = ExtResource("7_limb")
+limb_type = 2
+
+[node name="LeftHandTipBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/LeftUpperArmBone/LeftLowerArmBone/LeftHandBone"]
+position = Vector2(0, 24)
+rest = Transform2D(1, 0, 0, 1, 0, 24)
+auto_calculate_length_and_angle = false
+length = 12.0
+bone_angle = 1.5708
+
+[node name="RightUpperArmBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone"]
+position = Vector2(44, -68)
+rest = Transform2D(1, 0, 0, 1, 44, -68)
+
+[node name="RightUpperArmVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/RightUpperArmBone"]
+z_index = 10
+script = ExtResource("7_limb")
+is_left = false
+
+[node name="RightLowerArmBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/RightUpperArmBone"]
+position = Vector2(0, 62)
+rest = Transform2D(1, 0, 0, 1, 0, 62)
+
+[node name="RightLowerArmVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/RightUpperArmBone/RightLowerArmBone"]
+z_index = 10
+script = ExtResource("7_limb")
+limb_type = 1
+is_left = false
+
+[node name="RightHandBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/RightUpperArmBone/RightLowerArmBone"]
+position = Vector2(0, 52)
+rest = Transform2D(1, 0, 0, 1, 0, 52)
+
+[node name="RightHandVisual" type="Node2D" parent="Skeleton2D/RootBone/TorsoBone/RightUpperArmBone/RightLowerArmBone/RightHandBone"]
+z_index = 10
+script = ExtResource("7_limb")
+limb_type = 2
+is_left = false
+
+[node name="RightHandTipBone" type="Bone2D" parent="Skeleton2D/RootBone/TorsoBone/RightUpperArmBone/RightLowerArmBone/RightHandBone"]
+position = Vector2(0, 24)
+rest = Transform2D(1, 0, 0, 1, 0, 24)
+auto_calculate_length_and_angle = false
+length = 12.0
+bone_angle = 1.5708
+
+[node name="SkirtBone" type="Bone2D" parent="Skeleton2D/RootBone"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="SkirtVisual" type="Node2D" parent="Skeleton2D/RootBone/SkirtBone"]
+z_index = 4
+script = ExtResource("8_skirt")
+
+[node name="SkirtTipBone" type="Bone2D" parent="Skeleton2D/RootBone/SkirtBone"]
+position = Vector2(0, 52)
+rest = Transform2D(1, 0, 0, 1, 0, 52)
+auto_calculate_length_and_angle = false
+length = 16.0
+bone_angle = 1.5708
+
+[node name="LeftThighBone" type="Bone2D" parent="Skeleton2D/RootBone"]
+position = Vector2(-16, 8)
+rest = Transform2D(1, 0, 0, 1, -16, 8)
+
+[node name="LeftThighVisual" type="Node2D" parent="Skeleton2D/RootBone/LeftThighBone"]
+z_index = 2
+script = ExtResource("9_leg")
+
+[node name="LeftShinBone" type="Bone2D" parent="Skeleton2D/RootBone/LeftThighBone"]
+position = Vector2(0, 82)
+rest = Transform2D(1, 0, 0, 1, 0, 82)
+
+[node name="LeftShinVisual" type="Node2D" parent="Skeleton2D/RootBone/LeftThighBone/LeftShinBone"]
+z_index = 2
+script = ExtResource("9_leg")
+leg_type = 1
+
+[node name="LeftFootBone" type="Bone2D" parent="Skeleton2D/RootBone/LeftThighBone/LeftShinBone"]
+position = Vector2(0, 86)
+rest = Transform2D(1, 0, 0, 1, 0, 86)
+
+[node name="LeftFootVisual" type="Node2D" parent="Skeleton2D/RootBone/LeftThighBone/LeftShinBone/LeftFootBone"]
+z_index = 2
+script = ExtResource("9_leg")
+leg_type = 2
+
+[node name="LeftFootTipBone" type="Bone2D" parent="Skeleton2D/RootBone/LeftThighBone/LeftShinBone/LeftFootBone"]
+position = Vector2(0, 16)
+rest = Transform2D(1, 0, 0, 1, 0, 16)
+auto_calculate_length_and_angle = false
+length = 12.0
+bone_angle = 1.5708
+
+[node name="RightThighBone" type="Bone2D" parent="Skeleton2D/RootBone"]
+position = Vector2(16, 8)
+rest = Transform2D(1, 0, 0, 1, 16, 8)
+
+[node name="RightThighVisual" type="Node2D" parent="Skeleton2D/RootBone/RightThighBone"]
+z_index = 2
+script = ExtResource("9_leg")
+is_left = false
+
+[node name="RightShinBone" type="Bone2D" parent="Skeleton2D/RootBone/RightThighBone"]
+position = Vector2(0, 82)
+rest = Transform2D(1, 0, 0, 1, 0, 82)
+
+[node name="RightShinVisual" type="Node2D" parent="Skeleton2D/RootBone/RightThighBone/RightShinBone"]
+z_index = 2
+script = ExtResource("9_leg")
+leg_type = 1
+is_left = false
+
+[node name="RightFootBone" type="Bone2D" parent="Skeleton2D/RootBone/RightThighBone/RightShinBone"]
+position = Vector2(0, 86)
+rest = Transform2D(1, 0, 0, 1, 0, 86)
+
+[node name="RightFootVisual" type="Node2D" parent="Skeleton2D/RootBone/RightThighBone/RightShinBone/RightFootBone"]
+z_index = 2
+script = ExtResource("9_leg")
+leg_type = 2
+is_left = false
+
+[node name="RightFootTipBone" type="Bone2D" parent="Skeleton2D/RootBone/RightThighBone/RightShinBone/RightFootBone"]
+position = Vector2(0, 16)
+rest = Transform2D(1, 0, 0, 1, 0, 16)
+auto_calculate_length_and_angle = false
+length = 12.0
+bone_angle = 1.5708
+
+[node name="RigDebug" type="Node2D" parent="." node_paths=PackedStringArray("skeleton")]
+script = ExtResource("11_debug")
+skeleton = NodePath("../Skeleton2D")
+

@@ -1,0 +1,17 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# OS and system files
+.DS_Store
+Thumbs.db
+
+# Node dependencies
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Movie Maker raw uncompressed video intermediate captures
+*.avi

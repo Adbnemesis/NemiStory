@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://engine/props/SpeechBubble.gd" id="1_bubble"]
+[ext_resource type="Texture2D" path="res://assets/props/speech_bubble.png" id="2_tex"]
+
+[node name="SpeechBubble" type="Node2D"]
+script = ExtResource("1_bubble")
+
+[node name="BubbleSprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_tex")
+
+[node name="TextLabel" type="Label" parent="."]
+offset_left = -160.0
+offset_top = -100.0
+offset_right = 160.0
+offset_bottom = 20.0
+theme_override_colors/font_color = Color(0.243137, 0.0313726, 0.117647, 1)
+theme_override_font_sizes/font_size = 28
+text = "Hello!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2

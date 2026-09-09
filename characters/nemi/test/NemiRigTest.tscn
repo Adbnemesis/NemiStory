@@ -1,0 +1,458 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3yq8n4px7m0a"]
+
+[ext_resource type="Script" path="res://characters/nemi/test/NemiRigTest.gd" id="1_test"]
+[ext_resource type="PackedScene" uid="uid://c6xk7b1v8qwn2" path="res://characters/nemi/nemi.tscn" id="2_nemi"]
+
+[node name="NemiRigTest" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="Background" type="ColorRect" parent="."]
+z_index = -100
+offset_right = 1280.0
+offset_bottom = 720.0
+color = Color(0.98, 0.969, 0.96, 1)
+
+[node name="FloorLine" type="Line2D" parent="."]
+z_index = -50
+points = PackedVector2Array(60, 640, 1220, 640)
+width = 2.0
+default_color = Color(0.24, 0.03, 0.12, 0.35)
+
+[node name="Nemi" parent="." instance=ExtResource("2_nemi")]
+position = Vector2(640, 420)
+scale = Vector2(1, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="UI" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="HeaderPanel" type="PanelContainer" parent="CanvasLayer/UI"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 18.0
+offset_right = 1255.0
+offset_bottom = 78.0
+
+[node name="Margin" type="MarginContainer" parent="CanvasLayer/UI/HeaderPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 8
+
+[node name="HBox" type="HBoxContainer" parent="CanvasLayer/UI/HeaderPanel/Margin"]
+layout_mode = 2
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/UI/HeaderPanel/Margin/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Title" type="Label" parent="CanvasLayer/UI/HeaderPanel/Margin/HBox/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22, 0.06, 0.12, 1)
+theme_override_font_sizes/font_size = 17
+text = "NEMI — LIVE RIG V1 INTERACTIVE TEST HARNESS"
+
+[node name="Subtitle" type="Label" parent="CanvasLayer/UI/HeaderPanel/Margin/HBox/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.45, 0.4, 0.42, 1)
+theme_override_font_sizes/font_size = 12
+text = "100% Godot-Native Vector Character • Zero Textures • Live Bone2D Rig • Procedural Face Engine • Dual Palette"
+
+[node name="ModeLabel" type="Label" parent="CanvasLayer/UI/HeaderPanel/Margin/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22, 0.06, 0.12, 1)
+theme_override_font_sizes/font_size = 15
+text = "MODE: COLOR"
+horizontal_alignment = 2
+
+[node name="LeftSidebar" type="ScrollContainer" parent="CanvasLayer/UI"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 90.0
+offset_right = 260.0
+offset_bottom = 635.0
+
+[node name="ControlsVBox" type="VBoxContainer" parent="CanvasLayer/UI/LeftSidebar"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 6
+
+[node name="PoseCatLabel" type="Label" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.1, 0.18, 1)
+theme_override_font_sizes/font_size = 13
+text = "── RIG POSES ──"
+
+[node name="GridPoses" type="GridContainer" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+columns = 2
+
+[node name="BtnIdle" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1. Idle"
+
+[node name="BtnCasual" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "2. Casual"
+
+[node name="BtnPoint" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "3. Point"
+
+[node name="BtnThink" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "4. Think"
+
+[node name="BtnExcited" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "5. Excited"
+
+[node name="BtnRecoil" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "6. Recoil"
+
+[node name="BtnWalk" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "7. Walk"
+
+[node name="BtnLean" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "8. Lean"
+
+[node name="ExprCatLabel" type="Label" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.1, 0.18, 1)
+theme_override_font_sizes/font_size = 13
+text = "── PROCEDURAL FACE ──"
+
+[node name="GridExpr" type="GridContainer" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+columns = 2
+
+[node name="BtnNeutral" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Neutral"
+
+[node name="BtnHappy" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Happy"
+
+[node name="BtnConfused" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Confused"
+
+[node name="BtnShocked" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Shocked"
+
+[node name="BtnEmbarrassed" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Shy"
+
+[node name="BtnSmug" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Smug"
+
+[node name="BtnLaugh" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Laughing"
+
+[node name="BtnAngry" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Pout/Mad"
+
+[node name="EyesCatLabel" type="Label" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.1, 0.18, 1)
+theme_override_font_sizes/font_size = 13
+text = "── EYES & GAZE ──"
+
+[node name="GridGaze" type="GridContainer" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+columns = 3
+
+[node name="BtnLookL" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Look L"
+
+[node name="BtnLookC" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Center"
+
+[node name="BtnLookR" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Look R"
+
+[node name="BtnLookU" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Look Up"
+
+[node name="BtnBlink" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Blink"
+
+[node name="BtnLookD" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Look Dn"
+
+[node name="HeadCatLabel" type="Label" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.1, 0.18, 1)
+theme_override_font_sizes/font_size = 13
+text = "── HEAD & NECK ──"
+
+[node name="GridHead" type="GridContainer" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+columns = 3
+
+[node name="BtnHeadL" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Turn L"
+
+[node name="BtnHeadC" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Center"
+
+[node name="BtnHeadR" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Turn R"
+
+[node name="BtnTiltL" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Tilt L"
+
+[node name="BtnNod" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Nod"
+
+[node name="BtnTiltR" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Tilt R"
+
+[node name="HairCatLabel" type="Label" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.1, 0.18, 1)
+theme_override_font_sizes/font_size = 13
+text = "── HAIR ARTICULATION ──"
+
+[node name="GridHair" type="GridContainer" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+columns = 3
+
+[node name="BtnHairL" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHair"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Sway L"
+
+[node name="BtnHairC" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHair"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Settle"
+
+[node name="BtnHairR" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHair"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Sway R"
+
+[node name="HandsCatLabel" type="Label" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.1, 0.18, 1)
+theme_override_font_sizes/font_size = 13
+text = "── HAND GESTURES ──"
+
+[node name="GridHands" type="GridContainer" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox"]
+layout_mode = 2
+columns = 4
+
+[node name="BtnHandRelax" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHands"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Relax"
+
+[node name="BtnHandPoint" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHands"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Point"
+
+[node name="BtnHandOpen" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHands"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Open"
+
+[node name="BtnHandFist" type="Button" parent="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHands"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Fist"
+
+[node name="RightPanel" type="PanelContainer" parent="CanvasLayer/UI"]
+layout_mode = 0
+offset_left = 1010.0
+offset_top = 90.0
+offset_right = 1255.0
+offset_bottom = 440.0
+
+[node name="Margin" type="MarginContainer" parent="CanvasLayer/UI/RightPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/UI/RightPanel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="SuiteLabel" type="Label" parent="CanvasLayer/UI/RightPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.1, 0.18, 1)
+theme_override_font_sizes/font_size = 13
+text = "── RIG VALIDATION SUITE ──"
+
+[node name="BtnNovelPose" type="Button" parent="CanvasLayer/UI/RightPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "★ Live New-Pose Test [P]"
+
+[node name="BtnNovelExpr" type="Button" parent="CanvasLayer/UI/RightPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "★ Live New-Expr Test [E]"
+
+[node name="BtnSweep" type="Button" parent="CanvasLayer/UI/RightPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "★ Articulation Sweep"
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/UI/RightPanel/Margin/VBox"]
+layout_mode = 2
+
+[node name="BtnToggleMode" type="Button" parent="CanvasLayer/UI/RightPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Toggle Art Mode [C/M]"
+
+[node name="BtnToggleDebug" type="Button" parent="CanvasLayer/UI/RightPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Toggle Rig Overlay [G/D]"
+
+[node name="HSeparator2" type="HSeparator" parent="CanvasLayer/UI/RightPanel/Margin/VBox"]
+layout_mode = 2
+
+[node name="BtnReset" type="Button" parent="CanvasLayer/UI/RightPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Reset Character [R]"
+
+[node name="FooterPanel" type="PanelContainer" parent="CanvasLayer/UI"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 645.0
+offset_right = 1255.0
+offset_bottom = 705.0
+
+[node name="Margin" type="MarginContainer" parent="CanvasLayer/UI/FooterPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_top = 6
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_bottom = 6
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/UI/FooterPanel/Margin"]
+layout_mode = 2
+
+[node name="StatusLabel" type="Label" parent="CanvasLayer/UI/FooterPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22, 0.06, 0.12, 1)
+theme_override_font_sizes/font_size = 14
+text = "Status: Initializing Rig V1..."
+
+[node name="DetailsLabel" type="Label" parent="CanvasLayer/UI/FooterPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.4, 0.35, 0.38, 1)
+theme_override_font_sizes/font_size = 12
+text = "Pose: idle | Expr: neutral | Gaze: (0.0, 0.0)"
+
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses/BtnIdle" to="." method="_on_pose_btn_pressed" binds= ["idle"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses/BtnCasual" to="." method="_on_pose_btn_pressed" binds= ["casual_standing"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses/BtnPoint" to="." method="_on_pose_btn_pressed" binds= ["pointing"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses/BtnThink" to="." method="_on_pose_btn_pressed" binds= ["thinking"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses/BtnExcited" to="." method="_on_pose_btn_pressed" binds= ["excited"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses/BtnRecoil" to="." method="_on_pose_btn_pressed" binds= ["recoiling"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses/BtnWalk" to="." method="_on_pose_btn_pressed" binds= ["walking"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridPoses/BtnLean" to="." method="_on_lean_btn_pressed" binds= [12.0]]
+
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr/BtnNeutral" to="." method="_on_expression_btn_pressed" binds= ["neutral"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr/BtnHappy" to="." method="_on_expression_btn_pressed" binds= ["happy"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr/BtnConfused" to="." method="_on_expression_btn_pressed" binds= ["confused"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr/BtnShocked" to="." method="_on_expression_btn_pressed" binds= ["shocked"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr/BtnEmbarrassed" to="." method="_on_expression_btn_pressed" binds= ["embarrassed"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr/BtnSmug" to="." method="_on_expression_btn_pressed" binds= ["smug"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr/BtnLaugh" to="." method="_on_expression_btn_pressed" binds= ["laughing"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridExpr/BtnAngry" to="." method="_on_expression_btn_pressed" binds= ["annoyed"]]
+
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze/BtnLookL" to="." method="_on_look_btn_pressed" binds= ["left"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze/BtnLookC" to="." method="_on_look_btn_pressed" binds= ["center"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze/BtnLookR" to="." method="_on_look_btn_pressed" binds= ["right"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze/BtnLookU" to="." method="_on_look_btn_pressed" binds= ["up"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze/BtnBlink" to="." method="_on_blink_btn_pressed"]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridGaze/BtnLookD" to="." method="_on_look_btn_pressed" binds= ["down"]]
+
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead/BtnHeadL" to="." method="_on_head_btn_pressed" binds= ["left"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead/BtnHeadC" to="." method="_on_head_btn_pressed" binds= ["center"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead/BtnHeadR" to="." method="_on_head_btn_pressed" binds= ["right"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead/BtnTiltL" to="." method="_on_head_btn_pressed" binds= ["tilt_left"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead/BtnNod" to="." method="_on_head_btn_pressed" binds= ["nod"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHead/BtnTiltR" to="." method="_on_head_btn_pressed" binds= ["tilt_right"]]
+
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHair/BtnHairL" to="." method="_on_hair_sway_btn_pressed" binds= ["left"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHair/BtnHairC" to="." method="_on_hair_sway_btn_pressed" binds= ["center"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHair/BtnHairR" to="." method="_on_hair_sway_btn_pressed" binds= ["right"]]
+
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHands/BtnHandRelax" to="." method="_on_hand_btn_pressed" binds= [true, "relaxed"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHands/BtnHandPoint" to="." method="_on_hand_btn_pressed" binds= [true, "pointing"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHands/BtnHandOpen" to="." method="_on_hand_btn_pressed" binds= [true, "open"]]
+[connection signal="pressed" from="CanvasLayer/UI/LeftSidebar/ControlsVBox/GridHands/BtnHandFist" to="." method="_on_hand_btn_pressed" binds= [true, "fist"]]
+
+[connection signal="pressed" from="CanvasLayer/UI/RightPanel/Margin/VBox/BtnNovelPose" to="." method="run_live_new_pose_test"]
+[connection signal="pressed" from="CanvasLayer/UI/RightPanel/Margin/VBox/BtnNovelExpr" to="." method="run_live_new_expression_test"]
+[connection signal="pressed" from="CanvasLayer/UI/RightPanel/Margin/VBox/BtnSweep" to="." method="run_articulation_sweep"]
+[connection signal="pressed" from="CanvasLayer/UI/RightPanel/Margin/VBox/BtnToggleMode" to="." method="_on_toggle_mode_btn_pressed"]
+[connection signal="pressed" from="CanvasLayer/UI/RightPanel/Margin/VBox/BtnToggleDebug" to="." method="_on_toggle_debug_btn_pressed"]
+[connection signal="pressed" from="CanvasLayer/UI/RightPanel/Margin/VBox/BtnReset" to="." method="_on_reset_btn_pressed"]

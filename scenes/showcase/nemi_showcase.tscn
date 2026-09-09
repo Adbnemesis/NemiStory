@@ -1,0 +1,74 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/backgrounds/bg_nemi_showcase.png" id="1_bg"]
+[ext_resource type="PackedScene" path="res://scenes/components/StoryCamera.tscn" id="2_cam"]
+[ext_resource type="PackedScene" path="res://characters/nemi/nemi.tscn" id="3_nemi"]
+[ext_resource type="Script" path="res://scenes/showcase/nemi_showcase.gd" id="4_dir"]
+
+[node name="NemiShowcase" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(640, 360)
+texture = ExtResource("1_bg")
+
+[node name="Camera2D" parent="." instance=ExtResource("2_cam")]
+position = Vector2(640, 360)
+
+[node name="Nemi" parent="." instance=ExtResource("3_nemi")]
+position = Vector2(640, 580)
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="TopContainer" type="VBoxContainer" parent="UI"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 60.0
+offset_top = 18.0
+offset_right = -60.0
+offset_bottom = 95.0
+grow_horizontal = 2
+
+[node name="CategoryLabel" type="Label" parent="UI/TopContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.243, 0.380, 0.224, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 16
+text = "NEMI - 2D ANIMATION SYSTEM"
+horizontal_alignment = 1
+
+[node name="ActionLabel" type="Label" parent="UI/TopContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.243, 0.031, 0.118, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 24
+text = "INITIALIZING..."
+horizontal_alignment = 1
+
+[node name="Subtitle" type="Label" parent="UI"]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 60.0
+offset_top = -60.0
+offset_right = -60.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.243, 0.031, 0.118, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 20
+text = "Authoritative Reference: nemi_sheet.png"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Director" type="Node" parent="." node_paths=PackedStringArray("nemi", "camera", "category_label", "action_label", "subtitle_label")]
+script = ExtResource("4_dir")
+nemi = NodePath("../Nemi")
+camera = NodePath("../Camera2D")
+category_label = NodePath("../UI/TopContainer/CategoryLabel")
+action_label = NodePath("../UI/TopContainer/ActionLabel")
+subtitle_label = NodePath("../UI/Subtitle")

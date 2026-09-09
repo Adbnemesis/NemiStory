@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://engine/characters/StoryCharacter.gd" id="1_char"]
+[ext_resource type="Texture2D" path="res://assets/characters/storyteller/body/pose_neutral.png" id="2_body"]
+[ext_resource type="Texture2D" path="res://assets/characters/storyteller/heads/head_base.png" id="3_head"]
+[ext_resource type="Texture2D" path="res://assets/characters/storyteller/eyes/eyes_neutral.png" id="4_eyes"]
+[ext_resource type="Texture2D" path="res://assets/characters/storyteller/mouths/mouth_open_o.png" id="5_mouth"]
+[ext_resource type="Texture2D" path="res://assets/characters/storyteller/details/detail_blush.png" id="6_blush"]
+
+[node name="StoryCharacter" type="Node2D"]
+script = ExtResource("1_char")
+
+[node name="BodyAnchor" type="Node2D" parent="."]
+position = Vector2(0, 110)
+
+[node name="BodySprite" type="Sprite2D" parent="BodyAnchor"]
+texture = ExtResource("2_body")
+
+[node name="HeadAnchor" type="Node2D" parent="."]
+position = Vector2(0, -110)
+
+[node name="HeadBase" type="Sprite2D" parent="HeadAnchor"]
+texture = ExtResource("3_head")
+
+[node name="Face" type="Node2D" parent="HeadAnchor"]
+
+[node name="EyesSprite" type="Sprite2D" parent="HeadAnchor/Face"]
+texture = ExtResource("4_eyes")
+
+[node name="MouthSprite" type="Sprite2D" parent="HeadAnchor/Face"]
+texture = ExtResource("5_mouth")
+
+[node name="BlushSprite" type="Sprite2D" parent="HeadAnchor/Face"]
+visible = false
+texture = ExtResource("6_blush")
+
+[node name="DetailSprite" type="Sprite2D" parent="HeadAnchor/Face"]
+visible = false
+
+[node name="PropAnchor" type="Marker2D" parent="."]
+position = Vector2(90, 40)
