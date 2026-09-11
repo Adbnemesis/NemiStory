@@ -2,10 +2,10 @@
 
 [![Engine: Godot 4.x](https://img.shields.io/badge/Engine-Godot%204.x-478cbf?logo=godotengine&logoColor=white)](https://godotengine.org)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org)
-[![Audio: Kokoro / MLX Qwen3--TTS](https://img.shields.io/badge/Voice-Offline%20TTS%20(Sohee)-green)](docs/nemi/Nemi_TTS_Setup.md)
+[![Voice: Qwen3--TTS (MLX)](https://img.shields.io/badge/Voice-Qwen3--TTS%20(Sohee)-green)](docs/nemi/Nemi_Voice_Profile.md)
 [![Aesthetic: Hand--Drawn 2D](https://img.shields.io/badge/Style-Pen%20%26%20Ink%20Illustration-orange)](docs/animation/NEMI_ANIMATION_PRODUCTION_BIBLE.md)
 
-**NemiStory** is an end-to-end 2D animated storytime production engine built on **Godot 4.x**, **Python**, and **local offline TTS**. It powers the illustrated YouTube storytelling channel starring **Nemi**—a 24-year-old creative, observant, and subtly chaotic storyteller learning 2D animation and sharing personal life experiences.
+**NemiStory** is an end-to-end 2D animated storytime production engine built on **Godot 4.x**, **Python**, and **local offline Qwen3-TTS**. It powers the illustrated YouTube storytelling channel starring **Nemi**—a 24-year-old creative, observant, and subtly chaotic storyteller learning 2D animation and sharing personal life experiences.
 
 ---
 
@@ -115,11 +115,11 @@ NemiStory/
 ├── docs/                           # Master Documentation Suite
 │   ├── animation/                  # Master Production Bible & docs index
 │   ├── audio/                      # SFX catalog, mix guides & license registry
-│   └── nemi/                       # Character Bible & TTS audition guides
+│   └── nemi/                       # Character Bible, Voice Profile & TTS guides
 │
 ├── tools/                          # CLI automation scripts
 │   ├── render_ep00_v3_3.py         # 4K 60FPS MovieWriter rendering pipeline
-│   ├── generate_nemi_voice.py      # Offline TTS voiceover generation
+│   ├── generate_nemi_voice.py      # Offline Qwen3-TTS voiceover generation
 │   ├── mix_ep00_sfx.py             # Audio mastering & SFX timeline mixer
 │   └── requirements.txt            # Python dependencies
 │
@@ -153,13 +153,13 @@ python3 tools/render_ep00_v3_3.py
 * **Resolution**: 3840×2160 (Native 4K) @ 60 FPS.
 * **Audit Frames**: Automatically extracts audit frames into `v3_3_audit/` for frame-by-frame visual QA.
 
-### C. Voiceover Synthesis (Offline Local TTS)
-Generates voiceover segments using Apple Silicon MLX with the canonical Sohee voice actor:
+### C. Voiceover Synthesis (Offline Local Qwen3-TTS)
+Generates voiceover segments using Apple Silicon MLX with the canonical **Sohee** voice actor:
 ```bash
 python3 tools/generate_nemi_voice.py
 ```
 * **Outputs**:
-  - `audio/nemi/intro/segments/*.wav` (individual spoken lines)
+  - `audio/nemi/intro/segments/*.wav` (individual spoken lines @ 24 kHz)
   - `audio/nemi/intro/master/nemi_intro_voice_master.wav` (master audio track)
   - `audio/nemi/intro/timing/nemi_intro_timing.json` (authoritative word alignment data)
 
@@ -172,7 +172,40 @@ python3 tools/mix_ep00_sfx.py
 
 ---
 
-## 5. Core Production Principles (The Non-Negotiables)
+## 5. Official Nemi Voice Profile (Qwen3-TTS CustomVoice: Sohee)
+
+> [!IMPORTANT]
+> **Kokoro was auditioned and rejected** in early prototyping due to mechanical cadence, unnatural sentence body flattening, and speaker drift.  
+> The **authoritative, permanent voice engine** for Nemi is **Qwen3-TTS 1.7B CustomVoice** running locally and offline via **Apple MLX** (`mlx-audio`), locked to the official predefined voice actor **Sohee** (`spk_id: 2864`).
+
+### Character Voice Specifications
+* **Engine**: Qwen3-TTS 1.7B CustomVoice (`mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16`)
+* **Voice Actor**: **Sohee** (Predefined Speaker Embedding: `2864`)
+* **Perceived Age**: **Around 24 years old** (young adult woman in her mid-20s). Must never sound like an anime child, high-pitched mascot, or corporate audiobook narrator.
+* **Pitch & Register**: **Natural medium chest-to-mid register**. Authentic feminine vocal range without artificial head-voice squeakiness.
+* **Tone & Persona**: **Warm, intelligent, approachable, authentic**. Sounds like a real friend sitting across a table sharing an embarrassing anecdote.
+* **Humor & Cadence**: **Deadpan honesty, conversational wit, and understatement**. Relies on natural pauses ($1.2\text{s}\text{--}1.8\text{s}$) rather than clownish pitch theatrics.
+* **Zero Identity Drift**: The neural speaker embedding (`2864`) is hardcoded into the talker weights, guaranteeing that Segment 001, Segment 026, and all future episodes maintain identical vocal tract acoustics.
+
+### Performance Directives & Emotional Modes
+| Emotional Mode | Speed | Pause | Vocal Characteristic | Example Script Line |
+|---|---|---|---|---|
+| **Baseline Conversational** | `1.00x` | `0.30s–0.40s` | Calm, relaxed, warm, friendly. | *"Hi. I’m Nemi. I’m 24."* |
+| **The Hook** | `1.05x` | `0.20s–0.25s` | Urgent, scroll-stopping, intimate. | *"Wait, wait, wait—listen to me."* |
+| **Excited / Hyperfocus** | `1.10x` | `0.20s–0.30s` | Brisk, forward-leaning, bright. | *"'How hard could that possibly be?'"* |
+| **Deadpan Realization** | `0.90x` | `1.20s–1.80s` | Flat, dry, restrained, lingering pause. | *"Half. A. Second."* / *"...In slow motion."* |
+| **Embarrassed Confession** | `0.95x` | `0.40s–0.60s` | Soft, hesitant, sheepish half-laugh. | *"...Except last Tuesday when the window was open..."* |
+| **Shock / Panic** | `1.15x` | `0.15s–0.25s` | Abrupt, sharp stop, rising tension. | *"Wait—did I leave the mic gain at 200%?!"* |
+| **Sincere / Outro** | `0.98x` | `0.35s–0.45s` | Soft, measured, direct eye contact. | *"If that sounds like something you’d enjoy... I’d love it if you stayed."* |
+
+For full acoustic benchmarks, scorecards, and setup commands, see:
+* **[`docs/nemi/Nemi_Voice_Profile.md`](docs/nemi/Nemi_Voice_Profile.md)**: Canonical vocal profile specification.
+* **[`docs/nemi/Nemi_TTS_Setup.md`](docs/nemi/Nemi_TTS_Setup.md)**: Local MLX setup and inference guide.
+* **[`docs/nemi/Nemi_Voice_Audition_Scorecard.md`](docs/nemi/Nemi_Voice_Audition_Scorecard.md)**: Comparative evaluation leading to Sohee's selection.
+
+---
+
+## 6. Core Production Principles (The Non-Negotiables)
 
 Before animating or modifying any episode, review the **[Nemi Animation Production Bible](docs/animation/NEMI_ANIMATION_PRODUCTION_BIBLE.md)**. The key immutable laws are:
 
@@ -186,12 +219,13 @@ Before animating or modifying any episode, review the **[Nemi Animation Producti
 
 ---
 
-## 6. Master Documentation Index
+## 7. Master Documentation Index
 
 | Document | Path | Description |
 |---|---|---|
 | **Animation Production Bible** | [`docs/animation/NEMI_ANIMATION_PRODUCTION_BIBLE.md`](docs/animation/NEMI_ANIMATION_PRODUCTION_BIBLE.md) | Universal master standard for directing, acting, timing, subtitles, SFX, and QA. |
 | **Character Bible** | [`docs/Nemi_Character_Bible.md`](docs/Nemi_Character_Bible.md) | Canonical character design, psychology, voice, comedic dynamics, and boundaries. |
+| **Official Voice Profile** | [`docs/nemi/Nemi_Voice_Profile.md`](docs/nemi/Nemi_Voice_Profile.md) | Qwen3-TTS Sohee vocal parameters, register, pitch, and performance directives. |
 | **Acting System Guide** | [`characters/nemi/documentation/NEMI_ACTING_SYSTEM_GUIDE.md`](characters/nemi/documentation/NEMI_ACTING_SYSTEM_GUIDE.md) | Procedural bone micro-acting, posture shifts, head tilts, and eye darts. |
 | **Expression FX Guide** | [`characters/nemi/documentation/NEMI_EXPRESSION_FX_GUIDE.md`](characters/nemi/documentation/NEMI_EXPRESSION_FX_GUIDE.md) | Reaction Toolkit, intensity scaling ($1\text{--}5$), and skeleton socket anchors. |
 | **Subtitle Visual Guide** | [`docs/Nemi_Subtitle_Visual_Guide.md`](docs/Nemi_Subtitle_Visual_Guide.md) | Typographic formatting and the $\le 5$-word card chunking standard. |
@@ -201,8 +235,9 @@ Before animating or modifying any episode, review the **[Nemi Animation Producti
 
 ---
 
-## 7. License & Asset Provenance
+## 8. License & Asset Provenance
 
 * **Code & Architecture**: MIT License.
 * **Character Design & World IP**: Copyright © 2026 NemiStory. All rights reserved.
+* **Voice Model**: Qwen3-TTS CustomVoice (Apache 2.0 / Open Weights).
 * **Audio & Sound Effects**: Verified CC0 1.0 Universal / Public Domain (see [`docs/audio/SFX_License_Registry.md`](docs/audio/SFX_License_Registry.md)).
