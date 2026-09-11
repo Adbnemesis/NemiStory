@@ -147,7 +147,7 @@ func spawn_sweat_drop(pos: Vector2, size: float = 24.0, pop: bool = true) -> Nod
 ## Spawn directional motion lines
 func spawn_motion_lines(pos: Vector2, length: float = 60.0, draw_in: bool = true) -> Node2D:
 	var doodle := DoodleInstanceScript.new()
-	doodle.doodle_type = DoodleInstanceScript.Type.MOTION_LINES
+	doodle.doodle_type = DoodleInstanceScript.Type.DIRECTION_LINES
 	doodle.global_position = pos
 	doodle.doodle_size = length
 	doodle.set_style(style)
@@ -224,6 +224,50 @@ func spawn_cross(pos: Vector2, size: float = 30.0) -> Node2D:
 	doodle.set_style(style)
 	_register_doodle(doodle)
 	doodle.draw_on(0.18)
+	return doodle
+
+## Spawn handwritten label
+func spawn_label(pos: Vector2, text: String, duration: float = 0.25) -> Node2D:
+	var doodle := DoodleInstanceScript.new()
+	doodle.doodle_type = DoodleInstanceScript.Type.HANDWRITTEN_LABEL
+	doodle.global_position = pos
+	doodle.custom_text = text
+	doodle.set_style(style)
+	_register_doodle(doodle)
+	doodle.draw_on(duration)
+	return doodle
+
+## Spawn hand-drawn bracket
+func spawn_bracket(pos: Vector2, height: float = 60.0, duration: float = 0.20) -> Node2D:
+	var doodle := DoodleInstanceScript.new()
+	doodle.doodle_type = DoodleInstanceScript.Type.BRACKET
+	doodle.global_position = pos
+	doodle.doodle_size = height * 0.5
+	doodle.set_style(style)
+	_register_doodle(doodle)
+	doodle.draw_on(duration)
+	return doodle
+
+## Spawn mini-illustration (clock, bridge, banana, note, dumbbell, etc.)
+func spawn_mini(pos: Vector2, illustration_name: String, size: float = 36.0, duration: float = 0.28) -> Node2D:
+	var doodle := DoodleInstanceScript.new()
+	match illustration_name.to_lower():
+		"clock": doodle.doodle_type = DoodleInstanceScript.Type.MINI_CLOCK
+		"bridge": doodle.doodle_type = DoodleInstanceScript.Type.MINI_BRIDGE
+		"banana", "banana_peel": doodle.doodle_type = DoodleInstanceScript.Type.MINI_BANANA
+		"note", "musical_note": doodle.doodle_type = DoodleInstanceScript.Type.MINI_NOTE
+		"dumbbell": doodle.doodle_type = DoodleInstanceScript.Type.MINI_DUMBBELL
+		"calendar": doodle.doodle_type = DoodleInstanceScript.Type.MINI_CALENDAR
+		"brain": doodle.doodle_type = DoodleInstanceScript.Type.MINI_BRAIN
+		"magnifier": doodle.doodle_type = DoodleInstanceScript.Type.MINI_MAGNIFIER
+		"car": doodle.doodle_type = DoodleInstanceScript.Type.MINI_CAR
+		"person": doodle.doodle_type = DoodleInstanceScript.Type.MINI_PERSON
+		_: doodle.doodle_type = DoodleInstanceScript.Type.MINI_NOTE
+	doodle.global_position = pos
+	doodle.doodle_size = size
+	doodle.set_style(style)
+	_register_doodle(doodle)
+	doodle.draw_on(duration)
 	return doodle
 
 # -------------------------------------------------------------------------

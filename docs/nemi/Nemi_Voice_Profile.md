@@ -1,20 +1,22 @@
-# NEMI — OFFICIAL VOICE PROFILE (V1)
-## Character Voice Specification, Candidate Evaluation, and Performance Directives
+# NEMI — OFFICIAL VOICE PROFILE (V3 — QWEN3-TTS CUSTOMVOICE: SOHEE)
+## Character Voice Specification, Performance Directives, and Vocal Architecture
 
 ---
 
-## 1. Selected Voice Specification
+## 1. Core Identity & Voice Actor Specification
 
-* **Primary Approved Voice**: **`af_heart`**
-* **Model Engine**: Kokoro-82M (`hexgrad/Kokoro-82M`)
-* **Voice Architecture**: American Female (`af_*`), 24 kHz uncompressed PCM
-* **Apparent Age**: 22–26 (Matches Nemi’s canon age of 24)
-* **Tone**: Warm, conversational, intelligent, subtly playful, and naturally expressive
+* **Engine**: Qwen3-TTS 1.7B CustomVoice (`mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16`)
+* **Voice Actor**: **Sohee** (Official Predefined Speaker Embedding: `2864`)
+* **Runtime**: Apple Silicon MLX (`mlx-audio`) on M4 Mac
+* **Sampling Rate**: 24,000 Hz uncompressed 16-bit PCM WAV
+* **Character Identity**: Nemi (Age: 24)
+* **Voice Directive Prompt**:
+  > *"Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful."*
 
 ```
                       ┌──────────────────────────────┐
                       │     NEMI'S VOCAL PROFILE     │
-                      │       Voice: af_heart        │
+                      │  Qwen3-TTS CustomVoice: SOHEE │
                       └──────────────┬───────────────┘
                                      │
          ┌───────────────────────────┼───────────────────────────┐
@@ -24,41 +26,45 @@
 │     WARMTH       │        │    HYPERFOCUS    │        │    UNDERSTATE    │
 ├──────────────────┤        ├──────────────────┤        ├──────────────────┤
 │ • Natural breath │        │ • Rapid cadence  │        │ • Flat inflection│
-│ • Intimate clip  │        │ • Pop-culture/   │        │ • Preserved gaps │
-│ • No broadcaster │        │   tech passion   │        │ • Zero melodram. │
-│   hype           │        │ • Clear diction  │        │ • Comic drop     │
+│ • Casual intimacy│        │ • Passionate lore│        │ • Preserved gaps │
+│ • No AI narrator │        │   tangents       │        │ • Zero melodram. │
+│   stiffness      │        │ • Clear diction  │        │ • Comic drop     │
 └──────────────────┘        └──────────────────┘        └──────────────────┘
 ```
 
 ---
 
-## 2. Why `af_heart` Fits Nemi
+## 2. Nemi Performance Profile Breakdown
 
-During our audition process across official female Kokoro voices (`af_heart`, `af_bella`, `af_sky`, `af_sarah`), `af_heart` proved to be the superior fit for Nemi's identity for the following reasons:
-
-1. **Avoids the "Anime Mascot" Trap**: Nemi has anime/manga visual influences, but her character bible explicitly forbids high-pitched, squeaky, or childish delivery. `af_heart` sits comfortably in an authentic young adult chest-to-mid register.
-2. **Conversational Intimacy**: Unlike `af_bella` (which sounds slightly formal and audiobook-like) or `af_sarah` (which has a slightly sharper, presenter-like edge), `af_heart` sounds like a real person sitting across a table talking directly to the viewer.
-3. **Deadpan Capability**: The voice transitions into understated flatness on punchlines without sounding robotic or hollow.
-4. **Natural Cadence**: Handles conversational fragments (*"Wait, wait, wait—"*, *"As it turns out: extraordinarily hard"*) with organic phrasing.
-
----
-
-## 3. Audition Comparative Analysis
-
-Audition files are rendered and stored in [`audio/nemi/auditions/`](file:///Users/talus/Documents/adb/audio/nemi/auditions/) using the standardized test script:
-
-| Voice | Audition File | Duration | Vocal Qualities | Assessment for Nemi |
-| :--- | :--- | :--- | :--- | :--- |
-| **`af_heart`** | `audition_af_heart.wav` | **31.00s** | Warm, natural pacing, youthful mid-20s, expressive micro-intonation. | **SELECTED PRIMARY**. Most natural balance of wit, warmth, and self-awareness. |
-| **`af_bella`** | `audition_af_bella.wav` | 33.05s | Deeper, slightly slower, more deliberate, formal. | Strong alternative for narrative documentary / historical essay videos. |
-| **`af_sky`** | `audition_af_sky.wav` | 31.70s | Lighter, slightly brighter register, breezy. | Good candidate for sunny slice-of-life or high-energy short clips. |
-| **`af_sarah`** | `audition_af_sarah.wav` | 33.75s | Clean, articulate, slightly crisp commercial feel. | Slightly too polished for Nemi's messy, self-deprecating creative persona. |
+| Vocal Parameter | Specification & Directive |
+| :--- | :--- |
+| **Perceived Age** | **Around 24 years old**. Distinctly an adult woman in her mid-20s. Must NOT sound like a child, teenager, or high-pitched anime mascot. Must NOT sound like a middle-aged documentary narrator. |
+| **Pitch** | **Medium chest-to-mid register**. Natural feminine vocal range without artificial head-voice inflection or squeakiness. |
+| **Tone** | **Warm, intelligent, approachable, authentic**. Sounds like a genuine friend sitting across a table sharing a personal anecdote. |
+| **Warmth** | **High natural warmth**. Soft vocal resonance, pleasant and welcoming, avoiding cold synthetic detachment. |
+| **Texture** | **Organic, unpolished human texture**. Believable vocal folds, natural acoustic resonance; zero fake vocal fry, zero robotic vocoder artifacts. |
+| **Energy** | **Relaxed yet engaged**. Grounded baseline energy that effortlessly escalates during excitement and drops into dry stillness for comedic beats. |
+| **Naturalness** | **Human-first delivery**. Avoids the standard "TTS sentence" cadence (rising pitch -> monotone body -> drop). Prosody follows the grammatical and emotional meaning of each thought. |
+| **Charisma** | **Subtle, effortless charisma**. Confident without being arrogant, self-deprecating without sounding weak, magnetic for long-form listening. |
+| **Comedy** | **Conversational wit**. Punchlines rely on timing, understatement, and contrast rather than clownish vocal theatrics. |
+| **Deadpan** | **Dry, restrained, and flat**. Minimal pitch deviation; accompanied by intentional 1.2s–1.8s silence (*"Half. A. Second."* / *"...In slow motion."*). |
+| **Excitement** | **Naturally bright and animated**. Pace quickens organically, pitch brightens subtly without screeching (*"Wait, this actually worked?!"*). |
+| **Embarrassment** | **Slightly awkward, sheepish half-laugh**. Intimate, slightly hushed confession (*"Okay... that sounded better in my head."*). |
+| **Shock** | **Abrupt, sharp stop**. High vocal tension without screaming (*"Wait—what?"*). |
+| **Storytelling** | **Long-form comfort**. Captivating narrative rhythm capable of sustaining 50+ channel episodes without vocal fatigue. |
 
 ---
 
-## 4. Emotional Performance Target Matrix
+## 3. What Nemi Is NOT (Anti-Patterns)
 
-Because Kokoro TTS produces natural variations through segmentation, speed, and punctuation rather than arbitrary emotion tags, Nemi's vocal performance is steered using the following segment parameters:
+* **NOT an Anime Heroine**: No squeaky pitch, no hyper-ventilating gasps, no exaggerated moe tropes.
+* **NOT an AI Audio Narrator**: No clinical corporate pacing, no audiobook monotony, no 1.0s uniform silence between commas.
+* **NOT a Commercial Announcer**: No loud influencer hype, no radio broadcaster projection, no aggressive marketing cadence.
+* **NOT Artificial Humanity**: No synthesized fake stutters, no loud artificial mouth noises, no inserted fake throat clearing.
+
+---
+
+## 4. Emotional Performance Matrix
 
 | Emotional Mode | Target Speed | Typical Pause | Vocal Characteristic | Script Example |
 | :--- | :--- | :--- | :--- | :--- |
@@ -72,10 +78,11 @@ Because Kokoro TTS produces natural variations through segmentation, speed, and 
 
 ---
 
-## 5. Voice Switching Protocol
+## 5. Voice Consistency & Speaker Embedding Architecture
 
-To switch Nemi's voice in future episodes without altering the pipeline architecture:
-1. Update `voice: str = "<new_voice>"` in `tools/tts/config.py`, or:
-2. Pass `--voice <new_voice>` to `tools/generate_nemi_voice.py`.
+Every line in an episode maintains 100% identical voice identity because it is synthesized using an official predefined voice actor (**Sohee**) whose speaker embedding is hardcoded into the neural talker weights (`spk_id: 2864`).
 
-No code modifications, file renames, or structural adjustments are required.
+Unlike prompt-based VoiceDesign which samples random latent speakers on every call, CustomVoice guarantees:
+1. **Zero Identity Drift**: Segment 001, segment 010, and segment 026 use the exact same vocal tract and timbre.
+2. **Contextual Emotion Control**: Beat acting cues (deadpan holds, comedic timing, panic stingers) modulate the delivery prosody and energy while leaving the character's vocal identity completely locked.
+3. **Reproducible Production**: Any future channel episode generated with `--speaker sohee` will seamlessly sound like Nemi.

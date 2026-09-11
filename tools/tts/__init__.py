@@ -1,16 +1,17 @@
 """
-Nemi Kokoro TTS Pipeline Package
-Provides modular Kokoro TTS synthesis, script segmentation, and audio concatenation.
+Nemi Qwen3-TTS VoiceDesign Pipeline Package
+Provides modular speech synthesis, script segmentation, and audio concatenation
+powered by local Qwen3-TTS 1.7B VoiceDesign on Apple Silicon.
 """
 
-from .config import NemiTTSConfig
-from .engine import KokoroTTSEngine
+from .config import NemiVoiceConfig
+from .engine import QwenVoiceDesignEngine
 from .segmenter import ScriptSegmenter, Segment
 from .concatenator import AudioConcatenator
 
 __all__ = [
-    "NemiTTSConfig",
-    "KokoroTTSEngine",
+    "NemiVoiceConfig",
+    "QwenVoiceDesignEngine",
     "ScriptSegmenter",
     "Segment",
     "AudioConcatenator",

@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://characters/nemi/test/TestLipSync.gd" id="1_test"]
+[ext_resource type="PackedScene" path="res://characters/nemi/nemi.tscn" id="2_nemi"]
+
+[node name="TestLipSync" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(640, 360)
+
+[node name="Nemi" parent="." instance=ExtResource("2_nemi")]
+position = Vector2(640, 470)
+scale = Vector2(1.3, 1.3)
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="TestLabel" type="Label" parent="UI"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 40.0
+offset_top = 40.0
+offset_right = -40.0
+offset_bottom = 100.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.12, 0.1, 0.1, 1)
+theme_override_font_sizes/font_size = 22
+text = "Initializing Lip Sync Diagnostic..."
+horizontal_alignment = 1
+vertical_alignment = 1

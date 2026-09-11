@@ -311,3 +311,110 @@ func reset(duration: float = 0.0) -> void:
 	await tw.finished
 	if left_hand_visual: left_hand_visual.set("hand_pose", NemiLimbPart.HandPose.RELAXED)
 	if right_hand_visual: right_hand_visual.set("hand_pose", NemiLimbPart.HandPose.RELAXED)
+
+## Conversational gesture: Hand points or gestures toward oneself
+func gesture_self(duration: float = 0.22) -> void:
+	if not right_upper_arm or not right_lower_arm:
+		return
+	if right_hand_visual: right_hand_visual.set("hand_pose", NemiLimbPart.HandPose.OPEN)
+	var tw: Tween = character.create_tween().set_parallel(true)
+	tw.tween_property(right_upper_arm, "rotation", deg_to_rad(-24.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	tw.tween_property(right_lower_arm, "rotation", deg_to_rad(-68.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if right_hand_bone:
+		tw.tween_property(right_hand_bone, "rotation", deg_to_rad(-15.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	await tw.finished
+
+## Conversational gesture: Open palm outward presentation
+func gesture_open_palm(side: String = "right", duration: float = 0.22) -> void:
+	var is_left: bool = (side.to_lower() == "left")
+	var u_arm: Bone2D = left_upper_arm if is_left else right_upper_arm
+	var l_arm: Bone2D = left_lower_arm if is_left else right_lower_arm
+	var h_vis: Node2D = left_hand_visual if is_left else right_hand_visual
+	if not u_arm or not l_arm:
+		return
+	if h_vis: h_vis.set("hand_pose", NemiLimbPart.HandPose.OPEN)
+	var tw: Tween = character.create_tween().set_parallel(true)
+	tw.tween_property(u_arm, "rotation", deg_to_rad(38.0 if is_left else -38.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	tw.tween_property(l_arm, "rotation", deg_to_rad(42.0 if is_left else -42.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	await tw.finished
+
+## Comedic thinking gesture: Hand to chin with slight head tilt
+func gesture_thinking(duration: float = 0.24) -> void:
+	if not right_upper_arm or not right_lower_arm:
+		return
+	if right_hand_visual: right_hand_visual.set("hand_pose", NemiLimbPart.HandPose.POINTING)
+	var tw: Tween = character.create_tween().set_parallel(true)
+	tw.tween_property(right_upper_arm, "rotation", deg_to_rad(-45.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	tw.tween_property(right_lower_arm, "rotation", deg_to_rad(-85.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if torso_bone:
+		tw.tween_property(torso_bone, "rotation", deg_to_rad(-2.5), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	await tw.finished
+
+## Overconfident chest puff posture (anime hero stance)
+func gesture_chest_puff(duration: float = 0.25) -> void:
+	if not torso_bone:
+		return
+	if left_hand_visual: left_hand_visual.set("hand_pose", NemiLimbPart.HandPose.FIST)
+	if right_hand_visual: right_hand_visual.set("hand_pose", NemiLimbPart.HandPose.FIST)
+	var tw: Tween = character.create_tween().set_parallel(true)
+	tw.tween_property(torso_bone, "rotation", deg_to_rad(-4.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if skirt_bone:
+		tw.tween_property(skirt_bone, "rotation", deg_to_rad(-2.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if left_upper_arm: tw.tween_property(left_upper_arm, "rotation", deg_to_rad(-12.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if right_upper_arm: tw.tween_property(right_upper_arm, "rotation", deg_to_rad(12.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if left_lower_arm: tw.tween_property(left_lower_arm, "rotation", deg_to_rad(30.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if right_lower_arm: tw.tween_property(right_lower_arm, "rotation", deg_to_rad(-30.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	await tw.finished
+
+## Sudden comedic posture collapse / failure drop
+func gesture_collapse(intensity: float = 1.0, duration: float = 0.25) -> void:
+	if not torso_bone:
+		return
+	if left_hand_visual: left_hand_visual.set("hand_pose", NemiLimbPart.HandPose.RELAXED)
+	if right_hand_visual: right_hand_visual.set("hand_pose", NemiLimbPart.HandPose.RELAXED)
+	var tw: Tween = character.create_tween().set_parallel(true)
+	tw.tween_property(torso_bone, "rotation", deg_to_rad(8.5 * intensity), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if skirt_bone:
+		tw.tween_property(skirt_bone, "rotation", deg_to_rad(4.0 * intensity), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if left_upper_arm: tw.tween_property(left_upper_arm, "rotation", deg_to_rad(18.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if right_upper_arm: tw.tween_property(right_upper_arm, "rotation", deg_to_rad(-18.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if left_lower_arm: tw.tween_property(left_lower_arm, "rotation", deg_to_rad(24.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if right_lower_arm: tw.tween_property(right_lower_arm, "rotation", deg_to_rad(-24.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	await tw.finished
+
+## Sincere / passionate hand on chest / heart gesture
+func gesture_hand_on_chest(duration: float = 0.22) -> void:
+	if not left_upper_arm or not left_lower_arm:
+		return
+	if left_hand_visual: left_hand_visual.set("hand_pose", NemiLimbPart.HandPose.RELAXED)
+	var tw: Tween = character.create_tween().set_parallel(true)
+	tw.tween_property(left_upper_arm, "rotation", deg_to_rad(25.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	tw.tween_property(left_lower_arm, "rotation", deg_to_rad(65.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	if left_hand_bone:
+		tw.tween_property(left_hand_bone, "rotation", deg_to_rad(15.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	await tw.finished
+
+## Comedic tremor vibration (e.g. leg day failure or panic)
+func tremble(intensity: float = 0.5, duration: float = 1.0) -> void:
+	if not character or not character.get_tree() or duration <= 0.0:
+		return
+	var frames: int = int(round(duration * 60.0))
+	var base_pos: Vector2 = character.position
+	var amp: float = 2.5 * intensity
+	for f in range(frames):
+		var jitter := Vector2(randf_range(-amp, amp), randf_range(-amp * 0.5, amp * 0.5))
+		character.position = base_pos + jitter
+		await RenderingServer.frame_post_draw
+	character.position = base_pos
+
+## Absolute zero-motion freeze hold
+func freeze_stillness(duration: float) -> void:
+	if not character or not character.get_tree():
+		return
+	character.set("_shake_trauma", 0.0)
+	character.set("_hair_sway_velocity", 0.0)
+	character.set("_hair_sway_offset", 0.0)
+	var frames: int = int(round(duration * 60.0))
+	for f in range(frames):
+		await RenderingServer.frame_post_draw
+

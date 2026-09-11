@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Nemi Voiceover Generation CLI
+Nemi Voiceover Generation CLI — Qwen3-TTS VoiceDesign Edition
 Generates individual dialogue WAV segments, master track, and precise timing manifests
-using local Kokoro TTS pipeline.
+using the local Qwen3-TTS 1.7B VoiceDesign pipeline on Apple Silicon (M-series Mac).
 """
 
 import os
@@ -16,27 +16,46 @@ WORKSPACE_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if WORKSPACE_ROOT not in sys.path:
     sys.path.insert(0, WORKSPACE_ROOT)
 
-from tools.tts.config import NemiTTSConfig
-from tools.tts.engine import KokoroTTSEngine
+from tools.tts.config import NemiVoiceConfig
+from tools.tts.engine import QwenVoiceDesignEngine
 from tools.tts.segmenter import ScriptSegmenter
 from tools.tts.concatenator import AudioConcatenator
+from tools.audition_voices import CANDIDATE_VOICE_DESIGNS
 
 def generate_voiceover(
     script_path: str,
     output_base_dir: str,
-    voice: str = "af_heart",
+    speaker: str = "sohee",
+    custom_prompt: str = None,
+    candidate_key: str = None,
     project_id: str = "ep00_introduction",
     title: str = "Wait, Listen to Me",
     animation_voiceover_dir: str = None
 ):
+    # Determine voice instruction prompt
+    if custom_prompt:
+        voice_prompt = custom_prompt
+    else:
+        voice_prompt = (
+            "Warm, natural young adult woman around 24, relaxed conversational speech, "
+            "friendly, casual, intelligent, slightly playful."
+        )
+
+    # Setup config
+    config = NemiVoiceConfig(
+        speaker=speaker,
+        voice_identifier=speaker,
+        voice_design_prompt=voice_prompt
+    )
+
     print("============================================================")
-    print(f"NEMI VOICEOVER GENERATION: [{project_id}]")
+    print(f"NEMI VOICEOVER GENERATION (QWEN3-TTS CUSTOMVOICE): [{project_id}]")
     print(f"Source Script: {script_path}")
-    print(f"Voice Candidate: {voice}")
+    print(f"Voice Actor: {config.speaker.upper()} (Fixed Embedding)")
     print(f"Output Directory: {output_base_dir}")
     print("============================================================")
     
-    # 1. Parse script segments
+    # 1. Parse script segments (Strictly preserving script text)
     if not os.path.exists(script_path):
         raise FileNotFoundError(f"Script file not found: {script_path}")
         
@@ -56,18 +75,24 @@ def generate_voiceover(
     # Copy source script reference
     shutil.copyfile(script_path, os.path.join(source_dir, os.path.basename(script_path)))
     
-    # 3. Initialize Kokoro Engine
-    config = NemiTTSConfig(voice=voice)
-    engine = KokoroTTSEngine(config)
+    # 3. Initialize Qwen Voice Engine
+    engine = QwenVoiceDesignEngine(config)
     
     # 4. Generate individual segment WAV files
-    print("\nSynthesizing individual dialogue segments...")
+    print(f"\nSynthesizing individual dialogue segments with actor: {config.speaker.upper()}...")
     for seg in segments:
         seg_out_path = os.path.join(segments_dir, seg.file_name)
+        
+        # Build contextual instruction modulating emotion within Sohee's identity
+        seg_instruct = voice_prompt
+        if seg.acting_note:
+            seg_instruct = f"{voice_prompt} Tone directive: {seg.acting_note}"
+            
         duration = engine.synthesize_to_file(
             text=seg.tts_text,
             output_path=seg_out_path,
-            voice=voice,
+            speaker=config.speaker,
+            instruct=seg_instruct,
             speed=seg.speed
         )
         seg.duration = duration
@@ -76,7 +101,7 @@ def generate_voiceover(
     print(f"\n✓ Generated {len(segments)} segment audio files.")
     
     # 5. Assemble Master Audio & Timing Manifests
-    master_file = f"nemi_intro_voice_master.wav"
+    master_file = "nemi_intro_voice_master.wav"
     master_out_path = os.path.join(master_dir, master_file)
     timing_json_path = os.path.join(timing_dir, "nemi_intro_timing.json")
     timing_md_path = os.path.join(timing_dir, "Nemi_Intro_Voice_Timing.md")
@@ -92,7 +117,7 @@ def generate_voiceover(
         metadata_json_path=metadata_json_path,
         project_name=project_id,
         title=title,
-        voice=voice
+        voice=config.speaker
     )
     
     # 6. Copy / Sync to Animation Production Folder if specified
@@ -116,13 +141,14 @@ def generate_voiceover(
 
     print("\n============================================================")
     print("VOICEOVER GENERATION COMPLETE")
+    print(f"Voice Actor: {config.speaker.upper()}")
     print(f"Master Track: {master_out_path}")
     print(f"Duration: {timing_data['master_duration']:.2f} seconds ({int(timing_data['master_duration']//60)}:{int(timing_data['master_duration']%60):02d})")
     print(f"Total Segments: {len(segments)}")
     print("============================================================")
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate Nemi Voiceover from Script")
+    parser = argparse.ArgumentParser(description="Generate Nemi Voiceover using Qwen3-TTS CustomVoice")
     parser.add_argument(
         "--script",
         default=os.path.join(WORKSPACE_ROOT, "animations", "ep00_introduction", "script", "script.md"),
@@ -139,16 +165,23 @@ def main():
         help="Animation directory to sync voiceover.wav and timing"
     )
     parser.add_argument(
-        "--voice",
-        default="af_heart",
-        help="Kokoro voice candidate name (default: af_heart)"
+        "--speaker",
+        default="sohee",
+        choices=["sohee", "serena", "vivian", "ono_anna", "uncle_fu", "ryan", "aiden", "eric", "dylan"],
+        help="Predefined Qwen voice actor name (default: sohee)"
+    )
+    parser.add_argument(
+        "--prompt",
+        default=None,
+        help="Custom emotion / style directive for voice actor"
     )
     args = parser.parse_args()
     
     generate_voiceover(
         script_path=args.script,
         output_base_dir=args.output,
-        voice=args.voice,
+        speaker=args.speaker,
+        custom_prompt=args.prompt,
         animation_voiceover_dir=args.anim_voiceover_dir
     )
 

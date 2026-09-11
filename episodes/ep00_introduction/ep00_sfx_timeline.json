@@ -1,0 +1,274 @@
+{
+  "version": "1.0.0",
+  "project": "ep00_introduction",
+  "title": "Wait, Listen to Me",
+  "master_duration": 125.10,
+  "voice_track": "animations/ep00_introduction/voiceover/voiceover.wav",
+  "total_cues": 32,
+  "cues": [
+    {
+      "time": 5.37,
+      "beat": 1,
+      "sfx_id": "whoosh_gesture_soft_02",
+      "volume_db": -8.0,
+      "reason": "camera_punch_zoom",
+      "description": "Soft air swoosh punctuating the snap camera punch-zoom"
+    },
+    {
+      "time": 5.40,
+      "beat": 1,
+      "sfx_id": "cartoon_pop_bubble_01",
+      "volume_db": -4.0,
+      "reason": "teacup_doodle_reveal",
+      "description": "Crisp pop as the hand-drawn teacup doodle appears on screen"
+    },
+    {
+      "time": 10.50,
+      "beat": 1,
+      "sfx_id": "cartoon_wobble_comic_01",
+      "volume_db": -6.0,
+      "reason": "drawing_wobble",
+      "description": "Comedic wobble resonance as the doodle shakes awkwardly"
+    },
+    {
+      "time": 12.30,
+      "beat": 1,
+      "sfx_id": "ui_blip_comic_01",
+      "volume_db": -6.0,
+      "reason": "angry_ginger_root_punchline",
+      "description": "Tiny comic realization blip on 'angry ginger root'"
+    },
+    {
+      "time": 14.70,
+      "beat": 2,
+      "sfx_id": "whoosh_gesture_soft_02",
+      "volume_db": -10.0,
+      "reason": "camera_reset_zoom",
+      "description": "Subtle air sweep as camera resets to wide shot for introduction"
+    },
+    {
+      "time": 27.80,
+      "beat": 2,
+      "sfx_id": "sting_question_chime_01",
+      "volume_db": -6.0,
+      "reason": "terrible_idea_stinger",
+      "description": "Curious upward question chime on 'my brain had a terrible idea'"
+    },
+    {
+      "time": 29.30,
+      "beat": 2,
+      "sfx_id": "sting_magic_sparkle_chime_01",
+      "volume_db": -8.0,
+      "reason": "smug_confidence_sparkle",
+      "description": "Sparkle highlight accent on 'How hard could that possibly be?'"
+    },
+    {
+      "time": 31.15,
+      "beat": 2,
+      "sfx_id": "comedic_record_scratch_01",
+      "volume_db": -4.0,
+      "reason": "famous_last_words_stop",
+      "description": "Classic abrupt record scratch stop cutting smugness before failure"
+    },
+    {
+      "time": 31.54,
+      "beat": 3,
+      "sfx_id": "impact_soft_thud_01",
+      "volume_db": -6.0,
+      "reason": "posture_drop_thud",
+      "description": "Soft cushion thud on 0-frame posture slump: 'extraordinarily hard'"
+    },
+    {
+      "time": 36.00,
+      "beat": 3,
+      "sfx_id": "drawing_pencil_sketch_01",
+      "volume_db": -8.0,
+      "reason": "inbetweening_sketch_burst",
+      "description": "Short 1.2s tactile pencil scratch burst for 'inbetweening an arm movement'"
+    },
+    {
+      "time": 46.80,
+      "beat": 3,
+      "sfx_id": "cartoon_slide_whistle_01",
+      "volume_db": -4.0,
+      "reason": "banana_peel_slip",
+      "description": "Classic playful slide whistle down on 'slipping on three invisible banana peels'"
+    },
+    {
+      "time": 51.50,
+      "beat": 4,
+      "sfx_id": "gym_metal_plate_clank_01",
+      "volume_db": -4.0,
+      "reason": "gym_mood_swap",
+      "description": "Heavy metal barbell plate clank as gym environment turns crimson"
+    },
+    {
+      "time": 53.50,
+      "beat": 4,
+      "sfx_id": "sting_achievement_bell_01",
+      "volume_db": -6.0,
+      "reason": "anime_hero_confidence",
+      "description": "Triumphant achievement bell for 'confidence of an anime hero'"
+    },
+    {
+      "time": 57.20,
+      "beat": 4,
+      "sfx_id": "cartoon_wobble_comic_01",
+      "volume_db": -6.0,
+      "reason": "trembling_legs_strain",
+      "description": "Comedic wobble vibration for 'walk out two sets later'"
+    },
+    {
+      "time": 59.20,
+      "beat": 4,
+      "sfx_id": "gym_dumbbell_pins_01",
+      "volume_db": -2.0,
+      "reason": "dumbbell_drop_metal",
+      "description": "Sharp metallic dumbbell pins crash on 'paralyzed by leg day'"
+    },
+    {
+      "time": 59.30,
+      "beat": 4,
+      "sfx_id": "impact_wood_heavy_01",
+      "volume_db": -4.0,
+      "reason": "dumbbell_drop_floor_thud",
+      "description": "Deep solid floor thud layered under the falling dumbbell"
+    },
+    {
+      "time": 60.50,
+      "beat": 4,
+      "sfx_id": "cartoon_pop_bubble_tiny_02",
+      "volume_db": -4.0,
+      "reason": "doms_activated_pop",
+      "description": "Tiny crisp pop accent on the 'DOMS ACTIVATED' visual doodle"
+    },
+    {
+      "time": 72.80,
+      "beat": 4,
+      "sfx_id": "ui_confirm_chime_02",
+      "volume_db": -6.0,
+      "reason": "high_g_operatic_ping",
+      "description": "Crystal ping chime punctuating Nemi hitting a high G with vibrato"
+    },
+    {
+      "time": 74.20,
+      "beat": 4,
+      "sfx_id": "whoosh_gesture_soft_02",
+      "volume_db": -6.0,
+      "reason": "head_turn_mail_carrier",
+      "description": "Sharp head turn air whip as Nemi spots the staring mail carrier"
+    },
+    {
+      "time": 74.30,
+      "beat": 4,
+      "sfx_id": "sting_bell_dramatic_01",
+      "volume_db": -4.0,
+      "reason": "mail_carrier_shock_sting",
+      "description": "Dramatic resonant shock sting on the freeze of pure mortification"
+    },
+    {
+      "time": 78.20,
+      "beat": 5,
+      "sfx_id": "computer_laptop_typing_fast_01",
+      "volume_db": -10.0,
+      "reason": "research_typing_burst",
+      "description": "Short 1.25s tactile laptop keyboard typing burst while visibly typing"
+    },
+    {
+      "time": 80.80,
+      "beat": 5,
+      "sfx_id": "paper_slide_desk_01",
+      "volume_db": -8.0,
+      "reason": "blueprint_slide_in",
+      "description": "Crisp paper slide across desk as Victorian bridge blueprint appears"
+    },
+    {
+      "time": 83.20,
+      "beat": 5,
+      "sfx_id": "drawing_scratch_scribble_01",
+      "volume_db": -6.0,
+      "reason": "bridge_schematic_scribble",
+      "description": "Tactile scribble scratching structural tension formulas onto drawing"
+    },
+    {
+      "time": 88.00,
+      "beat": 5,
+      "sfx_id": "drawing_pencil_write_short_01",
+      "volume_db": -6.0,
+      "reason": "final_bridge_stroke",
+      "description": "Sharp pencil stroke: 'just to draw one single background'"
+    },
+    {
+      "time": 90.50,
+      "beat": 5,
+      "sfx_id": "whoosh_camera_punch_03",
+      "volume_db": -4.0,
+      "reason": "zoom_into_eyes_half_second",
+      "description": "Air rush whoosh leading into the rigid eye snap for 'Half. A. Second.'"
+    },
+    {
+      "time": 93.30,
+      "beat": 5,
+      "sfx_id": "ui_tick_subtle_01",
+      "volume_db": -8.0,
+      "reason": "metronome_tick_half",
+      "description": "Precision clock tick accent landing on 'Half.'"
+    },
+    {
+      "time": 94.00,
+      "beat": 5,
+      "sfx_id": "ui_tick_subtle_02",
+      "volume_db": -8.0,
+      "reason": "metronome_tick_a",
+      "description": "Precision clock tock accent landing on 'A.'"
+    },
+    {
+      "time": 94.70,
+      "beat": 5,
+      "sfx_id": "ui_button_snap_01",
+      "volume_db": -4.0,
+      "reason": "metronome_snap_second",
+      "description": "Sharp mechanical snap accent landing on 'Second.' followed by 1.8s of pure silence"
+    },
+    {
+      "time": 97.50,
+      "beat": 5,
+      "sfx_id": "whoosh_gesture_soft_02",
+      "volume_db": -10.0,
+      "reason": "camera_reset_smug",
+      "description": "Soft air release as camera resets to smug posture"
+    },
+    {
+      "time": 99.80,
+      "beat": 5,
+      "sfx_id": "food_glasses_clinking_01",
+      "volume_db": -8.0,
+      "reason": "ice_cold_tea_clink",
+      "description": "Ceramic/glass clink on 'My tea was ice cold'"
+    },
+    {
+      "time": 102.50,
+      "beat": 5,
+      "sfx_id": "ui_confirm_chime_01",
+      "volume_db": -6.0,
+      "reason": "architecturally_sound_chime",
+      "description": "Proud clean confirmation chime on 'the bridge was architecturally sound'"
+    },
+    {
+      "time": 110.00,
+      "beat": 6,
+      "sfx_id": "sting_sparkle_whoosh_01",
+      "volume_db": -12.0,
+      "reason": "get_better_at_animation_shimmer",
+      "description": "Delicate, low-level sparkle shimmer under 'get better at animation'"
+    },
+    {
+      "time": 124.80,
+      "beat": 7,
+      "sfx_id": "cartoon_pop_bubble_01",
+      "volume_db": -6.0,
+      "reason": "final_outro_pop",
+      "description": "Soft crisp closing pop as the debut video draws to a close"
+    }
+  ]
+}

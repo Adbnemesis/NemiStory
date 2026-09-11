@@ -203,6 +203,72 @@ static func get_pose(pose_name: String) -> Dictionary:
 				"gaze": Vector2(-1.0, -0.1) # Looking left with her eyes!
 			}
 		
+		"hand_on_heart":
+			return {
+				"torso_rot": deg_to_rad(-2.0),
+				"neck_rot": deg_to_rad(2.0),
+				"head_rot": deg_to_rad(-4.0),
+				"left_upper_arm_rot": deg_to_rad(-35.0),
+				"left_lower_arm_rot": deg_to_rad(-65.0),
+				"left_hand_pose": NemiLimbPart.HandPose.RELAXED,
+				"right_upper_arm_rot": deg_to_rad(12.0),
+				"right_lower_arm_rot": deg_to_rad(15.0),
+				"right_hand_pose": NemiLimbPart.HandPose.RELAXED,
+				"skirt_rot": deg_to_rad(-1.0),
+				"left_thigh_rot": deg_to_rad(0.0),
+				"left_shin_rot": deg_to_rad(0.0),
+				"left_foot_rot": deg_to_rad(0.0),
+				"right_thigh_rot": deg_to_rad(0.0),
+				"right_shin_rot": deg_to_rad(0.0),
+				"right_foot_rot": deg_to_rad(0.0),
+				"expression": "warm_smile",
+				"gaze": Vector2.ZERO
+			}
+		
+		"gesturing":
+			return {
+				"torso_rot": deg_to_rad(0.0),
+				"neck_rot": deg_to_rad(0.0),
+				"head_rot": deg_to_rad(2.0),
+				"left_upper_arm_rot": deg_to_rad(-25.0),
+				"left_lower_arm_rot": deg_to_rad(-20.0),
+				"left_hand_pose": NemiLimbPart.HandPose.RELAXED,
+				"right_upper_arm_rot": deg_to_rad(25.0),
+				"right_lower_arm_rot": deg_to_rad(20.0),
+				"right_hand_pose": NemiLimbPart.HandPose.RELAXED,
+				"skirt_rot": deg_to_rad(0.0),
+				"left_thigh_rot": deg_to_rad(0.0),
+				"left_shin_rot": deg_to_rad(0.0),
+				"left_foot_rot": deg_to_rad(0.0),
+				"right_thigh_rot": deg_to_rad(0.0),
+				"right_shin_rot": deg_to_rad(0.0),
+				"right_foot_rot": deg_to_rad(0.0),
+				"expression": "smile",
+				"gaze": Vector2.ZERO
+			}
+		
+		"casual_wave", "wave":
+			return {
+				"torso_rot": deg_to_rad(-2.0),
+				"neck_rot": deg_to_rad(1.0),
+				"head_rot": deg_to_rad(-4.0),
+				"left_upper_arm_rot": deg_to_rad(10.0),
+				"left_lower_arm_rot": deg_to_rad(15.0),
+				"left_hand_pose": NemiLimbPart.HandPose.RELAXED,
+				"right_upper_arm_rot": deg_to_rad(-85.0),
+				"right_lower_arm_rot": deg_to_rad(-25.0),
+				"right_hand_pose": NemiLimbPart.HandPose.OPEN,
+				"skirt_rot": deg_to_rad(-1.0),
+				"left_thigh_rot": deg_to_rad(0.0),
+				"left_shin_rot": deg_to_rad(0.0),
+				"left_foot_rot": deg_to_rad(0.0),
+				"right_thigh_rot": deg_to_rad(0.0),
+				"right_shin_rot": deg_to_rad(0.0),
+				"right_foot_rot": deg_to_rad(0.0),
+				"expression": "cheerful_smile",
+				"gaze": Vector2.ZERO
+			}
+		
 		_: # "idle" / default
 			return {
 				"torso_rot": deg_to_rad(0.0),

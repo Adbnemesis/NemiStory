@@ -105,6 +105,75 @@ var show_sparkles: bool = false:
 		show_sparkles = val
 		queue_redraw()
 
+# Temporary Cartoon Exaggeration Parameters (Non-destructive)
+var exaggeration_eye_scale: float = 1.0:
+	set(val):
+		exaggeration_eye_scale = clampf(val, 0.4, 2.2)
+		queue_redraw()
+
+var exaggeration_brow_compression: float = 0.0:
+	set(val):
+		exaggeration_brow_compression = val
+		queue_redraw()
+
+var exaggeration_mouth_scale: float = 1.0:
+	set(val):
+		exaggeration_mouth_scale = clampf(val, 0.3, 2.5)
+		queue_redraw()
+
+var _exaggeration_tween: Tween
+
+## Triggers temporary cartoon facial exaggeration that smoothly springs back to neutral
+func face_exaggerate(emotion: String, p_intensity: int = 3, duration: float = 0.6) -> void:
+	if _exaggeration_tween and _exaggeration_tween.is_valid():
+		_exaggeration_tween.kill()
+	
+	var target_eye_scale: float = 1.0
+	var target_brow_comp: float = 0.0
+	var target_mouth_scale: float = 1.0
+	var target_eye_open: float = eye_openness
+	var orig_openness: float = eye_openness
+	
+	var s: float = float(p_intensity) / 3.0
+	match emotion.to_lower():
+		"shock", "shocked":
+			target_eye_scale = 1.0 + 0.35 * s
+			target_mouth_scale = 1.0 + 0.45 * s
+			target_eye_open = minf(1.45, 1.0 + 0.3 * s)
+		"confusion", "confused":
+			target_eye_scale = 1.0 - 0.15 * s
+			target_brow_comp = 3.5 * s
+		"anger", "angry":
+			target_eye_scale = 1.0 - 0.2 * s
+			target_brow_comp = 6.0 * s
+			target_mouth_scale = 1.0 + 0.25 * s
+		"embarrassment", "embarrassed":
+			target_eye_scale = 1.0 - 0.12 * s
+			target_mouth_scale = 1.0 - 0.25 * s
+		"excitement", "excited":
+			target_eye_scale = 1.0 + 0.22 * s
+			target_mouth_scale = 1.0 + 0.35 * s
+		"panic":
+			target_eye_scale = 1.0 + 0.4 * s
+			target_mouth_scale = 1.0 + 0.5 * s
+		_:
+			target_eye_scale = 1.0
+			target_mouth_scale = 1.0
+	
+	_exaggeration_tween = create_tween()
+	_exaggeration_tween.tween_property(self, "exaggeration_eye_scale", target_eye_scale, duration * 0.25).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	_exaggeration_tween.parallel().tween_property(self, "exaggeration_brow_compression", target_brow_comp, duration * 0.25)
+	_exaggeration_tween.parallel().tween_property(self, "exaggeration_mouth_scale", target_mouth_scale, duration * 0.25)
+	if target_eye_open != orig_openness:
+		_exaggeration_tween.parallel().tween_property(self, "eye_openness", target_eye_open, duration * 0.2)
+	
+	_exaggeration_tween.tween_interval(duration * 0.35)
+	
+	_exaggeration_tween.chain().tween_property(self, "exaggeration_eye_scale", 1.0, duration * 0.4).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	_exaggeration_tween.parallel().tween_property(self, "exaggeration_brow_compression", 0.0, duration * 0.4)
+	_exaggeration_tween.parallel().tween_property(self, "exaggeration_mouth_scale", 1.0, duration * 0.4)
+	_exaggeration_tween.parallel().tween_property(self, "eye_openness", orig_openness, duration * 0.4)
+
 # Blink tween
 var _blink_tween: Tween
 
@@ -228,7 +297,6 @@ func set_expression(expr: FaceExpr) -> void:
 			left_brow_tilt = 0.25
 			right_brow_tilt = 0.1
 			mouth_shape = "wavy"
-			show_question_mark = true
 		
 		FaceExpr.ANGRY:
 			eye_openness = 0.85
@@ -256,7 +324,6 @@ func set_expression(expr: FaceExpr) -> void:
 			left_brow_tilt = 0.2
 			right_brow_tilt = -0.2
 			mouth_shape = "wavy"
-			show_sweat_drop = true
 		
 		FaceExpr.SHOCKED:
 			eye_openness = 1.35 # Wide pupil constriction
@@ -266,8 +333,6 @@ func set_expression(expr: FaceExpr) -> void:
 			left_brow_tilt = 0.2
 			right_brow_tilt = -0.2
 			mouth_shape = "open_shocked"
-			show_action_lines = true
-			show_sweat_drop = true
 		
 		FaceExpr.SMUG:
 			eye_openness = 0.55 # Half-lidded cocky gaze
@@ -286,7 +351,6 @@ func set_expression(expr: FaceExpr) -> void:
 			left_brow_tilt = -0.25
 			right_brow_tilt = 0.1
 			mouth_shape = "pout"
-			show_sweat_drop = true
 		
 		FaceExpr.LAUGHING:
 			eye_openness = 0.0
@@ -296,7 +360,6 @@ func set_expression(expr: FaceExpr) -> void:
 			left_brow_tilt = 0.15
 			right_brow_tilt = -0.15
 			mouth_shape = "open_excited"
-			show_sparkles = true
 
 		FaceExpr.DEADPAN:
 			eye_openness = 0.65 # Half-lidded dry unblinking gaze
@@ -315,8 +378,6 @@ func set_expression(expr: FaceExpr) -> void:
 			left_brow_tilt = 0.35
 			right_brow_tilt = -0.35
 			mouth_shape = "wavy"
-			show_action_lines = true
-			show_sweat_drop = true
 	
 	queue_redraw()
 	expression_changed.emit(get_expression_name())
@@ -338,10 +399,20 @@ func _draw() -> void:
 		return
 	
 	# 1. Left Eye (x = -25, y = -48)
-	_draw_eye(Vector2(-NemiProportions.EYE_OFFSET_X, NemiProportions.EYE_POS_Y), true)
+	var left_eye_pos := Vector2(-NemiProportions.EYE_OFFSET_X, NemiProportions.EYE_POS_Y)
+	if exaggeration_eye_scale != 1.0:
+		draw_set_transform(Vector2(left_eye_pos.x * (1.0 - exaggeration_eye_scale), left_eye_pos.y * (1.0 - exaggeration_eye_scale)), 0.0, Vector2(exaggeration_eye_scale, exaggeration_eye_scale))
+	_draw_eye(left_eye_pos, true)
+	if exaggeration_eye_scale != 1.0:
+		draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)
 	
 	# 2. Right Eye (x = +25, y = -48)
-	_draw_eye(Vector2(NemiProportions.EYE_OFFSET_X, NemiProportions.EYE_POS_Y), false)
+	var right_eye_pos := Vector2(NemiProportions.EYE_OFFSET_X, NemiProportions.EYE_POS_Y)
+	if exaggeration_eye_scale != 1.0:
+		draw_set_transform(Vector2(right_eye_pos.x * (1.0 - exaggeration_eye_scale), right_eye_pos.y * (1.0 - exaggeration_eye_scale)), 0.0, Vector2(exaggeration_eye_scale, exaggeration_eye_scale))
+	_draw_eye(right_eye_pos, false)
+	if exaggeration_eye_scale != 1.0:
+		draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)
 	
 	# 3. Eyebrows (rendered with sweeping tapered ink brush strokes)
 	_draw_eyebrows()
@@ -350,7 +421,12 @@ func _draw() -> void:
 	_draw_nose()
 	
 	# 5. Mouth (hand-drawn illustrated shapes)
+	var my := NemiProportions.MOUTH_POS_Y
+	if exaggeration_mouth_scale != 1.0:
+		draw_set_transform(Vector2(0.0, my * (1.0 - exaggeration_mouth_scale)), 0.0, Vector2(exaggeration_mouth_scale, exaggeration_mouth_scale))
 	_draw_mouth()
+	if exaggeration_mouth_scale != 1.0:
+		draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)
 	
 	# 6. Cheek Blush (soft warm pink glow + /// hatching)
 	if show_blush:
@@ -480,8 +556,8 @@ func _draw_eye(center: Vector2, is_left: bool) -> void:
 # -------------------------------------------------------------------------
 
 func _draw_eyebrows() -> void:
-	var left_pos := Vector2(-NemiProportions.EYE_OFFSET_X, NemiProportions.EYEBROW_POS_Y) + left_brow_offset
-	var right_pos := Vector2(NemiProportions.EYE_OFFSET_X, NemiProportions.EYEBROW_POS_Y) + right_brow_offset
+	var left_pos := Vector2(-NemiProportions.EYE_OFFSET_X, NemiProportions.EYEBROW_POS_Y) + left_brow_offset + Vector2(exaggeration_brow_compression, exaggeration_brow_compression * 0.8)
+	var right_pos := Vector2(NemiProportions.EYE_OFFSET_X, NemiProportions.EYEBROW_POS_Y) + right_brow_offset + Vector2(-exaggeration_brow_compression, exaggeration_brow_compression * 0.8)
 	var brow_color := Color("#8a281e") if style.current_mode == NemiStyle.ArtMode.COLOR else style.ink_line_color
 	
 	# Left Eyebrow (graceful 3-point arch)
@@ -521,7 +597,7 @@ func _draw_mouth() -> void:
 	var my := NemiProportions.MOUTH_POS_Y
 	var line_color := style.ink_line_color
 	match mouth_shape:
-		"smile_wide":
+		"smile_wide", "wide":
 			var c := Curve2D.new()
 			c.add_point(Vector2(-10, my - 2), Vector2(0, 0), Vector2(4, 4))
 			c.add_point(Vector2(0, my + 3.5), Vector2(-4, 0), Vector2(4, 0))
@@ -530,7 +606,7 @@ func _draw_mouth() -> void:
 			stroke.draw_to(self)
 			draw_circle(Vector2(0, my + 6.5), 1.0, Color(style.skin_shadow_color.r, style.skin_shadow_color.g, style.skin_shadow_color.b, 0.6))
 		
-		"open_excited":
+		"open_excited", "ae":
 			# Arched open mouth cavity with upper white teeth bar and pink tongue
 			var cavity_c := Curve2D.new()
 			cavity_c.add_point(Vector2(-10, my - 2), Vector2(0, 0), Vector2(10, 0))
@@ -560,7 +636,53 @@ func _draw_mouth() -> void:
 			var outline := InkStroke.from_points(cavity_pts + PackedVector2Array([cavity_pts[0]]), 2.2, InkStroke.Profile.UNIFORM, line_color)
 			outline.draw_to(self)
 		
-		"open_shocked":
+		"small_open":
+			# Subtle conversational speech opening
+			var sm_c := Curve2D.new()
+			sm_c.add_point(Vector2(-5.5, my), Vector2(0, -1), Vector2(2.5, -2))
+			sm_c.add_point(Vector2(0, my - 2), Vector2(-2.5, 0), Vector2(2.5, 0))
+			sm_c.add_point(Vector2(5.5, my), Vector2(-2.5, -2), Vector2(0, 1))
+			sm_c.add_point(Vector2(0, my + 3.5), Vector2(2.5, 0), Vector2(-2.5, 0))
+			var sm_pts := sm_c.tessellate(3, 2.0)
+			draw_colored_polygon(sm_pts, style.mouth_interior_color)
+			var stroke := InkStroke.from_points(sm_pts + PackedVector2Array([sm_pts[0]]), 1.8, InkStroke.Profile.UNIFORM, line_color)
+			stroke.draw_to(self)
+		
+		"o_u":
+			# Rounded circular/oval speech shape
+			var o_c := Curve2D.new()
+			o_c.add_point(Vector2(-4.5, my), Vector2(0, -3), Vector2(0, 3))
+			o_c.add_point(Vector2(0, my + 4.5), Vector2(-2.5, 0), Vector2(2.5, 0))
+			o_c.add_point(Vector2(4.5, my), Vector2(0, 3), Vector2(0, -3))
+			o_c.add_point(Vector2(0, my - 4.5), Vector2(2.5, 0), Vector2(-2.5, 0))
+			var o_pts := o_c.tessellate(4, 2.0)
+			draw_colored_polygon(o_pts, style.mouth_interior_color)
+			var stroke := InkStroke.from_points(o_pts + PackedVector2Array([o_pts[0]]), 1.8, InkStroke.Profile.UNIFORM, line_color)
+			stroke.draw_to(self)
+		
+		"laugh":
+			# Wide arched laughing mouth
+			var c := Curve2D.new()
+			c.add_point(Vector2(-11, my - 2), Vector2(0, 0), Vector2(11, 0))
+			c.add_point(Vector2(11, my - 2), Vector2(-2, 0), Vector2(0, 7))
+			c.add_point(Vector2(0, my + 14), Vector2(6, 0), Vector2(-6, 0))
+			c.add_point(Vector2(-11, my - 2), Vector2(0, 7), Vector2(0, 0))
+			var pts := c.tessellate(4, 2.0)
+			draw_colored_polygon(pts, style.mouth_interior_color)
+			var tongue_c := Curve2D.new()
+			tongue_c.add_point(Vector2(-6, my + 12))
+			tongue_c.add_point(Vector2(0, my + 7))
+			tongue_c.add_point(Vector2(6, my + 12))
+			draw_colored_polygon(tongue_c.tessellate(3, 2.5), style.mouth_tongue_color)
+			var teeth := PackedVector2Array([
+				Vector2(-9, my - 2), Vector2(9, my - 2),
+				Vector2(8, my + 2.5), Vector2(-8, my + 2.5)
+			])
+			draw_colored_polygon(teeth, style.mouth_teeth_color)
+			var stroke := InkStroke.from_points(pts + PackedVector2Array([pts[0]]), 2.2, InkStroke.Profile.UNIFORM, line_color)
+			stroke.draw_to(self)
+		
+		"open_shocked", "shock":
 			# Vertical oval 'O' mouth
 			var shock_c := Curve2D.new()
 			shock_c.add_point(Vector2(-6, my - 3), Vector2(0, -3), Vector2(0, 5))
@@ -601,7 +723,7 @@ func _draw_mouth() -> void:
 			var stroke := InkStroke.from_curve(c, 2.0, InkStroke.Profile.TAPER_BOTH, line_color)
 			stroke.draw_to(self)
 		
-		"neutral":
+		"neutral", "closed":
 			var c := Curve2D.new()
 			c.add_point(Vector2(-5.0, my), Vector2(0, 0), Vector2(2.5, 0.4))
 			c.add_point(Vector2(0, my + 0.3), Vector2(-2.5, 0), Vector2(2.5, 0))
@@ -628,7 +750,7 @@ func _draw_mouth() -> void:
 			var stroke := InkStroke.from_points(pts, 2.2, InkStroke.Profile.TAPER_BOTH, line_color)
 			stroke.draw_to(self)
 		
-		_: # Standard Gentle Smile
+		_: # Standard Gentle Smile / "smile", "rest"
 			var c := Curve2D.new()
 			c.add_point(Vector2(-7.5, my - 1.0), Vector2(0, 0), Vector2(3.5, 2.5))
 			c.add_point(Vector2(0, my + 1.8), Vector2(-3.5, 0), Vector2(3.5, 0))

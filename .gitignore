@@ -13,8 +13,32 @@ node_modules/
 __pycache__/
 *.pyc
 
-# Movie Maker raw uncompressed video intermediate captures
+# Video files and raw captures
+*.mp4
 *.avi
+*.mov
+*.mkv
+*.webm
+
+# Episode previews, render outputs, and heavy audio stems
+episodes/**/previews/
+episodes/**/audio/*.wav
+episodes/**/*.wav
+
+# Heavy background ambience audio stems
+audio/sfx/ambience/*.wav
+
+# Render outputs
+renders/raw_*
 
 # Scratch analysis and temporary files
 scratch/
+
+# Python virtual environment
+.venv/
+
+# Archived rejected artifacts
+archive/
+
+# Intermediate TTS segment iterations and backups
+audio/nemi/intro/segments_*/

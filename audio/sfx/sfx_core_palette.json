@@ -1,0 +1,217 @@
+{
+  "version": "1.0.0",
+  "title": "Nemi Core Sound Palette",
+  "description": "Curated primary palette of 32 essential sound assets for Nemi productions. Covers 90%+ of episodic needs with punctuality, restraint, and zero clutter.",
+  "rules": [
+    "Event SFX duration target is 0.1s - 2.0s (max 2.5s).",
+    "Never use continuous typing beds; typing is strictly short bursts (0.4s - 1.2s) when visibly typing.",
+    "Deadpan, awkward pauses, and punchline aftermaths must preserve complete silence (0 SFX).",
+    "Voice clarity is always primary. SFX mixed at -4dB to -18dB relative to dialogue."
+  ],
+  "palette": [
+    {
+      "id": "cartoon_pop_bubble_01",
+      "category": "cartoon",
+      "duration": 0.42,
+      "use_case": "Object reveal, doodle pop-in"
+    },
+    {
+      "id": "cartoon_pop_bubble_tiny_02",
+      "category": "cartoon",
+      "duration": 0.28,
+      "use_case": "Tiny micro-pop, doodle subtitle annotation (*DOMS ACTIVATED*)"
+    },
+    {
+      "id": "cartoon_wobble_comic_01",
+      "category": "cartoon",
+      "duration": 1.48,
+      "use_case": "Drawing wobble, rubbery trembling legs"
+    },
+    {
+      "id": "cartoon_slide_whistle_01",
+      "category": "cartoon",
+      "duration": 1.85,
+      "use_case": "Physical comedy slips, banana peel sequence"
+    },
+    {
+      "id": "cartoon_boing_spring_01",
+      "category": "cartoon",
+      "duration": 0.38,
+      "use_case": "Small comedic rebound, head tilt bounce"
+    },
+    {
+      "id": "comedic_record_scratch_01",
+      "category": "comedic",
+      "duration": 1.11,
+      "use_case": "Abrupt comedic interruption, hubris cut"
+    },
+    {
+      "id": "computer_keyboard_typing_01",
+      "category": "computer",
+      "duration": 1.40,
+      "use_case": "Short mechanical keyboard typing burst (visibly typing only)"
+    },
+    {
+      "id": "computer_laptop_typing_fast_01",
+      "category": "computer",
+      "duration": 1.25,
+      "use_case": "Rapid laptop typing burst (research escalation)"
+    },
+    {
+      "id": "computer_plastic_typing_01",
+      "category": "computer",
+      "duration": 1.10,
+      "use_case": "Short tactile plastic keyboard burst"
+    },
+    {
+      "id": "computer_mouse_fast_double_01",
+      "category": "computer",
+      "duration": 0.47,
+      "use_case": "Fast double click, browser link opening"
+    },
+    {
+      "id": "drawing_pencil_sketch_01",
+      "category": "drawing",
+      "duration": 1.87,
+      "use_case": "Inbetweening, sketching tactile strokes"
+    },
+    {
+      "id": "drawing_pencil_write_short_01",
+      "category": "drawing",
+      "duration": 0.92,
+      "use_case": "Single stroke, drawing note on blueprint"
+    },
+    {
+      "id": "drawing_scratch_scribble_01",
+      "category": "drawing",
+      "duration": 0.56,
+      "use_case": "Quick pencil scribble, formula calculation"
+    },
+    {
+      "id": "food_glasses_clinking_01",
+      "category": "food",
+      "duration": 1.20,
+      "use_case": "Ice cold tea glass clink"
+    },
+    {
+      "id": "gym_metal_plate_clank_01",
+      "category": "gym",
+      "duration": 1.87,
+      "use_case": "Barbell plate clank, gym mood swap"
+    },
+    {
+      "id": "gym_dumbbell_pins_01",
+      "category": "gym",
+      "duration": 1.33,
+      "use_case": "Dumbbell weight pins metallic impact"
+    },
+    {
+      "id": "impact_soft_thud_01",
+      "category": "impacts",
+      "duration": 0.85,
+      "use_case": "Posture slump, defeat collapse onto desk"
+    },
+    {
+      "id": "impact_wood_heavy_01",
+      "category": "impacts",
+      "duration": 0.98,
+      "use_case": "Solid floor impact layered under dropped weights"
+    },
+    {
+      "id": "impact_drop_soft_01",
+      "category": "impacts",
+      "duration": 0.37,
+      "use_case": "Small prop landing on surface"
+    },
+    {
+      "id": "movement_cloth_rustle_01",
+      "category": "movement",
+      "duration": 1.03,
+      "use_case": "Forward lean, hoodie fabric rustle"
+    },
+    {
+      "id": "movement_cloth_rustle_02",
+      "category": "movement",
+      "duration": 0.74,
+      "use_case": "Sheepish shoulder shrug rustle"
+    },
+    {
+      "id": "paper_page_flip_01",
+      "category": "paper",
+      "duration": 1.14,
+      "use_case": "Quick reference notebook page flip"
+    },
+    {
+      "id": "paper_slide_desk_01",
+      "category": "paper",
+      "duration": 0.82,
+      "use_case": "Blueprint slide across desk"
+    },
+    {
+      "id": "sting_achievement_bell_01",
+      "category": "stings",
+      "duration": 2.40,
+      "use_case": "Anime hero victory bell, unearned confidence"
+    },
+    {
+      "id": "sting_bell_dramatic_01",
+      "category": "stings",
+      "duration": 0.87,
+      "use_case": "Mortification freeze, mail carrier eye-contact shock"
+    },
+    {
+      "id": "sting_question_chime_01",
+      "category": "stings",
+      "duration": 1.45,
+      "use_case": "Terrible idea question chime"
+    },
+    {
+      "id": "sting_magic_sparkle_chime_01",
+      "category": "stings",
+      "duration": 1.80,
+      "use_case": "Smug confidence sparkle chime"
+    },
+    {
+      "id": "ui_blip_comic_01",
+      "category": "ui",
+      "duration": 0.06,
+      "use_case": "Comic eye blink, 'angry ginger root' micro accent"
+    },
+    {
+      "id": "ui_tick_subtle_01",
+      "category": "ui",
+      "duration": 0.12,
+      "use_case": "Clock tick accent landing on 'Half.'"
+    },
+    {
+      "id": "ui_tick_subtle_02",
+      "category": "ui",
+      "duration": 0.12,
+      "use_case": "Clock tock accent landing on 'A.'"
+    },
+    {
+      "id": "ui_button_snap_01",
+      "category": "ui",
+      "duration": 0.31,
+      "use_case": "Mechanical snap accent landing on 'Second.'"
+    },
+    {
+      "id": "ui_confirm_chime_02",
+      "category": "ui",
+      "duration": 0.95,
+      "use_case": "High-G operatic ping, architecturally sound chime"
+    },
+    {
+      "id": "whoosh_gesture_soft_02",
+      "category": "whooshes",
+      "duration": 0.38,
+      "use_case": "Soft air whoosh on rapid head turn or camera reset"
+    },
+    {
+      "id": "whoosh_camera_punch_03",
+      "category": "whooshes",
+      "duration": 0.18,
+      "use_case": "Camera punch-zoom air rush"
+    }
+  ]
+}

@@ -12,6 +12,8 @@ signal mode_changed(mode_name: String)
 
 const NemiProportions = preload("res://characters/nemi/NemiProportions.gd")
 const NemiRigDebug = preload("res://characters/nemi/drawing/NemiRigDebug.gd")
+const NemiActingDirector = preload("res://characters/nemi/animation/NemiActingDirector.gd")
+const NemiFXDirector = preload("res://characters/nemi/fx/NemiFXDirector.gd")
 
 @onready var skeleton: Skeleton2D = $Skeleton2D
 @onready var root_bone: Bone2D = $Skeleton2D/RootBone
@@ -51,6 +53,9 @@ var style: NemiStyle = NemiStyle.new()
 # Dedicated Illustrated Acting Director subsystem
 var actor: NemiActingDirector
 
+# Dedicated Expression FX & Reaction Director subsystem
+var fx_director: NemiFXDirector
+
 # Active state
 var current_pose_name: String = "idle"
 var current_expression_name: String = "neutral"
@@ -74,6 +79,9 @@ func _ready() -> void:
 	if not actor:
 		actor = NemiActingDirector.new(self)
 		add_child(actor)
+	if not fx_director:
+		fx_director = NemiFXDirector.new(self)
+		add_child(fx_director)
 	_base_position = position
 	_propagate_style(self)
 	reset()
@@ -82,6 +90,9 @@ func _ensure_nodes() -> void:
 	if not actor:
 		actor = NemiActingDirector.new(self)
 		add_child(actor)
+	if not fx_director:
+		fx_director = NemiFXDirector.new(self)
+		add_child(fx_director)
 	if not skeleton:
 		skeleton = get_node_or_null("Skeleton2D")
 	if not root_bone and skeleton:
@@ -323,6 +334,63 @@ func set_mouth_shape(shape_name: String) -> void:
 	if face and face.has_method("set_mouth_shape"):
 		face.set_mouth_shape(shape_name)
 
+## Convenient alias for illustrative mouth shape changes
+func mouth(shape_name: String) -> void:
+	set_mouth_shape(shape_name)
+
+# -------------------------------------------------------------------------
+# EXPRESSION FX & REACTION SYSTEM V1 DELEGATES
+# -------------------------------------------------------------------------
+
+## Triggers an expression reaction preset (e.g. "shocked", "confused", "embarrassed", "excited")
+func react(reaction_name: String, intensity: int = 3, duration: float = 1.3) -> Node2D:
+	_ensure_nodes()
+	return fx_director.react(reaction_name, intensity, duration) if fx_director else null
+
+## Spawns a specific low-level procedural FX element
+func fx(fx_name: String, anchor_str: String = "", intensity: int = 3, duration: float = 1.2, custom_offset: Vector2 = Vector2.ZERO) -> Node2D:
+	_ensure_nodes()
+	return fx_director.fx(fx_name, anchor_str, intensity, duration, custom_offset) if fx_director else null
+
+## Triggers temporary cartoon facial exaggeration with non-destructive spring recovery
+func face_exaggerate(emotion: String, intensity: int = 3, duration: float = 0.6) -> void:
+	_ensure_nodes()
+	if face and face.has_method("face_exaggerate"):
+		face.face_exaggerate(emotion, intensity, duration)
+
+## Direct FX convenience helpers
+func show_sweat(anchor: String = "head_right", intensity: int = 3, duration: float = 1.2) -> Node2D:
+	_ensure_nodes()
+	return fx_director.show_sweat(anchor, intensity, duration) if fx_director else null
+
+func show_question_mark(anchor: String = "head_right", intensity: int = 3, duration: float = 1.2) -> Node2D:
+	_ensure_nodes()
+	return fx_director.show_question_mark(anchor, intensity, duration) if fx_director else null
+
+func show_shock_lines(anchor: String = "head_top", intensity: int = 3, duration: float = 1.0) -> Node2D:
+	_ensure_nodes()
+	return fx_director.show_shock_lines(anchor, intensity, duration) if fx_director else null
+
+func show_blush(intensity: int = 3, duration: float = 1.5) -> Node2D:
+	_ensure_nodes()
+	return fx_director.show_blush(intensity, duration) if fx_director else null
+
+func show_stress_marks(anchor: String = "head_right", intensity: int = 3, duration: float = 1.2) -> Node2D:
+	_ensure_nodes()
+	return fx_director.show_stress_marks(anchor, intensity, duration) if fx_director else null
+
+func show_sparkles(anchor: String = "head_left", intensity: int = 3, duration: float = 1.4) -> Node2D:
+	_ensure_nodes()
+	return fx_director.show_sparkles(anchor, intensity, duration) if fx_director else null
+
+func show_lightbulb(anchor: String = "head_top", intensity: int = 3, duration: float = 1.4) -> Node2D:
+	_ensure_nodes()
+	return fx_director.show_lightbulb(anchor, intensity, duration) if fx_director else null
+
+func clear_all_fx(immediate: bool = false) -> void:
+	if fx_director:
+		fx_director.clear_all_fx(immediate)
+
 ## Directional eye gaze ("center", "left", "right", "up", "down")
 func look(dir_name: String) -> void:
 	_ensure_nodes()
@@ -479,6 +547,55 @@ func hands_together() -> void:
 func hands_down() -> void:
 	if not actor: _ensure_nodes()
 	if actor: await actor.hands_down()
+
+## Synchronizes live illustrative lip-sync mouth animation to spoken phrase
+func speak(text: String, duration: float, emotion: String = "normal") -> void:
+	if not actor: _ensure_nodes()
+	if actor: await actor.speak(text, duration, emotion)
+
+## Conversational gesture towards oneself
+func gesture_self(duration: float = 0.22) -> void:
+	if not actor: _ensure_nodes()
+	if actor: await actor.gesture_self(duration)
+
+## Conversational open palm gesture
+func gesture_open_palm(side: String = "right", duration: float = 0.22) -> void:
+	if not actor: _ensure_nodes()
+	if actor: await actor.gesture_open_palm(side, duration)
+
+func open_palm(side: String = "right", duration: float = 0.22) -> void:
+	await gesture_open_palm(side, duration)
+
+## Thinking chin tap gesture
+func gesture_thinking(duration: float = 0.24) -> void:
+	if not actor: _ensure_nodes()
+	if actor: await actor.gesture_thinking(duration)
+
+## Confident chest puff pose
+func chest_puff(duration: float = 0.25) -> void:
+	if not actor: _ensure_nodes()
+	if actor: await actor.chest_puff(duration)
+
+## Sudden posture collapse / failure drop
+func collapse(intensity: float = 1.0, duration: float = 0.25) -> void:
+	if not actor: _ensure_nodes()
+	if actor: await actor.collapse(intensity, duration)
+
+## Sincere / passionate hand on chest gesture
+func hand_on_chest(duration: float = 0.22) -> void:
+	if not actor: _ensure_nodes()
+	if actor: await actor.hand_on_chest(duration)
+
+## Comedic vibration tremor
+func tremble(intensity: float = 0.5, duration: float = 1.0) -> void:
+	if not actor: _ensure_nodes()
+	if actor: await actor.tremble(intensity, duration)
+
+## Absolute zero-motion freeze hold
+func freeze_stillness(duration: float) -> void:
+	if not actor: _ensure_nodes()
+	if actor: await actor.freeze_stillness(duration)
+
 
 ## Plays a pre-composed reaction sequence (Tests A-J or named reactions)
 func play_reaction(reaction_name: String) -> void:

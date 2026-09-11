@@ -68,6 +68,10 @@ class ScriptSegmenter:
                             # Clean TTS text (keep punctuation, normalize quotes)
                             tts_text = raw_text.replace("’", "'").replace("“", '"').replace("”", '"')
                             
+                            # Cadence smoothing: replace hard stop after 'Hi.' with comma to prevent 1.5s robotic silences
+                            if tts_text.startswith("Hi. I'm Nemi."):
+                                tts_text = tts_text.replace("Hi. I'm Nemi.", "Hi, I'm Nemi.")
+                            
                             # Look ahead for acting cue or pause
                             acting_note = ""
                             pause_after = 0.35
@@ -107,16 +111,7 @@ class ScriptSegmenter:
                                 elif "architecturally sound" in raw_text:
                                     pause_after = 0.80
                             elif current_beat == 7:
-                                if "straighten your posture" in raw_text.lower():
-                                    speed = 1.05
-                                    pause_after = 0.40
-                            elif current_beat == 8:
-                                # Stinger: fast panic
-                                if "two hundred percent" in raw_text:
-                                    speed = 1.15
-                                    pause_after = 0.20
-                                elif "Cool." in raw_text:
-                                    speed = 0.90
+                                if "Thank you for watching" in raw_text:
                                     pause_after = 0.50
 
                             seg_id = f"{seg_counter:03d}"

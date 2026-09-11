@@ -1,51 +1,54 @@
-# NEMI TTS PROVENANCE & LICENSING RECORD (V1)
-## Verification of Model Heritage, Licensing, and Local Offline Architecture
+# NEMI TTS PROVENANCE & TECHNICAL SPECIFICATION
+
+## 1. Model Identification & Origin
+
+* **Model Name**: **Qwen3-TTS 1.7B CustomVoice**
+* **Model Checkpoint**: `mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16`
+* **Base Architecture**: Alibaba Qwen3-TTS (1.7 Billion Parameters, 12 Hz Tokenizer)
+* **Precision**: bfloat16 (`bf16`)
+* **Hugging Face Repository**: [`mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16`](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16)
+* **Upstream Official Repository**: [`Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice)
+* **License**: Qwen Community License / Apache 2.0 (Permits commercial and creator usage with standard attribution)
 
 ---
 
-## 1. Engine & Model Provenance
+## 2. Hardware & Runtime Environment
 
-* **Model Name**: **Kokoro-82M**
-* **Model Version**: `v1.0` (`kokoro-v1_0.pth`, 82 Million Parameters)
-* **Architecture**: StyleTTS 2 + ISTFTNet architecture with phonemizer front-end (`misaki`)
-* **Primary Repository**: [`hexgrad/Kokoro-82M`](https://huggingface.co/hexgrad/Kokoro-82M)
-* **Model Author / Creator**: Hexgrad
-* **License**: **Apache License 2.0** (Permissive commercial and non-commercial use)
-* **Installation Date**: September 10, 2026
-
----
-
-## 2. Voice Provenance & Heritage
-
-* **Primary Voice Asset**: `af_heart.pt`
-* **Voice Category**: American Female (`af_*`)
-* **Source Repository**: `hexgrad/Kokoro-82M/voices/af_heart.pt`
-* **License**: Apache 2.0 (bundled directly with official Kokoro model distribution)
-* **Alternate Official Voices Auditioned**:
-  * `af_bella.pt` (Apache 2.0, official distribution)
-  * `af_sky.pt` (Apache 2.0, official distribution)
-  * `af_sarah.pt` (Apache 2.0, official distribution)
-
----
-
-## 3. Local Runtime & Infrastructure Environment
-
-* **Inference Pipeline**: `kokoro` (v0.9.4 official PyTorch package)
+* **Target Hardware**: Apple Silicon Mac (Apple M4 Pro)
+* **Architecture**: arm64
+* **Unified Memory**: 48 GB Unified RAM
+* **Operating System**: macOS 26.6.2 (Darwin 25.6.0)
+* **Acceleration Backend**: Apple Metal Performance Shaders (MPS) / Apple Neural Engine via MLX
 * **Python Runtime**: Python 3.11.15 (`/opt/homebrew/bin/python3.11`)
-* **Core Dependencies**:
-  * `torch` 2.6.0
-  * `torchaudio` 2.6.0
-  * `soundfile` 0.14.0
-  * `misaki` 0.9.4 (phonemizer)
-  * `spacy` 3.8.16 / `en_core_web_sm` 3.8.0
-* **Execution Target**: Local CPU (Apple Silicon ARM64)
-* **Audio Output Format**: 24,000 Hz, 16-bit PCM Linear WAV, Mono
+* **Isolated Environment**: `/Users/talus/Documents/adb/.venv`
+
+### Package Manifest
+* `mlx`: `0.32.2`
+* `mlx-metal`: `0.32.2`
+* `mlx-audio`: `0.5.3`
+* `transformers`: `5.17.0`
+* `soundfile`: `0.14.0`
+* `scipy`: `1.17.1`
+* `numpy`: `2.4.6`
 
 ---
 
-## 4. Privacy & Offline Compliance
+## 3. Approved Official Voice Actor & Configuration
+ 
+* **Voice Actor**: **Sohee** (Official Qwen Pretrained Speaker Embedding: `2864`)
+* **Model Type**: Pretrained CustomVoice (Fixed neural weights — zero identity drift)
+* **Voice Directive Prompt**:
+  > *"Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful."*
+* **Target Audio Format**: Uncompressed 16-bit PCM WAV
+* **Native Sampling Rate**: 24,000 Hz
+* **Channels**: Mono (1 channel)
+* **Pacing Policy**: Contextual Thought Segmentation (0.20s–0.45s conversational gaps, 1.50s–1.80s deadpan holds)
+* **Generation Method**: Local offline inference via `model.generate_custom_voice(speaker='sohee', instruct=...)`
 
-* **Cloud API Usage**: **NONE (0%)**.
-* **Third-Party Telemetry**: **NONE**.
-* **Data Transmission**: All phonemization, model weight evaluation, waveform synthesis, and segment concatenation execute 100% locally and offline on the user's host machine.
-* **Reproducibility**: Identical text strings paired with consistent voice configurations yield bit-reproducible waveforms with zero stochastic drifting.
+---
+
+## 4. Architectural Separation (Kokoro Retirement)
+
+* **Previous Architecture**: Kokoro-82M (`af_heart`).
+* **Retirement Rationale**: Formally rejected due to perceived artificial cadence, synthetic robotic artifacts, and unnatural sentence silence gaps.
+* **Current Status**: All Kokoro scripts, voice configurations, and audio files have been completely purged from the active Nemi pipeline. Legacy audio files are quarantined in `archive/rejected/kokoro/` and strictly ignored.

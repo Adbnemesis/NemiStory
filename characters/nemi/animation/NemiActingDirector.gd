@@ -15,6 +15,8 @@ signal hold_started(duration: float)
 signal hold_finished()
 signal state_changed(new_state: String)
 
+const NemiLipSync = preload("res://characters/nemi/animation/actions/NemiLipSync.gd")
+
 var character: Node2D
 
 var eyes: NemiEyeActing
@@ -22,6 +24,7 @@ var head: NemiHeadActing
 var body: NemiBodyActing
 var face: NemiFaceActing
 var reactions: NemiReactions
+var lipsync: NemiLipSync
 
 var current_action: String = "IDLE"
 var current_intensity: float = 0.5
@@ -47,6 +50,7 @@ func initialize(p_character: Node2D) -> void:
 	body = NemiBodyActing.new(character)
 	face = NemiFaceActing.new(character)
 	reactions = NemiReactions.new(self)
+	lipsync = NemiLipSync.new(character)
 
 func _process(delta: float) -> void:
 	if acting_state != "IDLE":
@@ -304,3 +308,43 @@ func awkward() -> void:
 
 func embarrassed() -> void:
 	await reactions.embarrassment()
+
+func speak(text: String, duration: float, emotion: String = "normal") -> void:
+	if lipsync:
+		await lipsync.speak_phrase(text, duration, emotion)
+
+func gesture_self(duration: float = 0.22) -> void:
+	var token: int = request_action("GESTURE_SELF", NemiTiming.Priority.MINOR_GESTURE, 0.5, duration)
+	await body.gesture_self(duration)
+	finish_action(token)
+
+func gesture_open_palm(side: String = "right", duration: float = 0.22) -> void:
+	var token: int = request_action("GESTURE_OPEN_PALM", NemiTiming.Priority.MINOR_GESTURE, 0.5, duration)
+	await body.gesture_open_palm(side, duration)
+	finish_action(token)
+
+func gesture_thinking(duration: float = 0.24) -> void:
+	var token: int = request_action("GESTURE_THINKING", NemiTiming.Priority.MINOR_GESTURE, 0.6, duration)
+	await body.gesture_thinking(duration)
+	finish_action(token)
+
+func chest_puff(duration: float = 0.25) -> void:
+	var token: int = request_action("CHEST_PUFF", NemiTiming.Priority.MAJOR_BODY, 0.7, duration)
+	await body.gesture_chest_puff(duration)
+	finish_action(token)
+
+func collapse(intensity: float = 1.0, duration: float = 0.25) -> void:
+	var token: int = request_action("COLLAPSE", NemiTiming.Priority.MAJOR_BODY, intensity, duration)
+	await body.gesture_collapse(intensity, duration)
+	finish_action(token)
+
+func hand_on_chest(duration: float = 0.22) -> void:
+	var token: int = request_action("HAND_ON_CHEST", NemiTiming.Priority.MINOR_GESTURE, 0.5, duration)
+	await body.gesture_hand_on_chest(duration)
+	finish_action(token)
+
+func tremble(intensity: float = 0.5, duration: float = 1.0) -> void:
+	await body.tremble(intensity, duration)
+
+func freeze_stillness(duration: float) -> void:
+	await body.freeze_stillness(duration)

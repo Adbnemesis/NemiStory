@@ -34,6 +34,7 @@ var _shake_timer: float = 0.0
 var _base_offset: Vector2 = Vector2.ZERO
 
 func _ready() -> void:
+	make_current()
 	# Center camera at canvas origin by default
 	position = base_viewport_size * 0.5
 	_base_offset = position
@@ -154,3 +155,52 @@ func shake(intensity: float = 12.0, duration: float = 0.22) -> void:
 func reset_camera(duration: float = 0.25) -> Signal:
 	stop_tracking()
 	return apply_preset(ShotPreset.WIDE, duration, null)
+
+## Instant or rapid punch zoom without requiring full re-target
+func punch_zoom(zoom_mult: float, duration: float = 0.08) -> Signal:
+	if duration <= 0.001:
+		zoom = Vector2(zoom_mult, zoom_mult)
+		return get_tree().process_frame
+	if _active_tween and _active_tween.is_valid():
+		_active_tween.kill()
+	_active_tween = create_tween()
+	_active_tween.tween_property(self, "zoom", Vector2(zoom_mult, zoom_mult), duration)\
+		.set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	return _active_tween.finished
+
+## Reset zoom back to baseline WIDE preset smoothly
+func reset_zoom(duration: float = 0.3) -> Signal:
+	return reset_camera(duration)
+
+## Cinematic reaction closeup focusing rapidly on character face/eyes
+func reaction_closeup(target_pos: Vector2, zoom_level: float = 1.85, duration: float = 0.22) -> Signal:
+	if _active_tween and _active_tween.is_valid():
+		_active_tween.kill()
+	_active_tween = create_tween().set_parallel(true)
+	_active_tween.tween_property(self, "position", target_pos + Vector2(0, -50.0), duration).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	_active_tween.tween_property(self, "zoom", Vector2(zoom_level, zoom_level), duration).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	return _active_tween.finished
+
+## Subtle punch zoom bump for punchline emphasis without jarring jump
+func subtle_punch(zoom_bump: float = 1.10, duration: float = 0.15) -> Signal:
+	if _active_tween and _active_tween.is_valid():
+		_active_tween.kill()
+	var base_z := zoom
+	var peak_z := zoom * zoom_bump
+	_active_tween = create_tween()
+	_active_tween.tween_property(self, "zoom", peak_z, duration * 0.4).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	_active_tween.chain().tween_property(self, "zoom", base_z, duration * 0.6).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
+	return _active_tween.finished
+
+## Progressive multi-step face zoom progression (e.g. for "Half." -> "A." -> "Second.")
+func face_zoom_progression(target_pos: Vector2, levels: Array, step_duration: float = 0.2) -> Signal:
+	if _active_tween and _active_tween.is_valid():
+		_active_tween.kill()
+	_active_tween = create_tween()
+	for lvl in levels:
+		var z_val: float = float(lvl)
+		_active_tween.tween_property(self, "zoom", Vector2(z_val, z_val), step_duration * 0.6).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+		_active_tween.parallel().tween_property(self, "position", target_pos + Vector2(0, -50.0), step_duration * 0.6).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+		_active_tween.tween_interval(step_duration * 0.4)
+	return _active_tween.finished
+
