@@ -4,8 +4,8 @@ extends SceneTree
 ## Renders a complete 1280x720 30FPS master video demonstrating all 9 acting sequences,
 ## stillness holds, micro-acting, comedic timing, and dual color/monochrome modes.
 
-const NemiScene = preload("res://characters/nemi/nemi.tscn")
-const HudScene = preload("res://characters/nemi/test/NemiTimingHUD.tscn")
+const NemiScene = preload("res://nemi/characters/nemi/nemi.tscn")
+const HudScene = preload("res://nemi/characters/nemi/test/NemiTimingHUD.tscn")
 
 var root_vp: Window
 var nemi: Nemi

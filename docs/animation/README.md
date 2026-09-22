@@ -25,7 +25,7 @@ Welcome to the central documentation index for the Nemi animated storytelling pr
 
 * **[SFX System Guide](file:///Users/talus/Documents/adb/docs/audio/SFX_System_Guide.md)**: Sound effects catalog, event-based sound rules, ambience beds, and mixing standards.
 * **[SFX License & Provenance Registry](file:///Users/talus/Documents/adb/docs/audio/SFX_License_Registry.md)**: CC0 / Public Domain asset provenance, durations, and categorization.
-* **[Voice Audition & Setup Guide](file:///Users/talus/Documents/adb/docs/nemi/Nemi_TTS_Setup.md)**: Voice pipeline documentation and Sohee character configuration.
+* **[Voice Audition & Setup Guide](file:///Users/talus/Documents/adb/docs/nemi/Nemi_TTS_Setup.md)**: Qwen3-TTS CustomVoice (Sohee) local pipeline setup and operational guide.
 
 ---
 

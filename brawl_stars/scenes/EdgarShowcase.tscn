@@ -1,0 +1,74 @@
+[gd_scene load_steps=5 format=3 uid="uid://b1edgarshowcase01"]
+
+[ext_resource type="Script" path="res://brawl_stars/scenes/EdgarShowcase.gd" id="1_showcase"]
+[ext_resource type="PackedScene" path="res://brawl_stars/characters/edgar/Edgar.tscn" id="2_edgar"]
+[ext_resource type="Script" path="res://brawl_stars/scripts/EdgarDoodleDirector.gd" id="3_doodles"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_header"]
+bg_color = Color(0.12, 0.1, 0.14, 0.85)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="EdgarShowcase" type="Node2D"]
+script = ExtResource("1_showcase")
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 1280.0
+offset_bottom = 720.0
+color = Color(0.98, 0.97, 0.96, 1)
+
+[node name="DoodleDirector" type="Node2D" parent="."]
+z_index = 10
+script = ExtResource("3_doodles")
+
+[node name="Edgar" parent="." instance=ExtResource("2_edgar")]
+position = Vector2(640, 420)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="UI" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HeaderPanel" type="PanelContainer" parent="CanvasLayer/UI"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 24.0
+offset_right = 1250.0
+offset_bottom = 96.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_header")
+
+[node name="Margin" type="MarginContainer" parent="CanvasLayer/UI/HeaderPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 8
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/UI/HeaderPanel/Margin"]
+layout_mode = 2
+
+[node name="StatusLabel" type="Label" parent="CanvasLayer/UI/HeaderPanel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "EDGAR CHARACTER SHOWCASE"
+
+[node name="HBox" type="HBoxContainer" parent="CanvasLayer/UI/HeaderPanel/Margin/VBox"]
+layout_mode = 2
+
+[node name="StepLabel" type="Label" parent="CanvasLayer/UI/HeaderPanel/Margin/VBox/HBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Step 1 / 24"
+
+[node name="ModeLabel" type="Label" parent="CanvasLayer/UI/HeaderPanel/Margin/VBox/HBox"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_font_sizes/font_size = 14
+text = "100% Procedural Hand-Drawn 2D Rig"

@@ -1,0 +1,16 @@
+{
+  "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "repo_id": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+  "model_version": "1.7B-CustomVoice-bf16",
+  "runtime": "mlx-audio",
+  "voice_identifier": "sohee",
+  "voice_design_prompt": "Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful.",
+  "language": "English",
+  "sample_rate": 24000,
+  "output_format": "PCM 16-bit WAV",
+  "generation_date": "2026-09-17T07:58:56.833327Z",
+  "total_segments": 23,
+  "master_duration_seconds": 110.89,
+  "master_file": "ep03_scolded_voice_master.wav",
+  "license": "Qwen Community License / Apache 2.0"
+}

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://nemi/episodes/ep04_scared/EP04_Scared.gd" id="1_master"]
+
+[node name="EP04Scared" type="Node2D"]
+script = ExtResource("1_master")
+
+[node name="MasterAudio" type="AudioStreamPlayer" parent="."]
+
+[node name="BeatContainer" type="Node2D" parent="."]

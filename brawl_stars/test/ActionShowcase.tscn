@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cshowcaseact1"]
+
+[ext_resource type="Script" path="res://brawl_stars/test/render_action_showcase.gd" id="1_act"]
+
+[node name="ActionShowcase" type="Node2D"]
+script = ExtResource("1_act")

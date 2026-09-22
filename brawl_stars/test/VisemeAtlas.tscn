@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvisemeatlas01"]
+
+[ext_resource type="Script" path="res://brawl_stars/test/render_viseme_atlas.gd" id="1_vis"]
+
+[node name="VisemeAtlas" type="Node2D"]
+script = ExtResource("1_vis")

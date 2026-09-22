@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://b1cosmo001rig"]
+
+[ext_resource type="Script" path="res://brawl_stars/characters/cosmo/Cosmo.gd" id="1_cosmo"]
+[ext_resource type="Script" path="res://brawl_stars/characters/cosmo/CosmoVisual.gd" id="2_vis"]
+[ext_resource type="Script" path="res://brawl_stars/characters/cosmo/parts/CosmoTorso.gd" id="3_torso"]
+[ext_resource type="Script" path="res://brawl_stars/characters/cosmo/parts/CosmoLimbs.gd" id="4_limbs"]
+[ext_resource type="Script" path="res://brawl_stars/characters/cosmo/parts/CosmoHead.gd" id="5_head"]
+[ext_resource type="Script" path="res://brawl_stars/characters/cosmo/parts/CosmoFace.gd" id="6_face"]
+[ext_resource type="Script" path="res://brawl_stars/characters/cosmo/parts/CosmoAttractorArm.gd" id="7_arm"]
+
+[node name="Cosmo" type="Node2D"]
+script = ExtResource("1_cosmo")
+
+[node name="CosmoVisual" type="Node2D" parent="."]
+script = ExtResource("2_vis")
+
+[node name="Limbs" type="Node2D" parent="CosmoVisual"]
+position = Vector2(0, -25)
+z_index = 1
+script = ExtResource("4_limbs")
+
+[node name="Torso" type="Node2D" parent="CosmoVisual"]
+position = Vector2(0, -95)
+z_index = 2
+script = ExtResource("3_torso")
+
+[node name="AttractorArm" type="Node2D" parent="CosmoVisual"]
+position = Vector2(0, -95)
+z_index = 4
+script = ExtResource("7_arm")
+
+[node name="HeadPivot" type="Node2D" parent="CosmoVisual"]
+position = Vector2(0, -185)
+z_index = 5
+
+[node name="Head" type="Node2D" parent="CosmoVisual/HeadPivot"]
+script = ExtResource("5_head")
+
+[node name="Face" type="Node2D" parent="CosmoVisual/HeadPivot"]
+z_index = 1
+script = ExtResource("6_face")

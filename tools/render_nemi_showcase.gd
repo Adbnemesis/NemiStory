@@ -1,8 +1,8 @@
 extends SceneTree
 
-const NemiStyleScript = preload("res://characters/nemi/NemiStyle.gd")
-const NemiScene = preload("res://characters/nemi/nemi.tscn")
-const OverlayScript = preload("res://characters/nemi/test/NemiProportionOverlay.gd")
+const NemiStyleScript = preload("res://nemi/characters/nemi/NemiStyle.gd")
+const NemiScene = preload("res://nemi/characters/nemi/nemi.tscn")
+const OverlayScript = preload("res://nemi/characters/nemi/test/NemiProportionOverlay.gd")
 
 func _init() -> void:
 	print("--- Starting Nemi Visual Showcase Renderer ---")
@@ -97,7 +97,7 @@ func _init() -> void:
 	brand_label.text = "NEMI • 100% GODOT 2D RIGGED VECTOR CHARACTER • ZERO TEXTURES"
 	ui.add_child(brand_label)
 	
-	var output_dir := "res://characters/nemi/renders/"
+	var output_dir := "res://nemi/characters/nemi/renders/"
 	DirAccess.make_dir_recursive_absolute(output_dir)
 	
 	var shots: Array[Dictionary] = [

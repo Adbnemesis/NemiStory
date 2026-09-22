@@ -9,9 +9,9 @@ extends Node2D
 ## 5. Color Mode vs Monochrome Mode rendering
 ## 6. Authored deterministic line quality without per-frame jitter
 
-const NemiDoodleDirector = preload("res://world/doodles/NemiDoodleDirector.gd")
-const DoodleInstance = preload("res://world/doodles/DoodleInstance.gd")
-const NemiScene = preload("res://characters/nemi/nemi.tscn")
+const NemiDoodleDirector = preload("res://nemi/world/doodles/NemiDoodleDirector.gd")
+const DoodleInstance = preload("res://nemi/world/doodles/DoodleInstance.gd")
+const NemiScene = preload("res://nemi/characters/nemi/nemi.tscn")
 
 var cam: Camera2D
 var director: NemiDoodleDirector

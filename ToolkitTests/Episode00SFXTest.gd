@@ -10,7 +10,7 @@ extends SceneTree
 ## Beat 6: Deadpan silence          -> 1.2s awkward silence (no sound)
 ## Beat 7: Recovery closure         -> confirmation chime (ui_confirm_chime_01)
 
-const NemiAudioScript = preload("res://world/audio/NemiAudio.gd")
+const NemiAudioScript = preload("res://nemi/world/audio/NemiAudio.gd")
 
 var audio_mgr: Node = null
 

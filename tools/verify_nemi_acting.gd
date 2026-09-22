@@ -4,13 +4,13 @@ extends SceneTree
 ## Runs through all 9 authoritative tests, measures holds and states,
 ## and renders high-res verification frames to characters/nemi/renders/acting/.
 
-const NemiScene = preload("res://characters/nemi/nemi.tscn")
-const HudScene = preload("res://characters/nemi/test/NemiTimingHUD.tscn")
+const NemiScene = preload("res://nemi/characters/nemi/nemi.tscn")
+const HudScene = preload("res://nemi/characters/nemi/test/NemiTimingHUD.tscn")
 
 var root_vp: Window
 var nemi: Nemi
 var hud: NemiTimingHUD
-var out_dir: String = "res://characters/nemi/renders/acting/"
+var out_dir: String = "res://nemi/characters/nemi/renders/acting/"
 
 func _init() -> void:
 	print("============================================================")

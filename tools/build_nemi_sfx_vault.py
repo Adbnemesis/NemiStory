@@ -642,7 +642,7 @@ MANIFEST_PATH = os.path.join(BASE_DIR, "episodes", "ep00_introduction", "EP00_SF
 with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
     f.write("# EPISODE 00 — INTRODUCTION SOUND EFFECTS MANIFEST\n\n")
     f.write("> **Timeline Master**: 125.10 seconds across 7 Beats  \n")
-    f.write("> **Audio Strategy**: Subtle, highly punctuated cartoon Foley that elevates the illustration without drowning Sohee's narration.\n\n")
+    f.write("> **Audio Strategy**: Subtle, highly punctuated cartoon Foley that elevates the illustration without drowning Nemi's narration.\n\n")
     f.write("---\n\n")
     f.write("## Planned SFX Cue Sheet\n\n")
     f.write("| Time (s) | Beat | Visual Cue / Event | Sound Asset | Mix Level | Dramatic Intent |\n")

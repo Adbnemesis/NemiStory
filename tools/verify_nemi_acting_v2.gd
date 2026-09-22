@@ -4,13 +4,13 @@ extends SceneTree
 ## Executes all 10 Authoritative Tests (Tests A through J) sequentially,
 ## asserts timeline milestones, and saves high-resolution frame captures.
 
-const NemiScene = preload("res://characters/nemi/nemi.tscn")
-const HudScene = preload("res://characters/nemi/test/NemiTimingHUD.tscn")
+const NemiScene = preload("res://nemi/characters/nemi/nemi.tscn")
+const HudScene = preload("res://nemi/characters/nemi/test/NemiTimingHUD.tscn")
 
 var root_vp: Window
 var nemi: Nemi
 var hud: NemiTimingHUD
-var output_dir: String = "res://characters/nemi/renders/acting/v2_tests"
+var output_dir: String = "res://nemi/characters/nemi/renders/acting/v2_tests"
 
 func _init() -> void:
 	print("============================================================")

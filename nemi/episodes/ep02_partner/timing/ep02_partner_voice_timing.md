@@ -1,0 +1,38 @@
+# NEMI INTRO VOICE TIMING MANIFEST
+**Project**: ep02_partner  
+**Title**: How I Met My Partner  
+**Voice Identifier**: `sohee`  
+**Master Duration**: 102.06 seconds (1:42)  
+**Total Segments**: 22  
+**Sample Rate**: 24000 Hz  
+**Generated**: 2026-09-13T07:55:54.525818Z  
+
+---
+
+| ID | Timestamp | Duration | Beat | Spoken Dialogue | Pause After | Acting Cue |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `001` | `00:00.00 - 00:03.44` | 3.44s | Beat 1 | "Okay... I have a secret." | 0.40s | Leaning forward toward camera lens, conspiratorial eye dart, soft whisper cadence. |
+| `002` | `00:03.84 - 00:05.12` | 1.28s | Beat 1 | "Do not tell anyone." | 0.50s | Subtle finger-to-lips 'shh' gesture, quick blink, intimate eye contact. |
+| `003` | `00:05.62 - 00:06.58` | 0.96s | Beat 1 | "I have a partner." | 0.50s | Proud warm smile, slight head tilt, dark ink lock doodle clicks open. |
+| `004` | `00:07.08 - 00:09.24` | 2.16s | Beat 2 | "The person I met... is ADB." | 0.60s | Broad open palm gesture outward toward ADB. ADB strikes relaxed cool pose, blinks, gives tiny cute smile before settling into calm composure. |
+| `005` | `00:09.84 - 00:14.72` | 4.88s | Beat 3 | "We actually met during college, right in the middle of the COVID lockdown." | 0.35s | Explanatory hand gesture, laptop prop active, Wi-Fi doodle blinking. |
+| `006` | `00:15.07 - 00:19.95` | 4.88s | Beat 3 | "So basically... everything happened online." | 0.40s | Tapping laptop keys in short burst, comedic shrug, gaze shifting to viewer. |
+| `007` | `00:20.35 - 00:25.47` | 5.12s | Beat 4 | "And for two to three months? We just texted. Constantly." | 0.40s | Holding phone, eyes looking down smiling, chat bubble doodles bounce on screen, calendar pages flip. |
+| `008` | `00:25.87 - 00:28.99` | 3.12s | Beat 4 | "Messages all day... and random memes until three in the morning." | 0.50s | Hand over face with sheepish laugh, clock doodle sweeps to 3 AM. |
+| `009` | `00:29.49 - 00:31.33` | 1.84s | Beat 5 | "At first it was just casual chatting." | 0.35s | Both palms out, relaxed honest explanation. |
+| `010` | `00:31.68 - 00:38.00` | 6.32s | Beat 5 | "Then we realized... our brains are wired in the exact same chaotic way." | 0.55s | Eye contact with ADB, matching puzzle pieces doodle snaps together with satisfying click. |
+| `011` | `00:38.55 - 00:44.47` | 5.92s | Beat 6 | "And then... one day, we got drunk." | 0.45s | Conspiratorial pause, two doodled glasses wobble and clink, cartoon spinning stars appear. |
+| `012` | `00:44.92 - 00:46.84` | 1.92s | Beat 6 | "...And things happened." | 1.50s | Sudden blackout stamp. Snap back instantly to Nemi and ADB side-by-side staring deadpan straight down the camera lens with horizontal dash mouths. Zero movement for 1.5 seconds. |
+| `013` | `00:48.34 - 00:55.70` | 7.36s | Beat 7 | "Look, ADB is really cute. Like, ridiculously cute." | 0.40s | Nemi gestures warmly toward ADB. ADB blushes with soft cheek flush, trying to maintain cool composure with a sheepish half-smile. |
+| `014` | `00:56.10 - 01:00.98` | 4.88s | Beat 7 | "And ADB is completely obsessed with anime." | 0.40s | Generic hand-drawn manga speed lines and sparkle doodles burst around ADB. ADB eyes light up with recognition. |
+| `015` | `01:01.38 - 01:04.50` | 3.12s | Beat 7 | "Which means we can talk about storylines for hours." | 0.45s | Both nodding together rapidly in shared nerdy hyperfocus, smiling enthusiastically. |
+| `016` | `01:04.95 - 01:09.99` | 5.04s | Beat 8 | "Now... does ADB irritate me sometimes? Absolutely." | 0.40s | ADB gives Nemi a playful side poke. Nemi gives a dry sideways glare with a tiny charcoal stress mark. |
+| `017` | `01:10.39 - 01:11.91` | 1.52s | Beat 8 | "Every single day." | 0.45s | Nemi folds arms firmly, straight dash mouth, shaking head. |
+| `018` | `01:12.36 - 01:21.56` | 9.20s | Beat 8 | "But I also irritate ADB every single day. So the balance is completely even." | 0.60s | Nemi acts goofy/ridiculous. ADB reacts with deadpan eyebrow raise. Both stare at camera. Hand-drawn balance scale locks at 50/50. |
+| `019` | `01:22.16 - 01:25.68` | 3.52s | Beat 9 | "Whenever things get chaotic, we're always backing each other up." | 0.40s | Illustrated vignette: Nemi helps ADB with study notes; ADB gives a warm appreciative nod. |
+| `020` | `01:26.08 - 01:28.48` | 2.40s | Beat 9 | "No matter what happens, we help each other through it." | 0.50s | Two-way connecting arrows draw between them; sincere, grounded eye contact. |
+| `021` | `01:28.98 - 01:36.50` | 7.52s | Beat 10 | "So yeah. My partner... and my absolute best friend." | 0.50s | Nemi looks at ADB with genuine affection, ADB smiles warmly back. Connected doodle figures draw beneath them. |
+| `022` | `01:37.00 - 01:41.56` | 4.56s | Beat 10 | "Okay... now you know. Keep it between us." | 1.00s | Nemi leans slightly in with a conspiratorial wink and soft secret tap to lens, holding pose in quiet stillness as scene gently fades. |
+
+---
+*Generated by Nemi Qwen3-TTS VoiceDesign Pipeline v2.0*

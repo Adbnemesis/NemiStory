@@ -1,32 +1,38 @@
-# NemiStory — 2D Animated Storytelling Production Engine
+# NemiStory — Multi-Universe 2D Animation & Voice Production Engine
 
 [![Engine: Godot 4.x](https://img.shields.io/badge/Engine-Godot%204.x-478cbf?logo=godotengine&logoColor=white)](https://godotengine.org)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org)
-[![Voice: Qwen3--TTS (MLX)](https://img.shields.io/badge/Voice-Qwen3--TTS%20(Sohee)-green)](docs/nemi/Nemi_Voice_Profile.md)
-[![Aesthetic: Hand--Drawn 2D](https://img.shields.io/badge/Style-Pen%20%26%20Ink%20Illustration-orange)](docs/animation/NEMI_ANIMATION_PRODUCTION_BIBLE.md)
+[![Voice: Qwen3--TTS (MLX)](https://img.shields.io/badge/Voice-Qwen3--TTS%20(Sohee)-green)](nemi/docs/Nemi_Voice_Profile.md)
+[![Brawl Stars Voices](https://img.shields.io/badge/Brawl%20Stars-11%20Brawlers%20(Leon%20%26%20Edgar)-orange)](brawl_stars/voices/VOICE_SYSTEM.md)
+[![Style: Illustrated 2D](https://img.shields.io/badge/Style-Vector%20%26%20Skeletal%20Rig-purple)](nemi/docs/NEMI_ANIMATION_PRODUCTION_BIBLE.md)
 
-**NemiStory** is an end-to-end 2D animated storytime production engine built on **Godot 4.x**, **Python**, and **local offline Qwen3-TTS**. It powers the illustrated YouTube storytelling channel starring **Nemi**—a 24-year-old creative, observant, and subtly chaotic storyteller learning 2D animation and sharing personal life experiences.
+**NemiStory** is a complete, self-contained animated production engine built on **Godot 4.x**, **Python**, and **local offline neural TTS**. It powers three distinct animated production universes with unified illustrated assets, procedural skeletal rigs, and professional audio engineering:
+
+1. **Nemi (`nemi/`)**: Illustrated YouTube storytelling channel starring Nemi—a 24-year-old creative, observant, and subtly chaotic storyteller learning 2D animation.
+2. **Brawl Stars (`brawl_stars/`)**: Fast-paced animated comedy shorts featuring 11 Brawlers (Leon, Edgar, Colt, Shelly, Cosmo, Kenji, Mortis, Crow, Fang, Piper, Melodie) anchored by custom comedic voice actor models.
+3. **Pokémon (`pokemon/`)**: Native Godot 2D illustrated character rigs and animation showcases for Ash Ketchum and Pikachu.
+4. **Common Core (`common/`)**: Curated CC0 audio SFX vault (400+ cues) and shared Godot engine modules.
 
 ---
 
 ## 1. Prerequisites (New Device Setup)
 
-To set up and run this project on a new computer, ensure the following software is installed:
+To set up and run this entire production pipeline from scratch on any new machine:
 
 ### 1. Godot Engine 4.x
-* **Recommended Version**: Godot 4.3 or 4.4 (Standard Edition, 64-bit).
+* **Version**: Godot 4.3 or 4.4 (Standard Edition, 64-bit).
 * **Download**: [godotengine.org/download](https://godotengine.org/download)
-* **macOS Installation**:
+* **macOS Setup**:
   - Download `Godot_v4.x-stable_macos.universal.zip`.
-  - Move `Godot.app` to `/Applications/` (or `~/Applications/`).
-  - Add to PATH or create an alias (optional but convenient):
+  - Move `Godot.app` to `/Applications/`.
+  - Add to shell path (optional but recommended):
     ```bash
     echo 'alias godot="/Applications/Godot.app/Contents/MacOS/Godot"' >> ~/.zshrc
     source ~/.zshrc
     ```
 
 ### 2. FFmpeg
-Required for high-speed offline video transcoding, audio/video muxing, and 4K MovieWriter exports.
+Used for automated video rendering (transcoding Godot MovieWriter raw output to 4K/1080p H.264 MP4) and audio multiplexing.
 * **macOS (Homebrew)**:
   ```bash
   brew install ffmpeg
@@ -35,17 +41,15 @@ Required for high-speed offline video transcoding, audio/video muxing, and 4K Mo
   ```bash
   sudo apt update && sudo apt install -y ffmpeg
   ```
-* **Windows (Chocolatey / Scoop)**:
+* **Windows (Chocolatey)**:
   ```bash
   choco install ffmpeg
   ```
 
 ### 3. Python 3.10+ / 3.11+
-Used for automated 4K rendering pipelines, local voice synthesis, and SFX mixing.
-* **macOS (Homebrew)**:
-  ```bash
-  brew install python@3.11
-  ```
+Powers the offline neural TTS pipelines, batch rendering, and audio mastering scripts.
+* **macOS**: `brew install python@3.11`
+* **Linux**: `sudo apt install -y python3 python3-venv python3-pip`
 
 ---
 
@@ -59,185 +63,219 @@ cd NemiStory
 
 ### Step 2: Set Up Python Virtual Environment
 ```bash
-# Create local virtual environment
 python3 -m venv .venv
-
-# Activate environment
 source .venv/bin/activate    # On Windows: .venv\Scripts\activate
 
-# Upgrade pip & install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-> [!NOTE]
-> On Apple Silicon Macs (M1/M2/M3/M4), `requirements.txt` installs `mlx-audio` for local offline voice synthesis using the official Sohee voice actor. On non-macOS systems, Godot rendering and SFX mixing function normally with standard dependencies.
+> [!TIP]
+> On Apple Silicon Macs (M1/M2/M3/M4), `requirements.txt` installs `mlx` and `mlx-audio` for local, offline GPU-accelerated voice synthesis. On non-macOS systems (Linux/Windows), standard PyTorch `transformers` can be used for voice synthesis, while Godot rendering and SFX mixing function identically across all operating systems.
 
 ### Step 3: Open in Godot Engine
-1. Launch **Godot Engine**.
-2. Click **Import** $\longrightarrow$ navigate to the cloned `NemiStory/` directory.
+1. Launch **Godot Engine 4.x**.
+2. Click **Import** $\longrightarrow$ navigate to the cloned `NemiStory/` folder.
 3. Select `project.godot` and click **Import & Edit**.
-4. Godot will import and cache project resources into `.godot/` (this takes ~15–30 seconds on first launch).
+4. Godot will automatically import, index, and cache all textures, scenes, and audio files into `.godot/` (takes ~15–30 seconds on first launch).
 
 ---
 
-## 3. Project Architecture
+## 3. Production Universes & Architecture
 
 ```
 NemiStory/
-├── characters/
-│   └── nemi/                       # Canonical character rig & systems
-│       ├── Nemi.tscn               # Root character scene & API
-│       ├── Nemi.gd                 # Directorial interface
-│       ├── actor/                  # Skeleton2D, bone solvers, eyes, brows, mouth
-│       ├── documentation/          # Rig specifications & acting guides
-│       └── fx/                     # Procedural vector reaction FX toolkit
+├── nemi/                           # NEMI STORYTIME PRODUCTION UNIVERSE
+│   ├── characters/nemi/            # Nemi's canonical Skeleton2D rig, facial API & reaction FX
+│   ├── episodes/                   # Production episodes
+│   │   ├── ep00_introduction/      # Episode 00: "Wait, Listen to Me"
+│   │   ├── ep01_cat/               # Episode 01: "The Cat That Walked In"
+│   │   ├── ep02_partner/           # Episode 02: "Group Project Partner"
+│   │   ├── ep03_scolded/           # Episode 03: "Getting Scolded in Public"
+│   │   └── ep04_scared/            # Episode 04: "Guys, I'm Scared"
+│   ├── world/                      # Doodles, illustrated props, StoryCamera2D, composition
+│   ├── audio/nemi/                 # Canonical voiceover masters & dialogue segments
+│   │   ├── auditions/custom_actors/sohee/  # Sohee golden audition showcase tracks
+│   │   └── intro/                  # EP00 22-segment dialogue stems & 125s master track
+│   └── docs/                       # Character Bible, Voice Profile & Production Guides
 │
-├── world/                          # Illustrated storytelling environment
-│   ├── doodles/                    # Real-time ink drawing & annotation system
-│   ├── props/                      # Reusable props library (laptop, dumbbell, etc.)
-│   ├── camera/                     # StoryCamera2D (snap-cuts & punch-zooms)
-│   ├── composition/                # Rule-of-thirds staging & z-index layers
-│   └── backgrounds/                # Canvas wash & room environments
+├── brawl_stars/                    # BRAWL STARS COMEDY UNIVERSE
+│   ├── characters/                 # Illustrated brawler rigs (Leon, Ruffs, etc.)
+│   ├── episodes/                   # Episode scenes (e.g. Ep01 Ruffs' Revenge)
+│   └── voices/                     # 11-Brawler comedic voice system
+│       ├── generate_brawler.py     # Universal Brawler voice generator CLI
+│       ├── leon/selected/          # Archetype 1 Golden Anchors (Fast Manic Agitator)
+│       ├── edgar/selected/         # Archetype 2 Golden Anchors (Deadpan Cynic)
+│       └── [colt, crow, fang, ...] # Character configs & audition samples
 │
-├── episodes/                       # Production episodes
-│   └── ep00_introduction/          # Episode 00: "Wait, Listen to Me"
-│       ├── beats/                  # Beat01_Hook through Beat07_Outro
-│       ├── cutaways/               # Flashcards & comic inset illustrations
-│       ├── props/                  # Episode-specific illustrated props
-│       ├── Episode00Subtitles.gd   # Subtitle engine (≤5 words per card)
-│       └── manifests/              # SFX & visual event manifests
+├── pokemon/                        # POKÉMON ILLUSTRATED UNIVERSE
+│   ├── characters/                 # Ash Ketchum & Pikachu native 2D skeletal rigs
+│   ├── scenes/                     # PokemonShowcase.tscn (28-step animation test)
+│   └── docs/                       # Ash & Pikachu rig specifications
 │
-├── audio/                          # Audio repository
-│   ├── nemi/intro/                 # Master voiceover WAV & aligned segment files
-│   └── sfx/                        # Curated CC0 event sound effects library
+├── common/                         # SHARED ASSETS & CORE LIBRARIES
+│   ├── audio/sfx/                  # 400+ CC0 sound effects (cartoon, gym, ui, comedic)
+│   └── engine/                     # Shared camera, annotation, and math utilities
 │
-├── docs/                           # Master Documentation Suite
-│   ├── animation/                  # Master Production Bible & docs index
-│   ├── audio/                      # SFX catalog, mix guides & license registry
-│   └── nemi/                       # Character Bible, Voice Profile & TTS guides
+├── tools/                          # CLI AUTOMATION SCRIPTS
+│   ├── generate_nemi_voice.py      # Nemi offline Qwen3-TTS dialogue generation
+│   ├── audition_custom_voices.py   # Voice audition & showcase generator
+│   ├── mix_ep00_sfx.py             # Episode 00 audio mastering & SFX mixer
+│   ├── render_ep00_v3_3.py         # Episode 00 4K 60FPS MovieWriter renderer
+│   ├── render_episode_ruffs_revenge.py # Brawl Stars short 1080p renderer
+│   └── render_pokemon_showcase.py  # Pokémon animation showcase renderer
 │
-├── tools/                          # CLI automation scripts
-│   ├── render_ep00_v3_3.py         # 4K 60FPS MovieWriter rendering pipeline
-│   ├── generate_nemi_voice.py      # Offline Qwen3-TTS voiceover generation
-│   ├── mix_ep00_sfx.py             # Audio mastering & SFX timeline mixer
-│   └── requirements.txt            # Python dependencies
-│
+├── requirements.txt                # Python dependencies
 └── project.godot                   # Godot 4.x project configuration (Canvas Items 4K)
 ```
 
 ---
 
-## 4. Key Workflows & Commands
+## 4. Voice System: How to Get Exact Voices on a New Device
 
-### A. Previewing Beats in Godot
-To run and inspect any beat scene interactively:
-1. Open the project in Godot.
-2. In the FileSystem dock, open:
-   `episodes/ep00_introduction/beats/`
-3. Select any beat (e.g. `Beat01_Hook.tscn` or `Beat05_RabbitHole.tscn`).
-4. Press **F6** (or click **Play Current Scene**) to run the scene with live character acting and real-time subtitles.
+### A. Nemi's Canonical Voice (Qwen3-TTS CustomVoice: Sohee)
 
-### B. Rendering an Episode in Native 4K (Offline MovieWriter)
-The rendering script runs Godot in deterministic frame-capture mode (MovieWriter) at 60 FPS, transcodes raw frames to high-bitrate H.264 MP4, and multiplexes master audio with sample accuracy:
+Nemi's voice is **100% deterministic and permanently locked** to the official predefined voice actor **`sohee`** (`spk_id: 2864`) in Qwen3-TTS. It never suffers from speaker drift between takes or episodes.
 
+#### Model Details:
+* **Hugging Face Model ID**: `mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16`
+* **Runtime**: Apple Silicon MLX via `mlx-audio`
+* **Speaker ID**: `sohee` (predefined embedding hardcoded into talker weights)
+* **Sampling Rate**: `24,000 Hz` (PCM 16-bit uncompressed WAV)
+* **Canonical Persona Prompt**:
+  > *"Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful."*
+
+#### Sampling Parameters:
+* `temperature`: `0.7`
+* `top_k`: `50`
+* `top_p`: `0.95`
+* `repetition_penalty`: `1.05`
+
+#### Generation Commands:
 ```bash
-# Configure Godot binary path if not default
-export GODOT_BIN="/Applications/Godot.app/Contents/MacOS/Godot"
-export FFMPEG_BIN="ffmpeg"
+# 1. Audition the voice actors or regenerate Sohee test lines:
+python3 tools/audition_custom_voices.py
 
-# Execute the 4K rendering pipeline
-python3 tools/render_ep00_v3_3.py
+# 2. Synthesize complete episode voiceover (e.g. Episode 00):
+python3 tools/generate_nemi_voice.py \
+  --script nemi/episodes/ep00_introduction/script/script.md \
+  --output nemi/audio/nemi/intro \
+  --speaker sohee
 ```
-* **Output**: `episodes/ep00_introduction/previews/EP00_Introduction_V3_3_preview.mp4`
-* **Resolution**: 3840×2160 (Native 4K) @ 60 FPS.
-* **Audit Frames**: Automatically extracts audit frames into `v3_3_audit/` for frame-by-frame visual QA.
+* On first run, the model weights (~3.4 GB) are automatically fetched from Hugging Face into `~/.cache/huggingface/hub/` and cached permanently offline.
 
-### C. Voiceover Synthesis (Offline Local Qwen3-TTS)
-Generates voiceover segments using Apple Silicon MLX with the canonical **Sohee** voice actor:
+---
+
+### B. Brawl Stars Comedy Voices (Leon, Edgar & 11 Brawlers)
+
+The Brawl Stars comedy shorts use a **two-archetype derivation architecture** based on authentic comedic timing:
+
+* **Archetype 1 (Leon)**: Fast-talking manic agitator (`brawl_stars/voices/leon/selected/leon_anchor_master.wav`). Syllables/sec: `5.2–6.5`, pitch range: `180–320 Hz`.
+* **Archetype 2 (Edgar)**: Deadpan cynical skeptic (`brawl_stars/voices/edgar/selected/edgar_anchor_master.wav`). Syllables/sec: `3.8–4.5`, flat baseline: `110–145 Hz`.
+
+All 11 Brawlers are derived via pitch shifts and emotion prompts using [`brawl_stars/voices/generate_brawler.py`](brawl_stars/voices/generate_brawler.py):
+
+| Brawler | Base Anchor | Pitch Shift | Emotion / Style |
+|---|---|---|---|
+| **Leon** | `leon` | `0.0` st | Manic, fast, con-artist kid |
+| **Edgar** | `edgar` | `0.0` st | Flat cynical deadpan, unbothered |
+| **Colt** | `edgar` | `+2.0` st | Cocky pretty-boy gamer |
+| **Shelly** | `leon` | `+2.5` st | Tough, aggressive combat authority |
+| **Cosmo** | `leon` | `-0.5` st | Eccentric Starr Park astronomer |
+| **Kenji** | `edgar` | `-1.5` st | Stoic samurai sushi chef |
+| **Mortis** | `leon` | `-1.5` st | Theatrical melodramatic vampire |
+| **Crow** | `leon` | `-2.0` st | Raspy gritty rogue assassin |
+| **Fang** | `leon` | `+1.0` st | Hyperactive kung-fu movie fanboy |
+| **Piper** | `leon` | `+4.0` st | Sugary polite Southern belle sniper |
+| **Melodie** | `leon` | `+3.5` st | Sassy rhythmic K-pop diva |
+
+#### Generation Commands:
 ```bash
-python3 tools/generate_nemi_voice.py
+# Generate a Leon line:
+python3 brawl_stars/voices/generate_brawler.py \
+  --brawler leon \
+  --text "TRUST ME! I'M TELLING YOU IT'S FREE TROPHIES!" \
+  --emotion sudden_shock \
+  --output leon_shout.wav
+
+# Generate an Edgar line:
+python3 brawl_stars/voices/generate_brawler.py \
+  --brawler edgar \
+  --text "He died." \
+  --emotion deadpan \
+  --output edgar_deadpan.wav
+
+# Generate Crow (Leon base with -2.0 semitones):
+python3 brawl_stars/voices/generate_brawler.py \
+  --brawler crow \
+  --text "Don't mess with my crew." \
+  --output crow_line.wav
 ```
-* **Outputs**:
-  - `audio/nemi/intro/segments/*.wav` (individual spoken lines @ 24 kHz)
-  - `audio/nemi/intro/master/nemi_intro_voice_master.wav` (master audio track)
-  - `audio/nemi/intro/timing/nemi_intro_timing.json` (authoritative word alignment data)
 
-### D. Mixing SFX Audio
-Mixes the 43-cue SFX timeline against the voiceover track with calibrated headroom:
+---
+
+## 5. Audio Mastering & Sound Design
+
+Dialogue audio tracks are precision-mixed with sound effects using dedicated timeline mixers:
+
 ```bash
+# Mix Episode 00 SFX (36 cues) against master voice:
 python3 tools/mix_ep00_sfx.py
+
+# Mix Episode 01 SFX:
+python3 tools/mix_ep01_sfx.py
+
+# Mix Episode 03 SFX:
+python3 tools/mix_ep03_sfx.py
 ```
-* **Output**: `episodes/ep00_introduction/audio/EP00_audio_sfx_master.wav`
+* **Master Outputs**: `res://nemi/episodes/epXX_name/audio/EPXX_audio_sfx_master.wav` (48 kHz 24-bit stereo).
+* **Sound Effects Library**: 400+ CC0 / Public Domain sound effects categorized under `common/audio/sfx/` (cartoon, phone, food, gym, transitions, UI, comedic).
 
 ---
 
-## 5. Official Nemi Voice Profile (Qwen3-TTS CustomVoice: Sohee)
+## 6. Video Rendering Pipelines (Godot MovieWriter)
 
-> [!IMPORTANT]
-> **Kokoro was auditioned and rejected** in early prototyping due to mechanical cadence, unnatural sentence body flattening, and speaker drift.  
-> The **authoritative, permanent voice engine** for Nemi is **Qwen3-TTS 1.7B CustomVoice** running locally and offline via **Apple MLX** (`mlx-audio`), locked to the official predefined voice actor **Sohee** (`spk_id: 2864`).
+To produce broadcast-ready MP4s at deterministic frame rates without dropped frames:
 
-### Character Voice Specifications
-* **Engine**: Qwen3-TTS 1.7B CustomVoice (`mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16`)
-* **Voice Actor**: **Sohee** (Predefined Speaker Embedding: `2864`)
-* **Perceived Age**: **Around 24 years old** (young adult woman in her mid-20s). Must never sound like an anime child, high-pitched mascot, or corporate audiobook narrator.
-* **Pitch & Register**: **Natural medium chest-to-mid register**. Authentic feminine vocal range without artificial head-voice squeakiness.
-* **Tone & Persona**: **Warm, intelligent, approachable, authentic**. Sounds like a real friend sitting across a table sharing an embarrassing anecdote.
-* **Humor & Cadence**: **Deadpan honesty, conversational wit, and understatement**. Relies on natural pauses ($1.2\text{s}\text{--}1.8\text{s}$) rather than clownish pitch theatrics.
-* **Zero Identity Drift**: The neural speaker embedding (`2864`) is hardcoded into the talker weights, guaranteeing that Segment 001, Segment 026, and all future episodes maintain identical vocal tract acoustics.
+```bash
+# 1. Render Nemi Episode 00 in Native 4K @ 60 FPS:
+python3 tools/render_ep00_v3_3.py
 
-### Performance Directives & Emotional Modes
-| Emotional Mode | Speed | Pause | Vocal Characteristic | Example Script Line |
-|---|---|---|---|---|
-| **Baseline Conversational** | `1.00x` | `0.30s–0.40s` | Calm, relaxed, warm, friendly. | *"Hi. I’m Nemi. I’m 24."* |
-| **The Hook** | `1.05x` | `0.20s–0.25s` | Urgent, scroll-stopping, intimate. | *"Wait, wait, wait—listen to me."* |
-| **Excited / Hyperfocus** | `1.10x` | `0.20s–0.30s` | Brisk, forward-leaning, bright. | *"'How hard could that possibly be?'"* |
-| **Deadpan Realization** | `0.90x` | `1.20s–1.80s` | Flat, dry, restrained, lingering pause. | *"Half. A. Second."* / *"...In slow motion."* |
-| **Embarrassed Confession** | `0.95x` | `0.40s–0.60s` | Soft, hesitant, sheepish half-laugh. | *"...Except last Tuesday when the window was open..."* |
-| **Shock / Panic** | `1.15x` | `0.15s–0.25s` | Abrupt, sharp stop, rising tension. | *"Wait—did I leave the mic gain at 200%?!"* |
-| **Sincere / Outro** | `0.98x` | `0.35s–0.45s` | Soft, measured, direct eye contact. | *"If that sounds like something you’d enjoy... I’d love it if you stayed."* |
+# 2. Render Nemi Episode 01 (1080p @ 60 FPS):
+python3 tools/render_ep01.py
 
-For full acoustic benchmarks, scorecards, and setup commands, see:
-* **[`docs/nemi/Nemi_Voice_Profile.md`](docs/nemi/Nemi_Voice_Profile.md)**: Canonical vocal profile specification.
-* **[`docs/nemi/Nemi_TTS_Setup.md`](docs/nemi/Nemi_TTS_Setup.md)**: Local MLX setup and inference guide.
-* **[`docs/nemi/Nemi_Voice_Audition_Scorecard.md`](docs/nemi/Nemi_Voice_Audition_Scorecard.md)**: Comparative evaluation leading to Sohee's selection.
+# 3. Render Nemi Episode 03 (1080p @ 60 FPS):
+python3 tools/render_ep03.py
+
+# 4. Render Brawl Stars Short ("Ruffs' Revenge", 1080p @ 30 FPS):
+python3 tools/render_episode_ruffs_revenge.py
+
+# 5. Render Pokémon Character Showcase (1080p @ 30 FPS):
+python3 tools/render_pokemon_showcase.py
+```
+
+Outputs are saved directly into `renders/`.
 
 ---
 
-## 6. Core Production Principles (The Non-Negotiables)
+## 7. Master Documentation Directory
 
-Before animating or modifying any episode, review the **[Nemi Animation Production Bible](docs/animation/NEMI_ANIMATION_PRODUCTION_BIBLE.md)**. The key immutable laws are:
-
-1. **Nemi is a Storyteller, Not an Avatar**: Visuals exist to support the narration, not for meaningless decorative motion.
-2. **Live Rig Only (No AI Images)**: Nemi is animated strictly via her live Godot bone rig (`Skeleton2D`). **Never** generate Nemi poses, sprites, or expressions using image diffusion models.
-3. **Voice is the Master Clock**: All timing (lip-sync, subtitles, acting poses, camera snaps, and SFX) derives directly from the aligned audio waveform. Never guess timing from character counts.
-4. **Subtitles $\le 5$ Words**: Every subtitle card is strictly restricted to **maximum 5 words** (ideal: 2–4 words). Zero paragraph walls; no word-by-word karaoke bouncing.
-5. **Event SFX Restraint**: Sound effects are audio punctuation ($0.1\text{s}\text{--}2.0\text{s}$). Never run a continuous 30-second typing audio bed underneath dialogue.
-6. **BGM OFF by Default**: The canonical sound design is **Voice + Selective SFX + Intentional Silence**. Silence ($0.8\text{s}\text{--}1.8\text{s}$) is an active comedic punchline.
-7. **Progressive Inking for Doodles**: Doodles reveal along organic ink paths ($0\% \rightarrow \text{partial} \rightarrow 100\%$) with authored curves and zero per-frame random jitter.
-
----
-
-## 7. Master Documentation Index
-
-| Document | Path | Description |
+| Subject | Document | Path |
 |---|---|---|
-| **Animation Production Bible** | [`docs/animation/NEMI_ANIMATION_PRODUCTION_BIBLE.md`](docs/animation/NEMI_ANIMATION_PRODUCTION_BIBLE.md) | Universal master standard for directing, acting, timing, subtitles, SFX, and QA. |
-| **Character Bible** | [`docs/Nemi_Character_Bible.md`](docs/Nemi_Character_Bible.md) | Canonical character design, psychology, voice, comedic dynamics, and boundaries. |
-| **Official Voice Profile** | [`docs/nemi/Nemi_Voice_Profile.md`](docs/nemi/Nemi_Voice_Profile.md) | Qwen3-TTS Sohee vocal parameters, register, pitch, and performance directives. |
-| **Acting System Guide** | [`characters/nemi/documentation/NEMI_ACTING_SYSTEM_GUIDE.md`](characters/nemi/documentation/NEMI_ACTING_SYSTEM_GUIDE.md) | Procedural bone micro-acting, posture shifts, head tilts, and eye darts. |
-| **Expression FX Guide** | [`characters/nemi/documentation/NEMI_EXPRESSION_FX_GUIDE.md`](characters/nemi/documentation/NEMI_EXPRESSION_FX_GUIDE.md) | Reaction Toolkit, intensity scaling ($1\text{--}5$), and skeleton socket anchors. |
-| **Subtitle Visual Guide** | [`docs/Nemi_Subtitle_Visual_Guide.md`](docs/Nemi_Subtitle_Visual_Guide.md) | Typographic formatting and the $\le 5$-word card chunking standard. |
-| **SFX System Guide** | [`docs/audio/SFX_System_Guide.md`](docs/audio/SFX_System_Guide.md) | Event sound principles, mixing standards, and category registry. |
-| **SFX License Registry** | [`docs/audio/SFX_License_Registry.md`](docs/audio/SFX_License_Registry.md) | Complete CC0 / Public Domain provenance catalog for every audio asset. |
-| **Local TTS Setup Guide** | [`docs/nemi/Nemi_TTS_Setup.md`](docs/nemi/Nemi_TTS_Setup.md) | Apple Silicon MLX voice generation pipeline with Sohee configuration. |
+| **Nemi Animation** | Master Production Bible | [`nemi/docs/NEMI_ANIMATION_PRODUCTION_BIBLE.md`](nemi/docs/NEMI_ANIMATION_PRODUCTION_BIBLE.md) |
+| **Nemi Character** | Character Bible & Lore | [`nemi/docs/Nemi_Character_Bible.md`](nemi/docs/Nemi_Character_Bible.md) |
+| **Nemi Voice** | Canonical Sohee Voice Profile | [`nemi/docs/Nemi_Voice_Profile.md`](nemi/docs/Nemi_Voice_Profile.md) |
+| **Nemi Voice Setup** | Local Offline MLX TTS Guide | [`nemi/docs/Nemi_TTS_Setup.md`](nemi/docs/Nemi_TTS_Setup.md) |
+| **Brawl Stars Voices** | Voice System & Derivation Guide | [`brawl_stars/voices/VOICE_SYSTEM.md`](brawl_stars/voices/VOICE_SYSTEM.md) |
+| **Brawl Stars Comedy** | Comedy Scriptwriting Guide | [`brawl_stars/voices/COMEDY_SCRIPTWRITING_GUIDE.md`](brawl_stars/voices/COMEDY_SCRIPTWRITING_GUIDE.md) |
+| **Pokémon System** | Character System Guide | [`pokemon/docs/POKEMON_CHARACTER_SYSTEM_GUIDE.md`](pokemon/docs/POKEMON_CHARACTER_SYSTEM_GUIDE.md) |
+| **Sound Effects** | CC0 License Provenance Registry | [`common/audio/sfx/SFX_License_Registry.md`](docs/audio/SFX_License_Registry.md) |
 
 ---
 
-## 8. License & Asset Provenance
+## 8. License & IP Provenance
 
-* **Code & Architecture**: MIT License.
-* **Character Design & World IP**: Copyright © 2026 NemiStory. All rights reserved.
+* **Source Code & Pipelines**: MIT License.
+* **Character Designs & Universes**: Copyright © 2026 NemiStory. All rights reserved.
 * **Voice Model**: Qwen3-TTS CustomVoice (Apache 2.0 / Open Weights).
-* **Audio & Sound Effects**: Verified CC0 1.0 Universal / Public Domain (see [`docs/audio/SFX_License_Registry.md`](docs/audio/SFX_License_Registry.md)).
+* **Audio Assets & SFX**: Verified CC0 1.0 Universal / Public Domain.

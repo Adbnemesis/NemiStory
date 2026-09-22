@@ -4,7 +4,7 @@ extends SceneTree
 ## "Make Nemi lean backward, turn her head right, look left with her eyes,
 ## raise her right arm, bend her elbow, point, and look shocked."
 
-const NemiScene = preload("res://characters/nemi/nemi.tscn")
+const NemiScene = preload("res://nemi/characters/nemi/nemi.tscn")
 
 func _init() -> void:
 	print("--- Rendering Requested Shocked Pointing Pose ---")
@@ -32,7 +32,7 @@ func _init() -> void:
 		await process_frame
 	
 	# Output directory
-	var out_dir := "res://characters/nemi/renders/custom/"
+	var out_dir := "res://nemi/characters/nemi/renders/custom/"
 	DirAccess.make_dir_recursive_absolute(out_dir)
 	
 	# 1. Full Body Color

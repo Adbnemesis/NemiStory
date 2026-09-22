@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://nemi/episodes/ep03_scolded/props/PropHairdryer.gd" id="1_hairdryer"]
+
+[node name="PropHairdryer" type="Node2D"]
+script = ExtResource("1_hairdryer")

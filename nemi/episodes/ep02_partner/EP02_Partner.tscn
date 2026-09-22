@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://ep02_partner_master_scene"]
+
+[ext_resource type="Script" path="res://nemi/episodes/ep02_partner/EP02_Partner.gd" id="1_master"]
+
+[node name="EP02Partner" type="Node2D"]
+script = ExtResource("1_master")
+
+[node name="MasterAudio" type="AudioStreamPlayer" parent="."]
+
+[node name="BeatContainer" type="Node2D" parent="."]

@@ -6,7 +6,7 @@ extends SceneTree
 ## - Asserts positive audio duration
 ## - Validates AudioStreamPlayer audition playback
 
-const CATALOG_PATH := "res://audio/sfx/sfx_catalog.json"
+const CATALOG_PATH := "res://common/audio/sfx/sfx_catalog.json"
 
 func _init() -> void:
 	print("============================================================")

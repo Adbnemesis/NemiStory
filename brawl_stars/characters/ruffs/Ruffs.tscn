@@ -1,0 +1,40 @@
+[gd_scene load_steps=8 format=3 uid="uid://b1ruffs001rig"]
+
+[ext_resource type="Script" path="res://brawl_stars/characters/ruffs/Ruffs.gd" id="1_ruffs"]
+[ext_resource type="Script" path="res://brawl_stars/characters/ruffs/RuffsVisual.gd" id="2_vis"]
+[ext_resource type="Script" path="res://brawl_stars/characters/ruffs/parts/RuffsTorso.gd" id="3_torso"]
+[ext_resource type="Script" path="res://brawl_stars/characters/ruffs/parts/RuffsLimbs.gd" id="4_limbs"]
+[ext_resource type="Script" path="res://brawl_stars/characters/ruffs/parts/RuffsHead.gd" id="5_head"]
+[ext_resource type="Script" path="res://brawl_stars/characters/ruffs/parts/RuffsFace.gd" id="6_face"]
+[ext_resource type="Script" path="res://brawl_stars/characters/ruffs/parts/RuffsRightArm.gd" id="7_arm"]
+
+[node name="Ruffs" type="Node2D"]
+script = ExtResource("1_ruffs")
+
+[node name="RuffsVisual" type="Node2D" parent="."]
+script = ExtResource("2_vis")
+
+[node name="Limbs" type="Node2D" parent="RuffsVisual"]
+z_index = 1
+script = ExtResource("4_limbs")
+
+[node name="Torso" type="Node2D" parent="RuffsVisual"]
+position = Vector2(0, -45)
+z_index = 2
+script = ExtResource("3_torso")
+
+[node name="RightArm" type="Node2D" parent="RuffsVisual"]
+position = Vector2(0, -45)
+z_index = 6
+script = ExtResource("7_arm")
+
+[node name="HeadPivot" type="Node2D" parent="RuffsVisual"]
+position = Vector2(0, -85)
+z_index = 5
+
+[node name="Head" type="Node2D" parent="RuffsVisual/HeadPivot"]
+script = ExtResource("5_head")
+
+[node name="Face" type="Node2D" parent="RuffsVisual/HeadPivot"]
+z_index = 1
+script = ExtResource("6_face")

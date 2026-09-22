@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ruffssupplydrop001"]
+
+[ext_resource type="Script" path="res://brawl_stars/assets/props/RuffsSupplyDrop.gd" id="1_crate"]
+
+[node name="RuffsSupplyDrop" type="Node2D"]
+script = ExtResource("1_crate")

@@ -1,0 +1,17 @@
+{
+  "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "repo_id": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+  "model_version": "1.7B-CustomVoice-bf16",
+  "runtime": "mlx-audio",
+  "voice_identifier": "sohee",
+  "voice_design_prompt": "A 24-year-old storytime YouTuber recording casually into a nearby microphone late at night, talking to the audience like close friends. The delivery is extremely animated and expressive: energetic fast-paced rambling with sudden emphasis spikes on punchlines, playful upward inflections, dramatic gasps, whispered confessions, breathy nervous laughs, quick self-interruptions and wait-no recoveries, exaggerated reactions that instantly drop into a dry flat deadpan, and a sing-song teasing tone on jokes. Naturally imperfect human rhythm with false starts, filler words, audible breaths and mid-sentence topic jumps. Zero narrator tone, zero robotic evenness, zero monotone.",
+  "language": "English",
+  "sample_rate": 24000,
+  "output_format": "PCM 16-bit WAV",
+  "generation_date": "2026-09-21T13:51:09.617346Z",
+  "total_segments": 9,
+  "master_duration_seconds": 76.1,
+  "master_file": "ep04_scared_voice_master.wav",
+  "license": "Qwen Community License / Apache 2.0",
+  "delivery_standard": "V4 Dynamic storytime delivery; Sohee identity (spk 2864) locked"
+}

@@ -3,7 +3,7 @@ extends Node2D
 ## Vendored MIT addon used RUNTIME-ONLY (no editor plugin enabled, no addons/ touch).
 ## Render headless: Tools > Render A/B (editor) or --write-movie; dummy rasterizer can't render.
 
-const InkStrokeScript = preload("res://characters/nemi/drawing/InkStroke.gd")
+const InkStrokeScript = preload("res://nemi/characters/nemi/drawing/InkStroke.gd")
 const CurveUtil = preload("res://ToolkitTests/_support/BezierUtil.gd")
 const StrokePainter = preload("res://ToolkitTests/_support/StrokePainter.gd")
 const AASingleton = preload("res://ToolkitTests/_vendor/antialiased_line2d/texture.gd")

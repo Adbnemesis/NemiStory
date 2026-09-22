@@ -1,0 +1,30 @@
+{
+  "deadpan": {
+    "instruct": "Deadpan, completely flat matter-of-fact delivery, zero drama, totally calm.",
+    "energy": "low"
+  },
+  "dry_sarcasm": {
+    "instruct": "Understated dry sarcasm, flat conversational cynicism, subtle sarcastic deadpan, not theatrical.",
+    "energy": "normal"
+  },
+  "tired_annoyance": {
+    "instruct": "Tired, disappointed annoyance, short exasperated sighing tone, fed up with teammate.",
+    "energy": "low"
+  },
+  "whisper_disbelief": {
+    "instruct": "Soft breathy whisper of utter existential disbelief, stunned confusion.",
+    "energy": "low"
+  },
+  "chuckle": {
+    "instruct": "Quiet sarcastic chuckle or snort before speaking, cynical amused disbelief.",
+    "energy": "normal"
+  },
+  "casual": {
+    "instruct": "Casual, almost throwaway delivery, relaxed conversational speech among friends.",
+    "energy": "normal"
+  },
+  "explosive_shout": {
+    "instruct": "Genuine loss of composure, sudden desperate shout, cracking with exasperation.",
+    "energy": "extreme"
+  }
+}

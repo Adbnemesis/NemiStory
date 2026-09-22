@@ -4,32 +4,32 @@ extends SceneTree
 ## Validates Props, Environments, Doodles, Annotations, Camera, and Composition
 ## Asserts zero-error rendering and generates diagnostic proof captures.
 
-const WorldStyleScript = preload("res://world/style/WorldStyle.gd")
-const StoryEnvironmentScript = preload("res://world/backgrounds/WorldEnvironment.gd")
-const DoodleInstanceScript = preload("res://world/doodles/DoodleInstance.gd")
-const WorldDoodlesScript = preload("res://world/doodles/WorldDoodles.gd")
-const WorldAnnotationScript = preload("res://world/annotations/WorldAnnotation.gd")
-const StoryCamera2DScript = preload("res://world/camera/StoryCamera2D.gd")
-const StoryCompositionScript = preload("res://world/composition/StoryComposition.gd")
-const WorldSystemDirectorScript = preload("res://world/WorldSystemDirector.gd")
+const WorldStyleScript = preload("res://nemi/world/style/WorldStyle.gd")
+const StoryEnvironmentScript = preload("res://nemi/world/backgrounds/WorldEnvironment.gd")
+const DoodleInstanceScript = preload("res://nemi/world/doodles/DoodleInstance.gd")
+const WorldDoodlesScript = preload("res://nemi/world/doodles/WorldDoodles.gd")
+const WorldAnnotationScript = preload("res://nemi/world/annotations/WorldAnnotation.gd")
+const StoryCamera2DScript = preload("res://nemi/world/camera/StoryCamera2D.gd")
+const StoryCompositionScript = preload("res://nemi/world/composition/StoryComposition.gd")
+const WorldSystemDirectorScript = preload("res://nemi/world/WorldSystemDirector.gd")
 
 # All 10 Props
-const PropPhoneScript = preload("res://world/props/PropPhone.gd")
-const PropLaptopScript = preload("res://world/props/PropLaptop.gd")
-const PropCupScript = preload("res://world/props/PropCup.gd")
-const PropDeskScript = preload("res://world/props/PropDesk.gd")
-const PropChairScript = preload("res://world/props/PropChair.gd")
-const PropBookScript = preload("res://world/props/PropBook.gd")
-const PropBackpackScript = preload("res://world/props/PropBackpack.gd")
-const PropWaterBottleScript = preload("res://world/props/PropWaterBottle.gd")
-const PropSnackPacketScript = preload("res://world/props/PropSnackPacket.gd")
-const PropLampScript = preload("res://world/props/PropLamp.gd")
+const PropPhoneScript = preload("res://nemi/world/props/PropPhone.gd")
+const PropLaptopScript = preload("res://nemi/world/props/PropLaptop.gd")
+const PropCupScript = preload("res://nemi/world/props/PropCup.gd")
+const PropDeskScript = preload("res://nemi/world/props/PropDesk.gd")
+const PropChairScript = preload("res://nemi/world/props/PropChair.gd")
+const PropBookScript = preload("res://nemi/world/props/PropBook.gd")
+const PropBackpackScript = preload("res://nemi/world/props/PropBackpack.gd")
+const PropWaterBottleScript = preload("res://nemi/world/props/PropWaterBottle.gd")
+const PropSnackPacketScript = preload("res://nemi/world/props/PropSnackPacket.gd")
+const PropLampScript = preload("res://nemi/world/props/PropLamp.gd")
 
-const NemiScene = preload("res://characters/nemi/nemi.tscn")
-const WorldSystemTestScene = preload("res://world/test/WorldSystemTest.tscn")
+const NemiScene = preload("res://nemi/characters/nemi/nemi.tscn")
+const WorldSystemTestScene = preload("res://nemi/world/test/WorldSystemTest.tscn")
 
 var root_vp: Window
-var output_dir: String = "res://characters/nemi/renders/world"
+var output_dir: String = "res://nemi/characters/nemi/renders/world"
 
 func _init() -> void:
 	print("============================================================")

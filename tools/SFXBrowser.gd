@@ -10,7 +10,7 @@ extends SceneTree
 ## Usage (GUI):
 ##   Launch standalone scene or run in Godot editor.
 
-const CATALOG_PATH := "res://audio/sfx/sfx_catalog.json"
+const CATALOG_PATH := "res://common/audio/sfx/sfx_catalog.json"
 
 var _catalog: Array = []
 var _catalog_by_id: Dictionary = {}

@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Illustrated Storytelling Engine"
-run/main_scene="res://scenes/demo/poc_demo.tscn"
+run/main_scene="res://nemi/scenes/demo/poc_demo.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -19,8 +19,8 @@ config/icon="res://icon.svg"
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
-window/size/window_width_override=3840
-window/size/window_height_override=2160
+window/size/window_width_override=1920
+window/size/window_height_override=1080
 window/stretch/mode="canvas_items"
 window/stretch/aspect="keep"
 
@@ -32,7 +32,7 @@ movie_writer/disable_vsync=true
 
 [rendering]
 
-environment/defaults/default_clear_color=Color(1, 1, 1, 1)
+environment/defaults/default_clear_color=Color(0.980, 0.969, 0.961, 1)
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 

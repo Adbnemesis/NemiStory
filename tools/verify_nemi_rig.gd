@@ -1,12 +1,12 @@
 extends SceneTree
 
-const NemiStyleScript = preload("res://characters/nemi/NemiStyle.gd")
-const NemiScript = preload("res://characters/nemi/nemi.gd")
+const NemiStyleScript = preload("res://nemi/characters/nemi/NemiStyle.gd")
+const NemiScript = preload("res://nemi/characters/nemi/nemi.gd")
 
 func _init() -> void:
 	print("--- Starting Nemi Rig Verification Runner ---")
 	var root_viewport := root
-	var scene_res := load("res://characters/nemi/test/NemiRigTest.tscn")
+	var scene_res := load("res://nemi/characters/nemi/test/NemiRigTest.tscn")
 	var scene_inst: Node2D = scene_res.instantiate()
 	root_viewport.add_child(scene_inst)
 	

@@ -1,0 +1,20 @@
+{
+  "character": "Kenji",
+  "archetype": "Disciplined Sushi Chef Samurai / Stoic Anime Swordsman",
+  "project": "Cutenemi / Brawl Stars Animated Series",
+  "base_archetype": "edgar",
+  "model_repo": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16",
+  "voice_anchor": {
+    "ref_audio": "brawl_stars/voices/edgar/selected/edgar_anchor_master.wav",
+    "ref_text": "brawl_stars/voices/edgar/selected/edgar_anchor_master.txt",
+    "base_description": "Disciplined stoic sushi chef samurai, deadpan anime swordsman, low serious register, sharp honorable focus."
+  },
+  "generation_defaults": {
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "top_k": 50,
+    "sample_rate": 24000,
+    "target_peak_normalization": 0.92,
+    "pitch_semitones": -1.5
+  }
+}

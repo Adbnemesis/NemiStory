@@ -7,8 +7,8 @@ extends Node2D
 ## - Rig interaction and hand attachment via attach_to()
 ## - Camera close-up and visual weight verification
 
-const NemiPropLibrary = preload("res://world/props/NemiPropLibrary.gd")
-const NemiScene = preload("res://characters/nemi/nemi.tscn")
+const NemiPropLibrary = preload("res://nemi/world/props/NemiPropLibrary.gd")
+const NemiScene = preload("res://nemi/characters/nemi/nemi.tscn")
 
 var cam: Camera2D
 var nemi_instance: Node2D

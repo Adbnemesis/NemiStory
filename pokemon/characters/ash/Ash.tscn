@@ -1,0 +1,35 @@
+[gd_scene load_steps=7 format=3 uid="uid://c8m7k3p4v1w9x"]
+
+[ext_resource type="Script" path="res://pokemon/characters/ash/Ash.gd" id="1_ash"]
+[ext_resource type="Script" path="res://pokemon/characters/ash/AshVisual.gd" id="2_vis"]
+[ext_resource type="Script" path="res://pokemon/characters/ash/parts/AshTorso.gd" id="3_torso"]
+[ext_resource type="Script" path="res://pokemon/characters/ash/parts/AshLimbs.gd" id="4_limbs"]
+[ext_resource type="Script" path="res://pokemon/characters/ash/parts/AshHead.gd" id="5_head"]
+[ext_resource type="Script" path="res://pokemon/characters/ash/parts/AshFace.gd" id="6_face"]
+
+[node name="Ash" type="Node2D"]
+script = ExtResource("1_ash")
+
+[node name="AshVisual" type="Node2D" parent="."]
+script = ExtResource("2_vis")
+
+[node name="Torso" type="Node2D" parent="AshVisual"]
+position = Vector2(0, -95)
+z_index = 2
+script = ExtResource("3_torso")
+
+[node name="Limbs" type="Node2D" parent="AshVisual"]
+position = Vector2(0, -65)
+z_index = 3
+script = ExtResource("4_limbs")
+
+[node name="HeadPivot" type="Node2D" parent="AshVisual"]
+position = Vector2(0, -145)
+z_index = 5
+
+[node name="Head" type="Node2D" parent="AshVisual/HeadPivot"]
+script = ExtResource("5_head")
+
+[node name="Face" type="Node2D" parent="AshVisual/HeadPivot"]
+z_index = 2
+script = ExtResource("6_face")

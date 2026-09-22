@@ -1,0 +1,20 @@
+{
+  "character": "Colt",
+  "archetype": "Cocky Show-Off Gamer / Delusional Anime Protagonist",
+  "project": "Cutenemi / Brawl Stars Animated Series",
+  "base_archetype": "edgar",
+  "model_repo": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16",
+  "voice_anchor": {
+    "ref_audio": "brawl_stars/voices/edgar/selected/edgar_anchor_master.wav",
+    "ref_text": "brawl_stars/voices/edgar/selected/edgar_anchor_master.txt",
+    "base_description": "Confident, slightly flashy show-off gamer, brighter tone, cheerful comedic vanity, anime protagonist complex."
+  },
+  "generation_defaults": {
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "top_k": 50,
+    "sample_rate": 24000,
+    "target_peak_normalization": 0.92,
+    "pitch_semitones": 2.0
+  }
+}

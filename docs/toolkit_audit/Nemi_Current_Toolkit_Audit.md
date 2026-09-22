@@ -43,7 +43,7 @@ Legend: **A** = already strong, DO NOT replace · **B** = working but improvable
 | 8 | Camera | `StoryCamera2D` | **B** | presets, punch, shake, reframe |
 | 9 | Subtitles | Label-based + `subtitles.json` | **B** | functional, UI-level |
 | 10 | Episode pipeline | `EP00_Introduction` + 7 beats | **A** | locked 125.1s master |
-| 11 | Voice / TTS | Qwen3-TTS (Sohee) local pipeline | **A** | full master + timing data |
+| 11 | Voice / TTS | Qwen3-TTS (Sohee 1.7B) local pipeline | **A** | full master + timing data |
 | 12 | **SFX** | `audio/sfx/{library,procedural}/*` | **A** | 15 verified assets (11 Kenney CC0 + 4 procedural MIT) |
 | 13 | World VFX (ink bursts etc.) | doodles + FX elements | **B** | illustration-style, good |
 | 14 | Particles / shaders | *(none used)* | **C** | native options only |

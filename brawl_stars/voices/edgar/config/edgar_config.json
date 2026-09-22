@@ -1,0 +1,22 @@
+{
+  "character": "Edgar",
+  "archetype": "Deadpan Cynical Skeptic / Unbothered Slacker Gamer",
+  "project": "Cutenemi / Brawl Stars Animated Series",
+  "pipeline_version": "3.0.0",
+  "model_repo": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16",
+  "voice_anchor": {
+    "ref_audio": "brawl_stars/voices/edgar/selected/edgar_anchor_master.wav",
+    "ref_text": "brawl_stars/voices/edgar/selected/edgar_anchor_master.txt",
+    "base_description": "Young adult male gamer voice, low-mid register, relaxed demeanor, flat matter-of-fact delivery, subtle dry sarcasm, completely unbothered."
+  },
+  "generation_defaults": {
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "top_k": 50,
+    "repetition_penalty": 1.05,
+    "sample_rate": 24000,
+    "target_peak_normalization": 0.92,
+    "recommended_seed": 42,
+    "pitch_semitones": 0.0
+  }
+}

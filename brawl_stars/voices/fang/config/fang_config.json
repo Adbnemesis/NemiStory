@@ -1,0 +1,20 @@
+{
+  "character": "Fang",
+  "archetype": "Hyperactive Martial Arts Fanboy / Cinema Enthusiast",
+  "project": "Cutenemi / Brawl Stars Animated Series",
+  "base_archetype": "leon",
+  "model_repo": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16",
+  "voice_anchor": {
+    "ref_audio": "brawl_stars/voices/leon/selected/leon_anchor_master.wav",
+    "ref_text": "brawl_stars/voices/leon/selected/leon_anchor_master.txt",
+    "base_description": "High energy martial arts movie fanboy, rapid-fire cadence, loud and excited, shouting comedic sound effects."
+  },
+  "generation_defaults": {
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "top_k": 50,
+    "sample_rate": 24000,
+    "target_peak_normalization": 0.92,
+    "pitch_semitones": 1.0
+  }
+}

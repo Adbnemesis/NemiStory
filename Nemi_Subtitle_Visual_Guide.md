@@ -1,1 +1,0 @@
-docs/Nemi_Subtitle_Visual_Guide.md

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://observatorylab001"]
+
+[ext_resource type="Script" path="res://brawl_stars/assets/props/ObservatoryLab.gd" id="1_lab"]
+
+[node name="ObservatoryLab" type="Node2D"]
+script = ExtResource("1_lab")

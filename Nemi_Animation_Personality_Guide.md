@@ -1,1 +1,0 @@
-docs/Nemi_Animation_Personality_Guide.md

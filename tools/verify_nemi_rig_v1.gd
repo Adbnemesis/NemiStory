@@ -4,7 +4,7 @@ extends SceneTree
 ## Exercises all controller API methods, verifies zero image dependencies,
 ## tests novel posing and novel facial expressions, and captures high-res renders.
 
-const NemiRigTestScene = preload("res://characters/nemi/test/NemiRigTest.tscn")
+const NemiRigTestScene = preload("res://nemi/characters/nemi/test/NemiRigTest.tscn")
 
 func _init() -> void:
 	print("==================================================")
@@ -18,7 +18,7 @@ func _init() -> void:
 	var nemi: Nemi = test_instance.get_node_or_null("Nemi")
 	assert(nemi != null, "ERROR: Nemi node not found in test scene!")
 	
-	var out_dir := "res://characters/nemi/renders/rig_v1/"
+	var out_dir := "res://nemi/characters/nemi/renders/rig_v1/"
 	DirAccess.make_dir_recursive_absolute(out_dir)
 	
 	# Wait for ready and initialization

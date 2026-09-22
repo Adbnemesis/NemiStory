@@ -3,7 +3,7 @@ extends Node2D
 ## SVS runtime-only (no editor plugin): ScalableVectorShape2D + assigned Line2D.
 ## Render: open scene in editor, keys 1/2, or --write-movie (dummy can't render).
 
-const InkStrokeScript = preload("res://characters/nemi/drawing/InkStroke.gd")
+const InkStrokeScript = preload("res://nemi/characters/nemi/drawing/InkStroke.gd")
 const CurveUtil = preload("res://ToolkitTests/_support/BezierUtil.gd")
 const StrokePainter = preload("res://ToolkitTests/_support/StrokePainter.gd")
 const SVS = preload("res://ToolkitTests/_vendor/scalable_vector_shapes/scalable_vector_shape_2d.gd")
