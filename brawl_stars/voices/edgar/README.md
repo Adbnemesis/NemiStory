@@ -6,9 +6,15 @@
 
 ---
 
-## 1. Master Reference Anchors
+## 1. Master Reference Anchors & Source Provenance
 
-Edgar's voice is cloned from the master comedic performance anchor (`edgar_anchor_master.wav`).
+Edgar's voice is cloned from the master comedic performance of **The Trainer** in the viral animated comedy short:
+* **Title**: *"The Pokemon that wants to WASTE your Master Ball"* by **Gumbino**
+* **YouTube Video**: [`https://www.youtube.com/watch?v=FIvcwFBM2hg`](https://www.youtube.com/watch?v=FIvcwFBM2hg)
+* **Character Cloned**: The Trainer (Unbothered, flat cynical deadpan gamer rejecting level 50 nonsense)
+* **Cloning Model**: `mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16`
+* **Vocal Profile**: Narrow baseline pitch (110–145 Hz), deliberate speech cadence (3.8–4.5 syllables/sec), stunned hesitation entry (0.3–0.5s), flat downward pitch drop.
+* **Cloning Parameters**: `temperature=0.85`, `top_p=0.95`, `top_k=50`, `repetition_penalty=1.05`, `sample_rate=24000`, `peak_normalization=0.92`, `seed=42`.
 
 Master anchor files are located in [`brawl_stars/voices/edgar/selected/`](file:///Users/talus/Documents/adb/brawl_stars/voices/edgar/selected/):
 

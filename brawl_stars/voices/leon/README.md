@@ -6,9 +6,15 @@
 
 ---
 
-## 1. Master Reference Anchors
+## 1. Master Reference Anchors & Source Provenance
 
-Leon's voice is cloned from the master comedic performance anchor (`leon_anchor_master.wav`).
+Leon's voice is cloned from the master comedic performance of **Articuno** in the viral animated comedy short:
+* **Title**: *"The Pokemon that wants to WASTE your Master Ball"* by **Gumbino**
+* **YouTube Video**: [`https://www.youtube.com/watch?v=FIvcwFBM2hg`](https://www.youtube.com/watch?v=FIvcwFBM2hg)
+* **Character Cloned**: Articuno (Fast-talking, desperate, manic con-artist legendary bird)
+* **Cloning Model**: `mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16`
+* **Vocal Profile**: High pitch agility (180–320 Hz), rapid speech cadence (5.2–6.5 syllables/sec), breathless pre-utterance entry (0.05–0.15s), sudden cracking exclamations.
+* **Cloning Parameters**: `temperature=0.85`, `top_p=0.95`, `top_k=50`, `repetition_penalty=1.05`, `sample_rate=24000`, `peak_normalization=0.92`, `seed=42`.
 
 Master anchor files are located in [`brawl_stars/voices/leon/selected/`](file:///Users/talus/Documents/adb/brawl_stars/voices/leon/selected/):
 

@@ -168,10 +168,28 @@ python3 tools/generate_nemi_voice.py \
 
 ### B. Brawl Stars Comedy Voices (Leon, Edgar & 11 Brawlers)
 
-The Brawl Stars comedy shorts use a **two-archetype derivation architecture** based on authentic comedic timing:
+The Brawl Stars comedy shorts use a **two-archetype derivation architecture** based on authentic comedic timing cloned from a viral animated comedy short:
 
-* **Archetype 1 (Leon)**: Fast-talking manic agitator (`brawl_stars/voices/leon/selected/leon_anchor_master.wav`). Syllables/sec: `5.2–6.5`, pitch range: `180–320 Hz`.
-* **Archetype 2 (Edgar)**: Deadpan cynical skeptic (`brawl_stars/voices/edgar/selected/edgar_anchor_master.wav`). Syllables/sec: `3.8–4.5`, flat baseline: `110–145 Hz`.
+#### Source & Cloning Provenance:
+* **Original Video**: *"The Pokemon that wants to WASTE your Master Ball"* by **Gumbino** ([Watch on YouTube](https://www.youtube.com/watch?v=FIvcwFBM2hg)).
+* **Cloning Model**: `mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16` (Apple Silicon MLX GPU zero-shot voice cloning with prompt + reference audio).
+* **Archetype 1 — Leon**: Cloned from the **Articuno** character performance.
+  - *Acoustic Profile*: Fast-talking manic agitator con-artist; rapid cadence (`5.2–6.5 syllables/sec`), dynamic pitch range (`180–320 Hz`), breathless entry (`0.05–0.15s`), cracking exclamations.
+  - *Master Reference Audio*: [`brawl_stars/voices/leon/selected/leon_anchor_master.wav`](brawl_stars/voices/leon/selected/leon_anchor_master.wav) (3.45s)
+  - *Reference Transcript*: *"Wait! Come on, I'm telling you, I'm the guy you're looking for, me! Articuno! There's no one else worth using a Master Ball after this!"*
+* **Archetype 2 — Edgar**: Cloned from the **Trainer** character performance.
+  - *Acoustic Profile*: Deadpan cynical skeptic; deliberate cadence (`3.8–4.5 syllables/sec`), flat baseline pitch (`110–145 Hz`), stunned pre-speech hesitation (`0.3–0.5s`), flat downward drop into indifferent silence.
+  - *Master Reference Audio*: [`brawl_stars/voices/edgar/selected/edgar_anchor_master.wav`](brawl_stars/voices/edgar/selected/edgar_anchor_master.wav) (4.10s)
+  - *Reference Transcript*: *"But you're level 50, I'm pretty sure the main legendary Pokemon is usually like level 70 or something. Yeah, I'm not using my Master Ball on you."*
+
+#### Sampling & Cloning Parameters:
+* `temperature`: `0.85`
+* `top_p`: `0.95`
+* `top_k`: `50`
+* `repetition_penalty`: `1.05`
+* `sample_rate`: `24,000 Hz` (PCM 16-bit uncompressed WAV)
+* `target_peak_normalization`: `0.92`
+* `seed`: `42`
 
 All 11 Brawlers are derived via pitch shifts and emotion prompts using [`brawl_stars/voices/generate_brawler.py`](brawl_stars/voices/generate_brawler.py):
 

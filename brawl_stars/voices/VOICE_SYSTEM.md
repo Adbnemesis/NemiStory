@@ -1,6 +1,13 @@
 # Brawl Stars Comedy Voice System & Character Derivation Guide
 
-> **Core Philosophy**: Authentic comedy voice acting relies on sharp comedic contrast, believable timing, imperfect speech rhythms, and distinct archetypes. Rather than creating generic AI voices, our system is anchored by **two core comedic human voice actor archetypes** extracted from master reference comedy performances:
+> **Core Philosophy**: Authentic comedy voice acting relies on sharp comedic contrast, believable timing, imperfect speech rhythms, and distinct archetypes. Rather than creating generic AI voices, our system is anchored by **two core comedic human voice actor archetypes** extracted and cloned from master reference comedy performances:
+>
+> 🎥 **Original Source & Provenance**: Cloned from the viral animated comedy short:
+> * **Title**: *"The Pokemon that wants to WASTE your Master Ball"* by **Gumbino**
+> * **YouTube Video**: [`https://www.youtube.com/watch?v=FIvcwFBM2hg`](https://www.youtube.com/watch?v=FIvcwFBM2hg)
+> * **Voice Cloning Engine**: `mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16` (Apple Silicon MLX offline zero-shot voice cloning)
+> * **Archetype 1 (Leon)**: Cloned from the manic, fast-talking **Articuno** performance.
+> * **Archetype 2 (Edgar)**: Cloned from the unbothered, cynical **Trainer** performance.
 >
 > 📖 **Writing Comedy Scripts?** See the full [Brawl Stars Comedy Scriptwriting Bible (Gumbino & Solid jj Method)](file:///Users/talus/Documents/adb/brawl_stars/voices/COMEDY_SCRIPTWRITING_GUIDE.md) for scene structure, 5-beat rhythm, dialogue rules, and ready-to-render templates!
 
@@ -63,6 +70,19 @@ All reference anchors are clean 24kHz 16-bit PCM WAVs with verbatim reference tr
 1. [`edgar_anchor_master.wav`](file:///Users/talus/Documents/adb/brawl_stars/voices/edgar/selected/edgar_anchor_master.wav) (4.10s) — *"But you're level 50, I'm pretty sure the main legendary Pokemon is usually like level 70 or something. Yeah, I'm not using my Master Ball on you."*
 2. [`edgar_anchor_casual.wav`](file:///Users/talus/Documents/adb/brawl_stars/voices/edgar/selected/edgar_anchor_casual.wav) (3.30s) — *"Yeah, and I'll catch you with an Ultra Ball instead, wait."*
 3. [`edgar_anchor_annoyed.wav`](file:///Users/talus/Documents/adb/brawl_stars/voices/edgar/selected/edgar_anchor_annoyed.wav) (1.60s) — *"Hey, can you please stop flying around me?"*
+
+### Cloning Model & Hyperparameters
+* **Model ID**: `mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16`
+* **Inference Runtime**: Apple Silicon MLX GPU (`mlx-audio`)
+* **Voice Cloning Mode**: Zero-shot prompt-guided voice cloning via reference audio WAV + transcription TXT
+* **Default Hyperparameters**:
+  * `temperature`: `0.85`
+  * `top_p`: `0.95`
+  * `top_k`: `50`
+  * `repetition_penalty`: `1.05`
+  * `sample_rate`: `24,000 Hz` (PCM 16-bit uncompressed WAV)
+  * `target_peak_normalization`: `0.92`
+  * `seed`: `42`
 
 ---
 
