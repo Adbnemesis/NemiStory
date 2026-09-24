@@ -50,8 +50,14 @@ const NemiFXDirector = preload("res://nemi/characters/nemi/fx/NemiFXDirector.gd"
 # Style manager instance
 var style: NemiStyle = NemiStyle.new()
 
+# Preloaded Performance Director Script
+const NemiPerformanceDirectorScript = preload("res://nemi/characters/nemi/animation/NemiPerformanceDirector.gd")
+
 # Dedicated Illustrated Acting Director subsystem
 var actor: NemiActingDirector
+
+# Dedicated Human Performance Director subsystem
+var performance_director: Node
 
 # Dedicated Expression FX & Reaction Director subsystem
 var fx_director: NemiFXDirector
@@ -79,6 +85,9 @@ func _ready() -> void:
 	if not actor:
 		actor = NemiActingDirector.new(self)
 		add_child(actor)
+	if not performance_director:
+		performance_director = NemiPerformanceDirectorScript.new(self)
+		add_child(performance_director)
 	if not fx_director:
 		fx_director = NemiFXDirector.new(self)
 		add_child(fx_director)
@@ -90,6 +99,9 @@ func _ensure_nodes() -> void:
 	if not actor:
 		actor = NemiActingDirector.new(self)
 		add_child(actor)
+	if not performance_director:
+		performance_director = NemiPerformanceDirectorScript.new(self)
+		add_child(performance_director)
 	if not fx_director:
 		fx_director = NemiFXDirector.new(self)
 		add_child(fx_director)
@@ -230,9 +242,15 @@ func reset() -> void:
 
 ## Sets the character's pose via live rig transforms.
 ## If transition_time == 0.0, uses 0-frame snap cut (storytime style).
-func set_pose(pose_name: String, transition_time: float = 0.0) -> void:
+## If hierarchical == true, delegates to NemiPerformanceDirector for organic human timing.
+func set_pose(pose_name: String, transition_time: float = 0.0, hierarchical: bool = false) -> void:
 	_ensure_nodes()
 	current_pose_name = pose_name
+	
+	if hierarchical and transition_time > 0.0 and performance_director:
+		performance_director.perform_pose_transition(pose_name, transition_time)
+		return
+		
 	var pose_data: Dictionary = NemiPose.get_pose(pose_name)
 	
 	if _active_tween and _active_tween.is_valid():
@@ -244,6 +262,8 @@ func set_pose(pose_name: String, transition_time: float = 0.0) -> void:
 	else:
 		# Stepped / tween transition
 		_active_tween = create_tween().set_parallel(true)
+		if root_bone and "root_offset" in pose_data:
+			_active_tween.tween_property(root_bone, "position", pose_data["root_offset"], transition_time).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
 		_tween_bone(torso_bone, pose_data.get("torso_rot", 0.0), transition_time)
 		_tween_bone(neck_bone, pose_data.get("neck_rot", 0.0), transition_time)
 		_tween_bone(head_bone, pose_data.get("head_rot", 0.0), transition_time)
@@ -281,7 +301,22 @@ func set_pose(pose_name: String, transition_time: float = 0.0) -> void:
 	
 	pose_changed.emit(pose_name)
 
+## High-level human performance transition with anticipation, gaze leading, and settle
+func transition_pose(pose_name: String, duration: float = 0.28, with_anticipation: bool = true, with_overshoot: bool = true) -> void:
+	_ensure_nodes()
+	if performance_director:
+		performance_director.perform_pose_transition(pose_name, duration, with_anticipation, with_overshoot)
+	else:
+		set_pose(pose_name, duration)
+
+## Subtle contrapposto weight shift (left, right, or center)
+func shift_weight(side: String = "right", duration: float = 0.28) -> void:
+	_ensure_nodes()
+	if performance_director:
+		performance_director.shift_weight(side, duration)
+
 func _apply_pose_data(data: Dictionary) -> void:
+	if root_bone: root_bone.position = data.get("root_offset", Vector2.ZERO)
 	if torso_bone: torso_bone.rotation = data.get("torso_rot", 0.0)
 	if neck_bone: neck_bone.rotation = data.get("neck_rot", 0.0)
 	if head_bone: head_bone.rotation = data.get("head_rot", 0.0)
@@ -645,7 +680,7 @@ func reset_state() -> void:
 	reset()
 
 ## Arm control with specific angles and hand pose
-func set_arm(is_left: bool, upper_rot_deg: float, lower_rot_deg: float, hand_pose_str: String = "relaxed", transition_time: float = 0.0) -> void:
+func set_arm(is_left: bool, upper_rot_deg: float, lower_rot_deg: float, hand_pose_val = "relaxed", transition_time: float = 0.0) -> void:
 	_ensure_nodes()
 	var u_bone := left_upper_arm_bone if is_left else right_upper_arm_bone
 	var l_bone := left_lower_arm_bone if is_left else right_lower_arm_bone
@@ -663,7 +698,7 @@ func set_arm(is_left: bool, upper_rot_deg: float, lower_rot_deg: float, hand_pos
 		if l_bone: tw.tween_property(l_bone, "rotation", l_target, transition_time).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
 	
 	if h_vis:
-		set_hand_pose(is_left, hand_pose_str)
+		set_hand_pose(is_left, hand_pose_val)
 
 ## Leg control with specific angles
 func set_leg(is_left: bool, thigh_rot_deg: float, shin_rot_deg: float, foot_rot_deg: float, transition_time: float = 0.0) -> void:
@@ -686,21 +721,60 @@ func set_leg(is_left: bool, thigh_rot_deg: float, shin_rot_deg: float, foot_rot_
 		if s_bone: tw.tween_property(s_bone, "rotation", s_target, transition_time).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
 		if f_bone: tw.tween_property(f_bone, "rotation", f_target, transition_time).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
 
-## Sets hand gesture ("relaxed", "pointing", "fist", "open")
-func set_hand_pose(is_left: bool, pose_str: String) -> void:
+## Sets hand gesture (accepts String or NemiLimbPart.HandPose enum)
+func set_hand_pose(is_left: bool, pose) -> void:
 	_ensure_nodes()
 	var h_vis := left_hand_visual if is_left else right_hand_visual
 	if not h_vis: return
 	
-	match pose_str.to_lower():
+	if pose is int:
+		h_vis.set("hand_pose", pose)
+		return
+	
+	var pose_str: String = str(pose).to_lower()
+	match pose_str:
 		"pointing", "point":
 			h_vis.set("hand_pose", NemiLimbPart.HandPose.POINTING)
 		"fist", "clenched":
 			h_vis.set("hand_pose", NemiLimbPart.HandPose.FIST)
 		"open", "gesture", "palm":
 			h_vis.set("hand_pose", NemiLimbPart.HandPose.OPEN)
+		"open_palm_up", "shrug":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.OPEN_PALM_UP)
+		"finger_count_one", "count_one", "one":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.FINGER_COUNT_ONE)
+		"finger_count_two", "count_two", "two", "peace":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.FINGER_COUNT_TWO)
+		"finger_count_three", "count_three", "three":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.FINGER_COUNT_THREE)
+		"splayed_fingers", "splayed", "startled":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.SPLAYED_FINGERS)
+		"pinch":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.PINCH)
+		"hold_prop", "hold_phone", "grip":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.HOLD_PROP)
+		"hand_to_chest", "chest":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.HAND_TO_CHEST)
+		"hand_to_cheek", "cheek", "thinking":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.HAND_TO_CHEEK)
+		"hand_to_mouth", "mouth", "gasp":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.HAND_TO_MOUTH)
+		"facepalm":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.FACEPALM)
+		"hands_together", "prayer", "clasped":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.HANDS_TOGETHER)
+		"grip_strap":
+			h_vis.set("hand_pose", NemiLimbPart.HandPose.GRIP_STRAP)
 		_:
 			h_vis.set("hand_pose", NemiLimbPart.HandPose.RELAXED)
+
+## Sets left hand gesture (accepts String or NemiLimbPart.HandPose enum)
+func set_hand_pose_left(pose) -> void:
+	set_hand_pose(true, pose)
+
+## Sets right hand gesture (accepts String or NemiLimbPart.HandPose enum)
+func set_hand_pose_right(pose) -> void:
+	set_hand_pose(false, pose)
 
 ## Sets hair mass sway angles
 func set_hair_sway(back_deg: float, left_deg: float, right_deg: float, transition_time: float = 0.2) -> void:

@@ -16,10 +16,23 @@ enum LimbType {
 }
 
 enum HandPose {
-	RELAXED,
-	POINTING,
-	FIST,
-	OPEN
+	RELAXED,           # 0: Gentle resting curl
+	POINTING,          # 1: Clean index point, curled knuckles
+	FIST,              # 2: Clenched fist, thumb wrapped
+	OPEN,              # 3: Relaxed conversational open palm
+	OPEN_PALM_UP,      # 4: Shrug / explaining palm facing upward
+	FINGER_COUNT_ONE,  # 5: Single index finger straight up (counting)
+	FINGER_COUNT_TWO,  # 6: Two fingers up (peace / second point)
+	FINGER_COUNT_THREE,# 7: Three fingers up
+	SPLAYED_FINGERS,   # 8: Startled / wide panic splay
+	PINCH,             # 9: Precision pinch (thumb + index)
+	HOLD_PROP,         # 10: Curved grip for phone/mug/device
+	HAND_TO_CHEST,     # 11: Flat palm splayed against torso
+	HAND_TO_CHEEK,     # 12: Fingertips touching side of face / chin
+	HAND_TO_MOUTH,     # 13: Curled fingers shielding mouth in gasp/giggle
+	FACEPALM,          # 14: Spread palm pressed to forehead/eyes
+	HANDS_TOGETHER,    # 15: Pleading / clasped profile
+	GRIP_STRAP         # 16: Curled fingers holding bag/hoodie strap
 }
 
 @export var limb_type: LimbType = LimbType.UPPER_ARM
@@ -99,38 +112,52 @@ func _draw_hand() -> void:
 	
 	# Interior finger creases
 	var sign_x := -1.0 if is_left else 1.0
-	if hand_pose == HandPose.RELAXED:
-		var f1 := PackedVector2Array([Vector2(-sign_x * 4, 12), Vector2(-sign_x * 1, 20)])
-		var f2 := PackedVector2Array([Vector2(0, 14), Vector2(sign_x * 2, 22)])
-		var s1 := InkStroke.from_points(f1, style.detail_line_width, InkStroke.Profile.TAPER_BOTH, style.ink_line_color)
-		var s2 := InkStroke.from_points(f2, style.detail_line_width, InkStroke.Profile.TAPER_BOTH, style.ink_line_color)
-		s1.draw_to(self)
-		s2.draw_to(self)
-	elif hand_pose == HandPose.POINTING:
-		var k := PackedVector2Array([Vector2(-sign_x * 3, 14), Vector2(sign_x * 2, 14)])
-		var ks := InkStroke.from_points(k, style.detail_line_width, InkStroke.Profile.TAPER_BOTH, style.ink_line_color)
-		ks.draw_to(self)
-	elif hand_pose == HandPose.FIST:
-		var k1 := PackedVector2Array([Vector2(-sign_x * 4, 8), Vector2(-sign_x * 2, 14)])
-		var k2 := PackedVector2Array([Vector2(0, 8), Vector2(0, 15)])
-		var k3 := PackedVector2Array([Vector2(sign_x * 4, 8), Vector2(sign_x * 3, 14)])
-		var s1 := InkStroke.from_points(k1, style.detail_line_width, InkStroke.Profile.TAPER_BOTH, style.ink_line_color)
-		var s2 := InkStroke.from_points(k2, style.detail_line_width, InkStroke.Profile.TAPER_BOTH, style.ink_line_color)
-		var s3 := InkStroke.from_points(k3, style.detail_line_width, InkStroke.Profile.TAPER_BOTH, style.ink_line_color)
-		s1.draw_to(self)
-		s2.draw_to(self)
-		s3.draw_to(self)
-	elif hand_pose == HandPose.OPEN:
-		var o1 := PackedVector2Array([Vector2(-sign_x * 5, 6), Vector2(-sign_x * 3, 11)])
-		var o2 := PackedVector2Array([Vector2(-sign_x * 1, 10), Vector2(-sign_x * 0.5, 17)])
-		var o3 := PackedVector2Array([Vector2(sign_x * 2.5, 10), Vector2(sign_x * 3, 16)])
-		var s1 := InkStroke.from_points(o1, style.detail_line_width, InkStroke.Profile.TAPER_BOTH, style.ink_line_color)
-		var s2 := InkStroke.from_points(o2, style.detail_line_width, InkStroke.Profile.TAPER_BOTH, style.ink_line_color)
-		var s3 := InkStroke.from_points(o3, style.detail_line_width, InkStroke.Profile.TAPER_BOTH, style.ink_line_color)
-		s1.draw_to(self)
-		s2.draw_to(self)
-		s3.draw_to(self)
+	match hand_pose:
+		HandPose.RELAXED:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 4, 12), Vector2(-sign_x * 1, 20)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(0, 14), Vector2(sign_x * 2, 22)]))
+		HandPose.POINTING:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 3, 14), Vector2(sign_x * 2, 14)]))
+		HandPose.FIST:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 4, 8), Vector2(-sign_x * 2, 14)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(0, 8), Vector2(0, 15)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(sign_x * 4, 8), Vector2(sign_x * 3, 14)]))
+		HandPose.OPEN, HandPose.OPEN_PALM_UP:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 5, 6), Vector2(-sign_x * 3, 11)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 1, 10), Vector2(-sign_x * 0.5, 17)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(sign_x * 2.5, 10), Vector2(sign_x * 3, 16)]))
+		HandPose.FINGER_COUNT_ONE:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 3, 10), Vector2(sign_x * 2, 10)]))
+		HandPose.FINGER_COUNT_TWO:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 1, 12), Vector2(-sign_x * 0.5, 20)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(sign_x * 2, 9), Vector2(sign_x * 4, 9)]))
+		HandPose.FINGER_COUNT_THREE:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 3, 11), Vector2(-sign_x * 3, 19)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(sign_x * 1, 11), Vector2(sign_x * 1, 19)]))
+		HandPose.SPLAYED_FINGERS:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 4, 10), Vector2(-sign_x * 2, 18)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(0, 11), Vector2(0, 20)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(sign_x * 3, 10), Vector2(sign_x * 4, 17)]))
+		HandPose.PINCH:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 3, 8), Vector2(0, 14)]))
+		HandPose.HOLD_PROP:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 3, 8), Vector2(sign_x * 1, 13)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(0, 12), Vector2(sign_x * 3, 15)]))
+		HandPose.HAND_TO_CHEST, HandPose.HAND_TO_CHEEK, HandPose.FACEPALM:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 3, 9), Vector2(-sign_x * 1, 17)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(sign_x * 1, 10), Vector2(sign_x * 3, 16)]))
+		HandPose.GRIP_STRAP:
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 3, 9), Vector2(sign_x * 2, 9)]))
+			_draw_crease_stroke(PackedVector2Array([Vector2(-sign_x * 2, 13), Vector2(sign_x * 3, 13)]))
+		_:
+			pass
 	
 	# Hand calligraphic outer contour
 	var outline := InkStroke.from_points(poly + PackedVector2Array([poly[0]]), style.outer_contour_width, InkStroke.Profile.TAPER_BOTH, style.ink_line_color)
 	outline.draw_to(self)
+
+func _draw_crease_stroke(pts: PackedVector2Array, s: float = 1.32) -> void:
+	var scaled := PackedVector2Array()
+	for pt in pts:
+		scaled.append(pt * s)
+	InkStroke.from_points(scaled, style.detail_line_width, InkStroke.Profile.TAPER_BOTH, style.ink_line_color).draw_to(self)

@@ -24,11 +24,13 @@ __pycache__/
 **/previews/
 **/renders/*.mp4
 **/renders/*.avi
-*sfx_only.wav
-
-# Heavy background ambience audio stems
-common/audio/sfx/ambience/*.wav
-audio/sfx/ambience/*.wav
+# Audio files, stems, and Godot audio import metadata
+*.wav
+*.wav.import
+*.mp3
+*.mp3.import
+*.ogg
+*.ogg.import
 
 # Render outputs
 renders/raw_*

@@ -913,20 +913,191 @@ Before exporting and signing off on any final episode master, every box must be 
 
 ---
 
-## 32. Change Log
+## 33. Human Hand-Drawn Performance System
 
-### Version 1.0
+### 33.1 Core Philosophy: Hand-Drawn Acting vs. Rig Slop
+The goal of Nemi animation is **not** high-frequency continuous motion. The goal is:
+> **MAKE NEMI FEEL LIKE A REAL HUMAN CHARACTER BEING HAND-ANIMATED BY AN INTENTIONAL ARTIST.**
+
+Mechanical puppet rigs fail because:
+1. **Symmetric Stiff Poses**: Arms and legs mirroring each other like a mannequin.
+2. **Robotic Simultanous Motion**: All bones rotating on identical tween curves.
+3. **Continuous Drifting / Idle Bobbing**: Meaningless procedural "breathing" or camera swaying.
+4. **Simplistic Mitt Hands**: Hands that cannot express counting, chin-tapping, palm-shrugs, or phone grips.
+5. **Overly Perfect / Synthetic Doodles**: Mathematical circles or artificial pencil cursors.
+
+The Human Hand-Drawn Performance System enforces the classic animation traditions of Disney, Miyazaki, and master YouTube storytime creators (Swoozie, Domics, Jaiden, TheOdd1sOut).
+
+---
+
+### 33.2 Expressive 17-Pose Hand Library
+Hands are the emotional extensions of human speech. Nemi possesses 17 anatomically distinct hand silhouettes (`NemiLimbPart.HandPose`):
+
+| Enum ID | Pose Name | Anatomical Description | Directorial Use Case |
+| :--- | :--- | :--- | :--- |
+| `0` | `RELAXED` | Softly curled fingers with gentle separation | Baseline conversation, resting arm |
+| `1` | `POINTING` | Extended index finger, curled thumb & knuckles | Indicating props, doodles, directions |
+| `2` | `FIST` | Clenched knuckles with thumb wrapped | Determination, comedic frustration |
+| `3` | `OPEN` | Relaxed open palm with fanned fingers | Welcoming, explaining concepts |
+| `4` | `OPEN_PALM_UP`| Cupped palm facing upward | Shrug, conversational disbelief, "what?" |
+| `5` | `FINGER_COUNT_ONE`| Single index finger pointing upright | "First of all...", counting item 1 |
+| `6` | `FINGER_COUNT_TWO`| Index & middle finger V gesture | "Second point...", peace sign, counting 2 |
+| `7` | `FINGER_COUNT_THREE`| Three fingers extended upright | "Three of those were...", counting 3 |
+| `8` | `SPLAYED_FINGERS`| Wide panic spread of all 5 fingers | Panic recoil, startling revelations |
+| `9` | `PINCH` | Thumb and index tips touching | Precision detail, "just a tiny bit" |
+| `10`| `HOLD_PROP` | C-shaped curved grip | Holding phone, mug, stylus, or prop |
+| `11`| `HAND_TO_CHEST` | Open flat palm over heart | Sincerity, gratitude, shock recovery |
+| `12`| `HAND_TO_CHEEK` | Fingertips touching cheek/chin | Deep thought, reminiscing, questioning |
+| `13`| `HAND_TO_MOUTH` | Curled fingers loosely shielding mouth | Gasp, quiet giggle, embarrassed whisper |
+| `14`| `FACEPALM` | Spread palm covering eyes/forehead | Total defeat, comedic self-cringe |
+| `15`| `HANDS_TOGETHER`| Pleading clasped fingers | Asking audience, earnest wish |
+| `16`| `GRIP_STRAP` | Curled fingers hooked on bag strap | Shy confession, nervous fidgeting |
+
+#### Technical Specs:
+* **Geometry Scale**: Hand polygons are scaled by $1.32\times$ relative to standard bone lengths so fingers and silhouettes read crisply from medium shots.
+* **Calligraphic Line Treatment**: Every hand outline is drawn via `InkStroke` with tapered tips and internal knuckle/crease detail lines (`_draw_crease_stroke`).
+* **Sleeve Cuff Interface**: Hand roots emerge organically from inside the sleeve cuff band ($w \approx 20\text{px}$), maintaining seamless continuity across all rotations.
+
+---
+
+### 33.3 Asymmetric Performance Pose Library
+Mannequins stand symmetrically; humans stand asymmetrically. All 35+ storytelling poses in `NemiPose.gd` must adhere to **contrapposto**:
+* **Pelvis Shift**: Weight shifts to either the left or right hip (`root_offset.x = \pm 3\text{px to } 13\text{px}`).
+* **Spine Counter-Balance**: Torso tilts opposite to hip translation ($3^\circ\text{ to } 7^\circ$).
+* **Shoulder & Neck Counter-Tilt**: Neck and head tilt counter to torso rotation to keep gaze level with the audience.
+* **Leg Asymmetry**: Weight-bearing leg is nearly vertical; relaxed leg bends at the knee ($4^\circ\text{ to } 8^\circ$).
+* **Arm Height Asymmetry**: One arm handles the active speaking gesture; the secondary arm rests, grips the bag strap, or hangs at a completely different angle.
+
+---
+
+### 33.4 Hierarchical Performance Director
+Human movement never happens all at once. The `NemiPerformanceDirector.gd` orchestrates movement down a 7-stage physiological hierarchy:
+```
+1. ATTENTION / GAZE  (t = 0.00s) : Eyes dart to point of interest first (-120ms before head)
+2. ANTICIPATION      (t = 0.08s) : Torso/pelvis dip slightly in opposite direction
+3. PELVIS & LEGS     (t = 0.12s) : Weight shifts to supporting hip
+4. TORSO & SPINE     (t = 0.16s) : Upper body rotates into the action
+5. HEAD TILT         (t = 0.20s) : Head catches up and tilts toward target
+6. ARMS & HANDS      (t = 0.24s) : Arm unfurls (upper -> lower -> hand shape switch midway)
+7. SETTLE & HAIR     (t = 0.35s) : Secondary hair spring damping oscillates and settles
+```
+
+---
+
+### 33.5 Imperfect Hand-Drawn Doodles & Handwriting
+All on-screen annotations must look like they were drawn by an expressive human hand holding a felt-tip pen (`HumanDoodles.gd`):
+* **Overlapping Emphasis Circles**: Pen loops $\approx 1.32$ revolutions, creating an authentic $8\text{--}12\text{px}$ overshoot at the closure point with subtle hand wobble.
+* **Multi-Stroke Arrows**: Curved main shaft stroke followed by two rapid flick strokes for the barbs.
+* **Wobbly Editorial Underlines**: Gentle hand drift down and harmonic wobble underneath subtitles.
+* **Vector Calligraphic Text**: Expressive hand-lettered vector words (`"7 VIEWS"`, `"WHAT?!"`) revealed stroke by stroke.
+* **THE ZERO-TOOL RULE**: Never render pencils, brushes, stylus pens, or mouse cursors drawing lines. Doodles materialize organically along their stroke paths.
+
+---
+
+### 33.6 The Stillness Principle (>85% Hold Time)
+In high-end storytime animation:
+* **Stillness is a feature, not a bug.**
+* Over an 11.5-second sequence, character posture is held in rock-solid, motionless holds for $>85\%$ of the timeline.
+* **STRICTLY PROHIBITED**: Continuous breathing bobbing, idle sway, procedural micro-jitter, or drifting cameras during dialogue.
+* When Nemi holds a pose, her eyes and subtle micro-reactions (a soft blink or gentle $1.4^\circ$ head tilt) carry the human connection.
+
+---
+
+### 33.7 Change Log Additions
+
+### Version 2.0 (Master Humanization Upgrade)
 * **Date**: September 2026
 * **Author**: Antigravity Studio Engine Team
-* **Source Foundation**: Consolidated lessons, architectural specifications, and locked standards from the development of Nemi and Episode 00 (*"Wait, Listen to Me"*).
 * **Summary of Changes**:
-  - Established the definitive, universal 32-section Animation Production Bible.
-  - Formally locked Nemi's visual design, character proportions, and live Godot rig architecture.
-  - Codified the Voice Master Clock pipeline and audio-alignment timing architecture.
-  - Standardized the illustrative lip-sync model and emotion-override hierarchy.
-  - Enforced the hard $\le 5$-word subtitle rule and banned word-by-word karaoke bouncing.
-  - Formalized the 3-system separation: Expression FX (`NemiFXDirector.gd`), Props (`NemiPropLibrary.gd`), and Doodles (`NemiDoodleDirector.gd`).
-  - Banned automatic ellipsis FX and automated reaction marks; established explicit-only FX triggers.
-  - Standardized Event SFX duration bounds ($0.1\text{s}\text{--}2.0\text{s}$) and banned continuous 30-second typing audio beds.
-  - Set BGM as OFF by default; elevated intentional silence as a first-class comedic punchline tool.
-  - Codified the 18-step episode workflow and the mandatory 6-Way QA Audit.
+  - Implemented the 17-pose Expressive Hand System (`NemiLimbPart.gd`, `NemiGeometry.gd`).
+  - Implemented the 35+ storytelling pose library with contrapposto and root offsets (`NemiPose.gd`).
+  - Built `NemiPerformanceDirector.gd` enforcing hierarchical anticipation, gaze leading, and secondary settle.
+  - Implemented `HumanDoodles.gd` for 100% vector hand-drawn doodles without artificial drawing cursors.
+  - Built and verified the standalone 10-shot `HumanizationBenchmark.tscn` (11.5s Sohee voice slice, 1080p @ 30 FPS progressive).
+  - Passed all 5 visual QA audits: Failure Test, AI Slop Check, Freeze-Frame Test, Mute Test, and Audio-Only Sync Test.
+
+---
+
+### 33.8 Hand-Drawn Studio Furniture & Environment Integration (V2)
+
+In V2, Nemi no longer floats in an abstract void. The physical environment grounds her acting through authentic hand-drawn studio furniture (`HumanProps.gd`):
+
+* **StoryChair (`StoryChair`)**:
+  - **Directorial Intent**: A warm, lived-in wooden studio chair.
+  - **Structural Components**: 5 backrest spindles with organic ink thickness, curved top rail, contoured seat platter at $Y=440$, 4 splayed legs terminating on the floor plane ($Y=580$), and a front foot-rest rung at $Y=528$.
+  - **Anatomical Seated Interface**: Seated poses (`seated_at_desk_relaxed`, `seated_desk_lean`, `shocked_analytics_freeze`) feature forward-projected thighs (`thigh_rot = -72^\circ`) and downward shins (`shin_rot = +70^\circ`), placing Nemi's feet comfortably on the chair rung at $Y=528$ rather than dangling or projecting backwards.
+* **StoryDesk (`StoryDesk`)**:
+  - **Directorial Intent**: A creator workspace anchoring props, laptops, and coffee cups.
+  - **Structural Components**: Solid pine desk surface spanning $X=590$ to $X=1130$ at height $Y=440$, subtle apron depth shadow, and warm cream grain accents.
+  - **Built-in Hand-Drawn Vector Accessories**:
+    - **Creator Laptop**: Open clamshell chassis at $(1020, 440)$ with glowing screen displaying hand-drawn analytics bar charts in coral, blue, and emerald ink.
+    - **Ceramic Coffee Mug**: Lived-in coral ceramic mug at $(790, 440)$ with warm coffee fill and delicate, rising steam swirls.
+    - **Phone Rest Spot**: Dedicated flat surface at $(655, 432)$ where the smartphone rests when not held.
+
+---
+
+### 33.9 Physical Prop Lifecycle & Hand-to-Hand Attachment (V2)
+
+Props are physical objects governed by cause-and-effect storytelling, not decorative stickers floating in space:
+
+* **The 4-Stage Prop Lifecycle**:
+  $$\boxed{\textbf{RESTING ON SURFACE}} \longrightarrow \boxed{\textbf{PHYSICAL PICKUP}} \longrightarrow \boxed{\textbf{HELD PERFORMANCE}} \longrightarrow \boxed{\textbf{DELIBERATE RETURN / STOW}}$$
+* **StoryPhone (`StoryPhone`)**:
+  - **Physical Attachment Engine**: The phone features dynamic `attach_to_hand(hand_node, offset, angle)` and `detach(target_global_pos)` methods.
+  - **Pick-Up Anticipation**: Before picking up the phone, Nemi looks down at the desk (-120ms), extends her arm downwards with an open grip, and snaps into the `HOLD_PROP` hand pose on contact.
+  - **Held Performance**: While held, the phone follows hand and wrist rotation naturally, displaying active vector screen states (`ANALYTICS_NOTIF`, `VIEWS_RECAP`).
+  - **Deliberate Release**: In Beat 4, when transitioning to a two-handed standing monologue, Nemi detaches the phone and returns it to the desk surface at $(655, 432)$. Both hands are then freed for authentic gesturing (e.g. `counting_three` in Beat 7) without silhouette clutter.
+  - **Payoff Pickup**: In Beat 8, Nemi picks up the phone from the desk again to deliver the confession (*"...from my own phone"*), demonstrating full cause-and-effect continuity.
+
+---
+
+### 33.10 Deliberate Hand-Drawn Variants (No Mechanical Clones)
+
+To eliminate any impression of computerized asset duplication:
+* **Triple-Variant Architecture**: Recurring doodle concepts (arrows, circles, underlines, exclamation marks) must supply at least three distinct hand-authored vector variants:
+  - **Variant A**: Snappy, confident line with slight terminal taper.
+  - **Variant B**: Broader, hurried loop with energetic overshoot.
+  - **Variant C**: Deliberate, layered double-stroke emphasis.
+* **Zero Mechanical Symmetry**: In multi-item displays (e.g. three tally marks, multiple comments), each item is offset with organic angle variations ($\pm 2^\circ\text{ to } 5^\circ$) and subtle stroke length differences.
+* **Vector Stroke Trajectories**: All reveals calculate length along piecewise bezier curves; zero straight-line raster wipes.
+
+---
+
+### 33.11 Master Benchmark V2 (16.82s) Specification & 20-Point Audit
+
+The V2 Humanization Benchmark (`HumanizationBenchmarkV2.tscn`) tests the complete 16.82-second narrative arc at **1920×1080 @ 30 FPS progressive**:
+
+```
+BEAT 01 [0.00s - 1.80s] : Relaxed Seated Setup (Nemi at desk, chair, laptop, coffee, phone on desk)
+BEAT 02 [1.80s - 3.20s] : Physical Prop Pickup (Arm reaches down, phone attaches to right hand)
+BEAT 03 [3.20s - 4.90s] : Comedic Shock Freeze (Eyes widen, jaw drops, analytics screen illuminated)
+BEAT 04 [4.90s - 6.80s] : Reflective Shift (Nemi stands up beside desk, phone returned to desk surface)
+BEAT 05 [6.80s - 8.40s] : Exhausted Memory Gesture (Heavy sigh, weight shift, open right space)
+BEAT 06 [8.40s - 10.10s]: Live Hand-Drawn Doodle Reveal ("7 VIEWS" cursive reveal, 0 pencil cursors)
+BEAT 07 [10.10s - 11.90s]: Confession Three-Finger Count (Camera punch-in, clear 3-finger silhouette)
+BEAT 08 [11.90s - 13.50s]: Sheepish Phone Confession (Picks up phone again, soft blush marks)
+BEAT 09 [13.50s - 15.20s]: Deadpan Comedy Hold (Absolute stillness, straight dash mouth, lens stare)
+BEAT 10 [15.20s - 16.82s]: Subtle Micro-Reaction (Gentle sheepish smile, soft blink, final settle)
+```
+
+#### The 20-Point Master Humanization Audit Checklist:
+1. [x] **Character Proportions**: Locked model sheet strictly honored; no AI image generator warping.
+2. [x] **Grounded Contact Line**: Standing poses rest firmly on floor plane ($Y=580$).
+3. [x] **Chair Anatomy**: Legs and spindles properly drawn; seated thighs project forward with feet on rung ($Y=528$).
+4. [x] **Desk Surface Consistency**: Desk, laptop, and mug align at exact height ($Y=440$).
+5. [x] **Physical Prop Pickup**: Phone transitions from desk resting state to hand grip with anticipatory reach.
+6. [x] **Hand Attachment Precision**: Phone stays locked to hand bone without floating or wrist disconnection.
+7. [x] **Prop Release & Lifecycle**: Phone returns to desk before standing monologue, freeing hands for clean gestures.
+8. [x] **Hand Silhouette Clarity**: `counting_three` gesture reads unmistakably against cream negative space.
+9. [x] **Contrapposto Weight Shift**: Asymmetric hips and counter-tilted spine in standing poses.
+10. [x] **Gaze Precedence**: Eyes dart to target before head turns.
+11. [x] **Hierarchical Unfurling**: Upper arm leads forearm, forearm leads wrist/hand.
+12. [x] **Secondary Hair Settle**: Hair tips damp naturally after posture shifts.
+13. [x] **Live Lip-Sync Syllables**: Visemes track live speech syllables; mouth snaps shut on pauses.
+14. [x] **Zero Idle Bobbing**: Postures hold in rock-solid stillness (>85% timeline hold time).
+15. [x] **Zero Drawing Cursors**: Doodles reveal along stroke paths; zero pencils, styluses, or brushes.
+16. [x] **Organic Linework Variation**: Linework exhibits hand-authored pressure and subtle organic wobble.
+17. [x] **Negative Space Staging**: Character positioned on left third; doodles and props staged on right third.
+18. [x] **Deadpan Silence Hold**: Absolute freeze-frame stillness during comedic pauses.
+19. [x] **Mute Test**: Emotional story and punchlines 100% understandable without audio.
+20. [x] **Audio-Only Test**: Voice performance and comedic pauses remain engaging without visuals.

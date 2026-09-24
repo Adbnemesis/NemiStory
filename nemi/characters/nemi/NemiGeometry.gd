@@ -644,6 +644,114 @@ static func get_hand_polygon(hand_pose: int, is_left: bool = true) -> PackedVect
 			c.add_point(Vector2(5, 18), Vector2(-1, 1), Vector2(1, -1))  # Ring tip
 			c.add_point(Vector2(8, 14), Vector2(0, 2), Vector2(0, -2))   # Pinky tip
 			c.add_point(Vector2(5, 0), Vector2(1, 3), Vector2(0, 0))     # Outer wrist
+		4: # OPEN_PALM_UP (Shrug / explaining palm facing upward)
+			c.add_point(Vector2(-6, 0), Vector2(0, 0), Vector2(-2, 2))
+			c.add_point(Vector2(-10, 6), Vector2(1, -2), Vector2(2, 2))  # Thumb flared out
+			c.add_point(Vector2(-9, 13), Vector2(-2, -1), Vector2(2, 1))
+			c.add_point(Vector2(-4, 18), Vector2(-2, -2), Vector2(2, 1)) # Cupped palm
+			c.add_point(Vector2(2, 18), Vector2(-1, 0), Vector2(2, -1))
+			c.add_point(Vector2(7, 15), Vector2(-1, 1), Vector2(1, -2))
+			c.add_point(Vector2(6, 0), Vector2(1, 3), Vector2(0, 0))
+		5: # FINGER_COUNT_ONE (Single index finger extended upright, thumb curled)
+			c.add_point(Vector2(-4, 0), Vector2(0, 0), Vector2(-2, 3))
+			c.add_point(Vector2(-7, 6), Vector2(1, -2), Vector2(1, 2))   # Curled thumb
+			c.add_point(Vector2(-4, 10), Vector2(-1, -1), Vector2(1, 1))
+			c.add_point(Vector2(-2, 24), Vector2(-1, -4), Vector2(1, 0)) # Tall index finger
+			c.add_point(Vector2(2, 24), Vector2(-1, 0), Vector2(1, -4))
+			c.add_point(Vector2(3, 10), Vector2(0, 3), Vector2(0, -2))   # Curled middle/ring
+			c.add_point(Vector2(5, 8), Vector2(0, 2), Vector2(0, -2))
+			c.add_point(Vector2(4, 0), Vector2(1, 2), Vector2(0, 0))
+		6: # FINGER_COUNT_TWO (Index & Middle fingers extended upright in V, peace/second point)
+			c.add_point(Vector2(-5, 0), Vector2(0, 0), Vector2(-2, 2))
+			c.add_point(Vector2(-7, 7), Vector2(1, -2), Vector2(1, 1))
+			c.add_point(Vector2(-5, 10), Vector2(-1, -1), Vector2(1, 1))
+			c.add_point(Vector2(-4, 23), Vector2(-1, -3), Vector2(1, 0)) # Index finger
+			c.add_point(Vector2(-1, 22), Vector2(-1, 0), Vector2(1, -3)) # V valley
+			c.add_point(Vector2(2, 24), Vector2(-1, -3), Vector2(1, 0))  # Middle finger
+			c.add_point(Vector2(5, 22), Vector2(-1, 0), Vector2(0, -3))
+			c.add_point(Vector2(5, 9), Vector2(0, 2), Vector2(0, -2))    # Curled pinky/ring
+			c.add_point(Vector2(4, 0), Vector2(1, 2), Vector2(0, 0))
+		7: # FINGER_COUNT_THREE (Three fingers up)
+			c.add_point(Vector2(-5, 0), Vector2(0, 0), Vector2(-2, 2))
+			c.add_point(Vector2(-8, 6), Vector2(1, -2), Vector2(1, 1))
+			c.add_point(Vector2(-6, 9), Vector2(-1, -1), Vector2(1, 1))
+			c.add_point(Vector2(-5, 22), Vector2(-1, -3), Vector2(1, 0)) # Index
+			c.add_point(Vector2(-1, 23), Vector2(-1, -3), Vector2(1, 0)) # Middle
+			c.add_point(Vector2(3, 21), Vector2(-1, -3), Vector2(1, 0))  # Ring
+			c.add_point(Vector2(6, 12), Vector2(0, 2), Vector2(0, -2))   # Curled pinky
+			c.add_point(Vector2(4, 0), Vector2(1, 2), Vector2(0, 0))
+		8: # SPLAYED_FINGERS (Startled / comedic panic wide spread of all fingers)
+			c.add_point(Vector2(-6, 0), Vector2(0, 0), Vector2(-3, 2))
+			c.add_point(Vector2(-12, 6), Vector2(1, -3), Vector2(2, 2))  # Thumb spread wide
+			c.add_point(Vector2(-10, 14), Vector2(-1, -1), Vector2(2, 2))
+			c.add_point(Vector2(-5, 23), Vector2(-2, -3), Vector2(1, 1)) # Index splayed
+			c.add_point(Vector2(0, 25), Vector2(-1, 0), Vector2(1, -1))  # Middle long
+			c.add_point(Vector2(6, 22), Vector2(-1, 1), Vector2(1, -2))  # Ring splayed
+			c.add_point(Vector2(11, 16), Vector2(-1, 2), Vector2(0, -3)) # Pinky wide
+			c.add_point(Vector2(5, 0), Vector2(2, 3), Vector2(0, 0))
+		9: # PINCH (Thumb and index meeting in precision gesture)
+			c.add_point(Vector2(-4, 0), Vector2(0, 0), Vector2(-2, 2))
+			c.add_point(Vector2(-7, 7), Vector2(1, -2), Vector2(2, 2))
+			c.add_point(Vector2(-1, 16), Vector2(-2, -2), Vector2(1, 1)) # Pinch tip meeting
+			c.add_point(Vector2(2, 15), Vector2(-1, 1), Vector2(1, -2))
+			c.add_point(Vector2(5, 11), Vector2(0, 2), Vector2(0, -2))   # Relaxed curl
+			c.add_point(Vector2(4, 0), Vector2(1, 2), Vector2(0, 0))
+		10: # HOLD_PROP (C-grip fingers holding phone, cup, or stylus)
+			c.add_point(Vector2(-5, 0), Vector2(0, 0), Vector2(-2, 2))
+			c.add_point(Vector2(-9, 7), Vector2(1, -2), Vector2(1, 3))   # Thumb curved around
+			c.add_point(Vector2(-6, 14), Vector2(-2, -1), Vector2(2, 0))
+			c.add_point(Vector2(-1, 15), Vector2(-2, 0), Vector2(2, 1))
+			c.add_point(Vector2(5, 16), Vector2(-1, -1), Vector2(2, -2)) # Curled grip fingers
+			c.add_point(Vector2(7, 10), Vector2(0, 2), Vector2(0, -2))
+			c.add_point(Vector2(5, 0), Vector2(1, 2), Vector2(0, 0))
+		11: # HAND_TO_CHEST (Open flat palm held softly over heart/torso)
+			c.add_point(Vector2(-5, 0), Vector2(0, 0), Vector2(-2, 2))
+			c.add_point(Vector2(-8, 5), Vector2(1, -2), Vector2(1, 2))
+			c.add_point(Vector2(-6, 12), Vector2(-1, -1), Vector2(1, 1))
+			c.add_point(Vector2(-2, 19), Vector2(-2, -2), Vector2(1, 0)) # Fingers grouped softly
+			c.add_point(Vector2(2, 20), Vector2(-1, 0), Vector2(1, -1))
+			c.add_point(Vector2(5, 17), Vector2(-1, 0), Vector2(0, -2))
+			c.add_point(Vector2(4, 0), Vector2(1, 2), Vector2(0, 0))
+		12: # HAND_TO_CHEEK (Fingertips touching cheek/chin in contemplation)
+			c.add_point(Vector2(-4, 0), Vector2(0, 0), Vector2(-2, 2))
+			c.add_point(Vector2(-7, 6), Vector2(1, -2), Vector2(1, 2))
+			c.add_point(Vector2(-4, 12), Vector2(-1, -1), Vector2(1, 2))
+			c.add_point(Vector2(0, 21), Vector2(-1, -3), Vector2(1, 0))  # Extended fingertips
+			c.add_point(Vector2(3, 20), Vector2(-1, 0), Vector2(1, -2))
+			c.add_point(Vector2(5, 14), Vector2(0, 2), Vector2(0, -2))
+			c.add_point(Vector2(4, 0), Vector2(1, 2), Vector2(0, 0))
+		13: # HAND_TO_MOUTH (Curled fingers loosely shielding mouth in giggle or gasp)
+			c.add_point(Vector2(-4, 0), Vector2(0, 0), Vector2(-2, 2))
+			c.add_point(Vector2(-7, 7), Vector2(1, -2), Vector2(1, 2))
+			c.add_point(Vector2(-3, 14), Vector2(-2, -1), Vector2(2, 1))
+			c.add_point(Vector2(3, 15), Vector2(-2, 1), Vector2(2, -2))
+			c.add_point(Vector2(6, 10), Vector2(1, 2), Vector2(-1, -2))
+			c.add_point(Vector2(4, 0), Vector2(1, 2), Vector2(0, 0))
+		14: # FACEPALM (Flat spread hand pressed against forehead/eyes)
+			c.add_point(Vector2(-6, 0), Vector2(0, 0), Vector2(-2, 2))
+			c.add_point(Vector2(-10, 5), Vector2(1, -2), Vector2(2, 2))
+			c.add_point(Vector2(-8, 13), Vector2(-2, -1), Vector2(1, 2))
+			c.add_point(Vector2(-3, 22), Vector2(-2, -3), Vector2(1, 1))
+			c.add_point(Vector2(1, 23), Vector2(-1, 0), Vector2(1, -1))
+			c.add_point(Vector2(6, 20), Vector2(-1, 1), Vector2(1, -2))
+			c.add_point(Vector2(8, 14), Vector2(0, 2), Vector2(0, -2))
+			c.add_point(Vector2(5, 0), Vector2(1, 3), Vector2(0, 0))
+		15: # HANDS_TOGETHER (Prayer / pleading hand profile)
+			c.add_point(Vector2(-3, 0), Vector2(0, 0), Vector2(-1, 2))
+			c.add_point(Vector2(-5, 6), Vector2(1, -2), Vector2(1, 2))
+			c.add_point(Vector2(-3, 12), Vector2(-1, -1), Vector2(1, 1))
+			c.add_point(Vector2(0, 21), Vector2(-1, -3), Vector2(1, 0))  # Slender aligned fingertips
+			c.add_point(Vector2(3, 20), Vector2(-1, 0), Vector2(1, -2))
+			c.add_point(Vector2(4, 10), Vector2(0, 2), Vector2(0, -2))
+			c.add_point(Vector2(3, 0), Vector2(1, 2), Vector2(0, 0))
+		16: # GRIP_STRAP (Curled fingers gripping bag strap or hoodie drawstring)
+			c.add_point(Vector2(-4, 0), Vector2(0, 0), Vector2(-2, 2))
+			c.add_point(Vector2(-7, 6), Vector2(1, -2), Vector2(1, 2))   # Thumb curled over strap
+			c.add_point(Vector2(-5, 12), Vector2(-1, -1), Vector2(2, 1))
+			c.add_point(Vector2(-1, 16), Vector2(-2, -1), Vector2(2, 0)) # Hooked fingers
+			c.add_point(Vector2(4, 15), Vector2(-1, 1), Vector2(1, -2))
+			c.add_point(Vector2(5, 9), Vector2(0, 2), Vector2(0, -2))
+			c.add_point(Vector2(4, 0), Vector2(1, 2), Vector2(0, 0))
 		_: # RELAXED (Gentle natural fingers with soft grouping)
 			c.add_point(Vector2(-4, 0), Vector2(0, 0), Vector2(-2, 2))
 			c.add_point(Vector2(-8, 6), Vector2(1, -2), Vector2(1, 2))  # Thumb knuckle
@@ -652,6 +760,11 @@ static func get_hand_polygon(hand_pose: int, is_left: bool = true) -> PackedVect
 			c.add_point(Vector2(2, 19), Vector2(-1, 0), Vector2(1, -1))  # Middle tip
 			c.add_point(Vector2(5, 15), Vector2(0, 2), Vector2(0, -2))   # Ring/pinky
 			c.add_point(Vector2(4, 0), Vector2(1, 3), Vector2(0, 0))
+	const HAND_SCALE: float = 1.32
+	for i in range(c.point_count):
+		c.set_point_position(i, c.get_point_position(i) * HAND_SCALE)
+		c.set_point_in(i, c.get_point_in(i) * HAND_SCALE)
+		c.set_point_out(i, c.get_point_out(i) * HAND_SCALE)
 	var base := c.tessellate(4, 1.8)
 	return mirror_polygon(base) if is_left else base
 
