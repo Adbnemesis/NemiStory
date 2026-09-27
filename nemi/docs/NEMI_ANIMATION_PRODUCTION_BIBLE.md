@@ -390,29 +390,36 @@ world/doodles/
 To maintain modularity and prevent visual chaos, three distinct graphic systems are enforced:
 1. **Expression FX**: Emotional reaction marks mounted to Nemi's character rig (`NemiFXDirector.gd`).
 2. **Props**: Tangible, interactable objects Nemi physically touches or manipulates (`NemiPropLibrary.gd`).
-3. **Doodles**: Living drawings, ink annotations, arrows, sketches, and graphic labels drawn onto the environment canvas (`NemiDoodleDirector.gd`).
+3. **Doodles**: Living drawings, vector handwriting, ink annotations, arrows, sketches, and graphic labels drawn onto the environment canvas (`Ep06Doodles.gd` / `NemiDoodleDirector.gd`).
 
-### Core Philosophy: Progressive Draw-On
+### Core Philosophy: Progressive Draw-On & Vector Handwriting
+* **Zero System Font Crutches**: On-screen handwriting must never use standard digital UI `Label` nodes. All text is authored as procedural vector ink stroke paths (`draw_polyline` with rounded caps), mimicking real pen-and-paper writing.
 * **Never Simply Fade In**: A static PNG fading in looks like a slideshow. Doodles feel hand-drawn because they reveal along an ink stroke path ($0\% \longrightarrow \text{partial} \longrightarrow 100\%$).
 * **Stroke Progression Examples**:
+  - *Vector Lettering*: Individual strokes draw sequentially with natural italic slant (`-2.5°` to `+3.0°`) and rounded ink caps.
   - *Arrow*: Shaft initiates at root $\longrightarrow$ line sweeps forward $\longrightarrow$ arrowhead chevrons snap into place.
-  - *Circle*: Arc starts at 12 o'clock $\longrightarrow$ sweeps around clockwise $\longrightarrow$ closes with a slight hand-drawn overlap.
+  - *Circle / Oval*: Arc starts at 12 o'clock $\longrightarrow$ sweeps around clockwise $\longrightarrow$ closes with a slight hand-drawn overlap.
   - *Underline*: Snappy left-to-right organic pen stroke beneath a key word.
   - *Checkmark*: Short downward stroke $\longrightarrow$ snappy upward hook.
   - *Diagram / Blueprint*: Major structural lines draw first $\longrightarrow$ cross-hatching and annotations draw second.
 
-### Controlled Imperfection (No Random Jitter)
-* **Authored Human Inking**: Doodles possess organic line-weight modulation, slight curvature imperfections, and tapered ink ends.
-* **Deterministic Math**: Use fixed seed curves, sine modulation, and authored vector points. **NEVER use per-frame random jitter/noise.** Jittering lines look like technical glitching rather than intentional pen-and-ink art.
-* **No Stock Graphics**: Absolutely no generic SVG icons, stock emojis, or corporate clip art. Every doodle shares Nemi's sketchbook linework.
+### The 32-Point Organic Badge & Stamp Standard
+* **No Rigid Boxes**: Never use 4-point straight-edge rectangles or math rounded boxes.
+* **Organic Perimeter**: All badge containers use 32 discrete perimeter vertices perturbed by multi-frequency harmonics:
+  $$\text{radius}_{\text{var}} = \text{radius} \times (1.0 + \sin(i \times 1.3) \times 0.028 + \cos(i \times 2.7) \times 0.012)$$
+* **Hand-Stamped Tilt**: Always rotate badges by $-2.0^\circ$ to $-3.5^\circ$ with soft paper tint fills (`#fffef8.lerp(accent, 0.45)`).
 
-### World-Space vs Screen-Space
-* **World-Space Doodles** (`z_index = 15` behind Nemi, `z_index = 25` in front of Nemi): Placed inside the room/environment coordinate system. When the camera pans or punches in, world doodles scale and move naturally with the scene.
-* **Screen-Space Doodles** (`z_index = 100` via CanvasLayer): Pinned to the camera viewport (e.g. editorial margin brackets, screen-edge question marks, or fourth-wall pointers).
+### Directional Speech Balloons
+* **Tail Orientation (`flip_tail`)**: Speech balloon tails must point directly toward the speaking character (down-left when Nemi is stage right; down-right when Nemi is stage left).
+* **Non-Crossing Topology**: Tail vertices are inserted into the perimeter loop in strict sequential angular order, preventing internal line crossings.
 
-### Density & Lifecycle
-* **Transient Storytelling**: Doodles are temporary aids. Once the spoken point has been made, clear them via `erase(duration)`, `fade_out(duration)`, or `shrink_out(duration)`.
-* **Density Balance**: Do not let annotations pile up until the screen resembles a cluttered whiteboard, unless a deliberate comedic escalation (e.g. "conspiracy theory board") is specifically required.
+### Continuous Studio Paper Atmosphere
+* **Zero Void Blackouts**: The warm studio paper backdrop (`Color("#fcf8f2")`) remains unbroken throughout the entire episode.
+* **In-Universe Technical Framing**: Technical zoom-ins or pixel inspections must be illustrated via physical props (such as a brass magnifying glass loupe with glass glare) on paper—never cutting to a pitch-black radar or CRT void.
+
+### Doodle Lifecycle & Safe Dismissal Protocol
+* **Fade Alpha Only**: Never reverse stroke progress (`progress -> 0.0`) on dismissal, which creates fragmented, orphaned letter strokes. Always dismiss by fading `modulate:a -> 0.0` over $0.18\text{s}$ to $0.25\text{s}$, followed by `queue_free()`.
+* **Auditory Anchoring**: Every doodle entrance, stamp, or handwriting reveal must trigger a frame-accurate tactile sound effect (`drawing_scratch_scribble_01..05`, `cartoon_pop_bubble_01`, `cartoon_pluck_pop_01`, `impact_drop_soft_01`). For full details, see [Nemi_Doodle_And_Handwriting_System.md](file:///Users/talus/Documents/adb/nemi/docs/Nemi_Doodle_And_Handwriting_System.md).
 
 ---
 

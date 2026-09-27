@@ -20,6 +20,7 @@ const PROPS: Dictionary = {
 	"desk": "res://nemi/world/props/PropDesk.gd",
 	"chair": "res://nemi/world/props/PropChair.gd",
 	"lamp": "res://nemi/world/props/PropLamp.gd",
+	"microphone": "res://nemi/world/props/PropMicrophone.gd",
 	
 	# Creative & Animation
 	"stylus": "res://nemi/world/props/PropStylus.gd",

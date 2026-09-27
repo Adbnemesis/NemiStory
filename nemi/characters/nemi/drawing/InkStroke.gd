@@ -137,12 +137,45 @@ func draw_to(canvas_item: CanvasItem, color_override: Color = Color.TRANSPARENT)
 		canvas_item.draw_polyline(points, col, base_width, true)
 		return
 	
-	var ribbon: PackedVector2Array = generate_ribbon_polygon()
-	if ribbon.size() >= 3:
-		var tris := Geometry2D.triangulate_polygon(ribbon)
-		if not tris.is_empty():
-			canvas_item.draw_colored_polygon(ribbon, col)
-		else:
-			canvas_item.draw_polyline(points, col, base_width, true)
-	else:
+	var n: int = points.size()
+	var dists: Array[float] = [0.0]
+	var total_len: float = 0.0
+	for i in range(n - 1):
+		total_len += points[i].distance_to(points[i + 1])
+		dists.append(total_len)
+	
+	if total_len <= 0.001:
 		canvas_item.draw_polyline(points, col, base_width, true)
+		return
+	
+	var left_side := PackedVector2Array()
+	var right_side := PackedVector2Array()
+	left_side.resize(n)
+	right_side.resize(n)
+	
+	for i in range(n):
+		var t: float = dists[i] / total_len
+		var w: float = base_width * get_width_factor_at(t)
+		var half_w: float = maxf(0.5, w * 0.5)
+		
+		var normal: Vector2
+		if i == 0:
+			var tangent: Vector2 = (points[1] - points[0]).normalized()
+			normal = Vector2(-tangent.y, tangent.x)
+		elif i == n - 1:
+			var tangent: Vector2 = (points[i] - points[i - 1]).normalized()
+			normal = Vector2(-tangent.y, tangent.x)
+		else:
+			var tangent: Vector2 = (points[i + 1] - points[i - 1]).normalized()
+			normal = Vector2(-tangent.y, tangent.x)
+		
+		left_side[i] = points[i] + normal * half_w
+		right_side[i] = points[i] - normal * half_w
+	
+	# Render robust quad strip segment-by-segment as triangles (100% immune to ear-clipping dropped triangles)
+	for i in range(n - 1):
+		canvas_item.draw_colored_polygon(PackedVector2Array([left_side[i], right_side[i], right_side[i + 1]]), col)
+		canvas_item.draw_colored_polygon(PackedVector2Array([left_side[i], right_side[i + 1], left_side[i + 1]]), col)
+	
+	# Smooth center antialiased spine for flawless visual continuity
+	canvas_item.draw_polyline(points, col, maxf(1.0, base_width * 0.35), true)

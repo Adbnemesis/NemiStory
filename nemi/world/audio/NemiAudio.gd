@@ -16,13 +16,13 @@ static var instance: NemiAudio = null
 # Volume Groups (dB)
 @export var master_volume_db: float = 0.0
 @export var voice_volume_db: float = 0.0
-@export var sfx_volume_db: float = -2.0
+@export var sfx_volume_db: float = -4.0
 @export var music_volume_db: float = -12.0
 @export var ambience_volume_db: float = -16.0
 
 # Dialogue Ducking
-@export var enable_ducking: bool = true
-@export var ducking_offset_db: float = -4.0
+@export var enable_ducking: bool = false
+@export var ducking_offset_db: float = 0.0
 var is_dialogue_playing: bool = false
 
 # Internal Catalog & Stream Cache
@@ -71,12 +71,39 @@ func get_sfx_info(sfx_id: String) -> Dictionary:
 func get_stream(sfx_id: String) -> AudioStream:
 	if _stream_cache.has(sfx_id):
 		return _stream_cache[sfx_id]
+
+	# 1. Filter out irritating/harsh legacy scratch & chirp SFX
+	if sfx_id.begins_with("drawing_scratch_scribble") or sfx_id == "cartoon_digital_chirp_down_01":
+		return null # Completely silenced
+
+	# 2. Redirect legacy IDs to famous, pleasant alternatives
+	var target_id: String = sfx_id
+	if sfx_id in ["cartoon_pop_bubble_01", "cartoon_pop_bubble_tiny_02", "cartoon_pluck_pop_01", "cartoon_pluck_pop_02"]:
+		target_id = "pop"
+	elif sfx_id in ["whoosh_camera_punch_03", "transition_camera_hard_01"]:
+		target_id = "whoosh"
+	elif sfx_id in ["computer_mouse_click_close_01", "computer_mouse_fast_double_01"]:
+		target_id = "click"
+
+	# 3. Check direct famous sound effects in res://common/audio/sfx/
+	var direct_candidates: Array[String] = [
+		"res://common/audio/sfx/" + target_id + ".mp3",
+		"res://common/audio/sfx/" + target_id + ".wav",
+		"res://common/audio/sfx/" + target_id + ".ogg",
+		"res://common/audio/sfx/" + target_id
+	]
+	for path in direct_candidates:
+		if ResourceLoader.exists(path):
+			var direct_stream: AudioStream = load(path)
+			if direct_stream != null:
+				_stream_cache[sfx_id] = direct_stream
+				return direct_stream
 		
-	if not _catalog_by_id.has(sfx_id):
-		push_warning("NemiAudio: Unknown SFX ID '%s'" % sfx_id)
+	if not _catalog_by_id.has(target_id):
+		push_warning("NemiAudio: Unknown SFX ID '%s'" % target_id)
 		return null
 		
-	var rel_path: String = _catalog_by_id[sfx_id].get("relative_path", "")
+	var rel_path: String = _catalog_by_id[target_id].get("relative_path", "")
 	var res_path: String = "res://" + rel_path
 	if not ResourceLoader.exists(res_path):
 		if rel_path.begins_with("audio/sfx/"):
