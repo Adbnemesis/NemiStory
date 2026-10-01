@@ -1,0 +1,39 @@
+# Start an episode: one route per character, one shared preparation check
+
+Use **nemi-storytime** for a Nemi episode and **adb-storytime** for an ADB episode. For dialogue involving both, load both character routes once and share one preparation record. These are project-local skills; no global agent settings are changed.
+
+Natural requests such as “create Nemi episode 9” should route through the project's automatic instructions. Explicit invocation is also available: `$nemi-storytime` / `$adb-storytime` in Codex CLI/IDE skill selection, and `/nemi-storytime` / `/adb-storytime` in current Antigravity. In Codex app use the skill picker or ask to use the named skill. Open this repository as the project; start a fresh chat if newly added instructions are not visible.
+
+## The agent's procedure
+
+1. Resolve the requested narrator and any guest character from the user request. Choose a new name and production folder; never overwrite an old episode. For a new spec run `python3 tools/storytime/new_scene.py --author nemi --name <new_name>` (or `adb`). It creates a silent starter and a **pending** `preflight.json`; the placeholder is not permission to begin writing/animating without reading.
+2. Run `python3 tools/storytime/preflight.py status --folder <production-folder>`. For a user-created new folder without a record, use `init --folder <folder> --authors nemi` (or `adb`, or `nemi adb`). The default anticipates props, SFX and live ink; intentionally silent/no-prop studies can initialize with an empty `--features` list. The scene's actual features are checked before validation/export.
+3. Read each listed document using `read --folder <folder> --document <listed-path> --part 1`, then every remaining part shown. Each part is at most 6,000 characters, so a long manual is not silently lost in one huge tool output. Read the output into context; do not redirect it away or batch unread outputs into a fake receipt.
+4. After the full document, use `ack --folder <folder> --document <listed-path> --note '<specific consequence for this episode>'`. The note must say what this episode will do, not merely “read” or “follow guidelines”. Example: “ADB holds his skeptical gaze through the punchline; the reaching arm follows a bounded path only during the mug action.” Preserve these notes for a resumed chat.
+5. Finish the reading in manifest order: the three current shared workflow/direction/pen guides, then the selected character’s acting guide and identity/dialogue or mouth guide and pen profile, then shared review/QA and canonical voice configuration, then feature references. Current user instructions and current operational workflows override obsolete timing/rig/voice advice in historical documents.
+6. Run `status` again; resolve missing/stale entries. Only then author the actual script, direction brief and scene. Adding a guest or new feature? Use `extend --folder <folder> --authors nemi adb --features props sfx live_ink`, then read/ack the new requirements. Extend preserves existing current notes.
+7. Use the shared validator/renderer and all relevant review checks. Save/push source, preparation record, timings, script/beat sheet and small QA artifacts. Exclude large media. A readiness record is not animation approval or a reason to claim unperformed listening/playback checks.
+
+All commands above use `python3 tools/storytime/preflight.py` before the subcommand. Run from the repository root. The user should not need to manage the reading checklist manually.
+
+## Which documents are required?
+
+`docs/animation/preflight/reading_manifest.json` is the single source of truth. It separates shared operational/QA/voice guidance from each character's identity and behavior and from feature-specific prop/SFX/ink references. The union is deduplicated for a two-character scene. Nemi does not inherit ADB's acting/voice habits; ADB does not inherit Nemi's dialogue habits.
+
+The three current shared workflow pages already consolidate staging, timing, captions, backgrounds, effects, contact and production APIs. Old duplicate common manuals, audition reports, old introduction scripts and historical audits are not all reloaded automatically. Read them when researching that topic, with the current precedence explicit. If a new feature needs a new authoritative reference, add it to the manifest in the same change. Do not add huge reference videos or asset catalogs to the mandatory text load; inspect relevant assets during authoring.
+
+## What is enforced, and what is not?
+
+The file-based `validate_scene.py` path (also used by `render_scene.py` and mix calibration) rejects new version-2 specs without complete current preparation. It checks folder identity, both authors, used features, document hashes, delivered part coverage and nonempty application notes. Editing a required document invalidates that document's acknowledgement; adding a manifest requirement makes it pending. Copying a record to a different production does not satisfy the check. `--structure-only` still requires preparation; it only relaxes audio asset checks.
+
+Four existing version-2 review specs are grandfathered by **exact path and content hash** in `historical_specs.json`, so established proofs remain reproducible. Copies or edits require preparation. Do not add new episodes to that exemption list. Version-1 lettering comparisons and the low-level in-memory `validate_data` schema function remain compatible; neither is the production export gate. These checks do not edit or migrate any old episode.
+
+This is a workflow safeguard, not a security sandbox or a reading-comprehension detector. An agent with source access can fabricate notes, edit the checker, invoke Godot directly or deliberately bypass the workflow. Project instructions explicitly prohibit doing that. Host-level skill discovery is also not a guarantee on every model/version; this is why the normal export path has a deterministic fallback check.
+
+## Host integration and verification
+
+Root `AGENTS.md` routes natural episode requests before the longer project instructions. `.agents/skills/nemi-storytime/` and `adb-storytime/` provide distinct, discoverable routes. Antigravity has a short `always_on` rule in `.agents/rules/storytime-start.md`. There is no giant duplicate manual embedded in either host configuration, and no guessed native lifecycle-hook API.
+
+Current official documentation supports Codex [project instructions](https://learn.chatgpt.com/docs/agent-configuration/agents-md) and [repository skills](https://learn.chatgpt.com/docs/build-skills), plus Antigravity [always-on rules](https://www.antigravity.google/docs/rules/) and [shared skills with slash invocation](https://antigravity.google/docs/migration/workflows-to-skills). Antigravity's docs deprecate legacy workflow files, so the named workflows here are implemented as skills rather than duplicating the old format.
+
+Verification: run `python3 tools/storytime/test_preflight.py` and `python3 tools/storytime/validate_scene.py common/storytime/examples/story_review_48s/scene.json --structure-only`. Tests use temporary documents/production folders: no voice generation, rig changes or episode renders. A live fresh-chat smoke test should ask each host to “start a new Nemi storytime episode” and “start a new ADB storytime episode”; confirm it selects the correct skill and reports pending reading before authoring. Automated tests verify the gate, not a live model's behavior.

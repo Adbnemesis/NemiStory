@@ -1,5 +1,7 @@
 # Current storytime directing workflow
 
+For a new episode, enter through [Episode Start](EPISODE_START.md): complete the character-specific preparation record before authoring. The file-based validator/renderer checks this for new version-2 specs; existing exact review proofs remain reproducible.
+
 Use this page first, then [the exact version-2 field reference](STORYTIME_DIRECTION_WORKFLOW.md) and [the two drawing identities](CHARACTER_DRAWING_PRODUCTION_KIT.md). The [end-to-end audit](STORYTIME_END_TO_END_AUDIT_2026_10_01.md) explains the evidence behind this refinement. These pages are the operational instructions for new productions. Older style/episode guides remain personality and artistic context; their hard percentages, automatic breathing/blinking, approximate sentence timing and fixed camera defaults must not override this workflow.
 
 The approved Nemi/ADB rigs, pose/expression/hand/mouth libraries, voice configuration and old episodes remain untouched. The new code directs existing controls externally. Do not migrate old episodes as part of this improvement.

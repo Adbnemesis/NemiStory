@@ -1,5 +1,7 @@
 # Storytime animation documentation
 
+**Creating an episode in Codex or Antigravity? Start with [Episode Start](EPISODE_START.md).** Separate Nemi/ADB skills load the required documentation and the shared tools check current preparation before export.
+
 **Start with [Current Storytime Refinement Workflow](STORYTIME_REFINEMENT_WORKFLOW.md)**, then [Version-2 field reference](STORYTIME_DIRECTION_WORKFLOW.md) and [Character drawing identities](CHARACTER_DRAWING_PRODUCTION_KIT.md). New scenes use the [complete ten-second example](../../common/storytime/examples/refinement_10s/scene.json).
 
 These are the current operational instructions. The older documents below supply artistic context; their fixed percentages, procedural idle motion and approximate timing are superseded for new productions. Voice identity, rigs and existing episodes are protected.

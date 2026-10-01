@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "common": [
+    "docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md",
+    "docs/animation/STORYTIME_DIRECTION_WORKFLOW.md",
+    "docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md",
+    "common/storytime/examples/story_review_48s/REVIEW.md",
+    "docs/animation/COMMON_ANIMATION_QA.md",
+    "tools/tts/config.py"
+  ],
+  "characters": {
+    "nemi": [
+      "docs/Nemi_Animation_Personality_Guide.md",
+      "docs/Nemi_Character_Bible.md",
+      "docs/Nemi_Dialogue_Guide.md",
+      "common/storytime/profiles/nemi.json"
+    ],
+    "adb": [
+      "adb/docs/ADB_ACTING_GUIDE.md",
+      "adb/docs/ADB_CHARACTER_GUIDE.md",
+      "adb/docs/ADB_LIP_SYNC_GUIDE.md",
+      "common/storytime/profiles/adb.json"
+    ]
+  },
+  "features": {
+    "props": [
+      "docs/animation/COMMON_PROP_SYSTEM.md"
+    ],
+    "sfx": [
+      "docs/audio/SFX_System_Guide.md",
+      "docs/audio/SFX_License_Registry.md"
+    ],
+    "live_ink": [
+      "docs/animation/LIVE_DOODLING_WORKFLOW.md"
+    ]
+  },
+  "precedence": "Current user instructions, then current refinement/direction workflows. Older character and common documents supply artistic context: their fixed percentages, automatic idle motion, voice-modification suggestions and obsolete APIs do not override current controls. Read canonical tools/tts/config.py for voices; do not follow historical audition alternatives."
+}

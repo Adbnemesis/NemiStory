@@ -1,5 +1,11 @@
 # Storytime animation work
 
+## Automatic episode-start routing (Codex and Antigravity)
+
+Before creating, scripting, continuing or animating a **new storytime episode**, load `.agents/skills/nemi-storytime/SKILL.md` for Nemi or `.agents/skills/adb-storytime/SKILL.md` for ADB; load both for a crossover. Apply this to natural-language requests even when no skill is named. Complete the relevant current reading using `tools/storytime/preflight.py` and record episode-specific application notes **before authoring**. On resume, check the record and reread stale documents or notes missing from current context. See `docs/animation/EPISODE_START.md`.
+
+Do not dump all manuals into one truncated output, fabricate read notes, bypass the validator/renderer, or add new specs to the historical exemption list. This route is for episode production, not unrelated repository questions, tool maintenance or documentation-only changes. Existing-episode edits still require a separate explicit request.
+
 For new ADB/Nemi animation work, first read `docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md`, then `docs/animation/STORYTIME_DIRECTION_WORKFLOW.md`, then `docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md`, then the relevant character acting guide linked there. Start from the saved JSON example and use the validator and renderer. Do not invent API names or build another private doodle player.
 
 - Preserve existing character rigs, character definitions, pose libraries, expression libraries, and hand/lipsync systems. Direct their existing controls from external production code.

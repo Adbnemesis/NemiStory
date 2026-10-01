@@ -7,6 +7,8 @@ ROOT = Path(__file__).resolve().parents[2]
 
 def validate(path, structure_only=False):
     spec = json.loads(Path(path).read_text())
+    from preflight import enforce
+    enforce(path,spec)
     if structure_only and isinstance(spec,dict) and spec.get("version")==2:
         from validate_production import validate_production
         return validate_production(spec,ROOT,validate_data,check_assets=False)

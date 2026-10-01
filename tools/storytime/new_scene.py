@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import re
 from validate_scene import ROOT,validate_data
+from preflight import initialize
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--name',required=True)
 parser.add_argument('--author',choices=['nemi','adb'],required=True)
@@ -23,6 +24,8 @@ spec={'version':2,'title':args.name.replace('_',' '),'duration':10,'fps':30,'cap
  'vfx':[],'sfx':[],'script':[],'captions':[]}
 validate_data(spec)
 folder.mkdir()
+initialize(folder,[a])
 (folder/'scene.json').write_text(json.dumps(spec,indent=2)+'\n')
-(folder/'SCRIPT_AND_BEATS.md').write_text('# '+spec['title']+'\n\nSilent visual starter, not a finished story. Replace the promise/want/choice/consequence/payoff and all beat thoughts with your own story before adding voice. Use approved original recordings and measured word times; pacing only, never change speaker/model/prompt/pitch.\n\n| Time | Thought / intention | Audience focus | Shot / action | Sound or silence |\n|---|---|---|---|---|\n| 0–4 | Confidence becomes commitment | Face and notebook | Closer setup, held prop | Silence |\n| 4–7 | The choice creates a problem | Mental image | Thought insert, one live mark | Silence |\n| 7–10 | Recognize the consequence | Face | Stepped reaction, then hold | Silence |\n\nFollow docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md and STORYTIME_DIRECTION_WORKFLOW.md. Save a new proof under renders/'+args.name+'/. Do not copy this sequence mechanically into every story.\n')
+(folder/'SCRIPT_AND_BEATS.md').write_text('# '+spec['title']+'\n\nSilent visual starter, not a finished story. Replace the promise/want/choice/consequence/payoff and all beat thoughts with your own story before adding voice. Use approved original recordings and measured word times; pacing only, never change speaker/model/prompt/pitch.\n\n| Time | Thought / intention | Audience focus | Shot / action | Sound or silence |\n|---|---|---|---|---|\n| 0–4 | Confidence becomes commitment | Face and notebook | Wide setup, held prop | Silence |\n| 4–7 | The choice creates a problem | Mental image | Thought insert, one live mark | Silence |\n| 7–10 | Recognize the consequence | Face | Stepped reaction, then hold | Silence |\n\nFollow docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md and STORYTIME_DIRECTION_WORKFLOW.md. Save a new proof under renders/'+args.name+'/. Do not copy this sequence mechanically into every story.\n')
 print(folder/'scene.json')
+print('Before authoring: python3 tools/storytime/preflight.py status --folder '+str(folder.relative_to(ROOT)))
