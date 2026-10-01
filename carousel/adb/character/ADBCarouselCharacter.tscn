@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://adbcarouselchar001"]
+
+[ext_resource type="Script" path="res://carousel/adb/character/ADBCarouselCharacter.gd" id="1_adb_char"]
+
+[node name="ADBCarouselCharacter" type="Node2D"]
+script = ExtResource("1_adb_char")

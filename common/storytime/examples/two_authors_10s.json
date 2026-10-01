@@ -1,0 +1,399 @@
+{
+  "version": 1,
+  "title": "Two storytellers, two drawing hands",
+  "duration": 10.0,
+  "fps": 30,
+  "audio": null,
+  "actors": [
+    {
+      "author": "nemi",
+      "position": [
+        260,
+        655
+      ],
+      "scale": 1.3,
+      "performances": [
+        {
+          "at": 0,
+          "recipe": "listening"
+        },
+        {
+          "at": 1.6,
+          "recipe": "explaining",
+          "blinks": [
+            3.5
+          ]
+        },
+        {
+          "at": 4.2,
+          "recipe": "uncertain"
+        },
+        {
+          "at": 6.5,
+          "recipe": "skeptical"
+        },
+        {
+          "at": 8.7,
+          "recipe": "pleased",
+          "blinks": [
+            9.2
+          ]
+        }
+      ]
+    },
+    {
+      "author": "adb",
+      "position": [
+        1220,
+        620
+      ],
+      "scale": 1.3,
+      "performances": [
+        {
+          "at": 0,
+          "recipe": "listening"
+        },
+        {
+          "at": 1.6,
+          "recipe": "explaining",
+          "blinks": [
+            3.5
+          ]
+        },
+        {
+          "at": 4.2,
+          "recipe": "uncertain"
+        },
+        {
+          "at": 6.5,
+          "recipe": "skeptical"
+        },
+        {
+          "at": 8.7,
+          "recipe": "pleased",
+          "blinks": [
+            9.2
+          ]
+        }
+      ]
+    }
+  ],
+  "drawings": [
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 0.25,
+      "duration": 1.15,
+      "end": 10,
+      "position": [
+        100,
+        205
+      ],
+      "text": "a little plan...",
+      "size": 42,
+      "tilt": -3
+    },
+    {
+      "author": "nemi",
+      "kind": "notebook",
+      "at": 0.8,
+      "duration": 1.5,
+      "end": 10,
+      "position": [
+        650,
+        625
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 2.4,
+      "duration": 0.75,
+      "end": 10,
+      "position": [
+        585,
+        520
+      ],
+      "text": "step 1",
+      "size": 22
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 3.3,
+      "duration": 0.85,
+      "end": 10,
+      "position": [
+        574,
+        580
+      ],
+      "text": "make a video",
+      "size": 14
+    },
+    {
+      "author": "nemi",
+      "kind": "arrow",
+      "at": 3.0,
+      "duration": 0.7,
+      "end": 10,
+      "position": [
+        460,
+        595
+      ],
+      "scale": [
+        1,
+        1
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 4.45,
+      "duration": 0.85,
+      "end": 10,
+      "position": [
+        575,
+        380
+      ],
+      "text": "easy",
+      "size": 42,
+      "accent": true,
+      "tilt": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "scratch",
+      "at": 6.5,
+      "duration": 0.35,
+      "end": 10,
+      "position": [
+        645,
+        401
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "accent": true
+    },
+    {
+      "author": "nemi",
+      "kind": "question",
+      "at": 6.95,
+      "duration": 0.65,
+      "end": 10,
+      "position": [
+        775,
+        520
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "accent": true
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 8.7,
+      "duration": 0.7,
+      "end": 10,
+      "position": [
+        565,
+        825
+      ],
+      "text": "start anyway.",
+      "size": 27,
+      "accent": true
+    },
+    {
+      "author": "nemi",
+      "kind": "underline",
+      "at": 9.4,
+      "duration": 0.45,
+      "end": 10,
+      "position": [
+        678,
+        882
+      ],
+      "scale": [
+        1.55,
+        0.8
+      ],
+      "accent": true
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 0.25,
+      "duration": 1.15,
+      "end": 10,
+      "position": [
+        1060,
+        205
+      ],
+      "text": "a little plan...",
+      "size": 42,
+      "tilt": 0
+    },
+    {
+      "author": "adb",
+      "kind": "notebook",
+      "at": 0.8,
+      "duration": 1.5,
+      "end": 10,
+      "position": [
+        1610,
+        625
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 2.4,
+      "duration": 0.75,
+      "end": 10,
+      "position": [
+        1545,
+        520
+      ],
+      "text": "step 1",
+      "size": 22
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 3.3,
+      "duration": 0.85,
+      "end": 10,
+      "position": [
+        1534,
+        580
+      ],
+      "text": "make a video",
+      "size": 14
+    },
+    {
+      "author": "adb",
+      "kind": "arrow",
+      "at": 3.0,
+      "duration": 0.7,
+      "end": 10,
+      "position": [
+        1420,
+        595
+      ],
+      "scale": [
+        1,
+        1
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 4.45,
+      "duration": 0.85,
+      "end": 10,
+      "position": [
+        1535,
+        380
+      ],
+      "text": "easy",
+      "size": 42,
+      "accent": true,
+      "tilt": 0
+    },
+    {
+      "author": "adb",
+      "kind": "scratch",
+      "at": 6.5,
+      "duration": 0.35,
+      "end": 10,
+      "position": [
+        1605,
+        401
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "accent": true
+    },
+    {
+      "author": "adb",
+      "kind": "question",
+      "at": 6.95,
+      "duration": 0.65,
+      "end": 10,
+      "position": [
+        1735,
+        520
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "accent": true
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 8.7,
+      "duration": 0.7,
+      "end": 10,
+      "position": [
+        1525,
+        825
+      ],
+      "text": "start anyway.",
+      "size": 27,
+      "accent": true
+    },
+    {
+      "author": "adb",
+      "kind": "underline",
+      "at": 9.4,
+      "duration": 0.45,
+      "end": 10,
+      "position": [
+        1638,
+        882
+      ],
+      "scale": [
+        1.55,
+        0.8
+      ],
+      "accent": true
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 3.3,
+      "text": "A little plan."
+    },
+    {
+      "start": 3.3,
+      "end": 6.5,
+      "text": "One simple step."
+    },
+    {
+      "start": 6.5,
+      "end": 8.7,
+      "text": "Then the doubt arrives."
+    },
+    {
+      "start": 8.7,
+      "end": 10,
+      "text": "We can start anyway."
+    }
+  ]
+}

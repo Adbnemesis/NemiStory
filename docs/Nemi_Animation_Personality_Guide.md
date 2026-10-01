@@ -311,3 +311,9 @@ These micro-acting behaviors make Nemi instantly recognizable:
 * **The Skeptical Double Blink**: Two quick 2-frame blinks when hearing something questionable.
 * **The Pre-Confession Smile**: A tiny, sheepish corner-mouth smile appearing half a second *before* admitting a blunder.
 * **The Camera Lock**: Freezing in place and staring directly into the viewer's eyes on deadpan beats.
+
+## External conversational performance recipes
+
+The [Character Drawing Production Kit](animation/CHARACTER_DRAWING_PRODUCTION_KIT.md) supplies eight Nemi recipes and her separate rounded story pen. Use those existing-pose combinations for new tests; preserve this personality guide and the original rig.
+
+Version 2 [direction workflow](animation/STORYTIME_DIRECTION_WORKFLOW.md) adds externally directed leg contact, restrained mouth scale, small hip/face changes and staggered arm travel. Preserve Nemi's warmer timing and existing silhouette.

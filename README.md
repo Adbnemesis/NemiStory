@@ -3,15 +3,17 @@
 [![Engine: Godot 4.x](https://img.shields.io/badge/Engine-Godot%204.x-478cbf?logo=godotengine&logoColor=white)](https://godotengine.org)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org)
 [![Voice: Qwen3--TTS (MLX)](https://img.shields.io/badge/Voice-Qwen3--TTS%20(Sohee)-green)](nemi/docs/Nemi_Voice_Profile.md)
+[![ADB Voice: Qwen3--TTS (MLX)](https://img.shields.io/badge/ADB%20Voice-Qwen3--TTS%20(Aiden)-blue)](adb/docs/ADB_VOICE_PROFILE.md)
 [![Brawl Stars Voices](https://img.shields.io/badge/Brawl%20Stars-11%20Brawlers%20(Leon%20%26%20Edgar)-orange)](brawl_stars/voices/VOICE_SYSTEM.md)
 [![Style: Illustrated 2D](https://img.shields.io/badge/Style-Vector%20%26%20Skeletal%20Rig-purple)](nemi/docs/NEMI_ANIMATION_PRODUCTION_BIBLE.md)
 
-**NemiStory** is a complete, self-contained animated production engine built on **Godot 4.x**, **Python**, and **local offline neural TTS**. It powers three distinct animated production universes with unified illustrated assets, procedural skeletal rigs, and professional audio engineering:
+**NemiStory** is a complete, self-contained animated production engine built on **Godot 4.x**, **Python**, and **local offline neural TTS**. It powers distinct animated production universes with unified illustrated assets, procedural skeletal rigs, and professional audio engineering:
 
 1. **Nemi (`nemi/`)**: Illustrated YouTube storytelling channel starring Nemi—a 24-year-old creative, observant, and subtly chaotic storyteller learning 2D animation.
-2. **Brawl Stars (`brawl_stars/`)**: Fast-paced animated comedy shorts featuring 11 Brawlers (Leon, Edgar, Colt, Shelly, Cosmo, Kenji, Mortis, Crow, Fang, Piper, Melodie) anchored by custom comedic voice actor models.
-3. **Pokémon (`pokemon/`)**: Native Godot 2D illustrated character rigs and animation showcases for Ash Ketchum and Pikachu.
-4. **Common Core (`common/`)**: Curated CC0 audio SFX vault (400+ cues) and shared Godot engine modules.
+2. **ADB (`adb/`)**: Independent illustrated YouTube storytime channel starring ADB—a cool, relaxed, dry-witted 24-year-old animator with an adorably disarmed core and deadpan comedic timing.
+3. **Brawl Stars (`brawl_stars/`)**: Fast-paced animated comedy shorts featuring 11 Brawlers (Leon, Edgar, Colt, Shelly, Cosmo, Kenji, Mortis, Crow, Fang, Piper, Melodie) anchored by custom comedic voice actor models.
+4. **Pokémon (`pokemon/`)**: Native Godot 2D illustrated character rigs and animation showcases for Ash Ketchum and Pikachu.
+5. **Common Core (`common/`)**: Curated CC0 audio SFX vault (400+ cues) and shared Godot engine modules.
 
 ---
 
@@ -119,7 +121,9 @@ NemiStory/
 │
 ├── tools/                          # CLI AUTOMATION SCRIPTS
 │   ├── generate_nemi_voice.py      # Nemi offline Qwen3-TTS dialogue generation
-│   ├── audition_custom_voices.py   # Voice audition & showcase generator
+│   ├── generate_adb_voice.py       # ADB offline Qwen3-TTS dialogue generation (Aiden)
+│   ├── audition_custom_voices.py   # Nemi voice audition & showcase generator
+│   ├── audition_adb_voices.py      # ADB voice audition & showcase generator (Aiden)
 │   ├── mix_ep00_sfx.py             # Episode 00 audio mastering & SFX mixer
 │   ├── render_ep00_v3_3.py         # Episode 00 4K 60FPS MovieWriter renderer
 │   ├── render_episode_ruffs_revenge.py # Brawl Stars short 1080p renderer
@@ -166,7 +170,45 @@ python3 tools/generate_nemi_voice.py \
 
 ---
 
-### B. Brawl Stars Comedy Voices (Leon, Edgar & 11 Brawlers)
+### B. ADB's Canonical Voice (Qwen3-TTS CustomVoice: Aiden)
+
+ADB's voice is **100% deterministic and permanently locked** to the official predefined voice actor **`aiden`** (`spk_id: 668` / CustomVoice) in Qwen3-TTS. It delivers ADB's relaxed 24-year-old storyteller persona with chest-resonant natural low-end (~148 Hz), effortless cadence, and deadpan comedic timing.
+
+#### Model Details:
+* **Hugging Face Model ID**: `mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16`
+* **Runtime**: Apple Silicon MLX via `mlx-audio`
+* **Speaker ID**: `aiden` (official predefined embedding in custom voice talker weights)
+* **Sampling Rate**: `24,000 Hz` (PCM 16-bit uncompressed WAV)
+* **Canonical Persona Prompt**:
+  > *"Cool, relaxed young man around 24, casual conversational storyteller, smooth, slightly smug, humorous, friendly and natural with deadpan comedic pauses."*
+
+#### Sampling Parameters:
+* `temperature`: `0.7`
+* `top_k`: `50`
+* `top_p`: `0.95`
+* `repetition_penalty`: `1.05`
+
+#### Generation Commands:
+```bash
+# 1. Audition ADB voice actors or regenerate Aiden showcase:
+./.venv/bin/python3 tools/audition_adb_voices.py
+
+# 2. Synthesize complete episode voiceover for ADB:
+./.venv/bin/python3 tools/generate_adb_voice.py \
+  --script adb/episodes/ep01_gaming_rig/script/script.md \
+  --output adb/audio/dialogue \
+  --speaker aiden
+
+# 3. Quick one-line synthesis:
+./.venv/bin/python3 tools/generate_adb_voice.py \
+  --text "So I built this new PC, right? And immediately broke the side panel." \
+  --output audio/adb/samples/quick_test.wav
+```
+* Uses the shared cached model weights (~3.4 GB) in `~/.cache/huggingface/hub/`.
+
+---
+
+### C. Brawl Stars Comedy Voices (Leon, Edgar & 11 Brawlers)
 
 The Brawl Stars comedy shorts use a **two-archetype derivation architecture** based on authentic comedic timing cloned from a viral animated comedy short:
 
@@ -297,3 +339,9 @@ Outputs are saved directly into `renders/`.
 * **Character Designs & Universes**: Copyright © 2026 NemiStory. All rights reserved.
 * **Voice Model**: Qwen3-TTS CustomVoice (Apache 2.0 / Open Weights).
 * **Audio Assets & SFX**: Verified CC0 1.0 Universal / Public Domain.
+
+## New storytime production kit
+
+Start with [Character Drawing Production Kit](docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md) for distinct Nemi/ADB pen identities, external acting recipes, a validated scene template, and an independent ten-second proof. Read [AGENTS.md](AGENTS.md) before animation work.
+
+For full new storytime productions, use [Storytime Direction Workflow](docs/animation/STORYTIME_DIRECTION_WORKFLOW.md): grounded acting, held/live art choices, props, environments, short VFX, and synchronized voice/SFX.

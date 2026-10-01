@@ -1,0 +1,36 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "aspect_ratio": "4:5",
+    "safe_margin_top": 100,
+    "safe_margin_bottom": 120,
+    "safe_margin_sides": 80,
+    "target_fps": 30
+  },
+  "typography": {
+    "fonts": {
+      "headline_hand": "res://assets/fonts/PatrickHand-Regular.ttf",
+      "annotation_script": "res://assets/fonts/Caveat-Bold.ttf",
+      "doodle_note": "res://assets/fonts/GochiHand-Regular.ttf",
+      "impact_meme": "res://assets/fonts/Impact.ttf"
+    },
+    "headline_size_max": 72,
+    "headline_size_min": 44,
+    "body_size_max": 40,
+    "body_size_min": 28,
+    "annotation_size": 32,
+    "line_spacing": 12
+  },
+  "rendering": {
+    "engine": "godot_4.7.2",
+    "driver": "metal",
+    "format": "png",
+    "anti_aliasing": "msaa_4x"
+  },
+  "constraints": {
+    "zero_ai_image_generation": true,
+    "offline_only": true,
+    "episode_systems_read_only": true
+  }
+}

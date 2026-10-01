@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://nemi/episodes/ep08_forced_bf_channel/beats/Beat09_OutroTakeover.gd" id="1_beat"]
+
+[node name="Beat09_OutroTakeover" type="Node2D"]
+script = ExtResource("1_beat")
+is_standalone = true
+beat_number = 9
+beat_name = "Outro Takeover"

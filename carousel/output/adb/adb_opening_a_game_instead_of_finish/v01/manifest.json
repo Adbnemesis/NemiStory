@@ -1,0 +1,138 @@
+{
+  "carousel_id": "adb_opening_a_game_instead_of_finish",
+  "brand": "adb",
+  "version": "v01",
+  "status": "draft",
+  "created_at": "2026-09-30T11:28:21.043003+00:00",
+  "topic": "opening a game instead of finishing work",
+  "content_type": "relatable",
+  "tone": "deadpan",
+  "audience": "Gamers, tech enthusiasts, storytime anime fans, creative professionals",
+  "angle": "Deadpan irony of accidental 8-hour gaming binges disguised as 'quick breaks'",
+  "hook": "\"I'll just do 15 minutes of daily quests.\"",
+  "seed": 42,
+  "renderer_version": "godot_4.7.2_metal",
+  "system_version": "1.0.0",
+  "slides": [
+    {
+      "slide": 1,
+      "purpose": "pattern_interrupt_hook",
+      "archetype": "edge_peek",
+      "headline": "\"I'll just do 15 minutes of daily quests.\"",
+      "subhead": "How 8 hours of productivity vanished into thin air.",
+      "handwritten_note": "current time: 4:12 AM",
+      "highlight_words": [
+        "15 minutes",
+        "8 hours"
+      ],
+      "character": {
+        "pose": "peek_bottom_deadpan",
+        "expression": "smug",
+        "scale": 1.25
+      },
+      "props": [
+        "gaming_controller"
+      ],
+      "doodles": [
+        "pixel_stars"
+      ],
+      "visual_callback": "battery_100_percent"
+    },
+    {
+      "slide": 2,
+      "purpose": "context_and_effort_setup",
+      "archetype": "split_stage",
+      "headline": "The Setup:",
+      "body_text": "I have 4 urgent tasks due tomorrow.\n\nClient deliverables, render queues, file sorting. But first... my daily check-in rewards.",
+      "handwritten_note": "completely rational prioritization",
+      "character": {
+        "pose": "lean_left_margin",
+        "expression": "neutral",
+        "scale": 1.15
+      },
+      "props": [],
+      "doodles": [
+        "pixel_stars"
+      ],
+      "visual_callback": "battery_100_percent"
+    },
+    {
+      "slide": 3,
+      "purpose": "micro_escalation_1",
+      "archetype": "card_perch",
+      "headline": "The Escalation:",
+      "body_text": "Someone in global chat pinged for a raid boss. It would be rude to refuse.\n\nThen the inventory was full. Then the weapon needed an upgrade.",
+      "handwritten_note": "just 5 more minutes",
+      "character": {
+        "pose": "sit_card_crosslegged",
+        "expression": "flustered",
+        "scale": 1.05
+      },
+      "props": [
+        "mechanical_keyboard"
+      ],
+      "doodles": [
+        "pixel_stars"
+      ],
+      "visual_callback": "battery_15_percent_low"
+    },
+    {
+      "slide": 4,
+      "purpose": "peak_chaos_and_reality_check",
+      "archetype": "hero_closeup",
+      "headline": "Time Check: 4:12 AM.",
+      "subhead": "The room is freezing. The work remains 0% touched.\n\nOn the bright side, my virtual sword has a +15 fire enchantment.",
+      "body_text": null,
+      "handwritten_note": "productivity achieved (in-game)",
+      "character": {
+        "pose": "unimpressed_freeze",
+        "expression": "deadpan",
+        "scale": 1.45
+      },
+      "props": [
+        "smartphone"
+      ],
+      "doodles": [
+        "deadpan_dots"
+      ],
+      "visual_callback": "battery_15_percent_low"
+    },
+    {
+      "slide": 5,
+      "purpose": "bookmarkable_takeaway",
+      "archetype": "quote_card",
+      "headline": "The 5-Minute Launch Rule:",
+      "body_text": "Tell yourself you will only work on the file for 300 seconds. If it's still unbearable, quit.\n\n90% of the friction is just crossing the launch threshold.",
+      "handwritten_note": "lower the activation energy",
+      "character": {
+        "pose": "hero_bust_side_eye",
+        "expression": "happy",
+        "scale": 0.95
+      },
+      "props": [],
+      "doodles": [
+        "pixel_stars"
+      ],
+      "visual_callback": "battery_1_percent_red"
+    },
+    {
+      "slide": 6,
+      "purpose": "comment_and_community_cta",
+      "archetype": "sign_cta",
+      "headline": "Be honest in the comments:",
+      "cta_text": "Which game is currently holding your deadlines hostage?\n(Tell me I'm not the only one \u2794)",
+      "handwritten_note": "*drop your stories below*",
+      "character": {
+        "pose": "hold_terminal_board",
+        "expression": "smug",
+        "scale": 1.15
+      },
+      "props": [],
+      "doodles": [
+        "terminal_brackets",
+        "pixel_stars"
+      ],
+      "visual_callback": "battery_1_percent_red"
+    }
+  ]
+}

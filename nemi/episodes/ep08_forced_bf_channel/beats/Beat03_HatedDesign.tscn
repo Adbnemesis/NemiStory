@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://nemi/episodes/ep08_forced_bf_channel/beats/Beat03_HatedDesign.gd" id="1_beat"]
+
+[node name="Beat03_HatedDesign" type="Node2D"]
+script = ExtResource("1_beat")
+is_standalone = true
+beat_number = 3
+beat_name = "Hated Design"

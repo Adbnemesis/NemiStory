@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://adb_ep00_b02"]
+
+[ext_resource type="Script" path="res://adb/episodes/ep00_intro/beats/Beat02_IntroConfession.gd" id="1_b02"]
+
+[node name="Beat02_IntroConfession" type="Node2D"]
+script = ExtResource("1_b02")

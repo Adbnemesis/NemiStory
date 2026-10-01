@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://nemicarouselchar001"]
+
+[ext_resource type="Script" path="res://carousel/nemi/character/NemiCarouselCharacter.gd" id="1_nemi_char"]
+
+[node name="NemiCarouselCharacter" type="Node2D"]
+script = ExtResource("1_nemi_char")

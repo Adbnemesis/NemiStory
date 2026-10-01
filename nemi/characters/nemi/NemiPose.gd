@@ -1299,5 +1299,113 @@ static func get_pose(pose_name: String) -> Dictionary:
 				"gaze": Vector2(0.4, 0.4) # Looking directly at laptop screen
 			}
 
+		"seated_writing_exam", "exam_writing":
+			# Seated leaning over exam desk, left hand holding paper, right hand writing
+			return {
+				"root_offset": Vector2(4.0, 14.0),
+				"torso_rot": deg_to_rad(10.0), # Leaning over desk
+				"neck_rot": deg_to_rad(-4.0),
+				"head_rot": deg_to_rad(8.0), # Looking down at paper
+				"skirt_rot": deg_to_rad(-3.0),
+				"left_thigh_rot": deg_to_rad(3.0),
+				"left_shin_rot": deg_to_rad(-2.0),
+				"left_foot_rot": deg_to_rad(0.0),
+				"right_thigh_rot": deg_to_rad(-3.0),
+				"right_shin_rot": deg_to_rad(2.0),
+				"right_foot_rot": deg_to_rad(0.0),
+				"left_upper_arm_rot": deg_to_rad(32.0),
+				"left_lower_arm_rot": deg_to_rad(58.0),
+				"left_hand_pose": NemiLimbPart.HandPose.OPEN, # Steadying paper
+				"right_upper_arm_rot": deg_to_rad(28.0),
+				"right_lower_arm_rot": deg_to_rad(64.0),
+				"right_hand_pose": NemiLimbPart.HandPose.HOLD_PROP, # Holding pen
+				"hair_back_rot": deg_to_rad(-2.0),
+				"hair_left_rot": deg_to_rad(-3.0),
+				"hair_right_rot": deg_to_rad(0.0),
+				"expression": "concentrated",
+				"gaze": Vector2(0.2, 0.6)
+			}
+
+		"exam_blank_stare", "blank_mind":
+			# Seated upright at exam desk, hands flat on desk, completely unblinking shock freeze
+			return {
+				"root_offset": Vector2(0.0, 14.0),
+				"torso_rot": deg_to_rad(0.0), # Stiff upright spine
+				"neck_rot": deg_to_rad(0.0),
+				"head_rot": deg_to_rad(0.0),
+				"skirt_rot": deg_to_rad(-2.0),
+				"left_thigh_rot": deg_to_rad(2.0),
+				"left_shin_rot": deg_to_rad(-1.0),
+				"left_foot_rot": deg_to_rad(0.0),
+				"right_thigh_rot": deg_to_rad(-2.0),
+				"right_shin_rot": deg_to_rad(1.0),
+				"right_foot_rot": deg_to_rad(0.0),
+				"left_upper_arm_rot": deg_to_rad(16.0),
+				"left_lower_arm_rot": deg_to_rad(36.0),
+				"left_hand_pose": NemiLimbPart.HandPose.OPEN, # Flat on table
+				"right_upper_arm_rot": deg_to_rad(-16.0),
+				"right_lower_arm_rot": deg_to_rad(-36.0),
+				"right_hand_pose": NemiLimbPart.HandPose.OPEN,
+				"hair_back_rot": deg_to_rad(0.0),
+				"hair_left_rot": deg_to_rad(0.0),
+				"hair_right_rot": deg_to_rad(0.0),
+				"expression": "deadpan",
+				"gaze": Vector2(0.0, 0.0) # Dead-center on lens
+			}
+
+		"bored_slouch", "disinterested":
+			# Disinterested slouch: hips out, head cocked away, hand pushing textbook
+			return {
+				"root_offset": Vector2(-8.0, 3.0),
+				"torso_rot": deg_to_rad(-6.0),
+				"neck_rot": deg_to_rad(3.0),
+				"head_rot": deg_to_rad(7.0),
+				"skirt_rot": deg_to_rad(-3.0),
+				"left_thigh_rot": deg_to_rad(6.0),
+				"left_shin_rot": deg_to_rad(-6.0),
+				"left_foot_rot": deg_to_rad(-2.0),
+				"right_thigh_rot": deg_to_rad(-14.0),
+				"right_shin_rot": deg_to_rad(16.0),
+				"right_foot_rot": deg_to_rad(6.0),
+				"left_upper_arm_rot": deg_to_rad(12.0),
+				"left_lower_arm_rot": deg_to_rad(16.0),
+				"left_hand_pose": NemiLimbPart.HandPose.RELAXED,
+				"right_upper_arm_rot": deg_to_rad(-25.0), # Dismissive push
+				"right_lower_arm_rot": deg_to_rad(-45.0),
+				"right_hand_pose": NemiLimbPart.HandPose.OPEN_PALM_UP,
+				"hair_back_rot": deg_to_rad(2.0),
+				"hair_left_rot": deg_to_rad(1.0),
+				"hair_right_rot": deg_to_rad(3.0),
+				"expression": "bored",
+				"gaze": Vector2(0.3, -0.2)
+			}
+
+		"panicked_writing", "desperate_writing":
+			# Hunched frantically over paper, gripping pen tight, sweat drops
+			return {
+				"root_offset": Vector2(6.0, 16.0),
+				"torso_rot": deg_to_rad(14.0), # Deeply hunched
+				"neck_rot": deg_to_rad(-6.0),
+				"head_rot": deg_to_rad(10.0),
+				"skirt_rot": deg_to_rad(-4.0),
+				"left_thigh_rot": deg_to_rad(3.0),
+				"left_shin_rot": deg_to_rad(-2.0),
+				"left_foot_rot": deg_to_rad(0.0),
+				"right_thigh_rot": deg_to_rad(-3.0),
+				"right_shin_rot": deg_to_rad(2.0),
+				"right_foot_rot": deg_to_rad(0.0),
+				"left_upper_arm_rot": deg_to_rad(38.0),
+				"left_lower_arm_rot": deg_to_rad(65.0),
+				"left_hand_pose": NemiLimbPart.HandPose.FIST, # Clenching paper
+				"right_upper_arm_rot": deg_to_rad(32.0),
+				"right_lower_arm_rot": deg_to_rad(70.0),
+				"right_hand_pose": NemiLimbPart.HandPose.HOLD_PROP, # Furious writing
+				"hair_back_rot": deg_to_rad(-3.0),
+				"hair_left_rot": deg_to_rad(-4.0),
+				"hair_right_rot": deg_to_rad(1.0),
+				"expression": "shocked",
+				"gaze": Vector2(0.3, 0.7)
+			}
+
 		_: # Fallback to relaxed standing
 			return get_pose("relaxed_standing")

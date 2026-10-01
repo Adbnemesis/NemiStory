@@ -1,0 +1,123 @@
+[gd_scene load_steps=3 format=3 uid="uid://adb_physics_test_01"]
+
+[ext_resource type="Script" path="res://adb/test/ADB_PHYSICS_TEST.gd" id="1_test"]
+[ext_resource type="PackedScene" uid="uid://adb_character_root_scene" path="res://adb/characters/adb/ADB.tscn" id="2_adb"]
+
+[node name="ADB_PHYSICS_TEST" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.976471, 0.968627, 0.952941, 1)
+
+[node name="FloorLine" type="Line2D" parent="."]
+points = PackedVector2Array(100, 840, 1820, 840)
+width = 3.0
+default_color = Color(0.75, 0.72, 0.7, 1)
+
+[node name="Environment" type="Node2D" parent="."]
+
+[node name="Chair" type="Node2D" parent="Environment"]
+position = Vector2(620, 680)
+
+[node name="ChairBack" type="Polygon2D" parent="Environment/Chair"]
+color = Color(0.35, 0.42, 0.5, 1)
+polygon = PackedVector2Array(-35, -120, 35, -120, 30, 0, -30, 0)
+
+[node name="ChairBackOutline" type="Line2D" parent="Environment/Chair"]
+points = PackedVector2Array(-35, -120, 35, -120, 30, 0, -30, 0, -35, -120)
+width = 2.5
+default_color = Color(0.11, 0.09, 0.13, 1)
+
+[node name="ChairSeat" type="Polygon2D" parent="Environment/Chair"]
+color = Color(0.42, 0.52, 0.62, 1)
+polygon = PackedVector2Array(-55, 0, 55, 0, 50, 20, -50, 20)
+
+[node name="ChairSeatOutline" type="Line2D" parent="Environment/Chair"]
+points = PackedVector2Array(-55, 0, 55, 0, 50, 20, -50, 20, -55, 0)
+width = 2.5
+default_color = Color(0.11, 0.09, 0.13, 1)
+
+[node name="ChairLeg1" type="Line2D" parent="Environment/Chair"]
+points = PackedVector2Array(-45, 20, -45, 160)
+width = 4.0
+default_color = Color(0.2, 0.2, 0.22, 1)
+
+[node name="ChairLeg2" type="Line2D" parent="Environment/Chair"]
+points = PackedVector2Array(45, 20, 45, 160)
+width = 4.0
+default_color = Color(0.2, 0.2, 0.22, 1)
+
+[node name="Desk" type="Node2D" parent="Environment"]
+position = Vector2(1150, 690)
+
+[node name="DeskTop" type="Polygon2D" parent="Environment/Desk"]
+color = Color(0.68, 0.55, 0.44, 1)
+polygon = PackedVector2Array(-180, 0, 180, 0, 175, 24, -175, 24)
+
+[node name="DeskTopOutline" type="Line2D" parent="Environment/Desk"]
+points = PackedVector2Array(-180, 0, 180, 0, 175, 24, -175, 24, -180, 0)
+width = 2.5
+default_color = Color(0.11, 0.09, 0.13, 1)
+
+[node name="DeskLegLeft" type="Line2D" parent="Environment/Desk"]
+points = PackedVector2Array(-160, 24, -160, 150)
+width = 6.0
+default_color = Color(0.55, 0.42, 0.32, 1)
+
+[node name="DeskLegRight" type="Line2D" parent="Environment/Desk"]
+points = PackedVector2Array(160, 24, 160, 150)
+width = 6.0
+default_color = Color(0.55, 0.42, 0.32, 1)
+
+[node name="Mug" type="Node2D" parent="Environment"]
+position = Vector2(1180, 665)
+z_index = 10
+
+[node name="MugBody" type="Polygon2D" parent="Environment/Mug"]
+color = Color(0.95, 0.93, 0.88, 1)
+polygon = PackedVector2Array(-14, -22, 14, -22, 11, 14, -11, 14)
+
+[node name="MugOutline" type="Line2D" parent="Environment/Mug"]
+points = PackedVector2Array(-14, -22, 14, -22, 11, 14, -11, 14, -14, -22)
+width = 2.2
+default_color = Color(0.11, 0.09, 0.13, 1)
+
+[node name="MugHandle" type="Line2D" parent="Environment/Mug"]
+points = PackedVector2Array(13, -14, 23, -12, 23, 4, 11, 6)
+width = 2.2
+default_color = Color(0.11, 0.09, 0.13, 1)
+
+[node name="ADB" parent="." instance=ExtResource("2_adb")]
+position = Vector2(820, 570)
+scale = Vector2(1.15, 1.15)
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="TitleLabel" type="Label" parent="UI"]
+offset_left = 60.0
+offset_top = 40.0
+offset_right = 900.0
+offset_bottom = 85.0
+theme_override_colors/font_color = Color(0.14902, 0.137255, 0.180392, 1)
+theme_override_font_sizes/font_size = 28
+text = "ADB ENVIRONMENT & PHYSICS GROUNDING TEST"
+
+[node name="PhaseLabel" type="Label" parent="UI"]
+offset_left = 60.0
+offset_top = 960.0
+offset_right = 1200.0
+offset_bottom = 1000.0
+theme_override_colors/font_color = Color(0.14902, 0.137255, 0.180392, 1)
+theme_override_font_sizes/font_size = 24
+text = "PHASE 1: Standing Grounded"
+
+[node name="StatusLabel" type="Label" parent="UI"]
+offset_left = 60.0
+offset_top = 1000.0
+offset_right = 1200.0
+offset_bottom = 1040.0
+theme_override_colors/font_color = Color(0.45, 0.42, 0.48, 1)
+theme_override_font_sizes/font_size = 18
+text = "Both feet planted firmly on floor line. Zero floating."

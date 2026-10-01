@@ -1,0 +1,77 @@
+{
+  "brand": "nemi",
+  "poses": [
+    {
+      "id": "peek_bottom_inquisitive",
+      "spatial_role": "bottom_edge_anchor",
+      "emotional_intent": "awkward confession, relatable question, teasing",
+      "compatible_archetypes": ["edge_peek", "sign_cta"],
+      "default_scale": 1.25,
+      "default_offset": [0, 40]
+    },
+    {
+      "id": "peek_right_pointing",
+      "spatial_role": "right_edge_anchor",
+      "emotional_intent": "guiding user attention, highlighting key bullet",
+      "compatible_archetypes": ["edge_peek", "split_stage"],
+      "default_scale": 1.2,
+      "default_offset": [320, 100]
+    },
+    {
+      "id": "sit_on_card",
+      "spatial_role": "card_header_perch",
+      "emotional_intent": "casual reflection, storytelling setup",
+      "compatible_archetypes": ["card_perch"],
+      "default_scale": 1.0,
+      "default_offset": [0, -180]
+    },
+    {
+      "id": "dramatic_panic_sprawl",
+      "spatial_role": "canvas_bottom_sprawl",
+      "emotional_intent": "creative burnout, comic despair, exhaustion",
+      "compatible_archetypes": ["hero_closeup", "edge_peek"],
+      "default_scale": 1.15,
+      "default_offset": [0, 220]
+    },
+    {
+      "id": "hero_sparkle_triumph",
+      "spatial_role": "center_hero",
+      "emotional_intent": "celebrating small win, proud animator moment",
+      "compatible_archetypes": ["hero_closeup", "split_stage"],
+      "default_scale": 1.3,
+      "default_offset": [0, 80]
+    },
+    {
+      "id": "comic_recoil_shock",
+      "spatial_role": "side_recoil",
+      "emotional_intent": "algorithm betrayal, sudden reality check",
+      "compatible_archetypes": ["hero_closeup", "split_stage"],
+      "default_scale": 1.2,
+      "default_offset": [-50, 100]
+    },
+    {
+      "id": "thinking_chin_tap",
+      "spatial_role": "split_right",
+      "emotional_intent": "analyzing a problem, questioning logic",
+      "compatible_archetypes": ["split_stage", "quote_card"],
+      "default_scale": 1.15,
+      "default_offset": [220, 120]
+    },
+    {
+      "id": "hold_cta_sign",
+      "spatial_role": "bottom_center",
+      "emotional_intent": "asking for comments, signing off",
+      "compatible_archetypes": ["sign_cta"],
+      "default_scale": 1.1,
+      "default_offset": [0, 160]
+    },
+    {
+      "id": "relaxed_standing",
+      "spatial_role": "general_full_body",
+      "emotional_intent": "neutral, conversational, introductory",
+      "compatible_archetypes": ["split_stage"],
+      "default_scale": 1.15,
+      "default_offset": [200, 120]
+    }
+  ]
+}

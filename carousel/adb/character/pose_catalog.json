@@ -1,0 +1,77 @@
+{
+  "brand": "adb",
+  "poses": [
+    {
+      "id": "peek_side_deadpan",
+      "spatial_role": "right_edge_anchor",
+      "emotional_intent": "unimpressed observation, deadpan stare",
+      "compatible_archetypes": ["edge_peek"],
+      "default_scale": 1.25,
+      "default_offset": [330, 80]
+    },
+    {
+      "id": "lean_left_margin",
+      "spatial_role": "left_edge_anchor",
+      "emotional_intent": "casual explanation, cool confidence",
+      "compatible_archetypes": ["split_stage"],
+      "default_scale": 1.2,
+      "default_offset": [-280, 100]
+    },
+    {
+      "id": "sit_card_crosslegged",
+      "spatial_role": "card_header_perch",
+      "emotional_intent": "relaxed reflection, gaming chat",
+      "compatible_archetypes": ["card_perch"],
+      "default_scale": 1.05,
+      "default_offset": [0, -190]
+    },
+    {
+      "id": "hero_bust_side_eye",
+      "spatial_role": "center_hero",
+      "emotional_intent": "knowing smirk, delivered punchline",
+      "compatible_archetypes": ["hero_closeup", "split_stage"],
+      "default_scale": 1.35,
+      "default_offset": [0, 90]
+    },
+    {
+      "id": "disarmed_fluster",
+      "spatial_role": "side_fluster",
+      "emotional_intent": "secretly cute embarrassment, caught off-guard",
+      "compatible_archetypes": ["hero_closeup", "split_stage"],
+      "default_scale": 1.2,
+      "default_offset": [120, 110]
+    },
+    {
+      "id": "unimpressed_freeze",
+      "spatial_role": "deadpan_hold",
+      "emotional_intent": "complete disbelief, 0-velocity comedic timing",
+      "compatible_archetypes": ["hero_closeup", "quote_card"],
+      "default_scale": 1.25,
+      "default_offset": [0, 100]
+    },
+    {
+      "id": "sarcastic_shrug",
+      "spatial_role": "split_right",
+      "emotional_intent": "sarcastic acceptance of chaos, what can you do",
+      "compatible_archetypes": ["split_stage"],
+      "default_scale": 1.15,
+      "default_offset": [220, 120]
+    },
+    {
+      "id": "hold_terminal_board",
+      "spatial_role": "bottom_center",
+      "emotional_intent": "concluding question, signing off",
+      "compatible_archetypes": ["sign_cta"],
+      "default_scale": 1.1,
+      "default_offset": [0, 160]
+    },
+    {
+      "id": "relaxed_standing",
+      "spatial_role": "general_full_body",
+      "emotional_intent": "introductory casual presence",
+      "compatible_archetypes": ["split_stage"],
+      "default_scale": 1.2,
+      "default_offset": [200, 120]
+    }
+  ]
+}

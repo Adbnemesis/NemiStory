@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://carouselslidestage001"]
+
+[ext_resource type="Script" path="res://carousel/common/scripts/CarouselSlideStage.gd" id="1_stage_script"]
+
+[node name="CarouselSlideStage" type="Node2D"]
+script = ExtResource("1_stage_script")

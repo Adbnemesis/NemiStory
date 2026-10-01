@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://adb_ep00_b01"]
+
+[ext_resource type="Script" path="res://adb/episodes/ep00_intro/beats/Beat01_PushedHook.gd" id="1_b01"]
+
+[node name="Beat01_PushedHook" type="Node2D"]
+script = ExtResource("1_b01")

@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "title": "direction starter",
+  "duration": 10,
+  "fps": 30,
+  "audio": null,
+  "actors": [
+    {
+      "id": "adb",
+      "author": "adb",
+      "performances": [
+        {
+          "at": 0,
+          "recipe": "listening"
+        },
+        {
+          "at": 1,
+          "recipe": "lean_in"
+        },
+        {
+          "at": 5,
+          "recipe": "soft_shrug",
+          "blinks": [
+            6.2
+          ]
+        },
+        {
+          "at": 8,
+          "recipe": "recover"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "setup",
+      "start": 0,
+      "end": 10,
+      "background": "room",
+      "actors": {
+        "adb": {
+          "position": [
+            540,
+            620
+          ],
+          "scale": 1.5
+        }
+      }
+    }
+  ],
+  "drawings": [
+    {
+      "author": "adb",
+      "kind": "text",
+      "text": "a little plan",
+      "size": 38,
+      "position": [
+        900,
+        330
+      ],
+      "at": 0,
+      "end": 10,
+      "mode": "hold"
+    },
+    {
+      "author": "adb",
+      "kind": "arrow",
+      "position": [
+        870,
+        660
+      ],
+      "at": 2,
+      "duration": 0.6,
+      "end": 10,
+      "mode": "live"
+    }
+  ],
+  "props": [
+    {
+      "author": "adb",
+      "kind": "notebook",
+      "position": [
+        1180,
+        655
+      ],
+      "scale": [
+        1.7,
+        1.7
+      ],
+      "at": 0,
+      "end": 10,
+      "mode": "hold"
+    }
+  ],
+  "vfx": [],
+  "sfx": [],
+  "script": [],
+  "captions": []
+}

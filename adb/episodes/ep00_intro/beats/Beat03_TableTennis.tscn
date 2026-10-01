@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://adb_ep00_b03"]
+
+[ext_resource type="Script" path="res://adb/episodes/ep00_intro/beats/Beat03_TableTennis.gd" id="1_b03"]
+
+[node name="Beat03_TableTennis" type="Node2D"]
+script = ExtResource("1_b03")

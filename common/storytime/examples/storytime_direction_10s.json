@@ -1,0 +1,542 @@
+{
+  "version": 2,
+  "title": "A tiny plan, twenty tabs",
+  "duration": 10,
+  "fps": 30,
+  "audio": "res://renders/storytime_direction/audio/narration.wav",
+  "events": [
+    {
+      "id": "revision",
+      "at": 6.12,
+      "intent": "Cross out the overconfident one-tab claim."
+    }
+  ],
+  "actors": [
+    {
+      "id": "nemi",
+      "author": "nemi",
+      "performances": [
+        {
+          "at": 0,
+          "recipe": "listening"
+        },
+        {
+          "at": 0.4,
+          "recipe": "weight_shift",
+          "blinks": [
+            1.88
+          ]
+        },
+        {
+          "at": 2.2,
+          "recipe": "lean_in",
+          "gaze": [
+            0.7,
+            0.05
+          ],
+          "hands": {
+            "right": "open_palm_up"
+          }
+        },
+        {
+          "at": 8.65,
+          "recipe": "deadpan"
+        }
+      ],
+      "mouths": [
+        {
+          "start": 0.32,
+          "end": 0.52,
+          "shape": "small_open"
+        },
+        {
+          "start": 0.56,
+          "end": 0.66,
+          "shape": "small_open"
+        },
+        {
+          "start": 0.7,
+          "end": 0.76,
+          "shape": "small_open"
+        },
+        {
+          "start": 0.8,
+          "end": 1.04,
+          "shape": "small_open"
+        },
+        {
+          "start": 1.08,
+          "end": 1.7,
+          "shape": "ae"
+        },
+        {
+          "start": 2.34,
+          "end": 2.78,
+          "shape": "small_open"
+        },
+        {
+          "start": 2.82,
+          "end": 2.88,
+          "shape": "small_open"
+        },
+        {
+          "start": 2.92,
+          "end": 3.12,
+          "shape": "o_u"
+        },
+        {
+          "start": 3.16,
+          "end": 3.32,
+          "shape": "small_open"
+        },
+        {
+          "start": 3.36,
+          "end": 3.6,
+          "shape": "small_open"
+        }
+      ]
+    },
+    {
+      "id": "adb",
+      "author": "adb",
+      "performances": [
+        {
+          "at": 0,
+          "recipe": "listening"
+        },
+        {
+          "at": 5.3,
+          "recipe": "prop_present",
+          "hands": {
+            "right": "holding_cup"
+          },
+          "gaze": [
+            0.35,
+            0.15
+          ]
+        },
+        {
+          "at": 6.15,
+          "recipe": "soft_shrug",
+          "hands": {
+            "right": "holding_cup"
+          },
+          "blinks": [
+            7.03
+          ]
+        },
+        {
+          "at": 7.3,
+          "recipe": "deadpan"
+        },
+        {
+          "at": 8.65,
+          "recipe": "deadpan"
+        }
+      ],
+      "mouths": [
+        {
+          "start": 5.32,
+          "end": 5.8,
+          "shape": "talk_open"
+        },
+        {
+          "start": 6.12,
+          "end": 6.38,
+          "shape": "talk_open"
+        },
+        {
+          "start": 6.42,
+          "end": 6.78,
+          "shape": "talk_open"
+        },
+        {
+          "start": 7.36,
+          "end": 7.72,
+          "shape": "talk_open"
+        },
+        {
+          "start": 7.76,
+          "end": 8.14,
+          "shape": "talk_open"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "setup",
+      "start": 0,
+      "end": 3.85,
+      "background": "room",
+      "actors": {
+        "nemi": {
+          "position": [
+            560,
+            650
+          ],
+          "scale": 1.55
+        }
+      }
+    },
+    {
+      "id": "inside_plan",
+      "start": 3.85,
+      "end": 5.3,
+      "background": "thought",
+      "actors": {},
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "reply",
+      "start": 5.3,
+      "end": 8.65,
+      "background": "paper",
+      "actors": {
+        "adb": {
+          "position": [
+            530,
+            625
+          ],
+          "scale": 1.65
+        }
+      }
+    },
+    {
+      "id": "aftermath",
+      "start": 8.65,
+      "end": 10,
+      "background": "evening",
+      "actors": {
+        "nemi": {
+          "position": [
+            550,
+            650
+          ],
+          "scale": 1.5
+        },
+        "adb": {
+          "position": [
+            1230,
+            642
+          ],
+          "scale": 1.5
+        }
+      }
+    }
+  ],
+  "props": [
+    {
+      "author": "nemi",
+      "kind": "notebook",
+      "at": 0,
+      "end": 2.75,
+      "position": [
+        1120,
+        635
+      ],
+      "scale": [
+        1.7,
+        1.7
+      ],
+      "shots": [
+        "setup"
+      ],
+      "mode": "hold"
+    },
+    {
+      "author": "nemi",
+      "kind": "laptop",
+      "at": 2.75,
+      "end": 3.85,
+      "position": [
+        1150,
+        690
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "shots": [
+        "setup"
+      ],
+      "mode": "hold"
+    },
+    {
+      "author": "nemi",
+      "kind": "cloud",
+      "at": 3.85,
+      "end": 5.3,
+      "position": [
+        930,
+        485
+      ],
+      "scale": [
+        3.6,
+        2.5
+      ],
+      "shots": [
+        "inside_plan"
+      ],
+      "mode": "hold",
+      "layer": -1
+    },
+    {
+      "author": "nemi",
+      "kind": "tabs",
+      "at": 3.85,
+      "end": 5.3,
+      "position": [
+        930,
+        505
+      ],
+      "scale": [
+        1.9,
+        1.9
+      ],
+      "shots": [
+        "inside_plan"
+      ],
+      "mode": "hold"
+    },
+    {
+      "author": "adb",
+      "kind": "tabs",
+      "at": 5.3,
+      "end": 8.65,
+      "position": [
+        1270,
+        555
+      ],
+      "scale": [
+        2,
+        2
+      ],
+      "shots": [
+        "reply"
+      ],
+      "mode": "hold"
+    },
+    {
+      "author": "adb",
+      "kind": "phone",
+      "at": 5.3,
+      "end": 7.3,
+      "scale": [
+        0.8,
+        0.8
+      ],
+      "mode": "hold",
+      "attach": {
+        "actor": "adb",
+        "hand": "right",
+        "grip": [
+          0,
+          8
+        ],
+        "angle": 0
+      },
+      "layer": 0
+    }
+  ],
+  "drawings": [
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "just one thing",
+      "size": 38,
+      "at": 0,
+      "end": 3.85,
+      "position": [
+        920,
+        320
+      ],
+      "mode": "hold",
+      "shots": [
+        "setup"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "a tiny plan",
+      "size": 37,
+      "at": 3.85,
+      "end": 5.3,
+      "position": [
+        735,
+        200
+      ],
+      "mode": "hold",
+      "shots": [
+        "inside_plan"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "text": "one tab",
+      "size": 45,
+      "at": 5.3,
+      "end": 8.65,
+      "position": [
+        1155,
+        225
+      ],
+      "mode": "hold",
+      "shots": [
+        "reply"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "scratch",
+      "event": "revision",
+      "at": 6.12,
+      "duration": 0.2,
+      "end": 8.65,
+      "position": [
+        1280,
+        250
+      ],
+      "scale": [
+        1.8,
+        1.2
+      ],
+      "mode": "live",
+      "accent": true,
+      "shots": [
+        "reply"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "text": "20 tabs",
+      "size": 52,
+      "at": 6.34,
+      "duration": 0.55,
+      "end": 8.65,
+      "position": [
+        1120,
+        785
+      ],
+      "mode": "live",
+      "accent": true,
+      "shots": [
+        "reply"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "text": "no work done",
+      "size": 38,
+      "at": 8.65,
+      "end": 10,
+      "position": [
+        780,
+        285
+      ],
+      "mode": "hold",
+      "accent": true,
+      "shots": [
+        "aftermath"
+      ]
+    }
+  ],
+  "vfx": [
+    {
+      "kind": "realization",
+      "author": "nemi",
+      "actor": "nemi",
+      "offset": [
+        95,
+        -65
+      ],
+      "at": 2.75,
+      "end": 3.35,
+      "shots": [
+        "setup"
+      ]
+    },
+    {
+      "kind": "sweat",
+      "author": "adb",
+      "actor": "adb",
+      "offset": [
+        95,
+        -30
+      ],
+      "event": "revision",
+      "at": 6.12,
+      "end": 6.85,
+      "shots": [
+        "reply"
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "file": "res://common/audio/sfx/computer/computer_mouse_fast_double_01.wav",
+      "at": 2.95,
+      "duration": 0.18,
+      "gain_db": -24
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_flip_03.ogg",
+      "at": 3.85,
+      "duration": 0.23,
+      "gain_db": -22
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_01.ogg",
+      "event": "revision",
+      "at": 6.12,
+      "duration": 0.139,
+      "gain_db": -24
+    }
+  ],
+  "script": [
+    {
+      "actor": "nemi",
+      "start": 0.3,
+      "end": 3.82,
+      "text": "I had a tiny plan. Then I opened my laptop."
+    },
+    {
+      "actor": "adb",
+      "start": 5.3,
+      "end": 8.42,
+      "text": "Suddenly, twenty tabs. Very productive."
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.3,
+      "end": 1.72,
+      "text": "I had a tiny plan."
+    },
+    {
+      "start": 2.32,
+      "end": 3.82,
+      "text": "Then I opened my laptop."
+    },
+    {
+      "start": 5.3,
+      "end": 6.8,
+      "text": "Suddenly, twenty tabs."
+    },
+    {
+      "start": 7.34,
+      "end": 8.42,
+      "text": "Very productive."
+    }
+  ]
+}

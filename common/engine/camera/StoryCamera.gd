@@ -14,13 +14,14 @@ enum Framing {
 }
 
 const FRAMING_ZOOMS = {
-	Framing.WIDE: Vector2(0.85, 0.85),
-	Framing.MEDIUM: Vector2(1.0, 1.0),
-	Framing.CLOSEUP: Vector2(1.3, 1.3),
-	Framing.EXTREME_CLOSEUP: Vector2(1.7, 1.7)
+	Framing.WIDE: Vector2(1.0, 1.0),
+	Framing.MEDIUM: Vector2(1.15, 1.15),
+	Framing.CLOSEUP: Vector2(1.4, 1.4),
+	Framing.EXTREME_CLOSEUP: Vector2(1.8, 1.8)
 }
 
-var base_camera_pos: Vector2 = Vector2.ZERO
+var default_camera_pos: Vector2 = Vector2(960, 540)
+var base_camera_pos: Vector2 = Vector2(960, 540)
 var base_zoom: Vector2 = Vector2.ONE
 
 var shake_trauma: float = 0.0
@@ -31,6 +32,7 @@ var shake_max_offset: float = 14.0
 var active_tween: Tween = null
 
 func _ready() -> void:
+	default_camera_pos = position
 	base_camera_pos = position
 	base_zoom = zoom
 
@@ -52,7 +54,7 @@ func punch_in(zoom_multiplier: float = 1.25, snap: bool = true, target_pos: Vect
 	if active_tween and active_tween.is_valid():
 		active_tween.kill()
 
-	var target_zoom: Vector2 = base_zoom * zoom_multiplier
+	var target_zoom: Vector2 = Vector2(maxf(1.0, base_zoom.x * zoom_multiplier), maxf(1.0, base_zoom.y * zoom_multiplier))
 	var new_pos: Vector2 = base_camera_pos if target_pos == Vector2.INF else target_pos
 
 	if snap:
@@ -69,7 +71,7 @@ func slow_push(zoom_multiplier: float = 1.15, duration: float = 3.0) -> void:
 	if active_tween and active_tween.is_valid():
 		active_tween.kill()
 
-	var target_zoom: Vector2 = base_zoom * zoom_multiplier
+	var target_zoom: Vector2 = Vector2(maxf(1.0, base_zoom.x * zoom_multiplier), maxf(1.0, base_zoom.y * zoom_multiplier))
 	active_tween = create_tween().set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_IN_OUT)
 	active_tween.tween_property(self, "zoom", target_zoom, duration)
 
@@ -92,7 +94,7 @@ func shake(trauma: float = 0.8, decay: float = 3.5, max_offset: float = 14.0) ->
 	shake_max_offset = max_offset
 	shake_elapsed = 0.0
 
-## Reset to default framing
+## Reset to default framing (1920x1080 center: default_camera_pos, zoom: 1.0)
 func reset_framing(duration: float = 0.0) -> void:
 	if active_tween and active_tween.is_valid():
 		active_tween.kill()
@@ -100,9 +102,9 @@ func reset_framing(duration: float = 0.0) -> void:
 	if duration <= 0.0:
 		zoom = Vector2.ONE
 		base_zoom = Vector2.ONE
-		base_camera_pos = Vector2(640, 360)
+		base_camera_pos = default_camera_pos
 		position = base_camera_pos
 	else:
 		active_tween = create_tween().set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
 		active_tween.tween_property(self, "zoom", Vector2.ONE, duration)
-		active_tween.parallel().tween_property(self, "base_camera_pos", Vector2(640, 360), duration)
+		active_tween.parallel().tween_property(self, "base_camera_pos", default_camera_pos, duration)

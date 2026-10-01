@@ -1,0 +1,53 @@
+{
+  "system": "Carousel Composition Archetype Catalog",
+  "archetypes": [
+    {
+      "id": "edge_peek",
+      "name": "Edge Peek Hook",
+      "role": "High-impact opening slide or dramatic confession",
+      "description": "Large centered headline with character peeking from bottom or lateral border",
+      "character_presence": "peeking_border",
+      "text_placement": "center_top"
+    },
+    {
+      "id": "split_stage",
+      "name": "Split Stage Two-Column",
+      "role": "Narrative explanation, contrast, or bullet breakdown",
+      "description": "Text column on left, full-body standing character on right",
+      "character_presence": "standing_side",
+      "text_placement": "column_left"
+    },
+    {
+      "id": "card_perch",
+      "name": "Card Perch Container",
+      "role": "Mid-carousel escalation or core situation setup",
+      "description": "Framed content container with character sitting casually atop border",
+      "character_presence": "sitting_header",
+      "text_placement": "inside_card"
+    },
+    {
+      "id": "hero_closeup",
+      "name": "Hero Dramatic Reaction",
+      "role": "Comedic climax, panic realization, or deadpan hold",
+      "description": "Prominent bust or facial close-up anchored to a punchline",
+      "character_presence": "dominant_bust",
+      "text_placement": "top_header"
+    },
+    {
+      "id": "quote_card",
+      "name": "Bookmarkable Insight Card",
+      "role": "Penultimate save-worthy takeaway",
+      "description": "High-contrast framed summary card with subtle grounded character signature",
+      "character_presence": "grounded_accent",
+      "text_placement": "card_full"
+    },
+    {
+      "id": "sign_cta",
+      "name": "Prompt Signboard CTA",
+      "role": "Final engagement & comment prompt",
+      "description": "Character holding an illustrated prompt board driving discussion",
+      "character_presence": "holding_sign",
+      "text_placement": "sign_center"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://nemi/episodes/ep08_forced_bf_channel/beats/Beat07_TwoChannels.gd" id="1_beat"]
+
+[node name="Beat07_TwoChannels" type="Node2D"]
+script = ExtResource("1_beat")
+is_standalone = true
+beat_number = 7
+beat_name = "Two Channels"

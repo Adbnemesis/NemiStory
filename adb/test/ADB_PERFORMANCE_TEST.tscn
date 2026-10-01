@@ -1,0 +1,59 @@
+[gd_scene load_steps=3 format=3 uid="uid://adb_performance_test_01"]
+
+[ext_resource type="Script" path="res://adb/test/ADB_PERFORMANCE_TEST.gd" id="1_test"]
+[ext_resource type="PackedScene" uid="uid://adb_character_root_scene" path="res://adb/characters/adb/ADB.tscn" id="2_adb"]
+
+[node name="ADB_PERFORMANCE_TEST" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="PaperBackground" type="ColorRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.976471, 0.968627, 0.952941, 1)
+
+[node name="FloorLine" type="Line2D" parent="."]
+points = PackedVector2Array(100, 920, 1820, 920)
+width = 2.5
+default_color = Color(0.85, 0.83, 0.81, 1)
+
+[node name="ADB" parent="." instance=ExtResource("2_adb")]
+position = Vector2(960, 600)
+scale = Vector2(1.15, 1.15)
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="TitleLabel" type="Label" parent="UI"]
+offset_left = 60.0
+offset_top = 40.0
+offset_right = 800.0
+offset_bottom = 85.0
+theme_override_colors/font_color = Color(0.14902, 0.137255, 0.180392, 1)
+theme_override_font_sizes/font_size = 28
+text = "ADB STORYTIME PERFORMANCE TEST (16s Loop)"
+
+[node name="TimeLabel" type="Label" parent="UI"]
+offset_left = 60.0
+offset_top = 85.0
+offset_right = 500.0
+offset_bottom = 120.0
+theme_override_colors/font_color = Color(0.4, 0.4, 0.45, 1)
+theme_override_font_sizes/font_size = 20
+text = "TIME: 00.00s / 16.00s"
+
+[node name="BeatLabel" type="Label" parent="UI"]
+offset_left = 60.0
+offset_top = 960.0
+offset_right = 1200.0
+offset_bottom = 1000.0
+theme_override_colors/font_color = Color(0.14902, 0.137255, 0.180392, 1)
+theme_override_font_sizes/font_size = 24
+text = "BEAT 01: Initializing..."
+
+[node name="StatusLabel" type="Label" parent="UI"]
+offset_left = 60.0
+offset_top = 1000.0
+offset_right = 1200.0
+offset_bottom = 1040.0
+theme_override_colors/font_color = Color(0.45, 0.42, 0.48, 1)
+theme_override_font_sizes/font_size = 18
+text = "Starting test sequence..."

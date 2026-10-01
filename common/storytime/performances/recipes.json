@@ -1,0 +1,508 @@
+{
+  "nemi": {
+    "listening": {
+      "pose": "casual_standing",
+      "expression": "neutral",
+      "gaze": [
+        -0.5,
+        -0.1
+      ],
+      "eyes": 0.92,
+      "head_degrees": 4,
+      "duration": 0.34,
+      "intent": "Listen with an open face; head follows gaze.",
+      "face": {}
+    },
+    "explaining": {
+      "pose": "one_hand_explaining",
+      "expression": "neutral",
+      "gaze": [
+        0.35,
+        0
+      ],
+      "eyes": 0.95,
+      "head_degrees": -2,
+      "duration": 0.34,
+      "intent": "One active hand, small lean, no repeated bobbing.",
+      "face": {}
+    },
+    "uncertain": {
+      "pose": "small_shrug",
+      "expression": "confused",
+      "gaze": [
+        0.35,
+        -0.3
+      ],
+      "eyes": 0.9,
+      "head_degrees": 5,
+      "duration": 0.34,
+      "intent": "A question before a gesture; hold the uncertainty.",
+      "face": {}
+    },
+    "skeptical": {
+      "pose": "suspicious_side_eye",
+      "expression": "confused",
+      "gaze": [
+        0.65,
+        -0.05
+      ],
+      "eyes": 0.78,
+      "head_degrees": -3,
+      "duration": 0.34,
+      "intent": "Quiet suspicion; one eyebrow, no shock marks.",
+      "face": {
+        "left_brow_offset": [
+          0,
+          -3
+        ],
+        "right_brow_offset": [
+          0,
+          0
+        ],
+        "left_brow_tilt": -0.08,
+        "right_brow_tilt": 0.04
+      }
+    },
+    "embarrassed": {
+      "pose": "embarrassed_shrink",
+      "expression": "embarrassed",
+      "gaze": [
+        -0.35,
+        0.3
+      ],
+      "eyes": 0.86,
+      "head_degrees": 4,
+      "duration": 0.34,
+      "intent": "Withdraw slightly, glance down, let the blush carry it.",
+      "face": {
+        "show_blush": true
+      }
+    },
+    "pleased": {
+      "pose": "casual_standing",
+      "expression": "smug",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.92,
+      "head_degrees": -2,
+      "duration": 0.34,
+      "intent": "Small private satisfaction rather than a victory pose.",
+      "face": {}
+    },
+    "deadpan": {
+      "pose": "deadpan_freeze",
+      "expression": "deadpan",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.8,
+      "head_degrees": 0,
+      "duration": 0.0,
+      "intent": "Still silhouette and steady eye contact.",
+      "face": {}
+    },
+    "realization": {
+      "pose": "one_hand_explaining",
+      "expression": "surprised",
+      "gaze": [
+        0,
+        -0.1
+      ],
+      "eyes": 1.08,
+      "head_degrees": 1,
+      "duration": 0.34,
+      "intent": "Small intake of thought; keep the body grounded.",
+      "face": {}
+    },
+    "prop_present": {
+      "pose": "one_hand_explaining",
+      "expression": "neutral",
+      "gaze": [
+        0.35,
+        0
+      ],
+      "eyes": 0.95,
+      "head_degrees": -2,
+      "duration": 0.52,
+      "intent": "Present a held object with a small wrist/arm arc.",
+      "face": {},
+      "gesture_arc": 4,
+      "controls": {
+        "right_upper_arm_rot": -5,
+        "right_lower_arm_rot": 8
+      }
+    },
+    "weight_shift": {
+      "pose": "casual_standing",
+      "expression": "neutral",
+      "gaze": [
+        -0.5,
+        -0.1
+      ],
+      "eyes": 0.92,
+      "head_degrees": 4,
+      "duration": 0.52,
+      "intent": "Let the hip lead a change of mind; feet stay planted.",
+      "face": {},
+      "gesture_arc": 4,
+      "controls": {
+        "root_offset": [
+          7,
+          3
+        ],
+        "torso_rot": 3,
+        "skirt_rot": -2
+      }
+    },
+    "soft_shrug": {
+      "pose": "small_shrug",
+      "expression": "confused",
+      "gaze": [
+        0.35,
+        -0.3
+      ],
+      "eyes": 0.9,
+      "head_degrees": 5,
+      "duration": 0.52,
+      "intent": "Small asymmetric shrug, then settle and wait.",
+      "face": {},
+      "gesture_arc": 4,
+      "controls": {
+        "root_offset": [
+          0,
+          3
+        ],
+        "left_upper_arm_rot": -3,
+        "right_lower_arm_rot": 5
+      }
+    },
+    "lean_in": {
+      "pose": "one_hand_explaining",
+      "expression": "neutral",
+      "gaze": [
+        0.35,
+        0
+      ],
+      "eyes": 0.95,
+      "head_degrees": -2,
+      "duration": 0.52,
+      "intent": "Lean toward the thought without moving the feet.",
+      "face": {},
+      "gesture_arc": 4,
+      "controls": {
+        "root_offset": [
+          3,
+          3
+        ],
+        "torso_rot": -4,
+        "neck_rot": 2
+      }
+    },
+    "quiet_recoil": {
+      "pose": "one_hand_explaining",
+      "expression": "surprised",
+      "gaze": [
+        0,
+        -0.1
+      ],
+      "eyes": 1.08,
+      "head_degrees": 1,
+      "duration": 0.52,
+      "intent": "Brief recognition with a restrained backward response.",
+      "face": {},
+      "gesture_arc": 4,
+      "controls": {
+        "root_offset": [
+          -4,
+          3
+        ],
+        "torso_rot": 4,
+        "right_lower_arm_rot": -4
+      }
+    },
+    "recover": {
+      "pose": "casual_standing",
+      "expression": "smug",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.92,
+      "head_degrees": -2,
+      "duration": 0.52,
+      "intent": "Return to composure; hold the result.",
+      "face": {},
+      "gesture_arc": 4,
+      "controls": {
+        "root_offset": [
+          0,
+          2
+        ]
+      }
+    }
+  },
+  "adb": {
+    "listening": {
+      "pose": "relaxed_standing",
+      "expression": "neutral",
+      "gaze": [
+        0.5,
+        -0.05
+      ],
+      "eyes": 0.91,
+      "head_degrees": -2,
+      "duration": 0.42,
+      "intent": "Attend with a slight head angle and minimal movement.",
+      "face": {}
+    },
+    "explaining": {
+      "pose": "explaining",
+      "expression": "neutral",
+      "gaze": [
+        0.25,
+        0
+      ],
+      "eyes": 0.9,
+      "head_degrees": 1,
+      "duration": 0.42,
+      "intent": "Economical open palm; measured thought.",
+      "face": {}
+    },
+    "uncertain": {
+      "pose": "chin_rub",
+      "expression": "confused",
+      "gaze": [
+        -0.35,
+        -0.3
+      ],
+      "eyes": 0.86,
+      "head_degrees": -3,
+      "duration": 0.42,
+      "intent": "Look for the answer, then commit the hand.",
+      "face": {}
+    },
+    "skeptical": {
+      "pose": "weight_left",
+      "expression": "deadpan",
+      "gaze": [
+        0.65,
+        -0.05
+      ],
+      "eyes": 0.76,
+      "head_degrees": 3,
+      "duration": 0.42,
+      "intent": "Raised brow, delayed glance, restrained response.",
+      "face": {
+        "brow_left_height": -3,
+        "brow_right_height": 0,
+        "brow_left_angle": -3,
+        "brow_right_angle": 1
+      }
+    },
+    "embarrassed": {
+      "pose": "embarrassed",
+      "expression": "embarrassed",
+      "gaze": [
+        -0.3,
+        0.25
+      ],
+      "eyes": 0.94,
+      "head_degrees": -2,
+      "duration": 0.42,
+      "intent": "Cool composure softens; keep the blush subtle.",
+      "face": {
+        "blush_intensity": 0.32
+      }
+    },
+    "pleased": {
+      "pose": "relaxed_standing",
+      "expression": "amused",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.9,
+      "head_degrees": 2,
+      "duration": 0.42,
+      "intent": "A small smile, not a large celebration.",
+      "face": {}
+    },
+    "deadpan": {
+      "pose": "deadpan_freeze",
+      "expression": "deadpan",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.8,
+      "head_degrees": 0,
+      "duration": 0.0,
+      "intent": "Hold without idle motion; blink only after the joke.",
+      "face": {}
+    },
+    "realization": {
+      "pose": "open_palms",
+      "expression": "shocked",
+      "gaze": [
+        0,
+        -0.1
+      ],
+      "eyes": 1.1,
+      "head_degrees": -2,
+      "duration": 0.42,
+      "intent": "Briefly exposed uncertainty, then settle.",
+      "face": {}
+    },
+    "prop_present": {
+      "pose": "explaining",
+      "expression": "neutral",
+      "gaze": [
+        0.25,
+        0
+      ],
+      "eyes": 0.9,
+      "head_degrees": 1,
+      "duration": 0.62,
+      "intent": "Present a held object with a small wrist/arm arc.",
+      "face": {},
+      "gesture_arc": 6,
+      "controls": {
+        "right_elbow": [
+          5,
+          0
+        ],
+        "right_hand": [
+          8,
+          -5
+        ]
+      }
+    },
+    "weight_shift": {
+      "pose": "relaxed_standing",
+      "expression": "neutral",
+      "gaze": [
+        0.5,
+        -0.05
+      ],
+      "eyes": 0.91,
+      "head_degrees": -2,
+      "duration": 0.62,
+      "intent": "Let the hip lead a change of mind; feet stay planted.",
+      "face": {},
+      "gesture_arc": 6,
+      "controls": {
+        "pelvis_offset": [
+          7,
+          1
+        ],
+        "torso_tilt": -2,
+        "head_offset": [
+          4,
+          0
+        ],
+        "left_knee_bend": 2
+      }
+    },
+    "soft_shrug": {
+      "pose": "chin_rub",
+      "expression": "confused",
+      "gaze": [
+        -0.35,
+        -0.3
+      ],
+      "eyes": 0.86,
+      "head_degrees": -3,
+      "duration": 0.62,
+      "intent": "Small asymmetric shrug, then settle and wait.",
+      "face": {},
+      "gesture_arc": 6,
+      "controls": {
+        "pelvis_offset": [
+          0,
+          2
+        ],
+        "left_elbow": [
+          -3,
+          -3
+        ],
+        "right_hand": [
+          4,
+          0
+        ]
+      }
+    },
+    "lean_in": {
+      "pose": "explaining",
+      "expression": "neutral",
+      "gaze": [
+        0.25,
+        0
+      ],
+      "eyes": 0.9,
+      "head_degrees": 1,
+      "duration": 0.62,
+      "intent": "Lean toward the thought without moving the feet.",
+      "face": {},
+      "gesture_arc": 6,
+      "controls": {
+        "torso_tilt": -3,
+        "head_offset": [
+          3,
+          -2
+        ],
+        "pelvis_offset": [
+          2,
+          1
+        ]
+      }
+    },
+    "quiet_recoil": {
+      "pose": "open_palms",
+      "expression": "shocked",
+      "gaze": [
+        0,
+        -0.1
+      ],
+      "eyes": 1.1,
+      "head_degrees": -2,
+      "duration": 0.62,
+      "intent": "Brief recognition with a restrained backward response.",
+      "face": {},
+      "gesture_arc": 6,
+      "controls": {
+        "torso_tilt": 3,
+        "head_offset": [
+          -3,
+          0
+        ],
+        "pelvis_offset": [
+          -3,
+          1
+        ]
+      }
+    },
+    "recover": {
+      "pose": "relaxed_standing",
+      "expression": "amused",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.9,
+      "head_degrees": 2,
+      "duration": 0.62,
+      "intent": "Return to composure; hold the result.",
+      "face": {},
+      "gesture_arc": 6,
+      "controls": {
+        "pelvis_offset": [
+          0,
+          1
+        ]
+      }
+    }
+  }
+}
