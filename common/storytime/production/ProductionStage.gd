@@ -112,7 +112,9 @@ func sample(time: float) -> void:
 		node.position=Vector2(block.position[0],block.position[1])
 		node.scale=Vector2.ONE*float(block.scale)
 		acting.sample(node,entry.spec.author,entry.spec.performances,time)
-		HandPaths.sample(node,entry.spec.author,entry.spec.get("hand_paths",{}),time)
+		var hand_window: Array=entry.spec.get("hand_path_window",[0,spec.duration])
+		if time>=float(hand_window[0]) and time<float(hand_window[1]):
+			HandPaths.sample(node,entry.spec.author,entry.spec.get("hand_paths",{}),time)
 		for mouth in entry.spec.get("mouths",[]):
 			if time>=mouth.start and time<mouth.end:
 				if entry.spec.author=="nemi": node.set_mouth_shape(mouth.shape)

@@ -20,3 +20,10 @@ For new ADB/Nemi animation work, first read `docs/animation/STORYTIME_REFINEMENT
 The refinement and version-2 direction workflows are the authoritative executable workflow for new storytime scenes. Older style documents remain artistic context. If extending a mark, letter, recipe, or field, update the profile/schema documentation and example in the same change.
 
 The user authorized pushing current and previously unpushed project source to GitHub, excluding large files. Preserve local generated media; use normal pushes, never force-push. Review staged file sizes and secrets before pushing.
+
+
+## Integrated review after the short proof
+
+A ten-second proof isolates a mechanism; it does not verify the whole animation system. For a broader change, also render a 30–60 second story with enough time to inspect full-body acting, prop contact, expressions, environments, held art, both authors’ live ink, narration, captions, selective VFX/SFX and an ending. Use `common/storytime/examples/story_review_48s/scene.json` and its review guide. Keep feet and hands visible in review shots; do not default to close framing throughout.
+
+ADB authored hand paths now preserve 58/55 local-unit arm lengths. Unspecified wrist angles follow the forearm. Existing rig and hand drawings are unchanged. Optional actor `hand_path_window: [start,end]` limits path ownership to that interval; elsewhere the performance recipe controls the arms. Validate and inspect both boundaries. This is not an automatic anatomy or walking system.

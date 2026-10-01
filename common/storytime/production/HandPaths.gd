@@ -23,12 +23,23 @@ static func sample(actor: Node2D, author: String, paths: Dictionary, time: float
 		else:
 			var shoulder: Vector2=actor.get_shoulder_pos(side=="right")
 			var delta := target-shoulder
-			var middle := shoulder+delta*.5
-			var normal := Vector2(-delta.y,delta.x).normalized()
-			actor.set(side+"_hand",target)
-			actor.set(side+"_elbow",middle+normal*(24.0 if side=="right" else -24.0))
+			# Preserve the existing arm's segment lengths. A fixed midpoint
+			# offset collapsed the upper arm and bent the elbow into the torso.
+			var upper_length := 58.0
+			var lower_length := 55.0
+			var distance := clampf(delta.length(),3.01,112.99)
+			var axis := delta.normalized() if delta.length_squared()>0.0001 else Vector2.DOWN
+			var along := (upper_length*upper_length-lower_length*lower_length+distance*distance)/(2.0*distance)
+			var height := sqrt(maxf(0.0,upper_length*upper_length-along*along))
+			var normal := Vector2(-axis.y,axis.x)
+			actor.set(side+"_hand",shoulder+axis*distance)
+			actor.set(side+"_elbow",shoulder+axis*along+normal*height*(1.0 if side=="right" else -1.0))
 	if author=="adb":
 		Acting.sync_adb(actor)
 		for side in paths:
-			actor.get(side+"_hand_node").rotation_degrees=Motion.scalar(paths[side],time,"angle",0)
+			# Without an explicit wrist orientation, follow the forearm. Do not
+			# force a vertical hand onto every independently angled sleeve.
+			var part := Motion.between(paths[side],time)
+			if part.a.has("angle") or part.b.has("angle"):
+				actor.get(side+"_hand_node").rotation_degrees=Motion.scalar(paths[side],time,"angle",0)
 	actor.queue_redraw()

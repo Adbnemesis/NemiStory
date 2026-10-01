@@ -156,3 +156,10 @@ The exporter chooses stage version from the spec, rejects old episode spec/outpu
 A smaller model gets a starter, exact accepted fields/kinds, finite acting recipes, a shot grammar, explicit timing links, guardrails, and error messages. It should spend its effort choosing the thought and visual action, not inventing engine calls. Unknown fields, unsupported glyphs/hands, shot gaps, invalid attachments, mouth cues outside spoken/visible turns, and event timing drift are rejected.
 
 Use this completion checklist: source/spec saved; no old episode edits; rig hashes unchanged; validation/engine checks passed; new render duration verified; ink and contact checked in stills; playback and speech/sound listened to; remaining limits recorded; source pushed with excluded local media recorded. Mark unperformed checks honestly. Good templates improve repeatability; they cannot make every model's artistic decisions identical.
+
+
+## Integrated review after the short proof
+
+A ten-second proof isolates a mechanism; it does not verify the whole animation system. For a broader change, also render a 30–60 second story with enough time to inspect full-body acting, prop contact, expressions, environments, held art, both authors’ live ink, narration, captions, selective VFX/SFX and an ending. Use `common/storytime/examples/story_review_48s/scene.json` and its review guide. Keep feet and hands visible in review shots; do not default to close framing throughout.
+
+ADB authored hand paths now preserve 58/55 local-unit arm lengths. Unspecified wrist angles follow the forearm. Existing rig and hand drawings are unchanged. Optional actor `hand_path_window: [start,end]` limits path ownership to that interval; elsewhere the performance recipe controls the arms. Validate and inspect both boundaries. This is not an automatic anatomy or walking system.

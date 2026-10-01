@@ -50,6 +50,17 @@ func run() -> void:
 	stage.sample(7.65)
 	require(is_equal_approx(head,actor.head_tilt),"Snap reaction kept interpolating")
 	var nemi=stage.actors.nemi.node
+	# A reach must preserve anatomy, not merely put the prop on its target.
+	for side in ["left","right"]:
+		for target in [Vector2(75,30),Vector2(105,-10),Vector2(123,-58)]:
+			stage.sample(5.7)
+			if side=="left": target.x=-target.x
+			Hands.sample(actor,"adb",{side:[{"at":0,"position":[target.x,target.y]}]},5.7)
+			var shoulder: Vector2=actor.get_shoulder_pos(side=="right")
+			var elbow: Vector2=actor.get(side+"_elbow")
+			var hand: Vector2=actor.get(side+"_hand")
+			require(absf(shoulder.distance_to(elbow)-58.0)<.01 and absf(elbow.distance_to(hand)-55.0)<.01,"ADB arm length changes during reach")
+			require(is_equal_approx(actor.get(side+"_hand_node").rotation,(hand-elbow).angle()-PI*.5),"Unspecified wrist does not follow forearm")
 	stage.sample(1)
 	Hands.sample(nemi,"nemi",{"right":[{"at":0,"position":[85,-45],"angle":-5}]},1)
 	require(nemi.to_local(nemi.right_hand_bone.global_position).distance_to(Vector2(85,-45))<.05,"Nemi external hand IK misses target")

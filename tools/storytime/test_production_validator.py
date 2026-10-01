@@ -31,6 +31,7 @@ case(lambda s:s['props'][-1].update(attach_start=6,attach_end=5))
 case(lambda s:s['shots'][0]['camera'].update(path=[{'at':0,'center':[960,540],'zoom':4}]) if 'camera' in s['shots'][0] else s['shots'][0].update(camera={'path':[{'at':0,'center':[960,540],'zoom':4}]}))
 case(lambda s:s.update(mix={'master_gain_db':0,'target_lufs':-18,'peak_dbfs':0}))
 case(lambda s:s['drawings'][0].update(event_offset=-.2))
+case(lambda s:s['actors'][0].update(hand_path_window=[3,2]))
 for spec in cases:
  try:validate_production(spec,ROOT,validate_data,check_assets=False)
  except (ValueError,KeyError,TypeError):continue
@@ -47,4 +48,4 @@ if metadata.exists():
  print('PASS: local audio identity and caption drift rejection')
 else:
  print('SKIP: audio identity/caption checks need local approved proof recordings')
-print('PASS: production structure, new directing proof and 24 rejected direction mistakes')
+print('PASS: production structure, new directing proof and 25 rejected direction mistakes')

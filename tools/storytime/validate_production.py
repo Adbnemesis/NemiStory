@@ -53,11 +53,14 @@ def validate_production(spec, root, core_validate, check_assets=True):
     ids={}; normalized=copy.deepcopy(spec)
     normalized['version']=1
     for i,actor in enumerate(normalized['actors']):
-        keys(actor,'id author performances mouths hand_paths',f'actor {i}')
+        keys(actor,'id author performances mouths hand_paths hand_path_window',f'actor {i}')
         require(isinstance(actor.get('id'),str) and actor['id'] and actor['id'] not in ids,f'actor {i}: unique id required')
         ids[actor.pop('id')]=actor.get('author')
         actor['position']=[0,0]; actor['scale']=1
         paths=actor.pop('hand_paths',{}); keys(paths,'left right','hand paths')
+        window=actor.pop('hand_path_window',None)
+        if window is not None:
+            require(paths and isinstance(window,list) and len(window)==2 and all(num(v) for v in window) and 0<=window[0]<window[1]<=duration,'hand_path_window needs paths and an ordered interval inside the scene')
         for path in paths.values(): path_check(path,0,duration,'position','angle bend')
         for cue in actor.get('performances',[]):
             keys(cue,'at recipe duration blinks gaze hands grounded motion step_fps face event event_offset',f'actor {i} performance')

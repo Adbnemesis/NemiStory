@@ -29,7 +29,7 @@ There is no compulsory cut every two seconds or guaranteed retention score. A lo
 
 ## Choose the next image by its job
 
-Use one primary action per beat. Pick a closer face shot for recognition, a wider shot for physical geography, an insert for an important object, an imagined scene for a consequence, or a quiet hold for a dry line. Establish where things are before changing contact or orientation. The new silent starter uses readable medium/close framing instead of a tiny standing character by default.
+Use one primary action per beat. Pick a closer face shot for recognition, a wider shot for physical geography, an insert for an important object, an imagined scene for a consequence, or a quiet hold for a dry line. Establish where things are before changing contact or orientation. The silent starter uses a readable full-body review frame. Choose closer shots deliberately when expressions need emphasis, rather than applying close framing throughout.
 
 Held props and finished doodles should be fully drawn when introduced. Use live ink when creation, revision or discovery is part of the joke. Completed lines stay still. Backgrounds establish place/mood; change them when the thought or location changes. New `studio_nemi` and `studio_adb` environments supplement `paper`, `room`, `thought`, `evening`. They are modest authored sets, not a complete location library.
 
@@ -89,3 +89,10 @@ python3 tools/storytime/test_render_timing.py
 The builder hashes the original recordings in `renders/storytime_direction/audio/`. It reuses a matching prepared narration; a changed plan/source requires a new output folder and fresh timing review. A source-only checkout cannot reproduce identical audio from nothing. Supply the approved hashed originals, or make a separate new test from approved recordings and annotate it. Do not synthesize a substitute and keep the old word times.
 
 Save beside each proof: script/beat sheet, source hashes and pace plan, final timing metadata, spec, small contact sheet, audio QA, tests performed, subjective review performed, and remaining limits. Mark an unheard or unwatched check as pending. Preserve rigs/old episodes. Push source and small review artifacts; exclude movies, generated audio and model weights.
+
+
+## Integrated review after the short proof
+
+A ten-second proof isolates a mechanism; it does not verify the whole animation system. For a broader change, also render a 30–60 second story with enough time to inspect full-body acting, prop contact, expressions, environments, held art, both authors’ live ink, narration, captions, selective VFX/SFX and an ending. Use `common/storytime/examples/story_review_48s/scene.json` and its review guide. Keep feet and hands visible in review shots; do not default to close framing throughout.
+
+ADB authored hand paths now preserve 58/55 local-unit arm lengths. Unspecified wrist angles follow the forearm. Existing rig and hand drawings are unchanged. Optional actor `hand_path_window: [start,end]` limits path ownership to that interval; elsewhere the performance recipe controls the arms. Validate and inspect both boundaries. This is not an automatic anatomy or walking system.
