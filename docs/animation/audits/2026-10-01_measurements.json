@@ -1,0 +1,869 @@
+{
+  "date": "2026-10-01",
+  "scope": "Read-only end-to-end storytime audit; production episodes and rigs not edited.",
+  "method": {
+    "words": "Regex word count of the matching saved spoken segment texts; words/minute includes all silence.",
+    "low_energy": "Mono average; nonoverlapping 10ms RMS blocks below -35 dBFS; only contiguous runs >=250ms counted. This is an energy proxy, not VAD or evidence that pauses should be removed.",
+    "loudness": "FFmpeg ebur128=peak=true on the exported MP4 audio; integrated LUFS and decoded true peak.",
+    "alignment": "Three voice-only excerpts, local cached mlx-community/whisper-tiny, language=en, word_timestamps=True. Approximate ASR estimates, not manually verified phonemes.",
+    "frames": "Four sampled frames per episode/reference/proof: 0.7 seconds, 24%, 62%, 93% of exported duration. Contact sheets locally under renders/storytime_audit/. No full continuous playback or subjective listening approval."
+  },
+  "episodes": [
+    {
+      "episode": "EP01",
+      "voice_seconds": 81.33,
+      "video_seconds": 81.333,
+      "words": 170,
+      "wall_wpm": 125.4,
+      "explicit_padding": 8.15,
+      "low_energy_seconds_ge_250ms": 23.78,
+      "gaps_ge_1s": 3,
+      "longest_gaps": [
+        [
+          14.11,
+          15.26,
+          1.15
+        ],
+        [
+          29.03,
+          30.04,
+          1.01
+        ],
+        [
+          40.83,
+          41.83,
+          1.0
+        ]
+      ],
+      "audio": "nemi/episodes/ep01_cat/audio/EP01_voice.wav",
+      "timing": "nemi/episodes/ep01_cat/timing/ep01_cat_timing.json",
+      "video": "nemi/episodes/ep01_cat/EP01_Cat_4K_Master.mp4",
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "index": 1,
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "integrated_lufs": -19.7,
+      "true_peak_dbfs": -3.0,
+      "export_wpm": 125.4,
+      "export_speed_factor": 1.0,
+      "sha256": {
+        "audio": "33c4b0166a7ebee7c722a5c9e43357f5cda4fd39257a5e8a06b3f9ff492a5972",
+        "timing": "37f2f5f1bca6ba70325e3ff42eff6c20375c175a7435580cb04b5436eb8f8ab6",
+        "video": "708e33e82e19f73402270cc9334dcfbd2206dd819ec738c3e4852bfccba58e11"
+      }
+    },
+    {
+      "episode": "EP02",
+      "voice_seconds": 102.06,
+      "video_seconds": 102.06,
+      "words": 173,
+      "wall_wpm": 101.7,
+      "explicit_padding": 11.6,
+      "low_energy_seconds_ge_250ms": 39.36,
+      "gaps_ge_1s": 11,
+      "longest_gaps": [
+        [
+          97.39,
+          99.16,
+          1.77
+        ],
+        [
+          46.72,
+          48.43,
+          1.71
+        ],
+        [
+          52.56,
+          54.13,
+          1.57
+        ]
+      ],
+      "audio": "nemi/episodes/ep02_partner/audio/EP02_voice.wav",
+      "timing": "nemi/episodes/ep02_partner/timing/ep02_partner_timing.json",
+      "video": "nemi/episodes/ep02_partner/EP02_How_I_Met_My_Partner_4K_Master.mp4",
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "index": 1,
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "integrated_lufs": -20.4,
+      "true_peak_dbfs": -1.7,
+      "export_wpm": 101.7,
+      "export_speed_factor": 1.0,
+      "sha256": {
+        "audio": "4ce6d05053958e204fe13ca9c4a6e0d50c359cd4e524c32f139092f080303d48",
+        "timing": "ead1793b7071eb70fd1efef2644d0d672c40175affb2c5de85b70d684460baed",
+        "video": "28f990c131456419ba1ec3f517cf963bf012fbb41d9ee8adb863a78833f865a8"
+      }
+    },
+    {
+      "episode": "EP03",
+      "voice_seconds": 110.89,
+      "video_seconds": 110.89,
+      "words": 249,
+      "wall_wpm": 134.7,
+      "explicit_padding": 12.35,
+      "low_energy_seconds_ge_250ms": 31.68,
+      "gaps_ge_1s": 7,
+      "longest_gaps": [
+        [
+          49.84,
+          51.44,
+          1.6
+        ],
+        [
+          90.52,
+          91.87,
+          1.35
+        ],
+        [
+          85.2,
+          86.52,
+          1.32
+        ]
+      ],
+      "audio": "nemi/episodes/ep03_scolded/audio/EP03_voice.wav",
+      "timing": "nemi/episodes/ep03_scolded/audio/timing/ep03_scolded_timing.json",
+      "video": "nemi/episodes/ep03_scolded/EP03_Mom_Scolded_1080p_Master.mp4",
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "index": 1,
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "integrated_lufs": -20.8,
+      "true_peak_dbfs": -1.2,
+      "export_wpm": 134.7,
+      "export_speed_factor": 1.0,
+      "sha256": {
+        "audio": "db8a38ed8a315ae0c71b1d83ea0e129423f9303514c53024b4387f49169441f5",
+        "timing": "9b338def577bcc5ad85d6b3c1cf906ed27dfd2d903174c1fea3d31fcea5dffe9",
+        "video": "94403eb6c3acc03a270f09122adba8aaccc958ceb8a87f645d3d2e2dd710e976"
+      }
+    },
+    {
+      "episode": "EP04",
+      "voice_seconds": 73.2,
+      "video_seconds": 73.2,
+      "words": 131,
+      "wall_wpm": 107.4,
+      "explicit_padding": 4.0,
+      "low_energy_seconds_ge_250ms": 31.84,
+      "gaps_ge_1s": 8,
+      "longest_gaps": [
+        [
+          63.73,
+          66.63,
+          2.9
+        ],
+        [
+          68.2,
+          70.21,
+          2.01
+        ],
+        [
+          4.44,
+          6.07,
+          1.63
+        ]
+      ],
+      "audio": "nemi/episodes/ep04_scared/audio/EP04_voice.wav",
+      "timing": "nemi/episodes/ep04_scared/timing/ep04_scared_timing.json",
+      "video": "nemi/episodes/ep04_scared/renders/EP04_Guys_Im_Scared_4K_Master.mp4",
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "index": 1,
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "integrated_lufs": -20.1,
+      "true_peak_dbfs": -3.0,
+      "export_wpm": 107.4,
+      "export_speed_factor": 1.0,
+      "sha256": {
+        "audio": "9c2d62923a0d5b146951935e0a27cda968c982f4d23b5c478af590589c66c434",
+        "timing": "498b510c1f661dbcbc737cb76355cc4da30275517cec5cd15b2cf0eaf6714a44",
+        "video": "e27deb210ff3232a77a308ab975ef560c06661d87452b45319960c92192416d0"
+      }
+    },
+    {
+      "episode": "EP05",
+      "voice_seconds": 92.45,
+      "video_seconds": 92.467,
+      "words": 198,
+      "wall_wpm": 128.5,
+      "explicit_padding": 8.45,
+      "low_energy_seconds_ge_250ms": 30.41,
+      "gaps_ge_1s": 4,
+      "longest_gaps": [
+        [
+          63.98,
+          65.4,
+          1.42
+        ],
+        [
+          15.71,
+          16.99,
+          1.28
+        ],
+        [
+          34.57,
+          35.8,
+          1.23
+        ]
+      ],
+      "audio": "nemi/episodes/ep05_celebration/audio/EP05_voice_v2.wav",
+      "timing": "nemi/episodes/ep05_celebration/timing/voice_alignment_v2.json",
+      "video": "nemi/episodes/ep05_celebration/renders/EP05_What_Is_Going_On_With_YouTube_1080p_Master.mp4",
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "index": 1,
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "integrated_lufs": -20.7,
+      "true_peak_dbfs": -4.1,
+      "export_wpm": 128.5,
+      "export_speed_factor": 1.0,
+      "sha256": {
+        "audio": "a352376d562949370f3a08f803f6e145701617a41f9087bfd0ced8e3914a6425",
+        "timing": "88974ff02642c52dffbcfe0bea70070a0620a25e02d2faf9d6807b39ab21fc9f",
+        "video": "e532c38170fb9e320165c26c0923b7dad52facaa6bfa9c0533463343232a9702"
+      }
+    },
+    {
+      "episode": "EP06",
+      "voice_seconds": 141.75,
+      "video_seconds": 141.767,
+      "words": 286,
+      "wall_wpm": 121.1,
+      "explicit_padding": 8.05,
+      "low_energy_seconds_ge_250ms": 50.38,
+      "gaps_ge_1s": 12,
+      "longest_gaps": [
+        [
+          114.75,
+          117.05,
+          2.3
+        ],
+        [
+          80.17,
+          81.55,
+          1.38
+        ],
+        [
+          68.11,
+          69.4,
+          1.29
+        ]
+      ],
+      "audio": "nemi/episodes/ep06_how_i_animate/audio/EP06_voice.wav",
+      "timing": "nemi/episodes/ep06_how_i_animate/timing/ep06_raw_timing.json",
+      "video": "nemi/episodes/ep06_how_i_animate/renders/EP06_How_I_Actually_Make_Storytime_Animations_1080p.mp4",
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "index": 1,
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "integrated_lufs": -20.4,
+      "true_peak_dbfs": -1.1,
+      "export_wpm": 121.0,
+      "export_speed_factor": 1.0,
+      "sha256": {
+        "audio": "b71a9ad80f3001a238473d1455d22a2a0152e2265b155f35fe484b0782f753c2",
+        "timing": "f9c15eca80ddc115ab3ae426127181b59ee92c408e00ecef5559d69e4367d33d",
+        "video": "fc752b88ca9142771abe7d68d8dc9c21a26cfe779d6ff6d3e04349d27308181f"
+      }
+    },
+    {
+      "episode": "EP07",
+      "voice_seconds": 136.89,
+      "video_seconds": 119.033,
+      "words": 265,
+      "wall_wpm": 116.2,
+      "explicit_padding": 17.85,
+      "low_energy_seconds_ge_250ms": 51.68,
+      "gaps_ge_1s": 12,
+      "longest_gaps": [
+        [
+          100.08,
+          101.64,
+          1.56
+        ],
+        [
+          30.96,
+          32.35,
+          1.39
+        ],
+        [
+          13.92,
+          15.14,
+          1.22
+        ]
+      ],
+      "audio": "nemi/episodes/ep07_zero_marks/audio/EP07_voice.wav",
+      "timing": "nemi/episodes/ep07_zero_marks/timing/ep07_raw_timing.json",
+      "video": "nemi/episodes/ep07_zero_marks/renders/EP07_Zero_Marks_1080p.mp4",
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "index": 1,
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "integrated_lufs": -20.7,
+      "true_peak_dbfs": -4.1,
+      "export_wpm": 133.6,
+      "export_speed_factor": 1.15,
+      "sha256": {
+        "audio": "52042d03c99ac33e73ab5f595740864b5b7e2503e52c1eed713c24c12d650a74",
+        "timing": "af3050c0be584ad4b4a2363f9d3ce4309ce05bcd5e859a5f4272a3baa57ed6ec",
+        "video": "db22a98752b28f190b2016db20fa43bc15446768f455e792f1f67b176193275a"
+      }
+    },
+    {
+      "episode": "EP08",
+      "voice_seconds": 95.405,
+      "video_seconds": 95.4,
+      "words": 187,
+      "wall_wpm": 117.6,
+      "explicit_padding": 13.734,
+      "low_energy_seconds_ge_250ms": 33.96,
+      "gaps_ge_1s": 3,
+      "longest_gaps": [
+        [
+          82.33,
+          83.49,
+          1.16
+        ],
+        [
+          7.16,
+          8.3,
+          1.14
+        ],
+        [
+          20.15,
+          21.17,
+          1.02
+        ]
+      ],
+      "audio": "nemi/episodes/ep08_forced_bf_channel/audio/EP08_voice.wav",
+      "timing": "nemi/episodes/ep08_forced_bf_channel/timing/ep08_raw_timing.json",
+      "video": "nemi/episodes/ep08_forced_bf_channel/renders/EP08_Forced_BF_Channel_1080p.mp4",
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "index": 1,
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "integrated_lufs": -15.9,
+      "true_peak_dbfs": 0.2,
+      "export_wpm": 117.6,
+      "export_speed_factor": 1.0,
+      "sha256": {
+        "audio": "0ac2a870c2563e66a63e817dbe2560cd2a2b6bd607e7d0c5ac78a0219e5ec568",
+        "timing": "e0e3ec123456308106fd46266546e52b83116941b78dbf8d88079759ee03651a",
+        "video": "c372b582549edd5e9e6f5cf8e8473c45b16bafeba227aa26efdcbc7709108d66"
+      }
+    },
+    {
+      "episode": "ADB00",
+      "voice_seconds": 132.41,
+      "video_seconds": 132.41,
+      "words": 294,
+      "wall_wpm": 133.2,
+      "explicit_padding": 14.25,
+      "low_energy_seconds_ge_250ms": 40.97,
+      "gaps_ge_1s": 0,
+      "longest_gaps": [
+        [
+          86.09,
+          86.97,
+          0.88
+        ],
+        [
+          67.45,
+          68.31,
+          0.86
+        ],
+        [
+          52.6,
+          53.43,
+          0.83
+        ]
+      ],
+      "audio": "adb/episodes/ep00_intro/audio/ADB_Intro_voice.wav",
+      "timing": "adb/episodes/ep00_intro/timing/ep00_timing.json",
+      "video": "adb/episodes/ep00_intro/renders/ADB_INTRO_1080P_REVIEW.mp4",
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "index": 1,
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "integrated_lufs": -17.2,
+      "true_peak_dbfs": -0.0,
+      "export_wpm": 133.2,
+      "export_speed_factor": 1.0,
+      "sha256": {
+        "audio": "b6af48db39a7a28805dba5889d39e09463a96015b94d00faf668c5ac79bc4ec6",
+        "timing": "d1dcd84eb49bf2a3d0d6724a9949435e9bf8a7858e32a153073fc275216b82b7",
+        "video": "1300f036357fd99ebb84e7dbfaf0e98769f9ea59c63002e565d5c49254b00ecc"
+      }
+    }
+  ],
+  "alignment_spot_checks": [
+    {
+      "clip": "EP06_opening",
+      "source": "nemi/episodes/ep06_how_i_animate/audio/EP06_voice.wav",
+      "offset": 0,
+      "length": 13.2,
+      "text": " People keep asking how I actually make these animations. Like, do they just magically pop out of my laptop? Honestly, I wish. But here's what actually happens.",
+      "words": [
+        {
+          "word": "People",
+          "start": 0.0,
+          "end": 0.44
+        },
+        {
+          "word": "keep",
+          "start": 0.44,
+          "end": 0.92
+        },
+        {
+          "word": "asking",
+          "start": 0.92,
+          "end": 1.36
+        },
+        {
+          "word": "how",
+          "start": 1.36,
+          "end": 1.74
+        },
+        {
+          "word": "I",
+          "start": 1.74,
+          "end": 1.9
+        },
+        {
+          "word": "actually",
+          "start": 1.9,
+          "end": 2.22
+        },
+        {
+          "word": "make",
+          "start": 2.22,
+          "end": 2.5
+        },
+        {
+          "word": "these",
+          "start": 2.5,
+          "end": 2.72
+        },
+        {
+          "word": "animations.",
+          "start": 2.72,
+          "end": 3.34
+        },
+        {
+          "word": "Like,",
+          "start": 4.4,
+          "end": 4.54
+        },
+        {
+          "word": "do",
+          "start": 4.88,
+          "end": 5.22
+        },
+        {
+          "word": "they",
+          "start": 5.22,
+          "end": 5.4
+        },
+        {
+          "word": "just",
+          "start": 5.4,
+          "end": 5.62
+        },
+        {
+          "word": "magically",
+          "start": 5.62,
+          "end": 6.22
+        },
+        {
+          "word": "pop",
+          "start": 6.22,
+          "end": 6.54
+        },
+        {
+          "word": "out",
+          "start": 6.54,
+          "end": 6.74
+        },
+        {
+          "word": "of",
+          "start": 6.74,
+          "end": 6.86
+        },
+        {
+          "word": "my",
+          "start": 6.86,
+          "end": 7.0
+        },
+        {
+          "word": "laptop?",
+          "start": 7.0,
+          "end": 7.38
+        },
+        {
+          "word": "Honestly,",
+          "start": 7.98,
+          "end": 8.4
+        },
+        {
+          "word": "I",
+          "start": 9.16,
+          "end": 9.38
+        },
+        {
+          "word": "wish.",
+          "start": 9.38,
+          "end": 9.84
+        },
+        {
+          "word": "But",
+          "start": 10.74,
+          "end": 10.88
+        },
+        {
+          "word": "here's",
+          "start": 10.88,
+          "end": 11.26
+        },
+        {
+          "word": "what",
+          "start": 11.26,
+          "end": 11.44
+        },
+        {
+          "word": "actually",
+          "start": 11.44,
+          "end": 12.04
+        },
+        {
+          "word": "happens.",
+          "start": 12.04,
+          "end": 12.54
+        }
+      ]
+    },
+    {
+      "clip": "EP06_jitter",
+      "source": "nemi/episodes/ep06_how_i_animate/audio/EP06_voice.wav",
+      "offset": 104.5,
+      "length": 16.5,
+      "text": " that I watch at 50 times to polish the timing. Everything looks fine. Until I notice one tiny hair pixel jittering, zoom in, no, unacceptable. Fix it immediately.",
+      "words": [
+        {
+          "word": "that",
+          "start": 104.5,
+          "end": 104.86
+        },
+        {
+          "word": "I",
+          "start": 104.86,
+          "end": 104.96
+        },
+        {
+          "word": "watch",
+          "start": 104.96,
+          "end": 105.22
+        },
+        {
+          "word": "at",
+          "start": 105.22,
+          "end": 105.44
+        },
+        {
+          "word": "50",
+          "start": 105.44,
+          "end": 105.68
+        },
+        {
+          "word": "times",
+          "start": 105.68,
+          "end": 106.3
+        },
+        {
+          "word": "to",
+          "start": 106.3,
+          "end": 106.84
+        },
+        {
+          "word": "polish",
+          "start": 106.84,
+          "end": 107.2
+        },
+        {
+          "word": "the",
+          "start": 107.2,
+          "end": 107.38
+        },
+        {
+          "word": "timing.",
+          "start": 107.38,
+          "end": 107.74
+        },
+        {
+          "word": "Everything",
+          "start": 108.58,
+          "end": 109.1
+        },
+        {
+          "word": "looks",
+          "start": 109.1,
+          "end": 109.44
+        },
+        {
+          "word": "fine.",
+          "start": 109.44,
+          "end": 109.98
+        },
+        {
+          "word": "Until",
+          "start": 110.7,
+          "end": 111.12
+        },
+        {
+          "word": "I",
+          "start": 111.12,
+          "end": 111.26
+        },
+        {
+          "word": "notice",
+          "start": 111.26,
+          "end": 111.56
+        },
+        {
+          "word": "one",
+          "start": 111.56,
+          "end": 112.0
+        },
+        {
+          "word": "tiny",
+          "start": 112.0,
+          "end": 112.38
+        },
+        {
+          "word": "hair",
+          "start": 112.38,
+          "end": 112.7
+        },
+        {
+          "word": "pixel",
+          "start": 112.7,
+          "end": 113.1
+        },
+        {
+          "word": "jittering,",
+          "start": 113.1,
+          "end": 113.82
+        },
+        {
+          "word": "zoom",
+          "start": 114.22,
+          "end": 114.48
+        },
+        {
+          "word": "in,",
+          "start": 114.48,
+          "end": 115.6
+        },
+        {
+          "word": "no,",
+          "start": 116.62,
+          "end": 117.38
+        },
+        {
+          "word": "unacceptable.",
+          "start": 118.14,
+          "end": 118.56
+        },
+        {
+          "word": "Fix",
+          "start": 119.6,
+          "end": 119.74
+        },
+        {
+          "word": "it",
+          "start": 119.74,
+          "end": 120.02
+        },
+        {
+          "word": "immediately.",
+          "start": 120.02,
+          "end": 120.32
+        }
+      ]
+    },
+    {
+      "clip": "EP08_opening",
+      "source": "nemi/episodes/ep08_forced_bf_channel/audio/EP08_voice.wav",
+      "offset": 0,
+      "length": 6.7,
+      "text": " I have a new problem. I somehow convinced my boyfriend to start a YouTube channel.",
+      "words": [
+        {
+          "word": "I",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "word": "have",
+          "start": 0.22,
+          "end": 0.42
+        },
+        {
+          "word": "a",
+          "start": 0.42,
+          "end": 0.54
+        },
+        {
+          "word": "new",
+          "start": 0.54,
+          "end": 0.68
+        },
+        {
+          "word": "problem.",
+          "start": 0.68,
+          "end": 1.18
+        },
+        {
+          "word": "I",
+          "start": 1.78,
+          "end": 1.84
+        },
+        {
+          "word": "somehow",
+          "start": 1.84,
+          "end": 2.36
+        },
+        {
+          "word": "convinced",
+          "start": 2.36,
+          "end": 2.96
+        },
+        {
+          "word": "my",
+          "start": 2.96,
+          "end": 3.26
+        },
+        {
+          "word": "boyfriend",
+          "start": 3.26,
+          "end": 3.74
+        },
+        {
+          "word": "to",
+          "start": 3.74,
+          "end": 4.52
+        },
+        {
+          "word": "start",
+          "start": 4.52,
+          "end": 4.92
+        },
+        {
+          "word": "a",
+          "start": 4.92,
+          "end": 5.32
+        },
+        {
+          "word": "YouTube",
+          "start": 5.32,
+          "end": 5.64
+        },
+        {
+          "word": "channel.",
+          "start": 5.64,
+          "end": 6.08
+        }
+      ]
+    }
+  ]
+}
