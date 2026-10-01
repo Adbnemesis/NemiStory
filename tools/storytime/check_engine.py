@@ -14,7 +14,7 @@ candidates=[args.godot,shutil.which('godot'),str(Path.home()/'Downloads/Godot.ap
 godot=next((p for p in candidates if p and Path(p).is_file()),None)
 if not godot:parser.error('Set --godot or GODOT_BIN to the installed engine.')
 with tempfile.TemporaryDirectory(prefix='storytime-check-') as folder:
- for script in ['tools/tests/test_live_ink.gd','tools/storytime/test_identity.gd','tools/storytime/test_production.gd']:
+ for script in ['tools/tests/test_live_ink.gd','tools/storytime/test_identity.gd','tools/storytime/test_production.gd','tools/storytime/test_refinement.gd']:
   result=subprocess.run([godot,'--headless','--path',str(ROOT),'--log-file',str(Path(folder)/'check.log'),'--script',script],capture_output=True,text=True,timeout=60)
   output=result.stdout+result.stderr
   # Known unrelated macOS certificate lookup diagnostic in headless mode.

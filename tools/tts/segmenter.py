@@ -24,7 +24,7 @@ class Segment:
 
 class ScriptSegmenter:
     @staticmethod
-    def parse_intro_script(script_path: str) -> List[Segment]:
+    def parse_intro_script(script_path: str, speaker: str = 'NEMI') -> List[Segment]:
         """
         Parses the official introduction script into ordered spoken segments.
         Extracts dialogue from NEMI: or NEMI (VO): blocks, capturing intentional pauses.
@@ -56,7 +56,7 @@ class ScriptSegmenter:
                 
             if in_code_block:
                 # Look for speaker header: [00:00.0] NEMI: or NEMI (VO):
-                speaker_match = re.match(r'\[(\d{2}:\d{2}(?:\.\d+)?)\]\s*NEMI(?:\s*\([A-Z]+\))?:', line)
+                speaker_match = re.match(r'\[(\d{2}:\d{2}(?:\.\d+)?)\]\s*' + re.escape(speaker) + r'(?:\s*\([A-Z]+\))?:', line)
                 if speaker_match:
                     i += 1
                     # Next line should be quoted dialogue
@@ -67,10 +67,6 @@ class ScriptSegmenter:
                             
                             # Clean TTS text (keep punctuation, normalize quotes)
                             tts_text = raw_text.replace("’", "'").replace("“", '"').replace("”", '"')
-                            
-                            # Cadence smoothing: replace hard stop after 'Hi.' with comma to prevent 1.5s robotic silences
-                            if tts_text.startswith("Hi. I'm Nemi."):
-                                tts_text = tts_text.replace("Hi. I'm Nemi.", "Hi, I'm Nemi.")
                             
                             # Look ahead for acting cue or pause
                             acting_note = ""
@@ -85,35 +81,16 @@ class ScriptSegmenter:
                                     pause_match = re.search(r'PAUSE:\s*([\d\.]+)s', next_bracket)
                                     if pause_match:
                                         pause_after = float(pause_match.group(1))
+                                elif "SPEED:" in next_bracket:
+                                    speed_match = re.search(r'SPEED:\s*([\d.]+)', next_bracket)
+                                    if not speed_match:
+                                        raise ValueError('Malformed SPEED annotation')
+                                    from .pacing import check_tempo
+                                    speed = check_tempo(float(speed_match.group(1)))
                                 elif "Acting:" in next_bracket:
                                     acting_note = next_bracket[1:-1].replace("Acting:", "").strip()
                                 j += 1
                             
-                            # Determine speed & deadpan adjustments
-                            if current_beat == 1:
-                                # Beat 1 hook: brisk and conversational
-                                if seg_counter == 1:
-                                    speed = 1.05
-                                    pause_after = 0.25
-                                elif seg_counter == 2:
-                                    speed = 1.0
-                                    pause_after = 0.40
-                                elif "ginger root" in raw_text:
-                                    pause_after = 0.50
-                            elif current_beat == 3:
-                                if "...In slow motion" in raw_text:
-                                    speed = 0.95
-                                    pause_after = 0.80
-                            elif current_beat == 5:
-                                if "Half. A. Second." in raw_text:
-                                    speed = 0.90
-                                    pause_after = 1.80  # Long deadpan pause
-                                elif "architecturally sound" in raw_text:
-                                    pause_after = 0.80
-                            elif current_beat == 7:
-                                if "Thank you for watching" in raw_text:
-                                    pause_after = 0.50
-
                             seg_id = f"{seg_counter:03d}"
                             segments.append(Segment(
                                 id=seg_id,

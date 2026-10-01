@@ -8,7 +8,7 @@ import shutil
 import subprocess
 import tempfile
 from validate_scene import ROOT, validate
-from audio_mix import mix_audio
+from audio_mix import mix_audio, measure_audio
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
@@ -47,13 +47,19 @@ def main():
             command += ['-i',str(audio),'-map','0:v:0','-map','1:a:0','-af',f'apad,atrim=duration={spec["duration"]}']
         else:
             command += ['-map','0:v:0','-an']
-        extra_frames = round(duration*spec['fps'])-round(spec['duration']*spec['fps'])
-        if extra_frames > 0:
-            # MovieMaker records a startup frame before the authored loop.
-            command += ['-vf',f'trim=start_frame={extra_frames},setpts=PTS-STARTPTS']
+        # The authored loop starts at scene time zero. This engine records an
+        # extra trailing frame; dropping the first frame advances every visual
+        # cue relative to the untouched narration. Keep the first N frames.
+        command += ['-vf',f'trim=end_frame={round(spec["duration"]*spec["fps"])},setpts=PTS-STARTPTS']
         command += ['-t',str(spec['duration']),'-c:v','libx264','-crf','18','-pix_fmt','yuv420p','-c:a','aac','-movflags','+faststart',str(result)]
         subprocess.run(command,check=True)
+        if 'mix' in spec and audio:
+            measured=measure_audio(result)
+            if measured['true_peak_dbfs']>-1.0:
+                raise RuntimeError('Encoded audio exceeds -1 dB true peak; reduce master gain and render again')
         shutil.copyfile(result,output)
+        if 'mix' in spec and audio:
+            output.with_suffix('.audio_qa.json').write_text(json.dumps(measured,indent=2)+'\n')
     print(output)
 
 if __name__ == '__main__':

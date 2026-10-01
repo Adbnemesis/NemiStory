@@ -14,7 +14,7 @@ func _draw() -> void:
 	if kind=="thought": paper=Color("#ede8f0")
 	elif kind=="evening": paper=Color("#e6e8ec")
 	draw_rect(Rect2(-3000,-3000,8000,8000),paper)
-	if kind in ["room","evening"]:
+	if kind in ["room","evening","studio_nemi","studio_adb"]:
 		draw_colored_polygon(PackedVector2Array([Vector2(0,894),Vector2(1920,886),Vector2(1920,1400),Vector2(0,1400)]),Color("#efe5d3" if kind=="room" else "#d6d6db"))
 		ink([[0,894],[815,890],[1920,886]])
 		ink([[1190,220],[1540,217],[1544,465],[1187,470],[1190,220]])
@@ -25,6 +25,12 @@ func _draw() -> void:
 		ink([[1197,346],[1535,342]])
 		ink([[171,284],[392,280],[395,443],[170,445],[171,284]])
 		ink([[206,406],[235,350],[278,379],[329,321],[359,404]])
+		if kind=="studio_nemi":
+			ink([[160,510],[385,506],[383,678],[166,684],[160,510]],Color("#bc9aa6"))
+			ink([[205,569],[244,613],[284,548],[333,604]],Color("#bc9aa6"),3)
+		elif kind=="studio_adb":
+			ink([[165,518],[389,519],[388,656],[163,657],[165,518]],Color("#94a4ab"))
+			ink([[188,585],[226,586],[246,552],[289,617],[319,582],[366,583]],Color("#94a4ab"),3)
 	elif kind=="thought":
 		ink([[170,160],[1744,155],[1748,910],[166,915],[170,160]],Color("#b8a7c0"),3)
 		for x in [260,1690]:

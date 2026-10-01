@@ -33,7 +33,7 @@ class AudioConcatenator:
         Loads all segment WAV files, stitches them with exact pause_after silence padding,
         saves the master audio file, and generates timing manifests and metadata.
         """
-        chosen_voice = voice or self.config.voice
+        chosen_voice = voice or self.config.voice_identifier
         sample_rate = self.config.sample_rate
         
         master_chunks = []

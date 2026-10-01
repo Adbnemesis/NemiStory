@@ -3,7 +3,7 @@ extends RefCounted
 const Base = preload("res://common/storytime/PerformancePlayer.gd")
 const NP = preload("res://nemi/characters/nemi/NemiPose.gd")
 const AP = preload("res://adb/poses/ADBPoseLibrary.gd")
-const FACE_NEMI = ["eye_openness","left_brow_offset","right_brow_offset","left_brow_tilt","right_brow_tilt","gaze_direction"]
+const FACE_NEMI = ["eye_openness","pupil_scale","left_brow_offset","right_brow_offset","left_brow_tilt","right_brow_tilt","gaze_direction"]
 const FACE_ADB = ["eye_openness_left","eye_openness_right","brow_left_height","brow_right_height","brow_left_angle","brow_right_angle","blush_intensity","tear_intensity","sweat_intensity","eye_gaze"]
 var anchors: Dictionary = {}
 
@@ -19,6 +19,7 @@ func bind(actor: Node2D, author: String) -> void:
 func face_recipe(actor: Node2D, author: String, recipe: Dictionary) -> Dictionary:
 	if author=="nemi":
 		actor.set_expression(recipe.expression)
+		actor.face.pupil_scale=1.0
 		actor.face.exaggeration_mouth_scale=0.85
 		actor.face.eye_openness=recipe.eyes
 	else:
@@ -39,10 +40,21 @@ func sample(actor: Node2D, author: String, cues: Array, time: float) -> void:
 	for i in range(cues.size()):
 		if float(cues[i].at)<=time: index=i
 	var cue: Dictionary=cues[index]
+	# Caption boundaries do not drive motion. Each thought selects its cadence.
+	var motion: String=cue.get("motion","smooth")
+	if motion=="stepped":
+		var fps: float=cue.get("step_fps",12)
+		time=float(cue.at)+floorf((time-float(cue.at))*fps)/fps
+	if motion=="snap":
+		cues=cues.duplicate(true)
+		cues[index]["duration"]=0.0
+		cue=cues[index]
 	var old_cue: Dictionary=cues[maxi(0,index-1)]
 	var catalog: Dictionary=Base.recipes()[author]
-	var current: Dictionary=catalog[cue.recipe]
-	var previous: Dictionary=catalog[old_cue.recipe]
+	var current: Dictionary=catalog[cue.recipe].duplicate(true)
+	var previous: Dictionary=catalog[old_cue.recipe].duplicate(true)
+	current.face.merge(cue.get("face",{}),true)
+	previous.face.merge(old_cue.get("face",{}),true)
 	Base.sample(actor,author,cues,time)
 	var duration: float=cue.get("duration",current.duration) if index>0 else 0.0
 	var elapsed: float=time-float(cue.at)

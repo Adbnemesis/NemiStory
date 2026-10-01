@@ -1,6 +1,6 @@
 # Two characters, two drawing hands
 
-This is the executable starting point for **new** Nemi/ADB storytime tests and productions. Both use the same stable live-ink player, but they have separate letter centerlines, pen settings, mark paths, and acting recipes. The character rigs and pose/expression libraries are unchanged. Existing episodes are outside this pass.
+For full new productions, first use [the current refinement workflow](STORYTIME_REFINEMENT_WORKFLOW.md) and [version-2 direction reference](STORYTIME_DIRECTION_WORKFLOW.md). This page documents pen identities and the original version-1 comparison, which remains a focused lettering study. Both use the same stable live-ink player, but they have separate letter centerlines, pen settings, mark paths, and acting recipes. The character rigs and pose/expression libraries are unchanged. Existing episodes are outside this pass.
 
 ## Start here: repeatable model workflow
 
@@ -37,7 +37,7 @@ Available authored marks for **both** profiles: `arrow`, `circle`, `underline`, 
 
 ## Acting through the existing rigs
 
-`common/storytime/performances/recipes.json` contains eight recipes per character. These combine existing poses, expressions, gaze, eye openness, brow accents, and head angles. They are new **performance combinations**, not replacement rigs or new underlying rig poses.
+`common/storytime/performances/recipes.json` now contains fourteen recipes per character: the eight original combinations below plus six listed in the version-2 direction guide. These combine existing poses, expressions, gaze, eye openness, brow accents, and head angles. They are new **performance combinations**, not replacement rigs or new underlying rig poses.
 
 | Recipe | Nemi's intention | ADB's intention |
 |---|---|---|
@@ -90,7 +90,7 @@ python3 tools/storytime/test_validator.py
 python3 tools/storytime/render_scene.py --spec common/storytime/examples/two_authors_10s.json --output renders/storytime_identity/Two_Drawing_Hands_10s.mp4
 ```
 
-Set `GODOT_BIN` to the installed executable if automatic discovery fails; do not install another engine unnecessarily. Godot must run with a desktop graphics renderer for video export. FFmpeg and FFprobe must be available. The renderer uses a fresh temporary movie path every time, checks raw duration, removes the MovieMaker startup frame, then produces an exact-duration H.264 MP4. It rejects output paths outside `renders/` and specs inside old episode folders.
+Set `GODOT_BIN` to the installed executable if automatic discovery fails; do not install another engine unnecessarily. Godot must run with a desktop graphics renderer for video export. FFmpeg and FFprobe must be available. The renderer uses a fresh temporary movie path every time, checks raw duration, retains the first authored frames and trims the extra trailing frame, then produces an exact-duration H.264 MP4. It rejects output paths outside `renders/` and specs inside old episode folders.
 
 For the comparison's diagnostic stills:
 

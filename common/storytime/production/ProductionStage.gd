@@ -7,6 +7,8 @@ const Assets=preload("res://common/storytime/ProfileAssets.gd")
 const Background=preload("res://common/storytime/production/Backdrop.gd")
 const Media=preload("res://common/storytime/production/ProductionAudio.gd")
 const Accent=preload("res://common/storytime/production/BeatVFX.gd")
+const Motion=preload("res://common/storytime/production/Motion.gd")
+const HandPaths=preload("res://common/storytime/production/HandPaths.gd")
 var spec: Dictionary
 var manual := false
 var spec_path := "res://common/storytime/examples/storytime_direction_10s.json"
@@ -49,27 +51,31 @@ func _ready() -> void:
 		var node=Accent.new()
 		node.kind=item.kind
 		node.author=item.author
+		node.strength=item.get("strength",1.0)
 		node.z_index=5
 		world.add_child(node)
 		effects.append({"node":node,"spec":item})
 	caption=Label.new()
+	caption.z_index=100
 	caption.position=Vector2(120,974)
 	caption.size=Vector2(1680,65)
 	caption.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
-	caption.add_theme_font_size_override("font_size",32)
+	caption.add_theme_font_size_override("font_size",spec.get("caption_size",32))
 	caption.add_theme_color_override("font_color",Color("#493a42"))
+	caption.add_theme_color_override("font_outline_color",Color("#faf7f1"))
+	caption.add_theme_constant_override("outline_size",8)
 	add_child(caption)
 	if not manual:
 		if spec.get("audio"):
 			audio_clock=AudioStreamPlayer.new()
 			audio_clock.stream=Media.read(spec.audio)
-			audio_clock.volume_db=-2.0
+			audio_clock.volume_db=-2.0+float(spec.get("mix",{}).get("master_gain_db",0))
 			add_child(audio_clock)
 			audio_clock.play()
 		for item in spec.get("sfx",[]):
 			var player := AudioStreamPlayer.new()
 			player.stream=Media.read(item.file)
-			player.volume_db=item.gain_db
+			player.volume_db=item.gain_db+float(spec.get("mix",{}).get("master_gain_db",0))
 			add_child(player)
 			sfx_players.append({"node":player,"spec":item})
 	sample(0.0)
@@ -91,6 +97,10 @@ func sample(time: float) -> void:
 	var camera: Dictionary=shot.get("camera",{})
 	var zoom: float=camera.get("zoom",1.0)
 	var center: Array=camera.get("center",[960,540])
+	if camera.has("path"):
+		var point := Motion.point(camera.path,time,"center")
+		center=[point.x,point.y]
+		zoom=Motion.scalar(camera.path,time,"zoom",zoom)
 	world.scale=Vector2.ONE*zoom
 	world.position=Vector2(960,540)-Vector2(center[0],center[1])*zoom
 	for id in actors:
@@ -102,6 +112,7 @@ func sample(time: float) -> void:
 		node.position=Vector2(block.position[0],block.position[1])
 		node.scale=Vector2.ONE*float(block.scale)
 		acting.sample(node,entry.spec.author,entry.spec.performances,time)
+		HandPaths.sample(node,entry.spec.author,entry.spec.get("hand_paths",{}),time)
 		for mouth in entry.spec.get("mouths",[]):
 			if time>=mouth.start and time<mouth.end:
 				if entry.spec.author=="nemi": node.set_mouth_shape(mouth.shape)
@@ -114,7 +125,10 @@ func sample(time: float) -> void:
 		var scale_value: Array=item.get("scale",[1,1])
 		node.scale=Vector2(scale_value[0],scale_value[1])
 		node.rotation_degrees=item.get("tilt",0)
+		# Resting and held phases use the same authored physical object size.
 		if item.has("attach"):
+			node.scale*=actors[item.attach.actor].node.scale
+		if item.has("attach") and time>=float(item.get("attach_start",item.at)) and time<float(item.get("attach_end",item.end)):
 			var attach: Dictionary=item.attach
 			var actor: Node2D=actors[attach.actor].node
 			node.visible=actor.visible
@@ -125,7 +139,9 @@ func sample(time: float) -> void:
 			var socket: Vector2=hand.get_prop_anchor() if hand.has_method("get_prop_anchor") else Vector2(0,8)
 			if attach.has("socket"): socket=Vector2(attach.socket[0],attach.socket[1])
 			node.global_position=hand.to_global(socket)-node.global_transform.basis_xform(Vector2(grip[0],grip[1]))
-		else: node.position=Vector2(item.position[0],item.position[1])
+		else:
+			node.position=Motion.point(item.path,time) if item.has("path") else Vector2(item.position[0],item.position[1])
+			if item.has("path"): node.rotation_degrees=Motion.scalar(item.path,time,"tilt",item.get("tilt",0))
 		node.progress=clampf((time-item.at)/float(item.duration),0,1) if item.get("mode","hold")=="live" else 1.0
 	for entry in effects:
 		var item: Dictionary=entry.spec

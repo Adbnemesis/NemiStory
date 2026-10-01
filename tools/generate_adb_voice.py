@@ -57,7 +57,7 @@ def generate_adb_voiceover(
     if not os.path.exists(script_path):
         raise FileNotFoundError(f"Script file not found: {script_path}")
         
-    segments = ScriptSegmenter.parse_intro_script(script_path)
+    segments = ScriptSegmenter.parse_intro_script(script_path, speaker='ADB')
     print(f"✓ Parsed {len(segments)} spoken dialogue segments from script.")
     
     # 2. Setup directory hierarchy

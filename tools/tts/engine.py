@@ -10,6 +10,7 @@ import numpy as np
 import soundfile as sf
 from typing import Optional, Dict, Any, List
 from .config import NemiVoiceConfig
+from .pacing import check_tempo, tempo_array
 
 class QwenVoiceDesignEngine:
     def __init__(self, config: Optional[NemiVoiceConfig] = None):
@@ -46,6 +47,7 @@ class QwenVoiceDesignEngine:
         2. VoiceDesign model with descriptive prompt and optional reference anchor.
         Returns audio as 1D float32 numpy array.
         """
+        effective_speed = check_tempo(speed if speed is not None else self.config.default_speed)
         cleaned_text = text.strip()
         if not cleaned_text:
             return np.zeros(int(self.config.sample_rate * 0.1), dtype=np.float32)
@@ -90,14 +92,13 @@ class QwenVoiceDesignEngine:
                     with open(chosen_ref_text, "r", encoding="utf-8") as f:
                         chosen_ref_text = f.read().strip()
 
-            effective_speed = speed if speed is not None else self.config.default_speed
             if chosen_ref_audio and os.path.exists(chosen_ref_audio):
                 results = list(self.model.generate(
                     text=cleaned_text,
                     instruct=voice_prompt,
                     ref_audio=chosen_ref_audio,
                     ref_text=chosen_ref_text,
-                    speed=effective_speed,
+                    speed=1.0,
                     temperature=0.7,
                     top_k=50,
                     top_p=0.95,
@@ -136,7 +137,7 @@ class QwenVoiceDesignEngine:
         if peak > 0.98:
             audio_np = audio_np * (0.95 / peak)
             
-        return audio_np
+        return tempo_array(audio_np, self.config.sample_rate, effective_speed)
         
     def synthesize_to_file(
         self,

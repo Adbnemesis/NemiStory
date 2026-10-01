@@ -3,12 +3,14 @@ extends Node2D
 var kind := "realization"
 var author := "nemi"
 var phase := 0.0
+var strength := 1.0
 func sample(value: float) -> void:
 	phase=clampf(value,0,1)
 	queue_redraw()
 func _draw() -> void:
 	if phase<=0 or phase>=1: return
 	var ink := Color("#ad5e69" if author=="nemi" else "#8a6245")
+	draw_set_transform(Vector2.ZERO,0,Vector2.ONE*strength)
 	var reveal := clampf(phase/0.22,0,1)
 	var settle := clampf((1-phase)/0.25,0,1)
 	ink.a=settle
@@ -26,3 +28,10 @@ func _draw() -> void:
 		var radius := 10+3*reveal
 		draw_line(Vector2(-radius,0),Vector2(radius,0),ink,2,true)
 		draw_line(Vector2(0,-radius),Vector2(0,radius),ink,2,true)
+	elif kind=="tension":
+		for i in range(3):
+			var x := float(i)*9
+			draw_polyline(PackedVector2Array([Vector2(x,-14),Vector2(x-2,7*reveal),Vector2(x+1,15*reveal)]),ink,1.8,true)
+	elif kind=="relief":
+		var x := phase*12
+		draw_polyline(PackedVector2Array([Vector2(x,1),Vector2(x+8,-5),Vector2(x+17,-2),Vector2(x+19,5)]),ink,1.8,true)
