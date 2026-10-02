@@ -198,6 +198,18 @@ def build():
     validate(EP/'scene.json')
     from camera_revision import apply
     s=apply(s)
+    # Preserve the canonical authored sound pass when rebuilding the picture spec.
+    sound_plan=EP/'sound_plan.json'
+    if sound_plan.is_file():
+        cues=json.loads(sound_plan.read_text())['events']
+        catalog={a['id']:a for a in json.loads((ROOT/'common/audio/sfx/sfx_catalog.json').read_text())['assets']}
+        s['sfx']=[]
+        for cue in cues:
+            asset=catalog[cue['sfx_id']]
+            assert asset['commercial_use'] and asset['license']==cue['license']
+            s['events'].append({'id':cue['event'],'at':cue['at'],'intent':cue['intent']})
+            s['sfx'].append({'file':'res://'+asset['relative_path'],**{k:cue[k] for k in ['at','duration','gain_db','event']}})
+        s['mix']=calibrate_mix(s,ROOT)
     (EP/'scene.json').write_text(json.dumps(s,indent=2)+'\n')
     validate(EP/'scene.json')
     print('EP09 revised spec ready:',EP/'scene.json')

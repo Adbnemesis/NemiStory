@@ -1,8 +1,5 @@
-# EP09 masters
+# Current EP09 master
 
-- `EP09_SF_Accident_Refined_1080p.mp4`: preserved previous scale/props revision, 1920×1080, 30 FPS, 120 seconds.
-- `EP09_SF_Accident_Camera_1080p.mp4`: current camera-direction revision, 1920×1080, 30 FPS, 120 seconds; visual and decoded-frame checks recorded in `../review/CAMERA_REVIEW.md`.
+- `EP09_SF_Accident_Sound_1080p.mp4`: current camera revision with expanded audible sound plan, 1920×1080, 30 FPS, 120 seconds.
 
-- `EP09_SF_Accident_Camera_Draft_1080p.mp4`: retained review draft with a clipped opening annotation; superseded.
-
-Narration, script, caption clock and physical character scale are unchanged. Large media stays local. Shared renderer output belongs here; studies can remain in workspace `renders/`.
+34 event cues; narration/script/captions/camera/picture unchanged. See `../review/SOUND_REVIEW.md` and `../sound_plan.json`. Previous exports removed after replacement checks at the user’s request. Large media remains local. Reproduce picture/source with `tools/build_revision.py`; sound-only re-export uses `tools/storytime/reexport_episode_sound.py`.

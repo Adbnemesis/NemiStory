@@ -99,7 +99,7 @@ def main():
     args=parser.parse_args()
     plan,timing=validate_plan()
     if args.validate_only:
-        print('PASS: original voice hash, original 69 caption cards, 18 licensed named SFX events');return
+        print(f"PASS: original voice hash, original 69 caption cards, {len(plan['events'])} licensed named SFX events");return
     output=(args.output or ROOT/'renders/ep08_refinement'/('EP08_reveal_proof_10s.mp4' if args.proof else 'EP08_Forced_BF_Channel_Refined.mp4')).resolve()
     assert output.is_relative_to(ROOT/'renders/ep08_refinement') or output.is_relative_to(EP/'renders'), 'Use the EP08 episode renders folder or the isolated review folder'
     if output.exists():raise ValueError('Output already exists. Choose a new filename.')

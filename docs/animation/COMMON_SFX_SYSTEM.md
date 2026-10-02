@@ -1,76 +1,23 @@
-# Common SFX & Sound Design System
-## Event-Based Audio Punctuation, Voice Dominance, and Silence Standards
+# Storytime sound direction
 
-**Document Status**: LOCKED & AUTHORITATIVE COMMON SPECIFICATION  
-**Scope**: Shared across all storytime channels (Nemi, ADB, and future productions)  
-**Location**: `docs/animation/COMMON_SFX_SYSTEM.md`
+Required for Nemi and ADB productions. Sound design is an authored story layer: plan recognizable reactions, object sounds, illustration accents and meaningful scene transitions alongside the spoken beats. A voiced episode must not default to narration plus two barely audible effects. Review every thought beat for a useful sound opportunity; explicitly choose silence where it helps. No fixed effects quota or automatic sound on every blink/gesture.
 
----
+## Plan and palette
 
-## 1. Core Sound Philosophy
+Save an episode sound plan with scene seconds, the spoken/visible cue, catalog ID, duration, source gain, intended prominence and reason. Link version-2 SFX to named scene events using supported `event`/`event_offset`; timings use the approved recording clock. Nemi can use playful boings, curious chimes and sharper comic reversals; ADB generally uses dry taps, understated confirmations and a well-timed fail accent. Character distinction is timing and selection, not a different voice recording.
 
-> **SFX ARE SELECTIVE EXCLAMATION POINTS — NOT A CONTINUOUS WALL OF NOISE.**
-> 
-> In storytime animation, the spoken human voice is the centerpiece of the entire audio mix. Sound effects exist exclusively to punctuate physical interactions, emphasize comedic beats, and anchor hand-drawn visual events to tangible reality.
+Use real entries from `common/audio/sfx/sfx_catalog.json` and verify files/licensing. Familiar available conventions include `comedic_record_scratch_01`, `comedic_wrong_buzzer_01`, `comedic_fail_low_tone_01`, `cartoon_boing_spring_01`, `cartoon_slidewhistle_up_01`, `sting_achievement_bell_01`, `sting_question_chime_01`, pencil/page sounds and camera whooshes. These are familiar sound types, not guaranteed copies of a particular viral meme. Do not fabricate `bruh.mp3`/anime samples or substitute a stranger's vocal gasp for the character. The catalog includes MIT, CC0 and commercially allowed Mixkit assets; not everything is public domain.
 
----
+## Audible mixing
 
-## 2. Voice Dominance & Mixing Hierarchy
+A source `gain_db` is attenuation applied to that file, **not** a measured distance below dialogue. Different clips have different native levels and leading silence. Blindly applying -20 to -29 dB made many earlier cues effectively disappear. Start important accents around -6 to -10 dB and quieter surface sounds around -10 to -14 dB, then measure and audition the actual mix. These are starting settings, not guaranteed loudness targets. Supported version-2 source gains remain -60..-6 dB; choose a suitable source if it cannot be heard within that range.
 
-```
-┌────────────────────────────────────────────────────────┐
-│ 1. SPOKEN NARRATION                                    │
-│ Peak: -2.0 dB to -3.5 dB True Peak. Master presence.   │
-├────────────────────────────────────────────────────────┤
-│ 2. DIRECT EVENT SFX (Pops, Clicks, Impacts, Whooshes)  │
-│ Mix Level: -6.0 dB to -14.0 dB below dialogue.         │
-├────────────────────────────────────────────────────────┤
-│ 3. FOLEY & SURFACE INTERACTIONS (Page turns, cloth)    │
-│ Mix Level: -16.0 dB to -22.0 dB. Subtle tactile depth. │
-├────────────────────────────────────────────────────────┤
-│ 4. BACKGROUND MUSIC (BGM)                              │
-│ STRICT POLICY: OFF BY DEFAULT.                         │
-└────────────────────────────────────────────────────────┘
-```
+Compare each rendered SFX segment's RMS/peak to nearby narration after its fixed -2 dB mixer gain. Short hero transients may approach dialogue prominence; longer tones should sit beneath it. Report quiet cues and overlapping clusters instead of counting cues as evidence they can be heard. Source truncation should retain the recognizable attack and avoid abrupt audible tails. Preserve speech clarity and purposeful silence after a reaction. Do not create continuous loud ambience or stack effects indiscriminately.
 
----
+Use `audio_mix.py` for the same clock/gains in exports. Recalibrate constant master gain after changing cues; check the **encoded** movie for true peak <= -1 dBFS. Do not alter voice identity, pitch, formants, EQ, tempo or timing for a sound-only pass. Master level gain affects loudness only. No automatic narration ducking or compression.
 
-## 3. Strict Rules for Sound Effects
+## Review and delivery
 
-1. **Short & Crisp**:
-   - Event SFX must have instantaneous transients and short decays (`0.05s` to `0.45s`).
-   - ❌ **NEVER** use 3-to-5-second sound files as punctuation cues.
-2. **Selective & Event-Based**:
-   - Only trigger an SFX when an explicit visual event occurs:
-     - Doodle draw-on / sketch: light pencil scritch or `pop.mp3`.
-     - Prop placed on desk: tactile wood tap (`wood_tap.ogg`).
-     - Camera punch-zoom: subtle air whoosh (`whoosh.mp3`).
-     - Lightbulb realization: gentle chime (`chime.mp3`).
-     - Deadpan realization: comedic fail tone or record scratch.
-   - Do **NOT** add SFX to every single arm movement, eye blink, or breath.
-3. **The Absolute BGM Policy**:
-   - **BGM is OFF by default**.
-   - Background music fills dead space, preventing comedic silence from functioning.
-   - Comedic timing relies heavily on awkward pauses where the audio drops to near-silence, making the visual deadpan hilarious.
-   - Music is only permitted for deliberate stylized parodies (e.g., an 80s montage parody or anime battle theme gag lasting $\le 5$ seconds).
+Validate source, inspect cue timing against the actual scene and listen to representative mixes on ordinary playback volume. Numeric audibility checks do not prove perceptual balance or replace listening; record unperformed listening honestly. Save cue count, palette, relative-level measurements, encoded peak and voice/source hashes in the episode review folder.
 
----
-
-## 4. Curated Core Sound Palette
-
-All sounds must be sourced from the verified CC0 / Public Domain catalog in `common/audio/sfx/`:
-
-| Sound ID | File Reference | Primary direct use |
-|---|---|---|
-| `pop_crisp` | `common/audio/sfx/pop.mp3` | Doodle reveals, thought bubbles, lightbulb moments |
-| `click_soft` | `common/audio/sfx/click.mp3` | UI snaps, button presses, lock-ins |
-| `whoosh_subtle` | `common/audio/sfx/whoosh.mp3` | Rapid camera reframing, arm sweeps, entrances |
-| `chime_bright` | `common/audio/sfx/chime.mp3` | Positive epiphany, sparkle doodle burst |
-| `page_turn` | `common/audio/sfx/paper/paper_page_turn_01.wav` | Notebook flips, book reading |
-| `typing_burst` | `common/audio/sfx/computer/computer_laptop_typing_fast_01.wav` | Laptop comedy, coding, frantic texting |
-| `bruh_comedic` | `common/audio/sfx/bruh.mp3` | Sudden disbelief, dumbfounded deadpan pause |
-| `anime_wow` | `common/audio/sfx/anime-wow.mp3` | Exaggerated cute or awe reaction |
-
-## New-production sound mixing
-
-[Storytime Direction Workflow](STORYTIME_DIRECTION_WORKFLOW.md) mixes narration-only audio plus punctual cue clips. The renderer and live stage use the same times/gains, with no automatic sound for every drawing. Preserve the dry-line aftermath.
+For sound-only changes, a validated re-export may reuse the approved video stream with `-c:v copy` and newly mix the original narration plus SFX. Verify video stream hashes/duration/resolution; this preserves camera/animation exactly and retains native 4K. Never add effects on top of the old mixed soundtrack. A visual change still needs a fresh visual render. Save current masters in the episode `renders/` folder and update its index. Only remove superseded exports when the user requests cleanup, after replacements pass checks; never remove approved voice/script/assets as render cleanup.

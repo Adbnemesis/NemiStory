@@ -14,9 +14,9 @@
 
 ## 2. Nemi Core Sound Palette (34 Go-To Sounds)
 
-These 34 sounds define the signature auditory language of Nemi videos. Fast to reach, instantly recognizable, and perfectly calibrated.
+These are familiar starting choices. The legacy labels below describe catalog intent; they are not validated source gains or measured dialogue-relative loudness. Follow [current sound direction](../animation/COMMON_SFX_SYSTEM.md) and measure the actual exported mix.
 
-| Core Sound ID | Category | Type | Primary Use Case | Target Mix Level |
+| Core Sound ID | Category | Type | Primary Use Case | Legacy catalog label (not output gain) |
 | :--- | :--- | :--- | :--- | :--- |
 | `cartoon_pop_bubble_01` | cartoon | event_sfx | Crisp cartoon bubble pop | accent (-2dB) |
 | `cartoon_pop_bubble_tiny_02` | cartoon | event_sfx | High-frequency tiny bubble pop | accent (-2dB) |
@@ -59,5 +59,5 @@ These 34 sounds define the signature auditory language of Nemi videos. Fast to r
 
 1. **Event Punctuation**: Sounds represent distinct physical or comic events. Never play a sound simply because time has passed.
 2. **Voice Priority**: Nemi narration always sits at the top of the mix (-16 LUFS vocal target). SFX never mask vocal clarity.
-3. **Deadpan Silence**: Silence is treated as an active joke element. Major punchlines and awkward beats must be left quiet.
-4. **Restraint Over Clutter**: One well-placed pop or thud is far more funny than a continuous wall of Foley.
+3. **Deadpan Silence**: Silence is treated as an active joke element. A punchline may land with a chosen accent; leave its aftermath or a vulnerable beat quiet when that serves the story.
+4. **Audible Story Design**: Plan useful accents across the story, not just two token effects. Confirm the exported sounds are audible beneath the speech. See [current shared sound direction](../animation/COMMON_SFX_SYSTEM.md) for source-gain versus measured loudness, familiar catalog selections and QA.
