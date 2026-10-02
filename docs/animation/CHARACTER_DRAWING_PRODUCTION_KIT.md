@@ -37,7 +37,7 @@ Available authored marks for **both** profiles: `arrow`, `circle`, `underline`, 
 
 ## Acting through the existing rigs
 
-`common/storytime/performances/recipes.json` now contains fourteen recipes per character: the eight original combinations below plus six listed in the version-2 direction guide. These combine existing poses, expressions, gaze, eye openness, brow accents, and head angles. They are new **performance combinations**, not replacement rigs or new underlying rig poses.
+`common/storytime/performances/recipes.json` now contains fourteen recipes per character: the eight original combinations below plus six listed in the version-2 direction guide. Nemi additionally has the externally directed `passenger_listening`, `passenger_worried`, `passenger_deadpan` and `overwhelmed` combinations documented in the direction guide; the first three use her existing seated pose with standing grounding disabled and explicit cabin framing. These combine existing poses, expressions, gaze, eye openness, brow accents, and head angles. They are new **performance combinations**, not replacement rigs or new underlying rig poses.
 
 | Recipe | Nemi's intention | ADB's intention |
 |---|---|---|
@@ -90,7 +90,7 @@ python3 tools/storytime/test_validator.py
 python3 tools/storytime/render_scene.py --spec common/storytime/examples/two_authors_10s.json --output renders/storytime_identity/Two_Drawing_Hands_10s.mp4
 ```
 
-Set `GODOT_BIN` to the installed executable if automatic discovery fails; do not install another engine unnecessarily. Godot must run with a desktop graphics renderer for video export. FFmpeg and FFprobe must be available. The renderer uses a fresh temporary movie path every time, checks raw duration, retains the first authored frames and trims the extra trailing frame, then produces an exact-duration H.264 MP4. It rejects output paths outside `renders/` and specs inside old episode folders.
+Set `GODOT_BIN` to the installed executable if automatic discovery fails; do not install another engine unnecessarily. Godot must run with a desktop graphics renderer for video export. FFmpeg and FFprobe must be available. The renderer uses a fresh temporary movie path every time, checks raw duration, retains the first authored frames and trims the extra trailing frame, then produces an exact-duration H.264 MP4. It rejects output paths outside `renders/` and existing output filenames. Real episodes use numbered character episode folders with their own preparation record; examples require an explicit study.
 
 For the comparison's diagnostic stills:
 

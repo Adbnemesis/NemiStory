@@ -1,11 +1,16 @@
 """Check actual encoded frame boundaries in the refinement proof, not just duration."""
+import argparse
 import json
 import math
 from pathlib import Path
 import subprocess
 from validate_scene import ROOT
-spec=json.loads((ROOT/'common/storytime/examples/refinement_10s/scene.json').read_text())
-video=ROOT/'renders/storytime_refinement/One_Tiny_Plan_10s.mp4'
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--spec',type=Path,default=ROOT/'common/storytime/examples/refinement_10s/scene.json')
+parser.add_argument('--video',type=Path,default=ROOT/'renders/storytime_refinement/One_Tiny_Plan_10s.mp4')
+args=parser.parse_args()
+spec=json.loads(args.spec.read_text())
+video=args.video
 if not video.exists():raise SystemExit('Render the refinement proof first; this check requires the local movie.')
 # Each shot has a different flat color in the top-left corner. The small
 # tolerance ignores codec rounding while detecting the three authored cuts.
@@ -18,4 +23,4 @@ for frame in range(1,len(pixels)//12):
   cuts.append(frame);last=color
 expected=[math.ceil(shot['start']*spec['fps']-1e-8) for shot in spec['shots'][1:]]
 assert cuts==expected,f'Encoded cuts {cuts} differ from authored frames {expected}'
-print('PASS: 300 encoded frames; scene cuts match authored frames '+str(cuts))
+print(f'PASS: {len(pixels)//12} encoded frames; scene cuts match authored frames {cuts}')

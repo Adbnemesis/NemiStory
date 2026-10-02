@@ -61,6 +61,12 @@ class GateTests(unittest.TestCase):
         self.assertNotIn('adb.md',nemi);self.assertNotIn('nemi.md',adb)
         both=p.requirements(['nemi','adb'],[],self.root)
         self.assertEqual(both.count('shared.md'),1)
+    def test_numbered_episode_record_and_invalid_legacy_folder(self):
+        folder=self.root/'nemi/episodes/ep09_sf_accident'
+        p.initialize(folder,['nemi'],[],self.root)
+        self.assertEqual(p.load(folder,self.root)[2]['folder'],'nemi/episodes/ep09_sf_accident')
+        with self.assertRaisesRegex(ValueError,'copied'):
+            other=self.root/'nemi/episodes/ep10_other';shutil.copytree(folder,other);p.load(other,self.root)
     def test_old_episode_paths_rejected(self):
         with self.assertRaisesRegex(ValueError,'separate new'):p.initialize(self.root/'nemi/episodes/new',['nemi'],[],self.root)
 
@@ -69,10 +75,24 @@ class IntegrationTests(unittest.TestCase):
         name='gate_test_'+uuid.uuid4().hex[:12]
         folder=p.ROOT/'common/storytime/examples'/name
         try:
-            run=subprocess.run(['python3',str(p.ROOT/'tools/storytime/new_scene.py'),'--author','adb','--name',name],capture_output=True,text=True)
+            run=subprocess.run(['python3',str(p.ROOT/'tools/storytime/new_scene.py'),'--author','adb','--study','--name',name],capture_output=True,text=True)
             self.assertEqual(run.returncode,0,run.stderr)
             self.assertEqual(p.read_json(folder/'preflight.json')['authors'],['adb'])
             with self.assertRaisesRegex(ValueError,'incomplete'):validate(folder/'scene.json',structure_only=True)
+        finally:
+            if folder.exists():shutil.rmtree(folder)
+    def test_episode_starter_routes_and_refuses_existing_number(self):
+        name='gate_test_'+uuid.uuid4().hex[:12]
+        folder=p.ROOT/'adb/episodes'/('ep9999_'+name)
+        try:
+            command=['python3',str(p.ROOT/'tools/storytime/new_scene.py'),'--author','adb','--episode','9999','--name',name]
+            run=subprocess.run(command,capture_output=True,text=True)
+            self.assertEqual(run.returncode,0,run.stderr)
+            self.assertTrue((folder/'scene.json').exists())
+            self.assertEqual(p.read_json(folder/'preflight.json')['folder'],str(folder.relative_to(p.ROOT)))
+            with self.assertRaisesRegex(ValueError,'incomplete'):validate(folder/'scene.json',structure_only=True)
+            run=subprocess.run(command[:-1]+[name+'_other'],capture_output=True,text=True)
+            self.assertNotEqual(run.returncode,0);self.assertIn('episode number already exists',run.stderr)
         finally:
             if folder.exists():shutil.rmtree(folder)
     def test_real_file_validator_and_renderer_gate(self):

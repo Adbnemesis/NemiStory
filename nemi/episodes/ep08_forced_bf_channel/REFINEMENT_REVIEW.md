@@ -1,6 +1,6 @@
 # EP08 revision — same narration and script, clearer staging and sound
 
-User explicitly requested improving this existing episode on 2026-10-02. Episode 9 is being produced separately in Antigravity; this revision changes only EP08 files and creates new review outputs under `renders/ep08_refinement/`. The old MP4 is preserved.
+User explicitly requested improving this existing episode on 2026-10-02. The later user request separately authorizes revising EP09; this document covers EP08 review outputs under `renders/ep08_refinement/`. The old MP4 is preserved.
 
 ## Direction
 
@@ -10,7 +10,7 @@ The original 30 spoken segments, all 69 caption cards, saved timing, voice audio
 
 ## What changed and why
 
-- Larger characters and 52-pixel captions improve phone-size readability. Nemi's existing legs are planted with the shared external solver; the rig files are preserved.
+- The current scale pass uses 1.25 for Nemi/new ADB and 1.32 for old ADB, with gentler opening/outro zooms. Characters are checked against the room and furniture; 52-pixel captions remain. Nemi's existing legs are planted with the shared external solver; the rig files are preserved.
 - A card's visual action now waits for its original timestamp before starting. Each card ends at its absolute timestamp, avoiding cumulative rounding of every separate pause and phrase. Caption text and times are unchanged.
 - `sfx_cues.json` links 18 short sounds to named caption/visual events. Preview and offline mixing use this one schedule; the final export previously discarded all beat audio and muxed only narration.
 - The opening uses one short accent rather than an exclamation, stress spiral, sweatdrop and question marks competing for attention. Ordinary props and reaction marks arrive fully inked; selected annotation/revision marks still draw live.
@@ -31,10 +31,14 @@ python3 nemi/episodes/ep08_forced_bf_channel/tools/render_ep08_master.py --proof
 python3 nemi/episodes/ep08_forced_bf_channel/tools/render_ep08_master.py --output renders/ep08_refinement/new_full_review.mp4
 ```
 
-Every render is fresh and uses a private temporary directory. Capture must include every caption/action cue within one frame of the original timeline and enough raw frames for the beat; missing choreography cannot be filled by duplicating frames. Existing outputs are refused. This is the explicitly authorized legacy EP08 pipeline; it does not migrate the episode into a new version-2 spec or relax the new-episode preflight gate. Keep EP09 files and shared project settings out of this revision's commits.
+Every render is fresh and uses a private temporary directory. Capture must include every caption/action cue within one frame of the original timeline and enough raw frames for the beat; missing choreography cannot be filled by duplicating frames. Existing outputs are refused. This is the explicitly authorized legacy EP08 pipeline; it does not migrate the episode into a new version-2 spec or relax the new-episode preflight gate. Shared project settings remain outside this revision; EP09 has its own direction and verification record.
 
 ## Verification record
 
 Final full review rendered as `renders/ep08_refinement/EP08_Forced_BF_Channel_Refined.mp4`: 1920×1080, 30 FPS, 2,862 frames, approximately 95.4 seconds. All nine beats completed without script errors, with all 69 caption/action cues observed at their expected capture frames (maximum rounding 0.016334 seconds). Capture completeness and original text/audio checks pass. The encoded mix measured −18.5 LUFS and −1.4 dB true peak. The final ten-second reveal excerpt is `renders/ep08_refinement/EP08_final_reveal_proof_10s.mp4`.
 
 Twelve final stills were inspected across all nine beats. Muted browser playback was sampled across the opening/development and the ending; this verifies displayed motion and framing at sampled points, not uninterrupted attention to every frame or listening. Source files, original movie and rig hashes remain unchanged in the 127-file protected inventory. Sound selection, event synchronization and encoded levels were checked; listening to the final mix remains pending. Small saved evidence: `review/refinement_contact.jpg` and `review/refinement_qa.json`. Earlier failed trial captures remain local diagnostics and are not the delivered movie. The focused ten-second reveal proof was rendered and inspected: larger framing, visible feet, floor contact and stable reveal art. Original voice/text/timing/rig/movie hashes match the saved pre-edit inventory. The plan validator checks all 69 caption records against the original timing JSON, narration/timing hashes, cue times and licensed real sound assets. Encoded audio levels and exact frame counts are measured for every export. Automated numerical checks do not replace listening.
+
+## Follow-up scale review (2026-10-02)
+
+Current full output: `renders/ep08_refinement/EP08_Set_Scale_Final.mp4`. The original and first refinement movies are preserved. This pass reduces character size and the strongest zooms. Old ADB’s existing local shoe sole is Y=195, so root Y=582.6 at scale 1.32 grounds it at floor Y=840; the rig/drawing is unchanged. An explicit deferred redraw keeps captured pictures fresh while the process clock advances, including held frames. Fresh full capture verifies all 69 original caption/action cues, 2,862 frames, and the same measured −18.5 LUFS/−1.4 dB true peak mix. Twelve current stills and sampled muted playback were inspected; current evidence is `review/set_scale_contact.jpg` and `review/set_scale_qa.json`. The protected 267-file inventory for both revisions has no hash changes. This includes approved voice/timing and character/rig sources. No script or narration changes; listening is still pending.

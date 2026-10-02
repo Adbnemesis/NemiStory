@@ -31,7 +31,7 @@ There is no compulsory cut every two seconds or guaranteed retention score. A lo
 
 ## Choose the next image by its job
 
-Use one primary action per beat. Pick a closer face shot for recognition, a wider shot for physical geography, an insert for an important object, an imagined scene for a consequence, or a quiet hold for a dry line. Establish where things are before changing contact or orientation. The silent starter uses a readable full-body review frame. Choose closer shots deliberately when expressions need emphasis, rather than applying close framing throughout.
+Use one primary action per beat. Pick a closer face shot for recognition, a wider shot for physical geography, an insert for an important object, an imagined scene for a consequence, or a quiet hold for a dry line. Establish where things are before changing contact or orientation. Judge scale against the set: a standing person must make sense beside the desk, chair, door, vehicle and other characters. A visible full body alone does not prove believable size. The starter uses a modest 1.25 actor scale, not a universal shot setting. Establish the location with authored scenery and relevant objects before choosing a closer face shot. A city trip needs a city/landmark; a car story needs an actual car/cabin/road, not only handwritten place names. Choose closer shots deliberately when expressions need emphasis, rather than applying close framing throughout.
 
 Held props and finished doodles should be fully drawn when introduced. Use live ink when creation, revision or discovery is part of the joke. Completed lines stay still. Backgrounds establish place/mood; change them when the thought or location changes. New `studio_nemi` and `studio_adb` environments supplement `paper`, `room`, `thought`, `evening`. They are modest authored sets, not a complete location library.
 
@@ -64,13 +64,13 @@ Current complete example: `common/storytime/examples/refinement_10s/scene.json`,
 For a new story:
 
 ```sh
-python3 tools/storytime/new_scene.py --author nemi --name my_new_story
+python3 tools/storytime/new_scene.py --author nemi --episode 9 --name my_new_story
 # Replace the silent starter's story, shots and actions; save approved recordings.
 python3 tools/storytime/prepare_voice.py --plan path/to/new_voice_plan.json --output renders/my_new_story/audio
 # Save final narration/timeline paths in scene.json; author mouths and word-linked captions.
-python3 tools/storytime/calibrate_mix.py --spec common/storytime/examples/my_new_story/scene.json --output common/storytime/examples/my_new_story/scene_calibrated.json
-python3 tools/storytime/validate_scene.py common/storytime/examples/my_new_story/scene_calibrated.json
-python3 tools/storytime/render_scene.py --spec common/storytime/examples/my_new_story/scene_calibrated.json --output renders/my_new_story/proof.mp4
+python3 tools/storytime/calibrate_mix.py --spec nemi/episodes/ep09_my_new_story/scene.json --output nemi/episodes/ep09_my_new_story/scene_calibrated.json
+python3 tools/storytime/validate_scene.py nemi/episodes/ep09_my_new_story/scene_calibrated.json
+python3 tools/storytime/render_scene.py --spec nemi/episodes/ep09_my_new_story/scene_calibrated.json --output renders/my_new_story/proof.mp4
 ```
 
 The preparer/calibrator refuse overwriting their outputs. Source-only checks can use `validate_scene.py ... --structure-only`. If measured word timings are missing, use `align_voice.py --audio <approved.wav> --actor nemi --output <new.json>` with `.venv/bin/python` and the existing cached Whisper model. No network/model download is attempted. It marks ASR output as needing review; review uncertain words against the recording before creating a voice plan. It cannot identify multiple speakers automatically.

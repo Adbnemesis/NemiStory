@@ -3,7 +3,7 @@ import copy
 import math
 from pathlib import Path
 
-ART = {'laptop','phone','mug','tabs','cloud','desk'}
+ART = {'laptop','phone','mug','tabs','cloud','desk','suitcase','car','damaged_car','police_car','steering_wheel','boarding_pass','clipboard','flashlight','traffic_cone','tissue_box','seat_front'}
 HANDS = {'nemi': {'relaxed','pointing','fist','open','open_palm_up','finger_count_one','finger_count_two','finger_count_three','splayed_fingers','pinch','hold_prop','hand_to_chest','hand_to_cheek','hand_to_mouth','facepalm','hands_together','grip_strap'},
          'adb': {'relaxed','open_palm','pointing','fist','holding_cup','shrug_open','hand_to_chin'}}
 
@@ -99,7 +99,7 @@ def validate_production(spec, root, core_validate, check_assets=True):
         shot_ids.add(shot['id'])
         require(num(shot.get('start')) and num(shot.get('end')) and abs(shot['start']-previous)<1e-6 and shot['start']<shot['end']<=duration,'shots must cover the scene in order, without gaps/overlaps')
         previous=shot['end']
-        require(shot.get('background') in {'paper','room','thought','evening','studio_nemi','studio_adb'},'Unknown background')
+        require(shot.get('background') in {'paper','room','thought','evening','studio_nemi','studio_adb','sf_street','sf_bridge','tech_auditorium','car_cabin','airport_road','roadside'},'Unknown background')
         require(isinstance(shot.get('actors'),dict),'shot actors must be an id → placement object')
         for id,placement in shot['actors'].items():
             require(id in ids,f'Unknown shot actor: {id}')
@@ -186,7 +186,7 @@ def validate_production(spec, root, core_validate, check_assets=True):
     for effect in spec.get('vfx',[]):
         keys(effect,'kind author actor position offset at end shots event event_offset strength','VFX')
         timing_event(effect)
-        require(effect.get('kind') in {'realization','impact','sweat','focus','tension','relief'} and effect.get('author') in profiles,'unknown VFX kind/author')
+        require(effect.get('kind') in {'realization','impact','sweat','focus','tension','relief','tears'} and effect.get('author') in profiles,'unknown VFX kind/author')
         require(num(effect.get('strength',1)) and .25<=effect.get('strength',1)<=1.5,'VFX strength must be .25..1.5')
         require(num(effect.get('at')) and num(effect.get('end')) and 0<=effect['at']<effect['end']<=duration and effect['end']-effect['at']<=2,'VFX must last 0..2 seconds inside the scene')
         if 'actor' in effect: require(effect['actor'] in ids and ids[effect['actor']]==effect['author'] and point(effect.get('offset',[80,-30])),'invalid VFX actor/offset')

@@ -43,7 +43,7 @@ Do not impose a fixed percentage of live drawing. In the saved ten-second proof 
 | `quiet_recoil` | Restrained backward response to recognition |
 | `recover` | Return to composure and hold |
 
-The original recipes are `listening`, `explaining`, `uncertain`, `skeptical`, `embarrassed`, `pleased`, `deadpan`, `realization`. Recipe data lives in `common/storytime/performances/recipes.json`; use these exact names.
+The original recipes are `listening`, `explaining`, `uncertain`, `skeptical`, `embarrassed`, `pleased`, `deadpan`, `realization`. Nemi also has `passenger_listening`, `passenger_worried`, `passenger_deadpan` using the existing seated pose, and `overwhelmed` using the existing defeated/sad controls. Passenger cues require `grounded: false`, a deliberate seat placement/cut and foreground cabin masking of knees; verify upper-body scale against the seat. They do not create seated contact automatically. Recipe data lives in `common/storytime/performances/recipes.json`; use these exact names.
 
 Version 2 softens numerical facial controls across up to 120 ms, with gaze orienting within 90 ms. Body/head follow; upper arm/elbow starts before forearm/wrist. A single bounded gesture arc provides travel and settle, not an endless sine loop. Hand shape changes during the gesture. Nemi's mouth uses the existing exaggeration scale at 0.85 for restrained conversational opening. Discrete mouth/face accents remain authored choices; this is not a new continuous face rig.
 
@@ -56,10 +56,10 @@ The stage owns the clock and disables autonomous processing on **its own instanc
 Copy `common/storytime/examples/refinement_10s/scene.json` (current complete proof) or `common/storytime/examples/storytime_direction_10s.json` (earlier simpler proof), or create a silent starter:
 
 ```sh
-python3 tools/storytime/new_scene.py --author nemi --name my_new_story
+python3 tools/storytime/new_scene.py --author nemi --episode 9 --name my_new_story
 ```
 
-The generator refuses overwrites and writes `scene.json` plus `SCRIPT_AND_BEATS.md` into a new folder. Use `--author adb` for ADB. Add another actor with a unique ID for dialogue. Do not create a new private scene clock or doodle engine.
+Real episodes go under `<author>/episodes/epNN_<story_slug>/`; `--study` is only for isolated examples. The generator refuses overwrites and writes `scene.json` plus `SCRIPT_AND_BEATS.md` into a new folder. Use `--author adb` for ADB. Add another actor with a unique ID for dialogue. Do not create a new private scene clock or doodle engine.
 
 | Field | Content / rule |
 |---|---|
@@ -87,11 +87,11 @@ The generator refuses overwrites and writes `scene.json` plus `SCRIPT_AND_BEATS.
 
 All coordinates use a 1920×1080 world. Actor scale is a number; art scale is `[x,y]`. Ink widths scale with art. `tilt` and attachment `angle` are degrees. Layers: scenery below 0, attached props often 0 behind hands, actors 1, illustrations 2, VFX 5. A shot filter is an explicit array of shot IDs; it prevents old artwork leaking into a new environment. Otherwise a cue persists until its `end`.
 
-Background kinds: `paper`, `room`, `thought`, `evening`, `studio_nemi`, `studio_adb`. These are small authored environments, not automatic scene generation. Extend `Backdrop.gd` or add new authored assets when a story needs a different place; document the kind in the validator at the same time.
+Background kinds: `paper`, `room`, `thought`, `evening`, `studio_nemi`, `studio_adb`, `sf_street`, `sf_bridge`, `tech_auditorium`, `car_cabin`, `airport_road`, `roadside`. The travel kinds are authored illustrated sets: city blocks, bridge/bay, auditorium, cabin/windows, freeway/terminal and roadside investigation. They are held scenery, not automatic scenery generation. These are small authored environments, not automatic scene generation. Extend `Backdrop.gd` or add new authored assets when a story needs a different place; document the kind in the validator at the same time.
 
-Art kinds: the character marks `arrow`, `circle`, `underline`, `scratch`, `question`, `spark`, `notebook`, plus production props `laptop`, `phone`, `mug`, `tabs`, `cloud`, `desk`, and profile `text`. Phone/mug outlines differ by author; other object construction is shared with author ink. Prop silhouettes are not all independently redesigned per character yet. Handwriting/mark identities remain separate. `SceneArt.gd` contains fill/ink geometry and avoids drawing hidden card borders through foreground paper.
+Art kinds: the character marks `arrow`, `circle`, `underline`, `scratch`, `question`, `spark`, `notebook`, plus production props `laptop`, `phone`, `mug`, `tabs`, `cloud`, `desk`, and profile `text`, plus `suitcase`, `car`, `damaged_car`, `steering_wheel`, `boarding_pass`, `clipboard`, `flashlight`, `traffic_cone`, `tissue_box`, `seat_front`, `police_car`. Cars share a recognisable silhouette; the damaged version keeps its front and dents only the rear. `seat_front` is a foreground cabin occluder, not a seated-pose generator. All props support authored paths; use a short braking/contact path only for the vehicle, not floating actor movement. Phone/mug outlines differ by author; other object construction is shared with author ink. Prop silhouettes are not all independently redesigned per character yet. Handwriting/mark identities remain separate. `SceneArt.gd` contains fill/ink geometry and avoids drawing hidden card borders through foreground paper.
 
-VFX kinds: `realization`, `impact`, `sweat`, `focus`, `tension`, `relief`. Optional `strength` is 0.25..1.5. They have finite reveal/settle lifetimes, are attached to the face or a world position, and disappear without lingering timers. Do not use all four in one reaction.
+VFX kinds: `realization`, `impact`, `sweat`, `focus`, `tension`, `relief`, `tears`. `tears` is a short paired droplet accent placed below the eyes; it is not a replacement face rig. Optional `strength` is 0.25..1.5. They have finite reveal/settle lifetimes, are attached to the face or a world position, and disappear without lingering timers. Do not use all four in one reaction.
 
 Hand overrides use existing supported shapes. Nemi: `relaxed`, `pointing`, `fist`, `open`, `open_palm_up`, `finger_count_one/two/three`, `splayed_fingers`, `pinch`, `hold_prop`, `hand_to_chest`, `hand_to_cheek`, `hand_to_mouth`, `facepalm`, `hands_together`, `grip_strap`. ADB: `relaxed`, `open_palm`, `pointing`, `fist`, `holding_cup`, `shrug_open`, `hand_to_chin`. ADB's cup grip supplies the supported wrapping fingers for the phone proof; `holding_phone` has an anchor name in the old hand controller but no distinct drawn hand shape, so this kit does not accept it as a new grip.
 
@@ -149,7 +149,7 @@ python3 tools/storytime/prepare_direction_proof.py
 
 The generator uses the project's existing cached Qwen CustomVoice setup; it does not bundle/download model weights. If the cache/runtime is absent, follow the project's voice setup or supply approved clips in the declared paths. Do not download gigabytes merely to run a structural check. For source-only validation use `--structure-only`; rendering still requires real audio assets. Resynthesized voices can have different timings: listen, reannotate `storytime_direction_words.json`, and update the beat times rather than assuming the old annotations still fit.
 
-The exporter chooses stage version from the spec, rejects old episode spec/output paths, captures a fresh temporary movie, checks for script/render errors, checks duration, retains the first authored frames and trims the extra trailing frame, and muxes exact-duration audio/video. It does not publish or update existing episodes.
+The exporter chooses stage version from the spec, accepts prepared episode specs, rejects outputs outside `renders/` or existing output filenames, captures a fresh temporary movie, checks for script/render errors, checks duration, retains the first authored frames and trims the extra trailing frame, and muxes exact-duration audio/video. It does not publish or update existing episodes.
 
 ## Model handoff and quality boundary
 

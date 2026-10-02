@@ -58,7 +58,7 @@ func _run_beat_choreography() -> void:
 
 	# Hand-off beat: camera reframes onto ADB
 	cam_pan(Vector2(1080, 520), 0.30)
-	cam_punch(1.3, false, Vector2(1080, 570))
+	cam_punch(1.16, false, Vector2(1080, 570))
 	new_adb.look("camera")
 	new_adb.set_pose("casual_contrapposto", 0.20)
 	new_adb.set_expression("neutral", 0.15)

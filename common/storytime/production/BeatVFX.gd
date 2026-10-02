@@ -20,6 +20,11 @@ func _draw() -> void:
 			var from := Vector2(30,0).rotated(angle)
 			var to := Vector2(30+24*reveal,0).rotated(angle)
 			draw_line(from,to,ink,2.8,true)
+	elif kind=="tears":
+		ink=Color("#6f9eb4",settle)
+		for x in [-26,26]:
+			var y=phase*18
+			draw_polyline(PackedVector2Array([Vector2(x,2+y),Vector2(x-3,13+y),Vector2(x,17+y),Vector2(x+3,12+y),Vector2(x,2+y)]),ink,2.2,true)
 	elif kind=="sweat":
 		var y := 9*phase
 		var pts := PackedVector2Array([Vector2(0,-15+y),Vector2(-7,0+y),Vector2(-3,7+y),Vector2(5,6+y),Vector2(8,0+y),Vector2(0,-15+y)])

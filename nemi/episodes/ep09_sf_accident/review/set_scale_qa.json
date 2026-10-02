@@ -1,0 +1,86 @@
+{
+  "output": "renders/ep09_sf_accident_revision/EP09_SF_Accident_Reviewed.mp4",
+  "video_sha256": "fbcdfee9983eb1514a91321959f937f2512272177a4bc7f49b474f411e44575e",
+  "decoded_video": {
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "120.000000",
+    "nb_read_frames": "3600"
+  },
+  "protected_file_count": 267,
+  "protected_hash_changes": [],
+  "stills_inspected_seconds": [
+    3,
+    12,
+    28,
+    33,
+    40,
+    45,
+    50,
+    58,
+    68,
+    79.6,
+    86.9,
+    95,
+    100,
+    107.5,
+    114,
+    119
+  ],
+  "source_voice": "Unchanged approved recordings and original narration timing. No regeneration or extra tempo pass.",
+  "visual_review": "Sampled muted browser playback plus saved contact stills; not uninterrupted viewing.",
+  "listening": "Pending",
+  "original_movies": "Preserved",
+  "capture_boundaries": {
+    "decoded_frames": 3600,
+    "verified_background_boundaries": [
+      {
+        "shot": "hook",
+        "frame": 0
+      },
+      {
+        "shot": "san_francisco",
+        "frame": 254
+      },
+      {
+        "shot": "apple_event",
+        "frame": 779
+      },
+      {
+        "shot": "golden_gate",
+        "frame": 924
+      },
+      {
+        "shot": "waymo_intro",
+        "frame": 1073
+      },
+      {
+        "shot": "ghost_driver",
+        "frame": 1278
+      },
+      {
+        "shot": "waymo_relief",
+        "frame": 1607
+      },
+      {
+        "shot": "payoff",
+        "frame": 3295
+      }
+    ]
+  },
+  "audio_levels": {
+    "integrated_lufs": -18.1,
+    "true_peak_dbfs": -1.8
+  },
+  "checks": {
+    "preflight_tests": 14,
+    "engine_checks": 5,
+    "character_skills_validated": 2,
+    "timing_proof_cuts": [
+      103,
+      131,
+      249
+    ]
+  }
+}

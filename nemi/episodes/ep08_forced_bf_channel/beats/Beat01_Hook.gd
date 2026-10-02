@@ -15,7 +15,7 @@ func _run_beat_choreography() -> void:
 	backdrop.set_mode(0, 0.0) # NORMAL_STUDIO
 
 	# 2. Camera framing: Medium close-up on Nemi center stage
-	cam_punch(1.38, true, Vector2(960, 550))
+	cam_punch(1.22, true, Vector2(960, 550))
 
 	# 3. Character initial pose
 	nemi.position = Vector2(960, NEMI_BASE_Y)

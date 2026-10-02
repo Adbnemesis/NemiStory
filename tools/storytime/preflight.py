@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 import sys
 
@@ -19,8 +20,14 @@ def save(path,data):
     temp.write_text(json.dumps(data,indent=2)+'\n');temp.replace(path)
 def safe_folder(folder,root=ROOT):
     root=Path(root).resolve();folder=Path(folder).resolve()
-    if not folder.is_relative_to(root) or any(folder.is_relative_to(root/p) for p in ['nemi/episodes','adb/episodes','nemi/animations','adb/animations','.git','.agents','.codex']):
-        raise ValueError('Use a separate new production folder inside the workspace, outside old episodes/animations and configuration.')
+    if not folder.is_relative_to(root) or any(folder.is_relative_to(root/p) for p in ['nemi/animations','adb/animations','.git','.agents','.codex']):
+        raise ValueError('Use a separate new production folder inside the workspace, outside animations and configuration.')
+    for author in ['nemi','adb']:
+        episodes=root/author/'episodes'
+        if folder.is_relative_to(episodes):
+            relative=folder.relative_to(episodes)
+            if len(relative.parts)!=1 or not re.fullmatch(r'ep[0-9]{2,}_[a-z][a-z0-9_]{0,50}',relative.name):
+                raise ValueError('Use a separate new numbered episode folder: '+author+'/episodes/epNN_story_slug.')
     return folder
 
 def requirements(authors,features,root=ROOT):

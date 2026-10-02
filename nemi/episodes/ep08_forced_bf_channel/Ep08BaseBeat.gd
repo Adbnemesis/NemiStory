@@ -33,9 +33,9 @@ const INK_GOLD: Color = Color("#d35400")
 const INK_BLUE: Color = Color("#2980b9")
 
 const FLOOR_Y: float = 840.0
-const NEMI_BASE_Y: float = 535.5  # Scale 1.5 keeps feet at 840.0
-const NEW_ADB_BASE_Y: float = 551.74 # Scale 1.5 keeps sneakers at 840.0
-const OLD_ADB_BASE_Y: float = 610.0 # Scale 1.6 puts shoes at 840.0
+const NEMI_BASE_Y: float = 586.25 # Scale 1.25 keeps feet at 840.0
+const NEW_ADB_BASE_Y: float = 599.78 # Scale 1.25 keeps sneakers at 840.0
+const OLD_ADB_BASE_Y: float = 582.6 # Existing shoe sole is local Y=195; scale 1.32 grounds it at 840.
 
 @export var is_standalone: bool = true
 @export var beat_number: int = 1
@@ -58,6 +58,7 @@ var _grounding := Grounding.new()
 
 var _beat_cards: Array[Dictionary] = []
 var _beat_frame: int = -1
+var _capture_frame: int = 0
 var _beat_start: float = 0.0
 var _live_elapsed: float = 0.0
 var _sound_events: Array = []
@@ -111,6 +112,7 @@ func _ready() -> void:
 	_grounding.bind(nemi, "nemi")
 	nemi.face.exaggeration_mouth_scale = 0.85
 	RenderingServer.frame_pre_draw.connect(_plant_nemi_feet)
+	get_tree().process_frame.connect(_advance_capture_clock)
 
 	if is_standalone:
 		call_deferred("start_beat")
@@ -155,7 +157,7 @@ func _setup_characters() -> void:
 	# Nemi rig (z = 5)
 	nemi = NemiScene.instantiate()
 	nemi.name = "Nemi"
-	nemi.scale = Vector2(1.5, 1.5)
+	nemi.scale = Vector2(1.25, 1.25)
 	nemi.position = Vector2(680, NEMI_BASE_Y)
 	nemi.z_index = 5
 	add_child(nemi)
@@ -164,7 +166,7 @@ func setup_old_adb(initial_pos: Vector2 = Vector2(1280, OLD_ADB_BASE_Y)) -> Node
 	if not old_adb:
 		old_adb = OldADBScene.instantiate()
 		old_adb.name = "OldADB"
-		old_adb.scale = Vector2(1.6, 1.6)
+		old_adb.scale = Vector2(1.32, 1.32)
 		old_adb.position = initial_pos
 		old_adb.z_index = 4
 		add_child(old_adb)
@@ -174,7 +176,7 @@ func setup_new_adb(initial_pos: Vector2 = Vector2(1280, NEW_ADB_BASE_Y)) -> Node
 	if not new_adb:
 		new_adb = NewADBScene.instantiate()
 		new_adb.name = "NewADB"
-		new_adb.scale = Vector2(1.5, 1.5)
+		new_adb.scale = Vector2(1.25, 1.25)
 		new_adb.position = initial_pos
 		new_adb.z_index = 4
 		add_child(new_adb)
@@ -227,11 +229,16 @@ func _setup_subtitles() -> void:
 func _plant_nemi_feet() -> void:
 	if is_instance_valid(nemi): _grounding.plant_feet(nemi, "nemi")
 
+func _advance_capture_clock() -> void:
+	if _beat_frame >= 0: _capture_frame += 1
+	if "--ep08-export" in OS.get_cmdline_user_args():
+		RenderingServer.force_draw.call_deferred(false,1.0/30.0)
+
 func _process(delta: float) -> void:
 	if _beat_frame < 0:
 		return
 	_live_elapsed += delta
-	var elapsed := float(Engine.get_process_frames() - _beat_frame) / 30.0 if "--ep08-export" in OS.get_cmdline_user_args() else _live_elapsed
+	var elapsed := float(_capture_frame) / 30.0 if "--ep08-export" in OS.get_cmdline_user_args() else _live_elapsed
 	while _sound_index < _sound_events.size() and float(_sound_events[_sound_index].at) <= _beat_start + elapsed:
 		var cue: Dictionary = _sound_events[_sound_index]
 		_sound_index += 1
@@ -252,6 +259,7 @@ func _process(delta: float) -> void:
 func start_beat() -> void:
 	_beat_frame = Engine.get_process_frames()
 	_live_elapsed = 0.0
+	_capture_frame = 0
 	_beat_start = float(_beat_cards[0].start)
 	var sound_plan: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://nemi/episodes/ep08_forced_bf_channel/sfx_cues.json"))
 	for cue in sound_plan.events:
@@ -268,7 +276,7 @@ func end_beat() -> void:
 	if subtitle_label:
 		subtitle_label.text = ""
 		subtitle_label.visible = false
-	print("--- EPISODE 08 BEAT %d: %s COMPLETED at frame %d ---" % [beat_number, beat_name.to_upper(), Engine.get_process_frames()])
+	print("--- EPISODE 08 BEAT %d: %s COMPLETED at frame %d ---" % [beat_number, beat_name.to_upper(), _capture_frame])
 	beat_finished.emit()
 	if is_standalone:
 		await wait_seconds(0.2)
@@ -280,16 +288,16 @@ func end_beat() -> void:
 func wait_seconds(duration: float) -> void:
 	if duration <= 0.001: return
 	for i in range(maxi(1, int(round(duration * 30.0)))):
-		await RenderingServer.frame_post_draw
+		await get_tree().process_frame
 
 func wait_until(scene_time: float) -> void:
 	var target := int(round((scene_time - _beat_start) * 30.0))
 	if "--ep08-export" in OS.get_cmdline_user_args():
-		while Engine.get_process_frames() - _beat_frame < target:
-			await RenderingServer.frame_post_draw
+		while _capture_frame < target:
+			await get_tree().process_frame
 	else:
 		while _live_elapsed < scene_time - _beat_start:
-			await RenderingServer.frame_post_draw
+			await get_tree().process_frame
 
 func cue_card(card: Dictionary) -> void:
 	# Clear the previous mouth/caption during the original pause, then act ON the new cue.
@@ -320,7 +328,7 @@ func _run_card(card: Dictionary) -> void:
 func play_card_sync(card: Dictionary, current_time: float) -> float:
 	var c_start: float = card["start"]
 	var c_end: float = card["end"]
-	print("[CARD] (frame %d) Playing card '%s' [%.3f - %.3f]" % [Engine.get_process_frames(), card["text"], c_start, c_end])
+	print("[CARD] (frame %d) Playing card '%s' [%.3f - %.3f]" % [_capture_frame, card["text"], c_start, c_end])
 
 	if c_start > current_time + 0.005:
 		var gap: float = c_start - current_time

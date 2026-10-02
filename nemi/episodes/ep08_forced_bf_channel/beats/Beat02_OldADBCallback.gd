@@ -54,7 +54,7 @@ func _run_beat_choreography() -> void:
 	await cue_card(cards[3])
 
 	# Card 7: "THIS ADB." (10.335 - 11.607) - Strong reveal & arrow doodle!
-	cam_punch(1.24, true, Vector2(1040, 520))
+	cam_punch(1.12, true, Vector2(1040, 520))
 	doodles.spawn_hand_drawn_arrow(Vector2(1060, 580), Vector2(1, -0.1)).auto_dismiss(3.0)
 	doodles.spawn_comic_exclamation(Vector2(1300, 320), 0.18).auto_dismiss(2.2)
 	old_adb.set_pose("cool_swagger")

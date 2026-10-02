@@ -13,8 +13,13 @@ func run() -> void:
 	stage.manual=true
 	root.add_child(stage)
 	await process_frame
+	var start := 0.0
+	var duration: float=stage.spec.duration
+	for arg in OS.get_cmdline_user_args():
+		if arg.begins_with("--start="): start=float(arg.trim_prefix("--start="))
+		if arg.begins_with("--duration="): duration=float(arg.trim_prefix("--duration="))
 	var fps: int = stage.spec.fps
-	var frames := int(round(float(stage.spec.duration)*fps))
+	var frames := int(round(duration*fps))
 	if "--stills" in OS.get_cmdline_user_args():
 		DirAccess.make_dir_recursive_absolute("res://renders/storytime_identity")
 		for time in [1.2,3.7,5.8,7.8,9.8]:
@@ -24,7 +29,13 @@ func run() -> void:
 			root.get_texture().get_image().save_png("res://renders/storytime_identity/frame_%02d.png" % int(time*10))
 	else:
 		for frame in range(frames):
-			stage.sample(float(frame)/fps)
-			await RenderingServer.frame_post_draw
+			stage.sample(start+float(frame)/fps)
+			# Native occlusion can suppress automatic drawing while MovieWriter
+			# still captures. Explicit drawing keeps held and background frames fresh.
+			RenderingServer.force_draw.call_deferred(false,1.0/fps)
+			# MovieWriter records each process frame even when a held viewport
+			# does not redraw. Awaiting frame_post_draw here can freeze the clock
+			# while the writer silently records thousands of duplicate frames.
+			await process_frame
 	print("STORYTIME COMPLETE: ", frames," authored frames")
 	quit()

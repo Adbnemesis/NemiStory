@@ -100,7 +100,7 @@ func _run_beat_choreography() -> void:
 	await cue_card(cards[10])
 
 	# Card 68: "Please make it worth it." (93.922 - 94.725) - Pleading deadpan humor to camera
-	cam_punch(1.32, true, Vector2(900, 560))
+	cam_punch(1.20, true, Vector2(900, 560))
 	nemi.set_pose("nervous_hands_together", 0.16)
 	nemi.set_expression("deadpan")
 	t = await play_card_sync(cards[10], t)

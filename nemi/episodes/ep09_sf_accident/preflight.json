@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "folder": "nemi/episodes/ep09_sf_accident",
+  "authors": [
+    "nemi"
+  ],
+  "features": [
+    "live_ink",
+    "props",
+    "sfx"
+  ],
+  "documents": {
+    "docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md": {
+      "sha256": "6c2dab73072b0ccaa815cd866b3826f21ee58874fb90e7cc1f543da2c11af072",
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "note": "Retain the existing Sohee narration and its measured word clock; stage the trip in city/bridge/cabin/roadside locations with object-relative scale, held art, sparse live revisions and a quiet final contrast."
+    },
+    "docs/animation/STORYTIME_DIRECTION_WORKFLOW.md": {
+      "sha256": "56aab5f1741d7dee8ff960ba160ffdd9079e8e764e62d0006fc1591644069951",
+      "parts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "note": "Use documented travel sets and props with version-2 paths and word-anchored events. Cabin cuts use the existing seated-pose passenger recipes with grounded false and knees masked by the foreground seat; standing shots resume grounded true. Overwhelmed/sad and two short tears replace generic sweat at the crying word."
+    },
+    "docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md": {
+      "sha256": "4723bb5369491d141fa391b2048202dcee925397bd4307cde6e7ea16973eaeac",
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "note": "Keep Nemi rounded plum handwriting and stable completed travel illustrations through the existing shared player. Use the documented external passenger/sad combinations only; no rig, pose library or mouth/hand drawing changes. Review held props and the live safety correction as distinct visual jobs."
+    },
+    "docs/Nemi_Animation_Personality_Guide.md": {
+      "sha256": "d8f6d5afac4a0c38f535b6a88ddd6202fb498d0929bee910ae6228916723bbfd",
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "note": "Direct Nemi from tourist pleasure to asymmetric doubt at the empty steering wheel, a single recoil at braking and a vulnerable down-glance at the report. Use explicit blinks and held deadpan; avoid automatic sway or constant shock effects."
+    },
+    "docs/Nemi_Character_Bible.md": {
+      "sha256": "0c6e6beb58af264269f4e9da22cc992599e03ccae7a2b457b57217904a2152ed",
+      "parts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "note": "Keep Nemi as a companion recounting an unsettling trip, not an always-hyper mascot. Let a normal cab contradict confidence in the robot ride and give the crying/report beat room rather than decorating vulnerability with random soundboard jokes."
+    },
+    "docs/Nemi_Dialogue_Guide.md": {
+      "sha256": "aa477493684357e16e4645ff43958a9d51df34c379be62c8f0466d5885de204d",
+      "parts": [
+        1,
+        2
+      ],
+      "note": "The present task defaults to preserving the recorded dialogue; address its long setup with visual evidence and a comparison payoff, while offering only source-recording trims if the user chooses a shorter edit. Preserve the dry stop-before-rear-end pause."
+    },
+    "common/storytime/profiles/nemi.json": {
+      "sha256": "f6bee539815f1f96472445366efc7bdae023e97bb05fcde4523a129c584a4b4f",
+      "parts": [
+        1
+      ],
+      "note": "Use Nemi plum ink and rose accents with her rounded question/circle/underline geometry; only a few discovery/revision marks reveal live while travel props arrive finished."
+    },
+    "common/storytime/examples/story_review_48s/REVIEW.md": {
+      "sha256": "170f43ce0a66e54e218beb345e1206f2525aa811624033a192936d70af57745c",
+      "parts": [
+        1
+      ],
+      "note": "Render the complete revised trip for integration review plus a ten-second vehicle/reaction proof; inspect wide location shots, face reactions, braking contact, subtitles and quiet payoff, not only one mechanism."
+    },
+    "docs/animation/COMMON_ANIMATION_QA.md": {
+      "sha256": "00e95633a0051b02d1cd4b7c3de8e4232783466031deaa82c05b00b36a9d4ed4",
+      "parts": [
+        1
+      ],
+      "note": "Inspect shoes against pavement and vehicles against road, legible captions and drawing overlap, plus anticipation/settle at brake/crash. Record sampled playback and listening limits rather than claiming all gates from a completed file."
+    },
+    "tools/tts/config.py": {
+      "sha256": "e40065f248800836e45e48b95af92a745bf1564c17552c1a2eb4a87956223e66",
+      "parts": [
+        1
+      ],
+      "note": "Reuse the exact current Sohee recordings and narration master without regeneration or new identity settings; keep the original approved pacing plan unless the user explicitly chooses source-clip trims."
+    },
+    "docs/animation/LIVE_DOODLING_WORKFLOW.md": {
+      "sha256": "584200fb037a1fa298c6b399b47aec91545e63c447911fa240926090a687be55",
+      "parts": [
+        1
+      ],
+      "note": "Keep the existing stroke-distance player and Nemi alphabet; only the empty-seat question and safety correction draw live, without random geometry or word opacity. Inspect reveal midpoint and stable completed holds."
+    },
+    "docs/animation/COMMON_PROP_SYSTEM.md": {
+      "sha256": "ae99ae1cb2061ff3e2cf2523dd2e22d2080a84a1108a7d0b9bce60be06d84ccf",
+      "parts": [
+        1
+      ],
+      "note": "Ground luggage beside Nemi, show a car large enough to carry a person and stage clipboard/cones at the roadside; contact cars at bumpers and avoid invented floating microphone/hand grips. Cabin foreground occlusion must read as a deliberate cut."
+    },
+    "docs/audio/SFX_System_Guide.md": {
+      "sha256": "b6daf5e79adb8270db10e7de679c8999223bbfa5b57df629aaf03dcddf1aa787",
+      "parts": [
+        1
+      ],
+      "note": "Use quiet catalogue shutter, car pass/brake accent, one soft collision thud and paper report sound. Remove the unrelated sampled gasp so Nemi retains one voice identity; keep deadpan and final reaction free of new noise."
+    },
+    "docs/audio/SFX_License_Registry.md": {
+      "sha256": "b2c33a96c5eb6bcc80f45f0c3d77d93f3d72c42920eef9f53eae0cd5a57676e2",
+      "parts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "Use existing commercial-cleared car_driveby_fast_01, transition_camera_shutter_01, CC0 paper_page_flip_01/ui_click_tactile_01 and impact_soft_thud_01. Store exact catalogue path/license evidence; do not download or redistribute Mixkit assets as standalone files."
+    }
+  }
+}

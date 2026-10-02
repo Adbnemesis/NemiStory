@@ -242,6 +242,64 @@
           2
         ]
       }
+    },
+    "passenger_listening": {
+      "pose": "seated_at_desk_relaxed",
+      "expression": "neutral",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.92,
+      "head_degrees": -2,
+      "duration": 0.32,
+      "intent": "Seated passenger upper-body reaction; foreground cabin hides knees. Disable standing grounding and establish seat placement at the cut.",
+      "face": {},
+      "controls": {}
+    },
+    "passenger_worried": {
+      "pose": "seated_at_desk_relaxed",
+      "expression": "nervous",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 1.1,
+      "head_degrees": 4,
+      "duration": 0.32,
+      "intent": "Seated passenger upper-body reaction; foreground cabin hides knees. Disable standing grounding and establish seat placement at the cut.",
+      "face": {},
+      "controls": {
+        "left_upper_arm_rot": -18,
+        "right_upper_arm_rot": -15
+      }
+    },
+    "passenger_deadpan": {
+      "pose": "seated_at_desk_relaxed",
+      "expression": "deadpan",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.78,
+      "head_degrees": 0,
+      "duration": 0.32,
+      "intent": "Seated passenger upper-body reaction; foreground cabin hides knees. Disable standing grounding and establish seat placement at the cut.",
+      "face": {},
+      "controls": {}
+    },
+    "overwhelmed": {
+      "pose": "defeated_slump",
+      "expression": "sad",
+      "gaze": [
+        -0.2,
+        0.3
+      ],
+      "eyes": 0.72,
+      "head_degrees": 5,
+      "duration": 0.5,
+      "intent": "Quiet vulnerable aftermath; shoulders drop and gaze lowers before the tear accent.",
+      "face": {}
     }
   },
   "adb": {

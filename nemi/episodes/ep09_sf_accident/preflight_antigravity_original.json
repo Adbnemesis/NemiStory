@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "folder": "common/storytime/examples/nemi_sf_accident",
+  "authors": [
+    "nemi"
+  ],
+  "features": [
+    "live_ink",
+    "props",
+    "sfx"
+  ],
+  "documents": {
+    "docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md": {
+      "sha256": "4b1d5ff673f4a1725278d0978af0eafbc6b10fe9f66483ee40f7b41b5323c5a2",
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "note": "Structure Nemi's SF accident story around 5 direction sentences and single-focus thought beats (excitement to shock to tears); use Sohee voice with pitch-preserving tempo (1.00-1.12x), explicit facial acting settled into holds, capped 5-word captions, and measured word timing."
+    },
+    "docs/animation/STORYTIME_DIRECTION_WORKFLOW.md": {
+      "sha256": "1177644c982d169701635df23273a1f925061fe647fc85ec6f82c250aad78467",
+      "parts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "note": "Follow Version 2 schema: continuous shot timeline across SF trip beats (intro, Waymo, brake, crash, police), link brake and crash sound/visuals to named events, use valid Nemi recipes (pleased, lean_in, quiet_recoil) and bounded face parameters, with strict mouth intervals during speech."
+    },
+    "docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md": {
+      "sha256": "a5437930eafb710a425f188fdcdd388cce698adb92b10348779537cdcd4f69bf",
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "note": "All illustrations and marks strictly select author: nemi with her rounded plum pen, sweeping curves, and tall ascenders; mouth shapes strictly use Nemi's phonetic alphabet (ae, small_open, o_u, smile, neutral, closed) with completed ink held still."
+    },
+    "docs/Nemi_Animation_Personality_Guide.md": {
+      "sha256": "d8f6d5afac4a0c38f535b6a88ddd6202fb498d0929bee910ae6228916723bbfd",
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "note": "Incorporate Nemi's emotional escalation from joyful SF tourist (sparkling eyes, excited posture) to Waymo apprehension, sudden high-impact recoil on the car crash, and defeated posture with genuine tearful overwhelm during police questioning, using crisp pose holds and eye leads."
+    },
+    "docs/Nemi_Character_Bible.md": {
+      "sha256": "0c6e6beb58af264269f4e9da22cc992599e03ccae7a2b457b57217904a2152ed",
+      "parts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "note": "Strictly observe Rule 7 (zero gender/pronoun self-reference); ground Nemi as an observant, creative 24-year-old speaking directly as a confidant, contrasting the comedic irony of surviving a high-tech Waymo only to get rear-ended in an airport taxi."
+    },
+    "docs/Nemi_Dialogue_Guide.md": {
+      "sha256": "aa477493684357e16e4645ff43958a9d51df34c379be62c8f0466d5885de204d",
+      "parts": [
+        1,
+        2
+      ],
+      "note": "Draft spoken dialogue with Nemi's signature speech habits (disruptive opening, mid-sentence pivot between Waymo terror and taxi reality, deadpan delivery before the crash, and emotional vulnerability when police arrive), avoiding boilerplate and gender labels."
+    },
+    "common/storytime/profiles/nemi.json": {
+      "sha256": "f6bee539815f1f96472445366efc7bdae023e97bb05fcde4523a129c584a4b4f",
+      "parts": [
+        1
+      ],
+      "note": "Apply Nemi's warm plum (#513541) pen and rose (#ad5e69) accent; author marks using her specific geometry: spark bursts for SF tourist highlights, question mark for Waymo confusion, and double underline for emphasis."
+    },
+    "common/storytime/examples/story_review_48s/REVIEW.md": {
+      "sha256": "170f43ce0a66e54e218beb345e1206f2525aa811624033a192936d70af57745c",
+      "parts": [
+        1
+      ],
+      "note": "Follow the integrated review standard: use readable framing (1.65-1.85 scale) with grounded feet, selective closeups for the crash aftermath, static holds for completed ink, and word-verified captions."
+    },
+    "docs/animation/COMMON_ANIMATION_QA.md": {
+      "sha256": "00e95633a0051b02d1cd4b7c3de8e4232783466031deaa82c05b00b36a9d4ed4",
+      "parts": [
+        1
+      ],
+      "note": "Enforce all 4 QA gates: grounded feet and correct z-layering (Gate 1), anticipation and full-body holds for the crash and crying (Gate 2), max 5 words per subtitle card with clear voice and no continuous BGM (Gate 3), and zero idle bobbing (Gate 4)."
+    },
+    "tools/tts/config.py": {
+      "sha256": "e40065f248800836e45e48b95af92a745bf1564c17552c1a2eb4a87956223e66",
+      "parts": [
+        1
+      ],
+      "note": "Preserve canonical Nemi voice configuration: speaker sohee via Qwen3-TTS-12Hz-1.7B-CustomVoice at 24kHz without changing pitch or identity prompt, using calibrated pause policies for breath and shock."
+    },
+    "docs/animation/LIVE_DOODLING_WORKFLOW.md": {
+      "sha256": "584200fb037a1fa298c6b399b47aec91545e63c447911fa240926090a687be55",
+      "parts": [
+        1
+      ],
+      "note": "Direct live ink as comedic counterpoint: purposeful reveals for SF highlights and driverless car doodle, with explicit drawing durations, pen lifts, and rock-solid holds once strokes are completed."
+    },
+    "docs/animation/COMMON_PROP_SYSTEM.md": {
+      "sha256": "ae99ae1cb2061ff3e2cf2523dd2e22d2080a84a1108a7d0b9bce60be06d84ccf",
+      "parts": [
+        1
+      ],
+      "note": "Incorporate hand-drawn props (phone with trip photos/Waymo app, notebook) using Nemi's ink, proper z-depth hierarchy (hand over held prop over torso), and grounded surfaces without floating elements."
+    },
+    "docs/audio/SFX_System_Guide.md": {
+      "sha256": "b6daf5e79adb8270db10e7de679c8999223bbfa5b57df629aaf03dcddf1aa787",
+      "parts": [
+        1
+      ],
+      "note": "Deploy selective catalog SFX (sparkle for SF beauty, tactile UI click for Waymo app, crisp impact thud for the rear-end crash) with voice dominance, proper headroom, and deadpan silence for shock and crying beats."
+    },
+    "docs/audio/SFX_License_Registry.md": {
+      "sha256": "b2c33a96c5eb6bcc80f45f0c3d77d93f3d72c42920eef9f53eae0cd5a57676e2",
+      "parts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "Strictly use only cleared assets from the 172-item license registry (e.g. car driveby, camera shutter for Apple/Golden Gate photos, impact thud for rear-end collision) with zero unauthorized external audio files."
+    }
+  }
+}
