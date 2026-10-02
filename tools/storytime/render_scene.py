@@ -3,12 +3,21 @@
 import argparse
 import json
 import os
+import re
 from pathlib import Path
 import shutil
 import subprocess
 import tempfile
 from validate_scene import ROOT, validate
 from audio_mix import mix_audio, measure_audio
+
+def allowed_output(spec_path, output):
+    """Allow studies or the matching numbered episode, never another episode."""
+    spec_path, output = spec_path.resolve(), output.resolve()
+    numbered = (any(spec_path.parent.parent == ROOT/a/'episodes' for a in ['nemi','adb'])
+                and re.fullmatch(r'ep[0-9]{2,}_[a-z][a-z0-9_]{0,50}', spec_path.parent.name))
+    return output.suffix == '.mp4' and (output.is_relative_to(ROOT/'renders') or
+        bool(numbered and output.is_relative_to(spec_path.parent/'renders')))
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
@@ -28,8 +37,8 @@ def main():
     for value in [start,duration]:
         if abs(value*spec["fps"]-round(value*spec["fps"]))>1e-5:
             parser.error("Review windows must align to frame boundaries.")
-    if not output.is_relative_to(ROOT/'renders') or output.suffix != '.mp4':
-        parser.error('Output must be a new .mp4 inside renders/. Episode outputs are protected.')
+    if not allowed_output(spec_path, output):
+        parser.error('Use the matching episode renders/ folder or the workspace renders/ study folder.')
     if not spec_path.is_relative_to(ROOT):
         parser.error('Use a prepared spec inside this workspace.')
     if output.exists():

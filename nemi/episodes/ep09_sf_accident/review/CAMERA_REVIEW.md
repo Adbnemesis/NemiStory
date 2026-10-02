@@ -1,0 +1,11 @@
+# EP09 camera direction review — 2026-10-02
+
+Current master: `../renders/EP09_SF_Accident_Camera_1080p.mp4`. Previous scale/props version and camera draft are preserved separately. New camera direction is reproduced by `tools/build_revision.py` and `tools/camera_revision.py`; `camera_plan.json` records scene-clock cues and the thought each framing serves.
+
+Changes: personal opening and closer contradiction; city/bridge location wides; transport and empty-seat views; passenger confession portrait; premature-safety reaction then return wide before the following car/contact; aftermath and report focus; vulnerable reaction; car comparison followed by final narrator portrait. Physical actor placement and scale remain identical to the previous scale revision. Whole-world framing changes, not enlarged actors relative to scenery. Opening label reduced/repositioned after review found clipping in the draft.
+
+Verification: full decoded 3600 frames at 1920×1080/30 FPS, original 120-second clock. Script/audio/captions equal the previous scene. Decoded pixels change at all six new reaction cuts (`camera_capture_qa.json`). Inspected 21 full-master samples across locations, contact, closeups and ending (`camera_contact.jpg`), plus the ten-second cabin camera proof and browser playback samples of the opening/location sequence and crying-to-ending sequence. Caption placement stays in screen coordinates. Investigation intentionally prioritizes the report/car over a full actor view; collision returns wide for readable contact.
+
+Shared external sweat/tear accents now use quiet asymmetric open ink contours with finite lifetimes. Rig definitions, poses, expressions, hands and mouth libraries remain unchanged. Protected-source hash comparison passed for 267 original rig/voice/timing/reference files. Engine checks, preflight tests and skill validation passed. Final media hash/dimensions are in `camera_media_qa.json`.
+
+Limits: sampled visual playback was muted; no new full listening or phoneme-by-phoneme audit is claimed. Camera clarity does not by itself replace scene-specific acting or alternate authored artwork. Existing speech/voice identity and timing are preserved. Audience retention versus Pegi remains a goal requiring real viewer feedback.

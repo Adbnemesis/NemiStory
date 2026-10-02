@@ -1,0 +1,261 @@
+{
+  "version": 1,
+  "clock": "Original approved scene seconds; no voice edits",
+  "notes": "Camera points use supported center/zoom/path only. Cuts are new shots. Actor scale is unchanged. Bridge retains its authored pullback.",
+  "cues": [
+    {
+      "shot": "hook",
+      "at": 0.0,
+      "spoken_cue": "Wait",
+      "focus": "Personal opening; face and explanatory hand",
+      "camera": {
+        "center": [
+          510,
+          550
+        ],
+        "zoom": 2.15
+      },
+      "event": "camera_hook"
+    },
+    {
+      "shot": "hook_reaction",
+      "at": 7.053571,
+      "spoken_cue": "normal thing",
+      "focus": "Hold the contradiction close to the viewer",
+      "camera": {
+        "center": [
+          510,
+          515
+        ],
+        "zoom": 2.8
+      },
+      "event": "camera_hook_reaction"
+    },
+    {
+      "shot": "activities",
+      "at": 17.06,
+      "spoken_cue": "amazing",
+      "focus": "Share Nemi and the steps note",
+      "camera": {
+        "center": [
+          825,
+          510
+        ],
+        "zoom": 1.45,
+        "path": [
+          {
+            "at": 17.06,
+            "center": [
+              960,
+              540
+            ],
+            "zoom": 1
+          },
+          {
+            "at": 20.2,
+            "center": [
+              960,
+              540
+            ],
+            "zoom": 1
+          },
+          {
+            "at": 20.555652,
+            "center": [
+              825,
+              510
+            ],
+            "zoom": 1.45
+          }
+        ]
+      },
+      "event": "camera_activities"
+    },
+    {
+      "shot": "waymo_intro",
+      "at": 35.75,
+      "spoken_cue": "Waymo",
+      "focus": "Show the transport and its passenger at believable size",
+      "camera": {
+        "center": [
+          1080,
+          650
+        ],
+        "zoom": 1.18
+      },
+      "event": "camera_waymo_intro"
+    },
+    {
+      "shot": "ghost_driver",
+      "at": 42.59,
+      "spoken_cue": "No driver",
+      "focus": "Empty front seat and wheel together",
+      "camera": {
+        "center": [
+          960,
+          570
+        ],
+        "zoom": 1.12
+      },
+      "event": "camera_ghost_driver"
+    },
+    {
+      "shot": "waymo_panic",
+      "at": 47.76,
+      "spoken_cue": "clutching",
+      "focus": "Leave the empty seat behind and read the passenger reaction",
+      "camera": {
+        "center": [
+          1430,
+          570
+        ],
+        "zoom": 2.05
+      },
+      "event": "camera_waymo_panic"
+    },
+    {
+      "shot": "waymo_panic_reaction",
+      "at": 51.53193,
+      "spoken_cue": "final day",
+      "focus": "A dry private confession, then hold",
+      "camera": {
+        "center": [
+          1430,
+          525
+        ],
+        "zoom": 2.65
+      },
+      "event": "camera_waymo_panic_reaction"
+    },
+    {
+      "shot": "waymo_relief",
+      "at": 53.55,
+      "spoken_cue": "safely",
+      "focus": "Relief through face and surrounding car",
+      "camera": {
+        "center": [
+          700,
+          580
+        ],
+        "zoom": 1.5
+      },
+      "event": "camera_waymo_relief"
+    },
+    {
+      "shot": "deadpan_pause_reaction",
+      "at": 82.746667,
+      "spoken_cue": "car right behind",
+      "focus": "Return wide before the following car approaches",
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.0
+      },
+      "event": "camera_deadpan_pause_reaction"
+    },
+    {
+      "shot": "deadpan_pause",
+      "at": 80.48,
+      "spoken_cue": "We stop in time",
+      "focus": "A quiet premature sense of safety",
+      "camera": {
+        "center": [
+          325,
+          560
+        ],
+        "zoom": 2.6
+      },
+      "event": "camera_deadpan_pause"
+    },
+    {
+      "shot": "rear_end_crash_reaction",
+      "at": 89.43614,
+      "spoken_cue": "back seat",
+      "focus": "Contact has landed; read the personal consequence",
+      "camera": {
+        "center": [
+          325,
+          550
+        ],
+        "zoom": 2.35
+      },
+      "event": "camera_rear_end_crash_reaction"
+    },
+    {
+      "shot": "investigation",
+      "at": 97.71,
+      "spoken_cue": "statements",
+      "focus": "Report and car inspection rather than a repeated full-body layout",
+      "camera": {
+        "center": [
+          1100,
+          575
+        ],
+        "zoom": 1.3
+      },
+      "event": "camera_investigation"
+    },
+    {
+      "shot": "crying_breakdown",
+      "at": 103.32,
+      "spoken_cue": "calm, rational adult",
+      "focus": "Approach the vulnerable thought without a comic crash overlay",
+      "camera": {
+        "center": [
+          445,
+          580
+        ],
+        "zoom": 1.85,
+        "path": [
+          {
+            "at": 103.32,
+            "center": [
+              445,
+              580
+            ],
+            "zoom": 1.4
+          },
+          {
+            "at": 103.82,
+            "center": [
+              445,
+              580
+            ],
+            "zoom": 1.85
+          }
+        ]
+      },
+      "event": "camera_crying_breakdown"
+    },
+    {
+      "shot": "crying_breakdown_reaction",
+      "at": 107.700952,
+      "spoken_cue": "broke down",
+      "focus": "A held face and a short eye-relative tear accent",
+      "camera": {
+        "center": [
+          445,
+          535
+        ],
+        "zoom": 2.6
+      },
+      "event": "camera_crying_breakdown_reaction"
+    },
+    {
+      "shot": "payoff_reaction",
+      "at": 118.02,
+      "spoken_cue": "Total disaster",
+      "focus": "After both car images, end on the narrator",
+      "camera": {
+        "center": [
+          960,
+          535
+        ],
+        "zoom": 2.5
+      },
+      "event": "camera_payoff_reaction"
+    }
+  ]
+}

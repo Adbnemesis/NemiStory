@@ -104,6 +104,8 @@ class Ep08FloorShadows extends Node2D:
 # SETUP
 # =============================================================================
 func _ready() -> void:
+	if "--ep08-4k" in OS.get_cmdline_user_args():
+		get_tree().root.content_scale_size=Vector2i(1920,1080)
 	_setup_environment()
 	_setup_characters()
 	_setup_camera()

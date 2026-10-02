@@ -1916,28 +1916,6 @@
     {
       "id": "hook",
       "start": 0.0,
-      "end": 7.053571,
-      "background": "studio_nemi",
-      "actors": {
-        "nemi": {
-          "position": [
-            510,
-            650.4
-          ],
-          "scale": 1.2
-        }
-      },
-      "camera": {
-        "center": [
-          510,
-          550
-        ],
-        "zoom": 2.15
-      }
-    },
-    {
-      "id": "hook_reaction",
-      "start": 7.053571,
       "end": 8.46,
       "background": "studio_nemi",
       "actors": {
@@ -1948,13 +1926,6 @@
           ],
           "scale": 1.2
         }
-      },
-      "camera": {
-        "center": [
-          510,
-          515
-        ],
-        "zoom": 2.8
       }
     },
     {
@@ -1985,39 +1956,6 @@
           ],
           "scale": 1.15
         }
-      },
-      "camera": {
-        "center": [
-          825,
-          510
-        ],
-        "zoom": 1.45,
-        "path": [
-          {
-            "at": 17.06,
-            "center": [
-              960,
-              540
-            ],
-            "zoom": 1
-          },
-          {
-            "at": 20.2,
-            "center": [
-              960,
-              540
-            ],
-            "zoom": 1
-          },
-          {
-            "at": 20.555652,
-            "center": [
-              825,
-              510
-            ],
-            "zoom": 1.45
-          }
-        ]
       }
     },
     {
@@ -2088,13 +2026,6 @@
           ],
           "scale": 1.15
         }
-      },
-      "camera": {
-        "center": [
-          1080,
-          650
-        ],
-        "zoom": 1.18
       }
     },
     {
@@ -2110,40 +2041,11 @@
           ],
           "scale": 1.2
         }
-      },
-      "camera": {
-        "center": [
-          960,
-          570
-        ],
-        "zoom": 1.12
       }
     },
     {
       "id": "waymo_panic",
       "start": 47.76,
-      "end": 51.53193,
-      "background": "car_cabin",
-      "actors": {
-        "nemi": {
-          "position": [
-            1430,
-            654
-          ],
-          "scale": 1.2
-        }
-      },
-      "camera": {
-        "center": [
-          1430,
-          570
-        ],
-        "zoom": 2.05
-      }
-    },
-    {
-      "id": "waymo_panic_reaction",
-      "start": 51.53193,
       "end": 53.55,
       "background": "car_cabin",
       "actors": {
@@ -2154,13 +2056,6 @@
           ],
           "scale": 1.2
         }
-      },
-      "camera": {
-        "center": [
-          1430,
-          525
-        ],
-        "zoom": 2.65
       }
     },
     {
@@ -2176,13 +2071,6 @@
           ],
           "scale": 1.15
         }
-      },
-      "camera": {
-        "center": [
-          700,
-          580
-        ],
-        "zoom": 1.5
       }
     },
     {
@@ -2233,28 +2121,6 @@
     {
       "id": "deadpan_pause",
       "start": 80.48,
-      "end": 82.746667,
-      "background": "airport_road",
-      "actors": {
-        "nemi": {
-          "position": [
-            325,
-            666.64
-          ],
-          "scale": 1.12
-        }
-      },
-      "camera": {
-        "center": [
-          325,
-          560
-        ],
-        "zoom": 2.6
-      }
-    },
-    {
-      "id": "deadpan_pause_reaction",
-      "start": 82.746667,
       "end": 85.5,
       "background": "airport_road",
       "actors": {
@@ -2265,33 +2131,11 @@
           ],
           "scale": 1.12
         }
-      },
-      "camera": {
-        "center": [
-          960,
-          540
-        ],
-        "zoom": 1.0
       }
     },
     {
       "id": "rear_end_crash",
       "start": 85.5,
-      "end": 89.43614,
-      "background": "airport_road",
-      "actors": {
-        "nemi": {
-          "position": [
-            325,
-            666.64
-          ],
-          "scale": 1.12
-        }
-      }
-    },
-    {
-      "id": "rear_end_crash_reaction",
-      "start": 89.43614,
       "end": 93.18,
       "background": "airport_road",
       "actors": {
@@ -2302,13 +2146,6 @@
           ],
           "scale": 1.12
         }
-      },
-      "camera": {
-        "center": [
-          325,
-          550
-        ],
-        "zoom": 2.35
       }
     },
     {
@@ -2339,58 +2176,11 @@
           ],
           "scale": 1.12
         }
-      },
-      "camera": {
-        "center": [
-          1100,
-          575
-        ],
-        "zoom": 1.3
       }
     },
     {
       "id": "crying_breakdown",
       "start": 103.32,
-      "end": 107.700952,
-      "background": "roadside",
-      "actors": {
-        "nemi": {
-          "position": [
-            445,
-            640.25
-          ],
-          "scale": 1.25
-        }
-      },
-      "camera": {
-        "center": [
-          445,
-          580
-        ],
-        "zoom": 1.85,
-        "path": [
-          {
-            "at": 103.32,
-            "center": [
-              445,
-              580
-            ],
-            "zoom": 1.4
-          },
-          {
-            "at": 103.82,
-            "center": [
-              445,
-              580
-            ],
-            "zoom": 1.85
-          }
-        ]
-      }
-    },
-    {
-      "id": "crying_breakdown_reaction",
-      "start": 107.700952,
       "end": 109.81,
       "background": "roadside",
       "actors": {
@@ -2401,33 +2191,11 @@
           ],
           "scale": 1.25
         }
-      },
-      "camera": {
-        "center": [
-          445,
-          535
-        ],
-        "zoom": 2.6
       }
     },
     {
       "id": "payoff",
       "start": 109.81,
-      "end": 118.02,
-      "background": "studio_nemi",
-      "actors": {
-        "nemi": {
-          "position": [
-            960,
-            654.46
-          ],
-          "scale": 1.18
-        }
-      }
-    },
-    {
-      "id": "payoff_reaction",
-      "start": 118.02,
       "end": 120.0,
       "background": "studio_nemi",
       "actors": {
@@ -2438,13 +2206,6 @@
           ],
           "scale": 1.18
         }
-      },
-      "camera": {
-        "center": [
-          960,
-          535
-        ],
-        "zoom": 2.5
       }
     }
   ],
@@ -2453,29 +2214,29 @@
       "author": "nemi",
       "kind": "text",
       "position": [
-        590,
-        435
+        1020,
+        205
       ],
       "scale": [
         1,
         1
       ],
       "at": 0,
-      "end": 7.053571,
+      "end": 8.46,
       "mode": "hold",
       "text": "what could go wrong?",
-      "size": 18
+      "size": 42
     },
     {
       "author": "nemi",
       "kind": "question",
       "position": [
-        655,
-        470
+        1150,
+        390
       ],
       "scale": [
-        0.8,
-        0.8
+        1.2,
+        1.2
       ],
       "at": 3.839286,
       "end": 6.0,
@@ -2503,8 +2264,8 @@
       "author": "nemi",
       "kind": "text",
       "position": [
-        910,
-        300
+        900,
+        165
       ],
       "scale": [
         1,
@@ -2521,7 +2282,7 @@
       "kind": "underline",
       "position": [
         1080,
-        355
+        222
       ],
       "scale": [
         1.4,
@@ -2638,8 +2399,8 @@
       "author": "nemi",
       "kind": "text",
       "position": [
-        1480,
-        365
+        1140,
+        146
       ],
       "scale": [
         1,
@@ -2649,18 +2410,18 @@
       "end": 53.55,
       "mode": "hold",
       "text": "totally fine.",
-      "size": 30
+      "size": 40
     },
     {
       "author": "nemi",
       "kind": "scratch",
       "position": [
-        1615,
-        395
+        1340,
+        171
       ],
       "scale": [
-        0.9,
-        0.9
+        1.4,
+        1.4
       ],
       "at": 51.53193,
       "end": 53.55,
@@ -3416,81 +3177,6 @@
       "id": "tears_event",
       "at": 108.710476,
       "intent": "Quiet sad expression and two short tears on crying, with no borrowed gasp voice."
-    },
-    {
-      "id": "camera_hook",
-      "at": 0.0,
-      "intent": "Personal opening; face and explanatory hand"
-    },
-    {
-      "id": "camera_hook_reaction",
-      "at": 7.053571,
-      "intent": "Hold the contradiction close to the viewer"
-    },
-    {
-      "id": "camera_activities",
-      "at": 17.06,
-      "intent": "Share Nemi and the steps note"
-    },
-    {
-      "id": "camera_waymo_intro",
-      "at": 35.75,
-      "intent": "Show the transport and its passenger at believable size"
-    },
-    {
-      "id": "camera_ghost_driver",
-      "at": 42.59,
-      "intent": "Empty front seat and wheel together"
-    },
-    {
-      "id": "camera_waymo_panic",
-      "at": 47.76,
-      "intent": "Leave the empty seat behind and read the passenger reaction"
-    },
-    {
-      "id": "camera_waymo_panic_reaction",
-      "at": 51.53193,
-      "intent": "A dry private confession, then hold"
-    },
-    {
-      "id": "camera_waymo_relief",
-      "at": 53.55,
-      "intent": "Relief through face and surrounding car"
-    },
-    {
-      "id": "camera_deadpan_pause_reaction",
-      "at": 82.746667,
-      "intent": "Return wide before the following car approaches"
-    },
-    {
-      "id": "camera_deadpan_pause",
-      "at": 80.48,
-      "intent": "A quiet premature sense of safety"
-    },
-    {
-      "id": "camera_rear_end_crash_reaction",
-      "at": 89.43614,
-      "intent": "Contact has landed; read the personal consequence"
-    },
-    {
-      "id": "camera_investigation",
-      "at": 97.71,
-      "intent": "Report and car inspection rather than a repeated full-body layout"
-    },
-    {
-      "id": "camera_crying_breakdown",
-      "at": 103.32,
-      "intent": "Approach the vulnerable thought without a comic crash overlay"
-    },
-    {
-      "id": "camera_crying_breakdown_reaction",
-      "at": 107.700952,
-      "intent": "A held face and a short eye-relative tear accent"
-    },
-    {
-      "id": "camera_payoff_reaction",
-      "at": 118.02,
-      "intent": "After both car images, end on the narrator"
     }
   ],
   "script": [

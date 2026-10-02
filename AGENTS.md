@@ -35,3 +35,5 @@ A ten-second proof isolates a mechanism; it does not verify the whole animation 
 ADB authored hand paths now preserve 58/55 local-unit arm lengths. Unspecified wrist angles follow the forearm. Existing rig and hand drawings are unchanged. Optional actor `hand_path_window: [start,end]` limits path ownership to that interval; elsewhere the performance recipe controls the arms. Validate and inspect both boundaries. This is not an automatic anatomy or walking system.
 
 Real episodes belong in `<author>/episodes/epNN_<story_slug>/`; examples are explicit technical/art studies only. Save script/spec/preflight/timing/tools/review together and generated media under `renders/`. Check character size against furniture, doors and vehicles; labels/live marks cannot stand in for a story location.
+
+Current approved masters live in each episode’s `renders/` folder with revision/resolution names and a `RENDERS.md` index; preserve older movies. Read mandatory `COMMON_CAMERA_STAGING.md`, save exact-word camera intentions, and inspect portrait as well as wide/contact framing.

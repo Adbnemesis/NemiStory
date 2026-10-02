@@ -21,7 +21,7 @@ FPS = 30
 
 def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
 def run(command):
-    result=subprocess.run(command,cwd=ROOT,capture_output=True,text=True,timeout=300)
+    result=subprocess.run(command,cwd=ROOT,capture_output=True,text=True,timeout=900)
     if result.returncode:raise RuntimeError(result.stderr[-5000:]+'\n'+result.stdout[-2000:])
     return result
 
@@ -64,12 +64,12 @@ def validate_plan():
         assert all(c in glyphs or c in ' \n' for text in art_texts for c in text), 'Unsupported illustration glyph'
     return plan,timing
 
-def render_beat(index,start,end,godot,folder):
+def render_beat(index,start,end,godot,folder,resolution,capture_root):
     count=round(end*FPS)-round(start*FPS)
     raw=folder/f'beat{index:02d}.avi';video=folder/f'beat{index:02d}.mp4'
     scene=f'res://nemi/episodes/ep08_forced_bf_channel/beats/Beat{index:02d}_{NAMES[index-1]}.tscn'
     print(f'Rendering beat {index}: {NAMES[index-1]} ({count} frames)',flush=True)
-    result=run([godot,'--path',str(ROOT),'--log-file',str(folder/f'beat{index:02d}.log'),'--write-movie',str(raw),'--fixed-fps',str(FPS),scene,'--','--ep08-export'])
+    result=run([godot,'--resolution',f'{resolution[0]}x{resolution[1]}','--path',str(capture_root),'--log-file',str(folder/f'beat{index:02d}.log'),'--write-movie',str(raw),'--fixed-fps',str(FPS),scene,'--','--ep08-export',*(['--ep08-4k'] if resolution[0]==3840 else [])])
     (ROOT/'renders/ep08_refinement'/f'capture_beat{index:02d}.log').write_text(result.stdout+'\n'+result.stderr)
     if any(marker in result.stderr+result.stdout for marker in ['SCRIPT ERROR:','Parse Error:','Assertion failed','Unknown pose','Unknown expression','Unsupported drawn glyph']):
         raise RuntimeError(result.stderr+'\n'+result.stdout)
@@ -91,6 +91,7 @@ def render_beat(index,start,end,godot,folder):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--resolution',choices=['1080p','4k'],default='1080p',help='Native vector capture size; no upscale')
     parser.add_argument('--proof',action='store_true',help='Fresh ten-second reveal proof')
     parser.add_argument('--validate-only',action='store_true')
     parser.add_argument('--godot',default='/Users/talus/Downloads/Godot.app/Contents/MacOS/Godot')
@@ -100,15 +101,27 @@ def main():
     if args.validate_only:
         print('PASS: original voice hash, original 69 caption cards, 18 licensed named SFX events');return
     output=(args.output or ROOT/'renders/ep08_refinement'/('EP08_reveal_proof_10s.mp4' if args.proof else 'EP08_Forced_BF_Channel_Refined.mp4')).resolve()
-    assert output.is_relative_to(ROOT/'renders/ep08_refinement'), 'Output must stay in the EP08 revision review folder'
+    assert output.is_relative_to(ROOT/'renders/ep08_refinement') or output.is_relative_to(EP/'renders'), 'Use the EP08 episode renders folder or the isolated review folder'
     if output.exists():raise ValueError('Output already exists. Choose a new filename.')
     output.parent.mkdir(parents=True,exist_ok=True)
     # Private temporary output namespace avoids cache collisions with Antigravity/EP09.
     with tempfile.TemporaryDirectory(prefix='ep08-revision-') as tmp:
         folder=Path(tmp);videos=[]
+        capture_root=ROOT
+        if args.resolution=='4k':
+            capture_root=folder/'project';capture_root.mkdir()
+            for child in ROOT.iterdir():
+                if child.name not in ['project.godot','.git']:
+                    (capture_root/child.name).symlink_to(child,target_is_directory=child.is_dir())
+            config=(ROOT/'project.godot').read_text()
+            for key in ['viewport_width','window_width_override']:
+                config=re.sub(r'(window/size/'+key+r'=)\d+',r'\g<1>3840',config)
+            for key in ['viewport_height','window_height_override']:
+                config=re.sub(r'(window/size/'+key+r'=)\d+',r'\g<1>2160',config)
+            (capture_root/'project.godot').write_text(config)
         boundaries=[timing['beat_ranges'][str(i)]['start'] for i in range(1,10)]+[plan['duration']]
         indices=[4] if args.proof else range(1,10)
-        for i in indices:videos.append(render_beat(i,boundaries[i-1],boundaries[i],args.godot,folder))
+        for i in indices:videos.append(render_beat(i,boundaries[i-1],boundaries[i],args.godot,folder,(3840,2160) if args.resolution=='4k' else (1920,1080),capture_root))
         listing=folder/'concat.txt';listing.write_text(''.join("file '"+str(v)+"'\n" for v in videos))
         joined=folder/'video.mp4'
         run(['ffmpeg','-v','error','-nostdin','-f','concat','-safe','0','-i',str(listing),'-an','-c:v','copy',str(joined)])
@@ -123,6 +136,7 @@ def main():
     expected=round(duration*FPS)
     probe=json.loads(run(['ffprobe','-v','error','-count_frames','-select_streams','v:0','-show_entries','stream=nb_read_frames,width,height','-of','json',str(output)]).stdout)
     assert int(probe['streams'][0]['nb_read_frames'])==expected
+    assert (probe['streams'][0]['width'],probe['streams'][0]['height'])==((3840,2160) if args.resolution=='4k' else (1920,1080)), 'Wrong native capture resolution'
     (output.with_suffix('.qa.json')).write_text(json.dumps({'voice_sha256':plan['voice_sha256'],'timing_sha256':plan['timing_sha256'],'voice_processing':'Original recording, original timing/speed/pitch; constant level gain only. No EQ, limiter, compression or generation.','sfx_events':len(plan['events']),'mix':spec['mix'],'encoded_audio':levels,'frames':expected,'duration':duration,'render':'Fresh capture; no reused legacy beat cache.','playback_review':'Pending human listening; see the episode REFINEMENT_REVIEW.md for visual checks.'},indent=2)+'\n')
     print(output,flush=True)
 

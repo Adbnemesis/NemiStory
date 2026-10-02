@@ -5,7 +5,7 @@ For full new productions, first use [the current refinement workflow](STORYTIME_
 ## Start here: repeatable model workflow
 
 1. Read this page and the character's [Nemi acting guide](../Nemi_Animation_Personality_Guide.md) or [ADB acting guide](../../adb/docs/ADB_ACTING_GUIDE.md). Preserve their personality and silhouette.
-2. Copy `common/storytime/examples/two_authors_10s.json` to a **new** spec under `common/storytime/examples/` or another new production folder. For a single character remove the other actor and that actor's drawings. The current stage is deliberately a fixed comparison layout; revise staging in a separate new scene for a full episode.
+2. Use `two_authors_10s.json` only for an explicit pen study. For a real episode use the version-2 starter in `<author>/episodes/epNN_slug/`. For a single character remove the other actor and that actor's drawings. The current stage is deliberately a fixed comparison layout; revise staging in a separate new scene for a full episode.
 3. Write a short spoken thought and its visual counterpoint. Save the script and a beat sheet alongside the new spec. Use the example [beat sheet](../../common/storytime/examples/two_authors_10s.beats.md) as the pattern. A doodle should add evidence, contradict, revise, or reveal an unspoken thought; it should not just repeat every noun.
 4. Choose/record the voice before final timing. Listen and mark actual word/pause times. Put those times into acting, drawing, caption, and mouth intervals. For a silent visual study set `audio` to `null` and omit mouths. Do not invent a narration track or simulate talking in silence.
 5. Select `nemi` or `adb` for every actor and drawing. Choose recipes from the table below. Use the existing recipes first; extend external recipes only when a specific thought needs another combination.
@@ -90,7 +90,7 @@ python3 tools/storytime/test_validator.py
 python3 tools/storytime/render_scene.py --spec common/storytime/examples/two_authors_10s.json --output renders/storytime_identity/Two_Drawing_Hands_10s.mp4
 ```
 
-Set `GODOT_BIN` to the installed executable if automatic discovery fails; do not install another engine unnecessarily. Godot must run with a desktop graphics renderer for video export. FFmpeg and FFprobe must be available. The renderer uses a fresh temporary movie path every time, checks raw duration, retains the first authored frames and trims the extra trailing frame, then produces an exact-duration H.264 MP4. It rejects output paths outside `renders/` and existing output filenames. Real episodes use numbered character episode folders with their own preparation record; examples require an explicit study.
+Set `GODOT_BIN` to the installed executable if automatic discovery fails; do not install another engine unnecessarily. Godot must run with a desktop graphics renderer for video export. FFmpeg and FFprobe must be available. The renderer uses a fresh temporary movie path every time, checks raw duration, retains the first authored frames and trims the extra trailing frame, then produces an exact-duration H.264 MP4. It accepts the matching numbered episode `renders/` folder or workspace study `renders/`, and refuses existing output filenames. Real episodes use numbered character episode folders with their own preparation record; examples require an explicit study.
 
 For the comparison's diagnostic stills:
 
@@ -111,3 +111,9 @@ Use [Live Doodling Workflow](LIVE_DOODLING_WORKFLOW.md) for low-level stroke/pro
 ## Full productions (version 2)
 
 For the next step beyond this pen comparison, use [Storytime Direction Workflow](STORYTIME_DIRECTION_WORKFLOW.md). It adds six external performance combinations per character, planted feet, softer face/gaze changes, staggered arm joints, shot/background selection, held props/art, finite VFX, and synchronized sound. Version 1 remains unchanged as a lettering study.
+
+## Episode masters and camera direction
+
+Read [Thought-driven storytime camera](COMMON_CAMERA_STAGING.md), now part of both characters’ mandatory preparation. Save an exact-word camera plan with portrait/wide/object/reaction choices and explicit holds/returns. Use existing `shot.camera` fields; reframe the whole world rather than enlarging an actor against the set. The [current Pegi study](PEGI_CAMERA_STUDY_2026_10_02.md) records local reference observations and their limits. Existing finite `sweat` and `tears` accents now use stable asymmetric open contours; tears remain eye-relative. No rig changes.
+
+Final approved masters belong in `<author>/episodes/epNN_slug/renders/`, with resolution/revision in their filenames and a small `RENDERS.md` pointing to the current cut. Workspace `renders/` remains valid for studies and intermediate exports. Preserve older movies and exclude large media from Git. The shared renderer accepts only its matching episode render folder or workspace study folder and refuses an existing output. New starters create `renders/` and `review/`. Native 4K capture rerasterizes the vector scene at 3840×2160 with the same 1920×1080 logical composition; an upscaled movie must be labelled as an upscale.

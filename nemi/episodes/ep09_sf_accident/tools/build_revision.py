@@ -196,5 +196,9 @@ def build():
     (EP/'DIRECTION_REVISION.md').write_text('\n'.join(report)+'\n')
     (EP/'scene.json').write_text(json.dumps(s,indent=2)+'\n')
     validate(EP/'scene.json')
+    from camera_revision import apply
+    s=apply(s)
+    (EP/'scene.json').write_text(json.dumps(s,indent=2)+'\n')
+    validate(EP/'scene.json')
     print('EP09 revised spec ready:',EP/'scene.json')
 if __name__=='__main__':build()
