@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[4]
 EP = ROOT/'nemi/episodes/ep08_forced_bf_channel'
 sys.path.insert(0,str(ROOT/'tools/storytime'))
 from audio_mix import calibrate_mix, mix_audio, measure_audio
+from sfx_assets import validate_asset
 
 NAMES = ['Hook','OldADBCallback','HatedDesign','NewADBReveal','TerribleIdea','AskingADB','TwoChannels','ADBIntro','OutroTakeover']
 FPS = 30
@@ -45,7 +46,8 @@ def validate_plan():
         assert cue['text']==card['text'] and cue['beat']==card['beat']
         assert abs(cue['at']-card['start']-cue['offset'])<1e-6
         assert cue['file']=='res://'+asset['relative_path'] and (ROOT/asset['relative_path']).is_file()
-        assert cue['license']==asset['license'] and asset.get('commercial_use')
+        assert cue['license']==asset['license']
+        validate_asset(asset,ROOT)
         assert 0<cue['duration']<=2.5 and -60<=cue['gain_db']<=-6
         assert cue['at']+cue['duration']<=plan['duration']
     # Old unknown pose names silently fell back to a generic stand. Reject them.
@@ -99,7 +101,7 @@ def main():
     args=parser.parse_args()
     plan,timing=validate_plan()
     if args.validate_only:
-        print(f"PASS: original voice hash, original 69 caption cards, {len(plan['events'])} licensed named SFX events");return
+        print(f"PASS: original voice hash, original 69 caption cards, {len(plan['events'])} existing named SFX events");return
     output=(args.output or ROOT/'renders/ep08_refinement'/('EP08_reveal_proof_10s.mp4' if args.proof else 'EP08_Forced_BF_Channel_Refined.mp4')).resolve()
     assert output.is_relative_to(ROOT/'renders/ep08_refinement') or output.is_relative_to(EP/'renders'), 'Use the EP08 episode renders folder or the isolated review folder'
     if output.exists():raise ValueError('Output already exists. Choose a new filename.')

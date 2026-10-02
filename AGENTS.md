@@ -39,3 +39,5 @@ Real episodes belong in `<author>/episodes/epNN_<story_slug>/`; examples are exp
 Current approved masters live in each episode’s `renders/` folder with revision/resolution names and a `RENDERS.md` index; preserve older movies. Read mandatory `COMMON_CAMERA_STAGING.md`, save exact-word camera intentions, and inspect portrait as well as wide/contact framing.
 
 Sound direction is mandatory for both characters: read `docs/animation/COMMON_SFX_SYSTEM.md`, save event-linked cue choices and verify actual exported audibility. Narration plus a few inaudible effects is not a finished sound pass. User-requested superseded-render cleanup happens only after replacement media passes checks; retain voice, script, assets and QA records.
+
+SFX sourcing: use the exact existing root MP3 clips indexed by `common/audio/sfx/root_sfx_inventory.json` plus existing library recordings in the category folders. Do not generate/synthesize SFX or use the older procedural vault placeholders as substitutes. Root vocal meme clips are commentary accents, not new character dialogue. Keep original clip hashes and record honest provenance.

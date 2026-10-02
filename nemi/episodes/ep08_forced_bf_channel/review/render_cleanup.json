@@ -1,20 +1,49 @@
 {
-  "authorization": "User requested deleting previous renders after new sound exports",
-  "scope": "Only superseded movies and generated sidecars inside this episode renders folder",
+  "authorization": "User explicitly requested deleting old renders after using existing viral/library sounds",
+  "previous_cleanup": {
+    "authorization": "User requested deleting previous renders after new sound exports",
+    "scope": "Only superseded movies and generated sidecars inside this episode renders folder",
+    "deleted": [
+      {
+        "name": "EP08_Forced_BF_Channel_Refined_1080p.mp4",
+        "size": 13420767,
+        "sha256": "8f25bc19f6c13d682ad37a9223ae29cee60ecdffd55470d32ab3ba3991bf8f3b"
+      },
+      {
+        "name": "EP08_Forced_BF_Channel_Refined_4K.mp4",
+        "size": 23673955,
+        "sha256": "148ab89469c0a59abc29ffb378613afbd582f1c21fb30fe5847c44366cc017cc"
+      }
+    ],
+    "current": [
+      "EP08_Forced_BF_Channel_Sound_1080p.mp4",
+      "EP08_Forced_BF_Channel_Sound_4K.mp4"
+    ]
+  },
   "deleted": [
     {
-      "name": "EP08_Forced_BF_Channel_Refined_1080p.mp4",
-      "size": 13420767,
-      "sha256": "8f25bc19f6c13d682ad37a9223ae29cee60ecdffd55470d32ab3ba3991bf8f3b"
+      "name": "EP08_Forced_BF_Channel_Sound_1080p.mp4",
+      "size": 13438406,
+      "sha256": "0be9732555a4ce3fc8f362f45243f21c581fb2294000ab250d224fbe8f8926cf"
     },
     {
-      "name": "EP08_Forced_BF_Channel_Refined_4K.mp4",
-      "size": 23673955,
-      "sha256": "148ab89469c0a59abc29ffb378613afbd582f1c21fb30fe5847c44366cc017cc"
+      "name": "EP08_Forced_BF_Channel_Sound_4K.mp4",
+      "size": 23691612,
+      "sha256": "cf5f1a7d7275c681ac90b7671a12cf00a01bcb8edb6b94aa279452fdb35a902e"
+    },
+    {
+      "name": "EP08_Forced_BF_Channel_Viral_SFX_1080p.mp4",
+      "size": 13485956,
+      "sha256": "d823ffb73248460b0bc7a15f95b97dda902719aefe1f601b149139619f5b81f3"
+    },
+    {
+      "name": "EP08_Forced_BF_Channel_Viral_SFX_4K.mp4",
+      "size": 23739162,
+      "sha256": "1f7dfb1720c6e90a001961787b8cb2eb895a4b88a8d0046cc29faadffc2e2cc2"
     }
   ],
   "current": [
-    "EP08_Forced_BF_Channel_Sound_1080p.mp4",
-    "EP08_Forced_BF_Channel_Sound_4K.mp4"
+    "EP08_Forced_BF_Channel_Viral_SFX_v2_1080p.mp4",
+    "EP08_Forced_BF_Channel_Viral_SFX_v2_4K.mp4"
   ]
 }

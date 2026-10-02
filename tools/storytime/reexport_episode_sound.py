@@ -4,6 +4,7 @@ import argparse,hashlib,importlib.util,json,subprocess,tempfile
 from pathlib import Path
 from validate_scene import ROOT,validate
 from audio_mix import calibrate_mix,mix_audio,measure_audio
+from sfx_assets import validate_asset
 
 def video_hash(path):
     return subprocess.check_output(['ffmpeg','-v','error','-i',str(path),'-map','0:v:0','-c','copy','-f','hash','-hash','sha256','-'],text=True).strip()
@@ -20,6 +21,12 @@ def export(episode,picture,output):
     else:
         spec=validate(ep/'scene.json');plan=json.loads((ep/'sound_plan.json').read_text())
         assert hashlib.sha256((ROOT/spec['audio'].removeprefix('res://')).read_bytes()).hexdigest()==plan['voice_sha256']
+    catalog={a['id']:a for a in json.loads((ROOT/'common/audio/sfx/sfx_catalog.json').read_text())['assets']}
+    expected=[]
+    for cue in plan['events']:
+        asset=catalog[cue['sfx_id']];validate_asset(asset,ROOT)
+        expected.append({'file':'res://'+asset['relative_path'],**{k:cue[k] for k in ['at','duration','gain_db']}})
+    assert expected==[{k:c[k] for k in ['file','at','duration','gain_db']} for c in spec['sfx']], 'Scene and sound plan differ'
     spec['mix']=calibrate_mix(spec,ROOT)
     source_hash=video_hash(picture);info=probe(picture);stream=info['streams'][0]
     expected=round(spec['duration']*30)

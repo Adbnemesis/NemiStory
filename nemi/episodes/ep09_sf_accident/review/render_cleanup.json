@@ -1,24 +1,42 @@
 {
-  "authorization": "User requested deleting previous renders after new sound exports",
-  "scope": "Only superseded movies and generated sidecars inside this episode renders folder",
+  "authorization": "User explicitly requested deleting old renders after using existing viral/library sounds",
+  "previous_cleanup": {
+    "authorization": "User requested deleting previous renders after new sound exports",
+    "scope": "Only superseded movies and generated sidecars inside this episode renders folder",
+    "deleted": [
+      {
+        "name": "EP09_SF_Accident_Camera_1080p.mp4",
+        "size": 10348405,
+        "sha256": "c0233c30e4a765574aaf7e92a486d8c75e3c8bab79f37a2e999effb7d231bc58"
+      },
+      {
+        "name": "EP09_SF_Accident_Camera_Draft_1080p.mp4",
+        "size": 10348328,
+        "sha256": "f379299783d15345785da9e8cf12a0bcbdcb4aac58e3dea1cb2369b6b0f09c42"
+      },
+      {
+        "name": "EP09_SF_Accident_Refined_1080p.mp4",
+        "size": 8768389,
+        "sha256": "fbcdfee9983eb1514a91321959f937f2512272177a4bc7f49b474f411e44575e"
+      }
+    ],
+    "current": [
+      "EP09_SF_Accident_Sound_1080p.mp4"
+    ]
+  },
   "deleted": [
     {
-      "name": "EP09_SF_Accident_Camera_1080p.mp4",
-      "size": 10348405,
-      "sha256": "c0233c30e4a765574aaf7e92a486d8c75e3c8bab79f37a2e999effb7d231bc58"
+      "name": "EP09_SF_Accident_Sound_1080p.mp4",
+      "size": 11976652,
+      "sha256": "e299b27f5f9ea89dc41571ab90c5c29d3f9b1e6c9205f54be21fd935cdb14e00"
     },
     {
-      "name": "EP09_SF_Accident_Camera_Draft_1080p.mp4",
-      "size": 10348328,
-      "sha256": "f379299783d15345785da9e8cf12a0bcbdcb4aac58e3dea1cb2369b6b0f09c42"
-    },
-    {
-      "name": "EP09_SF_Accident_Refined_1080p.mp4",
-      "size": 8768389,
-      "sha256": "fbcdfee9983eb1514a91321959f937f2512272177a4bc7f49b474f411e44575e"
+      "name": "EP09_SF_Accident_Viral_SFX_1080p.mp4",
+      "size": 12008103,
+      "sha256": "edf289dbb2446462bc0965a895ad321d817a6f30fc7808a63a0c4f2ad9a3b1b8"
     }
   ],
   "current": [
-    "EP09_SF_Accident_Sound_1080p.mp4"
+    "EP09_SF_Accident_Viral_SFX_v2_1080p.mp4"
   ]
 }

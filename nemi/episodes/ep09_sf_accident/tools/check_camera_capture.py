@@ -8,8 +8,8 @@ assert s['audio']==old['audio'] and s['script']==old['script'] and s['captions']
 for q in s['shots']:
  original=next(p for p in old['shots'] if p['start']<=q['start']<p['end'])
  assert q['actors']==original['actors'], 'Camera revision changed physical character scale/placement'
-video=EP/'renders/EP09_SF_Accident_Sound_1080p.mp4'
-if not video.exists():video=EP/'renders/EP09_SF_Accident_Camera_1080p.mp4'
+video=EP/'renders/EP09_SF_Accident_Viral_SFX_v2_1080p.mp4'
+if not video.exists():video=EP/'renders/EP09_SF_Accident_Sound_1080p.mp4'
 b=subprocess.check_output(['ffmpeg','-v','error','-i',str(video),'-vf','scale=160:90','-pix_fmt','rgb24','-f','rawvideo','-'])
 frames=np.frombuffer(b,dtype=np.uint8).reshape(-1,90,160,3)
 assert len(frames)==3600

@@ -108,11 +108,11 @@
       "note": "Ground luggage beside Nemi, show a car large enough to carry a person and stage clipboard/cones at the roadside; contact cars at bumpers and avoid invented floating microphone/hand grips. Cabin foreground occlusion must read as a deliberate cut."
     },
     "docs/audio/SFX_System_Guide.md": {
-      "sha256": "3337f0a9d56099ec124cc0e5a473b7439859a528da162261ca839e6fa540989c",
+      "sha256": "2973052c494db7d2788666d73ae9f428b229f0cf106a709dad085009c6f3427f",
       "parts": [
         1
       ],
-      "note": "EP09 uses 34 measured, named-event cues from the available catalog. Treat the old 0/-2 dB table as descriptive labels only, keep supported source gains and original narration unchanged, and retain silence during crying rather than adding a borrowed vocal reaction."
+      "note": "EP09 now starts sound selection from the exact root meme MP3 inventory and category-folder recordings, never the older synthesized core placeholders. Keep unchanged speech timing and use vocal meme clips as external commentary, with measured levels beneath narration."
     },
     "docs/audio/SFX_License_Registry.md": {
       "sha256": "b2c33a96c5eb6bcc80f45f0c3d77d93f3d72c42920eef9f53eae0cd5a57676e2",
@@ -134,11 +134,11 @@
       "note": "EP09\u2019s camera_plan.json records measured-word portrait and object framing plus returns wide before following-car contact. Actor scales are unchanged. The ten-second cabin proof checks wide-to-passenger-to-deadpan cuts; full review will check opening, tear portrait and payoff edges."
     },
     "docs/animation/COMMON_SFX_SYSTEM.md": {
-      "sha256": "3ee3005659f8dbd7500b45db94695b633dc5bb1dd13afd3d9a132bccfc531ae3",
+      "sha256": "86adf6a5391b78ad7a9b35e408e1ba849b21d2d3a12be3192c46da48cbbc905f",
       "parts": [
         1
       ],
-      "note": "EP09 gets a full sound plan across travel, empty-seat worry, reversal, braking/contact and payoff. Raise formerly inaudible source gains, measure relative levels and encoded peaks, keep crying quiet and reuse only the approved picture stream with the original narration."
+      "note": "Replace every procedural EP09 cue with exact existing root MP3 or library recordings. Use bruh for the normal/empty-seat reversal, anime-wow for amazing and fahhh after final speech; root paths/hashes come from the inventory. Rebuild from original voice, retain the picture, and document root license provenance honestly."
     }
   }
 }

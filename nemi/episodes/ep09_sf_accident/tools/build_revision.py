@@ -9,6 +9,7 @@ sys.path.insert(0,str(ROOT/'tools/storytime'))
 from preflight import missing
 from validate_scene import validate
 from audio_mix import calibrate_mix
+from sfx_assets import validate_asset
 EP=ROOT/'nemi/episodes/ep09_sf_accident'
 
 def build():
@@ -206,7 +207,8 @@ def build():
         s['sfx']=[]
         for cue in cues:
             asset=catalog[cue['sfx_id']]
-            assert asset['commercial_use'] and asset['license']==cue['license']
+            assert asset['license']==cue['license']
+            validate_asset(asset,ROOT)
             s['events'].append({'id':cue['event'],'at':cue['at'],'intent':cue['intent']})
             s['sfx'].append({'file':'res://'+asset['relative_path'],**{k:cue[k] for k in ['at','duration','gain_db','event']}})
         s['mix']=calibrate_mix(s,ROOT)

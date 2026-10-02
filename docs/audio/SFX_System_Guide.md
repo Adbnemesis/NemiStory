@@ -12,7 +12,11 @@
 
 ---
 
-## 2. Nemi Core Sound Palette (34 Go-To Sounds)
+## 2. Existing clip selection
+
+Start with `common/audio/sfx/root_sfx_inventory.json` for the actual user-selected root meme clips, then the category folders for Foley and reactions. Use existing recordings only; do not generate audio or use the older procedural placeholders as substitutes. `viral_*` IDs are in the combined catalog. Root clip license provenance is recorded as unknown, not CC0.
+
+### Legacy core palette
 
 These are familiar starting choices. The legacy labels below describe catalog intent; they are not validated source gains or measured dialogue-relative loudness. Follow [current sound direction](../animation/COMMON_SFX_SYSTEM.md) and measure the actual exported mix.
 
