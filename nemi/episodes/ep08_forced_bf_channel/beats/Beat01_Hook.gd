@@ -15,48 +15,47 @@ func _run_beat_choreography() -> void:
 	backdrop.set_mode(0, 0.0) # NORMAL_STUDIO
 
 	# 2. Camera framing: Medium close-up on Nemi center stage
-	cam_punch(1.18, true, Vector2(960, 520))
+	cam_punch(1.38, true, Vector2(960, 550))
 
 	# 3. Character initial pose
 	nemi.position = Vector2(960, NEMI_BASE_Y)
 	nemi.reset()
-	nemi.set_pose("shocked_recoil", 0.0)
-	nemi.set_expression("shock")
+	nemi.set_pose("shock_recoil", 0.0)
+	nemi.set_expression("shocked")
 	nemi.look("camera")
 
 	var cards = Episode08SubtitlesClass.get_cards_for_beat(1)
 	var t: float = 0.0
+	await cue_card(cards[0])
 
 	# Card 0: "I have a new problem." (0.000 - 1.252)
-	play_sfx("whoosh", -2.5, 1.10)
 	cam_shake(0.45, 3.5)
 	nemi.head_tilt(-4.0, 0.10)
-	doodles.spawn_comic_exclamation(Vector2(960, 240), 0.18).auto_dismiss(2.0)
-	doodles.spawn_stress_spiral(Vector2(960, 290), doodles.INK_MAIN, 0.28).auto_dismiss(2.5)
+	doodles.spawn_comic_exclamation(Vector2(1160, 350), 0.18).auto_dismiss(1.25)
 	t = await play_card_sync(cards[0], t)
+	await cue_card(cards[1])
 
 	# Spoken pause: Nemi leans forward confidingly
-	nemi.set_pose("leaning_forward_confiding", 0.18)
-	nemi.set_expression("candid")
+	nemi.set_pose("lean_left", 0.18)
+	nemi.set_expression("neutral")
 	nemi.look("camera")
-	cam_push(1.12, 4.0)
+	cam_reset(0.28)
 
 	# Card 1: "I somehow convinced" (1.635 - 2.991)
-	doodles.spawn_sweat_drop(Vector2(995, 395), 0.20).auto_dismiss(2.0)
 	t = await play_card_sync(cards[1], t)
+	await cue_card(cards[2])
 
 	# Card 2: "my boyfriend to start" (2.991 - 4.709)
 	nemi.set_pose("one_hand_explaining", 0.18)
 	nemi.head_tilt(2.8, 0.15)
-	doodles.spawn_question_marks(Vector2(1180, 420), 2, 0.22).auto_dismiss(2.2)
 	t = await play_card_sync(cards[2], t)
+	await cue_card(cards[3])
 
 	# Card 3: "a YouTube channel." (4.709 - 6.155)
 	nemi.set_pose("both_hands_explaining_asym", 0.16)
-	nemi.set_expression("shock")
+	nemi.set_expression("nervous")
 	cam_punch(1.18, false, Vector2(960, 500))
-	play_sfx("pop", -2.0, 1.15)
-	doodles.spawn_idea_lightbulb(Vector2(960, 260), doodles.INK_RED, 0.25).auto_dismiss(2.2)
+	doodles.spawn_dual_channel_badges(Vector2(1240, 380), 0.25).auto_dismiss(1.8)
 	t = await play_card_sync(cards[3], t)
 
 	# Transition to Beat 2 (6.16s -> 6.71s)

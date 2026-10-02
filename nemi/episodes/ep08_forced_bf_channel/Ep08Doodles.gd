@@ -9,7 +9,7 @@ extends Node2D
 ## Default doodle color: Dark sepia ink (#2b2623 DNA).
 ## Doodles are animated stroke-by-stroke into the scene.
 
-const Marks = preload("res://common/engine/illustration/StoryMarks.gd")
+const Profiles = preload("res://common/storytime/ProfileAssets.gd")
 
 const INK_MAIN: Color = Color("#2b2623")
 const INK_SOFT: Color = Color("#594f4b")
@@ -22,7 +22,36 @@ const INK_GREEN: Color = Color("#27ae60")
 # ANIMATED DOODLE CONTAINER
 # =============================================================================
 class AnimatedDoodle extends "res://common/engine/illustration/LiveDrawing.gd":
-	pass
+	var author: String = "nemi"
+	var held: bool = true
+	func prepare() -> void:
+		# Same shared ink player; select the character alphabet before its preparation.
+		for label in texts:
+			var letters: Dictionary = Profiles.compose(author, str(label.txt), float(label.get("size", 24)))
+			for stroke in letters.strokes:
+				var moved := PackedVector2Array()
+				for point in stroke.pts:
+					moved.append(point + Vector2(label.pos) - Vector2(0, float(label.get("size", 24))))
+				stroke.pts = moved
+				stroke.col = label.get("col", Color("#423035"))
+				stroke_list.append(stroke)
+		texts.clear()
+		super.prepare()
+	func play_draw(duration: float = 0.7):
+		if held:
+			prepare()
+			progress = 1.0
+			return self
+		return super.play_draw(duration)
+
+func author_mark(kind: String, author: String = "nemi") -> Array[Dictionary]:
+	var strokes: Array[Dictionary] = []
+	var style := Profiles.profile(author)
+	for path in style.marks[kind]:
+		var points := PackedVector2Array()
+		for point in path.points: points.append(Vector2(point[0], point[1]))
+		strokes.append({"pts":points,"smooth":path.get("smooth",true),"w":path.get("width",3.0),"col":Color(style.ink),"pause":path.get("pause",style.pen_lift),"pressure":PackedFloat32Array(style.pressure)})
+	return strokes
 
 func _ready() -> void:
 	z_index = 25
@@ -34,24 +63,27 @@ func _ready() -> void:
 ## 1. Hand-drawn organic arrow pointing toward old ADB
 func spawn_hand_drawn_arrow(pos: Vector2, pointing_direction: Vector2 = Vector2(1, 0), col: Color = INK_MAIN, dur: float = 0.55) -> AnimatedDoodle:
 	var d := AnimatedDoodle.new()
+	d.held = false
 	d.position = pos
 	d.rotation = pointing_direction.angle()
-	d.stroke_list = Marks.make("arrow", col)
+	d.stroke_list = author_mark("arrow")
 	add_child(d)
 	d.play_draw(dur)
 	return d
 
 func spawn_rough_circle(pos: Vector2, radius: float = 85.0, col: Color = INK_MAIN, dur: float = 0.65) -> AnimatedDoodle:
 	var d := AnimatedDoodle.new()
+	d.held = false
 	d.position = pos
 	d.scale = Vector2.ONE * radius / 45.0
-	d.stroke_list = Marks.make("circle", col)
+	d.stroke_list = author_mark("circle")
 	add_child(d)
 	d.play_draw(dur)
 	return d
 
 func spawn_redesign_sketch_card(pos: Vector2, col: Color = INK_MAIN, dur: float = 0.40) -> AnimatedDoodle:
 	var d := AnimatedDoodle.new()
+	d.held = false
 	d.position = pos
 
 	var paper_rect := PackedVector2Array([
@@ -112,9 +144,10 @@ func spawn_idea_lightbulb(pos: Vector2, col: Color = INK_MAIN, dur: float = 0.32
 ## 5. Handwritten "NO" scribbled sticker
 func spawn_handwritten_no(pos: Vector2, scale_factor: float = 1.0, col: Color = INK_MAIN, dur: float = 0.5) -> AnimatedDoodle:
 	var d := AnimatedDoodle.new()
+	d.author = "adb"
 	d.position = pos - Vector2(35, 30) * scale_factor
 	d.scale = Vector2.ONE * scale_factor
-	var lettering = preload("res://common/engine/illustration/DrawnLettering.gd").compose("no.", 48, col)
+	var lettering = Profiles.compose("adb", "no.", 62)
 	d.stroke_list.assign(lettering.strokes)
 	add_child(d)
 	d.play_draw(dur)
@@ -122,6 +155,7 @@ func spawn_handwritten_no(pos: Vector2, scale_factor: float = 1.0, col: Color = 
 
 func spawn_asked_again_note(pos: Vector2, col: Color = INK_MAIN, dur: float = 0.28) -> AnimatedDoodle:
 	var d := AnimatedDoodle.new()
+	d.held = false
 	d.position = pos
 
 	var q_curl := PackedVector2Array([
@@ -213,7 +247,7 @@ func spawn_link_description_cue(pos: Vector2, col: Color = INK_MAIN, dur: float 
 	d.fills.append({"poly": box, "col": Color("#fff9e6")})
 	d.stroke_list.append({"pts": box, "w": 2.5, "col": INK_MAIN})
 	d.texts.append({"pos": Vector2(45, -5), "txt": "CHANNEL LINK", "size": 16, "col": INK_MAIN})
-	d.texts.append({"pos": Vector2(45, 25), "txt": "IN DESCRIPTION ↓", "size": 14, "col": INK_RED})
+	d.texts.append({"pos": Vector2(45, 25), "txt": "IN DESCRIPTION", "size": 14, "col": INK_RED})
 
 	add_child(d)
 	d.play_draw(dur)
@@ -307,7 +341,7 @@ func spawn_confetti_burst(pos: Vector2, dur: float = 0.35) -> AnimatedDoodle:
 		var c_poly := PackedVector2Array([cp, cp + Vector2(10, 0), cp + Vector2(8, 12), cp + Vector2(-2, 10), cp])
 		d.fills.append({"poly": c_poly, "col": cols[i % cols.size()]})
 		d.stroke_list.append({"pts": c_poly, "w": 1.5, "col": INK_MAIN})
-	d.texts.append({"pos": Vector2(-80, 5), "txt": "CHANNEL CREATED! 🎉", "size": 18, "col": Color("#27ae60")})
+	d.texts.append({"pos": Vector2(-80, 5), "txt": "CHANNEL CREATED! ", "size": 18, "col": Color("#27ae60")})
 	add_child(d)
 	d.play_draw(dur)
 	return d
@@ -454,8 +488,23 @@ func spawn_subscribe_bell_button(pos: Vector2, dur: float = 0.35) -> AnimatedDoo
 	var btn := PackedVector2Array([Vector2(-120, -32), Vector2(120, -32), Vector2(120, 32), Vector2(-120, 32), Vector2(-120, -32)])
 	d.fills.append({"poly": btn, "col": Color("#e74c3c")})
 	d.stroke_list.append({"pts": btn, "w": 3.5, "col": INK_MAIN})
-	d.texts.append({"pos": Vector2(-75, 10), "txt": "SUBSCRIBE 🔔", "size": 22, "col": Color("#ffffff")})
+	d.texts.append({"pos": Vector2(-75, 10), "txt": "SUBSCRIBE", "size": 22, "col": Color("#ffffff")})
 	add_child(d)
 	d.play_draw(dur)
 	return d
 
+
+## ADB's imagined story notebook: held artwork, no false hand contact.
+func spawn_story_notebook(pos: Vector2) -> AnimatedDoodle:
+	var d := AnimatedDoodle.new()
+	d.author = "adb"
+	d.position = pos
+	var page := PackedVector2Array([Vector2(-90,-75),Vector2(91,-72),Vector2(94,80),Vector2(-89,83),Vector2(-90,-75)])
+	d.fills.append({"poly":page,"col":Color("#fffdf5")})
+	d.stroke_list.append({"pts":page,"w":3.0,"col":INK_MAIN})
+	for y in [-36, -8, 20]:
+		d.stroke_list.append({"pts":PackedVector2Array([Vector2(-65,y),Vector2(66,y+2)]),"w":2.0,"col":INK_SOFT})
+	d.texts.append({"pos":Vector2(-65,66),"txt":"my stories","size":24,"col":INK_MAIN})
+	add_child(d)
+	d.play_draw()
+	return d

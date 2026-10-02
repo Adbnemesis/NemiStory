@@ -17,6 +17,7 @@ signal beat_finished()
 
 const Episode08SubtitlesClass = preload("res://nemi/episodes/ep08_forced_bf_channel/Episode08Subtitles.gd")
 const Ep08BackdropClass = preload("res://nemi/episodes/ep08_forced_bf_channel/Ep08Backdrop.gd")
+const Grounding = preload("res://common/storytime/production/ActingTimeline.gd")
 const Ep08DoodlesClass = preload("res://nemi/episodes/ep08_forced_bf_channel/Ep08Doodles.gd")
 const NemiAudioClass = preload("res://nemi/world/audio/NemiAudio.gd")
 const StoryCameraClass = preload("res://common/engine/camera/StoryCamera.gd")
@@ -32,8 +33,8 @@ const INK_GOLD: Color = Color("#d35400")
 const INK_BLUE: Color = Color("#2980b9")
 
 const FLOOR_Y: float = 840.0
-const NEMI_BASE_Y: float = 646.0  # Scale 1.15 puts feet at 840.0
-const NEW_ADB_BASE_Y: float = 619.0 # Scale 1.15 puts sneakers at 840.0
+const NEMI_BASE_Y: float = 535.5  # Scale 1.5 keeps feet at 840.0
+const NEW_ADB_BASE_Y: float = 551.74 # Scale 1.5 keeps sneakers at 840.0
 const OLD_ADB_BASE_Y: float = 610.0 # Scale 1.6 puts shoes at 840.0
 
 @export var is_standalone: bool = true
@@ -53,9 +54,16 @@ var audio_system: Node
 var subtitle_label: Label
 var floor_shadows: Node2D
 
+var _grounding := Grounding.new()
+
 var _beat_cards: Array[Dictionary] = []
-var _nemi_blink_timer: float = 2.4
-var _adb_blink_timer: float = 3.1
+var _beat_frame: int = -1
+var _beat_start: float = 0.0
+var _live_elapsed: float = 0.0
+var _sound_events: Array = []
+var _sound_index: int = 0
+var _next_blink: int = 0
+const BLINKS: Array[float] = [2.4, 5.2, 8.3, 11.6, 15.0, 18.1]
 
 # =============================================================================
 # GROUND CONTACT SHADOWS (At Floor Y = 840.0)
@@ -100,6 +108,9 @@ func _ready() -> void:
 	_setup_camera()
 	_setup_subtitles()
 	_beat_cards = Episode08SubtitlesClass.get_cards_for_beat(beat_number)
+	_grounding.bind(nemi, "nemi")
+	nemi.face.exaggeration_mouth_scale = 0.85
+	RenderingServer.frame_pre_draw.connect(_plant_nemi_feet)
 
 	if is_standalone:
 		call_deferred("start_beat")
@@ -144,7 +155,7 @@ func _setup_characters() -> void:
 	# Nemi rig (z = 5)
 	nemi = NemiScene.instantiate()
 	nemi.name = "Nemi"
-	nemi.scale = Vector2(1.15, 1.15)
+	nemi.scale = Vector2(1.5, 1.5)
 	nemi.position = Vector2(680, NEMI_BASE_Y)
 	nemi.z_index = 5
 	add_child(nemi)
@@ -163,7 +174,7 @@ func setup_new_adb(initial_pos: Vector2 = Vector2(1280, NEW_ADB_BASE_Y)) -> Node
 	if not new_adb:
 		new_adb = NewADBScene.instantiate()
 		new_adb.name = "NewADB"
-		new_adb.scale = Vector2(1.15, 1.15)
+		new_adb.scale = Vector2(1.5, 1.5)
 		new_adb.position = initial_pos
 		new_adb.z_index = 4
 		add_child(new_adb)
@@ -195,10 +206,10 @@ func _setup_subtitles() -> void:
 	subtitle_label.offset_top = -120
 	subtitle_label.offset_bottom = -40
 
-	subtitle_label.add_theme_font_size_override("font_size", 38)
+	subtitle_label.add_theme_font_size_override("font_size", 52)
 	subtitle_label.add_theme_color_override("font_color", Color("#ffffff"))
 	subtitle_label.add_theme_color_override("font_outline_color", INK_MAIN)
-	subtitle_label.add_theme_constant_override("outline_size", 10)
+	subtitle_label.add_theme_constant_override("outline_size", 7)
 	subtitle_label.text = ""
 
 	var font_paths := [
@@ -213,23 +224,38 @@ func _setup_subtitles() -> void:
 
 	ui_canvas.add_child(subtitle_label)
 
-func _process(delta: float) -> void:
-	# Natural blinking
-	_nemi_blink_timer -= delta
-	if _nemi_blink_timer <= 0.0:
-		_nemi_blink_timer = randf_range(2.6, 4.2)
-		if is_instance_valid(nemi) and nemi.has_method("blink"):
-			nemi.blink(0.12)
+func _plant_nemi_feet() -> void:
+	if is_instance_valid(nemi): _grounding.plant_feet(nemi, "nemi")
 
-	_adb_blink_timer -= delta
-	if _adb_blink_timer <= 0.0:
-		_adb_blink_timer = randf_range(2.8, 4.4)
-		if is_instance_valid(new_adb) and new_adb.has_method("blink"):
-			new_adb.blink(0.12)
-		elif is_instance_valid(old_adb) and old_adb.has_method("blink"):
-			old_adb.blink(0.12)
+func _process(delta: float) -> void:
+	if _beat_frame < 0:
+		return
+	_live_elapsed += delta
+	var elapsed := float(Engine.get_process_frames() - _beat_frame) / 30.0 if "--ep08-export" in OS.get_cmdline_user_args() else _live_elapsed
+	while _sound_index < _sound_events.size() and float(_sound_events[_sound_index].at) <= _beat_start + elapsed:
+		var cue: Dictionary = _sound_events[_sound_index]
+		_sound_index += 1
+		# Offline mux uses this exact schedule; avoid a second audio path during capture.
+		if "--ep08-export" not in OS.get_cmdline_user_args():
+			var player = audio_system.play(cue.sfx_id, float(cue.gain_db) - audio_system.sfx_volume_db, 1.0)
+			if is_instance_valid(player):
+				var stop := create_tween()
+				stop.tween_interval(float(cue.duration))
+				stop.tween_callback(func():
+					if is_instance_valid(player): player.stop()
+				)
+	if _next_blink < BLINKS.size() and elapsed >= BLINKS[_next_blink]:
+		_next_blink += 1
+		if is_instance_valid(nemi): nemi.blink(0.12)
+		if is_instance_valid(new_adb): new_adb.blink(0.12)
 
 func start_beat() -> void:
+	_beat_frame = Engine.get_process_frames()
+	_live_elapsed = 0.0
+	_beat_start = float(_beat_cards[0].start)
+	var sound_plan: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://nemi/episodes/ep08_forced_bf_channel/sfx_cues.json"))
+	for cue in sound_plan.events:
+		if int(cue.beat) == beat_number: _sound_events.append(cue)
 	print("--- EPISODE 08 BEAT %d: %s STARTED ---" % [beat_number, beat_name.to_upper()])
 	if camera:
 		camera.make_current()
@@ -252,11 +278,26 @@ func end_beat() -> void:
 # DETERMINISTIC TIMING & SUBTITLE SYNCHRONIZATION
 # =============================================================================
 func wait_seconds(duration: float) -> void:
-	if duration <= 0.001:
-		return
-	var frames: int = maxi(1, int(round(duration * 30.0)))
-	for i in range(frames):
+	if duration <= 0.001: return
+	for i in range(maxi(1, int(round(duration * 30.0)))):
 		await RenderingServer.frame_post_draw
+
+func wait_until(scene_time: float) -> void:
+	var target := int(round((scene_time - _beat_start) * 30.0))
+	if "--ep08-export" in OS.get_cmdline_user_args():
+		while Engine.get_process_frames() - _beat_frame < target:
+			await RenderingServer.frame_post_draw
+	else:
+		while _live_elapsed < scene_time - _beat_start:
+			await RenderingServer.frame_post_draw
+
+func cue_card(card: Dictionary) -> void:
+	# Clear the previous mouth/caption during the original pause, then act ON the new cue.
+	subtitle_label.text = ""
+	subtitle_label.visible = false
+	if is_instance_valid(nemi): nemi.stop_speech()
+	if is_instance_valid(new_adb): new_adb.stop_speaking()
+	await wait_until(float(card.start))
 
 func _run_card(card: Dictionary) -> void:
 	var dur: float = card["end"] - card["start"]
@@ -274,7 +315,7 @@ func _run_card(card: Dictionary) -> void:
 		if nemi and is_instance_valid(nemi) and nemi.has_method("speak"):
 			nemi.speak(card["text"], dur, mood)
 
-	await wait_seconds(dur)
+	await wait_until(float(card.end))
 
 func play_card_sync(card: Dictionary, current_time: float) -> float:
 	var c_start: float = card["start"]
@@ -290,7 +331,7 @@ func play_card_sync(card: Dictionary, current_time: float) -> float:
 			nemi.stop_speech()
 		if new_adb and is_instance_valid(new_adb) and new_adb.has_method("stop_speaking"):
 			new_adb.stop_speaking()
-		await wait_seconds(gap)
+		await wait_until(c_start)
 
 	await _run_card(card)
 	return c_end
@@ -305,7 +346,7 @@ func finish_beat_sync(current_time: float, beat_end_time: float) -> void:
 			nemi.stop_speech()
 		if new_adb and is_instance_valid(new_adb) and new_adb.has_method("stop_speaking"):
 			new_adb.stop_speaking()
-		await wait_seconds(tail)
+		await wait_until(beat_end_time)
 	end_beat()
 
 # =============================================================================

@@ -19,7 +19,7 @@ func _run_beat_choreography() -> void:
 	nemi.position = Vector2(650, NEMI_BASE_Y)
 	nemi.reset()
 	nemi.set_pose("casual_standing", 0.0)
-	nemi.set_expression("warm_smile")
+	nemi.set_expression("warm")
 
 	setup_new_adb(Vector2(1270, NEW_ADB_BASE_Y))
 	new_adb.set_pose("relaxed_standing", 0.0)
@@ -31,35 +31,40 @@ func _run_beat_choreography() -> void:
 
 	var cards = Episode08SubtitlesClass.get_cards_for_beat(7)
 	var t: float = 47.571
+	await cue_card(cards[0])
 
 	# Card 34: "And now..." (47.571 - 48.825)
 	nemi.set_pose("one_hand_explaining", 0.16)
 	t = await play_card_sync(cards[0], t)
+	await cue_card(cards[1])
 
 	# Card 35: "there's Nemi..." (48.825 - 50.330) - Nemi gestures to herself
-	nemi.set_pose("hand_on_chest", 0.18)
+	nemi.set_pose("hand_on_heart", 0.18)
 	nemi.set_expression("happy")
 	t = await play_card_sync(cards[1], t)
+	await cue_card(cards[2])
 
 	# Card 36: "and there's ADB..." (50.330 - 51.960) - Nemi presents ADB
-	nemi.set_pose("confident_presentation", 0.18)
+	nemi.set_pose("presenting", 0.18)
 	nemi.head_tilt(3.0, 0.15)
 	new_adb.set_pose("casual_contrapposto", 0.18)
 	new_adb.set_expression("smug", 0.14)
 	t = await play_card_sync(cards[2], t)
+	await cue_card(cards[3])
 
 	# Card 37: "both making storytime animations." (51.960 - 53.841) - Dual channel badges appear!
-	play_sfx("pop", -2.5)
 	doodles.spawn_dual_channel_badges(Vector2(960, 390), 0.30).auto_dismiss(5.0)
 	nemi.set_pose("both_hands_explaining_asym", 0.18)
 	nemi.set_expression("excited")
 	t = await play_card_sync(cards[3], t)
+	await cue_card(cards[4])
 
 	# Card 38: "Which is honestly..." (54.261 - 55.996) - Conspiratorial shift
-	nemi.set_pose("leaning_forward_confiding", 0.18)
-	nemi.set_expression("candid")
+	nemi.set_pose("lean_left", 0.18)
+	nemi.set_expression("neutral")
 	cam_punch(1.14, false, Vector2(960, 520))
 	t = await play_card_sync(cards[4], t)
+	await cue_card(cards[5])
 
 	# Card 39: "a little dangerous." (55.996 - 57.731) - Playful warning
 	nemi.set_pose("one_hand_explaining", 0.18)
@@ -67,20 +72,21 @@ func _run_beat_choreography() -> void:
 	new_adb.set_expression("amused", 0.16)
 	new_adb.head_tilt = -3.0
 	t = await play_card_sync(cards[5], t)
+	await cue_card(cards[6])
 
 	# Card 40: "Because now we can" (58.111 - 59.267)
-	nemi.set_pose("confident_presentation", 0.18)
+	nemi.set_pose("presenting", 0.18)
 	t = await play_card_sync(cards[6], t)
+	await cue_card(cards[7])
 
 	# Card 41: "annoy each other with" (59.267 - 60.422) - Playful rivalry sparks doodle
-	play_sfx("whoosh", -3.0)
 	doodles.spawn_rivalry_sparks(Vector2(960, 480), 0.25).auto_dismiss(3.0)
-	play_sfx("pop", -2.0)
 	nemi.set_pose("both_hands_explaining_asym", 0.18)
 	nemi.set_expression("excited")
 	new_adb.set_pose("weight_left", 0.18)
 	new_adb.set_expression("mischievous", 0.16)
 	t = await play_card_sync(cards[7], t)
+	await cue_card(cards[8])
 
 	# Card 42: "animation too." (60.422 - 61.325)
 	t = await play_card_sync(cards[8], t)
