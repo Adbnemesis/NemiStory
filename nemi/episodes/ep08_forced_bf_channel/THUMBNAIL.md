@@ -1,5 +1,25 @@
 # EP08 YouTube thumbnail
 
+Current revised upload copy: `thumbnail-v2.jpg` (1672×941). Lossless revised original: `thumbnail-v2.png` (local). First version is preserved as `thumbnail.jpg` and `thumbnail.png`. JPEG exports retain their respective artwork and dimensions.
+
+## EP00 style refinement
+
+Generated with the built-in image_gen tool, editing the first EP08 thumbnail with `nemi/episodes/ep00_introduction/thumbnail.png` as the primary style and Nemi face reference. The refinement borrows EP00's rounded face, simple star eye highlights, broad cel shading, irregular dark contours and outlined cream speech bubble. The white sticker halo is removed. The EP08 headline, two-character joke, outfits and play-button card are retained. No rig, episode footage or voice changes.
+
+Visual review: headline reads **I MADE HIM A YOUTUBER!**; both faces and the play symbol remain clear; Nemi's pointing hand and ADB's card grips inspected; rough dark contours replace the sticker border. The exported JPEG was inspected. Saved as a sibling revision for comparison.
+
+## Final revision prompt
+
+Edit image 1, the existing EP08 YouTube thumbnail. Image 2 is EP00 introduction and is the PRIMARY reference for drawing style and Nemi's face/character identity. Preserve the EP08 storytelling concept and overall layout, but closely match EP00's charming simple handmade illustration treatment. Output one landscape 16:9 thumbnail.
+
+Keep the exact legible text "I MADE HIM" and "A YOUTUBER!" in large rough burgundy brush lettering on the cream area at left. Keep both characters: Nemi proudly pointing at the red YouTube play-button card held by her reluctantly amused boyfriend ADB. Keep ADB's short tousled dark navy hair, blue-gray eyes, muted green collared shirt, no beard or glasses; preserve his identity from image 1. Keep Nemi's long orange hair, single red-orange ahoge, oversized green high-neck top and dark diagonal strap. Preserve the card's white play triangle: a simple prop, not an award.
+
+The important refinement: give Nemi the softer rounded face and very large expressive green eyes of EP00, with bold simple white star highlights and blush hatching, and a playful warm direct connection with the viewer. Let her face feel a little more prominent without hiding ADB or crowding the text. Use EP00's simple chunky hair shapes, broad flat/faceted cel-shaded planes, warm peach skin, irregular dark crayon/sketch contours, and restrained hand-drawn texture. Remove the white sticker halo around the characters. Avoid the current finer polished anime hair-strand rendering and overly busy granular texture. This should look like the same illustrator as EP00 drew this episode's scene.
+
+Use a burgundy/magenta background with broad diagonal painterly strokes and comfortable negative space like EP00. Turn the cream text backing into a loose chunky comic speech bubble with a thick irregular dark outline, borrowing EP00's handwritten greeting feel, while keeping the exact EP08 text and left-side placement. Retain a small cat doodle, heart and a few expressive rays/arrow only where they support the joke; do not clutter. Maintain natural clearly readable hands, Nemi's pointing gesture, ADB's continuous grip on the card, and his tiny sweat accent. No additional text, watermark, logos beyond the play symbol, episode numbers, photorealism or 3D. Preserve safe margins and keep bottom-right clear.
+
+## First version archive
+
 Current upload copy: `thumbnail.jpg` (1672×941). Lossless generated original: `thumbnail.png` (local). JPEG export retains the same artwork and dimensions; no redesign or crop. Generated with the built-in image_gen tool from existing Nemi thumbnail references and a current EP08 frame. No rig, episode footage or voice changes.
 
 Headline: **I MADE HIM A YOUTUBER!**
