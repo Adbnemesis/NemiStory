@@ -1,34 +1,19 @@
-# EP09 thumbnail — 2026-10-04
+# Nemi EP09 thumbnail revision 2 — 2026-10-04
 
-User requested a San Francisco thumbnail using animation-matching production art, without AI image generation, plus a workflow for future Nemi/ADB thumbnails. Scope: a separate static composition and documentation; no changes to this episode's movie, scene, voice, timing or character definitions.
+User requested **MY TAXI GOT HIT** as the only text; removal of the location label, aside and taxi roof label; EP00-inspired burgundy/pink background, little doodles and common white glow/outline. The existing storytime character and rear-end car art remain.
 
-## Story and application notes
+References inspected: Nemi EP00 thumbnail (burgundy/pink field, white compact doodles); earlier EP09 film contact sheet and collision still already inspected in this chat. Script evidence: airport taxi rear-ended, Nemi in the back. Both cars face left; follower nose meets taxi rear. Thumbnail is an editorial character/event collage. Author: nemi.
 
-- Script evidence: Nemi rode a Waymo safely, then a human-driven taxi was rear-ended five minutes from SFO; she was in the back seat. Source: `../SCRIPT_AND_BEATS.md`, turns 11–14 and the direction brief.
-- Primary hook: **MY TAXI / GOT HIT.** Alternate: **5 MINUTES / FROM SFO...** Both retain **I WAS IN THE BACK.** as a secondary aside. The default gives an immediate event; the alternate uses the proximity-to-safety irony. Neither suggests the Waymo crashed or adds an injury.
-- Actual episode references inspected: `../review/camera_contact.jpg` and `../renders/stills_4k/05_crash_impact_4k.png`. These establish the colour rig, warm/plum ink, muted cream cars, quiet flat scenery and Golden Gate context.
-- Existing rig documentation/source controls were read for colour mode, shocked expression, eye/pupil/gaze, instant arm posing and hands. The production-kit reference requires separate Nemi/ADB pen identities and unchanged rigs. This thumbnail uses Nemi's existing profile marks, completed at `progress = 1.0`, and disables autonomous rig processing.
-- Composition: a large foreground reaction on a quiet postcard panel, with a separate collision vignette. Different scale is intentional editorial collage. Both cars face left; the following vehicle's front contacts the taxi's damaged rear. The actual Golden Gate backdrop is cropped behind the portrait.
-- Editorial choices: project's Impact headline and Patrick Hand supporting type, canonical character palette and Nemi rose accents; no lighting/texture/style transfer. No generative image service, stock reaction face or replacement character art.
+Application: recreate the background treatment in Godot rather than reusing the old generated face; external white halo is compositing around unchanged production art. Keep the existing supported Nemi shocked face, canonical colours and arms beside the face. Profile marks retain her own paths.
 
-## Reproduction and files
+Revision 1 source, exports and provenance preserved in revisions/r1/.
 
-Editable source: `render_thumbnail.gd`, with headline/palette/placements in `layout.json`. The layout is an episode-specific static-image recipe, not a version-2 animation spec. Rig/art/font and output hashes are saved in `provenance_and_qa.json`. The final engine log is `render.log`.
+## Final review and files
 
-Run from the repository root with the installed engine:
+Fresh Godot exports passed with a completion marker and no errors/warnings in the final log. Inspected the 1920×1080 JPG, 320×180 preview, 160×90 preview and native 3840×2160 master displayed at 2048×1152. One headline reads at both reduced sizes; face/eyes stay clear. Native masters were rasterized from the vector rig/art before editorial compositing, not upscaled from a 1080p bitmap.
 
-```sh
-"$GODOT_BIN" --path . --log-file /tmp/nemi_ep09_thumbnail.log --script nemi/episodes/ep09_sf_accident/thumbnail/render_thumbnail.gd
-```
+Recommended copy: `thumbnail.jpg`. Editable layout: `layout.json`; renderer: `render_thumbnail.gd`; shared external styling: `tools/storytime/ThumbnailStyle.gd`. Master and inspection PNGs remain local. Source/reference/output dimensions, sizes and hashes are in `provenance_and_qa.json`; final engine output is in `render.log`. Run the installed Godot from the repository root with `--path . --log-file /tmp/thumbnail.log --script` followed by this folder's renderer path.
 
-Recommended upload copy: `thumbnail.jpg`; alternate: `thumbnail_alt.jpg`. Both are 1920×1080. PNG delivery copies and native rerasterized 3840×2160 masters remain local alongside 320×180 and 160×90 previews. Masters are not enlarged 1080p bitmap exports. The script updates only this thumbnail folder's own outputs; preserve a reviewed revision before rerunning after user approval.
+Both updated skills passed the skill validator. Protected-source diff checks found no changes to the character rigs, expression/pose/hand libraries, shared props/profiles or either episode scene. No animation, voice or movie changes. The EP00 image was a visual background reference only; no old generated character, lettering or background pixels were reused. Provenance: **Godot render using existing production rig/art; AI-assisted direction/code**. No audience-performance claim or user approval is implied.
 
-## Review
-
-The first pose obscured the face; the revised pose still extended a hand across the event vignette. Final arm placement keeps the whole face readable and the raised hand beside the portrait. The hair tip clears the location label. Taxi and follower now make bumper contact rather than leave an obvious gap.
-
-Inspected final recommended and alternate JPGs at 1920×1080, both previews at 320×180 and 160×90, and the native master displayed at 2048×1152. Headline and shocked face remain readable at reduced size; the secondary aside/location text can become optional detail at 160×90. No face/word clipping; no added fingers or rig art; contact accent points to the collision. Bottom-right area contains road, leaving the main face, headline and collision clear of a typical duration badge.
-
-Both skill frontmatters passed the skill validator with the existing project Python environment. Godot's final run completed both exports without script errors or warnings. Image files decoded successfully; dimensions, sizes and SHA-256 hashes are recorded. Source diff check found no edits to the episode `scene.json`, rig, profile helper, scenery or vehicle definitions. Existing unrelated working-tree changes were preserved.
-
-This is assistant visual review of static candidates. No new animation/movie proof, user approval, upload, click-through improvement or audience acceptance is claimed. Provenance: **Godot render using existing production rig/art; AI-assisted direction/code**. The original origins of existing character assets were not independently audited.
+Removed the location/aside/object text. Preserved previous outputs/source/QA under `revisions/r1/`; superseded alternate files now live there. Nemi uses her own rounded double underline and impact strokes; both vehicles face left with nose-to-rear contact.

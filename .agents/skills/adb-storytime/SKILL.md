@@ -7,6 +7,8 @@ description: Create, script, animate or continue a new ADB storytime episode, or
 
 ## Thumbnails
 
+Use one headline only, an EP00-inspired golden-yellow background, a common white silhouette outline/soft aura, and a few ADB-profile doodles. These are thumbnail dressing around the unchanged animation art; omit small supporting captions and labels. Details and executable examples are in the shared thumbnail document below.
+
 For a thumbnail request or an episode's thumbnail deliverable, read [Storytime thumbnails](../../../docs/animation/STORYTIME_THUMBNAILS.md) from the repository root at `docs/animation/STORYTIME_THUMBNAILS.md`. Use the existing ADB rig, episode scenery/props and ADB pen in a separate editable Godot composition. No AI image generation/restyling. Keep ADB's restrained acting and compact ink distinct from Nemi's. Inspect actual episode frames and full/mobile thumbnail exports; save brief, provenance and review under the episode's `thumbnail/`. For thumbnail-only work, stop at that route: do not create a new scene, modify the animation/voice or fabricate animation-preflight receipts. For combined episode/thumbnail work, complete the episode preparation below as well.
 
 Work from the repository root containing `tools/storytime/preflight.py`. Read `docs/animation/EPISODE_START.md` for the shared procedure. ADB uses restrained physical acting, dry delivery and compact/economical pen. Read his character, acting and mouth guides selected by the manifest; canonical voice is Aiden. Do not import Nemi dialogue mannerisms.

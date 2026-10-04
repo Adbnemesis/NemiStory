@@ -4,6 +4,8 @@
 
 For Nemi/ADB thumbnail work, load the relevant storytime skill and `docs/animation/STORYTIME_THUMBNAILS.md`. Future thumbnails use existing production rigs/art in editable Godot compositions; do not use AI image generation or restyling. Save source, exports and review in the episode's `thumbnail/`, preserving animation, voice and existing renders. A thumbnail-only request follows the static-image route; full episode preflight/proofs still apply when animation work is requested.
 
+Use one eye-catching headline only, without smaller captions/labels. EP00-inspired backgrounds (Nemi burgundy/pink, ADB golden yellow), a shared external white silhouette outline/soft aura, and a few author-specific doodles are allowed and preferred; retain the actual storytime character/prop art.
+
 ## Automatic episode-start routing (Codex and Antigravity)
 
 Before creating, scripting, continuing or animating a **new storytime episode**, load `.agents/skills/nemi-storytime/SKILL.md` for Nemi or `.agents/skills/adb-storytime/SKILL.md` for ADB; load both for a crossover. Apply this to natural-language requests even when no skill is named. Complete the relevant current reading using `tools/storytime/preflight.py` and record episode-specific application notes **before authoring**. On resume, check the record and reread stale documents or notes missing from current context. See `docs/animation/EPISODE_START.md`.

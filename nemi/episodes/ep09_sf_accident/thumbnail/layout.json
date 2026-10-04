@@ -1,15 +1,50 @@
 {
-  "format": "ep09-static-thumbnail-v1",
+  "format": "ep09-static-thumbnail-v2",
   "author": "nemi",
   "intent": "Shocked narrator foreground, truthful rear-end collision vignette, San Francisco context. Editorial collage, not one literal-scale scene.",
-  "palette": {"ink": "#38101e", "accent": "#ad5e69", "paper": "#faf6ed"},
-  "character": {"position": [385, 1195], "scale": 4.8},
+  "palette": {
+    "ink": "#38101e",
+    "accent": "#ad5e69",
+    "paper": "#faf6ed"
+  },
+  "character": {
+    "position": [
+      388,
+      1220
+    ],
+    "scale": 5.2
+  },
   "cars": [
-    {"kind": "damaged_car", "position": [1010, 901], "scale": 0.86},
-    {"kind": "car", "position": [1527, 901], "scale": 0.86}
+    {
+      "kind": "damaged_car",
+      "position": [
+        1025,
+        910
+      ],
+      "scale": 0.94
+    },
+    {
+      "kind": "car",
+      "position": [
+        1590,
+        910
+      ],
+      "scale": 0.94
+    }
   ],
   "variants": [
-    {"file": "thumbnail", "top": "MY TAXI", "bottom": "GOT HIT.", "top_size": 218, "bottom_size": 226},
-    {"file": "thumbnail_alt", "top": "5 MINUTES", "bottom": "FROM SFO...", "top_size": 194, "bottom_size": 185}
-  ]
+    {
+      "file": "thumbnail",
+      "top": "MY TAXI",
+      "bottom": "GOT HIT",
+      "top_size": 228,
+      "bottom_size": 248
+    }
+  ],
+  "background": {
+    "top": "#48071e",
+    "bottom": "#bb2058",
+    "reference": "nemi/episodes/ep00_introduction/thumbnail.png",
+    "method": "Godot recreation of colour field; no pixels from old generated character"
+  }
 }
