@@ -4,8 +4,15 @@ const Production=preload("res://common/storytime/production/ProductionStage.tscn
 func _init() -> void:
 	call_deferred("run")
 func run() -> void:
-	root.size=Vector2i(1920,1080)
+	var target_res := Vector2i(1920, 1080)
+	for arg in OS.get_cmdline_user_args():
+		if arg == "--4k": target_res = Vector2i(3840, 2160)
+		elif arg.begins_with("--resolution="):
+			var parts := arg.trim_prefix("--resolution=").split("x")
+			if parts.size() == 2: target_res = Vector2i(int(parts[0]), int(parts[1]))
+	root.size = target_res
 	var path := "res://common/storytime/examples/two_authors_10s.json"
+
 	for arg in OS.get_cmdline_user_args():
 		if arg.begins_with("--spec="): path=arg.trim_prefix("--spec=")
 	var data: Dictionary=JSON.parse_string(FileAccess.get_file_as_string(path))

@@ -1,6 +1,6 @@
-# Camera and sound intentions — revision 1
+# Camera and sound intentions — initial brief and final implementation
 
-Exact-word anchors will become named scene events after final narration is measured. Scene seconds are pending; no guessed word/phoneme timestamps. No sound has been auditioned in an exported episode mix.
+The tables below preserve the initial direction brief. Final measured camera events and spoken anchors are in camera_plan.json; final seven sound selections, levels, hashes and provenance are in review/sfx_cues.json and scene.json. All are implemented in the 110.4-second export. Signal levels and encoded headroom are verified; perceptual listening is unverified because the agent has no audible input.
 
 ## Camera
 
@@ -18,7 +18,7 @@ Exact-word anchors will become named scene events after final narration is measu
 | sanction / “She lost borrowing privileges.” | Notebook callback insert | Object returns with changed meaning. |
 | payoff / “Then I needed her science notes.” | Dry portrait | End on settled expression and final hold. |
 
-Use supported version-2 shot.camera fields. Reframe the world together, without changing actor scale for closeups. Review headroom, chin, mouth and caption separation in portraits, plus visible feet/hands in wide/contact shots. No camera paths authored yet.
+Use supported version-2 shot.camera fields. Reframe the world together, without changing actor scale for closeups. Review headroom, chin, mouth and caption separation in portraits, plus visible feet/hands in wide/contact shots. Final shot framing and transitions are authored in scene.json and inspected in portrait, wide and contact shots.
 
 ## Sound
 

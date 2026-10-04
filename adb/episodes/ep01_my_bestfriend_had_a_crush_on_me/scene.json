@@ -1,40 +1,233 @@
 {
   "version": 2,
-  "title": "my bestfriend had a crush on me",
-  "duration": 10,
+  "title": "My Best Friend Had a Crush on Me",
+  "duration": 110.4,
   "fps": 30,
-  "caption_size": 52,
-  "audio": null,
+  "caption_size": 50,
+  "audio": "res://renders/adb_school_crush/audio_r1/narration.wav",
+  "audio_metadata": "res://renders/adb_school_crush/audio_r1/timeline.json",
   "direction": {
-    "promise": "A manageable idea becomes a problem.",
-    "want": "Complete one small task.",
-    "choice": "Try the obvious solution.",
-    "consequence": "It creates an unexpected problem.",
-    "payoff": "A quiet reaction reveals the cost.",
+    "promise": "An ordinary best friendship suddenly seems romantic.",
+    "want": "Understand the confession without making the friendship awkward.",
+    "choice": "Dismiss the rumor, then trust her serious delivery and start a sincere answer.",
+    "consequence": "The prank catches him just as his guard drops.",
+    "payoff": "His homework sanction lasts only until he needs her science notes.",
     "beats": [
       {
         "start": 0,
-        "end": 4,
-        "thought": "This will be easy.",
-        "focus": "Face and notebook",
-        "visual": "Held object",
-        "intent": "Establish confidence."
+        "end": 8.69,
+        "thought": "This got unexpectedly personal.",
+        "focus": "ADB face",
+        "visual": "Portrait",
+        "intent": "Open the question."
       },
       {
-        "start": 4,
-        "end": 7,
-        "thought": "The solution has a cost.",
-        "focus": "Mental image",
-        "visual": "Thought insert",
-        "intent": "Show the consequence."
+        "start": 8.69,
+        "end": 13.31,
+        "thought": "We were ordinary best friends.",
+        "focus": "Shared school desk",
+        "visual": "Held classroom art",
+        "intent": "Establish school and friendship."
       },
       {
-        "start": 7,
-        "end": 10,
-        "thought": "I may have been wrong.",
-        "focus": "Face",
-        "visual": "Quiet reaction",
-        "intent": "Let the consequence land."
+        "start": 13.31,
+        "end": 16.1,
+        "thought": "Practical favors were normal.",
+        "focus": "Lunch and homework",
+        "visual": "Desk insert",
+        "intent": "Plant the callback."
+      },
+      {
+        "start": 16.1,
+        "end": 22.68,
+        "thought": "He must be joking.",
+        "focus": "Classmate beside ADB",
+        "visual": "Corridor two-shot",
+        "intent": "Introduce rumor."
+      },
+      {
+        "start": 22.68,
+        "end": 25.12,
+        "thought": "Of course she likes her friend.",
+        "focus": "ADB shrug",
+        "visual": "Reaction",
+        "intent": "Reveal innocent interpretation."
+      },
+      {
+        "start": 25.12,
+        "end": 27.36,
+        "thought": "He means something else.",
+        "focus": "ADB eyebrow",
+        "visual": "Finite reaction",
+        "intent": "Change the implication."
+      },
+      {
+        "start": 27.36,
+        "end": 32.25,
+        "thought": "Louder is not clearer.",
+        "focus": "ADB deadpan",
+        "visual": "Still portrait",
+        "intent": "Land dry repetition joke."
+      },
+      {
+        "start": 32.25,
+        "end": 39.42,
+        "thought": "This source is unreliable.",
+        "focus": "ADB doubtful gaze",
+        "visual": "Portrait",
+        "intent": "Dismiss evidence."
+      },
+      {
+        "start": 39.42,
+        "end": 46.92,
+        "thought": "She looks sincere.",
+        "focus": "Friend serious face",
+        "visual": "Classroom two-shot",
+        "intent": "Change credibility."
+      },
+      {
+        "start": 46.92,
+        "end": 52.96,
+        "thought": "Buy five seconds.",
+        "focus": "ADB uncertainty",
+        "visual": "Portrait",
+        "intent": "Make hesitation visible."
+      },
+      {
+        "start": 52.96,
+        "end": 56.91,
+        "thought": "She confirms it.",
+        "focus": "Friend beside ADB",
+        "visual": "Two-shot",
+        "intent": "Let the apparent confession feel real."
+      },
+      {
+        "start": 56.91,
+        "end": 59.54,
+        "thought": "Maybe this is possible.",
+        "focus": "ADB private smile",
+        "visual": "Portrait",
+        "intent": "Show vulnerability."
+      },
+      {
+        "start": 59.54,
+        "end": 63.69,
+        "thought": "Reinterpret our history.",
+        "focus": "Lunch recollection",
+        "visual": "Held art",
+        "intent": "Enter his thought."
+      },
+      {
+        "start": 63.69,
+        "end": 65.45,
+        "thought": "Maybe lunch was evidence.",
+        "focus": "Lunch box",
+        "visual": "Object insert",
+        "intent": "Show ordinary favor acquiring meaning."
+      },
+      {
+        "start": 65.45,
+        "end": 67.49,
+        "thought": "Maybe homework was evidence.",
+        "focus": "Held homework page",
+        "visual": "Bounded hand path and live question",
+        "intent": "Make mistaken deduction tangible."
+      },
+      {
+        "start": 67.49,
+        "end": 73.37,
+        "thought": "Perhaps I am charming.",
+        "focus": "ADB modest blush",
+        "visual": "Portrait",
+        "intent": "Peak hopeful self-image."
+      },
+      {
+        "start": 73.37,
+        "end": 76.77,
+        "thought": "Try an honest answer.",
+        "focus": "ADB commitment",
+        "visual": "Lean then settle",
+        "intent": "Let him choose vulnerability."
+      },
+      {
+        "start": 76.77,
+        "end": 78.17,
+        "thought": "She breaks character.",
+        "focus": "Friend laugh illustration",
+        "visual": "Expression cut",
+        "intent": "Reverse sincerity."
+      },
+      {
+        "start": 78.17,
+        "end": 80.6,
+        "thought": "I believed the setup.",
+        "focus": "ADB stopped face",
+        "visual": "Deadpan and compact correction",
+        "intent": "Protect quiet recognition."
+      },
+      {
+        "start": 80.6,
+        "end": 83.98,
+        "thought": "He was involved too.",
+        "focus": "Classmate laughing",
+        "visual": "Classroom wide",
+        "intent": "Reveal teamwork."
+      },
+      {
+        "start": 83.98,
+        "end": 89.21,
+        "thought": "They finally did the work.",
+        "focus": "ADB dry gaze",
+        "visual": "Portrait",
+        "intent": "Reframe embarrassment as joke."
+      },
+      {
+        "start": 89.21,
+        "end": 95.0,
+        "thought": "Pretend I am fine.",
+        "focus": "ADB downcast gaze",
+        "visual": "Desk reaction",
+        "intent": "Give aftermath time."
+      },
+      {
+        "start": 95.0,
+        "end": 99.42,
+        "thought": "She checks on me.",
+        "focus": "Friend beside ADB",
+        "visual": "Two-shot",
+        "intent": "Keep relationship warm."
+      },
+      {
+        "start": 99.42,
+        "end": 103.74,
+        "thought": "A dry comeback will do.",
+        "focus": "ADB explaining gesture",
+        "visual": "Portrait",
+        "intent": "Recover composure."
+      },
+      {
+        "start": 103.74,
+        "end": 106.12,
+        "thought": "Remove borrowing privileges.",
+        "focus": "Homework notebook",
+        "visual": "Object callback",
+        "intent": "Attempt dignity."
+      },
+      {
+        "start": 106.12,
+        "end": 107.29,
+        "thought": "It did not last.",
+        "focus": "ADB steady gaze",
+        "visual": "Still portrait",
+        "intent": "Undercut sanction."
+      },
+      {
+        "start": 107.29,
+        "end": 110.4,
+        "thought": "I need her notes too.",
+        "focus": "ADB and school desk",
+        "visual": "Warm return and final hold",
+        "intent": "Resolve friendship callback."
       }
     ]
   },
@@ -45,143 +238,4015 @@
       "performances": [
         {
           "at": 0,
-          "recipe": "pleased"
+          "recipe": "explaining",
+          "duration": 0
         },
         {
-          "at": 1.5,
+          "at": 8.69,
+          "recipe": "pleased",
+          "duration": 0.45
+        },
+        {
+          "at": 16.1,
+          "recipe": "listening",
+          "duration": 0.4,
+          "gaze": [
+            0.5,
+            0
+          ]
+        },
+        {
+          "at": 22.68,
+          "recipe": "soft_shrug",
+          "duration": 0.4
+        },
+        {
+          "at": 25.12,
+          "recipe": "skeptical",
+          "duration": 0.4,
+          "event": "likes"
+        },
+        {
+          "at": 27.36,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap",
+          "blinks": [
+            31.07
+          ]
+        },
+        {
+          "at": 32.25,
+          "recipe": "skeptical",
+          "duration": 0.4
+        },
+        {
+          "at": 39.42,
+          "recipe": "listening",
+          "duration": 0.45,
+          "gaze": [
+            0.55,
+            0
+          ]
+        },
+        {
+          "at": 45.88,
+          "recipe": "uncertain",
+          "duration": 0.4
+        },
+        {
+          "at": 46.92,
+          "recipe": "uncertain",
+          "duration": 0.4
+        },
+        {
+          "at": 53.16,
+          "recipe": "quiet_recoil",
+          "duration": 0.35
+        },
+        {
+          "at": 56.91,
+          "recipe": "pleased",
+          "duration": 0.5,
+          "face": {
+            "blush_intensity": 0.16
+          },
+          "event": "belief"
+        },
+        {
+          "at": 59.54,
+          "recipe": "realization",
+          "duration": 0.4
+        },
+        {
+          "at": 65.45,
+          "recipe": "prop_present",
+          "duration": 0.4,
+          "hands": {
+            "right": "holding_cup"
+          },
+          "event": "clue"
+        },
+        {
+          "at": 67.49,
+          "recipe": "pleased",
+          "duration": 0.5,
+          "face": {
+            "blush_intensity": 0.25
+          }
+        },
+        {
+          "at": 73.37,
           "recipe": "lean_in",
+          "duration": 0.45
+        },
+        {
+          "at": 76.77,
+          "recipe": "listening",
           "duration": 0.3
         },
         {
-          "at": 7,
-          "recipe": "skeptical",
-          "motion": "stepped",
-          "step_fps": 12,
-          "duration": 0.3,
+          "at": 78.17,
+          "recipe": "quiet_recoil",
+          "duration": 0.28,
+          "event": "reveal"
+        },
+        {
+          "at": 79.15,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap",
           "blinks": [
-            8.6
+            80.2
+          ]
+        },
+        {
+          "at": 80.6,
+          "recipe": "skeptical",
+          "duration": 0.4,
+          "gaze": [
+            0.8,
+            0
+          ]
+        },
+        {
+          "at": 83.98,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap"
+        },
+        {
+          "at": 89.21,
+          "recipe": "embarrassed",
+          "duration": 0.45,
+          "gaze": [
+            0.4,
+            0.65
+          ]
+        },
+        {
+          "at": 95.0,
+          "recipe": "listening",
+          "duration": 0.4,
+          "gaze": [
+            0.65,
+            0
+          ]
+        },
+        {
+          "at": 99.42,
+          "recipe": "explaining",
+          "duration": 0.45
+        },
+        {
+          "at": 103.74,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap"
+        },
+        {
+          "at": 106.12,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap"
+        },
+        {
+          "at": 107.29,
+          "recipe": "soft_shrug",
+          "duration": 0.45
+        },
+        {
+          "at": 109.29,
+          "recipe": "pleased",
+          "duration": 0.4,
+          "blinks": [
+            109.84
           ]
         }
+      ],
+      "mouths": [
+        {
+          "start": 0.35,
+          "end": 0.4072,
+          "shape": "neutral"
+        },
+        {
+          "start": 0.4152,
+          "end": 0.59,
+          "shape": "talk_open"
+        },
+        {
+          "start": 0.61,
+          "end": 0.6628,
+          "shape": "neutral"
+        },
+        {
+          "start": 0.6708,
+          "end": 0.83,
+          "shape": "talk_open"
+        },
+        {
+          "start": 0.858,
+          "end": 1.15,
+          "shape": "talk_open"
+        },
+        {
+          "start": 1.178,
+          "end": 1.45,
+          "shape": "talk_round"
+        },
+        {
+          "start": 1.478,
+          "end": 1.69,
+          "shape": "talk_round"
+        },
+        {
+          "start": 1.71,
+          "end": 1.7628,
+          "shape": "neutral"
+        },
+        {
+          "start": 1.7708,
+          "end": 1.93,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 1.958,
+          "end": 2.15,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 2.178,
+          "end": 2.23,
+          "shape": "talk_open"
+        },
+        {
+          "start": 2.258,
+          "end": 2.33,
+          "shape": "talk_open"
+        },
+        {
+          "start": 2.358,
+          "end": 2.61,
+          "shape": "talk_open"
+        },
+        {
+          "start": 2.638,
+          "end": 2.81,
+          "shape": "talk_open"
+        },
+        {
+          "start": 2.83,
+          "end": 2.89,
+          "shape": "neutral"
+        },
+        {
+          "start": 2.898,
+          "end": 3.23,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 3.718,
+          "end": 3.77,
+          "shape": "talk_open"
+        },
+        {
+          "start": 3.798,
+          "end": 4.13,
+          "shape": "talk_open"
+        },
+        {
+          "start": 4.898,
+          "end": 4.99,
+          "shape": "talk_open"
+        },
+        {
+          "start": 5.018,
+          "end": 5.13,
+          "shape": "talk_open"
+        },
+        {
+          "start": 5.158,
+          "end": 5.41,
+          "shape": "talk_open"
+        },
+        {
+          "start": 5.43,
+          "end": 5.49,
+          "shape": "neutral"
+        },
+        {
+          "start": 5.498,
+          "end": 5.83,
+          "shape": "talk_open"
+        },
+        {
+          "start": 5.858,
+          "end": 5.99,
+          "shape": "talk_open"
+        },
+        {
+          "start": 6.018,
+          "end": 6.41,
+          "shape": "talk_open"
+        },
+        {
+          "start": 6.438,
+          "end": 6.59,
+          "shape": "talk_open"
+        },
+        {
+          "start": 6.61,
+          "end": 6.929,
+          "shape": "talk_open"
+        },
+        {
+          "start": 6.944,
+          "end": 7.165,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 7.198,
+          "end": 7.47,
+          "shape": "talk_open"
+        },
+        {
+          "start": 7.498,
+          "end": 7.61,
+          "shape": "talk_open"
+        },
+        {
+          "start": 7.638,
+          "end": 7.97,
+          "shape": "talk_open"
+        },
+        {
+          "start": 8.69,
+          "end": 8.75,
+          "shape": "neutral"
+        },
+        {
+          "start": 8.758,
+          "end": 8.97,
+          "shape": "talk_open"
+        },
+        {
+          "start": 8.998,
+          "end": 9.11,
+          "shape": "talk_open"
+        },
+        {
+          "start": 9.138,
+          "end": 9.43,
+          "shape": "talk_round"
+        },
+        {
+          "start": 9.658,
+          "end": 9.85,
+          "shape": "talk_open"
+        },
+        {
+          "start": 9.878,
+          "end": 10.13,
+          "shape": "talk_open"
+        },
+        {
+          "start": 10.158,
+          "end": 10.67,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 11.018,
+          "end": 11.17,
+          "shape": "talk_open"
+        },
+        {
+          "start": 11.198,
+          "end": 11.59,
+          "shape": "talk_open"
+        },
+        {
+          "start": 11.898,
+          "end": 12.11,
+          "shape": "talk_open"
+        },
+        {
+          "start": 12.138,
+          "end": 12.45,
+          "shape": "talk_open"
+        },
+        {
+          "start": 12.478,
+          "end": 12.85,
+          "shape": "talk_open"
+        },
+        {
+          "start": 13.13,
+          "end": 13.1696,
+          "shape": "neutral"
+        },
+        {
+          "start": 13.1776,
+          "end": 13.29,
+          "shape": "talk_round"
+        },
+        {
+          "start": 13.318,
+          "end": 13.75,
+          "shape": "talk_round"
+        },
+        {
+          "start": 14.318,
+          "end": 14.59,
+          "shape": "talk_open"
+        },
+        {
+          "start": 14.61,
+          "end": 14.67,
+          "shape": "neutral"
+        },
+        {
+          "start": 14.678,
+          "end": 14.93,
+          "shape": "talk_open"
+        },
+        {
+          "start": 14.958,
+          "end": 15.25,
+          "shape": "talk_open"
+        },
+        {
+          "start": 15.278,
+          "end": 15.49,
+          "shape": "talk_open"
+        },
+        {
+          "start": 16.108,
+          "end": 16.36,
+          "shape": "talk_open"
+        },
+        {
+          "start": 16.388,
+          "end": 16.62,
+          "shape": "talk_open"
+        },
+        {
+          "start": 16.648,
+          "end": 16.94,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 17.468,
+          "end": 17.92,
+          "shape": "talk_open"
+        },
+        {
+          "start": 17.94,
+          "end": 17.984,
+          "shape": "neutral"
+        },
+        {
+          "start": 17.992,
+          "end": 18.12,
+          "shape": "talk_open"
+        },
+        {
+          "start": 18.14,
+          "end": 18.1752,
+          "shape": "neutral"
+        },
+        {
+          "start": 18.1832,
+          "end": 18.28,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 18.308,
+          "end": 18.66,
+          "shape": "talk_open"
+        },
+        {
+          "start": 18.688,
+          "end": 18.86,
+          "shape": "talk_open"
+        },
+        {
+          "start": 18.888,
+          "end": 19.08,
+          "shape": "talk_open"
+        },
+        {
+          "start": 19.58,
+          "end": 19.64,
+          "shape": "neutral"
+        },
+        {
+          "start": 19.648,
+          "end": 19.86,
+          "shape": "talk_open"
+        },
+        {
+          "start": 20.268,
+          "end": 20.62,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 20.648,
+          "end": 20.9,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 20.928,
+          "end": 21.2,
+          "shape": "talk_round"
+        },
+        {
+          "start": 21.648,
+          "end": 21.76,
+          "shape": "talk_open"
+        },
+        {
+          "start": 21.788,
+          "end": 22.04,
+          "shape": "talk_open"
+        },
+        {
+          "start": 22.688,
+          "end": 22.84,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 23.288,
+          "end": 23.5,
+          "shape": "talk_open"
+        },
+        {
+          "start": 23.528,
+          "end": 23.88,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 24.408,
+          "end": 24.56,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 24.588,
+          "end": 24.84,
+          "shape": "talk_open"
+        },
+        {
+          "start": 25.128,
+          "end": 25.56,
+          "shape": "talk_round"
+        },
+        {
+          "start": 25.888,
+          "end": 26.16,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.188,
+          "end": 26.44,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.468,
+          "end": 26.76,
+          "shape": "talk_round"
+        },
+        {
+          "start": 27.36,
+          "end": 27.613,
+          "shape": "talk_open"
+        },
+        {
+          "start": 27.628,
+          "end": 27.795,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 28.188,
+          "end": 28.4,
+          "shape": "talk_open"
+        },
+        {
+          "start": 28.428,
+          "end": 28.6,
+          "shape": "talk_open"
+        },
+        {
+          "start": 28.628,
+          "end": 28.88,
+          "shape": "talk_open"
+        },
+        {
+          "start": 28.908,
+          "end": 29.14,
+          "shape": "talk_open"
+        },
+        {
+          "start": 29.168,
+          "end": 29.54,
+          "shape": "talk_open"
+        },
+        {
+          "start": 29.568,
+          "end": 29.8,
+          "shape": "talk_open"
+        },
+        {
+          "start": 29.828,
+          "end": 30.18,
+          "shape": "talk_open"
+        },
+        {
+          "start": 30.208,
+          "end": 30.34,
+          "shape": "talk_open"
+        },
+        {
+          "start": 30.368,
+          "end": 30.8,
+          "shape": "talk_open"
+        },
+        {
+          "start": 30.828,
+          "end": 31.46,
+          "shape": "talk_open"
+        },
+        {
+          "start": 32.258,
+          "end": 32.49,
+          "shape": "talk_open"
+        },
+        {
+          "start": 32.518,
+          "end": 32.67,
+          "shape": "talk_open"
+        },
+        {
+          "start": 32.698,
+          "end": 32.81,
+          "shape": "talk_open"
+        },
+        {
+          "start": 32.838,
+          "end": 33.11,
+          "shape": "talk_open"
+        },
+        {
+          "start": 33.658,
+          "end": 33.79,
+          "shape": "talk_open"
+        },
+        {
+          "start": 33.81,
+          "end": 33.87,
+          "shape": "neutral"
+        },
+        {
+          "start": 33.878,
+          "end": 34.11,
+          "shape": "talk_open"
+        },
+        {
+          "start": 34.138,
+          "end": 34.39,
+          "shape": "talk_open"
+        },
+        {
+          "start": 34.418,
+          "end": 34.61,
+          "shape": "talk_open"
+        },
+        {
+          "start": 34.638,
+          "end": 34.91,
+          "shape": "talk_open"
+        },
+        {
+          "start": 34.93,
+          "end": 34.9652,
+          "shape": "neutral"
+        },
+        {
+          "start": 34.9732,
+          "end": 35.07,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 35.098,
+          "end": 35.19,
+          "shape": "talk_open"
+        },
+        {
+          "start": 35.218,
+          "end": 35.53,
+          "shape": "talk_open"
+        },
+        {
+          "start": 35.558,
+          "end": 35.91,
+          "shape": "talk_round"
+        },
+        {
+          "start": 36.818,
+          "end": 36.95,
+          "shape": "talk_open"
+        },
+        {
+          "start": 36.978,
+          "end": 37.07,
+          "shape": "talk_round"
+        },
+        {
+          "start": 37.098,
+          "end": 37.17,
+          "shape": "talk_open"
+        },
+        {
+          "start": 37.198,
+          "end": 37.59,
+          "shape": "talk_open"
+        },
+        {
+          "start": 37.618,
+          "end": 37.77,
+          "shape": "talk_open"
+        },
+        {
+          "start": 37.79,
+          "end": 38.065,
+          "shape": "talk_open"
+        },
+        {
+          "start": 38.08,
+          "end": 38.265,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 38.298,
+          "end": 38.73,
+          "shape": "talk_open"
+        },
+        {
+          "start": 39.42,
+          "end": 39.4684,
+          "shape": "neutral"
+        },
+        {
+          "start": 39.4764,
+          "end": 39.62,
+          "shape": "talk_open"
+        },
+        {
+          "start": 39.648,
+          "end": 39.92,
+          "shape": "talk_open"
+        },
+        {
+          "start": 40.328,
+          "end": 40.46,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 40.488,
+          "end": 40.66,
+          "shape": "talk_open"
+        },
+        {
+          "start": 40.688,
+          "end": 40.86,
+          "shape": "talk_open"
+        },
+        {
+          "start": 40.888,
+          "end": 40.98,
+          "shape": "talk_open"
+        },
+        {
+          "start": 41.0,
+          "end": 41.0352,
+          "shape": "neutral"
+        },
+        {
+          "start": 41.0432,
+          "end": 41.14,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 41.788,
+          "end": 41.92,
+          "shape": "talk_round"
+        },
+        {
+          "start": 41.948,
+          "end": 42.32,
+          "shape": "talk_open"
+        },
+        {
+          "start": 42.768,
+          "end": 42.88,
+          "shape": "talk_round"
+        },
+        {
+          "start": 42.908,
+          "end": 43.22,
+          "shape": "talk_open"
+        },
+        {
+          "start": 43.688,
+          "end": 44.38,
+          "shape": "talk_open"
+        },
+        {
+          "start": 44.408,
+          "end": 44.9,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 45.888,
+          "end": 45.98,
+          "shape": "talk_open"
+        },
+        {
+          "start": 46.008,
+          "end": 46.08,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 46.108,
+          "end": 46.28,
+          "shape": "talk_open"
+        },
+        {
+          "start": 46.308,
+          "end": 46.48,
+          "shape": "talk_round"
+        },
+        {
+          "start": 46.928,
+          "end": 47.14,
+          "shape": "talk_open"
+        },
+        {
+          "start": 47.168,
+          "end": 47.28,
+          "shape": "talk_open"
+        },
+        {
+          "start": 47.608,
+          "end": 47.86,
+          "shape": "talk_open"
+        },
+        {
+          "start": 47.88,
+          "end": 47.902,
+          "shape": "neutral"
+        },
+        {
+          "start": 47.91,
+          "end": 47.96,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 47.988,
+          "end": 48.18,
+          "shape": "talk_open"
+        },
+        {
+          "start": 48.528,
+          "end": 48.6,
+          "shape": "talk_open"
+        },
+        {
+          "start": 48.628,
+          "end": 48.74,
+          "shape": "talk_round"
+        },
+        {
+          "start": 48.768,
+          "end": 49.2,
+          "shape": "talk_open"
+        },
+        {
+          "start": 49.228,
+          "end": 49.52,
+          "shape": "talk_open"
+        },
+        {
+          "start": 49.908,
+          "end": 50.04,
+          "shape": "talk_open"
+        },
+        {
+          "start": 50.068,
+          "end": 50.24,
+          "shape": "talk_open"
+        },
+        {
+          "start": 50.268,
+          "end": 50.6,
+          "shape": "talk_open"
+        },
+        {
+          "start": 50.628,
+          "end": 50.88,
+          "shape": "talk_open"
+        },
+        {
+          "start": 50.908,
+          "end": 51.32,
+          "shape": "talk_open"
+        },
+        {
+          "start": 51.908,
+          "end": 52.06,
+          "shape": "talk_open"
+        },
+        {
+          "start": 52.088,
+          "end": 52.2,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 52.228,
+          "end": 52.46,
+          "shape": "talk_open"
+        },
+        {
+          "start": 52.848,
+          "end": 52.96,
+          "shape": "talk_open"
+        },
+        {
+          "start": 52.96,
+          "end": 53.14,
+          "shape": "talk_open"
+        },
+        {
+          "start": 53.168,
+          "end": 53.42,
+          "shape": "talk_open"
+        },
+        {
+          "start": 53.448,
+          "end": 53.72,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 53.748,
+          "end": 54.02,
+          "shape": "talk_round"
+        },
+        {
+          "start": 54.628,
+          "end": 54.94,
+          "shape": "talk_open"
+        },
+        {
+          "start": 54.968,
+          "end": 55.14,
+          "shape": "talk_open"
+        },
+        {
+          "start": 55.168,
+          "end": 55.34,
+          "shape": "talk_open"
+        },
+        {
+          "start": 55.368,
+          "end": 55.52,
+          "shape": "talk_open"
+        },
+        {
+          "start": 55.548,
+          "end": 55.74,
+          "shape": "talk_round"
+        },
+        {
+          "start": 55.768,
+          "end": 55.86,
+          "shape": "talk_open"
+        },
+        {
+          "start": 55.888,
+          "end": 55.98,
+          "shape": "talk_open"
+        },
+        {
+          "start": 56.008,
+          "end": 56.18,
+          "shape": "talk_open"
+        },
+        {
+          "start": 56.918,
+          "end": 57.15,
+          "shape": "talk_open"
+        },
+        {
+          "start": 57.178,
+          "end": 58.05,
+          "shape": "talk_open"
+        },
+        {
+          "start": 58.078,
+          "end": 58.35,
+          "shape": "talk_open"
+        },
+        {
+          "start": 58.37,
+          "end": 58.4228,
+          "shape": "neutral"
+        },
+        {
+          "start": 58.4308,
+          "end": 58.59,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 58.618,
+          "end": 58.87,
+          "shape": "talk_open"
+        },
+        {
+          "start": 59.548,
+          "end": 59.78,
+          "shape": "talk_open"
+        },
+        {
+          "start": 59.808,
+          "end": 59.96,
+          "shape": "talk_open"
+        },
+        {
+          "start": 59.988,
+          "end": 60.48,
+          "shape": "talk_open"
+        },
+        {
+          "start": 60.508,
+          "end": 60.74,
+          "shape": "talk_open"
+        },
+        {
+          "start": 60.76,
+          "end": 61.134,
+          "shape": "talk_open"
+        },
+        {
+          "start": 61.149,
+          "end": 61.415,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 61.448,
+          "end": 61.74,
+          "shape": "talk_open"
+        },
+        {
+          "start": 61.768,
+          "end": 61.94,
+          "shape": "talk_open"
+        },
+        {
+          "start": 61.968,
+          "end": 62.44,
+          "shape": "talk_open"
+        },
+        {
+          "start": 62.968,
+          "end": 63.12,
+          "shape": "talk_open"
+        },
+        {
+          "start": 65.488,
+          "end": 65.58,
+          "shape": "talk_open"
+        },
+        {
+          "start": 65.6,
+          "end": 65.66,
+          "shape": "neutral"
+        },
+        {
+          "start": 65.668,
+          "end": 65.94,
+          "shape": "talk_round"
+        },
+        {
+          "start": 65.96,
+          "end": 66.02,
+          "shape": "neutral"
+        },
+        {
+          "start": 66.028,
+          "end": 66.24,
+          "shape": "talk_open"
+        },
+        {
+          "start": 66.268,
+          "end": 66.5,
+          "shape": "talk_round"
+        },
+        {
+          "start": 66.528,
+          "end": 66.78,
+          "shape": "talk_open"
+        },
+        {
+          "start": 66.808,
+          "end": 67.02,
+          "shape": "talk_open"
+        },
+        {
+          "start": 67.49,
+          "end": 67.55,
+          "shape": "neutral"
+        },
+        {
+          "start": 67.558,
+          "end": 67.87,
+          "shape": "talk_open"
+        },
+        {
+          "start": 67.898,
+          "end": 68.07,
+          "shape": "talk_open"
+        },
+        {
+          "start": 68.098,
+          "end": 68.37,
+          "shape": "talk_open"
+        },
+        {
+          "start": 68.398,
+          "end": 68.63,
+          "shape": "talk_open"
+        },
+        {
+          "start": 68.658,
+          "end": 69.11,
+          "shape": "talk_open"
+        },
+        {
+          "start": 69.138,
+          "end": 69.33,
+          "shape": "talk_open"
+        },
+        {
+          "start": 69.35,
+          "end": 69.41,
+          "shape": "neutral"
+        },
+        {
+          "start": 69.418,
+          "end": 69.73,
+          "shape": "talk_open"
+        },
+        {
+          "start": 70.55,
+          "end": 70.61,
+          "shape": "neutral"
+        },
+        {
+          "start": 70.618,
+          "end": 70.81,
+          "shape": "talk_open"
+        },
+        {
+          "start": 70.838,
+          "end": 71.07,
+          "shape": "talk_open"
+        },
+        {
+          "start": 71.098,
+          "end": 72.11,
+          "shape": "talk_open"
+        },
+        {
+          "start": 72.13,
+          "end": 72.35,
+          "shape": "talk_open"
+        },
+        {
+          "start": 72.365,
+          "end": 72.505,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 73.378,
+          "end": 73.55,
+          "shape": "talk_round"
+        },
+        {
+          "start": 73.578,
+          "end": 73.69,
+          "shape": "talk_open"
+        },
+        {
+          "start": 73.718,
+          "end": 73.83,
+          "shape": "talk_open"
+        },
+        {
+          "start": 73.858,
+          "end": 73.91,
+          "shape": "talk_open"
+        },
+        {
+          "start": 73.93,
+          "end": 73.99,
+          "shape": "neutral"
+        },
+        {
+          "start": 73.998,
+          "end": 74.19,
+          "shape": "talk_open"
+        },
+        {
+          "start": 74.218,
+          "end": 74.43,
+          "shape": "talk_open"
+        },
+        {
+          "start": 74.458,
+          "end": 74.63,
+          "shape": "talk_open"
+        },
+        {
+          "start": 74.898,
+          "end": 75.19,
+          "shape": "talk_open"
+        },
+        {
+          "start": 75.41,
+          "end": 75.685,
+          "shape": "talk_open"
+        },
+        {
+          "start": 75.7,
+          "end": 75.885,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 76.398,
+          "end": 76.61,
+          "shape": "talk_open"
+        },
+        {
+          "start": 76.778,
+          "end": 76.99,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 77.01,
+          "end": 77.0672,
+          "shape": "neutral"
+        },
+        {
+          "start": 77.0752,
+          "end": 77.25,
+          "shape": "talk_open"
+        },
+        {
+          "start": 77.278,
+          "end": 77.47,
+          "shape": "talk_open"
+        },
+        {
+          "start": 77.498,
+          "end": 77.81,
+          "shape": "talk_open"
+        },
+        {
+          "start": 78.178,
+          "end": 78.45,
+          "shape": "talk_open"
+        },
+        {
+          "start": 78.478,
+          "end": 78.85,
+          "shape": "talk_open"
+        },
+        {
+          "start": 80.608,
+          "end": 80.8,
+          "shape": "talk_open"
+        },
+        {
+          "start": 80.828,
+          "end": 80.96,
+          "shape": "talk_open"
+        },
+        {
+          "start": 80.988,
+          "end": 81.32,
+          "shape": "talk_round"
+        },
+        {
+          "start": 81.808,
+          "end": 81.9,
+          "shape": "talk_open"
+        },
+        {
+          "start": 81.928,
+          "end": 82.32,
+          "shape": "talk_open"
+        },
+        {
+          "start": 82.348,
+          "end": 82.5,
+          "shape": "talk_open"
+        },
+        {
+          "start": 82.528,
+          "end": 82.84,
+          "shape": "talk_open"
+        },
+        {
+          "start": 82.868,
+          "end": 83.32,
+          "shape": "talk_open"
+        },
+        {
+          "start": 83.988,
+          "end": 84.18,
+          "shape": "talk_open"
+        },
+        {
+          "start": 84.828,
+          "end": 85.02,
+          "shape": "talk_round"
+        },
+        {
+          "start": 85.04,
+          "end": 85.1,
+          "shape": "neutral"
+        },
+        {
+          "start": 85.108,
+          "end": 85.48,
+          "shape": "talk_open"
+        },
+        {
+          "start": 86.188,
+          "end": 86.56,
+          "shape": "talk_open"
+        },
+        {
+          "start": 86.768,
+          "end": 86.92,
+          "shape": "talk_open"
+        },
+        {
+          "start": 86.948,
+          "end": 87.18,
+          "shape": "talk_open"
+        },
+        {
+          "start": 87.2,
+          "end": 87.464,
+          "shape": "talk_open"
+        },
+        {
+          "start": 87.479,
+          "end": 87.655,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 87.68,
+          "end": 87.966,
+          "shape": "talk_open"
+        },
+        {
+          "start": 87.981,
+          "end": 88.175,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 88.208,
+          "end": 88.56,
+          "shape": "talk_open"
+        },
+        {
+          "start": 89.218,
+          "end": 89.51,
+          "shape": "talk_open"
+        },
+        {
+          "start": 89.538,
+          "end": 89.75,
+          "shape": "talk_open"
+        },
+        {
+          "start": 89.778,
+          "end": 90.15,
+          "shape": "talk_open"
+        },
+        {
+          "start": 90.518,
+          "end": 90.97,
+          "shape": "talk_open"
+        },
+        {
+          "start": 91.838,
+          "end": 91.99,
+          "shape": "talk_open"
+        },
+        {
+          "start": 92.018,
+          "end": 92.27,
+          "shape": "talk_open"
+        },
+        {
+          "start": 92.298,
+          "end": 92.41,
+          "shape": "talk_open"
+        },
+        {
+          "start": 92.438,
+          "end": 92.61,
+          "shape": "talk_open"
+        },
+        {
+          "start": 92.63,
+          "end": 92.69,
+          "shape": "neutral"
+        },
+        {
+          "start": 92.698,
+          "end": 93.11,
+          "shape": "talk_open"
+        },
+        {
+          "start": 93.138,
+          "end": 93.51,
+          "shape": "talk_open"
+        },
+        {
+          "start": 93.538,
+          "end": 93.87,
+          "shape": "talk_open"
+        },
+        {
+          "start": 93.938,
+          "end": 94.15,
+          "shape": "talk_open"
+        },
+        {
+          "start": 94.17,
+          "end": 94.23,
+          "shape": "neutral"
+        },
+        {
+          "start": 94.238,
+          "end": 94.49,
+          "shape": "talk_open"
+        },
+        {
+          "start": 95.008,
+          "end": 95.24,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 95.268,
+          "end": 95.58,
+          "shape": "talk_open"
+        },
+        {
+          "start": 96.128,
+          "end": 96.46,
+          "shape": "talk_open"
+        },
+        {
+          "start": 96.488,
+          "end": 96.6,
+          "shape": "talk_open"
+        },
+        {
+          "start": 96.628,
+          "end": 96.92,
+          "shape": "talk_open"
+        },
+        {
+          "start": 97.448,
+          "end": 97.62,
+          "shape": "talk_open"
+        },
+        {
+          "start": 98.268,
+          "end": 98.64,
+          "shape": "talk_round"
+        },
+        {
+          "start": 99.068,
+          "end": 99.4,
+          "shape": "talk_open"
+        },
+        {
+          "start": 99.428,
+          "end": 99.78,
+          "shape": "talk_open"
+        },
+        {
+          "start": 99.808,
+          "end": 100.04,
+          "shape": "talk_open"
+        },
+        {
+          "start": 100.068,
+          "end": 100.22,
+          "shape": "talk_round"
+        },
+        {
+          "start": 100.248,
+          "end": 100.6,
+          "shape": "talk_open"
+        },
+        {
+          "start": 100.628,
+          "end": 100.9,
+          "shape": "talk_open"
+        },
+        {
+          "start": 100.928,
+          "end": 101.18,
+          "shape": "talk_open"
+        },
+        {
+          "start": 101.208,
+          "end": 101.56,
+          "shape": "talk_open"
+        },
+        {
+          "start": 101.58,
+          "end": 101.64,
+          "shape": "neutral"
+        },
+        {
+          "start": 101.648,
+          "end": 101.84,
+          "shape": "talk_open"
+        },
+        {
+          "start": 101.868,
+          "end": 102.1,
+          "shape": "talk_open"
+        },
+        {
+          "start": 102.128,
+          "end": 102.48,
+          "shape": "talk_open"
+        },
+        {
+          "start": 102.508,
+          "end": 102.74,
+          "shape": "talk_open"
+        },
+        {
+          "start": 102.768,
+          "end": 103.0,
+          "shape": "talk_round"
+        },
+        {
+          "start": 106.128,
+          "end": 106.32,
+          "shape": "talk_open"
+        },
+        {
+          "start": 106.348,
+          "end": 106.5,
+          "shape": "talk_open"
+        },
+        {
+          "start": 106.528,
+          "end": 106.72,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 107.298,
+          "end": 107.65,
+          "shape": "talk_open"
+        },
+        {
+          "start": 107.678,
+          "end": 107.99,
+          "shape": "talk_open"
+        },
+        {
+          "start": 108.018,
+          "end": 108.19,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 108.218,
+          "end": 108.31,
+          "shape": "talk_open"
+        },
+        {
+          "start": 108.338,
+          "end": 108.73,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 108.758,
+          "end": 109.07,
+          "shape": "talk_round"
+        }
+      ],
+      "hand_paths": {
+        "right": [
+          {
+            "at": 65.45,
+            "position": [
+              93,
+              20
+            ],
+            "angle": -90
+          },
+          {
+            "at": 66.15,
+            "position": [
+              110,
+              -15
+            ],
+            "angle": -90,
+            "bend": [
+              4,
+              -6
+            ]
+          },
+          {
+            "at": 67.49,
+            "position": [
+              110,
+              -15
+            ],
+            "angle": -90
+          }
+        ]
+      },
+      "hand_path_window": [
+        65.45,
+        67.49
       ]
     }
   ],
   "shots": [
     {
-      "id": "setup",
+      "id": "hook",
       "start": 0,
-      "end": 4,
+      "end": 8.69,
       "background": "studio_adb",
       "actors": {
         "adb": {
           "position": [
-            510,
-            649.36
+            610,
+            591.4
           ],
-          "scale": 1.25
+          "scale": 1.7
         }
+      },
+      "camera": {
+        "center": [
+          610,
+          430
+        ],
+        "zoom": 2.15
       }
     },
     {
-      "id": "consequence",
-      "start": 4,
-      "end": 7,
-      "background": "thought",
-      "actors": {}
-    },
-    {
-      "id": "reaction",
-      "start": 7,
-      "end": 10,
-      "background": "paper",
+      "id": "school",
+      "start": 8.69,
+      "end": 13.31,
+      "background": "school_classroom",
       "actors": {
         "adb": {
           "position": [
-            510,
-            649.36
+            610,
+            591.4
           ],
-          "scale": 1.25
+          "scale": 1.7
         }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "school_detail",
+      "start": 13.31,
+      "end": 16.1,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          1080,
+          585
+        ],
+        "zoom": 1.4
+      }
+    },
+    {
+      "id": "rumor",
+      "start": 16.1,
+      "end": 22.68,
+      "background": "school_corridor",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          950,
+          530
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "friends",
+      "start": 22.68,
+      "end": 25.12,
+      "background": "school_corridor",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          620,
+          460
+        ],
+        "zoom": 1.8
+      }
+    },
+    {
+      "id": "likes",
+      "start": 25.12,
+      "end": 27.36,
+      "background": "school_corridor",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          950,
+          530
+        ],
+        "zoom": 1.12
+      }
+    },
+    {
+      "id": "louder",
+      "start": 27.36,
+      "end": 32.25,
+      "background": "school_corridor",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          610,
+          430
+        ],
+        "zoom": 2
+      }
+    },
+    {
+      "id": "doubt",
+      "start": 32.25,
+      "end": 39.42,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          670,
+          450
+        ],
+        "zoom": 1.75
+      }
+    },
+    {
+      "id": "serious",
+      "start": 39.42,
+      "end": 46.92,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          940,
+          530
+        ],
+        "zoom": 1.08
+      }
+    },
+    {
+      "id": "tell_me",
+      "start": 46.92,
+      "end": 52.96,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          610,
+          440
+        ],
+        "zoom": 1.85
+      }
+    },
+    {
+      "id": "confession",
+      "start": 52.96,
+      "end": 56.91,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          940,
+          485
+        ],
+        "zoom": 1.3
+      }
+    },
+    {
+      "id": "belief",
+      "start": 56.91,
+      "end": 59.54,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          610,
+          430
+        ],
+        "zoom": 2.2
+      }
+    },
+    {
+      "id": "replay",
+      "start": 59.54,
+      "end": 63.69,
+      "background": "thought",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "lunch_clue",
+      "start": 63.69,
+      "end": 65.45,
+      "background": "thought",
+      "actors": {},
+      "camera": {
+        "center": [
+          1170,
+          510
+        ],
+        "zoom": 1.4
+      }
+    },
+    {
+      "id": "homework_clue",
+      "start": 65.45,
+      "end": 67.49,
+      "background": "thought",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          510
+        ],
+        "zoom": 1.15
+      }
+    },
+    {
+      "id": "charming",
+      "start": 67.49,
+      "end": 73.37,
+      "background": "thought",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          610,
+          430
+        ],
+        "zoom": 2.15
+      }
+    },
+    {
+      "id": "answer",
+      "start": 73.37,
+      "end": 76.77,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          880,
+          495
+        ],
+        "zoom": 1.4
+      }
+    },
+    {
+      "id": "laugh",
+      "start": 76.77,
+      "end": 78.17,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          980,
+          485
+        ],
+        "zoom": 1.3
+      }
+    },
+    {
+      "id": "prank",
+      "start": 78.17,
+      "end": 80.6,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          610,
+          435
+        ],
+        "zoom": 2
+      }
+    },
+    {
+      "id": "accomplice",
+      "start": 80.6,
+      "end": 83.98,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          950,
+          530
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "group_project",
+      "start": 83.98,
+      "end": 89.21,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          610,
+          445
+        ],
+        "zoom": 1.9
+      }
+    },
+    {
+      "id": "staring",
+      "start": 89.21,
+      "end": 95.0,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          900,
+          510
+        ],
+        "zoom": 1.18
+      }
+    },
+    {
+      "id": "upset",
+      "start": 95.0,
+      "end": 99.42,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          930,
+          515
+        ],
+        "zoom": 1.05
+      }
+    },
+    {
+      "id": "speech",
+      "start": 99.42,
+      "end": 103.74,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          610,
+          450
+        ],
+        "zoom": 1.85
+      }
+    },
+    {
+      "id": "sanction",
+      "start": 103.74,
+      "end": 106.12,
+      "background": "school_classroom",
+      "actors": {},
+      "camera": {
+        "center": [
+          1160,
+          575
+        ],
+        "zoom": 1.55
+      }
+    },
+    {
+      "id": "one_day",
+      "start": 106.12,
+      "end": 107.29,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          610,
+          430
+        ],
+        "zoom": 2
+      }
+    },
+    {
+      "id": "science",
+      "start": 107.29,
+      "end": 110.4,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            610,
+            591.4
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          900,
+          510
+        ],
+        "zoom": 1.13
       }
     }
   ],
   "drawings": [
     {
       "author": "adb",
+      "kind": "school_clock",
+      "at": 8.69,
+      "end": 110.4,
+      "position": [
+        686,
+        205
+      ],
+      "scale": [
+        0.75,
+        0.75
+      ],
+      "mode": "hold",
+      "shots": [
+        "school",
+        "school_detail",
+        "doubt",
+        "serious",
+        "tell_me",
+        "confession",
+        "belief",
+        "answer",
+        "laugh",
+        "prank",
+        "accomplice",
+        "group_project",
+        "staring",
+        "upset",
+        "speech",
+        "sanction",
+        "one_day",
+        "science"
+      ],
+      "layer": -1
+    },
+    {
+      "author": "adb",
+      "kind": "school_friend_smile",
+      "at": 8.69,
+      "end": 16.1,
+      "position": [
+        1360,
+        894
+      ],
+      "scale": [
+        1.65,
+        1.65
+      ],
+      "mode": "hold",
+      "shots": [
+        "school",
+        "school_detail"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "adb",
+      "kind": "school_classmate",
+      "at": 16.1,
+      "end": 27.36,
+      "position": [
+        1270,
+        894
+      ],
+      "scale": [
+        1.65,
+        1.65
+      ],
+      "mode": "hold",
+      "shots": [
+        "rumor",
+        "likes"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "adb",
+      "kind": "school_friend",
+      "at": 39.42,
+      "end": 76.77,
+      "position": [
+        1310,
+        894
+      ],
+      "scale": [
+        1.65,
+        1.65
+      ],
+      "mode": "hold",
+      "shots": [
+        "serious",
+        "confession",
+        "answer"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "adb",
+      "kind": "school_friend_laugh",
+      "at": 76.77,
+      "end": 78.17,
+      "position": [
+        1310,
+        894
+      ],
+      "scale": [
+        1.65,
+        1.65
+      ],
+      "mode": "hold",
+      "shots": [
+        "laugh"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "adb",
+      "kind": "school_friend_smile",
+      "at": 80.6,
+      "end": 110.4,
+      "position": [
+        1300,
+        894
+      ],
+      "scale": [
+        1.65,
+        1.65
+      ],
+      "mode": "hold",
+      "shots": [
+        "accomplice",
+        "staring",
+        "upset",
+        "science"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "adb",
+      "kind": "school_classmate_laugh",
+      "at": 80.6,
+      "end": 83.98,
+      "position": [
+        1530,
+        894
+      ],
+      "scale": [
+        1.58,
+        1.58
+      ],
+      "mode": "hold",
+      "shots": [
+        "accomplice"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "adb",
       "kind": "text",
-      "text": "a little plan",
-      "size": 62,
+      "at": 59.54,
+      "end": 65.45,
       "position": [
-        1030,
-        260
-      ],
-      "at": 0,
-      "end": 4,
-      "mode": "hold",
-      "shots": [
-        "setup"
-      ]
-    },
-    {
-      "author": "adb",
-      "kind": "question",
-      "position": [
-        950,
-        430
-      ],
-      "scale": [
-        3,
-        3
-      ],
-      "at": 4,
-      "duration": 0.65,
-      "end": 7,
-      "mode": "live",
-      "shots": [
-        "consequence"
-      ]
-    }
-  ],
-  "props": [
-    {
-      "author": "adb",
-      "kind": "notebook",
-      "position": [
-        1260,
-        675
-      ],
-      "scale": [
-        0.55,
-        0.55
-      ],
-      "at": 0,
-      "end": 4,
-      "mode": "hold",
-      "shots": [
-        "setup"
-      ]
-    },
-    {
-      "author": "adb",
-      "kind": "desk",
-      "position": [
-        1260,
-        717
+        1000,
+        285
       ],
       "scale": [
         1,
         1
       ],
-      "at": 0,
-      "end": 4,
       "mode": "hold",
-      "layer": 0,
       "shots": [
-        "setup"
-      ]
+        "replay",
+        "lunch_clue"
+      ],
+      "text": "JUST FRIENDS",
+      "size": 56
+    },
+    {
+      "author": "adb",
+      "kind": "question",
+      "at": 65.45,
+      "end": 67.49,
+      "position": [
+        1400,
+        365
+      ],
+      "scale": [
+        2.0,
+        2.0
+      ],
+      "mode": "live",
+      "shots": [
+        "homework_clue"
+      ],
+      "duration": 0.75,
+      "event": "clue"
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 65.45,
+      "end": 67.49,
+      "position": [
+        1090,
+        275
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "shots": [
+        "homework_clue"
+      ],
+      "text": "A SIGN?",
+      "size": 58
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 78.17,
+      "end": 80.6,
+      "position": [
+        825,
+        352
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "shots": [
+        "prank"
+      ],
+      "text": "A CRUSH?",
+      "size": 36
+    },
+    {
+      "author": "adb",
+      "kind": "scratch",
+      "at": 79.3,
+      "end": 80.6,
+      "position": [
+        957,
+        372
+      ],
+      "scale": [
+        0.8,
+        0.8
+      ],
+      "mode": "live",
+      "shots": [
+        "prank"
+      ],
+      "duration": 0.42,
+      "event": "revision"
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 79.74,
+      "end": 80.6,
+      "position": [
+        835,
+        420
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "live",
+      "shots": [
+        "prank"
+      ],
+      "text": "A PRANK.",
+      "size": 36,
+      "duration": 0.65
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 103.74,
+      "end": 106.12,
+      "position": [
+        1050,
+        430
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "shots": [
+        "sanction"
+      ],
+      "text": "1 DAY",
+      "size": 65
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 107.29,
+      "end": 110.4,
+      "position": [
+        1075,
+        653
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "shots": [
+        "science"
+      ],
+      "text": "SCIENCE",
+      "size": 24
     }
   ],
-  "vfx": [],
-  "sfx": [],
-  "script": [],
-  "captions": []
+  "props": [
+    {
+      "author": "adb",
+      "kind": "desk",
+      "at": 8.69,
+      "end": 110.4,
+      "position": [
+        1180,
+        735
+      ],
+      "scale": [
+        1.3,
+        0.9
+      ],
+      "mode": "hold",
+      "shots": [
+        "school",
+        "school_detail",
+        "doubt",
+        "serious",
+        "tell_me",
+        "confession",
+        "belief",
+        "answer",
+        "laugh",
+        "prank",
+        "accomplice",
+        "group_project",
+        "staring",
+        "upset",
+        "speech",
+        "sanction",
+        "one_day",
+        "science"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "adb",
+      "kind": "homework_notes",
+      "at": 8.69,
+      "end": 110.4,
+      "position": [
+        1190,
+        697
+      ],
+      "scale": [
+        0.31,
+        0.31
+      ],
+      "mode": "hold",
+      "shots": [
+        "school",
+        "school_detail",
+        "doubt",
+        "serious",
+        "tell_me",
+        "confession",
+        "belief",
+        "answer",
+        "laugh",
+        "prank",
+        "accomplice",
+        "group_project",
+        "staring",
+        "upset",
+        "speech",
+        "sanction",
+        "one_day",
+        "science"
+      ],
+      "layer": 0,
+      "tilt": -7
+    },
+    {
+      "author": "adb",
+      "kind": "lunch_box",
+      "at": 8.69,
+      "end": 16.1,
+      "position": [
+        1035,
+        699
+      ],
+      "scale": [
+        0.6,
+        0.6
+      ],
+      "mode": "hold",
+      "shots": [
+        "school",
+        "school_detail"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "adb",
+      "kind": "lunch_box",
+      "at": 59.54,
+      "end": 65.45,
+      "position": [
+        1160,
+        560
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "mode": "hold",
+      "shots": [
+        "replay",
+        "lunch_clue"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "homework_notes",
+      "at": 65.45,
+      "end": 67.49,
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        0.45
+      ],
+      "mode": "hold",
+      "shots": [
+        "homework_clue"
+      ],
+      "layer": 0,
+      "attach": {
+        "actor": "adb",
+        "hand": "right",
+        "grip": [
+          85,
+          45
+        ],
+        "angle": 90
+      }
+    }
+  ],
+  "vfx": [
+    {
+      "author": "adb",
+      "kind": "realization",
+      "actor": "adb",
+      "offset": [
+        105,
+        -40
+      ],
+      "at": 25.12,
+      "end": 25.77,
+      "event": "likes",
+      "strength": 0.6
+    },
+    {
+      "author": "adb",
+      "kind": "sweat",
+      "actor": "adb",
+      "offset": [
+        83,
+        -25
+      ],
+      "at": 46.92,
+      "end": 47.72,
+      "strength": 0.6
+    },
+    {
+      "author": "adb",
+      "kind": "tension",
+      "actor": "adb",
+      "offset": [
+        100,
+        -40
+      ],
+      "at": 78.17,
+      "end": 78.72,
+      "event": "reveal",
+      "strength": 0.6
+    }
+  ],
+  "sfx": [
+    {
+      "file": "res://common/audio/sfx/pop.mp3",
+      "at": 25.34,
+      "duration": 0.72,
+      "gain_db": -6,
+      "event": "likes",
+      "event_offset": 0.22
+    },
+    {
+      "file": "res://common/audio/sfx/stings/sting_question_chime_01.ogg",
+      "at": 36.99,
+      "duration": 0.45,
+      "gain_db": -16.8,
+      "event": "doubt_question",
+      "event_offset": 0.18
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_05.ogg",
+      "at": 65.45,
+      "duration": 0.325,
+      "gain_db": -14.1,
+      "event": "clue",
+      "event_offset": 0.0
+    },
+    {
+      "file": "res://common/audio/sfx/bruh.mp3",
+      "at": 79.65,
+      "duration": 0.816979,
+      "gain_db": -10,
+      "event": "reveal",
+      "event_offset": 1.48
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_01.ogg",
+      "at": 79.3,
+      "duration": 0.139,
+      "gain_db": -20,
+      "event": "revision",
+      "event_offset": 0.0
+    },
+    {
+      "file": "res://common/audio/sfx/click.mp3",
+      "at": 103.84,
+      "duration": 0.365688,
+      "gain_db": -6,
+      "event": "sanction",
+      "event_offset": 0.1
+    },
+    {
+      "file": "res://common/audio/sfx/stings/sting_question_chime_01.ogg",
+      "at": 107.41,
+      "duration": 0.45,
+      "gain_db": -13.1,
+      "event": "payoff",
+      "event_offset": 0.12
+    }
+  ],
+  "events": [
+    {
+      "id": "rumor",
+      "at": 19.58,
+      "intent": "Classmate introduces the rumor."
+    },
+    {
+      "id": "likes",
+      "at": 25.12,
+      "intent": "Repeated word changes ADB interpretation."
+    },
+    {
+      "id": "doubt_question",
+      "at": 36.81,
+      "intent": "Question the source of relationship advice."
+    },
+    {
+      "id": "serious",
+      "at": 44.4,
+      "intent": "Seriousness disarms disbelief."
+    },
+    {
+      "id": "belief",
+      "at": 56.91,
+      "intent": "A small hopeful smile."
+    },
+    {
+      "id": "clue",
+      "at": 65.45,
+      "intent": "A practical favor becomes imagined evidence."
+    },
+    {
+      "id": "reveal",
+      "at": 78.17,
+      "intent": "The apparent confession is exposed as a prank."
+    },
+    {
+      "id": "revision",
+      "at": 79.3,
+      "intent": "His hopeful interpretation gets corrected."
+    },
+    {
+      "id": "sanction",
+      "at": 103.74,
+      "intent": "Attempted homework sanction."
+    },
+    {
+      "id": "payoff",
+      "at": 107.29,
+      "intent": "He needs her notes after all."
+    },
+    {
+      "id": "camera_hook",
+      "at": 0,
+      "intent": "Open the question."
+    },
+    {
+      "id": "camera_school",
+      "at": 8.69,
+      "intent": "Establish school and friendship."
+    },
+    {
+      "id": "camera_school_detail",
+      "at": 13.31,
+      "intent": "Plant the callback."
+    },
+    {
+      "id": "camera_rumor",
+      "at": 16.1,
+      "intent": "Introduce rumor."
+    },
+    {
+      "id": "camera_friends",
+      "at": 22.68,
+      "intent": "Reveal innocent interpretation."
+    },
+    {
+      "id": "camera_likes",
+      "at": 25.12,
+      "intent": "Change the implication."
+    },
+    {
+      "id": "camera_louder",
+      "at": 27.36,
+      "intent": "Land dry repetition joke."
+    },
+    {
+      "id": "camera_doubt",
+      "at": 32.25,
+      "intent": "Dismiss evidence."
+    },
+    {
+      "id": "camera_serious",
+      "at": 39.42,
+      "intent": "Change credibility."
+    },
+    {
+      "id": "camera_tell_me",
+      "at": 46.92,
+      "intent": "Make hesitation visible."
+    },
+    {
+      "id": "camera_confession",
+      "at": 52.96,
+      "intent": "Let the apparent confession feel real."
+    },
+    {
+      "id": "camera_belief",
+      "at": 56.91,
+      "intent": "Show vulnerability."
+    },
+    {
+      "id": "camera_replay",
+      "at": 59.54,
+      "intent": "Enter his thought."
+    },
+    {
+      "id": "camera_lunch_clue",
+      "at": 63.69,
+      "intent": "Show ordinary favor acquiring meaning."
+    },
+    {
+      "id": "camera_homework_clue",
+      "at": 65.45,
+      "intent": "Make mistaken deduction tangible."
+    },
+    {
+      "id": "camera_charming",
+      "at": 67.49,
+      "intent": "Peak hopeful self-image."
+    },
+    {
+      "id": "camera_answer",
+      "at": 73.37,
+      "intent": "Let him choose vulnerability."
+    },
+    {
+      "id": "camera_laugh",
+      "at": 76.77,
+      "intent": "Reverse sincerity."
+    },
+    {
+      "id": "camera_prank",
+      "at": 78.17,
+      "intent": "Protect quiet recognition."
+    },
+    {
+      "id": "camera_accomplice",
+      "at": 80.6,
+      "intent": "Reveal teamwork."
+    },
+    {
+      "id": "camera_group_project",
+      "at": 83.98,
+      "intent": "Reframe embarrassment as joke."
+    },
+    {
+      "id": "camera_staring",
+      "at": 89.21,
+      "intent": "Give aftermath time."
+    },
+    {
+      "id": "camera_upset",
+      "at": 95.0,
+      "intent": "Keep relationship warm."
+    },
+    {
+      "id": "camera_speech",
+      "at": 99.42,
+      "intent": "Recover composure."
+    },
+    {
+      "id": "camera_sanction",
+      "at": 103.74,
+      "intent": "Attempt dignity."
+    },
+    {
+      "id": "camera_one_day",
+      "at": 106.12,
+      "intent": "Undercut sanction."
+    },
+    {
+      "id": "camera_science",
+      "at": 107.29,
+      "intent": "Resolve friendship callback."
+    }
+  ],
+  "script": [
+    {
+      "actor": "adb",
+      "start": 0.35,
+      "end": 8.19,
+      "text": "My best friend once told me she had a crush on me. And somehow, I was the last person in class to understand what was happening."
+    },
+    {
+      "actor": "adb",
+      "start": 8.69,
+      "end": 15.65,
+      "text": "Back in school, we talked every day. Shared lunch, complained about teachers, borrowed homework. Normal best-friend stuff."
+    },
+    {
+      "actor": "adb",
+      "start": 16.1,
+      "end": 31.7,
+      "text": "Then one day, a classmate pulled me aside and said, \u201cBro. She likes you.\u201d I said, \u201cYeah. We're friends.\u201d He said, \u201cNo. She LIKES you.\u201d Apparently, saying the same word louder was supposed to explain everything."
+    },
+    {
+      "actor": "adb",
+      "start": 32.25,
+      "end": 38.97,
+      "text": "I laughed it off. These people couldn't even tell me the correct homework. Why would I trust their relationship advice?"
+    },
+    {
+      "actor": "adb",
+      "start": 39.42,
+      "end": 46.62,
+      "text": "But later, she came up to me. No smile. No laughing. Completely serious. \u201cDid he tell you?\u201d"
+    },
+    {
+      "actor": "adb",
+      "start": 46.92,
+      "end": 56.36,
+      "text": "I said, \u201cTell me what?\u201d I knew exactly what. I just wanted another five seconds. Then she said, \u201cI actually like you. I've wanted to tell you for a while.\u201d"
+    },
+    {
+      "actor": "adb",
+      "start": 56.91,
+      "end": 58.99,
+      "text": "And suddenly... I believed her."
+    },
+    {
+      "actor": "adb",
+      "start": 59.54,
+      "end": 67.14,
+      "text": "Now I'm replaying every conversation we'd ever had. Wait. Was sharing her lunch a sign? Was borrowing my homework a sign?"
+    },
+    {
+      "actor": "adb",
+      "start": 67.49,
+      "end": 72.77,
+      "text": "Maybe I wasn't just useful at maths. Maybe I was... charming?"
+    },
+    {
+      "actor": "adb",
+      "start": 73.37,
+      "end": 76.65,
+      "text": "So I took a breath and said, \u201cOkay, honestly, I\u2014\u201d"
+    },
+    {
+      "actor": "adb",
+      "start": 76.77,
+      "end": 78.05,
+      "text": "She burst out laughing."
+    },
+    {
+      "actor": "adb",
+      "start": 78.17,
+      "end": 79.05,
+      "text": "\u201cIt's a prank!\u201d"
+    },
+    {
+      "actor": "adb",
+      "start": 80.6,
+      "end": 88.76,
+      "text": "I looked over. The classmate was laughing too. Right. Group project. Finally, one they'd actually contributed to."
+    },
+    {
+      "actor": "adb",
+      "start": 89.21,
+      "end": 94.65,
+      "text": "I laughed along, obviously. Then spent the next period staring at the same page."
+    },
+    {
+      "actor": "adb",
+      "start": 95.0,
+      "end": 103.24,
+      "text": "She asked, \u201cYou're not upset, right?\u201d \u201cNo. Just wondering how you remembered that whole speech but never remember your homework.\u201d"
+    },
+    {
+      "actor": "adb",
+      "start": 103.74,
+      "end": 105.42,
+      "text": "She lost borrowing privileges."
+    },
+    {
+      "actor": "adb",
+      "start": 106.12,
+      "end": 106.84,
+      "text": "For one day."
+    },
+    {
+      "actor": "adb",
+      "start": 107.29,
+      "end": 109.29,
+      "text": "Then I needed her science notes."
+    }
+  ],
+  "captions": [
+    {
+      "actor": "adb",
+      "words": [
+        0,
+        3
+      ],
+      "start": 0.35,
+      "end": 1.47,
+      "text": "My best friend once"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        4,
+        7
+      ],
+      "start": 1.47,
+      "end": 2.25,
+      "text": "told me she had"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        8,
+        11
+      ],
+      "start": 2.25,
+      "end": 3.25,
+      "text": "a crush on me."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        12,
+        13
+      ],
+      "start": 3.71,
+      "end": 4.15,
+      "text": "And somehow,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        14,
+        17
+      ],
+      "start": 4.85,
+      "end": 5.43,
+      "text": "I was the last"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        18,
+        21
+      ],
+      "start": 5.43,
+      "end": 6.61,
+      "text": "person in class to"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        22,
+        25
+      ],
+      "start": 6.61,
+      "end": 7.99,
+      "text": "understand what was happening."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        26,
+        29
+      ],
+      "start": 8.69,
+      "end": 9.65,
+      "text": "Back in school, we"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        30,
+        32
+      ],
+      "start": 9.65,
+      "end": 10.69,
+      "text": "talked every day."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        33,
+        36
+      ],
+      "start": 11.01,
+      "end": 12.47,
+      "text": "Shared lunch, complained about"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        37,
+        39
+      ],
+      "start": 12.47,
+      "end": 13.77,
+      "text": "teachers, borrowed homework,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        40,
+        43
+      ],
+      "start": 14.31,
+      "end": 15.51,
+      "text": "normal best friend stuff."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        44,
+        46
+      ],
+      "start": 16.1,
+      "end": 16.96,
+      "text": "Then one day,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        47,
+        50
+      ],
+      "start": 17.44,
+      "end": 18.3,
+      "text": "a classmate pulled me"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        51,
+        53
+      ],
+      "start": 18.3,
+      "end": 19.1,
+      "text": "aside and said,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        54,
+        54
+      ],
+      "start": 19.58,
+      "end": 19.88,
+      "text": "Bro,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        55,
+        57
+      ],
+      "start": 20.26,
+      "end": 21.22,
+      "text": "she likes you."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        58,
+        59
+      ],
+      "start": 21.64,
+      "end": 22.06,
+      "text": "I said,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        60,
+        60
+      ],
+      "start": 22.68,
+      "end": 22.86,
+      "text": "yeah,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        61,
+        62
+      ],
+      "start": 23.28,
+      "end": 23.9,
+      "text": "we're friends."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        63,
+        66
+      ],
+      "start": 24.4,
+      "end": 26.18,
+      "text": "He said, no, she"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        67,
+        68
+      ],
+      "start": 26.18,
+      "end": 26.78,
+      "text": "likes you."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        69,
+        69
+      ],
+      "start": 27.36,
+      "end": 27.82,
+      "text": "Apparently,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        70,
+        73
+      ],
+      "start": 28.18,
+      "end": 29.16,
+      "text": "saying the same word"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        74,
+        77
+      ],
+      "start": 29.16,
+      "end": 30.36,
+      "text": "louder was supposed to"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        78,
+        79
+      ],
+      "start": 30.36,
+      "end": 31.48,
+      "text": "explain everything."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        80,
+        83
+      ],
+      "start": 32.25,
+      "end": 33.13,
+      "text": "I laughed it off."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        84,
+        87
+      ],
+      "start": 33.65,
+      "end": 34.63,
+      "text": "These people couldn't even"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        88,
+        91
+      ],
+      "start": 34.63,
+      "end": 35.55,
+      "text": "tell me the correct"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        92,
+        92
+      ],
+      "start": 35.55,
+      "end": 35.93,
+      "text": "homework."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        93,
+        96
+      ],
+      "start": 36.81,
+      "end": 37.61,
+      "text": "Why would I trust"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        97,
+        99
+      ],
+      "start": 37.61,
+      "end": 38.75,
+      "text": "their relationship advice?"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        100,
+        101
+      ],
+      "start": 39.42,
+      "end": 39.94,
+      "text": "But later,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        102,
+        105
+      ],
+      "start": 40.32,
+      "end": 41.0,
+      "text": "she came up to"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        106,
+        106
+      ],
+      "start": 41.0,
+      "end": 41.16,
+      "text": "me."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        107,
+        108
+      ],
+      "start": 41.78,
+      "end": 42.34,
+      "text": "No smile,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        109,
+        110
+      ],
+      "start": 42.76,
+      "end": 43.24,
+      "text": "no laughing,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        111,
+        112
+      ],
+      "start": 43.68,
+      "end": 44.92,
+      "text": "completely serious."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        113,
+        116
+      ],
+      "start": 45.88,
+      "end": 46.5,
+      "text": "Did he tell you?"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        117,
+        120
+      ],
+      "start": 46.92,
+      "end": 47.98,
+      "text": "I said, tell me"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        121,
+        121
+      ],
+      "start": 47.98,
+      "end": 48.2,
+      "text": "what,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        122,
+        125
+      ],
+      "start": 48.52,
+      "end": 49.54,
+      "text": "I knew exactly what."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        126,
+        129
+      ],
+      "start": 49.86,
+      "end": 50.62,
+      "text": "I just wanted another"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        130,
+        131
+      ],
+      "start": 50.62,
+      "end": 51.34,
+      "text": "five seconds."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        132,
+        134
+      ],
+      "start": 51.9,
+      "end": 52.48,
+      "text": "Then she said,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        135,
+        138
+      ],
+      "start": 52.84,
+      "end": 54.04,
+      "text": "I actually like you."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        139,
+        142
+      ],
+      "start": 54.62,
+      "end": 55.54,
+      "text": "I've wanted to tell"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        143,
+        146
+      ],
+      "start": 55.54,
+      "end": 56.2,
+      "text": "you for a while."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        147,
+        148
+      ],
+      "start": 56.91,
+      "end": 58.07,
+      "text": "And suddenly..."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        149,
+        151
+      ],
+      "start": 58.07,
+      "end": 58.89,
+      "text": "I believed her."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        152,
+        155
+      ],
+      "start": 59.54,
+      "end": 60.76,
+      "text": "Now I'm replaying every"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        156,
+        159
+      ],
+      "start": 60.76,
+      "end": 62.46,
+      "text": "conversation we'd ever had."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        160,
+        160
+      ],
+      "start": 62.96,
+      "end": 63.14,
+      "text": "Wait."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        161,
+        164
+      ],
+      "start": 63.7,
+      "end": 64.48,
+      "text": "Was sharing her lunch"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        165,
+        166
+      ],
+      "start": 64.48,
+      "end": 64.92,
+      "text": "a sign?"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        167,
+        170
+      ],
+      "start": 65.48,
+      "end": 66.52,
+      "text": "Was borrowing my homework"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        171,
+        172
+      ],
+      "start": 66.52,
+      "end": 67.04,
+      "text": "a sign?"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        173,
+        176
+      ],
+      "start": 67.49,
+      "end": 68.65,
+      "text": "Maybe I wasn't just"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        177,
+        179
+      ],
+      "start": 68.65,
+      "end": 69.75,
+      "text": "useful at maths."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        180,
+        182
+      ],
+      "start": 70.55,
+      "end": 72.13,
+      "text": "Maybe I was..."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        183,
+        183
+      ],
+      "start": 72.13,
+      "end": 72.53,
+      "text": "charming?"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        184,
+        187
+      ],
+      "start": 73.37,
+      "end": 73.93,
+      "text": "So I took a"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        188,
+        191
+      ],
+      "start": 73.93,
+      "end": 75.21,
+      "text": "breath and said, Okay,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        192,
+        192
+      ],
+      "start": 75.41,
+      "end": 75.91,
+      "text": "honestly,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        193,
+        193
+      ],
+      "start": 76.39,
+      "end": 76.63,
+      "text": "I\u2014"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        194,
+        197
+      ],
+      "start": 76.77,
+      "end": 77.83,
+      "text": "She burst out laughing."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        198,
+        199
+      ],
+      "start": 78.17,
+      "end": 78.87,
+      "text": "It's a prank!"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        200,
+        202
+      ],
+      "start": 80.6,
+      "end": 81.34,
+      "text": "I looked over."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        203,
+        206
+      ],
+      "start": 81.8,
+      "end": 82.86,
+      "text": "The classmate was laughing"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        207,
+        207
+      ],
+      "start": 82.86,
+      "end": 83.34,
+      "text": "too."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        208,
+        208
+      ],
+      "start": 83.98,
+      "end": 84.2,
+      "text": "Right."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        209,
+        210
+      ],
+      "start": 84.82,
+      "end": 85.5,
+      "text": "Group project?"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        211,
+        214
+      ],
+      "start": 86.18,
+      "end": 87.68,
+      "text": "Finally, one they'd actually"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        215,
+        216
+      ],
+      "start": 87.68,
+      "end": 88.58,
+      "text": "contributed to."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        217,
+        219
+      ],
+      "start": 89.21,
+      "end": 90.17,
+      "text": "I laughed along,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        220,
+        220
+      ],
+      "start": 90.51,
+      "end": 90.99,
+      "text": "obviously."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        221,
+        224
+      ],
+      "start": 91.83,
+      "end": 92.63,
+      "text": "Then spent the next"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        225,
+        228
+      ],
+      "start": 92.63,
+      "end": 93.93,
+      "text": "period staring at the"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        229,
+        230
+      ],
+      "start": 93.93,
+      "end": 94.51,
+      "text": "same page."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        231,
+        232
+      ],
+      "start": 95.0,
+      "end": 95.6,
+      "text": "She asked,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        233,
+        235
+      ],
+      "start": 96.12,
+      "end": 96.94,
+      "text": "You're not upset,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        236,
+        236
+      ],
+      "start": 97.44,
+      "end": 97.64,
+      "text": "right?"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        237,
+        237
+      ],
+      "start": 98.26,
+      "end": 98.66,
+      "text": "No."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        238,
+        241
+      ],
+      "start": 99.06,
+      "end": 100.24,
+      "text": "Just wondering how you"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        242,
+        245
+      ],
+      "start": 100.24,
+      "end": 101.58,
+      "text": "remembered that whole speech"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        246,
+        249
+      ],
+      "start": 101.58,
+      "end": 102.76,
+      "text": "but never remember your"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        250,
+        250
+      ],
+      "start": 102.76,
+      "end": 103.02,
+      "text": "homework."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        251,
+        254
+      ],
+      "start": 103.74,
+      "end": 105.12,
+      "text": "She lost borrowing privileges."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        255,
+        257
+      ],
+      "start": 106.12,
+      "end": 106.74,
+      "text": "for one day."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        258,
+        261
+      ],
+      "start": 107.29,
+      "end": 108.33,
+      "text": "Then I needed her"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        262,
+        263
+      ],
+      "start": 108.33,
+      "end": 109.09,
+      "text": "science notes."
+    }
+  ],
+  "mix": {
+    "master_gain_db": 3.3,
+    "target_lufs": -18.0,
+    "peak_dbfs": -1.5
+  }
 }

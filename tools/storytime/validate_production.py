@@ -4,6 +4,7 @@ import math
 from pathlib import Path
 
 ART = {'laptop','phone','mug','tabs','cloud','desk','suitcase','car','damaged_car','police_car','steering_wheel','boarding_pass','clipboard','flashlight','traffic_cone','tissue_box','seat_front'}
+ART |= {'school_friend','school_friend_smile','school_friend_laugh','school_classmate','school_classmate_laugh','lunch_box','homework_notes','school_clock'}
 HANDS = {'nemi': {'relaxed','pointing','fist','open','open_palm_up','finger_count_one','finger_count_two','finger_count_three','splayed_fingers','pinch','hold_prop','hand_to_chest','hand_to_cheek','hand_to_mouth','facepalm','hands_together','grip_strap'},
          'adb': {'relaxed','open_palm','pointing','fist','holding_cup','shrug_open','hand_to_chin'}}
 
@@ -99,7 +100,7 @@ def validate_production(spec, root, core_validate, check_assets=True):
         shot_ids.add(shot['id'])
         require(num(shot.get('start')) and num(shot.get('end')) and abs(shot['start']-previous)<1e-6 and shot['start']<shot['end']<=duration,'shots must cover the scene in order, without gaps/overlaps')
         previous=shot['end']
-        require(shot.get('background') in {'paper','room','thought','evening','studio_nemi','studio_adb','sf_street','sf_bridge','tech_auditorium','car_cabin','airport_road','roadside'},'Unknown background')
+        require(shot.get('background') in {'paper','room','thought','evening','studio_nemi','studio_adb','sf_street','sf_bridge','tech_auditorium','car_cabin','airport_road','roadside','school_classroom','school_corridor'},'Unknown background')
         require(isinstance(shot.get('actors'),dict),'shot actors must be an id → placement object')
         for id,placement in shot['actors'].items():
             require(id in ids,f'Unknown shot actor: {id}')

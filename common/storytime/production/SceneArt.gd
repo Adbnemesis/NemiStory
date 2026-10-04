@@ -3,8 +3,10 @@ extends RefCounted
 const Drawing=preload("res://common/engine/illustration/LiveDrawing.gd")
 const Assets=preload("res://common/storytime/ProfileAssets.gd")
 const Travel=preload("res://common/storytime/production/TravelArt.gd")
+const School=preload("res://common/storytime/production/SchoolArt.gd")
 static func make(author: String, kind: String) -> Node2D:
 	if kind in Travel.KINDS: return Travel.make(author,kind)
+	if kind in School.KINDS: return School.make(author,kind)
 	if kind in Assets.profile(author).marks: return Assets.mark(author,kind)
 	var node=Drawing.new()
 	var ink := Color(Assets.profile(author).ink)

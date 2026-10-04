@@ -1,6 +1,7 @@
 extends Node2D
 ## Authored scenery selection. Not every beat needs an illustration reveal.
 var kind := "paper"
+const School=preload("res://common/storytime/production/SchoolBackdrop.gd")
 func set_kind(value: String) -> void:
 	if value!=kind:
 		kind=value
@@ -10,6 +11,9 @@ func ink(points: Array, color: Color=Color("#b6aa98"), width: float=2.0) -> void
 	for p in points: packed.append(Vector2(p[0],p[1]))
 	draw_polyline(packed,color,width,true)
 func _draw() -> void:
+	if kind in ["school_classroom","school_corridor"]:
+		School.draw_set(self,kind)
+		return
 	if kind in ["sf_street","sf_bridge","tech_auditorium","car_cabin","airport_road","roadside"]:
 		_draw_travel()
 		return

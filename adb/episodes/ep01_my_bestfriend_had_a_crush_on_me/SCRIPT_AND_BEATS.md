@@ -66,7 +66,7 @@ Conversational and dry, briefly sincere on “And suddenly... I believed her.”
 
 Suggested intentional holds: short beat after “We're friends”; thinking pause before “charming”; clean interruption after “I—”; roughly one second of silent recognition after “It's a prank”; small beat before “For one day”; final still hold after “science notes.” These are editorial intentions, not audio timestamps. Keep emotional hesitation when recording.
 
-Estimate at 150–165 spoken words/minute plus 7–10 seconds of intentional holds. Measure the canonical Aiden recording before fixing final duration. Start at 1.00×; revise wordiness before permitted pitch-preserving pacing. Never reuse another recording's word times.
+Initial estimate: 150–165 spoken words/minute plus 7–10 seconds of intentional holds. Measured finished scene: **110.4 seconds (1:50.4)**. Measure the canonical Aiden recording before fixing final duration. Start at 1.00×; revise wordiness before permitted pitch-preserving pacing. Never reuse another recording's word times.
 
 ## Direction brief
 
@@ -94,4 +94,6 @@ Recording-order beats, not measured scene intervals. Add start/end seconds from 
 
 ## Production status
 
-Script and direction ready for review. Current scene.json is the untouched silent ten-second generator placeholder, not this episode's animation or timing. Classroom artwork, narration, measured word times, mouth intervals, captions, production spec, proof and finished video remain unproduced. No playback/listening or final-render approval is claimed.
+Full animation authored on a measured 110.4-second scene clock. Eighteen canonical Aiden source recordings are retained and hashed at 1.00×; timing_reference.json contains final placements and 264 measured word spans. Scene.json contains 27 thought-driven shots, 91 caption cards and 286 authored mouth intervals. Camera/sound sidecars carry exact scene events. School environments and anonymous supporting classmate illustrations are new; the existing ADB rig and libraries are preserved.
+
+See renders/RENDERS.md for current complete movies and review/STATUS.md for performed checks and remaining limitations. Mouth subdivisions are authored annotations within measured word spans, not a claim of measured phoneme accuracy. Perceptual listening remains unverified by the agent.

@@ -1,0 +1,153 @@
+[
+  {
+    "id": "viral_pop",
+    "sha256": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+    "source": "Existing project root MP3",
+    "license": "Not recorded for existing root MP3",
+    "cue": {
+      "file": "res://common/audio/sfx/pop.mp3",
+      "at": 25.34,
+      "duration": 0.72,
+      "gain_db": -6,
+      "event": "likes",
+      "event_offset": 0.22
+    },
+    "levels": {
+      "sfx_rms_dbfs": -29.2,
+      "sfx_peak_dbfs": -6.2,
+      "nearby_voice_rms_dbfs": -19.6,
+      "relative_rms_db": -9.6,
+      "prominence": "accent"
+    }
+  },
+  {
+    "id": "sting_question_chime_01",
+    "sha256": "abb8f9e4eb2071491b0b15f84ee302386b1847609310c1b000ae174639a6cc5a",
+    "source": "Kenney (interface)",
+    "license": "CC0 1.0 Universal (Public Domain)",
+    "cue": {
+      "file": "res://common/audio/sfx/stings/sting_question_chime_01.ogg",
+      "at": 36.99,
+      "duration": 0.45,
+      "gain_db": -16.8,
+      "event": "doubt_question",
+      "event_offset": 0.18
+    },
+    "levels": {
+      "sfx_rms_dbfs": -28.2,
+      "sfx_peak_dbfs": -17.7,
+      "nearby_voice_rms_dbfs": -21.2,
+      "relative_rms_db": -7.0,
+      "prominence": "accent"
+    }
+  },
+  {
+    "id": "drawing_scratch_scribble_05",
+    "sha256": "65742c15dca9853611e1c9e83bd04ac0d693f79896715cafa90bad39745d7a62",
+    "source": "Kenney (interface)",
+    "license": "CC0 1.0 Universal (Public Domain)",
+    "cue": {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_05.ogg",
+      "at": 65.45,
+      "duration": 0.325,
+      "gain_db": -14.1,
+      "event": "clue",
+      "event_offset": 0.0
+    },
+    "levels": {
+      "sfx_rms_dbfs": -30.2,
+      "sfx_peak_dbfs": -16.2,
+      "nearby_voice_rms_dbfs": -19.3,
+      "relative_rms_db": -11.0,
+      "prominence": "surface"
+    }
+  },
+  {
+    "id": "viral_bruh",
+    "sha256": "6a04c34422d17b5ad0a62baaf5810dab7e19aa06baf5cbe2002fc750486ff170",
+    "source": "Existing project root MP3",
+    "license": "Not recorded for existing root MP3",
+    "cue": {
+      "file": "res://common/audio/sfx/bruh.mp3",
+      "at": 79.65,
+      "duration": 0.816979,
+      "gain_db": -10,
+      "event": "reveal",
+      "event_offset": 1.48
+    },
+    "levels": {
+      "sfx_rms_dbfs": -21.4,
+      "sfx_peak_dbfs": -9.7,
+      "nearby_voice_rms_dbfs": -20.1,
+      "relative_rms_db": -1.3,
+      "prominence": "hero",
+      "dialogue_reference": [
+        78.17,
+        79.05
+      ]
+    }
+  },
+  {
+    "id": "drawing_scratch_scribble_01",
+    "sha256": "5c294d2e1a6b6d07ee2d75b17105a55ad3527e5482dd60652dc49c2ea4c70096",
+    "source": "Kenney (interface)",
+    "license": "CC0 1.0 Universal (Public Domain)",
+    "cue": {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_01.ogg",
+      "at": 79.3,
+      "duration": 0.139,
+      "gain_db": -20,
+      "event": "revision",
+      "event_offset": 0.0
+    },
+    "levels": {
+      "sfx_rms_dbfs": -33.1,
+      "sfx_peak_dbfs": -21.5,
+      "nearby_voice_rms_dbfs": -30,
+      "relative_rms_db": -3.1,
+      "prominence": "surface"
+    }
+  },
+  {
+    "id": "viral_click",
+    "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+    "source": "Existing project root MP3",
+    "license": "Not recorded for existing root MP3",
+    "cue": {
+      "file": "res://common/audio/sfx/click.mp3",
+      "at": 103.84,
+      "duration": 0.365688,
+      "gain_db": -6,
+      "event": "sanction",
+      "event_offset": 0.1
+    },
+    "levels": {
+      "sfx_rms_dbfs": -34.6,
+      "sfx_peak_dbfs": -9.9,
+      "nearby_voice_rms_dbfs": -17.2,
+      "relative_rms_db": -17.4,
+      "prominence": "accent"
+    }
+  },
+  {
+    "id": "sting_question_chime_01",
+    "sha256": "abb8f9e4eb2071491b0b15f84ee302386b1847609310c1b000ae174639a6cc5a",
+    "source": "Kenney (interface)",
+    "license": "CC0 1.0 Universal (Public Domain)",
+    "cue": {
+      "file": "res://common/audio/sfx/stings/sting_question_chime_01.ogg",
+      "at": 107.41,
+      "duration": 0.45,
+      "gain_db": -13.1,
+      "event": "payoff",
+      "event_offset": 0.12
+    },
+    "levels": {
+      "sfx_rms_dbfs": -24.5,
+      "sfx_peak_dbfs": -14.0,
+      "nearby_voice_rms_dbfs": -17.5,
+      "relative_rms_db": -7.0,
+      "prominence": "accent"
+    }
+  }
+]
