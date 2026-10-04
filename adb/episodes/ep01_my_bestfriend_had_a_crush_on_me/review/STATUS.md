@@ -27,3 +27,7 @@ Generated movies, source voice and full-resolution stills remain local. Producti
 ## Authorized native 4K export
 
 2026-10-04: no scene, narration, timing or sound changes. Current preflight READY and shared renderer validation passed. Native vector capture and final H.264/AAC export are 3840×2160, 30 FPS, 3312 decoded frames and exactly 110.4 seconds; full decoding passes. Encoded audio remains −18.1 LUFS / −1.5 dB true peak. Ten exported 4K frame samples inspected across opening, courtyard, sweat, shy belief, notebook contact, nervous answer, prank reaction, page insert, DENIED stamp and ending. Native 4K browser playback reviewed around sweat and notebook-contact transitions, plus the ending. All prior movies are preserved. Perceptual listening remains unverified. Export hash and scene identity are recorded in 4k_r4_export.json.
+
+## User-requested render cleanup
+
+After the checked final 4K export, the user requested removal of unnecessary renders. The sole retained movie is ADB_EP01_full_r4_4K.mp4. Superseded movies and generated full-resolution stills were removed; voice, script, scene, assets, timing, tools and all QA records/contact sheets remain. Historical checks above describe media before cleanup; those earlier movie links are now historical. Final-master hash rechecked unchanged after cleanup. Exact inventory: RENDER_CLEANUP.json.

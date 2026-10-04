@@ -36,7 +36,7 @@ ADB authored hand paths now preserve 58/55 local-unit arm lengths. Unspecified w
 
 Real episodes belong in `<author>/episodes/epNN_<story_slug>/`; examples are explicit technical/art studies only. Save script/spec/preflight/timing/tools/review together and generated media under `renders/`. Check character size against furniture, doors and vehicles; labels/live marks cannot stand in for a story location.
 
-Current approved masters live in each episode’s `renders/` folder with revision/resolution names and a `RENDERS.md` index; preserve older movies. Read mandatory `COMMON_CAMERA_STAGING.md`, save exact-word camera intentions, and inspect portrait as well as wide/contact framing.
+Current approved masters live in each episode’s `renders/` folder with revision/resolution names and a `RENDERS.md` index. Preserve intermediate/older movies until the approved final 4K export passes checks; then, per the user’s retention preference, keep only the final 4K movie and remove superseded movies and unnecessary generated stills. Retain voice, script, assets, source and QA records; record cleanup in the episode. This preference does not authorize retroactive cleanup of unrelated episodes. Read mandatory `COMMON_CAMERA_STAGING.md`, save exact-word camera intentions, and inspect portrait as well as wide/contact framing.
 
 Sound direction is mandatory for both characters: read `docs/animation/COMMON_SFX_SYSTEM.md`, save event-linked cue choices and verify actual exported audibility. Narration plus a few inaudible effects is not a finished sound pass. User-requested superseded-render cleanup happens only after replacement media passes checks; retain voice, script, assets and QA records.
 

@@ -1,14 +1,7 @@
-# My Best Friend Had a Crush on Me — render index
+# My Best Friend Had a Crush on Me — final render
 
-Latest approved **revision 4 masters** (4K authorized after 1080p review):
+**ADB_EP01_full_r4_4K.mp4** is the sole retained movie: native 3840×2160, 30 FPS, 110.4 seconds / 1:50.4, 3312 decoded frames. Approved revision-4 animation, original Aiden narration and ten-cue sound mix. Full decoding passes; sound −18.1 LUFS / −1.5 dB true peak. Perceptual listening remains unverified.
 
-- **ADB_EP01_full_r4_4K.mp4** — native 3840×2160, 30 FPS, 110.4 seconds / 1:50.4, 3312 decoded frames. Same approved revision-4 scene, narration and mix; vector capture at 4K, not an upscale. Full decode passes; sound −18.1 LUFS / −1.5 dB true peak.
-- **ADB_EP01_full_r4_1080p.mp4** — 1920×1080, 30 FPS, 110.4 seconds / 1:50.4, 3312 frames. Revised expressions, posing, environments, visual jokes, prop contact, live marks and ten-cue sound pass. Original Aiden narration retained. Full decoding passes; encoded sound −18.1 LUFS / −1.5 dB true peak. Perceptual listening remains unverified.
-- **ADB_EP01_expression_proof_r4b_1080p.mp4** — latest ten-second contact/expression proof, scene seconds 60–70; corrected page grip, 300 frames.
-- **ADB_EP01_integrated_r4b_1080p.mp4** — latest 48-second integrated review, scene seconds 52–100; 1440 frames.
+After the verified 4K export, the user requested cleanup. Superseded 1080p/4K movies, proof/integrated movies and generated full-resolution stills were removed. Original/prepared voice, script, scene, assets, timing, production tools, QA logs/JSON and small review contact sheets remain. See ../review/RENDER_CLEANUP.json for the exact inventory and reclaimed space, and ../review/4k_r4_export.json for final export checks/hash.
 
-The user authorized the 4K export on 2026-10-04 after reviewing 1080p. See ../review/4k_r4_export.json for resolution, duration, frame count and hash checks.
-
-Preserved previous media: full_r3_1080p and native full_r3_4K (previous direction, superseded for creative review); proof_r3_4K; full_r2_1080p; integrated_r2_1080p; prank_proof_r1_1080p; expression_proof_r4_1080p and integrated_r4_1080p (before the last notebook-grip correction). All retain their original filenames; no movies overwritten or deleted.
-
-See ../review/STATUS.md and final_r4_1080p_qa.json. Generated movies, voice and full-resolution stills remain local. Sources, measured timings and small review evidence are tracked.
+For future episodes, retain intermediate renders until the final 4K movie passes verification, then keep only that final movie and the production/QA records.
