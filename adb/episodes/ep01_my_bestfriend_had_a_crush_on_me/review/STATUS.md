@@ -31,3 +31,5 @@ Generated movies, source voice and full-resolution stills remain local. Producti
 ## User-requested render cleanup
 
 After the checked final 4K export, the user requested removal of unnecessary renders. The sole retained movie is ADB_EP01_full_r4_4K.mp4. Superseded movies and generated full-resolution stills were removed; voice, script, scene, assets, timing, tools and all QA records/contact sheets remain. Historical checks above describe media before cleanup; those earlier movie links are now historical. Final-master hash rechecked unchanged after cleanup. Exact inventory: RENDER_CLEANUP.json.
+
+The user clarified that renders/ must contain ONLY the final 4K movie. All capture logs/audio reports were moved to review/render_records/ and the render index to review/RENDERS.md. The folder was verified to contain exactly one file: ADB_EP01_full_r4_4K.mp4.
