@@ -1,0 +1,15 @@
+{
+  "format": "ep09-static-thumbnail-v1",
+  "author": "nemi",
+  "intent": "Shocked narrator foreground, truthful rear-end collision vignette, San Francisco context. Editorial collage, not one literal-scale scene.",
+  "palette": {"ink": "#38101e", "accent": "#ad5e69", "paper": "#faf6ed"},
+  "character": {"position": [385, 1195], "scale": 4.8},
+  "cars": [
+    {"kind": "damaged_car", "position": [1010, 901], "scale": 0.86},
+    {"kind": "car", "position": [1527, 901], "scale": 0.86}
+  ],
+  "variants": [
+    {"file": "thumbnail", "top": "MY TAXI", "bottom": "GOT HIT.", "top_size": 218, "bottom_size": 226},
+    {"file": "thumbnail_alt", "top": "5 MINUTES", "bottom": "FROM SFO...", "top_size": 194, "bottom_size": 185}
+  ]
+}
