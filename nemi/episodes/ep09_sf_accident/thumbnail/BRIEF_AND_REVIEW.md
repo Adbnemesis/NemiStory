@@ -1,19 +1,21 @@
-# Nemi EP09 thumbnail revision 2 — 2026-10-04
+# Nemi EP09 thumbnail revision 3 — 2026-10-04
 
-User requested **MY TAXI GOT HIT** as the only text; removal of the location label, aside and taxi roof label; EP00-inspired burgundy/pink background, little doodles and common white glow/outline. The existing storytime character and rear-end car art remain.
+The user rejected revision 2’s burgundy/pink background and said ADB’s background was fine. This change revises only Nemi’s colour field; keep the single **MY TAXI GOT HIT** headline, shocked production-rig portrait, cream rear-end collision art, white silhouette aura and completed Nemi-profile doodles.
 
-References inspected: Nemi EP00 thumbnail (burgundy/pink field, white compact doodles); earlier EP09 film contact sheet and collision still already inspected in this chat. Script evidence: airport taxi rear-ended, Nemi in the back. Both cars face left; follower nose meets taxi rear. Thumbnail is an editorial character/event collage. Author: nemi.
+Revision 2 source, exports, log and provenance are preserved under `revisions/r2/`; revision 1 remains under `revisions/r1/`. Actual episode/script evidence and art sources are unchanged: human-driven airport taxi rear-ended, Nemi in the back; both cars face left and follower nose meets taxi rear. This is an editorial portrait/event collage.
 
-Application: recreate the background treatment in Godot rather than reusing the old generated face; external white halo is compositing around unchanged production art. Keep the existing supported Nemi shocked face, canonical colours and arms beside the face. Profile marks retain her own paths.
+## Palette application and review
 
-Revision 1 source, exports and provenance preserved in revisions/r1/.
+Rendered and viewed blue (`#183b57` to `#508aa8`), warm brown (`#603b35` to `#bc825a`) and lavender (`#3e3b66` to `#7c79ac`) full compositions in Godot. Chose navy-to-denim blue for clear warm/cool separation from Nemi’s red hair, readable cream/white type and a quieter field behind the aura. Brown is close to her hair hue; lavender has softer value separation. This is assistant visual judgment, not user approval or audience-performance evidence.
 
-## Final review and files
+Fresh final Godot render completed with `THUMBNAIL_OK nemi_ep09_revision3` and no errors/warnings. Viewed final 1920×1080 JPG, 320×180 phone preview, 160×90 tiny preview and native 3840×2160 master displayed at 2048×1152. Headline readable at reduced sizes; eyes and face remain clear; white aura/marks and existing bumper contact retained. Bottom-right wheels remain close to a potential platform duration overlay, with no critical headline/face there. No upload or CTR measurement performed.
 
-Fresh Godot exports passed with a completion marker and no errors/warnings in the final log. Inspected the 1920×1080 JPG, 320×180 preview, 160×90 preview and native 3840×2160 master displayed at 2048×1152. One headline reads at both reduced sizes; face/eyes stay clear. Native masters were rasterized from the vector rig/art before editorial compositing, not upscaled from a 1080p bitmap.
+Recommended delivery: `thumbnail.jpg`. Editable layout: `layout.json`; static renderer: `render_thumbnail.gd`; shared styling: `tools/storytime/ThumbnailStyle.gd`. Source/output dimensions, sizes and hashes are recorded in `provenance_and_qa.json`; engine output is in `render.log`. Native masters/previews stay local. From the repository root:
 
-Recommended copy: `thumbnail.jpg`. Editable layout: `layout.json`; renderer: `render_thumbnail.gd`; shared external styling: `tools/storytime/ThumbnailStyle.gd`. Master and inspection PNGs remain local. Source/reference/output dimensions, sizes and hashes are in `provenance_and_qa.json`; final engine output is in `render.log`. Run the installed Godot from the repository root with `--path . --log-file /tmp/thumbnail.log --script` followed by this folder's renderer path.
+```sh
+/Users/talus/Downloads/Godot.app/Contents/MacOS/Godot --path . --log-file /tmp/nemi_ep09_thumbnail_r3.log --script nemi/episodes/ep09_sf_accident/thumbnail/render_thumbnail.gd --quit-after 180
+```
 
-Both updated skills passed the skill validator. Protected-source diff checks found no changes to the character rigs, expression/pose/hand libraries, shared props/profiles or either episode scene. No animation, voice or movie changes. The EP00 image was a visual background reference only; no old generated character, lettering or background pixels were reused. Provenance: **Godot render using existing production rig/art; AI-assisted direction/code**. No audience-performance claim or user approval is implied.
+Renderer optionally accepts `-- --layout=<json-path> --output=<file-prefix>` for isolated colour studies. Default invocation exports the episode’s current selected layout. Canonical rig/prop geometry, art palette, expression, placement and type remain unchanged; no episode animation/audio/movie edits. Shared document, AGENTS routing and Nemi skill now record the rejected background preference without treating blue as a permanently approved channel palette. ADB remains unchanged.
 
-Removed the location/aside/object text. Preserved previous outputs/source/QA under `revisions/r1/`; superseded alternate files now live there. Nemi uses her own rounded double underline and impact strokes; both vehicles face left with nose-to-rear contact.
+Provenance: **Godot render using existing production rig/art; AI-assisted direction/code**. EP00 remains a historical reference for aura/doodle treatment, with no old generated pixels copied.

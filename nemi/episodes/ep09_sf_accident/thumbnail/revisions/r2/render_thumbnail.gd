@@ -1,17 +1,12 @@
 extends SceneTree
-## EP09 static revision 3: one headline, contrasting colour field and shared white aura.
+## EP09 static revision 2: one headline, EP00-inspired colour field and shared white aura.
 const NemiScene = preload("res://nemi/characters/nemi/nemi.tscn")
 const Travel = preload("res://common/storytime/production/TravelArt.gd")
 const Style = preload("res://tools/storytime/ThumbnailStyle.gd")
 const OUT = "res://nemi/episodes/ep09_sf_accident/thumbnail/"
 func _initialize() -> void: call_deferred("run")
 func run() -> void:
-	var layout_path = OUT+"layout.json"
-	var output_prefix = OUT+"thumbnail"
-	for arg in OS.get_cmdline_user_args():
-		if arg.begins_with("--layout="): layout_path = arg.trim_prefix("--layout=")
-		if arg.begins_with("--output="): output_prefix = arg.trim_prefix("--output=")
-	var layout = JSON.parse_string(FileAccess.get_file_as_string(layout_path))
+	var layout = JSON.parse_string(FileAccess.get_file_as_string(OUT+"layout.json"))
 	assert(layout.author=="nemi")
 	var art_vp = SubViewport.new()
 	art_vp.size = Vector2i(3840,2160)
@@ -64,6 +59,6 @@ func run() -> void:
 	Style.mark(world,"nemi","spark",Vector2(1300,912),Vector2(1.7,1.7),174)
 	for i in range(3): await process_frame
 	await RenderingServer.frame_post_draw
-	Style.save_exports(vp.get_texture().get_image(),output_prefix)
-	print("THUMBNAIL_OK nemi_ep09_revision3 ",output_prefix)
+	Style.save_exports(vp.get_texture().get_image(),OUT+"thumbnail")
+	print("THUMBNAIL_OK nemi_ep09_revision2")
 	quit(0)

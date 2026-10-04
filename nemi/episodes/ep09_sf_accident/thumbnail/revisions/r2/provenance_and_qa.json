@@ -1,11 +1,10 @@
 {
   "date": "2026-10-04",
   "author": "nemi",
-  "method": "Native Godot production-art render with external white outline/soft aura. Navy-to-denim background authored in Godot; no pixels copied from old generated references. No generative image service. AI-assisted direction/code.",
+  "method": "Native Godot production-art render with external white outline/soft aura. Background treatment recreated in Godot from an EP00 visual reference; no pixels copied from the generated reference. No generative image service. AI-assisted direction/code.",
   "reference_only": {
     "path": "nemi/episodes/ep00_introduction/thumbnail.png",
-    "sha256": "fc9c7b9764056a5dbc0bbb169824fb3718544f3e0c2d32f2a00bdae07f16b542",
-    "role": "Historical reference for white aura/doodles; burgundy/pink palette rejected by user."
+    "sha256": "fc9c7b9764056a5dbc0bbb169824fb3718544f3e0c2d32f2a00bdae07f16b542"
   },
   "source_hashes": {
     "tools/storytime/ThumbnailStyle.gd": "abc2b5ec845ac4151ae0c38c6536017130cce9fcdbae4e0711adab83f2cc8b1d",
@@ -13,8 +12,8 @@
     "common/engine/illustration/LiveDrawing.gd": "dea367dfed47fc444d9228023b3229237384c01086e2d8d7ad4997f1169612ba",
     "common/engine/illustration/LiveInk.gd": "85a7dfec5b1e065014dab0dd43b80a30c2282fb9ba7397d05b83fec8c7e85cdd",
     "assets/fonts/Impact.ttf": "57e95627fd36fe2740e5ee8a91ff1ae74fb216df9580bd23e30d6772814727be",
-    "nemi/episodes/ep09_sf_accident/thumbnail/render_thumbnail.gd": "a8734c230d50f7eec96edfe062525cea6553d2c57dfd1da943b7a001ea7aec74",
-    "nemi/episodes/ep09_sf_accident/thumbnail/layout.json": "2f6965d103e107760d76f5a3fd35888acffaeaa2961196c927abfa8cca549724",
+    "nemi/episodes/ep09_sf_accident/thumbnail/render_thumbnail.gd": "9b7b68e9b426fba27b85b10c42d89574ddaa604801b0cacd802d98e3098a66fd",
+    "nemi/episodes/ep09_sf_accident/thumbnail/layout.json": "f07864a41aa08c99dcf8ed72f71da482cce170237741c11d17f2aeedac6ab5c3",
     "nemi/episodes/ep09_sf_accident/SCRIPT_AND_BEATS.md": "273e13051c377a5bcd64783aaf4c53a1e7fc20638cc05d77479847a834dd9086",
     "nemi/episodes/ep09_sf_accident/scene.json": "08ee6fc7c93844e6074c4252c481cc63b10e979e97df8ffe53bd0812cc2b05df",
     "common/storytime/profiles/nemi.json": "f6bee539815f1f96472445366efc7bdae023e97bb05fcde4523a129c584a4b4f",
@@ -81,67 +80,49 @@
         1920,
         1080
       ],
-      "bytes": 416489,
-      "sha256": "b98337c6c0bb40568ed6db01992e1cdfc49c0488fc7449d770288b389316e521"
+      "bytes": 416499,
+      "sha256": "fe0f3d774c453e98fe79e4f3712b206c6df5deb11d503926151c2efa7eba9060"
     },
     "thumbnail.png": {
       "dimensions": [
         1920,
         1080
       ],
-      "bytes": 1674697,
-      "sha256": "c544039b04032d716f6c6280ae046960e48bec8fee71817fcff1643ddd39f7f0"
+      "bytes": 1681260,
+      "sha256": "2a04364ff64ec7dec04670161b9802b44712376e645e81d7cd028d4fece93259"
     },
     "thumbnail_master_4k.png": {
       "dimensions": [
         3840,
         2160
       ],
-      "bytes": 2068908,
-      "sha256": "92179cbb8280be2f5ef36d9f551a6e1eb3afea6ea08b14e90477b084774cdeb7"
+      "bytes": 2066184,
+      "sha256": "3131d65ad725f579cd3b5f778c904cc539877ee3d6a1a23e6a8ac0239366ce54"
     },
     "thumbnail_phone.png": {
       "dimensions": [
         320,
         180
       ],
-      "bytes": 75632,
-      "sha256": "a1eb2a73419739e6f7d1de62082e3d3f2ea32d3cb03cef23336a2f9bffaceafd"
+      "bytes": 76587,
+      "sha256": "1df54d269dd8cb629fd4a114547c3600639f898be95d6dc5e7c70f68cb97349d"
     },
     "thumbnail_tiny.png": {
       "dimensions": [
         160,
         90
       ],
-      "bytes": 24642,
-      "sha256": "77d3fae9ee75c23e716e246932963aed373dd1b1e9224eccfb1af074e95d1ea8"
+      "bytes": 24974,
+      "sha256": "c2c355f385ce7f2255feadb04776e79eefbc8e12f4d1dd808864edaa0cdae9f7"
     }
   },
-  "render_log": "render.log; THUMBNAIL_OK nemi_ep09_revision3 completion marker and no errors/warnings in final run",
+  "render_log": "render.log; one completion marker and no errors/warnings in final run",
   "inspection": {
     "delivery_jpg": "1920x1080 viewed",
     "phone": "320x180 viewed",
     "tiny": "160x90 viewed",
     "native_master": "3840x2160 file viewed at displayed 2048x1152",
-    "findings": "Single headline readable at 320x180 and 160x90; red hair separates from blue; face unobscured; headline not clipped; nose-to-rear bumper contact retained; white aura and profile doodles visible. Bottom-right wheels are close to a potential duration overlay, as before; no critical headline/face lies there."
+    "findings": "One headline; production identity maintained; face unobscured; no clipped headline; decorations remain subordinate. Nemi bumper contact visible. ADB heart clear of underline and hair clear of frame."
   },
-  "limits": "Static thumbnail candidates; no new movie proof, upload, user approval or click-through result claimed.",
-  "revision": 3,
-  "palette_review": {
-    "viewed_at_1920x1080": {
-      "blue": [
-        "#183b57",
-        "#508aa8"
-      ],
-      "warm_brown": [
-        "#603b35",
-        "#bc825a"
-      ],
-      "lavender": [
-        "#3e3b66",
-        "#7c79ac"
-      ]
-    },
-    "choice": "Blue: strongest warm/cool separation from red hair; clear white/cream headline; calmer than burgundy. Brown is close to the hair hue, lavender softer in value. Assistant visual judgment; user has not approved revision 3."
-  }
+  "limits": "Static thumbnail candidates; no new movie proof, upload, user approval or click-through result claimed."
 }

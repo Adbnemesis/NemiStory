@@ -1,5 +1,5 @@
 {
-  "format": "ep09-static-thumbnail-v3",
+  "format": "ep09-static-thumbnail-v2",
   "author": "nemi",
   "intent": "Shocked narrator foreground, truthful rear-end collision vignette, San Francisco context. Editorial collage, not one literal-scale scene.",
   "palette": {
@@ -42,9 +42,9 @@
     }
   ],
   "background": {
-    "top": "#183b57",
-    "bottom": "#508aa8",
-    "method": "Godot-authored navy-to-denim gradient with subtle stationary grain; selected for contrast against Nemi red hair and cream headline",
-    "history": "EP00 informed the white aura/doodle treatment; its burgundy/pink field was rejected by the user in revision 2."
+    "top": "#48071e",
+    "bottom": "#bb2058",
+    "reference": "nemi/episodes/ep00_introduction/thumbnail.png",
+    "method": "Godot recreation of colour field; no pixels from old generated character"
   }
 }

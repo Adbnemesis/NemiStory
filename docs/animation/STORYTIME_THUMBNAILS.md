@@ -4,7 +4,7 @@ User direction, 2026-10-04: future Nemi and ADB thumbnails must match their stor
 
 This applies to thumbnail requests and the thumbnail deliverable of future episodes. It does not authorize changing old movies or replacing unrelated old thumbnails. The first requested example is `nemi/episodes/ep09_sf_accident/thumbnail/`.
 
-Refinement, 2026-10-04: use **one eye-catching headline only**. Omit small location labels, asides, object labels, branding and secondary copy. Supporting punctuation can be a compact doodle, not another caption. Nemi's default background references her EP00 burgundy/pink field; ADB's references his EP00 golden-yellow field. Keep a common white cutout outline with a soft aura and a few author-specific doodles. These background/compositing treatments are explicitly allowed; character/prop drawing style still comes from the storytime art. Recreate the background treatment in Godot or reuse a user-authorized clean background layer; never copy the generated face/character or old headline. Preserve honest background provenance if any pixels from an older generated image are reused.
+Refinement, 2026-10-04: use **one eye-catching headline only**. Omit small location labels, asides, object labels, branding and secondary copy. Supporting punctuation can be a compact doodle, not another caption. ADB's background references his EP00 golden-yellow field. The user rejected Nemi's EP00-inspired burgundy/pink field for EP09: choose her background for clear separation from her red hair and green clothing instead. EP09 revision 3 uses navy-to-denim blue; this is a reviewed candidate, not a permanently approved channel palette. Keep a common white cutout outline with a soft aura and a few author-specific doodles. These background/compositing treatments are explicitly allowed; character/prop drawing style still comes from the storytime art. Recreate the background treatment in Godot or reuse a user-authorized clean background layer; never copy the generated face/character or old headline. Preserve honest background provenance if any pixels from an older generated image are reused.
 
 ## Route and scope
 
@@ -32,7 +32,7 @@ Provenance should say “Godot render using existing production rig/art; AI-assi
 
 ## Reproducible first example
 
-`nemi/episodes/ep09_sf_accident/thumbnail/render_thumbnail.gd` is an episode-specific static composition, not a movie-stage replacement or universal thumbnail schema. Current `layout.json` records Nemi, background, placements and the single MY TAXI GOT HIT headline. Revision 1 is preserved under `thumbnail/revisions/r1/`. It uses:
+`nemi/episodes/ep09_sf_accident/thumbnail/render_thumbnail.gd` is an episode-specific static composition, not a movie-stage replacement or universal thumbnail schema. Current `layout.json` records Nemi, background, placements and the single MY TAXI GOT HIT headline. Earlier revisions are preserved under `thumbnail/revisions/r1/` and `thumbnail/revisions/r2/`. It uses:
 
 - `nemi/characters/nemi/nemi.tscn` and its existing colour, expression, pupil/gaze and arm controls;
 - `common/storytime/production/TravelArt.gd` for both cars;
