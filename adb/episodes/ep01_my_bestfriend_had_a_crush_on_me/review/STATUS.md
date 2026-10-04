@@ -1,6 +1,6 @@
 # Episode review — direction revision 4
 
-2026-10-04. Full 1080p review cut: `renders/ADB_EP01_full_r4_1080p.mp4`, **110.4 seconds / 1:50.4**, 1920×1080 at 30 FPS. User satisfaction is pending. **No revision-4 4K movie was rendered; wait for user satisfaction with 1080p.** Older media is preserved and revision-3 review is in STATUS_r3.md.
+2026-10-04. Full 1080p review cut: `renders/ADB_EP01_full_r4_1080p.mp4`, **110.4 seconds / 1:50.4**, 1920×1080 at 30 FPS. The user authorized native 4K after 1080p review: “go ahead and render in 4k now.” The matching 4K master is renders/ADB_EP01_full_r4_4K.mp4. Older media is preserved and revision-3 review is in STATUS_r3.md.
 
 ## Changed direction
 
@@ -23,3 +23,7 @@ The unchanged school/prank narration now has shy hand-to-chest blush, lowered ga
 Agent perceptual listening remains **unverified** because no audible input is available. Transcription, cue-relative signal levels and encoded headroom are checked; those are not a listening pass. Word spans are measured ASR, not phonemes; mouth shapes are authored and no phoneme-perfect claim is made. Supporting classmates are held illustrations with expression cuts. Root clip licenses remain honestly unknown where absent from the inventory.
 
 Generated movies, source voice and full-resolution stills remain local. Production sources, timings, plans, small contact evidence and QA records are saved together. User review of this complete 1080p cut comes before any 4K revision.
+
+## Authorized native 4K export
+
+2026-10-04: no scene, narration, timing or sound changes. Current preflight READY and shared renderer validation passed. Native vector capture and final H.264/AAC export are 3840×2160, 30 FPS, 3312 decoded frames and exactly 110.4 seconds; full decoding passes. Encoded audio remains −18.1 LUFS / −1.5 dB true peak. Ten exported 4K frame samples inspected across opening, courtyard, sweat, shy belief, notebook contact, nervous answer, prank reaction, page insert, DENIED stamp and ending. Native 4K browser playback reviewed around sweat and notebook-contact transitions, plus the ending. All prior movies are preserved. Perceptual listening remains unverified. Export hash and scene identity are recorded in 4k_r4_export.json.
