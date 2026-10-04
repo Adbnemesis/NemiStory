@@ -13,3 +13,11 @@ All geometry is authored once, played through SceneArt/LiveDrawing and held stil
 Backdrop delegates to SchoolBackdrop.gd; SceneArt delegates to SchoolArt.gd. Supported kinds are declared in validate_production.py. Example and production checks belong with the new episode. No edits to profile mark paths or character definitions.
 
 Native 4K export uses the shared renderer’s `--4k` option and existing canvas_items stretch configuration. The ten-second episode proof was checked at 3840×2160, 300 encoded frames. The full source remains a 1920×1080 logical composition; vectors are rerasterized at the output resolution rather than upscaling a movie.
+
+## Episode 1 revision 4: story pictures and expressive direction
+
+`school_courtyard` adds school facade/windows/door, trees, a bench and grounded lunch staging. Shared schema fields remain unchanged. `SchoolGags.gd` supplies author-profile ink and stable handmade geometry for `crush_heart` (muted heart aside), `wrong_homework` (incorrect arithmetic page), `clue_board` (pinned lunch/conversation/homework memories), `ban_stamp` (editorial ink outline), `prank_plan` (held planning page), and `blank_classwork` (unchanged classwork page). Object origins are centers; board half-size is approximately 290×230, paper 180×215, stamp 165×60. Use existing live mode only for meaningful marks or the editorial sanction; never imply a hand pickup without a grip path.
+
+Eight additive ADB performance combinations in recipes.json use existing pose and expression controls: `shy_confession` (hand-to-chest/cute/blush), `nervous_wait` (clasped hands/sweat), `nervous_answer` (awkward freeze/flustered), `self_impressed` (smug pose/expression), `clue_point` (pointing/confused), `hurt_composure` (casual slouch/embarrassment), `dry_annoyance` (annoyed), and `open_shrug` (two palms/amused). Original recipes and all rig/pose/face/hand/mouth files are preserved. For self_impressed, override the legacy pose hand with supported open_palm. These are authored finite transitions, not automatic emotional loops. The episode scene.json is the executable example; revision 3 source is preserved as scene_r3.json.
+
+Only 1080p revision renders are authorized until the user is satisfied; do not start another 4K export.

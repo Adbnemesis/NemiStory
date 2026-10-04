@@ -8,7 +8,7 @@ func run() -> void:
 	stage.spec_path="res://adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/scene.json"
 	root.add_child(stage)
 	await process_frame
-	var dir="res://renders/adb_school_crush/stills_r2"
+	var dir="res://renders/adb_school_crush/stills_r4"
 	DirAccess.make_dir_recursive_absolute(dir)
 	for shot in stage.spec.shots:
 		var time: float=(shot.start+shot.end)*0.5

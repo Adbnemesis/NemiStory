@@ -11,7 +11,7 @@ func ink(points: Array, color: Color=Color("#b6aa98"), width: float=2.0) -> void
 	for p in points: packed.append(Vector2(p[0],p[1]))
 	draw_polyline(packed,color,width,true)
 func _draw() -> void:
-	if kind in ["school_classroom","school_corridor"]:
+	if kind in ["school_classroom","school_corridor","school_courtyard"]:
 		School.draw_set(self,kind)
 		return
 	if kind in ["sf_street","sf_bridge","tech_auditorium","car_cabin","airport_road","roadside"]:

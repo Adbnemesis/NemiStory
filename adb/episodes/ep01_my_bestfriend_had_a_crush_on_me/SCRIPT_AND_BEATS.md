@@ -1,6 +1,8 @@
 # My Best Friend Had a Crush on Me
 
-Script revision 1 • ADB • Target finished runtime: 90–120 seconds.
+Script revision 1 • Animation direction revision 4 • ADB • Finished runtime: 110.4 seconds.
+
+Narration is preserved. The revised visual performance and thought-by-thought direction are in review/R4_DIRECTION.md, scene.json and camera_plan.json. Review at 1080p first; no revision-4 4K export until the user is satisfied.
 
 An improvised adaptation of the user's school anecdote. Dialogue, homework details and ending callback are dramatized, not verified biographical facts. The friend remains unnamed and is not Nemi or the current girlfriend. ADB narrates all quoted dialogue in his canonical Aiden voice.
 

@@ -1,6 +1,8 @@
 # Camera and sound intentions — initial brief and final implementation
 
-The tables below preserve the initial direction brief. Final measured camera events and spoken anchors are in camera_plan.json; final seven sound selections, levels, hashes and provenance are in review/sfx_cues.json and scene.json. All are implemented in the 110.4-second export. Signal levels and encoded headroom are verified; perceptual listening is unverified because the agent has no audible input.
+The tables below preserve the initial direction brief. Final measured camera events and spoken anchors are in camera_plan.json; final ten sound selections, levels, hashes and provenance are in review/sfx_cues.json and scene.json. All are implemented in the 110.4-second export. Signal levels and encoded headroom are verified; perceptual listening is unverified because the agent has no audible input.
+
+Current revision 4 direction is saved in review/R4_DIRECTION.md. It adds shy blush, visible sweat, nervous hand-clasping, self-impressed confidence and embarrassed stillness using the existing ADB rig. School courtyard memories, an evidence board, wrong homework, a prank checklist and a DENIED stamp support those thoughts. The exact final camera/cue lists supersede the initial candidate tables below. Revision 4 is a 1080p review cut; 4K waits for user satisfaction.
 
 ## Camera
 

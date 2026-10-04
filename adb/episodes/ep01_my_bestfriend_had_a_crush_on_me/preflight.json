@@ -17,7 +17,7 @@
         2,
         3
       ],
-      "note": "Build the school prank through disbelief, mistaken hope and a quiet reveal; hold the final deadpan reaction. Script timing is provisional until Aiden narration is measured, with no rig or older-episode edits."
+      "note": "Revision 4 replaces repetitive narration framing with a lunch-memory tableau, a failed relationship-advice analogy, a held evidence-board fantasy and homework callback. Keep Aiden recording unchanged, use authored stepped reactions and bounded hand contact, and preserve revision 3 movies."
     },
     "docs/animation/STORYTIME_DIRECTION_WORKFLOW.md": {
       "sha256": "1b7cf4fbfed64804ec2d8cbf57977898c456afba16d27757428fbaa1c27a55c5",
@@ -27,7 +27,7 @@
         3,
         4
       ],
-      "note": "Use skeptical, uncertain, pleased, quiet_recoil and deadpan thoughts for the prank arc. Save script and provisional beats first; spoken turns, captions and mouths require a measured recording before animation."
+      "note": "R4 keeps the shared v2 stage and measured clock, changes visual jobs per thought, adds held mental tableaux and finite emphasis, and uses only supported ADB recipes/hands. All live ink and sound changes receive named word events; no idle loops or floating root travel."
     },
     "docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md": {
       "sha256": "f7d22f752a114a70206b6cb96a91dc9534064d1b2b4f7120495374a9971f391f",
@@ -36,7 +36,7 @@
         2,
         3
       ],
-      "note": "ADB uses compact print and economical revision marks; hold established classroom art and reserve a live crossed-out assumption for the reveal rather than drawing every line."
+      "note": "R4 visual evidence uses compact ADB squared silhouettes, elbow arrows and economical slash corrections. Fully inked tableaux contrast with selected live circles/arrows; finished geometry stays still. Preserve original character rig and pen identity."
     },
     "adb/docs/ADB_ACTING_GUIDE.md": {
       "sha256": "c8e4d5c012758bd80b84d04f8a8e7161b92c86e9ffded1be313285978d256860",
@@ -44,7 +44,7 @@
         1,
         2
       ],
-      "note": "Let composed skepticism crack into a small private smile when she seems serious, then a motionless deadpan hold on the prank reveal. No frantic reaction or repetitive idle motion."
+      "note": "R4 emotion progresses from cool skepticism to private blush/confidence to recoil, unblinking deadpan and embarrassed recovery. Full-body asymmetric shrug/weight change appears in wides; the reveal has a quiet freeze and delayed blink, rather than added constant activity."
     },
     "adb/docs/ADB_CHARACTER_GUIDE.md": {
       "sha256": "16c076406a6e662dade0c36e391b44927eda459dedbd93dbd65c79ab7544d72b",
@@ -52,77 +52,77 @@
         1,
         2
       ],
-      "note": "School best friend is an unnamed past classmate from the user brief, not Nemi or the current girlfriend. Keep the canonical ADB design and use self-directed embarrassment rather than changing his backstory."
+      "note": "R4 preserves the actual saved ADB rig silhouette, hair and existing clothing despite older oatmeal prose; the school friend remains anonymous held school art, never Nemi or the mystery girlfriend. Mental visual jokes expose vulnerability behind calm confidence."
     },
     "adb/docs/ADB_LIP_SYNC_GUIDE.md": {
       "sha256": "05dd8f139ad9a32337163135408923d73a3463e8e2f05565711a632d211301e6",
       "parts": [
         1
       ],
-      "note": "Close ADB mouth during disbelief and post-reveal holds; author existing neutral/open/wide/round intervals against final audio, especially the interrupted sincere reply and prank word."
+      "note": "Use unchanged recording/word times and current authored ADB mouth shapes, with explicit closed pauses and reveal freeze. New tableaux hide/remove mouth cues when narrator is offscreen; no start_speaking loop or phoneme accuracy claim."
     },
     "common/storytime/profiles/adb.json": {
       "sha256": "ca5a41a8b41ec55aca8d8e0e0653bfaa8cd612ca215cae3659cc4f21fb8d431d",
       "parts": [
         1
       ],
-      "note": "Use the squared notebook as classroom evidence and two-stroke scratch for the failed romantic interpretation; preserve slate ink, compact spacing and stable completed geometry."
+      "note": "Keep exact ADB pen profile unchanged; use its circle to mark imagined evidence, elbow arrows to connect clues, and two-slash corrections when the fantasy collapses."
     },
     "common/storytime/examples/story_review_48s/REVIEW.md": {
       "sha256": "170f43ce0a66e54e218beb345e1206f2525aa811624033a192936d70af57745c",
       "parts": [
         1
       ],
-      "note": "Future integrated review must cover rumor-to-confession development with classroom scale, full-body reaction and notebook contact, not only a face closeup. This script-stage delivery does not claim playback or audio QA."
+      "note": "Render R4 ten-second lunch/evidence proof plus a 48-second sequence that includes shy belief, imagined evidence, hand contact, confidence collapse and aftermath. Inspect moving playback and silhouettes/holds rather than approving cue counts."
     },
     "docs/animation/COMMON_ANIMATION_QA.md": {
       "sha256": "00e95633a0051b02d1cd4b7c3de8e4232783466031deaa82c05b00b36a9d4ed4",
       "parts": [
         1
       ],
-      "note": "Reserve clear silence after the reveal, no background music, and future captions of at most five words. Record script-stage checks separately from pending voice, contact, playback and mix verification."
+      "note": "R4 specifically addresses the anti-repetition gate with thought-specific physical poses/tableaux, grounded contact, no idle sway, and handwritten visual counterpoints. Inspect silhouette, layering, captions and actual playback; retain unheard audio as unverified."
     },
     "tools/tts/config.py": {
       "sha256": "e40065f248800836e45e48b95af92a745bf1564c17552c1a2eb4a87956223e66",
       "parts": [
         1
       ],
-      "note": "Narration and quoted classmates are performed by canonical Aiden with the unchanged model and identity prompt at initial 1.00 tempo; duration remains an estimate until recording."
+      "note": "Retain exact existing eighteen Aiden sources and prepared narration hash at tempo 1.00. This revision changes direction, art and selected sound only; no model/speaker/prompt/pitch/EQ or stale alignment substitution."
     },
     "docs/animation/COMMON_CAMERA_STAGING.md": {
       "sha256": "9794d7f26655bd666a3b53bb4cf4d1fb65b66424d5a151ca4c9bc35ab7601561",
       "parts": [
         1
       ],
-      "note": "Plan classroom wide on Back in school, notebook insert on borrowing homework, personal portrait on maybe, and a held reaction on Its a prank. Exact seconds will be filled from final narration rather than estimated script times."
+      "note": "R4 camera switches image content as thoughts change: lunch context, broken relationship advice, detective evidence, portrait blush, wide confession and note-sanction insert. Actor/set scale stays fixed within location; designed mental scenes have separate blocking. Keep exact-word camera sidecar and inspect cropped eyes/chin/contact."
     },
     "docs/animation/COMMON_SFX_SYSTEM.md": {
       "sha256": "86adf6a5391b78ad7a9b35e408e1ba849b21d2d3a12be3192c46da48cbbc905f",
       "parts": [
         1
       ],
-      "note": "Use existing page/tap detail for school evidence and one recognizable root fail commentary after the reveal; protect the sincere confession with silence. Sound plan will distinguish candidate cues from auditioned exported audio."
+      "note": "R4 uses existing root pop/click/whoosh and dry library paper/scribble accents for authored lunch, evidence and sanction events, preserving the silent credible confession and quiet recognition before bruh. Measure nearby voice levels, recalibrate mix, and retain unknown root licenses and unperformed listening honestly."
     },
     "docs/animation/LIVE_DOODLING_WORKFLOW.md": {
       "sha256": "584200fb037a1fa298c6b399b47aec91545e63c447911fa240926090a687be55",
       "parts": [
         1
       ],
-      "note": "A live correction can turn the hopeful assumption into PRANK at the reveal; keep notebook and classroom evidence held. Use current version-2 author-specific cues, not legacy opacity reveals or a private drawing player."
+      "note": "R4 shows evidence being connected and the claim being corrected using existing stable stroke reveal. New school-story art is held unless discovery is the point, no mask/opacity word reveal or randomness."
     },
     "docs/animation/COMMON_PROP_SYSTEM.md": {
       "sha256": "ae99ae1cb2061ff3e2cf2523dd2e22d2080a84a1108a7d0b9bce60be06d84ccf",
       "parts": [
         1
       ],
-      "note": "The homework notebook rests on a school desk and returns as the ending callback. Plan inserts without unnecessary pickup; any later hand interaction needs a supported grip and continuous contact review."
+      "note": "R4 lunch box rests on a lunch table, clue cards are pinned to an authored board, and notebook stays in existing supported grip during the lift. Sanction stamp is a deliberate editorial prop image, not a false pickup. Review hand/prop layering and surface baselines."
     },
     "docs/audio/SFX_System_Guide.md": {
       "sha256": "2973052c494db7d2788666d73ae9f428b229f0cf106a709dad085009c6f3427f",
       "parts": [
         1
       ],
-      "note": "Inspect existing paper and drawing recordings for notebook/correction events, and root fail clips for the prank. No continuous ambience or Nemi-style boing sequence; candidate gains require later mix measurement."
+      "note": "Use ADB dry taps and existing meme commentary selectively; lunch/evidence/denial sounds attach to real visual events. No constant ambience/BGM or procedural vault substitute. Only 1080p revisions until user is satisfied."
     },
     "docs/audio/SFX_License_Registry.md": {
       "sha256": "b2c33a96c5eb6bcc80f45f0c3d77d93f3d72c42920eef9f53eae0cd5a57676e2",
@@ -134,7 +134,7 @@
         5,
         6
       ],
-      "note": "Keep honest source provenance: library notebook sounds carry their catalog licenses, while root meme clips remain user-supplied with unknown original licenses. Exclude all listed procedural substitutes and do not apply the old verified-safe claim to root clips."
+      "note": "Preserve real original hashes and exact existing root paths; do not apply old registry blanket commercial-safe claim to root memes. Reject Bespoke Procedural assets, use existing Kenney/Mixkit library recordings and record their individual provenance."
     }
   }
 }

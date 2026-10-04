@@ -109,6 +109,27 @@
     }
   },
   {
+    "id": "viral_click",
+    "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+    "source": "Existing project root MP3",
+    "license": "Not recorded for existing root MP3",
+    "cue": {
+      "file": "res://common/audio/sfx/click.mp3",
+      "at": 103.84,
+      "duration": 0.365688,
+      "gain_db": -6,
+      "event": "sanction",
+      "event_offset": 0.1
+    },
+    "levels": {
+      "sfx_rms_dbfs": -34.6,
+      "sfx_peak_dbfs": -9.9,
+      "nearby_voice_rms_dbfs": -17.2,
+      "relative_rms_db": -17.4,
+      "prominence": "accent"
+    }
+  },
+  {
     "id": "sting_question_chime_01",
     "sha256": "abb8f9e4eb2071491b0b15f84ee302386b1847609310c1b000ae174639a6cc5a",
     "source": "Kenney (interface)",
@@ -127,90 +148,6 @@
       "nearby_voice_rms_dbfs": -17.5,
       "relative_rms_db": -7.0,
       "prominence": "accent"
-    }
-  },
-  {
-    "id": "viral_whoosh",
-    "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
-    "source": "Existing project root MP3",
-    "license": "Not recorded for existing root MP3",
-    "cue": {
-      "file": "res://common/audio/sfx/whoosh.mp3",
-      "at": 59.54,
-      "duration": 0.574688,
-      "gain_db": -9.9,
-      "event": "camera_replay",
-      "event_offset": 0.0
-    },
-    "levels": {
-      "sfx_rms_dbfs": -26.1,
-      "sfx_peak_dbfs": -9.2,
-      "nearby_voice_rms_dbfs": -19.1,
-      "relative_rms_db": -7.0,
-      "prominence": "accent"
-    }
-  },
-  {
-    "id": "drawing_scratch_scribble_05",
-    "sha256": "65742c15dca9853611e1c9e83bd04ac0d693f79896715cafa90bad39745d7a62",
-    "source": "Kenney (interface)",
-    "license": "CC0 1.0 Universal (Public Domain)",
-    "cue": {
-      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_05.ogg",
-      "at": 63.69,
-      "duration": 0.325,
-      "gain_db": -14.7,
-      "event": "lunch_evidence",
-      "event_offset": 0.0
-    },
-    "levels": {
-      "sfx_rms_dbfs": -30.8,
-      "sfx_peak_dbfs": -16.8,
-      "nearby_voice_rms_dbfs": -19.8,
-      "relative_rms_db": -11.0,
-      "prominence": "surface"
-    }
-  },
-  {
-    "id": "viral_click",
-    "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
-    "source": "Existing project root MP3",
-    "license": "Not recorded for existing root MP3",
-    "cue": {
-      "file": "res://common/audio/sfx/click.mp3",
-      "at": 104.29,
-      "duration": 0.365688,
-      "gain_db": -6,
-      "event": "denied_stamp",
-      "event_offset": 0.0
-    },
-    "levels": {
-      "sfx_rms_dbfs": -34.6,
-      "sfx_peak_dbfs": -9.9,
-      "nearby_voice_rms_dbfs": -17.9,
-      "relative_rms_db": -16.7,
-      "prominence": "hero"
-    }
-  },
-  {
-    "id": "paper_slide_desk_01",
-    "sha256": "2e945267f56208884153867d062838888e6bddc92b512e130aa9566255ad36bb",
-    "source": "Mixkit",
-    "license": "Mixkit Sound Effects Free License (Commercial Allowed)",
-    "cue": {
-      "file": "res://common/audio/sfx/paper/paper_slide_desk_01.wav",
-      "at": 13.31,
-      "duration": 0.65,
-      "gain_db": -7.0,
-      "event": "camera_school_detail",
-      "event_offset": 0.0
-    },
-    "levels": {
-      "sfx_rms_dbfs": -34.5,
-      "sfx_peak_dbfs": -4.6,
-      "nearby_voice_rms_dbfs": -23.5,
-      "relative_rms_db": -11.0,
-      "prominence": "surface"
     }
   }
 ]

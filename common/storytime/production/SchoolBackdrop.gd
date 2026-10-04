@@ -2,6 +2,23 @@ extends RefCounted
 ## Held classroom/corridor sets. World geometry stays fixed through reframes.
 static func draw_set(canvas: Node2D,kind: String) -> void:
 	canvas.draw_rect(Rect2(-3000,-3000,8000,8000),Color("#faf3e5"))
+	if kind=="school_courtyard":
+		canvas.patch([[0,0],[1920,0],[1920,688],[0,690],[0,0]],Color("#d6e3de"))
+		canvas.patch([[0,688],[1920,685],[1920,1400],[0,1400],[0,688]],Color("#ddcfb6"))
+		canvas.patch([[120,130],[1780,133],[1784,608],[117,612],[120,130]],Color("#e9d9c2"))
+		for x in [200,470,990,1260,1530]:
+			canvas.patch([[x,228],[x+160,227],[x+163,396],[x-2,399],[x,228]],Color("#9bb6b6"))
+			canvas.ink([[x+78,229],[x+80,396]],Color("#e5decc"),4)
+		canvas.patch([[700,374],[872,372],[879,611],[697,612],[700,374]],Color("#b5a287"))
+		canvas.ink([[0,611],[1920,608]],Color("#9a8e7d"),3)
+		for x in [120,1660]:
+			canvas.ink([[x,648],[x-5,826]],Color("#8e8872"),13)
+			canvas.patch([[x-74,651],[x-111,597],[x-90,535],[x-36,503],[x+20,508],[x+82,548],[x+102,604],[x+53,653],[x-74,651]],Color("#a7bba0"))
+		canvas.patch([[1170,826],[1520,823],[1537,841],[1157,844],[1170,826]],Color("#b8a187"))
+		canvas.ink([[1200,843],[1195,894]],Color("#8d8f83"),5)
+		canvas.ink([[1480,841],[1488,894]],Color("#8d8f83"),5)
+		canvas.ink([[0,894],[1920,894]],Color("#b6a88f"),2)
+		return
 	canvas.patch([[0,0],[1920,0],[1920,894],[0,894],[0,0]],Color("#f3ecdf"))
 	canvas.patch([[0,894],[1920,894],[1920,1400],[0,1400],[0,894]],Color("#e1d2b9"))
 	canvas.ink([[0,894],[1920,894]],Color("#9a8e7d"),3)

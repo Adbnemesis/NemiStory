@@ -1,0 +1,47 @@
+{
+  "expression_proof_r4b": {
+    "file": "renders/ADB_EP01_expression_proof_r4b_1080p.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 300,
+    "duration": 10.0,
+    "sha256": "58ef4e6142a66aea102123399b96071aa849ecfc51fbb5b74b016b40c8aa7f01",
+    "full_decode": "pass",
+    "audio": {
+      "integrated_lufs": -17.8,
+      "true_peak_dbfs": -3.5
+    }
+  },
+  "integrated_r4b": {
+    "file": "renders/ADB_EP01_integrated_r4b_1080p.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 1440,
+    "duration": 48.0,
+    "sha256": "04487acaf73fe0782c02f7622026f888afd6c554b9dbaaf96be90441da1edca6",
+    "full_decode": "pass",
+    "audio": {
+      "integrated_lufs": -17.8,
+      "true_peak_dbfs": -1.6
+    }
+  },
+  "full_r4": {
+    "file": "renders/ADB_EP01_full_r4_1080p.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 3312,
+    "duration": 110.4,
+    "sha256": "09a3086b74eb7a43e685ca14915e9d0855c43ecf19f9aec65f07a5432dfea32f",
+    "full_decode": "pass",
+    "audio": {
+      "integrated_lufs": -18.1,
+      "true_peak_dbfs": -1.5
+    }
+  },
+  "perceptual_listening": "unverified; agent has no audible input",
+  "voice_identity": "canonical Aiden unchanged, original source/prepared hash retained",
+  "4k": "not rendered for revision 4; awaiting user satisfaction with 1080p"
+}

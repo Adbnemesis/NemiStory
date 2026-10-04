@@ -5,13 +5,13 @@
     "spoken_anchor": "My best friend once",
     "camera": {
       "center": [
-        760,
-        435
+        610,
+        430
       ],
-      "zoom": 1.65
+      "zoom": 2.15
     },
-    "focus": "ADB and small heart aside",
-    "intent": "Create tension immediately."
+    "focus": "ADB face",
+    "intent": "Open the question."
   },
   {
     "event": "camera_school",
@@ -20,12 +20,12 @@
     "camera": {
       "center": [
         960,
-        535
+        540
       ],
       "zoom": 1
     },
-    "focus": "School lunch table",
-    "intent": "Establish another real school place."
+    "focus": "Shared school desk",
+    "intent": "Establish school and friendship."
   },
   {
     "event": "camera_school_detail",
@@ -33,13 +33,13 @@
     "spoken_anchor": "homework, normal best friend",
     "camera": {
       "center": [
-        1100,
-        655
+        1080,
+        585
       ],
-      "zoom": 1.8
+      "zoom": 1.4
     },
-    "focus": "Lunch on table",
-    "intent": "Plant the ordinary evidence."
+    "focus": "Lunch and homework",
+    "intent": "Plant the callback."
   },
   {
     "event": "camera_rumor",
@@ -103,13 +103,13 @@
     "spoken_anchor": "I laughed it off.",
     "camera": {
       "center": [
-        950,
-        520
+        670,
+        450
       ],
-      "zoom": 1
+      "zoom": 1.75
     },
-    "focus": "Incorrect homework page",
-    "intent": "Visualize why his advice is absurd."
+    "focus": "ADB doubtful gaze",
+    "intent": "Dismiss evidence."
   },
   {
     "event": "camera_serious",
@@ -132,12 +132,12 @@
     "camera": {
       "center": [
         610,
-        400
+        440
       ],
-      "zoom": 2.25
+      "zoom": 1.85
     },
-    "focus": "Sweaty ADB face",
-    "intent": "His face contradicts ignorance."
+    "focus": "ADB uncertainty",
+    "intent": "Make hesitation visible."
   },
   {
     "event": "camera_confession",
@@ -145,10 +145,10 @@
     "spoken_anchor": "actually like you. I've",
     "camera": {
       "center": [
-        925,
-        505
+        940,
+        485
       ],
-      "zoom": 1.12
+      "zoom": 1.3
     },
     "focus": "Friend beside ADB",
     "intent": "Let the apparent confession feel real."
@@ -160,12 +160,12 @@
     "camera": {
       "center": [
         610,
-        402
+        430
       ],
-      "zoom": 2.3
+      "zoom": 2.2
     },
-    "focus": "Shy blush and lowered gaze",
-    "intent": "Expose vulnerability."
+    "focus": "ADB private smile",
+    "intent": "Show vulnerability."
   },
   {
     "event": "camera_replay",
@@ -174,12 +174,12 @@
     "camera": {
       "center": [
         960,
-        520
+        540
       ],
       "zoom": 1
     },
-    "focus": "Ridiculous detective board",
-    "intent": "Make overthinking visible."
+    "focus": "Lunch recollection",
+    "intent": "Enter his thought."
   },
   {
     "event": "camera_lunch_clue",
@@ -187,13 +187,13 @@
     "spoken_anchor": "Was sharing her lunch",
     "camera": {
       "center": [
-        1210,
-        530
+        1170,
+        510
       ],
-      "zoom": 1.18
+      "zoom": 1.4
     },
-    "focus": "Circled shared lunch",
-    "intent": "Give the memory a new meaning."
+    "focus": "Lunch box",
+    "intent": "Show ordinary favor acquiring meaning."
   },
   {
     "event": "camera_homework_clue",
@@ -201,13 +201,13 @@
     "spoken_anchor": "Was borrowing my homework",
     "camera": {
       "center": [
-        980,
+        960,
         510
       ],
-      "zoom": 1
+      "zoom": 1.15
     },
-    "focus": "Held notebook and clue board",
-    "intent": "Grow mistaken confidence."
+    "focus": "Held homework page",
+    "intent": "Make mistaken deduction tangible."
   },
   {
     "event": "camera_charming",
@@ -215,13 +215,13 @@
     "spoken_anchor": "Maybe I wasn't just",
     "camera": {
       "center": [
-        760,
-        440
+        610,
+        430
       ],
-      "zoom": 1.65
+      "zoom": 2.15
     },
-    "focus": "Smug ADB and oversized heart",
-    "intent": "Peak the fantasy before reality."
+    "focus": "ADB modest blush",
+    "intent": "Peak hopeful self-image."
   },
   {
     "event": "camera_answer",
@@ -229,13 +229,13 @@
     "spoken_anchor": "So I took a",
     "camera": {
       "center": [
-        920,
-        505
+        880,
+        495
       ],
-      "zoom": 1.12
+      "zoom": 1.4
     },
-    "focus": "Sweaty hesitant ADB",
-    "intent": "Let the breath and hands show stakes."
+    "focus": "ADB commitment",
+    "intent": "Let him choose vulnerability."
   },
   {
     "event": "camera_laugh",
@@ -257,10 +257,10 @@
     "spoken_anchor": "It's a prank! I looked",
     "camera": {
       "center": [
-        695,
-        415
+        610,
+        435
       ],
-      "zoom": 1.85
+      "zoom": 2
     },
     "focus": "ADB stopped face",
     "intent": "Protect quiet recognition."
@@ -285,13 +285,13 @@
     "spoken_anchor": "Right. Group project? Finally,",
     "camera": {
       "center": [
-        960,
-        520
+        610,
+        445
       ],
-      "zoom": 1
+      "zoom": 1.9
     },
-    "focus": "Three-step prank plan",
-    "intent": "Make the dry comparison a picture."
+    "focus": "ADB dry gaze",
+    "intent": "Reframe embarrassment as joke."
   },
   {
     "event": "camera_staring",
@@ -299,27 +299,13 @@
     "spoken_anchor": "I laughed along, obviously.",
     "camera": {
       "center": [
-        850,
-        580
+        900,
+        510
       ],
-      "zoom": 1.28
+      "zoom": 1.18
     },
-    "focus": "Downcast slouch over Q1",
-    "intent": "Stay with embarrassment."
-  },
-  {
-    "event": "camera_staring_page",
-    "at": 93.83,
-    "spoken_anchor": "the same page. She",
-    "camera": {
-      "center": [
-        1180,
-        670
-      ],
-      "zoom": 2.4
-    },
-    "focus": "Unanswered Q1",
-    "intent": "Hold on the same page instead of adding narration acting."
+    "focus": "ADB downcast gaze",
+    "intent": "Give aftermath time."
   },
   {
     "event": "camera_upset",
@@ -341,13 +327,13 @@
     "spoken_anchor": "wondering how you remembered",
     "camera": {
       "center": [
-        850,
-        480
+        610,
+        450
       ],
-      "zoom": 1.32
+      "zoom": 1.85
     },
-    "focus": "Annoyed ADB facing friend",
-    "intent": "Recover dignity with a visible attitude change."
+    "focus": "ADB explaining gesture",
+    "intent": "Recover composure."
   },
   {
     "event": "camera_sanction",
@@ -355,13 +341,13 @@
     "spoken_anchor": "She lost borrowing privileges.",
     "camera": {
       "center": [
-        960,
-        510
+        1160,
+        575
       ],
-      "zoom": 1.15
+      "zoom": 1.55
     },
-    "focus": "DENIED over homework",
-    "intent": "Make the ban visible before its reversal."
+    "focus": "Homework notebook",
+    "intent": "Attempt dignity."
   },
   {
     "event": "camera_one_day",

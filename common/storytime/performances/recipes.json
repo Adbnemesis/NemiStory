@@ -561,6 +561,123 @@
           1
         ]
       }
+    },
+    "shy_confession": {
+      "pose": "hand_to_chest",
+      "expression": "cute",
+      "gaze": [
+        -0.45,
+        0.35
+      ],
+      "eyes": 0.94,
+      "head_degrees": -4,
+      "duration": 0.48,
+      "intent": "Private hopeful blush, hand toward chest and lowered gaze.",
+      "face": {
+        "blush_intensity": 0.72
+      }
+    },
+    "nervous_wait": {
+      "pose": "hands_clasped",
+      "expression": "nervous_sweat",
+      "gaze": [
+        0.5,
+        0.15
+      ],
+      "eyes": 1.02,
+      "head_degrees": -3,
+      "duration": 0.48,
+      "intent": "Hands gather while buying time; sweat exposes composure cracking.",
+      "face": {
+        "sweat_intensity": 0.8,
+        "blush_intensity": 0.25
+      }
+    },
+    "nervous_answer": {
+      "pose": "awkward_freeze",
+      "expression": "flustered",
+      "gaze": [
+        0.45,
+        0
+      ],
+      "eyes": 1.08,
+      "head_degrees": 2,
+      "duration": 0.48,
+      "intent": "A breath before answering; worried brows and quiet sweat.",
+      "face": {
+        "sweat_intensity": 0.85,
+        "blush_intensity": 0.5
+      }
+    },
+    "self_impressed": {
+      "pose": "smug",
+      "expression": "smug",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.78,
+      "head_degrees": 3,
+      "duration": 0.48,
+      "intent": "A knowingly ridiculous private fantasy of being charming.",
+      "face": {
+        "blush_intensity": 0.38
+      }
+    },
+    "clue_point": {
+      "pose": "pointing",
+      "expression": "confused",
+      "gaze": [
+        0.6,
+        -0.1
+      ],
+      "eyes": 0.92,
+      "head_degrees": -2,
+      "duration": 0.48,
+      "intent": "Indicate imagined evidence; eyes lead the extended pointing hand.",
+      "face": {}
+    },
+    "hurt_composure": {
+      "pose": "casual_slouch",
+      "expression": "embarrassed",
+      "gaze": [
+        0.45,
+        0.6
+      ],
+      "eyes": 0.72,
+      "head_degrees": 5,
+      "duration": 0.48,
+      "intent": "Collapsed shoulders and downcast eyes conceal embarrassment.",
+      "face": {
+        "blush_intensity": 0.7,
+        "sweat_intensity": 0
+      }
+    },
+    "dry_annoyance": {
+      "pose": "annoyed",
+      "expression": "annoyed",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.62,
+      "head_degrees": 0,
+      "duration": 0.48,
+      "intent": "Recover with a narrow-eyed comeback and asymmetric posture.",
+      "face": {}
+    },
+    "open_shrug": {
+      "pose": "shrug_open",
+      "expression": "amused",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.91,
+      "head_degrees": -1,
+      "duration": 0.48,
+      "intent": "Both open palms admit the notes-dependent reversal.",
+      "face": {}
     }
   }
 }

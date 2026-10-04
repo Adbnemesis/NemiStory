@@ -192,14 +192,8 @@ for s in shots:
     event('camera_'+s['id'],s['start'],thoughts[s['id']][3])
     th,focus,visual,intent=thoughts[s['id']];brief['beats'].append(dict(start=s['start'],end=s['end'],thought=th,focus=focus,visual=visual,intent=intent))
 spec=dict(version=2,title='My Best Friend Had a Crush on Me',duration=duration,fps=30,caption_size=50,audio='res://'+str((audio/'narration.wav').relative_to(ROOT)),audio_metadata='res://'+str((audio/'timeline.json').relative_to(ROOT)),direction=brief,actors=[actor],shots=shots,drawings=drawings,props=props,vfx=vfx,sfx=sfx,events=events,script=script,captions=captions)
-from direction_r4 import apply
-extra_sounds=apply(spec,words,starts,ends,wt)
-# The new sanction stamp replaces its earlier click, avoiding a double accent.
-sfx[:]=[a for a in sfx if a.get('event')!='sanction']
-sound_records[:]=[a for a in sound_records if a['cue'].get('event')!='sanction']
-for args in extra_sounds:sound(*args)
 spec['mix']=calibrate_mix(spec,ROOT)
 (EP/'scene.json').write_text(json.dumps(spec,indent=2)+'\n')
 (EP/'review/sfx_cues.json').write_text(json.dumps(sound_records,indent=2)+'\n')
-(EP/'camera_plan.json').write_text(json.dumps([dict(event='camera_'+s['id'],at=s['start'],spoken_anchor=' '.join(w['word'] for w in words[next((i for i,w in enumerate(words) if w['start']>=s['start']-.06),len(words)-1):][:4]),camera=s['camera'],focus=spec['direction']['beats'][i]['focus'],intent=spec['direction']['beats'][i]['intent']) for i,s in enumerate(shots)],indent=2)+'\n')
+(EP/'camera_plan.json').write_text(json.dumps([dict(event='camera_'+s['id'],at=s['start'],spoken_anchor=' '.join(w['word'] for w in words[next((i for i,w in enumerate(words) if w['start']>=s['start']-.06),len(words)-1):][:4]),camera=s['camera'],focus=thoughts[s['id']][1],intent=thoughts[s['id']][3]) for s in shots],indent=2)+'\n')
 print('Scene',duration,'seconds;',len(shots),'shots;',len(words),'measured word spans;',len(captions),'caption cards;',len(actor['mouths']),'authored mouth intervals.')
