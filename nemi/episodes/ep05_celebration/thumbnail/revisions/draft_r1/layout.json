@@ -1,0 +1,133 @@
+{
+  "format": "storytime-static-collection-v1",
+  "author": "nemi",
+  "episode": "ep05_celebration",
+  "headline": [
+    {
+      "text": "1,000",
+      "position": [
+        790,
+        80
+      ],
+      "size": 315,
+      "max_width": 1050,
+      "color": "#ffffff"
+    },
+    {
+      "text": "OF YOU?!",
+      "position": [
+        790,
+        295
+      ],
+      "size": 248,
+      "max_width": 1050,
+      "color": "#ffe1b2"
+    }
+  ],
+  "background": {
+    "top": "#183b57",
+    "bottom": "#508aa8",
+    "method": "Godot-authored static gradient and subtle grain"
+  },
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        388,
+        1220
+      ],
+      "scale": 5.2,
+      "pose": "idle",
+      "expression": "excited",
+      "eyes": 1.14,
+      "pupils": 0.8,
+      "gaze": [
+        0.18,
+        0.08
+      ],
+      "tilt": 3,
+      "arms": [
+        {
+          "left": true,
+          "upper": -15,
+          "lower": 30,
+          "hand": "relaxed"
+        },
+        {
+          "left": false,
+          "upper": 15,
+          "lower": -170,
+          "hand": "open_palm_up"
+        }
+      ]
+    }
+  ],
+  "props": [
+    {
+      "kind": "crowd",
+      "position": [
+        945,
+        795
+      ],
+      "scale": 2.35
+    }
+  ],
+  "marks": [
+    {
+      "kind": "spark",
+      "position": [
+        110,
+        105
+      ],
+      "scale": 1.8,
+      "angle": -20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "spark",
+      "position": [
+        1840,
+        90
+      ],
+      "scale": 1.55,
+      "angle": 20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "underline",
+      "position": [
+        1310,
+        605
+      ],
+      "scale": [
+        7.0,
+        1.35
+      ],
+      "angle": -2,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "spark",
+      "position": [
+        875,
+        780
+      ],
+      "scale": 1.8,
+      "angle": -18,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "spark",
+      "position": [
+        1810,
+        905
+      ],
+      "scale": 1.9,
+      "angle": 18,
+      "color": "#ffffff"
+    }
+  ],
+  "story_evidence": "The subscriber counter reaches one thousand; Nemi thanks the real people supporting her.",
+  "application": "Delighted face and twelve representative people from the existing audience doodle, arranged in two rows; the single headline carries the milestone."
+}

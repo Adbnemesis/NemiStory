@@ -7,7 +7,7 @@ description: Create, script, animate or continue a new ADB storytime episode, or
 
 ## Thumbnails
 
-Use one headline only, an EP00-inspired golden-yellow background, a common white silhouette outline/soft aura, and a few ADB-profile doodles. These are thumbnail dressing around the unchanged animation art; omit small supporting captions and labels. Details and executable examples are in the shared thumbnail document below.
+Use one headline only, an EP00-inspired golden-yellow background, a common white silhouette outline/soft aura, and a few ADB-profile doodles. These are thumbnail dressing around the unchanged animation art; omit small supporting captions and labels. The user accepted the gold treatment and requested matching thumbnails for every existing episode. Details and executable examples are in the shared thumbnail document below; the collection is indexed in `docs/animation/THUMBNAIL_COLLECTION.md`. Choose a distinct truthful hook, expression and prop for each story.
 
 For a thumbnail request or an episode's thumbnail deliverable, read [Storytime thumbnails](../../../docs/animation/STORYTIME_THUMBNAILS.md) from the repository root at `docs/animation/STORYTIME_THUMBNAILS.md`. Use the existing ADB rig, episode scenery/props and ADB pen in a separate editable Godot composition. No AI image generation/restyling. Keep ADB's restrained acting and compact ink distinct from Nemi's. Inspect actual episode frames and full/mobile thumbnail exports; save brief, provenance and review under the episode's `thumbnail/`. For thumbnail-only work, stop at that route: do not create a new scene, modify the animation/voice or fabricate animation-preflight receipts. For combined episode/thumbnail work, complete the episode preparation below as well.
 

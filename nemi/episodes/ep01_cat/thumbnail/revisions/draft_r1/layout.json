@@ -1,0 +1,125 @@
+{
+  "format": "storytime-static-collection-v1",
+  "author": "nemi",
+  "episode": "ep01_cat",
+  "headline": [
+    {
+      "text": "I FOUND",
+      "position": [
+        790,
+        80
+      ],
+      "size": 248,
+      "max_width": 1050,
+      "color": "#ffffff"
+    },
+    {
+      "text": "HER ALONE",
+      "position": [
+        790,
+        295
+      ],
+      "size": 215,
+      "max_width": 1050,
+      "color": "#ffe1b2"
+    }
+  ],
+  "background": {
+    "top": "#183b57",
+    "bottom": "#508aa8",
+    "method": "Godot-authored static gradient and subtle grain"
+  },
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        388,
+        1220
+      ],
+      "scale": 5.2,
+      "pose": "idle",
+      "expression": "sad",
+      "eyes": 1.05,
+      "pupils": 0.9,
+      "gaze": [
+        0.35,
+        0.3
+      ],
+      "tilt": 5,
+      "arms": [
+        {
+          "left": true,
+          "upper": -15,
+          "lower": 30,
+          "hand": "relaxed"
+        },
+        {
+          "left": false,
+          "upper": 15,
+          "lower": -170,
+          "hand": "open_palm_up"
+        }
+      ]
+    }
+  ],
+  "props": [
+    {
+      "kind": "script",
+      "source": "res://nemi/episodes/ep01_cat/props/PropCardboardBox.gd",
+      "position": [
+        1380,
+        900
+      ],
+      "scale": 6.8,
+      "angle": 0,
+      "controls": {}
+    },
+    {
+      "kind": "cat",
+      "position": [
+        1380,
+        764
+      ],
+      "scale": 6.8,
+      "state": "scared"
+    }
+  ],
+  "marks": [
+    {
+      "kind": "spark",
+      "position": [
+        110,
+        105
+      ],
+      "scale": 1.8,
+      "angle": -20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "spark",
+      "position": [
+        1840,
+        90
+      ],
+      "scale": 1.55,
+      "angle": 20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "underline",
+      "position": [
+        1310,
+        605
+      ],
+      "scale": [
+        7.0,
+        1.35
+      ],
+      "angle": -2,
+      "color": "#ffffff"
+    }
+  ],
+  "story_evidence": "At sixteen, Nemi found Neeko abandoned in a damp cardboard box, cared for her, and found an adoptive family.",
+  "application": "Concerned Nemi plus the exact Neeko rig inside the episode\u2019s box; do not imply death or a permanent pet ownership."
+}

@@ -1,0 +1,129 @@
+{
+  "format": "storytime-static-collection-v1",
+  "author": "nemi",
+  "episode": "ep00_introduction",
+  "headline": [
+    {
+      "text": "HI, I'M",
+      "position": [
+        790,
+        80
+      ],
+      "size": 247,
+      "max_width": 1050,
+      "color": "#ffffff"
+    },
+    {
+      "text": "NEMI!",
+      "position": [
+        790,
+        295
+      ],
+      "size": 310,
+      "max_width": 1050,
+      "color": "#ffe1b2"
+    }
+  ],
+  "background": {
+    "top": "#183b57",
+    "bottom": "#508aa8",
+    "method": "Godot-authored static gradient and subtle grain"
+  },
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        388,
+        1220
+      ],
+      "scale": 5.2,
+      "pose": "idle",
+      "expression": "happy",
+      "eyes": 1.03,
+      "pupils": 0.9,
+      "gaze": [
+        0.18,
+        0.08
+      ],
+      "tilt": 4,
+      "arms": [
+        {
+          "left": true,
+          "upper": -15,
+          "lower": 30,
+          "hand": "relaxed"
+        },
+        {
+          "left": false,
+          "upper": 15,
+          "lower": -170,
+          "hand": "open_palm_up"
+        }
+      ]
+    }
+  ],
+  "props": [
+    {
+      "kind": "script",
+      "source": "res://nemi/episodes/ep00_introduction/props/PropDistortedTeacup.gd",
+      "position": [
+        1360,
+        820
+      ],
+      "scale": 1.65,
+      "angle": -7,
+      "controls": {
+        "show_annotation": false
+      }
+    },
+    {
+      "kind": "script",
+      "source": "res://nemi/episodes/ep00_introduction/props/PropStylus.gd",
+      "position": [
+        1755,
+        780
+      ],
+      "scale": 3.1,
+      "angle": -8,
+      "controls": {}
+    }
+  ],
+  "marks": [
+    {
+      "kind": "spark",
+      "position": [
+        110,
+        105
+      ],
+      "scale": 1.8,
+      "angle": -20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "spark",
+      "position": [
+        1840,
+        90
+      ],
+      "scale": 1.55,
+      "angle": 20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "underline",
+      "position": [
+        1310,
+        605
+      ],
+      "scale": [
+        7.0,
+        1.35
+      ],
+      "angle": -2,
+      "color": "#ffffff"
+    }
+  ],
+  "story_evidence": "Nemi introduces herself and storytime animation; her opening drawing is a misshapen hand holding a teacup.",
+  "application": "Welcoming smile with the actual teacup sketch gag; omit its optional explanatory caption."
+}

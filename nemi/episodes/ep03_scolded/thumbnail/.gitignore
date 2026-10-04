@@ -1,0 +1,7 @@
+# Native masters, reference stills and QA previews remain local.
+*.png
+*.png.import
+*.jpg.import
+*.uid
+# Superseded local draft images are preserved without duplicating them in Git.
+revisions/draft_*/thumbnail.jpg

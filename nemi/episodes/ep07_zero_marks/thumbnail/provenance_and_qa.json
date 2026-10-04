@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-04",
+  "author": "nemi",
+  "episode": "ep07_zero_marks",
+  "method": "Native Godot render using existing production rigs/props, separate editorial type, author-profile marks and an external white aura; AI-assisted direction/code. No generative image service. Pillow used only for review contact sheets/packaging.",
+  "source_dependency_hashes": {
+    "adb/episodes/ep00_intro/props/ADBIntroProps.gd": "3370f144a11d6fb35caa69ebc04d07d0030ca8107d09267a27fe5653871bc13a",
+    "adb/poses/ADBPoseLibrary.gd": "08484b9d2dfdd476d4275076ca5d8b41ac7d2a826e2e2ed5b4341aca5b09dbf0",
+    "assets/fonts/Caveat-Bold.ttf": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+    "assets/fonts/Impact.ttf": "57e95627fd36fe2740e5ee8a91ff1ae74fb216df9580bd23e30d6772814727be",
+    "assets/fonts/PatrickHand-Regular.ttf": "0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc",
+    "common/assets/lettering/story_pen.json": "c80163ee9dd5c4b3a746e55bf6610fcf7545bd30dfe83fd86c54c85d88495560",
+    "common/engine/illustration/DrawnLettering.gd": "86477617f992a5798b42b83cc087df7e0e044546af28867c66203fb4e2cce08f",
+    "common/engine/illustration/LiveDrawing.gd": "dea367dfed47fc444d9228023b3229237384c01086e2d8d7ad4997f1169612ba",
+    "common/engine/illustration/LiveInk.gd": "85a7dfec5b1e065014dab0dd43b80a30c2282fb9ba7397d05b83fec8c7e85cdd",
+    "common/storytime/PerformancePlayer.gd": "a19d1bbe544a8c942652dc705a7e61acb8d66e98ca46de0ebd1600fa0d9ba0fd",
+    "common/storytime/ProfileAssets.gd": "2ccc4e013c4538637c2b746d488f633857f5abb8003436537e4c746b9c661dbf",
+    "common/storytime/performances/recipes.json": "6e2326bb52e0fca44c9b4cdd07374fc83a0b5c6a78adef3ed983dd3918d51ea0",
+    "common/storytime/production/SchoolGags.gd": "a4d7d1d89a2562fcdf667345f0395f4105870d823a414198708dd20ed7b3b8a8",
+    "common/storytime/profiles/adb.json": "ca5a41a8b41ec55aca8d8e0e0653bfaa8cd612ca215cae3659cc4f21fb8d431d",
+    "common/storytime/profiles/nemi.json": "f6bee539815f1f96472445366efc7bdae023e97bb05fcde4523a129c584a4b4f",
+    "nemi/characters/neeko/Neeko.gd": "bca2b5e023fb33c78498c2adbe17ee8556b743ea7ced08b99e8c3f1c24589e79",
+    "nemi/characters/neeko/Neeko.tscn": "e7f9d8415c7c95819012d4dfd4589bb9dbcee5c0a63f3e88aa217602166feadd",
+    "nemi/characters/nemi/NemiPose.gd": "5470214d8df90fa8fad97c0b199b119471fc1612cc0129c956cb6e0e3e05c8ed",
+    "nemi/episodes/ep04_scared/Ep04Doodles.gd": "a40f21bf3e252d37c784215a0ef99d35c03fdfdd5538f8b6931c6f64ca4e4179",
+    "nemi/episodes/ep05_celebration/Ep05Doodles.gd": "1b134a1ad5d18c4e0b3fcdcbcf90bfc55a8d3c15838e7a4b8d2d602a8b973d26",
+    "tools/storytime/ThumbnailBatch.gd": "65d4128c9ca40c32bf6096e997aaf4617613e8f7315c890a726f7d57a30319fe",
+    "tools/storytime/ThumbnailStyle.gd": "abc2b5ec845ac4151ae0c38c6536017130cce9fcdbae4e0711adab83f2cc8b1d",
+    "tools/storytime/thumbnail_collection.json": "88e7e1dae1d6c73b0d80d40b9adabe909c44ee5e3167ba7344fd75bced1cba81",
+    "nemi/characters/nemi/NemiProportions.gd": "ec63b3e5a76755622de1c56ab8ac404303c7dac96ba3a33fc638569c830d701d",
+    "nemi/characters/nemi/animation/NemiActingDirector.gd": "975e51846f59e54b8d6075873103f0eb6e70559dcd2d53b2394c43dab5ad1fb7",
+    "nemi/characters/nemi/animation/NemiPerformanceDirector.gd": "eb1106fbc78a5ed43f012926c942d23cafd0349c00b940487458e5b9c47a3178",
+    "nemi/characters/nemi/animation/actions/NemiLipSync.gd": "b9f8c13dd53c07941cfc5a868bb6b2cb8dccd2c409e19ea49879c843f8412331",
+    "nemi/characters/nemi/drawing/InkStroke.gd": "ab6e176455e5350fe64e0a1e9c0c8c6a2051d4c338d1eaab1f935ad28c05bb9d",
+    "nemi/characters/nemi/drawing/NemiDoodles.gd": "e4ec23c0882f327ec04cbcd292de466b53fa84fba62c302bb730046dd81b91e6",
+    "nemi/characters/nemi/drawing/NemiRigDebug.gd": "37fa5806ee8d475acb216caa5ba6687140a7874e59ce5b77f375b35d9104c09c",
+    "nemi/characters/nemi/fx/NemiFXAnchor.gd": "4d1db1de42ee9ae051a95fbe4df90d3dc6c0a78208e38a5c4863516b9ea3fdd8",
+    "nemi/characters/nemi/fx/NemiFXDirector.gd": "93b7b3bd41f2432e9601e1788e4d467b1d73c01051341e2ddbfa46cf4565f83c",
+    "nemi/characters/nemi/fx/NemiFXElement.gd": "e141b31596b267e53cacb04efe98aa187b82e187b41f01dcfd87df3e5fc1e8ab",
+    "nemi/characters/nemi/fx/elements/FXAnger.gd": "51dcbe06a38e1c16b75ba5684c6c14cee5e9de8bd9168803d5632e48a6803c5b",
+    "nemi/characters/nemi/fx/elements/FXAttention.gd": "4492963249f7089fbcfdcfcae6091f94b31b86828854d376d8a21f6416bd6954",
+    "nemi/characters/nemi/fx/elements/FXConfusion.gd": "214d1b24cd48950cde65ce0e79d7b14cc60c2851306e1c0ca7229613d3072207",
+    "nemi/characters/nemi/fx/elements/FXDeadpan.gd": "57030cfb99c400538f1132c50e44df65c71ce8d0665c7e9a161c7e467ed4f6fc",
+    "nemi/characters/nemi/fx/elements/FXEmbarrassment.gd": "3c9a91f3c46f046cccf11a77664a766c18819058469d87247e8b2a481891639b",
+    "nemi/characters/nemi/fx/elements/FXExcitement.gd": "ea1f5b00ccde55183fcccd71f8a8f3658480d6e82d6a1a03bdd2cde0ae1773d0",
+    "nemi/characters/nemi/fx/elements/FXNervous.gd": "d3fd2b4b8c71636b00fa0c77912f00ee2c29342d300a90e9b78edfca022c6742",
+    "nemi/characters/nemi/fx/elements/FXPanic.gd": "bb1206b8079a8c9d8cfc3e1ecfdee34b5a505ea0ab1e94da5fbffe54633a0398",
+    "nemi/characters/nemi/fx/elements/FXRealization.gd": "19a94c64a1a5dba62df6057ae7f014ceb7ded84d9d69ca45a700ffdbb59c3b2d",
+    "nemi/characters/nemi/fx/elements/FXRelief.gd": "7ce24ce94e54041ee36a9f2af82693f5a4ee5f98a08a706e3e2b90cdfb79aebd",
+    "nemi/characters/nemi/fx/elements/FXSad.gd": "f49de3aaa47b2da3e0c182384e5fe3f1edf846774958969b017ae3bb9bbd1608",
+    "nemi/characters/nemi/fx/elements/FXShock.gd": "e25620e71dce9dbffac0316a82e508234bc49f4377bcbf12a204be0380fc8e7c",
+    "nemi/characters/nemi/nemi.gd": "7576ac295587212810c8e016de4bab2945d6a96e3c92fae98360f5385f85cb1d",
+    "nemi/characters/nemi/nemi.tscn": "0396e0634e9acdc1e99398888621cdbd1f00a0680f6ad52116dd763e01f79106",
+    "nemi/characters/nemi/parts/NemiBagPart.gd": "1f22923cab8f74d4127eee98b3eb9d2676531665b04b029c4d1af950f386b545",
+    "nemi/characters/nemi/parts/NemiFace.gd": "b3a9528ca1fb36b6ee4a957739daf51c5d7855497bac35e4400893203a765f0e",
+    "nemi/characters/nemi/parts/NemiHairPart.gd": "687b96a33d1331b09a875737ecb5cc1e6ff4007389fed9ba33d90209c02ab518",
+    "nemi/characters/nemi/parts/NemiHeadPart.gd": "b15163b09622263fff60b2a1ef300b677a1a3eb38118188053077368222ce1c3",
+    "nemi/characters/nemi/parts/NemiLegPart.gd": "3df1b90fb5445ac8ef58693cd5d26b7e67a713252ec8e4d6357e047e19a02a76",
+    "nemi/characters/nemi/parts/NemiLimbPart.gd": "564515a72cae2fa879ae817dbea7288391fc9408920eedbac6c8dc6aa8967539",
+    "nemi/characters/nemi/parts/NemiNeckPart.gd": "3388161fa286e4019dd6fa730c24aec01dcd550af3eb5cbf27c717dc0c4f27e5",
+    "nemi/characters/nemi/parts/NemiSkirtPart.gd": "d76217b8db69f73a66036206b0cdeabb1f05bc5e57401346a253938d9ab7218a",
+    "nemi/characters/nemi/parts/NemiTorsoPart.gd": "c6f2f73a3244f5366cd1fadb1f803544db8fb075e326d178654c0f726a086ee7",
+    "nemi/episodes/ep07_zero_marks/Episode07Subtitles.gd": "aceaef8ce74061fbc75668d15035dfbf2a336d67bf3271efaa1821e8dcbac659",
+    "nemi/episodes/ep07_zero_marks/thumbnail/layout.json": "94e9f9d2b433e2eb145d70ec74851c6ef2a68637e3e0352b07754d4ecc0ce0c3",
+    "nemi/episodes/ep07_zero_marks/thumbnail/render_thumbnail.gd": "e45521345e9cc1b0cc075280e16f03fef2d1bf99dedb1741f2c3c099f71690d4"
+  },
+  "story_reference": "source_review.json: read transcript and inspected two actual movie frames before layout authoring",
+  "outputs": {
+    "thumbnail.jpg": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 396032,
+      "sha256": "7618bd71f32422209856d4695c2c9f419a09f86d5e63b2e30825c3ee73586885"
+    },
+    "thumbnail.png": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1779369,
+      "sha256": "ec573a9bd76d1c4849d0a38d81b64d09ed88e654fe36bd27f2bc13251372ff80"
+    },
+    "thumbnail_master_4k.png": {
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "bytes": 2122506,
+      "sha256": "f1dcdbed40a9de16c6029fa1daf34aa870332ce8e54d107d5506e0d9594e0e84"
+    },
+    "thumbnail_phone.png": {
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 73360,
+      "sha256": "416110bcb787bc477dca6eda9697ec83be54f9d0412590a597feff2f925a74b6"
+    },
+    "thumbnail_tiny.png": {
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 23662,
+      "sha256": "617d1c13b9e587f13b40131af09c8dfcffb84bdb958afade1c0fa0c6cae30cc0"
+    }
+  },
+  "render_log": "render.log: final GPU batch completed all ten new compositions with no errors/warnings",
+  "inspection": {
+    "delivery": "Each new 1920x1080 JPG individually viewed",
+    "phone": "Each 320x180 preview viewed at native size in a 3-column, 12-episode sheet",
+    "tiny": "Each 160x90 preview viewed at native size in a 3-column, 12-episode sheet",
+    "native_master": "3840x2160 decoded/dimensions verified; native master not individually visually inspected in this collection pass",
+    "findings": "Shocked reaction and one ZERO MARKS?! hook visible; completed paper prop separate from type."
+  },
+  "preservation": "Root historical thumbnails unchanged; local draft exports and layout/review records preserved under revisions/; no rigs, pose/expression/hand libraries, episode scenes, scripts, audio or movies edited.",
+  "limits": "New static compositions reviewed by assistant; user approved style examples, not each new individual thumbnail. No upload, movie proof or CTR claim."
+}

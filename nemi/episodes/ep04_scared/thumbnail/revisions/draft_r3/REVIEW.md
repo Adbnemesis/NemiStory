@@ -1,0 +1,1 @@
+Third collection draft superseded: decorative underlines removed from new thumbnails to keep clear space between headline and prop. Neeko changed to the existing curious state for awake, readable eyes.

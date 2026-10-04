@@ -1,0 +1,1 @@
+First collection draft, reviewed on the 640px-wide contact sheet. Superseded after headline spacing and prop/underline clearance review. Not user-approved. Shared renderer version at first render: original ThumbnailBatch.gd, before final portrait refinements.

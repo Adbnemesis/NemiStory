@@ -1,0 +1,102 @@
+{
+  "format": "storytime-static-collection-v1",
+  "author": "adb",
+  "episode": "ep00_intro",
+  "headline": [
+    {
+      "text": "HI, I'M",
+      "position": [
+        80,
+        80
+      ],
+      "size": 230,
+      "max_width": 900,
+      "color": "#ffffff"
+    },
+    {
+      "text": "ADB!",
+      "position": [
+        80,
+        295
+      ],
+      "size": 320,
+      "max_width": 900,
+      "color": "#44263b"
+    }
+  ],
+  "background": {
+    "top": "#eca609",
+    "bottom": "#ffd43d",
+    "method": "Godot-authored static gradient and subtle grain"
+  },
+  "characters": [
+    {
+      "author": "adb",
+      "rig": "res://adb/characters/adb/ADB.tscn",
+      "position": [
+        1390,
+        1350
+      ],
+      "scale": 5.4,
+      "recipe": "open_shrug"
+    }
+  ],
+  "props": [
+    {
+      "kind": "paddle",
+      "position": [
+        270,
+        860
+      ],
+      "scale": 2.8,
+      "angle": -23
+    },
+    {
+      "kind": "controller",
+      "position": [
+        640,
+        900
+      ],
+      "scale": 2.4,
+      "angle": 12
+    }
+  ],
+  "marks": [
+    {
+      "kind": "spark",
+      "position": [
+        110,
+        105
+      ],
+      "scale": 1.8,
+      "angle": -20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "spark",
+      "position": [
+        1840,
+        90
+      ],
+      "scale": 1.55,
+      "angle": 20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "underline",
+      "position": [
+        495,
+        605
+      ],
+      "scale": [
+        5.9,
+        1.35
+      ],
+      "angle": -2,
+      "color": "#ffffff"
+    }
+  ],
+  "story_evidence": "Introduction to ADB: engineering, national-level table tennis, games/anime and starting storytime animations.",
+  "application": "Warm open shrug and the film\u2019s paddle/gamepad introduce his interests. Not a claim that a competition happened in this video.",
+  "revision": "collection_r2"
+}

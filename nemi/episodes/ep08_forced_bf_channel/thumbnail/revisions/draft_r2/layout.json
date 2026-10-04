@@ -1,0 +1,125 @@
+{
+  "format": "storytime-static-collection-v1",
+  "author": "nemi",
+  "episode": "ep08_forced_bf_channel",
+  "headline": [
+    {
+      "text": "I MADE HIM",
+      "position": [
+        790,
+        80
+      ],
+      "size": 204,
+      "max_width": 1050,
+      "color": "#ffffff"
+    },
+    {
+      "text": "A YOUTUBER",
+      "position": [
+        790,
+        345
+      ],
+      "size": 214,
+      "max_width": 1050,
+      "color": "#ffe1b2"
+    }
+  ],
+  "background": {
+    "top": "#183b57",
+    "bottom": "#508aa8",
+    "method": "Godot-authored static gradient and subtle grain"
+  },
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        388,
+        1220
+      ],
+      "scale": 5.2,
+      "pose": "idle",
+      "expression": "smug",
+      "eyes": 0.94,
+      "pupils": 0.9,
+      "gaze": [
+        0.18,
+        0.08
+      ],
+      "tilt": 5,
+      "arms": [
+        {
+          "left": true,
+          "upper": -15,
+          "lower": 30,
+          "hand": "relaxed"
+        },
+        {
+          "left": false,
+          "upper": -20,
+          "lower": -50,
+          "hand": "relaxed"
+        }
+      ]
+    },
+    {
+      "author": "adb",
+      "rig": "res://adb/characters/adb/ADB.tscn",
+      "position": [
+        1460,
+        1340
+      ],
+      "scale": 3.25,
+      "recipe": "dry_annoyance"
+    }
+  ],
+  "props": [
+    {
+      "kind": "youtube",
+      "position": [
+        1030,
+        845
+      ],
+      "scale": 1.65,
+      "angle": -10
+    }
+  ],
+  "marks": [
+    {
+      "kind": "spark",
+      "position": [
+        110,
+        105
+      ],
+      "scale": 1.8,
+      "angle": -20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "spark",
+      "position": [
+        1840,
+        90
+      ],
+      "scale": 1.55,
+      "angle": 20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "underline",
+      "position": [
+        1310,
+        650
+      ],
+      "scale": [
+        7.0,
+        1.35
+      ],
+      "angle": -2,
+      "color": "#ffffff"
+    }
+  ],
+  "story_evidence": "Nemi repeatedly asked ADB to make storytime animations; he eventually started a channel and introduces himself.",
+  "application": "Playful Nemi, mildly annoyed current ADB and the existing channel/play-button doodle; no violent coercion or invented dialogue.",
+  "revision": "collection_r2"
+}

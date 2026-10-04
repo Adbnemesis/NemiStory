@@ -1,0 +1,125 @@
+{
+  "format": "storytime-static-collection-v1",
+  "author": "nemi",
+  "episode": "ep04_scared",
+  "headline": [
+    {
+      "text": "WHAT IF",
+      "position": [
+        790,
+        80
+      ],
+      "size": 241,
+      "max_width": 1050,
+      "color": "#ffffff"
+    },
+    {
+      "text": "I FAIL?",
+      "position": [
+        790,
+        345
+      ],
+      "size": 248,
+      "max_width": 1050,
+      "color": "#ffe1b2"
+    }
+  ],
+  "background": {
+    "top": "#183b57",
+    "bottom": "#508aa8",
+    "method": "Godot-authored static gradient and subtle grain"
+  },
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        388,
+        1220
+      ],
+      "scale": 5.2,
+      "pose": "idle",
+      "expression": "worried",
+      "eyes": 0.96,
+      "pupils": 0.9,
+      "gaze": [
+        0.28,
+        -0.1
+      ],
+      "tilt": -6,
+      "arms": [
+        {
+          "left": true,
+          "upper": -15,
+          "lower": 30,
+          "hand": "relaxed"
+        },
+        {
+          "left": false,
+          "upper": -10,
+          "lower": -120,
+          "hand": "relaxed"
+        }
+      ]
+    }
+  ],
+  "props": [
+    {
+      "kind": "youtube",
+      "position": [
+        1380,
+        810
+      ],
+      "scale": 4.0,
+      "angle": -8
+    }
+  ],
+  "marks": [
+    {
+      "kind": "spark",
+      "position": [
+        110,
+        105
+      ],
+      "scale": 1.8,
+      "angle": -20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "spark",
+      "position": [
+        1840,
+        90
+      ],
+      "scale": 1.55,
+      "angle": 20,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "underline",
+      "position": [
+        1310,
+        650
+      ],
+      "scale": [
+        7.0,
+        1.35
+      ],
+      "angle": -2,
+      "color": "#ffffff"
+    },
+    {
+      "kind": "question",
+      "position": [
+        1775,
+        650
+      ],
+      "scale": 1.8,
+      "angle": 8,
+      "color": "#ffffff"
+    }
+  ],
+  "story_evidence": "She fears her YouTube animation channel will not work, sees seven views, and decides to keep making the next video.",
+  "application": "Worried face and the film\u2019s illustrated play button; remove its optional annotation. No horror imagery or claim that she quit.",
+  "revision": "collection_r2"
+}
