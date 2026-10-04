@@ -1,75 +1,64 @@
 {
-  "format": "storytime-static-collection-v1",
+  "format": "storytime-static-story-v2",
   "author": "nemi",
   "episode": "ep08_forced_bf_channel",
+  "background": {
+    "kind": "channel",
+    "top": "#fbefdb",
+    "bottom": "#e7d2a7"
+  },
   "headline": [
     {
       "text": "I MADE HIM",
       "position": [
-        790,
-        80
+        410,
+        25
       ],
-      "size": 204,
-      "max_width": 1050,
-      "color": "#ffffff"
+      "size": 200,
+      "max_width": 1280,
+      "color": "#3e5651",
+      "font": "res://assets/fonts/Impact.ttf"
     },
     {
       "text": "A YOUTUBER",
       "position": [
-        790,
-        345
+        395,
+        235
       ],
-      "size": 214,
-      "max_width": 1050,
-      "color": "#ffe1b2"
+      "size": 195,
+      "max_width": 1290,
+      "color": "#a4493f",
+      "font": "res://assets/fonts/Impact.ttf"
     }
   ],
-  "background": {
-    "top": "#183b57",
-    "bottom": "#508aa8",
-    "method": "Godot-authored static gradient and subtle grain"
-  },
   "characters": [
     {
       "author": "nemi",
       "rig": "res://nemi/characters/nemi/nemi.tscn",
       "position": [
-        388,
-        1220
+        345,
+        1420
       ],
-      "scale": 5.2,
-      "pose": "idle",
+      "scale": 4.2,
+      "pose": "hand_on_hip",
       "expression": "smug",
-      "eyes": 0.94,
-      "pupils": 0.9,
+      "eyes": 1.08,
+      "pupils": 0.85,
       "gaze": [
-        0.18,
-        0.08
+        0.32,
+        0.1
       ],
       "tilt": 5,
-      "arms": [
-        {
-          "left": true,
-          "upper": -15,
-          "lower": 30,
-          "hand": "relaxed"
-        },
-        {
-          "left": false,
-          "upper": -20,
-          "lower": -50,
-          "hand": "relaxed"
-        }
-      ]
+      "arms": []
     },
     {
       "author": "adb",
       "rig": "res://adb/characters/adb/ADB.tscn",
       "position": [
-        1460,
-        1350
+        1510,
+        1280
       ],
-      "scale": 3.25,
+      "scale": 4.1,
       "recipe": "dry_annoyance"
     }
   ],
@@ -77,36 +66,16 @@
     {
       "kind": "youtube",
       "position": [
-        1030,
-        845
+        940,
+        850
       ],
-      "scale": 1.65,
-      "angle": -10
+      "scale": 2.1,
+      "angle": -8
     }
   ],
-  "marks": [
-    {
-      "kind": "spark",
-      "position": [
-        110,
-        105
-      ],
-      "scale": 1.8,
-      "angle": -20,
-      "color": "#ffffff"
-    },
-    {
-      "kind": "spark",
-      "position": [
-        1840,
-        90
-      ],
-      "scale": 1.55,
-      "angle": 20,
-      "color": "#ffffff"
-    }
-  ],
+  "marks": [],
+  "aura": true,
   "story_evidence": "Nemi repeatedly asked ADB to make storytime animations; he eventually started a channel and introduces himself.",
-  "application": "Playful Nemi, mildly annoyed current ADB and the existing channel/play-button doodle; no violent coercion or invented dialogue.",
-  "revision": "collection_r5"
+  "application": "Repeated persuasion turned her boyfriend into another storytime creator. Two contrasting reactions surround the channel icon. Cream/sage/honey composition tells their dynamic without implying violence or using a duplicate intro template.",
+  "revision": "story_r3"
 }

@@ -1,112 +1,111 @@
 {
-  "format": "storytime-static-collection-v1",
+  "format": "storytime-static-story-v2",
   "author": "nemi",
   "episode": "ep04_scared",
+  "background": {
+    "kind": "night",
+    "top": "#282441",
+    "bottom": "#555076"
+  },
   "headline": [
     {
-      "text": "WHAT IF",
+      "text": "ONLY 7",
       "position": [
-        790,
-        80
+        795,
+        55
       ],
-      "size": 241,
-      "max_width": 1050,
-      "color": "#ffffff"
+      "size": 240,
+      "max_width": 1060,
+      "color": "#fff6e6",
+      "font": "res://assets/fonts/Impact.ttf"
     },
     {
-      "text": "I FAIL?",
+      "text": "VIEWS?!",
       "position": [
         790,
-        345
+        335
       ],
-      "size": 248,
-      "max_width": 1050,
-      "color": "#ffe1b2"
+      "size": 263,
+      "max_width": 1070,
+      "color": "#e7baeb",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 5,
+      "outline_color": "#272039"
     }
   ],
-  "background": {
-    "top": "#183b57",
-    "bottom": "#508aa8",
-    "method": "Godot-authored static gradient and subtle grain"
-  },
   "characters": [
     {
       "author": "nemi",
       "rig": "res://nemi/characters/nemi/nemi.tscn",
       "position": [
-        388,
-        1220
+        350,
+        1300
       ],
       "scale": 5.2,
-      "pose": "idle",
-      "expression": "worried",
-      "eyes": 0.96,
-      "pupils": 0.9,
+      "pose": "thinking",
+      "expression": "sad",
+      "eyes": 1.08,
+      "pupils": 0.85,
       "gaze": [
-        0.28,
-        -0.1
+        0.42,
+        0.22
       ],
-      "tilt": -6,
-      "arms": [
+      "tilt": 5,
+      "arms": [],
+      "hand_targets": [
         {
-          "left": true,
-          "upper": -15,
-          "lower": 30,
-          "hand": "relaxed"
-        },
-        {
-          "left": false,
-          "upper": -10,
-          "lower": -120,
-          "hand": "relaxed"
+          "side": "right",
+          "head_offset": [
+            27,
+            10
+          ],
+          "hand": "hand_to_cheek",
+          "angle": 180,
+          "elbow_side": 1
         }
       ]
     }
   ],
   "props": [
     {
-      "kind": "youtube",
+      "kind": "script",
+      "source": "res://nemi/world/props/PropMonitor.gd",
       "position": [
         1380,
-        810
+        825
       ],
-      "scale": 4.0,
-      "angle": -8
-    }
-  ],
-  "marks": [
-    {
-      "kind": "spark",
-      "position": [
-        110,
-        105
-      ],
-      "scale": 1.8,
-      "angle": -20,
-      "color": "#ffffff"
+      "scale": 8.5,
+      "angle": 0,
+      "controls": {
+        "current_state": "off"
+      }
     },
     {
-      "kind": "spark",
+      "kind": "script",
+      "source": "res://nemi/world/props/PropLamp.gd",
       "position": [
-        1840,
-        90
+        850,
+        1010
       ],
-      "scale": 1.55,
-      "angle": 20,
-      "color": "#ffffff"
+      "scale": 4.9,
+      "angle": 0,
+      "controls": {
+        "light_on": true
+      }
     },
     {
-      "kind": "question",
+      "kind": "youtube",
       "position": [
-        1775,
-        650
+        1375,
+        813
       ],
-      "scale": 1.8,
-      "angle": 8,
-      "color": "#ffffff"
+      "scale": 1.9,
+      "angle": -4
     }
   ],
+  "marks": [],
+  "aura": true,
   "story_evidence": "She fears her YouTube animation channel will not work, sees seven views, and decides to keep making the next video.",
-  "application": "Worried face and the film\u2019s illustrated play button; remove its optional annotation. No horror imagery or claim that she quit.",
-  "revision": "collection_r4"
+  "application": "Literal seven views after refreshing at 2 AM, including her own phone views. A night desk and worried gaze toward the play-button monitor show creator anxiety; avoid horror or a quitting claim.",
+  "revision": "story_r4"
 }

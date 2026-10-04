@@ -4,7 +4,7 @@
 
 For Nemi/ADB thumbnail work, load the relevant storytime skill and `docs/animation/STORYTIME_THUMBNAILS.md`. Future thumbnails use existing production rigs/art in editable Godot compositions; do not use AI image generation or restyling. Save source, exports and review in the episode's `thumbnail/`, preserving animation, voice and existing renders. A thumbnail-only request follows the static-image route; full episode preflight/proofs still apply when animation work is requested.
 
-Use one eye-catching headline only, without smaller captions/labels. ADB’s EP00-inspired golden-yellow background, Nemi’s accepted navy-to-denim blue background (her burgundy/pink EP09 revision was rejected), a shared external white silhouette outline/soft aura, and a few author-specific doodles are allowed and preferred; retain the actual storytime character/prop art.
+Use one eye-catching headline only, without smaller captions/labels. Choose each thumbnail’s background, typography, props, palette and composition for its actual episode. The user replaced the fixed gold-ADB/blue-Nemi treatment; neither palette nor a repeated layout is mandatory. External white silhouette outlines/soft aura and author-specific doodles are optional when useful. Retain the actual storytime character/prop art and truthful episode promise; do not claim CTR gains without audience data.
 
 ## Automatic episode-start routing (Codex and Antigravity)
 

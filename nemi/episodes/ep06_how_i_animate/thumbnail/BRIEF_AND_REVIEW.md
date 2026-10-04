@@ -1,21 +1,27 @@
-# NEMI ep06_how_i_animate thumbnail brief — 2026-10-04
+# Episode-specific thumbnail direction
 
-User authorized revising all existing episode thumbnails. Apply the animation-art workflow with one headline, white silhouette aura and author-specific completed doodles. Nemi’s blue background and ADB’s gold background follow the latest accepted examples. Existing root thumbnail files remain preserved as historical media; the new recommended delivery is `thumbnail/thumbnail.jpg`.
+User revision: remove fixed channel backgrounds; direct every episode independently. One headline only. Animation art remains canonical.
 
-## Story application before authoring
+## Story evidence read before composing
 
-Read the episode’s subtitle transcript. Evidence: Episode walks through a real-life story, script, voice clock, beat timing, Godot animation and polishing.
+Episode walks through a real-life story, script, voice clock, beat timing, Godot animation and polishing.
 
-Chosen headline: **HOW I ANIMATE**. Existing Nemi-world tablet, stylus and keyframe strip represent the process without smaller interface text. This is an editorial portrait/object collage; scales are intentionally separate, not a literal room scene. Use existing production assets only; no generative image service, rig/library edits or new animation scene.
+Source: `nemi/episodes/ep06_how_i_animate/Episode06Subtitles.gd`. Existing episode frames inspected in the 12-episode reference sheet; ADB EP01 serious/reveal images and Nemi EP09 camera/set-scale sheets supply their current film reference.
 
-Viewed two actual movie frames on the episode-reference contact sheet, at 28.353s and 92.148s from `nemi/episodes/ep06_how_i_animate/renders/EP06_How_I_Actually_Make_Storytime_Animations_4K.mp4`. They establish the episode’s existing character construction, colour mode and pen language. The stills were extracted at 640×360 and the contact sheet displayed at 1106×2048. Source hashes and later performed export review are recorded separately.
+## Application
 
-## Performed export review
+The requested process video is immediately clear from tablet, stylus and keyframes. A warm paper workspace against teal and a cheerful guide communicate the craft without tiny UI labels or inventing tools.
 
-Final GPU batch passed with all ten completion markers and no errors/warnings. Individually viewed the 1920×1080 JPG and inspected native 320×180/160×90 previews in the complete collection sheets. Decoded the native 3840×2160 master and checked dimensions; did not individually view that master during this collection pass. Pointing hand, tablet/stylus and keyframe strip readable. Timeline intentionally layers over the tablet; no tiny interface labels.
+Typography: one headline split into readable lines; Impact for condensed clarity, Caveat Bold selectively for the introductory sketchbook. Background and type contrast are chosen separately from each character’s canonical palette. Reuse production props and supported pose/expression controls; new background geometry uses the shared LiveDrawing/profile route. White outline/aura is optional when it helps separation.
 
-Initial drafts were revised for overlapping type and decorative lines touching art. New compositions omit the optional underline; existing accepted examples retain theirs. Supporting portrait/ear positions were revised where needed. Cat final uses Neeko’s existing curious state for open readable eyes. Source hashes and exact exports are in `provenance_and_qa.json`; final engine output is in `render.log`. Native media stays local.
+Preservation: previous delivered composition and exact exports saved under `revisions/accepted_uniform_collection/`. Historical root thumbnails, rigs, movies, voice and scripts are unchanged.
 
-Recommended file: `thumbnail.jpg`. Edit `layout.json`, then render this folder’s `render_thumbnail.gd` with installed Godot, `--path . --script <renderer-path>`. This delegates only static composition to `tools/storytime/ThumbnailBatch.gd`; it does not bypass the movie-stage validator because no movie scene is authored.
+## Final review — 2026-10-05
 
-Provenance: **Godot render using existing production rig/art; AI-assisted direction/code**. No generative image service. User approved the channel styling examples; each new composition remains available for feedback. No upload or audience-performance result claimed.
+Final GPU batch completed all 12 compositions successfully, with no errors/warnings. This episode's final 1920×1080 delivery was individually inspected; all final 320×180 and 160×90 reductions were viewed at native feed sizes. Pointing hand directs attention to actual tablet/stylus/keyframe strip; cream/teal keeps both hook and animation tools readable.
+
+All five output files decode and have the expected dimensions; SHA-256 hashes and source dependencies are in `provenance_and_qa.json`. The native 4K master was dimension-checked, not individually viewed. The saved prior delivery hash and historical root thumbnail hashes (where recorded) passed preservation checks. Local drafts and the previous accepted collection remain under `revisions/`.
+
+Designed for truthful click appeal; no measured click-through-rate claim or platform upload. This is a static-thumbnail review, not an episode animation export.
+
+A final mock duration-badge review at 320×180 left the headline, faces and core event unobscured; review overlays are absent from delivery files.

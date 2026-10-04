@@ -1,50 +1,113 @@
 {
-  "format": "ep09-static-thumbnail-v3",
+  "format": "storytime-static-story-v2",
   "author": "nemi",
-  "intent": "Shocked narrator foreground, truthful rear-end collision vignette, San Francisco context. Editorial collage, not one literal-scale scene.",
-  "palette": {
-    "ink": "#38101e",
-    "accent": "#ad5e69",
-    "paper": "#faf6ed"
+  "episode": "ep09_sf_accident",
+  "background": {
+    "kind": "collision",
+    "top": "#e8c5a7",
+    "bottom": "#9bbac3"
   },
-  "character": {
-    "position": [
-      388,
-      1220
-    ],
-    "scale": 5.2
-  },
-  "cars": [
+  "headline": [
     {
-      "kind": "damaged_car",
+      "text": "MY TAXI",
       "position": [
-        1025,
-        910
+        815,
+        25
       ],
-      "scale": 0.94
+      "size": 220,
+      "max_width": 1020,
+      "color": "#3b4750",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 7
     },
     {
-      "kind": "car",
+      "text": "GOT HIT",
       "position": [
-        1590,
-        910
+        805,
+        275
       ],
-      "scale": 0.94
+      "size": 250,
+      "max_width": 1040,
+      "color": "#ad4241",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 9
     }
   ],
-  "variants": [
+  "characters": [
     {
-      "file": "thumbnail",
-      "top": "MY TAXI",
-      "bottom": "GOT HIT",
-      "top_size": 228,
-      "bottom_size": 248
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        550,
+        1240
+      ],
+      "scale": 5.2,
+      "pose": "shock_recoil",
+      "expression": "shocked",
+      "eyes": 1.08,
+      "pupils": 0.85,
+      "gaze": [
+        0.33,
+        0.12
+      ],
+      "tilt": -5,
+      "arms": []
     }
   ],
-  "background": {
-    "top": "#183b57",
-    "bottom": "#508aa8",
-    "method": "Godot-authored navy-to-denim gradient with subtle stationary grain; selected for contrast against Nemi red hair and cream headline",
-    "history": "EP00 informed the white aura/doodle treatment; its burgundy/pink field was rejected by the user in revision 2."
-  }
+  "props": [
+    {
+      "kind": "scene",
+      "asset": "damaged_car",
+      "position": [
+        1120,
+        920
+      ],
+      "scale": [
+        -0.92,
+        0.92
+      ],
+      "angle": 0
+    },
+    {
+      "kind": "scene",
+      "asset": "car",
+      "position": [
+        1655,
+        920
+      ],
+      "scale": [
+        -0.92,
+        0.92
+      ],
+      "angle": 0
+    }
+  ],
+  "marks": [
+    {
+      "kind": "spark",
+      "position": [
+        1390,
+        810
+      ],
+      "scale": 2.1,
+      "color": "#ffe6ae",
+      "angle": 30,
+      "weight": 1.3
+    },
+    {
+      "kind": "spark",
+      "position": [
+        1390,
+        940
+      ],
+      "scale": 1.6,
+      "color": "#ffe6ae",
+      "angle": 168,
+      "weight": 1.3
+    }
+  ],
+  "aura": true,
+  "story_evidence": "Safe solo San Francisco trip and Waymo ride; human-driven airport taxi brakes and is rear-ended; Nemi cries during police response.",
+  "application": "Retain the already strong MY TAXI GOT HIT hook; add real San Francisco scenery and a highway vignette. The damaged taxi points left and is rear-ended from the right. The bridge is a travel-memory layer, not the collision site; no Waymo branding, injuries or invented flames.",
+  "revision": "story_r3"
 }

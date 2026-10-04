@@ -1,64 +1,66 @@
 {
-  "format": "storytime-static-collection-v1",
+  "format": "storytime-static-story-v2",
   "author": "nemi",
   "episode": "ep05_celebration",
+  "background": {
+    "kind": "celebration",
+    "top": "#fff2d4",
+    "bottom": "#f8c6b0"
+  },
   "headline": [
     {
       "text": "1,000",
       "position": [
-        790,
-        80
+        80,
+        20
       ],
-      "size": 315,
+      "size": 385,
       "max_width": 1050,
-      "color": "#ffffff"
+      "color": "#aa414a",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 6
     },
     {
       "text": "OF YOU?!",
       "position": [
-        790,
-        410
+        80,
+        430
       ],
-      "size": 235,
-      "max_width": 1050,
-      "color": "#ffe1b2"
+      "size": 233,
+      "max_width": 1020,
+      "color": "#493742",
+      "font": "res://assets/fonts/Impact.ttf"
     }
   ],
-  "background": {
-    "top": "#183b57",
-    "bottom": "#508aa8",
-    "method": "Godot-authored static gradient and subtle grain"
-  },
   "characters": [
     {
       "author": "nemi",
       "rig": "res://nemi/characters/nemi/nemi.tscn",
       "position": [
-        388,
-        1220
+        1530,
+        1280
       ],
-      "scale": 5.2,
-      "pose": "idle",
+      "scale": 5.3,
+      "pose": "hand_on_heart",
       "expression": "excited",
-      "eyes": 1.14,
-      "pupils": 0.8,
+      "eyes": 1.08,
+      "pupils": 0.85,
       "gaze": [
-        0.18,
-        0.08
+        -0.25,
+        0.12
       ],
-      "tilt": 3,
-      "arms": [
+      "tilt": -3,
+      "arms": [],
+      "hand_targets": [
         {
-          "left": true,
-          "upper": -15,
-          "lower": 30,
-          "hand": "relaxed"
-        },
-        {
-          "left": false,
-          "upper": 15,
-          "lower": -170,
-          "hand": "open_palm_up"
+          "side": "left",
+          "position": [
+            -5,
+            -58
+          ],
+          "hand": "hand_to_chest",
+          "angle": 60,
+          "elbow_side": -1
         }
       ]
     }
@@ -67,8 +69,8 @@
     {
       "kind": "crowd",
       "position": [
-        945,
-        865
+        145,
+        835
       ],
       "scale": 2.35
     }
@@ -77,45 +79,17 @@
     {
       "kind": "spark",
       "position": [
-        110,
-        105
+        1020,
+        550
       ],
-      "scale": 1.8,
-      "angle": -20,
-      "color": "#ffffff"
-    },
-    {
-      "kind": "spark",
-      "position": [
-        1840,
-        90
-      ],
-      "scale": 1.55,
-      "angle": 20,
-      "color": "#ffffff"
-    },
-    {
-      "kind": "spark",
-      "position": [
-        875,
-        780
-      ],
-      "scale": 1.8,
-      "angle": -18,
-      "color": "#ffffff"
-    },
-    {
-      "kind": "spark",
-      "position": [
-        1810,
-        905
-      ],
-      "scale": 1.9,
-      "angle": 18,
-      "color": "#ffffff"
+      "scale": 2.4,
+      "color": "#b96a54",
+      "angle": 35,
+      "weight": 1.3
     }
   ],
+  "aura": true,
   "story_evidence": "The subscriber counter reaches one thousand; Nemi thanks the real people supporting her.",
-  "application": "Delighted face and twelve representative people from the existing audience doodle, arranged in two rows; the single headline carries the milestone.",
-  "revision": "collection_r4"
+  "application": "One thousand actual subscribers; the giant number dominates a bright cream/coral celebration, while a happy Nemi and symbolic audience make it personal. Fixed confetti supports the milestone without a trophy claim.",
+  "revision": "story_r4"
 }

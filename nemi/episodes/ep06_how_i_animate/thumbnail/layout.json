@@ -1,64 +1,64 @@
 {
-  "format": "storytime-static-collection-v1",
+  "format": "storytime-static-story-v2",
   "author": "nemi",
   "episode": "ep06_how_i_animate",
+  "background": {
+    "kind": "animation",
+    "top": "#275d62",
+    "bottom": "#79a99c"
+  },
   "headline": [
     {
       "text": "HOW I",
       "position": [
-        790,
-        80
+        85,
+        55
       ],
-      "size": 273,
-      "max_width": 1050,
-      "color": "#ffffff"
+      "size": 226,
+      "max_width": 1010,
+      "color": "#34505a",
+      "font": "res://assets/fonts/Impact.ttf"
     },
     {
       "text": "ANIMATE",
       "position": [
-        790,
-        345
+        80,
+        323
       ],
-      "size": 248,
-      "max_width": 1050,
-      "color": "#ffe1b2"
+      "size": 232,
+      "max_width": 1030,
+      "color": "#963f51",
+      "font": "res://assets/fonts/Impact.ttf"
     }
   ],
-  "background": {
-    "top": "#183b57",
-    "bottom": "#508aa8",
-    "method": "Godot-authored static gradient and subtle grain"
-  },
   "characters": [
     {
       "author": "nemi",
       "rig": "res://nemi/characters/nemi/nemi.tscn",
       "position": [
-        388,
-        1220
+        1520,
+        1270
       ],
-      "scale": 5.2,
-      "pose": "idle",
+      "scale": 5.15,
+      "pose": "pointing",
       "expression": "happy",
-      "eyes": 1.02,
-      "pupils": 0.9,
+      "eyes": 1.08,
+      "pupils": 0.85,
       "gaze": [
-        0.18,
-        0.08
+        -0.25,
+        0.12
       ],
-      "tilt": -2,
-      "arms": [
+      "tilt": -3,
+      "arms": [],
+      "hand_targets": [
         {
-          "left": true,
-          "upper": -15,
-          "lower": 30,
-          "hand": "relaxed"
-        },
-        {
-          "left": false,
-          "upper": 15,
-          "lower": -170,
-          "hand": "pointing"
+          "side": "left",
+          "position": [
+            -110,
+            -64
+          ],
+          "hand": "pointing",
+          "angle": 90
         }
       ]
     }
@@ -68,59 +68,39 @@
       "kind": "script",
       "source": "res://nemi/world/props/PropDrawingTablet.gd",
       "position": [
-        1300,
+        530,
         850
       ],
       "scale": 8.1,
-      "angle": -7,
+      "angle": -6,
       "controls": {}
     },
     {
       "kind": "script",
       "source": "res://nemi/world/props/PropStylus.gd",
       "position": [
-        1645,
-        760
+        1000,
+        780
       ],
-      "scale": 7.0,
-      "angle": -46,
+      "scale": 7.3,
+      "angle": -40,
       "controls": {}
     },
     {
       "kind": "script",
       "source": "res://nemi/world/props/PropAnimationTimeline.gd",
       "position": [
-        1370,
-        975
+        530,
+        1010
       ],
       "scale": 6.4,
-      "angle": 1,
+      "angle": 0,
       "controls": {}
     }
   ],
-  "marks": [
-    {
-      "kind": "spark",
-      "position": [
-        110,
-        105
-      ],
-      "scale": 1.8,
-      "angle": -20,
-      "color": "#ffffff"
-    },
-    {
-      "kind": "spark",
-      "position": [
-        1840,
-        90
-      ],
-      "scale": 1.55,
-      "angle": 20,
-      "color": "#ffffff"
-    }
-  ],
+  "marks": [],
+  "aura": true,
   "story_evidence": "Episode walks through a real-life story, script, voice clock, beat timing, Godot animation and polishing.",
-  "application": "Existing Nemi-world tablet, stylus and keyframe strip represent the process without smaller interface text.",
-  "revision": "collection_r4"
+  "application": "The requested process video is immediately clear from tablet, stylus and keyframes. A warm paper workspace against teal and a cheerful guide communicate the craft without tiny UI labels or inventing tools.",
+  "revision": "story_r3"
 }

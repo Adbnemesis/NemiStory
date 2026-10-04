@@ -1,40 +1,42 @@
 {
-  "format": "storytime-static-collection-v1",
+  "format": "storytime-static-story-v2",
   "author": "adb",
   "episode": "ep00_intro",
+  "background": {
+    "kind": "gaming",
+    "top": "#163c4c",
+    "bottom": "#286877"
+  },
   "headline": [
     {
-      "text": "HI, I'M",
+      "text": "I'M AN",
       "position": [
-        80,
-        80
+        70,
+        90
       ],
-      "size": 230,
-      "max_width": 900,
-      "color": "#ffffff"
+      "size": 214,
+      "max_width": 980,
+      "color": "#fff6e6",
+      "font": "res://assets/fonts/Impact.ttf"
     },
     {
-      "text": "ADB!",
+      "text": "ANIMATOR?!",
       "position": [
-        80,
-        295
+        65,
+        330
       ],
-      "size": 320,
-      "max_width": 900,
-      "color": "#44263b"
+      "size": 218,
+      "max_width": 980,
+      "color": "#ffdc86",
+      "font": "res://assets/fonts/Impact.ttf"
     }
   ],
-  "background": {
-    "top": "#eca609",
-    "bottom": "#ffd43d",
-    "method": "Godot-authored static gradient and subtle grain"
-  },
   "characters": [
     {
       "author": "adb",
       "rig": "res://adb/characters/adb/ADB.tscn",
       "position": [
-        1390,
+        1450,
         1350
       ],
       "scale": 5.4,
@@ -45,45 +47,37 @@
     {
       "kind": "paddle",
       "position": [
-        270,
-        860
+        260,
+        900
       ],
-      "scale": 2.8,
-      "angle": -23
+      "scale": 3.0,
+      "angle": -25
     },
     {
       "kind": "controller",
       "position": [
-        640,
+        710,
         900
       ],
-      "scale": 2.4,
-      "angle": 12
+      "scale": 2.7,
+      "angle": 15
     }
   ],
   "marks": [
     {
-      "kind": "spark",
+      "kind": "question",
       "position": [
-        110,
-        105
+        1850,
+        120
       ],
-      "scale": 1.8,
-      "angle": -20,
-      "color": "#ffffff"
-    },
-    {
-      "kind": "spark",
-      "position": [
-        1840,
-        90
-      ],
-      "scale": 1.55,
-      "angle": 20,
-      "color": "#ffffff"
+      "scale": 2,
+      "color": "#d6f6e5",
+      "angle": 0,
+      "weight": 1.3
     }
   ],
+  "aura": true,
   "story_evidence": "Introduction to ADB: engineering, national-level table tennis, games/anime and starting storytime animations.",
-  "application": "Warm open shrug and the film\u2019s paddle/gamepad introduce his interests. Not a claim that a competition happened in this video.",
-  "revision": "collection_r4"
+  "application": "Introduction hook comes from his disbelief that he is an animator now; tabletop hobbies frame the dry open shrug. Cyan gaming collage and warm cream type separate the green shirt.",
+  "revision": "story_r3"
 }

@@ -1,0 +1,112 @@
+{
+  "format": "storytime-static-story-v2",
+  "author": "nemi",
+  "episode": "ep04_scared",
+  "background": {
+    "kind": "night",
+    "top": "#282441",
+    "bottom": "#555076"
+  },
+  "headline": [
+    {
+      "text": "ONLY 7",
+      "position": [
+        795,
+        55
+      ],
+      "size": 240,
+      "max_width": 1060,
+      "color": "#fff6e6",
+      "font": "res://assets/fonts/Impact.ttf"
+    },
+    {
+      "text": "VIEWS?!",
+      "position": [
+        790,
+        335
+      ],
+      "size": 263,
+      "max_width": 1070,
+      "color": "#e7baeb",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 5,
+      "outline_color": "#272039"
+    }
+  ],
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        350,
+        1300
+      ],
+      "scale": 5.2,
+      "pose": "idle",
+      "expression": "sad",
+      "eyes": 1.08,
+      "pupils": 0.85,
+      "gaze": [
+        0.42,
+        0.22
+      ],
+      "tilt": 5,
+      "arms": [
+        {
+          "left": true,
+          "upper": -15,
+          "lower": 30,
+          "hand": "relaxed"
+        },
+        {
+          "left": false,
+          "upper": 15,
+          "lower": -170,
+          "hand": "open_palm_up"
+        }
+      ]
+    }
+  ],
+  "props": [
+    {
+      "kind": "script",
+      "source": "res://nemi/world/props/PropMonitor.gd",
+      "position": [
+        1380,
+        825
+      ],
+      "scale": 8.5,
+      "angle": 0,
+      "controls": {
+        "current_state": "off"
+      }
+    },
+    {
+      "kind": "script",
+      "source": "res://nemi/world/props/PropLamp.gd",
+      "position": [
+        850,
+        1010
+      ],
+      "scale": 4.9,
+      "angle": 0,
+      "controls": {
+        "light_on": true
+      }
+    },
+    {
+      "kind": "youtube",
+      "position": [
+        1375,
+        813
+      ],
+      "scale": 1.9,
+      "angle": -4
+    }
+  ],
+  "marks": [],
+  "aura": true,
+  "story_evidence": "She fears her YouTube animation channel will not work, sees seven views, and decides to keep making the next video.",
+  "application": "Literal seven views after refreshing at 2 AM, including her own phone views. A night desk and worried gaze toward the play-button monitor show creator anxiety; avoid horror or a quitting claim.",
+  "revision": "story_r1"
+}

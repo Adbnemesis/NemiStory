@@ -1,0 +1,107 @@
+{
+  "format": "storytime-static-story-v2",
+  "author": "nemi",
+  "episode": "ep01_cat",
+  "background": {
+    "kind": "rain",
+    "top": "#223c43",
+    "bottom": "#5d7e79"
+  },
+  "headline": [
+    {
+      "text": "SHE WAS",
+      "position": [
+        65,
+        55
+      ],
+      "size": 215,
+      "max_width": 1000,
+      "color": "#fff6e6",
+      "font": "res://assets/fonts/Impact.ttf"
+    },
+    {
+      "text": "ALL ALONE",
+      "position": [
+        65,
+        298
+      ],
+      "size": 209,
+      "max_width": 1030,
+      "color": "#ffdca0",
+      "font": "res://assets/fonts/Impact.ttf"
+    }
+  ],
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1530,
+        1280
+      ],
+      "scale": 5.0,
+      "pose": "idle",
+      "expression": "sad",
+      "eyes": 1.08,
+      "pupils": 0.85,
+      "gaze": [
+        -0.25,
+        0.12
+      ],
+      "tilt": -3,
+      "arms": [
+        {
+          "left": true,
+          "upper": -15,
+          "lower": 30,
+          "hand": "relaxed"
+        },
+        {
+          "left": false,
+          "upper": 15,
+          "lower": -170,
+          "hand": "open_palm_up"
+        }
+      ]
+    }
+  ],
+  "props": [
+    {
+      "kind": "script",
+      "source": "res://nemi/episodes/ep01_cat/props/PropCardboardBox.gd",
+      "position": [
+        500,
+        955
+      ],
+      "scale": 7.2,
+      "angle": 0,
+      "controls": {}
+    },
+    {
+      "kind": "cat",
+      "position": [
+        500,
+        897
+      ],
+      "scale": 7.2,
+      "state": "curious"
+    }
+  ],
+  "marks": [
+    {
+      "kind": "arrow",
+      "position": [
+        960,
+        735
+      ],
+      "scale": 2.5,
+      "color": "#f3deb2",
+      "angle": 153,
+      "weight": 1.3
+    }
+  ],
+  "aura": true,
+  "story_evidence": "At sixteen, Nemi found Neeko abandoned in a damp cardboard box, cared for her, and found an adoptive family.",
+  "application": "Abandoned kitten in a damp box behind mailboxes. Cool wet pavement, warm eye-catching box/cat and a concerned portrait create tenderness, not danger or death. Rain is editorial atmosphere around the script\u2019s damp/shivering discovery.",
+  "revision": "story_r1"
+}

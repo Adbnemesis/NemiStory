@@ -1,66 +1,56 @@
 {
-  "format": "storytime-static-collection-v1",
+  "format": "storytime-static-story-v2",
   "author": "nemi",
   "episode": "ep03_scolded",
+  "background": {
+    "kind": "kitchen",
+    "top": "#f2dcae",
+    "bottom": "#ead6bf"
+  },
   "headline": [
     {
       "text": "MOM",
       "position": [
-        790,
-        80
+        65,
+        40
       ],
-      "size": 282,
-      "max_width": 1050,
-      "color": "#ffffff"
+      "size": 230,
+      "max_width": 1010,
+      "color": "#60433b",
+      "font": "res://assets/fonts/Impact.ttf"
     },
     {
-      "text": "CAUGHT ME",
+      "text": "WALKED IN",
       "position": [
-        790,
-        345
+        65,
+        300
       ],
-      "size": 231,
+      "size": 218,
       "max_width": 1050,
-      "color": "#ffe1b2"
+      "color": "#ad4550",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 5
     }
   ],
-  "background": {
-    "top": "#183b57",
-    "bottom": "#508aa8",
-    "method": "Godot-authored static gradient and subtle grain"
-  },
   "characters": [
     {
       "author": "nemi",
       "rig": "res://nemi/characters/nemi/nemi.tscn",
       "position": [
-        388,
-        1220
+        1540,
+        1260
       ],
       "scale": 5.2,
-      "pose": "idle",
+      "pose": "shock_recoil",
       "expression": "shocked",
-      "eyes": 1.2,
-      "pupils": 0.68,
+      "eyes": 1.08,
+      "pupils": 0.85,
       "gaze": [
-        0.18,
-        0.08
+        -0.25,
+        0.12
       ],
-      "tilt": -5,
-      "arms": [
-        {
-          "left": true,
-          "upper": -15,
-          "lower": 30,
-          "hand": "relaxed"
-        },
-        {
-          "left": false,
-          "upper": 15,
-          "lower": -170,
-          "hand": "open_palm_up"
-        }
-      ]
+      "tilt": -3,
+      "arms": []
     }
   ],
   "props": [
@@ -68,10 +58,10 @@
       "kind": "script",
       "source": "res://nemi/episodes/ep03_scolded/props/PropChicken.gd",
       "position": [
-        1220,
-        850
+        455,
+        815
       ],
-      "scale": 6,
+      "scale": 6.0,
       "angle": 0,
       "controls": {}
     },
@@ -79,39 +69,19 @@
       "kind": "script",
       "source": "res://nemi/episodes/ep03_scolded/props/PropHairdryer.gd",
       "position": [
-        1650,
-        810
+        965,
+        785
       ],
-      "scale": 3.0,
+      "scale": 3.7,
       "angle": 0,
       "controls": {
         "current_state": "blast"
       }
     }
   ],
-  "marks": [
-    {
-      "kind": "spark",
-      "position": [
-        110,
-        105
-      ],
-      "scale": 1.8,
-      "angle": -20,
-      "color": "#ffffff"
-    },
-    {
-      "kind": "spark",
-      "position": [
-        1840,
-        90
-      ],
-      "scale": 1.55,
-      "angle": 20,
-      "color": "#ffffff"
-    }
-  ],
+  "marks": [],
+  "aura": true,
   "story_evidence": "Nemi forgot to thaw the chicken, tried a hairdryer, and her mother caught her blow-drying raw meat.",
-  "application": "Frozen chicken and hairdryer point toward each other, with the existing heat strokes held still; no injury, actual flames or invented angry mother portrait.",
-  "revision": "collection_r4"
+  "application": "The specific visual joke is a hairdryer blasting frozen raw chicken as her mother walks in. Warm kitchen tiles/counter establish dinner context. No fire or invented angry mother portrait.",
+  "revision": "story_r3"
 }

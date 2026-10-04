@@ -1,0 +1,95 @@
+{
+  "format": "storytime-static-story-v2",
+  "author": "nemi",
+  "episode": "ep06_how_i_animate",
+  "background": {
+    "kind": "animation",
+    "top": "#275d62",
+    "bottom": "#79a99c"
+  },
+  "headline": [
+    {
+      "text": "HOW I",
+      "position": [
+        85,
+        55
+      ],
+      "size": 226,
+      "max_width": 1010,
+      "color": "#34505a",
+      "font": "res://assets/fonts/Impact.ttf"
+    },
+    {
+      "text": "ANIMATE",
+      "position": [
+        80,
+        323
+      ],
+      "size": 232,
+      "max_width": 1030,
+      "color": "#963f51",
+      "font": "res://assets/fonts/Impact.ttf"
+    }
+  ],
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1520,
+        1270
+      ],
+      "scale": 5.15,
+      "pose": "pointing",
+      "expression": "happy",
+      "eyes": 1.08,
+      "pupils": 0.85,
+      "gaze": [
+        -0.25,
+        0.12
+      ],
+      "tilt": -3,
+      "arms": []
+    }
+  ],
+  "props": [
+    {
+      "kind": "script",
+      "source": "res://nemi/world/props/PropDrawingTablet.gd",
+      "position": [
+        530,
+        850
+      ],
+      "scale": 8.1,
+      "angle": -6,
+      "controls": {}
+    },
+    {
+      "kind": "script",
+      "source": "res://nemi/world/props/PropStylus.gd",
+      "position": [
+        1000,
+        780
+      ],
+      "scale": 7.3,
+      "angle": -40,
+      "controls": {}
+    },
+    {
+      "kind": "script",
+      "source": "res://nemi/world/props/PropAnimationTimeline.gd",
+      "position": [
+        530,
+        1010
+      ],
+      "scale": 6.4,
+      "angle": 0,
+      "controls": {}
+    }
+  ],
+  "marks": [],
+  "aura": true,
+  "story_evidence": "Episode walks through a real-life story, script, voice clock, beat timing, Godot animation and polishing.",
+  "application": "The requested process video is immediately clear from tablet, stylus and keyframes. A warm paper workspace against teal and a cheerful guide communicate the craft without tiny UI labels or inventing tools.",
+  "revision": "story_r2"
+}

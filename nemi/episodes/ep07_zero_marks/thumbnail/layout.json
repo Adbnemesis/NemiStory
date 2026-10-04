@@ -1,64 +1,66 @@
 {
-  "format": "storytime-static-collection-v1",
+  "format": "storytime-static-story-v2",
   "author": "nemi",
   "episode": "ep07_zero_marks",
+  "background": {
+    "kind": "exam",
+    "top": "#e6e5ce",
+    "bottom": "#c4d0b4",
+    "set": "school_classroom",
+    "set_opacity": 0.55
+  },
   "headline": [
     {
       "text": "ZERO",
       "position": [
-        790,
-        80
+        1060,
+        165
       ],
-      "size": 290,
-      "max_width": 1050,
-      "color": "#ffffff"
+      "size": 260,
+      "max_width": 680,
+      "color": "#b04450",
+      "font": "res://assets/fonts/Impact.ttf"
     },
     {
       "text": "MARKS?!",
       "position": [
-        790,
-        345
+        1025,
+        460
       ],
-      "size": 248,
-      "max_width": 1050,
-      "color": "#ffe1b2"
+      "size": 185,
+      "max_width": 710,
+      "color": "#a43947",
+      "font": "res://assets/fonts/Impact.ttf"
     }
   ],
-  "background": {
-    "top": "#183b57",
-    "bottom": "#508aa8",
-    "method": "Godot-authored static gradient and subtle grain"
-  },
   "characters": [
     {
       "author": "nemi",
       "rig": "res://nemi/characters/nemi/nemi.tscn",
       "position": [
-        388,
-        1220
+        365,
+        1250
       ],
       "scale": 5.2,
-      "pose": "idle",
+      "pose": "disbelief",
       "expression": "shocked",
-      "eyes": 1.21,
-      "pupils": 0.58,
+      "eyes": 1.08,
+      "pupils": 0.85,
       "gaze": [
-        0.3,
-        0.25
+        0.38,
+        0.16
       ],
-      "tilt": 4,
-      "arms": [
+      "tilt": -3,
+      "arms": [],
+      "hand_targets": [
         {
-          "left": true,
-          "upper": -15,
-          "lower": 30,
-          "hand": "relaxed"
-        },
-        {
-          "left": false,
-          "upper": 15,
-          "lower": -170,
-          "hand": "open_palm_up"
+          "side": "right",
+          "head_offset": [
+            44,
+            -53
+          ],
+          "hand": "hand_to_cheek",
+          "angle": 180
         }
       ]
     }
@@ -67,36 +69,16 @@
     {
       "kind": "paper",
       "position": [
-        1345,
-        850
+        1390,
+        630
       ],
-      "scale": 0.78,
-      "angle": 9
+      "scale": 2.2,
+      "angle": 0
     }
   ],
-  "marks": [
-    {
-      "kind": "spark",
-      "position": [
-        110,
-        105
-      ],
-      "scale": 1.8,
-      "angle": -20,
-      "color": "#ffffff"
-    },
-    {
-      "kind": "spark",
-      "position": [
-        1840,
-        90
-      ],
-      "scale": 1.55,
-      "angle": 20,
-      "color": "#ffffff"
-    }
-  ],
+  "marks": [],
+  "aura": true,
   "story_evidence": "An exam became offline, Nemi studied until 2 AM, answered every question and received zero out of thirty.",
-  "application": "Shocked face and completed exam-paper art from the shared storytime library, directed with Nemi\u2019s ink. No invented teacher face or cheating success.",
-  "revision": "collection_r4"
+  "application": "An answered exam still earned zero out of thirty. The single headline sits directly over an enlarged answer sheet; sage classroom context and stunned Nemi make the grade the whole story. Decorative circle will be removed if it harms text.",
+  "revision": "story_r3"
 }

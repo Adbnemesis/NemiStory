@@ -1,8 +1,10 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "author": "nemi",
   "episode": "ep00_introduction",
-  "method": "Native Godot render using existing production rigs/props, separate editorial type, author-profile marks and an external white aura; AI-assisted direction/code. No generative image service. Pillow used only for review contact sheets/packaging.",
+  "revision": "story_r3",
+  "headline": "HOW HARD CAN IT BE?",
+  "method": "Native Godot static composition from existing production rigs/props, per-author held ink, independently chosen editorial background/type and optional white aura. AI-assisted direction/code; no generative image service. Pillow used for previews and packaging.",
   "source_dependency_hashes": {
     "adb/episodes/ep00_intro/props/ADBIntroProps.gd": "3370f144a11d6fb35caa69ebc04d07d0030ca8107d09267a27fe5653871bc13a",
     "adb/poses/ADBPoseLibrary.gd": "08484b9d2dfdd476d4275076ca5d8b41ac7d2a826e2e2ed5b4341aca5b09dbf0",
@@ -16,17 +18,22 @@
     "common/storytime/PerformancePlayer.gd": "a19d1bbe544a8c942652dc705a7e61acb8d66e98ca46de0ebd1600fa0d9ba0fd",
     "common/storytime/ProfileAssets.gd": "2ccc4e013c4538637c2b746d488f633857f5abb8003436537e4c746b9c661dbf",
     "common/storytime/performances/recipes.json": "6e2326bb52e0fca44c9b4cdd07374fc83a0b5c6a78adef3ed983dd3918d51ea0",
+    "common/storytime/production/ActingTimeline.gd": "89809f3655f3852d4cf535c8f67fa91547599f40f27457c47cc853189b5b26f1",
+    "common/storytime/production/Backdrop.gd": "14a1d973843861d4d0741615eddfb77b504b0468f7e36e31f36e85a110654fd2",
+    "common/storytime/production/HandPaths.gd": "f87567e0d68c7450c4630fa96ef631b02841d75990ebc91af7fee2e666d19e73",
+    "common/storytime/production/Motion.gd": "a7925159ef57d0f13b6d96f93cb4ee303e6dbc084f174170848ed36b16fd29ec",
+    "common/storytime/production/SceneArt.gd": "86ac79c7c57d54a0939240bc7e765be35f9a8cfaeab73ce9d63421353169f8e9",
+    "common/storytime/production/SchoolArt.gd": "07a10dd451ffe2aa79805ccd53d4ccf71d7e46112bd433ee3cdf54e12b99e5c5",
+    "common/storytime/production/SchoolBackdrop.gd": "a946f4aef9b8b9a2863b3355197adc0058573cf0d0f35eb4636543dc5c38f8f6",
     "common/storytime/production/SchoolGags.gd": "a4d7d1d89a2562fcdf667345f0395f4105870d823a414198708dd20ed7b3b8a8",
+    "common/storytime/production/TravelArt.gd": "f8a1c6b308232c4acc8f6b7418a2fb746cf5086d2c6a68435eaeea450f71704f",
     "common/storytime/profiles/adb.json": "ca5a41a8b41ec55aca8d8e0e0653bfaa8cd612ca215cae3659cc4f21fb8d431d",
+    "common/storytime/profiles/adb_lettering.json": "e906def8f06d1fb35dfbc7f66c50a42ac47bcc4c5e514dddfb69feb39ef54393",
     "common/storytime/profiles/nemi.json": "f6bee539815f1f96472445366efc7bdae023e97bb05fcde4523a129c584a4b4f",
+    "common/storytime/profiles/nemi_lettering.json": "a385f4627262fbff03fb2ebfeff31f64f2beba67d26a26becee22e48ef814bbb",
     "nemi/characters/neeko/Neeko.gd": "bca2b5e023fb33c78498c2adbe17ee8556b743ea7ced08b99e8c3f1c24589e79",
     "nemi/characters/neeko/Neeko.tscn": "e7f9d8415c7c95819012d4dfd4589bb9dbcee5c0a63f3e88aa217602166feadd",
     "nemi/characters/nemi/NemiPose.gd": "5470214d8df90fa8fad97c0b199b119471fc1612cc0129c956cb6e0e3e05c8ed",
-    "nemi/episodes/ep04_scared/Ep04Doodles.gd": "a40f21bf3e252d37c784215a0ef99d35c03fdfdd5538f8b6931c6f64ca4e4179",
-    "nemi/episodes/ep05_celebration/Ep05Doodles.gd": "1b134a1ad5d18c4e0b3fcdcbcf90bfc55a8d3c15838e7a4b8d2d602a8b973d26",
-    "tools/storytime/ThumbnailBatch.gd": "65d4128c9ca40c32bf6096e997aaf4617613e8f7315c890a726f7d57a30319fe",
-    "tools/storytime/ThumbnailStyle.gd": "abc2b5ec845ac4151ae0c38c6536017130cce9fcdbae4e0711adab83f2cc8b1d",
-    "tools/storytime/thumbnail_collection.json": "88e7e1dae1d6c73b0d80d40b9adabe909c44ee5e3167ba7344fd75bced1cba81",
     "nemi/characters/nemi/NemiProportions.gd": "ec63b3e5a76755622de1c56ab8ac404303c7dac96ba3a33fc638569c830d701d",
     "nemi/characters/nemi/animation/NemiActingDirector.gd": "975e51846f59e54b8d6075873103f0eb6e70559dcd2d53b2394c43dab5ad1fb7",
     "nemi/characters/nemi/animation/NemiPerformanceDirector.gd": "eb1106fbc78a5ed43f012926c942d23cafd0349c00b940487458e5b9c47a3178",
@@ -63,61 +70,78 @@
     "nemi/episodes/ep00_introduction/Episode00Subtitles.gd": "4c60c283189de69ef62842fe4d2c06d00169ba502e3d7b64dca573691561357f",
     "nemi/episodes/ep00_introduction/props/PropDistortedTeacup.gd": "0c07ee0e0b2ce8a6965116d6061a16b206ebcaa153f791c73e74b7b91c38cfbc",
     "nemi/episodes/ep00_introduction/props/PropStylus.gd": "d41a17d00489a213bbced173bbf5a03e13eb7b302c9afd8d450bf2eeca308972",
-    "nemi/episodes/ep00_introduction/thumbnail/layout.json": "f80f0e8d0ed98e04467fc55f5e3a4d2cc835c847f4b0691b8a89c28b9da251e0",
-    "nemi/episodes/ep00_introduction/thumbnail/render_thumbnail.gd": "a3156ebac91ce66c7fe13bd2dd96e6e3eaf5b14a7fc491f29a1cad72d8d60fdd",
-    "nemi/world/style/WorldStyle.gd": "207165bc83e6c69e28069bf2db4449cd64974e43ae542e70876b04a0aa8ce50c"
+    "nemi/episodes/ep00_introduction/thumbnail/layout.json": "32d51c0c071893165732c64c7a0561d138feadbe8337d5f65f8db227efc9d68c",
+    "nemi/episodes/ep00_introduction/thumbnail/render_thumbnail.gd": "5b0daff8c53c9d907cadf7c3942e76407f65ceffaa318f7c29c10e7457ad917d",
+    "nemi/episodes/ep04_scared/Ep04Doodles.gd": "a40f21bf3e252d37c784215a0ef99d35c03fdfdd5538f8b6931c6f64ca4e4179",
+    "nemi/episodes/ep05_celebration/Ep05Doodles.gd": "1b134a1ad5d18c4e0b3fcdcbcf90bfc55a8d3c15838e7a4b8d2d602a8b973d26",
+    "nemi/world/style/WorldStyle.gd": "207165bc83e6c69e28069bf2db4449cd64974e43ae542e70876b04a0aa8ce50c",
+    "tools/storytime/ThumbnailBatch.gd": "65d4128c9ca40c32bf6096e997aaf4617613e8f7315c890a726f7d57a30319fe",
+    "tools/storytime/ThumbnailEpisodeSet.gd": "c72afee01e152b82293b9d5f6b57fe437d521635b9c227d3ceda56cccc97a20c",
+    "tools/storytime/ThumbnailStoryArt.gd": "66cb4adcfecff511d0796645a0b1426457ca9fd6a5f74672245dbb3dc931476c",
+    "tools/storytime/ThumbnailStyle.gd": "abc2b5ec845ac4151ae0c38c6536017130cce9fcdbae4e0711adab83f2cc8b1d",
+    "tools/storytime/package_thumbnails.py": "2a307b3da4a3fd12aeb2bd62b518626263f3d9727d7dcda545bc98f37609c3a5",
+    "tools/storytime/thumbnail_collection.json": "328eb6ef39c6e344026a6b2a66119e27b42fd87fdd1d0e6fa86c828f1e8cf742"
   },
-  "story_reference": "source_review.json: read transcript and inspected two actual movie frames before layout authoring",
+  "story_reference": "source_review.json and BRIEF_AND_REVIEW.md: transcript/source art read before composition; prior film-reference records retained.",
   "outputs": {
     "thumbnail.jpg": {
       "dimensions": [
         1920,
         1080
       ],
-      "bytes": 401706,
-      "sha256": "e5feafe3a7074d1afade3be7e222387c5c4fc1c21d40e1fd5d81ec7c9853b8ec"
+      "bytes": 286373,
+      "sha256": "7a6b9aaf0ef8e462ed70ca286c53196006c515eacb027b9c5b6f4a7a800dc1ce"
     },
     "thumbnail.png": {
       "dimensions": [
         1920,
         1080
       ],
-      "bytes": 1808904,
-      "sha256": "ffe2ab4322fb3716c38be66be46478b2f5fb6940a361870b4051cf01aafb0c38"
+      "bytes": 703231,
+      "sha256": "0733daf01c441f6cbd230a3900b57a3d4dd4f6113a8e4d46db7b83e8dec559e0"
     },
     "thumbnail_master_4k.png": {
       "dimensions": [
         3840,
         2160
       ],
-      "bytes": 2116836,
-      "sha256": "3c4988a7c4bafc3ead6c9b15daf7f62a59ae593f695b3cad96d03dac53198063"
+      "bytes": 918752,
+      "sha256": "1ead20f811758360553a148cb648672814d87214af6af584e3d68b5ef74637ce"
     },
     "thumbnail_phone.png": {
       "dimensions": [
         320,
         180
       ],
-      "bytes": 72903,
-      "sha256": "ff70c9ebfb07f4bc784493853e6151203613b8b2fd479b483a027d1641fe6e2d"
+      "bytes": 61166,
+      "sha256": "2fee6277dc8b4f38d16911a2497f04b1cf769a37920a1d599bd23fe33efcd7b0"
     },
     "thumbnail_tiny.png": {
       "dimensions": [
         160,
         90
       ],
-      "bytes": 22907,
-      "sha256": "cc8cf6454a8f2b1b4ac3b18a4aebda59e56f8337aa07b912511dc509fcd8c858"
+      "bytes": 22759,
+      "sha256": "a494b162a7f5cddaf0187c2a0fd7a3e62e7db074cd86d1602013a34b96909276"
     }
   },
-  "render_log": "render.log: final GPU batch completed all ten new compositions with no errors/warnings",
+  "render_log": "render.log: final GPU batch exited successfully with all 12 episode markers plus collection marker; no error/warning entries.",
   "inspection": {
-    "delivery": "Each new 1920x1080 JPG individually viewed",
-    "phone": "Each 320x180 preview viewed at native size in a 3-column, 12-episode sheet",
-    "tiny": "Each 160x90 preview viewed at native size in a 3-column, 12-episode sheet",
-    "native_master": "3840x2160 decoded/dimensions verified; native master not individually visually inspected in this collection pass",
-    "findings": "Welcoming Nemi and original sketch-card gag visible; optional prop annotation removed; separate headline/art bands."
+    "delivery": "All 12 final 1920x1080 JPGs individually viewed in full-image inspection.",
+    "phone": "All final 320x180 reductions viewed at native size in a 3-column sheet.",
+    "tiny": "All final 160x90 reductions viewed at native size in a 3-column sheet.",
+    "native_master": "All 3840x2160 masters decoded and dimension-checked; not individually visually inspected.",
+    "findings": "Sketchbook headline pairs Caveat and Impact; malformed teacup-hand gag and stylus remain readable; canonical face is intact.",
+    "duration_overlay": "All final 320x180 previews viewed with a mock lower-right duration badge; no headline, key face or event contact obscured. Badge is review-only, absent from deliveries."
   },
-  "preservation": "Root historical thumbnails unchanged; local draft exports and layout/review records preserved under revisions/; no rigs, pose/expression/hand libraries, episode scenes, scripts, audio or movies edited.",
-  "limits": "New static compositions reviewed by assistant; user approved style examples, not each new individual thumbnail. No upload, movie proof or CTR claim."
+  "preservation": {
+    "previous_delivery_sha256": "e5feafe3a7074d1afade3be7e222387c5c4fc1c21d40e1fd5d81ec7c9853b8ec",
+    "verified_saved_copy": "revisions/accepted_uniform_collection/thumbnail.jpg",
+    "historical_root_hashes_verified": [
+      "nemi/episodes/ep00_introduction/thumbnail.png"
+    ],
+    "scope": "No rig, character definition, pose/expression/hand library, episode film, narration or script edits."
+  },
+  "limits": "Assistant visual review, not individual user approval or measured CTR. No platform upload. Thumbnail-only static route; no movie proof required.",
+  "render_command": "/Users/talus/Downloads/Godot.app/Contents/MacOS/Godot --path . --log-file /tmp/thumbnail_story_final.log --script tools/storytime/ThumbnailEpisodeSet.gd"
 }

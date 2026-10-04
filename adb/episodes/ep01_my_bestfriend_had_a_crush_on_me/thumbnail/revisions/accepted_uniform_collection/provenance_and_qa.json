@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-04",
+  "author": "adb",
+  "method": "Native Godot production-art render with external white outline/soft aura. Background treatment recreated in Godot from an EP00 visual reference; no pixels copied from the generated reference. No generative image service. AI-assisted direction/code.",
+  "reference_only": {
+    "path": "adb/episodes/ep00_intro/thumbnail.png",
+    "sha256": "e9a2b8b32f5cc8550645ff90fff35d3cc677edea269c1bf728b48b57deeed2e8"
+  },
+  "source_hashes": {
+    "tools/storytime/ThumbnailStyle.gd": "abc2b5ec845ac4151ae0c38c6536017130cce9fcdbae4e0711adab83f2cc8b1d",
+    "common/storytime/ProfileAssets.gd": "2ccc4e013c4538637c2b746d488f633857f5abb8003436537e4c746b9c661dbf",
+    "common/engine/illustration/LiveDrawing.gd": "dea367dfed47fc444d9228023b3229237384c01086e2d8d7ad4997f1169612ba",
+    "common/engine/illustration/LiveInk.gd": "85a7dfec5b1e065014dab0dd43b80a30c2282fb9ba7397d05b83fec8c7e85cdd",
+    "assets/fonts/Impact.ttf": "57e95627fd36fe2740e5ee8a91ff1ae74fb216df9580bd23e30d6772814727be",
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/render_thumbnail.gd": "f295644a5e37f5a883c83799ba7f4137e1ec2f4f1677c5124ef6886d9e5fe212",
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/layout.json": "ec7d9c637f0a46cfac6a9b6247c2f7e002afba0611391e05c2bdea1f4277c86f",
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/SCRIPT_AND_BEATS.md": "30f7d2dc16b0f8743653d4b3fc0bae313b91416cd75210b7cb1f2a3a3d716dcf",
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/scene.json": "e9f59162d3b564aa8ca3b907e980452a8d6a8dfb3c23c5d7ea63e767a8120b89",
+    "common/storytime/profiles/adb.json": "ca5a41a8b41ec55aca8d8e0e0653bfaa8cd612ca215cae3659cc4f21fb8d431d",
+    "common/storytime/profiles/adb_lettering.json": "e906def8f06d1fb35dfbc7f66c50a42ac47bcc4c5e514dddfb69feb39ef54393",
+    "adb/characters/adb/ADBGeometry.gd": "e4cb4dffa00e1be398699742996aca8ca5616a0fc91a1109f28db3024c8d7446",
+    "adb/characters/adb/ADB.gd": "5b942fde4ac4251ea0f1070f503286d64b220ca0f175d42f9eb9f273c23679cb",
+    "adb/characters/adb/ADBStyle.gd": "66da8c61efc4011e0f5d3f9b775e74dd6131128b2d6639e81595eb05df9ec020",
+    "adb/characters/adb/ADB.tscn": "631f6b6e9a88fd5db03fc7273edf915417991736982a7633989224066529f858",
+    "common/storytime/production/SchoolGags.gd": "a4d7d1d89a2562fcdf667345f0395f4105870d823a414198708dd20ed7b3b8a8",
+    "common/storytime/PerformancePlayer.gd": "a19d1bbe544a8c942652dc705a7e61acb8d66e98ca46de0ebd1600fa0d9ba0fd",
+    "common/storytime/performances/recipes.json": "6e2326bb52e0fca44c9b4cdd07374fc83a0b5c6a78adef3ed983dd3918d51ea0",
+    "adb/expressions/ADBFace.gd": "1b07c17cabb5a4642a7ee8179d4f3fa2e5dbcb898bba6c989b9de3b8ee5c880b",
+    "adb/hands/ADBHands.gd": "f28cbf122ad8c84b5b84a36123887ee1cfeb55c1043cbc9851f88cecf2a7b462",
+    "adb/poses/ADBPoseLibrary.gd": "08484b9d2dfdd476d4275076ca5d8b41ac7d2a826e2e2ed5b4341aca5b09dbf0"
+  },
+  "outputs": {
+    "thumbnail.jpg": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 354631,
+      "sha256": "de9e4a55aba4928eb838e71d847a5c115f501328a4ee57f466cb36fb23f32ce7"
+    },
+    "thumbnail.png": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1729445,
+      "sha256": "1352ba162127532394e0bc0c3c93e5d18cf35003001e3c6f8f95667e8ab59f79"
+    },
+    "thumbnail_master_4k.png": {
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "bytes": 2065376,
+      "sha256": "65a856dba228cd3f2282cdebfbfec7d97c212f2f593813175c606525801b2538"
+    },
+    "thumbnail_phone.png": {
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 68119,
+      "sha256": "3b76222455e970a66a507e5afd17288f1d948c5f1e4550d098e0545bc3229f2e"
+    },
+    "thumbnail_tiny.png": {
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 21954,
+      "sha256": "7b3b8137ffb97971afd19666542cf0aec56286c71d12e469535a0003f797e0d3"
+    }
+  },
+  "render_log": "render.log; one completion marker and no errors/warnings in final run",
+  "inspection": {
+    "delivery_jpg": "1920x1080 viewed",
+    "phone": "320x180 viewed",
+    "tiny": "160x90 viewed",
+    "native_master": "3840x2160 file viewed at displayed 2048x1152",
+    "findings": "One headline; production identity maintained; face unobscured; no clipped headline; decorations remain subordinate. Nemi bumper contact visible. ADB heart clear of underline and hair clear of frame."
+  },
+  "limits": "Static thumbnail candidates; no new movie proof, upload, user approval or click-through result claimed."
+}

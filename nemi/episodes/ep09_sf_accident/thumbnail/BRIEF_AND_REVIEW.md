@@ -1,21 +1,27 @@
-# Nemi EP09 thumbnail revision 3 — 2026-10-04
+# Episode-specific thumbnail direction
 
-The user rejected revision 2’s burgundy/pink background and said ADB’s background was fine. This change revises only Nemi’s colour field; keep the single **MY TAXI GOT HIT** headline, shocked production-rig portrait, cream rear-end collision art, white silhouette aura and completed Nemi-profile doodles.
+User revision: remove fixed channel backgrounds; direct every episode independently. One headline only. Animation art remains canonical.
 
-Revision 2 source, exports, log and provenance are preserved under `revisions/r2/`; revision 1 remains under `revisions/r1/`. Actual episode/script evidence and art sources are unchanged: human-driven airport taxi rear-ended, Nemi in the back; both cars face left and follower nose meets taxi rear. This is an editorial portrait/event collage.
+## Story evidence read before composing
 
-## Palette application and review
+Safe solo San Francisco trip and Waymo ride; human-driven airport taxi brakes and is rear-ended; Nemi cries during police response.
 
-Rendered and viewed blue (`#183b57` to `#508aa8`), warm brown (`#603b35` to `#bc825a`) and lavender (`#3e3b66` to `#7c79ac`) full compositions in Godot. Chose navy-to-denim blue for clear warm/cool separation from Nemi’s red hair, readable cream/white type and a quieter field behind the aura. Brown is close to her hair hue; lavender has softer value separation. This is assistant visual judgment, not user approval or audience-performance evidence.
+Source: `nemi/episodes/ep09_sf_accident/SCRIPT_AND_BEATS.md`. Existing episode frames inspected in the 12-episode reference sheet; ADB EP01 serious/reveal images and Nemi EP09 camera/set-scale sheets supply their current film reference.
 
-Fresh final Godot render completed with `THUMBNAIL_OK nemi_ep09_revision3` and no errors/warnings. Viewed final 1920×1080 JPG, 320×180 phone preview, 160×90 tiny preview and native 3840×2160 master displayed at 2048×1152. Headline readable at reduced sizes; eyes and face remain clear; white aura/marks and existing bumper contact retained. Bottom-right wheels remain close to a potential platform duration overlay, with no critical headline/face there. No upload or CTR measurement performed.
+## Application
 
-Recommended delivery: `thumbnail.jpg`. Editable layout: `layout.json`; static renderer: `render_thumbnail.gd`; shared styling: `tools/storytime/ThumbnailStyle.gd`. Source/output dimensions, sizes and hashes are recorded in `provenance_and_qa.json`; engine output is in `render.log`. Native masters/previews stay local. From the repository root:
+Retain the already strong MY TAXI GOT HIT hook; add real San Francisco scenery and a highway vignette. The damaged taxi points left and is rear-ended from the right. The bridge is a travel-memory layer, not the collision site; no Waymo branding, injuries or invented flames.
 
-```sh
-/Users/talus/Downloads/Godot.app/Contents/MacOS/Godot --path . --log-file /tmp/nemi_ep09_thumbnail_r3.log --script nemi/episodes/ep09_sf_accident/thumbnail/render_thumbnail.gd --quit-after 180
-```
+Typography: one headline split into readable lines; Impact for condensed clarity, Caveat Bold selectively for the introductory sketchbook. Background and type contrast are chosen separately from each character’s canonical palette. Reuse production props and supported pose/expression controls; new background geometry uses the shared LiveDrawing/profile route. White outline/aura is optional when it helps separation.
 
-Renderer optionally accepts `-- --layout=<json-path> --output=<file-prefix>` for isolated colour studies. Default invocation exports the episode’s current selected layout. Canonical rig/prop geometry, art palette, expression, placement and type remain unchanged; no episode animation/audio/movie edits. Shared document, AGENTS routing and Nemi skill now record the rejected background preference without treating blue as a permanently approved channel palette. ADB remains unchanged.
+Preservation: previous delivered composition and exact exports saved under `revisions/accepted_uniform_collection/`. Historical root thumbnails, rigs, movies, voice and scripts are unchanged.
 
-Provenance: **Godot render using existing production rig/art; AI-assisted direction/code**. EP00 remains a historical reference for aura/doodle treatment, with no old generated pixels copied.
+## Final review — 2026-10-05
+
+Final GPU batch completed all 12 compositions successfully, with no errors/warnings. This episode's final 1920×1080 delivery was individually inspected; all final 320×180 and 160×90 reductions were viewed at native feed sizes. Rear-end car contact remains visible with shock-recoil Nemi; bridge is secondary trip context, not a claim about the crash location; no Waymo branding.
+
+All five output files decode and have the expected dimensions; SHA-256 hashes and source dependencies are in `provenance_and_qa.json`. The native 4K master was dimension-checked, not individually viewed. The saved prior delivery hash and historical root thumbnail hashes (where recorded) passed preservation checks. Local drafts and the previous accepted collection remain under `revisions/`.
+
+Designed for truthful click appeal; no measured click-through-rate claim or platform upload. This is a static-thumbnail review, not an episode animation export.
+
+A final mock duration-badge review at 320×180 left the headline, faces and core event unobscured; review overlays are absent from delivery files.

@@ -1,26 +1,28 @@
-# Current ADB + Nemi episode thumbnails — 2026-10-04
+# Current ADB + Nemi episode thumbnails — 2026-10-05
 
-All 12 numbered episodes are covered: Nemi EP00–EP09 and ADB EP00–EP01. Ten new static Godot compositions accompany the earlier accepted ADB crush and Nemi taxi thumbnails. Each delivery is a 1920×1080 JPG; native 4K masters and reduced previews remain local beside editable source. Historical root thumbnail images remain preserved and are superseded for delivery by the files linked here.
+All 12 numbered episodes have fresh, independently directed static thumbnails: ADB EP00–EP01 and Nemi EP00–EP09. The user's latest direction supersedes the shared gold/blue background rule. Choose backgrounds, doodles, props, type and reactions for each actual story; the production character art provides continuity. Each image has one headline, with no small subtitle labels.
 
-One headline per image, existing animation rigs/props, blue Nemi/gold ADB, external white aura and completed per-author doodles. No generative image service, movie/voice changes or platform upload.
+| Author | Episode | Headline | Scene direction | Current delivery |
+|---|---|---|---|---|
+| ADB | EP00 | I'M AN ANIMATOR?! | gaming | [JPG](../../adb/episodes/ep00_intro/thumbnail/thumbnail.jpg) |
+| ADB | EP01 | SHE LIKED ME?! | crush | [JPG](../../adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/thumbnail.jpg) |
+| NEMI | EP00 | HOW HARD CAN IT BE? | sketchbook | [JPG](../../nemi/episodes/ep00_introduction/thumbnail/thumbnail.jpg) |
+| NEMI | EP01 | SHE WAS ALL ALONE | rain | [JPG](../../nemi/episodes/ep01_cat/thumbnail/thumbnail.jpg) |
+| NEMI | EP02 | MY SECRET BOYFRIEND | chat | [JPG](../../nemi/episodes/ep02_partner/thumbnail/thumbnail.jpg) |
+| NEMI | EP03 | MOM WALKED IN | kitchen | [JPG](../../nemi/episodes/ep03_scolded/thumbnail/thumbnail.jpg) |
+| NEMI | EP04 | ONLY 7 VIEWS?! | night | [JPG](../../nemi/episodes/ep04_scared/thumbnail/thumbnail.jpg) |
+| NEMI | EP05 | 1,000 OF YOU?! | celebration | [JPG](../../nemi/episodes/ep05_celebration/thumbnail/thumbnail.jpg) |
+| NEMI | EP06 | HOW I ANIMATE | animation | [JPG](../../nemi/episodes/ep06_how_i_animate/thumbnail/thumbnail.jpg) |
+| NEMI | EP07 | ZERO MARKS?! | exam | [JPG](../../nemi/episodes/ep07_zero_marks/thumbnail/thumbnail.jpg) |
+| NEMI | EP08 | I MADE HIM A YOUTUBER | channel | [JPG](../../nemi/episodes/ep08_forced_bf_channel/thumbnail/thumbnail.jpg) |
+| NEMI | EP09 | MY TAXI GOT HIT | collision | [JPG](../../nemi/episodes/ep09_sf_accident/thumbnail/thumbnail.jpg) |
 
-| Author | Episode | Headline | Current delivery |
-|---|---|---|---|
-| ADB | ep00_intro | HI, I'M ADB! | [JPG](../../adb/episodes/ep00_intro/thumbnail/thumbnail.jpg) |
-| ADB | ep01_my_bestfriend_had_a_crush_on_me | SHE LIKED ME?! | [JPG](../../adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/thumbnail.jpg) |
-| NEMI | ep00_introduction | HI, I'M NEMI! | [JPG](../../nemi/episodes/ep00_introduction/thumbnail/thumbnail.jpg) |
-| NEMI | ep01_cat | I FOUND HER ALONE | [JPG](../../nemi/episodes/ep01_cat/thumbnail/thumbnail.jpg) |
-| NEMI | ep02_partner | MY SECRET BOYFRIEND | [JPG](../../nemi/episodes/ep02_partner/thumbnail/thumbnail.jpg) |
-| NEMI | ep03_scolded | MOM CAUGHT ME | [JPG](../../nemi/episodes/ep03_scolded/thumbnail/thumbnail.jpg) |
-| NEMI | ep04_scared | WHAT IF I FAIL? | [JPG](../../nemi/episodes/ep04_scared/thumbnail/thumbnail.jpg) |
-| NEMI | ep05_celebration | 1,000 OF YOU?! | [JPG](../../nemi/episodes/ep05_celebration/thumbnail/thumbnail.jpg) |
-| NEMI | ep06_how_i_animate | HOW I ANIMATE | [JPG](../../nemi/episodes/ep06_how_i_animate/thumbnail/thumbnail.jpg) |
-| NEMI | ep07_zero_marks | ZERO MARKS?! | [JPG](../../nemi/episodes/ep07_zero_marks/thumbnail/thumbnail.jpg) |
-| NEMI | ep08_forced_bf_channel | I MADE HIM A YOUTUBER | [JPG](../../nemi/episodes/ep08_forced_bf_channel/thumbnail/thumbnail.jpg) |
-| NEMI | ep09_sf_accident | MY TAXI GOT HIT | [JPG](../../nemi/episodes/ep09_sf_accident/thumbnail/thumbnail.jpg) |
+The local download package is [ADB_NEMI_episode_specific_thumbnails.zip](../../renders/thumbnail_story_collection_2026-10-05/ADB_NEMI_episode_specific_thumbnails.zip). Its [gallery](../../renders/thumbnail_story_collection_2026-10-05/gallery.html), author overviews and manifest are beside it. All twelve named 1920×1080 JPGs, their hashes, dimensions and ZIP CRC/contents were checked. Per-episode editable layouts, review records and small delivery JPGs belong in Git; native 4K masters and generated package media remain local.
 
-The complete local download/browser gallery is under `renders/thumbnail_collection_2026-10-04/`. The ZIP includes the twelve named episode JPGs, a gallery, overview images and manifest. The package is generated media kept local; per-episode sources, small delivery JPGs and QA records are backed up in Git.
+Final GPU rendering completed all 12 episode markers and the batch completion marker without errors/warnings. Every final 1920×1080 delivery was individually viewed, followed by all 320×180 and 160×90 reductions at native size. A mock lower-right duration-badge review at 320×180 also left headlines, faces and core events clear. Native masters were decoded/dimension-checked, not individually viewed. Final revisions separated faces from type, kept the exam headline within its paper, aimed the animation gesture at the tools, and used the other supported elbow branch to keep raised sleeves clear of Nemi's eyes/mouth. Static framing uses existing rig controls; no production rigs or libraries changed.
 
-Every new full-size delivery and all twelve 320×180/160×90 previews were visually inspected. Final GPU rendering passed all ten completion markers without errors/warnings; image decoding, dimensions, file hashes and ZIP contents were checked. Native masters were dimension-checked, not individually viewed in this pass. Changes after the first drafts fixed headline spacing, removed decorative underline collisions and separated supporting faces/ears from type. Each new episode’s `thumbnail/BRIEF_AND_REVIEW.md`, `source_review.json` and `provenance_and_qa.json` records story evidence, inspected movie timestamps, source hashes and specific findings.
+Each episode's `thumbnail/BRIEF_AND_REVIEW.md`, `source_review.json` and `provenance_and_qa.json` records source evidence, decisions and QA. Prior film-reference timestamps/hashes remain in source review records. Previous delivery exports were saved under `thumbnail/revisions/accepted_uniform_collection/` before replacement; their recorded hashes and historical root thumbnail hashes passed preservation checks. Earlier drafts are also retained locally.
 
-Batch entry point: `tools/storytime/ThumbnailBatch.gd`; manifest: `tools/storytime/thumbnail_collection.json`. ADB EP01 and Nemi EP09 retain their separate earlier renderers. No new episode schema or animation player was introduced. Individual new layouts remain subject to user feedback; no CTR result claimed.
+Renderer: `tools/storytime/ThumbnailEpisodeSet.gd`, extending the existing thumbnail compositor. Static scenery/type helper: `tools/storytime/ThumbnailStoryArt.gd`. Manifest: `tools/storytime/thumbnail_collection.json`. Packaging: `tools/storytime/package_thumbnails.py`. Both storytime skills and the shared [thumbnail guide](STORYTIME_THUMBNAILS.md) use the new episode-specific direction.
+
+No generative image service, episode movie/voice changes or platform upload. These are designed for click appeal; no measured CTR result is claimed. Individual user feedback may further revise this collection.

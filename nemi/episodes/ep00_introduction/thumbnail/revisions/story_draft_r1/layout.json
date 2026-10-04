@@ -1,0 +1,111 @@
+{
+  "format": "storytime-static-story-v2",
+  "author": "nemi",
+  "episode": "ep00_introduction",
+  "background": {
+    "kind": "sketchbook",
+    "top": "#e9eee0",
+    "bottom": "#d7e4c8"
+  },
+  "headline": [
+    {
+      "text": "HOW HARD",
+      "position": [
+        115,
+        60
+      ],
+      "size": 276,
+      "max_width": 940,
+      "color": "#483341",
+      "font": "res://assets/fonts/Caveat-Bold.ttf"
+    },
+    {
+      "text": "CAN IT BE?",
+      "position": [
+        120,
+        337
+      ],
+      "size": 205,
+      "max_width": 940,
+      "color": "#a54751",
+      "font": "res://assets/fonts/Impact.ttf"
+    }
+  ],
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1500,
+        1250
+      ],
+      "scale": 5.2,
+      "pose": "idle",
+      "expression": "embarrassed",
+      "eyes": 1.08,
+      "pupils": 0.85,
+      "gaze": [
+        -0.25,
+        0.12
+      ],
+      "tilt": -3,
+      "arms": [
+        {
+          "left": true,
+          "upper": -15,
+          "lower": 30,
+          "hand": "relaxed"
+        },
+        {
+          "left": false,
+          "upper": 15,
+          "lower": -170,
+          "hand": "open_palm_up"
+        }
+      ]
+    }
+  ],
+  "props": [
+    {
+      "kind": "script",
+      "source": "res://nemi/episodes/ep00_introduction/props/PropDistortedTeacup.gd",
+      "position": [
+        515,
+        850
+      ],
+      "scale": 1.85,
+      "angle": -8,
+      "controls": {
+        "show_annotation": false
+      }
+    },
+    {
+      "kind": "script",
+      "source": "res://nemi/episodes/ep00_introduction/props/PropStylus.gd",
+      "position": [
+        940,
+        830
+      ],
+      "scale": 3.6,
+      "angle": -8,
+      "controls": {}
+    }
+  ],
+  "marks": [
+    {
+      "kind": "arrow",
+      "position": [
+        875,
+        620
+      ],
+      "scale": 2.3,
+      "color": "#ad675c",
+      "angle": 155,
+      "weight": 1.3
+    }
+  ],
+  "aura": true,
+  "story_evidence": "Nemi introduces herself and storytime animation; her opening drawing is a misshapen hand holding a teacup.",
+  "application": "The first video begins with the disastrous teacup hand drawing and asks how hard animation could be. A sketchbook with the real gag, handmade-feeling Caveat lead-in and bold punchline sell the comic introduction.",
+  "revision": "story_r1"
+}

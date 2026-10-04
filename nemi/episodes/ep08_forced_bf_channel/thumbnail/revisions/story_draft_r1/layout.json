@@ -1,0 +1,106 @@
+{
+  "format": "storytime-static-story-v2",
+  "author": "nemi",
+  "episode": "ep08_forced_bf_channel",
+  "background": {
+    "kind": "channel",
+    "top": "#fbefdb",
+    "bottom": "#e7d2a7"
+  },
+  "headline": [
+    {
+      "text": "I MADE HIM",
+      "position": [
+        410,
+        25
+      ],
+      "size": 200,
+      "max_width": 1280,
+      "color": "#3e5651",
+      "font": "res://assets/fonts/Impact.ttf"
+    },
+    {
+      "text": "A YOUTUBER",
+      "position": [
+        395,
+        255
+      ],
+      "size": 202,
+      "max_width": 1290,
+      "color": "#a4493f",
+      "font": "res://assets/fonts/Impact.ttf"
+    }
+  ],
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        345,
+        1480
+      ],
+      "scale": 4.5,
+      "pose": "idle",
+      "expression": "smug",
+      "eyes": 1.08,
+      "pupils": 0.85,
+      "gaze": [
+        0.32,
+        0.1
+      ],
+      "tilt": 5,
+      "arms": [
+        {
+          "left": true,
+          "upper": -15,
+          "lower": 30,
+          "hand": "relaxed"
+        },
+        {
+          "left": false,
+          "upper": 15,
+          "lower": -170,
+          "hand": "open_palm_up"
+        }
+      ]
+    },
+    {
+      "author": "adb",
+      "rig": "res://adb/characters/adb/ADB.tscn",
+      "position": [
+        1510,
+        1510
+      ],
+      "scale": 4.1,
+      "recipe": "dry_annoyance"
+    }
+  ],
+  "props": [
+    {
+      "kind": "youtube",
+      "position": [
+        940,
+        850
+      ],
+      "scale": 2.1,
+      "angle": -8
+    }
+  ],
+  "marks": [
+    {
+      "kind": "arrow",
+      "position": [
+        1120,
+        625
+      ],
+      "scale": 2.2,
+      "color": "#a25040",
+      "angle": 15,
+      "weight": 1.3
+    }
+  ],
+  "aura": true,
+  "story_evidence": "Nemi repeatedly asked ADB to make storytime animations; he eventually started a channel and introduces himself.",
+  "application": "Repeated persuasion turned her boyfriend into another storytime creator. Two contrasting reactions surround the channel icon. Cream/sage/honey composition tells their dynamic without implying violence or using a duplicate intro template.",
+  "revision": "story_r1"
+}

@@ -1,30 +1,29 @@
 {
-  "date": "2026-10-04",
-  "scope": "All 12 existing numbered ADB/Nemi episodes; thumbnail-only revision, no movie/voice edits",
+  "date": "2026-10-05",
+  "scope": "All 12 existing numbered episodes; each independently directed around its story, no mandatory palette/background/aura/template",
   "episodes": [
     {
       "author": "adb",
       "folder": "adb/episodes/ep00_intro",
-      "headline": "HI, I'M ADB!",
+      "headline": "I'M AN ANIMATOR?!",
       "render_in_batch": true
     },
     {
       "author": "adb",
       "folder": "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me",
       "headline": "SHE LIKED ME?!",
-      "render_in_batch": false,
-      "status": "Latest accepted version retained"
+      "render_in_batch": true
     },
     {
       "author": "nemi",
       "folder": "nemi/episodes/ep00_introduction",
-      "headline": "HI, I'M NEMI!",
+      "headline": "HOW HARD CAN IT BE?",
       "render_in_batch": true
     },
     {
       "author": "nemi",
       "folder": "nemi/episodes/ep01_cat",
-      "headline": "I FOUND HER ALONE",
+      "headline": "SHE WAS ALL ALONE",
       "render_in_batch": true
     },
     {
@@ -36,13 +35,13 @@
     {
       "author": "nemi",
       "folder": "nemi/episodes/ep03_scolded",
-      "headline": "MOM CAUGHT ME",
+      "headline": "MOM WALKED IN",
       "render_in_batch": true
     },
     {
       "author": "nemi",
       "folder": "nemi/episodes/ep04_scared",
-      "headline": "WHAT IF I FAIL?",
+      "headline": "ONLY 7 VIEWS?!",
       "render_in_batch": true
     },
     {
@@ -73,8 +72,8 @@
       "author": "nemi",
       "folder": "nemi/episodes/ep09_sf_accident",
       "headline": "MY TAXI GOT HIT",
-      "render_in_batch": false,
-      "status": "Latest accepted version retained"
+      "render_in_batch": true
     }
-  ]
+  ],
+  "renderer": "tools/storytime/ThumbnailEpisodeSet.gd"
 }

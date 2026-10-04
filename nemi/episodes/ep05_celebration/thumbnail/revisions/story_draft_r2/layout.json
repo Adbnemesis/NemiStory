@@ -1,0 +1,83 @@
+{
+  "format": "storytime-static-story-v2",
+  "author": "nemi",
+  "episode": "ep05_celebration",
+  "background": {
+    "kind": "celebration",
+    "top": "#fff2d4",
+    "bottom": "#f8c6b0"
+  },
+  "headline": [
+    {
+      "text": "1,000",
+      "position": [
+        80,
+        20
+      ],
+      "size": 385,
+      "max_width": 1050,
+      "color": "#aa414a",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 6
+    },
+    {
+      "text": "OF YOU?!",
+      "position": [
+        80,
+        430
+      ],
+      "size": 233,
+      "max_width": 1020,
+      "color": "#493742",
+      "font": "res://assets/fonts/Impact.ttf"
+    }
+  ],
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1530,
+        1280
+      ],
+      "scale": 5.3,
+      "pose": "hand_on_heart",
+      "expression": "excited",
+      "eyes": 1.08,
+      "pupils": 0.85,
+      "gaze": [
+        -0.25,
+        0.12
+      ],
+      "tilt": -3,
+      "arms": []
+    }
+  ],
+  "props": [
+    {
+      "kind": "crowd",
+      "position": [
+        145,
+        835
+      ],
+      "scale": 2.35
+    }
+  ],
+  "marks": [
+    {
+      "kind": "spark",
+      "position": [
+        1020,
+        550
+      ],
+      "scale": 2.4,
+      "color": "#b96a54",
+      "angle": 35,
+      "weight": 1.3
+    }
+  ],
+  "aura": true,
+  "story_evidence": "The subscriber counter reaches one thousand; Nemi thanks the real people supporting her.",
+  "application": "One thousand actual subscribers; the giant number dominates a bright cream/coral celebration, while a happy Nemi and symbolic audience make it personal. Fixed confetti supports the milestone without a trophy claim.",
+  "revision": "story_r2"
+}

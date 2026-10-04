@@ -1,0 +1,50 @@
+{
+  "format": "ep09-static-thumbnail-v3",
+  "author": "nemi",
+  "intent": "Shocked narrator foreground, truthful rear-end collision vignette, San Francisco context. Editorial collage, not one literal-scale scene.",
+  "palette": {
+    "ink": "#38101e",
+    "accent": "#ad5e69",
+    "paper": "#faf6ed"
+  },
+  "character": {
+    "position": [
+      388,
+      1220
+    ],
+    "scale": 5.2
+  },
+  "cars": [
+    {
+      "kind": "damaged_car",
+      "position": [
+        1025,
+        910
+      ],
+      "scale": 0.94
+    },
+    {
+      "kind": "car",
+      "position": [
+        1590,
+        910
+      ],
+      "scale": 0.94
+    }
+  ],
+  "variants": [
+    {
+      "file": "thumbnail",
+      "top": "MY TAXI",
+      "bottom": "GOT HIT",
+      "top_size": 228,
+      "bottom_size": 248
+    }
+  ],
+  "background": {
+    "top": "#183b57",
+    "bottom": "#508aa8",
+    "method": "Godot-authored navy-to-denim gradient with subtle stationary grain; selected for contrast against Nemi red hair and cream headline",
+    "history": "EP00 informed the white aura/doodle treatment; its burgundy/pink field was rejected by the user in revision 2."
+  }
+}

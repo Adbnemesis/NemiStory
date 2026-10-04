@@ -1,0 +1,87 @@
+{
+  "format": "storytime-static-story-v2",
+  "author": "nemi",
+  "episode": "ep03_scolded",
+  "background": {
+    "kind": "kitchen",
+    "top": "#f2dcae",
+    "bottom": "#ead6bf"
+  },
+  "headline": [
+    {
+      "text": "MOM",
+      "position": [
+        65,
+        40
+      ],
+      "size": 230,
+      "max_width": 1010,
+      "color": "#60433b",
+      "font": "res://assets/fonts/Impact.ttf"
+    },
+    {
+      "text": "WALKED IN",
+      "position": [
+        65,
+        300
+      ],
+      "size": 218,
+      "max_width": 1050,
+      "color": "#ad4550",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 5
+    }
+  ],
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1540,
+        1260
+      ],
+      "scale": 5.2,
+      "pose": "shock_recoil",
+      "expression": "shocked",
+      "eyes": 1.08,
+      "pupils": 0.85,
+      "gaze": [
+        -0.25,
+        0.12
+      ],
+      "tilt": -3,
+      "arms": []
+    }
+  ],
+  "props": [
+    {
+      "kind": "script",
+      "source": "res://nemi/episodes/ep03_scolded/props/PropChicken.gd",
+      "position": [
+        455,
+        815
+      ],
+      "scale": 6.0,
+      "angle": 0,
+      "controls": {}
+    },
+    {
+      "kind": "script",
+      "source": "res://nemi/episodes/ep03_scolded/props/PropHairdryer.gd",
+      "position": [
+        965,
+        785
+      ],
+      "scale": 3.7,
+      "angle": 0,
+      "controls": {
+        "current_state": "blast"
+      }
+    }
+  ],
+  "marks": [],
+  "aura": true,
+  "story_evidence": "Nemi forgot to thaw the chicken, tried a hairdryer, and her mother caught her blow-drying raw meat.",
+  "application": "The specific visual joke is a hairdryer blasting frozen raw chicken as her mother walks in. Warm kitchen tiles/counter establish dinner context. No fire or invented angry mother portrait.",
+  "revision": "story_r2"
+}

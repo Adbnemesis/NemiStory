@@ -1,0 +1,105 @@
+{
+  "format": "storytime-static-story-v2",
+  "author": "nemi",
+  "episode": "ep02_partner",
+  "background": {
+    "kind": "chat",
+    "top": "#f1e8ef",
+    "bottom": "#c8bedb"
+  },
+  "headline": [
+    {
+      "text": "MY SECRET",
+      "position": [
+        400,
+        20
+      ],
+      "size": 215,
+      "max_width": 1170,
+      "color": "#47354e",
+      "font": "res://assets/fonts/Impact.ttf"
+    },
+    {
+      "text": "BOYFRIEND",
+      "position": [
+        440,
+        260
+      ],
+      "size": 206,
+      "max_width": 1120,
+      "color": "#a23d65",
+      "font": "res://assets/fonts/Impact.ttf"
+    }
+  ],
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        350,
+        1420
+      ],
+      "scale": 4.6,
+      "pose": "idle",
+      "expression": "embarrassed",
+      "eyes": 1.08,
+      "pupils": 0.85,
+      "gaze": [
+        0.28,
+        0.1
+      ],
+      "tilt": 4,
+      "arms": [
+        {
+          "left": true,
+          "upper": -15,
+          "lower": 30,
+          "hand": "relaxed"
+        },
+        {
+          "left": false,
+          "upper": 15,
+          "lower": -170,
+          "hand": "open_palm_up"
+        }
+      ]
+    },
+    {
+      "author": "legacy_adb",
+      "rig": "res://nemi/characters/old_adb/OldADB.tscn",
+      "position": [
+        1550,
+        1430
+      ],
+      "scale": 4.2,
+      "expression": "cute"
+    }
+  ],
+  "props": [
+    {
+      "kind": "scene",
+      "asset": "phone",
+      "position": [
+        780,
+        950
+      ],
+      "scale": 3.0,
+      "angle": -13
+    },
+    {
+      "kind": "scene",
+      "asset": "crush_heart",
+      "position": [
+        1035,
+        900
+      ],
+      "scale": 1.5,
+      "angle": 12
+    }
+  ],
+  "marks": [],
+  "aura": true,
+  "story_evidence": "Nemi says she has a secret partner, ADB, whom she met in online college during lockdown.",
+  "application": "Lockdown relationship began as texts and memes. The actual historical goggle-wearing ADB and Nemi flank a quiet lavender chat collage. Reveal who, leave how they got together for the video.",
+  "revision": "story_r1"
+}

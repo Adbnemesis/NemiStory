@@ -1,0 +1,126 @@
+{
+  "format": "storytime-static-story-v2",
+  "author": "nemi",
+  "episode": "ep09_sf_accident",
+  "background": {
+    "kind": "collision",
+    "top": "#e8c5a7",
+    "bottom": "#9bbac3"
+  },
+  "headline": [
+    {
+      "text": "MY TAXI",
+      "position": [
+        815,
+        25
+      ],
+      "size": 220,
+      "max_width": 1020,
+      "color": "#3b4750",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 7
+    },
+    {
+      "text": "GOT HIT",
+      "position": [
+        805,
+        275
+      ],
+      "size": 250,
+      "max_width": 1040,
+      "color": "#ad4241",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 9
+    }
+  ],
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        350,
+        1240
+      ],
+      "scale": 5.2,
+      "pose": "idle",
+      "expression": "shocked",
+      "eyes": 1.08,
+      "pupils": 0.85,
+      "gaze": [
+        0.33,
+        0.12
+      ],
+      "tilt": -5,
+      "arms": [
+        {
+          "left": true,
+          "upper": -15,
+          "lower": 30,
+          "hand": "relaxed"
+        },
+        {
+          "left": false,
+          "upper": 15,
+          "lower": -170,
+          "hand": "open_palm_up"
+        }
+      ]
+    }
+  ],
+  "props": [
+    {
+      "kind": "scene",
+      "asset": "damaged_car",
+      "position": [
+        1120,
+        920
+      ],
+      "scale": [
+        -0.92,
+        0.92
+      ],
+      "angle": 0
+    },
+    {
+      "kind": "scene",
+      "asset": "car",
+      "position": [
+        1655,
+        920
+      ],
+      "scale": [
+        -0.92,
+        0.92
+      ],
+      "angle": 0
+    }
+  ],
+  "marks": [
+    {
+      "kind": "spark",
+      "position": [
+        1390,
+        810
+      ],
+      "scale": 2.1,
+      "color": "#ffe6ae",
+      "angle": 30,
+      "weight": 1.3
+    },
+    {
+      "kind": "spark",
+      "position": [
+        1390,
+        940
+      ],
+      "scale": 1.6,
+      "color": "#ffe6ae",
+      "angle": 168,
+      "weight": 1.3
+    }
+  ],
+  "aura": true,
+  "story_evidence": "Safe solo San Francisco trip and Waymo ride; human-driven airport taxi brakes and is rear-ended; Nemi cries during police response.",
+  "application": "Retain the already strong MY TAXI GOT HIT hook; add real San Francisco scenery and a highway vignette. The damaged taxi points left and is rear-ended from the right. The bridge is a travel-memory layer, not the collision site; no Waymo branding, injuries or invented flames.",
+  "revision": "story_r1"
+}

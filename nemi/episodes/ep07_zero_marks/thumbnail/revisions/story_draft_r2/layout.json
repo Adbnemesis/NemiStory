@@ -1,0 +1,73 @@
+{
+  "format": "storytime-static-story-v2",
+  "author": "nemi",
+  "episode": "ep07_zero_marks",
+  "background": {
+    "kind": "exam",
+    "top": "#e6e5ce",
+    "bottom": "#c4d0b4",
+    "set": "school_classroom",
+    "set_opacity": 0.55
+  },
+  "headline": [
+    {
+      "text": "ZERO",
+      "position": [
+        1060,
+        165
+      ],
+      "size": 260,
+      "max_width": 680,
+      "color": "#b04450",
+      "font": "res://assets/fonts/Impact.ttf"
+    },
+    {
+      "text": "MARKS?!",
+      "position": [
+        1025,
+        460
+      ],
+      "size": 185,
+      "max_width": 710,
+      "color": "#a43947",
+      "font": "res://assets/fonts/Impact.ttf"
+    }
+  ],
+  "characters": [
+    {
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        365,
+        1250
+      ],
+      "scale": 5.2,
+      "pose": "disbelief",
+      "expression": "shocked",
+      "eyes": 1.08,
+      "pupils": 0.85,
+      "gaze": [
+        0.38,
+        0.16
+      ],
+      "tilt": -3,
+      "arms": []
+    }
+  ],
+  "props": [
+    {
+      "kind": "paper",
+      "position": [
+        1390,
+        630
+      ],
+      "scale": 2.2,
+      "angle": 0
+    }
+  ],
+  "marks": [],
+  "aura": true,
+  "story_evidence": "An exam became offline, Nemi studied until 2 AM, answered every question and received zero out of thirty.",
+  "application": "An answered exam still earned zero out of thirty. The single headline sits directly over an enlarged answer sheet; sage classroom context and stunned Nemi make the grade the whole story. Decorative circle will be removed if it harms text.",
+  "revision": "story_r2"
+}
