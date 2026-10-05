@@ -1,3 +1,5 @@
+> Accepted version2 history. New ink Shorts use [V3_WORKFLOW.md](V3_WORKFLOW.md), [V3_SCHEMA.md](V3_SCHEMA.md) and the corresponding author skill.
+
 # Godot music-edit Shorts workflow
 
 Use this pipeline for the separate ADB/Nemi music edits. The approved starting direction is the 12-second monochrome R3 proof: thin contours, readable viewpoint changes, held illustrations, one stable premise and brief reframes on music accents. Version 2 adds authored contact poses, gray washes/hatching, sparse stages and event-linked doodles. It is separate from episode production. Keep all new source, music, renders and reviews under `shorts/`; preserve the approved proof and every existing storytime episode.

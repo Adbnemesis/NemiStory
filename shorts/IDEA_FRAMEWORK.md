@@ -1,18 +1,11 @@
-# Shorts idea engine
+# Ink Shorts idea direction
 
-Generate from one recognizable frustration or desire, then give it one visible consequence. Audio-first ideas begin with a usable phrase/drop, not a title pasted over an unrelated gag. Content sources: engineering/gaming/anime/gym confidence (ADB); art/creator friction/overthinking/small wins (Nemi); college/daily life/awkwardness, expectations, meme formats or absurd hypotheticals where character personality earns them. Crossover is possible as two independent creators; never imply Nemi is ADB's hidden girlfriend or reveal the mystery silhouette.
+Start from one recognizable want or friction. Give it one visible choice and consequence, then a cute payoff that the music helps land. ADB's composure can meet an awkward detail; Nemi's creative enthusiasm can outrun her small intention; the duo can reach a shared moment through different responses. Creative peers do not automatically establish relationship canon.
 
-Formats: micro-story, reaction, POV, expectation/reality, character-vs-character, audio trend, music sync, meme reinterpretation, transformation, loop, escalation, one joke, dialogue clip, visual punchline. Format is metadata, not a single repeated camera layout. A premise needs no full storytime narration. First-frame hook + one focus per beat + a payoff/restart is enough.
+Save promise/want/choice/consequence/payoff and one focus per thought in DIRECTION.md. Choose 12–25 seconds around a source musical phrase. Reject a premise that needs unexplained lore, text over idle art, identical reactions all the way through, meaningless camera motion or an ending added solely to hit15s.
 
-Score0–5: Hook, Relatability, Visual potential, Music sync, Loop, Punchline, Shareability; difficulty0–5 where higher is harder. Formula: `2*Hook + Relatability + 2*Visual + Music + Loop + 2*Punchline + Shareability - Difficulty`. RequireHook≥3 andPunchline≥3, otherwise rework even if the total scores well. These are editorial judgments, not view forecasts. Music freshness is separate from creative fit.
+The active variation ledger is [upgrade02/MANIFEST.json](godot/upgrade02/MANIFEST.json). Compare the last five premises, first images, props/stages, music versions/source sections, gestures, payoff types and transition devices. Change the thought and at least two visual dimensions. Palette and effects changes alone cannot make a repeated story unique.
 
-| Demo | Hook | Relatable | Visual | Sync | Loop | Punchline | Share | Difficulty | Editorial rationale |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| ADB leg day vs stairs |4|5|4|5|4|4|4|2|Swagger song + literal stairs consequence; read legs/feet |
-| ADB ship the machine |4|4|5|2|3|5|5|2|Programmer excuse becomes a literal package; preserve dry pause |
-| Nemi one pixel |4|5|5|5|5|4|4|3|Trust phrase, undo/redo rhythm, absurd scale, elapsed time |
-| Nemi quick sketch |4|5|4|3|4|4|5|2|Voice intention → detail detour → tomorrow; loop by repeating promise |
+The eight current ideas range from headphone confidence and a wrong classroom to a growing doodle, unequal musical energy, camera composure, brainfreeze/inspiration, a sleepy-cat daydream and a matching heart photo. The three skills supply character-specific direction and an executable checked route; each new production must still earn its own story and rhythm.
 
-Before production save: promise/want/choice/consequence/payoff; frame1 image; strongest audio cue; first-second reading; final frame; one focus per shot. Reject: requiring unexplained lore, generic “relatable” text over idle pose, same panic face throughout, a song whose lyric reverses the intended meaning, an ending added only to reach15s.
-
-Variation ledger: last five formats, environments, first-frame props, camera move, payoff type, music/source version and transition. Change at least two dimensions from the previous Short; don't rotate random effects to simulate variety. Stable signatures are character temperament and silhouette, not fixed palette/cut rate. Log audience completion/replays/shares only after posting; revise scores using actual data.
+Editorial questions: can a new viewer read the first second, see what the character wants, follow the choice/consequence and understand the final gesture? Does the music support the exact visual idea? Do full-body, face and hand details earn their framing? Does the restart make sense? These judgments are review criteria, not predictions of views or shares.

@@ -1,3 +1,5 @@
+> Accepted version2 history. New ink Shorts use [V3_WORKFLOW.md](V3_WORKFLOW.md), [V3_SCHEMA.md](V3_SCHEMA.md) and the corresponding author skill.
+
 # Version-2 Godot music-edit spec
 
 `validate_ink.py` validates this separate Shorts format before `render_ink.py` dispatches `render_batch.gd`. Version 1 remains the original monochrome comparison proof. Use version 2 for new edits. Unknown fields are rejected at every documented object level; extending the source requires updating this schema and an example together.

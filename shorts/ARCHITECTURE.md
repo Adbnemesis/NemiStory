@@ -1,25 +1,26 @@
-# Separate Godot Shorts architecture
+# Godot ink Shorts architecture
 
-The active pipeline is the v2 Godot music edit. All new source, audio, outputs and review remain inside `shorts/`; original storytime episodes and production libraries are read-only. The accepted v1 r3 proof is preserved. Earlier Remotion architecture is retained in [ARCHITECTURE_REMOTION_HISTORY.md](ARCHITECTURE_REMOTION_HISTORY.md).
+New work uses version3, with the strict schema and skill helpers. The original v1/v2 accepted art and playback remain as inherited source and reproducible history. Original storytime files/settings stay read-only.
 
 | Layer | Responsibility |
 | --- | --- |
-| Production `short.json` + `Edit.tscn` | One premise, exact music interval, actor illustration cues, camera shots, theme and named visual/SFX events |
-| `InkPoseArt.gd` / `BatchPoseArt.gd` | Separately authored editable Godot curves/polygons for viewpoints, expression, hands, gray washes and attached props |
-| `InkEdit.gd` / `BatchEdit.gd` | One 30 fps scene clock, held art, finite reframes, actual profile/back selections and runtime-only sampling of hidden original rig controls |
-| `BatchAccentArt.gd` | Static stage/doodle marks, finite foreground pencil wipe and brief shutter wash |
-| `validate_ink.py` | Reject unknown fields/poses/contact fallbacks, bad clocks, changed audio hashes, invalid source ranges and unknown SFX events |
-| `render_ink.py` + `render_batch.gd` | Temporary native portrait Godot capture, error rejection, decoded frame/dimension validation, exact recorded-audio mux |
-| `inspect_export.py` / `verify_audio.py` | Inspect actual encoded cue changes, contact sheets, source reconstruction, measured latency, SFX contribution, clipping/loudness/true peak |
-| `build_review.py` / review server | Native range-aware browser playback, source/direction links and MP4 downloads |
-| `audit_isolation.py` | Compare protected original source hashes/settings and existing outside-Shorts Git status |
+| Three project skills | Cast scope, character direction, causal brief, music/source discipline and maintained production/check commands |
+| short.json + Edit.tscn | One clock, exact source interval, actor cues/motion, framing/travel, theme and named events |
+| DynamicPoseArt.gd | Sixteen explicit actions, coherent head group, pupil/lid motion, finite arm paths, continuous phone/book/pencil grips, grounded feet |
+| DynamicEdit.gd | Version3 motion interpolation and finite camera follow over the established director |
+| DynamicAccentArt.gd | Fixed path tracing, held completed ink, finite event-local particles and established stage/foreground art |
+| validate_ink.py | Strict supported fields, contact/view scope, source hashes/ranges, shared clock, planned pacing and finite VFX |
+| render_ink.py + render_dynamic.gd | Isolated native Godot capture; stop on script errors; exact frames and original-source audio packaging |
+| inspect_export.py | Actual encoded dimensions, clock, cue changes, poster and contact sheet |
+| verify_audio.py | Decode and reconstruct original-source music/SFX; measure delay, correlation, clipping/peak and audible contribution |
+| check_pacing.py | Actual decoded picture changes and maximum static run1.5s |
+| Review gallery | Range-aware native playback, cue seeking, source links and downloads |
+| audit_isolation.py | Protected source hashes and unrelated dirty status; explicit routing/skill status changes separately recorded |
 
-Every new movie frame is drawn in Godot. FFmpeg only encodes/trims the surplus capture frame and selects/gains/mixes source recordings. It never supplies visual edits. Review thumbnails/contact sheets are measurements of the actual capture, not animation assets.
+Every visual frame originates in Godot. FFmpeg encodes, trims surplus capture frames and mixes recorded sound. Still/contact-sheet processing measures real exports; it creates no animation assets. Visible supplemental art is honestly identified as separate Godot illustration. Original rig definitions and all existing episodes remain untouched.
 
-Visible body art is supplemental illustration, independently selected by view/emotion/action. Original rig poses remain sampled in hidden instances without changes to character definitions, geometry, pose/face/hand systems or voice identity. There is no automatic universal walking, pickup/release or full dance system. Prop contact is authored into a held drawing, with cuts between poses.
+Motion keys interpolate finite authored head, gaze, eye, torso and gesture states. Equal keys hold still. Shots can follow a hand/face action within small bounded travel. No per-frame random ink, endless bob or opacity handwriting. Completed ink stays fixed; moving VFX have finite event lifetimes. One deliberate reaction can be small, but numerical motion is not sufficient artistic evidence.
 
-Picture cues use integer 30 fps frames; audio section timing uses seconds. Named events link doodles/physical editorial moments with recorded SFX. Completed ink stays fixed after a brief deterministic settle. No frame-random lines, constant bobbing or opacity-only handwriting is used. A source clock changes when the recording/section changes; old beat maps are never silently reused.
+A production carries exact original/decoded music identity/hashes, source section, gain and a cue map tied to the source clock. Recorded SFX event attacks and exported contributions are checked independently. Topic/rhythm fit is distinct from an unverified current platform ranking.
 
-Batch01 supplies five distinct visual devices and five exact public official music preview sources. Music identity/hashes/analysis are separate from current trend confidence. Sources are selected for topic/rhythm fit; no current ranking or licensing permission is invented. SFX uses exact existing root recordings with honest provenance, not synthesized substitutes.
-
-Movie revisions are immutable local files. Current selections and source identities live in per-short `review/current.json` and batch `MANIFEST.json`; logs, QA, timing evidence and indices remain under `review/`. Local generated media is ignored by Git. Every completed batch receives encoded still/playback/source/audio checks and an isolation comparison. Publishing/uploading the Shorts is a separate action.
+Source, direction and checks stay beside each production; movies remain immutable revisions under renders/, review records under review/. Current selection lives in review/current.json and the batch manifest. Generated media is excluded from source Git delivery. Uploading/publishing Shorts requires a separate user request.

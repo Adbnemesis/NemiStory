@@ -13,3 +13,9 @@ tools/geometry_export/.godot/
 tools/geometry_export/source/
 assets/music/**/*.m4a
 assets/music/**/*.wav
+
+# Generated Godot study art and sidecars remain local.
+godot/upgrade02/art-study/*.png
+**/*.uid
+**/*.import
+**/__pycache__/

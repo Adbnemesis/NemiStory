@@ -1,45 +1,27 @@
-# ADB + Nemi Shorts — Godot ink edits
+# ADB + Nemi · Godot ink Shorts
 
-Five complete 15-second Shorts extend the user-approved monochrome r3 direction with gray washes/hatching, additional hands/props and distinct doodle accents. **Godot draws every visual frame; no image generation.**
+The active format is a 12–25 second music edit: author-specific ink, gray washes/hatching, visible head/eye/hand motion, meaningful pose edits, finite doodle/VFX events and a cute causal payoff. Maximum static hold 1.5 seconds. Godot draws every visual frame.
 
-[Watch all five](review/batch01/index.html) · [Batch direction and exports](godot/batch01/README.md) · [Workflow](godot/WORKFLOW.md) · [Schema](godot/SCHEMA.md) · [QA](godot/batch01/review/QA.md)
+[Watch the eight edits](review/upgrade02/index.html) · [Production and checks](godot/upgrade02/README.md) · [Three skills](godot/upgrade02/SKILLS.md) · [Workflow](godot/V3_WORKFLOW.md) · [Schema](godot/V3_SCHEMA.md)
 
-| Short | Visual idea | Music |
-| --- | --- | --- |
-| My song just came on | Nemi headphones and confidence switch | Dancin — Krono Remix |
-| Wrong-class runway | ADB fashion crops and doorway reversal | FΛSHION — Clean Version |
-| One quick doodle | Nemi pencil wipe and page constellation | Makeba |
-| Same beat, different energy | Duo pose contrast and reversed ink | Memory Reboot |
-| The camera likes her | Viewfinder, photo comparison and photographer reaction | Cheri Cheri Lady |
+Five revised edits retain the approved music and ideas while adding authored gestures and faster development. Three new edits demonstrate the ADB, Nemi and duo skills. Every production has an editable Edit.tscn, short.json, direction, source-clock cue map, music provenance, native portrait movie and review evidence. Earlier accepted [batch01](review/batch01/index.html) and the [original ink proof](review/rebuild/index.html) remain as style history.
 
-All exports are native 1080×1920, 30 fps, H.264/AAC. Five exact official public preview recordings were downloaded; source versions, URLs, original/decoded hashes, selected sections and beat measurements are retained under [assets/music/batch01/](assets/music/batch01/MUSIC_SOURCES.md). These are recognizable reference-fit choices; current platform trend ranks remain unverified. Each short has one exact original recorded SFX linked to a named visual event.
+Use `$adb-ink-shorts`, `$nemi-ink-shorts`, or `$duo-ink-shorts`. Canonical source lives in this project’s `.agents/skills/`; discoverable local skill links are installed in the user's Codex skills folder. Each helper enforces cast scope, version 3, actual export/audio/pacing checks, and leaves visual review explicit. The active rules automatically route ink Shorts requests to these skills; narrated storytime keeps its existing separate preparation workflow.
 
-The visible art is authored Godot curves/lines/polygons in `godot/InkPoseArt.gd` and `godot/BatchPoseArt.gd`. Actual profile/back illustrations, fixed hand/prop contact, held doodles and finite punches/pulls/whips supply the edit. Original rig controls are sampled in hidden read-only instances; they do not supply the visible supplemental drawings. The pipeline does not imply automatic walking, pickup or a general dance rig.
+The famous music recordings are the exact official public previews cataloged under [assets/music/batch01](assets/music/batch01/MUSIC_SOURCES.md). Original/decoded hashes, source URL/version, selected ranges and musical accent evidence are saved. SFX uses exact existing recorded clips. Source mix reconstruction and encoded timing checks accompany every delivery.
 
-Everything new stays under `shorts/`. [The isolation comparison](godot/batch01/review/ISOLATION.md) passed for all 1,081 protected editable storytime files and all 347 existing Git status entries outside Shorts. Original episodes, rigs, pose/face/hand/voice source and root project settings were unchanged. The accepted proof remains at [review/rebuild/](review/rebuild/index.html).
+New visible art is separate editable Godot curves/polygons in DynamicPoseArt.gd and DynamicAccentArt.gd. Original storytime rigs are sampled only as hidden instances; they do not supply the visible supplemental illustration. The engine provides authored supported contact drawings and finite motion, not automatic walking/physics/prop exchanges. Original episodes, character definitions, poses, expressions, hands, voice source and project settings are protected by the isolation audit.
 
-## Edit and reproduce
-
-Each production has its own `Edit.tscn`, `short.json`, `DIRECTION.md`, source-clock `CUE_MAP.json`, `renders/` exports and `review/` evidence. Open its scene in Godot or direct the saved timeline. For example:
+## Reproduce
 
 ```sh
-.venv/bin/python shorts/godot/validate_ink.py shorts/godot/batch01/01-my-song/short.json
-.venv/bin/python shorts/godot/render_ink.py shorts/godot/batch01/01-my-song/short.json r3 --stills
-.venv/bin/python shorts/godot/render_ink.py shorts/godot/batch01/01-my-song/short.json r3
+.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py validate shorts/godot/upgrade02/productions/my-song/short.json
+.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py stills shorts/godot/upgrade02/productions/my-song/short.json --revision r2
+.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py build shorts/godot/upgrade02/productions/my-song/short.json --revision r2
 ```
 
-Choose a new revision; earlier movies are preserved. The renderer uses an isolated temporary native portrait Godot project. FFmpeg packages the capture and recorded sound, with no visual animation/restyling. Strict validation, decoded picture/audio checks, source hashes and review evidence accompany the exports. See [WORKFLOW.md](godot/WORKFLOW.md) for the review and sound verification commands.
+Choose a fresh revision. The native portrait Godot renderer stops on errors. FFmpeg only packages capture/source audio; it does not provide visual animation. Source and small QA records can be committed; music, movies and generated stills stay local. Existing public previews can be fetched again with assets/music/batch01/fetch_music.py; revalidate hashes and timings if a catalog recording changes.
 
-The review page can be served with the existing local preview server:
+Serve the range-aware gallery with `.venv/bin/python shorts/tools/review_server.py`, then open `http://127.0.0.1:8768/shorts/review/upgrade02/index.html`.
 
-```sh
-.venv/bin/python shorts/tools/review_server.py
-```
-
-Open `http://127.0.0.1:8768/shorts/review/batch01/index.html`. The range-aware player supports seeking, playback and downloads. Generated media stays local and is excluded from source Git commits. Music can be fetched again with `shorts/assets/music/batch01/fetch_music.py`; asset hashes must be rechecked and timings revised if a catalog preview changes.
-
-## Earlier work
-
-The first four caption-led Remotion prototypes were rejected as too close to storytime. They remain [iteration history](review/legacy-prototypes.html), with earlier analysis/tools retained. They are not the active visual renderer or approved style examples. The generated image atlas was removed from this project and is not used.
-
-Reference analysis is retained in [REFERENCE_ANALYSIS.md](REFERENCE_ANALYSIS.md) and [the exact supplied films](review/references/index.html). The approved r3 proof established the new direction; these five new Shorts have passed source/export/isolation checks and are available for the user’s creative review. Audience performance and current trend ranks are not inferred from a successful render.
+The rejected Leg Day, Ship the Machine, Tiny Change and Quick Sketch prototypes, their31 generated movies and obsolete Remotion pipeline were deleted on the user's explicit request. [The cleanup manifest](godot/upgrade02/review/legacy-cleanup.json) lists the exact targets. Original storytime episodes and accepted ink edits were excluded. Supplied references and [reference analysis](REFERENCE_ANALYSIS.md) remain available.

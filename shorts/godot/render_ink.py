@@ -6,7 +6,7 @@ spec=Path(sys.argv[1]).resolve();c=validate(spec)
 revision=sys.argv[2] if len(sys.argv)>2 else 'r1'
 assert revision.isalnum()
 stills='--stills' in sys.argv
-batch=c['version']==2
+batch=c['version']>=2
 stem=c['id'] if batch else 'InkEdit'
 out=spec.parent/'renders'/f'{stem}_{revision}_1080x1920.mp4'
 if out.exists() and not stills:raise SystemExit('Choose a new revision; earlier movies are preserved')
@@ -24,7 +24,7 @@ with tempfile.TemporaryDirectory(prefix='godot-ink-') as t:
  (cache/'imported').symlink_to(ROOT/'.godot/imported',target_is_directory=True)
  args=[godot,'--path',str(project),'--log-file',str(log),'--fixed-fps',str(c['fps'])]
  if not stills:args+=['--write-movie',str(raw)]
- script='render_batch.gd' if batch else 'render_ink.gd'
+ script='render_dynamic.gd' if c['version']==3 else ('render_batch.gd' if batch else 'render_ink.gd')
  args+=['--script',f'shorts/godot/{script}','--',f'--spec=res://{spec.relative_to(ROOT)}',f'--review=res://{stilldir.relative_to(ROOT)}']
  if stills:args+=['--stills']
  subprocess.run(args,check=True)

@@ -1,0 +1,29 @@
+{
+  "inventory": "common/audio/sfx/root_sfx_inventory.json",
+  "original": {
+    "id": "viral_click",
+    "filename": "click.mp3",
+    "category": "viral_sfx",
+    "description": "Existing user-selected root clip: click",
+    "source": "Existing project root MP3",
+    "origin": "existing_root_mp3",
+    "license": "Not recorded for existing root MP3",
+    "commercial_use": null,
+    "production_use": "User explicitly requested these existing root clips for EP08/EP09",
+    "relative_path": "common/audio/sfx/click.mp3",
+    "duration_seconds": 0.365688,
+    "sample_rate": 44100,
+    "channels": 2,
+    "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+    "sound_type": "event_sfx"
+  },
+  "eventSelection": {
+    "event": "matching-shutter",
+    "file": "common/audio/sfx/click.mp3",
+    "sourceHash": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+    "sourceStart": 0.03333333333333333,
+    "duration": 0.3,
+    "gainDb": -3,
+    "offsetFrames": 0
+  }
+}

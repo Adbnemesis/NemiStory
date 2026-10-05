@@ -47,3 +47,8 @@ Current approved masters live in each episode’s `renders/` folder with revisio
 Sound direction is mandatory for both characters: read `docs/animation/COMMON_SFX_SYSTEM.md`, save event-linked cue choices and verify actual exported audibility. Narration plus a few inaudible effects is not a finished sound pass. User-requested superseded-render cleanup happens only after replacement media passes checks; retain voice, script, assets and QA records.
 
 SFX sourcing: use the exact existing root MP3 clips indexed by `common/audio/sfx/root_sfx_inventory.json` plus existing library recordings in the category folders. Do not generate/synthesize SFX or use the older procedural vault placeholders as substitutes. Root vocal meme clips are commentary accents, not new character dialogue. Keep original clip hashes and record honest provenance.
+
+
+## Godot ink-edit Shorts routing
+
+For music-led ink edit Shorts/reels, read `.agents/skills/adb-ink-shorts/SKILL.md`, `.agents/skills/nemi-ink-shorts/SKILL.md` or `.agents/skills/duo-ink-shorts/SKILL.md` according to the cast, plus `shorts/AGENTS.md`. Use the strict version3 Godot workflow in `shorts/godot/V3_WORKFLOW.md` and schema. This is a separate12–25s music-edit format, with no static hold longer than1.5s and authored visible gestures, doodles and finite VFX. It does not modify storytime episodes or replace the storytime preparation route above. Preserve original episodes/rigs/settings. No image generation or alternate visual renderer. Validate, inspect real Godot art, export, verify decoded music/SFX and pacing, then watch the whole clip before marking review complete.

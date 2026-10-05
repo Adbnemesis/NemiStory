@@ -1,4 +1,0 @@
-import type {ShortConfig,Shot,CameraKey,Dialogue,CueMap} from './types';
-export const camera=(start:number,end:number,zoom=1,endZoom=zoom,x=0,y=0):CameraKey[]=>[{at:start,zoom,x,y,rotate:0},{at:end,zoom:endZoom,x,y,rotate:0}];
-export function shot(id:string,start:number,end:number,options:Partial<Shot>&Pick<Shot,'focus'>):Shot{return {id,start,end,background:'gradient',expression:'neutral',gesture:'rest',prop:'none',actor:{x:485,y:1000,scale:2.7},camera:camera(start,end),...options}}
-export const base=(id:string,author:'adb'|'nemi',title:string,duration:number):ShortConfig=>({version:1,id,author,title,format:'visual-punchline',duration,fps:30,width:1080,height:1920,promise:'',want:'',choice:'',consequence:'',payoff:'',shots:[],events:[],sfx:[],dialogue:[],blinks:[],loop:{kind:'none',note:''}});

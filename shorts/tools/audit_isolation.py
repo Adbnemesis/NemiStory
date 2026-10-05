@@ -90,11 +90,13 @@ def snapshot() -> dict:
     }
 
 
-def compare(before: dict, after: dict) -> dict:
+def compare(before: dict, after: dict, allowed_status_paths: tuple[str, ...] = ()) -> dict:
     old, new = before["files"], after["files"]
     changed = sorted(path for path in old.keys() & new.keys() if old[path]["sha256"] != new[path]["sha256"])
     added, removed = sorted(new.keys() - old.keys()), sorted(old.keys() - new.keys())
-    status_unchanged = before["outsideShortsGitStatus"] == after["outsideShortsGitStatus"]
+    def allowed(entry):
+        return any(entry['path'] == path or entry['path'].startswith(path.rstrip('/') + '/') for path in allowed_status_paths)
+    status_unchanged = [e for e in before["outsideShortsGitStatus"] if not allowed(e)] == [e for e in after["outsideShortsGitStatus"] if not allowed(e)]
     settings_unchanged = before["rootSettingsExistence"] == after["rootSettingsExistence"]
     return {
         "checkedAtUTC": after["capturedAtUTC"],
@@ -105,6 +107,9 @@ def compare(before: dict, after: dict) -> dict:
         "removed": removed,
         "rootSettingsExistenceUnchanged": settings_unchanged,
         "outsideShortsGitStatusUnchanged": status_unchanged,
+        "explicitlyAuthorizedStatusPaths": list(allowed_status_paths),
+        "authorizedStatusBefore": [e for e in before['outsideShortsGitStatus'] if allowed(e)],
+        "authorizedStatusAfter": [e for e in after['outsideShortsGitStatus'] if allowed(e)],
         "passed": not changed and not added and not removed and status_unchanged and settings_unchanged,
     }
 
@@ -117,13 +122,14 @@ def main() -> int:
     check = sub.add_parser("check")
     check.add_argument("baseline", type=Path)
     check.add_argument("output", type=Path)
+    check.add_argument('--allow-status-path', action='append', default=[], help='Explicit authorized routing/skill status path; protected source hashes are still strict.')
     args = parser.parse_args()
     now = snapshot()
     if args.command == "snapshot":
         report = now
         code = 0
     else:
-        report = compare(json.loads(args.baseline.read_text()), now)
+        report = compare(json.loads(args.baseline.read_text()), now, tuple(args.allow_status_path))
         code = 0 if report["passed"] else 1
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n")
