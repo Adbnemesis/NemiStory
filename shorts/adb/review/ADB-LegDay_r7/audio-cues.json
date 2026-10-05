@@ -1,0 +1,62 @@
+{
+  "movie": "shorts/adb/renders/ADB-LegDay_r7.mp4",
+  "hash": "a07cbdb24ed5ce432edddae91168b929703706254f6406e453e036a1bfc0e811",
+  "method": "48kHz mono-average decode; least-squares exact known-source stems against actual raw AAC mix, same scheduled times. Numeric detection, not listening.",
+  "reconstructionCorrelation": 0.9545985714237678,
+  "residualRms": 0.016400009178663483,
+  "rawDelaySeconds": 0.04266765472985432,
+  "finalDelaySeconds": 9.963401895777627e-07,
+  "stems": [
+    {
+      "id": "music",
+      "kind": "music",
+      "at": 0,
+      "duration": 13.733333333333333,
+      "gainDb": -3,
+      "rawMixCoefficient": 0.9997,
+      "sourceAtExpectedTimeDetected": true,
+      "stemRmsDbFS": -25.68
+    },
+    {
+      "id": "victory-click",
+      "kind": "sfx",
+      "at": 0.3,
+      "duration": 0.3,
+      "gainDb": -9,
+      "rawMixCoefficient": 0.996,
+      "sourceAtExpectedTimeDetected": true,
+      "stemRmsDbFS": -55.76
+    },
+    {
+      "id": "stair-whoosh",
+      "kind": "sfx",
+      "at": 3.2333333333333334,
+      "duration": 0.4666666666666667,
+      "gainDb": -14,
+      "rawMixCoefficient": 0.7017,
+      "sourceAtExpectedTimeDetected": true,
+      "stemRmsDbFS": -47.02
+    },
+    {
+      "id": "stair-error",
+      "kind": "sfx",
+      "at": 4.9,
+      "duration": 0.6666666666666666,
+      "gainDb": 0,
+      "rawMixCoefficient": 0.9985,
+      "sourceAtExpectedTimeDetected": true,
+      "stemRmsDbFS": -45.41
+    },
+    {
+      "id": "legs-comment",
+      "kind": "sfx",
+      "at": 6.766666666666667,
+      "duration": 0.7666666666666667,
+      "gainDb": -9,
+      "rawMixCoefficient": 0.2431,
+      "sourceAtExpectedTimeDetected": true,
+      "stemRmsDbFS": -35.63
+    }
+  ],
+  "asr": []
+}

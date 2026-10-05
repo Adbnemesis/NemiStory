@@ -1,0 +1,219 @@
+{
+  "music": {
+    "file": "shorts/assets/music/batch01/fashion.wav",
+    "sourceHash": "6ff4e53ce33503eff066f127f38a2646ad181581ac1dc3b663f82b23925541d8",
+    "sourceStart": 0.0108,
+    "duration": 15.0,
+    "gainDb": -3.64
+  },
+  "beatPlan": "shorts/assets/music/batch01/fashion.edit-plan.json",
+  "bpm": 120.001,
+  "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "cuts": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "focus": "Hero sunglasses portrait",
+      "move": "cut",
+      "stage": "runway",
+      "palette": "paper",
+      "sourceAccentTime": 0.0348,
+      "sourceAccentSceneTime": 0.024,
+      "pictureMinusSourceAccentMs": -24.0,
+      "measurementStatus": "Immediate opening hook; onset phase is recorded separately"
+    },
+    {
+      "frame": 45,
+      "time": 1.5,
+      "focus": "Shirt collar insert",
+      "move": "punch",
+      "stage": "runway",
+      "palette": "paper",
+      "sourceAccentTime": 1.5093,
+      "sourceAccentSceneTime": 1.4985,
+      "pictureMinusSourceAccentMs": 1.5,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 90,
+      "time": 3.0,
+      "focus": "Grounded full-body fashion pose",
+      "move": "pull",
+      "stage": "runway",
+      "palette": "paper",
+      "sourceAccentTime": 3.007,
+      "sourceAccentSceneTime": 2.9962,
+      "pictureMinusSourceAccentMs": 3.8,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 135,
+      "time": 4.5,
+      "focus": "True authored ADB profile",
+      "move": "whip",
+      "stage": "runway",
+      "palette": "paper",
+      "sourceAccentTime": 4.5047,
+      "sourceAccentSceneTime": 4.4939,
+      "pictureMinusSourceAccentMs": 6.1,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 195,
+      "time": 6.5,
+      "focus": "Shoes and trouser detail",
+      "move": "cut",
+      "stage": "runway",
+      "palette": "paper",
+      "sourceAccentTime": 6.5016,
+      "sourceAccentSceneTime": 6.4908,
+      "pictureMinusSourceAccentMs": 9.2,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 225,
+      "time": 7.5,
+      "focus": "Separate back view",
+      "move": "whip",
+      "stage": "runway",
+      "palette": "paper",
+      "sourceAccentTime": 7.5117,
+      "sourceAccentSceneTime": 7.5009,
+      "pictureMinusSourceAccentMs": -0.9,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 255,
+      "time": 8.5,
+      "focus": "Door and LAB 3 sign reveal",
+      "move": "pull",
+      "stage": "door",
+      "palette": "paper",
+      "sourceAccentTime": 8.5101,
+      "sourceAccentSceneTime": 8.4993,
+      "pictureMinusSourceAccentMs": 0.7,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 285,
+      "time": 9.5,
+      "focus": "Realization face",
+      "move": "punch",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 9.5086,
+      "sourceAccentSceneTime": 9.4978,
+      "pictureMinusSourceAccentMs": 2.2,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 330,
+      "time": 11.0,
+      "focus": "Small rigid deadpan figure at wrong door",
+      "move": "pull",
+      "stage": "door",
+      "palette": "paper",
+      "sourceAccentTime": 11.0063,
+      "sourceAccentSceneTime": 10.9955,
+      "pictureMinusSourceAccentMs": 4.5,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 405,
+      "time": 13.5,
+      "focus": "Opposite-facing embarrassed profile; exit intention",
+      "move": "cut",
+      "stage": "door",
+      "palette": "paper",
+      "sourceAccentTime": 13.514,
+      "sourceAccentSceneTime": 13.5032,
+      "pictureMinusSourceAccentMs": -3.2,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    }
+  ],
+  "events": [
+    {
+      "id": "opening-angle",
+      "at": 0,
+      "end": 90,
+      "kind": "brackets",
+      "position": [
+        880,
+        655
+      ],
+      "scale": 0.85,
+      "rotation": -16,
+      "accent": false
+    },
+    {
+      "id": "runway-hit",
+      "at": 90,
+      "end": 135,
+      "kind": "rays",
+      "position": [
+        190,
+        550
+      ],
+      "scale": 0.85,
+      "rotation": 8,
+      "accent": false
+    },
+    {
+      "id": "wrong-room",
+      "at": 285,
+      "end": 330,
+      "kind": "zigzag",
+      "position": [
+        810,
+        610
+      ],
+      "scale": 0.8,
+      "rotation": 7,
+      "accent": true
+    },
+    {
+      "id": "awkward-silence",
+      "at": 330,
+      "end": 405,
+      "kind": "dash",
+      "position": [
+        210,
+        655
+      ],
+      "scale": 0.6,
+      "rotation": 0,
+      "accent": false
+    },
+    {
+      "id": "exit-intention",
+      "at": 405,
+      "end": 450,
+      "kind": "brackets",
+      "position": [
+        170,
+        840
+      ],
+      "scale": 0.6,
+      "rotation": 22,
+      "accent": false
+    }
+  ],
+  "sfx": [
+    {
+      "event": "wrong-room",
+      "file": "common/audio/sfx/error.mp3",
+      "sourceHash": "b4882e3941ca496b5038e7c7d64318419da9f69d3da9540a1c693adc639cf121",
+      "sourceStart": 0.6,
+      "duration": 0.7,
+      "gainDb": 2,
+      "offsetFrames": 0
+    }
+  ],
+  "status": "Authored source; validator checked; still and exported playback review pending",
+  "exportVerification": {
+    "revision": "r2",
+    "allPictureCutsPresent": true,
+    "audioClockPassed": true,
+    "cutAccentMaxErrorAfterOpeningMs": 9.2
+  }
+}

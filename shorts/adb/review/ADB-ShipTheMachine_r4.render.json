@@ -1,0 +1,31 @@
+{
+  "id": "ADB-ShipTheMachine",
+  "output": "/Users/talus/Documents/adb/shorts/adb/renders/ADB-ShipTheMachine_r4.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 300,
+  "revision": "r4",
+  "proof": false,
+  "safe": false,
+  "master": {
+    "raw": "/Users/talus/Documents/adb/shorts/adb/review/ADB-ShipTheMachine_r4_raw.mp4",
+    "targetLUFS": -16,
+    "targetTruePeakDb": -1.5,
+    "analysis": {
+      "input_i": "-21.86",
+      "input_tp": "-6.76",
+      "input_lra": "5.30",
+      "input_thresh": "-32.93",
+      "output_i": "-15.15",
+      "output_tp": "-1.50",
+      "output_lra": "4.90",
+      "output_thresh": "-26.30",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.85"
+    },
+    "method": "two-pass loudnorm, copied video stream; encoded output measured separately"
+  },
+  "generated": "2026-10-05T13:56:37.205Z",
+  "browserExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+}

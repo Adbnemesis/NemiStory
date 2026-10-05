@@ -1,0 +1,5 @@
+# Shorts isolation baseline — 2026-10-05
+
+The production workspace is Godot 4.x, with `project.godot`, `common/storytime`, ADB and Nemi rigs, episodes, voice and renders. No Remotion root application exists (only `tools/rough/package.json`). This new system is entirely under `shorts/`, including its dependencies, public assets, commands, configurations, QA and exports. It does not import Godot runtime modules into rendering or alter the root project. Read-only source snapshots carry hashes. Existing unrelated modified/deleted files and untracked media were present before work began; preserve them.
+
+Current ADB rig geometry/palette differs from the older oatmeal model-sheet prose: current source uses a sage open-collar shirt, ecru trousers and dark canvas sneakers. Snapshot the current rig silhouette; record this discrepancy rather than changing production or silently claiming the older outfit is current. Nemi retains long copper hair, emerald eyes, sage hoodie, forest skirt, crossbody bag and platform shoes. Shorts have dedicated expressive facial controls and deterministic motion; source rigs and voice identities remain intact.

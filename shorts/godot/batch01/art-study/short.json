@@ -1,0 +1,496 @@
+{
+  "version": 2,
+  "title": "Eye contact was not in the plan \u2014 monochrome Godot edit proof",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "frames": 360,
+  "premise": "when eye contact\nwasn't in the plan",
+  "music": {
+    "file": "shorts/review/references/ref03/audio.wav",
+    "sourceHash": "4c67f9d81ce68f9177ec0d37e820a5ff5a6d89a26d24d88859165093b64031ac",
+    "sourceStart": 0,
+    "duration": 12,
+    "gainDb": -7
+  },
+  "sfx": [],
+  "actors": [
+    {
+      "id": "nemi",
+      "author": "nemi",
+      "cues": [
+        {
+          "frame": 0,
+          "pose": "embarrassed_shrink",
+          "expression": "embarrassed",
+          "gaze": [
+            -0.7,
+            0.15
+          ],
+          "head": -3,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "shy",
+          "action": "listen"
+        },
+        {
+          "frame": 50,
+          "pose": "casual_hand_on_bag_strap",
+          "expression": "happy",
+          "gaze": [
+            0.7,
+            -0.1
+          ],
+          "head": 4,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "back",
+          "emotion": "smile",
+          "action": "listen"
+        },
+        {
+          "frame": 82,
+          "pose": "hand_near_cheek",
+          "expression": "smug",
+          "gaze": [
+            0.75,
+            0
+          ],
+          "head": -4,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "profile",
+          "emotion": "smile",
+          "action": "listen"
+        },
+        {
+          "frame": 124,
+          "pose": "nervous_hands_together",
+          "expression": "embarrassed",
+          "gaze": [
+            0.7,
+            0.1
+          ],
+          "head": 4,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "back",
+          "emotion": "smile",
+          "action": "listen"
+        },
+        {
+          "frame": 158,
+          "pose": "casual_standing",
+          "expression": "happy",
+          "gaze": [
+            0.8,
+            0
+          ],
+          "head": 3,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "listen"
+        },
+        {
+          "frame": 202,
+          "pose": "recoiling",
+          "expression": "shocked",
+          "gaze": [
+            0,
+            0
+          ],
+          "head": -4,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "shock",
+          "action": "listen"
+        },
+        {
+          "frame": 237,
+          "pose": "hands_over_face",
+          "expression": "embarrassed",
+          "gaze": [
+            0,
+            0.3
+          ],
+          "head": 8,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "back",
+          "emotion": "cover",
+          "action": "listen"
+        },
+        {
+          "frame": 281,
+          "pose": "laughing_hand_mouth",
+          "expression": "embarrassed",
+          "gaze": [
+            -0.7,
+            0.15
+          ],
+          "head": 4,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "shy",
+          "action": "listen"
+        },
+        {
+          "frame": 335,
+          "pose": "deadpan_freeze",
+          "expression": "deadpan",
+          "gaze": [
+            0,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "deadpan",
+          "action": "listen"
+        }
+      ]
+    },
+    {
+      "id": "adb",
+      "author": "adb",
+      "cues": [
+        {
+          "frame": 0,
+          "pose": "casual_slouch",
+          "expression": "neutral",
+          "gaze": [
+            -0.2,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "glasses"
+        },
+        {
+          "frame": 50,
+          "pose": "weight_left",
+          "expression": "neutral",
+          "gaze": [
+            -0.5,
+            0
+          ],
+          "head": -3,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "glasses"
+        },
+        {
+          "frame": 124,
+          "pose": "casual_slouch",
+          "expression": "smug",
+          "gaze": [
+            -0.7,
+            0
+          ],
+          "head": -5,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "glasses"
+        },
+        {
+          "frame": 158,
+          "pose": "weight_left",
+          "expression": "happy",
+          "gaze": [
+            -0.8,
+            0
+          ],
+          "head": -3,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "glasses"
+        },
+        {
+          "frame": 202,
+          "pose": "relaxed_standing",
+          "expression": "neutral",
+          "gaze": [
+            0,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "glasses"
+        },
+        {
+          "frame": 281,
+          "pose": "chin_rub",
+          "expression": "smug",
+          "gaze": [
+            -0.6,
+            0
+          ],
+          "head": -3,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "glasses"
+        },
+        {
+          "frame": 335,
+          "pose": "casual_slouch",
+          "expression": "neutral",
+          "gaze": [
+            0,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "glasses"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "frame": 0,
+      "zoom": 1.8,
+      "center": [
+        520,
+        710
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 5
+    },
+    {
+      "frame": 50,
+      "zoom": 1,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            290,
+            1030
+          ],
+          "scale": 1.65
+        },
+        "adb": {
+          "position": [
+            850,
+            1030
+          ],
+          "scale": 1.65
+        }
+      },
+      "move": "whip",
+      "angle": 0,
+      "settle": 5
+    },
+    {
+      "frame": 82,
+      "zoom": 1.55,
+      "center": [
+        520,
+        665
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65
+        }
+      },
+      "move": "punch",
+      "angle": -3,
+      "settle": 5
+    },
+    {
+      "frame": 124,
+      "zoom": 0.86,
+      "center": [
+        560,
+        950
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            290,
+            1030
+          ],
+          "scale": 1.65
+        },
+        "adb": {
+          "position": [
+            850,
+            1030
+          ],
+          "scale": 1.65
+        }
+      },
+      "move": "whip",
+      "angle": 0,
+      "settle": 5
+    },
+    {
+      "frame": 158,
+      "zoom": 1.85,
+      "center": [
+        850,
+        680
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            290,
+            1030
+          ],
+          "scale": 1.65
+        },
+        "adb": {
+          "position": [
+            850,
+            1030
+          ],
+          "scale": 1.65
+        }
+      },
+      "move": "punch",
+      "angle": 3,
+      "settle": 5
+    },
+    {
+      "frame": 202,
+      "zoom": 0.58,
+      "center": [
+        540,
+        900
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65
+        }
+      },
+      "move": "pull",
+      "angle": 0,
+      "settle": 5
+    },
+    {
+      "frame": 237,
+      "zoom": 0.58,
+      "center": [
+        540,
+        900
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 5
+    },
+    {
+      "frame": 281,
+      "zoom": 1.65,
+      "center": [
+        520,
+        680
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65
+        }
+      },
+      "move": "whip",
+      "angle": -4,
+      "settle": 5
+    },
+    {
+      "frame": 335,
+      "zoom": 1,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65
+        }
+      },
+      "move": "pull",
+      "angle": 0,
+      "settle": 5
+    }
+  ],
+  "id": "art-study",
+  "theme": {
+    "signature": "sound",
+    "paper": "#ece9e6",
+    "ink": "#302d33",
+    "shade": "#929099",
+    "accent": "#ac90b3",
+    "shading": 0.3
+  },
+  "events": [
+    {
+      "id": "star",
+      "at": 40,
+      "end": 360,
+      "kind": "stars",
+      "position": [
+        200,
+        650
+      ],
+      "scale": 1
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "movie": "shorts/adb/renders/ADB-ShipTheMachine_r7.mp4",
+  "hash": "d5fbc2e07adf29dc7608c031815e12fab79c4a1eaac4cada031af941773ee1cb",
+  "method": "48kHz mono-average decode; least-squares exact known-source stems against actual raw AAC mix, same scheduled times. Numeric detection, not listening.",
+  "reconstructionCorrelation": 0.9960749961145152,
+  "residualRms": 0.0031751922422955875,
+  "rawDelaySeconds": 0.04266725224735168,
+  "finalDelaySeconds": 5.462347861532422e-07,
+  "stems": [
+    {
+      "id": "machine_01",
+      "kind": "dialogue",
+      "at": 0.2,
+      "duration": 1.4333333333333333,
+      "gainDb": -2,
+      "rawMixCoefficient": 0.9991,
+      "sourceAtExpectedTimeDetected": true,
+      "stemRmsDbFS": -31.93
+    },
+    {
+      "id": "machine_02",
+      "kind": "dialogue",
+      "at": 5.4,
+      "duration": 1.6,
+      "gainDb": -2,
+      "rawMixCoefficient": 0.9986,
+      "sourceAtExpectedTimeDetected": true,
+      "stemRmsDbFS": -32.31
+    },
+    {
+      "id": "deploy",
+      "kind": "sfx",
+      "at": 1.9,
+      "duration": 0.3,
+      "gainDb": -6,
+      "rawMixCoefficient": 0.9917,
+      "sourceAtExpectedTimeDetected": true,
+      "stemRmsDbFS": -51.38
+    },
+    {
+      "id": "error",
+      "kind": "sfx",
+      "at": 3.5,
+      "duration": 0.6666666666666666,
+      "gainDb": 0,
+      "rawMixCoefficient": 0.9991,
+      "sourceAtExpectedTimeDetected": true,
+      "stemRmsDbFS": -44.03
+    },
+    {
+      "id": "box-pop",
+      "kind": "sfx",
+      "at": 6.266666666666667,
+      "duration": 0.36666666666666664,
+      "gainDb": -13,
+      "rawMixCoefficient": 0.146,
+      "sourceAtExpectedTimeDetected": true,
+      "stemRmsDbFS": -51.91
+    }
+  ],
+  "asr": [
+    {
+      "id": "machine_01",
+      "expected": "It works on my machine.",
+      "proposal": " It works on my machine.",
+      "words": [
+        {
+          "word": " It",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.72802734375
+        },
+        {
+          "word": " works",
+          "start": 0.3,
+          "end": 0.54,
+          "probability": 0.982421875
+        },
+        {
+          "word": " on",
+          "start": 0.54,
+          "end": 0.78,
+          "probability": 0.99609375
+        },
+        {
+          "word": " my",
+          "start": 0.78,
+          "end": 0.9,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " machine.",
+          "start": 0.9,
+          "end": 1.22,
+          "probability": 0.994140625
+        }
+      ],
+      "note": "Cached tiny-model text proposal from actual encoded mix; not phoneme or human listening verification."
+    },
+    {
+      "id": "machine_02",
+      "expected": "Great. Ship the machine.",
+      "proposal": " Great! Ship the machine!",
+      "words": [
+        {
+          "word": " Great!",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.8740234375
+        },
+        {
+          "word": " Ship",
+          "start": 0.88,
+          "end": 1.04,
+          "probability": 0.50341796875
+        },
+        {
+          "word": " the",
+          "start": 1.04,
+          "end": 1.16,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " machine!",
+          "start": 1.16,
+          "end": 1.44,
+          "probability": 0.849609375
+        }
+      ],
+      "note": "Cached tiny-model text proposal from actual encoded mix; not phoneme or human listening verification."
+    }
+  ]
+}

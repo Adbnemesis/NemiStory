@@ -1,0 +1,20 @@
+import {bundle} from '@remotion/bundler';
+import {selectComposition,renderMedia,renderStill} from '@remotion/renderer';
+import {catalog} from '../src/catalog';
+import {validate} from './validation';
+import {resolve} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {mkdirSync,existsSync,writeFileSync,readFileSync} from 'node:fs';
+import {execFileSync} from 'node:child_process';
+const root=resolve(fileURLToPath(new URL('..',import.meta.url)));const id=process.argv[2];const c=catalog.find(c=>c.id===id);if(!c)throw Error('Choose: '+catalog.map(c=>c.id).join(', '));
+const errors=validate(c,root);if(errors.length)throw Error(errors.join('\n'));
+const revision=process.argv.find(x=>x.startsWith('--revision='))?.split('=')[1]??'r1';if(!/^[a-z0-9-]+$/i.test(revision))throw Error('Invalid revision');const proof=process.argv.includes('--proof'),still=process.argv.includes('--still'),safe=process.argv.includes('--safe'),finishOnly=process.argv.includes('--finish-only');if(still&&finishOnly)throw Error('Finish-only requires a raw movie');
+const folder=resolve(root,c.author,proof||still?'review':'renders');mkdirSync(folder,{recursive:true});const output=resolve(folder,`${c.id}_${revision}${proof?'_proof':''}${safe?'_safe':''}.${still?'png':'mp4'}`);if(existsSync(output))throw Error('Preserve earlier export: choose another --revision');
+const raw=resolve(root,c.author,'review',`${c.id}_${revision}${proof?'_proof':''}${safe?'_safe':''}_raw.mp4`);mkdirSync(resolve(root,c.author,'review'),{recursive:true});if(!still&&!finishOnly&&existsSync(raw))throw Error('Choose a new revision: raw export exists');
+const serveUrl=await bundle({entryPoint:resolve(root,'src/index.ts'),publicDir:resolve(root,'public'),outDir:resolve(root,'.cache/bundle')});
+const browserExecutable=process.env.SHORTS_BROWSER??'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+const inputProps={config:c,debugSafeArea:safe};const composition=await selectComposition({serveUrl,id,browserExecutable,inputProps});
+if(still)await renderStill({serveUrl,composition,output,inputProps,browserExecutable,frame:0});else if(!finishOnly)await renderMedia({serveUrl,composition,outputLocation:raw,inputProps,browserExecutable,codec:'h264',crf:18,pixelFormat:'yuv420p',audioCodec:'aac',concurrency:3,frameRange:proof?[0,Math.min(299,composition.durationInFrames-1)]:undefined,onProgress:({progress})=>{if(Math.floor(progress*100)%10===0)process.stdout.write(`${Math.floor(progress*100)}% `)}});
+let master:unknown=null;
+if(!still){const timeline=resolve(root,c.author,'review',`${c.id}_${revision}${proof?'_proof':''}${safe?'_safe':''}_mix.json`);const mix=JSON.stringify({...c,duration:proof?Math.min(300,composition.durationInFrames)/composition.fps:c.duration});if(finishOnly&&(!existsSync(raw)||!existsSync(timeline)||readFileSync(timeline,'utf8')!==mix))throw Error('Raw movie/config mismatch; render a new revision');if(!finishOnly)writeFileSync(timeline,mix);const python=process.env.SHORTS_PYTHON??resolve(root,'../.venv/bin/python');master=JSON.parse(execFileSync(python,[resolve(root,'tools/master_audio.py'),raw,output,timeline],{encoding:'utf8',maxBuffer:1024*1024}));}
+const review=resolve(root,c.author,'review');mkdirSync(review,{recursive:true});writeFileSync(resolve(review,`${c.id}_${revision}${proof?'_proof':''}${safe?'_safe':''}${still?'_still':''}.render.json`),JSON.stringify({id,output,width:composition.width,height:composition.height,fps:composition.fps,frames:proof?Math.min(300,composition.durationInFrames):composition.durationInFrames,revision,proof,safe,master,generated:new Date().toISOString(),browserExecutable},null,2));console.log('\n'+output);

@@ -1,0 +1,31 @@
+{
+  "id": "ADB-LegDay",
+  "output": "/Users/talus/Documents/adb/shorts/adb/renders/ADB-LegDay_r5.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 412,
+  "revision": "r5",
+  "proof": false,
+  "safe": false,
+  "master": {
+    "raw": "/Users/talus/Documents/adb/shorts/adb/review/ADB-LegDay_r5_raw.mp4",
+    "targetLUFS": -16,
+    "targetTruePeakDb": -1.5,
+    "analysis": {
+      "input_i": "-22.91",
+      "input_tp": "-9.16",
+      "input_lra": "2.90",
+      "input_thresh": "-32.91",
+      "output_i": "-15.59",
+      "output_tp": "-2.35",
+      "output_lra": "2.00",
+      "output_thresh": "-25.59",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.41"
+    },
+    "method": "two-pass loudnorm, copied video stream; encoded output measured separately"
+  },
+  "generated": "2026-10-05T13:59:00.902Z",
+  "browserExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+}

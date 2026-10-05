@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "id": "ADB-ShipTheMachine",
+  "author": "adb",
+  "title": "Works on my machine? Ship the machine.",
+  "format": "dialogue-visual-punchline",
+  "duration": 10,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "promise": "Literal solution to a programmer excuse",
+  "want": "Make a successful deployment",
+  "choice": "Treat the excuse literally",
+  "consequence": "Hardware becomes the deliverable",
+  "payoff": "Ship the entire machine",
+  "shots": [
+    {
+      "id": "claim",
+      "start": 0,
+      "end": 1.9,
+      "background": "desk",
+      "expression": "smug",
+      "gesture": "rest",
+      "prop": "machine",
+      "actor": {
+        "x": 490,
+        "y": 1140,
+        "scale": 3.3,
+        "headTilt": -4
+      },
+      "camera": [
+        {
+          "at": 0,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 1.9,
+          "zoom": 1.025,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "Confident ADB and his actual computer, spoken claim",
+      "caption": {
+        "text": "WORKS ON\nMY MACHINE.",
+        "style": "pop",
+        "size": 82
+      }
+    },
+    {
+      "id": "deploy",
+      "start": 1.9,
+      "end": 3.5,
+      "background": "desk",
+      "expression": "neutral",
+      "gesture": "point",
+      "prop": "notification",
+      "actor": {
+        "x": 400,
+        "y": 1110,
+        "scale": 2.9,
+        "headTilt": 3,
+        "gaze": [
+          0.6,
+          0.4
+        ]
+      },
+      "camera": [
+        {
+          "at": 1.9,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 3.5,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "One attempt to deploy",
+      "propValue": "Deploying…",
+      "caption": {
+        "text": "SHIP IT.",
+        "style": "beat",
+        "size": 104,
+        "color": "#afffd2"
+      }
+    },
+    {
+      "id": "error",
+      "start": 3.5,
+      "end": 5.4,
+      "background": "desk",
+      "expression": "deadpan",
+      "gesture": "rest",
+      "prop": "notification",
+      "actor": {
+        "x": 490,
+        "y": 1140,
+        "scale": 3.7
+      },
+      "camera": [
+        {
+          "at": 3.5,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 5.4,
+          "zoom": 1.025,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "The server refuses; read before the dry response",
+      "propValue": "error: works nowhere else",
+      "caption": {
+        "text": "OF COURSE.",
+        "style": "reaction",
+        "size": 94,
+        "color": "#ff9e87"
+      },
+      "transition": "snap"
+    },
+    {
+      "id": "literal",
+      "start": 5.4,
+      "end": 7.666666666666667,
+      "background": "desk",
+      "expression": "deadpan",
+      "gesture": "explain",
+      "prop": "machine",
+      "actor": {
+        "x": 490,
+        "y": 1040,
+        "scale": 2.8,
+        "headTilt": -3
+      },
+      "camera": [
+        {
+          "at": 5.4,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 7.666666666666667,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "A literal box appears around the original computer, synced to speech",
+      "propValue": "ship",
+      "caption": {
+        "text": "SHIP THE\nMACHINE.",
+        "style": "punchline",
+        "size": 96,
+        "at": 6.266666666666667
+      },
+      "transition": "match"
+    },
+    {
+      "id": "hold",
+      "start": 7.666666666666667,
+      "end": 9.1,
+      "background": "desk",
+      "expression": "sideEye",
+      "gesture": "rest",
+      "prop": "machine",
+      "actor": {
+        "x": 490,
+        "y": 1040,
+        "scale": 2.8,
+        "headTilt": -3
+      },
+      "camera": [
+        {
+          "at": 7.666666666666667,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 9.1,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "Final machine joke breathes, unimpressed face stays still",
+      "propValue": "ship",
+      "caption": {
+        "text": "Problem solved.",
+        "style": "reaction",
+        "size": 87
+      }
+    },
+    {
+      "id": "reset",
+      "start": 9.1,
+      "end": 10,
+      "background": "desk",
+      "expression": "smug",
+      "gesture": "rest",
+      "prop": "machine",
+      "actor": {
+        "x": 490,
+        "y": 1140,
+        "scale": 3.3,
+        "headTilt": -4
+      },
+      "camera": [
+        {
+          "at": 9.1,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 10,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "Return to original programmer confidence, semantic restart",
+      "caption": {
+        "text": "WORKS ON\nMY MACHINE.",
+        "style": "pop",
+        "size": 82,
+        "at": 0
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "deploy-click",
+      "at": 1.9,
+      "kind": "pop",
+      "strength": 0.3
+    },
+    {
+      "id": "server-error",
+      "at": 3.5,
+      "kind": "impact",
+      "strength": 0.55
+    },
+    {
+      "id": "box",
+      "at": 6.266666666666667,
+      "kind": "pop",
+      "strength": 0.35
+    }
+  ],
+  "sfx": [
+    {
+      "id": "deploy",
+      "file": "audio/sfx/click.mp3",
+      "sourceStart": 0.03333333333333333,
+      "at": 1.9,
+      "duration": 0.3,
+      "gainDb": -6,
+      "event": "deploy-click"
+    },
+    {
+      "id": "error",
+      "file": "audio/sfx/error.mp3",
+      "sourceStart": 0.6,
+      "at": 3.5,
+      "duration": 0.6666666666666666,
+      "gainDb": 0,
+      "event": "server-error"
+    },
+    {
+      "id": "box-pop",
+      "file": "audio/sfx/pop.mp3",
+      "sourceStart": 0.1,
+      "at": 6.266666666666667,
+      "duration": 0.36666666666666664,
+      "gainDb": -13,
+      "event": "box"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "machine_01",
+      "file": "audio/voice/machine_01.wav",
+      "at": 0.2,
+      "text": "It works on my machine.",
+      "duration": 1.4333333333333333,
+      "gainDb": -2,
+      "author": "adb",
+      "sha256": "dfab8d7b6fef5359827de5cea59659a6ab68f173d79c95bcb71e88ed100540e1",
+      "words": [
+        {
+          "text": "It",
+          "start": 0,
+          "end": 0.3
+        },
+        {
+          "text": "works",
+          "start": 0.3,
+          "end": 0.5333333333333333
+        },
+        {
+          "text": "on",
+          "start": 0.5333333333333333,
+          "end": 0.7666666666666667
+        },
+        {
+          "text": "my",
+          "start": 0.7666666666666667,
+          "end": 0.9
+        },
+        {
+          "text": "machine.",
+          "start": 0.9,
+          "end": 1.2333333333333334
+        }
+      ],
+      "mouth": [
+        {
+          "start": 0.03333333333333333,
+          "end": 0.26666666666666666,
+          "shape": "open"
+        },
+        {
+          "start": 0.3333333333333333,
+          "end": 0.5,
+          "shape": "wide"
+        },
+        {
+          "start": 0.5666666666666667,
+          "end": 0.7666666666666667,
+          "shape": "round"
+        },
+        {
+          "start": 0.8,
+          "end": 0.8666666666666667,
+          "shape": "open"
+        },
+        {
+          "start": 0.9333333333333333,
+          "end": 1.2,
+          "shape": "wide"
+        }
+      ]
+    },
+    {
+      "id": "machine_02",
+      "file": "audio/voice/machine_02.wav",
+      "at": 5.4,
+      "text": "Great. Ship the machine.",
+      "duration": 1.6,
+      "gainDb": -2,
+      "author": "adb",
+      "sha256": "7a2e29ad20e98a242c254e115482e492d2a941798d9d85faf9faf900b44f9898",
+      "words": [
+        {
+          "text": "Great!",
+          "start": 0,
+          "end": 0.43333333333333335
+        },
+        {
+          "text": "Ship",
+          "start": 0.8666666666666667,
+          "end": 1.0333333333333334
+        },
+        {
+          "text": "the",
+          "start": 1.0333333333333334,
+          "end": 1.1666666666666667
+        },
+        {
+          "text": "machine!",
+          "start": 1.1666666666666667,
+          "end": 1.4333333333333333
+        }
+      ],
+      "mouth": [
+        {
+          "start": 0.03333333333333333,
+          "end": 0.4,
+          "shape": "open"
+        },
+        {
+          "start": 0.9,
+          "end": 1,
+          "shape": "wide"
+        },
+        {
+          "start": 1.0666666666666667,
+          "end": 1.1333333333333333,
+          "shape": "round"
+        },
+        {
+          "start": 1.1666666666666667,
+          "end": 1.4,
+          "shape": "open"
+        }
+      ]
+    }
+  ],
+  "blinks": [
+    {
+      "start": 2.9,
+      "end": 3.033333333333333
+    },
+    {
+      "start": 8.566666666666666,
+      "end": 8.7
+    }
+  ],
+  "loop": {
+    "kind": "semantic",
+    "note": "The confident claim restarts after the literal solution; voice sentence restart is intentional."
+  }
+}

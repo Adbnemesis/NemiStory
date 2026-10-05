@@ -1,0 +1,258 @@
+{
+  "music": {
+    "file": "shorts/assets/music/batch01/cheri-cheri-lady.wav",
+    "sourceHash": "3617fd993e113d231f8b29ce4920f3e36613c916e37edba520417fa28f294260",
+    "sourceStart": 0.1393,
+    "duration": 15.0,
+    "gainDb": -5.07
+  },
+  "beatPlan": "shorts/assets/music/batch01/cheri-cheri-lady.edit-plan.json",
+  "bpm": 114.027,
+  "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "cuts": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "focus": "Nemi overthinking inside viewfinder corners",
+      "move": "cut",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "sourceAccentTime": 0.1393,
+      "sourceAccentSceneTime": 0.0,
+      "pictureMinusSourceAccentMs": 0.0,
+      "measurementStatus": "Immediate opening hook; onset phase is recorded separately"
+    },
+    {
+      "frame": 47,
+      "time": 1.5666666666666667,
+      "focus": "ADB with physically gripped phone at chest level",
+      "move": "whip",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 1.7183,
+      "sourceAccentSceneTime": 1.579,
+      "pictureMinusSourceAccentMs": -12.333,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 95,
+      "time": 3.1666666666666665,
+      "focus": "Nemi deciding her profile angle",
+      "move": "cut",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "sourceAccentTime": 3.3088,
+      "sourceAccentSceneTime": 3.1695,
+      "pictureMinusSourceAccentMs": -2.833,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 126,
+      "time": 4.2,
+      "focus": "Confident peace-sign pose",
+      "move": "punch",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "sourceAccentTime": 4.3537,
+      "sourceAccentSceneTime": 4.2144,
+      "pictureMinusSourceAccentMs": -14.4,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 174,
+      "time": 5.8,
+      "focus": "One finite camera flash and shutter",
+      "move": "cut",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "sourceAccentTime": 5.9327,
+      "sourceAccentSceneTime": 5.7934,
+      "pictureMinusSourceAccentMs": 6.6,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 221,
+      "time": 7.366666666666666,
+      "focus": "Two drawings of Nemi: prior shy photo versus new confident portrait",
+      "move": "pull",
+      "stage": "columns",
+      "palette": "paper",
+      "sourceAccentTime": 7.5117,
+      "sourceAccentSceneTime": 7.3724,
+      "pictureMinusSourceAccentMs": -5.733,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 253,
+      "time": 8.433333333333334,
+      "focus": "Photographer's surprised face",
+      "move": "punch",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 8.5682,
+      "sourceAccentSceneTime": 8.4289,
+      "pictureMinusSourceAccentMs": 4.433,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 300,
+      "time": 10.0,
+      "focus": "Nemi amused portrait",
+      "move": "whip",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 10.1471,
+      "sourceAccentSceneTime": 10.0078,
+      "pictureMinusSourceAccentMs": -7.8,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 348,
+      "time": 11.6,
+      "focus": "ADB shy behind held phone",
+      "move": "cut",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 11.7261,
+      "sourceAccentSceneTime": 11.5868,
+      "pictureMinusSourceAccentMs": 13.2,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 411,
+      "time": 13.7,
+      "focus": "Relaxed pair and the photographer reversal",
+      "move": "pull",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "sourceAccentTime": 13.8275,
+      "sourceAccentSceneTime": 13.6882,
+      "pictureMinusSourceAccentMs": 11.8,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    }
+  ],
+  "events": [
+    {
+      "id": "portrait-nerves",
+      "at": 0,
+      "end": 47,
+      "kind": "brackets",
+      "position": [
+        845,
+        630
+      ],
+      "scale": 0.65,
+      "rotation": 4,
+      "accent": false
+    },
+    {
+      "id": "confident-pose",
+      "at": 126,
+      "end": 174,
+      "kind": "stars",
+      "position": [
+        175,
+        530
+      ],
+      "scale": 0.6,
+      "rotation": -6,
+      "accent": true
+    },
+    {
+      "id": "shutter",
+      "at": 174,
+      "end": 176,
+      "kind": "flash",
+      "position": [
+        540,
+        960
+      ],
+      "scale": 1,
+      "rotation": 0,
+      "accent": true
+    },
+    {
+      "id": "photo-left-corner",
+      "at": 221,
+      "end": 253,
+      "kind": "brackets",
+      "position": [
+        175,
+        420
+      ],
+      "scale": 0.85,
+      "rotation": -3,
+      "accent": false
+    },
+    {
+      "id": "photo-right-corner",
+      "at": 221,
+      "end": 253,
+      "kind": "brackets",
+      "position": [
+        890,
+        420
+      ],
+      "scale": 0.85,
+      "rotation": 3,
+      "accent": false
+    },
+    {
+      "id": "camera-surprise",
+      "at": 253,
+      "end": 300,
+      "kind": "heart",
+      "position": [
+        875,
+        575
+      ],
+      "scale": 0.7,
+      "rotation": -8,
+      "accent": true
+    },
+    {
+      "id": "nemi-amused",
+      "at": 300,
+      "end": 348,
+      "kind": "stars",
+      "position": [
+        180,
+        600
+      ],
+      "scale": 0.7,
+      "rotation": 5,
+      "accent": true
+    },
+    {
+      "id": "soft-reversal",
+      "at": 411,
+      "end": 450,
+      "kind": "heart",
+      "position": [
+        550,
+        390
+      ],
+      "scale": 0.65,
+      "rotation": 0,
+      "accent": true
+    }
+  ],
+  "sfx": [
+    {
+      "event": "shutter",
+      "file": "common/audio/sfx/click.mp3",
+      "sourceHash": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "sourceStart": 0.03333333333333333,
+      "duration": 0.3,
+      "gainDb": -3,
+      "offsetFrames": 0
+    }
+  ],
+  "status": "Authored source; validator checked; still and exported playback review pending",
+  "exportVerification": {
+    "revision": "r1",
+    "allPictureCutsPresent": true,
+    "audioClockPassed": true,
+    "cutAccentMaxErrorAfterOpeningMs": 14.4
+  }
+}

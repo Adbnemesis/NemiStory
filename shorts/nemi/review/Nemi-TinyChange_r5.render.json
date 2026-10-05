@@ -1,0 +1,31 @@
+{
+  "id": "Nemi-TinyChange",
+  "output": "/Users/talus/Documents/adb/shorts/nemi/renders/Nemi-TinyChange_r5.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 420,
+  "revision": "r5",
+  "proof": false,
+  "safe": false,
+  "master": {
+    "raw": "/Users/talus/Documents/adb/shorts/nemi/review/Nemi-TinyChange_r5_raw.mp4",
+    "targetLUFS": -16,
+    "targetTruePeakDb": -1.5,
+    "analysis": {
+      "input_i": "-20.76",
+      "input_tp": "-7.00",
+      "input_lra": "0.90",
+      "input_thresh": "-30.76",
+      "output_i": "-15.70",
+      "output_tp": "-1.85",
+      "output_lra": "0.60",
+      "output_thresh": "-25.70",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.30"
+    },
+    "method": "two-pass loudnorm, copied video stream; encoded output measured separately"
+  },
+  "generated": "2026-10-05T14:00:38.315Z",
+  "browserExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+}

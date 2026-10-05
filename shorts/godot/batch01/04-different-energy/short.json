@@ -1,0 +1,655 @@
+{
+  "version": 2,
+  "id": "different-energy",
+  "title": "Same beat, different energy",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "frames": 450,
+  "premise": "same song\ndifferent energy",
+  "music": {
+    "file": "shorts/assets/music/batch01/memory-reboot.wav",
+    "sourceHash": "9ad7b28f458a2163bf37a51af7db9917152ec43dde197de8a15fd9924cc29b12",
+    "sourceStart": 10.3848,
+    "duration": 15.0,
+    "gainDb": -6.18
+  },
+  "sfx": [
+    {
+      "event": "small-response",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -5,
+      "offsetFrames": 0
+    }
+  ],
+  "theme": {
+    "signature": "duo",
+    "paper": "#e9ecf1",
+    "ink": "#293144",
+    "shade": "#8999ab",
+    "accent": "#8398b5",
+    "shading": 0.36
+  },
+  "actors": [
+    {
+      "id": "nemi",
+      "author": "nemi",
+      "cues": [
+        {
+          "frame": 0,
+          "pose": "casual_standing",
+          "expression": "happy",
+          "gaze": [
+            0.6,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "smile",
+          "action": "rest"
+        },
+        {
+          "frame": 65,
+          "pose": "casual_standing",
+          "expression": "happy",
+          "gaze": [
+            0.6,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "smile",
+          "action": "rest"
+        },
+        {
+          "frame": 120,
+          "pose": "one_hand_explaining",
+          "expression": "happy",
+          "gaze": [
+            0.5,
+            0
+          ],
+          "head": -4,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "wave"
+        },
+        {
+          "frame": 164,
+          "pose": "casual_standing",
+          "expression": "happy",
+          "gaze": [
+            0.4,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "smile",
+          "action": "rest"
+        },
+        {
+          "frame": 208,
+          "pose": "counting_two",
+          "expression": "happy",
+          "gaze": [
+            0.6,
+            0
+          ],
+          "head": 3,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "profile",
+          "emotion": "smile",
+          "action": "peace"
+        },
+        {
+          "frame": 253,
+          "pose": "counting_two",
+          "expression": "happy",
+          "gaze": [
+            0.5,
+            0
+          ],
+          "head": -2,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "peace"
+        },
+        {
+          "frame": 297,
+          "pose": "casual_standing",
+          "expression": "happy",
+          "gaze": [
+            0.4,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "back",
+          "emotion": "smile",
+          "action": "rest"
+        },
+        {
+          "frame": 341,
+          "pose": "casual_standing",
+          "expression": "happy",
+          "gaze": [
+            0.5,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "smile",
+          "action": "rest"
+        },
+        {
+          "frame": 385,
+          "pose": "one_hand_explaining",
+          "expression": "happy",
+          "gaze": [
+            0.7,
+            0
+          ],
+          "head": 4,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "wave"
+        }
+      ]
+    },
+    {
+      "id": "adb",
+      "author": "adb",
+      "cues": [
+        {
+          "frame": 0,
+          "pose": "casual_slouch",
+          "expression": "deadpan",
+          "gaze": [
+            -0.2,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "deadpan",
+          "action": "rest"
+        },
+        {
+          "frame": 65,
+          "pose": "deadpan_freeze",
+          "expression": "deadpan",
+          "gaze": [
+            -0.6,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "deadpan",
+          "action": "rest"
+        },
+        {
+          "frame": 120,
+          "pose": "casual_slouch",
+          "expression": "deadpan",
+          "gaze": [
+            -0.3,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "deadpan",
+          "action": "rest"
+        },
+        {
+          "frame": 164,
+          "pose": "relaxed_standing",
+          "expression": "deadpan",
+          "gaze": [
+            -0.4,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "deadpan",
+          "action": "rest"
+        },
+        {
+          "frame": 208,
+          "pose": "casual_slouch",
+          "expression": "deadpan",
+          "gaze": [
+            -0.5,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "deadpan",
+          "action": "rest"
+        },
+        {
+          "frame": 253,
+          "pose": "relaxed_standing",
+          "expression": "deadpan",
+          "gaze": [
+            -0.2,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "back",
+          "emotion": "deadpan",
+          "action": "rest"
+        },
+        {
+          "frame": 297,
+          "pose": "casual_slouch",
+          "expression": "deadpan",
+          "gaze": [
+            -0.5,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "deadpan",
+          "action": "rest"
+        },
+        {
+          "frame": 341,
+          "pose": "weight_left",
+          "expression": "happy",
+          "gaze": [
+            -0.7,
+            0
+          ],
+          "head": -5,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "rest"
+        },
+        {
+          "frame": 385,
+          "pose": "weight_left",
+          "expression": "happy",
+          "gaze": [
+            -0.7,
+            0
+          ],
+          "head": -5,
+          "motion": "snap",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "rest"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "frame": 0,
+      "zoom": 0.95,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            300,
+            895
+          ],
+          "scale": 1.3,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            800,
+            895
+          ],
+          "scale": 1.3,
+          "flip": 1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 6,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "columns"
+    },
+    {
+      "frame": 65,
+      "zoom": 1.7,
+      "center": [
+        530,
+        595
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 6,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "columns"
+    },
+    {
+      "frame": 120,
+      "zoom": 1.8,
+      "center": [
+        530,
+        610
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "punch",
+      "angle": -4,
+      "settle": 6,
+      "direction": 1,
+      "palette": "ink",
+      "stage": "columns"
+    },
+    {
+      "frame": 164,
+      "zoom": 0.95,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            540,
+            930
+          ],
+          "scale": 1.35,
+          "flip": 1
+        }
+      },
+      "move": "pull",
+      "angle": 0,
+      "settle": 6,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "columns"
+    },
+    {
+      "frame": 208,
+      "zoom": 1.45,
+      "center": [
+        550,
+        680
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "whip",
+      "angle": 3,
+      "settle": 6,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "columns"
+    },
+    {
+      "frame": 253,
+      "zoom": 0.95,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            300,
+            895
+          ],
+          "scale": 1.3,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            800,
+            895
+          ],
+          "scale": 1.3,
+          "flip": 1
+        }
+      },
+      "move": "pull",
+      "angle": -3,
+      "settle": 6,
+      "direction": 1,
+      "palette": "ink",
+      "stage": "columns"
+    },
+    {
+      "frame": 297,
+      "zoom": 1.0,
+      "center": [
+        540,
+        930
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            930
+          ],
+          "scale": 1.35,
+          "flip": 1
+        }
+      },
+      "move": "whip",
+      "angle": 3,
+      "settle": 6,
+      "direction": -1,
+      "palette": "paper",
+      "stage": "columns"
+    },
+    {
+      "frame": 341,
+      "zoom": 1.7,
+      "center": [
+        530,
+        600
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "punch",
+      "angle": 2,
+      "settle": 6,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "columns"
+    },
+    {
+      "frame": 385,
+      "zoom": 0.95,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            300,
+            895
+          ],
+          "scale": 1.3,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            800,
+            895
+          ],
+          "scale": 1.3,
+          "flip": 1
+        }
+      },
+      "move": "pull",
+      "angle": 0,
+      "settle": 6,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "columns"
+    }
+  ],
+  "events": [
+    {
+      "id": "quiet-dash",
+      "at": 65,
+      "end": 120,
+      "kind": "dash",
+      "position": [
+        835,
+        600
+      ],
+      "scale": 0.6,
+      "rotation": 0,
+      "accent": false
+    },
+    {
+      "id": "dramatic-arrival",
+      "at": 120,
+      "end": 164,
+      "kind": "rays",
+      "position": [
+        865,
+        635
+      ],
+      "scale": 1.1,
+      "rotation": -9,
+      "accent": true
+    },
+    {
+      "id": "adb-dash",
+      "at": 164,
+      "end": 208,
+      "kind": "dash",
+      "position": [
+        210,
+        590
+      ],
+      "scale": 0.7,
+      "rotation": 0,
+      "accent": false
+    },
+    {
+      "id": "nemi-star",
+      "at": 208,
+      "end": 253,
+      "kind": "stars",
+      "position": [
+        175,
+        605
+      ],
+      "scale": 0.9,
+      "rotation": 7,
+      "accent": true
+    },
+    {
+      "id": "pair-response",
+      "at": 253,
+      "end": 297,
+      "kind": "stars",
+      "position": [
+        185,
+        510
+      ],
+      "scale": 0.75,
+      "rotation": -9,
+      "accent": true
+    },
+    {
+      "id": "small-response",
+      "at": 341,
+      "end": 385,
+      "kind": "dash",
+      "position": [
+        840,
+        630
+      ],
+      "scale": 0.55,
+      "rotation": 0,
+      "accent": false
+    },
+    {
+      "id": "shared-punchline",
+      "at": 385,
+      "end": 450,
+      "kind": "heart",
+      "position": [
+        525,
+        335
+      ],
+      "scale": 0.75,
+      "rotation": 0,
+      "accent": true
+    }
+  ]
+}

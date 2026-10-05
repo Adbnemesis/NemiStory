@@ -1,0 +1,34 @@
+[
+  {
+    "id": "machine_01",
+    "text": "It works on my machine.",
+    "duration": 1.44,
+    "file": "adb/assets/voice/machine_01.wav",
+    "sha256": "dfab8d7b6fef5359827de5cea59659a6ab68f173d79c95bcb71e88ed100540e1",
+    "speaker": "aiden",
+    "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+    "instruct": "Cool, relaxed young adult male around 24, calm conversational speech, confident, subtle dry wit, understated and natural.",
+    "sampleRate": 24000,
+    "temperature": 0.7,
+    "topK": 50,
+    "topP": 0.95,
+    "repetitionPenalty": 1.05,
+    "tempo": 1.0
+  },
+  {
+    "id": "machine_02",
+    "text": "Great. Ship the machine.",
+    "duration": 1.6,
+    "file": "adb/assets/voice/machine_02.wav",
+    "sha256": "7a2e29ad20e98a242c254e115482e492d2a941798d9d85faf9faf900b44f9898",
+    "speaker": "aiden",
+    "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+    "instruct": "Cool, relaxed young adult male around 24, calm conversational speech, confident, subtle dry wit, understated and natural.",
+    "sampleRate": 24000,
+    "temperature": 0.7,
+    "topK": 50,
+    "topP": 0.95,
+    "repetitionPenalty": 1.05,
+    "tempo": 1.0
+  }
+]

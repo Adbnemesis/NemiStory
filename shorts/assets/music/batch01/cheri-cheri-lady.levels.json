@@ -1,0 +1,20 @@
+{
+  "file": "shorts/assets/music/batch01/cheri-cheri-lady.wav",
+  "sourceStart": 0.1393,
+  "duration": 15.0,
+  "input": {
+    "input_i": "-8.93",
+    "input_tp": "0.32",
+    "input_lra": "0.70",
+    "input_thresh": "-18.93",
+    "output_i": "-14.19",
+    "output_tp": "-4.86",
+    "output_lra": "1.00",
+    "output_thresh": "-24.19",
+    "normalization_type": "dynamic",
+    "target_offset": "0.19"
+  },
+  "recommendedGainDb": -5.07,
+  "recommendation": "gain only; target up to -14 LUFS with source true-peak headroom at -2dBTP, before optional SFX",
+  "status": "source analysis; final export must be measured again"
+}

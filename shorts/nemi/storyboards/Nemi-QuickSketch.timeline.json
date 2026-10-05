@@ -1,0 +1,1296 @@
+{
+  "version": 1,
+  "id": "Nemi-QuickSketch",
+  "author": "nemi",
+  "title": "A quick sketch. Suddenly tomorrow.",
+  "format": "dialogue-loop",
+  "duration": 11,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "promise": "An animator loses time to one small sketch",
+  "want": "Draw something fast before bed",
+  "choice": "Fix just one detail",
+  "consequence": "Night vanishes",
+  "payoff": "Why is it tomorrow?",
+  "shots": [
+    {
+      "id": "quick",
+      "start": 0,
+      "end": 2.033333333333333,
+      "background": "studio",
+      "expression": "happy",
+      "gesture": "draw",
+      "prop": "tablet",
+      "actor": {
+        "x": 460,
+        "y": 1040,
+        "scale": 2.55,
+        "headTilt": 4,
+        "gaze": [
+          0.6,
+          0.3
+        ]
+      },
+      "camera": [
+        {
+          "at": 0,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 2.033333333333333,
+          "zoom": 1.02,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "Spoken tiny intention, hand in contact with the drawing tool",
+      "propValue": "blank",
+      "caption": {
+        "text": "A quick sketch.",
+        "style": "pop",
+        "size": 90
+      }
+    },
+    {
+      "id": "more",
+      "start": 2.033333333333333,
+      "end": 3.7,
+      "background": "studio",
+      "expression": "confused",
+      "gesture": "draw",
+      "prop": "tablet",
+      "actor": {
+        "x": 460,
+        "y": 1040,
+        "scale": 2.55,
+        "headTilt": -9,
+        "gaze": [
+          0.6,
+          0.3
+        ]
+      },
+      "camera": [
+        {
+          "at": 2.033333333333333,
+          "zoom": 1.02,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 3.7,
+          "zoom": 1.035,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "First shape appears as she considers improving it",
+      "propValue": "detail",
+      "caption": {
+        "text": "Just fix\nthe hair…",
+        "style": "reaction",
+        "size": 84
+      }
+    },
+    {
+      "id": "spiral",
+      "start": 3.7,
+      "end": 5.2,
+      "background": "spotlight",
+      "expression": "smug",
+      "gesture": "hold",
+      "prop": "pixel",
+      "actor": {
+        "x": 480,
+        "y": 1070,
+        "scale": 2.85,
+        "headTilt": 5,
+        "gaze": [
+          0,
+          0.5
+        ]
+      },
+      "camera": [
+        {
+          "at": 3.7,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 5.2,
+          "zoom": 1.02,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "A single detail gets more attention than the entire sketch",
+      "propValue": "huge",
+      "caption": {
+        "text": "…and the eyes.",
+        "style": "pop",
+        "size": 86
+      },
+      "transition": "object"
+    },
+    {
+      "id": "morning",
+      "start": 5.2,
+      "end": 6.1,
+      "background": "studio",
+      "expression": "shocked",
+      "gesture": "panic",
+      "prop": "clock",
+      "actor": {
+        "x": 480,
+        "y": 1110,
+        "scale": 2.65,
+        "headTilt": 7
+      },
+      "camera": [
+        {
+          "at": 5.2,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 6.1,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "Clock becomes the only audience focus",
+      "propValue": "06:02 AM",
+      "caption": {
+        "text": "WAIT.",
+        "style": "punchline",
+        "size": 120,
+        "color": "#ffe0a3"
+      },
+      "transition": "snap"
+    },
+    {
+      "id": "tomorrow",
+      "start": 6.1,
+      "end": 8,
+      "background": "studio",
+      "expression": "deadpan",
+      "gesture": "rest",
+      "prop": "clock",
+      "actor": {
+        "x": 480,
+        "y": 1110,
+        "scale": 3.3
+      },
+      "camera": [
+        {
+          "at": 6.1,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 8,
+          "zoom": 1.015,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "Read the eye reaction during the exact approved voice line",
+      "propValue": "06:02 AM",
+      "caption": {
+        "text": "Why is it\ntomorrow?",
+        "style": "reaction",
+        "size": 89
+      }
+    },
+    {
+      "id": "lesson",
+      "start": 8,
+      "end": 10.066666666666666,
+      "background": "studio",
+      "expression": "embarrassed",
+      "gesture": "hold",
+      "prop": "tablet",
+      "actor": {
+        "x": 460,
+        "y": 1040,
+        "scale": 2.55,
+        "headTilt": -5
+      },
+      "camera": [
+        {
+          "at": 8,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 10.066666666666666,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "She pauses, then chooses another sketch anyway",
+      "propValue": "detail",
+      "caption": {
+        "text": "Never again.\nProbably.",
+        "style": "reaction",
+        "size": 79
+      }
+    },
+    {
+      "id": "reset",
+      "start": 10.066666666666666,
+      "end": 11,
+      "background": "studio",
+      "expression": "happy",
+      "gesture": "draw",
+      "prop": "tablet",
+      "actor": {
+        "x": 460,
+        "y": 1040,
+        "scale": 2.55,
+        "headTilt": 4,
+        "gaze": [
+          0.6,
+          0.3
+        ]
+      },
+      "camera": [
+        {
+          "at": 10.066666666666666,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        },
+        {
+          "at": 11,
+          "zoom": 1,
+          "x": 0,
+          "y": 0,
+          "rotate": 0
+        }
+      ],
+      "focus": "Return to the original blank canvas and tiny intention",
+      "propValue": "blank",
+      "caption": {
+        "text": "A quick sketch.",
+        "style": "pop",
+        "size": 90,
+        "at": 0
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "draw",
+      "at": 2.033333333333333,
+      "kind": "pop",
+      "strength": 0.25
+    },
+    {
+      "id": "detail-wipe",
+      "at": 3.7,
+      "kind": "whoosh"
+    },
+    {
+      "id": "morning",
+      "at": 5.2,
+      "kind": "impact",
+      "strength": 0.65
+    },
+    {
+      "id": "recovery",
+      "at": 8,
+      "kind": "expression"
+    }
+  ],
+  "sfx": [
+    {
+      "id": "draw-pop",
+      "file": "audio/sfx/pop.mp3",
+      "sourceStart": 0.1,
+      "at": 2.033333333333333,
+      "duration": 0.36666666666666664,
+      "gainDb": -11,
+      "event": "draw"
+    },
+    {
+      "id": "stylus-wipe",
+      "file": "audio/sfx/whoosh.mp3",
+      "sourceStart": 0.1,
+      "at": 3.6333333333333333,
+      "duration": 0.4666666666666667,
+      "gainDb": -14,
+      "event": "detail-wipe"
+    },
+    {
+      "id": "morning-ping",
+      "file": "audio/sfx/ping.mp3",
+      "sourceStart": 0.3,
+      "at": 5.2,
+      "duration": 0.8,
+      "gainDb": -7,
+      "event": "morning"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "sketch_01",
+      "file": "audio/voice/sketch_01.wav",
+      "at": 0.16666666666666666,
+      "text": "Just a quick sketch.",
+      "duration": 1.7666666666666666,
+      "gainDb": -2,
+      "author": "nemi",
+      "sha256": "c846374ffb8b258e6bcdec6ba9e797e784bdafc7b2a7218822f30fd85ecae1cc",
+      "words": [
+        {
+          "text": "Just",
+          "start": 0,
+          "end": 0.5666666666666667
+        },
+        {
+          "text": "a",
+          "start": 0.5666666666666667,
+          "end": 0.8
+        },
+        {
+          "text": "quick",
+          "start": 0.8,
+          "end": 1.1666666666666667
+        },
+        {
+          "text": "sketch.",
+          "start": 1.1666666666666667,
+          "end": 1.5333333333333334
+        }
+      ],
+      "mouth": [
+        {
+          "start": 0.03333333333333333,
+          "end": 0.5333333333333333,
+          "shape": "open"
+        },
+        {
+          "start": 0.5666666666666667,
+          "end": 0.7666666666666667,
+          "shape": "wide"
+        },
+        {
+          "start": 0.8333333333333334,
+          "end": 1.1666666666666667,
+          "shape": "round"
+        },
+        {
+          "start": 1.2,
+          "end": 1.5,
+          "shape": "open"
+        }
+      ]
+    },
+    {
+      "id": "sketch_02",
+      "file": "audio/voice/sketch_02.wav",
+      "at": 6.1,
+      "text": "Why is it tomorrow?",
+      "duration": 1.1333333333333333,
+      "gainDb": -2,
+      "author": "nemi",
+      "sha256": "e495ca97d52b7bc77029b6a1d8ddd37fce3340930c1023cf355ea9452d3e39c3",
+      "words": [
+        {
+          "text": "Why",
+          "start": 0,
+          "end": 0.36666666666666664
+        },
+        {
+          "text": "is",
+          "start": 0.36666666666666664,
+          "end": 0.5333333333333333
+        },
+        {
+          "text": "it",
+          "start": 0.5333333333333333,
+          "end": 0.6333333333333333
+        },
+        {
+          "text": "tomorrow?",
+          "start": 0.6333333333333333,
+          "end": 0.8666666666666667
+        }
+      ],
+      "mouth": [
+        {
+          "start": 0.03333333333333333,
+          "end": 0.36666666666666664,
+          "shape": "open"
+        },
+        {
+          "start": 0.4,
+          "end": 0.5,
+          "shape": "wide"
+        },
+        {
+          "start": 0.5333333333333333,
+          "end": 0.6,
+          "shape": "round"
+        },
+        {
+          "start": 0.6333333333333333,
+          "end": 0.8666666666666667,
+          "shape": "open"
+        }
+      ]
+    }
+  ],
+  "blinks": [
+    {
+      "start": 2.9,
+      "end": 3.066666666666667
+    },
+    {
+      "start": 8.8,
+      "end": 8.966666666666667
+    }
+  ],
+  "loop": {
+    "kind": "visual",
+    "note": "First/final picture equals; spoken restart and reference music seam remain semantic."
+  },
+  "music": {
+    "file": "audio/music/trust-reference.wav",
+    "sourceStart": 0,
+    "duration": 11,
+    "gainDb": -15,
+    "cues": {
+      "version": 1,
+      "sourceHash": "319757bc1dda66413bfbaa1608367dd88d57afa704ad2bb53bdafa22cbeae3ed",
+      "sourceFile": "shorts/public/audio/music/trust-reference.wav",
+      "sourceStart": 0,
+      "duration": 14,
+      "rate": 1,
+      "bpm": 137,
+      "offset": 0.03,
+      "status": "editorial-reviewed",
+      "confidence": "pulse candidate; metrical phase needs review",
+      "tempoCandidates": [
+        {
+          "bpm": 136,
+          "score": 0.6805
+        },
+        {
+          "bpm": 68.91,
+          "score": 0.6669
+        },
+        {
+          "bpm": 90.67,
+          "score": 0.5986
+        },
+        {
+          "bpm": 184.57,
+          "score": -0.0226
+        },
+        {
+          "bpm": 109.96,
+          "score": -0.0277
+        }
+      ],
+      "beats": [
+        0.03,
+        0.468,
+        0.9059,
+        1.3439,
+        1.7818,
+        2.2198,
+        2.6577,
+        3.0957,
+        3.5336,
+        3.9716,
+        4.4096,
+        4.8475,
+        5.2855,
+        5.7234,
+        6.1614,
+        6.5993,
+        7.0373,
+        7.4753,
+        7.9132,
+        8.3512,
+        8.7891,
+        9.2271,
+        9.665,
+        10.103,
+        10.5409,
+        10.9789,
+        11.4169,
+        11.8548,
+        12.2928,
+        12.7307,
+        13.1687,
+        13.6066
+      ],
+      "strongBeats": [],
+      "drops": [
+        3.7333333333333334
+      ],
+      "phrases": [
+        3.7333333333333334,
+        10.933333333333334
+      ],
+      "choruses": [],
+      "accents": [
+        0.476,
+        3.7333333333333334,
+        5.514,
+        6.397,
+        7.2678,
+        10.9946
+      ],
+      "onsets": [
+        0.058,
+        0.2554,
+        0.476,
+        0.5805,
+        0.6966,
+        0.8011,
+        0.9172,
+        1.0101,
+        1.1262,
+        1.3468,
+        1.4745,
+        1.5673,
+        1.6602,
+        1.7879,
+        1.8924,
+        2.0085,
+        2.1014,
+        2.2291,
+        2.3336,
+        2.4381,
+        2.5542,
+        2.6587,
+        2.7632,
+        2.8793,
+        2.9954,
+        3.0999,
+        3.274,
+        3.4133,
+        3.5294,
+        3.6339,
+        3.7616,
+        3.8777,
+        3.9938,
+        4.1099,
+        4.2028,
+        4.4234,
+        4.5279,
+        4.644,
+        4.7485,
+        4.8646,
+        5.0852,
+        5.2941,
+        5.4219,
+        5.5147,
+        5.6192,
+        5.7353,
+        5.8514,
+        5.9559,
+        6.0604,
+        6.1765,
+        6.281,
+        6.3971,
+        6.6177,
+        6.7338,
+        6.8383,
+        7.0589,
+        7.1634,
+        7.2678,
+        7.3723,
+        7.4884,
+        7.6045,
+        7.709,
+        7.8135,
+        7.9296,
+        8.0341,
+        8.1386,
+        8.2431,
+        8.3708,
+        8.4869,
+        8.5798,
+        8.6843,
+        8.8004,
+        9.021,
+        9.1254,
+        9.2415,
+        9.4621,
+        9.6827,
+        9.7872,
+        9.8917,
+        10.1123,
+        10.3329,
+        10.4374,
+        10.5535,
+        10.658,
+        10.7741,
+        10.9946,
+        11.1107,
+        11.2036,
+        11.4358,
+        11.5287,
+        11.6448,
+        11.8654,
+        12.086,
+        12.1905,
+        12.3066,
+        12.4227,
+        12.5156,
+        12.6084,
+        12.7478,
+        12.9567,
+        13.1773,
+        13.2818,
+        13.3979,
+        13.5024,
+        13.6185,
+        13.7346,
+        13.8275,
+        13.932
+      ],
+      "peaks": [
+        0.2554,
+        0.476,
+        0.6966,
+        0.9172,
+        1.3468,
+        1.5673,
+        2.0085,
+        3.5294,
+        3.7616,
+        3.9938,
+        4.2028,
+        4.4234,
+        4.644,
+        4.8646,
+        5.0852,
+        5.5147,
+        5.9559,
+        6.3971,
+        6.8383,
+        7.4884,
+        7.709,
+        7.9296,
+        8.5798,
+        9.2415,
+        9.4621,
+        9.8917,
+        10.3329,
+        10.9946,
+        11.2036,
+        11.4358,
+        12.086,
+        12.3066,
+        12.5156,
+        12.7478,
+        12.9567,
+        13.3979,
+        13.8275
+      ],
+      "energy": [
+        {
+          "time": 0,
+          "rms": 0.15027
+        },
+        {
+          "time": 0.1,
+          "rms": 0.25093
+        },
+        {
+          "time": 0.2,
+          "rms": 0.30826
+        },
+        {
+          "time": 0.3,
+          "rms": 0.40676
+        },
+        {
+          "time": 0.4,
+          "rms": 0.21717
+        },
+        {
+          "time": 0.5,
+          "rms": 0.25262
+        },
+        {
+          "time": 0.6,
+          "rms": 0.27165
+        },
+        {
+          "time": 0.7,
+          "rms": 0.42122
+        },
+        {
+          "time": 0.8,
+          "rms": 0.27797
+        },
+        {
+          "time": 0.9,
+          "rms": 0.22257
+        },
+        {
+          "time": 1,
+          "rms": 0.20741
+        },
+        {
+          "time": 1.1,
+          "rms": 0.37198
+        },
+        {
+          "time": 1.2,
+          "rms": 0.39318
+        },
+        {
+          "time": 1.3,
+          "rms": 0.24924
+        },
+        {
+          "time": 1.4,
+          "rms": 0.20277
+        },
+        {
+          "time": 1.5,
+          "rms": 0.2698
+        },
+        {
+          "time": 1.6,
+          "rms": 0.44895
+        },
+        {
+          "time": 1.7,
+          "rms": 0.22394
+        },
+        {
+          "time": 1.8,
+          "rms": 0.2461
+        },
+        {
+          "time": 1.9,
+          "rms": 0.23231
+        },
+        {
+          "time": 2,
+          "rms": 0.39884
+        },
+        {
+          "time": 2.1,
+          "rms": 0.32983
+        },
+        {
+          "time": 2.2,
+          "rms": 0.24514
+        },
+        {
+          "time": 2.3,
+          "rms": 0.2361
+        },
+        {
+          "time": 2.4,
+          "rms": 0.21741
+        },
+        {
+          "time": 2.5,
+          "rms": 0.21848
+        },
+        {
+          "time": 2.6,
+          "rms": 0.20222
+        },
+        {
+          "time": 2.7,
+          "rms": 0.23643
+        },
+        {
+          "time": 2.8,
+          "rms": 0.23078
+        },
+        {
+          "time": 2.9,
+          "rms": 0.22097
+        },
+        {
+          "time": 3,
+          "rms": 0.18265
+        },
+        {
+          "time": 3.1,
+          "rms": 0.27197
+        },
+        {
+          "time": 3.2,
+          "rms": 0.21449
+        },
+        {
+          "time": 3.3,
+          "rms": 0.24796
+        },
+        {
+          "time": 3.4,
+          "rms": 0.27828
+        },
+        {
+          "time": 3.5,
+          "rms": 0.29343
+        },
+        {
+          "time": 3.6,
+          "rms": 0.25103
+        },
+        {
+          "time": 3.7,
+          "rms": 0.32194
+        },
+        {
+          "time": 3.8,
+          "rms": 0.46285
+        },
+        {
+          "time": 3.9,
+          "rms": 0.27563
+        },
+        {
+          "time": 4,
+          "rms": 0.2965
+        },
+        {
+          "time": 4.1,
+          "rms": 0.30971
+        },
+        {
+          "time": 4.2,
+          "rms": 0.4367
+        },
+        {
+          "time": 4.3,
+          "rms": 0.32893
+        },
+        {
+          "time": 4.4,
+          "rms": 0.29388
+        },
+        {
+          "time": 4.5,
+          "rms": 0.29559
+        },
+        {
+          "time": 4.6,
+          "rms": 0.33663
+        },
+        {
+          "time": 4.7,
+          "rms": 0.41958
+        },
+        {
+          "time": 4.8,
+          "rms": 0.23738
+        },
+        {
+          "time": 4.9,
+          "rms": 0.25463
+        },
+        {
+          "time": 5,
+          "rms": 0.25845
+        },
+        {
+          "time": 5.1,
+          "rms": 0.45269
+        },
+        {
+          "time": 5.2,
+          "rms": 0.29318
+        },
+        {
+          "time": 5.3,
+          "rms": 0.26742
+        },
+        {
+          "time": 5.4,
+          "rms": 0.16364
+        },
+        {
+          "time": 5.5,
+          "rms": 0.38895
+        },
+        {
+          "time": 5.6,
+          "rms": 0.35372
+        },
+        {
+          "time": 5.7,
+          "rms": 0.23784
+        },
+        {
+          "time": 5.8,
+          "rms": 0.29511
+        },
+        {
+          "time": 5.9,
+          "rms": 0.31614
+        },
+        {
+          "time": 6,
+          "rms": 0.40477
+        },
+        {
+          "time": 6.1,
+          "rms": 0.2747
+        },
+        {
+          "time": 6.2,
+          "rms": 0.28399
+        },
+        {
+          "time": 6.3,
+          "rms": 0.24222
+        },
+        {
+          "time": 6.4,
+          "rms": 0.44566
+        },
+        {
+          "time": 6.5,
+          "rms": 0.21895
+        },
+        {
+          "time": 6.6,
+          "rms": 0.25348
+        },
+        {
+          "time": 6.7,
+          "rms": 0.24278
+        },
+        {
+          "time": 6.8,
+          "rms": 0.35677
+        },
+        {
+          "time": 6.9,
+          "rms": 0.3946
+        },
+        {
+          "time": 7,
+          "rms": 0.30558
+        },
+        {
+          "time": 7.1,
+          "rms": 0.29554
+        },
+        {
+          "time": 7.2,
+          "rms": 0.2929
+        },
+        {
+          "time": 7.3,
+          "rms": 0.43638
+        },
+        {
+          "time": 7.4,
+          "rms": 0.22558
+        },
+        {
+          "time": 7.5,
+          "rms": 0.25498
+        },
+        {
+          "time": 7.6,
+          "rms": 0.25685
+        },
+        {
+          "time": 7.7,
+          "rms": 0.42632
+        },
+        {
+          "time": 7.8,
+          "rms": 0.31787
+        },
+        {
+          "time": 7.9,
+          "rms": 0.28448
+        },
+        {
+          "time": 8,
+          "rms": 0.2577
+        },
+        {
+          "time": 8.1,
+          "rms": 0.32755
+        },
+        {
+          "time": 8.2,
+          "rms": 0.4207
+        },
+        {
+          "time": 8.3,
+          "rms": 0.23819
+        },
+        {
+          "time": 8.4,
+          "rms": 0.24252
+        },
+        {
+          "time": 8.5,
+          "rms": 0.2481
+        },
+        {
+          "time": 8.6,
+          "rms": 0.41117
+        },
+        {
+          "time": 8.7,
+          "rms": 0.26085
+        },
+        {
+          "time": 8.8,
+          "rms": 0.26838
+        },
+        {
+          "time": 8.9,
+          "rms": 0.22897
+        },
+        {
+          "time": 9,
+          "rms": 0.38955
+        },
+        {
+          "time": 9.1,
+          "rms": 0.29752
+        },
+        {
+          "time": 9.2,
+          "rms": 0.25981
+        },
+        {
+          "time": 9.3,
+          "rms": 0.23567
+        },
+        {
+          "time": 9.4,
+          "rms": 0.3414
+        },
+        {
+          "time": 9.5,
+          "rms": 0.38614
+        },
+        {
+          "time": 9.6,
+          "rms": 0.24447
+        },
+        {
+          "time": 9.7,
+          "rms": 0.21312
+        },
+        {
+          "time": 9.8,
+          "rms": 0.20407
+        },
+        {
+          "time": 9.9,
+          "rms": 0.42989
+        },
+        {
+          "time": 10,
+          "rms": 0.33109
+        },
+        {
+          "time": 10.1,
+          "rms": 0.24364
+        },
+        {
+          "time": 10.2,
+          "rms": 0.20315
+        },
+        {
+          "time": 10.3,
+          "rms": 0.36805
+        },
+        {
+          "time": 10.4,
+          "rms": 0.37227
+        },
+        {
+          "time": 10.5,
+          "rms": 0.26736
+        },
+        {
+          "time": 10.6,
+          "rms": 0.27696
+        },
+        {
+          "time": 10.7,
+          "rms": 0.31036
+        },
+        {
+          "time": 10.8,
+          "rms": 0.45604
+        },
+        {
+          "time": 10.9,
+          "rms": 0.22662
+        },
+        {
+          "time": 11,
+          "rms": 0.25426
+        },
+        {
+          "time": 11.1,
+          "rms": 0.26509
+        },
+        {
+          "time": 11.2,
+          "rms": 0.43735
+        },
+        {
+          "time": 11.3,
+          "rms": 0.30448
+        },
+        {
+          "time": 11.4,
+          "rms": 0.27231
+        },
+        {
+          "time": 11.5,
+          "rms": 0.28974
+        },
+        {
+          "time": 11.6,
+          "rms": 0.34477
+        },
+        {
+          "time": 11.7,
+          "rms": 0.36436
+        },
+        {
+          "time": 11.8,
+          "rms": 0.24503
+        },
+        {
+          "time": 11.9,
+          "rms": 0.24664
+        },
+        {
+          "time": 12,
+          "rms": 0.24619
+        },
+        {
+          "time": 12.1,
+          "rms": 0.45943
+        },
+        {
+          "time": 12.2,
+          "rms": 0.29295
+        },
+        {
+          "time": 12.3,
+          "rms": 0.28231
+        },
+        {
+          "time": 12.4,
+          "rms": 0.15296
+        },
+        {
+          "time": 12.5,
+          "rms": 0.37285
+        },
+        {
+          "time": 12.6,
+          "rms": 0.3588
+        },
+        {
+          "time": 12.7,
+          "rms": 0.20949
+        },
+        {
+          "time": 12.8,
+          "rms": 0.27569
+        },
+        {
+          "time": 12.9,
+          "rms": 0.31423
+        },
+        {
+          "time": 13,
+          "rms": 0.38133
+        },
+        {
+          "time": 13.1,
+          "rms": 0.26609
+        },
+        {
+          "time": 13.2,
+          "rms": 0.27514
+        },
+        {
+          "time": 13.3,
+          "rms": 0.24168
+        },
+        {
+          "time": 13.4,
+          "rms": 0.38935
+        },
+        {
+          "time": 13.5,
+          "rms": 0.29075
+        },
+        {
+          "time": 13.6,
+          "rms": 0.25402
+        },
+        {
+          "time": 13.7,
+          "rms": 0.2419
+        },
+        {
+          "time": 13.8,
+          "rms": 0.37604
+        },
+        {
+          "time": 13.9,
+          "rms": 0.37298
+        }
+      ],
+      "method": "Scipy STFT spectral flux + pulse autocorrelation, 11.61ms hop; no automatic downbeat/drop inference",
+      "reviewNote": "Local source onset grid checked against STFT and reference picture boundaries. Pulse approximate; visual drops are explicit vocal/phrase cues."
+    },
+    "duck": [
+      {
+        "start": 0.15,
+        "end": 2.01,
+        "gainDb": -10
+      },
+      {
+        "start": 6.1,
+        "end": 7.32,
+        "gainDb": -10
+      }
+    ]
+  }
+}

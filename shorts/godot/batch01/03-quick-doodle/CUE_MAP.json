@@ -1,0 +1,232 @@
+{
+  "music": {
+    "file": "shorts/assets/music/batch01/makeba.wav",
+    "sourceHash": "dae9351a3df5a2f43190b78063823c564547f35ce7e66b0d31be394e59523a0a",
+    "sourceStart": 0.7546,
+    "duration": 15.0,
+    "gainDb": -6.83
+  },
+  "beatPlan": "shorts/assets/music/batch01/makeba.edit-plan.json",
+  "bpm": 116.02,
+  "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "cuts": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "focus": "Nemi and held sketchbook/pencil",
+      "move": "cut",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 0.7546,
+      "sourceAccentSceneTime": 0.0,
+      "pictureMinusSourceAccentMs": 0.0,
+      "measurementStatus": "Immediate opening hook; onset phase is recorded separately"
+    },
+    {
+      "frame": 31,
+      "time": 1.0333333333333334,
+      "focus": "Pencil grip and actual page drawing insert",
+      "move": "punch",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 1.7879,
+      "sourceAccentSceneTime": 1.0333,
+      "pictureMinusSourceAccentMs": 0.033,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 93,
+      "time": 3.1,
+      "focus": "Concentration eyes",
+      "move": "cut",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 3.8545,
+      "sourceAccentSceneTime": 3.0999,
+      "pictureMinusSourceAccentMs": 0.1,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 124,
+      "time": 4.133333333333334,
+      "focus": "Oversized pencil transition",
+      "move": "whip",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 4.8878,
+      "sourceAccentSceneTime": 4.1332,
+      "pictureMinusSourceAccentMs": 0.133,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 155,
+      "time": 5.166666666666667,
+      "focus": "Page-framed portrait and first finished stars",
+      "move": "pull",
+      "stage": "page",
+      "palette": "paper",
+      "sourceAccentTime": 5.9211,
+      "sourceAccentSceneTime": 5.1665,
+      "pictureMinusSourceAccentMs": 0.167,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 217,
+      "time": 7.233333333333333,
+      "focus": "Separate shoulder/back drawing, leaf appears",
+      "move": "whip",
+      "stage": "page",
+      "palette": "paper",
+      "sourceAccentTime": 7.9877,
+      "sourceAccentSceneTime": 7.2331,
+      "pictureMinusSourceAccentMs": 0.233,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 279,
+      "time": 9.3,
+      "focus": "Delighted face, cloud accent",
+      "move": "punch",
+      "stage": "page",
+      "palette": "paper",
+      "sourceAccentTime": 10.0659,
+      "sourceAccentSceneTime": 9.3113,
+      "pictureMinusSourceAccentMs": -11.3,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 310,
+      "time": 10.333333333333334,
+      "focus": "Full-body page and completed constellation",
+      "move": "pull",
+      "stage": "page",
+      "palette": "paper",
+      "sourceAccentTime": 11.0875,
+      "sourceAccentSceneTime": 10.3329,
+      "pictureMinusSourceAccentMs": 0.433,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 341,
+      "time": 11.366666666666667,
+      "focus": "Sketchbook detail returns",
+      "move": "cut",
+      "stage": "page",
+      "palette": "paper",
+      "sourceAccentTime": 12.1324,
+      "sourceAccentSceneTime": 11.3778,
+      "pictureMinusSourceAccentMs": -11.133,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 403,
+      "time": 13.433333333333334,
+      "focus": "Proud full figure with book and final ray",
+      "move": "pull",
+      "stage": "page",
+      "palette": "paper",
+      "sourceAccentTime": 14.199,
+      "sourceAccentSceneTime": 13.4444,
+      "pictureMinusSourceAccentMs": -11.067,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    }
+  ],
+  "events": [
+    {
+      "id": "pencil-wipe",
+      "at": 124,
+      "end": 130,
+      "kind": "pencil",
+      "position": [
+        540,
+        900
+      ],
+      "scale": 1.05,
+      "rotation": -24,
+      "accent": false
+    },
+    {
+      "id": "first-stars",
+      "at": 155,
+      "end": 450,
+      "kind": "stars",
+      "position": [
+        830,
+        445
+      ],
+      "scale": 0.9,
+      "rotation": -7,
+      "accent": true
+    },
+    {
+      "id": "page-leaf",
+      "at": 217,
+      "end": 450,
+      "kind": "leaf",
+      "position": [
+        196,
+        1060
+      ],
+      "scale": 1.05,
+      "rotation": -17,
+      "accent": true
+    },
+    {
+      "id": "face-cloud",
+      "at": 279,
+      "end": 450,
+      "kind": "cloud",
+      "position": [
+        170,
+        550
+      ],
+      "scale": 0.7,
+      "rotation": 5,
+      "accent": true
+    },
+    {
+      "id": "doodle-moon",
+      "at": 310,
+      "end": 450,
+      "kind": "moon",
+      "position": [
+        890,
+        1130
+      ],
+      "scale": 0.9,
+      "rotation": 14,
+      "accent": true
+    },
+    {
+      "id": "final-ray",
+      "at": 403,
+      "end": 450,
+      "kind": "rays",
+      "position": [
+        170,
+        795
+      ],
+      "scale": 0.6,
+      "rotation": 0,
+      "accent": true
+    }
+  ],
+  "sfx": [
+    {
+      "event": "pencil-wipe",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.4666666666666667,
+      "gainDb": -12,
+      "offsetFrames": 0
+    }
+  ],
+  "status": "Authored source; validator checked; still and exported playback review pending",
+  "exportVerification": {
+    "revision": "r3",
+    "allPictureCutsPresent": true,
+    "audioClockPassed": true,
+    "cutAccentMaxErrorAfterOpeningMs": 11.3
+  }
+}

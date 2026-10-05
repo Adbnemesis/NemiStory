@@ -1,0 +1,120 @@
+{
+  "id": "Nemi-TinyChange",
+  "output": "/Users/talus/Documents/adb/shorts/nemi/renders/Nemi-TinyChange_r7.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 420,
+  "revision": "r7",
+  "proof": false,
+  "safe": false,
+  "master": {
+    "raw": "/Users/talus/Documents/adb/shorts/nemi/review/Nemi-TinyChange_r7_raw.mp4",
+    "targetLUFS": -16,
+    "targetTruePeakDb": -1.5,
+    "analysis": {
+      "input_i": "-20.64",
+      "input_tp": "-7.55",
+      "input_lra": "1.20",
+      "input_thresh": "-30.64",
+      "output_i": "-15.67",
+      "output_tp": "-2.36",
+      "output_lra": "0.70",
+      "output_thresh": "-25.67",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.33"
+    },
+    "latencyCorrection": {
+      "delaySeconds": 0.04266745604233927,
+      "sampleRate": 48000,
+      "delaySamples": 2048.037890032285,
+      "reconstructionCorrelation": 0.9907271405938243,
+      "residualRms": 0.009436838638359254,
+      "stems": [
+        {
+          "id": "music",
+          "kind": "music",
+          "at": 0,
+          "duration": 14,
+          "gainDb": -10,
+          "rawMixCoefficient": 0.9979,
+          "sourceAtExpectedTimeDetected": true,
+          "stemRmsDbFS": -23.27
+        },
+        {
+          "id": "pixel-pop",
+          "kind": "sfx",
+          "at": 0.4666666666666667,
+          "duration": 0.36666666666666664,
+          "gainDb": -12,
+          "rawMixCoefficient": 0.1461,
+          "sourceAtExpectedTimeDetected": true,
+          "stemRmsDbFS": -52.37
+        },
+        {
+          "id": "tool-wipe",
+          "kind": "sfx",
+          "at": 3.6666666666666665,
+          "duration": 0.4666666666666667,
+          "gainDb": -13,
+          "rawMixCoefficient": 0.593,
+          "sourceAtExpectedTimeDetected": true,
+          "stemRmsDbFS": -46.1
+        },
+        {
+          "id": "drop-pop",
+          "kind": "sfx",
+          "at": 3.7333333333333334,
+          "duration": 0.5,
+          "gainDb": -6,
+          "rawMixCoefficient": 0.3859,
+          "sourceAtExpectedTimeDetected": true,
+          "stemRmsDbFS": -46.37
+        },
+        {
+          "id": "undo",
+          "kind": "sfx",
+          "at": 5.5,
+          "duration": 0.3,
+          "gainDb": 0,
+          "rawMixCoefficient": 1.0086,
+          "sourceAtExpectedTimeDetected": true,
+          "stemRmsDbFS": -70.24
+        },
+        {
+          "id": "redo",
+          "kind": "sfx",
+          "at": 6.4,
+          "duration": 0.3,
+          "gainDb": 0,
+          "rawMixCoefficient": 0.9786,
+          "sourceAtExpectedTimeDetected": true,
+          "stemRmsDbFS": -70.24
+        },
+        {
+          "id": "save",
+          "kind": "sfx",
+          "at": 7.266666666666667,
+          "duration": 1,
+          "gainDb": 0,
+          "rawMixCoefficient": 0.493,
+          "sourceAtExpectedTimeDetected": true,
+          "stemRmsDbFS": -43.78
+        },
+        {
+          "id": "clock-error",
+          "kind": "sfx",
+          "at": 11,
+          "duration": 0.6666666666666666,
+          "gainDb": 0,
+          "rawMixCoefficient": 0.9988,
+          "sourceAtExpectedTimeDetected": true,
+          "stemRmsDbFS": -45.49
+        }
+      ]
+    },
+    "method": "Source-correlated audio latency trim + two-pass loudnorm; video copied; encoded final measured separately"
+  },
+  "generated": "2026-10-05T14:17:14.247Z",
+  "browserExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+}

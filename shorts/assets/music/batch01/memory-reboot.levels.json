@@ -1,0 +1,20 @@
+{
+  "file": "shorts/assets/music/batch01/memory-reboot.wav",
+  "sourceStart": 10.3848,
+  "duration": 15.0,
+  "input": {
+    "input_i": "-7.82",
+    "input_tp": "0.63",
+    "input_lra": "2.70",
+    "input_thresh": "-17.82",
+    "output_i": "-13.16",
+    "output_tp": "-3.83",
+    "output_lra": "1.40",
+    "output_thresh": "-23.16",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.84"
+  },
+  "recommendedGainDb": -6.18,
+  "recommendation": "gain only; target up to -14 LUFS with source true-peak headroom at -2dBTP, before optional SFX",
+  "status": "source analysis; final export must be measured again"
+}

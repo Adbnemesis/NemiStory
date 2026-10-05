@@ -1,0 +1,233 @@
+{
+  "music": {
+    "file": "shorts/assets/music/batch01/memory-reboot.wav",
+    "sourceHash": "9ad7b28f458a2163bf37a51af7db9917152ec43dde197de8a15fd9924cc29b12",
+    "sourceStart": 10.3848,
+    "duration": 15.0,
+    "gainDb": -6.18
+  },
+  "beatPlan": "shorts/assets/music/batch01/memory-reboot.edit-plan.json",
+  "bpm": 162.756,
+  "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "cuts": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "focus": "Planted pair and contrasting mood",
+      "move": "cut",
+      "stage": "columns",
+      "palette": "paper",
+      "sourceAccentTime": 10.5302,
+      "sourceAccentSceneTime": 0.1454,
+      "pictureMinusSourceAccentMs": -145.4,
+      "measurementStatus": "Immediate opening hook; onset phase is recorded separately"
+    },
+    {
+      "frame": 65,
+      "time": 2.1666666666666665,
+      "focus": "ADB barely reacting",
+      "move": "cut",
+      "stage": "columns",
+      "palette": "paper",
+      "sourceAccentTime": 12.5504,
+      "sourceAccentSceneTime": 2.1656,
+      "pictureMinusSourceAccentMs": 1.067,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 120,
+      "time": 4.0,
+      "focus": "Nemi dramatic waveform arrival in reversed ink palette",
+      "move": "punch",
+      "stage": "columns",
+      "palette": "ink",
+      "sourceAccentTime": 14.3848,
+      "sourceAccentSceneTime": 4.0,
+      "pictureMinusSourceAccentMs": 0.0,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 164,
+      "time": 5.466666666666667,
+      "focus": "ADB held full-body non-response",
+      "move": "pull",
+      "stage": "columns",
+      "palette": "paper",
+      "sourceAccentTime": 15.8592,
+      "sourceAccentSceneTime": 5.4744,
+      "pictureMinusSourceAccentMs": -7.733,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 208,
+      "time": 6.933333333333334,
+      "focus": "Nemi profile peace-hand answer",
+      "move": "whip",
+      "stage": "columns",
+      "palette": "paper",
+      "sourceAccentTime": 17.3337,
+      "sourceAccentSceneTime": 6.9489,
+      "pictureMinusSourceAccentMs": -15.567,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 253,
+      "time": 8.433333333333334,
+      "focus": "Wide contrasting pair on a stronger phrase",
+      "move": "pull",
+      "stage": "columns",
+      "palette": "ink",
+      "sourceAccentTime": 18.8082,
+      "sourceAccentSceneTime": 8.4234,
+      "pictureMinusSourceAccentMs": 9.933,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 297,
+      "time": 9.9,
+      "focus": "Nemi reverse pose",
+      "move": "whip",
+      "stage": "columns",
+      "palette": "paper",
+      "sourceAccentTime": 20.2826,
+      "sourceAccentSceneTime": 9.8978,
+      "pictureMinusSourceAccentMs": 2.2,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 341,
+      "time": 11.366666666666667,
+      "focus": "ADB gives one tiny smile and tilt",
+      "move": "punch",
+      "stage": "columns",
+      "palette": "paper",
+      "sourceAccentTime": 21.7571,
+      "sourceAccentSceneTime": 11.3723,
+      "pictureMinusSourceAccentMs": -5.633,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 385,
+      "time": 12.833333333333334,
+      "focus": "Pair return, amused Nemi and small ADB smile",
+      "move": "pull",
+      "stage": "columns",
+      "palette": "paper",
+      "sourceAccentTime": 23.2316,
+      "sourceAccentSceneTime": 12.8468,
+      "pictureMinusSourceAccentMs": -13.467,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    }
+  ],
+  "events": [
+    {
+      "id": "quiet-dash",
+      "at": 65,
+      "end": 120,
+      "kind": "dash",
+      "position": [
+        835,
+        600
+      ],
+      "scale": 0.6,
+      "rotation": 0,
+      "accent": false
+    },
+    {
+      "id": "dramatic-arrival",
+      "at": 120,
+      "end": 164,
+      "kind": "rays",
+      "position": [
+        865,
+        635
+      ],
+      "scale": 1.1,
+      "rotation": -9,
+      "accent": true
+    },
+    {
+      "id": "adb-dash",
+      "at": 164,
+      "end": 208,
+      "kind": "dash",
+      "position": [
+        210,
+        590
+      ],
+      "scale": 0.7,
+      "rotation": 0,
+      "accent": false
+    },
+    {
+      "id": "nemi-star",
+      "at": 208,
+      "end": 253,
+      "kind": "stars",
+      "position": [
+        175,
+        605
+      ],
+      "scale": 0.9,
+      "rotation": 7,
+      "accent": true
+    },
+    {
+      "id": "pair-response",
+      "at": 253,
+      "end": 297,
+      "kind": "stars",
+      "position": [
+        185,
+        510
+      ],
+      "scale": 0.75,
+      "rotation": -9,
+      "accent": true
+    },
+    {
+      "id": "small-response",
+      "at": 341,
+      "end": 385,
+      "kind": "dash",
+      "position": [
+        840,
+        630
+      ],
+      "scale": 0.55,
+      "rotation": 0,
+      "accent": false
+    },
+    {
+      "id": "shared-punchline",
+      "at": 385,
+      "end": 450,
+      "kind": "heart",
+      "position": [
+        525,
+        335
+      ],
+      "scale": 0.75,
+      "rotation": 0,
+      "accent": true
+    }
+  ],
+  "sfx": [
+    {
+      "event": "small-response",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -5,
+      "offsetFrames": 0
+    }
+  ],
+  "status": "Authored source; validator checked; still and exported playback review pending",
+  "exportVerification": {
+    "revision": "r1",
+    "allPictureCutsPresent": true,
+    "audioClockPassed": true,
+    "cutAccentMaxErrorAfterOpeningMs": 15.567
+  }
+}

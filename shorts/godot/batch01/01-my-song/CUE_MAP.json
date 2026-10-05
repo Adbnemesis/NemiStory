@@ -1,0 +1,219 @@
+{
+  "music": {
+    "file": "shorts/assets/music/batch01/dancin-krono.wav",
+    "sourceHash": "a13238e578a33bc1c40d79e0d9762b17be0685ea69563cd670c2c4c9e440ba55",
+    "sourceStart": 4.168,
+    "duration": 15.0,
+    "gainDb": -6.81
+  },
+  "beatPlan": "shorts/assets/music/batch01/dancin-krono.edit-plan.json",
+  "bpm": 119.984,
+  "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "cuts": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "focus": "Reserved headphone portrait",
+      "move": "cut",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 4.168,
+      "sourceAccentSceneTime": 0.0,
+      "pictureMinusSourceAccentMs": 0.0,
+      "measurementStatus": "Immediate opening hook; onset phase is recorded separately"
+    },
+    {
+      "frame": 45,
+      "time": 1.5,
+      "focus": "Earcup and authored grip",
+      "move": "punch",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 5.6657,
+      "sourceAccentSceneTime": 1.4977,
+      "pictureMinusSourceAccentMs": 2.3,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 90,
+      "time": 3.0,
+      "focus": "Profile listening look",
+      "move": "cut",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 7.1634,
+      "sourceAccentSceneTime": 2.9954,
+      "pictureMinusSourceAccentMs": 4.6,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 120,
+      "time": 4.0,
+      "focus": "Full-body confident peace hand",
+      "move": "pull",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 8.1618,
+      "sourceAccentSceneTime": 3.9938,
+      "pictureMinusSourceAccentMs": 6.2,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 165,
+      "time": 5.5,
+      "focus": "Confident face and hand",
+      "move": "punch",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 9.6711,
+      "sourceAccentSceneTime": 5.5031,
+      "pictureMinusSourceAccentMs": -3.1,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 225,
+      "time": 7.5,
+      "focus": "Separate back drawing with headphones",
+      "move": "whip",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 11.668,
+      "sourceAccentSceneTime": 7.5,
+      "pictureMinusSourceAccentMs": 0.0,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 270,
+      "time": 9.0,
+      "focus": "Grounded shoes and skirt insert",
+      "move": "cut",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 13.1657,
+      "sourceAccentSceneTime": 8.9977,
+      "pictureMinusSourceAccentMs": 2.3,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 315,
+      "time": 10.5,
+      "focus": "Open wave silhouette and star crown",
+      "move": "pull",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 14.6634,
+      "sourceAccentSceneTime": 10.4954,
+      "pictureMinusSourceAccentMs": 4.6,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 360,
+      "time": 12.0,
+      "focus": "Enjoying the hook close-up",
+      "move": "whip",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 16.1727,
+      "sourceAccentSceneTime": 12.0047,
+      "pictureMinusSourceAccentMs": -4.7,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    },
+    {
+      "frame": 405,
+      "time": 13.5,
+      "focus": "Content listening profile",
+      "move": "cut",
+      "stage": "plain",
+      "palette": "paper",
+      "sourceAccentTime": 17.6704,
+      "sourceAccentSceneTime": 13.5024,
+      "pictureMinusSourceAccentMs": -2.4,
+      "measurementStatus": "Actual encoded picture change verified; selected measured accent candidate, not claimed downbeat"
+    }
+  ],
+  "events": [
+    {
+      "id": "headphone-lock",
+      "at": 120,
+      "end": 165,
+      "kind": "arcs",
+      "position": [
+        875,
+        730
+      ],
+      "scale": 0.8,
+      "rotation": 0,
+      "accent": true
+    },
+    {
+      "id": "chorus-stars",
+      "at": 120,
+      "end": 225,
+      "kind": "stars",
+      "position": [
+        160,
+        560
+      ],
+      "scale": 1,
+      "rotation": 0,
+      "accent": true
+    },
+    {
+      "id": "back-sound",
+      "at": 225,
+      "end": 270,
+      "kind": "notes",
+      "position": [
+        845,
+        615
+      ],
+      "scale": 0.8,
+      "rotation": -8,
+      "accent": true
+    },
+    {
+      "id": "wide-star-crown",
+      "at": 315,
+      "end": 360,
+      "kind": "stars",
+      "position": [
+        820,
+        460
+      ],
+      "scale": 1.15,
+      "rotation": 15,
+      "accent": true
+    },
+    {
+      "id": "final-sound",
+      "at": 405,
+      "end": 450,
+      "kind": "arcs",
+      "position": [
+        910,
+        740
+      ],
+      "scale": 0.65,
+      "rotation": 0,
+      "accent": true
+    }
+  ],
+  "sfx": [
+    {
+      "event": "headphone-lock",
+      "file": "common/audio/sfx/ping.mp3",
+      "sourceHash": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "sourceStart": 0.3,
+      "duration": 0.8,
+      "gainDb": 0,
+      "offsetFrames": 0
+    }
+  ],
+  "status": "Authored source; validator checked; still and exported playback review pending",
+  "exportVerification": {
+    "revision": "r2",
+    "allPictureCutsPresent": true,
+    "audioClockPassed": true,
+    "cutAccentMaxErrorAfterOpeningMs": 6.2
+  }
+}

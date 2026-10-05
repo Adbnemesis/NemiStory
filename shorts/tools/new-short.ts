@@ -1,0 +1,7 @@
+import {mkdirSync,existsSync,writeFileSync} from 'node:fs';
+import {resolve} from 'node:path';
+import {fileURLToPath} from 'node:url';
+const [author,slug]=process.argv.slice(2);if(!['adb','nemi'].includes(author)||!slug?.match(/^[a-z][a-z0-9-]+$/))throw Error('Usage: npm run new -- adb|nemi lower-case-slug');
+const root=resolve(fileURLToPath(new URL('..',import.meta.url))),folder=resolve(root,author,'experiments',slug);if(existsSync(folder))throw Error('Preserve existing content');mkdirSync(folder,{recursive:true});
+writeFileSync(resolve(folder,'BRIEF.md'),`# ${slug}\n\nPromise:\nWant:\nChoice:\nConsequence:\nPayoff:\n\nFormat:\nFrame1 image:\nFirst-second reading:\nMusic topic/section/verified trend evidence:\nLoop kind:\n\n## Storyboard\n\nShot / start–end / one audience focus / audio / camera / expression / SFX event / caption / transition / background / prop contact\n\n## Review\n\nFirst second, every second, cue boundaries, ending, seam, speech and encoded audio.\n`);
+writeFileSync(resolve(folder,'composition.ts'),`import {base,shot} from '../../../shared/utilities/builders';\nconst c=base('${author==='adb'?'ADB':'Nemi'}-${slug}','${author}','${slug}',12);\n// Complete the brief/storyboard before authoring. Fill direction and real event/audio metadata.\nc.promise='';c.want='';c.choice='';c.consequence='';c.payoff='';\nc.shots=[shot('hook',0,12,{focus:'Replace with a concrete audience focus'})];\nexport default c;\n`);console.log(folder+' — finish brief, author config, validate, then register in src/catalog.ts.');

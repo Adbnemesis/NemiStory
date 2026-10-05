@@ -1,0 +1,20 @@
+{
+  "file": "shorts/assets/music/batch01/makeba.wav",
+  "sourceStart": 0.7546,
+  "duration": 15.0,
+  "input": {
+    "input_i": "-9.17",
+    "input_tp": "0.25",
+    "input_lra": "0.70",
+    "input_thresh": "-19.17",
+    "output_i": "-13.97",
+    "output_tp": "-4.64",
+    "output_lra": "0.70",
+    "output_thresh": "-23.97",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.03"
+  },
+  "recommendedGainDb": -4.83,
+  "recommendation": "gain only; target up to -14 LUFS with source true-peak headroom at -2dBTP, before optional SFX",
+  "status": "source analysis; final export must be measured again"
+}
