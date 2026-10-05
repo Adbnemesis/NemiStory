@@ -2,7 +2,7 @@
 
 The active format is a 12–25 second music edit: author-specific ink, gray washes/hatching, visible head/eye/hand motion, meaningful pose edits, finite doodle/VFX events and a cute causal payoff. Maximum static hold 1.5 seconds. Godot draws every visual frame.
 
-[Watch the eight edits](review/upgrade02/index.html) · [Production and checks](godot/upgrade02/README.md) · [Three skills](godot/upgrade02/SKILLS.md) · [Workflow](godot/V3_WORKFLOW.md) · [Schema](godot/V3_SCHEMA.md)
+[Watch the eight edits](review/upgrade02/index.html) · [Production and checks](review/upgrade02/README.md) · [Three skills](review/upgrade02/SKILLS.md) · [Workflow](godot/V3_WORKFLOW.md) · [Schema](godot/V3_SCHEMA.md)
 
 Five revised edits retain the approved music and ideas while adding authored gestures and faster development. Three new edits demonstrate the ADB, Nemi and duo skills. Every production has an editable Edit.tscn, short.json, direction, source-clock cue map, music provenance, native portrait movie and review evidence. Earlier accepted [batch01](review/batch01/index.html) and the [original ink proof](review/rebuild/index.html) remain as style history.
 
@@ -15,13 +15,19 @@ New visible art is separate editable Godot curves/polygons in DynamicPoseArt.gd 
 ## Reproduce
 
 ```sh
-.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py validate shorts/godot/upgrade02/productions/my-song/short.json
-.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py stills shorts/godot/upgrade02/productions/my-song/short.json --revision r2
-.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py build shorts/godot/upgrade02/productions/my-song/short.json --revision r2
+.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py validate shorts/nemi/my-song/short.json
+.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py stills shorts/nemi/my-song/short.json --revision r2
+.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py build shorts/nemi/my-song/short.json --revision r2
 ```
 
 Choose a fresh revision. The native portrait Godot renderer stops on errors. FFmpeg only packages capture/source audio; it does not provide visual animation. Source and small QA records can be committed; music, movies and generated stills stay local. Existing public previews can be fetched again with assets/music/batch01/fetch_music.py; revalidate hashes and timings if a catalog recording changes.
 
 Serve the range-aware gallery with `.venv/bin/python shorts/tools/review_server.py`, then open `http://127.0.0.1:8768/shorts/review/upgrade02/index.html`.
 
-The rejected Leg Day, Ship the Machine, Tiny Change and Quick Sketch prototypes, their31 generated movies and obsolete Remotion pipeline were deleted on the user's explicit request. [The cleanup manifest](godot/upgrade02/review/legacy-cleanup.json) lists the exact targets. Original storytime episodes and accepted ink edits were excluded. Supplied references and [reference analysis](REFERENCE_ANALYSIS.md) remain available.
+The rejected Leg Day, Ship the Machine, Tiny Change and Quick Sketch prototypes, their31 generated movies and obsolete Remotion pipeline were deleted on the user's explicit request. [The cleanup manifest](review/upgrade02/legacy-cleanup.json) lists the exact targets. Original storytime episodes and accepted ink edits were excluded. Supplied references and [reference analysis](REFERENCE_ANALYSIS.md) remain available.
+
+## Where everything lives
+
+Each current Short lives at `shorts/nemi/<short-name>/`, `shorts/adb/<short-name>/` or `shorts/duo/<short-name>/`. Inside are `short.json`, `Edit.tscn`, direction and cue map; `render/` contains its videos, `review/` its QA/stills/logs, and optional `assets/` holds unique props/audio. Shared Godot ink drawings and engine stay in `shorts/godot/`, shared music in `shorts/assets/music/`, and galleries/batch records in `shorts/review/`. Original storytime rigs remain outside Shorts.
+
+Start a new edit with the matching skill helper `new <short-name>`, then adapt its approved template into a distinct story and music edit. [Full folder and creation guide](godot/V3_WORKFLOW.md#folder-layout-and-starting-command). All eight current videos were relocated unchanged; [migration checks](review/upgrade02/directory-migration.json) record hashes and starter verification.

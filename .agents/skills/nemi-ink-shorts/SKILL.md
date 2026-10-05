@@ -7,7 +7,7 @@ description: Create or improve solo Nemi music-led ink Shorts in Godot, with exp
 
 Direct **Nemi only**. Use observant curiosity, art/music excitement and self-aware overthinking, followed by a shy or deadpan realization. Let her eyes notice first and her head/hands answer; warmer gestures and soft page marks can contrast with one crisp comic snap. She has opinions and agency, rather than being a generic cute mascot. Premise text in her voice uses first person and avoids gendered self-descriptions. Use the approved long-hair ink silhouette, not older storytime design or hold rules.
 
-The matched starting examples are [My song](../../../shorts/godot/upgrade02/productions/my-song/short.json) and [One quick doodle](../../../shorts/godot/upgrade02/productions/quick-doodle/short.json), with sibling `Edit.tscn` scenes. Read the closest example and its direction, then create a different visual sequence. If the user asks for both characters, switch to `$duo-ink-shorts`.
+The matched starting examples are [My song](../../../shorts/nemi/my-song/short.json) and [One quick doodle](../../../shorts/nemi/quick-doodle/short.json), with sibling `Edit.tscn` scenes. Read the closest example and its direction, then create a different visual sequence. If the user asks for both characters, switch to `$duo-ink-shorts`.
 
 ## Start from the maintained engine
 
@@ -27,25 +27,26 @@ Choose recognizable music whose energy fits the visual topic. Reuse a documented
 
 Audition the section, then save a cue map linking important picture/gesture/doodle changes to source accents on the scene clock. Use the maintained audio-analysis tools; onset candidates are not automatically confirmed downbeats. Picture times are integer frames at 30 fps, audio positions seconds. Use original recorded root/category SFX only when they strengthen a named event; preserve their inventory provenance and hash. Do not synthesize substitute SFX or use a meme vocal as new character dialogue.
 
-Copy the matched version-3 `short.json` and `Edit.tscn` into a new production folder under `shorts/godot/`; change the scene's `config_path` to the new spec. Author supported cues, per-actor visible `motion`, shots/travel and finite events. Keep attached props locked to their fingers. Use genuine separately drawn views. Cut between contact drawings if a continuous pickup/handoff has not been authored. Extend only separate Shorts art/director files when necessary, updating the schema and an executable example together.
+Run `scripts/build_short.py new <short-slug>` from this skill to create `shorts/nemi/<short-slug>/` from its matched approved template. It copies editable `short.json` and `Edit.tscn`, updates the scene path, and creates unreviewed direction/cue records. Adapt the template into a distinct idea before rendering. Put movies in `render/`, QA/stills/logs in `review/`, and optional unique assets in `assets/`. Shared drawings/engine stay in `shorts/godot/`, shared music in `shorts/assets/music/`. Author supported cues, per-actor visible `motion`, shots/travel and finite events. Keep attached props locked to their fingers. Use genuine separately drawn views. Cut between contact drawings if a continuous pickup/handoff has not been authored. Extend only separate Shorts art/director files when necessary, updating the schema and an executable example together.
 
 ## Render and verify
 
 Run the bundled wrapper from the repository root; replace the production and revision:
 
 ```sh
-.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py validate shorts/godot/PRODUCTION/short.json
-.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py stills shorts/godot/PRODUCTION/short.json --revision r1
-.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py build shorts/godot/PRODUCTION/short.json --revision r1
+.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py new new-music-moment
+.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py validate shorts/nemi/new-music-moment/short.json
+.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py stills shorts/nemi/new-music-moment/short.json --revision r1
+.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py build shorts/nemi/new-music-moment/short.json --revision r1
 ```
 
 Inspect the stills before the full build. For an already-rendered movie:
 
 ```sh
-.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py check shorts/godot/PRODUCTION/short.json --movie shorts/godot/PRODUCTION/renders/ID_r1_1080x1920.mp4
+.venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py check shorts/nemi/new-music-moment/short.json --movie shorts/nemi/new-music-moment/render/new-music-moment_r1_1080x1920.mp4
 ```
 
-The wrapper enforces this skill's author scope and version 3, then uses the maintained validator/renderer. A build/check independently inspects the decoded export, verifies exact-source audio and checks decoded static runs. It fails if audio or pacing fails, or if the pacing evidence is missing. Use a fresh revision; the renderer preserves earlier movies.
+The wrapper enforces this skill's author scope, version 3 and canonical cast/slug folder, then uses the maintained validator/renderer. A build/check independently inspects the decoded export, verifies exact-source audio and checks decoded static runs. It fails if audio or pacing fails, or if the pacing evidence is missing. Use a fresh revision; the renderer preserves earlier movies.
 
 Watch the actual exported movie with sound at phone size. Check the first/final image, causal payoff, face/hand readability, contact at motion boundaries, useful pose variety, actual music synchronization, finite VFX and SFX balance. Repair failures and rerender; do not declare success from logs or contact sheets alone. Save only performed observations in `review/QA.md`, plus the technical reports, cue map, source/music provenance and selected revision. The wrapper's technical-pass record deliberately leaves visual/playback review pending.
 

@@ -1,0 +1,33 @@
+{
+  "skill": ".agents/skills/nemi-ink-shorts/SKILL.md",
+  "skillSha256": "c26162096c451b806d6373d3034af1b37d1abef283c879c84a36e9e3eea544ce",
+  "request": "Nemi says just one tiny doodle, turns a moon into a sleepy cat, and ends with a delighted cute hand gesture. Music-led 12\u201325s, dynamic poses and intentional doodle/VFX, no still >1.5s.",
+  "authorScope": [
+    "nemi"
+  ],
+  "version": 3,
+  "spec": "shorts/nemi/nemi-tiny-cat/short.json",
+  "specSha256": "99399f5e5efb92fb41a960fde40c1b91f588fe43839e68c0f93af06b03842b83",
+  "documentsRead": [
+    "shorts/AGENTS.md",
+    "shorts/godot/V3_WORKFLOW.md",
+    "shorts/godot/V3_SCHEMA.md",
+    "shorts/godot/CHARACTER_DIRECTION.md",
+    "shorts/nemi/quick-doodle/DIRECTION.md",
+    "shorts/nemi/quick-doodle/short.json",
+    "shorts/assets/music/batch01/MUSIC_SOURCES.md",
+    "shorts/assets/music/batch01/cheri-cheri-lady.json",
+    "shorts/assets/music/batch01/cheri-cheri-lady.analysis.json",
+    ".agents/skills/nemi-ink-shorts/scripts/build_short.py --help"
+  ],
+  "actualHelperInvocation": ".venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py validate shorts/nemi/nemi-tiny-cat/short.json",
+  "validationPassed": true,
+  "validationResult": "Validated Just one tiny moon cat: 16 shots / 435 frames, source audio hashes and event-linked drawings",
+  "distinctFromExample": "Later Cheri section, lavender crescent-to-sleepy-cat match cut, dream cloud/flower and finger-heart finish; no book-show cat ending.",
+  "plannedMaxShotSeconds": 1.066667,
+  "technicalExportPassed": null,
+  "decodedMaxStaticSeconds": null,
+  "fullPlaybackVerified": false,
+  "sectionMusicFitAuditionVerified": false,
+  "renderStatus": "Root coordinator will render after source handoff. No still/movie/audio/pacing verification has been claimed."
+}

@@ -7,7 +7,7 @@ from validate_ink import ROOT,validate
 from check_pacing import measure
 class DynamicTests(unittest.TestCase):
  @classmethod
- def setUpClass(cls):cls.base=validate(ROOT/'shorts/godot/upgrade02/productions/my-song/short.json')
+ def setUpClass(cls):cls.base=validate(ROOT/'shorts/nemi/my-song/short.json')
  def rejected(self,change):
   c=deepcopy(self.base);change(c)
   with tempfile.TemporaryDirectory() as t:

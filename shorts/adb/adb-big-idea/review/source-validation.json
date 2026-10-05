@@ -1,0 +1,45 @@
+{
+  "checkedAtUTC": "2026-10-05T17:18:19.852904+00:00",
+  "stage": "source only",
+  "skill": "adb-ink-shorts",
+  "command": ".venv/bin/python .agents/skills/adb-ink-shorts/scripts/build_short.py validate shorts/adb/adb-big-idea/short.json",
+  "observedExitCode": 0,
+  "observedStdout": "Validated One big idea: 21 shots / 465 frames, source audio hashes and event-linked drawings",
+  "specSha256": "0b1e06ae706e78cd0da34341347c853f78e10d069e0e951aed4028cd3aa44260",
+  "schemaVersion": 3,
+  "authorScope": [
+    "adb"
+  ],
+  "frames": 465,
+  "duration": 15.5,
+  "shots": 21,
+  "actions": [
+    "arms_open",
+    "chin",
+    "hip",
+    "point",
+    "rest",
+    "shrug",
+    "sketch",
+    "thumbsup"
+  ],
+  "motionKeys": 110,
+  "events": 23,
+  "musicSelection": {
+    "file": "shorts/assets/music/batch01/dancin-krono.wav",
+    "sourceHash": "a13238e578a33bc1c40d79e0d9762b17be0685ea69563cd670c2c4c9e440ba55",
+    "sourceStart": 12.1673,
+    "duration": 15.5,
+    "gainDb": -7.6
+  },
+  "maxPlannedShotIntervalSeconds": 1.0,
+  "rendered": false,
+  "pending": [
+    "Godot stills",
+    "encoded export metadata/cuts",
+    "decoded static runs",
+    "exact-source audio reconstruction",
+    "actual native playback with sound",
+    "creative/art/contact review"
+  ]
+}

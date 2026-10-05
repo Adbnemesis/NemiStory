@@ -53,15 +53,24 @@ def file_hash(path: Path) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("action", choices=("validate", "stills", "build", "check"))
+    parser.add_argument("action", choices=("new", "validate", "stills", "build", "check"))
     parser.add_argument("spec", type=Path)
     parser.add_argument("--revision", default="r1", help="New alphanumeric render revision.")
     parser.add_argument("--movie", type=Path, help="Required for check; an existing encoded export.")
     parser.add_argument("--repo", type=Path)
     args = parser.parse_args()
     repo = find_repo(args.repo)
+    if args.action == "new":
+        if args.movie is not None:
+            parser.error("new does not accept --movie.")
+        python = repo / ".venv/bin/python"
+        subprocess.run([str(python) if python.is_file() else sys.executable, str(repo / "shorts/godot/new_short.py"), "duo", str(args.spec)], cwd=repo, check=True)
+        return
     spec = under_shorts(args.spec if args.spec.is_absolute() else repo / args.spec, repo)
-    read_scope(spec)
+    config = read_scope(spec)
+    expected = repo / "shorts" / "duo" / config['id'] / "short.json"
+    if spec != expected.resolve():
+        parser.error(f"Use the canonical cast/slug folder: {expected}")
     if not args.revision.isalnum():
         parser.error("--revision must be alphanumeric.")
     if args.action == "check" and args.movie is None:
@@ -89,10 +98,12 @@ def main() -> None:
         return
     if args.action == "build":
         run("render_ink.py", spec, args.revision)
-        movie = spec.parent / "renders" / f"{config['id']}_{args.revision}_1080x1920.mp4"
+        movie = spec.parent / "render" / f"{config['id']}_{args.revision}_1080x1920.mp4"
     else:
         movie = args.movie if args.movie.is_absolute() else repo / args.movie
     movie = under_shorts(movie, repo)
+    if movie.parent != spec.parent / "render":
+        parser.error("Movie must be in this Short's render/ folder.")
     if not movie.is_file():
         raise SystemExit(f"Movie missing: {movie}")
     review = spec.parent / "review"

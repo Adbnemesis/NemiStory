@@ -1,0 +1,82 @@
+{
+  "purpose": "Directory simplification; no animation or audio changes",
+  "exports": [
+    {
+      "short": "my-song",
+      "movie": "shorts/nemi/my-song/render/my-song_r1_1080x1920.mp4",
+      "sha256": "9473bd22c4d8e575ff7f19a584a992738460a391afa6de3b52abd7914c4d615d",
+      "movieUnchanged": true,
+      "specUnchanged": true,
+      "scenePathResolves": true
+    },
+    {
+      "short": "wrong-class",
+      "movie": "shorts/adb/wrong-class/render/wrong-class_r1_1080x1920.mp4",
+      "sha256": "b7dfe7ba7bcdba9e0bf4780333ccd92e562f4532890e541dd9c3ad61a05430aa",
+      "movieUnchanged": true,
+      "specUnchanged": true,
+      "scenePathResolves": true
+    },
+    {
+      "short": "quick-doodle",
+      "movie": "shorts/nemi/quick-doodle/render/quick-doodle_r1_1080x1920.mp4",
+      "sha256": "537cc95e7882ab3919ede402deda81a73e242b2f94e7378e7ad8bc85e1d2f2ae",
+      "movieUnchanged": true,
+      "specUnchanged": true,
+      "scenePathResolves": true
+    },
+    {
+      "short": "different-energy",
+      "movie": "shorts/duo/different-energy/render/different-energy_r1_1080x1920.mp4",
+      "sha256": "c7587244542ff5eb61eaea8657afd0272be840e31e7956b14989749b4292f954",
+      "movieUnchanged": true,
+      "specUnchanged": true,
+      "scenePathResolves": true
+    },
+    {
+      "short": "act-natural",
+      "movie": "shorts/duo/act-natural/render/act-natural_r1_1080x1920.mp4",
+      "sha256": "2ef2242c1e6c2faf5186c12de72edd658d9b6cbb70bd5c5a0302c6112fc381ac",
+      "movieUnchanged": true,
+      "specUnchanged": true,
+      "scenePathResolves": true
+    },
+    {
+      "short": "adb-big-idea",
+      "movie": "shorts/adb/adb-big-idea/render/adb-big-idea_r1_1080x1920.mp4",
+      "sha256": "6fe52e5d62339c2972c534ec66b9f3d23e82040e0f72d6b6bb1f499e82d50290",
+      "movieUnchanged": true,
+      "specUnchanged": true,
+      "scenePathResolves": true
+    },
+    {
+      "short": "nemi-tiny-cat",
+      "movie": "shorts/nemi/nemi-tiny-cat/render/nemi-tiny-cat_r1_1080x1920.mp4",
+      "sha256": "b2347d5bcf5188827dc4c57d7b4a6624fbb0f31b24fd1cad099dabbec1bff3c3",
+      "movieUnchanged": true,
+      "specUnchanged": true,
+      "scenePathResolves": true
+    },
+    {
+      "short": "duo-matching-moment",
+      "movie": "shorts/duo/duo-matching-moment/render/duo-matching-moment_r1_1080x1920.mp4",
+      "sha256": "21106b29a0a75677374af89cb708f3109605cd4ffdc033e4816cf77a01fdce58",
+      "movieUnchanged": true,
+      "specUnchanged": true,
+      "scenePathResolves": true
+    }
+  ],
+  "starterChecks": "All three skill helpers created valid matching starters; overwrite and wrong-cast attempts rejected; temporary starters removed.",
+  "oldProductionRootRemoved": true,
+  "protectedOriginalSource": {
+    "baselineFiles": 1081,
+    "changedOrMissing": []
+  },
+  "browserCheck": {
+    "source": "shorts/nemi/my-song/render/my-song_r1_1080x1920.mp4",
+    "duration": 14.5,
+    "seekSeconds": 7,
+    "readyState": 4,
+    "evidence": "layout-proof.png"
+  }
+}

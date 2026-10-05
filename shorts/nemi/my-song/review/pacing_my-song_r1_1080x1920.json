@@ -1,0 +1,43 @@
+{
+  "frames": 435,
+  "threshold": 0.1,
+  "maxStaticSeconds": 0.1,
+  "runs": [
+    {
+      "startFrame": 252,
+      "endFrame": 254,
+      "seconds": 0.1
+    },
+    {
+      "startFrame": 148,
+      "endFrame": 149,
+      "seconds": 0.06666666666666667
+    },
+    {
+      "startFrame": 193,
+      "endFrame": 194,
+      "seconds": 0.06666666666666667
+    },
+    {
+      "startFrame": 298,
+      "endFrame": 299,
+      "seconds": 0.06666666666666667
+    },
+    {
+      "startFrame": 343,
+      "endFrame": 344,
+      "seconds": 0.06666666666666667
+    },
+    {
+      "startFrame": 433,
+      "endFrame": 434,
+      "seconds": 0.06666666666666667
+    }
+  ],
+  "meanFrameChange": 2.568757700703798,
+  "spec": "/Users/talus/Documents/adb/shorts/nemi/my-song/short.json",
+  "movie": "/Users/talus/Documents/adb/shorts/nemi/my-song/render/my-song_r1_1080x1920.mp4",
+  "limitSeconds": 1.5,
+  "method": "Decoded 216x384 RGB mean absolute frame difference, threshold in 8-bit pixel units. Creative/action review remains necessary.",
+  "passed": true
+}

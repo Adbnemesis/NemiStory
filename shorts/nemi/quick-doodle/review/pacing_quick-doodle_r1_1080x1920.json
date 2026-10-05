@@ -1,0 +1,38 @@
+{
+  "frames": 540,
+  "threshold": 0.1,
+  "maxStaticSeconds": 0.13333333333333333,
+  "runs": [
+    {
+      "startFrame": 244,
+      "endFrame": 247,
+      "seconds": 0.13333333333333333
+    },
+    {
+      "startFrame": 431,
+      "endFrame": 433,
+      "seconds": 0.1
+    },
+    {
+      "startFrame": 184,
+      "endFrame": 185,
+      "seconds": 0.06666666666666667
+    },
+    {
+      "startFrame": 339,
+      "endFrame": 340,
+      "seconds": 0.06666666666666667
+    },
+    {
+      "startFrame": 494,
+      "endFrame": 495,
+      "seconds": 0.06666666666666667
+    }
+  ],
+  "meanFrameChange": 2.3055906778716366,
+  "spec": "/Users/talus/Documents/adb/shorts/nemi/quick-doodle/short.json",
+  "movie": "/Users/talus/Documents/adb/shorts/nemi/quick-doodle/render/quick-doodle_r1_1080x1920.mp4",
+  "limitSeconds": 1.5,
+  "method": "Decoded 216x384 RGB mean absolute frame difference, threshold in 8-bit pixel units. Creative/action review remains necessary.",
+  "passed": true
+}

@@ -8,7 +8,7 @@ assert revision.isalnum()
 stills='--stills' in sys.argv
 batch=c['version']>=2
 stem=c['id'] if batch else 'InkEdit'
-out=spec.parent/'renders'/f'{stem}_{revision}_1080x1920.mp4'
+out=spec.parent/('render' if c.get('version') == 3 else 'renders')/f'{stem}_{revision}_1080x1920.mp4'
 if out.exists() and not stills:raise SystemExit('Choose a new revision; earlier movies are preserved')
 review=spec.parent/'review';review.mkdir(exist_ok=True)
 stilldir=review/'stills'/revision;stilldir.mkdir(parents=True,exist_ok=True)

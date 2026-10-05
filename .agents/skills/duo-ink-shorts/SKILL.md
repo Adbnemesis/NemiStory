@@ -9,7 +9,7 @@ Direct **both ADB and Nemi**. Give each a distinct response to the same song, ob
 
 Keep paired eyelines, relative scale and screen direction consistent. A held prop does not transfer between hands unless continuous contact is explicitly supported and authored; cuts to separately held poses are safer when the story does not need an exchange. Visible creative peers do not automatically establish relationship canon.
 
-The matched starting examples are [Different energy](../../../shorts/godot/upgrade02/productions/different-energy/short.json) and [Act natural](../../../shorts/godot/upgrade02/productions/act-natural/short.json), with sibling `Edit.tscn` scenes. Read the closest example and its direction; create a new shared premise and payoff. For a single character, use `$adb-ink-shorts` or `$nemi-ink-shorts`.
+The matched starting examples are [Different energy](../../../shorts/duo/different-energy/short.json) and [Act natural](../../../shorts/duo/act-natural/short.json), with sibling `Edit.tscn` scenes. Read the closest example and its direction; create a new shared premise and payoff. For a single character, use `$adb-ink-shorts` or `$nemi-ink-shorts`.
 
 ## Start from the maintained engine
 
@@ -29,25 +29,26 @@ Choose recognizable music whose energy fits the visual topic. Reuse a documented
 
 Audition the section, then save a cue map linking important picture/gesture/doodle changes to source accents on the scene clock. Use the maintained audio-analysis tools; onset candidates are not automatically confirmed downbeats. Picture times are integer frames at 30 fps, audio positions seconds. Use original recorded root/category SFX only when they strengthen a named event; preserve their inventory provenance and hash. Do not synthesize substitute SFX or use a meme vocal as new character dialogue.
 
-Copy the matched version-3 `short.json` and `Edit.tscn` into a new production folder under `shorts/godot/`; change the scene's `config_path` to the new spec. Author supported cues, per-actor visible `motion`, shots/travel and finite events. Keep attached props locked to their fingers. Use genuine separately drawn views. Cut between contact drawings if a continuous pickup/handoff has not been authored. Extend only separate Shorts art/director files when necessary, updating the schema and an executable example together.
+Run `scripts/build_short.py new <short-slug>` from this skill to create `shorts/duo/<short-slug>/` from its matched approved template. It copies editable `short.json` and `Edit.tscn`, updates the scene path, and creates unreviewed direction/cue records. Adapt the template into a distinct idea before rendering. Put movies in `render/`, QA/stills/logs in `review/`, and optional unique assets in `assets/`. Shared drawings/engine stay in `shorts/godot/`, shared music in `shorts/assets/music/`. Author supported cues, per-actor visible `motion`, shots/travel and finite events. Keep attached props locked to their fingers. Use genuine separately drawn views. Cut between contact drawings if a continuous pickup/handoff has not been authored. Extend only separate Shorts art/director files when necessary, updating the schema and an executable example together.
 
 ## Render and verify
 
 Run the bundled wrapper from the repository root; replace the production and revision:
 
 ```sh
-.venv/bin/python .agents/skills/duo-ink-shorts/scripts/build_short.py validate shorts/godot/PRODUCTION/short.json
-.venv/bin/python .agents/skills/duo-ink-shorts/scripts/build_short.py stills shorts/godot/PRODUCTION/short.json --revision r1
-.venv/bin/python .agents/skills/duo-ink-shorts/scripts/build_short.py build shorts/godot/PRODUCTION/short.json --revision r1
+.venv/bin/python .agents/skills/duo-ink-shorts/scripts/build_short.py new new-music-moment
+.venv/bin/python .agents/skills/duo-ink-shorts/scripts/build_short.py validate shorts/duo/new-music-moment/short.json
+.venv/bin/python .agents/skills/duo-ink-shorts/scripts/build_short.py stills shorts/duo/new-music-moment/short.json --revision r1
+.venv/bin/python .agents/skills/duo-ink-shorts/scripts/build_short.py build shorts/duo/new-music-moment/short.json --revision r1
 ```
 
 Inspect the stills before the full build. For an already-rendered movie:
 
 ```sh
-.venv/bin/python .agents/skills/duo-ink-shorts/scripts/build_short.py check shorts/godot/PRODUCTION/short.json --movie shorts/godot/PRODUCTION/renders/ID_r1_1080x1920.mp4
+.venv/bin/python .agents/skills/duo-ink-shorts/scripts/build_short.py check shorts/duo/new-music-moment/short.json --movie shorts/duo/new-music-moment/render/new-music-moment_r1_1080x1920.mp4
 ```
 
-The wrapper enforces this skill's author scope and version 3, then uses the maintained validator/renderer. A build/check independently inspects the decoded export, verifies exact-source audio and checks decoded static runs. It fails if audio or pacing fails, or if the pacing evidence is missing. Use a fresh revision; the renderer preserves earlier movies.
+The wrapper enforces this skill's author scope, version 3 and canonical cast/slug folder, then uses the maintained validator/renderer. A build/check independently inspects the decoded export, verifies exact-source audio and checks decoded static runs. It fails if audio or pacing fails, or if the pacing evidence is missing. Use a fresh revision; the renderer preserves earlier movies.
 
 Watch the actual exported movie with sound at phone size. Check the first/final image, causal payoff, face/hand readability, contact at motion boundaries, useful pose variety, actual music synchronization, finite VFX and SFX balance. Repair failures and rerender; do not declare success from logs or contact sheets alone. Save only performed observations in `review/QA.md`, plus the technical reports, cue map, source/music provenance and selected revision. The wrapper's technical-pass record deliberately leaves visual/playback review pending.
 

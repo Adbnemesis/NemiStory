@@ -4,7 +4,7 @@ Start from one recognizable want or friction. Give it one visible choice and con
 
 Save promise/want/choice/consequence/payoff and one focus per thought in DIRECTION.md. Choose 12–25 seconds around a source musical phrase. Reject a premise that needs unexplained lore, text over idle art, identical reactions all the way through, meaningless camera motion or an ending added solely to hit15s.
 
-The active variation ledger is [upgrade02/MANIFEST.json](godot/upgrade02/MANIFEST.json). Compare the last five premises, first images, props/stages, music versions/source sections, gestures, payoff types and transition devices. Change the thought and at least two visual dimensions. Palette and effects changes alone cannot make a repeated story unique.
+The active variation ledger is [upgrade02/MANIFEST.json](review/upgrade02/MANIFEST.json). Compare the last five premises, first images, props/stages, music versions/source sections, gestures, payoff types and transition devices. Change the thought and at least two visual dimensions. Palette and effects changes alone cannot make a repeated story unique.
 
 The eight current ideas range from headphone confidence and a wrong classroom to a growing doodle, unequal musical energy, camera composure, brainfreeze/inspiration, a sleepy-cat daydream and a matching heart photo. The three skills supply character-specific direction and an executable checked route; each new production must still earn its own story and rhythm.
 
