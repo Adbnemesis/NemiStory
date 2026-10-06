@@ -1,0 +1,45 @@
+{
+  "revision": "r4",
+  "pictureReviewed": true,
+  "playbackExercised": true,
+  "observations": "Decoded39/45/51 keep the full runway stance coherent;243/256/269 develop the recoil close-up as door/sign follow the small camera delta. All6joins clear. Full normal-speed player playback and a relevant cue were exercised; the final/restart is a semantic cut, not a guaranteed seamless audio loop.",
+  "duration": 15.0,
+  "previousDuration": 16.0,
+  "cameraReview": "Native extrema and actual decoded transition/motion sequences inspected independently; no critical contact/framing defect. Close crops deliberately cut legs and captions may cross lower clothing.",
+  "browserStates": [
+    {
+      "action": "play from0",
+      "observedAt": "2026-10-06T06:45:13.380Z",
+      "duration": 15,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "rate": 1,
+      "readyState": 4,
+      "source": "http://127.0.0.1:8768/shorts/adb/wrong-class/render/wrong-class_r4_1080x1920.mp4",
+      "time": 0.178156
+    },
+    {
+      "action": "continuous playback / loop",
+      "observedAt": "2026-10-06T06:46:29.621Z",
+      "duration": 15,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "rate": 1,
+      "readyState": 4,
+      "time": 1.018026
+    },
+    {
+      "action": "cue6.73",
+      "observedAt": "2026-10-06T06:46:30.187Z",
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "time": 6.733333
+    }
+  ],
+  "soundEvidence": "Exact-source decoded music/SFX reconstruction and unmuted1\u00d7browser playback are separate from subjective listening/audience taste.",
+  "continuousPlaybackWallSeconds": 76.241,
+  "playbackEvidence": "Continuous1\u00d7unmuted playback observed before/after multiple clip lengths with wrappedsceneclock,readyState4,errornull; cuecontrol also exercised. DOM played range was not recorded for this earlier pass."
+}

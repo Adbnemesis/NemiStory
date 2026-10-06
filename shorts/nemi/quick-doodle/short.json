@@ -5,23 +5,59 @@
   "fps": 30,
   "width": 1080,
   "height": 1920,
-  "frames": 540,
-  "premise": "me opening my sketchbook\nfor one quick doodle",
+  "frames": 527,
+  "premise": "one quick doodle\nwas never one quick doodle",
   "music": {
     "file": "shorts/assets/music/batch01/makeba.wav",
     "sourceHash": "dae9351a3df5a2f43190b78063823c564547f35ce7e66b0d31be394e59523a0a",
     "sourceStart": 0.7546,
-    "duration": 18,
+    "duration": 17.566666666666666,
     "gainDb": -6.83
   },
   "sfx": [
+    {
+      "event": "first-mark",
+      "file": "common/audio/sfx/click.mp3",
+      "sourceHash": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "sourceStart": 0.03333333333333333,
+      "duration": 0.3,
+      "gainDb": -4.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "page-cat",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -6.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "too-many-doodles",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -6.0,
+      "offsetFrames": 0
+    },
     {
       "event": "cat-reveal",
       "file": "common/audio/sfx/whoosh.mp3",
       "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
       "sourceStart": 0.1,
-      "duration": 0.4666666666666667,
-      "gainDb": -3,
+      "duration": 0.45,
+      "gainDb": -5.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "page-pride",
+      "file": "common/audio/sfx/ping.mp3",
+      "sourceHash": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "sourceStart": 0.3,
+      "duration": 0.8,
+      "gainDb": -4.0,
       "offsetFrames": 0
     }
   ],
@@ -41,840 +77,916 @@
         {
           "frame": 0,
           "pose": "panicked_writing",
-          "expression": "happy",
+          "expression": "embarrassed",
           "gaze": [
-            -0.15,
+            0.25,
             0
           ],
           "head": -3,
-          "motion": "smooth",
-          "duration": 0.2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "threequarter",
-          "emotion": "smile",
-          "action": "sketch"
-        },
-        {
-          "frame": 15,
-          "pose": "panicked_writing",
-          "expression": "deadpan",
-          "gaze": [
-            -0.25,
-            0
-          ],
-          "head": 3,
-          "motion": "smooth",
-          "duration": 0.2,
-          "view": "front",
-          "emotion": "deadpan",
-          "action": "sketch"
+          "emotion": "shy",
+          "action": "sketch",
+          "bodyPose": "crouch"
         },
         {
           "frame": 31,
           "pose": "panicked_writing",
           "expression": "happy",
           "gaze": [
-            -0.3,
+            0.15,
             0
           ],
-          "head": -3,
-          "motion": "smooth",
-          "duration": 0.2,
-          "view": "threequarter",
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
+          "view": "front",
           "emotion": "smile",
-          "action": "sketch"
+          "action": "sketch",
+          "bodyPose": "lean_in"
         },
         {
           "frame": 62,
           "pose": "hand_near_chin",
-          "expression": "deadpan",
+          "expression": "happy",
           "gaze": [
             0.45,
             0
           ],
-          "head": 4,
-          "motion": "smooth",
-          "duration": 0.2,
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "threequarter",
-          "emotion": "deadpan",
-          "action": "chin"
+          "emotion": "smile",
+          "action": "chin",
+          "bodyPose": "contrapposto"
         },
         {
           "frame": 93,
           "pose": "panicked_writing",
           "expression": "happy",
           "gaze": [
-            -0.35,
+            0.15,
             0
           ],
-          "head": -2,
-          "motion": "smooth",
-          "duration": 0.2,
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "front",
           "emotion": "smile",
-          "action": "sketch"
+          "action": "sketch",
+          "bodyPose": "wide"
         },
         {
           "frame": 124,
-          "pose": "pointing",
+          "pose": "panicked_writing",
           "expression": "happy",
           "gaze": [
-            0.6,
+            0.15,
             0
           ],
-          "head": 3,
-          "motion": "smooth",
-          "duration": 0.2,
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "threequarter",
           "emotion": "smile",
-          "action": "point"
+          "action": "sketch",
+          "bodyPose": "groove_left"
         },
         {
           "frame": 155,
           "pose": "panicked_writing",
           "expression": "happy",
           "gaze": [
-            -0.2,
+            0.15,
             0
           ],
-          "head": -3,
-          "motion": "smooth",
-          "duration": 0.2,
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "front",
           "emotion": "smile",
-          "action": "sketch"
+          "action": "sketch",
+          "bodyPose": "groove_right"
         },
         {
           "frame": 186,
           "pose": "panicked_writing",
           "expression": "happy",
           "gaze": [
-            -0.25,
+            0.15,
             0
           ],
-          "head": 3,
-          "motion": "smooth",
-          "duration": 0.2,
-          "view": "threequarter",
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
+          "view": "profile",
           "emotion": "smile",
-          "action": "sketch"
+          "action": "sketch",
+          "bodyPose": "lean_in"
         },
         {
           "frame": 217,
-          "pose": "casual_standing",
+          "pose": "panicked_writing",
           "expression": "happy",
           "gaze": [
-            0.2,
+            0.15,
             0
           ],
-          "head": 0,
-          "motion": "smooth",
-          "duration": 0.2,
-          "view": "back",
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
+          "view": "threequarter",
           "emotion": "smile",
-          "action": "rest"
+          "action": "sketch",
+          "bodyPose": "crouch"
         },
         {
           "frame": 248,
-          "pose": "presenting_prop",
+          "pose": "panicked_writing",
           "expression": "happy",
           "gaze": [
-            0,
+            0.15,
             0
           ],
-          "head": -3,
-          "motion": "smooth",
-          "duration": 0.2,
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "front",
           "emotion": "smile",
-          "action": "book_show"
+          "action": "sketch",
+          "bodyPose": "wide"
         },
         {
           "frame": 279,
           "pose": "panicked_writing",
           "expression": "happy",
           "gaze": [
-            -0.2,
+            0.15,
             0
           ],
-          "head": 4,
-          "motion": "smooth",
-          "duration": 0.2,
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "threequarter",
           "emotion": "smile",
-          "action": "sketch"
+          "action": "sketch",
+          "bodyPose": "groove_left"
         },
         {
           "frame": 310,
           "pose": "panicked_writing",
           "expression": "happy",
           "gaze": [
-            -0.1,
-            0
-          ],
-          "head": -3,
-          "motion": "smooth",
-          "duration": 0.2,
-          "view": "front",
-          "emotion": "smile",
-          "action": "sketch"
-        },
-        {
-          "frame": 341,
-          "pose": "panicked_writing",
-          "expression": "deadpan",
-          "gaze": [
-            -0.3,
+            0.15,
             0
           ],
           "head": 2,
-          "motion": "smooth",
-          "duration": 0.2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "threequarter",
-          "emotion": "deadpan",
-          "action": "sketch"
+          "emotion": "smile",
+          "action": "sketch",
+          "bodyPose": "groove_right"
+        },
+        {
+          "frame": 341,
+          "pose": "casual_standing",
+          "expression": "shocked",
+          "gaze": [
+            0,
+            0
+          ],
+          "head": -4,
+          "motion": "snap",
+          "duration": 0.001,
+          "view": "front",
+          "emotion": "shock",
+          "action": "rest",
+          "bodyPose": "recoil"
         },
         {
           "frame": 372,
-          "pose": "one_hand_explaining",
+          "pose": "casual_standing",
+          "expression": "neutral",
+          "gaze": [
+            -0.25,
+            0
+          ],
+          "head": 0,
+          "motion": "snap",
+          "duration": 0.001,
+          "view": "threequarter",
+          "emotion": "deadpan",
+          "action": "rest",
+          "bodyPose": "folded"
+        },
+        {
+          "frame": 403,
+          "pose": "hand_near_chin",
           "expression": "happy",
           "gaze": [
             0.2,
             0
           ],
-          "head": -3,
-          "motion": "smooth",
-          "duration": 0.2,
-          "view": "front",
-          "emotion": "smile",
-          "action": "thumbsup"
-        },
-        {
-          "frame": 403,
-          "pose": "presenting_prop",
-          "expression": "happy",
-          "gaze": [
-            0.3,
-            0
-          ],
-          "head": 4,
-          "motion": "smooth",
-          "duration": 0.2,
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "threequarter",
           "emotion": "smile",
-          "action": "book_show"
+          "action": "chin",
+          "bodyPose": "crouch"
         },
         {
           "frame": 434,
           "pose": "presenting_prop",
           "expression": "happy",
           "gaze": [
-            0.1,
+            0.15,
             0
           ],
-          "head": -3,
-          "motion": "smooth",
-          "duration": 0.2,
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "front",
           "emotion": "smile",
-          "action": "book_show"
+          "action": "book_show",
+          "bodyPose": "wide"
         },
         {
           "frame": 465,
-          "pose": "casual_hand_on_hip",
+          "pose": "presenting_prop",
           "expression": "happy",
           "gaze": [
-            0.5,
+            0.15,
             0
           ],
-          "head": 3,
-          "motion": "smooth",
-          "duration": 0.2,
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "threequarter",
           "emotion": "smile",
-          "action": "hip"
+          "action": "book_show",
+          "bodyPose": "lean_in"
         },
         {
           "frame": 496,
           "pose": "presenting_prop",
           "expression": "happy",
           "gaze": [
-            0,
+            0.15,
             0
           ],
-          "head": -3,
-          "motion": "smooth",
-          "duration": 0.2,
+          "head": 2,
+          "motion": "snap",
+          "duration": 0.001,
           "view": "front",
           "emotion": "smile",
-          "action": "book_show"
-        },
-        {
-          "frame": 512,
-          "pose": "presenting_prop",
-          "expression": "happy",
-          "gaze": [
-            0.3,
-            0
-          ],
-          "head": 3,
-          "motion": "smooth",
-          "duration": 0.2,
-          "view": "threequarter",
-          "emotion": "smile",
-          "action": "book_show"
-        },
-        {
-          "frame": 528,
-          "pose": "presenting_prop",
-          "expression": "happy",
-          "gaze": [
-            0.1,
-            0
-          ],
-          "head": -2,
-          "motion": "smooth",
-          "duration": 0.2,
-          "view": "front",
-          "emotion": "smile",
-          "action": "book_show"
+          "action": "book_show",
+          "bodyPose": "contrapposto"
         }
       ],
       "motion": [
         {
           "frame": 0,
-          "head": 0.0,
-          "look": -0.2,
-          "eyes": 1.0,
-          "lean": 0.0,
-          "gesture": 0.45
+          "head": 0,
+          "look": 0,
+          "eyes": 1,
+          "lean": 0,
+          "gesture": 1
         },
         {
-          "frame": 7,
-          "head": -3.0,
-          "look": -0.15,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 3,
+          "head": 0,
+          "look": 0.25,
+          "eyes": 1,
+          "lean": 0,
+          "gesture": 1
         },
         {
-          "frame": 15,
-          "head": -3.0,
-          "look": -0.15,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "frame": 12,
+          "head": 0.95,
+          "look": 0.25,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
         },
         {
-          "frame": 22,
-          "head": 3.0,
-          "look": -0.25,
-          "eyes": 0.72,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 30,
+          "head": -2.3,
+          "look": 0.25,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
           "frame": 31,
-          "head": 3.0,
-          "look": -0.25,
-          "eyes": 0.72,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": -2.3,
+          "look": 0.25,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 38,
-          "head": -3.0,
-          "look": -0.3,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 34,
+          "head": -2.3,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 47,
-          "head": -2.55,
-          "look": -0.3,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 43,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
+        },
+        {
+          "frame": 61,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
           "frame": 62,
-          "head": -3.0,
-          "look": -0.3,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 69,
-          "head": 4.0,
+          "frame": 65,
+          "head": 0.45,
           "look": 0.45,
-          "eyes": 0.72,
-          "lean": 0.1,
-          "gesture": 1.0
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 78,
-          "head": 3.4,
+          "frame": 74,
+          "head": 3.7,
           "look": 0.45,
-          "eyes": 0.72,
-          "lean": 0.1,
-          "gesture": 1.0
+          "eyes": 1,
+          "lean": 0.75,
+          "gesture": 1
+        },
+        {
+          "frame": 83,
+          "head": 3.7,
+          "look": 0.45,
+          "eyes": 1,
+          "lean": 0.75,
+          "gesture": 1
+        },
+        {
+          "frame": 85,
+          "head": 3.7,
+          "look": 0.45,
+          "eyes": 0.05,
+          "lean": 0.75,
+          "gesture": 1
+        },
+        {
+          "frame": 88,
+          "head": 3.7,
+          "look": 0.45,
+          "eyes": 1,
+          "lean": 0.75,
+          "gesture": 1
+        },
+        {
+          "frame": 92,
+          "head": 0.45,
+          "look": 0.45,
+          "eyes": 1,
+          "lean": -0.262,
+          "gesture": 1
         },
         {
           "frame": 93,
-          "head": 4.0,
+          "head": 0.45,
           "look": 0.45,
-          "eyes": 0.72,
-          "lean": 0.1,
-          "gesture": 0.45
+          "eyes": 1,
+          "lean": -0.262,
+          "gesture": 1
         },
         {
-          "frame": 94,
-          "head": 4.0,
-          "look": 0.45,
-          "eyes": 0.72,
-          "lean": 0.1,
-          "gesture": 0.45
+          "frame": 96,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.262,
+          "gesture": 1
         },
         {
-          "frame": 97,
-          "head": 4.0,
-          "look": 0.45,
-          "eyes": 0.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "frame": 105,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
         },
         {
-          "frame": 100,
-          "head": -2.0,
-          "look": -0.35,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
-        },
-        {
-          "frame": 101,
-          "head": 4.0,
-          "look": 0.45,
-          "eyes": 0.72,
-          "lean": 0.1,
-          "gesture": 0.45
-        },
-        {
-          "frame": 109,
-          "head": -1.7,
-          "look": -0.35,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 123,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
           "frame": 124,
-          "head": -2.0,
-          "look": -0.35,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 131,
-          "head": 3.0,
-          "look": 0.6,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 127,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 140,
-          "head": 2.55,
-          "look": 0.6,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 136,
+          "head": -1.5,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.45,
+          "gesture": 1
+        },
+        {
+          "frame": 154,
+          "head": 1.75,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.158,
+          "gesture": 1
         },
         {
           "frame": 155,
-          "head": 3.0,
-          "look": 0.6,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": 1.75,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.158,
+          "gesture": 1
         },
         {
-          "frame": 162,
-          "head": -3.0,
-          "look": -0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 158,
+          "head": 1.75,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.158,
+          "gesture": 1
         },
         {
-          "frame": 171,
-          "head": -2.55,
-          "look": -0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 167,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
+        },
+        {
+          "frame": 185,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
           "frame": 186,
-          "head": -3.0,
-          "look": -0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 193,
-          "head": 3.0,
-          "look": -0.25,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 189,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 202,
-          "head": 2.55,
-          "look": -0.25,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 198,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
         },
         {
           "frame": 207,
-          "head": 2.55,
-          "look": -0.25,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
         },
         {
-          "frame": 210,
-          "head": 2.55,
-          "look": -0.25,
-          "eyes": 0.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 209,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 0.05,
+          "lean": 0.45,
+          "gesture": 1
         },
         {
-          "frame": 214,
-          "head": 2.55,
-          "look": -0.25,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 212,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
+        },
+        {
+          "frame": 216,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
           "frame": 217,
-          "head": 3.0,
-          "look": -0.25,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 224,
-          "head": 0.0,
-          "look": 0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 220,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 233,
-          "head": 0.0,
-          "look": 0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 229,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
+        },
+        {
+          "frame": 247,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
           "frame": 248,
-          "head": 0.0,
-          "look": 0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 255,
-          "head": -3.0,
-          "look": 0.0,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 251,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 264,
-          "head": -2.55,
-          "look": 0.0,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 260,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
+        },
+        {
+          "frame": 278,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
           "frame": 279,
-          "head": -3.0,
-          "look": 0.0,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 286,
-          "head": 4.0,
-          "look": -0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 282,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 295,
-          "head": 3.4,
-          "look": -0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 291,
+          "head": -1.5,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.45,
+          "gesture": 1
+        },
+        {
+          "frame": 309,
+          "head": 1.75,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.158,
+          "gesture": 1
         },
         {
           "frame": 310,
-          "head": 4.0,
-          "look": -0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": 1.75,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.158,
+          "gesture": 1
         },
         {
-          "frame": 317,
-          "head": -3.0,
-          "look": -0.1,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 313,
+          "head": 1.75,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.158,
+          "gesture": 1
         },
         {
-          "frame": 320,
-          "head": -3.0,
-          "look": -0.1,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 322,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
         },
         {
-          "frame": 323,
-          "head": -3.0,
-          "look": -0.1,
-          "eyes": 0.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 331,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
         },
         {
-          "frame": 326,
-          "head": -2.55,
-          "look": -0.1,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 333,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 0.05,
+          "lean": 0.45,
+          "gesture": 1
         },
         {
-          "frame": 327,
-          "head": -3.0,
-          "look": -0.1,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 336,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
+        },
+        {
+          "frame": 340,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
           "frame": 341,
-          "head": -3.0,
-          "look": -0.1,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 348,
-          "head": 2.0,
-          "look": -0.3,
-          "eyes": 0.72,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 344,
+          "head": 0.45,
+          "look": 0,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 357,
-          "head": 1.7,
-          "look": -0.3,
-          "eyes": 0.72,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 353,
+          "head": -4.8,
+          "look": 0,
+          "eyes": 1,
+          "lean": -0.75,
+          "gesture": 1
+        },
+        {
+          "frame": 371,
+          "head": -1.55,
+          "look": 0,
+          "eyes": 1,
+          "lean": 0.262,
+          "gesture": 1
         },
         {
           "frame": 372,
-          "head": 2.0,
-          "look": -0.3,
-          "eyes": 0.72,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": -1.55,
+          "look": 0,
+          "eyes": 1,
+          "lean": 0.262,
+          "gesture": 1
         },
         {
-          "frame": 379,
-          "head": -3.0,
-          "look": 0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 375,
+          "head": -1.55,
+          "look": -0.25,
+          "eyes": 1,
+          "lean": 0.262,
+          "gesture": 1
         },
         {
-          "frame": 388,
-          "head": -2.55,
-          "look": 0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 384,
+          "head": -2.6,
+          "look": -0.25,
+          "eyes": 1,
+          "lean": -0.75,
+          "gesture": 1
+        },
+        {
+          "frame": 402,
+          "head": 0.65,
+          "look": -0.25,
+          "eyes": 1,
+          "lean": 0.262,
+          "gesture": 1
         },
         {
           "frame": 403,
-          "head": -3.0,
+          "head": 0.65,
+          "look": -0.25,
+          "eyes": 1,
+          "lean": 0.262,
+          "gesture": 1
+        },
+        {
+          "frame": 406,
+          "head": 0.65,
           "look": 0.2,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "eyes": 1,
+          "lean": 0.262,
+          "gesture": 1
         },
         {
-          "frame": 410,
-          "head": 4.0,
-          "look": 0.3,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
-        },
-        {
-          "frame": 419,
-          "head": 3.4,
-          "look": 0.3,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 415,
+          "head": 3.7,
+          "look": 0.2,
+          "eyes": 1,
+          "lean": 0.75,
+          "gesture": 1
         },
         {
           "frame": 433,
-          "head": 3.4,
-          "look": 0.3,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "head": 0.45,
+          "look": 0.2,
+          "eyes": 1,
+          "lean": -0.262,
+          "gesture": 1
         },
         {
           "frame": 434,
-          "head": 4.0,
-          "look": 0.3,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": 0.45,
+          "look": 0.2,
+          "eyes": 1,
+          "lean": -0.262,
+          "gesture": 1
         },
         {
-          "frame": 436,
-          "head": 3.4,
-          "look": 0.3,
-          "eyes": 0.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 437,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.262,
+          "gesture": 1
         },
         {
-          "frame": 440,
-          "head": 3.4,
-          "look": 0.3,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 446,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
         },
         {
-          "frame": 441,
-          "head": -3.0,
-          "look": 0.1,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 455,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
         },
         {
-          "frame": 450,
-          "head": -2.55,
-          "look": 0.1,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 457,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 0.05,
+          "lean": 0.45,
+          "gesture": 1
+        },
+        {
+          "frame": 460,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
+        },
+        {
+          "frame": 464,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
           "frame": 465,
-          "head": -3.0,
-          "look": 0.1,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 472,
-          "head": 3.0,
-          "look": 0.5,
-          "eyes": 1.0,
-          "lean": 0.8,
-          "gesture": 1.0
+          "frame": 468,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 481,
-          "head": 2.55,
-          "look": 0.5,
-          "eyes": 1.0,
-          "lean": 0.8,
-          "gesture": 1.0
+          "frame": 477,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
+        },
+        {
+          "frame": 495,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
           "frame": 496,
-          "head": 3.0,
-          "look": 0.5,
-          "eyes": 1.0,
-          "lean": 0.8,
-          "gesture": 0.45
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 503,
-          "head": -3.0,
-          "look": 0.0,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 499,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         },
         {
-          "frame": 512,
-          "head": -3.0,
-          "look": 0.0,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
+          "frame": 508,
+          "head": 3.7,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": 0.45,
+          "gesture": 1
         },
         {
-          "frame": 519,
-          "head": 3.0,
-          "look": 0.3,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
-        },
-        {
-          "frame": 528,
-          "head": 3.0,
-          "look": 0.3,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 0.45
-        },
-        {
-          "frame": 535,
-          "head": -2.0,
-          "look": 0.1,
-          "eyes": 1.0,
-          "lean": 0.1,
-          "gesture": 1.0
+          "frame": 526,
+          "head": 0.45,
+          "look": 0.15,
+          "eyes": 1,
+          "lean": -0.158,
+          "gesture": 1
         }
       ]
     }
@@ -882,263 +994,419 @@
   "shots": [
     {
       "frame": 0,
-      "zoom": 1.12,
+      "zoom": 1,
       "center": [
-        535,
-        805
+        540,
+        960
       ],
       "actors": {
         "nemi": {
           "position": [
-            520,
-            1030
+            540,
+            900
           ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
       "move": "cut",
       "angle": 0,
-      "settle": 7,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
-      "stage": "plain",
-      "travel": {
-        "pan": [
-          12.0,
-          4.0
+      "stage": "page",
+      "camera": {
+        "focus": [
+          540,
+          890
         ],
-        "zoom": 1.012,
-        "end": 14
-      }
-    },
-    {
-      "frame": 15,
-      "zoom": 2.4,
-      "center": [
-        586,
-        878
-      ],
-      "actors": {
-        "nemi": {
-          "position": [
-            520,
-            1030
-          ],
-          "scale": 1.65,
-          "flip": 1
-        }
-      },
-      "move": "punch",
-      "angle": -2,
-      "settle": 7,
-      "direction": 1,
-      "palette": "paper",
-      "stage": "plain",
-      "travel": {
-        "pan": [
-          -12.0,
-          -3.0
-        ],
-        "zoom": 0.991,
-        "end": 30
+        "keys": [
+          {
+            "frame": 0,
+            "factor": 0.98,
+            "pan": [
+              -0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 30,
+            "factor": 1.045,
+            "pan": [
+              -12.0,
+              -9.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 31,
-      "zoom": 1.12,
+      "zoom": 1.55,
       "center": [
-        535,
-        805
+        590,
+        740
       ],
       "actors": {
         "nemi": {
           "position": [
-            520,
-            1030
+            540,
+            900
           ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
       "move": "cut",
       "angle": 0,
-      "settle": 7,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
-      "stage": "plain",
-      "travel": {
-        "pan": [
-          12.0,
-          -3.0
+      "stage": "page",
+      "camera": {
+        "focus": [
+          540,
+          780
         ],
-        "zoom": 1.012,
-        "end": 61
+        "keys": [
+          {
+            "frame": 31,
+            "factor": 0.95,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 61,
+            "factor": 1.14,
+            "pan": [
+              0.0,
+              -13.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 62,
-      "zoom": 1.65,
+      "zoom": 1,
       "center": [
-        530,
-        605
+        540,
+        960
       ],
       "actors": {
         "nemi": {
           "position": [
-            520,
-            1030
+            540,
+            900
           ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
       "move": "cut",
       "angle": 0,
-      "settle": 7,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
-      "stage": "plain",
-      "travel": {
-        "pan": [
-          -12.0,
-          4.0
+      "stage": "page",
+      "camera": {
+        "focus": [
+          540,
+          930
         ],
-        "zoom": 0.991,
-        "end": 92
+        "keys": [
+          {
+            "frame": 62,
+            "factor": 1.0,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 84,
+            "factor": 0.92,
+            "pan": [
+              0.0,
+              -13.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
-      "frame": 93,
-      "zoom": 2.4,
+      "frame": 85,
+      "zoom": 1,
       "center": [
-        586,
-        878
+        540,
+        960
       ],
       "actors": {
         "nemi": {
           "position": [
-            520,
-            1030
+            540,
+            900
           ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
-      "move": "punch",
-      "angle": -2,
-      "settle": 7,
+      "move": "cut",
+      "angle": 0,
+      "settle": 8,
       "direction": 1,
       "palette": "paper",
-      "stage": "plain",
-      "travel": {
-        "pan": [
-          12.0,
-          -3.0
+      "stage": "page",
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "quick-doodle-transition-93",
+        "direction": 1,
+        "poseFrame": 93
+      },
+      "camera": {
+        "focus": [
+          540,
+          890
         ],
-        "zoom": 1.012,
-        "end": 123
+        "keys": [
+          {
+            "frame": 85,
+            "factor": 0.98,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 123,
+            "factor": 1.045,
+            "pan": [
+              12.0,
+              -9.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 124,
-      "zoom": 1.12,
+      "zoom": 1,
       "center": [
-        535,
-        805
+        540,
+        960
       ],
       "actors": {
         "nemi": {
           "position": [
-            520,
-            1030
+            540,
+            900
           ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
-      "move": "whip",
-      "angle": 2,
-      "settle": 7,
+      "move": "cut",
+      "angle": 0,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
-      "stage": "plain",
-      "travel": {
-        "pan": [
-          -12.0,
-          -3.0
+      "stage": "page",
+      "camera": {
+        "focus": [
+          540,
+          890
         ],
-        "zoom": 0.991,
-        "end": 154
+        "keys": [
+          {
+            "frame": 124,
+            "factor": 0.98,
+            "pan": [
+              -0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 138,
+            "factor": 1.01033,
+            "pan": [
+              -5.6,
+              -4.2
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 140,
+            "factor": 1.03867,
+            "pan": [
+              -6.4,
+              -9.8
+            ],
+            "roll": 0.0,
+            "ease": "out"
+          },
+          {
+            "frame": 148,
+            "factor": 1.032,
+            "pan": [
+              -9.6,
+              -7.2
+            ],
+            "roll": 0.0,
+            "ease": "out"
+          },
+          {
+            "frame": 154,
+            "factor": 1.045,
+            "pan": [
+              -12.0,
+              -9.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 155,
-      "zoom": 1.12,
+      "zoom": 1,
       "center": [
-        535,
-        805
+        540,
+        960
       ],
       "actors": {
         "nemi": {
           "position": [
-            520,
-            1030
+            540,
+            900
           ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
-      "move": "pull",
+      "move": "cut",
       "angle": 0,
-      "settle": 7,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
       "stage": "page",
-      "travel": {
-        "pan": [
-          12.0,
-          4.0
+      "camera": {
+        "focus": [
+          540,
+          890
         ],
-        "zoom": 1.012,
-        "end": 185
+        "keys": [
+          {
+            "frame": 155,
+            "factor": 0.98,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 179,
+            "factor": 1.045,
+            "pan": [
+              12.0,
+              -9.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
-      "frame": 186,
-      "zoom": 2.4,
+      "frame": 180,
+      "zoom": 1.6,
       "center": [
-        586,
-        878
+        590,
+        740
       ],
       "actors": {
         "nemi": {
           "position": [
-            520,
-            1030
+            540,
+            900
           ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
-      "move": "punch",
-      "angle": -2,
-      "settle": 7,
+      "move": "cut",
+      "angle": 0,
+      "settle": 6,
       "direction": 1,
       "palette": "paper",
       "stage": "page",
-      "travel": {
-        "pan": [
-          -12.0,
-          -3.0
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "quick-doodle-transition-186",
+        "direction": -1,
+        "poseFrame": 186,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "camera": {
+        "focus": [
+          540,
+          780
         ],
-        "zoom": 0.991,
-        "end": 216
+        "keys": [
+          {
+            "frame": 180,
+            "factor": 0.95,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 216,
+            "factor": 1.14,
+            "pan": [
+              0.0,
+              -13.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 217,
-      "zoom": 0.95,
+      "zoom": 1,
       "center": [
         540,
         960
@@ -1147,94 +1415,184 @@
         "nemi": {
           "position": [
             540,
-            930
+            900
           ],
-          "scale": 1.35,
+          "scale": 1.42,
           "flip": 1
         }
       },
-      "move": "whip",
-      "angle": 2,
-      "settle": 7,
+      "move": "cut",
+      "angle": 0,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
       "stage": "page",
-      "travel": {
-        "pan": [
-          12.0,
-          -3.0
+      "camera": {
+        "focus": [
+          540,
+          930
         ],
-        "zoom": 1.012,
-        "end": 247
+        "keys": [
+          {
+            "frame": 217,
+            "factor": 1.0,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 247,
+            "factor": 0.92,
+            "pan": [
+              0.0,
+              -13.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 248,
-      "zoom": 1.12,
+      "zoom": 1,
       "center": [
-        535,
-        805
+        540,
+        960
       ],
       "actors": {
         "nemi": {
           "position": [
-            520,
-            1030
+            540,
+            900
           ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
-      "move": "pull",
+      "move": "cut",
       "angle": 0,
-      "settle": 7,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
       "stage": "page",
-      "travel": {
-        "pan": [
-          -12.0,
-          4.0
+      "camera": {
+        "focus": [
+          540,
+          890
         ],
-        "zoom": 0.991,
-        "end": 278
+        "keys": [
+          {
+            "frame": 248,
+            "factor": 0.98,
+            "pan": [
+              -0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 262,
+            "factor": 1.01033,
+            "pan": [
+              -5.6,
+              -4.2
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 264,
+            "factor": 1.03867,
+            "pan": [
+              -6.4,
+              -9.8
+            ],
+            "roll": 0.0,
+            "ease": "out"
+          },
+          {
+            "frame": 272,
+            "factor": 1.032,
+            "pan": [
+              -9.6,
+              -7.2
+            ],
+            "roll": 0.0,
+            "ease": "out"
+          },
+          {
+            "frame": 278,
+            "factor": 1.045,
+            "pan": [
+              -12.0,
+              -9.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 279,
-      "zoom": 1.65,
+      "zoom": 1,
       "center": [
-        530,
-        605
+        540,
+        960
       ],
       "actors": {
         "nemi": {
           "position": [
-            520,
-            1030
+            540,
+            900
           ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
-      "move": "punch",
-      "angle": -2,
-      "settle": 7,
+      "move": "cut",
+      "angle": 0,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
       "stage": "page",
-      "travel": {
-        "pan": [
-          12.0,
-          -3.0
+      "camera": {
+        "focus": [
+          540,
+          890
         ],
-        "zoom": 1.012,
-        "end": 309
+        "keys": [
+          {
+            "frame": 279,
+            "factor": 0.98,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 309,
+            "factor": 1.045,
+            "pan": [
+              12.0,
+              -9.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 310,
-      "zoom": 0.95,
+      "zoom": 1,
       "center": [
         540,
         960
@@ -1243,94 +1601,165 @@
         "nemi": {
           "position": [
             540,
-            930
+            900
           ],
-          "scale": 1.35,
-          "flip": 1
-        }
-      },
-      "move": "pull",
-      "angle": 0,
-      "settle": 7,
-      "direction": 1,
-      "palette": "paper",
-      "stage": "page",
-      "travel": {
-        "pan": [
-          -12.0,
-          -3.0
-        ],
-        "zoom": 0.991,
-        "end": 340
-      }
-    },
-    {
-      "frame": 341,
-      "zoom": 2.4,
-      "center": [
-        586,
-        878
-      ],
-      "actors": {
-        "nemi": {
-          "position": [
-            520,
-            1030
-          ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
       "move": "cut",
       "angle": 0,
-      "settle": 7,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
       "stage": "page",
-      "travel": {
-        "pan": [
-          12.0,
-          4.0
+      "camera": {
+        "focus": [
+          540,
+          890
         ],
-        "zoom": 1.012,
-        "end": 371
+        "keys": [
+          {
+            "frame": 310,
+            "factor": 0.98,
+            "pan": [
+              -0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 332,
+            "factor": 1.045,
+            "pan": [
+              -12.0,
+              -9.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 333,
+      "zoom": 1,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 8,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "page",
+      "transition": {
+        "kind": "focus_wipe",
+        "duration": 8,
+        "event": "quick-doodle-transition-341",
+        "direction": 1,
+        "poseFrame": 341,
+        "focus": [
+          540,
+          975
+        ]
+      },
+      "camera": {
+        "focus": [
+          540,
+          930
+        ],
+        "keys": [
+          {
+            "frame": 333,
+            "factor": 0.98,
+            "pan": [
+              0.0,
+              0.0
+            ],
+            "roll": -0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 371,
+            "factor": 1.045,
+            "pan": [
+              0.0,
+              12.0
+            ],
+            "roll": -0.45,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 372,
-      "zoom": 1.12,
+      "zoom": 1,
       "center": [
-        535,
-        805
+        540,
+        960
       ],
       "actors": {
         "nemi": {
           "position": [
-            520,
-            1030
+            540,
+            900
           ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
       "move": "cut",
       "angle": 0,
-      "settle": 7,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
       "stage": "page",
-      "travel": {
-        "pan": [
-          -12.0,
-          -3.0
+      "camera": {
+        "focus": [
+          540,
+          930
         ],
-        "zoom": 0.991,
-        "end": 402
+        "keys": [
+          {
+            "frame": 372,
+            "factor": 1.0,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 402,
+            "factor": 0.92,
+            "pan": [
+              0.0,
+              -13.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 403,
-      "zoom": 0.95,
+      "zoom": 1,
       "center": [
         540,
         960
@@ -1339,158 +1768,195 @@
         "nemi": {
           "position": [
             540,
-            930
+            900
           ],
-          "scale": 1.35,
+          "scale": 1.42,
           "flip": 1
         }
       },
-      "move": "pull",
+      "move": "cut",
       "angle": 0,
-      "settle": 7,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
       "stage": "page",
-      "travel": {
-        "pan": [
-          12.0,
-          -3.0
+      "camera": {
+        "focus": [
+          540,
+          890
         ],
-        "zoom": 1.012,
-        "end": 433
+        "keys": [
+          {
+            "frame": 403,
+            "factor": 0.98,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 425,
+            "factor": 1.045,
+            "pan": [
+              12.0,
+              -9.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
-      "frame": 434,
-      "zoom": 1.12,
+      "frame": 426,
+      "zoom": 1,
       "center": [
-        535,
-        805
+        540,
+        960
       ],
       "actors": {
         "nemi": {
           "position": [
-            520,
-            1030
+            540,
+            900
           ],
-          "scale": 1.65,
+          "scale": 1.42,
           "flip": 1
         }
       },
-      "move": "punch",
-      "angle": -2,
-      "settle": 7,
+      "move": "cut",
+      "angle": 0,
+      "settle": 8,
       "direction": 1,
       "palette": "paper",
-      "stage": "page",
-      "travel": {
-        "pan": [
-          -12.0,
-          4.0
+      "stage": "plain",
+      "transition": {
+        "kind": "focus_wipe",
+        "duration": 8,
+        "event": "quick-doodle-transition-434",
+        "direction": -1,
+        "poseFrame": 434,
+        "focus": [
+          540,
+          980
+        ]
+      },
+      "camera": {
+        "focus": [
+          540,
+          930
         ],
-        "zoom": 0.991,
-        "end": 464
+        "keys": [
+          {
+            "frame": 426,
+            "factor": 0.98,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 432,
+            "factor": 0.99026,
+            "pan": [
+              0.0,
+              -2.053
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 434,
+            "factor": 1.02368,
+            "pan": [
+              0.0,
+              -8.737
+            ],
+            "roll": 0.0,
+            "ease": "out"
+          },
+          {
+            "frame": 442,
+            "factor": 1.00737,
+            "pan": [
+              0.0,
+              -5.474
+            ],
+            "roll": 0.0,
+            "ease": "out"
+          },
+          {
+            "frame": 464,
+            "factor": 1.045,
+            "pan": [
+              0.0,
+              -13.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 465,
-      "zoom": 0.95,
+      "zoom": 1.65,
       "center": [
-        540,
-        960
+        580,
+        725
       ],
       "actors": {
         "nemi": {
           "position": [
             540,
-            930
+            900
           ],
-          "scale": 1.35,
+          "scale": 1.42,
           "flip": 1
         }
       },
       "move": "cut",
       "angle": 0,
-      "settle": 7,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
-      "stage": "page",
-      "travel": {
-        "pan": [
-          12.0,
-          -3.0
+      "stage": "plain",
+      "camera": {
+        "focus": [
+          540,
+          780
         ],
-        "zoom": 1.012,
-        "end": 495
+        "keys": [
+          {
+            "frame": 465,
+            "factor": 0.95,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 495,
+            "factor": 1.14,
+            "pan": [
+              0.0,
+              -13.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     },
     {
       "frame": 496,
-      "zoom": 1.12,
-      "center": [
-        535,
-        805
-      ],
-      "actors": {
-        "nemi": {
-          "position": [
-            520,
-            1030
-          ],
-          "scale": 1.65,
-          "flip": 1
-        }
-      },
-      "move": "pull",
-      "angle": 0,
-      "settle": 7,
-      "direction": 1,
-      "palette": "paper",
-      "stage": "page",
-      "travel": {
-        "pan": [
-          -12.0,
-          -3.0
-        ],
-        "zoom": 0.991,
-        "end": 511
-      }
-    },
-    {
-      "frame": 512,
-      "zoom": 1.65,
-      "center": [
-        530,
-        605
-      ],
-      "actors": {
-        "nemi": {
-          "position": [
-            520,
-            1030
-          ],
-          "scale": 1.65,
-          "flip": 1
-        }
-      },
-      "move": "cut",
-      "angle": 0,
-      "settle": 7,
-      "direction": 1,
-      "palette": "paper",
-      "stage": "page",
-      "travel": {
-        "pan": [
-          12.0,
-          4.0
-        ],
-        "zoom": 1.012,
-        "end": 527
-      }
-    },
-    {
-      "frame": 528,
-      "zoom": 0.95,
+      "zoom": 1,
       "center": [
         540,
         960
@@ -1499,221 +1965,227 @@
         "nemi": {
           "position": [
             540,
-            930
+            900
           ],
-          "scale": 1.35,
+          "scale": 1.42,
           "flip": 1
         }
       },
-      "move": "pull",
+      "move": "cut",
       "angle": 0,
-      "settle": 7,
+      "settle": 1,
       "direction": 1,
       "palette": "paper",
-      "stage": "page",
-      "travel": {
-        "pan": [
-          -12.0,
-          -3.0
+      "stage": "plain",
+      "camera": {
+        "focus": [
+          540,
+          930
         ],
-        "zoom": 0.991,
-        "end": 539
+        "keys": [
+          {
+            "frame": 496,
+            "factor": 1.0,
+            "pan": [
+              0.0,
+              -0.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          },
+          {
+            "frame": 526,
+            "factor": 0.92,
+            "pan": [
+              0.0,
+              -13.0
+            ],
+            "roll": 0.0,
+            "ease": "linear"
+          }
+        ]
       }
     }
   ],
   "events": [
     {
       "id": "first-mark",
-      "at": 15,
-      "end": 31,
-      "kind": "spark_trail",
+      "at": 31,
+      "end": 45,
+      "kind": "pencil",
       "position": [
-        835,
-        895
+        540,
+        980
       ],
       "scale": 0.6,
       "rotation": 0,
-      "accent": false,
+      "accent": true,
+      "animation": "wipe"
+    },
+    {
+      "id": "quick-doodle-transition-93",
+      "at": 85,
+      "end": 93,
+      "kind": "ink_swoosh",
+      "position": [
+        540,
+        960
+      ],
+      "scale": 0.8,
+      "rotation": 0,
+      "accent": true,
       "animation": "burst"
     },
     {
-      "id": "idea-cloud",
-      "at": 62,
-      "end": 93,
-      "kind": "cloud",
+      "id": "page-cat",
+      "at": 93,
+      "end": 341,
+      "kind": "cat",
       "position": [
         850,
-        520
+        800
       ],
-      "scale": 0.65,
+      "scale": 0.6,
       "rotation": 0,
       "accent": true,
       "animation": "draw"
     },
     {
-      "id": "pencil-wipe",
+      "id": "page-star",
       "at": 124,
-      "end": 130,
-      "kind": "pencil",
-      "position": [
-        540,
-        900
-      ],
-      "scale": 1.05,
-      "rotation": -24,
-      "accent": false,
-      "animation": "wipe"
-    },
-    {
-      "id": "first-stars",
-      "at": 155,
-      "end": 540,
+      "end": 341,
       "kind": "stars",
       "position": [
-        830,
-        445
+        165,
+        565
       ],
-      "scale": 0.75,
-      "rotation": -7,
+      "scale": 0.6,
+      "rotation": 0,
       "accent": true,
       "animation": "draw"
     },
     {
       "id": "page-flower",
-      "at": 186,
-      "end": 540,
+      "at": 155,
+      "end": 341,
       "kind": "flower",
       "position": [
-        190,
-        780
+        165,
+        980
       ],
-      "scale": 0.72,
+      "scale": 0.6,
       "rotation": 0,
       "accent": true,
       "animation": "draw"
     },
     {
-      "id": "page-leaf",
-      "at": 217,
-      "end": 540,
-      "kind": "leaf",
+      "id": "quick-doodle-transition-186",
+      "at": 180,
+      "end": 186,
+      "kind": "landing_ticks",
       "position": [
-        196,
-        1070
+        540,
+        960
       ],
       "scale": 0.8,
-      "rotation": -17,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "page-cat",
-      "at": 248,
-      "end": 540,
-      "kind": "cat",
-      "position": [
-        880,
-        990
-      ],
-      "scale": 0.65,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "face-cloud",
-      "at": 279,
-      "end": 540,
-      "kind": "cloud",
-      "position": [
-        170,
-        540
-      ],
-      "scale": 0.6,
-      "rotation": 5,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "doodle-moon",
-      "at": 310,
-      "end": 540,
-      "kind": "moon",
-      "position": [
-        890,
-        1190
-      ],
-      "scale": 0.7,
-      "rotation": 14,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "curled-corner",
-      "at": 341,
-      "end": 540,
-      "kind": "spiral",
-      "position": [
-        195,
-        1215
-      ],
-      "scale": 0.55,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "done-ring",
-      "at": 372,
-      "end": 403,
-      "kind": "ring",
-      "position": [
-        845,
-        580
-      ],
-      "scale": 0.6,
-      "rotation": 0,
-      "accent": true,
-      "animation": "orbit"
-    },
-    {
-      "id": "cat-reveal",
-      "at": 403,
-      "end": 434,
-      "kind": "rays",
-      "position": [
-        190,
-        920
-      ],
-      "scale": 0.65,
       "rotation": 0,
       "accent": true,
       "animation": "burst"
     },
     {
-      "id": "tiny-gallery",
-      "at": 465,
-      "end": 496,
-      "kind": "heart",
+      "id": "page-leaf",
+      "at": 217,
+      "end": 341,
+      "kind": "leaf",
       "position": [
-        860,
-        770
+        850,
+        1130
       ],
-      "scale": 0.55,
+      "scale": 0.6,
       "rotation": 0,
       "accent": true,
       "animation": "draw"
     },
     {
+      "id": "page-moon",
+      "at": 248,
+      "end": 341,
+      "kind": "moon",
+      "position": [
+        850,
+        545
+      ],
+      "scale": 0.6,
+      "rotation": 0,
+      "accent": true,
+      "animation": "draw"
+    },
+    {
+      "id": "quick-doodle-transition-341",
+      "at": 333,
+      "end": 341,
+      "kind": "ink_swoosh",
+      "position": [
+        540,
+        975
+      ],
+      "scale": 0.8,
+      "rotation": 0,
+      "accent": true,
+      "animation": "burst"
+    },
+    {
+      "id": "too-many-doodles",
+      "at": 341,
+      "end": 355,
+      "kind": "scribble_burst",
+      "position": [
+        865,
+        595
+      ],
+      "scale": 0.6,
+      "rotation": 0,
+      "accent": true,
+      "animation": "burst"
+    },
+    {
+      "id": "quick-doodle-transition-434",
+      "at": 426,
+      "end": 434,
+      "kind": "ink_swoosh",
+      "position": [
+        540,
+        980
+      ],
+      "scale": 0.8,
+      "rotation": 0,
+      "accent": true,
+      "animation": "burst"
+    },
+    {
+      "id": "cat-reveal",
+      "at": 434,
+      "end": 448,
+      "kind": "impact_ring",
+      "position": [
+        540,
+        1010
+      ],
+      "scale": 0.6,
+      "rotation": 0,
+      "accent": true,
+      "animation": "burst"
+    },
+    {
       "id": "page-pride",
       "at": 496,
-      "end": 540,
+      "end": 527,
       "kind": "flower",
       "position": [
-        175,
-        465
+        875,
+        620
       ],
-      "scale": 0.65,
+      "scale": 0.6,
       "rotation": 0,
       "accent": true,
       "animation": "draw"

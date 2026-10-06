@@ -5,10 +5,13 @@ func run() -> void:
 	var path = ""
 	var review = ""
 	var stills = false
+	var selected_frames: Array = []
 	for arg in OS.get_cmdline_user_args():
 		if arg.begins_with("--spec="): path = arg.trim_prefix("--spec=")
 		if arg.begins_with("--review="): review = arg.trim_prefix("--review=")
 		if arg == "--stills": stills = true
+		if arg.begins_with("--proof-frames="):
+			for value in arg.trim_prefix("--proof-frames=").split(","): selected_frames.append(int(value))
 	root.size = Vector2i(1080,1920)
 	root.content_scale_size = Vector2i(1080,1920)
 	root.content_scale_mode = Window.CONTENT_SCALE_MODE_DISABLED
@@ -19,7 +22,9 @@ func run() -> void:
 	await process_frame
 	if stills:
 		var frames: Array = [0,edit.config.frames-1]
-		for shot in edit.config.shots: frames.append(mini(int(shot.frame)+7,int(edit.config.frames)-1))
+		if selected_frames.is_empty():
+			for shot in edit.config.shots: frames.append(mini(int(shot.frame)+7,int(edit.config.frames)-1))
+		else: frames = selected_frames
 		for f in frames:
 			edit.sample(f)
 			RenderingServer.force_draw.call_deferred(false,1.0/edit.config.fps)

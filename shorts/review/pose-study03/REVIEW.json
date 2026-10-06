@@ -1,0 +1,34 @@
+{
+  "visual_engine": "Godot 4.7.2, actual vector drawing capture",
+  "files": {
+    "nemi-body.png": "bef80eea142814fbb304c7cdf0b141086b6100eb85d19e8a8d39a78a0913abbb",
+    "adb-body.png": "239276f9d1d58257b6436e6b8e188760aac53c0acb62c82d922144a619b65803",
+    "adb-contact.png": "99be1a182cef1466aab46d38d5e1a0d224d4e34442f03545bddf213aad509ef2",
+    "nemi-contact.png": "35c0957419b6a9533163c8c871d56b109451f66598000b89ae25184689915556"
+  },
+  "bodyPose": [
+    "neutral",
+    "contrapposto",
+    "recoil",
+    "crouch",
+    "lean_in",
+    "folded",
+    "wide",
+    "groove_left",
+    "groove_right",
+    "celebrate"
+  ],
+  "performed_review": [
+    "Read supplied uncoloured reference contact sheets and REFERENCE_ANALYSIS.",
+    "Rendered both cast body and action/contact sheets; inspected actual pixels.",
+    "Fixed initial trousers shadow triangulation errors; final capture log has no engine errors.",
+    "Fixed skirt hem layering, folded sleeve foreground, book horizontal center, rigid sketch page shift.",
+    "Inspected grounded shoes, coherent torso/neck/hair/head groups, changed pelvic/shoulder/knee silhouettes and supported held props."
+  ],
+  "limits": [
+    "Held supplemental poses, not automatic walking, pickups, exchanges, jumps or rear contact art.",
+    "Nonneutral back views unsupported. folded rest only; celebrate arms_open/wave/peace.",
+    "Study is static art verification; actual production playback and transition/contact boundaries require root review.",
+    "Neutral default follows original drawing route; original storytime rigs/art not edited."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "revision": "r4",
+  "pictureReviewed": true,
+  "playbackExercised": true,
+  "observations": "Decoded40/50/61 keep both book grips aligned through the close push;257/267/278 show a small stance/head change against the fixed page graphic. All4joins clear, finished page is readable. Full normal-speed player playback and a relevant cue were exercised; the final/restart is a semantic cut, not a guaranteed seamless audio loop.",
+  "duration": 17.566666666666666,
+  "previousDuration": 18.0,
+  "cameraReview": "Native extrema and actual decoded transition/motion sequences inspected independently; no critical contact/framing defect. Close crops deliberately cut legs and captions may cross lower clothing.",
+  "browserStates": [
+    {
+      "action": "play from0",
+      "observedAt": "2026-10-06T06:46:30.503Z",
+      "duration": 17.566667,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "rate": 1,
+      "readyState": 4,
+      "source": "http://127.0.0.1:8768/shorts/nemi/quick-doodle/render/quick-doodle_r4_1080x1920.mp4",
+      "time": 0.180588
+    },
+    {
+      "action": "continuous playback / loop",
+      "observedAt": "2026-10-06T06:47:42.058Z",
+      "duration": 17.566667,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "played": [
+        [
+          0,
+          17.566667
+        ]
+      ],
+      "rate": 1,
+      "readyState": 4,
+      "time": 1.088079
+    },
+    {
+      "action": "cue14.20",
+      "observedAt": "2026-10-06T06:47:42.728Z",
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "time": 14.2
+    }
+  ],
+  "soundEvidence": "Exact-source decoded music/SFX reconstruction and unmuted1\u00d7browser playback are separate from subjective listening/audience taste.",
+  "continuousPlaybackWallSeconds": 71.555,
+  "playbackEvidence": "DOM played range covers wholeclip at1\u00d7, unmuted,readyState4,errornull; cuecontrol also exercised."
+}

@@ -1,6 +1,6 @@
 ---
 name: nemi-ink-shorts
-description: Create or improve solo Nemi music-led ink Shorts in Godot, with expressive poses, beat-synced motion, cute doodles and verified exports. Use for Nemi ink edits, reels or Shorts; excludes storytime episodes and thumbnails.
+description: Create or improve solo Nemi music-led ink Shorts in Godot, with whole-body poses, expressive subtle acting, directed camera movement and verified music edits. Use for Nemi ink edits, reels or Shorts; excludes storytime episodes and thumbnails.
 ---
 
 # Nemi ink Shorts
@@ -9,29 +9,33 @@ Direct **Nemi only**. Use observant curiosity, art/music excitement and self-awa
 
 The matched starting examples are [My song](../../../shorts/nemi/my-song/short.json) and [One quick doodle](../../../shorts/nemi/quick-doodle/short.json), with sibling `Edit.tscn` scenes. Read the closest example and its direction, then create a different visual sequence. If the user asks for both characters, switch to `$duo-ink-shorts`.
 
-## Start from the maintained engine
+## Use the maintained motion-edit route
 
-Work from the repository containing `shorts/godot/validate_ink.py`. An installed skill can resolve back to its repo through the script's real path; pass `--repo /path/to/adb` if needed.
+Work in the repository containing `shorts/godot/validate_ink.py`; the helper resolves its real repository path, or accepts `--repo /path/to/adb`. Read [Shorts rules](../../../shorts/AGENTS.md), [current workflow](../../../shorts/godot/V3_WORKFLOW.md), [schema](../../../shorts/godot/V3_SCHEMA.md) and [character direction](../../../shorts/godot/CHARACTER_DIRECTION.md). Before authoring, read the relevant supplied-reference motion analysis: [ref03 reaction/framing and join notes](../../../shorts/review/motion04/ref03/MOTION.md). Inspect its linked actual frames/video and record which observed device applies. Read another reference report when borrowing its different device. Do not infer unobserved internal acting from camera-transformed held art.
 
-Read [current Shorts rules](../../../shorts/AGENTS.md), [version-3 workflow](../../../shorts/godot/V3_WORKFLOW.md), [version-3 schema](../../../shorts/godot/V3_SCHEMA.md), and [character direction](../../../shorts/godot/CHARACTER_DIRECTION.md) before authoring. Read the relevant supported action/event/motion fields, rather than inventing APIs. Inspect the author-matched upgraded example below and its exported movie at phone size. Batch01 is approved style context, but its old version-2 timing does not meet the current pacing request.
+[Motion04](../../../shorts/review/motion04/index.html) is the current review target. The canonical example source/cue map is the editing entry; `review/current.json` and actual QA identify which exported revision passed. Revision03 is preserved interim pose work, not automatically a completed approved batch. Compare the matched example and relevant reference at phone size with sound before treating it as visual direction.
 
-All production source, downloaded music, intermediate media, reviews and exports stay under `shorts/`. These are separate music edits, not numbered storytime episodes. Godot draws every visual frame from editable vector art. No imagegen, generated bitmap characters, reference-video sprites, Remotion visuals or new private playback engine. Preserve original storytime episodes, rigs, pose/face/hand libraries and voice settings. Narration is absent by default.
+Godot draws every visual frame from separate editable Shorts vector art. Original episodes, character rigs/definitions, pose/face/hand libraries, voice recordings and settings stay protected. No imagegen, bitmap restyling, reference-video sprites, alternate player or narration by default. Storytime keeps its separate production route.
 
-## Direct a new edit
+## Direct the thought, pose and continuing movement
 
-Save a brief beside `short.json`: premise, want, visible choice, consequence, payoff; then list thought beats with one audience focus each. Build a cute causal sequence, not a shuffle of poses. Choose a distinct visual device and palette/shading treatment for this idea. One small stable premise can help; do not turn it into caption-led storytime.
+Save `DIRECTION.md` first: readable promise/want, visible choice, consequence/reversal and payoff. List one audience focus per thought. Begin with a recognisable first-second situation/posture. Choose12–25s for the real visual/music phrase; stop after the useful payoff and remove repeated closing cards rather than padding to15s. Retention is an aim, not a guarantee from a pose count.
 
-Use a total duration of **12–25 seconds**, chosen for the music phrase and payoff. No fully static image interval may exceed **1.5 seconds**. Use new visible poses, expressions, finite hand/head motion, purposeful reframes/travel and event-linked doodles to keep the thought developing. Tiny camera jitter, endless bobbing, constant random redraws and blinks alone do not satisfy the requested dynamism. Completed ink stays stable. The pacing tools catch temporal failures; they do not judge story clarity or guarantee an engaging edit.
+Plan supported whole-body pose/view/action cards, then give each a subtle ongoing eye lead, head/grounded torso response and meaningful settle. A new crop or hand shape is not another body pose. Show the principal silhouettes with grounded feet; use a face/prop/single crop only when attention changes and return wider when the payoff needs it. Keep supported fingers/props locked. No fake walking, pickup or exchange. If `pageArt` matters, author its continuity on every relevant sketch cue; a generic cat prop cannot truthfully stand for an unrevealed moon.
 
-Choose recognizable music whose energy fits the visual topic. Reuse a documented recording when it fits; download a new public recording/preview when authorized by the task. Read [saved music provenance](../../../shorts/assets/music/batch01/MUSIC_SOURCES.md) and the selected track's metadata/analysis. Preserve exact artist/version, source page/download URL, acquisition date, original and decoded hashes, selected source interval and gain. A preview's time is relative to that preview unless its full-song offset is known. Do not claim a current trend rank without fresh evidence. The user removed the copyright-selection gate.
+Direct `shot.camera` as a finite base push/pull/pan through that thought. Add a smaller short impulse only at a selected audible source attack. Use its actual screen focus and absolute-frame `factor`, `pan`, `roll`, `ease` keys from the schema; choose camera or legacy travel, not both. Inspect speed through joins and safe hands/feet/props across the entire path. Avoid copying one camera/acting recipe into every card. Stable completed ink means coherent world-space lines; the camera may move them on screen. Avoid random redraws, universal periodic bob, hand/sleeve loops or meaningless drift.
 
-Audition the section, then save a cue map linking important picture/gesture/doodle changes to source accents on the scene clock. Use the maintained audio-analysis tools; onset candidates are not automatically confirmed downbeats. Picture times are integer frames at 30 fps, audio positions seconds. Use original recorded root/category SFX only when they strengthen a named event; preserve their inventory provenance and hash. Do not synthesize substitute SFX or use a meme vocal as new character dialogue.
+Use clean cuts where readable; named finite smear/whip/match/focus wipes can anticipate a selected accent and land the target drawing through `poseFrame`. A match needs actual framing/scale/focus contrast. Then let the camera and internal thought continue rather than leaving an idle card. Selected VFX emphasize focus without masking faces or grips; completed doodles stay fixed after drawing.
 
-Run `scripts/build_short.py new <short-slug>` from this skill to create `shorts/nemi/<short-slug>/` from its matched approved template. It copies editable `short.json` and `Edit.tscn`, updates the scene path, and creates unreviewed direction/cue records. Adapt the template into a distinct idea before rendering. Put movies in `render/`, QA/stills/logs in `review/`, and optional unique assets in `assets/`. Shared drawings/engine stay in `shorts/godot/`, shared music in `shorts/assets/music/`. Author supported cues, per-actor visible `motion`, shots/travel and finite events. Keep attached props locked to their fingers. Use genuine separately drawn views. Cut between contact drawings if a continuous pickup/handoff has not been authored. Extend only separate Shorts art/director files when necessary, updating the schema and an executable example together.
+## Direct actual music and sound
 
-## Render and verify
+Read [recording provenance](../../../shorts/assets/music/batch01/MUSIC_SOURCES.md), selected track metadata/analysis and [beat-direction evidence](../../../shorts/review/motion04/BEAT_DIRECTION.md) where useful. Audition the real chosen interval. Preserve artist/version/source URLs, raw/decoded hashes, preview-relative sourceStart, duration and gain. Keep source rate/pitch unchanged. A famous recording is not proof of a current trend rank; the user removed the copyright-selection gate.
 
-Run the bundled wrapper from the repository root; replace the production and revision:
+Link pose arrivals, internal response and small camera impulses separately in `CUE_MAP.json`. Use meaningful source attacks/texture changes, not every spectral-flux peak. Low-band/body, bright/percussive and vocal/mixed attacks are not interchangeable confirmed downbeats or phrase labels. End audition verifies a proposed trim; source measurements alone cannot establish a lyric/tonal cadence or seamless loop. Use only exact recorded root/category SFX linked to named events, retaining hashes/attack trims. No synthesized replacements or meme vocal as new dialogue.
+
+## Create, render and review
+
+Canonical folder: `shorts/nemi/<short-slug>/`. Source/scene/direction/cue map at root; movies in `render/`; evidence/stills/logs in `review/`; optional unique assets in `assets/`. Shared art/engine lives in `shorts/godot/`, recordings in `shorts/assets/music/`. Start with the helper, then adapt the copied matched template before rendering:
 
 ```sh
 .venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py new new-music-moment
@@ -40,14 +44,14 @@ Run the bundled wrapper from the repository root; replace the production and rev
 .venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py build shorts/nemi/new-music-moment/short.json --revision r1
 ```
 
-Inspect the stills before the full build. For an already-rendered movie:
+The helper enforces cast/version/canonical layout and uses the maintained validator/renderer. Use an unused revision. Inspect fresh native settled poses, internal-action/contact samples, camera extrema/impulses and transition before/mid/end, plus real-speed motion; a still does not prove continuous feel. Fix cropped palms, slipping props, stage/contact mismatch, hidden thought or a dead between-pose slab before full export.
+
+For an existing movie:
 
 ```sh
 .venv/bin/python .agents/skills/nemi-ink-shorts/scripts/build_short.py check shorts/nemi/new-music-moment/short.json --movie shorts/nemi/new-music-moment/render/new-music-moment_r1_1080x1920.mp4
 ```
 
-The wrapper enforces this skill's author scope, version 3 and canonical cast/slug folder, then uses the maintained validator/renderer. A build/check independently inspects the decoded export, verifies exact-source audio and checks decoded static runs. It fails if audio or pacing fails, or if the pacing evidence is missing. Use a fresh revision; the renderer preserves earlier movies.
+Build/check independently verifies actual encoded picture, exact-source decoded music/SFX and static runs≤1.5s. It fails on missing/pacing/audio evidence; do not bypass errors. These tests do not rate creativity. Watch the entire exported clip with sound at phone size: hook, causal reversal/payoff, internal nuance, camera development/joins, real music alignment, SFX balance, correct ending duration and restart. Repair and rerender when it fails. Save only performed observations in `review/QA.md`, then select `review/current.json` and update the render index/gallery. Technical pass deliberately leaves playback/creative review pending.
 
-Watch the actual exported movie with sound at phone size. Check the first/final image, causal payoff, face/hand readability, contact at motion boundaries, useful pose variety, actual music synchronization, finite VFX and SFX balance. Repair failures and rerender; do not declare success from logs or contact sheets alone. Save only performed observations in `review/QA.md`, plus the technical reports, cue map, source/music provenance and selected revision. The wrapper's technical-pass record deliberately leaves visual/playback review pending.
-
-For a batch or shared-engine change, take the maintained isolation snapshot before work and run its comparison afterward; record authorized skills/routing changes separately from protected episode/rig source. Keep older ink revisions until the replacement passes. Delete rejected legacy prototypes only within an explicit cleanup request. Deliver the playable checked movie and editable source; publishing, messaging others and unrelated episode edits require their own authorization.
+For recuts, preserve prior source/review/movie before edits. Current history uses `review/source-r1/`, `review/r1/` and `review/source-motion03/`; earlier movies stay in `render/` until replacement QA. Source hashes belong to their actual revisions. For shared-engine/batch work, snapshot/compare protected storytime source/settings and record authorized skill/routing changes separately. Deliver checked playable media and editable source; generated media stays local. Publishing, external messaging and unrelated episodes require their own request.

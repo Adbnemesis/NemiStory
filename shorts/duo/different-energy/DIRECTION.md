@@ -1,46 +1,44 @@
-# Same beat, different energy — dynamic ink revision
+# Same beat, different energy · motion edit r5
 
-17.5 seconds, 22 authored image changes. Longest shot interval: 1.100s. Each shot adds a finite gaze/head/hand settle and subtle directed camera follow; this interval is a source-layout bound, not yet a decoded-video stillness measurement.
+Current source is at the Short root. Original r1 source is preserved in review/source-r1/; the interim pose-first source is in review/source-motion03/. Movies are immutable revisions in render/.
 
-Nemi anticipates the drop, opens both hands, and invites the restrained ADB into the groove. Chin, shrug, tiny thumb and finally a small smile give his quiet role actual decisions. The late shared frame earns its heart because both have participated. Rounded Nemi marks and angular ADB marks keep their personalities readable.
+**Promise:** The same musical build creates opposite whole-body reactions, then one shared groove.
 
-**Premise:** same song / different energy
+**Want:** Enjoy the same song in their own ways.
 
-**Contact and staging:** Full-body pair shots keep feet visible and rooted. Individual inserts are cuts, not teleporting walks. Separate back art is only used for Nemi rest. Neither actor performs a universal dance loop; the dynamic edit comes from finite authored hand/eye/head phrases and responsive camera moves.
+**Choice:** Nemi commits openly and offers the beat to ADB.
 
-**Music:** memory-reboot; existing downloaded source and identity records retained. Preview timeline starts at 10.3848s, with 17.5s used. Music playback rate remains 1.0. Every cue records its selected spectral-flux onset and frame-grid error in CUE_MAP.json. Spectral accents do not establish musical downbeats.
+**Consequence:** His folded composure shifts into one deliberate reply.
 
-**Timing and focus**
+**Payoff:** They share the same grounded groove direction while keeping different gestures.
 
-| Frame / time | Audience focus | Pose/edit change |
-|---|---|---|
-| 0 / 0.000s | The pair hear the same song with opposite faces | nemi: rest; adb: rest; cut |
-| 32 / 1.067s | ADB considers whether this requires any reaction | adb: chin; cut |
-| 65 / 2.167s | Nemi knows the stronger passage is coming | nemi: chin; cut |
-| 82 / 2.733s | One hip pose gets one restrained shrug | nemi: hip; adb: shrug; pull |
-| 109 / 3.633s | Her pointing hand announces the arrival | nemi: point; cut |
-| 120 / 4.000s | Drop arrival opens both palms and changes the ink palette | nemi: arms_open; punch |
-| 142 / 4.733s | He answers with tiny open palms | adb: shrug; cut |
-| 164 / 5.467s | Grounded outfit silhouette still looks unimpressed | adb: hip; pull |
-| 187 / 6.233s | Nemi waves the melody into a larger hand shape | nemi: wave; punch |
-| 208 / 6.933s | True profile and peace answer his stillness | nemi: peace; whip |
-| 231 / 7.700s | A side glance finally acknowledges her | adb: chin; cut |
-| 253 / 8.433s | Wide approval invitation lands on the stronger phrase | nemi: thumbsup; adb: rest; pull |
-| 275 / 9.167s | ADB gives his first deliberately tiny thumb | adb: thumbsup; cut |
-| 297 / 9.900s | Their contrasting poses are now a shared joke | nemi: hip; adb: thumbsup; pull |
-| 319 / 10.633s | Separate Nemi back view punctuates the phrase | nemi: rest; whip |
-| 341 / 11.367s | Nemi accepts even his tiny participation | nemi: heart_hand; cut |
-| 363 / 12.100s | His small smile makes the payoff visible | adb: thumbsup; punch |
-| 385 / 12.833s | Both now own a different version of the beat | nemi: peace; adb: thumbsup; pull |
-| 408 / 13.600s | A short wave is his biggest gesture so far | adb: wave; cut |
-| 430 / 14.333s | Her amused side glance catches that wave | nemi: hip; cut |
-| 463 / 15.433s | Rounded heart and angular approval share the frame | nemi: heart_hand; adb: thumbsup; pull |
-| 496 / 16.533s | Two different energies finish together | nemi: peace; adb: thumbsup; cut |
+The approved ink identity stays. Eyes lead, the head and small grounded shoulder response follow, and a finite camera path develops the attention through the held drawing. Most strokes remain one coherent drawing; camera motion does not redraw completed ink. Props and finger contact share their existing matrices. Gesture progress stays fully arrived, rather than repeating arm entries.
 
-**Motion rule:** Eyes choose the focal point first; head and authored hand settle within seven frames. Feet stay planted. Separate profile/back views are explicit drawings; cuts imply a change in orientation, without pretending to be a universal walk/turn system. Gesture interpolation cannot slide a held prop away from its authored fingers. Completed doodles remain still after entry, while finite rings/trails/confetti have event-bounded paths.
+**Duration:** 17.5s → 15s. Keep the complete visual payoff and end before repeated closing poses or the next source texture cycle; sourceStart and recording/gain remain unchanged.
 
-**Effects rule:** Each named doodle supports the current feeling or object. Music carries the edit; original recorded root SFX only accent selected event landings. No synthetic effects, narration, image generation, or storytime source modification.
+**Music:** exact approved recording shorts/assets/music/batch01/memory-reboot.wav, preview-relative source start 10.3848s, gain -6.18dB, selected duration 15s. Saved accent measurements are candidates; selected camera attack/recovery keys and their frame quantization are in CUE_MAP.json. The source identity, speed and gain stay unchanged.
 
-The main phrase arrival remains frame120/4.000s, matching the measured source accent at 14.3848s. The expanded late section fits within the downloaded preview: 10.3848s start plus 17.5s duration = 27.8848s.
+**Camera:** calm base push/pull/pan follows the thought throughout each shot. Stronger face/detail pushes contrast with safe full-body compositions. Selected low-band source attacks receive a small finite scale/vertical impulse; thin build/recovery passages remain quieter. Physical door/runway/column stage lines follow the same camera delta; page/viewfinder graphics and the premise stay screen anchored. Departing art inherits its actual last camera transform.
 
-**Review status:** Source storyboard authored. Validator, Godot stills, decoded motion/static intervals, native exported playback, audio synchronization and actual effect audibility must be recorded after render under review/. Passing the schema alone is not a visual quality claim.
+| Transition start → pose arrival | Viewer focus | Held body/view/action | Camera direction |
+|---|---|---|---|
+| 0.000s → 0.000s | The pair are a clear wide-versus-folded contrast from the first image. | nemi: wide/threequarter/listen; adb: folded/threequarter/rest | build_push |
+| 1.067s → 1.067s | ADB keeps the reaction economical while Nemi leans into the coming phrase. | nemi: lean_in/threequarter/listen; adb: contrapposto/threequarter/hip | dry_pull |
+| 2.167s → 2.167s | Nemi lowers into anticipation; ADB stays deliberately folded. | nemi: crouch/threequarter/rest; adb: folded/front/rest | anticipate_push |
+| 2.733s → 2.733s | She widens the anticipation while his supported stance barely concedes interest. | nemi: wide/threequarter/point; adb: groove_right/threequarter/rest | invite_slide |
+| 3.633s → 3.633s | Her forward invitation points toward him before the stronger source accent. | nemi: lean_in/profile/point; adb: folded/threequarter/rest | invite_slide |
+| 3.733s → 4.000s | The measured texture arrival produces her huge raised silhouette and his tiny recoil. | nemi: celebrate/front/arms_open; adb: recoil/front/rest | drop_push |
+| 5.467s → 5.467s | Her left groove owns the drop while he regains the folded baseline. | nemi: groove_left/front/wave; adb: folded/threequarter/rest | groove_slide |
+| 6.667s → 6.933s | The answering right groove stays playful; his glance starts to follow it. | nemi: groove_right/threequarter/peace; adb: lean_in/threequarter/chin | groove_slide |
+| 8.167s → 8.433s | Nemi opens the invitation toward ADB instead of performing past him. | nemi: wide/threequarter/arms_open; adb: contrapposto/threequarter/hip | invite_slide |
+| 9.900s → 9.900s | ADB answers with a deliberate left groove; she notices the choice. | nemi: lean_in/profile/rest; adb: groove_left/front/thumbsup | reply_push |
+| 11.167s → 11.367s | The shared left-supported groove makes the agreement visible in both bodies. | nemi: groove_left/front/peace; adb: groove_left/front/hip | shared_push |
+| 12.100s → 12.100s | Both bodies answer the shared groove to the other side, before returning left on the next measured accent. | nemi: groove_right/front/wave; adb: groove_right/front/hip | shared_slide |
+| 12.833s → 12.833s | The shared right-supported reply keeps their distinct hand vocabulary. | nemi: groove_left/threequarter/wave; adb: groove_left/threequarter/glasses | shared_slide |
+| 14.067s → 14.333s | Nemi celebrates broadly while ADB closes with a calm wide approval. | nemi: celebrate/front/wave; adb: wide/front/thumbsup | payoff_pull |
+
+**Sound and effects:** The recorded SFX and selected finite doodles/VFX strengthen recognition, transition, choice and payoff. Music stays the lead; no synthesized SFX or new character voice. Event clocks/recording hashes/gains remain in the spec and cue map.
+
+**Review:** source intent only until fresh native motion extrema, transition boundaries, encoded picture/audio/pacing and full playback are recorded in review/QA.md. Examine the first-second premise, within-pose movement, eye/contact margins, actual attack arrivals and final-to-first cut. No audience retention outcome is inferred from these craft checks.
+
+**Playback correction:** The anticipatory whip begins at3.733s on paper; the dark palette now lands at4.000s with the measured main drop. Camera continuity and the same incoming body pose remain, rather than spending the strongest contrast early.

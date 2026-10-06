@@ -1,0 +1,912 @@
+{
+  "version": 3,
+  "revision": "r2",
+  "id": "nemi-tiny-cat",
+  "fps": 30,
+  "frames": 435,
+  "music": {
+    "file": "shorts/assets/music/batch01/cheri-cheri-lady.wav",
+    "sourceHash": "3617fd993e113d231f8b29ce4920f3e36613c916e37edba520417fa28f294260",
+    "sourceStart": 12.7826,
+    "duration": 14.5,
+    "gainDb": -7.07
+  },
+  "recordingMeta": "shorts/assets/music/batch01/cheri-cheri-lady.json",
+  "sourceAnalysis": "shorts/assets/music/batch01/cheri-cheri-lady.analysis.json",
+  "beatPlan": "shorts/assets/music/batch01/cheri-cheri-lady.edit-plan.json",
+  "bpm": 114.027,
+  "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "sourceTimeline": "Downloaded preview clock; full-song offset unknown.",
+  "timingPolicy": "Pose swaps land at selected accent frames. Named transitions start6-8frames earlier and finish on the pose accent; transition start is not falsely labeled a downbeat.",
+  "playbackReview": "pending",
+  "cuts": [
+    {
+      "frame": 0,
+      "sceneTime": 0.0,
+      "sourceTimeAtPicture": 12.7826,
+      "selectedAccentSourceTime": 12.7826,
+      "transition": null,
+      "poseLandingFrame": 0,
+      "poseLandingTime": 0.0,
+      "poseLandingErrorMs": 0.0,
+      "transitionStartMinusAccentMs": 0.0,
+      "audienceFocus": "A curled low sketch pose and a crescent make the tiny idea clear.",
+      "visibleBodyPoses": {
+        "nemi": "crouch"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 31,
+      "sceneTime": 1.033333,
+      "sourceTimeAtPicture": 13.815933,
+      "selectedAccentSourceTime": 13.8275,
+      "transition": null,
+      "poseLandingFrame": 31,
+      "poseLandingTime": 1.033333,
+      "poseLandingErrorMs": -11.567,
+      "transitionStartMinusAccentMs": -11.567,
+      "audienceFocus": "A forward pencil lean follows the crescent curve.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 57,
+      "sceneTime": 1.9,
+      "sourceTimeAtPicture": 14.6826,
+      "selectedAccentSourceTime": 14.884,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "nemi-tiny-cat-transition-63",
+        "direction": -1,
+        "poseFrame": 63,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 63,
+      "poseLandingTime": 2.1,
+      "poseLandingErrorMs": -1.4,
+      "transitionStartMinusAccentMs": -201.4,
+      "audienceFocus": "A tilted supported chin pose notices the sleepy curl.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "chin"
+      },
+      "framing": "true profile crescent-recognition close-up; her eyes notice the sleepy curl",
+      "stage": "page",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1.6,
+      "cameraCenter": [
+        565,
+        680
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "profile"
+      }
+    },
+    {
+      "frame": 95,
+      "sceneTime": 3.166667,
+      "sourceTimeAtPicture": 15.949267,
+      "selectedAccentSourceTime": 15.9289,
+      "transition": null,
+      "poseLandingFrame": 95,
+      "poseLandingTime": 3.166667,
+      "poseLandingErrorMs": 20.367,
+      "transitionStartMinusAccentMs": 20.367,
+      "audienceFocus": "The opposite drawing stance adds a deliberate little line.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 126,
+      "sceneTime": 4.2,
+      "sourceTimeAtPicture": 16.9826,
+      "selectedAccentSourceTime": 16.9854,
+      "transition": null,
+      "poseLandingFrame": 126,
+      "poseLandingTime": 4.2,
+      "poseLandingErrorMs": -2.8,
+      "transitionStartMinusAccentMs": -2.8,
+      "audienceFocus": "Her wide pointing silhouette commits to the cat idea.",
+      "visibleBodyPoses": {
+        "nemi": "wide"
+      },
+      "visibleActions": {
+        "nemi": "point"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 150,
+      "sceneTime": 5.0,
+      "sourceTimeAtPicture": 17.7826,
+      "selectedAccentSourceTime": 18.0419,
+      "transition": {
+        "kind": "focus_wipe",
+        "duration": 8,
+        "event": "nemi-tiny-cat-transition-158",
+        "direction": 1,
+        "poseFrame": 158,
+        "focus": [
+          850,
+          570
+        ]
+      },
+      "poseLandingFrame": 158,
+      "poseLandingTime": 5.266667,
+      "poseLandingErrorMs": 7.367,
+      "transitionStartMinusAccentMs": -259.3,
+      "audienceFocus": "A low curled body and the new cat replace the original moon together.",
+      "visibleBodyPoses": {
+        "nemi": "crouch"
+      },
+      "visibleActions": {
+        "nemi": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 174,
+      "sceneTime": 5.8,
+      "sourceTimeAtPicture": 18.5826,
+      "selectedAccentSourceTime": 18.5644,
+      "transition": null,
+      "poseLandingFrame": 174,
+      "poseLandingTime": 5.8,
+      "poseLandingErrorMs": 18.2,
+      "transitionStartMinusAccentMs": 18.2,
+      "audienceFocus": "The forward lean checks the now-readable sleepy cat.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "chin"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "profile"
+      }
+    },
+    {
+      "frame": 205,
+      "sceneTime": 6.833333,
+      "sourceTimeAtPicture": 19.615933,
+      "selectedAccentSourceTime": 19.6093,
+      "transition": null,
+      "poseLandingFrame": 205,
+      "poseLandingTime": 6.833333,
+      "poseLandingErrorMs": 6.633,
+      "transitionStartMinusAccentMs": 6.633,
+      "audienceFocus": "A side-supported sketch pose adds its tiny dream.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 237,
+      "sceneTime": 7.9,
+      "sourceTimeAtPicture": 20.6826,
+      "selectedAccentSourceTime": 20.6658,
+      "transition": null,
+      "poseLandingFrame": 237,
+      "poseLandingTime": 7.9,
+      "poseLandingErrorMs": 16.8,
+      "transitionStartMinusAccentMs": 16.8,
+      "audienceFocus": "The answering supported stance adds a soft flower.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 261,
+      "sceneTime": 8.7,
+      "sourceTimeAtPicture": 21.4826,
+      "selectedAccentSourceTime": 21.7223,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "nemi-tiny-cat-transition-269",
+        "direction": 1,
+        "poseFrame": 269
+      },
+      "poseLandingFrame": 269,
+      "poseLandingTime": 8.966667,
+      "poseLandingErrorMs": 26.967,
+      "transitionStartMinusAccentMs": -239.7,
+      "audienceFocus": "A low chin crouch echoes the sleepy cat one last time.",
+      "visibleBodyPoses": {
+        "nemi": "crouch"
+      },
+      "visibleActions": {
+        "nemi": "chin"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 292,
+      "sceneTime": 9.733333,
+      "sourceTimeAtPicture": 22.515933,
+      "selectedAccentSourceTime": 22.7672,
+      "transition": {
+        "kind": "focus_wipe",
+        "duration": 8,
+        "event": "nemi-tiny-cat-transition-300",
+        "direction": -1,
+        "poseFrame": 300,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 300,
+      "poseLandingTime": 10.0,
+      "poseLandingErrorMs": 15.4,
+      "transitionStartMinusAccentMs": -251.267,
+      "audienceFocus": "She opens into the finished-cat book presentation with exact two-hand grips.",
+      "visibleBodyPoses": {
+        "nemi": "wide"
+      },
+      "visibleActions": {
+        "nemi": "book_show"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 332,
+      "sceneTime": 11.066667,
+      "sourceTimeAtPicture": 23.849267,
+      "selectedAccentSourceTime": 23.8237,
+      "transition": null,
+      "poseLandingFrame": 332,
+      "poseLandingTime": 11.066667,
+      "poseLandingErrorMs": 25.567,
+      "transitionStartMinusAccentMs": 25.567,
+      "audienceFocus": "A forward presentation gives the little cat its own moment.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "book_show"
+      },
+      "framing": "finished-cat book close-up; exact two-hand page contact supplies the payoff",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1.6,
+      "cameraCenter": [
+        590,
+        725
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 363,
+      "sceneTime": 12.1,
+      "sourceTimeAtPicture": 24.8826,
+      "selectedAccentSourceTime": 24.8802,
+      "transition": null,
+      "poseLandingFrame": 363,
+      "poseLandingTime": 12.1,
+      "poseLandingErrorMs": 2.4,
+      "transitionStartMinusAccentMs": 2.4,
+      "audienceFocus": "The proud side-supported pose keeps the finished page steady.",
+      "visibleBodyPoses": {
+        "nemi": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "book_show"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 389,
+      "sceneTime": 12.966667,
+      "sourceTimeAtPicture": 25.749267,
+      "selectedAccentSourceTime": 25.9251,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "nemi-tiny-cat-transition-395",
+        "direction": 1,
+        "poseFrame": 395,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 395,
+      "poseLandingTime": 13.166667,
+      "poseLandingErrorMs": 24.167,
+      "transitionStartMinusAccentMs": -175.833,
+      "audienceFocus": "A soft low book pose makes the creator echo her sleepy subject.",
+      "visibleBodyPoses": {
+        "nemi": "crouch"
+      },
+      "visibleActions": {
+        "nemi": "book_show"
+      },
+      "framing": "low cat-book medium insert; her curled creator pose echoes the sleepy subject",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1.45,
+      "cameraCenter": [
+        575,
+        835
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 411,
+      "sceneTime": 13.7,
+      "sourceTimeAtPicture": 26.4826,
+      "selectedAccentSourceTime": 26.4591,
+      "transition": null,
+      "poseLandingFrame": 411,
+      "poseLandingTime": 13.7,
+      "poseLandingErrorMs": 23.5,
+      "transitionStartMinusAccentMs": 23.5,
+      "audienceFocus": "The open book pose resolves the shy starting silhouette.",
+      "visibleBodyPoses": {
+        "nemi": "wide"
+      },
+      "visibleActions": {
+        "nemi": "book_show"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 427,
+      "sceneTime": 14.233333,
+      "sourceTimeAtPicture": 27.015933,
+      "selectedAccentSourceTime": 26.9816,
+      "transition": null,
+      "poseLandingFrame": 427,
+      "poseLandingTime": 14.233333,
+      "poseLandingErrorMs": 34.333,
+      "transitionStartMinusAccentMs": 34.333,
+      "audienceFocus": "The final forward book lean closes on the cat, not another unrelated icon.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "book_show"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    }
+  ],
+  "poseLandings": [
+    {
+      "frame": 0,
+      "sourceTime": 12.7826,
+      "sourceAccent": 12.7826,
+      "errorMs": 0.0,
+      "focus": "A curled low sketch pose and a crescent make the tiny idea clear."
+    },
+    {
+      "frame": 31,
+      "sourceTime": 13.815933333333334,
+      "sourceAccent": 13.8275,
+      "errorMs": -11.567,
+      "focus": "A forward pencil lean follows the crescent curve."
+    },
+    {
+      "frame": 63,
+      "sourceTime": 14.8826,
+      "sourceAccent": 14.884,
+      "errorMs": -1.4,
+      "focus": "A tilted supported chin pose notices the sleepy curl."
+    },
+    {
+      "frame": 95,
+      "sourceTime": 15.949266666666666,
+      "sourceAccent": 15.9289,
+      "errorMs": 20.367,
+      "focus": "The opposite drawing stance adds a deliberate little line."
+    },
+    {
+      "frame": 126,
+      "sourceTime": 16.9826,
+      "sourceAccent": 16.9854,
+      "errorMs": -2.8,
+      "focus": "Her wide pointing silhouette commits to the cat idea."
+    },
+    {
+      "frame": 158,
+      "sourceTime": 18.049266666666668,
+      "sourceAccent": 18.0419,
+      "errorMs": 7.367,
+      "focus": "A low curled body and the new cat replace the original moon together."
+    },
+    {
+      "frame": 174,
+      "sourceTime": 18.5826,
+      "sourceAccent": 18.5644,
+      "errorMs": 18.2,
+      "focus": "The forward lean checks the now-readable sleepy cat."
+    },
+    {
+      "frame": 205,
+      "sourceTime": 19.615933333333334,
+      "sourceAccent": 19.6093,
+      "errorMs": 6.633,
+      "focus": "A side-supported sketch pose adds its tiny dream."
+    },
+    {
+      "frame": 237,
+      "sourceTime": 20.6826,
+      "sourceAccent": 20.6658,
+      "errorMs": 16.8,
+      "focus": "The answering supported stance adds a soft flower."
+    },
+    {
+      "frame": 269,
+      "sourceTime": 21.749266666666667,
+      "sourceAccent": 21.7223,
+      "errorMs": 26.967,
+      "focus": "A low chin crouch echoes the sleepy cat one last time."
+    },
+    {
+      "frame": 300,
+      "sourceTime": 22.782600000000002,
+      "sourceAccent": 22.7672,
+      "errorMs": 15.4,
+      "focus": "She opens into the finished-cat book presentation with exact two-hand grips."
+    },
+    {
+      "frame": 332,
+      "sourceTime": 23.849266666666665,
+      "sourceAccent": 23.8237,
+      "errorMs": 25.567,
+      "focus": "A forward presentation gives the little cat its own moment."
+    },
+    {
+      "frame": 363,
+      "sourceTime": 24.8826,
+      "sourceAccent": 24.8802,
+      "errorMs": 2.4,
+      "focus": "The proud side-supported pose keeps the finished page steady."
+    },
+    {
+      "frame": 395,
+      "sourceTime": 25.949266666666666,
+      "sourceAccent": 25.9251,
+      "errorMs": 24.167,
+      "focus": "A soft low book pose makes the creator echo her sleepy subject."
+    },
+    {
+      "frame": 411,
+      "sourceTime": 26.482599999999998,
+      "sourceAccent": 26.4591,
+      "errorMs": 23.5,
+      "focus": "The open book pose resolves the shy starting silhouette."
+    },
+    {
+      "frame": 427,
+      "sourceTime": 27.015933333333333,
+      "sourceAccent": 26.9816,
+      "errorMs": 34.333,
+      "focus": "The final forward book lean closes on the cat, not another unrelated icon."
+    }
+  ],
+  "sfxEvents": [
+    {
+      "event": "ear-thought",
+      "file": "common/audio/sfx/ping.mp3",
+      "sourceHash": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "sourceStart": 0.3,
+      "duration": 0.8,
+      "gainDb": -3,
+      "offsetFrames": 0
+    },
+    {
+      "event": "moon-to-cat",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -4,
+      "offsetFrames": 0
+    },
+    {
+      "event": "cat-presented",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -4,
+      "offsetFrames": 0
+    },
+    {
+      "event": "cat-approved",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -5,
+      "offsetFrames": 0
+    }
+  ],
+  "review": "Authored intentions only. Decoded-cut/audio/pacing and full playback review are pending.",
+  "framingPolicy": "Full-body silhouette beats alternate with three purpose-led reaction/prop/single inserts; the next wider shot restores grounding or shared cause/payoff."
+}

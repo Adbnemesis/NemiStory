@@ -1,587 +1,444 @@
 {
-  "movie": "/Users/talus/Documents/adb/shorts/adb/adb-big-idea/render/adb-big-idea_r1_1080x1920.mp4",
-  "sha256": "6fe52e5d62339c2972c534ec66b9f3d23e82040e0f72d6b6bb1f499e82d50290",
-  "specSha256": "0b1e06ae706e78cd0da34341347c853f78e10d069e0e951aed4028cd3aa44260",
+  "movie": "/Users/talus/Documents/adb/shorts/adb/adb-big-idea/render/adb-big-idea_r4_1080x1920.mp4",
+  "sha256": "e246b2c7ec4c3d4c2c8e2d6dab51c26724c77b764aa05c7c91496c38fe89bf35",
+  "specSha256": "3a507caf81ac21b71eaf6372ef090605392aa60612674c917a5e5843ac936d11",
   "video": {
     "width": 1080,
     "height": 1920,
-    "frames": 465,
+    "frames": 420,
     "fps": 30,
-    "duration": 15.5,
+    "duration": 14.0,
     "codec": "h264"
   },
   "audio": {
     "codec": "aac",
-    "sampleRate": "44100",
+    "sampleRate": "48000",
     "channels": 2
   },
   "cuts": [
     {
       "frame": 23,
       "sceneTime": 0.7666666666666667,
-      "encodedChangeAtCue": 5.7019,
+      "encodedChangeAtCue": 5.8239,
       "nearbyChanges": [
         {
           "frame": 21,
-          "meanDifference": 0.1013
+          "meanDifference": 0.3571
         },
         {
           "frame": 22,
-          "meanDifference": 0.0417
+          "meanDifference": 0.349
         },
         {
           "frame": 23,
-          "meanDifference": 5.7019
+          "meanDifference": 5.8239
         },
         {
           "frame": 24,
-          "meanDifference": 0.0667
+          "meanDifference": 0.286
         },
         {
           "frame": 25,
-          "meanDifference": 0.1697
+          "meanDifference": 0.2769
         }
       ]
     },
     {
-      "frame": 45,
-      "sceneTime": 1.5,
-      "encodedChangeAtCue": 17.4963,
+      "frame": 39,
+      "sceneTime": 1.3,
+      "encodedChangeAtCue": 7.9394,
       "nearbyChanges": [
         {
-          "frame": 43,
-          "meanDifference": 0.1184
+          "frame": 37,
+          "meanDifference": 0.3006
         },
         {
-          "frame": 44,
-          "meanDifference": 0.0445
+          "frame": 38,
+          "meanDifference": 0.3324
         },
         {
-          "frame": 45,
-          "meanDifference": 17.4963
+          "frame": 39,
+          "meanDifference": 7.9394
         },
         {
-          "frame": 46,
-          "meanDifference": 11.1078
+          "frame": 40,
+          "meanDifference": 5.8337
         },
         {
-          "frame": 47,
-          "meanDifference": 9.1088
+          "frame": 41,
+          "meanDifference": 5.3754
         }
-      ]
-    },
-    {
-      "frame": 60,
-      "sceneTime": 2.0,
-      "encodedChangeAtCue": 21.7227,
-      "nearbyChanges": [
-        {
-          "frame": 58,
-          "meanDifference": 0.5632
-        },
-        {
-          "frame": 59,
-          "meanDifference": 0.2102
-        },
-        {
-          "frame": 60,
-          "meanDifference": 21.7227
-        },
-        {
-          "frame": 61,
-          "meanDifference": 5.1972
-        },
-        {
-          "frame": 62,
-          "meanDifference": 3.897
-        }
-      ]
+      ],
+      "transition": "match",
+      "transitionEndFrame": 45,
+      "maximumEncodedTransitionChange": 7.9394,
+      "landingDifferenceFromDepartingPose": 10.9721
     },
     {
       "frame": 90,
       "sceneTime": 3.0,
-      "encodedChangeAtCue": 10.8486,
+      "encodedChangeAtCue": 10.9348,
       "nearbyChanges": [
         {
           "frame": 88,
-          "meanDifference": 0.1162
+          "meanDifference": 0.8783
         },
         {
           "frame": 89,
-          "meanDifference": 0.0285
+          "meanDifference": 0.7135
         },
         {
           "frame": 90,
-          "meanDifference": 10.8486
+          "meanDifference": 10.9348
         },
         {
           "frame": 91,
-          "meanDifference": 3.1477
+          "meanDifference": 1.0676
         },
         {
           "frame": 92,
-          "meanDifference": 2.2421
+          "meanDifference": 0.751
         }
       ]
     },
     {
-      "frame": 113,
-      "sceneTime": 3.7666666666666666,
-      "encodedChangeAtCue": 7.3982,
+      "frame": 127,
+      "sceneTime": 4.233333333333333,
+      "encodedChangeAtCue": 0.0338,
       "nearbyChanges": [
         {
-          "frame": 111,
-          "meanDifference": 0.0969
+          "frame": 125,
+          "meanDifference": 0.1316
         },
         {
-          "frame": 112,
-          "meanDifference": 0.0377
+          "frame": 126,
+          "meanDifference": 0.1347
         },
         {
-          "frame": 113,
-          "meanDifference": 7.3982
+          "frame": 127,
+          "meanDifference": 0.0338
         },
         {
-          "frame": 114,
-          "meanDifference": 9.0735
+          "frame": 128,
+          "meanDifference": 4.5678
         },
         {
-          "frame": 115,
-          "meanDifference": 10.2
+          "frame": 129,
+          "meanDifference": 3.2295
         }
-      ]
-    },
-    {
-      "frame": 135,
-      "sceneTime": 4.5,
-      "encodedChangeAtCue": 9.7387,
-      "nearbyChanges": [
-        {
-          "frame": 133,
-          "meanDifference": 0.1706
-        },
-        {
-          "frame": 134,
-          "meanDifference": 0.0697
-        },
-        {
-          "frame": 135,
-          "meanDifference": 9.7387
-        },
-        {
-          "frame": 136,
-          "meanDifference": 0.0947
-        },
-        {
-          "frame": 137,
-          "meanDifference": 0.2297
-        }
-      ]
-    },
-    {
-      "frame": 158,
-      "sceneTime": 5.266666666666667,
-      "encodedChangeAtCue": 6.515,
-      "nearbyChanges": [
-        {
-          "frame": 156,
-          "meanDifference": 0.1132
-        },
-        {
-          "frame": 157,
-          "meanDifference": 0.0425
-        },
-        {
-          "frame": 158,
-          "meanDifference": 6.515
-        },
-        {
-          "frame": 159,
-          "meanDifference": 3.1198
-        },
-        {
-          "frame": 160,
-          "meanDifference": 2.2387
-        }
-      ]
+      ],
+      "transition": "smear",
+      "transitionEndFrame": 135,
+      "maximumEncodedTransitionChange": 5.957,
+      "landingDifferenceFromDepartingPose": 5.1434
     },
     {
       "frame": 180,
       "sceneTime": 6.0,
-      "encodedChangeAtCue": 12.2017,
+      "encodedChangeAtCue": 4.4909,
       "nearbyChanges": [
         {
           "frame": 178,
-          "meanDifference": 0.0927
+          "meanDifference": 0.1626
         },
         {
           "frame": 179,
-          "meanDifference": 0.038
+          "meanDifference": 0.1537
         },
         {
           "frame": 180,
-          "meanDifference": 12.2017
+          "meanDifference": 4.4909
         },
         {
           "frame": 181,
-          "meanDifference": 5.5095
+          "meanDifference": 0.2124
         },
         {
           "frame": 182,
-          "meanDifference": 4.158
+          "meanDifference": 0.2281
         }
       ]
     },
     {
-      "frame": 195,
-      "sceneTime": 6.5,
-      "encodedChangeAtCue": 12.8661,
+      "frame": 202,
+      "sceneTime": 6.733333333333333,
+      "encodedChangeAtCue": 0.0336,
       "nearbyChanges": [
         {
-          "frame": 193,
-          "meanDifference": 0.332
+          "frame": 200,
+          "meanDifference": 0.2143
         },
         {
-          "frame": 194,
-          "meanDifference": 0.1324
+          "frame": 201,
+          "meanDifference": 0.1958
         },
         {
-          "frame": 195,
-          "meanDifference": 12.8661
+          "frame": 202,
+          "meanDifference": 0.0336
         },
         {
-          "frame": 196,
-          "meanDifference": 6.9786
+          "frame": 203,
+          "meanDifference": 0.917
         },
         {
-          "frame": 197,
-          "meanDifference": 6.8093
+          "frame": 204,
+          "meanDifference": 2.1587
         }
-      ]
-    },
-    {
-      "frame": 210,
-      "sceneTime": 7.0,
-      "encodedChangeAtCue": 6.6505,
-      "nearbyChanges": [
-        {
-          "frame": 208,
-          "meanDifference": 0.2948
-        },
-        {
-          "frame": 209,
-          "meanDifference": 0.1353
-        },
-        {
-          "frame": 210,
-          "meanDifference": 6.6505
-        },
-        {
-          "frame": 211,
-          "meanDifference": 3.2094
-        },
-        {
-          "frame": 212,
-          "meanDifference": 2.2774
-        }
-      ]
-    },
-    {
-      "frame": 225,
-      "sceneTime": 7.5,
-      "encodedChangeAtCue": 10.1698,
-      "nearbyChanges": [
-        {
-          "frame": 223,
-          "meanDifference": 0.194
-        },
-        {
-          "frame": 224,
-          "meanDifference": 0.087
-        },
-        {
-          "frame": 225,
-          "meanDifference": 10.1698
-        },
-        {
-          "frame": 226,
-          "meanDifference": 0.2488
-        },
-        {
-          "frame": 227,
-          "meanDifference": 0.5745
-        }
-      ]
+      ],
+      "transition": "focus_wipe",
+      "transitionEndFrame": 210,
+      "maximumEncodedTransitionChange": 5.1128,
+      "landingDifferenceFromDepartingPose": 7.6582
     },
     {
       "frame": 255,
       "sceneTime": 8.5,
-      "encodedChangeAtCue": 10.9093,
+      "encodedChangeAtCue": 9.9566,
       "nearbyChanges": [
         {
           "frame": 253,
-          "meanDifference": 0.157
+          "meanDifference": 0.5639
         },
         {
           "frame": 254,
-          "meanDifference": 0.0927
+          "meanDifference": 0.5905
         },
         {
           "frame": 255,
-          "meanDifference": 10.9093
+          "meanDifference": 9.9566
         },
         {
           "frame": 256,
-          "meanDifference": 0.122
+          "meanDifference": 0.2889
         },
         {
           "frame": 257,
-          "meanDifference": 0.26
+          "meanDifference": 0.2931
         }
       ]
     },
     {
-      "frame": 278,
-      "sceneTime": 9.266666666666667,
-      "encodedChangeAtCue": 6.6849,
+      "frame": 292,
+      "sceneTime": 9.733333333333333,
+      "encodedChangeAtCue": 0.0232,
       "nearbyChanges": [
         {
-          "frame": 276,
-          "meanDifference": 0.1176
+          "frame": 290,
+          "meanDifference": 0.3626
         },
         {
-          "frame": 277,
-          "meanDifference": 0.0665
+          "frame": 291,
+          "meanDifference": 0.3513
         },
         {
-          "frame": 278,
-          "meanDifference": 6.6849
+          "frame": 292,
+          "meanDifference": 0.0232
         },
         {
-          "frame": 279,
-          "meanDifference": 3.167
+          "frame": 293,
+          "meanDifference": 5.7356
         },
         {
-          "frame": 280,
-          "meanDifference": 2.2295
+          "frame": 294,
+          "meanDifference": 3.44
         }
-      ]
-    },
-    {
-      "frame": 300,
-      "sceneTime": 10.0,
-      "encodedChangeAtCue": 5.7703,
-      "nearbyChanges": [
-        {
-          "frame": 298,
-          "meanDifference": 0.0933
-        },
-        {
-          "frame": 299,
-          "meanDifference": 0.0379
-        },
-        {
-          "frame": 300,
-          "meanDifference": 5.7703
-        },
-        {
-          "frame": 301,
-          "meanDifference": 0.0399
-        },
-        {
-          "frame": 302,
-          "meanDifference": 0.0635
-        }
-      ]
+      ],
+      "transition": "smear",
+      "transitionEndFrame": 300,
+      "maximumEncodedTransitionChange": 6.0735,
+      "landingDifferenceFromDepartingPose": 5.5002
     },
     {
       "frame": 330,
       "sceneTime": 11.0,
-      "encodedChangeAtCue": 9.8669,
+      "encodedChangeAtCue": 4.1757,
       "nearbyChanges": [
         {
           "frame": 328,
-          "meanDifference": 0.0899
+          "meanDifference": 0.2255
         },
         {
           "frame": 329,
-          "meanDifference": 0.0328
+          "meanDifference": 0.232
         },
         {
           "frame": 330,
-          "meanDifference": 9.8669
+          "meanDifference": 4.1757
         },
         {
           "frame": 331,
-          "meanDifference": 0.0871
+          "meanDifference": 0.1977
         },
         {
           "frame": 332,
-          "meanDifference": 0.1842
+          "meanDifference": 0.1964
         }
       ]
     },
     {
       "frame": 360,
       "sceneTime": 12.0,
-      "encodedChangeAtCue": 17.0939,
+      "encodedChangeAtCue": 8.8421,
       "nearbyChanges": [
         {
           "frame": 358,
-          "meanDifference": 0.1165
+          "meanDifference": 0.1736
         },
         {
           "frame": 359,
-          "meanDifference": 0.0276
+          "meanDifference": 0.1678
         },
         {
           "frame": 360,
-          "meanDifference": 17.0939
+          "meanDifference": 8.8421
         },
         {
           "frame": 361,
-          "meanDifference": 6.7052
+          "meanDifference": 0.6201
         },
         {
           "frame": 362,
-          "meanDifference": 5.6749
+          "meanDifference": 0.4849
         }
       ]
     },
     {
-      "frame": 382,
-      "sceneTime": 12.733333333333333,
-      "encodedChangeAtCue": 11.4434,
+      "frame": 399,
+      "sceneTime": 13.3,
+      "encodedChangeAtCue": 12.6276,
       "nearbyChanges": [
         {
-          "frame": 380,
-          "meanDifference": 0.1945
+          "frame": 397,
+          "meanDifference": 0.7698
         },
         {
-          "frame": 381,
-          "meanDifference": 0.0754
+          "frame": 398,
+          "meanDifference": 0.7712
         },
         {
-          "frame": 382,
-          "meanDifference": 11.4434
+          "frame": 399,
+          "meanDifference": 12.6276
         },
         {
-          "frame": 383,
-          "meanDifference": 0.0845
+          "frame": 400,
+          "meanDifference": 4.9894
         },
         {
-          "frame": 384,
-          "meanDifference": 0.1822
+          "frame": 401,
+          "meanDifference": 3.6214
         }
-      ]
-    },
-    {
-      "frame": 405,
-      "sceneTime": 13.5,
-      "encodedChangeAtCue": 6.6252,
-      "nearbyChanges": [
-        {
-          "frame": 403,
-          "meanDifference": 0.1245
-        },
-        {
-          "frame": 404,
-          "meanDifference": 0.0563
-        },
-        {
-          "frame": 405,
-          "meanDifference": 6.6252
-        },
-        {
-          "frame": 406,
-          "meanDifference": 3.1671
-        },
-        {
-          "frame": 407,
-          "meanDifference": 2.2241
-        }
-      ]
-    },
-    {
-      "frame": 435,
-      "sceneTime": 14.5,
-      "encodedChangeAtCue": 10.2544,
-      "nearbyChanges": [
-        {
-          "frame": 433,
-          "meanDifference": 0.0661
-        },
-        {
-          "frame": 434,
-          "meanDifference": 0.0222
-        },
-        {
-          "frame": 435,
-          "meanDifference": 10.2544
-        },
-        {
-          "frame": 436,
-          "meanDifference": 0.2959
-        },
-        {
-          "frame": 437,
-          "meanDifference": 0.6951
-        }
-      ]
-    },
-    {
-      "frame": 450,
-      "sceneTime": 15.0,
-      "encodedChangeAtCue": 11.0373,
-      "nearbyChanges": [
-        {
-          "frame": 448,
-          "meanDifference": 0.3712
-        },
-        {
-          "frame": 449,
-          "meanDifference": 0.1447
-        },
-        {
-          "frame": 450,
-          "meanDifference": 11.0373
-        },
-        {
-          "frame": 451,
-          "meanDifference": 3.1293
-        },
-        {
-          "frame": 452,
-          "meanDifference": 2.2518
-        }
-      ]
+      ],
+      "transition": "match",
+      "transitionEndFrame": 405,
+      "maximumEncodedTransitionChange": 12.6276,
+      "landingDifferenceFromDepartingPose": 11.0162
     }
   ],
   "inspectedFrameCandidates": [
     0,
-    7,
-    30,
-    52,
-    67,
-    97,
-    120,
-    142,
-    165,
-    187,
-    202,
-    217,
-    232,
-    262,
-    285,
-    307,
-    337,
-    367,
-    389,
-    412,
-    442,
-    457,
-    464
+    9,
+    32,
+    48,
+    99,
+    137,
+    189,
+    212,
+    264,
+    302,
+    339,
+    369,
+    408,
+    419
   ],
+  "transitionFrameCandidates": [
+    38,
+    39,
+    42,
+    44,
+    45,
+    48,
+    126,
+    127,
+    131,
+    134,
+    135,
+    137,
+    201,
+    202,
+    206,
+    209,
+    210,
+    212,
+    291,
+    292,
+    296,
+    299,
+    300,
+    302,
+    398,
+    399,
+    402,
+    404,
+    405,
+    408
+  ],
+  "motionFrameCandidates": [
+    0,
+    9,
+    11,
+    22,
+    23,
+    31,
+    32,
+    38,
+    39,
+    48,
+    64,
+    89,
+    90,
+    98,
+    99,
+    108,
+    126,
+    127,
+    137,
+    153,
+    179,
+    180,
+    189,
+    191,
+    201,
+    202,
+    212,
+    228,
+    254,
+    255,
+    264,
+    273,
+    291,
+    292,
+    298,
+    300,
+    302,
+    308,
+    311,
+    329,
+    330,
+    339,
+    345,
+    359,
+    360,
+    368,
+    369,
+    379,
+    398,
+    399,
+    408,
+    409,
+    419
+  ],
+  "motionSheet": "motion.jpg",
   "contactSheet": "contact.jpg",
+  "transitionSheet": "transitions.jpg",
   "note": "Numeric export checks plus encoded-frame evidence. Contact sheets and actual playback require visual review; this report does not assert creative acceptance."
 }

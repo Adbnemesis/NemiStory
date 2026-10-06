@@ -1,0 +1,1096 @@
+{
+  "version": 3,
+  "revision": "r3",
+  "id": "different-energy",
+  "fps": 30,
+  "frames": 525,
+  "music": {
+    "file": "shorts/assets/music/batch01/memory-reboot.wav",
+    "sourceHash": "9ad7b28f458a2163bf37a51af7db9917152ec43dde197de8a15fd9924cc29b12",
+    "sourceStart": 10.3848,
+    "duration": 17.5,
+    "gainDb": -6.18
+  },
+  "recordingMeta": "shorts/assets/music/batch01/memory-reboot.json",
+  "sourceAnalysis": "shorts/assets/music/batch01/memory-reboot.analysis.json",
+  "beatPlan": "shorts/assets/music/batch01/memory-reboot.edit-plan.json",
+  "bpm": 162.756,
+  "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "sourceTimeline": "Downloaded preview clock; full-song offset unknown.",
+  "timingPolicy": "Pose swaps land at selected accent frames. Named transitions start6-8frames earlier and finish on the pose accent; transition start is not falsely labeled a downbeat.",
+  "playbackReview": "pending",
+  "cuts": [
+    {
+      "frame": 0,
+      "sceneTime": 0.0,
+      "sourceTimeAtPicture": 10.3848,
+      "selectedAccentSourceTime": 10.3329,
+      "transition": null,
+      "poseLandingFrame": 0,
+      "poseLandingTime": 0.0,
+      "poseLandingErrorMs": 51.9,
+      "transitionStartMinusAccentMs": 51.9,
+      "audienceFocus": "The pair are a clear wide-versus-folded contrast from the first image.",
+      "visibleBodyPoses": {
+        "nemi": "wide",
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "nemi": "listen",
+        "adb": "rest"
+      },
+      "framing": "shared full-body pose",
+      "stage": "columns",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 32,
+      "sceneTime": 1.066667,
+      "sourceTimeAtPicture": 11.451467,
+      "selectedAccentSourceTime": 11.4358,
+      "transition": null,
+      "poseLandingFrame": 32,
+      "poseLandingTime": 1.066667,
+      "poseLandingErrorMs": 15.667,
+      "transitionStartMinusAccentMs": 15.667,
+      "audienceFocus": "ADB keeps the reaction economical while Nemi leans into the coming phrase.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in",
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "listen",
+        "adb": "hip"
+      },
+      "framing": "ADB single reaction close-up; his dry composure has the audience focus",
+      "stage": "columns",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1.55,
+      "cameraCenter": [
+        780,
+        650
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 65,
+      "sceneTime": 2.166667,
+      "sourceTimeAtPicture": 12.551467,
+      "selectedAccentSourceTime": 12.5504,
+      "transition": null,
+      "poseLandingFrame": 65,
+      "poseLandingTime": 2.166667,
+      "poseLandingErrorMs": 1.067,
+      "transitionStartMinusAccentMs": 1.067,
+      "audienceFocus": "Nemi lowers into anticipation; ADB stays deliberately folded.",
+      "visibleBodyPoses": {
+        "nemi": "crouch",
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "nemi": "rest",
+        "adb": "rest"
+      },
+      "framing": "Nemi single full-body anticipation; the grounded low silhouette gets its own panel",
+      "stage": "columns",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        300,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 82,
+      "sceneTime": 2.733333,
+      "sourceTimeAtPicture": 13.118133,
+      "selectedAccentSourceTime": 13.1077,
+      "transition": null,
+      "poseLandingFrame": 82,
+      "poseLandingTime": 2.733333,
+      "poseLandingErrorMs": 10.433,
+      "transitionStartMinusAccentMs": 10.433,
+      "audienceFocus": "She widens the anticipation while his supported stance barely concedes interest.",
+      "visibleBodyPoses": {
+        "nemi": "wide",
+        "adb": "groove_right"
+      },
+      "visibleActions": {
+        "nemi": "point",
+        "adb": "rest"
+      },
+      "framing": "shared full-body pose",
+      "stage": "columns",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 109,
+      "sceneTime": 3.633333,
+      "sourceTimeAtPicture": 14.018133,
+      "selectedAccentSourceTime": 14.0249,
+      "transition": null,
+      "poseLandingFrame": 109,
+      "poseLandingTime": 3.633333,
+      "poseLandingErrorMs": -6.767,
+      "transitionStartMinusAccentMs": -6.767,
+      "audienceFocus": "Her forward invitation points toward him before the stronger source accent.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in",
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "nemi": "point",
+        "adb": "rest"
+      },
+      "framing": "shared full-body pose",
+      "stage": "columns",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "profile",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 112,
+      "sceneTime": 3.733333,
+      "sourceTimeAtPicture": 14.118133,
+      "selectedAccentSourceTime": 14.3848,
+      "transition": {
+        "kind": "whip",
+        "duration": 8,
+        "event": "different-energy-transition-120",
+        "direction": 1,
+        "poseFrame": 120
+      },
+      "poseLandingFrame": 120,
+      "poseLandingTime": 4.0,
+      "poseLandingErrorMs": 0.0,
+      "transitionStartMinusAccentMs": -266.667,
+      "audienceFocus": "The measured texture arrival produces her huge raised silhouette and his tiny recoil.",
+      "visibleBodyPoses": {
+        "nemi": "celebrate",
+        "adb": "recoil"
+      },
+      "visibleActions": {
+        "nemi": "arms_open",
+        "adb": "rest"
+      },
+      "framing": "shared full-body pose",
+      "stage": "columns",
+      "palette": "ink",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 164,
+      "sceneTime": 5.466667,
+      "sourceTimeAtPicture": 15.851467,
+      "selectedAccentSourceTime": 15.8592,
+      "transition": null,
+      "poseLandingFrame": 164,
+      "poseLandingTime": 5.466667,
+      "poseLandingErrorMs": -7.733,
+      "transitionStartMinusAccentMs": -7.733,
+      "audienceFocus": "Her left groove owns the drop while he regains the folded baseline.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "nemi": "wave",
+        "adb": "rest"
+      },
+      "framing": "shared full-body pose",
+      "stage": "columns",
+      "palette": "ink",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 200,
+      "sceneTime": 6.666667,
+      "sourceTimeAtPicture": 17.051467,
+      "selectedAccentSourceTime": 17.3337,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "different-energy-transition-208",
+        "direction": 1,
+        "poseFrame": 208
+      },
+      "poseLandingFrame": 208,
+      "poseLandingTime": 6.933333,
+      "poseLandingErrorMs": -15.567,
+      "transitionStartMinusAccentMs": -282.233,
+      "audienceFocus": "The answering right groove stays playful; his glance starts to follow it.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right",
+        "adb": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "peace",
+        "adb": "chin"
+      },
+      "framing": "shared full-body pose",
+      "stage": "columns",
+      "palette": "ink",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 245,
+      "sceneTime": 8.166667,
+      "sourceTimeAtPicture": 18.551467,
+      "selectedAccentSourceTime": 18.8082,
+      "transition": {
+        "kind": "focus_wipe",
+        "duration": 8,
+        "event": "different-energy-transition-253",
+        "direction": -1,
+        "poseFrame": 253,
+        "focus": [
+          780,
+          960
+        ]
+      },
+      "poseLandingFrame": 253,
+      "poseLandingTime": 8.433333,
+      "poseLandingErrorMs": 9.933,
+      "transitionStartMinusAccentMs": -256.733,
+      "audienceFocus": "Nemi opens the invitation toward ADB instead of performing past him.",
+      "visibleBodyPoses": {
+        "nemi": "wide",
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "arms_open",
+        "adb": "hip"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            340,
+            950.05
+          ],
+          "scale": 1.12,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 297,
+      "sceneTime": 9.9,
+      "sourceTimeAtPicture": 20.2848,
+      "selectedAccentSourceTime": 20.2826,
+      "transition": null,
+      "poseLandingFrame": 297,
+      "poseLandingTime": 9.9,
+      "poseLandingErrorMs": 2.2,
+      "transitionStartMinusAccentMs": 2.2,
+      "audienceFocus": "ADB answers with a deliberate left groove; she notices the choice.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in",
+        "adb": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "rest",
+        "adb": "thumbsup"
+      },
+      "framing": "ADB single full-body reply; the first deliberate groove is visible before the shared match return",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        780,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "profile",
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 335,
+      "sceneTime": 11.166667,
+      "sourceTimeAtPicture": 21.551467,
+      "selectedAccentSourceTime": 21.7571,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "different-energy-transition-341",
+        "direction": -1,
+        "poseFrame": 341,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 341,
+      "poseLandingTime": 11.366667,
+      "poseLandingErrorMs": -5.633,
+      "transitionStartMinusAccentMs": -205.633,
+      "audienceFocus": "The shared left-supported groove makes the agreement visible in both bodies.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "peace",
+        "adb": "hip"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1.08,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 363,
+      "sceneTime": 12.1,
+      "sourceTimeAtPicture": 22.4848,
+      "selectedAccentSourceTime": null,
+      "transition": null,
+      "poseLandingFrame": 363,
+      "poseLandingTime": 12.1,
+      "poseLandingErrorMs": null,
+      "transitionStartMinusAccentMs": null,
+      "audienceFocus": "Both bodies answer the shared groove to the other side, before returning left on the next measured accent.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right",
+        "adb": "groove_right"
+      },
+      "visibleActions": {
+        "nemi": "wave",
+        "adb": "hip"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Editorial half-interval between measured source accents341/385. Exact pose drawing and decoded pacing are checked in r3.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1.08,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 385,
+      "sceneTime": 12.833333,
+      "sourceTimeAtPicture": 23.218133,
+      "selectedAccentSourceTime": 23.2316,
+      "transition": null,
+      "poseLandingFrame": 385,
+      "poseLandingTime": 12.833333,
+      "poseLandingErrorMs": -13.467,
+      "transitionStartMinusAccentMs": -13.467,
+      "audienceFocus": "The shared right-supported reply keeps their distinct hand vocabulary.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "wave",
+        "adb": "glasses"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 422,
+      "sceneTime": 14.066667,
+      "sourceTimeAtPicture": 24.451467,
+      "selectedAccentSourceTime": 24.706,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "different-energy-transition-430",
+        "direction": -1,
+        "poseFrame": 430
+      },
+      "poseLandingFrame": 430,
+      "poseLandingTime": 14.333333,
+      "poseLandingErrorMs": 12.133,
+      "transitionStartMinusAccentMs": -254.533,
+      "audienceFocus": "Nemi celebrates broadly while ADB closes with a calm wide approval.",
+      "visibleBodyPoses": {
+        "nemi": "celebrate",
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "nemi": "wave",
+        "adb": "thumbsup"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 463,
+      "sceneTime": 15.433333,
+      "sourceTimeAtPicture": 25.818133,
+      "selectedAccentSourceTime": 25.8206,
+      "transition": null,
+      "poseLandingFrame": 463,
+      "poseLandingTime": 15.433333,
+      "poseLandingErrorMs": -2.467,
+      "transitionStartMinusAccentMs": -2.467,
+      "audienceFocus": "The calm pair acknowledge each other after the phrase.",
+      "visibleBodyPoses": {
+        "nemi": "contrapposto",
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "hip",
+        "adb": "hip"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 496,
+      "sceneTime": 16.533333,
+      "sourceTimeAtPicture": 26.918133,
+      "selectedAccentSourceTime": 26.9235,
+      "transition": null,
+      "poseLandingFrame": 496,
+      "poseLandingTime": 16.533333,
+      "poseLandingErrorMs": -5.367,
+      "transitionStartMinusAccentMs": -5.367,
+      "audienceFocus": "Their final matching groove still looks like two individual personalities.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "listen",
+        "adb": "rest"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "threequarter"
+      }
+    }
+  ],
+  "poseLandings": [
+    {
+      "frame": 0,
+      "sourceTime": 10.3848,
+      "sourceAccent": 10.3329,
+      "errorMs": 51.9,
+      "focus": "The pair are a clear wide-versus-folded contrast from the first image."
+    },
+    {
+      "frame": 32,
+      "sourceTime": 11.451466666666667,
+      "sourceAccent": 11.4358,
+      "errorMs": 15.667,
+      "focus": "ADB keeps the reaction economical while Nemi leans into the coming phrase."
+    },
+    {
+      "frame": 65,
+      "sourceTime": 12.551466666666666,
+      "sourceAccent": 12.5504,
+      "errorMs": 1.067,
+      "focus": "Nemi lowers into anticipation; ADB stays deliberately folded."
+    },
+    {
+      "frame": 82,
+      "sourceTime": 13.118133333333333,
+      "sourceAccent": 13.1077,
+      "errorMs": 10.433,
+      "focus": "She widens the anticipation while his supported stance barely concedes interest."
+    },
+    {
+      "frame": 109,
+      "sourceTime": 14.018133333333333,
+      "sourceAccent": 14.0249,
+      "errorMs": -6.767,
+      "focus": "Her forward invitation points toward him before the stronger source accent."
+    },
+    {
+      "frame": 120,
+      "sourceTime": 14.3848,
+      "sourceAccent": 14.3848,
+      "errorMs": 0.0,
+      "focus": "The measured texture arrival produces her huge raised silhouette and his tiny recoil."
+    },
+    {
+      "frame": 164,
+      "sourceTime": 15.851466666666667,
+      "sourceAccent": 15.8592,
+      "errorMs": -7.733,
+      "focus": "Her left groove owns the drop while he regains the folded baseline."
+    },
+    {
+      "frame": 208,
+      "sourceTime": 17.318133333333336,
+      "sourceAccent": 17.3337,
+      "errorMs": -15.567,
+      "focus": "The answering right groove stays playful; his glance starts to follow it."
+    },
+    {
+      "frame": 253,
+      "sourceTime": 18.818133333333336,
+      "sourceAccent": 18.8082,
+      "errorMs": 9.933,
+      "focus": "Nemi opens the invitation toward ADB instead of performing past him."
+    },
+    {
+      "frame": 297,
+      "sourceTime": 20.2848,
+      "sourceAccent": 20.2826,
+      "errorMs": 2.2,
+      "focus": "ADB answers with a deliberate left groove; she notices the choice."
+    },
+    {
+      "frame": 341,
+      "sourceTime": 21.751466666666666,
+      "sourceAccent": 21.7571,
+      "errorMs": -5.633,
+      "focus": "The shared left-supported groove makes the agreement visible in both bodies."
+    },
+    {
+      "frame": 363,
+      "sourceTime": 22.4848,
+      "sourceAccent": null,
+      "errorMs": null,
+      "focus": "Both bodies answer the shared groove to the other side, before returning left on the next measured accent.",
+      "basis": "Editorial half-interval"
+    },
+    {
+      "frame": 385,
+      "sourceTime": 23.218133333333334,
+      "sourceAccent": 23.2316,
+      "errorMs": -13.467,
+      "focus": "The shared right-supported reply keeps their distinct hand vocabulary."
+    },
+    {
+      "frame": 430,
+      "sourceTime": 24.718133333333334,
+      "sourceAccent": 24.706,
+      "errorMs": 12.133,
+      "focus": "Nemi celebrates broadly while ADB closes with a calm wide approval."
+    },
+    {
+      "frame": 463,
+      "sourceTime": 25.818133333333336,
+      "sourceAccent": 25.8206,
+      "errorMs": -2.467,
+      "focus": "The calm pair acknowledge each other after the phrase."
+    },
+    {
+      "frame": 496,
+      "sourceTime": 26.918133333333337,
+      "sourceAccent": 26.9235,
+      "errorMs": -5.367,
+      "focus": "Their final matching groove still looks like two individual personalities."
+    }
+  ],
+  "sfxEvents": [
+    {
+      "event": "dramatic-arrival",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -5.5,
+      "offsetFrames": 0
+    },
+    {
+      "event": "beat-invite",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -5.5,
+      "offsetFrames": 0
+    },
+    {
+      "event": "small-response",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -6.5,
+      "offsetFrames": 0
+    },
+    {
+      "event": "shared-phrase",
+      "file": "common/audio/sfx/ping.mp3",
+      "sourceHash": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "sourceStart": 0.3,
+      "duration": 0.8,
+      "gainDb": -4.5,
+      "offsetFrames": 0
+    }
+  ],
+  "review": "Authored intentions only. Decoded-cut/audio/pacing and full playback review are pending.",
+  "mixReview": {
+    "recordingAndMusicGainUnchanged": true,
+    "sfxGainAttenuationDb": 1.5,
+    "reason": "Preserve headroom for decoded AAC peaks while keeping selected sound accents."
+  },
+  "framingPolicy": "Full-body silhouette beats alternate with three purpose-led reaction/prop/single inserts; the next wider shot restores grounding or shared cause/payoff.",
+  "framingRepair": {
+    "shots": {
+      "245": {
+        "nemi": [
+          340,
+          1.12
+        ]
+      }
+    },
+    "reason": "Settled palms fully inside portrait frame; separate paired hands; retain prior shoe baseline."
+  },
+  "pacingRepair": {
+    "rejectedRevision": "r2",
+    "decodedStaticFrames": [
+      335,
+      384
+    ],
+    "seconds": 1.6666666666666667,
+    "change": "Shared left\u2192right\u2192left body response added at frame363. The match335 now has a real1.08 zoom contrast while feet remain visible.",
+    "newBeatBasis": "Frame363 is the editorial half-interval between measured accent arrivals341 and385; it is not asserted to be a newly detected onset."
+  }
+}

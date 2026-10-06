@@ -1,0 +1,1784 @@
+{
+  "version": 3,
+  "id": "wrong-class",
+  "title": "Wrong-class runway",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "frames": 480,
+  "premise": "me entering the wrong class\nlike I own it",
+  "music": {
+    "file": "shorts/assets/music/batch01/fashion.wav",
+    "sourceHash": "6ff4e53ce33503eff066f127f38a2646ad181581ac1dc3b663f82b23925541d8",
+    "sourceStart": 0.0108,
+    "duration": 16,
+    "gainDb": -3.64
+  },
+  "sfx": [
+    {
+      "event": "wrong-room",
+      "file": "common/audio/sfx/error.mp3",
+      "sourceHash": "b4882e3941ca496b5038e7c7d64318419da9f69d3da9540a1c693adc639cf121",
+      "sourceStart": 0.6,
+      "duration": 0.7,
+      "gainDb": 2,
+      "offsetFrames": 0
+    }
+  ],
+  "theme": {
+    "signature": "runway",
+    "paper": "#eae8e3",
+    "ink": "#28272a",
+    "shade": "#8d909b",
+    "accent": "#a08788",
+    "shading": 0.42
+  },
+  "actors": [
+    {
+      "id": "adb",
+      "author": "adb",
+      "cues": [
+        {
+          "frame": 0,
+          "pose": "hand_near_face",
+          "expression": "happy",
+          "gaze": [
+            0.2,
+            0
+          ],
+          "head": -3,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "glasses"
+        },
+        {
+          "frame": 15,
+          "pose": "hand_near_face",
+          "expression": "happy",
+          "gaze": [
+            0.2,
+            0
+          ],
+          "head": 2,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "smile",
+          "action": "glasses"
+        },
+        {
+          "frame": 45,
+          "pose": "casual_contrapposto",
+          "expression": "happy",
+          "gaze": [
+            0.2,
+            0
+          ],
+          "head": -2,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "smile",
+          "action": "hip"
+        },
+        {
+          "frame": 60,
+          "pose": "casual_contrapposto",
+          "expression": "happy",
+          "gaze": [
+            0.6,
+            0
+          ],
+          "head": 3,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "hip"
+        },
+        {
+          "frame": 90,
+          "pose": "thumb_up",
+          "expression": "happy",
+          "gaze": [
+            0.1,
+            0
+          ],
+          "head": -3,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "smile",
+          "action": "thumbsup"
+        },
+        {
+          "frame": 105,
+          "pose": "thumb_up",
+          "expression": "happy",
+          "gaze": [
+            0.5,
+            0
+          ],
+          "head": 4,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "thumbsup"
+        },
+        {
+          "frame": 135,
+          "pose": "casual_slouch",
+          "expression": "happy",
+          "gaze": [
+            0.7,
+            0
+          ],
+          "head": 3,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "profile",
+          "emotion": "smile",
+          "action": "rest"
+        },
+        {
+          "frame": 165,
+          "pose": "open_palms",
+          "expression": "happy",
+          "gaze": [
+            0.1,
+            0
+          ],
+          "head": -3,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "smile",
+          "action": "arms_open"
+        },
+        {
+          "frame": 195,
+          "pose": "casual_contrapposto",
+          "expression": "happy",
+          "gaze": [
+            0.1,
+            0
+          ],
+          "head": 0,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "smile",
+          "action": "hip"
+        },
+        {
+          "frame": 210,
+          "pose": "pointing",
+          "expression": "happy",
+          "gaze": [
+            0.6,
+            0
+          ],
+          "head": 3,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "point"
+        },
+        {
+          "frame": 225,
+          "pose": "casual_slouch",
+          "expression": "happy",
+          "gaze": [
+            0.2,
+            0
+          ],
+          "head": 0,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "back",
+          "emotion": "smile",
+          "action": "rest"
+        },
+        {
+          "frame": 255,
+          "pose": "casual_slouch",
+          "expression": "happy",
+          "gaze": [
+            0.8,
+            0
+          ],
+          "head": 2,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "rest"
+        },
+        {
+          "frame": 270,
+          "pose": "pointing",
+          "expression": "happy",
+          "gaze": [
+            0.9,
+            0
+          ],
+          "head": 4,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "smile",
+          "action": "point"
+        },
+        {
+          "frame": 285,
+          "pose": "casual_slouch",
+          "expression": "shocked",
+          "gaze": [
+            0,
+            0
+          ],
+          "head": -4,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "shock",
+          "action": "rest"
+        },
+        {
+          "frame": 315,
+          "pose": "thinking_chin",
+          "expression": "shocked",
+          "gaze": [
+            0.8,
+            0
+          ],
+          "head": 4,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "shock",
+          "action": "chin"
+        },
+        {
+          "frame": 330,
+          "pose": "shrug_open",
+          "expression": "deadpan",
+          "gaze": [
+            0,
+            0
+          ],
+          "head": -3,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "deadpan",
+          "action": "shrug"
+        },
+        {
+          "frame": 360,
+          "pose": "casual_slouch",
+          "expression": "deadpan",
+          "gaze": [
+            -0.2,
+            0
+          ],
+          "head": 2,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "deadpan",
+          "action": "rest"
+        },
+        {
+          "frame": 375,
+          "pose": "casual_contrapposto",
+          "expression": "embarrassed",
+          "gaze": [
+            -0.6,
+            0
+          ],
+          "head": -4,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "shy",
+          "action": "hip"
+        },
+        {
+          "frame": 405,
+          "pose": "casual_slouch",
+          "expression": "embarrassed",
+          "gaze": [
+            0.7,
+            0
+          ],
+          "head": 3,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "profile",
+          "emotion": "shy",
+          "action": "rest"
+        },
+        {
+          "frame": 420,
+          "pose": "open_palm",
+          "expression": "embarrassed",
+          "gaze": [
+            -0.3,
+            0
+          ],
+          "head": -3,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "front",
+          "emotion": "shy",
+          "action": "wave"
+        },
+        {
+          "frame": 450,
+          "pose": "thumb_up",
+          "expression": "embarrassed",
+          "gaze": [
+            -0.5,
+            0
+          ],
+          "head": 3,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "threequarter",
+          "emotion": "shy",
+          "action": "thumbsup"
+        },
+        {
+          "frame": 465,
+          "pose": "casual_slouch",
+          "expression": "embarrassed",
+          "gaze": [
+            0.7,
+            0
+          ],
+          "head": -2,
+          "motion": "smooth",
+          "duration": 0.2,
+          "view": "profile",
+          "emotion": "shy",
+          "action": "rest"
+        }
+      ],
+      "motion": [
+        {
+          "frame": 0,
+          "head": 0.0,
+          "look": 0.15,
+          "eyes": 1.0,
+          "lean": 0.0,
+          "gesture": 0.45
+        },
+        {
+          "frame": 7,
+          "head": -3.0,
+          "look": 0.2,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 15,
+          "head": -3.0,
+          "look": 0.2,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 0.45
+        },
+        {
+          "frame": 22,
+          "head": 2.0,
+          "look": 0.2,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 31,
+          "head": 1.7,
+          "look": 0.2,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 45,
+          "head": 2.0,
+          "look": 0.2,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 0.45
+        },
+        {
+          "frame": 52,
+          "head": -2.0,
+          "look": 0.2,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 60,
+          "head": -2.0,
+          "look": 0.2,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 0.45
+        },
+        {
+          "frame": 67,
+          "head": 3.0,
+          "look": 0.6,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 76,
+          "head": 2.55,
+          "look": 0.6,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 90,
+          "head": 3.0,
+          "look": 0.6,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 0.45
+        },
+        {
+          "frame": 94,
+          "head": 3.0,
+          "look": 0.6,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 0.45
+        },
+        {
+          "frame": 97,
+          "head": 3.0,
+          "look": 0.6,
+          "eyes": 0.0,
+          "lean": 0.8,
+          "gesture": 0.45
+        },
+        {
+          "frame": 101,
+          "head": 3.0,
+          "look": 0.6,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 0.45
+        },
+        {
+          "frame": 105,
+          "head": -3.0,
+          "look": 0.1,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 0.45
+        },
+        {
+          "frame": 112,
+          "head": 4.0,
+          "look": 0.5,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 121,
+          "head": 3.4,
+          "look": 0.5,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 135,
+          "head": 4.0,
+          "look": 0.5,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 142,
+          "head": 3.0,
+          "look": 0.7,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 151,
+          "head": 2.55,
+          "look": 0.7,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 165,
+          "head": 3.0,
+          "look": 0.7,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 0.45
+        },
+        {
+          "frame": 172,
+          "head": -3.0,
+          "look": 0.1,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 181,
+          "head": -2.55,
+          "look": 0.1,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 195,
+          "head": -3.0,
+          "look": 0.1,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 0.45
+        },
+        {
+          "frame": 202,
+          "head": 0.0,
+          "look": 0.1,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 207,
+          "head": 0.0,
+          "look": 0.1,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 210,
+          "head": 0.0,
+          "look": 0.1,
+          "eyes": 0.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 214,
+          "head": 0.0,
+          "look": 0.1,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 217,
+          "head": 3.0,
+          "look": 0.6,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 225,
+          "head": 3.0,
+          "look": 0.6,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 232,
+          "head": 0.0,
+          "look": 0.2,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 241,
+          "head": 0.0,
+          "look": 0.2,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 255,
+          "head": 0.0,
+          "look": 0.2,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 262,
+          "head": 2.0,
+          "look": 0.8,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 270,
+          "head": 2.0,
+          "look": 0.8,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 0.45
+        },
+        {
+          "frame": 277,
+          "head": 4.0,
+          "look": 0.9,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 285,
+          "head": 4.0,
+          "look": 0.9,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 292,
+          "head": -4.0,
+          "look": 0.0,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 301,
+          "head": -3.4,
+          "look": 0.0,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 315,
+          "head": -4.0,
+          "look": 0.0,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 0.45
+        },
+        {
+          "frame": 320,
+          "head": -4.0,
+          "look": 0.0,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 0.45
+        },
+        {
+          "frame": 322,
+          "head": 4.0,
+          "look": 0.8,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 323,
+          "head": -4.0,
+          "look": 0.0,
+          "eyes": 0.0,
+          "lean": 0.1,
+          "gesture": 0.45
+        },
+        {
+          "frame": 327,
+          "head": -4.0,
+          "look": 0.0,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 0.45
+        },
+        {
+          "frame": 330,
+          "head": 4.0,
+          "look": 0.8,
+          "eyes": 1.0,
+          "lean": 0.1,
+          "gesture": 0.45
+        },
+        {
+          "frame": 337,
+          "head": -3.0,
+          "look": 0.0,
+          "eyes": 0.72,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 346,
+          "head": -2.55,
+          "look": 0.0,
+          "eyes": 0.72,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 360,
+          "head": -3.0,
+          "look": 0.0,
+          "eyes": 0.72,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 367,
+          "head": 2.0,
+          "look": -0.2,
+          "eyes": 0.72,
+          "lean": 0.1,
+          "gesture": 1.0
+        },
+        {
+          "frame": 375,
+          "head": 2.0,
+          "look": -0.2,
+          "eyes": 0.72,
+          "lean": 0.1,
+          "gesture": 0.45
+        },
+        {
+          "frame": 382,
+          "head": -4.0,
+          "look": -0.6,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 391,
+          "head": -3.4,
+          "look": -0.6,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 405,
+          "head": -4.0,
+          "look": -0.6,
+          "eyes": 1.0,
+          "lean": 0.8,
+          "gesture": 1.0
+        },
+        {
+          "frame": 412,
+          "head": 3.0,
+          "look": 0.7,
+          "eyes": 1.0,
+          "lean": -0.35,
+          "gesture": 1.0
+        },
+        {
+          "frame": 420,
+          "head": 3.0,
+          "look": 0.7,
+          "eyes": 1.0,
+          "lean": -0.35,
+          "gesture": 0.45
+        },
+        {
+          "frame": 427,
+          "head": -3.0,
+          "look": -0.3,
+          "eyes": 1.0,
+          "lean": -0.35,
+          "gesture": 1.0
+        },
+        {
+          "frame": 433,
+          "head": -3.0,
+          "look": -0.3,
+          "eyes": 1.0,
+          "lean": -0.35,
+          "gesture": 1.0
+        },
+        {
+          "frame": 436,
+          "head": -3.0,
+          "look": -0.3,
+          "eyes": 0.0,
+          "lean": -0.35,
+          "gesture": 1.0
+        },
+        {
+          "frame": 440,
+          "head": -3.0,
+          "look": -0.3,
+          "eyes": 1.0,
+          "lean": -0.35,
+          "gesture": 1.0
+        },
+        {
+          "frame": 450,
+          "head": -3.0,
+          "look": -0.3,
+          "eyes": 1.0,
+          "lean": -0.35,
+          "gesture": 0.45
+        },
+        {
+          "frame": 457,
+          "head": 3.0,
+          "look": -0.5,
+          "eyes": 1.0,
+          "lean": -0.35,
+          "gesture": 1.0
+        },
+        {
+          "frame": 465,
+          "head": 3.0,
+          "look": -0.5,
+          "eyes": 1.0,
+          "lean": -0.35,
+          "gesture": 1.0
+        },
+        {
+          "frame": 472,
+          "head": -2.0,
+          "look": 0.7,
+          "eyes": 1.0,
+          "lean": -0.35,
+          "gesture": 1.0
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "frame": 0,
+      "zoom": 1.65,
+      "center": [
+        530,
+        605
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "runway",
+      "travel": {
+        "pan": [
+          12.0,
+          4.0
+        ],
+        "zoom": 1.012,
+        "end": 14
+      }
+    },
+    {
+      "frame": 15,
+      "zoom": 1.12,
+      "center": [
+        535,
+        805
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "runway",
+      "travel": {
+        "pan": [
+          -12.0,
+          -3.0
+        ],
+        "zoom": 0.991,
+        "end": 44
+      }
+    },
+    {
+      "frame": 45,
+      "zoom": 2.65,
+      "center": [
+        540,
+        690
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "punch",
+      "angle": -2,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "runway",
+      "travel": {
+        "pan": [
+          12.0,
+          -3.0
+        ],
+        "zoom": 1.012,
+        "end": 59
+      }
+    },
+    {
+      "frame": 60,
+      "zoom": 1.12,
+      "center": [
+        535,
+        805
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "runway",
+      "travel": {
+        "pan": [
+          -12.0,
+          4.0
+        ],
+        "zoom": 0.991,
+        "end": 89
+      }
+    },
+    {
+      "frame": 90,
+      "zoom": 0.95,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            540,
+            930
+          ],
+          "scale": 1.35,
+          "flip": 1
+        }
+      },
+      "move": "pull",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "runway",
+      "travel": {
+        "pan": [
+          12.0,
+          -3.0
+        ],
+        "zoom": 1.012,
+        "end": 104
+      }
+    },
+    {
+      "frame": 105,
+      "zoom": 1.65,
+      "center": [
+        530,
+        605
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "runway",
+      "travel": {
+        "pan": [
+          -12.0,
+          -3.0
+        ],
+        "zoom": 0.991,
+        "end": 134
+      }
+    },
+    {
+      "frame": 135,
+      "zoom": 1.65,
+      "center": [
+        530,
+        605
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "whip",
+      "angle": 2,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "runway",
+      "travel": {
+        "pan": [
+          12.0,
+          4.0
+        ],
+        "zoom": 1.012,
+        "end": 164
+      }
+    },
+    {
+      "frame": 165,
+      "zoom": 0.95,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            540,
+            930
+          ],
+          "scale": 1.35,
+          "flip": 1
+        }
+      },
+      "move": "pull",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "runway",
+      "travel": {
+        "pan": [
+          -12.0,
+          -3.0
+        ],
+        "zoom": 0.991,
+        "end": 194
+      }
+    },
+    {
+      "frame": 195,
+      "zoom": 2.0,
+      "center": [
+        540,
+        1398
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            540,
+            930
+          ],
+          "scale": 1.35,
+          "flip": 1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "runway",
+      "travel": {
+        "pan": [
+          12.0,
+          -3.0
+        ],
+        "zoom": 1.012,
+        "end": 209
+      }
+    },
+    {
+      "frame": 210,
+      "zoom": 1.12,
+      "center": [
+        535,
+        805
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "punch",
+      "angle": -2,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "runway",
+      "travel": {
+        "pan": [
+          -12.0,
+          4.0
+        ],
+        "zoom": 0.991,
+        "end": 224
+      }
+    },
+    {
+      "frame": 225,
+      "zoom": 0.95,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            540,
+            930
+          ],
+          "scale": 1.35,
+          "flip": 1
+        }
+      },
+      "move": "whip",
+      "angle": 2,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "door",
+      "travel": {
+        "pan": [
+          12.0,
+          -3.0
+        ],
+        "zoom": 1.012,
+        "end": 254
+      }
+    },
+    {
+      "frame": 255,
+      "zoom": 0.83,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            420,
+            900
+          ],
+          "scale": 1.15,
+          "flip": 1
+        }
+      },
+      "move": "pull",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "door",
+      "travel": {
+        "pan": [
+          -12.0,
+          -3.0
+        ],
+        "zoom": 0.991,
+        "end": 269
+      }
+    },
+    {
+      "frame": 270,
+      "zoom": 0.83,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            420,
+            900
+          ],
+          "scale": 1.15,
+          "flip": 1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "door",
+      "travel": {
+        "pan": [
+          12.0,
+          4.0
+        ],
+        "zoom": 1.012,
+        "end": 284
+      }
+    },
+    {
+      "frame": 285,
+      "zoom": 1.65,
+      "center": [
+        530,
+        605
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "punch",
+      "angle": -2,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "plain",
+      "travel": {
+        "pan": [
+          -12.0,
+          -3.0
+        ],
+        "zoom": 0.991,
+        "end": 314
+      }
+    },
+    {
+      "frame": 315,
+      "zoom": 1.12,
+      "center": [
+        535,
+        805
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "door",
+      "travel": {
+        "pan": [
+          12.0,
+          -3.0
+        ],
+        "zoom": 1.012,
+        "end": 329
+      }
+    },
+    {
+      "frame": 330,
+      "zoom": 0.83,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            420,
+            900
+          ],
+          "scale": 1.15,
+          "flip": 1
+        }
+      },
+      "move": "pull",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "door",
+      "travel": {
+        "pan": [
+          -12.0,
+          4.0
+        ],
+        "zoom": 0.991,
+        "end": 359
+      }
+    },
+    {
+      "frame": 360,
+      "zoom": 1.65,
+      "center": [
+        530,
+        605
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "punch",
+      "angle": -2,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "plain",
+      "travel": {
+        "pan": [
+          12.0,
+          -3.0
+        ],
+        "zoom": 1.012,
+        "end": 374
+      }
+    },
+    {
+      "frame": 375,
+      "zoom": 0.83,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            420,
+            900
+          ],
+          "scale": 1.15,
+          "flip": 1
+        }
+      },
+      "move": "pull",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "door",
+      "travel": {
+        "pan": [
+          -12.0,
+          -3.0
+        ],
+        "zoom": 0.991,
+        "end": 404
+      }
+    },
+    {
+      "frame": 405,
+      "zoom": 0.95,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            540,
+            930
+          ],
+          "scale": 1.35,
+          "flip": -1
+        }
+      },
+      "move": "whip",
+      "angle": 2,
+      "settle": 7,
+      "direction": -1,
+      "palette": "paper",
+      "stage": "door",
+      "travel": {
+        "pan": [
+          12.0,
+          4.0
+        ],
+        "zoom": 1.012,
+        "end": 419
+      }
+    },
+    {
+      "frame": 420,
+      "zoom": 1.12,
+      "center": [
+        535,
+        805
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            520,
+            1030
+          ],
+          "scale": 1.65,
+          "flip": 1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "door",
+      "travel": {
+        "pan": [
+          -12.0,
+          -3.0
+        ],
+        "zoom": 0.991,
+        "end": 449
+      }
+    },
+    {
+      "frame": 450,
+      "zoom": 0.83,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            420,
+            900
+          ],
+          "scale": 1.15,
+          "flip": 1
+        }
+      },
+      "move": "pull",
+      "angle": 0,
+      "settle": 7,
+      "direction": 1,
+      "palette": "paper",
+      "stage": "door",
+      "travel": {
+        "pan": [
+          12.0,
+          -3.0
+        ],
+        "zoom": 1.012,
+        "end": 464
+      }
+    },
+    {
+      "frame": 465,
+      "zoom": 0.95,
+      "center": [
+        540,
+        960
+      ],
+      "actors": {
+        "adb": {
+          "position": [
+            540,
+            930
+          ],
+          "scale": 1.35,
+          "flip": -1
+        }
+      },
+      "move": "cut",
+      "angle": 0,
+      "settle": 7,
+      "direction": -1,
+      "palette": "paper",
+      "stage": "door",
+      "travel": {
+        "pan": [
+          -12.0,
+          4.0
+        ],
+        "zoom": 0.991,
+        "end": 479
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "glasses-lock",
+      "at": 15,
+      "end": 45,
+      "kind": "ring",
+      "position": [
+        860,
+        620
+      ],
+      "scale": 0.6,
+      "rotation": 0,
+      "accent": false,
+      "animation": "orbit"
+    },
+    {
+      "id": "collar-bracket",
+      "at": 45,
+      "end": 60,
+      "kind": "brackets",
+      "position": [
+        830,
+        660
+      ],
+      "scale": 0.65,
+      "rotation": 0,
+      "accent": false,
+      "animation": "draw"
+    },
+    {
+      "id": "self-approval",
+      "at": 90,
+      "end": 105,
+      "kind": "rays",
+      "position": [
+        170,
+        535
+      ],
+      "scale": 0.7,
+      "rotation": 0,
+      "accent": false,
+      "animation": "burst"
+    },
+    {
+      "id": "fashion-speed",
+      "at": 135,
+      "end": 165,
+      "kind": "speedlines",
+      "position": [
+        540,
+        770
+      ],
+      "scale": 0.75,
+      "rotation": 0,
+      "accent": false,
+      "animation": "wipe"
+    },
+    {
+      "id": "open-runway",
+      "at": 165,
+      "end": 195,
+      "kind": "brackets",
+      "position": [
+        890,
+        750
+      ],
+      "scale": 0.8,
+      "rotation": 0,
+      "accent": false,
+      "animation": "draw"
+    },
+    {
+      "id": "shoe-detail",
+      "at": 195,
+      "end": 210,
+      "kind": "stars",
+      "position": [
+        170,
+        1160
+      ],
+      "scale": 0.45,
+      "rotation": 0,
+      "accent": false,
+      "animation": "pop"
+    },
+    {
+      "id": "door-sign",
+      "at": 255,
+      "end": 285,
+      "kind": "ring",
+      "position": [
+        825,
+        467
+      ],
+      "scale": 0.65,
+      "rotation": 0,
+      "accent": true,
+      "animation": "orbit"
+    },
+    {
+      "id": "wrong-room",
+      "at": 285,
+      "end": 315,
+      "kind": "zigzag",
+      "position": [
+        815,
+        590
+      ],
+      "scale": 0.7,
+      "rotation": 0,
+      "accent": true,
+      "animation": "pop"
+    },
+    {
+      "id": "thinking-loop",
+      "at": 315,
+      "end": 330,
+      "kind": "spiral",
+      "position": [
+        165,
+        620
+      ],
+      "scale": 0.65,
+      "rotation": 0,
+      "accent": true,
+      "animation": "draw"
+    },
+    {
+      "id": "awkward-silence",
+      "at": 330,
+      "end": 360,
+      "kind": "dash",
+      "position": [
+        200,
+        640
+      ],
+      "scale": 0.65,
+      "rotation": 0,
+      "accent": false,
+      "animation": "draw"
+    },
+    {
+      "id": "dignity-flower",
+      "at": 375,
+      "end": 405,
+      "kind": "flower",
+      "position": [
+        890,
+        760
+      ],
+      "scale": 0.65,
+      "rotation": 0,
+      "accent": true,
+      "animation": "pop"
+    },
+    {
+      "id": "exit-intention",
+      "at": 405,
+      "end": 420,
+      "kind": "brackets",
+      "position": [
+        170,
+        840
+      ],
+      "scale": 0.6,
+      "rotation": 0,
+      "accent": false,
+      "animation": "draw"
+    },
+    {
+      "id": "small-farewell",
+      "at": 420,
+      "end": 450,
+      "kind": "dash",
+      "position": [
+        890,
+        690
+      ],
+      "scale": 0.55,
+      "rotation": 0,
+      "accent": false,
+      "animation": "draw"
+    },
+    {
+      "id": "reassurance",
+      "at": 450,
+      "end": 465,
+      "kind": "ring",
+      "position": [
+        850,
+        900
+      ],
+      "scale": 0.5,
+      "rotation": 0,
+      "accent": true,
+      "animation": "orbit"
+    }
+  ]
+}

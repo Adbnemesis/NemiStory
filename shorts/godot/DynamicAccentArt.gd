@@ -1,6 +1,10 @@
 extends "res://shorts/godot/BatchAccentArt.gd"
 ## Fixed authored paths draw once. Moving particles have an event-local finite lifespan.
 var path_progress := 1.0
+var transition: Dictionary = {}
+var transition_boundary := -200.0
+var paper := Color("#ece9e4")
+var stage_transform := Transform2D.IDENTITY
 func stroke(points: Array, color: Color, width := 2.5) -> void:
 	if points.size() < 2 or path_progress <= 0: return
 	var lengths: Array = []
@@ -87,16 +91,70 @@ func draw_mark(kind: String, c: Color, phase: float) -> void:
 				if kind=="spark_trail": p += Vector2(-phase*90,0)
 				var tangent := Vector2(-direction.y,direction.x)*(6+float(i%3)*2)
 				draw_line(p-tangent,p+tangent,c,2.5,true)
+		"landing_ticks":
+			# Corners grow away from the focal detail; the face center stays clear.
+			var reach := 76+phase*24
+			for side in [-1,1]:
+				stroke([[side*reach,-45],[side*(reach+20),-58]],c,2.5)
+				stroke([[side*(reach+12),-4],[side*(reach+37),-4]],c,2.2)
+				stroke([[side*reach,40],[side*(reach+18),53]],c,2.5)
+		"ink_swoosh":
+			# Direction is authored through event rotation, not frame-to-frame randomness.
+			var x := lerpf(-155,155,phase)
+			stroke([[x-180,-35],[x-100,-22],[x-15,-10],[x+95,-8]],c,2.9)
+			stroke([[x-115,8],[x-46,15],[x+55,21]],c,1.6)
+			stroke([[x-63,40],[x+16,38],[x+100,29]],c,1.2)
+		"impact_ring":
+			# A broken contour leaves air around the impact and keeps the center open.
+			var radius := 36+phase*65
+			for i in range(4):circle_path(Vector2.ZERO,radius,float(i)*PI/2+.15,float(i)*PI/2+1.15,c,2.4)
+			for i in range(6):
+				var direction := Vector2.from_angle(float(i)*TAU/6)
+				draw_line(direction*(radius+12),direction*(radius+26),c,1.8,true)
+		"scribble_burst":
+			for i in range(6):
+				var direction := Vector2.from_angle(float(i)*TAU/6+.2)
+				var normal := Vector2(-direction.y,direction.x)
+				var origin := direction*(32+phase*67)
+				var points: Array = []
+				for j in range(5):
+					var p := origin+direction*float(j)*8+normal*(5 if j%2==0 else -5)
+					points.append([p.x,p.y])
+				stroke(points,c,2)
+
+func draw_transition_wipe() -> void:
+	if transition.is_empty() or transition.kind != "focus_wipe": return
+	# A real vector occluder bridges the two masked pose drawings. Brush edges are
+	# fixed authored strokes; only this finite whole strip travels across the cut.
+	var x := transition_boundary
+	var direction := int(transition.get("direction",1))
+	var focus: Array = transition.get("focus",[540,850])
+	var top := x+(-30-float(focus[1]))*.06*direction
+	var bottom := x+(1980-float(focus[1]))*.06*direction
+	var points := PackedVector2Array([Vector2(top-58,-30),Vector2(top+58,-30),Vector2(bottom+58,1980),Vector2(bottom-58,1980)])
+	draw_colored_polygon(points,paper)
+	draw_polyline(PackedVector2Array([Vector2(top+58,-30),Vector2(bottom+58,1980)]),ink,3,true)
+	for y in range(30,1920,92):
+		var shift := 8 if int(y/92)%2 else -5
+		var edge := x+(float(y)-float(focus[1]))*.06*direction
+		draw_line(Vector2(edge+float(shift)-33,y),Vector2(edge+float(shift)+44,y-38*direction),accent,2.1,true)
 
 func _draw() -> void:
 	var all_events: Array = events
-	# Reuse the established stage and foreground pencil/flash compositions.
+	# Physical stage contours share only the small camera delta. Graphic frames,
+	# captions and event positions remain authored in screen coordinates.
 	events = []
-	for ev in all_events:
-		if ev.kind in ["pencil","flash"]:events.append(ev)
+	draw_set_transform_matrix(stage_transform)
 	super._draw()
+	draw_set_transform_matrix(Transform2D.IDENTITY)
+	if foreground:
+		for ev in all_events:
+			if ev.kind in ["pencil","flash"]:events.append(ev)
+		super._draw()
 	events = all_events
-	if foreground:return
+	if foreground:
+		draw_transition_wipe()
+		return
 	for ev in events:
 		if ev.kind in ["pencil","flash"] or frame<int(ev.at) or frame>=int(ev.end):continue
 		var age := float(frame-int(ev.at))

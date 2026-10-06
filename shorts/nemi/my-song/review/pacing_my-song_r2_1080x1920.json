@@ -1,0 +1,98 @@
+{
+  "frames": 435,
+  "threshold": 0.1,
+  "maxStaticSeconds": 1.0,
+  "runs": [
+    {
+      "startFrame": 60,
+      "endFrame": 89,
+      "seconds": 1.0
+    },
+    {
+      "startFrame": 120,
+      "endFrame": 149,
+      "seconds": 1.0
+    },
+    {
+      "startFrame": 150,
+      "endFrame": 179,
+      "seconds": 1.0
+    },
+    {
+      "startFrame": 180,
+      "endFrame": 209,
+      "seconds": 1.0
+    },
+    {
+      "startFrame": 300,
+      "endFrame": 329,
+      "seconds": 1.0
+    },
+    {
+      "startFrame": 360,
+      "endFrame": 389,
+      "seconds": 1.0
+    },
+    {
+      "startFrame": 390,
+      "endFrame": 419,
+      "seconds": 1.0
+    },
+    {
+      "startFrame": 5,
+      "endFrame": 29,
+      "seconds": 0.8333333333333334
+    },
+    {
+      "startFrame": 240,
+      "endFrame": 263,
+      "seconds": 0.8
+    },
+    {
+      "startFrame": 276,
+      "endFrame": 299,
+      "seconds": 0.8
+    },
+    {
+      "startFrame": 90,
+      "endFrame": 112,
+      "seconds": 0.7666666666666667
+    },
+    {
+      "startFrame": 210,
+      "endFrame": 232,
+      "seconds": 0.7666666666666667
+    },
+    {
+      "startFrame": 335,
+      "endFrame": 352,
+      "seconds": 0.6
+    },
+    {
+      "startFrame": 36,
+      "endFrame": 52,
+      "seconds": 0.5666666666666667
+    },
+    {
+      "startFrame": 420,
+      "endFrame": 434,
+      "seconds": 0.5
+    },
+    {
+      "startFrame": 0,
+      "endFrame": 1,
+      "seconds": 0.06666666666666667
+    },
+    {
+      "startFrame": 330,
+      "endFrame": 331,
+      "seconds": 0.06666666666666667
+    }
+  ],
+  "meanFrameChange": 0.6464148860127048,
+  "spec": "/Users/talus/Documents/adb/shorts/nemi/my-song/short.json",
+  "movie": "/Users/talus/Documents/adb/shorts/nemi/my-song/render/my-song_r2_1080x1920.mp4",
+  "limitSeconds": 1.5,
+  "method": "Decoded 216x384 RGB mean absolute frame difference, threshold in 8-bit pixel units. Creative/action review remains necessary.",
+  "passed": true
+}

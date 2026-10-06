@@ -1,44 +1,43 @@
-# My song just came on — dynamic ink revision
+# My song just came on · motion edit r4
 
-14.5 seconds, 20 authored image changes. Longest shot interval: 1.000s. Each shot adds a finite gaze/head/hand settle and subtle directed camera follow; this interval is a source-layout bound, not yet a decoded-video stillness measurement.
+Current source is at the Short root. Original r1 source is preserved in review/source-r1/; the interim pose-first source is in review/source-motion03/. Movies are immutable revisions in render/.
 
-Reserved listening becomes cheerful ownership of the groove. A small thumb precedes the wider peace pose; hip, open palms and heart hand give a clear confidence arc, while the last headphone profile closes the opening contact. Lavender sound arcs, notes, finite rings and a single confetti crown carry the signature.
+**Promise:** The favorite-song switch is visible in her whole-body silhouette.
 
-**Premise:** me the second / my song comes on
+**Want:** Keep the reaction small.
 
-**Contact and staging:** Headphones persist in every view. Listening fingers sit on the earcup. Grounded full-body drawings are interleaved with hand and face inserts; no feet slide and no pickup is claimed.
+**Choice:** Commit to the groove when the hook arrives.
 
-**Music:** dancin-krono; existing downloaded source and identity records retained. Preview timeline starts at 4.168s, with 14.5s used. Music playback rate remains 1.0. Every cue records its selected spectral-flux onset and frame-grid error in CUE_MAP.json. Spectral accents do not establish musical downbeats.
+**Consequence:** The quiet listener becomes the loudest shape on the page.
 
-**Timing and focus**
+**Payoff:** She catches herself, then chooses the groove anyway; the earcup pose returns as a loop.
 
-| Frame / time | Audience focus | Pose/edit change |
-|---|---|---|
-| 0 / 0.000s | Reserved, then the ear catches her song | nemi: rest; cut |
-| 15 / 0.500s | Hand meets the persistent earcup | nemi: listen; cut |
-| 30 / 1.000s | Earcup grip and smile begin together | nemi: listen; punch |
-| 60 / 2.000s | Profile turns toward the hook | nemi: listen; cut |
-| 90 / 3.000s | Recognition: of course this is her song | nemi: chin; pull |
-| 105 / 3.500s | A small approving thumb lands | nemi: thumbsup; cut |
-| 120 / 4.000s | First whole-body confidence switch | nemi: peace; pull |
-| 150 / 5.000s | Peace hand and bright eyes settle | nemi: peace; punch |
-| 165 / 5.500s | New hip silhouette on the house groove | nemi: hip; pull |
-| 195 / 6.500s | Opens both palms to the chorus | nemi: arms_open; cut |
-| 210 / 7.000s | A happy wave resolves into the hook | nemi: wave; punch |
-| 225 / 7.500s | Separate headphone back view | nemi: rest; whip |
-| 255 / 8.500s | Profile listening answers the reverse view | nemi: listen; whip |
-| 270 / 9.000s | Grounded silhouette, feet stay visible | nemi: peace; pull |
-| 300 / 10.000s | Second affirmative hand with a cheeky glance | nemi: thumbsup; cut |
-| 315 / 10.500s | Open wave and star crown arrive | nemi: wave; pull |
-| 345 / 11.500s | Content look follows the melody | nemi: hip; punch |
-| 360 / 12.000s | This is officially her song now | nemi: heart_hand; whip |
-| 390 / 13.000s | Tiny heart lands by the headphones | nemi: heart_hand; cut |
-| 405 / 13.500s | Final listening smile closes the same earcup loop | nemi: listen; pull |
+The approved ink identity stays. Eyes lead, the head and small grounded shoulder response follow, and a finite camera path develops the attention through the held drawing. Most strokes remain one coherent drawing; camera motion does not redraw completed ink. Props and finger contact share their existing matrices. Gesture progress stays fully arrived, rather than repeating arm entries.
 
-**Motion rule:** Eyes choose the focal point first; head and authored hand settle within seven frames. Feet stay planted. Separate profile/back views are explicit drawings; cuts imply a change in orientation, without pretending to be a universal walk/turn system. Gesture interpolation cannot slide a held prop away from its authored fingers. Completed doodles remain still after entry, while finite rings/trails/confetti have event-bounded paths.
+**Duration:** 14.5s → 14.5s. Keep the complete visual payoff and end before repeated closing poses or the next source texture cycle; sourceStart and recording/gain remain unchanged.
 
-**Effects rule:** Each named doodle supports the current feeling or object. Music carries the edit; original recorded root SFX only accent selected event landings. No synthetic effects, narration, image generation, or storytime source modification.
+**Music:** exact approved recording shorts/assets/music/batch01/dancin-krono.wav, preview-relative source start 4.168s, gain -6.81dB, selected duration 14.5s. Saved accent measurements are candidates; selected camera attack/recovery keys and their frame quantization are in CUE_MAP.json. The source identity, speed and gain stay unchanged.
 
+**Camera:** calm base push/pull/pan follows the thought throughout each shot. Stronger face/detail pushes contrast with safe full-body compositions. Selected low-band source attacks receive a small finite scale/vertical impulse; thin build/recovery passages remain quieter. Physical door/runway/column stage lines follow the same camera delta; page/viewfinder graphics and the premise stay screen anchored. Departing art inherits its actual last camera transform.
 
+| Transition start → pose arrival | Viewer focus | Held body/view/action | Camera direction |
+|---|---|---|---|
+| 0.000s → 0.000s | A folded, shy silhouette tries to keep the excitement contained. | nemi: folded/threequarter/rest | shy_pull |
+| 1.000s → 1.000s | The earcup recognition pulls her whole body toward the sound. | nemi: lean_in/threequarter/listen | notice_push |
+| 1.733s → 2.000s | The first grounded left groove releases the reserved posture. | nemi: groove_left/threequarter/listen | groove_slide |
+| 3.000s → 3.000s | The phrase answers with a clearly different right-supported stance. | nemi: groove_right/front/rest | groove_push |
+| 3.733s → 4.000s | The hook opens her full silhouette, not just her wrists. | nemi: wide/front/arms_open | release_push |
+| 5.000s → 5.000s | She settles into a self-assured hip pose. | nemi: contrapposto/threequarter/hip | groove_slide |
+| 6.000s → 6.000s | A left groove and peace sign make the phrase hers. | nemi: groove_left/front/peace | groove_push |
+| 7.000s → 7.000s | The right groove answers in the same screen direction. | nemi: groove_right/threequarter/peace | groove_slide |
+| 7.733s → 8.000s | Both raised arms celebrate the favorite passage. | nemi: celebrate/front/wave | release_push |
+| 8.800s → 9.000s | She notices how committed she became and recoils toward the viewer. | nemi: recoil/front/rest | caught_push |
+| 10.000s → 10.000s | Folded arms briefly restore the pretend-composed attitude. | nemi: folded/threequarter/rest | shy_pull |
+| 11.000s → 11.000s | The sideways grin decides there is no reason to hide it. | nemi: contrapposto/threequarter/hip | listen_push |
+| 11.733s → 12.000s | One deliberate left groove owns the reaction. | nemi: groove_left/front/listen | release_push |
+| 13.000s → 13.000s | The answering right groove finishes the phrase. | nemi: groove_right/threequarter/listen | groove_slide |
+| 14.000s → 14.000s | A forward earcup lean brings the same listening cause back for the loop. | nemi: lean_in/profile/listen | listen_push |
 
-**Review status:** Source storyboard authored. Validator, Godot stills, decoded motion/static intervals, native exported playback, audio synchronization and actual effect audibility must be recorded after render under review/. Passing the schema alone is not a visual quality claim.
+**Sound and effects:** The recorded SFX and selected finite doodles/VFX strengthen recognition, transition, choice and payoff. Music stays the lead; no synthesized SFX or new character voice. Event clocks/recording hashes/gains remain in the spec and cue map.
+
+**Review:** source intent only until fresh native motion extrema, transition boundaries, encoded picture/audio/pacing and full playback are recorded in review/QA.md. Examine the first-second premise, within-pose movement, eye/contact margins, actual attack arrivals and final-to-first cut. No audience retention outcome is inferred from these craft checks.

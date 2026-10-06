@@ -1,0 +1,1208 @@
+{
+  "version": 3,
+  "revision": "r2",
+  "id": "act-natural",
+  "fps": 30,
+  "frames": 495,
+  "music": {
+    "file": "shorts/assets/music/batch01/cheri-cheri-lady.wav",
+    "sourceHash": "3617fd993e113d231f8b29ce4920f3e36613c916e37edba520417fa28f294260",
+    "sourceStart": 0.1393,
+    "duration": 16.5,
+    "gainDb": -5.07
+  },
+  "recordingMeta": "shorts/assets/music/batch01/cheri-cheri-lady.json",
+  "sourceAnalysis": "shorts/assets/music/batch01/cheri-cheri-lady.analysis.json",
+  "beatPlan": "shorts/assets/music/batch01/cheri-cheri-lady.edit-plan.json",
+  "bpm": 114.027,
+  "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "sourceTimeline": "Downloaded preview clock; full-song offset unknown.",
+  "timingPolicy": "Pose swaps land at selected accent frames. Named transitions start6-8frames earlier and finish on the pose accent; transition start is not falsely labeled a downbeat.",
+  "playbackReview": "pending",
+  "cuts": [
+    {
+      "frame": 0,
+      "sceneTime": 0.0,
+      "sourceTimeAtPicture": 0.1393,
+      "selectedAccentSourceTime": 0.1393,
+      "transition": null,
+      "poseLandingFrame": 0,
+      "poseLandingTime": 0.0,
+      "poseLandingErrorMs": 0.0,
+      "transitionStartMinusAccentMs": 0.0,
+      "audienceFocus": "A visibly folded subject and a raised-phone photographer establish the request.",
+      "visibleBodyPoses": {
+        "nemi": "folded",
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "nemi": "rest",
+        "adb": "phone_up"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 16,
+      "sceneTime": 0.533333,
+      "sourceTimeAtPicture": 0.672633,
+      "selectedAccentSourceTime": 0.6734,
+      "transition": null,
+      "poseLandingFrame": 16,
+      "poseLandingTime": 0.533333,
+      "poseLandingErrorMs": -0.767,
+      "transitionStartMinusAccentMs": -0.767,
+      "audienceFocus": "The subject leans in as though there is a correct answer to natural.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in",
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "nemi": "chin",
+        "adb": "phone_up"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 39,
+      "sceneTime": 1.3,
+      "sourceTimeAtPicture": 1.4393,
+      "selectedAccentSourceTime": 1.7183,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "act-natural-transition-47",
+        "direction": -1,
+        "poseFrame": 47
+      },
+      "poseLandingFrame": 47,
+      "poseLandingTime": 1.566667,
+      "poseLandingErrorMs": -12.333,
+      "transitionStartMinusAccentMs": -279.0,
+      "audienceFocus": "A stiff wide hip pose becomes the first clearly deliberate attempt.",
+      "visibleBodyPoses": {
+        "nemi": "wide",
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "hip",
+        "adb": "phone_up"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 79,
+      "sceneTime": 2.633333,
+      "sourceTimeAtPicture": 2.772633,
+      "selectedAccentSourceTime": 2.7748,
+      "transition": null,
+      "poseLandingFrame": 79,
+      "poseLandingTime": 2.633333,
+      "poseLandingErrorMs": -2.167,
+      "transitionStartMinusAccentMs": -2.167,
+      "audienceFocus": "A left-supported peace pose is the next visibly different option.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "nemi": "peace",
+        "adb": "phone_up"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 105,
+      "sceneTime": 3.5,
+      "sourceTimeAtPicture": 3.6393,
+      "selectedAccentSourceTime": 3.8313,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "act-natural-transition-111",
+        "direction": -1,
+        "poseFrame": 111,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 111,
+      "poseLandingTime": 3.7,
+      "poseLandingErrorMs": 8.0,
+      "transitionStartMinusAccentMs": -192.0,
+      "audienceFocus": "The right-supported fashion angle tries just as hard.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right",
+        "adb": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "hip",
+        "adb": "phone_up"
+      },
+      "framing": "Nemi single profile fashion angle; the overthought pose gets a deliberately formal portrait crop",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1.5,
+      "cameraCenter": [
+        300,
+        710
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "profile",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 142,
+      "sceneTime": 4.733333,
+      "sourceTimeAtPicture": 4.872633,
+      "selectedAccentSourceTime": 4.8762,
+      "transition": null,
+      "poseLandingFrame": 142,
+      "poseLandingTime": 4.733333,
+      "poseLandingErrorMs": -3.567,
+      "transitionStartMinusAccentMs": -3.567,
+      "audienceFocus": "Raised celebratory arms overdo the request to act natural.",
+      "visibleBodyPoses": {
+        "nemi": "celebrate",
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "nemi": "peace",
+        "adb": "phone_up"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 166,
+      "sceneTime": 5.533333,
+      "sourceTimeAtPicture": 5.672633,
+      "selectedAccentSourceTime": 5.9327,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "act-natural-transition-174",
+        "direction": -1,
+        "poseFrame": 174
+      },
+      "poseLandingFrame": 174,
+      "poseLandingTime": 5.8,
+      "poseLandingErrorMs": 6.6,
+      "transitionStartMinusAccentMs": -260.067,
+      "audienceFocus": "A strong recoil shows that she notices the overposing.",
+      "visibleBodyPoses": {
+        "nemi": "recoil",
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "rest",
+        "adb": "phone_up"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 189,
+      "sceneTime": 6.3,
+      "sourceTimeAtPicture": 6.4393,
+      "selectedAccentSourceTime": 6.4551,
+      "transition": null,
+      "poseLandingFrame": 189,
+      "poseLandingTime": 6.3,
+      "poseLandingErrorMs": -15.8,
+      "transitionStartMinusAccentMs": -15.8,
+      "audienceFocus": "The low thinking crouch resets her search for a pose.",
+      "visibleBodyPoses": {
+        "nemi": "crouch",
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "nemi": "chin",
+        "adb": "phone_up"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 213,
+      "sceneTime": 7.1,
+      "sourceTimeAtPicture": 7.2393,
+      "selectedAccentSourceTime": 7.5117,
+      "transition": {
+        "kind": "focus_wipe",
+        "duration": 8,
+        "event": "act-natural-transition-221",
+        "direction": -1,
+        "poseFrame": 221,
+        "focus": [
+          780,
+          915
+        ]
+      },
+      "poseLandingFrame": 221,
+      "poseLandingTime": 7.366667,
+      "poseLandingErrorMs": -5.733,
+      "transitionStartMinusAccentMs": -272.4,
+      "audienceFocus": "He lowers the phone in a separate supported drawing and gives a relaxed shrug.",
+      "visibleBodyPoses": {
+        "nemi": "folded",
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "rest",
+        "adb": "shrug"
+      },
+      "framing": "ADB single camera-down reaction; the relaxed shrug changes the situation",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1.5,
+      "cameraCenter": [
+        780,
+        690
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 253,
+      "sceneTime": 8.433333,
+      "sourceTimeAtPicture": 8.572633,
+      "selectedAccentSourceTime": 8.5682,
+      "transition": null,
+      "poseLandingFrame": 253,
+      "poseLandingTime": 8.433333,
+      "poseLandingErrorMs": 4.433,
+      "transitionStartMinusAccentMs": 4.433,
+      "audienceFocus": "Her forward lean notices his much easier response.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in",
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "nemi": "rest",
+        "adb": "rest"
+      },
+      "framing": "Nemi single true-profile response; she notices the easier candid choice before the two-shot",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1.45,
+      "cameraCenter": [
+        300,
+        665
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "profile",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 269,
+      "sceneTime": 8.966667,
+      "sourceTimeAtPicture": 9.105967,
+      "selectedAccentSourceTime": 9.0906,
+      "transition": null,
+      "poseLandingFrame": 269,
+      "poseLandingTime": 8.966667,
+      "poseLandingErrorMs": 15.367,
+      "transitionStartMinusAccentMs": 15.367,
+      "audienceFocus": "Their contrasting supported stances begin an unplanned shared reaction.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "groove_right"
+      },
+      "visibleActions": {
+        "nemi": "wave",
+        "adb": "rest"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 300,
+      "sceneTime": 10.0,
+      "sourceTimeAtPicture": 10.1393,
+      "selectedAccentSourceTime": 10.1471,
+      "transition": null,
+      "poseLandingFrame": 300,
+      "poseLandingTime": 10.0,
+      "poseLandingErrorMs": -7.8,
+      "transitionStartMinusAccentMs": -7.8,
+      "audienceFocus": "Both open their silhouettes into a candid amused moment.",
+      "visibleBodyPoses": {
+        "nemi": "wide",
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "nemi": "wave",
+        "adb": "thumbsup"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 316,
+      "sceneTime": 10.533333,
+      "sourceTimeAtPicture": 10.672633,
+      "selectedAccentSourceTime": 10.6696,
+      "transition": null,
+      "poseLandingFrame": 316,
+      "poseLandingTime": 10.533333,
+      "poseLandingErrorMs": 3.033,
+      "transitionStartMinusAccentMs": 3.033,
+      "audienceFocus": "He returns to the camera drawing while her pose stays relaxed.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right",
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "rest",
+        "adb": "phone_up"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 342,
+      "sceneTime": 11.4,
+      "sourceTimeAtPicture": 11.5393,
+      "selectedAccentSourceTime": 11.7261,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "act-natural-transition-348",
+        "direction": 1,
+        "poseFrame": 348,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 348,
+      "poseLandingTime": 11.6,
+      "poseLandingErrorMs": 13.2,
+      "transitionStartMinusAccentMs": -186.8,
+      "audienceFocus": "The actual shutter catches an unposed left groove, not the formal attempts.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "nemi": "wave",
+        "adb": "phone_up"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 379,
+      "sceneTime": 12.633333,
+      "sourceTimeAtPicture": 12.772633,
+      "selectedAccentSourceTime": 12.7826,
+      "transition": null,
+      "poseLandingFrame": 379,
+      "poseLandingTime": 12.633333,
+      "poseLandingErrorMs": -9.967,
+      "transitionStartMinusAccentMs": -9.967,
+      "audienceFocus": "The photo result keeps her relaxed whole-body silhouette inside the viewfinder.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "wave",
+        "adb": "phone"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 411,
+      "sceneTime": 13.7,
+      "sourceTimeAtPicture": 13.8393,
+      "selectedAccentSourceTime": 13.8275,
+      "transition": null,
+      "poseLandingFrame": 411,
+      "poseLandingTime": 13.7,
+      "poseLandingErrorMs": 11.8,
+      "transitionStartMinusAccentMs": 11.8,
+      "audienceFocus": "She leans toward the photographer to see what he caught.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in",
+        "adb": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "rest",
+        "adb": "phone"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "profile",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 434,
+      "sceneTime": 14.466667,
+      "sourceTimeAtPicture": 14.605967,
+      "selectedAccentSourceTime": 14.884,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "act-natural-transition-442",
+        "direction": -1,
+        "poseFrame": 442
+      },
+      "poseLandingFrame": 442,
+      "poseLandingTime": 14.733333,
+      "poseLandingErrorMs": -11.367,
+      "transitionStartMinusAccentMs": -278.033,
+      "audienceFocus": "A broad approval resolves the photo request without another formal pose.",
+      "visibleBodyPoses": {
+        "nemi": "wide",
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "thumbsup",
+        "adb": "thumbsup"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 474,
+      "sceneTime": 15.8,
+      "sourceTimeAtPicture": 15.9393,
+      "selectedAccentSourceTime": 15.9289,
+      "transition": null,
+      "poseLandingFrame": 474,
+      "poseLandingTime": 15.8,
+      "poseLandingErrorMs": 10.4,
+      "transitionStartMinusAccentMs": 10.4,
+      "audienceFocus": "Her relaxed supported final stance is the opposite of the initial folded nerves.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right",
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "nemi": "wave",
+        "adb": "rest"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    }
+  ],
+  "poseLandings": [
+    {
+      "frame": 0,
+      "sourceTime": 0.1393,
+      "sourceAccent": 0.1393,
+      "errorMs": 0.0,
+      "focus": "A visibly folded subject and a raised-phone photographer establish the request."
+    },
+    {
+      "frame": 16,
+      "sourceTime": 0.6726333333333333,
+      "sourceAccent": 0.6734,
+      "errorMs": -0.767,
+      "focus": "The subject leans in as though there is a correct answer to natural."
+    },
+    {
+      "frame": 47,
+      "sourceTime": 1.7059666666666666,
+      "sourceAccent": 1.7183,
+      "errorMs": -12.333,
+      "focus": "A stiff wide hip pose becomes the first clearly deliberate attempt."
+    },
+    {
+      "frame": 79,
+      "sourceTime": 2.7726333333333333,
+      "sourceAccent": 2.7748,
+      "errorMs": -2.167,
+      "focus": "A left-supported peace pose is the next visibly different option."
+    },
+    {
+      "frame": 111,
+      "sourceTime": 3.8393,
+      "sourceAccent": 3.8313,
+      "errorMs": 8.0,
+      "focus": "The right-supported fashion angle tries just as hard."
+    },
+    {
+      "frame": 142,
+      "sourceTime": 4.872633333333334,
+      "sourceAccent": 4.8762,
+      "errorMs": -3.567,
+      "focus": "Raised celebratory arms overdo the request to act natural."
+    },
+    {
+      "frame": 174,
+      "sourceTime": 5.9393,
+      "sourceAccent": 5.9327,
+      "errorMs": 6.6,
+      "focus": "A strong recoil shows that she notices the overposing."
+    },
+    {
+      "frame": 189,
+      "sourceTime": 6.4393,
+      "sourceAccent": 6.4551,
+      "errorMs": -15.8,
+      "focus": "The low thinking crouch resets her search for a pose."
+    },
+    {
+      "frame": 221,
+      "sourceTime": 7.505966666666667,
+      "sourceAccent": 7.5117,
+      "errorMs": -5.733,
+      "focus": "He lowers the phone in a separate supported drawing and gives a relaxed shrug."
+    },
+    {
+      "frame": 253,
+      "sourceTime": 8.572633333333334,
+      "sourceAccent": 8.5682,
+      "errorMs": 4.433,
+      "focus": "Her forward lean notices his much easier response."
+    },
+    {
+      "frame": 269,
+      "sourceTime": 9.105966666666667,
+      "sourceAccent": 9.0906,
+      "errorMs": 15.367,
+      "focus": "Their contrasting supported stances begin an unplanned shared reaction."
+    },
+    {
+      "frame": 300,
+      "sourceTime": 10.1393,
+      "sourceAccent": 10.1471,
+      "errorMs": -7.8,
+      "focus": "Both open their silhouettes into a candid amused moment."
+    },
+    {
+      "frame": 316,
+      "sourceTime": 10.672633333333334,
+      "sourceAccent": 10.6696,
+      "errorMs": 3.033,
+      "focus": "He returns to the camera drawing while her pose stays relaxed."
+    },
+    {
+      "frame": 348,
+      "sourceTime": 11.7393,
+      "sourceAccent": 11.7261,
+      "errorMs": 13.2,
+      "focus": "The actual shutter catches an unposed left groove, not the formal attempts."
+    },
+    {
+      "frame": 379,
+      "sourceTime": 12.772633333333333,
+      "sourceAccent": 12.7826,
+      "errorMs": -9.967,
+      "focus": "The photo result keeps her relaxed whole-body silhouette inside the viewfinder."
+    },
+    {
+      "frame": 411,
+      "sourceTime": 13.8393,
+      "sourceAccent": 13.8275,
+      "errorMs": 11.8,
+      "focus": "She leans toward the photographer to see what he caught."
+    },
+    {
+      "frame": 442,
+      "sourceTime": 14.872633333333333,
+      "sourceAccent": 14.884,
+      "errorMs": -11.367,
+      "focus": "A broad approval resolves the photo request without another formal pose."
+    },
+    {
+      "frame": 474,
+      "sourceTime": 15.939300000000001,
+      "sourceAccent": 15.9289,
+      "errorMs": 10.4,
+      "focus": "Her relaxed supported final stance is the opposite of the initial folded nerves."
+    }
+  ],
+  "sfxEvents": [
+    {
+      "event": "overposed",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -8.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "camera-reset",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -7.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "shutter",
+      "file": "common/audio/sfx/click.mp3",
+      "sourceHash": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "sourceStart": 0.03333333333333333,
+      "duration": 0.3,
+      "gainDb": -6.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "photo-approved",
+      "file": "common/audio/sfx/ping.mp3",
+      "sourceHash": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "sourceStart": 0.3,
+      "duration": 0.8,
+      "gainDb": -6.0,
+      "offsetFrames": 0
+    }
+  ],
+  "review": "Authored intentions only. Decoded-cut/audio/pacing and full playback review are pending.",
+  "mixReview": {
+    "recordingAndMusicGainUnchanged": true,
+    "sfxGainAttenuationDb": 3.0,
+    "reason": "Preserve headroom for decoded AAC peaks while keeping selected sound accents."
+  },
+  "framingPolicy": "Full-body silhouette beats alternate with three purpose-led reaction/prop/single inserts; the next wider shot restores grounding or shared cause/payoff."
+}

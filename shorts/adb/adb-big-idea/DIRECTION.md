@@ -1,47 +1,40 @@
-# One big idea
+# One big idea · motion edit r4
 
-**Premise:** me explaining one simple idea / to my own brain.
+Current source is at the Short root. Original r1 source is preserved in review/source-r1/; the interim pose-first source is in review/source-motion03/. Movies are immutable revisions in render/.
 
-**Promise:** ADB tries to stay effortlessly cool while his supposedly simple idea tangles itself into a brain-freeze. The visual answer arrives as a little lightning/star constellation, and he calmly acts as if he knew it all along.
+**Promise:** A confident simple plan becomes a visible tangle, then one clear solution.
 
-**Want:** make the idea look obvious. **Choice:** work through the stubborn thought instead of abandoning it. **Consequence:** composure briefly fails under the spiral of thinking. **Payoff:** the idea finally clicks; he connects the star marks with a point/open-palms gesture and ends with a small approving thumb/nod.
+**Want:** Make the idea look effortless.
 
-The music is **Dancin (feat. Luvli) [Krono Remix] — Aaron Smith**, a different section of the saved official preview: source 12.1673–27.6673 seconds, 15.5 seconds unchanged speed. The relaxed groove fits ADB's composure; selected measured spectral accents drive hand inserts, the thinking spiral, the lightning/star arrival and proud reaction. This is an editorial source-section choice, not a verified current trend or full-song chorus claim. The downloaded preview's full-song offset is unknown. Audible phrase and finished mix review remain pending until native playback.
+**Choice:** Push through the first complicated version.
 
-**Visual device:** warm gray paper, charcoal contours, dusty clay accents, stable hatch shadows. One early sketch contact establishes that he is shaping an idea; chin and open-palms poses move the story into thinking/composure. A separate spiral beside his face marks the mental tangle. A directional ink trail and authored pointing reframe resolve it into a concise lightning/star constellation. The final thumb is small and deliberate. No cat or finished cat-page payoff appears in this edit.
+**Consequence:** The knot stops the cool posture and lowers him into a real rethink.
 
-**Performance:** begin with economical confidence. The pencil/hand insert makes his choice legible; chin, mild shrug and profile deadpan expose the brain-freeze. One shock reaction catches the idea arriving, then pointing and open arms organize the solution. His eyes lead the head answer; a few motivated blinks and finite coherent head/hand settles add real movement. This is ADB's dry thought/composure edit, not a generic dance loop or another finished-art presentation.
+**Payoff:** A deliberate wide solution pose replaces the tangle and restores quiet confidence.
 
-**Contact and staging:** the opening sketch uses the supported attached pencil/book grip. Subsequent mental beats cut to gesture drawings without claiming a continuous physical release or exchange. No walking or handoff is authored. Grounded whole-body shots at the opening, shrug and final solution establish planted feet. Tighter shots inspect the effort, eyes, hand and final thumb. Spiral/star graphics are mental commentary rather than physical marks stuck to moving hands or pages.
+The approved ink identity stays. Eyes lead, the head and small grounded shoulder response follow, and a finite camera path develops the attention through the held drawing. Most strokes remain one coherent drawing; camera motion does not redraw completed ink. Props and finger contact share their existing matrices. Gesture progress stays fully arrived, rather than repeating arm entries.
 
-**Sound:** music carries the edit. Original root whoosh accents the named transition out of the tangle; original root ping accents the idea spark. Their exact inventory identities/hashes are retained. No synthesis, narration or meme vocal as new dialogue.
+**Duration:** 15.5s → 14s. Keep the complete visual payoff and end before repeated closing poses or the next source texture cycle; sourceStart and recording/gain remain unchanged.
 
-**Review status:** this revised direction is written before the spec. Schema/author-scope validation will be recorded separately. Godot stills, decoded static intervals, native playback, picture quality and encoded audio checks remain pending; no render is claimed yet.
+**Music:** exact approved recording shorts/assets/music/batch01/dancin-krono.wav, preview-relative source start 12.1673s, gain -7.6dB, selected duration 14s. Saved accent measurements are candidates; selected camera attack/recovery keys and their frame quantization are in CUE_MAP.json. The source identity, speed and gain stay unchanged.
 
-## Authored thought clock
+**Camera:** calm base push/pull/pan follows the thought throughout each shot. Stronger face/detail pushes contrast with safe full-body compositions. Selected low-band source attacks receive a small finite scale/vertical impulse; thin build/recovery passages remain quieter. Physical door/runway/column stage lines follow the same camera delta; page/viewfinder graphics and the premise stay screen anchored. Departing art inherits its actual last camera transform.
 
-| Frame / seconds | Audience focus | Visible action |
-|---|---|---|
-| 0 / 0.000s | A confident simple idea | threequarter / hip |
-| 23 / 0.767s | Commits the first mark to the held page | threequarter / sketch |
-| 45 / 1.500s | The attached pencil grip and stubborn draft | front / sketch |
-| 60 / 2.000s | A precise chin touch questions the idea | threequarter / chin |
-| 90 / 3.000s | Surely this was supposed to be simple | front / arms_open |
-| 113 / 3.767s | The profile admits a short brain-freeze | profile / rest |
-| 135 / 4.500s | The thinking spiral grows | front / chin |
-| 158 / 5.267s | Both palms briefly concede the tangle | threequarter / shrug |
-| 180 / 6.000s | One short flat stare before the answer | front / rest |
-| 195 / 6.500s | Eyes catch the first idea spark | threequarter / point |
-| 210 / 7.000s | Lightning and stars assemble the answer | front / arms_open |
-| 225 / 7.500s | He checks that this actually works | threequarter / chin |
-| 255 / 8.500s | One point connects the first star | front / point |
-| 278 / 9.267s | The constellation now reads as one idea | threequarter / arms_open |
-| 300 / 10.000s | Composure returns as if it was obvious | front / hip |
-| 330 / 11.000s | A restrained profile lets the solution land | profile / rest |
-| 360 / 12.000s | First small approval, focused on the thumb | front / thumbsup |
-| 382 / 12.733s | He keeps the little success to himself | threequarter / hip |
-| 405 / 13.500s | Full planted figure and resolved star marks | front / arms_open |
-| 435 / 14.500s | A small proud expression answers the gesture | threequarter / thumbsup |
-| 450 / 15.000s | Tiny thumb and nod end the thought | front / thumbsup |
+| Transition start → pose arrival | Viewer focus | Held body/view/action | Camera direction |
+|---|---|---|---|
+| 0.000s → 0.000s | The wide self-assured posture promises an effortless answer. | adb: wide/front/glasses | confident_push |
+| 0.767s → 0.767s | A forward pencil lean begins the actual attempt. | adb: lean_in/threequarter/sketch | caught_push |
+| 1.300s → 1.500s | The first knot causes a strong recoil instead of another wrist movement. | adb: recoil/front/rest | detail_push |
+| 3.000s → 3.000s | A low pencil crouch tries harder at the same problem. | adb: crouch/threequarter/sketch | consider_pull |
+| 4.233s → 4.500s | A wide stubborn stance makes the tangled approach visibly too big. | adb: wide/threequarter/point | idea_push |
+| 6.000s → 6.000s | Folded arms stop the unsuccessful approach. | adb: folded/threequarter/rest | consider_pull |
+| 6.733s → 7.000s | A low thinking crouch deliberately changes the approach. | adb: crouch/profile/chin | detail_push |
+| 8.500s → 8.500s | A whole-body forward lean notices the single useful connection. | adb: lean_in/threequarter/point | recovery_slide |
+| 9.733s → 10.000s | The solution opens into a wide, readable presentation. | adb: wide/front/arms_open | idea_push |
+| 11.000s → 11.000s | A planted hip pose checks the result instead of continuing to tangle it. | adb: contrapposto/threequarter/hip | composed_pull |
+| 12.000s → 12.000s | A forward approving thumb validates his visible choice. | adb: lean_in/front/thumbsup | detail_push |
+| 13.300s → 13.500s | Folded calm returns now that the result actually works. | adb: folded/threequarter/rest | proud_pull |
 
-The longest source shot interval is 1.000 seconds. This is planned picture pacing, not evidence about actual decoded stillness. Important cuts map to saved spectral-flux accents with measured nearest-frame error in CUE_MAP.json.
+**Sound and effects:** The recorded SFX and selected finite doodles/VFX strengthen recognition, transition, choice and payoff. Music stays the lead; no synthesized SFX or new character voice. Event clocks/recording hashes/gains remain in the spec and cue map.
+
+**Review:** source intent only until fresh native motion extrema, transition boundaries, encoded picture/audio/pacing and full playback are recorded in review/QA.md. Examine the first-second premise, within-pose movement, eye/contact margins, actual attack arrivals and final-to-first cut. No audience retention outcome is inferred from these craft checks.

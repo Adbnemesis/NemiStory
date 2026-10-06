@@ -1,362 +1,1216 @@
 {
   "version": 3,
+  "revision": "r4",
   "id": "adb-big-idea",
   "fps": 30,
-  "frames": 465,
-  "musicMetadata": {
-    "id": "dancin-krono",
-    "title": "Dancin (feat. Luvli) [Krono Remix]",
-    "artist": "Aaron Smith",
-    "album": "Dancin (feat. Luvli) [Krono Remix] - Single",
-    "version": "Krono Remix",
-    "trackId": 1882003938,
-    "accessedAt": "2026-10-05T15:59:44.778137+00:00",
-    "catalogReleaseDate": "2014-12-09T12:00:00Z",
-    "sourceKind": "official public Apple/iTunes AAC preview",
-    "catalogUrl": "https://music.apple.com/us/album/dancin-feat-luvli-krono-remix/1882003937?i=1882003938&uo=4",
-    "lookupUrl": "https://itunes.apple.com/lookup?id=1882003938&country=US",
-    "downloadUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/9d/61/f99d6191-39a2-23b8-3bdf-c509793caf9c/mzaf_15561167943359230716.plus.aac.p.m4a",
-    "rawFile": "shorts/assets/music/batch01/dancin-krono.m4a",
-    "rawSha256": "53ac7b754db15544175f3b7f9e06ef0482c9dddc4cc350fc2d1c1a0117f36f37",
-    "file": "shorts/assets/music/batch01/dancin-krono.wav",
-    "sha256": "a13238e578a33bc1c40d79e0d9762b17be0685ea69563cd670c2c4c9e440ba55",
-    "duration": 29.975521,
-    "sampleRate": 48000,
-    "channels": 2,
-    "transformation": "AAC decoded to PCM, 48 kHz stereo; no tempo, pitch, EQ, or synthesis changes",
-    "fit": "playful groove; relaxed confident pose switches",
-    "bpmHint": 120,
-    "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
-    "trendStatus": "current platform trend rank unverified; chosen as recognizable reference-fit music",
-    "previewTimelineNote": "Preview starts partway through the full song; full-song offset is not provided by the API. Scene-clock sourceStart refers to this downloaded preview.",
-    "measuredBpm": 119.984,
-    "editPlanFile": "shorts/assets/music/batch01/dancin-krono.edit-plan.json",
-    "bpm": 119.984
-  },
-  "selection": {
+  "frames": 420,
+  "music": {
     "file": "shorts/assets/music/batch01/dancin-krono.wav",
     "sourceHash": "a13238e578a33bc1c40d79e0d9762b17be0685ea69563cd670c2c4c9e440ba55",
     "sourceStart": 12.1673,
-    "duration": 15.5,
+    "duration": 14.0,
     "gainDb": -7.6
   },
-  "measurementResolutionMs": 11.609977324263038,
-  "metricalStatus": "Measured source accents selected editorially; no confirmed downbeat/chorus labeling.",
-  "sourceTimeline": "Downloaded preview, not full song. Full-song offset unknown.",
-  "playbackReview": "pending",
+  "recordingMeta": "shorts/assets/music/batch01/dancin-krono.json",
+  "sourceAnalysis": "shorts/assets/music/batch01/dancin-krono.analysis.json",
+  "beatPlan": "shorts/assets/music/batch01/dancin-krono.edit-plan.json",
+  "bpm": 119.984,
+  "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "sourceTimeline": "Downloaded preview clock; full-song offset unknown.",
+  "timingPolicy": "Pose swaps land at selected accent frames. Named transitions start6-8frames earlier and finish on the pose accent; transition start is not falsely labeled a downbeat.",
+  "playbackReview": "Performed: exact selected MP4 at1\u00d7unmuted in browser, continuous progression/loop and cue checks; see review/playback-r4.json. Subjective audience/music balance is not inferred from numerical source presence.",
   "cuts": [
     {
       "frame": 0,
       "sceneTime": 0.0,
       "sourceTimeAtPicture": 12.1673,
       "selectedAccentSourceTime": 12.1673,
-      "quantizationErrorMs": 0.0,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "A confident simple idea",
-      "action": "hip",
-      "view": "threequarter",
-      "durationUntilNextShot": 0.7666666666666667
+      "transition": null,
+      "poseLandingFrame": 0,
+      "poseLandingTime": 0.0,
+      "poseLandingErrorMs": 0.0,
+      "transitionStartMinusAccentMs": 0.0,
+      "audienceFocus": "The wide self-assured posture promises an effortless answer.",
+      "visibleBodyPoses": {
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "adb": "glasses"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "front"
+      }
     },
     {
       "frame": 23,
-      "sceneTime": 0.7666666666666667,
-      "sourceTimeAtPicture": 12.933966666666667,
+      "sceneTime": 0.766667,
+      "sourceTimeAtPicture": 12.933967,
       "selectedAccentSourceTime": 12.9219,
-      "quantizationErrorMs": 12.0667,
-      "accentEvidence": "saved spectral-flux onset candidate",
-      "audienceFocus": "Commits the first mark to the held page",
-      "action": "sketch",
-      "view": "threequarter",
-      "durationUntilNextShot": 0.7333333333333333
+      "transition": null,
+      "poseLandingFrame": 23,
+      "poseLandingTime": 0.766667,
+      "poseLandingErrorMs": 12.067,
+      "transitionStartMinusAccentMs": 12.067,
+      "audienceFocus": "A forward pencil lean begins the actual attempt.",
+      "visibleBodyPoses": {
+        "adb": "lean_in"
+      },
+      "visibleActions": {
+        "adb": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
     },
     {
-      "frame": 45,
-      "sceneTime": 1.5,
-      "sourceTimeAtPicture": 13.6673,
+      "frame": 39,
+      "sceneTime": 1.3,
+      "sourceTimeAtPicture": 13.4673,
       "selectedAccentSourceTime": 13.6649,
-      "quantizationErrorMs": 2.4,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "The attached pencil grip and stubborn draft",
-      "action": "sketch",
-      "view": "front",
-      "durationUntilNextShot": 0.5
-    },
-    {
-      "frame": 60,
-      "sceneTime": 2.0,
-      "sourceTimeAtPicture": 14.1673,
-      "selectedAccentSourceTime": 14.1642,
-      "quantizationErrorMs": 3.1,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "A precise chin touch questions the idea",
-      "action": "chin",
-      "view": "threequarter",
-      "durationUntilNextShot": 1.0
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "adb-big-idea-transition-45",
+        "direction": -1,
+        "poseFrame": 45,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 45,
+      "poseLandingTime": 1.5,
+      "poseLandingErrorMs": 2.4,
+      "transitionStartMinusAccentMs": -197.6,
+      "audienceFocus": "The first knot causes a strong recoil instead of another wrist movement.",
+      "visibleBodyPoses": {
+        "adb": "recoil"
+      },
+      "visibleActions": {
+        "adb": "rest"
+      },
+      "framing": "tangle reaction face close-up; visible shock contrasts with the confident full-body opening",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1.7,
+      "cameraCenter": [
+        425,
+        650
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "front"
+      }
     },
     {
       "frame": 90,
       "sceneTime": 3.0,
       "sourceTimeAtPicture": 15.1673,
       "selectedAccentSourceTime": 15.1626,
-      "quantizationErrorMs": 4.7,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "Surely this was supposed to be simple",
-      "action": "arms_open",
-      "view": "front",
-      "durationUntilNextShot": 0.7666666666666667
+      "transition": null,
+      "poseLandingFrame": 90,
+      "poseLandingTime": 3.0,
+      "poseLandingErrorMs": 4.7,
+      "transitionStartMinusAccentMs": 4.7,
+      "audienceFocus": "A low pencil crouch tries harder at the same problem.",
+      "visibleBodyPoses": {
+        "adb": "crouch"
+      },
+      "visibleActions": {
+        "adb": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
     },
     {
-      "frame": 113,
-      "sceneTime": 3.7666666666666666,
-      "sourceTimeAtPicture": 15.933966666666667,
-      "selectedAccentSourceTime": 15.9289,
-      "quantizationErrorMs": 5.0667,
-      "accentEvidence": "saved spectral-flux onset candidate",
-      "audienceFocus": "The profile admits a short brain-freeze",
-      "action": "rest",
-      "view": "profile",
-      "durationUntilNextShot": 0.7333333333333333
-    },
-    {
-      "frame": 135,
-      "sceneTime": 4.5,
-      "sourceTimeAtPicture": 16.667299999999997,
+      "frame": 127,
+      "sceneTime": 4.233333,
+      "sourceTimeAtPicture": 16.400633,
       "selectedAccentSourceTime": 16.6719,
-      "quantizationErrorMs": -4.6,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "The thinking spiral grows",
-      "action": "chin",
-      "view": "front",
-      "durationUntilNextShot": 0.7666666666666667
-    },
-    {
-      "frame": 158,
-      "sceneTime": 5.266666666666667,
-      "sourceTimeAtPicture": 17.433966666666667,
-      "selectedAccentSourceTime": 17.4266,
-      "quantizationErrorMs": 7.3667,
-      "accentEvidence": "saved spectral-flux onset candidate",
-      "audienceFocus": "Both palms briefly concede the tangle",
-      "action": "shrug",
-      "view": "threequarter",
-      "durationUntilNextShot": 0.7333333333333333
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "adb-big-idea-transition-135",
+        "direction": -1,
+        "poseFrame": 135
+      },
+      "poseLandingFrame": 135,
+      "poseLandingTime": 4.5,
+      "poseLandingErrorMs": -4.6,
+      "transitionStartMinusAccentMs": -271.267,
+      "audienceFocus": "A wide stubborn stance makes the tangled approach visibly too big.",
+      "visibleBodyPoses": {
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "adb": "point"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
     },
     {
       "frame": 180,
       "sceneTime": 6.0,
-      "sourceTimeAtPicture": 18.167299999999997,
+      "sourceTimeAtPicture": 18.1673,
       "selectedAccentSourceTime": 18.1696,
-      "quantizationErrorMs": -2.3,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "One short flat stare before the answer",
-      "action": "rest",
-      "view": "front",
-      "durationUntilNextShot": 0.5
+      "transition": null,
+      "poseLandingFrame": 180,
+      "poseLandingTime": 6.0,
+      "poseLandingErrorMs": -2.3,
+      "transitionStartMinusAccentMs": -2.3,
+      "audienceFocus": "Folded arms stop the unsuccessful approach.",
+      "visibleBodyPoses": {
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "adb": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
     },
     {
-      "frame": 195,
-      "sceneTime": 6.5,
-      "sourceTimeAtPicture": 18.667299999999997,
-      "selectedAccentSourceTime": 18.6688,
-      "quantizationErrorMs": -1.5,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "Eyes catch the first idea spark",
-      "action": "point",
-      "view": "threequarter",
-      "durationUntilNextShot": 0.5
-    },
-    {
-      "frame": 210,
-      "sceneTime": 7.0,
-      "sourceTimeAtPicture": 19.167299999999997,
+      "frame": 202,
+      "sceneTime": 6.733333,
+      "sourceTimeAtPicture": 18.900633,
       "selectedAccentSourceTime": 19.1681,
-      "quantizationErrorMs": -0.8,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "Lightning and stars assemble the answer",
-      "action": "arms_open",
-      "view": "front",
-      "durationUntilNextShot": 0.5
-    },
-    {
-      "frame": 225,
-      "sceneTime": 7.5,
-      "sourceTimeAtPicture": 19.667299999999997,
-      "selectedAccentSourceTime": 19.6673,
-      "quantizationErrorMs": -0.0,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "He checks that this actually works",
-      "action": "chin",
-      "view": "threequarter",
-      "durationUntilNextShot": 1.0
+      "transition": {
+        "kind": "focus_wipe",
+        "duration": 8,
+        "event": "adb-big-idea-transition-210",
+        "direction": -1,
+        "poseFrame": 210,
+        "focus": [
+          540,
+          840
+        ]
+      },
+      "poseLandingFrame": 210,
+      "poseLandingTime": 7.0,
+      "poseLandingErrorMs": -0.8,
+      "transitionStartMinusAccentMs": -267.467,
+      "audienceFocus": "A low thinking crouch deliberately changes the approach.",
+      "visibleBodyPoses": {
+        "adb": "crouch"
+      },
+      "visibleActions": {
+        "adb": "chin"
+      },
+      "framing": "low profile thinking close-up; the rethink contrasts with the earlier full-body effort",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1.55,
+      "cameraCenter": [
+        580,
+        760
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "profile"
+      }
     },
     {
       "frame": 255,
       "sceneTime": 8.5,
-      "sourceTimeAtPicture": 20.667299999999997,
+      "sourceTimeAtPicture": 20.6673,
       "selectedAccentSourceTime": 20.6658,
-      "quantizationErrorMs": 1.5,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "One point connects the first star",
-      "action": "point",
-      "view": "front",
-      "durationUntilNextShot": 0.7666666666666667
+      "transition": null,
+      "poseLandingFrame": 255,
+      "poseLandingTime": 8.5,
+      "poseLandingErrorMs": 1.5,
+      "transitionStartMinusAccentMs": 1.5,
+      "audienceFocus": "A whole-body forward lean notices the single useful connection.",
+      "visibleBodyPoses": {
+        "adb": "lean_in"
+      },
+      "visibleActions": {
+        "adb": "point"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
     },
     {
-      "frame": 278,
-      "sceneTime": 9.266666666666667,
-      "sourceTimeAtPicture": 21.433966666666667,
-      "selectedAccentSourceTime": 21.4436,
-      "quantizationErrorMs": -9.6333,
-      "accentEvidence": "saved spectral-flux onset candidate",
-      "audienceFocus": "The constellation now reads as one idea",
-      "action": "arms_open",
-      "view": "threequarter",
-      "durationUntilNextShot": 0.7333333333333333
-    },
-    {
-      "frame": 300,
-      "sceneTime": 10.0,
-      "sourceTimeAtPicture": 22.167299999999997,
+      "frame": 292,
+      "sceneTime": 9.733333,
+      "sourceTimeAtPicture": 21.900633,
       "selectedAccentSourceTime": 22.1634,
-      "quantizationErrorMs": 3.9,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "Composure returns as if it was obvious",
-      "action": "hip",
-      "view": "front",
-      "durationUntilNextShot": 1.0
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "adb-big-idea-transition-300",
+        "direction": -1,
+        "poseFrame": 300
+      },
+      "poseLandingFrame": 300,
+      "poseLandingTime": 10.0,
+      "poseLandingErrorMs": 3.9,
+      "transitionStartMinusAccentMs": -262.767,
+      "audienceFocus": "The solution opens into a wide, readable presentation.",
+      "visibleBodyPoses": {
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "adb": "arms_open"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "front"
+      }
     },
     {
       "frame": 330,
       "sceneTime": 11.0,
-      "sourceTimeAtPicture": 23.167299999999997,
+      "sourceTimeAtPicture": 23.1673,
       "selectedAccentSourceTime": 23.1735,
-      "quantizationErrorMs": -6.2,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "A restrained profile lets the solution land",
-      "action": "rest",
-      "view": "profile",
-      "durationUntilNextShot": 1.0
+      "transition": null,
+      "poseLandingFrame": 330,
+      "poseLandingTime": 11.0,
+      "poseLandingErrorMs": -6.2,
+      "transitionStartMinusAccentMs": -6.2,
+      "audienceFocus": "A planted hip pose checks the result instead of continuing to tangle it.",
+      "visibleBodyPoses": {
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "adb": "hip"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
     },
     {
       "frame": 360,
       "sceneTime": 12.0,
-      "sourceTimeAtPicture": 24.167299999999997,
+      "sourceTimeAtPicture": 24.1673,
       "selectedAccentSourceTime": 24.172,
-      "quantizationErrorMs": -4.7,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "First small approval, focused on the thumb",
-      "action": "thumbsup",
-      "view": "front",
-      "durationUntilNextShot": 0.7333333333333333
+      "transition": null,
+      "poseLandingFrame": 360,
+      "poseLandingTime": 12.0,
+      "poseLandingErrorMs": -4.7,
+      "transitionStartMinusAccentMs": -4.7,
+      "audienceFocus": "A forward approving thumb validates his visible choice.",
+      "visibleBodyPoses": {
+        "adb": "lean_in"
+      },
+      "visibleActions": {
+        "adb": "thumbsup"
+      },
+      "framing": "solution approval medium insert; the forward thumb and face validate the choice",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1.5,
+      "cameraCenter": [
+        600,
+        680
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "front"
+      }
     },
     {
-      "frame": 382,
-      "sceneTime": 12.733333333333333,
-      "sourceTimeAtPicture": 24.90063333333333,
-      "selectedAccentSourceTime": 24.9034,
-      "quantizationErrorMs": -2.7667,
-      "accentEvidence": "saved spectral-flux onset candidate",
-      "audienceFocus": "He keeps the little success to himself",
-      "action": "hip",
-      "view": "threequarter",
-      "durationUntilNextShot": 0.7666666666666667
+      "frame": 399,
+      "sceneTime": 13.3,
+      "sourceTimeAtPicture": 25.4673,
+      "selectedAccentSourceTime": 25.6697,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "adb-big-idea-transition-405",
+        "direction": 1,
+        "poseFrame": 405,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 405,
+      "poseLandingTime": 13.5,
+      "poseLandingErrorMs": -2.4,
+      "transitionStartMinusAccentMs": -202.4,
+      "audienceFocus": "Folded calm returns now that the result actually works.",
+      "visibleBodyPoses": {
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "adb": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
+    }
+  ],
+  "poseLandings": [
+    {
+      "frame": 0,
+      "sourceTime": 12.1673,
+      "sourceAccent": 12.1673,
+      "errorMs": 0.0,
+      "focus": "The wide self-assured posture promises an effortless answer."
+    },
+    {
+      "frame": 23,
+      "sourceTime": 12.933966666666667,
+      "sourceAccent": 12.9219,
+      "errorMs": 12.067,
+      "focus": "A forward pencil lean begins the actual attempt."
+    },
+    {
+      "frame": 45,
+      "sourceTime": 13.6673,
+      "sourceAccent": 13.6649,
+      "errorMs": 2.4,
+      "focus": "The first knot causes a strong recoil instead of another wrist movement."
+    },
+    {
+      "frame": 90,
+      "sourceTime": 15.1673,
+      "sourceAccent": 15.1626,
+      "errorMs": 4.7,
+      "focus": "A low pencil crouch tries harder at the same problem."
+    },
+    {
+      "frame": 135,
+      "sourceTime": 16.667299999999997,
+      "sourceAccent": 16.6719,
+      "errorMs": -4.6,
+      "focus": "A wide stubborn stance makes the tangled approach visibly too big."
+    },
+    {
+      "frame": 180,
+      "sourceTime": 18.167299999999997,
+      "sourceAccent": 18.1696,
+      "errorMs": -2.3,
+      "focus": "Folded arms stop the unsuccessful approach."
+    },
+    {
+      "frame": 210,
+      "sourceTime": 19.167299999999997,
+      "sourceAccent": 19.1681,
+      "errorMs": -0.8,
+      "focus": "A low thinking crouch deliberately changes the approach."
+    },
+    {
+      "frame": 255,
+      "sourceTime": 20.667299999999997,
+      "sourceAccent": 20.6658,
+      "errorMs": 1.5,
+      "focus": "A whole-body forward lean notices the single useful connection."
+    },
+    {
+      "frame": 300,
+      "sourceTime": 22.167299999999997,
+      "sourceAccent": 22.1634,
+      "errorMs": 3.9,
+      "focus": "The solution opens into a wide, readable presentation."
+    },
+    {
+      "frame": 330,
+      "sourceTime": 23.167299999999997,
+      "sourceAccent": 23.1735,
+      "errorMs": -6.2,
+      "focus": "A planted hip pose checks the result instead of continuing to tangle it."
+    },
+    {
+      "frame": 360,
+      "sourceTime": 24.167299999999997,
+      "sourceAccent": 24.172,
+      "errorMs": -4.7,
+      "focus": "A forward approving thumb validates his visible choice."
     },
     {
       "frame": 405,
-      "sceneTime": 13.5,
-      "sourceTimeAtPicture": 25.667299999999997,
-      "selectedAccentSourceTime": 25.6697,
-      "quantizationErrorMs": -2.4,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "Full planted figure and resolved star marks",
-      "action": "arms_open",
-      "view": "front",
-      "durationUntilNextShot": 1.0
-    },
-    {
-      "frame": 435,
-      "sceneTime": 14.5,
-      "sourceTimeAtPicture": 26.667299999999997,
-      "selectedAccentSourceTime": 26.6681,
-      "quantizationErrorMs": -0.8,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "A small proud expression answers the gesture",
-      "action": "thumbsup",
-      "view": "threequarter",
-      "durationUntilNextShot": 0.5
-    },
-    {
-      "frame": 450,
-      "sceneTime": 15.0,
-      "sourceTimeAtPicture": 27.167299999999997,
-      "selectedAccentSourceTime": 27.1673,
-      "quantizationErrorMs": -0.0,
-      "accentEvidence": "saved spectral-flux strong peak",
-      "audienceFocus": "Tiny thumb and nod end the thought",
-      "action": "thumbsup",
-      "view": "front",
-      "durationUntilNextShot": 0.5
+      "sourceTime": 25.667299999999997,
+      "sourceAccent": 25.6697,
+      "errorMs": -2.4,
+      "focus": "Folded calm returns now that the result actually works."
     }
   ],
-  "eventPurpose": {
-    "obvious-plan": "A precise bracket frames his starting confidence.",
-    "first-mark": "One small dash emphasizes his initial commitment to the draft.",
-    "pencil-effort": "Finite trail accents the actual attached pencil/hand insert.",
-    "first-tangle": "The first spiral makes the thinking difficulty visible.",
-    "not-that-simple": "Angular friction contradicts his open-palms confidence.",
-    "flat-profile": "A short dash punctuates his deadpan profile pause.",
-    "stubborn-spiral": "A larger completed spiral marks the stubborn thought before it resolves.",
-    "brain-cloud": "A small cloud accompanies the conceding shrug.",
-    "thinking-snap": "Directional ink trail changes the thought from tangle to answer; recorded whoosh lands here.",
-    "idea-spark": "A lightning-shaped zigzag is the first visible inspiration; recorded ping accents this arrival.",
-    "answer-rays": "A brief finite ray burst releases the mental tension.",
-    "first-star": "The first completed star cluster is the answer he can now inspect.",
-    "check-the-answer": "One finite orbit frames his checking chin touch.",
-    "second-star": "His pointing hand indicates another completed star cluster.",
-    "connection": "A single angled dash visually ties the idea into a concise graphic.",
-    "whole-idea": "Completed rays accompany open arms presenting the resolved idea.",
-    "back-in-control": "The original precise bracket returns when composure returns.",
-    "quiet-glow": "A small star pop keeps the recovered profile warm.",
-    "first-approval": "One finite ring accents the supported thumb-up hand insert.",
-    "private-win": "A restrained flower acknowledges the small private success.",
-    "resolved-stars": "Completed stars support the final planted whole-body solution.",
-    "resolved-rays": "Final stable rays reinforce the resolved mental picture.",
-    "proud-tiny-thumb": "One final star pop answers the tiny thumb/nod without a long celebration."
-  },
-  "sfxInventorySources": [
+  "sfxEvents": [
     {
-      "id": "viral_whoosh",
-      "filename": "whoosh.mp3",
-      "category": "viral_sfx",
-      "description": "Existing user-selected root clip: whoosh",
-      "source": "Existing project root MP3",
-      "origin": "existing_root_mp3",
-      "license": "Not recorded for existing root MP3",
-      "commercial_use": null,
-      "production_use": "User explicitly requested these existing root clips for EP08/EP09",
-      "relative_path": "common/audio/sfx/whoosh.mp3",
-      "duration_seconds": 0.574688,
-      "sample_rate": 44100,
-      "channels": 2,
-      "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
-      "sound_type": "event_sfx"
+      "event": "first-tangle",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -8.5,
+      "offsetFrames": 0
     },
     {
-      "id": "viral_ping",
-      "filename": "ping.mp3",
-      "category": "viral_sfx",
-      "description": "Existing user-selected root clip: ping",
-      "source": "Existing project root MP3",
-      "origin": "existing_root_mp3",
-      "license": "Not recorded for existing root MP3",
-      "commercial_use": null,
-      "production_use": "User explicitly requested these existing root clips for EP08/EP09",
-      "relative_path": "common/audio/sfx/ping.mp3",
-      "duration_seconds": 1.32,
-      "sample_rate": 24000,
-      "channels": 2,
-      "sha256": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
-      "sound_type": "event_sfx"
+      "event": "not-that-simple",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -7.5,
+      "offsetFrames": 0
+    },
+    {
+      "event": "thinking-snap",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -7.5,
+      "offsetFrames": 0
+    },
+    {
+      "event": "idea-spark",
+      "file": "common/audio/sfx/ping.mp3",
+      "sourceHash": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "sourceStart": 0.3,
+      "duration": 0.8,
+      "gainDb": -6.5,
+      "offsetFrames": 0
     }
-  ]
+  ],
+  "review": {
+    "selectedRevision": "r4",
+    "technicalPassed": true,
+    "encodedPictureReviewed": true,
+    "browserPlaybackExercised": true,
+    "evidence": "shorts/adb/adb-big-idea/review/QA.md",
+    "audienceRetentionMeasured": false
+  },
+  "mixReview": {
+    "recordingAndMusicGainUnchanged": true,
+    "sfxGainAttenuationDb": 3.5,
+    "reason": "Preserve headroom for decoded AAC peaks while keeping selected sound accents."
+  },
+  "framingPolicy": "Full-body silhouette beats alternate with three purpose-led reaction/prop/single inserts; the next wider shot restores grounding or shared cause/payoff.",
+  "vfxPlacementReview": "Impact accent moved beside the idea or to the shoe landing area; avoid groin-centered emphasis.",
+  "motion04": {
+    "previousFrames": 465,
+    "selectedFrames": 420,
+    "durationReason": "Keep the complete visual payoff and end before repeated closing poses or the next source texture cycle; sourceStart and recording/gain remain unchanged.",
+    "cameraThoughts": [
+      {
+        "shotFrame": 0,
+        "recipe": "confident_push",
+        "thought": "The wide self-assured posture promises an effortless answer.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 0,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 22,
+              "factor": 1.045,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 23,
+        "recipe": "caught_push",
+        "thought": "A forward pencil lean begins the actual attempt.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 23,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                0.0
+              ],
+              "roll": -0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 38,
+              "factor": 1.045,
+              "pan": [
+                0.0,
+                12.0
+              ],
+              "roll": -0.45,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 39,
+        "recipe": "detail_push",
+        "thought": "The first knot causes a strong recoil instead of another wrist movement.",
+        "camera": {
+          "focus": [
+            540,
+            780
+          ],
+          "keys": [
+            {
+              "frame": 39,
+              "factor": 0.95,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 89,
+              "factor": 1.14,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 90,
+        "recipe": "consider_pull",
+        "thought": "A low pencil crouch tries harder at the same problem.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 90,
+              "factor": 1.03,
+              "pan": [
+                0.0,
+                -6.0
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 98,
+              "factor": 0.98222,
+              "pan": [
+                0.0,
+                -2.889
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 126,
+              "factor": 0.92,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": [
+          {
+            "frame": 90,
+            "sourceTime": 15.1673,
+            "measuredAttackSourceTime": 15.168,
+            "quantizationErrorMs": -0.7,
+            "role": "Primary pose arrival",
+            "basis": "Measured low-band attack of the approved recording; not an assumed stem/downbeat."
+          }
+        ]
+      },
+      {
+        "shotFrame": 127,
+        "recipe": "idea_push",
+        "thought": "A wide stubborn stance makes the tangled approach visibly too big.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 127,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 179,
+              "factor": 1.045,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 180,
+        "recipe": "consider_pull",
+        "thought": "Folded arms stop the unsuccessful approach.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 180,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 201,
+              "factor": 0.92,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 202,
+        "recipe": "detail_push",
+        "thought": "A low thinking crouch deliberately changes the approach.",
+        "camera": {
+          "focus": [
+            540,
+            780
+          ],
+          "keys": [
+            {
+              "frame": 202,
+              "factor": 0.95,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 254,
+              "factor": 1.14,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 255,
+        "recipe": "recovery_slide",
+        "thought": "A whole-body forward lean notices the single useful connection.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 255,
+              "factor": 0.98,
+              "pan": [
+                -0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 291,
+              "factor": 1.045,
+              "pan": [
+                -26.0,
+                -7.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 292,
+        "recipe": "idea_push",
+        "thought": "The solution opens into a wide, readable presentation.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 292,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 298,
+              "factor": 0.99054,
+              "pan": [
+                0.0,
+                -2.108
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 300,
+              "factor": 1.02405,
+              "pan": [
+                0.0,
+                -8.811
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 308,
+              "factor": 1.00811,
+              "pan": [
+                0.0,
+                -5.622
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 329,
+              "factor": 1.045,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": [
+          {
+            "frame": 300,
+            "sourceTime": 22.167299999999997,
+            "measuredAttackSourceTime": 22.1707,
+            "quantizationErrorMs": -3.4,
+            "role": "Primary pose arrival",
+            "basis": "Measured low-band attack of the approved recording; not an assumed stem/downbeat."
+          }
+        ]
+      },
+      {
+        "shotFrame": 330,
+        "recipe": "composed_pull",
+        "thought": "A planted hip pose checks the result instead of continuing to tangle it.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 330,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 359,
+              "factor": 0.92,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 360,
+        "recipe": "detail_push",
+        "thought": "A forward approving thumb validates his visible choice.",
+        "camera": {
+          "focus": [
+            540,
+            780
+          ],
+          "keys": [
+            {
+              "frame": 360,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                -6.0
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 368,
+              "factor": 0.99,
+              "pan": [
+                0.0,
+                -2.737
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 398,
+              "factor": 1.14,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": [
+          {
+            "frame": 360,
+            "sourceTime": 24.167299999999997,
+            "measuredAttackSourceTime": 24.1707,
+            "quantizationErrorMs": -3.4,
+            "role": "Primary pose arrival",
+            "basis": "Measured low-band attack of the approved recording; not an assumed stem/downbeat."
+          }
+        ]
+      },
+      {
+        "shotFrame": 399,
+        "recipe": "proud_pull",
+        "thought": "Folded calm returns now that the result actually works.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 399,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 419,
+              "factor": 0.92,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      }
+    ],
+    "actorMotion": "Eyes lead by3frames; finite head/shoulder response continues inside the held thought, then resolves. No periodic/random wobble and no arm-entry cycling.",
+    "referenceEvidence": "shorts/review/motion04/ref01/MOTION.md and ref03/MOTION.md; frame evidence and tracking limits are separate from authored choices.",
+    "review": "Native extrema/joins, decoded contact/transition/motion frames and complete normal-speed browser playback reviewed. Final selected export: r4"
+  }
 }

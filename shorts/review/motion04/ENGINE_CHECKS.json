@@ -1,0 +1,23 @@
+{
+  "pythonTests": 52,
+  "nativeTests": [
+    "test_camera_scene.gd",
+    "test_page_art_scene.gd",
+    "test_transition_scene.gd"
+  ],
+  "result": "passed",
+  "evidence": "Performed by independent camera/pose agents: destination-key easing, focus mapping, endpoint hold, original no-camera move/travel matrices, stage/caption distinction, outgoing cut\u22121 transform, defaultcat and page selection/contact, exact transition masks/target poses. Native r4 batch proof/export logs independently capture the live project.",
+  "engineErrors": false,
+  "scope": "Shorts-only. Test passes do not establish creative acceptance.",
+  "selectedMovies": {
+    "wrong-class": "r4",
+    "adb-big-idea": "r4",
+    "nemi-tiny-cat": "r4",
+    "my-song": "r4",
+    "quick-doodle": "r4",
+    "act-natural": "r4",
+    "different-energy": "r5",
+    "duo-matching-moment": "r4"
+  },
+  "finalSourceValidation": "All8 strict source validations passed native capture/build. Different-energy r5 only splits the palette/camera source at frame120; engine unchanged after52/native test pass."
+}

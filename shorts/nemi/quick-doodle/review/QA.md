@@ -1,13 +1,9 @@
-# Export review · One quick doodle
+# Recut review · One quick doodle
 
-Native Godot visual capture, exact 540 encoded frames at30fps,1080×1920. All 19 planned cuts have visible decoded changes at their named frame. Source/music hashes and ranges pass strict validation.
+Distinct authored body profiles: contrapposto, crouch, folded, groove_left, groove_right, lean_in, recoil, wide. Named transitions: {"smear": 1, "match": 1, "focus_wipe": 2}. 5 selective recorded accents.
 
-Longest measured decoded still run: **0.133s**, below1.5s. This is a pixel-change check, supported by performed art/contact observations below; it does not rate creativity.
+Decoded40/50/61 keep both book grips aligned through the close push;257/267/278 show a small stance/head change against the fixed page graphic. All4joins clear, finished page is readable. Full normal-speed player playback and a relevant cue were exercised; the final/restart is a semantic cut, not a guaranteed seamless audio loop.
 
-Independent AAC reconstruction correlation **0.99866**, measured delay 0.0000ms, true peak -1.48dBTP, no clipped decoded samples, all 1 recorded SFX contributions verified. Original music version/hash/source section and cue map are retained. Sound measurement verifies exported sources; subjective listening taste is not claimed by numerical checks.
+Encoded 527 frames at30fps,1080×1920. Source hashes/ranges and exact export frames pass. Longest decoded still 0.067s. Exact-source AAC correlation 0.99862; true peak -2.50dBTP; all recorded SFX contributions verified. Picture observations, browser playback states and numerical sound checks are separate evidence. Audience retention has not been measured.
 
-Inspected pencil-to-wrist and two-hand book grips, page doodles and cat book payoff, full-body grounding, close contact crops, profile/back and settled final page. Godot still proofs/contact sheets and actual encoded first/final/cue frames were inspected. Native browser playback/seek observations are recorded separately in playback.json. The player was exercised at real speed with source audio enabled; this is separate from human creative acceptance.
-
-Finite VFX and motion are authored, completed paths stop, and the supported prop-contact drawings remain coherent at inspected boundaries. Supplemental visible art is separately authored Godot illustration; original hidden rig instances do not supply the visible lines.
-
-Reports: [export](export.json), [audio](audio_quick-doodle_r1_1080x1920.json), [pacing](pacing_quick-doodle_r1_1080x1920.json), [current](current.json). All original storytime source/settings remain protected by the batch isolation audit.
+[Export](export_quick-doodle_r4_1080x1920.json) · [audio](audio_quick-doodle_r4_1080x1920.json) · [pacing](pacing_quick-doodle_r4_1080x1920.json) · [playback](playback-r4.json). Native proofs are in stills/r4/, decoded pose/transition/motion sheets are contact.jpg, transitions.jpg and motion.jpg. Original r1 source/records were saved before replacement.

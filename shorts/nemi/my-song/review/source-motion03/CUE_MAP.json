@@ -1,0 +1,856 @@
+{
+  "version": 3,
+  "revision": "r2",
+  "id": "my-song",
+  "fps": 30,
+  "frames": 435,
+  "music": {
+    "file": "shorts/assets/music/batch01/dancin-krono.wav",
+    "sourceHash": "a13238e578a33bc1c40d79e0d9762b17be0685ea69563cd670c2c4c9e440ba55",
+    "sourceStart": 4.168,
+    "duration": 14.5,
+    "gainDb": -6.81
+  },
+  "recordingMeta": "shorts/assets/music/batch01/dancin-krono.json",
+  "sourceAnalysis": "shorts/assets/music/batch01/dancin-krono.analysis.json",
+  "beatPlan": "shorts/assets/music/batch01/dancin-krono.edit-plan.json",
+  "bpm": 119.984,
+  "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "sourceTimeline": "Downloaded preview clock; full-song offset unknown.",
+  "timingPolicy": "Pose swaps land at selected accent frames. Named transitions start6-8frames earlier and finish on the pose accent; transition start is not falsely labeled a downbeat.",
+  "playbackReview": "pending",
+  "cuts": [
+    {
+      "frame": 0,
+      "sceneTime": 0.0,
+      "sourceTimeAtPicture": 4.168,
+      "selectedAccentSourceTime": 4.168,
+      "transition": null,
+      "poseLandingFrame": 0,
+      "poseLandingTime": 0.0,
+      "poseLandingErrorMs": 0.0,
+      "transitionStartMinusAccentMs": 0.0,
+      "audienceFocus": "A folded, shy silhouette tries to keep the excitement contained.",
+      "visibleBodyPoses": {
+        "nemi": "folded"
+      },
+      "visibleActions": {
+        "nemi": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 30,
+      "sceneTime": 1.0,
+      "sourceTimeAtPicture": 5.168,
+      "selectedAccentSourceTime": 5.1664,
+      "transition": null,
+      "poseLandingFrame": 30,
+      "poseLandingTime": 1.0,
+      "poseLandingErrorMs": 1.6,
+      "transitionStartMinusAccentMs": 1.6,
+      "audienceFocus": "The earcup recognition pulls her whole body toward the sound.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "listen"
+      },
+      "framing": "earcup recognition close-up; the face and persistent hand contact lead the thought",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1.55,
+      "cameraCenter": [
+        600,
+        650
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 52,
+      "sceneTime": 1.733333,
+      "sourceTimeAtPicture": 5.901333,
+      "selectedAccentSourceTime": 6.1649,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "my-song-transition-60",
+        "direction": -1,
+        "poseFrame": 60
+      },
+      "poseLandingFrame": 60,
+      "poseLandingTime": 2.0,
+      "poseLandingErrorMs": 3.1,
+      "transitionStartMinusAccentMs": -263.567,
+      "audienceFocus": "The first grounded left groove releases the reserved posture.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "listen"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 90,
+      "sceneTime": 3.0,
+      "sourceTimeAtPicture": 7.168,
+      "selectedAccentSourceTime": 7.1634,
+      "transition": null,
+      "poseLandingFrame": 90,
+      "poseLandingTime": 3.0,
+      "poseLandingErrorMs": 4.6,
+      "transitionStartMinusAccentMs": 4.6,
+      "audienceFocus": "The phrase answers with a clearly different right-supported stance.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right"
+      },
+      "visibleActions": {
+        "nemi": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 112,
+      "sceneTime": 3.733333,
+      "sourceTimeAtPicture": 7.901333,
+      "selectedAccentSourceTime": 8.1618,
+      "transition": {
+        "kind": "whip",
+        "duration": 8,
+        "event": "my-song-transition-120",
+        "direction": -1,
+        "poseFrame": 120
+      },
+      "poseLandingFrame": 120,
+      "poseLandingTime": 4.0,
+      "poseLandingErrorMs": 6.2,
+      "transitionStartMinusAccentMs": -260.467,
+      "audienceFocus": "The hook opens her full silhouette, not just her wrists.",
+      "visibleBodyPoses": {
+        "nemi": "wide"
+      },
+      "visibleActions": {
+        "nemi": "arms_open"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 150,
+      "sceneTime": 5.0,
+      "sourceTimeAtPicture": 9.168,
+      "selectedAccentSourceTime": 9.1603,
+      "transition": null,
+      "poseLandingFrame": 150,
+      "poseLandingTime": 5.0,
+      "poseLandingErrorMs": 7.7,
+      "transitionStartMinusAccentMs": 7.7,
+      "audienceFocus": "She settles into a self-assured hip pose.",
+      "visibleBodyPoses": {
+        "nemi": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "hip"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 180,
+      "sceneTime": 6.0,
+      "sourceTimeAtPicture": 10.168,
+      "selectedAccentSourceTime": 10.1703,
+      "transition": null,
+      "poseLandingFrame": 180,
+      "poseLandingTime": 6.0,
+      "poseLandingErrorMs": -2.3,
+      "transitionStartMinusAccentMs": -2.3,
+      "audienceFocus": "A left groove and peace sign make the phrase hers.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "peace"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 210,
+      "sceneTime": 7.0,
+      "sourceTimeAtPicture": 11.168,
+      "selectedAccentSourceTime": 11.1688,
+      "transition": null,
+      "poseLandingFrame": 210,
+      "poseLandingTime": 7.0,
+      "poseLandingErrorMs": -0.8,
+      "transitionStartMinusAccentMs": -0.8,
+      "audienceFocus": "The right groove answers in the same screen direction.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right"
+      },
+      "visibleActions": {
+        "nemi": "peace"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 232,
+      "sceneTime": 7.733333,
+      "sourceTimeAtPicture": 11.901333,
+      "selectedAccentSourceTime": 12.1673,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "my-song-transition-240",
+        "direction": -1,
+        "poseFrame": 240
+      },
+      "poseLandingFrame": 240,
+      "poseLandingTime": 8.0,
+      "poseLandingErrorMs": 0.7,
+      "transitionStartMinusAccentMs": -265.967,
+      "audienceFocus": "Both raised arms celebrate the favorite passage.",
+      "visibleBodyPoses": {
+        "nemi": "celebrate"
+      },
+      "visibleActions": {
+        "nemi": "wave"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 264,
+      "sceneTime": 8.8,
+      "sourceTimeAtPicture": 12.968,
+      "selectedAccentSourceTime": 13.1657,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "my-song-transition-270",
+        "direction": 1,
+        "poseFrame": 270,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 270,
+      "poseLandingTime": 9.0,
+      "poseLandingErrorMs": 2.3,
+      "transitionStartMinusAccentMs": -197.7,
+      "audienceFocus": "She notices how committed she became and recoils toward the viewer.",
+      "visibleBodyPoses": {
+        "nemi": "recoil"
+      },
+      "visibleActions": {
+        "nemi": "rest"
+      },
+      "framing": "recoil realization face close-up; match transition brings the eyes toward the viewer",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1.7,
+      "cameraCenter": [
+        425,
+        650
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 300,
+      "sceneTime": 10.0,
+      "sourceTimeAtPicture": 14.168,
+      "selectedAccentSourceTime": 14.1642,
+      "transition": null,
+      "poseLandingFrame": 300,
+      "poseLandingTime": 10.0,
+      "poseLandingErrorMs": 3.8,
+      "transitionStartMinusAccentMs": 3.8,
+      "audienceFocus": "Folded arms briefly restore the pretend-composed attitude.",
+      "visibleBodyPoses": {
+        "nemi": "folded"
+      },
+      "visibleActions": {
+        "nemi": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 330,
+      "sceneTime": 11.0,
+      "sourceTimeAtPicture": 15.168,
+      "selectedAccentSourceTime": 15.1626,
+      "transition": null,
+      "poseLandingFrame": 330,
+      "poseLandingTime": 11.0,
+      "poseLandingErrorMs": 5.4,
+      "transitionStartMinusAccentMs": 5.4,
+      "audienceFocus": "The sideways grin decides there is no reason to hide it.",
+      "visibleBodyPoses": {
+        "nemi": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "hip"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 352,
+      "sceneTime": 11.733333,
+      "sourceTimeAtPicture": 15.901333,
+      "selectedAccentSourceTime": 16.1727,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "my-song-transition-360",
+        "direction": -1,
+        "poseFrame": 360
+      },
+      "poseLandingFrame": 360,
+      "poseLandingTime": 12.0,
+      "poseLandingErrorMs": -4.7,
+      "transitionStartMinusAccentMs": -271.367,
+      "audienceFocus": "One deliberate left groove owns the reaction.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "listen"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
+    },
+    {
+      "frame": 390,
+      "sceneTime": 13.0,
+      "sourceTimeAtPicture": 17.168,
+      "selectedAccentSourceTime": 17.1595,
+      "transition": null,
+      "poseLandingFrame": 390,
+      "poseLandingTime": 13.0,
+      "poseLandingErrorMs": 8.5,
+      "transitionStartMinusAccentMs": 8.5,
+      "audienceFocus": "The answering right groove finishes the phrase.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right"
+      },
+      "visibleActions": {
+        "nemi": "listen"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
+    },
+    {
+      "frame": 420,
+      "sceneTime": 14.0,
+      "sourceTimeAtPicture": 18.168,
+      "selectedAccentSourceTime": 18.1696,
+      "transition": null,
+      "poseLandingFrame": 420,
+      "poseLandingTime": 14.0,
+      "poseLandingErrorMs": -1.6,
+      "transitionStartMinusAccentMs": -1.6,
+      "audienceFocus": "A forward earcup lean brings the same listening cause back for the loop.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "listen"
+      },
+      "framing": "true profile earcup callback; listening cause returns to finish the phrase",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1.45,
+      "cameraCenter": [
+        600,
+        680
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "profile"
+      }
+    }
+  ],
+  "poseLandings": [
+    {
+      "frame": 0,
+      "sourceTime": 4.168,
+      "sourceAccent": 4.168,
+      "errorMs": 0.0,
+      "focus": "A folded, shy silhouette tries to keep the excitement contained."
+    },
+    {
+      "frame": 30,
+      "sourceTime": 5.168,
+      "sourceAccent": 5.1664,
+      "errorMs": 1.6,
+      "focus": "The earcup recognition pulls her whole body toward the sound."
+    },
+    {
+      "frame": 60,
+      "sourceTime": 6.168,
+      "sourceAccent": 6.1649,
+      "errorMs": 3.1,
+      "focus": "The first grounded left groove releases the reserved posture."
+    },
+    {
+      "frame": 90,
+      "sourceTime": 7.168,
+      "sourceAccent": 7.1634,
+      "errorMs": 4.6,
+      "focus": "The phrase answers with a clearly different right-supported stance."
+    },
+    {
+      "frame": 120,
+      "sourceTime": 8.168,
+      "sourceAccent": 8.1618,
+      "errorMs": 6.2,
+      "focus": "The hook opens her full silhouette, not just her wrists."
+    },
+    {
+      "frame": 150,
+      "sourceTime": 9.168,
+      "sourceAccent": 9.1603,
+      "errorMs": 7.7,
+      "focus": "She settles into a self-assured hip pose."
+    },
+    {
+      "frame": 180,
+      "sourceTime": 10.168,
+      "sourceAccent": 10.1703,
+      "errorMs": -2.3,
+      "focus": "A left groove and peace sign make the phrase hers."
+    },
+    {
+      "frame": 210,
+      "sourceTime": 11.168,
+      "sourceAccent": 11.1688,
+      "errorMs": -0.8,
+      "focus": "The right groove answers in the same screen direction."
+    },
+    {
+      "frame": 240,
+      "sourceTime": 12.168,
+      "sourceAccent": 12.1673,
+      "errorMs": 0.7,
+      "focus": "Both raised arms celebrate the favorite passage."
+    },
+    {
+      "frame": 270,
+      "sourceTime": 13.168,
+      "sourceAccent": 13.1657,
+      "errorMs": 2.3,
+      "focus": "She notices how committed she became and recoils toward the viewer."
+    },
+    {
+      "frame": 300,
+      "sourceTime": 14.168,
+      "sourceAccent": 14.1642,
+      "errorMs": 3.8,
+      "focus": "Folded arms briefly restore the pretend-composed attitude."
+    },
+    {
+      "frame": 330,
+      "sourceTime": 15.168,
+      "sourceAccent": 15.1626,
+      "errorMs": 5.4,
+      "focus": "The sideways grin decides there is no reason to hide it."
+    },
+    {
+      "frame": 360,
+      "sourceTime": 16.168,
+      "sourceAccent": 16.1727,
+      "errorMs": -4.7,
+      "focus": "One deliberate left groove owns the reaction."
+    },
+    {
+      "frame": 390,
+      "sourceTime": 17.168,
+      "sourceAccent": 17.1595,
+      "errorMs": 8.5,
+      "focus": "The answering right groove finishes the phrase."
+    },
+    {
+      "frame": 420,
+      "sourceTime": 18.168,
+      "sourceAccent": 18.1696,
+      "errorMs": -1.6,
+      "focus": "A forward earcup lean brings the same listening cause back for the loop."
+    }
+  ],
+  "sfxEvents": [
+    {
+      "event": "song-recognition",
+      "file": "common/audio/sfx/ping.mp3",
+      "sourceHash": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "sourceStart": 0.3,
+      "duration": 0.8,
+      "gainDb": -6.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "groove-release",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -7.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "caught-myself",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -8.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "owned-the-song",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -7.0,
+      "offsetFrames": 0
+    }
+  ],
+  "review": "Authored intentions only. Decoded-cut/audio/pacing and full playback review are pending.",
+  "mixReview": {
+    "recordingAndMusicGainUnchanged": true,
+    "sfxGainAttenuationDb": 3.0,
+    "reason": "Preserve headroom for decoded AAC peaks while keeping selected sound accents."
+  },
+  "framingPolicy": "Full-body silhouette beats alternate with three purpose-led reaction/prop/single inserts; the next wider shot restores grounding or shared cause/payoff.",
+  "vfxPlacementReview": "Impact accent moved beside the idea or to the shoe landing area; avoid groin-centered emphasis."
+}

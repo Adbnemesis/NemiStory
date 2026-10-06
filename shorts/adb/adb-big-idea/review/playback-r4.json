@@ -1,0 +1,52 @@
+{
+  "revision": "r4",
+  "pictureReviewed": true,
+  "playbackExercised": true,
+  "observations": "Decoded32/35/38 show the page grip and finite stance movement;301/315/329 show the open-arm pull/lean. All5joins clear, crouched profile/chin and calm folded ending remain coherent. Full normal-speed player playback and a relevant cue were exercised; the final/restart is a semantic cut, not a guaranteed seamless audio loop.",
+  "duration": 14.0,
+  "previousDuration": 15.5,
+  "cameraReview": "Native extrema and actual decoded transition/motion sequences inspected independently; no critical contact/framing defect. Close crops deliberately cut legs and captions may cross lower clothing.",
+  "browserStates": [
+    {
+      "action": "play from0 in separate QA tab",
+      "observedAt": "2026-10-06T16:55:03.631Z",
+      "duration": 14,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "rate": 1,
+      "readyState": 4,
+      "source": "http://127.0.0.1:8768/shorts/adb/adb-big-idea/render/adb-big-idea_r4_1080x1920.mp4",
+      "time": 0.172564
+    },
+    {
+      "action": "complete normal playback / loop",
+      "observedAt": "2026-10-06T16:56:04.041Z",
+      "duration": 14,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "played": [
+        [
+          0,
+          14
+        ]
+      ],
+      "rate": 1,
+      "readyState": 4,
+      "source": "http://127.0.0.1:8768/shorts/adb/adb-big-idea/render/adb-big-idea_r4_1080x1920.mp4",
+      "time": 4.177208
+    },
+    {
+      "action": "cue9.73",
+      "observedAt": "2026-10-06T16:56:04.641Z",
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "time": 9.733333
+    }
+  ],
+  "soundEvidence": "Exact-source decoded music/SFX reconstruction and unmuted1\u00d7browser playback are separate from subjective listening/audience taste.",
+  "continuousPlaybackWallSeconds": 60.41,
+  "playbackEvidence": "DOM played range covers wholeclip at1\u00d7, unmuted,readyState4,errornull; cuecontrol also exercised."
+}

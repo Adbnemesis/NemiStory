@@ -1,0 +1,45 @@
+{
+  "revision": "r4",
+  "pictureReviewed": true,
+  "playbackExercised": true,
+  "observations": "Decoded frames39/45/51 show the gradual face/head push with earcup grip stable;241/252/263 keep raised hands and feet visible through celebration camera movement. All5joins clear. Full normal-speed player playback and a relevant cue were exercised; the final/restart is a semantic cut, not a guaranteed seamless audio loop.",
+  "duration": 14.5,
+  "previousDuration": 14.5,
+  "cameraReview": "Native extrema and actual decoded transition/motion sequences inspected independently; no critical contact/framing defect. Close crops deliberately cut legs and captions may cross lower clothing.",
+  "browserStates": [
+    {
+      "action": "play from0",
+      "observedAt": "2026-10-06T06:44:19.714Z",
+      "duration": 14.5,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "rate": 1,
+      "readyState": 4,
+      "source": "http://127.0.0.1:8768/shorts/nemi/my-song/render/my-song_r4_1080x1920.mp4",
+      "time": 0.233195
+    },
+    {
+      "action": "continuous playback / loop",
+      "observedAt": "2026-10-06T06:44:56.605Z",
+      "duration": 14.5,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "rate": 1,
+      "readyState": 4,
+      "time": 7.981153
+    },
+    {
+      "action": "cue8.80",
+      "observedAt": "2026-10-06T06:45:13.053Z",
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "time": 8.8
+    }
+  ],
+  "soundEvidence": "Exact-source decoded music/SFX reconstruction and unmuted1\u00d7browser playback are separate from subjective listening/audience taste.",
+  "continuousPlaybackWallSeconds": 36.891,
+  "playbackEvidence": "Continuous1\u00d7unmuted playback observed before/after multiple clip lengths with wrappedsceneclock,readyState4,errornull; cuecontrol also exercised. DOM played range was not recorded for this earlier pass."
+}

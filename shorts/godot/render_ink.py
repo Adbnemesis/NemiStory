@@ -2,6 +2,7 @@
 from pathlib import Path
 import sys,json,subprocess,tempfile,shutil
 from validate_ink import validate,ROOT
+from proof_frames import pose_frames,transition_frames,motion_frames
 spec=Path(sys.argv[1]).resolve();c=validate(spec)
 revision=sys.argv[2] if len(sys.argv)>2 else 'r1'
 assert revision.isalnum()
@@ -26,7 +27,9 @@ with tempfile.TemporaryDirectory(prefix='godot-ink-') as t:
  if not stills:args+=['--write-movie',str(raw)]
  script='render_dynamic.gd' if c['version']==3 else ('render_batch.gd' if batch else 'render_ink.gd')
  args+=['--script',f'shorts/godot/{script}','--',f'--spec=res://{spec.relative_to(ROOT)}',f'--review=res://{stilldir.relative_to(ROOT)}']
- if stills:args+=['--stills']
+ if stills:
+  args+=['--stills']
+  if c['version']==3:args+=['--proof-frames='+','.join(map(str, sorted(set(pose_frames(c)+transition_frames(c)+motion_frames(c)))))]
  subprocess.run(args,check=True)
  logs=log.read_text();assert not any(x in logs for x in ['SCRIPT ERROR:','Parse Error:','ERROR:']),logs[-3000:]
  assert 'INK EDIT COMPLETE:' in logs

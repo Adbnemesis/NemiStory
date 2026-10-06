@@ -2,6 +2,11 @@ extends "res://shorts/godot/BatchPoseArt.gd"
 ## Editable, explicitly authored Shorts art. The feet do not follow the head motion.
 ## Arrival motion owns a finite 0..1 interval; completed contours never wobble.
 ## This is supplemental Godot illustration source, not an altered storytime rig.
+var body_pose := "neutral"
+var page_art := "cat"
+var _torso_mapping := false
+var _pose: Dictionary = {}
+var _sketch_shift := Vector2.ZERO
 var pose_progress := 1.0
 var head_angle := 0.0
 var look_x := 0.0
@@ -16,6 +21,9 @@ var _right_elbow := Vector2.ZERO
 var _book_center := Vector2.ZERO
 
 func _draw() -> void:
+	if body_pose != "neutral" and view != "back":
+		draw_authored_pose()
+		return
 	var pivot := Vector2(0,-10)
 	_upper = Transform2D(deg_to_rad(clampf(torso_lean,-5,5)),Vector2.ZERO)
 	_upper.origin = pivot-_upper.basis_xform(pivot)
@@ -123,7 +131,7 @@ func head_contact(point: Vector2) -> Vector2:
 	return _upper.affine_inverse()*(_head*point)
 
 func draw_sleeve(side: int,elbow: Vector2,wrist: Vector2) -> void:
-	var shoulder := Vector2(74*side,-225)
+	var shoulder := body_point(Vector2(74*side,-225)) if not _pose.is_empty() else Vector2(74*side,-225)
 	var c1 := shoulder+(elbow-shoulder)*.85
 	var c2 := wrist+(elbow-wrist)*.78
 	var outer := PackedVector2Array()
@@ -171,7 +179,7 @@ func draw_upper_body() -> void:
 		curve([[-27,-257],[-55,-246],[-72,-231],[-74,-216],[-66,-163],[-73,-100],[-66,-21],[-29,-12],[33,-14],[73,-25],[67,-98],[72,-156],[71,-216],[65,-233],[44,-249],[26,-256]],1.9,true)
 		line([[-27,-257],[-42,-237],[-17,-191],[0,-232],[17,-191],[41,-236],[26,-256]],1.4)
 		curve([[-17,-191],[-3,-145],[0,-76],[0,-15]],1.0)
-		for y in [-159,-119,-79,-39]: draw_circle(Vector2(3,y),2.1,ink)
+		for y in [-159,-119,-79,-39]: draw_circle(body_point(Vector2(3,y)) if _torso_mapping else Vector2(3,y),2.1,ink)
 		curve([[-62,-41],[-48,-34],[-33,-36],[-27,-39]],.8)
 
 func draw_lower_body() -> void:
@@ -266,13 +274,23 @@ func mouth_hand() -> void:
 	line([[-9,-20],[2,-16],[9,-16]],.75)
 
 func draw_sketch_page() -> void:
+	if not _pose.is_empty(): draw_set_transform_matrix(_upper*Transform2D(0,_sketch_shift))
 	var pts := PackedVector2Array([Vector2(-17,-147),Vector2(92,-154),Vector2(102,-48),Vector2(-8,-40)])
 	draw_colored_polygon(pts,paper.lightened(.05))
 	draw_polyline(PackedVector2Array([pts[0],pts[1],pts[2],pts[3],pts[0]]),ink,1.5,true)
 	for y in range(-139,-43,12): line([[-20,y],[-8,y-1]],1.1)
-	curve([[19,-99],[26,-133],[71,-130],[76,-101],[81,-74],[22,-72],[19,-99]],.9)
-	line([[28,-100],[38,-103],[50,-100],[58,-103],[69,-100]],.8)
-	curve([[41,-87],[49,-81],[56,-81],[62,-88]],.9)
+	if page_art == "moon":
+		# Stable editable crescent; only the marks on the page change. The page,
+		# binding, finger contacts and pencil remain exactly the same drawing.
+		curve([[58,-133],[27,-141],[18,-108],[28,-84],[39,-68],[61,-76],[71,-94],
+			[48,-87],[35,-111],[58,-133]],1.1,true)
+	elif page_art == "cat":
+		curve([[19,-99],[26,-133],[71,-130],[76,-101],[81,-74],[22,-72],[19,-99]],.9)
+		line([[28,-100],[38,-103],[50,-100],[58,-103],[69,-100]],.8)
+		curve([[41,-87],[49,-81],[56,-81],[62,-88]],.9)
+	# blank deliberately leaves the paper empty; no opacity reveal or bitmap.
+
+	draw_set_transform_matrix(_upper)
 
 func relaxed_hand() -> void:
 	curve([[-10,0],[-13,11],[-11,29],[-4,35],[3,34],[8,24],[12,9],[10,0]],1.2,true)
@@ -320,6 +338,8 @@ func held_phone() -> void:
 		curve([[17,y-4],[26,y-3],[28,y+2],[23,y+5],[17,y+1]],1.0,true)
 
 func show_book() -> void:
+	# Pose profiles shift the rigid page and both grips by exactly the same center.
+	if not _pose.is_empty(): draw_set_transform_matrix(_upper*Transform2D(0,Vector2(_book_center.x,0)))
 	var y := _book_center.y
 	var pts := PackedVector2Array([Vector2(-83,y-55),Vector2(82,y-55),Vector2(87,y+63),Vector2(-84,y+64)])
 	draw_colored_polygon(pts,paper.lightened(.035))
@@ -336,6 +356,8 @@ func show_book() -> void:
 	line([[-22,y-11],[-40,y-16]],.8);line([[-22,y-5],[-40,y-2]],.8)
 	line([[24,y-11],[44,y-16]],.8);line([[24,y-5],[44,y-2]],.8)
 	curve([[28,y+37],[49,y+35],[56,y+19],[47,y+16],[37,y+14],[37,y+25],[46,y+25]],.9)
+
+	draw_set_transform_matrix(_upper)
 
 func book_grip(side: int) -> void:
 	curve([[-11,0],[-15,-13],[-13,-24],[-7,-29],[1,-25],[7,-20],[11,-10],[10,0]],1.2,true)
@@ -433,3 +455,195 @@ func draw_rear_head() -> void:
 		var hair := PackedVector2Array([Vector2(-51,-297),Vector2(-67,-337),Vector2(-59,-367),Vector2(-72,-390),Vector2(-40,-380),Vector2(-33,-408),Vector2(-11,-394),Vector2(17,-408),Vector2(33,-387),Vector2(62,-384),Vector2(57,-360),Vector2(74,-341),Vector2(59,-309),Vector2(45,-283),Vector2(16,-291),Vector2(-9,-284),Vector2(-32,-289)])
 		draw_colored_polygon(hair,ink)
 		curve([[-12,-281],[-12,-258],[13,-256],[21,-280]],1.0)
+
+# Version-3 optional silhouettes. Every profile specifies a different pelvis,
+# shoulder line, knee and ankle arrangement. They are held illustration poses,
+# not affine tilts, walking, procedural bobbing, or modifications to original rigs.
+func pose_profile() -> Dictionary:
+	var p := {"hip":Vector2.ZERO,"shoulder":Vector2.ZERO,"slope":0.0,
+		"width":1.0,"head":0.0,"left_knee":Vector2(-42,213),
+		"right_knee":Vector2(51,213),"left_foot":Vector2(-45,346),
+		"right_foot":Vector2(57,346),"left_angle":0.0,"right_angle":0.0}
+	match body_pose:
+		"contrapposto":
+			p.hip = Vector2(35,-5);p.shoulder = Vector2(-17,-4);p.slope = -.09;p.head = 4.0
+			p.left_knee = Vector2(-8,208);p.right_knee = Vector2(75,211)
+			p.left_foot = Vector2(-49,346);p.right_foot = Vector2(89,346);p.left_angle = 8.0
+		"recoil":
+			p.hip = Vector2(-26,24);p.shoulder = Vector2(-86,35);p.slope = .16;p.head = -9.0
+			p.left_knee = Vector2(-119,219);p.right_knee = Vector2(79,210)
+			p.left_foot = Vector2(-149,346);p.right_foot = Vector2(109,346);p.left_angle = 7.0
+		"crouch":
+			p.hip = Vector2(-7,91);p.shoulder = Vector2(23,104);p.slope = .04;p.head = 7.0
+			p.left_knee = Vector2(-128,230);p.right_knee = Vector2(126,229)
+			p.left_foot = Vector2(-80,346);p.right_foot = Vector2(91,346);p.width = .96
+		"lean_in":
+			p.hip = Vector2(-15,12);p.shoulder = Vector2(74,17);p.slope = -.18;p.head = 9.0
+			p.left_knee = Vector2(-38,212);p.right_knee = Vector2(79,217)
+			p.left_foot = Vector2(-87,346);p.right_foot = Vector2(109,346);p.right_angle = -5.0
+		"folded":
+			p.hip = Vector2(19,7);p.shoulder = Vector2(-12,3);p.slope = .06;p.head = -5.0
+			p.left_knee = Vector2(19,216);p.right_knee = Vector2(54,213)
+			p.left_foot = Vector2(1,346);p.right_foot = Vector2(78,346);p.left_angle = 10.0
+		"wide":
+			p.hip = Vector2(0,9);p.shoulder = Vector2(0,2);p.slope = -.025;p.head = -2.0
+			p.left_knee = Vector2(-101,198);p.right_knee = Vector2(103,200)
+			p.left_foot = Vector2(-145,346);p.right_foot = Vector2(147,346)
+			p.left_angle = 5.0;p.right_angle = -5.0
+		"groove_left":
+			p.hip = Vector2(-48,21);p.shoulder = Vector2(16,22);p.slope = .14;p.head = -7.0
+			p.left_knee = Vector2(-72,228);p.right_knee = Vector2(76,214)
+			p.left_foot = Vector2(-129,346);p.right_foot = Vector2(125,346);p.right_angle = -9.0
+		"groove_right":
+			p.hip = Vector2(51,21);p.shoulder = Vector2(-17,22);p.slope = -.14;p.head = 7.0
+			p.left_knee = Vector2(-69,213);p.right_knee = Vector2(83,228)
+			p.left_foot = Vector2(-124,346);p.right_foot = Vector2(135,346);p.left_angle = 9.0
+		"celebrate":
+			p.hip = Vector2(28,3);p.shoulder = Vector2(-8,-16);p.slope = -.08;p.head = -4.0
+			p.left_knee = Vector2(23,215);p.right_knee = Vector2(100,190)
+			p.left_foot = Vector2(-44,346);p.right_foot = Vector2(151,346);p.right_angle = -8.0
+	return p
+
+func body_point(point: Vector2) -> Vector2:
+	if _pose.is_empty(): return point
+	var u := clampf((point.y+254.0)/254.0,0,1)
+	var e := u*u*(3.0-2.0*u)
+	var shift: Vector2 = _pose.shoulder.lerp(_pose.hip,e)
+	return Vector2(point.x*float(_pose.width),point.y)+shift+Vector2(0,float(_pose.slope)*point.x*(1.0-e))
+
+func v(a: Array) -> Vector2:
+	var point := Vector2(a[0],a[1])
+	return body_point(point) if _torso_mapping else point
+
+func draw_authored_pose() -> void:
+	_pose = pose_profile()
+	var pivot := Vector2(0,-10)
+	_upper = Transform2D(deg_to_rad(clampf(torso_lean,-5,5)),Vector2.ZERO)
+	_upper.origin = pivot-_upper.basis_xform(pivot)
+	var neck := Vector2(0,-254)
+	var silhouette_turn := Transform2D(deg_to_rad(float(_pose.head)),Vector2.ZERO)
+	silhouette_turn.origin = neck-silhouette_turn.basis_xform(neck)+_pose.shoulder
+	var hp := Vector2(0,-305)
+	var thought_turn := Transform2D(deg_to_rad(clampf(head_angle,-12,12)),Vector2.ZERO)
+	thought_turn.origin = hp-thought_turn.basis_xform(hp)
+	_head = _upper*silhouette_turn*thought_turn
+	# The hair is the same stable ink identity and follows the authored head angle.
+	if author == "nemi":
+		draw_set_transform_matrix(_head);draw_nemi_hair()
+		draw_set_transform_matrix(Transform2D.IDENTITY)
+	draw_authored_lower_body()
+	plan_hands()
+	var sketch_left := _left_wrist
+	var sketch_right := _right_wrist
+	_left_wrist = body_point(_left_wrist);_right_wrist = body_point(_right_wrist)
+	_left_elbow = body_point(_left_elbow);_right_elbow = body_point(_right_elbow)
+	if action == "sketch":
+		_sketch_shift = body_point(Vector2(42,-97))-Vector2(42,-97)
+		_left_wrist = sketch_left+_sketch_shift;_right_wrist = sketch_right+_sketch_shift
+	# Face contacts retain the exact transformed goal instead of following cloth warp.
+	if action in ["listen","glasses"]: _right_wrist = head_contact(Vector2(80,-305))
+	if action == "chin": _right_wrist = head_contact(Vector2(28,-256))
+	if action == "rest" and emotion in ["shy","cover"]: _right_wrist = head_contact(Vector2(22,-252))
+	if action == "book_show":
+		_book_center = body_point(_book_center)
+		_left_wrist = _book_center+Vector2(-87,33);_right_wrist = _book_center+Vector2(87,33)
+	if body_pose == "folded":
+		_left_elbow = body_point(Vector2(-119,-119));_left_wrist = body_point(Vector2(49,-160))
+		_right_elbow = body_point(Vector2(117,-102));_right_wrist = body_point(Vector2(-31,-123))
+	if body_pose == "celebrate":
+		_left_elbow = body_point(Vector2(-139,-256));_left_wrist = body_point(Vector2(-178,-378))
+		_right_elbow = body_point(Vector2(149,-260));_right_wrist = body_point(Vector2(178,-378))
+	draw_set_transform_matrix(_upper)
+	if body_pose != "folded":
+		draw_sleeve(-1,_left_elbow,_left_wrist);draw_sleeve(1,_right_elbow,_right_wrist)
+	_torso_mapping = true;draw_upper_body();_torso_mapping = false
+	draw_authored_wash()
+	if body_pose == "folded":
+		draw_sleeve(-1,_left_elbow,_left_wrist);draw_sleeve(1,_right_elbow,_right_wrist)
+	if action == "book_show": show_book()
+	draw_set_transform_matrix(_head)
+	if author == "nemi": draw_nemi_head()
+	else: draw_adb_head()
+	if view == "profile": draw_profile_face()
+	else: draw_face()
+	if action == "listen" or accessory == "headphones": headphones()
+	if action == "glasses": glasses()
+	if body_pose in ["folded","celebrate"]:
+		for side in [-1,1]:
+			draw_set_transform_matrix(hand_transform(_left_wrist if side == -1 else _right_wrist,0 if body_pose == "celebrate" else side*80))
+			if body_pose == "folded": grip_hand()
+			elif action == "peace": peace_hand()
+			else: open_hand()
+	else: draw_hands_and_props()
+	draw_set_transform_matrix(Transform2D.IDENTITY)
+	_pose = {}
+
+func draw_authored_wash() -> void:
+	var shape := PackedVector2Array()
+	for point in [[32,-188],[64,-195],[63,-43],[26,-36],[14,-98]]: shape.append(body_point(Vector2(point[0],point[1])))
+	draw_colored_polygon(shape,Color(shade,shading))
+	_torso_mapping = true
+	for y in [-172,-157,-142,-127,-112]: line([[48,y],[60,y-7]],.55)
+	_torso_mapping = false
+
+func draw_authored_lower_body() -> void:
+	var hip: Vector2 = _pose.hip
+	if author == "nemi":
+		# Draw the legs behind the hem so a wide stance cannot erase the skirt edge.
+		draw_pose_leg(hip+Vector2(-44,117),_pose.left_knee,_pose.left_foot,17.0,14.0,false)
+		draw_pose_leg(hip+Vector2(49,117),_pose.right_knee,_pose.right_foot,17.0,14.0,false)
+		# A pleated skirt remains one cloth volume around the displaced pelvis.
+		var hem_l := hip+Vector2(-111,121)
+		var hem_r := hip+Vector2(108,119)
+		curve([[hip.x-87,hip.y-24],[hip.x-87,hip.y+24],[hem_l.x-4,hem_l.y-50],[hem_l.x,hem_l.y-8],
+			[hip.x-65,hip.y+129],[hip.x+10,hip.y+115],[hem_r.x,hem_r.y-6],
+			[hem_r.x+1,hem_r.y-44],[hip.x+86,hip.y+30],[hip.x+84,hip.y-14]],1.9,true)
+		for x in [-70,-43,-14,20,48,73]:
+			curve([[hip.x+x,hip.y-10],[hip.x+x-3,hip.y+25],[hip.x+x-9,hip.y+65],[hip.x+x-8,hip.y+116]],.9)
+		var bag := Transform2D(0,hip)
+		draw_set_transform_matrix(bag)
+		curve([[36,-30],[62,-35],[96,-30],[101,-14],[108,23],[106,61],[94,73],[71,76],[37,68],[27,53],[24,18],[23,-14],[36,-30]],1.5,true)
+		line([[30,-12],[101,-9],[86,21],[48,23],[30,-12]],1.1);line([[63,23],[70,29],[74,22]],1.1)
+		draw_set_transform_matrix(Transform2D.IDENTITY)
+	else:
+		# Trousers use two independent bent-leg outlines with a shared waistband.
+		draw_pose_leg(hip+Vector2(-40,-11),_pose.left_knee,_pose.left_foot,29.0,23.0,true)
+		draw_pose_leg(hip+Vector2(43,-11),_pose.right_knee,_pose.right_foot,29.0,23.0,true)
+		curve([[hip.x-69,hip.y-22],[hip.x-36,hip.y-16],[hip.x+35,hip.y-17],[hip.x+73,hip.y-25]],1.2)
+		curve([[hip.x,hip.y-11],[hip.x-3,hip.y+8],[hip.x+2,hip.y+22],[hip.x+3,hip.y+38]],1.0)
+	for side in [-1,1]:
+		var foot: Vector2 = _pose.left_foot if side == -1 else _pose.right_foot
+		var angle: float = _pose.left_angle if side == -1 else _pose.right_angle
+		draw_set_transform_matrix(Transform2D(deg_to_rad(angle),foot))
+		shoe(0,0)
+		draw_set_transform_matrix(Transform2D.IDENTITY)
+
+func draw_pose_leg(hip: Vector2,knee: Vector2,ankle: Vector2,top_width: float,bottom_width: float,trousers: bool) -> void:
+	var path := Curve2D.new()
+	path.add_point(hip,Vector2.ZERO,(knee-hip)*.24)
+	path.add_point(knee,(hip-knee)*.24,(ankle-knee)*.24)
+	path.add_point(ankle,(knee-ankle)*.24,Vector2.ZERO)
+	path.bake_interval = 3.0
+	var points := path.get_baked_points()
+	var outer := PackedVector2Array();var inner := PackedVector2Array()
+	for j in range(points.size()):
+		var t := float(j)/maxi(1,points.size()-1)
+		var before := points[maxi(0,j-1)];var after := points[mini(points.size()-1,j+1)]
+		var tangent := (after-before).normalized();var normal := Vector2(-tangent.y,tangent.x)
+		var width := lerpf(top_width,bottom_width,t)
+		outer.append(points[j]+normal*width);inner.append(points[j]-normal*width)
+	for j in range(points.size()-1):
+		draw_colored_polygon(PackedVector2Array([outer[j],inner[j],outer[j+1]]),paper)
+		draw_colored_polygon(PackedVector2Array([inner[j],inner[j+1],outer[j+1]]),paper)
+	draw_polyline(outer,ink,1.7,true);draw_polyline(inner,ink,1.7,true)
+	var up := (ankle-knee).normalized();var normal := Vector2(-up.y,up.x)
+	draw_line(ankle+normal*bottom_width,ankle-normal*bottom_width,ink,1.1,true)
+	if trousers:
+		var shadow_top := knee-up*17+normal*8
+		var shadow_bottom := ankle-up*12+normal*8
+		draw_colored_polygon(PackedVector2Array([shadow_top,shadow_top+normal*10,shadow_bottom+normal*10,shadow_bottom]),Color(shade,shading))
+		curve([[knee.x-10,knee.y-19],[knee.x+3,knee.y-6],[knee.x+9,knee.y+10],[knee.x+6,knee.y+24]],.8)
+	else:
+		# Socks meet the shoe cuffs; completed fabric marks hold with the pose.
+		var sock := ankle+(knee-ankle).normalized()*59
+		draw_line(sock+normal*15,sock-normal*15,ink,1.0,true)

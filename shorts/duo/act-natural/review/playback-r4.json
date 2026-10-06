@@ -1,0 +1,51 @@
+{
+  "revision": "r4",
+  "pictureReviewed": true,
+  "playbackExercised": true,
+  "observations": "Decoded25/31/38 develop the paired poses;223/237/252 make solo ADB settle through a finite pull. All6joins\u2014including442\u2014clear, phone contact stays fixed. Full normal-speed player playback and a relevant cue were exercised; the final/restart is a semantic cut, not a guaranteed seamless audio loop.",
+  "duration": 15.233333333333333,
+  "previousDuration": 16.5,
+  "cameraReview": "Native extrema and actual decoded transition/motion sequences inspected independently; no critical contact/framing defect. Close crops deliberately cut legs and captions may cross lower clothing.",
+  "browserStates": [
+    {
+      "action": "play from0",
+      "observedAt": "2026-10-06T06:51:46.770Z",
+      "duration": 15.233333,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "rate": 1,
+      "readyState": 4,
+      "source": "http://127.0.0.1:8768/shorts/duo/act-natural/render/act-natural_r4_1080x1920.mp4",
+      "time": 0.191613
+    },
+    {
+      "action": "continuous playback / loop",
+      "observedAt": "2026-10-06T06:53:22.826Z",
+      "duration": 15.233333,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "played": [
+        [
+          0,
+          15.233333
+        ]
+      ],
+      "rate": 1,
+      "readyState": 4,
+      "time": 4.224157
+    },
+    {
+      "action": "cue11.40",
+      "observedAt": "2026-10-06T06:53:23.496Z",
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "time": 11.4
+    }
+  ],
+  "soundEvidence": "Exact-source decoded music/SFX reconstruction and unmuted1\u00d7browser playback are separate from subjective listening/audience taste.",
+  "continuousPlaybackWallSeconds": 96.056,
+  "playbackEvidence": "DOM played range covers wholeclip at1\u00d7, unmuted,readyState4,errornull; cuecontrol also exercised."
+}

@@ -1,44 +1,42 @@
-# Our matching pose found its seal — dynamic ink revision
+# Our matching pose found its seal · motion edit r4
 
-15.5 seconds, 18 authored image changes. Longest shot interval: 1.000s. Each shot adds a finite gaze/head/hand settle and subtle directed camera follow; this interval is a source-layout bound, not yet a decoded-video stillness measurement.
+Current source is at the Short root. Original r1 source is preserved in review/source-r1/; the interim pose-first source is in review/source-motion03/. Movies are immutable revisions in render/.
 
-Nemi tries to solve matching posing with increasingly deliberate options. ADB notices, proposes a tiny heart, and she answers. Their matching decision earns one shutter, then a pencil wipe seals the photo with a drawn heart constellation. They exchange small approvals and return to the same easy mirrored heart gesture. Seafoam paper, lavender rounded idea marks and restrained ADB brackets keep this different from a solo camera-model reversal.
+**Promise:** Opposite photo poses become one mutually chosen, matching silhouette.
 
-**Premise:** one matching pose / way too much thinking
+**Want:** Pick a matching photo pose.
 
-**Contact and staging:** Both actors remain grounded and consistently placed as Nemi-left/ADB-right in paired shots. ADB is mirrored in paired frames so both heart hands face inward, and his local gaze is reversed to preserve the shared eyeline. The heart is two separate authored hand poses, with no physical hand contact or relationship-canon claim. An offscreen camera takes one photo. The pencil wipe is an editorial transformation into a finished heart/star seal; no prop transfer is claimed.
+**Choice:** Each tries their own idea first, then looks at the other.
 
-**Music:** dancin-krono; existing downloaded source and identity records retained. Preview timeline starts at 9.1603s, with 15.5s used. Music playback rate remains 1.0. Every cue records its selected spectral-flux onset and frame-grid error in CUE_MAP.json. Spectral accents do not establish musical downbeats.
+**Consequence:** The excessive and restrained poses clash until they agree on the same supported stance.
 
-**Timing and focus**
+**Payoff:** The matching whole-body groove lands together on the shutter accent.
 
-| Frame / time | Audience focus | Pose/edit change |
-|---|---|---|
-| 0 / 0.000s | One photo request, two very different levels of effort | nemi: rest; adb: rest; cut |
-| 15 / 0.500s | Nemi tries to calculate a natural pose | nemi: chin; cut |
-| 30 / 1.000s | ADB sees that she is making this complicated | adb: chin; cut |
-| 60 / 2.000s | Her first hip pose feels too deliberate | nemi: hip; pull |
-| 90 / 3.000s | Peace hand is another overthought option | nemi: peace; cut |
-| 120 / 4.000s | She shrugs toward him instead of choosing | nemi: shrug; adb: rest; pull |
-| 150 / 5.000s | He proposes one small heart gesture | adb: heart_hand; cut |
-| 165 / 5.500s | Her eyes catch the simple solution | nemi: rest; punch |
-| 195 / 6.500s | She answers with a heart instead of another plan | nemi: heart_hand; cut |
-| 225 / 7.500s | Both matching gestures earn the shared frame | nemi: heart_hand; adb: heart_hand; pull |
-| 240 / 8.000s | One shutter captures their easy choice | nemi: heart_hand; adb: heart_hand; cut |
-| 255 / 8.500s | His restrained satisfied glance closes the pose problem | adb: heart_hand; cut |
-| 285 / 9.500s | A pencil crosses the captured idea into a drawing | nemi: heart_hand; adb: heart_hand; whip |
-| 315 / 10.500s | Nemi points out their drawn heart and star seal | nemi: point; pull |
-| 345 / 11.500s | ADB gives the little photo seal a restrained approval | adb: thumbsup; cut |
-| 375 / 12.500s | She answers with approval instead of overthinking | nemi: thumbsup; punch |
-| 405 / 13.500s | Mirrored hearts meet the finished photo constellation | nemi: heart_hand; adb: heart_hand; pull |
-| 435 / 14.500s | Creative peers close on one easy matching gesture | nemi: heart_hand; adb: heart_hand; cut |
+The approved ink identity stays. Eyes lead, the head and small grounded shoulder response follow, and a finite camera path develops the attention through the held drawing. Most strokes remain one coherent drawing; camera motion does not redraw completed ink. Props and finger contact share their existing matrices. Gesture progress stays fully arrived, rather than repeating arm entries.
 
-**Motion rule:** Eyes choose the focal point first; head and authored hand settle within seven frames. Feet stay planted. Separate profile/back views are explicit drawings; cuts imply a change in orientation, without pretending to be a universal walk/turn system. Gesture interpolation cannot slide a held prop away from its authored fingers. Completed doodles remain still after entry, while finite rings/trails/confetti have event-bounded paths.
+**Duration:** 15.5s → 13.5s. Keep the complete visual payoff and end before repeated closing poses or the next source texture cycle; sourceStart and recording/gain remain unchanged.
 
-**Effects rule:** Each named doodle supports the current feeling or object. Music carries the edit; original recorded root SFX only accent selected event landings. No synthetic effects, narration, image generation, or storytime source modification.
+**Music:** exact approved recording shorts/assets/music/batch01/dancin-krono.wav, preview-relative source start 9.1603s, gain -6.81dB, selected duration 13.5s. Saved accent measurements are candidates; selected camera attack/recovery keys and their frame quantization are in CUE_MAP.json. The source identity, speed and gain stay unchanged.
 
-**Promise/want/choice/consequence/payoff:** Promise: their matched photo can be easy. Want: Nemi wants a natural shared pose; ADB wants one simple gesture. Choice: he offers a heart, she answers. Consequence: matching poses earn a shutter and inspire a small drawn photo seal. Payoff: the finished heart/star constellation preserves their easy shared gesture as art.
+**Camera:** calm base push/pull/pan follows the thought throughout each shot. Stronger face/detail pushes contrast with safe full-body compositions. Selected low-band source attacks receive a small finite scale/vertical impulse; thin build/recovery passages remain quieter. Physical door/runway/column stage lines follow the same camera delta; page/viewfinder graphics and the premise stay screen anchored. Departing art inherits its actual last camera transform.
 
-**Skill forward-test:** `.agents/skills/duo-ink-shorts/SKILL.md` supplied the author-scope, maintained engine, source music, pose-contact and pacing workflow. Detailed performed readings/validation and pending export checks are recorded in SKILL_USE.md.
+| Transition start → pose arrival | Viewer focus | Held body/view/action | Camera direction |
+|---|---|---|---|
+| 0.000s → 0.000s | Raised celebratory Nemi and folded ADB are obviously incompatible photo choices. | nemi: celebrate/front/peace; adb: folded/threequarter/rest | offer_slide |
+| 1.000s → 1.000s | Her wide hip idea meets his calm contrapposto. | nemi: wide/front/hip; adb: contrapposto/threequarter/glasses | detail_push |
+| 1.733s → 2.000s | She offers a left-supported pose while he points out the different angle. | nemi: groove_left/threequarter/peace; adb: lean_in/threequarter/point | reply_push |
+| 3.000s → 3.000s | Her opposite angle meets his wide formal stance. | nemi: groove_right/profile/hip; adb: wide/front/hip | shared_slide |
+| 4.000s → 4.000s | The low thinking pose and folded refusal show that guessing is not working. | nemi: crouch/threequarter/chin; adb: folded/threequarter/rest | offer_slide |
+| 4.733s → 5.000s | Both lean toward each other rather than the camera to solve the same problem. | nemi: lean_in/profile/rest; adb: lean_in/threequarter/rest | reply_push |
+| 5.500s → 5.500s | Nemi gives one simple supported pose suggestion. | nemi: groove_left/threequarter/point; adb: contrapposto/threequarter/chin | notice_push |
+| 6.300s → 6.500s | ADB visibly tries her left-supported suggestion in his own hand vocabulary. | nemi: groove_left/front/peace; adb: groove_left/front/thumbsup | shared_slide |
+| 7.500s → 7.500s | The matching right-supported answer confirms the shared choice. | nemi: groove_right/threequarter/peace; adb: groove_right/threequarter/hip | shared_slide |
+| 8.233s → 8.500s | Both widen into a shared frame before the portrait. | nemi: wide/front/wave; adb: wide/front/arms_open | reply_push |
+| 9.300s → 9.500s | The same left-supported silhouette lands together on the shutter. | nemi: groove_left/front/peace; adb: groove_left/front/thumbsup | photo_push |
+| 10.500s → 10.500s | The completed photo preserves that shared pose for one readable moment. | nemi: groove_left/front/peace; adb: groove_left/front/thumbsup | relief_pull |
+| 11.233s → 11.500s | Their relieved low poses acknowledge how simple the final choice was. | nemi: crouch/threequarter/rest; adb: crouch/threequarter/chin | curled_pull |
+| 12.500s → 12.500s | A matching wide approval closes the awkward guessing. | nemi: wide/front/thumbsup; adb: wide/front/thumbsup | approval_push |
 
-**Review status:** Source storyboard authored. Validator, Godot stills, decoded motion/static intervals, native exported playback, audio synchronization and actual effect audibility must be recorded after render under review/. Passing the schema alone is not a visual quality claim.
+**Sound and effects:** The recorded SFX and selected finite doodles/VFX strengthen recognition, transition, choice and payoff. Music stays the lead; no synthesized SFX or new character voice. Event clocks/recording hashes/gains remain in the spec and cue map.
+
+**Review:** source intent only until fresh native motion extrema, transition boundaries, encoded picture/audio/pacing and full playback are recorded in review/QA.md. Examine the first-second premise, within-pose movement, eye/contact margins, actual attack arrivals and final-to-first cut. No audience retention outcome is inferred from these craft checks.

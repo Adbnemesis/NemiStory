@@ -1,0 +1,52 @@
+{
+  "revision": "r4",
+  "pictureReviewed": true,
+  "playbackExercised": true,
+  "observations": "Decoded40/48/56 and246/253/260 show ongoing camera/head adjustment without page sliding. Opening crescent, later cat sketch and finished book all remain distinct; all5joins clear. Full normal-speed player playback and a relevant cue were exercised; the final/restart is a semantic cut, not a guaranteed seamless audio loop.",
+  "duration": 14.0,
+  "previousDuration": 14.5,
+  "cameraReview": "Native extrema and actual decoded transition/motion sequences inspected independently; no critical contact/framing defect. Close crops deliberately cut legs and captions may cross lower clothing.",
+  "browserStates": [
+    {
+      "action": "play from0",
+      "observedAt": "2026-10-06T16:56:05.035Z",
+      "duration": 14,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "rate": 1,
+      "readyState": 4,
+      "source": "http://127.0.0.1:8768/shorts/nemi/nemi-tiny-cat/render/nemi-tiny-cat_r4_1080x1920.mp4",
+      "time": 0.281539
+    },
+    {
+      "action": "complete normal playback / loop",
+      "observedAt": "2026-10-06T16:57:31.376Z",
+      "duration": 14,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "played": [
+        [
+          0,
+          14
+        ]
+      ],
+      "rate": 1,
+      "readyState": 4,
+      "source": "http://127.0.0.1:8768/shorts/nemi/nemi-tiny-cat/render/nemi-tiny-cat_r4_1080x1920.mp4",
+      "time": 2.147912
+    },
+    {
+      "action": "cue9.73",
+      "observedAt": "2026-10-06T16:57:31.909Z",
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "time": 9.733333
+    }
+  ],
+  "soundEvidence": "Exact-source decoded music/SFX reconstruction and unmuted1\u00d7browser playback are separate from subjective listening/audience taste.",
+  "continuousPlaybackWallSeconds": 86.341,
+  "playbackEvidence": "DOM played range covers wholeclip at1\u00d7, unmuted,readyState4,errornull; cuecontrol also exercised."
+}

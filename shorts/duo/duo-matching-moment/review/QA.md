@@ -1,13 +1,9 @@
-# Export review · Our matching pose found its seal
+# Recut review · Our matching pose found its seal
 
-Native Godot visual capture, exact 465 encoded frames at30fps,1080×1920. All 17 planned cuts have visible decoded changes at their named frame. Source/music hashes and ranges pass strict validation.
+Distinct authored body profiles: celebrate, contrapposto, crouch, folded, groove_left, groove_right, lean_in, wide. Named transitions: {"smear": 2, "focus_wipe": 1, "match": 2, "whip": 1}. 5 selective recorded accents.
 
-Longest measured decoded still run: **0.067s**, below1.5s. This is a pixel-change check, supported by performed art/contact observations below; it does not rate creativity.
+Decoded39/45/51 retain glasses contact through the close push;237/240/246 develop shared eye/head/shoulder attention while both figures fit. All6joins clear, repaired pointing/open/thumb hands remain visible. Full normal-speed player playback and a relevant cue were exercised; the final/restart is a semantic cut, not a guaranteed seamless audio loop.
 
-Independent AAC reconstruction correlation **0.99898**, measured delay 0.0000ms, true peak -2.74dBTP, no clipped decoded samples, all 1 recorded SFX contributions verified. Original music version/hash/source section and cue map are retained. Sound measurement verifies exported sources; subjective listening taste is not claimed by numerical checks.
+Encoded 405 frames at30fps,1080×1920. Source hashes/ranges and exact export frames pass. Longest decoded still 0.067s. Exact-source AAC correlation 0.99886; true peak -2.74dBTP; all recorded SFX contributions verified. Picture observations, browser playback states and numerical sound checks are separate evidence. Audience retention has not been measured.
 
-Inspected Nemi-left/ADB-right paired layout, inward mirrored gestures/eyelines, overthinking reaction, shared heart, shutter and heart/star seal. No prop exchange or relationship-canon claim. Godot still proofs/contact sheets and actual encoded first/final/cue frames were inspected. Native browser playback/seek observations are recorded separately in playback.json. The player was exercised at real speed with source audio enabled; this is separate from human creative acceptance.
-
-Finite VFX and motion are authored, completed paths stop, and the supported prop-contact drawings remain coherent at inspected boundaries. Supplemental visible art is separately authored Godot illustration; original hidden rig instances do not supply the visible lines.
-
-Reports: [export](export.json), [audio](audio_duo-matching-moment_r1_1080x1920.json), [pacing](pacing_duo-matching-moment_r1_1080x1920.json), [current](current.json). All original storytime source/settings remain protected by the batch isolation audit.
+[Export](export_duo-matching-moment_r4_1080x1920.json) · [audio](audio_duo-matching-moment_r4_1080x1920.json) · [pacing](pacing_duo-matching-moment_r4_1080x1920.json) · [playback](playback-r4.json). Native proofs are in stills/r4/, decoded pose/transition/motion sheets are contact.jpg, transitions.jpg and motion.jpg. Original r1 source/records were saved before replacement.

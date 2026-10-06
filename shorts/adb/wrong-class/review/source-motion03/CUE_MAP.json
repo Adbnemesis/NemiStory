@@ -1,0 +1,928 @@
+{
+  "version": 3,
+  "revision": "r2",
+  "id": "wrong-class",
+  "fps": 30,
+  "frames": 480,
+  "music": {
+    "file": "shorts/assets/music/batch01/fashion.wav",
+    "sourceHash": "6ff4e53ce33503eff066f127f38a2646ad181581ac1dc3b663f82b23925541d8",
+    "sourceStart": 0.0108,
+    "duration": 16,
+    "gainDb": -3.64
+  },
+  "recordingMeta": "shorts/assets/music/batch01/fashion.json",
+  "sourceAnalysis": "shorts/assets/music/batch01/fashion.analysis.json",
+  "beatPlan": "shorts/assets/music/batch01/fashion.edit-plan.json",
+  "bpm": 120.001,
+  "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "sourceTimeline": "Downloaded preview clock; full-song offset unknown.",
+  "timingPolicy": "Pose swaps land at selected accent frames. Named transitions start6-8frames earlier and finish on the pose accent; transition start is not falsely labeled a downbeat.",
+  "playbackReview": "pending",
+  "cuts": [
+    {
+      "frame": 0,
+      "sceneTime": 0.0,
+      "sourceTimeAtPicture": 0.0108,
+      "selectedAccentSourceTime": 0.0348,
+      "transition": null,
+      "poseLandingFrame": 0,
+      "poseLandingTime": 0.0,
+      "poseLandingErrorMs": -24.0,
+      "transitionStartMinusAccentMs": -24.0,
+      "audienceFocus": "A wide, grounded sunglasses pose announces the overconfident entrance.",
+      "visibleBodyPoses": {
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "adb": "glasses"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "runway",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 30,
+      "sceneTime": 1.0,
+      "sourceTimeAtPicture": 1.0108,
+      "selectedAccentSourceTime": 1.0101,
+      "transition": null,
+      "poseLandingFrame": 30,
+      "poseLandingTime": 1.0,
+      "poseLandingErrorMs": 0.7,
+      "transitionStartMinusAccentMs": 0.7,
+      "audienceFocus": "A folded stance sells the calm confidence.",
+      "visibleBodyPoses": {
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "adb": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "runway",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 52,
+      "sceneTime": 1.733333,
+      "sourceTimeAtPicture": 1.744133,
+      "selectedAccentSourceTime": 2.0085,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "wrong-class-transition-60",
+        "direction": -1,
+        "poseFrame": 60
+      },
+      "poseLandingFrame": 60,
+      "poseLandingTime": 2.0,
+      "poseLandingErrorMs": 2.3,
+      "transitionStartMinusAccentMs": -264.367,
+      "audienceFocus": "The body opens into a strong hip silhouette.",
+      "visibleBodyPoses": {
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "adb": "hip"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "runway",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 90,
+      "sceneTime": 3.0,
+      "sourceTimeAtPicture": 3.0108,
+      "selectedAccentSourceTime": 3.007,
+      "transition": null,
+      "poseLandingFrame": 90,
+      "poseLandingTime": 3.0,
+      "poseLandingErrorMs": 3.8,
+      "transitionStartMinusAccentMs": 3.8,
+      "audienceFocus": "The left-supported pose is a deliberate runway angle.",
+      "visibleBodyPoses": {
+        "adb": "groove_left"
+      },
+      "visibleActions": {
+        "adb": "arms_open"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "runway",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 114,
+      "sceneTime": 3.8,
+      "sourceTimeAtPicture": 3.8108,
+      "selectedAccentSourceTime": 4.0054,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "wrong-class-transition-120",
+        "direction": -1,
+        "poseFrame": 120,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 120,
+      "poseLandingTime": 4.0,
+      "poseLandingErrorMs": 5.4,
+      "transitionStartMinusAccentMs": -194.6,
+      "audienceFocus": "The right-supported silhouette answers the pose edit.",
+      "visibleBodyPoses": {
+        "adb": "groove_right"
+      },
+      "visibleActions": {
+        "adb": "hip"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "runway",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 150,
+      "sceneTime": 5.0,
+      "sourceTimeAtPicture": 5.0108,
+      "selectedAccentSourceTime": 5.0039,
+      "transition": null,
+      "poseLandingFrame": 150,
+      "poseLandingTime": 5.0,
+      "poseLandingErrorMs": 6.9,
+      "transitionStartMinusAccentMs": 6.9,
+      "audienceFocus": "A composed contrapposto closes his little fashion phrase.",
+      "visibleBodyPoses": {
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "adb": "glasses"
+      },
+      "framing": "sunglasses/collar detail; calm confidence before the room is noticed",
+      "stage": "runway",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1.55,
+      "cameraCenter": [
+        515,
+        650
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 180,
+      "sceneTime": 6.0,
+      "sourceTimeAtPicture": 6.0108,
+      "selectedAccentSourceTime": 6.0024,
+      "transition": null,
+      "poseLandingFrame": 180,
+      "poseLandingTime": 6.0,
+      "poseLandingErrorMs": 8.4,
+      "transitionStartMinusAccentMs": 8.4,
+      "audienceFocus": "The wide self-approval lands before he checks where he is.",
+      "visibleBodyPoses": {
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "adb": "thumbsup"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "runway",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 202,
+      "sceneTime": 6.733333,
+      "sourceTimeAtPicture": 6.744133,
+      "selectedAccentSourceTime": 7.0008,
+      "transition": {
+        "kind": "focus_wipe",
+        "duration": 8,
+        "event": "wrong-class-transition-210",
+        "direction": 1,
+        "poseFrame": 210,
+        "focus": [
+          825,
+          467
+        ]
+      },
+      "poseLandingFrame": 210,
+      "poseLandingTime": 7.0,
+      "poseLandingErrorMs": 10.0,
+      "transitionStartMinusAccentMs": -256.667,
+      "audienceFocus": "He leans toward the actual LAB 3 sign; the runway gives way to a door.",
+      "visibleBodyPoses": {
+        "adb": "lean_in"
+      },
+      "visibleActions": {
+        "adb": "point"
+      },
+      "framing": "medium profile/sign reading; LAB 3 remains in the fixed stage at the eye target",
+      "stage": "door",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1.3,
+      "cameraCenter": [
+        445,
+        760
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            415,
+            900
+          ],
+          "scale": 1.38,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "profile"
+      }
+    },
+    {
+      "frame": 234,
+      "sceneTime": 7.8,
+      "sourceTimeAtPicture": 7.8108,
+      "selectedAccentSourceTime": 7.9993,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "wrong-class-transition-240",
+        "direction": -1,
+        "poseFrame": 240,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 240,
+      "poseLandingTime": 8.0,
+      "poseLandingErrorMs": 11.5,
+      "transitionStartMinusAccentMs": -188.5,
+      "audienceFocus": "The sign causes a large backward recoil, readable with his feet visible.",
+      "visibleBodyPoses": {
+        "adb": "recoil"
+      },
+      "visibleActions": {
+        "adb": "rest"
+      },
+      "framing": "wrong-room recoil face close-up; the realization leads before returning to the grounded crouch",
+      "stage": "door",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1.65,
+      "cameraCenter": [
+        300,
+        665
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            415,
+            900
+          ],
+          "scale": 1.38,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 270,
+      "sceneTime": 9.0,
+      "sourceTimeAtPicture": 9.0108,
+      "selectedAccentSourceTime": 9.0093,
+      "transition": null,
+      "poseLandingFrame": 270,
+      "poseLandingTime": 9.0,
+      "poseLandingErrorMs": 1.5,
+      "transitionStartMinusAccentMs": 1.5,
+      "audienceFocus": "A lowered thinking crouch admits the mistake.",
+      "visibleBodyPoses": {
+        "adb": "crouch"
+      },
+      "visibleActions": {
+        "adb": "chin"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "door",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            415,
+            900
+          ],
+          "scale": 1.38,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 300,
+      "sceneTime": 10.0,
+      "sourceTimeAtPicture": 10.0108,
+      "selectedAccentSourceTime": 10.0078,
+      "transition": null,
+      "poseLandingFrame": 300,
+      "poseLandingTime": 10.0,
+      "poseLandingErrorMs": 3.0,
+      "transitionStartMinusAccentMs": 3.0,
+      "audienceFocus": "Folded arms attempt a dignified explanation without dialogue.",
+      "visibleBodyPoses": {
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "adb": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "door",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            415,
+            900
+          ],
+          "scale": 1.38,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 322,
+      "sceneTime": 10.733333,
+      "sourceTimeAtPicture": 10.744133,
+      "selectedAccentSourceTime": 11.0063,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "wrong-class-transition-330",
+        "direction": 1,
+        "poseFrame": 330
+      },
+      "poseLandingFrame": 330,
+      "poseLandingTime": 11.0,
+      "poseLandingErrorMs": 4.5,
+      "transitionStartMinusAccentMs": -262.167,
+      "audienceFocus": "The hip pose restores his deliberate composure.",
+      "visibleBodyPoses": {
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "adb": "hip"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "door",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            415,
+            900
+          ],
+          "scale": 1.38,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 360,
+      "sceneTime": 12.0,
+      "sourceTimeAtPicture": 12.0108,
+      "selectedAccentSourceTime": 12.0047,
+      "transition": null,
+      "poseLandingFrame": 360,
+      "poseLandingTime": 12.0,
+      "poseLandingErrorMs": 6.1,
+      "transitionStartMinusAccentMs": 6.1,
+      "audienceFocus": "A full-body small farewell commits to leaving.",
+      "visibleBodyPoses": {
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "adb": "wave"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "door",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            415,
+            900
+          ],
+          "scale": 1.38,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 390,
+      "sceneTime": 13.0,
+      "sourceTimeAtPicture": 13.0108,
+      "selectedAccentSourceTime": 13.0148,
+      "transition": null,
+      "poseLandingFrame": 390,
+      "poseLandingTime": 13.0,
+      "poseLandingErrorMs": -4.0,
+      "transitionStartMinusAccentMs": -4.0,
+      "audienceFocus": "The opposite supported stance prepares the exit direction.",
+      "visibleBodyPoses": {
+        "adb": "groove_right"
+      },
+      "visibleActions": {
+        "adb": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "door",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            415,
+            900
+          ],
+          "scale": 1.38,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "adb": "profile"
+      }
+    },
+    {
+      "frame": 412,
+      "sceneTime": 13.733333,
+      "sourceTimeAtPicture": 13.744133,
+      "selectedAccentSourceTime": 14.0132,
+      "transition": {
+        "kind": "whip",
+        "duration": 8,
+        "event": "wrong-class-transition-420",
+        "direction": -1,
+        "poseFrame": 420
+      },
+      "poseLandingFrame": 420,
+      "poseLandingTime": 14.0,
+      "poseLandingErrorMs": -2.4,
+      "transitionStartMinusAccentMs": -269.067,
+      "audienceFocus": "A mirrored profile pose points away from the mistaken room; this is an edit, not a walk.",
+      "visibleBodyPoses": {
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "adb": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "door",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            415,
+            900
+          ],
+          "scale": 1.38,
+          "flip": -1
+        }
+      },
+      "visibleViews": {
+        "adb": "profile"
+      }
+    },
+    {
+      "frame": 450,
+      "sceneTime": 15.0,
+      "sourceTimeAtPicture": 15.0108,
+      "selectedAccentSourceTime": 15.0117,
+      "transition": null,
+      "poseLandingFrame": 450,
+      "poseLandingTime": 15.0,
+      "poseLandingErrorMs": -0.9,
+      "transitionStartMinusAccentMs": -0.9,
+      "audienceFocus": "The calm folded final pose retains the confidence that opened the joke.",
+      "visibleBodyPoses": {
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "adb": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "door",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            415,
+            900
+          ],
+          "scale": 1.38,
+          "flip": -1
+        }
+      },
+      "visibleViews": {
+        "adb": "threequarter"
+      }
+    }
+  ],
+  "poseLandings": [
+    {
+      "frame": 0,
+      "sourceTime": 0.0108,
+      "sourceAccent": 0.0348,
+      "errorMs": -24.0,
+      "focus": "A wide, grounded sunglasses pose announces the overconfident entrance."
+    },
+    {
+      "frame": 30,
+      "sourceTime": 1.0108,
+      "sourceAccent": 1.0101,
+      "errorMs": 0.7,
+      "focus": "A folded stance sells the calm confidence."
+    },
+    {
+      "frame": 60,
+      "sourceTime": 2.0108,
+      "sourceAccent": 2.0085,
+      "errorMs": 2.3,
+      "focus": "The body opens into a strong hip silhouette."
+    },
+    {
+      "frame": 90,
+      "sourceTime": 3.0108,
+      "sourceAccent": 3.007,
+      "errorMs": 3.8,
+      "focus": "The left-supported pose is a deliberate runway angle."
+    },
+    {
+      "frame": 120,
+      "sourceTime": 4.0108,
+      "sourceAccent": 4.0054,
+      "errorMs": 5.4,
+      "focus": "The right-supported silhouette answers the pose edit."
+    },
+    {
+      "frame": 150,
+      "sourceTime": 5.0108,
+      "sourceAccent": 5.0039,
+      "errorMs": 6.9,
+      "focus": "A composed contrapposto closes his little fashion phrase."
+    },
+    {
+      "frame": 180,
+      "sourceTime": 6.0108,
+      "sourceAccent": 6.0024,
+      "errorMs": 8.4,
+      "focus": "The wide self-approval lands before he checks where he is."
+    },
+    {
+      "frame": 210,
+      "sourceTime": 7.0108,
+      "sourceAccent": 7.0008,
+      "errorMs": 10.0,
+      "focus": "He leans toward the actual LAB 3 sign; the runway gives way to a door."
+    },
+    {
+      "frame": 240,
+      "sourceTime": 8.0108,
+      "sourceAccent": 7.9993,
+      "errorMs": 11.5,
+      "focus": "The sign causes a large backward recoil, readable with his feet visible."
+    },
+    {
+      "frame": 270,
+      "sourceTime": 9.0108,
+      "sourceAccent": 9.0093,
+      "errorMs": 1.5,
+      "focus": "A lowered thinking crouch admits the mistake."
+    },
+    {
+      "frame": 300,
+      "sourceTime": 10.0108,
+      "sourceAccent": 10.0078,
+      "errorMs": 3.0,
+      "focus": "Folded arms attempt a dignified explanation without dialogue."
+    },
+    {
+      "frame": 330,
+      "sourceTime": 11.0108,
+      "sourceAccent": 11.0063,
+      "errorMs": 4.5,
+      "focus": "The hip pose restores his deliberate composure."
+    },
+    {
+      "frame": 360,
+      "sourceTime": 12.0108,
+      "sourceAccent": 12.0047,
+      "errorMs": 6.1,
+      "focus": "A full-body small farewell commits to leaving."
+    },
+    {
+      "frame": 390,
+      "sourceTime": 13.0108,
+      "sourceAccent": 13.0148,
+      "errorMs": -4.0,
+      "focus": "The opposite supported stance prepares the exit direction."
+    },
+    {
+      "frame": 420,
+      "sourceTime": 14.0108,
+      "sourceAccent": 14.0132,
+      "errorMs": -2.4,
+      "focus": "A mirrored profile pose points away from the mistaken room; this is an edit, not a walk."
+    },
+    {
+      "frame": 450,
+      "sourceTime": 15.0108,
+      "sourceAccent": 15.0117,
+      "errorMs": -0.9,
+      "focus": "The calm folded final pose retains the confidence that opened the joke."
+    }
+  ],
+  "sfxEvents": [
+    {
+      "event": "runway-lock",
+      "file": "common/audio/sfx/click.mp3",
+      "sourceHash": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "sourceStart": 0.03333333333333333,
+      "duration": 0.3,
+      "gainDb": -7.5,
+      "offsetFrames": 0
+    },
+    {
+      "event": "outfit-approved",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -8.5,
+      "offsetFrames": 0
+    },
+    {
+      "event": "door-sign",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -8.5,
+      "offsetFrames": 0
+    },
+    {
+      "event": "wrong-room",
+      "file": "common/audio/sfx/error.mp3",
+      "sourceHash": "b4882e3941ca496b5038e7c7d64318419da9f69d3da9540a1c693adc639cf121",
+      "sourceStart": 0.6,
+      "duration": 0.7,
+      "gainDb": -5.5,
+      "offsetFrames": 0
+    },
+    {
+      "event": "dignity-recovered",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -9.5,
+      "offsetFrames": 0
+    }
+  ],
+  "review": "Authored intentions only. Decoded-cut/audio/pacing and full playback review are pending.",
+  "mixReview": {
+    "recordingAndMusicGainUnchanged": true,
+    "sfxGainAttenuationDb": 4.5,
+    "reason": "Preserve headroom for decoded AAC peaks while keeping selected sound accents."
+  },
+  "framingPolicy": "Full-body silhouette beats alternate with three purpose-led reaction/prop/single inserts; the next wider shot restores grounding or shared cause/payoff."
+}

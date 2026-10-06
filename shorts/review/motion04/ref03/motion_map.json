@@ -1,0 +1,956 @@
+{
+  "source": {
+    "id": "ref03",
+    "file": "references/shorts_ref/the magic disappears when he opens his mouth\ud83c\udf45  #art   #procreate   #crush   #shorts   #fyp.mp4",
+    "sha256": "10193f4051d2314740b6835fe538055a669d192f27916f9d8f69050a8ab0438f",
+    "duration": 20.949333,
+    "width": 360,
+    "height": 640,
+    "fps": 30.0
+  },
+  "method": "LK forward/back checked contours; RANSAC partial affine; fixed caption excluded; post-entry6 to pre-departure7 frames. This measures net held-art transform, not physical camera ownership or original drawing cadence.",
+  "limits": [
+    "Sparse paper/vignette may leave too few corners",
+    "Face/hair/hand edits and dissolves break rigid correspondence",
+    "A transformed single artwork layer is indistinguishable from camera motion in a mixed export",
+    "Caption remains fixed and is intentionally excluded",
+    "Partial affine assumes uniform scale+translation+rotation; perspective, masks and blur need direct frame inspection"
+  ],
+  "layouts": [
+    {
+      "layout": 1,
+      "start": 0,
+      "endExclusive": 49,
+      "durationSeconds": 1.6333333333333333,
+      "anchor": 6,
+      "lastHeldFrame": 42,
+      "focus": "Blushing opening, medium torso",
+      "observedCameraOrArtTransform": "Whole drawing gently pulls smaller/upward, then briefly grows again immediately before f49. Shirt/hair/eye linework stays coherent. The opening is readable from f0, without an entrance wipe.",
+      "observedInternalAction": "No independent hand/head/eye change established in inspected samples; facial blush and shut-eye expression are held.",
+      "transferRecipe": "Use a finite pull then a short anticipation push. The last-frame push prepares the attention cut rather than a perpetual breathing loop.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 6,
+        "target": 42,
+        "tracked": 217,
+        "inliers": 213,
+        "inlierRatio": 0.9816,
+        "relativeScale": 0.9663,
+        "rotationDegrees": -0.0521,
+        "centerTranslationPixels": [
+          7.215,
+          -8.077
+        ],
+        "matrix": [
+          [
+            0.966299,
+            0.000879,
+            12.999713
+          ],
+          [
+            -0.000879,
+            0.966299,
+            2.865854
+          ]
+        ],
+        "medianInlierResidualPixels": 0.2587,
+        "medianAllResidualPixels": 0.2616,
+        "nonrigidOrMismatchedCorners": 2
+      },
+      "sampleFitRange": {
+        "minScale": 0.95361,
+        "maxScale": 1.0,
+        "reliableSamples": 13,
+        "samples": 13
+      },
+      "evidence": "layout_01.jpg"
+    },
+    {
+      "layout": 2,
+      "start": 49,
+      "endExclusive": 80,
+      "durationSeconds": 1.0333333333333334,
+      "anchor": 55,
+      "lastHeldFrame": 73,
+      "focus": "Crush gesturing to faceless group",
+      "observedCameraOrArtTransform": "Small ongoing push/downward move, then a sharper final enlargement at f79. All group lines move together.",
+      "observedInternalAction": "Pointing hand, mouth and hair are held drawings in inspected frames; the gesture is conveyed by the pose and camera, not visible finger cycles.",
+      "transferRecipe": "Push over the conversation thought; reserve a selected quick focal enlargement for a musical/attention accent.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 55,
+        "target": 73,
+        "tracked": 278,
+        "inliers": 278,
+        "inlierRatio": 1.0,
+        "relativeScale": 1.0265,
+        "rotationDegrees": 0.0045,
+        "centerTranslationPixels": [
+          -0.594,
+          4.326
+        ],
+        "matrix": [
+          [
+            1.0265,
+            -8e-05,
+            -5.338213
+          ],
+          [
+            8e-05,
+            1.0265,
+            -4.168258
+          ]
+        ],
+        "medianInlierResidualPixels": 0.1848,
+        "medianAllResidualPixels": 0.1848,
+        "nonrigidOrMismatchedCorners": 0
+      },
+      "sampleFitRange": {
+        "minScale": 1.0,
+        "maxScale": 1.0265,
+        "reliableSamples": 7,
+        "samples": 7
+      },
+      "evidence": "layout_02.jpg"
+    },
+    {
+      "layout": 3,
+      "start": 80,
+      "endExclusive": 124,
+      "durationSeconds": 1.4666666666666666,
+      "anchor": 86,
+      "lastHeldFrame": 117,
+      "focus": "Attractive profile/threequarter face close",
+      "observedCameraOrArtTransform": "f80..approximately f114 is a substantially held portrait; from f116..f123 the art accelerates left with a blurred departure. Fixed caption and vignette do not leave.",
+      "observedInternalAction": "No clear internal acting change detected before departure; the attractive expression gets a quiet readable interval.",
+      "transferRecipe": "Allow a quiet held beauty face, then a purposeful directional exit. Do not label every hold as poor retention.",
+      "lastHeldAffine": {
+        "reliable": false,
+        "anchor": 86,
+        "target": 117,
+        "tracked": 13,
+        "inliers": 9,
+        "inlierRatio": 0.6923,
+        "relativeScale": 1.05608,
+        "rotationDegrees": 0.023,
+        "centerTranslationPixels": [
+          -58.115,
+          2.008
+        ],
+        "matrix": [
+          [
+            1.056076,
+            -0.000423,
+            -68.07325
+          ],
+          [
+            0.000423,
+            1.056076,
+            -16.012849
+          ]
+        ],
+        "medianInlierResidualPixels": 0.3725,
+        "medianAllResidualPixels": 0.5608,
+        "nonrigidOrMismatchedCorners": 3
+      },
+      "sampleFitRange": {
+        "minScale": 1.0,
+        "maxScale": 1.04904,
+        "reliableSamples": 11,
+        "samples": 12
+      },
+      "evidence": "layout_03.jpg"
+    },
+    {
+      "layout": 4,
+      "start": 124,
+      "endExclusive": 156,
+      "durationSeconds": 1.0666666666666667,
+      "anchor": 130,
+      "lastHeldFrame": 149,
+      "focus": "Reverse crowd/cap wearer, medium group",
+      "observedCameraOrArtTransform": "Incoming group enters from the right f124..f130 following the departing leftward art. It then continues a shallow left drift/pull; affine fit has about\u22122.35\u00b0 roll in f130..f149, treated as an estimate rather than proof of a physical camera.",
+      "observedInternalAction": "Faceless extra and cap/backpack contours retain their relationship; no automatic walking/contact is shown.",
+      "transferRecipe": "Maintain sweep direction across old/new drawings; continue a mild finite camera move after the arrival instead of stopping at six frames.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 130,
+        "target": 149,
+        "tracked": 109,
+        "inliers": 91,
+        "inlierRatio": 0.8349,
+        "relativeScale": 0.96331,
+        "rotationDegrees": -2.3188,
+        "centerTranslationPixels": [
+          -31.844,
+          0.767
+        ],
+        "matrix": [
+          [
+            0.962525,
+            0.038975,
+            -37.570296
+          ],
+          [
+            -0.038975,
+            0.962525,
+            19.77448
+          ]
+        ],
+        "medianInlierResidualPixels": 0.4956,
+        "medianAllResidualPixels": 0.5497,
+        "nonrigidOrMismatchedCorners": 4
+      },
+      "sampleFitRange": {
+        "minScale": 0.96331,
+        "maxScale": 1.0,
+        "reliableSamples": 8,
+        "samples": 8
+      },
+      "evidence": "layout_04.jpg"
+    },
+    {
+      "layout": 5,
+      "start": 156,
+      "endExclusive": 202,
+      "durationSeconds": 1.5333333333333334,
+      "anchor": 162,
+      "lastHeldFrame": 195,
+      "focus": "Cap wearer reverse close view",
+      "observedCameraOrArtTransform": "New close drawing at f156; slow push/downward follow across the held phase (~4.4% scale increase f162..f195).",
+      "observedInternalAction": "Hand, backpack straps, cap and talking expression remain stable in inspected samples.",
+      "transferRecipe": "Close-detail reveal followed by a slow push. Props must remain in the same transform as the held body.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 162,
+        "target": 195,
+        "tracked": 269,
+        "inliers": 217,
+        "inlierRatio": 0.8067,
+        "relativeScale": 1.0438,
+        "rotationDegrees": -0.033,
+        "centerTranslationPixels": [
+          7.124,
+          12.696
+        ],
+        "matrix": [
+          [
+            1.043798,
+            0.000602,
+            -0.952538
+          ],
+          [
+            -0.000602,
+            1.043798,
+            -1.211511
+          ]
+        ],
+        "medianInlierResidualPixels": 0.5919,
+        "medianAllResidualPixels": 0.6523,
+        "nonrigidOrMismatchedCorners": 39
+      },
+      "sampleFitRange": {
+        "minScale": 1.0,
+        "maxScale": 1.0438,
+        "reliableSamples": 12,
+        "samples": 12
+      },
+      "evidence": "layout_05.jpg"
+    },
+    {
+      "layout": 6,
+      "start": 202,
+      "endExclusive": 238,
+      "durationSeconds": 1.2,
+      "anchor": 208,
+      "lastHeldFrame": 231,
+      "focus": "Small happy protagonist reaction",
+      "observedCameraOrArtTransform": "Strong close\u2192miniature contrast at f202. This simplified drawing itself gently pulls smaller (~9% f208..f231) with modest downward drift.",
+      "observedInternalAction": "Small smile/head/hair are held; the change from detailed crush art to a miniature reaction carries the thought.",
+      "transferRecipe": "Use an actual simplified reaction drawing plus measured scale contrast; the camera path should reinforce the emotional withdrawal.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 208,
+        "target": 231,
+        "tracked": 139,
+        "inliers": 117,
+        "inlierRatio": 0.8417,
+        "relativeScale": 0.91113,
+        "rotationDegrees": -0.3999,
+        "centerTranslationPixels": [
+          0.91,
+          9.888
+        ],
+        "matrix": [
+          [
+            0.911108,
+            0.006359,
+            14.875176
+          ],
+          [
+            -0.006359,
+            0.911108,
+            39.478086
+          ]
+        ],
+        "medianInlierResidualPixels": 0.5738,
+        "medianAllResidualPixels": 0.6322,
+        "nonrigidOrMismatchedCorners": 6
+      },
+      "sampleFitRange": {
+        "minScale": 0.91113,
+        "maxScale": 1.0,
+        "reliableSamples": 9,
+        "samples": 9
+      },
+      "evidence": "layout_06.jpg"
+    },
+    {
+      "layout": 7,
+      "start": 238,
+      "endExclusive": 281,
+      "durationSeconds": 1.4333333333333333,
+      "anchor": 244,
+      "lastHeldFrame": 274,
+      "focus": "Small head-down reaction",
+      "observedCameraOrArtTransform": "A pose cut at f238 keeps the miniature scale family. Only a shallow drift is visible (~5.4px right,3.5px down from f244..f274,360-wide source).",
+      "observedInternalAction": "Hair-covered face and shoulder drawing are held. The view/pose change supplies the feeling, with tiny travel keeping spatial continuity.",
+      "transferRecipe": "Use a restrained finite move here; avoid flooding this quiet beat with effects.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 244,
+        "target": 274,
+        "tracked": 124,
+        "inliers": 124,
+        "inlierRatio": 1.0,
+        "relativeScale": 0.99901,
+        "rotationDegrees": -0.0446,
+        "centerTranslationPixels": [
+          5.413,
+          3.521
+        ],
+        "matrix": [
+          [
+            0.999007,
+            0.000777,
+            5.342857
+          ],
+          [
+            -0.000777,
+            0.999007,
+            3.979106
+          ]
+        ],
+        "medianInlierResidualPixels": 0.0859,
+        "medianAllResidualPixels": 0.0859,
+        "nonrigidOrMismatchedCorners": 0
+      },
+      "sampleFitRange": {
+        "minScale": 0.99177,
+        "maxScale": 1.00024,
+        "reliableSamples": 11,
+        "samples": 11
+      },
+      "evidence": "layout_07.jpg"
+    },
+    {
+      "layout": 8,
+      "start": 281,
+      "endExclusive": 334,
+      "durationSeconds": 1.7666666666666666,
+      "anchor": 287,
+      "lastHeldFrame": 327,
+      "focus": "Flustered hand-to-mouth close",
+      "observedCameraOrArtTransform": "Large miniature\u2192close jump at f281, followed by an ongoing mild push/downward movement (~4.5% scale and12px central shift f287..f327).",
+      "observedInternalAction": "The hand stays at the mouth; hair, sleeve and cheek hatching remain coherent. No hand separation or repeated gesture entry is visible.",
+      "transferRecipe": "A hand contact close should share head/contact motion; camera can develop the embarrassment while the grip/art stays stable.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 287,
+        "target": 327,
+        "tracked": 297,
+        "inliers": 296,
+        "inlierRatio": 0.9966,
+        "relativeScale": 1.04397,
+        "rotationDegrees": -0.088,
+        "centerTranslationPixels": [
+          -0.634,
+          12.287
+        ],
+        "matrix": [
+          [
+            1.043967,
+            0.001604,
+            -9.061288
+          ],
+          [
+            -0.001604,
+            1.043967,
+            -1.494105
+          ]
+        ],
+        "medianInlierResidualPixels": 0.3266,
+        "medianAllResidualPixels": 0.3266,
+        "nonrigidOrMismatchedCorners": 0
+      },
+      "sampleFitRange": {
+        "minScale": 1.0,
+        "maxScale": 1.04636,
+        "reliableSamples": 15,
+        "samples": 15
+      },
+      "evidence": "layout_08.jpg"
+    },
+    {
+      "layout": 9,
+      "start": 334,
+      "endExclusive": 361,
+      "durationSeconds": 0.9,
+      "anchor": 340,
+      "lastHeldFrame": 354,
+      "focus": "Shame miniature/shaking head",
+      "observedCameraOrArtTransform": "At f334, large close switches to small tilted simplified head. Over the finite27-frame interval, orientation flips/rotates and faint displaced copies alternate. A single rigid affine fit fails some samples.",
+      "observedInternalAction": "This is the clearest finite local performance/effect passage: a small illustrated shake with mirrored/oriented cards and ghost trail, rather than ordinary gentle limb animation.",
+      "transferRecipe": "Use one short semantic shake/recoil phrase at the embarrassment peak. Do not repeat it as a background idle everywhere.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 340,
+        "target": 354,
+        "tracked": 101,
+        "inliers": 62,
+        "inlierRatio": 0.6139,
+        "relativeScale": 0.91346,
+        "rotationDegrees": -2.5395,
+        "centerTranslationPixels": [
+          3.244,
+          -7.036
+        ],
+        "matrix": [
+          [
+            0.912567,
+            0.040474,
+            6.030386
+          ],
+          [
+            -0.040474,
+            0.912567,
+            28.227899
+          ]
+        ],
+        "medianInlierResidualPixels": 0.7649,
+        "medianAllResidualPixels": 1.0187,
+        "nonrigidOrMismatchedCorners": 16
+      },
+      "sampleFitRange": {
+        "minScale": 0.91346,
+        "maxScale": 1.0,
+        "reliableSamples": 4,
+        "samples": 6
+      },
+      "evidence": "layout_09.jpg"
+    },
+    {
+      "layout": 10,
+      "start": 361,
+      "endExclusive": 395,
+      "durationSeconds": 1.1333333333333333,
+      "anchor": 367,
+      "lastHeldFrame": 388,
+      "focus": "Protagonist among faceless crowd",
+      "observedCameraOrArtTransform": "Clean cut at f361; foreground body/crowd slowly enlarges (~7% f367..f388) and later edges spread outward. Pale background figures remain intentionally subordinate.",
+      "observedInternalAction": "Expression is held. Pale extra outlines are not sufficient evidence of an animated dissolve; direct join samples show an abrupt new composition.",
+      "transferRecipe": "Group reveal with a finite push centered on the readable face; extras stay less prominent.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 367,
+        "target": 388,
+        "tracked": 206,
+        "inliers": 195,
+        "inlierRatio": 0.9466,
+        "relativeScale": 1.0697,
+        "rotationDegrees": 0.0731,
+        "centerTranslationPixels": [
+          -5.493,
+          -3.549
+        ],
+        "matrix": [
+          [
+            1.069702,
+            -0.001365,
+            -17.602405
+          ],
+          [
+            0.001365,
+            1.069702,
+            -26.099276
+          ]
+        ],
+        "medianInlierResidualPixels": 0.4643,
+        "medianAllResidualPixels": 0.4797,
+        "nonrigidOrMismatchedCorners": 5
+      },
+      "sampleFitRange": {
+        "minScale": 1.0,
+        "maxScale": 1.0697,
+        "reliableSamples": 8,
+        "samples": 8
+      },
+      "evidence": "layout_10.jpg"
+    },
+    {
+      "layout": 11,
+      "start": 395,
+      "endExclusive": 435,
+      "durationSeconds": 1.3333333333333333,
+      "anchor": 401,
+      "lastHeldFrame": 428,
+      "focus": "Half-lidded woman close",
+      "observedCameraOrArtTransform": "Cut at f395, slight steady push/right/down shift (~1.6% and9px x overf401..f428). Small fitted roll\u22480.5\u00b0, near the limit of obvious visual notice.",
+      "observedInternalAction": "Half-lidded eyes/mouth stay essentially fixed; eye attitude does the comic work.",
+      "transferRecipe": "A low-amplitude drift can keep a held reaction readable; do not count blinks alone as meaningful performance.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 401,
+        "target": 428,
+        "tracked": 211,
+        "inliers": 202,
+        "inlierRatio": 0.9573,
+        "relativeScale": 1.01618,
+        "rotationDegrees": 0.4868,
+        "centerTranslationPixels": [
+          9.169,
+          4.046
+        ],
+        "matrix": [
+          [
+            1.016141,
+            -0.008634,
+            9.026662
+          ],
+          [
+            0.008634,
+            1.016141,
+            -2.673808
+          ]
+        ],
+        "medianInlierResidualPixels": 0.2466,
+        "medianAllResidualPixels": 0.2566,
+        "nonrigidOrMismatchedCorners": 2
+      },
+      "sampleFitRange": {
+        "minScale": 1.0,
+        "maxScale": 1.02438,
+        "reliableSamples": 10,
+        "samples": 10
+      },
+      "evidence": "layout_11.jpg"
+    },
+    {
+      "layout": 12,
+      "start": 435,
+      "endExclusive": 471,
+      "durationSeconds": 1.2,
+      "anchor": 441,
+      "lastHeldFrame": 464,
+      "focus": "Opposite-facing full figures",
+      "observedCameraOrArtTransform": "Full-body contrast at f435. Group pulls smaller (~4.4% f441..f464); aroundf466..f470 the left cap wearer slides out left while the right figure stays, with a faint trail.",
+      "observedInternalAction": "Walking is suggested by separately drawn stance art, not established as a continuous foot/contact cycle. The selective character departure differs from a whole-screen pan.",
+      "transferRecipe": "Use actual grounded held stance art. An isolated figure exit can carry the thought, but do not fake walking by floating the root.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 441,
+        "target": 464,
+        "tracked": 231,
+        "inliers": 229,
+        "inlierRatio": 0.9913,
+        "relativeScale": 0.95551,
+        "rotationDegrees": 0.1197,
+        "centerTranslationPixels": [
+          -0.51,
+          -3.809
+        ],
+        "matrix": [
+          [
+            0.955512,
+            -0.001996,
+            8.136113
+          ],
+          [
+            0.001996,
+            0.955512,
+            10.06747
+          ]
+        ],
+        "medianInlierResidualPixels": 0.2774,
+        "medianAllResidualPixels": 0.2775,
+        "nonrigidOrMismatchedCorners": 0
+      },
+      "sampleFitRange": {
+        "minScale": 0.94964,
+        "maxScale": 1.0,
+        "reliableSamples": 9,
+        "samples": 9
+      },
+      "evidence": "layout_12.jpg"
+    },
+    {
+      "layout": 13,
+      "start": 471,
+      "endExclusive": 516,
+      "durationSeconds": 1.5,
+      "anchor": 477,
+      "lastHeldFrame": 509,
+      "focus": "Strained smiling reverse close",
+      "observedCameraOrArtTransform": "Cut at f471. Short progressive push (~2.6% f477..f509); final framing relaxes slightly beforef516.",
+      "observedInternalAction": "Eye/mouth/sweat drawing stays coherent. No reliably separate lip animation established.",
+      "transferRecipe": "Let camera gently approach a held uncomfortable expression; tiny authored eye/head responses are an adaptation, not a claim about this source.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 477,
+        "target": 509,
+        "tracked": 300,
+        "inliers": 295,
+        "inlierRatio": 0.9833,
+        "relativeScale": 1.02479,
+        "rotationDegrees": -0.0735,
+        "centerTranslationPixels": [
+          2.343,
+          0.884
+        ],
+        "matrix": [
+          [
+            1.02479,
+            0.001314,
+            -2.540106
+          ],
+          [
+            -0.001314,
+            1.02479,
+            -6.812334
+          ]
+        ],
+        "medianInlierResidualPixels": 0.2441,
+        "medianAllResidualPixels": 0.246,
+        "nonrigidOrMismatchedCorners": 0
+      },
+      "sampleFitRange": {
+        "minScale": 1.0,
+        "maxScale": 1.02479,
+        "reliableSamples": 12,
+        "samples": 12
+      },
+      "evidence": "layout_13.jpg"
+    },
+    {
+      "layout": 14,
+      "start": 516,
+      "endExclusive": 551,
+      "durationSeconds": 1.1666666666666667,
+      "anchor": 522,
+      "lastHeldFrame": 544,
+      "focus": "Nervous hand near cheek, torso",
+      "observedCameraOrArtTransform": "Cut at f516, slow pull/up drift (~1.8% scale decrease f522..f544).",
+      "observedInternalAction": "Cheek/hand contact, tired face and shirt drawing hold in samples.",
+      "transferRecipe": "Use a finite pull/settling camera thought plus one contact-preserving head/eyeline response.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 522,
+        "target": 544,
+        "tracked": 217,
+        "inliers": 214,
+        "inlierRatio": 0.9862,
+        "relativeScale": 0.9826,
+        "rotationDegrees": -0.2912,
+        "centerTranslationPixels": [
+          0.219,
+          -4.16
+        ],
+        "matrix": [
+          [
+            0.982589,
+            0.004993,
+            1.755227
+          ],
+          [
+            -0.004993,
+            0.982589,
+            2.309873
+          ]
+        ],
+        "medianInlierResidualPixels": 0.1473,
+        "medianAllResidualPixels": 0.1482,
+        "nonrigidOrMismatchedCorners": 1
+      },
+      "sampleFitRange": {
+        "minScale": 0.97766,
+        "maxScale": 1.0,
+        "reliableSamples": 9,
+        "samples": 9
+      },
+      "evidence": "layout_14.jpg"
+    },
+    {
+      "layout": 15,
+      "start": 551,
+      "endExclusive": 592,
+      "durationSeconds": 1.3666666666666667,
+      "anchor": 557,
+      "lastHeldFrame": 585,
+      "focus": "Startled greeting with HEY bubble",
+      "observedCameraOrArtTransform": "Immediate pose/ink burst cut atf551. Slow pull/up shift (~2.6% shrink and10.6px up f557..f585), then a short end enlargement atf591.",
+      "observedInternalAction": "Startled limbs, spiky marks and greeting bubble form one held illustrated event composition. This is not evidence of an audible shout.",
+      "transferRecipe": "Give the arrival a readable semantic reaction; let its finite camera phrase continue under the music and resolve before payoff.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 557,
+        "target": 585,
+        "tracked": 300,
+        "inliers": 300,
+        "inlierRatio": 1.0,
+        "relativeScale": 0.9737,
+        "rotationDegrees": -0.2648,
+        "centerTranslationPixels": [
+          2.723,
+          -10.601
+        ],
+        "matrix": [
+          [
+            0.97369,
+            0.0045,
+            6.018457
+          ],
+          [
+            -0.0045,
+            0.97369,
+            -1.372265
+          ]
+        ],
+        "medianInlierResidualPixels": 0.2063,
+        "medianAllResidualPixels": 0.2063,
+        "nonrigidOrMismatchedCorners": 0
+      },
+      "sampleFitRange": {
+        "minScale": 0.97263,
+        "maxScale": 1.0,
+        "reliableSamples": 11,
+        "samples": 11
+      },
+      "evidence": "layout_15.jpg"
+    },
+    {
+      "layout": 16,
+      "start": 592,
+      "endExclusive": 627,
+      "durationSeconds": 1.1666666666666667,
+      "anchor": 598,
+      "lastHeldFrame": 620,
+      "focus": "Split disappointment/normal-face payoff",
+      "observedCameraOrArtTransform": "Cut atf592. Both halves and split stroke progressively push (~4.3% f598..f620), keeping the caption fixed.",
+      "observedInternalAction": "The contrasting faces and hand gestures are held. The split itself establishes the final meaning.",
+      "transferRecipe": "A final gentle push can keep the ending alive; the payoff must remain legible and differ from the opening.",
+      "lastHeldAffine": {
+        "reliable": true,
+        "anchor": 598,
+        "target": 620,
+        "tracked": 299,
+        "inliers": 298,
+        "inlierRatio": 0.9967,
+        "relativeScale": 1.04273,
+        "rotationDegrees": 0.0866,
+        "centerTranslationPixels": [
+          3.824,
+          -1.309
+        ],
+        "matrix": [
+          [
+            1.042733,
+            -0.001575,
+            -3.363449
+          ],
+          [
+            0.001575,
+            1.042733,
+            -15.267302
+          ]
+        ],
+        "medianInlierResidualPixels": 0.2677,
+        "medianAllResidualPixels": 0.2682,
+        "nonrigidOrMismatchedCorners": 0
+      },
+      "sampleFitRange": {
+        "minScale": 1.0,
+        "maxScale": 1.04273,
+        "reliableSamples": 9,
+        "samples": 9
+      },
+      "evidence": "layout_16.jpg"
+    }
+  ],
+  "joins": [
+    {
+      "frame": 49,
+      "seconds": 1.6333333333333333,
+      "nearestCandidateOnset": 1.6718,
+      "signedCutMinusOnsetMs": -38.5,
+      "onsetNormalizedFlux": 0.516,
+      "join": 1,
+      "observedDevice": "Anticipation punch \u2192 clean context cut",
+      "observations": "f41..48 opening drawing grows before f49; f49 is a complete new group composition. No wipe/flash.",
+      "evidence": "join_01_f049.jpg"
+    },
+    {
+      "frame": 80,
+      "seconds": 2.6666666666666665,
+      "nearestCandidateOnset": 2.7167,
+      "signedCutMinusOnsetMs": -50.1,
+      "onsetNormalizedFlux": 0.4979,
+      "join": 2,
+      "observedDevice": "Group \u2192 matching face reveal",
+      "observations": "f79 group has enlarged; f80 replaces it with a distinct face drawing, readable immediately. No ghost trail across this cut.",
+      "evidence": "join_02_f080.jpg"
+    },
+    {
+      "frame": 124,
+      "seconds": 4.133333333333334,
+      "nearestCandidateOnset": 4.1215,
+      "signedCutMinusOnsetMs": 11.8,
+      "onsetNormalizedFlux": 0.7934,
+      "join": 3,
+      "observedDevice": "Directional blurred departing/arriving art",
+      "observations": "f116 still readable; f119/121 departing portrait shifts left with blur; f123 only its far-left sliver remains; f124 new group begins at right; f129/132 arrives and resolves. Caption remains fixed.",
+      "evidence": "join_03_f124.jpg"
+    },
+    {
+      "frame": 156,
+      "seconds": 5.2,
+      "nearestCandidateOnset": 5.2825,
+      "signedCutMinusOnsetMs": -82.5,
+      "onsetNormalizedFlux": 0.6728,
+      "join": 4,
+      "observedDevice": "Reverse medium \u2192 reverse close snap",
+      "observations": "f155 preceding cap group has a brief blur/scale change; f156 switches to a close reverse cap drawing; f159/164 remains coherent.",
+      "evidence": "join_04_f156.jpg"
+    },
+    {
+      "frame": 202,
+      "seconds": 6.733333333333333,
+      "nearestCandidateOnset": 6.7454,
+      "signedCutMinusOnsetMs": -12.1,
+      "onsetNormalizedFlux": 0.58,
+      "join": 5,
+      "observedDevice": "Detailed close \u2192 simplified small reaction",
+      "observations": "f201 detailed cap/backpack close; f202 tiny happy protagonist replaces it. The scale/detail contrast is part of the thought.",
+      "evidence": "join_05_f202.jpg"
+    },
+    {
+      "frame": 238,
+      "seconds": 7.933333333333334,
+      "nearestCandidateOnset": 7.8948,
+      "signedCutMinusOnsetMs": 38.5,
+      "onsetNormalizedFlux": 0.3743,
+      "join": 6,
+      "observedDevice": "Miniature reaction pose swap",
+      "observations": "f237 happy mini; f238 hair-covered/head-down mini. Clean drawing swap at comparable small scale.",
+      "evidence": "join_06_f238.jpg"
+    },
+    {
+      "frame": 281,
+      "seconds": 9.366666666666667,
+      "nearestCandidateOnset": 9.3693,
+      "signedCutMinusOnsetMs": -2.6,
+      "onsetNormalizedFlux": 0.7046,
+      "join": 7,
+      "observedDevice": "Small reaction \u2192 large hand-contact close",
+      "observations": "f280 tiny head-down; f281 hand-to-mouth close appears whole. No two-body overlap.",
+      "evidence": "join_07_f281.jpg"
+    },
+    {
+      "frame": 334,
+      "seconds": 11.133333333333333,
+      "nearestCandidateOnset": 11.1804,
+      "signedCutMinusOnsetMs": -47.1,
+      "onsetNormalizedFlux": 0.4688,
+      "join": 8,
+      "observedDevice": "Large close \u2192 small finite shake",
+      "observations": "f333 large embarrassed portrait; f334 tilted mini. Following frames alternate rotated/mirrored head cards with faint displaced trails.",
+      "evidence": "join_08_f334.jpg"
+    },
+    {
+      "frame": 361,
+      "seconds": 12.033333333333333,
+      "nearestCandidateOnset": 11.9931,
+      "signedCutMinusOnsetMs": 40.2,
+      "onsetNormalizedFlux": 0.7229,
+      "join": 9,
+      "observedDevice": "Shake \u2192 crowd context cut",
+      "observations": "f360 mini head; f361 crowd context composition. Pale extras are a held design choice, not proof of a gradual dissolve.",
+      "evidence": "join_09_f361.jpg"
+    },
+    {
+      "frame": 395,
+      "seconds": 13.166666666666666,
+      "nearestCandidateOnset": 13.1425,
+      "signedCutMinusOnsetMs": 24.2,
+      "onsetNormalizedFlux": 0.5826,
+      "join": 10,
+      "observedDevice": "Crowd \u2192 bored face reveal",
+      "observations": "f394 crowd composition; f395 close bored woman. Immediate new drawing, then small drift.",
+      "evidence": "join_10_f395.jpg"
+    },
+    {
+      "frame": 435,
+      "seconds": 14.5,
+      "nearestCandidateOnset": 14.4544,
+      "signedCutMinusOnsetMs": 45.6,
+      "onsetNormalizedFlux": 0.3498,
+      "join": 11,
+      "observedDevice": "Face \u2192 opposite full figures",
+      "observations": "f434 close half-lidded face; f435 two full stances, separated spatially. Clear size/context contrast.",
+      "evidence": "join_11_f435.jpg"
+    },
+    {
+      "frame": 471,
+      "seconds": 15.7,
+      "nearestCandidateOnset": 15.778,
+      "signedCutMinusOnsetMs": -78.0,
+      "onsetNormalizedFlux": 0.6491,
+      "join": 12,
+      "observedDevice": "Selective figure exit \u2192 reverse close",
+      "observations": "f466 left cap figure becomes faint/displaced; f468..470 leaves left while other person remains; f471 reverse female close replaces stage.",
+      "evidence": "join_12_f471.jpg"
+    },
+    {
+      "frame": 516,
+      "seconds": 17.2,
+      "nearestCandidateOnset": 17.2408,
+      "signedCutMinusOnsetMs": -40.8,
+      "onsetNormalizedFlux": 0.7235,
+      "join": 13,
+      "observedDevice": "Reverse close \u2192 nervous torso",
+      "observations": "f515 reverse smiling close; f516 nervous front torso/contact pose. Clean cut.",
+      "evidence": "join_13_f516.jpg"
+    },
+    {
+      "frame": 551,
+      "seconds": 18.366666666666667,
+      "nearestCandidateOnset": 18.3902,
+      "signedCutMinusOnsetMs": -23.5,
+      "onsetNormalizedFlux": 0.3813,
+      "join": 14,
+      "observedDevice": "Nervous torso \u2192 startled greeting",
+      "observations": "f550 held nervous pose; f551 startled illustration and HEY burst land together. Printed speech does not confirm recorded dialogue.",
+      "evidence": "join_14_f551.jpg"
+    },
+    {
+      "frame": 592,
+      "seconds": 19.733333333333334,
+      "nearestCandidateOnset": 19.7137,
+      "signedCutMinusOnsetMs": 19.6,
+      "onsetNormalizedFlux": 0.4416,
+      "join": 15,
+      "observedDevice": "Greeting \u2192 split payoff",
+      "observations": "f591 greeting reaction enlarges briefly; f592 split illustration replaces it; f595..600 progressively enlarges. No outro.",
+      "evidence": "join_15_f592.jpg"
+    }
+  ]
+}

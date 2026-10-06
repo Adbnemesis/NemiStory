@@ -1,1462 +1,1595 @@
 {
+  "version": 3,
+  "revision": "r4",
+  "id": "duo-matching-moment",
+  "fps": 30,
+  "frames": 405,
   "music": {
     "file": "shorts/assets/music/batch01/dancin-krono.wav",
     "sourceHash": "a13238e578a33bc1c40d79e0d9762b17be0685ea69563cd670c2c4c9e440ba55",
     "sourceStart": 9.1603,
-    "duration": 15.5,
+    "duration": 13.5,
     "gainDb": -6.81
   },
+  "recordingMeta": "shorts/assets/music/batch01/dancin-krono.json",
+  "sourceAnalysis": "shorts/assets/music/batch01/dancin-krono.analysis.json",
   "beatPlan": "shorts/assets/music/batch01/dancin-krono.edit-plan.json",
   "bpm": 119.984,
   "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "sourceTimeline": "Downloaded preview clock; full-song offset unknown.",
+  "timingPolicy": "Pose swaps land at selected accent frames. Named transitions start6-8frames earlier and finish on the pose accent; transition start is not falsely labeled a downbeat.",
+  "playbackReview": "Performed: exact selected MP4 at1\u00d7unmuted in browser, continuous progression/loop and cue checks; see review/playback-r4.json. Subjective audience/music balance is not inferred from numerical source presence.",
   "cuts": [
     {
       "frame": 0,
-      "time": 0.0,
-      "focus": "One photo request, two very different levels of effort",
-      "move": "cut",
+      "sceneTime": 0.0,
+      "sourceTimeAtPicture": 9.1603,
+      "selectedAccentSourceTime": 9.1603,
+      "transition": null,
+      "poseLandingFrame": 0,
+      "poseLandingTime": 0.0,
+      "poseLandingErrorMs": 0.0,
+      "transitionStartMinusAccentMs": 0.0,
+      "audienceFocus": "Raised celebratory Nemi and folded ADB are obviously incompatible photo choices.",
+      "visibleBodyPoses": {
+        "nemi": "celebrate",
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "nemi": "peace",
+        "adb": "rest"
+      },
+      "framing": "shared full-body pose",
       "stage": "viewfinder",
       "palette": "paper",
-      "sourceAccentTime": 9.1603,
-      "sourceAccentSceneTime": 0.0,
-      "pictureMinusSourceAccentMs": 0.0,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 15,
-      "time": 0.5,
-      "focus": "Nemi tries to calculate a natural pose",
-      "move": "cut",
-      "stage": "viewfinder",
-      "palette": "paper",
-      "sourceAccentTime": 9.6711,
-      "sourceAccentSceneTime": 0.5108,
-      "pictureMinusSourceAccentMs": -10.8,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 30,
-      "time": 1.0,
-      "focus": "ADB sees that she is making this complicated",
-      "move": "cut",
-      "stage": "plain",
-      "palette": "paper",
-      "sourceAccentTime": 10.1703,
-      "sourceAccentSceneTime": 1.01,
-      "pictureMinusSourceAccentMs": -10.0,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 60,
-      "time": 2.0,
-      "focus": "Her first hip pose feels too deliberate",
-      "move": "pull",
-      "stage": "viewfinder",
-      "palette": "paper",
-      "sourceAccentTime": 11.1688,
-      "sourceAccentSceneTime": 2.0085,
-      "pictureMinusSourceAccentMs": -8.5,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 90,
-      "time": 3.0,
-      "focus": "Peace hand is another overthought option",
-      "move": "cut",
-      "stage": "viewfinder",
-      "palette": "paper",
-      "sourceAccentTime": 12.1673,
-      "sourceAccentSceneTime": 3.007,
-      "pictureMinusSourceAccentMs": -7.0,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 120,
-      "time": 4.0,
-      "focus": "She shrugs toward him instead of choosing",
-      "move": "pull",
-      "stage": "viewfinder",
-      "palette": "paper",
-      "sourceAccentTime": 13.1657,
-      "sourceAccentSceneTime": 4.0054,
-      "pictureMinusSourceAccentMs": -5.4,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 150,
-      "time": 5.0,
-      "focus": "He proposes one small heart gesture",
-      "move": "cut",
-      "stage": "plain",
-      "palette": "paper",
-      "sourceAccentTime": 14.1642,
-      "sourceAccentSceneTime": 5.0039,
-      "pictureMinusSourceAccentMs": -3.9,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 165,
-      "time": 5.5,
-      "focus": "Her eyes catch the simple solution",
-      "move": "punch",
-      "stage": "plain",
-      "palette": "paper",
-      "sourceAccentTime": 14.6634,
-      "sourceAccentSceneTime": 5.5031,
-      "pictureMinusSourceAccentMs": -3.1,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 195,
-      "time": 6.5,
-      "focus": "She answers with a heart instead of another plan",
-      "move": "cut",
-      "stage": "viewfinder",
-      "palette": "paper",
-      "sourceAccentTime": 15.6619,
-      "sourceAccentSceneTime": 6.5016,
-      "pictureMinusSourceAccentMs": -1.6,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 225,
-      "time": 7.5,
-      "focus": "Both matching gestures earn the shared frame",
-      "move": "pull",
-      "stage": "viewfinder",
-      "palette": "paper",
-      "sourceAccentTime": 16.6719,
-      "sourceAccentSceneTime": 7.5116,
-      "pictureMinusSourceAccentMs": -11.6,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 240,
-      "time": 8.0,
-      "focus": "One shutter captures their easy choice",
-      "move": "cut",
-      "stage": "viewfinder",
-      "palette": "paper",
-      "sourceAccentTime": 17.1595,
-      "sourceAccentSceneTime": 7.9992,
-      "pictureMinusSourceAccentMs": 0.8,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 255,
-      "time": 8.5,
-      "focus": "His restrained satisfied glance closes the pose problem",
-      "move": "cut",
-      "stage": "viewfinder",
-      "palette": "paper",
-      "sourceAccentTime": 17.6704,
-      "sourceAccentSceneTime": 8.5101,
-      "pictureMinusSourceAccentMs": -10.1,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 285,
-      "time": 9.5,
-      "focus": "A pencil crosses the captured idea into a drawing",
-      "move": "whip",
-      "stage": "viewfinder",
-      "palette": "paper",
-      "sourceAccentTime": 18.6688,
-      "sourceAccentSceneTime": 9.5085,
-      "pictureMinusSourceAccentMs": -8.5,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 315,
-      "time": 10.5,
-      "focus": "Nemi points out their drawn heart and star seal",
-      "move": "pull",
-      "stage": "columns",
-      "palette": "paper",
-      "sourceAccentTime": 19.6673,
-      "sourceAccentSceneTime": 10.507,
-      "pictureMinusSourceAccentMs": -7.0,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 345,
-      "time": 11.5,
-      "focus": "ADB gives the little photo seal a restrained approval",
-      "move": "cut",
-      "stage": "columns",
-      "palette": "paper",
-      "sourceAccentTime": 20.6658,
-      "sourceAccentSceneTime": 11.5055,
-      "pictureMinusSourceAccentMs": -5.5,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 375,
-      "time": 12.5,
-      "focus": "She answers with approval instead of overthinking",
-      "move": "punch",
-      "stage": "columns",
-      "palette": "paper",
-      "sourceAccentTime": 21.6642,
-      "sourceAccentSceneTime": 12.5039,
-      "pictureMinusSourceAccentMs": -3.9,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 405,
-      "time": 13.5,
-      "focus": "Mirrored hearts meet the finished photo constellation",
-      "move": "pull",
-      "stage": "viewfinder",
-      "palette": "paper",
-      "sourceAccentTime": 22.6627,
-      "sourceAccentSceneTime": 13.5024,
-      "pictureMinusSourceAccentMs": -2.4,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 435,
-      "time": 14.5,
-      "focus": "Creative peers close on one easy matching gesture",
-      "move": "cut",
-      "stage": "viewfinder",
-      "palette": "paper",
-      "sourceAccentTime": 23.6611,
-      "sourceAccentSceneTime": 14.5008,
-      "pictureMinusSourceAccentMs": -0.8,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    }
-  ],
-  "events": [
-    {
-      "id": "pose-question",
-      "at": 15,
-      "end": 30,
-      "kind": "spiral",
-      "position": [
-        850,
-        530
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
       ],
-      "scale": 0.6,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "cool-answer",
-      "at": 30,
-      "end": 60,
-      "kind": "brackets",
-      "position": [
-        180,
-        635
-      ],
-      "scale": 0.55,
-      "rotation": 0,
-      "accent": false,
-      "animation": "draw"
-    },
-    {
-      "id": "hip-option",
-      "at": 60,
-      "end": 90,
-      "kind": "ring",
-      "position": [
-        850,
-        945
-      ],
-      "scale": 0.6,
-      "rotation": 0,
-      "accent": true,
-      "animation": "orbit"
-    },
-    {
-      "id": "peace-option",
-      "at": 90,
-      "end": 120,
-      "kind": "stars",
-      "position": [
-        180,
-        540
-      ],
-      "scale": 0.55,
-      "rotation": 0,
-      "accent": true,
-      "animation": "pop"
-    },
-    {
-      "id": "too-many-options",
-      "at": 120,
-      "end": 150,
-      "kind": "cloud",
-      "position": [
-        540,
-        390
-      ],
-      "scale": 0.6,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "tiny-heart-offer",
-      "at": 150,
-      "end": 165,
-      "kind": "heart",
-      "position": [
-        850,
-        740
-      ],
-      "scale": 0.5,
-      "rotation": 0,
-      "accent": false,
-      "animation": "draw"
-    },
-    {
-      "id": "noticed-heart",
-      "at": 165,
-      "end": 195,
-      "kind": "ring",
-      "position": [
-        180,
-        570
-      ],
-      "scale": 0.6,
-      "rotation": 0,
-      "accent": true,
-      "animation": "orbit"
-    },
-    {
-      "id": "heart-answer",
-      "at": 195,
-      "end": 225,
-      "kind": "heart",
-      "position": [
-        850,
-        620
-      ],
-      "scale": 0.65,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "matched-heart",
-      "at": 225,
-      "end": 240,
-      "kind": "stars",
-      "position": [
-        540,
-        370
-      ],
-      "scale": 0.6,
-      "rotation": 0,
-      "accent": true,
-      "animation": "pop"
-    },
-    {
-      "id": "matching-shutter",
-      "at": 240,
-      "end": 242,
-      "kind": "flash",
-      "position": [
+      "zoom": 1,
+      "cameraCenter": [
         540,
         960
       ],
-      "scale": 1,
-      "rotation": 0,
-      "accent": true,
-      "animation": "pop"
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "threequarter"
+      }
     },
     {
-      "id": "easy-choice",
-      "at": 255,
-      "end": 285,
-      "kind": "brackets",
-      "position": [
-        180,
-        610
+      "frame": 30,
+      "sceneTime": 1.0,
+      "sourceTimeAtPicture": 10.1603,
+      "selectedAccentSourceTime": 10.1703,
+      "transition": null,
+      "poseLandingFrame": 30,
+      "poseLandingTime": 1.0,
+      "poseLandingErrorMs": -10.0,
+      "transitionStartMinusAccentMs": -10.0,
+      "audienceFocus": "Her wide hip idea meets his calm contrapposto.",
+      "visibleBodyPoses": {
+        "nemi": "wide",
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "hip",
+        "adb": "glasses"
+      },
+      "framing": "ADB single composed sunglasses answer; a different choice from the exuberant opening",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "adb"
       ],
-      "scale": 0.6,
-      "rotation": 0,
-      "accent": false,
-      "animation": "draw"
+      "zoom": 1.5,
+      "cameraCenter": [
+        780,
+        650
+      ],
+      "actorPlacements": {
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "threequarter"
+      }
     },
     {
-      "id": "photo-pencil-wipe",
-      "at": 285,
-      "end": 292,
-      "kind": "pencil",
-      "position": [
+      "frame": 52,
+      "sceneTime": 1.733333,
+      "sourceTimeAtPicture": 10.893633,
+      "selectedAccentSourceTime": 11.1688,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "duo-matching-moment-transition-60",
+        "direction": -1,
+        "poseFrame": 60
+      },
+      "poseLandingFrame": 60,
+      "poseLandingTime": 2.0,
+      "poseLandingErrorMs": -8.5,
+      "transitionStartMinusAccentMs": -275.167,
+      "audienceFocus": "She offers a left-supported pose while he points out the different angle.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "peace",
+        "adb": "point"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
         540,
-        900
+        960
       ],
-      "scale": 1.1,
-      "rotation": -22,
-      "accent": false,
-      "animation": "wipe"
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            700,
+            957.75
+          ],
+          "scale": 1.1,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
     },
     {
-      "id": "photo-heart-seal",
-      "at": 315,
-      "end": 465,
-      "kind": "heart",
-      "position": [
+      "frame": 90,
+      "sceneTime": 3.0,
+      "sourceTimeAtPicture": 12.1603,
+      "selectedAccentSourceTime": 12.1673,
+      "transition": null,
+      "poseLandingFrame": 90,
+      "poseLandingTime": 3.0,
+      "poseLandingErrorMs": -7.0,
+      "transitionStartMinusAccentMs": -7.0,
+      "audienceFocus": "Her opposite angle meets his wide formal stance.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right",
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "nemi": "hip",
+        "adb": "hip"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
         540,
-        370
+        960
       ],
-      "scale": 0.85,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "profile",
+        "adb": "front"
+      }
     },
     {
-      "id": "seal-star-right",
-      "at": 315,
-      "end": 465,
-      "kind": "stars",
-      "position": [
-        675,
-        385
+      "frame": 120,
+      "sceneTime": 4.0,
+      "sourceTimeAtPicture": 13.1603,
+      "selectedAccentSourceTime": 13.1657,
+      "transition": null,
+      "poseLandingFrame": 120,
+      "poseLandingTime": 4.0,
+      "poseLandingErrorMs": -5.4,
+      "transitionStartMinusAccentMs": -5.4,
+      "audienceFocus": "The low thinking pose and folded refusal show that guessing is not working.",
+      "visibleBodyPoses": {
+        "nemi": "crouch",
+        "adb": "folded"
+      },
+      "visibleActions": {
+        "nemi": "chin",
+        "adb": "rest"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
       ],
-      "scale": 0.6,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "seal-star-left",
-      "at": 345,
-      "end": 465,
-      "kind": "stars",
-      "position": [
-        395,
-        405
-      ],
-      "scale": 0.5,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "happy-approval",
-      "at": 375,
-      "end": 405,
-      "kind": "rays",
-      "position": [
-        850,
-        575
-      ],
-      "scale": 0.55,
-      "rotation": 0,
-      "accent": true,
-      "animation": "burst"
-    },
-    {
-      "id": "shared-seal",
-      "at": 405,
-      "end": 435,
-      "kind": "ring",
-      "position": [
+      "zoom": 1,
+      "cameraCenter": [
         540,
-        390
+        960
       ],
-      "scale": 1.1,
-      "rotation": 0,
-      "accent": true,
-      "animation": "orbit"
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
     },
     {
-      "id": "final-star-sheen",
-      "at": 435,
-      "end": 465,
-      "kind": "spark_trail",
-      "position": [
-        540,
-        1180
+      "frame": 142,
+      "sceneTime": 4.733333,
+      "sourceTimeAtPicture": 13.893633,
+      "selectedAccentSourceTime": 14.1642,
+      "transition": {
+        "kind": "focus_wipe",
+        "duration": 8,
+        "event": "duo-matching-moment-transition-150",
+        "direction": 1,
+        "poseFrame": 150,
+        "focus": [
+          540,
+          910
+        ]
+      },
+      "poseLandingFrame": 150,
+      "poseLandingTime": 5.0,
+      "poseLandingErrorMs": -3.9,
+      "transitionStartMinusAccentMs": -270.567,
+      "audienceFocus": "Both lean toward each other rather than the camera to solve the same problem.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in",
+        "adb": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "rest",
+        "adb": "rest"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
       ],
-      "scale": 0.6,
-      "rotation": 0,
-      "accent": true,
-      "animation": "burst"
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "profile",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 165,
+      "sceneTime": 5.5,
+      "sourceTimeAtPicture": 14.6603,
+      "selectedAccentSourceTime": 14.6634,
+      "transition": null,
+      "poseLandingFrame": 165,
+      "poseLandingTime": 5.5,
+      "poseLandingErrorMs": -3.1,
+      "transitionStartMinusAccentMs": -3.1,
+      "audienceFocus": "Nemi gives one simple supported pose suggestion.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "point",
+        "adb": "chin"
+      },
+      "framing": "Nemi single full-body proposal; the supported pose is offered before both agree on it",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        300,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 189,
+      "sceneTime": 6.3,
+      "sourceTimeAtPicture": 15.4603,
+      "selectedAccentSourceTime": 15.6619,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "duo-matching-moment-transition-195",
+        "direction": 1,
+        "poseFrame": 195,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 195,
+      "poseLandingTime": 6.5,
+      "poseLandingErrorMs": -1.6,
+      "transitionStartMinusAccentMs": -201.6,
+      "audienceFocus": "ADB visibly tries her left-supported suggestion in his own hand vocabulary.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "peace",
+        "adb": "thumbsup"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 225,
+      "sceneTime": 7.5,
+      "sourceTimeAtPicture": 16.6603,
+      "selectedAccentSourceTime": 16.6719,
+      "transition": null,
+      "poseLandingFrame": 225,
+      "poseLandingTime": 7.5,
+      "poseLandingErrorMs": -11.6,
+      "transitionStartMinusAccentMs": -11.6,
+      "audienceFocus": "The matching right-supported answer confirms the shared choice.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right",
+        "adb": "groove_right"
+      },
+      "visibleActions": {
+        "nemi": "peace",
+        "adb": "hip"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 247,
+      "sceneTime": 8.233333,
+      "sourceTimeAtPicture": 17.393633,
+      "selectedAccentSourceTime": 17.6704,
+      "transition": {
+        "kind": "whip",
+        "duration": 8,
+        "event": "duo-matching-moment-transition-255",
+        "direction": 1,
+        "poseFrame": 255
+      },
+      "poseLandingFrame": 255,
+      "poseLandingTime": 8.5,
+      "poseLandingErrorMs": -10.1,
+      "transitionStartMinusAccentMs": -276.767,
+      "audienceFocus": "Both widen into a shared frame before the portrait.",
+      "visibleBodyPoses": {
+        "nemi": "wide",
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "nemi": "wave",
+        "adb": "arms_open"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            260,
+            957.75
+          ],
+          "scale": 1.1,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            760,
+            957.75
+          ],
+          "scale": 1.1,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 279,
+      "sceneTime": 9.3,
+      "sourceTimeAtPicture": 18.4603,
+      "selectedAccentSourceTime": 18.6688,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "duo-matching-moment-transition-285",
+        "direction": -1,
+        "poseFrame": 285,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 285,
+      "poseLandingTime": 9.5,
+      "poseLandingErrorMs": -8.5,
+      "transitionStartMinusAccentMs": -208.5,
+      "audienceFocus": "The same left-supported silhouette lands together on the shutter.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "peace",
+        "adb": "thumbsup"
+      },
+      "framing": "paired portrait crop on the shutter; matching faces/gestures supply the final photo contrast",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1.18,
+      "cameraCenter": [
+        540,
+        775
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            730,
+            957.75
+          ],
+          "scale": 1.1,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 315,
+      "sceneTime": 10.5,
+      "sourceTimeAtPicture": 19.6603,
+      "selectedAccentSourceTime": 19.6673,
+      "transition": null,
+      "poseLandingFrame": 315,
+      "poseLandingTime": 10.5,
+      "poseLandingErrorMs": -7.0,
+      "transitionStartMinusAccentMs": -7.0,
+      "audienceFocus": "The completed photo preserves that shared pose for one readable moment.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left",
+        "adb": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "peace",
+        "adb": "thumbsup"
+      },
+      "framing": "shared full-body pose",
+      "stage": "viewfinder",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "front"
+      }
+    },
+    {
+      "frame": 337,
+      "sceneTime": 11.233333,
+      "sourceTimeAtPicture": 20.393633,
+      "selectedAccentSourceTime": 20.6658,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "duo-matching-moment-transition-345",
+        "direction": -1,
+        "poseFrame": 345
+      },
+      "poseLandingFrame": 345,
+      "poseLandingTime": 11.5,
+      "poseLandingErrorMs": -5.5,
+      "transitionStartMinusAccentMs": -272.167,
+      "audienceFocus": "Their relieved low poses acknowledge how simple the final choice was.",
+      "visibleBodyPoses": {
+        "nemi": "crouch",
+        "adb": "crouch"
+      },
+      "visibleActions": {
+        "nemi": "rest",
+        "adb": "chin"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter",
+        "adb": "threequarter"
+      }
+    },
+    {
+      "frame": 375,
+      "sceneTime": 12.5,
+      "sourceTimeAtPicture": 21.6603,
+      "selectedAccentSourceTime": 21.6642,
+      "transition": null,
+      "poseLandingFrame": 375,
+      "poseLandingTime": 12.5,
+      "poseLandingErrorMs": -3.9,
+      "transitionStartMinusAccentMs": -3.9,
+      "audienceFocus": "A matching wide approval closes the awkward guessing.",
+      "visibleBodyPoses": {
+        "nemi": "wide",
+        "adb": "wide"
+      },
+      "visibleActions": {
+        "nemi": "thumbsup",
+        "adb": "thumbsup"
+      },
+      "framing": "shared full-body pose",
+      "stage": "plain",
+      "palette": "paper",
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi",
+        "adb"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            300,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        },
+        "adb": {
+          "position": [
+            780,
+            900
+          ],
+          "scale": 1.25,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front",
+        "adb": "front"
+      }
     }
   ],
-  "sfx": [
+  "poseLandings": [
+    {
+      "frame": 0,
+      "sourceTime": 9.1603,
+      "sourceAccent": 9.1603,
+      "errorMs": 0.0,
+      "focus": "Raised celebratory Nemi and folded ADB are obviously incompatible photo choices."
+    },
+    {
+      "frame": 30,
+      "sourceTime": 10.1603,
+      "sourceAccent": 10.1703,
+      "errorMs": -10.0,
+      "focus": "Her wide hip idea meets his calm contrapposto."
+    },
+    {
+      "frame": 60,
+      "sourceTime": 11.1603,
+      "sourceAccent": 11.1688,
+      "errorMs": -8.5,
+      "focus": "She offers a left-supported pose while he points out the different angle."
+    },
+    {
+      "frame": 90,
+      "sourceTime": 12.1603,
+      "sourceAccent": 12.1673,
+      "errorMs": -7.0,
+      "focus": "Her opposite angle meets his wide formal stance."
+    },
+    {
+      "frame": 120,
+      "sourceTime": 13.1603,
+      "sourceAccent": 13.1657,
+      "errorMs": -5.4,
+      "focus": "The low thinking pose and folded refusal show that guessing is not working."
+    },
+    {
+      "frame": 150,
+      "sourceTime": 14.1603,
+      "sourceAccent": 14.1642,
+      "errorMs": -3.9,
+      "focus": "Both lean toward each other rather than the camera to solve the same problem."
+    },
+    {
+      "frame": 165,
+      "sourceTime": 14.6603,
+      "sourceAccent": 14.6634,
+      "errorMs": -3.1,
+      "focus": "Nemi gives one simple supported pose suggestion."
+    },
+    {
+      "frame": 195,
+      "sourceTime": 15.6603,
+      "sourceAccent": 15.6619,
+      "errorMs": -1.6,
+      "focus": "ADB visibly tries her left-supported suggestion in his own hand vocabulary."
+    },
+    {
+      "frame": 225,
+      "sourceTime": 16.6603,
+      "sourceAccent": 16.6719,
+      "errorMs": -11.6,
+      "focus": "The matching right-supported answer confirms the shared choice."
+    },
+    {
+      "frame": 255,
+      "sourceTime": 17.6603,
+      "sourceAccent": 17.6704,
+      "errorMs": -10.1,
+      "focus": "Both widen into a shared frame before the portrait."
+    },
+    {
+      "frame": 285,
+      "sourceTime": 18.6603,
+      "sourceAccent": 18.6688,
+      "errorMs": -8.5,
+      "focus": "The same left-supported silhouette lands together on the shutter."
+    },
+    {
+      "frame": 315,
+      "sourceTime": 19.6603,
+      "sourceAccent": 19.6673,
+      "errorMs": -7.0,
+      "focus": "The completed photo preserves that shared pose for one readable moment."
+    },
+    {
+      "frame": 345,
+      "sourceTime": 20.6603,
+      "sourceAccent": 20.6658,
+      "errorMs": -5.5,
+      "focus": "Their relieved low poses acknowledge how simple the final choice was."
+    },
+    {
+      "frame": 375,
+      "sourceTime": 21.6603,
+      "sourceAccent": 21.6642,
+      "errorMs": -3.9,
+      "focus": "A matching wide approval closes the awkward guessing."
+    }
+  ],
+  "sfxEvents": [
+    {
+      "event": "pose-confusion",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -9.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "agreement",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -9.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "shared-frame",
+      "file": "common/audio/sfx/whoosh.mp3",
+      "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "sourceStart": 0.1,
+      "duration": 0.45,
+      "gainDb": -8.0,
+      "offsetFrames": 0
+    },
     {
       "event": "matching-shutter",
       "file": "common/audio/sfx/click.mp3",
       "sourceHash": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
       "sourceStart": 0.03333333333333333,
       "duration": 0.3,
-      "gainDb": -3,
+      "gainDb": -7.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "easy-choice",
+      "file": "common/audio/sfx/ping.mp3",
+      "sourceHash": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "sourceStart": 0.3,
+      "duration": 0.8,
+      "gainDb": -7.0,
       "offsetFrames": 0
     }
   ],
-  "motion": {
-    "nemi": [
+  "review": {
+    "selectedRevision": "r4",
+    "technicalPassed": true,
+    "encodedPictureReviewed": true,
+    "browserPlaybackExercised": true,
+    "evidence": "shorts/duo/duo-matching-moment/review/QA.md",
+    "audienceRetentionMeasured": false
+  },
+  "mixReview": {
+    "recordingAndMusicGainUnchanged": true,
+    "sfxGainAttenuationDb": 4.0,
+    "reason": "Preserve headroom for decoded AAC peaks while keeping selected sound accents."
+  },
+  "framingPolicy": "Full-body silhouette beats alternate with three purpose-led reaction/prop/single inserts; the next wider shot restores grounding or shared cause/payoff.",
+  "framingRepair": {
+    "shots": {
+      "52": {
+        "adb": [
+          730,
+          1.1
+        ]
+      },
+      "247": {
+        "nemi": [
+          260,
+          1.1
+        ],
+        "adb": [
+          760,
+          1.1
+        ]
+      },
+      "279": {
+        "adb": [
+          730,
+          1.1
+        ]
+      }
+    },
+    "reason": "Settled palms fully inside portrait frame; separate paired hands; retain prior shoe baseline.",
+    "extraNote": "Shot52 ADB shifted 30px inward after native proof to retain comfortable pointing-finger edge clearance."
+  },
+  "motion04": {
+    "previousFrames": 465,
+    "selectedFrames": 405,
+    "durationReason": "Keep the complete visual payoff and end before repeated closing poses or the next source texture cycle; sourceStart and recording/gain remain unchanged.",
+    "cameraThoughts": [
       {
-        "frame": 0,
-        "head": 0.0,
-        "look": -0.2,
-        "eyes": 1.0,
-        "lean": 0.0,
-        "gesture": 1.0
+        "shotFrame": 0,
+        "recipe": "offer_slide",
+        "thought": "Raised celebratory Nemi and folded ADB are obviously incompatible photo choices.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 0,
+              "factor": 0.965,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 29,
+              "factor": 1.0,
+              "pan": [
+                12.0,
+                -7.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
       },
       {
-        "frame": 7,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": -0.35,
-        "gesture": 1.0
+        "shotFrame": 30,
+        "recipe": "detail_push",
+        "thought": "Her wide hip idea meets his calm contrapposto.",
+        "camera": {
+          "focus": [
+            540,
+            780
+          ],
+          "keys": [
+            {
+              "frame": 30,
+              "factor": 0.95,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 51,
+              "factor": 1.14,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
       },
       {
-        "frame": 15,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": -0.35,
-        "gesture": 0.45
+        "shotFrame": 52,
+        "recipe": "reply_push",
+        "thought": "She offers a left-supported pose while he points out the different angle.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 52,
+              "factor": 0.965,
+              "pan": [
+                -0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 89,
+              "factor": 0.993,
+              "pan": [
+                -9.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
       },
       {
-        "frame": 22,
-        "head": 3.0,
-        "look": 0.6,
-        "eyes": 1.0,
-        "lean": -0.35,
-        "gesture": 1.0
+        "shotFrame": 90,
+        "recipe": "shared_slide",
+        "thought": "Her opposite angle meets his wide formal stance.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 90,
+              "factor": 0.984,
+              "pan": [
+                -0.0,
+                -6.0
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 98,
+              "factor": 0.97466,
+              "pan": [
+                -3.31,
+                -1.931
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 119,
+              "factor": 1.0,
+              "pan": [
+                -12.0,
+                -7.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": [
+          {
+            "frame": 90,
+            "sourceTime": 12.1603,
+            "measuredAttackSourceTime": 12.1707,
+            "quantizationErrorMs": -10.4,
+            "role": "Primary pose arrival",
+            "basis": "Measured low-band attack of the approved recording; not an assumed stem/downbeat."
+          }
+        ]
       },
       {
-        "frame": 30,
-        "head": 3.0,
-        "look": 0.6,
-        "eyes": 1.0,
-        "lean": -0.35,
-        "gesture": 1.0
+        "shotFrame": 120,
+        "recipe": "offer_slide",
+        "thought": "The low thinking pose and folded refusal show that guessing is not working.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 120,
+              "factor": 0.965,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 141,
+              "factor": 1.0,
+              "pan": [
+                12.0,
+                -7.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
       },
       {
-        "frame": 37,
-        "head": 0.0,
-        "look": 0.4,
-        "eyes": 1.0,
-        "lean": -0.35,
-        "gesture": 1.0
+        "shotFrame": 142,
+        "recipe": "reply_push",
+        "thought": "Both lean toward each other rather than the camera to solve the same problem.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 142,
+              "factor": 0.965,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 164,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
       },
       {
-        "frame": 46,
-        "head": 0.0,
-        "look": 0.4,
-        "eyes": 1.0,
-        "lean": -0.35,
-        "gesture": 1.0
+        "shotFrame": 165,
+        "recipe": "notice_push",
+        "thought": "Nemi gives one simple supported pose suggestion.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 165,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 188,
+              "factor": 1.045,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
       },
       {
-        "frame": 60,
-        "head": 0.0,
-        "look": 0.4,
-        "eyes": 1.0,
-        "lean": -0.35,
-        "gesture": 0.45
+        "shotFrame": 189,
+        "recipe": "shared_slide",
+        "thought": "ADB visibly tries her left-supported suggestion in his own hand vocabulary.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 189,
+              "factor": 0.965,
+              "pan": [
+                -0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 193,
+              "factor": 0.969,
+              "pan": [
+                -1.371,
+                -0.8
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 195,
+              "factor": 0.99,
+              "pan": [
+                -2.057,
+                -7.2
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 203,
+              "factor": 0.979,
+              "pan": [
+                -4.8,
+                -2.8
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 224,
+              "factor": 1.0,
+              "pan": [
+                -12.0,
+                -7.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": [
+          {
+            "frame": 195,
+            "sourceTime": 15.6603,
+            "measuredAttackSourceTime": 15.6693,
+            "quantizationErrorMs": -9.0,
+            "role": "Primary pose arrival",
+            "basis": "Measured low-band attack of the approved recording; not an assumed stem/downbeat."
+          }
+        ]
       },
       {
-        "frame": 67,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.8,
-        "gesture": 1.0
+        "shotFrame": 225,
+        "recipe": "shared_slide",
+        "thought": "The matching right-supported answer confirms the shared choice.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 225,
+              "factor": 0.965,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 246,
+              "factor": 1.0,
+              "pan": [
+                12.0,
+                -7.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
       },
       {
-        "frame": 76,
-        "head": -2.55,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.8,
-        "gesture": 1.0
+        "shotFrame": 247,
+        "recipe": "reply_push",
+        "thought": "Both widen into a shared frame before the portrait.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 247,
+              "factor": 0.965,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 278,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
       },
       {
-        "frame": 90,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.8,
-        "gesture": 0.45
+        "shotFrame": 279,
+        "recipe": "photo_push",
+        "thought": "The same left-supported silhouette lands together on the shutter.",
+        "camera": {
+          "focus": [
+            540,
+            790
+          ],
+          "keys": [
+            {
+              "frame": 279,
+              "factor": 0.965,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 314,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                -4.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
       },
       {
-        "frame": 94,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.8,
-        "gesture": 0.45
+        "shotFrame": 315,
+        "recipe": "relief_pull",
+        "thought": "The completed photo preserves that shared pose for one readable moment.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 315,
+              "factor": 1.019,
+              "pan": [
+                0.0,
+                -6.0
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 323,
+              "factor": 0.96952,
+              "pan": [
+                0.0,
+                -4.952
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 336,
+              "factor": 0.92,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": [
+          {
+            "frame": 315,
+            "sourceTime": 19.6603,
+            "measuredAttackSourceTime": 19.664,
+            "quantizationErrorMs": -3.7,
+            "role": "Primary pose arrival",
+            "basis": "Measured low-band attack of the approved recording; not an assumed stem/downbeat."
+          }
+        ]
       },
       {
-        "frame": 97,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 0.0,
-        "lean": 0.8,
-        "gesture": 0.45
+        "shotFrame": 337,
+        "recipe": "curled_pull",
+        "thought": "Their relieved low poses acknowledge how simple the final choice was.",
+        "camera": {
+          "focus": [
+            540,
+            850
+          ],
+          "keys": [
+            {
+              "frame": 337,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 374,
+              "factor": 0.92,
+              "pan": [
+                0.0,
+                15.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
       },
       {
-        "frame": 101,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.8,
-        "gesture": 0.45
-      },
-      {
-        "frame": 106,
-        "head": 2.55,
-        "look": 0.2,
-        "eyes": 1.0,
-        "lean": -0.35,
-        "gesture": 1.0
-      },
-      {
-        "frame": 120,
-        "head": 3.0,
-        "look": 0.2,
-        "eyes": 1.0,
-        "lean": -0.35,
-        "gesture": 0.45
-      },
-      {
-        "frame": 127,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.8,
-        "gesture": 1.0
-      },
-      {
-        "frame": 136,
-        "head": -2.55,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.8,
-        "gesture": 1.0
-      },
-      {
-        "frame": 150,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.8,
-        "gesture": 1.0
-      },
-      {
-        "frame": 157,
-        "head": 0.0,
-        "look": 0.4,
-        "eyes": 1.0,
-        "lean": -0.35,
-        "gesture": 1.0
-      },
-      {
-        "frame": 165,
-        "head": 0.0,
-        "look": 0.4,
-        "eyes": 1.0,
-        "lean": -0.35,
-        "gesture": 1.0
-      },
-      {
-        "frame": 172,
-        "head": 3.0,
-        "look": 0.65,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 181,
-        "head": 2.55,
-        "look": 0.65,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 195,
-        "head": 3.0,
-        "look": 0.65,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 202,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 207,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 210,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 0.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 211,
-        "head": -2.55,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 214,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 225,
-        "head": -3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 232,
-        "head": 3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 240,
-        "head": 3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 247,
-        "head": -2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 255,
-        "head": -2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 262,
-        "head": 0.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 271,
-        "head": 0.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 285,
-        "head": 0.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 292,
-        "head": 2.0,
-        "look": 0.45,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 301,
-        "head": 1.7,
-        "look": 0.45,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 315,
-        "head": 2.0,
-        "look": 0.45,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 320,
-        "head": 2.0,
-        "look": 0.45,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 322,
-        "head": -3.0,
-        "look": 0.6,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 323,
-        "head": 2.0,
-        "look": 0.45,
-        "eyes": 0.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 327,
-        "head": 2.0,
-        "look": 0.45,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 331,
-        "head": -2.55,
-        "look": 0.6,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 345,
-        "head": -3.0,
-        "look": 0.6,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 352,
-        "head": 0.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 361,
-        "head": 0.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 375,
-        "head": 0.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 382,
-        "head": -3.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 391,
-        "head": -2.55,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 405,
-        "head": -3.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 412,
-        "head": 3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 421,
-        "head": 2.55,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 433,
-        "head": 2.55,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 435,
-        "head": 3.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 436,
-        "head": 2.55,
-        "look": 0.55,
-        "eyes": 0.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 440,
-        "head": 2.55,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 442,
-        "head": -2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 451,
-        "head": -1.7,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
+        "shotFrame": 375,
+        "recipe": "approval_push",
+        "thought": "A matching wide approval closes the awkward guessing.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 375,
+              "factor": 0.984,
+              "pan": [
+                0.0,
+                -6.0
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 383,
+              "factor": 0.97466,
+              "pan": [
+                0.0,
+                -3.586
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 404,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": [
+          {
+            "frame": 375,
+            "sourceTime": 21.6603,
+            "measuredAttackSourceTime": 21.6693,
+            "quantizationErrorMs": -9.0,
+            "role": "Primary pose arrival",
+            "basis": "Measured low-band attack of the approved recording; not an assumed stem/downbeat."
+          }
+        ]
       }
     ],
-    "adb": [
-      {
-        "frame": 0,
-        "head": 0.0,
-        "look": 0.15,
-        "eyes": 1.0,
-        "lean": 0.0,
-        "gesture": 1.0
-      },
-      {
-        "frame": 7,
-        "head": 2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 15,
-        "head": 2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 22,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 30,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 37,
-        "head": -2.0,
-        "look": -0.6,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 46,
-        "head": -1.7,
-        "look": -0.6,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 60,
-        "head": -2.0,
-        "look": -0.6,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 67,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 76,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 90,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 94,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 97,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 0.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 101,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 106,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 120,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 127,
-        "head": 2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 136,
-        "head": 1.7,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 150,
-        "head": 2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 157,
-        "head": -3.0,
-        "look": -0.6,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 165,
-        "head": -3.0,
-        "look": -0.6,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 172,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 181,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 195,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 202,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 207,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 210,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 0.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 211,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 214,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 225,
-        "head": 0.0,
-        "look": -0.5,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 232,
-        "head": -2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 240,
-        "head": -2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 247,
-        "head": 2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 255,
-        "head": 2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 262,
-        "head": -3.0,
-        "look": -0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 271,
-        "head": -2.55,
-        "look": -0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 285,
-        "head": -3.0,
-        "look": -0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 292,
-        "head": -2.0,
-        "look": 0.45,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 301,
-        "head": -1.7,
-        "look": 0.45,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 315,
-        "head": -2.0,
-        "look": 0.45,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 320,
-        "head": -2.0,
-        "look": 0.45,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 322,
-        "head": 0.0,
-        "look": -0.4,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 323,
-        "head": -2.0,
-        "look": 0.45,
-        "eyes": 0.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 327,
-        "head": -2.0,
-        "look": 0.45,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 331,
-        "head": 0.0,
-        "look": -0.4,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 345,
-        "head": 0.0,
-        "look": -0.4,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 352,
-        "head": 3.0,
-        "look": -0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 361,
-        "head": 2.55,
-        "look": -0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 375,
-        "head": 3.0,
-        "look": -0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 382,
-        "head": 0.0,
-        "look": -0.4,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 391,
-        "head": 0.0,
-        "look": -0.4,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 405,
-        "head": 0.0,
-        "look": -0.4,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 412,
-        "head": -2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 421,
-        "head": -1.7,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 433,
-        "head": -1.7,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 435,
-        "head": -2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 436,
-        "head": -1.7,
-        "look": 0.55,
-        "eyes": 0.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 440,
-        "head": -1.7,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 442,
-        "head": 2.0,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 451,
-        "head": 1.7,
-        "look": 0.55,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      }
-    ]
-  },
-  "status": "Authored v3; exported visual and audio verification pending"
+    "actorMotion": "Eyes lead by3frames; finite head/shoulder response continues inside the held thought, then resolves. No periodic/random wobble and no arm-entry cycling.",
+    "referenceEvidence": "shorts/review/motion04/ref01/MOTION.md and ref03/MOTION.md; frame evidence and tracking limits are separate from authored choices.",
+    "review": "Native extrema/joins, decoded contact/transition/motion frames and complete normal-speed browser playback reviewed. Final selected export: r4"
+  }
 }

@@ -1,5 +1,5 @@
-# Selected export
+# Selected recut
 
-[act-natural_r1_1080x1920.mp4](../render/act-natural_r1_1080x1920.mp4) · 495 frames / 16.5s ·1080×1920,30fps,H.264/AAC stereo48kHz.
+[act-natural_r4_1080x1920.mp4](../render/act-natural_r4_1080x1920.mp4) · 15.2333s,1080×1920,30fps,H.264/AAC.
 
-Source: [short.json](../short.json), [Edit.tscn](../Edit.tscn), [direction](../DIRECTION.md), [cue map](../CUE_MAP.json). Exact hashes and decoded checks are in the sibling reports. The original accepted batch01 movies remain separate history.
+[Editable scene](../Edit.tscn) · [timing/poses](../short.json) · [direction](../DIRECTION.md) · [cue map](../CUE_MAP.json) · [QA](QA.md). Earlier r1 movie is retained in render/; its original source is in source-r1/ and its review records in r1/.

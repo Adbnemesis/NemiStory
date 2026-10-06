@@ -1,26 +1,26 @@
 # Godot ink Shorts architecture
 
-New work uses version3, with the strict schema and skill helpers. The original v1/v2 accepted art and playback remain as inherited source and reproducible history. Original storytime files/settings stay read-only.
+New work follows the pose-first version3 workflow and cast skill helpers. [Revision03](review/revision03/index.html) is the current review target; original v1/v2 and r1 sources remain history. Original storytime files/settings are protected.
 
 | Layer | Responsibility |
 | --- | --- |
-| Three project skills | Cast scope, character direction, causal brief, music/source discipline and maintained production/check commands |
-| short.json + Edit.tscn | One clock, exact source interval, actor cues/motion, framing/travel, theme and named events |
-| DynamicPoseArt.gd | Sixteen explicit actions, coherent head group, pupil/lid motion, finite arm paths, continuous phone/book/pencil grips, grounded feet |
-| DynamicEdit.gd | Version3 motion interpolation and finite camera follow over the established director |
-| DynamicAccentArt.gd | Fixed path tracing, held completed ink, finite event-local particles and established stage/foreground art |
-| validate_ink.py | Strict supported fields, contact/view scope, source hashes/ranges, shared clock, planned pacing and finite VFX |
-| render_ink.py + render_dynamic.gd | Isolated native Godot capture; stop on script errors; exact frames and original-source audio packaging |
-| inspect_export.py | Actual encoded dimensions, clock, cue changes, poster and contact sheet |
-| verify_audio.py | Decode and reconstruct original-source music/SFX; measure delay, correlation, clipping/peak and audible contribution |
-| check_pacing.py | Actual decoded picture changes and maximum static run1.5s |
-| Review gallery | Range-aware native playback, cue seeking, source links and downloads |
-| audit_isolation.py | Protected source hashes and unrelated dirty status; explicit routing/skill status changes separately recorded |
+| Three project skills | Cast direction, thought/pose cards, source music discipline and scoped starter/render/check commands |
+| `short.json` + `Edit.tscn` | One scene clock, original audio interval, supported body/view/action cues, framing, finite transitions and named events |
+| `DynamicPoseArt.gd` | Ten held whole-body profiles, supported actions, coherent head group and exact phone/book/pencil grips; separate editable Shorts art |
+| `DynamicEdit.gd` | Finite eye/head/gesture keys and outgoing/incoming pose transitions with explicit anticipation/target arrival |
+| `DynamicAccentArt.gd` | Fixed traced/held drawings, selective deterministic finite accents and sparse stage art |
+| `validate_ink.py` | Strict supported fields, body/action/view restrictions, source hashes/ranges, event links and planned pacing |
+| `render_ink.py` + `render_dynamic.gd` | Native Godot pose/boundary proofs and full capture; stop on errors; exact source-audio packaging |
+| `inspect_export.py` | Actual encoded dimensions, clock/frame count, changed cue frames and contact images |
+| `verify_audio.py` | Decode and reconstruct exact-source music/SFX; measure delay, correlation, peaks and sound contributions |
+| `check_pacing.py` | Actual decoded picture changes and maximum still run of1.5s |
+| Review gallery | Range-aware native playback, cue seeking, source links and downloads from selected checked revisions |
+| `audit_isolation.py` | Protected source hashes and unrelated dirty status; authorized routing/skill changes recorded separately |
 
-Every visual frame originates in Godot. FFmpeg encodes, trims surplus capture frames and mixes recorded sound. Still/contact-sheet processing measures real exports; it creates no animation assets. Visible supplemental art is honestly identified as separate Godot illustration. Original rig definitions and all existing episodes remain untouched.
+Godot supplies every visual frame. FFmpeg packages capture and recorded sound; contact-sheet tools inspect output rather than generating animation assets. Separate supplemental ink art is not falsely attributed to original rigs. Existing episodes, definitions, voices and settings remain untouched.
 
-Motion keys interpolate finite authored head, gaze, eye, torso and gesture states. Equal keys hold still. Shots can follow a hand/face action within small bounded travel. No per-frame random ink, endless bob or opacity handwriting. Completed ink stays fixed; moving VFX have finite event lifetimes. One deliberate reaction can be small, but numerical motion is not sufficient artistic evidence.
+Whole-body pose decisions carry the thought. Finite eye/head settling or supported arm contact can reinforce it; equal keys hold still. Meaningful face/prop/single crops alternate with grounded/shared views. Transition `poseFrame` can preview the accent’s target drawing during an earlier entry, then land at the intended scene frame. No random ink, idle hand loops, drifting camera or continuous unimplemented prop exchange.
 
-A production carries exact original/decoded music identity/hashes, source section, gain and a cue map tied to the source clock. Recorded SFX event attacks and exported contributions are checked independently. Topic/rhythm fit is distinct from an unverified current platform ranking.
+Each production is `shorts/<adb|nemi|duo>/<short-name>/`. Active source/direction/cue map sit at its root; revision videos are in `render/`; QA, native stills, logs and selection/index are in `review/`; unique assets may use `assets/`. Shared art/engine is in `shorts/godot/`, music/provenance in `shorts/assets/music/`, galleries/batch records in `shorts/review/revision03/`. The cast `new` helper enforces this layout.
 
-Source, direction and checks stay beside each production; movies remain immutable revisions under renders/, review records under review/. Current selection lives in review/current.json and the batch manifest. Generated media is excluded from source Git delivery. Uploading/publishing Shorts requires a separate user request.
+Current recuts preserve original source in `review/source-r1/`, old review evidence in `review/r1/` and r1 movies in `render/`. Source hashes and QA belong to their actual movie revision. A checked selection is written only after decoded export/audio/pacing checks and complete playback. Source/proof completion alone cannot approve creativity or establish retention. Generated media stays outside source Git delivery; publishing requires a user request.

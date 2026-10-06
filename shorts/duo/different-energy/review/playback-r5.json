@@ -1,0 +1,53 @@
+{
+  "revision": "r5",
+  "pictureReviewed": true,
+  "playbackExercised": true,
+  "observations": "Final r5 decoded119/120/135 keeps paper through anticipation, switches dark exactly at4.000s and continues the same settled pose/camera. Both palms and planted soles remain visible; no camera reset, detached grips or residual mask. The other5joins/ongoing paths retain the reviewed r4 choreography. Music, gain and15s duration are unchanged. Full normal-speed player playback and a relevant cue were exercised; the final/restart is a semantic cut, not a guaranteed seamless audio loop.",
+  "duration": 15.0,
+  "previousDuration": 17.5,
+  "cameraReview": "Native extrema and actual decoded transition/motion sequences inspected independently; no critical contact/framing defect. Close crops deliberately cut legs and captions may cross lower clothing.",
+  "browserStates": [
+    {
+      "action": "play correctedr5 from0",
+      "observedAt": "2026-10-06T16:58:30.259Z",
+      "duration": 15,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "rate": 1,
+      "readyState": 4,
+      "source": "http://127.0.0.1:8768/shorts/duo/different-energy/render/different-energy_r5_1080x1920.mp4",
+      "time": 0.192758
+    },
+    {
+      "action": "complete correctedr5 normal playback / loop",
+      "observedAt": "2026-10-06T16:59:40.591Z",
+      "duration": 15,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "played": [
+        [
+          0,
+          15
+        ]
+      ],
+      "rate": 1,
+      "readyState": 4,
+      "source": "http://127.0.0.1:8768/shorts/duo/different-energy/render/different-energy_r5_1080x1920.mp4",
+      "time": 1.224297
+    },
+    {
+      "action": "cue4.00 verified corrected palette hit",
+      "observedAt": "2026-10-06T16:59:47.344Z",
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "source": "http://127.0.0.1:8768/shorts/duo/different-energy/render/different-energy_r5_1080x1920.mp4",
+      "time": 4
+    }
+  ],
+  "soundEvidence": "Exact-source decoded music/SFX reconstruction and unmuted1\u00d7browser playback are separate from subjective listening/audience taste.",
+  "continuousPlaybackWallSeconds": 70.332,
+  "playbackEvidence": "DOM played range covers wholeclip at1\u00d7, unmuted,readyState4,errornull; cuecontrol also exercised."
+}

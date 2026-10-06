@@ -1,44 +1,45 @@
-# One quick doodle — dynamic ink revision
+# One quick doodle · motion edit r4
 
-18 seconds, 20 authored image changes. Longest shot interval: 1.033s. Each shot adds a finite gaze/head/hand settle and subtle directed camera follow; this interval is a source-layout bound, not yet a decoded-video stillness measurement.
+Current source is at the Short root. Original r1 source is preserved in review/source-r1/; the interim pose-first source is in review/source-motion03/. Movies are immutable revisions in render/.
 
-A quick line grows into a cat, then a little world around it. Book inserts show contact; chin and thumb provide decision and completion beats. Stars, flower, leaf, cloud and moon accumulate as stable finished ink. The proud book_show pose makes a real ending, rather than ending on another repeated drawing look.
+**Promise:** One tiny sketch grows into a page she cannot stop decorating.
 
-**Premise:** me opening my sketchbook / for one quick doodle
+**Want:** Make one quick cat doodle.
 
-**Contact and staging:** The original sketch contact keeps pencil fingers mounted to the tool. book_show is a separate authored two-hand display pose. An explicitly separate back drawing implies a viewpoint cut; it does not invent back-facing drawing contact. Finished page doodles stay fixed after their finite stroke entry.
+**Choice:** Keep adding one cute detail.
 
-**Music:** makeba; existing downloaded source and identity records retained. Preview timeline starts at 0.7546s, with 18s used. Music playback rate remains 1.0. Every cue records its selected spectral-flux onset and frame-grid error in CUE_MAP.json. Spectral accents do not establish musical downbeats.
+**Consequence:** The fixed page motifs grow while her whole-body concentration becomes larger.
 
-**Timing and focus**
+**Payoff:** A startled crouch resolves into a proud finished-cat book presentation.
 
-| Frame / time | Audience focus | Pose/edit change |
-|---|---|---|
-| 0 / 0.000s | One blank-page intention and held pencil | nemi: sketch; cut |
-| 15 / 0.500s | Authored finger grip starts the first mark | nemi: sketch; punch |
-| 31 / 1.033s | Eyes choose the next tiny line | nemi: sketch; cut |
-| 62 / 2.067s | Decides a cat needs a friend | nemi: chin; cut |
-| 93 / 3.100s | Pencil and page return with purpose | nemi: sketch; punch |
-| 124 / 4.133s | Pencil wipe commits to the bigger idea | nemi: point; whip |
-| 155 / 5.167s | First finished stars establish the page world | nemi: sketch; pull |
-| 186 / 6.200s | Adds a flower beside the stars | nemi: sketch; punch |
-| 217 / 7.233s | Separate reverse silhouette and page leaf | nemi: rest; whip |
-| 248 / 8.267s | The cute cat idea becomes legible | nemi: book_show; pull |
-| 279 / 9.300s | Delighted face, now adding a cloud | nemi: sketch; punch |
-| 310 / 10.333s | Whole constellation surrounds the artist | nemi: sketch; pull |
-| 341 / 11.367s | A final curled line fills the corner | nemi: sketch; cut |
-| 372 / 12.400s | One approving thumb says done | nemi: thumbsup; cut |
-| 403 / 13.433s | Proudly shows the finished cat page | nemi: book_show; pull |
-| 434 / 14.467s | Book and face share the proud reveal | nemi: book_show; punch |
-| 465 / 15.500s | The quick doodle became her tiny gallery | nemi: hip; cut |
-| 496 / 16.533s | Returns the completed page to the audience | nemi: book_show; pull |
-| 512 / 17.067s | Small pleased smile settles after the work | nemi: book_show; cut |
-| 528 / 17.600s | Final proud page and grounded feet | nemi: book_show; pull |
+The approved ink identity stays. Eyes lead, the head and small grounded shoulder response follow, and a finite camera path develops the attention through the held drawing. Most strokes remain one coherent drawing; camera motion does not redraw completed ink. Props and finger contact share their existing matrices. Gesture progress stays fully arrived, rather than repeating arm entries.
 
-**Motion rule:** Eyes choose the focal point first; head and authored hand settle within seven frames. Feet stay planted. Separate profile/back views are explicit drawings; cuts imply a change in orientation, without pretending to be a universal walk/turn system. Gesture interpolation cannot slide a held prop away from its authored fingers. Completed doodles remain still after entry, while finite rings/trails/confetti have event-bounded paths.
+**Duration:** 18s → 17.5667s. Keep the complete visual payoff and end before repeated closing poses or the next source texture cycle; sourceStart and recording/gain remain unchanged.
 
-**Effects rule:** Each named doodle supports the current feeling or object. Music carries the edit; original recorded root SFX only accent selected event landings. No synthetic effects, narration, image generation, or storytime source modification.
+**Music:** exact approved recording shorts/assets/music/batch01/makeba.wav, preview-relative source start 0.7546s, gain -6.83dB, selected duration 17.5667s. Saved accent measurements are candidates; selected camera attack/recovery keys and their frame quantization are in CUE_MAP.json. The source identity, speed and gain stay unchanged.
 
+**Camera:** calm base push/pull/pan follows the thought throughout each shot. Stronger face/detail pushes contrast with safe full-body compositions. Selected low-band source attacks receive a small finite scale/vertical impulse; thin build/recovery passages remain quieter. Physical door/runway/column stage lines follow the same camera delta; page/viewfinder graphics and the premise stay screen anchored. Departing art inherits its actual last camera transform.
 
+| Transition start → pose arrival | Viewer focus | Held body/view/action | Camera direction |
+|---|---|---|---|
+| 0.000s → 0.000s | The crouched pencil grip makes the tiny-sketch intention visible immediately. | nemi: crouch/threequarter/sketch | page_push |
+| 1.033s → 1.033s | The first mark pulls her into a forward lean. | nemi: lean_in/front/sketch | detail_push |
+| 2.067s → 2.067s | A side-supported stance considers the tiny cat. | nemi: contrapposto/threequarter/chin | consider_pull |
+| 2.833s → 3.100s | A wider drawing stance commits to the cat. | nemi: wide/front/sketch | page_push |
+| 4.133s → 4.133s | A left-supported pencil pose decides the cat needs company. | nemi: groove_left/threequarter/sketch | page_slide |
+| 5.167s → 5.167s | The opposite supported stance adds a flower rather than stopping. | nemi: groove_right/front/sketch | page_push |
+| 6.000s → 6.200s | She leans closer to choose another little detail. | nemi: lean_in/profile/sketch | detail_push |
+| 7.233s → 7.233s | The low crouch keeps working under the growing garden. | nemi: crouch/threequarter/sketch | consider_pull |
+| 8.267s → 8.267s | A wide stance makes even more room for the idea. | nemi: wide/front/sketch | page_push |
+| 9.300s → 9.300s | The left drawing groove extends the same page, not an unrelated pose. | nemi: groove_left/threequarter/sketch | page_slide |
+| 10.333s → 10.333s | The right-supported drawing pose closes the long creative phrase. | nemi: groove_right/threequarter/sketch | page_push |
+| 11.100s → 11.367s | She recoils from how much the one quick doodle became. | nemi: recoil/front/rest | caught_push |
+| 12.400s → 12.400s | Folded arms give the self-aware realization a quiet beat. | nemi: folded/threequarter/rest | consider_pull |
+| 13.433s → 13.433s | A lowered chin pose chooses to be proud of the finished page. | nemi: crouch/threequarter/chin | page_slide |
+| 14.200s → 14.467s | The finished cat book appears with continuous two-hand contact in its own drawing. | nemi: wide/front/book_show | reveal_push |
+| 15.500s → 15.500s | A forward book presentation makes the payoff readable. | nemi: lean_in/threequarter/book_show | detail_push |
+| 16.533s → 16.533s | The proud contrapposto keeps the completed cat page steady. | nemi: contrapposto/front/book_show | proud_pull |
 
-**Review status:** Source storyboard authored. Validator, Godot stills, decoded motion/static intervals, native exported playback, audio synchronization and actual effect audibility must be recorded after render under review/. Passing the schema alone is not a visual quality claim.
+**Sound and effects:** The recorded SFX and selected finite doodles/VFX strengthen recognition, transition, choice and payoff. Music stays the lead; no synthesized SFX or new character voice. Event clocks/recording hashes/gains remain in the spec and cue map.
+
+**Review:** source intent only until fresh native motion extrema, transition boundaries, encoded picture/audio/pacing and full playback are recorded in review/QA.md. Examine the first-second premise, within-pose movement, eye/contact margins, actual attack arrivals and final-to-first cut. No audience retention outcome is inferred from these craft checks.

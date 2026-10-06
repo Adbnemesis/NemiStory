@@ -1,1004 +1,1676 @@
 {
+  "version": 3,
+  "revision": "r4",
+  "id": "quick-doodle",
+  "fps": 30,
+  "frames": 527,
   "music": {
     "file": "shorts/assets/music/batch01/makeba.wav",
     "sourceHash": "dae9351a3df5a2f43190b78063823c564547f35ce7e66b0d31be394e59523a0a",
     "sourceStart": 0.7546,
-    "duration": 18,
+    "duration": 17.566666666666666,
     "gainDb": -6.83
   },
+  "recordingMeta": "shorts/assets/music/batch01/makeba.json",
+  "sourceAnalysis": "shorts/assets/music/batch01/makeba.analysis.json",
   "beatPlan": "shorts/assets/music/batch01/makeba.edit-plan.json",
   "bpm": 116.02,
   "bpmStatus": "fit to recurring strong spectral-flux accents; metrical phase remains editorial",
+  "sourceTimeline": "Downloaded preview clock; full-song offset unknown.",
+  "timingPolicy": "Pose swaps land at selected accent frames. Named transitions start6-8frames earlier and finish on the pose accent; transition start is not falsely labeled a downbeat.",
+  "playbackReview": "Performed: exact selected MP4 at1\u00d7unmuted in browser, continuous progression/loop and cue checks; see review/playback-r4.json. Subjective audience/music balance is not inferred from numerical source presence.",
   "cuts": [
     {
       "frame": 0,
-      "time": 0.0,
-      "focus": "One blank-page intention and held pencil",
-      "move": "cut",
-      "stage": "plain",
+      "sceneTime": 0.0,
+      "sourceTimeAtPicture": 0.7546,
+      "selectedAccentSourceTime": 0.7546,
+      "transition": null,
+      "poseLandingFrame": 0,
+      "poseLandingTime": 0.0,
+      "poseLandingErrorMs": 0.0,
+      "transitionStartMinusAccentMs": 0.0,
+      "audienceFocus": "The crouched pencil grip makes the tiny-sketch intention visible immediately.",
+      "visibleBodyPoses": {
+        "nemi": "crouch"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 0.7546,
-      "sourceAccentSceneTime": 0.0,
-      "pictureMinusSourceAccentMs": 0.0,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 15,
-      "time": 0.5,
-      "focus": "Authored finger grip starts the first mark",
-      "move": "punch",
-      "stage": "plain",
-      "palette": "paper",
-      "sourceAccentTime": 1.2655,
-      "sourceAccentSceneTime": 0.5109,
-      "pictureMinusSourceAccentMs": -10.9,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
     },
     {
       "frame": 31,
-      "time": 1.033333,
-      "focus": "Eyes choose the next tiny line",
-      "move": "cut",
-      "stage": "plain",
+      "sceneTime": 1.033333,
+      "sourceTimeAtPicture": 1.787933,
+      "selectedAccentSourceTime": 1.7879,
+      "transition": null,
+      "poseLandingFrame": 31,
+      "poseLandingTime": 1.033333,
+      "poseLandingErrorMs": 0.033,
+      "transitionStartMinusAccentMs": 0.033,
+      "audienceFocus": "The first mark pulls her into a forward lean.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "pencil/page medium insert; the first choice and exact finger contact are readable",
+      "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 1.7879,
-      "sourceAccentSceneTime": 1.0333,
-      "pictureMinusSourceAccentMs": 0.033,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1.55,
+      "cameraCenter": [
+        590,
+        740
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
     },
     {
       "frame": 62,
-      "time": 2.066667,
-      "focus": "Decides a cat needs a friend",
-      "move": "cut",
-      "stage": "plain",
+      "sceneTime": 2.066667,
+      "sourceTimeAtPicture": 2.821267,
+      "selectedAccentSourceTime": 2.8212,
+      "transition": null,
+      "poseLandingFrame": 62,
+      "poseLandingTime": 2.066667,
+      "poseLandingErrorMs": 0.067,
+      "transitionStartMinusAccentMs": 0.067,
+      "audienceFocus": "A side-supported stance considers the tiny cat.",
+      "visibleBodyPoses": {
+        "nemi": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "chin"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 2.8212,
-      "sourceAccentSceneTime": 2.0666,
-      "pictureMinusSourceAccentMs": 0.067,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
     },
     {
-      "frame": 93,
-      "time": 3.1,
-      "focus": "Pencil and page return with purpose",
-      "move": "punch",
-      "stage": "plain",
+      "frame": 85,
+      "sceneTime": 2.833333,
+      "sourceTimeAtPicture": 3.587933,
+      "selectedAccentSourceTime": 3.8545,
+      "transition": {
+        "kind": "smear",
+        "duration": 8,
+        "event": "quick-doodle-transition-93",
+        "direction": 1,
+        "poseFrame": 93
+      },
+      "poseLandingFrame": 93,
+      "poseLandingTime": 3.1,
+      "poseLandingErrorMs": 0.1,
+      "transitionStartMinusAccentMs": -266.567,
+      "audienceFocus": "A wider drawing stance commits to the cat.",
+      "visibleBodyPoses": {
+        "nemi": "wide"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 3.8545,
-      "sourceAccentSceneTime": 3.0999,
-      "pictureMinusSourceAccentMs": 0.1,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
     },
     {
       "frame": 124,
-      "time": 4.133333,
-      "focus": "Pencil wipe commits to the bigger idea",
-      "move": "whip",
-      "stage": "plain",
+      "sceneTime": 4.133333,
+      "sourceTimeAtPicture": 4.887933,
+      "selectedAccentSourceTime": 4.8878,
+      "transition": null,
+      "poseLandingFrame": 124,
+      "poseLandingTime": 4.133333,
+      "poseLandingErrorMs": 0.133,
+      "transitionStartMinusAccentMs": 0.133,
+      "audienceFocus": "A left-supported pencil pose decides the cat needs company.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 4.8878,
-      "sourceAccentSceneTime": 4.1332,
-      "pictureMinusSourceAccentMs": 0.133,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
     },
     {
       "frame": 155,
-      "time": 5.166667,
-      "focus": "First finished stars establish the page world",
-      "move": "pull",
+      "sceneTime": 5.166667,
+      "sourceTimeAtPicture": 5.921267,
+      "selectedAccentSourceTime": 5.9211,
+      "transition": null,
+      "poseLandingFrame": 155,
+      "poseLandingTime": 5.166667,
+      "poseLandingErrorMs": 0.167,
+      "transitionStartMinusAccentMs": 0.167,
+      "audienceFocus": "The opposite supported stance adds a flower rather than stopping.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
       "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 5.9211,
-      "sourceAccentSceneTime": 5.1665,
-      "pictureMinusSourceAccentMs": 0.167,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
     },
     {
-      "frame": 186,
-      "time": 6.2,
-      "focus": "Adds a flower beside the stars",
-      "move": "punch",
+      "frame": 180,
+      "sceneTime": 6.0,
+      "sourceTimeAtPicture": 6.7546,
+      "selectedAccentSourceTime": 6.9544,
+      "transition": {
+        "kind": "match",
+        "duration": 6,
+        "event": "quick-doodle-transition-186",
+        "direction": -1,
+        "poseFrame": 186,
+        "focus": [
+          540,
+          960
+        ]
+      },
+      "poseLandingFrame": 186,
+      "poseLandingTime": 6.2,
+      "poseLandingErrorMs": 0.2,
+      "transitionStartMinusAccentMs": -199.8,
+      "audienceFocus": "She leans closer to choose another little detail.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "profile pencil/page insert; match transition follows her concentrated check of the same drawing",
       "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 6.9544,
-      "sourceAccentSceneTime": 6.1998,
-      "pictureMinusSourceAccentMs": 0.2,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1.6,
+      "cameraCenter": [
+        590,
+        740
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "profile"
+      }
     },
     {
       "frame": 217,
-      "time": 7.233333,
-      "focus": "Separate reverse silhouette and page leaf",
-      "move": "whip",
+      "sceneTime": 7.233333,
+      "sourceTimeAtPicture": 7.987933,
+      "selectedAccentSourceTime": 7.9877,
+      "transition": null,
+      "poseLandingFrame": 217,
+      "poseLandingTime": 7.233333,
+      "poseLandingErrorMs": 0.233,
+      "transitionStartMinusAccentMs": 0.233,
+      "audienceFocus": "The low crouch keeps working under the growing garden.",
+      "visibleBodyPoses": {
+        "nemi": "crouch"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
       "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 7.9877,
-      "sourceAccentSceneTime": 7.2331,
-      "pictureMinusSourceAccentMs": 0.233,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
     },
     {
       "frame": 248,
-      "time": 8.266667,
-      "focus": "The cute cat idea becomes legible",
-      "move": "pull",
+      "sceneTime": 8.266667,
+      "sourceTimeAtPicture": 9.021267,
+      "selectedAccentSourceTime": 9.021,
+      "transition": null,
+      "poseLandingFrame": 248,
+      "poseLandingTime": 8.266667,
+      "poseLandingErrorMs": 0.267,
+      "transitionStartMinusAccentMs": 0.267,
+      "audienceFocus": "A wide stance makes even more room for the idea.",
+      "visibleBodyPoses": {
+        "nemi": "wide"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
       "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 9.021,
-      "sourceAccentSceneTime": 8.2664,
-      "pictureMinusSourceAccentMs": 0.267,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
     },
     {
       "frame": 279,
-      "time": 9.3,
-      "focus": "Delighted face, now adding a cloud",
-      "move": "punch",
+      "sceneTime": 9.3,
+      "sourceTimeAtPicture": 10.0546,
+      "selectedAccentSourceTime": 10.0659,
+      "transition": null,
+      "poseLandingFrame": 279,
+      "poseLandingTime": 9.3,
+      "poseLandingErrorMs": -11.3,
+      "transitionStartMinusAccentMs": -11.3,
+      "audienceFocus": "The left drawing groove extends the same page, not an unrelated pose.",
+      "visibleBodyPoses": {
+        "nemi": "groove_left"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
       "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 10.0659,
-      "sourceAccentSceneTime": 9.3113,
-      "pictureMinusSourceAccentMs": -11.3,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
     },
     {
       "frame": 310,
-      "time": 10.333333,
-      "focus": "Whole constellation surrounds the artist",
-      "move": "pull",
+      "sceneTime": 10.333333,
+      "sourceTimeAtPicture": 11.087933,
+      "selectedAccentSourceTime": 11.0875,
+      "transition": null,
+      "poseLandingFrame": 310,
+      "poseLandingTime": 10.333333,
+      "poseLandingErrorMs": 0.433,
+      "transitionStartMinusAccentMs": 0.433,
+      "audienceFocus": "The right-supported drawing pose closes the long creative phrase.",
+      "visibleBodyPoses": {
+        "nemi": "groove_right"
+      },
+      "visibleActions": {
+        "nemi": "sketch"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
       "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 11.0875,
-      "sourceAccentSceneTime": 10.3329,
-      "pictureMinusSourceAccentMs": 0.433,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
     },
     {
-      "frame": 341,
-      "time": 11.366667,
-      "focus": "A final curled line fills the corner",
-      "move": "cut",
+      "frame": 333,
+      "sceneTime": 11.1,
+      "sourceTimeAtPicture": 11.8546,
+      "selectedAccentSourceTime": 12.1324,
+      "transition": {
+        "kind": "focus_wipe",
+        "duration": 8,
+        "event": "quick-doodle-transition-341",
+        "direction": 1,
+        "poseFrame": 341,
+        "focus": [
+          540,
+          975
+        ]
+      },
+      "poseLandingFrame": 341,
+      "poseLandingTime": 11.366667,
+      "poseLandingErrorMs": -11.133,
+      "transitionStartMinusAccentMs": -277.8,
+      "audienceFocus": "She recoils from how much the one quick doodle became.",
+      "visibleBodyPoses": {
+        "nemi": "recoil"
+      },
+      "visibleActions": {
+        "nemi": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
       "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 12.1324,
-      "sourceAccentSceneTime": 11.3778,
-      "pictureMinusSourceAccentMs": -11.133,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
     },
     {
       "frame": 372,
-      "time": 12.4,
-      "focus": "One approving thumb says done",
-      "move": "cut",
+      "sceneTime": 12.4,
+      "sourceTimeAtPicture": 13.1546,
+      "selectedAccentSourceTime": 13.1657,
+      "transition": null,
+      "poseLandingFrame": 372,
+      "poseLandingTime": 12.4,
+      "poseLandingErrorMs": -11.1,
+      "transitionStartMinusAccentMs": -11.1,
+      "audienceFocus": "Folded arms give the self-aware realization a quiet beat.",
+      "visibleBodyPoses": {
+        "nemi": "folded"
+      },
+      "visibleActions": {
+        "nemi": "rest"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
       "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 13.1657,
-      "sourceAccentSceneTime": 12.4111,
-      "pictureMinusSourceAccentMs": -11.1,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
     },
     {
       "frame": 403,
-      "time": 13.433333,
-      "focus": "Proudly shows the finished cat page",
-      "move": "pull",
+      "sceneTime": 13.433333,
+      "sourceTimeAtPicture": 14.187933,
+      "selectedAccentSourceTime": 14.199,
+      "transition": null,
+      "poseLandingFrame": 403,
+      "poseLandingTime": 13.433333,
+      "poseLandingErrorMs": -11.067,
+      "transitionStartMinusAccentMs": -11.067,
+      "audienceFocus": "A lowered chin pose chooses to be proud of the finished page.",
+      "visibleBodyPoses": {
+        "nemi": "crouch"
+      },
+      "visibleActions": {
+        "nemi": "chin"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
       "stage": "page",
       "palette": "paper",
-      "sourceAccentTime": 14.199,
-      "sourceAccentSceneTime": 13.4444,
-      "pictureMinusSourceAccentMs": -11.067,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
     },
     {
-      "frame": 434,
-      "time": 14.466667,
-      "focus": "Book and face share the proud reveal",
-      "move": "punch",
-      "stage": "page",
+      "frame": 426,
+      "sceneTime": 14.2,
+      "sourceTimeAtPicture": 14.9546,
+      "selectedAccentSourceTime": 15.2323,
+      "transition": {
+        "kind": "focus_wipe",
+        "duration": 8,
+        "event": "quick-doodle-transition-434",
+        "direction": -1,
+        "poseFrame": 434,
+        "focus": [
+          540,
+          980
+        ]
+      },
+      "poseLandingFrame": 434,
+      "poseLandingTime": 14.466667,
+      "poseLandingErrorMs": -11.033,
+      "transitionStartMinusAccentMs": -277.7,
+      "audienceFocus": "The finished cat book appears with continuous two-hand contact in its own drawing.",
+      "visibleBodyPoses": {
+        "nemi": "wide"
+      },
+      "visibleActions": {
+        "nemi": "book_show"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
       "palette": "paper",
-      "sourceAccentTime": 15.2323,
-      "sourceAccentSceneTime": 14.4777,
-      "pictureMinusSourceAccentMs": -11.033,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1,
+      "cameraCenter": [
+        540,
+        960
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
     },
     {
       "frame": 465,
-      "time": 15.5,
-      "focus": "The quick doodle became her tiny gallery",
-      "move": "cut",
-      "stage": "page",
+      "sceneTime": 15.5,
+      "sourceTimeAtPicture": 16.2546,
+      "selectedAccentSourceTime": 16.2656,
+      "transition": null,
+      "poseLandingFrame": 465,
+      "poseLandingTime": 15.5,
+      "poseLandingErrorMs": -11.0,
+      "transitionStartMinusAccentMs": -11.0,
+      "audienceFocus": "A forward book presentation makes the payoff readable.",
+      "visibleBodyPoses": {
+        "nemi": "lean_in"
+      },
+      "visibleActions": {
+        "nemi": "book_show"
+      },
+      "framing": "finished-cat book close-up; both grips and the completed payoff stay in frame",
+      "stage": "plain",
       "palette": "paper",
-      "sourceAccentTime": 16.2656,
-      "sourceAccentSceneTime": 15.511,
-      "pictureMinusSourceAccentMs": -11.0,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
+      ],
+      "zoom": 1.65,
+      "cameraCenter": [
+        580,
+        725
+      ],
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "threequarter"
+      }
     },
     {
       "frame": 496,
-      "time": 16.533333,
-      "focus": "Returns the completed page to the audience",
-      "move": "pull",
-      "stage": "page",
+      "sceneTime": 16.533333,
+      "sourceTimeAtPicture": 17.287933,
+      "selectedAccentSourceTime": 17.2989,
+      "transition": null,
+      "poseLandingFrame": 496,
+      "poseLandingTime": 16.533333,
+      "poseLandingErrorMs": -10.967,
+      "transitionStartMinusAccentMs": -10.967,
+      "audienceFocus": "The proud contrapposto keeps the completed cat page steady.",
+      "visibleBodyPoses": {
+        "nemi": "contrapposto"
+      },
+      "visibleActions": {
+        "nemi": "book_show"
+      },
+      "framing": "full-body pose; feet and main silhouette visible",
+      "stage": "plain",
       "palette": "paper",
-      "sourceAccentTime": 17.2989,
-      "sourceAccentSceneTime": 16.5443,
-      "pictureMinusSourceAccentMs": -10.967,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 512,
-      "time": 17.066667,
-      "focus": "Small pleased smile settles after the work",
-      "move": "cut",
-      "stage": "page",
-      "palette": "paper",
-      "sourceAccentTime": 17.8097,
-      "sourceAccentSceneTime": 17.0551,
-      "pictureMinusSourceAccentMs": 11.567,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    },
-    {
-      "frame": 528,
-      "time": 17.6,
-      "focus": "Final proud page and grounded feet",
-      "move": "pull",
-      "stage": "page",
-      "palette": "paper",
-      "sourceAccentTime": 18.3322,
-      "sourceAccentSceneTime": 17.5776,
-      "pictureMinusSourceAccentMs": 22.4,
-      "measurementStatus": "Authored on measured spectral-flux candidate; not a downbeat claim. Encoded-cut and audio-clock review pending."
-    }
-  ],
-  "events": [
-    {
-      "id": "first-mark",
-      "at": 15,
-      "end": 31,
-      "kind": "spark_trail",
-      "position": [
-        835,
-        895
+      "evidence": "Saved source spectral-flux/onset candidate; metrical/bar phase remains editorial. Arrival/actual audibility pending export review.",
+      "visibleActors": [
+        "nemi"
       ],
-      "scale": 0.6,
-      "rotation": 0,
-      "accent": false,
-      "animation": "burst"
-    },
-    {
-      "id": "idea-cloud",
-      "at": 62,
-      "end": 93,
-      "kind": "cloud",
-      "position": [
-        850,
-        520
-      ],
-      "scale": 0.65,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "pencil-wipe",
-      "at": 124,
-      "end": 130,
-      "kind": "pencil",
-      "position": [
+      "zoom": 1,
+      "cameraCenter": [
         540,
-        900
+        960
       ],
-      "scale": 1.05,
-      "rotation": -24,
-      "accent": false,
-      "animation": "wipe"
-    },
-    {
-      "id": "first-stars",
-      "at": 155,
-      "end": 540,
-      "kind": "stars",
-      "position": [
-        830,
-        445
-      ],
-      "scale": 0.75,
-      "rotation": -7,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "page-flower",
-      "at": 186,
-      "end": 540,
-      "kind": "flower",
-      "position": [
-        190,
-        780
-      ],
-      "scale": 0.72,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "page-leaf",
-      "at": 217,
-      "end": 540,
-      "kind": "leaf",
-      "position": [
-        196,
-        1070
-      ],
-      "scale": 0.8,
-      "rotation": -17,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "page-cat",
-      "at": 248,
-      "end": 540,
-      "kind": "cat",
-      "position": [
-        880,
-        990
-      ],
-      "scale": 0.65,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "face-cloud",
-      "at": 279,
-      "end": 540,
-      "kind": "cloud",
-      "position": [
-        170,
-        540
-      ],
-      "scale": 0.6,
-      "rotation": 5,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "doodle-moon",
-      "at": 310,
-      "end": 540,
-      "kind": "moon",
-      "position": [
-        890,
-        1190
-      ],
-      "scale": 0.7,
-      "rotation": 14,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "curled-corner",
-      "at": 341,
-      "end": 540,
-      "kind": "spiral",
-      "position": [
-        195,
-        1215
-      ],
-      "scale": 0.55,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "done-ring",
-      "at": 372,
-      "end": 403,
-      "kind": "ring",
-      "position": [
-        845,
-        580
-      ],
-      "scale": 0.6,
-      "rotation": 0,
-      "accent": true,
-      "animation": "orbit"
-    },
-    {
-      "id": "cat-reveal",
-      "at": 403,
-      "end": 434,
-      "kind": "rays",
-      "position": [
-        190,
-        920
-      ],
-      "scale": 0.65,
-      "rotation": 0,
-      "accent": true,
-      "animation": "burst"
-    },
-    {
-      "id": "tiny-gallery",
-      "at": 465,
-      "end": 496,
-      "kind": "heart",
-      "position": [
-        860,
-        770
-      ],
-      "scale": 0.55,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
-    },
-    {
-      "id": "page-pride",
-      "at": 496,
-      "end": 540,
-      "kind": "flower",
-      "position": [
-        175,
-        465
-      ],
-      "scale": 0.65,
-      "rotation": 0,
-      "accent": true,
-      "animation": "draw"
+      "actorPlacements": {
+        "nemi": {
+          "position": [
+            540,
+            900
+          ],
+          "scale": 1.42,
+          "flip": 1
+        }
+      },
+      "visibleViews": {
+        "nemi": "front"
+      }
     }
   ],
-  "sfx": [
+  "poseLandings": [
+    {
+      "frame": 0,
+      "sourceTime": 0.7546,
+      "sourceAccent": 0.7546,
+      "errorMs": 0.0,
+      "focus": "The crouched pencil grip makes the tiny-sketch intention visible immediately."
+    },
+    {
+      "frame": 31,
+      "sourceTime": 1.7879333333333336,
+      "sourceAccent": 1.7879,
+      "errorMs": 0.033,
+      "focus": "The first mark pulls her into a forward lean."
+    },
+    {
+      "frame": 62,
+      "sourceTime": 2.821266666666667,
+      "sourceAccent": 2.8212,
+      "errorMs": 0.067,
+      "focus": "A side-supported stance considers the tiny cat."
+    },
+    {
+      "frame": 93,
+      "sourceTime": 3.8546,
+      "sourceAccent": 3.8545,
+      "errorMs": 0.1,
+      "focus": "A wider drawing stance commits to the cat."
+    },
+    {
+      "frame": 124,
+      "sourceTime": 4.887933333333334,
+      "sourceAccent": 4.8878,
+      "errorMs": 0.133,
+      "focus": "A left-supported pencil pose decides the cat needs company."
+    },
+    {
+      "frame": 155,
+      "sourceTime": 5.921266666666667,
+      "sourceAccent": 5.9211,
+      "errorMs": 0.167,
+      "focus": "The opposite supported stance adds a flower rather than stopping."
+    },
+    {
+      "frame": 186,
+      "sourceTime": 6.9546,
+      "sourceAccent": 6.9544,
+      "errorMs": 0.2,
+      "focus": "She leans closer to choose another little detail."
+    },
+    {
+      "frame": 217,
+      "sourceTime": 7.987933333333333,
+      "sourceAccent": 7.9877,
+      "errorMs": 0.233,
+      "focus": "The low crouch keeps working under the growing garden."
+    },
+    {
+      "frame": 248,
+      "sourceTime": 9.021266666666667,
+      "sourceAccent": 9.021,
+      "errorMs": 0.267,
+      "focus": "A wide stance makes even more room for the idea."
+    },
+    {
+      "frame": 279,
+      "sourceTime": 10.0546,
+      "sourceAccent": 10.0659,
+      "errorMs": -11.3,
+      "focus": "The left drawing groove extends the same page, not an unrelated pose."
+    },
+    {
+      "frame": 310,
+      "sourceTime": 11.087933333333334,
+      "sourceAccent": 11.0875,
+      "errorMs": 0.433,
+      "focus": "The right-supported drawing pose closes the long creative phrase."
+    },
+    {
+      "frame": 341,
+      "sourceTime": 12.121266666666667,
+      "sourceAccent": 12.1324,
+      "errorMs": -11.133,
+      "focus": "She recoils from how much the one quick doodle became."
+    },
+    {
+      "frame": 372,
+      "sourceTime": 13.1546,
+      "sourceAccent": 13.1657,
+      "errorMs": -11.1,
+      "focus": "Folded arms give the self-aware realization a quiet beat."
+    },
+    {
+      "frame": 403,
+      "sourceTime": 14.187933333333334,
+      "sourceAccent": 14.199,
+      "errorMs": -11.067,
+      "focus": "A lowered chin pose chooses to be proud of the finished page."
+    },
+    {
+      "frame": 434,
+      "sourceTime": 15.221266666666667,
+      "sourceAccent": 15.2323,
+      "errorMs": -11.033,
+      "focus": "The finished cat book appears with continuous two-hand contact in its own drawing."
+    },
+    {
+      "frame": 465,
+      "sourceTime": 16.2546,
+      "sourceAccent": 16.2656,
+      "errorMs": -11.0,
+      "focus": "A forward book presentation makes the payoff readable."
+    },
+    {
+      "frame": 496,
+      "sourceTime": 17.287933333333335,
+      "sourceAccent": 17.2989,
+      "errorMs": -10.967,
+      "focus": "The proud contrapposto keeps the completed cat page steady."
+    }
+  ],
+  "sfxEvents": [
+    {
+      "event": "first-mark",
+      "file": "common/audio/sfx/click.mp3",
+      "sourceHash": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "sourceStart": 0.03333333333333333,
+      "duration": 0.3,
+      "gainDb": -4.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "page-cat",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -6.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "too-many-doodles",
+      "file": "common/audio/sfx/pop.mp3",
+      "sourceHash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "sourceStart": 0.1,
+      "duration": 0.5,
+      "gainDb": -6.0,
+      "offsetFrames": 0
+    },
     {
       "event": "cat-reveal",
       "file": "common/audio/sfx/whoosh.mp3",
       "sourceHash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
       "sourceStart": 0.1,
-      "duration": 0.4666666666666667,
-      "gainDb": -3,
+      "duration": 0.45,
+      "gainDb": -5.0,
+      "offsetFrames": 0
+    },
+    {
+      "event": "page-pride",
+      "file": "common/audio/sfx/ping.mp3",
+      "sourceHash": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "sourceStart": 0.3,
+      "duration": 0.8,
+      "gainDb": -4.0,
       "offsetFrames": 0
     }
   ],
-  "motion": {
-    "nemi": [
-      {
-        "frame": 0,
-        "head": 0.0,
-        "look": -0.2,
-        "eyes": 1.0,
-        "lean": 0.0,
-        "gesture": 0.45
-      },
-      {
-        "frame": 7,
-        "head": -3.0,
-        "look": -0.15,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 15,
-        "head": -3.0,
-        "look": -0.15,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 22,
-        "head": 3.0,
-        "look": -0.25,
-        "eyes": 0.72,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 31,
-        "head": 3.0,
-        "look": -0.25,
-        "eyes": 0.72,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 38,
-        "head": -3.0,
-        "look": -0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 47,
-        "head": -2.55,
-        "look": -0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 62,
-        "head": -3.0,
-        "look": -0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 69,
-        "head": 4.0,
-        "look": 0.45,
-        "eyes": 0.72,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 78,
-        "head": 3.4,
-        "look": 0.45,
-        "eyes": 0.72,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 93,
-        "head": 4.0,
-        "look": 0.45,
-        "eyes": 0.72,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 94,
-        "head": 4.0,
-        "look": 0.45,
-        "eyes": 0.72,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 97,
-        "head": 4.0,
-        "look": 0.45,
-        "eyes": 0.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 100,
-        "head": -2.0,
-        "look": -0.35,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 101,
-        "head": 4.0,
-        "look": 0.45,
-        "eyes": 0.72,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 109,
-        "head": -1.7,
-        "look": -0.35,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 124,
-        "head": -2.0,
-        "look": -0.35,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 131,
-        "head": 3.0,
-        "look": 0.6,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 140,
-        "head": 2.55,
-        "look": 0.6,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 155,
-        "head": 3.0,
-        "look": 0.6,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 162,
-        "head": -3.0,
-        "look": -0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 171,
-        "head": -2.55,
-        "look": -0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 186,
-        "head": -3.0,
-        "look": -0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 193,
-        "head": 3.0,
-        "look": -0.25,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 202,
-        "head": 2.55,
-        "look": -0.25,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 207,
-        "head": 2.55,
-        "look": -0.25,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 210,
-        "head": 2.55,
-        "look": -0.25,
-        "eyes": 0.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 214,
-        "head": 2.55,
-        "look": -0.25,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 217,
-        "head": 3.0,
-        "look": -0.25,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 224,
-        "head": 0.0,
-        "look": 0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 233,
-        "head": 0.0,
-        "look": 0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 248,
-        "head": 0.0,
-        "look": 0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 255,
-        "head": -3.0,
-        "look": 0.0,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 264,
-        "head": -2.55,
-        "look": 0.0,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 279,
-        "head": -3.0,
-        "look": 0.0,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 286,
-        "head": 4.0,
-        "look": -0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 295,
-        "head": 3.4,
-        "look": -0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 310,
-        "head": 4.0,
-        "look": -0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 317,
-        "head": -3.0,
-        "look": -0.1,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 320,
-        "head": -3.0,
-        "look": -0.1,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 323,
-        "head": -3.0,
-        "look": -0.1,
-        "eyes": 0.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 326,
-        "head": -2.55,
-        "look": -0.1,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 327,
-        "head": -3.0,
-        "look": -0.1,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 341,
-        "head": -3.0,
-        "look": -0.1,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 348,
-        "head": 2.0,
-        "look": -0.3,
-        "eyes": 0.72,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 357,
-        "head": 1.7,
-        "look": -0.3,
-        "eyes": 0.72,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 372,
-        "head": 2.0,
-        "look": -0.3,
-        "eyes": 0.72,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 379,
-        "head": -3.0,
-        "look": 0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 388,
-        "head": -2.55,
-        "look": 0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 403,
-        "head": -3.0,
-        "look": 0.2,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 410,
-        "head": 4.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 419,
-        "head": 3.4,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 433,
-        "head": 3.4,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 434,
-        "head": 4.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 436,
-        "head": 3.4,
-        "look": 0.3,
-        "eyes": 0.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 440,
-        "head": 3.4,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 441,
-        "head": -3.0,
-        "look": 0.1,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 450,
-        "head": -2.55,
-        "look": 0.1,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 465,
-        "head": -3.0,
-        "look": 0.1,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 472,
-        "head": 3.0,
-        "look": 0.5,
-        "eyes": 1.0,
-        "lean": 0.8,
-        "gesture": 1.0
-      },
-      {
-        "frame": 481,
-        "head": 2.55,
-        "look": 0.5,
-        "eyes": 1.0,
-        "lean": 0.8,
-        "gesture": 1.0
-      },
-      {
-        "frame": 496,
-        "head": 3.0,
-        "look": 0.5,
-        "eyes": 1.0,
-        "lean": 0.8,
-        "gesture": 0.45
-      },
-      {
-        "frame": 503,
-        "head": -3.0,
-        "look": 0.0,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 512,
-        "head": -3.0,
-        "look": 0.0,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 519,
-        "head": 3.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      },
-      {
-        "frame": 528,
-        "head": 3.0,
-        "look": 0.3,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 0.45
-      },
-      {
-        "frame": 535,
-        "head": -2.0,
-        "look": 0.1,
-        "eyes": 1.0,
-        "lean": 0.1,
-        "gesture": 1.0
-      }
-    ]
+  "review": {
+    "selectedRevision": "r4",
+    "technicalPassed": true,
+    "encodedPictureReviewed": true,
+    "browserPlaybackExercised": true,
+    "evidence": "shorts/nemi/quick-doodle/review/QA.md",
+    "audienceRetentionMeasured": false
   },
-  "status": "Authored v3; exported visual and audio verification pending"
+  "mixReview": {
+    "recordingAndMusicGainUnchanged": true,
+    "sfxGainAttenuationDb": 1.0,
+    "reason": "Preserve headroom for decoded AAC peaks while keeping selected sound accents."
+  },
+  "framingPolicy": "Full-body silhouette beats alternate with three purpose-led reaction/prop/single inserts; the next wider shot restores grounding or shared cause/payoff.",
+  "motion04": {
+    "previousFrames": 540,
+    "selectedFrames": 527,
+    "durationReason": "Keep the complete visual payoff and end before repeated closing poses or the next source texture cycle; sourceStart and recording/gain remain unchanged.",
+    "cameraThoughts": [
+      {
+        "shotFrame": 0,
+        "recipe": "page_push",
+        "thought": "The crouched pencil grip makes the tiny-sketch intention visible immediately.",
+        "camera": {
+          "focus": [
+            540,
+            890
+          ],
+          "keys": [
+            {
+              "frame": 0,
+              "factor": 0.98,
+              "pan": [
+                -0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 30,
+              "factor": 1.045,
+              "pan": [
+                -12.0,
+                -9.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 31,
+        "recipe": "detail_push",
+        "thought": "The first mark pulls her into a forward lean.",
+        "camera": {
+          "focus": [
+            540,
+            780
+          ],
+          "keys": [
+            {
+              "frame": 31,
+              "factor": 0.95,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 61,
+              "factor": 1.14,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 62,
+        "recipe": "consider_pull",
+        "thought": "A side-supported stance considers the tiny cat.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 62,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 84,
+              "factor": 0.92,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 85,
+        "recipe": "page_push",
+        "thought": "A wider drawing stance commits to the cat.",
+        "camera": {
+          "focus": [
+            540,
+            890
+          ],
+          "keys": [
+            {
+              "frame": 85,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 123,
+              "factor": 1.045,
+              "pan": [
+                12.0,
+                -9.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 124,
+        "recipe": "page_slide",
+        "thought": "A left-supported pencil pose decides the cat needs company.",
+        "camera": {
+          "focus": [
+            540,
+            890
+          ],
+          "keys": [
+            {
+              "frame": 124,
+              "factor": 0.98,
+              "pan": [
+                -0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 138,
+              "factor": 1.01033,
+              "pan": [
+                -5.6,
+                -4.2
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 140,
+              "factor": 1.03867,
+              "pan": [
+                -6.4,
+                -9.8
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 148,
+              "factor": 1.032,
+              "pan": [
+                -9.6,
+                -7.2
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 154,
+              "factor": 1.045,
+              "pan": [
+                -12.0,
+                -9.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": [
+          {
+            "frame": 140,
+            "sourceTime": 5.421266666666667,
+            "measuredAttackSourceTime": 5.4187,
+            "quantizationErrorMs": 2.567,
+            "basis": "Measured low-band mixed-recording attack; musical role chosen editorially, not a separated drum stem."
+          }
+        ]
+      },
+      {
+        "shotFrame": 155,
+        "recipe": "page_push",
+        "thought": "The opposite supported stance adds a flower rather than stopping.",
+        "camera": {
+          "focus": [
+            540,
+            890
+          ],
+          "keys": [
+            {
+              "frame": 155,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 179,
+              "factor": 1.045,
+              "pan": [
+                12.0,
+                -9.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 180,
+        "recipe": "detail_push",
+        "thought": "She leans closer to choose another little detail.",
+        "camera": {
+          "focus": [
+            540,
+            780
+          ],
+          "keys": [
+            {
+              "frame": 180,
+              "factor": 0.95,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 216,
+              "factor": 1.14,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 217,
+        "recipe": "consider_pull",
+        "thought": "The low crouch keeps working under the growing garden.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 217,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 247,
+              "factor": 0.92,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 248,
+        "recipe": "page_push",
+        "thought": "A wide stance makes even more room for the idea.",
+        "camera": {
+          "focus": [
+            540,
+            890
+          ],
+          "keys": [
+            {
+              "frame": 248,
+              "factor": 0.98,
+              "pan": [
+                -0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 262,
+              "factor": 1.01033,
+              "pan": [
+                -5.6,
+                -4.2
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 264,
+              "factor": 1.03867,
+              "pan": [
+                -6.4,
+                -9.8
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 272,
+              "factor": 1.032,
+              "pan": [
+                -9.6,
+                -7.2
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 278,
+              "factor": 1.045,
+              "pan": [
+                -12.0,
+                -9.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": [
+          {
+            "frame": 264,
+            "sourceTime": 9.5546,
+            "measuredAttackSourceTime": 9.552,
+            "quantizationErrorMs": 2.6,
+            "basis": "Measured low-band mixed-recording attack; musical role chosen editorially, not a separated drum stem."
+          }
+        ]
+      },
+      {
+        "shotFrame": 279,
+        "recipe": "page_slide",
+        "thought": "The left drawing groove extends the same page, not an unrelated pose.",
+        "camera": {
+          "focus": [
+            540,
+            890
+          ],
+          "keys": [
+            {
+              "frame": 279,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 309,
+              "factor": 1.045,
+              "pan": [
+                12.0,
+                -9.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 310,
+        "recipe": "page_push",
+        "thought": "The right-supported drawing pose closes the long creative phrase.",
+        "camera": {
+          "focus": [
+            540,
+            890
+          ],
+          "keys": [
+            {
+              "frame": 310,
+              "factor": 0.98,
+              "pan": [
+                -0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 332,
+              "factor": 1.045,
+              "pan": [
+                -12.0,
+                -9.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 333,
+        "recipe": "caught_push",
+        "thought": "She recoils from how much the one quick doodle became.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 333,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                0.0
+              ],
+              "roll": -0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 371,
+              "factor": 1.045,
+              "pan": [
+                0.0,
+                12.0
+              ],
+              "roll": -0.45,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 372,
+        "recipe": "consider_pull",
+        "thought": "Folded arms give the self-aware realization a quiet beat.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 372,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 402,
+              "factor": 0.92,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 403,
+        "recipe": "page_slide",
+        "thought": "A lowered chin pose chooses to be proud of the finished page.",
+        "camera": {
+          "focus": [
+            540,
+            890
+          ],
+          "keys": [
+            {
+              "frame": 403,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 425,
+              "factor": 1.045,
+              "pan": [
+                12.0,
+                -9.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 426,
+        "recipe": "reveal_push",
+        "thought": "The finished cat book appears with continuous two-hand contact in its own drawing.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 426,
+              "factor": 0.98,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 432,
+              "factor": 0.99026,
+              "pan": [
+                0.0,
+                -2.053
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 434,
+              "factor": 1.02368,
+              "pan": [
+                0.0,
+                -8.737
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 442,
+              "factor": 1.00737,
+              "pan": [
+                0.0,
+                -5.474
+              ],
+              "roll": 0.0,
+              "ease": "out"
+            },
+            {
+              "frame": 464,
+              "factor": 1.045,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": [
+          {
+            "frame": 434,
+            "sourceTime": 15.221266666666667,
+            "measuredAttackSourceTime": 15.2373,
+            "quantizationErrorMs": -16.033,
+            "role": "Primary pose arrival",
+            "basis": "Measured low-band attack of the approved recording; not an assumed stem/downbeat."
+          }
+        ]
+      },
+      {
+        "shotFrame": 465,
+        "recipe": "detail_push",
+        "thought": "A forward book presentation makes the payoff readable.",
+        "camera": {
+          "focus": [
+            540,
+            780
+          ],
+          "keys": [
+            {
+              "frame": 465,
+              "factor": 0.95,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 495,
+              "factor": 1.14,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      },
+      {
+        "shotFrame": 496,
+        "recipe": "proud_pull",
+        "thought": "The proud contrapposto keeps the completed cat page steady.",
+        "camera": {
+          "focus": [
+            540,
+            930
+          ],
+          "keys": [
+            {
+              "frame": 496,
+              "factor": 1.0,
+              "pan": [
+                0.0,
+                -0.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            },
+            {
+              "frame": 526,
+              "factor": 0.92,
+              "pan": [
+                0.0,
+                -13.0
+              ],
+              "roll": 0.0,
+              "ease": "linear"
+            }
+          ]
+        },
+        "selectedAttackImpulses": []
+      }
+    ],
+    "actorMotion": "Eyes lead by3frames; finite head/shoulder response continues inside the held thought, then resolves. No periodic/random wobble and no arm-entry cycling.",
+    "referenceEvidence": "shorts/review/motion04/ref01/MOTION.md and ref03/MOTION.md; frame evidence and tracking limits are separate from authored choices.",
+    "review": "Native extrema/joins, decoded contact/transition/motion frames and complete normal-speed browser playback reviewed. Final selected export: r4"
+  }
 }

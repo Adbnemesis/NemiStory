@@ -1,13 +1,9 @@
-# Export review · The camera likes her
+# Recut review · The camera likes her
 
-Native Godot visual capture, exact 495 encoded frames at30fps,1080×1920. All 21 planned cuts have visible decoded changes at their named frame. Source/music hashes and ranges pass strict validation.
+Distinct authored body profiles: celebrate, contrapposto, crouch, folded, groove_left, groove_right, lean_in, recoil, wide. Named transitions: {"smear": 3, "match": 2, "focus_wipe": 1}. 4 selective recorded accents.
 
-Longest measured decoded still run: **0.067s**, below1.5s. This is a pixel-change check, supported by performed art/contact observations below; it does not rate creativity.
+Decoded25/31/38 develop the paired poses;223/237/252 make solo ADB settle through a finite pull. All6joins—including442—clear, phone contact stays fixed. Full normal-speed player playback and a relevant cue were exercised; the final/restart is a semantic cut, not a guaranteed seamless audio loop.
 
-Independent AAC reconstruction correlation **0.99458**, measured delay 0.0000ms, true peak -2.93dBTP, no clipped decoded samples, all 1 recorded SFX contributions verified. Original music version/hash/source section and cue map are retained. Sound measurement verifies exported sources; subjective listening taste is not claimed by numerical checks.
+Encoded 457 frames at30fps,1080×1920. Source hashes/ranges and exact export frames pass. Longest decoded still 0.067s. Exact-source AAC correlation 0.99451; true peak -2.36dBTP; all recorded SFX contributions verified. Picture observations, browser playback states and numerical sound checks are separate evidence. Audience retention has not been measured.
 
-Inspected raised-phone grip, separate held photo plate, varied Nemi chin/hip/peace/heart/thumb poses and photographer blush reversal. Phone remains attached to its hand. Godot still proofs/contact sheets and actual encoded first/final/cue frames were inspected. Native browser playback/seek observations are recorded separately in playback.json. The player was exercised at real speed with source audio enabled; this is separate from human creative acceptance.
-
-Finite VFX and motion are authored, completed paths stop, and the supported prop-contact drawings remain coherent at inspected boundaries. Supplemental visible art is separately authored Godot illustration; original hidden rig instances do not supply the visible lines.
-
-Reports: [export](export.json), [audio](audio_act-natural_r1_1080x1920.json), [pacing](pacing_act-natural_r1_1080x1920.json), [current](current.json). All original storytime source/settings remain protected by the batch isolation audit.
+[Export](export_act-natural_r4_1080x1920.json) · [audio](audio_act-natural_r4_1080x1920.json) · [pacing](pacing_act-natural_r4_1080x1920.json) · [playback](playback-r4.json). Native proofs are in stills/r4/, decoded pose/transition/motion sheets are contact.jpg, transitions.jpg and motion.jpg. Original r1 source/records were saved before replacement.

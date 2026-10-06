@@ -1,0 +1,5579 @@
+{
+  "source": {
+    "id": "ref03",
+    "file": "references/shorts_ref/the magic disappears when he opens his mouth\ud83c\udf45  #art   #procreate   #crush   #shorts   #fyp.mp4",
+    "sha256": "10193f4051d2314740b6835fe538055a669d192f27916f9d8f69050a8ab0438f",
+    "duration": 20.949333,
+    "width": 360,
+    "height": 640,
+    "fps": 30.0
+  },
+  "decodedFrames": 627,
+  "decodedVideoSeconds": 20.9,
+  "method": "LK forward/back checked contours; RANSAC partial affine; fixed caption excluded; post-entry6 to pre-departure7 frames. This measures net held-art transform, not physical camera ownership or original drawing cadence.",
+  "limits": [
+    "Sparse paper/vignette may leave too few corners",
+    "Face/hair/hand edits and dissolves break rigid correspondence",
+    "A transformed single artwork layer is indistinguishable from camera motion in a mixed export",
+    "Caption remains fixed and is intentionally excluded",
+    "Partial affine assumes uniform scale+translation+rotation; perspective, masks and blur need direct frame inspection"
+  ],
+  "layouts": [
+    {
+      "layout": 1,
+      "start": 0,
+      "endExclusive": 49,
+      "durationSeconds": 1.6333333333333333,
+      "anchor": 6,
+      "lastHeldFrame": 42,
+      "withinSamples": [
+        0,
+        3,
+        24,
+        45,
+        48
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 6,
+          "tracked": 217,
+          "inliers": 217,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 9,
+          "tracked": 217,
+          "inliers": 216,
+          "inlierRatio": 0.9954,
+          "relativeScale": 0.97669,
+          "rotationDegrees": 0.0486,
+          "centerTranslationPixels": [
+            -0.687,
+            -4.639
+          ],
+          "matrix": [
+            [
+              0.976688,
+              -0.000828,
+              3.774108
+            ],
+            [
+              0.000828,
+              0.976688,
+              2.671408
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2152,
+          "medianAllResidualPixels": 0.2156,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 12,
+          "tracked": 217,
+          "inliers": 216,
+          "inlierRatio": 0.9954,
+          "relativeScale": 0.97679,
+          "rotationDegrees": 0.0502,
+          "centerTranslationPixels": [
+            0.502,
+            -7.588
+          ],
+          "matrix": [
+            [
+              0.976786,
+              -0.000855,
+              4.954398
+            ],
+            [
+              0.000855,
+              0.976786,
+              -0.313623
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1868,
+          "medianAllResidualPixels": 0.1874,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 15,
+          "tracked": 217,
+          "inliers": 214,
+          "inlierRatio": 0.9862,
+          "relativeScale": 0.97381,
+          "rotationDegrees": 0.0443,
+          "centerTranslationPixels": [
+            1.504,
+            -10.388
+          ],
+          "matrix": [
+            [
+              0.973809,
+              -0.000752,
+              6.459368
+            ],
+            [
+              0.000752,
+              0.973809,
+              -2.142522
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2191,
+          "medianAllResidualPixels": 0.2193,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 18,
+          "tracked": 217,
+          "inliers": 213,
+          "inlierRatio": 0.9816,
+          "relativeScale": 0.97013,
+          "rotationDegrees": 0.0413,
+          "centerTranslationPixels": [
+            1.86,
+            -11.669
+          ],
+          "matrix": [
+            [
+              0.970132,
+              -0.000699,
+              7.459545
+            ],
+            [
+              0.000699,
+              0.970132,
+              -2.237745
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2656,
+          "medianAllResidualPixels": 0.267,
+          "nonrigidOrMismatchedCorners": 2
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 21,
+          "tracked": 217,
+          "inliers": 209,
+          "inlierRatio": 0.9631,
+          "relativeScale": 0.96459,
+          "rotationDegrees": 0.0471,
+          "centerTranslationPixels": [
+            3.499,
+            -11.206
+          ],
+          "matrix": [
+            [
+              0.964588,
+              -0.000793,
+              10.126797
+            ],
+            [
+              0.000793,
+              0.964588,
+              -0.017323
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3132,
+          "medianAllResidualPixels": 0.3189,
+          "nonrigidOrMismatchedCorners": 3
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 24,
+          "tracked": 217,
+          "inliers": 207,
+          "inlierRatio": 0.9539,
+          "relativeScale": 0.95754,
+          "rotationDegrees": 0.0616,
+          "centerTranslationPixels": [
+            5.13,
+            -10.078
+          ],
+          "matrix": [
+            [
+              0.957542,
+              -0.001029,
+              13.101642
+            ],
+            [
+              0.001029,
+              0.957542,
+              3.322922
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3436,
+          "medianAllResidualPixels": 0.3573,
+          "nonrigidOrMismatchedCorners": 3
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 27,
+          "tracked": 217,
+          "inliers": 208,
+          "inlierRatio": 0.9585,
+          "relativeScale": 0.95709,
+          "rotationDegrees": 0.0454,
+          "centerTranslationPixels": [
+            5.659,
+            -10.021
+          ],
+          "matrix": [
+            [
+              0.95709,
+              -0.000759,
+              13.625161
+            ],
+            [
+              0.000759,
+              0.95709,
+              3.573269
+            ]
+          ],
+          "medianInlierResidualPixels": 0.347,
+          "medianAllResidualPixels": 0.3627,
+          "nonrigidOrMismatchedCorners": 2
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 30,
+          "tracked": 217,
+          "inliers": 205,
+          "inlierRatio": 0.9447,
+          "relativeScale": 0.95749,
+          "rotationDegrees": 0.0156,
+          "centerTranslationPixels": [
+            6.272,
+            -10.773
+          ],
+          "matrix": [
+            [
+              0.957486,
+              -0.000261,
+              14.008713
+            ],
+            [
+              0.000261,
+              0.957486,
+              2.784922
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3255,
+          "medianAllResidualPixels": 0.3469,
+          "nonrigidOrMismatchedCorners": 3
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 33,
+          "tracked": 216,
+          "inliers": 210,
+          "inlierRatio": 0.9722,
+          "relativeScale": 0.95435,
+          "rotationDegrees": -0.0134,
+          "centerTranslationPixels": [
+            6.935,
+            -10.707
+          ],
+          "matrix": [
+            [
+              0.954351,
+              0.000223,
+              15.080137
+            ],
+            [
+              -0.000223,
+              0.954351,
+              3.940662
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3668,
+          "medianAllResidualPixels": 0.3727,
+          "nonrigidOrMismatchedCorners": 4
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 36,
+          "tracked": 217,
+          "inliers": 207,
+          "inlierRatio": 0.9539,
+          "relativeScale": 0.95361,
+          "rotationDegrees": -0.0388,
+          "centerTranslationPixels": [
+            6.864,
+            -9.866
+          ],
+          "matrix": [
+            [
+              0.953614,
+              0.000646,
+              15.007058
+            ],
+            [
+              -0.000646,
+              0.953614,
+              5.093595
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3896,
+          "medianAllResidualPixels": 0.4022,
+          "nonrigidOrMismatchedCorners": 4
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 39,
+          "tracked": 216,
+          "inliers": 188,
+          "inlierRatio": 0.8704,
+          "relativeScale": 0.9542,
+          "rotationDegrees": -0.01,
+          "centerTranslationPixels": [
+            7.437,
+            -10.14
+          ],
+          "matrix": [
+            [
+              0.954196,
+              0.000167,
+              15.628578
+            ],
+            [
+              -0.000167,
+              0.954196,
+              4.54731
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3495,
+          "medianAllResidualPixels": 0.3773,
+          "nonrigidOrMismatchedCorners": 4
+        },
+        {
+          "reliable": true,
+          "anchor": 6,
+          "target": 42,
+          "tracked": 217,
+          "inliers": 213,
+          "inlierRatio": 0.9816,
+          "relativeScale": 0.9663,
+          "rotationDegrees": -0.0521,
+          "centerTranslationPixels": [
+            7.215,
+            -8.077
+          ],
+          "matrix": [
+            [
+              0.966299,
+              0.000879,
+              12.999713
+            ],
+            [
+              -0.000879,
+              0.966299,
+              2.865854
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2587,
+          "medianAllResidualPixels": 0.2616,
+          "nonrigidOrMismatchedCorners": 2
+        }
+      ]
+    },
+    {
+      "layout": 2,
+      "start": 49,
+      "endExclusive": 80,
+      "durationSeconds": 1.0333333333333334,
+      "anchor": 55,
+      "lastHeldFrame": 73,
+      "withinSamples": [
+        49,
+        52,
+        64,
+        76,
+        79
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 55,
+          "target": 55,
+          "tracked": 280,
+          "inliers": 280,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 55,
+          "target": 58,
+          "tracked": 280,
+          "inliers": 280,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.01245,
+          "rotationDegrees": -0.0179,
+          "centerTranslationPixels": [
+            0.842,
+            -0.021
+          ],
+          "matrix": [
+            [
+              1.012453,
+              0.000316,
+              -1.500572
+            ],
+            [
+              -0.000316,
+              1.012453,
+              -3.948486
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0952,
+          "medianAllResidualPixels": 0.0952,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 55,
+          "target": 61,
+          "tracked": 280,
+          "inliers": 280,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.01941,
+          "rotationDegrees": -0.043,
+          "centerTranslationPixels": [
+            0.876,
+            0.043
+          ],
+          "matrix": [
+            [
+              1.019413,
+              0.000765,
+              -2.86294
+            ],
+            [
+              -0.000765,
+              1.019413,
+              -6.031169
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1445,
+          "medianAllResidualPixels": 0.1445,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 55,
+          "target": 64,
+          "tracked": 280,
+          "inliers": 280,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.02107,
+          "rotationDegrees": -0.029,
+          "centerTranslationPixels": [
+            1.094,
+            0.813
+          ],
+          "matrix": [
+            [
+              1.021069,
+              0.000517,
+              -2.863581
+            ],
+            [
+              -0.000517,
+              1.021069,
+              -5.836009
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1506,
+          "medianAllResidualPixels": 0.1506,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 55,
+          "target": 67,
+          "tracked": 280,
+          "inliers": 280,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.02175,
+          "rotationDegrees": -0.0345,
+          "centerTranslationPixels": [
+            1.089,
+            1.572
+          ],
+          "matrix": [
+            [
+              1.021753,
+              0.000615,
+              -3.02351
+            ],
+            [
+              -0.000615,
+              1.021753,
+              -5.277738
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1528,
+          "medianAllResidualPixels": 0.1528,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 55,
+          "target": 70,
+          "tracked": 280,
+          "inliers": 280,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.02361,
+          "rotationDegrees": -0.0141,
+          "centerTranslationPixels": [
+            0.881,
+            2.73
+          ],
+          "matrix": [
+            [
+              1.023612,
+              0.000252,
+              -3.449256
+            ],
+            [
+              -0.000252,
+              1.023612,
+              -4.780109
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1681,
+          "medianAllResidualPixels": 0.1681,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 55,
+          "target": 73,
+          "tracked": 278,
+          "inliers": 278,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0265,
+          "rotationDegrees": 0.0045,
+          "centerTranslationPixels": [
+            -0.594,
+            4.326
+          ],
+          "matrix": [
+            [
+              1.0265,
+              -8e-05,
+              -5.338213
+            ],
+            [
+              8e-05,
+              1.0265,
+              -4.168258
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1848,
+          "medianAllResidualPixels": 0.1848,
+          "nonrigidOrMismatchedCorners": 0
+        }
+      ]
+    },
+    {
+      "layout": 3,
+      "start": 80,
+      "endExclusive": 124,
+      "durationSeconds": 1.4666666666666666,
+      "anchor": 86,
+      "lastHeldFrame": 117,
+      "withinSamples": [
+        80,
+        83,
+        102,
+        120,
+        123
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 86,
+          "target": 86,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 86,
+          "target": 89,
+          "tracked": 300,
+          "inliers": 299,
+          "inlierRatio": 0.9967,
+          "relativeScale": 1.01169,
+          "rotationDegrees": 0.0174,
+          "centerTranslationPixels": [
+            -5.756,
+            1.645
+          ],
+          "matrix": [
+            [
+              1.011695,
+              -0.000306,
+              -7.762749
+            ],
+            [
+              0.000306,
+              1.011695,
+              -2.152837
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1276,
+          "medianAllResidualPixels": 0.1277,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 86,
+          "target": 92,
+          "tracked": 298,
+          "inliers": 298,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.01676,
+          "rotationDegrees": -0.0284,
+          "centerTranslationPixels": [
+            -7.003,
+            2.05
+          ],
+          "matrix": [
+            [
+              1.016764,
+              0.000504,
+              -10.182348
+            ],
+            [
+              -0.000504,
+              1.016764,
+              -3.223432
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1701,
+          "medianAllResidualPixels": 0.1701,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 86,
+          "target": 95,
+          "tracked": 298,
+          "inliers": 296,
+          "inlierRatio": 0.9933,
+          "relativeScale": 1.02004,
+          "rotationDegrees": -0.078,
+          "centerTranslationPixels": [
+            -7.843,
+            1.954
+          ],
+          "matrix": [
+            [
+              1.020036,
+              0.001389,
+              -11.894026
+            ],
+            [
+              -0.001389,
+              1.020036,
+              -4.207261
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1856,
+          "medianAllResidualPixels": 0.1866,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 86,
+          "target": 98,
+          "tracked": 298,
+          "inliers": 298,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.02029,
+          "rotationDegrees": -0.1357,
+          "centerTranslationPixels": [
+            -8.838,
+            3.009
+          ],
+          "matrix": [
+            [
+              1.020284,
+              0.002416,
+              -13.262104
+            ],
+            [
+              -0.002416,
+              1.020284,
+              -3.046596
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2198,
+          "medianAllResidualPixels": 0.2198,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 86,
+          "target": 101,
+          "tracked": 298,
+          "inliers": 297,
+          "inlierRatio": 0.9966,
+          "relativeScale": 1.02104,
+          "rotationDegrees": -0.1881,
+          "centerTranslationPixels": [
+            -9.275,
+            4.653
+          ],
+          "matrix": [
+            [
+              1.02103,
+              0.003352,
+              -14.132871
+            ],
+            [
+              -0.003352,
+              1.02103,
+              -1.473175
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2185,
+          "medianAllResidualPixels": 0.2197,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 86,
+          "target": 104,
+          "tracked": 297,
+          "inliers": 297,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.02165,
+          "rotationDegrees": -0.2067,
+          "centerTranslationPixels": [
+            -9.453,
+            6.136
+          ],
+          "matrix": [
+            [
+              1.021642,
+              0.003685,
+              -14.528154
+            ],
+            [
+              -0.003685,
+              1.021642,
+              -0.12601
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2335,
+          "medianAllResidualPixels": 0.2335,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 86,
+          "target": 107,
+          "tracked": 297,
+          "inliers": 295,
+          "inlierRatio": 0.9933,
+          "relativeScale": 1.02305,
+          "rotationDegrees": -0.161,
+          "centerTranslationPixels": [
+            -10.308,
+            7.105
+          ],
+          "matrix": [
+            [
+              1.023043,
+              0.002875,
+              -15.375659
+            ],
+            [
+              -0.002875,
+              1.023043,
+              0.249249
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2628,
+          "medianAllResidualPixels": 0.2662,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 86,
+          "target": 110,
+          "tracked": 296,
+          "inliers": 294,
+          "inlierRatio": 0.9932,
+          "relativeScale": 1.02474,
+          "rotationDegrees": -0.0704,
+          "centerTranslationPixels": [
+            -11.777,
+            7.329
+          ],
+          "matrix": [
+            [
+              1.024744,
+              0.00126,
+              -16.634525
+            ],
+            [
+              -0.00126,
+              1.024744,
+              -0.362227
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2633,
+          "medianAllResidualPixels": 0.2666,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 86,
+          "target": 113,
+          "tracked": 297,
+          "inliers": 295,
+          "inlierRatio": 0.9933,
+          "relativeScale": 1.03272,
+          "rotationDegrees": 0.0619,
+          "centerTranslationPixels": [
+            -15.403,
+            6.027
+          ],
+          "matrix": [
+            [
+              1.032722,
+              -0.001115,
+              -20.935935
+            ],
+            [
+              0.001115,
+              1.032722,
+              -4.644633
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3439,
+          "medianAllResidualPixels": 0.3441,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 86,
+          "target": 116,
+          "tracked": 253,
+          "inliers": 239,
+          "inlierRatio": 0.9447,
+          "relativeScale": 1.04904,
+          "rotationDegrees": 0.2051,
+          "centerTranslationPixels": [
+            -38.954,
+            2.425
+          ],
+          "matrix": [
+            [
+              1.049032,
+              -0.003755,
+              -46.577649
+            ],
+            [
+              0.003755,
+              1.049032,
+              -13.941571
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4466,
+          "medianAllResidualPixels": 0.4706,
+          "nonrigidOrMismatchedCorners": 3
+        },
+        {
+          "reliable": false,
+          "anchor": 86,
+          "target": 117,
+          "tracked": 13,
+          "inliers": 9,
+          "inlierRatio": 0.6923,
+          "relativeScale": 1.05608,
+          "rotationDegrees": 0.023,
+          "centerTranslationPixels": [
+            -58.115,
+            2.008
+          ],
+          "matrix": [
+            [
+              1.056076,
+              -0.000423,
+              -68.07325
+            ],
+            [
+              0.000423,
+              1.056076,
+              -16.012849
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3725,
+          "medianAllResidualPixels": 0.5608,
+          "nonrigidOrMismatchedCorners": 3
+        }
+      ]
+    },
+    {
+      "layout": 4,
+      "start": 124,
+      "endExclusive": 156,
+      "durationSeconds": 1.0666666666666667,
+      "anchor": 130,
+      "lastHeldFrame": 149,
+      "withinSamples": [
+        124,
+        127,
+        140,
+        152,
+        155
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 130,
+          "target": 130,
+          "tracked": 169,
+          "inliers": 169,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 130,
+          "target": 133,
+          "tracked": 161,
+          "inliers": 156,
+          "inlierRatio": 0.9689,
+          "relativeScale": 0.9888,
+          "rotationDegrees": -1.1148,
+          "centerTranslationPixels": [
+            -24.926,
+            -1.42
+          ],
+          "matrix": [
+            [
+              0.98861,
+              0.019238,
+              -29.032342
+            ],
+            [
+              -0.019238,
+              0.98861,
+              5.687955
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3405,
+          "medianAllResidualPixels": 0.3474,
+          "nonrigidOrMismatchedCorners": 2
+        },
+        {
+          "reliable": true,
+          "anchor": 130,
+          "target": 136,
+          "tracked": 113,
+          "inliers": 105,
+          "inlierRatio": 0.9292,
+          "relativeScale": 0.9806,
+          "rotationDegrees": -1.8909,
+          "centerTranslationPixels": [
+            -34.432,
+            -0.206
+          ],
+          "matrix": [
+            [
+              0.980064,
+              0.032357,
+              -41.198016
+            ],
+            [
+              -0.032357,
+              0.980064,
+              11.997896
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4464,
+          "medianAllResidualPixels": 0.473,
+          "nonrigidOrMismatchedCorners": 7
+        },
+        {
+          "reliable": true,
+          "anchor": 130,
+          "target": 139,
+          "tracked": 95,
+          "inliers": 90,
+          "inlierRatio": 0.9474,
+          "relativeScale": 0.97586,
+          "rotationDegrees": -2.3865,
+          "centerTranslationPixels": [
+            -38.241,
+            0.22
+          ],
+          "matrix": [
+            [
+              0.975012,
+              0.040636,
+              -46.746238
+            ],
+            [
+              -0.040636,
+              0.975012,
+              15.530028
+            ]
+          ],
+          "medianInlierResidualPixels": 0.5456,
+          "medianAllResidualPixels": 0.5663,
+          "nonrigidOrMismatchedCorners": 5
+        },
+        {
+          "reliable": true,
+          "anchor": 130,
+          "target": 142,
+          "tracked": 101,
+          "inliers": 87,
+          "inlierRatio": 0.8614,
+          "relativeScale": 0.97056,
+          "rotationDegrees": -2.6602,
+          "centerTranslationPixels": [
+            -36.445,
+            1.091
+          ],
+          "matrix": [
+            [
+              0.969515,
+              0.045045,
+              -45.372352
+            ],
+            [
+              -0.045045,
+              0.969515,
+              18.954553
+            ]
+          ],
+          "medianInlierResidualPixels": 0.5384,
+          "medianAllResidualPixels": 0.5926,
+          "nonrigidOrMismatchedCorners": 5
+        },
+        {
+          "reliable": true,
+          "anchor": 130,
+          "target": 145,
+          "tracked": 108,
+          "inliers": 86,
+          "inlierRatio": 0.7963,
+          "relativeScale": 0.96634,
+          "rotationDegrees": -2.6304,
+          "centerTranslationPixels": [
+            -33.452,
+            1.333
+          ],
+          "matrix": [
+            [
+              0.965323,
+              0.044349,
+              -41.401897
+            ],
+            [
+              -0.044349,
+              0.965323,
+              20.412046
+            ]
+          ],
+          "medianInlierResidualPixels": 0.5133,
+          "medianAllResidualPixels": 0.5853,
+          "nonrigidOrMismatchedCorners": 6
+        },
+        {
+          "reliable": true,
+          "anchor": 130,
+          "target": 148,
+          "tracked": 112,
+          "inliers": 102,
+          "inlierRatio": 0.9107,
+          "relativeScale": 0.96337,
+          "rotationDegrees": -2.447,
+          "centerTranslationPixels": [
+            -31.737,
+            0.926
+          ],
+          "matrix": [
+            [
+              0.962491,
+              0.041131,
+              -38.147056
+            ],
+            [
+              -0.041131,
+              0.962491,
+              20.332942
+            ]
+          ],
+          "medianInlierResidualPixels": 0.5843,
+          "medianAllResidualPixels": 0.6114,
+          "nonrigidOrMismatchedCorners": 5
+        },
+        {
+          "reliable": true,
+          "anchor": 130,
+          "target": 149,
+          "tracked": 109,
+          "inliers": 91,
+          "inlierRatio": 0.8349,
+          "relativeScale": 0.96331,
+          "rotationDegrees": -2.3188,
+          "centerTranslationPixels": [
+            -31.844,
+            0.767
+          ],
+          "matrix": [
+            [
+              0.962525,
+              0.038975,
+              -37.570296
+            ],
+            [
+              -0.038975,
+              0.962525,
+              19.77448
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4956,
+          "medianAllResidualPixels": 0.5497,
+          "nonrigidOrMismatchedCorners": 4
+        }
+      ]
+    },
+    {
+      "layout": 5,
+      "start": 156,
+      "endExclusive": 202,
+      "durationSeconds": 1.5333333333333334,
+      "anchor": 162,
+      "lastHeldFrame": 195,
+      "withinSamples": [
+        156,
+        159,
+        178,
+        198,
+        201
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 162,
+          "tracked": 281,
+          "inliers": 281,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 165,
+          "tracked": 278,
+          "inliers": 277,
+          "inlierRatio": 0.9964,
+          "relativeScale": 1.0203,
+          "rotationDegrees": -0.0236,
+          "centerTranslationPixels": [
+            5.117,
+            2.364
+          ],
+          "matrix": [
+            [
+              1.020301,
+              0.00042,
+              1.328128
+            ],
+            [
+              -0.00042,
+              1.020301,
+              -4.056748
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1831,
+          "medianAllResidualPixels": 0.1835,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 168,
+          "tracked": 278,
+          "inliers": 273,
+          "inlierRatio": 0.982,
+          "relativeScale": 1.02416,
+          "rotationDegrees": 0.0264,
+          "centerTranslationPixels": [
+            10.175,
+            2.94
+          ],
+          "matrix": [
+            [
+              1.024159,
+              -0.000472,
+              5.977367
+            ],
+            [
+              0.000472,
+              1.024159,
+              -4.87556
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2942,
+          "medianAllResidualPixels": 0.2971,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 171,
+          "tracked": 277,
+          "inliers": 274,
+          "inlierRatio": 0.9892,
+          "relativeScale": 1.02373,
+          "rotationDegrees": 0.0543,
+          "centerTranslationPixels": [
+            10.107,
+            4.632
+          ],
+          "matrix": [
+            [
+              1.023731,
+              -0.00097,
+              6.146016
+            ],
+            [
+              0.00097,
+              1.023731,
+              -3.136883
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3904,
+          "medianAllResidualPixels": 0.3928,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 174,
+          "tracked": 275,
+          "inliers": 269,
+          "inlierRatio": 0.9782,
+          "relativeScale": 1.02139,
+          "rotationDegrees": 0.098,
+          "centerTranslationPixels": [
+            9.006,
+            7.272
+          ],
+          "matrix": [
+            [
+              1.021393,
+              -0.001746,
+              5.71398
+            ],
+            [
+              0.001746,
+              1.021393,
+              0.112027
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4455,
+          "medianAllResidualPixels": 0.4479,
+          "nonrigidOrMismatchedCorners": 6
+        },
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 177,
+          "tracked": 274,
+          "inliers": 241,
+          "inlierRatio": 0.8796,
+          "relativeScale": 1.02279,
+          "rotationDegrees": 0.1753,
+          "centerTranslationPixels": [
+            9.526,
+            8.456
+          ],
+          "matrix": [
+            [
+              1.02279,
+              -0.003129,
+              6.425468
+            ],
+            [
+              0.003129,
+              1.02279,
+              0.5999
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4109,
+          "medianAllResidualPixels": 0.451,
+          "nonrigidOrMismatchedCorners": 23
+        },
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 180,
+          "tracked": 274,
+          "inliers": 237,
+          "inlierRatio": 0.865,
+          "relativeScale": 1.02725,
+          "rotationDegrees": 0.2385,
+          "centerTranslationPixels": [
+            10.232,
+            9.253
+          ],
+          "matrix": [
+            [
+              1.027238,
+              -0.004277,
+              6.697698
+            ],
+            [
+              0.004277,
+              1.027238,
+              -0.23236
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4465,
+          "medianAllResidualPixels": 0.4927,
+          "nonrigidOrMismatchedCorners": 21
+        },
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 183,
+          "tracked": 274,
+          "inliers": 230,
+          "inlierRatio": 0.8394,
+          "relativeScale": 1.02624,
+          "rotationDegrees": 0.312,
+          "centerTranslationPixels": [
+            10.142,
+            10.781
+          ],
+          "matrix": [
+            [
+              1.026221,
+              -0.005587,
+              7.210252
+            ],
+            [
+              0.005587,
+              1.026221,
+              1.38447
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4632,
+          "medianAllResidualPixels": 0.5352,
+          "nonrigidOrMismatchedCorners": 27
+        },
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 186,
+          "tracked": 270,
+          "inliers": 222,
+          "inlierRatio": 0.8222,
+          "relativeScale": 1.02798,
+          "rotationDegrees": 0.3335,
+          "centerTranslationPixels": [
+            10.684,
+            12.055
+          ],
+          "matrix": [
+            [
+              1.027963,
+              -0.005983,
+              7.565358
+            ],
+            [
+              0.005983,
+              1.027963,
+              2.029947
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4808,
+          "medianAllResidualPixels": 0.547,
+          "nonrigidOrMismatchedCorners": 28
+        },
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 189,
+          "tracked": 270,
+          "inliers": 215,
+          "inlierRatio": 0.7963,
+          "relativeScale": 1.03595,
+          "rotationDegrees": 0.2086,
+          "centerTranslationPixels": [
+            9.126,
+            13.694
+          ],
+          "matrix": [
+            [
+              1.035942,
+              -0.003772,
+              3.863225
+            ],
+            [
+              0.003772,
+              1.035942,
+              1.513639
+            ]
+          ],
+          "medianInlierResidualPixels": 0.5115,
+          "medianAllResidualPixels": 0.6246,
+          "nonrigidOrMismatchedCorners": 32
+        },
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 192,
+          "tracked": 269,
+          "inliers": 227,
+          "inlierRatio": 0.8439,
+          "relativeScale": 1.0398,
+          "rotationDegrees": 0.0421,
+          "centerTranslationPixels": [
+            8.11,
+            14.746
+          ],
+          "matrix": [
+            [
+              1.039805,
+              -0.000765,
+              1.189562
+            ],
+            [
+              0.000765,
+              1.039805,
+              1.870999
+            ]
+          ],
+          "medianInlierResidualPixels": 0.6372,
+          "medianAllResidualPixels": 0.7182,
+          "nonrigidOrMismatchedCorners": 30
+        },
+        {
+          "reliable": true,
+          "anchor": 162,
+          "target": 195,
+          "tracked": 269,
+          "inliers": 217,
+          "inlierRatio": 0.8067,
+          "relativeScale": 1.0438,
+          "rotationDegrees": -0.033,
+          "centerTranslationPixels": [
+            7.124,
+            12.696
+          ],
+          "matrix": [
+            [
+              1.043798,
+              0.000602,
+              -0.952538
+            ],
+            [
+              -0.000602,
+              1.043798,
+              -1.211511
+            ]
+          ],
+          "medianInlierResidualPixels": 0.5919,
+          "medianAllResidualPixels": 0.6523,
+          "nonrigidOrMismatchedCorners": 39
+        }
+      ]
+    },
+    {
+      "layout": 6,
+      "start": 202,
+      "endExclusive": 238,
+      "durationSeconds": 1.2,
+      "anchor": 208,
+      "lastHeldFrame": 231,
+      "withinSamples": [
+        202,
+        205,
+        220,
+        234,
+        237
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 208,
+          "target": 208,
+          "tracked": 153,
+          "inliers": 153,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 208,
+          "target": 211,
+          "tracked": 153,
+          "inliers": 153,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.95949,
+          "rotationDegrees": -0.0651,
+          "centerTranslationPixels": [
+            6.704,
+            2.904
+          ],
+          "matrix": [
+            [
+              0.959488,
+              0.001091,
+              13.647045
+            ],
+            [
+              -0.001091,
+              0.959488,
+              16.063846
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2607,
+          "medianAllResidualPixels": 0.2607,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 208,
+          "target": 214,
+          "tracked": 153,
+          "inliers": 147,
+          "inlierRatio": 0.9608,
+          "relativeScale": 0.94404,
+          "rotationDegrees": -0.1132,
+          "centerTranslationPixels": [
+            9.583,
+            7.482
+          ],
+          "matrix": [
+            [
+              0.944035,
+              0.001864,
+              19.060543
+            ],
+            [
+              -0.001864,
+              0.944035,
+              25.727009
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3259,
+          "medianAllResidualPixels": 0.3411,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 208,
+          "target": 217,
+          "tracked": 152,
+          "inliers": 140,
+          "inlierRatio": 0.9211,
+          "relativeScale": 0.93266,
+          "rotationDegrees": -0.1929,
+          "centerTranslationPixels": [
+            8.902,
+            8.783
+          ],
+          "matrix": [
+            [
+              0.932657,
+              0.003141,
+              20.018764
+            ],
+            [
+              -0.003141,
+              0.932657,
+              30.897844
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3937,
+          "medianAllResidualPixels": 0.4356,
+          "nonrigidOrMismatchedCorners": 2
+        },
+        {
+          "reliable": true,
+          "anchor": 208,
+          "target": 220,
+          "tracked": 150,
+          "inliers": 135,
+          "inlierRatio": 0.9,
+          "relativeScale": 0.92491,
+          "rotationDegrees": -0.1398,
+          "centerTranslationPixels": [
+            7.008,
+            10.089
+          ],
+          "matrix": [
+            [
+              0.924903,
+              0.002257,
+              19.803502
+            ],
+            [
+              -0.002257,
+              0.924903,
+              34.52682
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4503,
+          "medianAllResidualPixels": 0.4961,
+          "nonrigidOrMismatchedCorners": 3
+        },
+        {
+          "reliable": true,
+          "anchor": 208,
+          "target": 223,
+          "tracked": 148,
+          "inliers": 128,
+          "inlierRatio": 0.8649,
+          "relativeScale": 0.9199,
+          "rotationDegrees": -0.167,
+          "centerTranslationPixels": [
+            5.684,
+            10.698
+          ],
+          "matrix": [
+            [
+              0.919892,
+              0.002681,
+              19.245551
+            ],
+            [
+              -0.002681,
+              0.919892,
+              36.81561
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4838,
+          "medianAllResidualPixels": 0.5408,
+          "nonrigidOrMismatchedCorners": 5
+        },
+        {
+          "reliable": true,
+          "anchor": 208,
+          "target": 226,
+          "tracked": 145,
+          "inliers": 127,
+          "inlierRatio": 0.8759,
+          "relativeScale": 0.91375,
+          "rotationDegrees": -0.2309,
+          "centerTranslationPixels": [
+            4.695,
+            10.92
+          ],
+          "matrix": [
+            [
+              0.913742,
+              0.003683,
+              19.042883
+            ],
+            [
+              -0.003683,
+              0.913742,
+              39.184947
+            ]
+          ],
+          "medianInlierResidualPixels": 0.5188,
+          "medianAllResidualPixels": 0.5727,
+          "nonrigidOrMismatchedCorners": 5
+        },
+        {
+          "reliable": true,
+          "anchor": 208,
+          "target": 229,
+          "tracked": 139,
+          "inliers": 116,
+          "inlierRatio": 0.8345,
+          "relativeScale": 0.91172,
+          "rotationDegrees": -0.3549,
+          "centerTranslationPixels": [
+            2.704,
+            10.708
+          ],
+          "matrix": [
+            [
+              0.911706,
+              0.005648,
+              16.789671
+            ],
+            [
+              -0.005648,
+              0.911706,
+              39.979206
+            ]
+          ],
+          "medianInlierResidualPixels": 0.5372,
+          "medianAllResidualPixels": 0.6371,
+          "nonrigidOrMismatchedCorners": 6
+        },
+        {
+          "reliable": true,
+          "anchor": 208,
+          "target": 231,
+          "tracked": 139,
+          "inliers": 117,
+          "inlierRatio": 0.8417,
+          "relativeScale": 0.91113,
+          "rotationDegrees": -0.3999,
+          "centerTranslationPixels": [
+            0.91,
+            9.888
+          ],
+          "matrix": [
+            [
+              0.911108,
+              0.006359,
+              14.875176
+            ],
+            [
+              -0.006359,
+              0.911108,
+              39.478086
+            ]
+          ],
+          "medianInlierResidualPixels": 0.5738,
+          "medianAllResidualPixels": 0.6322,
+          "nonrigidOrMismatchedCorners": 6
+        }
+      ]
+    },
+    {
+      "layout": 7,
+      "start": 238,
+      "endExclusive": 281,
+      "durationSeconds": 1.4333333333333333,
+      "anchor": 244,
+      "lastHeldFrame": 274,
+      "withinSamples": [
+        238,
+        241,
+        259,
+        277,
+        280
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 244,
+          "target": 244,
+          "tracked": 124,
+          "inliers": 124,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 244,
+          "target": 247,
+          "tracked": 124,
+          "inliers": 124,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.00024,
+          "rotationDegrees": 0.0665,
+          "centerTranslationPixels": [
+            2.785,
+            0.015
+          ],
+          "matrix": [
+            [
+              1.000237,
+              -0.001161,
+              3.114082
+            ],
+            [
+              0.001161,
+              1.000237,
+              -0.270012
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0642,
+          "medianAllResidualPixels": 0.0642,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 244,
+          "target": 250,
+          "tracked": 124,
+          "inliers": 124,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.99909,
+          "rotationDegrees": 0.0515,
+          "centerTranslationPixels": [
+            4.582,
+            0.579
+          ],
+          "matrix": [
+            [
+              0.999095,
+              -0.000898,
+              5.032149
+            ],
+            [
+              0.000898,
+              0.999095,
+              0.706867
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0599,
+          "medianAllResidualPixels": 0.0599,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 244,
+          "target": 253,
+          "tracked": 124,
+          "inliers": 124,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.99911,
+          "rotationDegrees": 0.1029,
+          "centerTranslationPixels": [
+            6.745,
+            0.425
+          ],
+          "matrix": [
+            [
+              0.999106,
+              -0.001795,
+              7.480563
+            ],
+            [
+              0.001795,
+              0.999106,
+              0.387733
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0728,
+          "medianAllResidualPixels": 0.0728,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 244,
+          "target": 256,
+          "tracked": 124,
+          "inliers": 124,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.99684,
+          "rotationDegrees": 0.0788,
+          "centerTranslationPixels": [
+            7.384,
+            0.433
+          ],
+          "matrix": [
+            [
+              0.996839,
+              -0.001371,
+              8.39166
+            ],
+            [
+              0.001371,
+              0.996839,
+              1.197772
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0844,
+          "medianAllResidualPixels": 0.0844,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 244,
+          "target": 259,
+          "tracked": 124,
+          "inliers": 124,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.99444,
+          "rotationDegrees": 0.074,
+          "centerTranslationPixels": [
+            6.553,
+            1.741
+          ],
+          "matrix": [
+            [
+              0.994437,
+              -0.001284,
+              7.965424
+            ],
+            [
+              0.001284,
+              0.994437,
+              3.28978
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0922,
+          "medianAllResidualPixels": 0.0922,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 244,
+          "target": 262,
+          "tracked": 124,
+          "inliers": 124,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.99233,
+          "rotationDegrees": 0.0224,
+          "centerTranslationPixels": [
+            4.09,
+            3.523
+          ],
+          "matrix": [
+            [
+              0.992334,
+              -0.000387,
+              5.593398
+            ],
+            [
+              0.000387,
+              0.992334,
+              5.906696
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1114,
+          "medianAllResidualPixels": 0.1114,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 244,
+          "target": 265,
+          "tracked": 124,
+          "inliers": 124,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.99177,
+          "rotationDegrees": 0.0069,
+          "centerTranslationPixels": [
+            3.86,
+            4.009
+          ],
+          "matrix": [
+            [
+              0.991774,
+              -0.00012,
+              5.379468
+            ],
+            [
+              0.00012,
+              0.991774,
+              6.619699
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1036,
+          "medianAllResidualPixels": 0.1036,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 244,
+          "target": 268,
+          "tracked": 124,
+          "inliers": 124,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.99427,
+          "rotationDegrees": -0.0438,
+          "centerTranslationPixels": [
+            4.639,
+            3.41
+          ],
+          "matrix": [
+            [
+              0.994267,
+              0.00076,
+              5.427825
+            ],
+            [
+              -0.00076,
+              0.994267,
+              5.381127
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0947,
+          "medianAllResidualPixels": 0.0947,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 244,
+          "target": 271,
+          "tracked": 124,
+          "inliers": 124,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.99732,
+          "rotationDegrees": -0.0664,
+          "centerTranslationPixels": [
+            5.516,
+            3.767
+          ],
+          "matrix": [
+            [
+              0.997322,
+              0.001156,
+              5.62863
+            ],
+            [
+              -0.001156,
+              0.997322,
+              4.832037
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1091,
+          "medianAllResidualPixels": 0.1091,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 244,
+          "target": 274,
+          "tracked": 124,
+          "inliers": 124,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.99901,
+          "rotationDegrees": -0.0446,
+          "centerTranslationPixels": [
+            5.413,
+            3.521
+          ],
+          "matrix": [
+            [
+              0.999007,
+              0.000777,
+              5.342857
+            ],
+            [
+              -0.000777,
+              0.999007,
+              3.979106
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0859,
+          "medianAllResidualPixels": 0.0859,
+          "nonrigidOrMismatchedCorners": 0
+        }
+      ]
+    },
+    {
+      "layout": 8,
+      "start": 281,
+      "endExclusive": 334,
+      "durationSeconds": 1.7666666666666666,
+      "anchor": 287,
+      "lastHeldFrame": 327,
+      "withinSamples": [
+        281,
+        284,
+        307,
+        330,
+        333
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 287,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 290,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.01566,
+          "rotationDegrees": 0.1575,
+          "centerTranslationPixels": [
+            3.942,
+            3.123
+          ],
+          "matrix": [
+            [
+              1.015651,
+              -0.002791,
+              2.017623
+            ],
+            [
+              0.002791,
+              1.015651,
+              -2.388234
+            ]
+          ],
+          "medianInlierResidualPixels": 0.121,
+          "medianAllResidualPixels": 0.121,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 293,
+          "tracked": 299,
+          "inliers": 299,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.02125,
+          "rotationDegrees": 0.1939,
+          "centerTranslationPixels": [
+            3.511,
+            6.628
+          ],
+          "matrix": [
+            [
+              1.021241,
+              -0.003457,
+              0.793656
+            ],
+            [
+              0.003457,
+              1.021241,
+              -0.791068
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1652,
+          "medianAllResidualPixels": 0.1652,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 296,
+          "tracked": 299,
+          "inliers": 299,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.026,
+          "rotationDegrees": 0.1869,
+          "centerTranslationPixels": [
+            2.247,
+            9.848
+          ],
+          "matrix": [
+            [
+              1.025998,
+              -0.003347,
+              -1.361539
+            ],
+            [
+              0.003347,
+              1.025998,
+              0.926094
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1999,
+          "medianAllResidualPixels": 0.1999,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 299,
+          "tracked": 298,
+          "inliers": 294,
+          "inlierRatio": 0.9866,
+          "relativeScale": 1.0286,
+          "rotationDegrees": 0.1759,
+          "centerTranslationPixels": [
+            2.304,
+            13.017
+          ],
+          "matrix": [
+            [
+              1.028594,
+              -0.003159,
+              -1.831758
+            ],
+            [
+              0.003159,
+              1.028594,
+              3.298225
+            ]
+          ],
+          "medianInlierResidualPixels": 0.225,
+          "medianAllResidualPixels": 0.2253,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 302,
+          "tracked": 297,
+          "inliers": 296,
+          "inlierRatio": 0.9966,
+          "relativeScale": 1.02909,
+          "rotationDegrees": 0.1511,
+          "centerTranslationPixels": [
+            1.629,
+            15.423
+          ],
+          "matrix": [
+            [
+              1.029082,
+              -0.002713,
+              -2.737453
+            ],
+            [
+              0.002713,
+              1.029082,
+              5.628605
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2523,
+          "medianAllResidualPixels": 0.2525,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 305,
+          "tracked": 297,
+          "inliers": 295,
+          "inlierRatio": 0.9933,
+          "relativeScale": 1.03365,
+          "rotationDegrees": 0.1152,
+          "centerTranslationPixels": [
+            0.45,
+            16.702
+          ],
+          "matrix": [
+            [
+              1.033652,
+              -0.002078,
+              -4.942386
+            ],
+            [
+              0.002078,
+              1.033652,
+              5.559386
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2859,
+          "medianAllResidualPixels": 0.2861,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 308,
+          "tracked": 296,
+          "inliers": 295,
+          "inlierRatio": 0.9966,
+          "relativeScale": 1.03988,
+          "rotationDegrees": 0.0618,
+          "centerTranslationPixels": [
+            -0.459,
+            16.74
+          ],
+          "matrix": [
+            [
+              1.039879,
+              -0.001122,
+              -7.277907
+            ],
+            [
+              0.001122,
+              1.039879,
+              3.776533
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3113,
+          "medianAllResidualPixels": 0.3125,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 311,
+          "tracked": 296,
+          "inliers": 294,
+          "inlierRatio": 0.9932,
+          "relativeScale": 1.04297,
+          "rotationDegrees": 0.0262,
+          "centerTranslationPixels": [
+            -0.832,
+            16.163
+          ],
+          "matrix": [
+            [
+              1.042972,
+              -0.000477,
+              -8.414731
+            ],
+            [
+              0.000477,
+              1.042972,
+              2.326412
+            ]
+          ],
+          "medianInlierResidualPixels": 0.326,
+          "medianAllResidualPixels": 0.3266,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 314,
+          "tracked": 297,
+          "inliers": 294,
+          "inlierRatio": 0.9899,
+          "relativeScale": 1.04368,
+          "rotationDegrees": -0.005,
+          "centerTranslationPixels": [
+            -1.633,
+            15.966
+          ],
+          "matrix": [
+            [
+              1.043676,
+              9.1e-05,
+              -9.523953
+            ],
+            [
+              -9.1e-05,
+              1.043676,
+              2.006438
+            ]
+          ],
+          "medianInlierResidualPixels": 0.332,
+          "medianAllResidualPixels": 0.3369,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 317,
+          "tracked": 297,
+          "inliers": 293,
+          "inlierRatio": 0.9865,
+          "relativeScale": 1.04518,
+          "rotationDegrees": -0.0486,
+          "centerTranslationPixels": [
+            -2.425,
+            15.013
+          ],
+          "matrix": [
+            [
+              1.045177,
+              0.000886,
+              -10.84013
+            ],
+            [
+              -0.000886,
+              1.045177,
+              0.715453
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3364,
+          "medianAllResidualPixels": 0.3461,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 320,
+          "tracked": 296,
+          "inliers": 295,
+          "inlierRatio": 0.9966,
+          "relativeScale": 1.04636,
+          "rotationDegrees": -0.0821,
+          "centerTranslationPixels": [
+            -2.101,
+            13.514
+          ],
+          "matrix": [
+            [
+              1.046362,
+              0.0015,
+              -10.925819
+            ],
+            [
+              -0.0015,
+              1.046362,
+              -1.051689
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3318,
+          "medianAllResidualPixels": 0.334,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 323,
+          "tracked": 296,
+          "inliers": 295,
+          "inlierRatio": 0.9966,
+          "relativeScale": 1.04525,
+          "rotationDegrees": -0.0974,
+          "centerTranslationPixels": [
+            -1.043,
+            13.044
+          ],
+          "matrix": [
+            [
+              1.045249,
+              0.001776,
+              -9.755834
+            ],
+            [
+              -0.001776,
+              1.045249,
+              -1.115723
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3341,
+          "medianAllResidualPixels": 0.3356,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 326,
+          "tracked": 297,
+          "inliers": 297,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.04397,
+          "rotationDegrees": -0.105,
+          "centerTranslationPixels": [
+            -0.34,
+            12.54
+          ],
+          "matrix": [
+            [
+              1.043965,
+              0.001914,
+              -8.865743
+            ],
+            [
+              -0.001914,
+              1.043965,
+              -1.184384
+            ]
+          ],
+          "medianInlierResidualPixels": 0.329,
+          "medianAllResidualPixels": 0.329,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 287,
+          "target": 327,
+          "tracked": 297,
+          "inliers": 296,
+          "inlierRatio": 0.9966,
+          "relativeScale": 1.04397,
+          "rotationDegrees": -0.088,
+          "centerTranslationPixels": [
+            -0.634,
+            12.287
+          ],
+          "matrix": [
+            [
+              1.043967,
+              0.001604,
+              -9.061288
+            ],
+            [
+              -0.001604,
+              1.043967,
+              -1.494105
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3266,
+          "medianAllResidualPixels": 0.3266,
+          "nonrigidOrMismatchedCorners": 0
+        }
+      ]
+    },
+    {
+      "layout": 9,
+      "start": 334,
+      "endExclusive": 361,
+      "durationSeconds": 0.9,
+      "anchor": 340,
+      "lastHeldFrame": 354,
+      "withinSamples": [
+        334,
+        337,
+        347,
+        357,
+        360
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 340,
+          "target": 340,
+          "tracked": 121,
+          "inliers": 121,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 340,
+          "target": 343,
+          "tracked": 104,
+          "inliers": 77,
+          "inlierRatio": 0.7404,
+          "relativeScale": 0.96203,
+          "rotationDegrees": -1.6914,
+          "centerTranslationPixels": [
+            4.438,
+            -0.566
+          ],
+          "matrix": [
+            [
+              0.961613,
+              0.028396,
+              2.260623
+            ],
+            [
+              -0.028396,
+              0.961613,
+              16.829145
+            ]
+          ],
+          "medianInlierResidualPixels": 0.677,
+          "medianAllResidualPixels": 0.9437,
+          "nonrigidOrMismatchedCorners": 10
+        },
+        {
+          "reliable": false,
+          "reason": "fewer than8 forward/back-consistent corners",
+          "tracked": 5
+        },
+        {
+          "reliable": false,
+          "reason": "fewer than8 forward/back-consistent corners",
+          "tracked": 5
+        },
+        {
+          "reliable": true,
+          "anchor": 340,
+          "target": 352,
+          "tracked": 121,
+          "inliers": 120,
+          "inlierRatio": 0.9917,
+          "relativeScale": 0.92499,
+          "rotationDegrees": -0.3874,
+          "centerTranslationPixels": [
+            1.665,
+            -7.511
+          ],
+          "matrix": [
+            [
+              0.924967,
+              0.006254,
+              13.169993
+            ],
+            [
+              -0.006254,
+              0.924967,
+              17.625258
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4815,
+          "medianAllResidualPixels": 0.4864,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 340,
+          "target": 354,
+          "tracked": 101,
+          "inliers": 62,
+          "inlierRatio": 0.6139,
+          "relativeScale": 0.91346,
+          "rotationDegrees": -2.5395,
+          "centerTranslationPixels": [
+            3.244,
+            -7.036
+          ],
+          "matrix": [
+            [
+              0.912567,
+              0.040474,
+              6.030386
+            ],
+            [
+              -0.040474,
+              0.912567,
+              28.227899
+            ]
+          ],
+          "medianInlierResidualPixels": 0.7649,
+          "medianAllResidualPixels": 1.0187,
+          "nonrigidOrMismatchedCorners": 16
+        }
+      ]
+    },
+    {
+      "layout": 10,
+      "start": 361,
+      "endExclusive": 395,
+      "durationSeconds": 1.1333333333333333,
+      "anchor": 367,
+      "lastHeldFrame": 388,
+      "withinSamples": [
+        361,
+        364,
+        378,
+        391,
+        394
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 367,
+          "target": 367,
+          "tracked": 213,
+          "inliers": 213,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 367,
+          "target": 370,
+          "tracked": 213,
+          "inliers": 212,
+          "inlierRatio": 0.9953,
+          "relativeScale": 1.00985,
+          "rotationDegrees": 0.1403,
+          "centerTranslationPixels": [
+            0.664,
+            3.465
+          ],
+          "matrix": [
+            [
+              1.009843,
+              -0.002472,
+              -0.316683
+            ],
+            [
+              0.002472,
+              1.009843,
+              -0.129749
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1084,
+          "medianAllResidualPixels": 0.1086,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 367,
+          "target": 373,
+          "tracked": 213,
+          "inliers": 209,
+          "inlierRatio": 0.9812,
+          "relativeScale": 1.02008,
+          "rotationDegrees": 0.2138,
+          "centerTranslationPixels": [
+            0.834,
+            3.9
+          ],
+          "matrix": [
+            [
+              1.020072,
+              -0.003807,
+              -1.560548
+            ],
+            [
+              0.003807,
+              1.020072,
+              -3.208585
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1595,
+          "medianAllResidualPixels": 0.1632,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 367,
+          "target": 376,
+          "tracked": 213,
+          "inliers": 208,
+          "inlierRatio": 0.9765,
+          "relativeScale": 1.02926,
+          "rotationDegrees": 0.1875,
+          "centerTranslationPixels": [
+            -0.172,
+            1.981
+          ],
+          "matrix": [
+            [
+              1.029251,
+              -0.003367,
+              -4.359804
+            ],
+            [
+              0.003367,
+              1.029251,
+              -7.985471
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2216,
+          "medianAllResidualPixels": 0.2228,
+          "nonrigidOrMismatchedCorners": 2
+        },
+        {
+          "reliable": true,
+          "anchor": 367,
+          "target": 379,
+          "tracked": 213,
+          "inliers": 207,
+          "inlierRatio": 0.9718,
+          "relativeScale": 1.03934,
+          "rotationDegrees": 0.1788,
+          "centerTranslationPixels": [
+            -2.16,
+            0.258
+          ],
+          "matrix": [
+            [
+              1.039333,
+              -0.003244,
+              -8.201254
+            ],
+            [
+              0.003244,
+              1.039333,
+              -12.912297
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2647,
+          "medianAllResidualPixels": 0.2735,
+          "nonrigidOrMismatchedCorners": 3
+        },
+        {
+          "reliable": true,
+          "anchor": 367,
+          "target": 382,
+          "tracked": 213,
+          "inliers": 209,
+          "inlierRatio": 0.9812,
+          "relativeScale": 1.04406,
+          "rotationDegrees": 0.1285,
+          "centerTranslationPixels": [
+            -4.283,
+            -0.634
+          ],
+          "matrix": [
+            [
+              1.044053,
+              -0.002341,
+              -11.463574
+            ],
+            [
+              0.002341,
+              1.044053,
+              -15.152466
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3345,
+          "medianAllResidualPixels": 0.3375,
+          "nonrigidOrMismatchedCorners": 2
+        },
+        {
+          "reliable": true,
+          "anchor": 367,
+          "target": 385,
+          "tracked": 213,
+          "inliers": 204,
+          "inlierRatio": 0.9577,
+          "relativeScale": 1.05185,
+          "rotationDegrees": 0.1343,
+          "centerTranslationPixels": [
+            -5.453,
+            -1.865
+          ],
+          "matrix": [
+            [
+              1.051843,
+              -0.002466,
+              -13.995624
+            ],
+            [
+              0.002466,
+              1.051843,
+              -18.898615
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3592,
+          "medianAllResidualPixels": 0.366,
+          "nonrigidOrMismatchedCorners": 4
+        },
+        {
+          "reliable": true,
+          "anchor": 367,
+          "target": 388,
+          "tracked": 206,
+          "inliers": 195,
+          "inlierRatio": 0.9466,
+          "relativeScale": 1.0697,
+          "rotationDegrees": 0.0731,
+          "centerTranslationPixels": [
+            -5.493,
+            -3.549
+          ],
+          "matrix": [
+            [
+              1.069702,
+              -0.001365,
+              -17.602405
+            ],
+            [
+              0.001365,
+              1.069702,
+              -26.099276
+            ]
+          ],
+          "medianInlierResidualPixels": 0.4643,
+          "medianAllResidualPixels": 0.4797,
+          "nonrigidOrMismatchedCorners": 5
+        }
+      ]
+    },
+    {
+      "layout": 11,
+      "start": 395,
+      "endExclusive": 435,
+      "durationSeconds": 1.3333333333333333,
+      "anchor": 401,
+      "lastHeldFrame": 428,
+      "withinSamples": [
+        395,
+        398,
+        414,
+        431,
+        434
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 401,
+          "target": 401,
+          "tracked": 215,
+          "inliers": 215,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": -0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 401,
+          "target": 404,
+          "tracked": 214,
+          "inliers": 212,
+          "inlierRatio": 0.9907,
+          "relativeScale": 1.01427,
+          "rotationDegrees": 0.033,
+          "centerTranslationPixels": [
+            2.065,
+            2.041
+          ],
+          "matrix": [
+            [
+              1.014274,
+              -0.000585,
+              -0.317023
+            ],
+            [
+              0.000585,
+              1.014274,
+              -2.632143
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1401,
+          "medianAllResidualPixels": 0.141,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 401,
+          "target": 407,
+          "tracked": 213,
+          "inliers": 211,
+          "inlierRatio": 0.9906,
+          "relativeScale": 1.01678,
+          "rotationDegrees": 0.0764,
+          "centerTranslationPixels": [
+            1.928,
+            2.669
+          ],
+          "matrix": [
+            [
+              1.016781,
+              -0.001355,
+              -0.659078
+            ],
+            [
+              0.001355,
+              1.016781,
+              -2.944905
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1701,
+          "medianAllResidualPixels": 0.1705,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 401,
+          "target": 410,
+          "tracked": 212,
+          "inliers": 209,
+          "inlierRatio": 0.9858,
+          "relativeScale": 1.02019,
+          "rotationDegrees": 0.1146,
+          "centerTranslationPixels": [
+            3.227,
+            2.819
+          ],
+          "matrix": [
+            [
+              1.020193,
+              -0.002041,
+              0.245334
+            ],
+            [
+              0.002041,
+              1.020193,
+              -4.010081
+            ]
+          ],
+          "medianInlierResidualPixels": 0.198,
+          "medianAllResidualPixels": 0.2009,
+          "nonrigidOrMismatchedCorners": 2
+        },
+        {
+          "reliable": true,
+          "anchor": 401,
+          "target": 413,
+          "tracked": 214,
+          "inliers": 212,
+          "inlierRatio": 0.9907,
+          "relativeScale": 1.02334,
+          "rotationDegrees": 0.1899,
+          "centerTranslationPixels": [
+            5.393,
+            2.805
+          ],
+          "matrix": [
+            [
+              1.023331,
+              -0.003392,
+              2.278514
+            ],
+            [
+              0.003392,
+              1.023331,
+              -5.271357
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1978,
+          "medianAllResidualPixels": 0.198,
+          "nonrigidOrMismatchedCorners": 2
+        },
+        {
+          "reliable": true,
+          "anchor": 401,
+          "target": 416,
+          "tracked": 211,
+          "inliers": 206,
+          "inlierRatio": 0.9763,
+          "relativeScale": 1.02438,
+          "rotationDegrees": 0.2409,
+          "centerTranslationPixels": [
+            6.942,
+            3.342
+          ],
+          "matrix": [
+            [
+              1.024367,
+              -0.004308,
+              3.934259
+            ],
+            [
+              0.004308,
+              1.024367,
+              -5.230946
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2152,
+          "medianAllResidualPixels": 0.2192,
+          "nonrigidOrMismatchedCorners": 2
+        },
+        {
+          "reliable": true,
+          "anchor": 401,
+          "target": 419,
+          "tracked": 211,
+          "inliers": 196,
+          "inlierRatio": 0.9289,
+          "relativeScale": 1.02282,
+          "rotationDegrees": 0.3017,
+          "centerTranslationPixels": [
+            7.926,
+            3.452
+          ],
+          "matrix": [
+            [
+              1.022806,
+              -0.005387,
+              5.544127
+            ],
+            [
+              0.005387,
+              1.022806,
+              -4.815232
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2247,
+          "medianAllResidualPixels": 0.231,
+          "nonrigidOrMismatchedCorners": 3
+        },
+        {
+          "reliable": true,
+          "anchor": 401,
+          "target": 422,
+          "tracked": 212,
+          "inliers": 205,
+          "inlierRatio": 0.967,
+          "relativeScale": 1.02024,
+          "rotationDegrees": 0.355,
+          "centerTranslationPixels": [
+            8.93,
+            3.598
+          ],
+          "matrix": [
+            [
+              1.020219,
+              -0.00632,
+              7.313365
+            ],
+            [
+              0.00632,
+              1.020219,
+              -4.010353
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2253,
+          "medianAllResidualPixels": 0.2334,
+          "nonrigidOrMismatchedCorners": 4
+        },
+        {
+          "reliable": true,
+          "anchor": 401,
+          "target": 425,
+          "tracked": 211,
+          "inliers": 205,
+          "inlierRatio": 0.9716,
+          "relativeScale": 1.01691,
+          "rotationDegrees": 0.4185,
+          "centerTranslationPixels": [
+            9.102,
+            4.151
+          ],
+          "matrix": [
+            [
+              1.016879,
+              -0.007427,
+              8.440067
+            ],
+            [
+              0.007427,
+              1.016879,
+              -2.586946
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2406,
+          "medianAllResidualPixels": 0.2428,
+          "nonrigidOrMismatchedCorners": 4
+        },
+        {
+          "reliable": true,
+          "anchor": 401,
+          "target": 428,
+          "tracked": 211,
+          "inliers": 202,
+          "inlierRatio": 0.9573,
+          "relativeScale": 1.01618,
+          "rotationDegrees": 0.4868,
+          "centerTranslationPixels": [
+            9.169,
+            4.046
+          ],
+          "matrix": [
+            [
+              1.016141,
+              -0.008634,
+              9.026662
+            ],
+            [
+              0.008634,
+              1.016141,
+              -2.673808
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2466,
+          "medianAllResidualPixels": 0.2566,
+          "nonrigidOrMismatchedCorners": 2
+        }
+      ]
+    },
+    {
+      "layout": 12,
+      "start": 435,
+      "endExclusive": 471,
+      "durationSeconds": 1.2,
+      "anchor": 441,
+      "lastHeldFrame": 464,
+      "withinSamples": [
+        435,
+        438,
+        452,
+        467,
+        470
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 441,
+          "target": 441,
+          "tracked": 231,
+          "inliers": 231,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 441,
+          "target": 444,
+          "tracked": 231,
+          "inliers": 231,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.97873,
+          "rotationDegrees": 0.0017,
+          "centerTranslationPixels": [
+            -2.524,
+            -1.346
+          ],
+          "matrix": [
+            [
+              0.978728,
+              -3e-05,
+              1.314888
+            ],
+            [
+              3e-05,
+              0.978728,
+              5.45549
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1541,
+          "medianAllResidualPixels": 0.1541,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 441,
+          "target": 447,
+          "tracked": 231,
+          "inliers": 228,
+          "inlierRatio": 0.987,
+          "relativeScale": 0.97153,
+          "rotationDegrees": 0.0035,
+          "centerTranslationPixels": [
+            -3.489,
+            -5.207
+          ],
+          "matrix": [
+            [
+              0.971531,
+              -6e-05,
+              1.654253
+            ],
+            [
+              6e-05,
+              0.971531,
+              3.892525
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2309,
+          "medianAllResidualPixels": 0.2362,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 441,
+          "target": 450,
+          "tracked": 231,
+          "inliers": 231,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.96343,
+          "rotationDegrees": 0.0071,
+          "centerTranslationPixels": [
+            -2.538,
+            -7.713
+          ],
+          "matrix": [
+            [
+              0.963434,
+              -0.000119,
+              4.082357
+            ],
+            [
+              0.000119,
+              0.963434,
+              3.966755
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2663,
+          "medianAllResidualPixels": 0.2663,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 441,
+          "target": 453,
+          "tracked": 231,
+          "inliers": 229,
+          "inlierRatio": 0.9913,
+          "relativeScale": 0.95592,
+          "rotationDegrees": 0.0042,
+          "centerTranslationPixels": [
+            -1.03,
+            -8.088
+          ],
+          "matrix": [
+            [
+              0.955917,
+              -7.1e-05,
+              6.927421
+            ],
+            [
+              7.1e-05,
+              0.955917,
+              6.005736
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3309,
+          "medianAllResidualPixels": 0.3313,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 441,
+          "target": 456,
+          "tracked": 231,
+          "inliers": 229,
+          "inlierRatio": 0.9913,
+          "relativeScale": 0.95306,
+          "rotationDegrees": 0.0634,
+          "centerTranslationPixels": [
+            2.377,
+            -6.779
+          ],
+          "matrix": [
+            [
+              0.953055,
+              -0.001054,
+              11.164808
+            ],
+            [
+              0.001054,
+              0.953055,
+              8.053506
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3266,
+          "medianAllResidualPixels": 0.3288,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 441,
+          "target": 459,
+          "tracked": 231,
+          "inliers": 227,
+          "inlierRatio": 0.9827,
+          "relativeScale": 0.95073,
+          "rotationDegrees": 0.1117,
+          "centerTranslationPixels": [
+            4.624,
+            -5.187
+          ],
+          "matrix": [
+            [
+              0.950724,
+              -0.001853,
+              14.086794
+            ],
+            [
+              0.001853,
+              0.950724,
+              10.247333
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3149,
+          "medianAllResidualPixels": 0.3165,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 441,
+          "target": 462,
+          "tracked": 230,
+          "inliers": 229,
+          "inlierRatio": 0.9957,
+          "relativeScale": 0.94964,
+          "rotationDegrees": 0.1457,
+          "centerTranslationPixels": [
+            3.452,
+            -4.219
+          ],
+          "matrix": [
+            [
+              0.949633,
+              -0.002414,
+              13.290217
+            ],
+            [
+              0.002414,
+              0.949633,
+              11.463289
+            ]
+          ],
+          "medianInlierResidualPixels": 0.3266,
+          "medianAllResidualPixels": 0.327,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 441,
+          "target": 464,
+          "tracked": 231,
+          "inliers": 229,
+          "inlierRatio": 0.9913,
+          "relativeScale": 0.95551,
+          "rotationDegrees": 0.1197,
+          "centerTranslationPixels": [
+            -0.51,
+            -3.809
+          ],
+          "matrix": [
+            [
+              0.955512,
+              -0.001996,
+              8.136113
+            ],
+            [
+              0.001996,
+              0.955512,
+              10.06747
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2774,
+          "medianAllResidualPixels": 0.2775,
+          "nonrigidOrMismatchedCorners": 0
+        }
+      ]
+    },
+    {
+      "layout": 13,
+      "start": 471,
+      "endExclusive": 516,
+      "durationSeconds": 1.5,
+      "anchor": 477,
+      "lastHeldFrame": 509,
+      "withinSamples": [
+        471,
+        474,
+        493,
+        512,
+        515
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 477,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 480,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.00787,
+          "rotationDegrees": 0.0445,
+          "centerTranslationPixels": [
+            1.559,
+            0.11
+          ],
+          "matrix": [
+            [
+              1.007871,
+              -0.000783,
+              0.392562
+            ],
+            [
+              0.000783,
+              1.007871,
+              -2.550087
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0744,
+          "medianAllResidualPixels": 0.0744,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 483,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.01081,
+          "rotationDegrees": 0.0704,
+          "centerTranslationPixels": [
+            3.116,
+            0.396
+          ],
+          "matrix": [
+            [
+              1.010812,
+              -0.001243,
+              1.567214
+            ],
+            [
+              0.001243,
+              1.010812,
+              -3.287346
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0996,
+          "medianAllResidualPixels": 0.0996,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 486,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.01046,
+          "rotationDegrees": 0.069,
+          "centerTranslationPixels": [
+            3.096,
+            1.51
+          ],
+          "matrix": [
+            [
+              1.01046,
+              -0.001217,
+              1.602312
+            ],
+            [
+              0.001217,
+              1.01046,
+              -2.056088
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1086,
+          "medianAllResidualPixels": 0.1086,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 489,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.01312,
+          "rotationDegrees": 0.0813,
+          "centerTranslationPixels": [
+            3.306,
+            2.018
+          ],
+          "matrix": [
+            [
+              1.013122,
+              -0.001438,
+              1.40409
+            ],
+            [
+              0.001438,
+              1.013122,
+              -2.439592
+            ]
+          ],
+          "medianInlierResidualPixels": 0.125,
+          "medianAllResidualPixels": 0.125,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 492,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.01472,
+          "rotationDegrees": 0.1009,
+          "centerTranslationPixels": [
+            3.206,
+            2.414
+          ],
+          "matrix": [
+            [
+              1.014722,
+              -0.001787,
+              1.128209
+            ],
+            [
+              0.001787,
+              1.014722,
+              -2.618316
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1362,
+          "medianAllResidualPixels": 0.1362,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 495,
+          "tracked": 300,
+          "inliers": 299,
+          "inlierRatio": 0.9967,
+          "relativeScale": 1.01521,
+          "rotationDegrees": 0.1027,
+          "centerTranslationPixels": [
+            3.072,
+            2.681
+          ],
+          "matrix": [
+            [
+              1.015205,
+              -0.00182,
+              0.917509
+            ],
+            [
+              0.00182,
+              1.015205,
+              -2.512387
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1595,
+          "medianAllResidualPixels": 0.16,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 498,
+          "tracked": 300,
+          "inliers": 298,
+          "inlierRatio": 0.9933,
+          "relativeScale": 1.01486,
+          "rotationDegrees": 0.0917,
+          "centerTranslationPixels": [
+            2.72,
+            2.606
+          ],
+          "matrix": [
+            [
+              1.014863,
+              -0.001624,
+              0.564614
+            ],
+            [
+              0.001624,
+              1.014863,
+              -2.442273
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1846,
+          "medianAllResidualPixels": 0.186,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 501,
+          "tracked": 300,
+          "inliers": 298,
+          "inlierRatio": 0.9933,
+          "relativeScale": 1.0159,
+          "rotationDegrees": 0.0509,
+          "centerTranslationPixels": [
+            2.567,
+            2.765
+          ],
+          "matrix": [
+            [
+              1.015897,
+              -0.000903,
+              -0.005704
+            ],
+            [
+              0.000903,
+              1.015897,
+              -2.484131
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1965,
+          "medianAllResidualPixels": 0.1972,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 504,
+          "tracked": 300,
+          "inliers": 295,
+          "inlierRatio": 0.9833,
+          "relativeScale": 1.02137,
+          "rotationDegrees": 0.0062,
+          "centerTranslationPixels": [
+            1.281,
+            1.943
+          ],
+          "matrix": [
+            [
+              1.021373,
+              -0.000111,
+              -2.530895
+            ],
+            [
+              0.000111,
+              1.021373,
+              -4.916627
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2167,
+          "medianAllResidualPixels": 0.2188,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 507,
+          "tracked": 300,
+          "inliers": 298,
+          "inlierRatio": 0.9933,
+          "relativeScale": 1.02479,
+          "rotationDegrees": -0.0457,
+          "centerTranslationPixels": [
+            1.798,
+            1.128
+          ],
+          "matrix": [
+            [
+              1.024794,
+              0.000817,
+              -2.926624
+            ],
+            [
+              -0.000817,
+              1.024794,
+              -6.65861
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2384,
+          "medianAllResidualPixels": 0.2392,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 477,
+          "target": 509,
+          "tracked": 300,
+          "inliers": 295,
+          "inlierRatio": 0.9833,
+          "relativeScale": 1.02479,
+          "rotationDegrees": -0.0735,
+          "centerTranslationPixels": [
+            2.343,
+            0.884
+          ],
+          "matrix": [
+            [
+              1.02479,
+              0.001314,
+              -2.540106
+            ],
+            [
+              -0.001314,
+              1.02479,
+              -6.812334
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2441,
+          "medianAllResidualPixels": 0.246,
+          "nonrigidOrMismatchedCorners": 0
+        }
+      ]
+    },
+    {
+      "layout": 14,
+      "start": 516,
+      "endExclusive": 551,
+      "durationSeconds": 1.1666666666666667,
+      "anchor": 522,
+      "lastHeldFrame": 544,
+      "withinSamples": [
+        516,
+        519,
+        533,
+        547,
+        550
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 522,
+          "target": 522,
+          "tracked": 217,
+          "inliers": 217,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 522,
+          "target": 525,
+          "tracked": 217,
+          "inliers": 217,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.98798,
+          "rotationDegrees": 0.0389,
+          "centerTranslationPixels": [
+            0.972,
+            0.644
+          ],
+          "matrix": [
+            [
+              0.987975,
+              -0.00067,
+              3.350698
+            ],
+            [
+              0.00067,
+              0.987975,
+              4.371919
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1053,
+          "medianAllResidualPixels": 0.1053,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 522,
+          "target": 528,
+          "tracked": 217,
+          "inliers": 217,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.9832,
+          "rotationDegrees": 0.0146,
+          "centerTranslationPixels": [
+            0.54,
+            0.256
+          ],
+          "matrix": [
+            [
+              0.983196,
+              -0.00025,
+              3.645114
+            ],
+            [
+              0.00025,
+              0.983196,
+              5.588663
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1226,
+          "medianAllResidualPixels": 0.1226,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 522,
+          "target": 531,
+          "tracked": 217,
+          "inliers": 215,
+          "inlierRatio": 0.9908,
+          "relativeScale": 0.98124,
+          "rotationDegrees": -0.0437,
+          "centerTranslationPixels": [
+            -0.056,
+            -1.11
+          ],
+          "matrix": [
+            [
+              0.981242,
+              0.000749,
+              3.080503
+            ],
+            [
+              -0.000749,
+              0.981242,
+              5.027428
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1455,
+          "medianAllResidualPixels": 0.146,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 522,
+          "target": 534,
+          "tracked": 217,
+          "inliers": 214,
+          "inlierRatio": 0.9862,
+          "relativeScale": 0.97944,
+          "rotationDegrees": -0.1255,
+          "centerTranslationPixels": [
+            0.69,
+            -3.081
+          ],
+          "matrix": [
+            [
+              0.979435,
+              0.002145,
+              3.705637
+            ],
+            [
+              -0.002145,
+              0.979435,
+              3.886307
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1459,
+          "medianAllResidualPixels": 0.1467,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 522,
+          "target": 537,
+          "tracked": 217,
+          "inliers": 213,
+          "inlierRatio": 0.9816,
+          "relativeScale": 0.97971,
+          "rotationDegrees": -0.1845,
+          "centerTranslationPixels": [
+            0.711,
+            -3.577
+          ],
+          "matrix": [
+            [
+              0.97971,
+              0.003154,
+              3.353804
+            ],
+            [
+              -0.003154,
+              0.97971,
+              3.483893
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1543,
+          "medianAllResidualPixels": 0.1555,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 522,
+          "target": 540,
+          "tracked": 217,
+          "inliers": 213,
+          "inlierRatio": 0.9816,
+          "relativeScale": 0.97766,
+          "rotationDegrees": -0.236,
+          "centerTranslationPixels": [
+            0.34,
+            -2.702
+          ],
+          "matrix": [
+            [
+              0.977653,
+              0.004027,
+              3.073407
+            ],
+            [
+              -0.004027,
+              0.977653,
+              5.173416
+            ]
+          ],
+          "medianInlierResidualPixels": 0.154,
+          "medianAllResidualPixels": 0.1565,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 522,
+          "target": 543,
+          "tracked": 217,
+          "inliers": 213,
+          "inlierRatio": 0.9816,
+          "relativeScale": 0.9816,
+          "rotationDegrees": -0.262,
+          "centerTranslationPixels": [
+            -0.074,
+            -3.65
+          ],
+          "matrix": [
+            [
+              0.981586,
+              0.004488,
+              1.80433
+            ],
+            [
+              -0.004488,
+              0.981586,
+              3.050451
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1431,
+          "medianAllResidualPixels": 0.1441,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 522,
+          "target": 544,
+          "tracked": 217,
+          "inliers": 214,
+          "inlierRatio": 0.9862,
+          "relativeScale": 0.9826,
+          "rotationDegrees": -0.2912,
+          "centerTranslationPixels": [
+            0.219,
+            -4.16
+          ],
+          "matrix": [
+            [
+              0.982589,
+              0.004993,
+              1.755227
+            ],
+            [
+              -0.004993,
+              0.982589,
+              2.309873
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1473,
+          "medianAllResidualPixels": 0.1482,
+          "nonrigidOrMismatchedCorners": 1
+        }
+      ]
+    },
+    {
+      "layout": 15,
+      "start": 551,
+      "endExclusive": 592,
+      "durationSeconds": 1.3666666666666667,
+      "anchor": 557,
+      "lastHeldFrame": 585,
+      "withinSamples": [
+        551,
+        554,
+        571,
+        588,
+        591
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 557,
+          "target": 557,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 557,
+          "target": 560,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.99372,
+          "rotationDegrees": 0.0013,
+          "centerTranslationPixels": [
+            1.127,
+            -1.581
+          ],
+          "matrix": [
+            [
+              0.993717,
+              -2.3e-05,
+              2.265022
+            ],
+            [
+              2.3e-05,
+              0.993717,
+              0.425305
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0584,
+          "medianAllResidualPixels": 0.0584,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 557,
+          "target": 563,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.99173,
+          "rotationDegrees": -0.0281,
+          "centerTranslationPixels": [
+            0.941,
+            -3.172
+          ],
+          "matrix": [
+            [
+              0.991732,
+              0.000486,
+              2.274004
+            ],
+            [
+              -0.000486,
+              0.991732,
+              -0.438597
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0727,
+          "medianAllResidualPixels": 0.0727,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 557,
+          "target": 566,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.98743,
+          "rotationDegrees": -0.0691,
+          "centerTranslationPixels": [
+            0.863,
+            -4.087
+          ],
+          "matrix": [
+            [
+              0.98743,
+              0.001191,
+              2.744844
+            ],
+            [
+              -0.001191,
+              0.98743,
+              0.149556
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1002,
+          "medianAllResidualPixels": 0.1002,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 557,
+          "target": 569,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.98257,
+          "rotationDegrees": -0.102,
+          "centerTranslationPixels": [
+            1.417,
+            -4.776
+          ],
+          "matrix": [
+            [
+              0.982571,
+              0.001749,
+              3.994924
+            ],
+            [
+              -0.001749,
+              0.982571,
+              1.116529
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1233,
+          "medianAllResidualPixels": 0.1233,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 557,
+          "target": 572,
+          "tracked": 300,
+          "inliers": 296,
+          "inlierRatio": 0.9867,
+          "relativeScale": 0.98081,
+          "rotationDegrees": -0.1311,
+          "centerTranslationPixels": [
+            1.644,
+            -5.48
+          ],
+          "matrix": [
+            [
+              0.98081,
+              0.002244,
+              4.380523
+            ],
+            [
+              -0.002244,
+              0.98081,
+              1.064821
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1365,
+          "medianAllResidualPixels": 0.1385,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 557,
+          "target": 575,
+          "tracked": 300,
+          "inliers": 299,
+          "inlierRatio": 0.9967,
+          "relativeScale": 0.97747,
+          "rotationDegrees": -0.1671,
+          "centerTranslationPixels": [
+            1.74,
+            -6.436
+          ],
+          "matrix": [
+            [
+              0.977468,
+              0.002851,
+              4.88371
+            ],
+            [
+              -0.002851,
+              0.977468,
+              1.286923
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1512,
+          "medianAllResidualPixels": 0.1513,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 557,
+          "target": 578,
+          "tracked": 300,
+          "inliers": 298,
+          "inlierRatio": 0.9933,
+          "relativeScale": 0.97567,
+          "rotationDegrees": -0.195,
+          "centerTranslationPixels": [
+            1.899,
+            -7.786
+          ],
+          "matrix": [
+            [
+              0.975668,
+              0.00332,
+              5.216383
+            ],
+            [
+              -0.00332,
+              0.975668,
+              0.597703
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1772,
+          "medianAllResidualPixels": 0.1773,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 557,
+          "target": 581,
+          "tracked": 300,
+          "inliers": 299,
+          "inlierRatio": 0.9967,
+          "relativeScale": 0.97341,
+          "rotationDegrees": -0.2349,
+          "centerTranslationPixels": [
+            2.288,
+            -9.496
+          ],
+          "matrix": [
+            [
+              0.973404,
+              0.003992,
+              5.798332
+            ],
+            [
+              -0.003992,
+              0.973404,
+              -0.267386
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1802,
+          "medianAllResidualPixels": 0.1804,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 557,
+          "target": 584,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.97263,
+          "rotationDegrees": -0.2521,
+          "centerTranslationPixels": [
+            2.684,
+            -10.419
+          ],
+          "matrix": [
+            [
+              0.972624,
+              0.00428,
+              6.24257
+            ],
+            [
+              -0.00428,
+              0.972624,
+              -0.887952
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1995,
+          "medianAllResidualPixels": 0.1995,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 557,
+          "target": 585,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 0.9737,
+          "rotationDegrees": -0.2648,
+          "centerTranslationPixels": [
+            2.723,
+            -10.601
+          ],
+          "matrix": [
+            [
+              0.97369,
+              0.0045,
+              6.018457
+            ],
+            [
+              -0.0045,
+              0.97369,
+              -1.372265
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2063,
+          "medianAllResidualPixels": 0.2063,
+          "nonrigidOrMismatchedCorners": 0
+        }
+      ]
+    },
+    {
+      "layout": 16,
+      "start": 592,
+      "endExclusive": 627,
+      "durationSeconds": 1.1666666666666667,
+      "anchor": 598,
+      "lastHeldFrame": 620,
+      "withinSamples": [
+        592,
+        595,
+        609,
+        623,
+        626
+      ],
+      "tracks": [
+        {
+          "reliable": true,
+          "anchor": 598,
+          "target": 598,
+          "tracked": 300,
+          "inliers": 300,
+          "inlierRatio": 1.0,
+          "relativeScale": 1.0,
+          "rotationDegrees": 0.0,
+          "centerTranslationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0,
+          "medianAllResidualPixels": 0.0,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 598,
+          "target": 601,
+          "tracked": 300,
+          "inliers": 299,
+          "inlierRatio": 0.9967,
+          "relativeScale": 1.0069,
+          "rotationDegrees": 0.1007,
+          "centerTranslationPixels": [
+            0.987,
+            1.293
+          ],
+          "matrix": [
+            [
+              1.006902,
+              -0.00177,
+              0.311418
+            ],
+            [
+              0.00177,
+              1.006902,
+              -1.234086
+            ]
+          ],
+          "medianInlierResidualPixels": 0.0746,
+          "medianAllResidualPixels": 0.0748,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 598,
+          "target": 604,
+          "tracked": 300,
+          "inliers": 299,
+          "inlierRatio": 0.9967,
+          "relativeScale": 1.01606,
+          "rotationDegrees": 0.1636,
+          "centerTranslationPixels": [
+            1.906,
+            1.583
+          ],
+          "matrix": [
+            [
+              1.01606,
+              -0.002901,
+              -0.056351
+            ],
+            [
+              0.002901,
+              1.01606,
+              -4.078202
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1293,
+          "medianAllResidualPixels": 0.1294,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 598,
+          "target": 607,
+          "tracked": 300,
+          "inliers": 299,
+          "inlierRatio": 0.9967,
+          "relativeScale": 1.02501,
+          "rotationDegrees": 0.1609,
+          "centerTranslationPixels": [
+            0.975,
+            1.086
+          ],
+          "matrix": [
+            [
+              1.025004,
+              -0.002878,
+              -2.604644
+            ],
+            [
+              0.002878,
+              1.025004,
+              -7.433552
+            ]
+          ],
+          "medianInlierResidualPixels": 0.1769,
+          "medianAllResidualPixels": 0.1772,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 598,
+          "target": 610,
+          "tracked": 300,
+          "inliers": 298,
+          "inlierRatio": 0.9933,
+          "relativeScale": 1.03206,
+          "rotationDegrees": 0.143,
+          "centerTranslationPixels": [
+            0.692,
+            0.321
+          ],
+          "matrix": [
+            [
+              1.032056,
+              -0.002575,
+              -4.254324
+            ],
+            [
+              0.002575,
+              1.032056,
+              -10.400778
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2109,
+          "medianAllResidualPixels": 0.2129,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 598,
+          "target": 613,
+          "tracked": 300,
+          "inliers": 298,
+          "inlierRatio": 0.9933,
+          "relativeScale": 1.03827,
+          "rotationDegrees": 0.1167,
+          "centerTranslationPixels": [
+            1.19,
+            -0.992
+          ],
+          "matrix": [
+            [
+              1.038266,
+              -0.002115,
+              -5.020784
+            ],
+            [
+              0.002115,
+              1.038266,
+              -13.617702
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2412,
+          "medianAllResidualPixels": 0.2436,
+          "nonrigidOrMismatchedCorners": 1
+        },
+        {
+          "reliable": true,
+          "anchor": 598,
+          "target": 616,
+          "tracked": 299,
+          "inliers": 298,
+          "inlierRatio": 0.9967,
+          "relativeScale": 1.04205,
+          "rotationDegrees": 0.1145,
+          "centerTranslationPixels": [
+            3.113,
+            -1.765
+          ],
+          "matrix": [
+            [
+              1.042052,
+              -0.002082,
+              -3.789944
+            ],
+            [
+              0.002082,
+              1.042052,
+              -15.596167
+            ]
+          ],
+          "medianInlierResidualPixels": 0.269,
+          "medianAllResidualPixels": 0.2703,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 598,
+          "target": 619,
+          "tracked": 299,
+          "inliers": 298,
+          "inlierRatio": 0.9967,
+          "relativeScale": 1.0426,
+          "rotationDegrees": 0.0949,
+          "centerTranslationPixels": [
+            3.878,
+            -1.46
+          ],
+          "matrix": [
+            [
+              1.042598,
+              -0.001727,
+              -3.237155
+            ],
+            [
+              0.001727,
+              1.042598,
+              -15.402325
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2686,
+          "medianAllResidualPixels": 0.2696,
+          "nonrigidOrMismatchedCorners": 0
+        },
+        {
+          "reliable": true,
+          "anchor": 598,
+          "target": 620,
+          "tracked": 299,
+          "inliers": 298,
+          "inlierRatio": 0.9967,
+          "relativeScale": 1.04273,
+          "rotationDegrees": 0.0866,
+          "centerTranslationPixels": [
+            3.824,
+            -1.309
+          ],
+          "matrix": [
+            [
+              1.042733,
+              -0.001575,
+              -3.363449
+            ],
+            [
+              0.001575,
+              1.042733,
+              -15.267302
+            ]
+          ],
+          "medianInlierResidualPixels": 0.2677,
+          "medianAllResidualPixels": 0.2682,
+          "nonrigidOrMismatchedCorners": 0
+        }
+      ]
+    }
+  ],
+  "joins": [
+    {
+      "frame": 49,
+      "seconds": 1.6333333333333333,
+      "nearestCandidateOnset": 1.6718,
+      "signedCutMinusOnsetMs": -38.5,
+      "onsetNormalizedFlux": 0.516
+    },
+    {
+      "frame": 80,
+      "seconds": 2.6666666666666665,
+      "nearestCandidateOnset": 2.7167,
+      "signedCutMinusOnsetMs": -50.1,
+      "onsetNormalizedFlux": 0.4979
+    },
+    {
+      "frame": 124,
+      "seconds": 4.133333333333334,
+      "nearestCandidateOnset": 4.1215,
+      "signedCutMinusOnsetMs": 11.8,
+      "onsetNormalizedFlux": 0.7934
+    },
+    {
+      "frame": 156,
+      "seconds": 5.2,
+      "nearestCandidateOnset": 5.2825,
+      "signedCutMinusOnsetMs": -82.5,
+      "onsetNormalizedFlux": 0.6728
+    },
+    {
+      "frame": 202,
+      "seconds": 6.733333333333333,
+      "nearestCandidateOnset": 6.7454,
+      "signedCutMinusOnsetMs": -12.1,
+      "onsetNormalizedFlux": 0.58
+    },
+    {
+      "frame": 238,
+      "seconds": 7.933333333333334,
+      "nearestCandidateOnset": 7.8948,
+      "signedCutMinusOnsetMs": 38.5,
+      "onsetNormalizedFlux": 0.3743
+    },
+    {
+      "frame": 281,
+      "seconds": 9.366666666666667,
+      "nearestCandidateOnset": 9.3693,
+      "signedCutMinusOnsetMs": -2.6,
+      "onsetNormalizedFlux": 0.7046
+    },
+    {
+      "frame": 334,
+      "seconds": 11.133333333333333,
+      "nearestCandidateOnset": 11.1804,
+      "signedCutMinusOnsetMs": -47.1,
+      "onsetNormalizedFlux": 0.4688
+    },
+    {
+      "frame": 361,
+      "seconds": 12.033333333333333,
+      "nearestCandidateOnset": 11.9931,
+      "signedCutMinusOnsetMs": 40.2,
+      "onsetNormalizedFlux": 0.7229
+    },
+    {
+      "frame": 395,
+      "seconds": 13.166666666666666,
+      "nearestCandidateOnset": 13.1425,
+      "signedCutMinusOnsetMs": 24.2,
+      "onsetNormalizedFlux": 0.5826
+    },
+    {
+      "frame": 435,
+      "seconds": 14.5,
+      "nearestCandidateOnset": 14.4544,
+      "signedCutMinusOnsetMs": 45.6,
+      "onsetNormalizedFlux": 0.3498
+    },
+    {
+      "frame": 471,
+      "seconds": 15.7,
+      "nearestCandidateOnset": 15.778,
+      "signedCutMinusOnsetMs": -78.0,
+      "onsetNormalizedFlux": 0.6491
+    },
+    {
+      "frame": 516,
+      "seconds": 17.2,
+      "nearestCandidateOnset": 17.2408,
+      "signedCutMinusOnsetMs": -40.8,
+      "onsetNormalizedFlux": 0.7235
+    },
+    {
+      "frame": 551,
+      "seconds": 18.366666666666667,
+      "nearestCandidateOnset": 18.3902,
+      "signedCutMinusOnsetMs": -23.5,
+      "onsetNormalizedFlux": 0.3813
+    },
+    {
+      "frame": 592,
+      "seconds": 19.733333333333334,
+      "nearestCandidateOnset": 19.7137,
+      "signedCutMinusOnsetMs": 19.6,
+      "onsetNormalizedFlux": 0.4416
+    }
+  ],
+  "onsets": [
+    {
+      "seconds": 0.046439909297052155,
+      "normalizedFlux": 0.43843528628349304
+    },
+    {
+      "seconds": 0.18575963718820862,
+      "normalizedFlux": 0.512771487236023
+    },
+    {
+      "seconds": 0.3599092970521542,
+      "normalizedFlux": 0.4147212505340576
+    },
+    {
+      "seconds": 0.5224489795918368,
+      "normalizedFlux": 0.3897094428539276
+    },
+    {
+      "seconds": 0.6617687074829932,
+      "normalizedFlux": 0.29988470673561096
+    },
+    {
+      "seconds": 0.8243083900226758,
+      "normalizedFlux": 0.6402531266212463
+    },
+    {
+      "seconds": 0.9287981859410431,
+      "normalizedFlux": 0.3007526397705078
+    },
+    {
+      "seconds": 1.0332879818594105,
+      "normalizedFlux": 0.6505832076072693
+    },
+    {
+      "seconds": 1.18421768707483,
+      "normalizedFlux": 0.6603788733482361
+    },
+    {
+      "seconds": 1.3351473922902495,
+      "normalizedFlux": 1.0
+    },
+    {
+      "seconds": 1.497687074829932,
+      "normalizedFlux": 0.8332462310791016
+    },
+    {
+      "seconds": 1.6718367346938776,
+      "normalizedFlux": 0.5159528255462646
+    },
+    {
+      "seconds": 1.8343764172335602,
+      "normalizedFlux": 0.6485885977745056
+    },
+    {
+      "seconds": 1.9620861678004535,
+      "normalizedFlux": 0.40332627296447754
+    },
+    {
+      "seconds": 2.0549659863945577,
+      "normalizedFlux": 0.3605261743068695
+    },
+    {
+      "seconds": 2.159455782312925,
+      "normalizedFlux": 0.5498870015144348
+    },
+    {
+      "seconds": 2.3219954648526078,
+      "normalizedFlux": 0.4351791739463806
+    },
+    {
+      "seconds": 2.426485260770975,
+      "normalizedFlux": 0.6432054042816162
+    },
+    {
+      "seconds": 2.6006349206349206,
+      "normalizedFlux": 0.3311431407928467
+    },
+    {
+      "seconds": 2.716734693877551,
+      "normalizedFlux": 0.49785178899765015
+    },
+    {
+      "seconds": 2.809614512471655,
+      "normalizedFlux": 0.7118784785270691
+    },
+    {
+      "seconds": 2.972154195011338,
+      "normalizedFlux": 0.5412197113037109
+    },
+    {
+      "seconds": 3.1463038548752835,
+      "normalizedFlux": 0.5661094188690186
+    },
+    {
+      "seconds": 3.308843537414966,
+      "normalizedFlux": 0.5341727137565613
+    },
+    {
+      "seconds": 3.4713832199546486,
+      "normalizedFlux": 0.8470710515975952
+    },
+    {
+      "seconds": 3.633922902494331,
+      "normalizedFlux": 0.539772093296051
+    },
+    {
+      "seconds": 3.7964625850340137,
+      "normalizedFlux": 0.5515002608299255
+    },
+    {
+      "seconds": 3.947392290249433,
+      "normalizedFlux": 0.33293676376342773
+    },
+    {
+      "seconds": 4.121541950113379,
+      "normalizedFlux": 0.7933744192123413
+    },
+    {
+      "seconds": 4.2260317460317465,
+      "normalizedFlux": 0.43961936235427856
+    },
+    {
+      "seconds": 4.458231292517007,
+      "normalizedFlux": 0.7217810750007629
+    },
+    {
+      "seconds": 4.551111111111111,
+      "normalizedFlux": 0.4796018600463867
+    },
+    {
+      "seconds": 4.783310657596372,
+      "normalizedFlux": 0.6916481852531433
+    },
+    {
+      "seconds": 4.957460317460318,
+      "normalizedFlux": 0.3661409318447113
+    },
+    {
+      "seconds": 5.061950113378685,
+      "normalizedFlux": 0.8363763093948364
+    },
+    {
+      "seconds": 5.282539682539682,
+      "normalizedFlux": 0.6728437542915344
+    },
+    {
+      "seconds": 5.433469387755102,
+      "normalizedFlux": 0.6242557764053345
+    },
+    {
+      "seconds": 5.537959183673469,
+      "normalizedFlux": 0.5412163734436035
+    },
+    {
+      "seconds": 5.77015873015873,
+      "normalizedFlux": 0.5102120637893677
+    },
+    {
+      "seconds": 5.932698412698413,
+      "normalizedFlux": 0.47191381454467773
+    },
+    {
+      "seconds": 6.095238095238095,
+      "normalizedFlux": 0.8277634382247925
+    },
+    {
+      "seconds": 6.2693877551020405,
+      "normalizedFlux": 0.523735761642456
+    },
+    {
+      "seconds": 6.42031746031746,
+      "normalizedFlux": 0.7332655787467957
+    },
+    {
+      "seconds": 6.594467120181406,
+      "normalizedFlux": 0.3865727186203003
+    },
+    {
+      "seconds": 6.745396825396825,
+      "normalizedFlux": 0.5799898505210876
+    },
+    {
+      "seconds": 6.873106575963718,
+      "normalizedFlux": 0.4665793478488922
+    },
+    {
+      "seconds": 6.989206349206349,
+      "normalizedFlux": 0.329994261264801
+    },
+    {
+      "seconds": 7.082086167800454,
+      "normalizedFlux": 0.5337331295013428
+    },
+    {
+      "seconds": 7.244625850340136,
+      "normalizedFlux": 0.3685680329799652
+    },
+    {
+      "seconds": 7.4071655328798185,
+      "normalizedFlux": 0.5321813821792603
+    },
+    {
+      "seconds": 7.581315192743764,
+      "normalizedFlux": 0.38758525252342224
+    },
+    {
+      "seconds": 7.732244897959184,
+      "normalizedFlux": 0.8685446381568909
+    },
+    {
+      "seconds": 7.894784580498866,
+      "normalizedFlux": 0.3742527663707733
+    },
+    {
+      "seconds": 8.057324263038549,
+      "normalizedFlux": 0.6333465576171875
+    },
+    {
+      "seconds": 8.219863945578231,
+      "normalizedFlux": 0.39801815152168274
+    },
+    {
+      "seconds": 8.382403628117913,
+      "normalizedFlux": 0.5981985330581665
+    },
+    {
+      "seconds": 8.55655328798186,
+      "normalizedFlux": 0.5181165337562561
+    },
+    {
+      "seconds": 8.719092970521542,
+      "normalizedFlux": 0.6495037078857422
+    },
+    {
+      "seconds": 8.823582766439909,
+      "normalizedFlux": 0.37249958515167236
+    },
+    {
+      "seconds": 8.93968253968254,
+      "normalizedFlux": 0.5731558799743652
+    },
+    {
+      "seconds": 9.044172335600907,
+      "normalizedFlux": 0.5962848663330078
+    },
+    {
+      "seconds": 9.206712018140589,
+      "normalizedFlux": 0.4810144007205963
+    },
+    {
+      "seconds": 9.369251700680271,
+      "normalizedFlux": 0.7045757174491882
+    },
+    {
+      "seconds": 9.496961451247165,
+      "normalizedFlux": 0.3338819742202759
+    },
+    {
+      "seconds": 9.7059410430839,
+      "normalizedFlux": 0.5941025018692017
+    },
+    {
+      "seconds": 9.868480725623582,
+      "normalizedFlux": 0.3587208688259125
+    },
+    {
+      "seconds": 10.031020408163265,
+      "normalizedFlux": 0.5686982274055481
+    },
+    {
+      "seconds": 10.193560090702947,
+      "normalizedFlux": 0.8012650609016418
+    },
+    {
+      "seconds": 10.356099773242631,
+      "normalizedFlux": 0.5723612904548645
+    },
+    {
+      "seconds": 10.518639455782314,
+      "normalizedFlux": 0.7218552827835083
+    },
+    {
+      "seconds": 10.681179138321996,
+      "normalizedFlux": 0.42711132764816284
+    },
+    {
+      "seconds": 10.843718820861678,
+      "normalizedFlux": 0.9058590531349182
+    },
+    {
+      "seconds": 11.017868480725623,
+      "normalizedFlux": 0.4952182173728943
+    },
+    {
+      "seconds": 11.180408163265307,
+      "normalizedFlux": 0.46875205636024475
+    },
+    {
+      "seconds": 11.34294784580499,
+      "normalizedFlux": 0.5427152514457703
+    },
+    {
+      "seconds": 11.505487528344672,
+      "normalizedFlux": 0.5546438097953796
+    },
+    {
+      "seconds": 11.668027210884354,
+      "normalizedFlux": 0.5652557611465454
+    },
+    {
+      "seconds": 11.877006802721088,
+      "normalizedFlux": 0.46929988265037537
+    },
+    {
+      "seconds": 11.993106575963719,
+      "normalizedFlux": 0.7228935360908508
+    },
+    {
+      "seconds": 12.144036281179138,
+      "normalizedFlux": 0.3985460102558136
+    },
+    {
+      "seconds": 12.318185941043083,
+      "normalizedFlux": 0.5873159170150757
+    },
+    {
+      "seconds": 12.480725623582767,
+      "normalizedFlux": 0.5512328147888184
+    },
+    {
+      "seconds": 12.654875283446712,
+      "normalizedFlux": 0.5725122094154358
+    },
+    {
+      "seconds": 12.747755102040816,
+      "normalizedFlux": 0.3289380967617035
+    },
+    {
+      "seconds": 12.863854875283447,
+      "normalizedFlux": 0.5838497877120972
+    },
+    {
+      "seconds": 12.979954648526077,
+      "normalizedFlux": 0.7811007499694824
+    },
+    {
+      "seconds": 13.142494331065759,
+      "normalizedFlux": 0.5825657248497009
+    },
+    {
+      "seconds": 13.305034013605443,
+      "normalizedFlux": 0.5928512811660767
+    },
+    {
+      "seconds": 13.467573696145125,
+      "normalizedFlux": 0.7401238679885864
+    },
+    {
+      "seconds": 13.56045351473923,
+      "normalizedFlux": 0.4526970684528351
+    },
+    {
+      "seconds": 13.734603174603174,
+      "normalizedFlux": 0.45222407579421997
+    },
+    {
+      "seconds": 13.966802721088435,
+      "normalizedFlux": 0.780860185623169
+    },
+    {
+      "seconds": 14.129342403628119,
+      "normalizedFlux": 0.5659435391426086
+    },
+    {
+      "seconds": 14.291882086167801,
+      "normalizedFlux": 0.690735936164856
+    },
+    {
+      "seconds": 14.454421768707483,
+      "normalizedFlux": 0.34976449608802795
+    },
+    {
+      "seconds": 14.616961451247166,
+      "normalizedFlux": 0.7736312747001648
+    },
+    {
+      "seconds": 14.744671201814059,
+      "normalizedFlux": 0.46983933448791504
+    },
+    {
+      "seconds": 14.953650793650795,
+      "normalizedFlux": 0.5773425102233887
+    },
+    {
+      "seconds": 15.104580498866213,
+      "normalizedFlux": 0.4024806320667267
+    },
+    {
+      "seconds": 15.27873015873016,
+      "normalizedFlux": 0.5527486801147461
+    },
+    {
+      "seconds": 15.441269841269841,
+      "normalizedFlux": 0.4125806987285614
+    },
+    {
+      "seconds": 15.603809523809524,
+      "normalizedFlux": 0.7731428146362305
+    },
+    {
+      "seconds": 15.777959183673469,
+      "normalizedFlux": 0.6491009593009949
+    },
+    {
+      "seconds": 15.928888888888888,
+      "normalizedFlux": 0.5196553468704224
+    },
+    {
+      "seconds": 16.091428571428573,
+      "normalizedFlux": 0.5983023643493652
+    },
+    {
+      "seconds": 16.253968253968253,
+      "normalizedFlux": 0.584527313709259
+    },
+    {
+      "seconds": 16.416507936507937,
+      "normalizedFlux": 0.3884941041469574
+    },
+    {
+      "seconds": 16.590657596371884,
+      "normalizedFlux": 0.6035423278808594
+    },
+    {
+      "seconds": 16.753197278911564,
+      "normalizedFlux": 0.5605257749557495
+    },
+    {
+      "seconds": 16.91573696145125,
+      "normalizedFlux": 0.7723278999328613
+    },
+    {
+      "seconds": 17.07827664399093,
+      "normalizedFlux": 0.40991702675819397
+    },
+    {
+      "seconds": 17.240816326530613,
+      "normalizedFlux": 0.7234594821929932
+    },
+    {
+      "seconds": 17.38013605442177,
+      "normalizedFlux": 0.4697495102882385
+    },
+    {
+      "seconds": 17.565895691609978,
+      "normalizedFlux": 0.5593176484107971
+    },
+    {
+      "seconds": 17.740045351473924,
+      "normalizedFlux": 0.27478131651878357
+    },
+    {
+      "seconds": 17.890975056689342,
+      "normalizedFlux": 0.6688040494918823
+    },
+    {
+      "seconds": 18.06512471655329,
+      "normalizedFlux": 0.4127747416496277
+    },
+    {
+      "seconds": 18.22766439909297,
+      "normalizedFlux": 0.6819087266921997
+    },
+    {
+      "seconds": 18.390204081632653,
+      "normalizedFlux": 0.3813287019729614
+    },
+    {
+      "seconds": 18.552743764172334,
+      "normalizedFlux": 0.6283624172210693
+    },
+    {
+      "seconds": 18.715283446712018,
+      "normalizedFlux": 0.44569605588912964
+    },
+    {
+      "seconds": 18.877823129251702,
+      "normalizedFlux": 0.5862498879432678
+    },
+    {
+      "seconds": 19.051972789115645,
+      "normalizedFlux": 0.392933189868927
+    },
+    {
+      "seconds": 19.202902494331067,
+      "normalizedFlux": 0.6334646344184875
+    },
+    {
+      "seconds": 19.37705215419501,
+      "normalizedFlux": 0.6541903614997864
+    },
+    {
+      "seconds": 19.539591836734694,
+      "normalizedFlux": 0.6708002686500549
+    },
+    {
+      "seconds": 19.71374149659864,
+      "normalizedFlux": 0.4416194558143616
+    },
+    {
+      "seconds": 19.86467120181406,
+      "normalizedFlux": 0.5756276845932007
+    },
+    {
+      "seconds": 20.027210884353742,
+      "normalizedFlux": 0.391778826713562
+    },
+    {
+      "seconds": 20.189750566893423,
+      "normalizedFlux": 0.627833902835846
+    },
+    {
+      "seconds": 20.29424036281179,
+      "normalizedFlux": 0.34868335723876953
+    },
+    {
+      "seconds": 20.410340136054423,
+      "normalizedFlux": 0.3948502242565155
+    },
+    {
+      "seconds": 20.514829931972788,
+      "normalizedFlux": 0.5740735530853271
+    },
+    {
+      "seconds": 20.67736961451247,
+      "normalizedFlux": 0.7871687412261963
+    },
+    {
+      "seconds": 20.793469387755103,
+      "normalizedFlux": 0.323942095041275
+    }
+  ],
+  "trackingMask": {
+    "sourceArtworkRegion": [
+      18,
+      30,
+      343,
+      605
+    ],
+    "fullCaptionExclusion": [
+      0,
+      420,
+      360,
+      545
+    ]
+  }
+}

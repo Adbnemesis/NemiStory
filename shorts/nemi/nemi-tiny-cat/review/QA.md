@@ -1,13 +1,9 @@
-# Export review · Just one tiny moon cat
+# Recut review · Just one tiny moon cat
 
-Native Godot visual capture, exact 435 encoded frames at30fps,1080×1920. All 15 planned cuts have visible decoded changes at their named frame. Source/music hashes and ranges pass strict validation.
+Distinct authored body profiles: contrapposto, crouch, groove_left, groove_right, lean_in, wide. Named transitions: {"match": 2, "focus_wipe": 2, "smear": 1}. 4 selective recorded accents.
 
-Longest measured decoded still run: **0.867s**, below1.5s. This is a pixel-change check, supported by performed art/contact observations below; it does not rate creativity.
+Decoded40/48/56 and246/253/260 show ongoing camera/head adjustment without page sliding. Opening crescent, later cat sketch and finished book all remain distinct; all5joins clear. Full normal-speed player playback and a relevant cue were exercised; the final/restart is a semantic cut, not a guaranteed seamless audio loop.
 
-Independent AAC reconstruction correlation **0.99512**, measured delay -0.0000ms, true peak -2.58dBTP, no clipped decoded samples, all 1 recorded SFX contributions verified. Original music version/hash/source section and cue map are retained. Sound measurement verifies exported sources; subjective listening taste is not claimed by numerical checks.
+Encoded 420 frames at30fps,1080×1920. Source hashes/ranges and exact export frames pass. Longest decoded still 0.067s. Exact-source AAC correlation 0.99626; true peak -2.63dBTP; all recorded SFX contributions verified. Picture observations, browser playback states and numerical sound checks are separate evidence. Audience retention has not been measured.
 
-Inspected moon→sleepy-cat wipe/match-cut, pointing eyeline, dream cloud/flower, profile/back and finger-heart ending. The cat is an external page doodle; no automatic book drawing/contact transfer is claimed. Godot still proofs/contact sheets and actual encoded first/final/cue frames were inspected. Native browser playback/seek observations are recorded separately in playback.json. The player was exercised at real speed with source audio enabled; this is separate from human creative acceptance.
-
-Finite VFX and motion are authored, completed paths stop, and the supported prop-contact drawings remain coherent at inspected boundaries. Supplemental visible art is separately authored Godot illustration; original hidden rig instances do not supply the visible lines.
-
-Reports: [export](export.json), [audio](audio_nemi-tiny-cat_r1_1080x1920.json), [pacing](pacing_nemi-tiny-cat_r1_1080x1920.json), [current](current.json). All original storytime source/settings remain protected by the batch isolation audit.
+[Export](export_nemi-tiny-cat_r4_1080x1920.json) · [audio](audio_nemi-tiny-cat_r4_1080x1920.json) · [pacing](pacing_nemi-tiny-cat_r4_1080x1920.json) · [playback](playback-r4.json). Native proofs are in stills/r4/, decoded pose/transition/motion sheets are contact.jpg, transitions.jpg and motion.jpg. Original r1 source/records were saved before replacement.
