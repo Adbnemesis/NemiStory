@@ -1,0 +1,76 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep00_introduction",
+  "variant": "b",
+  "revision": "promotional_collection_r1",
+  "title": "Four Hours for One Arm Movement",
+  "thumbnail_phrase": "4 HOURS?!",
+  "story_evidence": "Nemi opens with her terrible teacup-hand drawing resembling an angry ginger root and later describes four hours on one arm movement. New giant root and tangled animation strip are promotional metaphors, not factual scenes or alterations of the main rig.",
+  "application": "A continuous curling animation ribbon contains newly drawn green-sleeved arm studies and loops around a worried Nemi. A large no-number clock supplies time pressure; a single factual headline adds context. Main rig remains unchanged and complete face is above ribbon.",
+  "background": {
+    "top": "#753e57",
+    "bottom": "#8e4d60"
+  },
+  "headline": [
+    {
+      "text": "4 HOURS?!",
+      "position": [
+        1234,
+        82
+      ],
+      "size": 165,
+      "max_width": 598,
+      "color": "#613647",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep00_introduction/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1120,
+        1080
+      ],
+      "scale": 5.3,
+      "pose": "hand_near_cheek",
+      "expression": "worried",
+      "mouth": "small_open",
+      "eyes": 1.12,
+      "pupils": 0.8,
+      "gaze": [
+        -0.7,
+        0.15
+      ],
+      "tilt": 4,
+      "hand_targets": [
+        {
+          "side": "left",
+          "head_offset": [
+            -43,
+            -2
+          ],
+          "hand": "hand_to_cheek",
+          "angle": 170
+        }
+      ]
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep00_introduction/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "foreground"
+    }
+  ]
+}

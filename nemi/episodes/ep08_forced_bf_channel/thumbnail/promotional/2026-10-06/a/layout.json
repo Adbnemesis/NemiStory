@@ -1,0 +1,119 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep08_forced_bf_channel",
+  "variant": "a",
+  "revision": "promotional_collection_r2",
+  "title": "I Made My Boyfriend Start a YouTube Channel",
+  "thumbnail_phrase": "YOUR TURN!",
+  "background": {
+    "top": "#a9d3be",
+    "bottom": "#94bdae"
+  },
+  "headline": [
+    {
+      "text": "YOUR TURN!",
+      "position": [
+        1115,
+        73
+      ],
+      "size": 161,
+      "max_width": 692,
+      "color": "#493441",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "angle": 0,
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep08_forced_bf_channel/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "adb",
+      "author": "adb",
+      "rig": "res://adb/characters/adb/ADB.tscn",
+      "position": [
+        1600,
+        1370
+      ],
+      "scale": 4.15,
+      "recipe": "dry_annoyance",
+      "expression": "annoyed",
+      "gaze": [
+        -0.85,
+        0.06
+      ],
+      "eyes": 0.83,
+      "tilt": 5,
+      "mouth": "closed"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        590,
+        1100
+      ],
+      "scale": 4.0,
+      "pose": "hand_on_hip",
+      "expression": "smug",
+      "mouth": "smile",
+      "gaze": [
+        0.85,
+        0.12
+      ],
+      "eyes": 0.88,
+      "pupils": 0.86,
+      "tilt": 4,
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            66,
+            -25
+          ],
+          "hand": "hold_prop",
+          "angle": -17,
+          "elbow_side": -1
+        }
+      ]
+    },
+    {
+      "type": "prop",
+      "kind": "script",
+      "id": "PromoMegaphone",
+      "source": "res://nemi/episodes/ep08_forced_bf_channel/thumbnail/promotional/2026-10-06/PromoMegaphone.gd",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 3.5,
+      "angle": -17,
+      "attachment": {
+        "actor": "nemi",
+        "hand": "right",
+        "grip_local": [
+          0,
+          0
+        ]
+      },
+      "grip_overlay": true
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep08_forced_bf_channel/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "burst"
+    }
+  ],
+  "story_evidence": "Every EP08 subtitle read: Nemi repeatedly asked current ADB to start a channel; he said no and eventually agreed. Gigantic channel megaphone/sound cone are symbolic repeated invitation, not a literal event.",
+  "application": "Invented duo interaction: canonical Nemi directs a giant play-emblem megaphone toward reluctant current ADB. Mouth points toward ADB, tapered sound cone links the figures; mint/honey/coral scene. One warm invitation phrase."
+}

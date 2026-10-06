@@ -1,0 +1,87 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep05_celebration",
+  "variant": "b",
+  "revision": "promotional_collection_r1",
+  "title": "Wait... Those 1,000 Subscribers Are Real People",
+  "thumbnail_phrase": "1,000 PEOPLE?!",
+  "story_evidence": "The episode dwells on one thousand real people subscribing, creator disbelief and gratitude.",
+  "application": "Representative audience silhouettes pull enormous curtains aside, revealing surprised Nemi and the single factual milestone phrase. Invented stage/rope metaphor contrasts community-heart wave A; no invented advice or growth promise.",
+  "background": {
+    "top": "#eec993",
+    "bottom": "#fff0ce"
+  },
+  "headline": [
+    {
+      "text": "1,000",
+      "position": [
+        444,
+        97
+      ],
+      "size": 197,
+      "max_width": 450,
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "color": "#513541",
+      "outline": 0,
+      "angle": -2,
+      "shadow_color": "#00000000"
+    },
+    {
+      "text": "PEOPLE?!",
+      "position": [
+        378,
+        275
+      ],
+      "size": 162,
+      "max_width": 570,
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "color": "#513541",
+      "outline": 0,
+      "angle": -2,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep05_celebration/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1315,
+        1190
+      ],
+      "scale": 4.9,
+      "angle": -4,
+      "pose": "analytics_freeze",
+      "expression": "surprised",
+      "eyes": 1.1,
+      "pupils": 0.9,
+      "gaze": [
+        -0.5,
+        0.3
+      ],
+      "tilt": 5,
+      "mouth": "o_u"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep05_celebration/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "foreground"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep05_celebration/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "burst"
+    }
+  ]
+}

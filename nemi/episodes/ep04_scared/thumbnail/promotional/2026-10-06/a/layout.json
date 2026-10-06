@@ -1,0 +1,73 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep04_scared",
+  "variant": "a",
+  "revision": "promotional_collection_r1",
+  "title": "My Animation Got 7 Views. I Panicked.",
+  "thumbnail_phrase": "7 VIEWS?!",
+  "story_evidence": "Spoken script says days obsessing over animation frames and a 2 AM refresh showing seven views.",
+  "application": "Oversized perspective monitor ejects a spiral of newly drawn animation sheets; the count sits inside the screen. Flying pages and giant workstation are an effort-versus-attention metaphor, not literal movie action.",
+  "background": {
+    "top": "#4d465e",
+    "bottom": "#8b7382"
+  },
+  "headline": [
+    {
+      "text": "7 VIEWS?!",
+      "position": [
+        135,
+        544
+      ],
+      "size": 151,
+      "max_width": 525,
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "color": "#513541",
+      "outline": 0,
+      "angle": -6,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep04_scared/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1550,
+        1190
+      ],
+      "scale": 4.65,
+      "angle": -6,
+      "pose": "shock_recoil",
+      "expression": "shocked",
+      "eyes": 1.1,
+      "pupils": 0.9,
+      "gaze": [
+        -0.8,
+        -0.12
+      ],
+      "tilt": -3,
+      "mouth": "open_shocked"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep04_scared/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "foreground"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep04_scared/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "burst"
+    }
+  ]
+}

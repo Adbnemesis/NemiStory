@@ -1,0 +1,76 @@
+{
+  "recorded_before_authoring": true,
+  "episode": "nemi/episodes/ep00_introduction",
+  "actual_story_read": "Nemi makes her first storytime video, displays a hand holding a teacup resembling an angry ginger root and describes four hours inbetweening an arm movement.",
+  "inspected_actual_film_stills": [
+    "nemi/episodes/ep00_introduction/thumbnail/reference_1.png",
+    "nemi/episodes/ep00_introduction/thumbnail/reference_2.png"
+  ],
+  "reference_sets_viewed": [
+    "references/thumbnail_ref/thumbnails_set_1.png",
+    "references/thumbnail_ref/thumbnails_set_2.png",
+    "references/thumbnail_ref/thumbnails_set_3.png"
+  ],
+  "current_promotional_examples_viewed": "renders/thumbnail_promotional_2026-10-06/overview.jpg",
+  "sources": {
+    "nemi/episodes/ep00_introduction/Episode00Subtitles.gd": {
+      "sha256": "4c60c283189de69ef62842fe4d2c06d00169ba502e3d7b64dca573691561357f",
+      "bytes": 10218
+    },
+    "nemi/episodes/ep00_introduction/thumbnail/reference_1.png": {
+      "sha256": "4b047df3a92220646f049abbffb2160b77bc5ebdaf4c493fbb794bcd6039535b",
+      "bytes": 37667
+    },
+    "nemi/episodes/ep00_introduction/thumbnail/reference_2.png": {
+      "sha256": "740cd0bc26c34c99c6fb82f9fd560b9b442339e4718041175217d7084c2bf338",
+      "bytes": 69288
+    },
+    "references/thumbnail_ref/thumbnails_set_1.png": {
+      "sha256": "93076151d5eec6880d7fdc2330c6984b0d6fe2b293a11fcd67e42107763fd4fb",
+      "bytes": 5027271
+    },
+    "references/thumbnail_ref/thumbnails_set_2.png": {
+      "sha256": "cd76050367932f2bdecfbff9debe6006dd5b3f169c404484960ec0ba1ebfccca",
+      "bytes": 5525478
+    },
+    "references/thumbnail_ref/thumbnails_set_3.png": {
+      "sha256": "8ef5f1b1852a63fdd04d95b6b969a54ed4a2ce5aac746ae1df0f20a556f100fb",
+      "bytes": 3818715
+    },
+    "renders/thumbnail_promotional_2026-10-06/overview.jpg": {
+      "sha256": "bafa2991812f95f3a7fc469a139f8e9f4bdbe4397d2ca7386a0e71d98bbd544c",
+      "bytes": 466608
+    },
+    ".agents/skills/nemi-storytime/SKILL.md": {
+      "sha256": "6552b929559b6fcae3221943bb72225a1ce4b0f4898604246245e9c56b12dab4",
+      "bytes": 7125
+    },
+    "docs/animation/STORYTIME_THUMBNAILS.md": {
+      "sha256": "a0c563ca45ddb6ad35e44669e6b34ef1851bc655d03924126232c7fa8a2bb270",
+      "bytes": 11389
+    },
+    "tools/storytime/THUMBNAIL_PROMOTIONAL_LAYOUT.md": {
+      "sha256": "01255865541f2f34d9490e627832c4d2b931b44ee92ba7258bfebb831ac0c0c0",
+      "bytes": 4728
+    },
+    "nemi/characters/nemi/nemi.gd": {
+      "sha256": "7576ac295587212810c8e016de4bab2945d6a96e3c92fae98360f5385f85cb1d",
+      "bytes": 36591
+    },
+    "nemi/characters/nemi/parts/NemiFace.gd": {
+      "sha256": "b3a9528ca1fb36b6ee4a957739daf51c5d7855497bac35e4400893203a765f0e",
+      "bytes": 31872
+    },
+    "nemi/episodes/ep00_introduction/EP00_Visual_Event_Map.md": {
+      "sha256": "9260f8437ae0a36916742168836ec4a9c79b759a3a2323bb39aeda98e956463c",
+      "bytes": 18163
+    }
+  },
+  "inspection_notes": "Actual canonical ink/fill, face structure, garment shapes and Neeko cream/ginger design inspected in both saved actual film frames. Reference sets studied for authored interaction, unusual framing, dramatic prop scale and sparse copy. No source artwork traced.",
+  "gpu_review": "Pending; root will render and inspect new final output.",
+  "static_source_validation": {
+    "performed": true,
+    "result": "Passed both A/B layouts via tools/storytime/validate_thumbnail_pilots.py.validate",
+    "scope": "JSON fields, single phrase, dimensions of input coordinates, canonical main rig and resource existence. Not a Godot parser or visual check."
+  }
+}

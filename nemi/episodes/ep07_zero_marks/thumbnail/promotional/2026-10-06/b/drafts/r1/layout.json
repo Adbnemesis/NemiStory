@@ -1,0 +1,108 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep07_zero_marks",
+  "variant": "b",
+  "revision": "promotional_collection_r1",
+  "title": "I Studied Until 2 AM for This",
+  "thumbnail_phrase": "ALL THAT FOR ZERO?",
+  "background": {
+    "top": "#6b6087",
+    "bottom": "#635a7f"
+  },
+  "headline": [
+    {
+      "text": "ALL THAT",
+      "position": [
+        104,
+        59
+      ],
+      "size": 156,
+      "max_width": 744,
+      "color": "#493441",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "angle": 0,
+      "outline": 0,
+      "shadow_color": "#00000000"
+    },
+    {
+      "text": "FOR ZERO?",
+      "position": [
+        95,
+        191
+      ],
+      "size": 153,
+      "max_width": 770,
+      "color": "#493441",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "angle": 0,
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep07_zero_marks/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1510,
+        1170
+      ],
+      "scale": 4.6,
+      "pose": "thinking",
+      "expression": "shocked",
+      "mouth": "neutral",
+      "gaze": [
+        -0.8,
+        0.6
+      ],
+      "eyes": 1.05,
+      "pupils": 0.72,
+      "tilt": 8,
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            -71,
+            -101
+          ],
+          "hand": "hand_to_cheek",
+          "angle": 0,
+          "elbow_side": 1
+        },
+        {
+          "side": "left",
+          "position": [
+            -119,
+            -49
+          ],
+          "hand": "open_palm_up",
+          "angle": -45,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep07_zero_marks/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "portal"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep07_zero_marks/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "burst"
+    }
+  ],
+  "story_evidence": "EP07 subtitle text: after studying until 2 AM and answering every question, Nemi got 0/30. Symbolic work pages fall through an invented zero portal; no cheating or sabotage assertion.",
+  "application": "Dusky-violet counterpoint to A: oversized zero trapdoor on a perspective sheet swallows authored work pages, while the canonical face looks down in disbelief. Blank darkness as the emotional result. Compact warm speech burst."
+}

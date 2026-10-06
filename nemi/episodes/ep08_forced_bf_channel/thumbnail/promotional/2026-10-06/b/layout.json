@@ -1,0 +1,129 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep08_forced_bf_channel",
+  "variant": "b",
+  "revision": "promotional_collection_r1",
+  "title": "He Said No to Starting a Channel. I Asked Again.",
+  "thumbnail_phrase": "HE SAID NO",
+  "background": {
+    "top": "#615b7e",
+    "bottom": "#545270"
+  },
+  "headline": [
+    {
+      "text": "HE SAID NO",
+      "position": [
+        965,
+        78
+      ],
+      "size": 166,
+      "max_width": 718,
+      "color": "#493441",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "angle": 0,
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep08_forced_bf_channel/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "adb",
+      "author": "adb",
+      "rig": "res://adb/characters/adb/ADB.tscn",
+      "position": [
+        1420,
+        1200
+      ],
+      "scale": 3.6,
+      "recipe": "open_shrug",
+      "expression": "annoyed",
+      "gaze": [
+        -0.83,
+        -0.03
+      ],
+      "eyes": 0.87,
+      "tilt": -4,
+      "mouth": "closed"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        430,
+        1160
+      ],
+      "scale": 4.7,
+      "pose": "lean_left",
+      "expression": "smug",
+      "mouth": "smile",
+      "gaze": [
+        0.95,
+        -0.03
+      ],
+      "eyes": 0.96,
+      "pupils": 0.87,
+      "tilt": -5,
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            63,
+            -35
+          ],
+          "hand": "hold_prop",
+          "angle": -7,
+          "elbow_side": -1
+        },
+        {
+          "side": "left",
+          "position": [
+            -63,
+            -21
+          ],
+          "hand": "open",
+          "angle": 0,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "prop",
+      "kind": "script",
+      "id": "PromoCamera",
+      "source": "res://nemi/episodes/ep08_forced_bf_channel/thumbnail/promotional/2026-10-06/PromoCamera.gd",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 3.15,
+      "angle": -7,
+      "attachment": {
+        "actor": "nemi",
+        "hand": "right",
+        "grip_local": [
+          0,
+          0
+        ]
+      },
+      "grip_overlay": true
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep08_forced_bf_channel/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "burst"
+    }
+  ],
+  "story_evidence": "EP08 actual subtitle exchange: ADB said no; Nemi asked again; ADB eventually made a channel. Director, movie camera, recording stage and giant unlabelled record button are newly authored recruitment metaphors.",
+  "application": "Dramatic violet creator-stage image with foreground director Nemi and camera versus current ADB in a cream light cone above oversized red recording button. Each canonical face remains complete; no invented career success numbers or violent coercion."
+}

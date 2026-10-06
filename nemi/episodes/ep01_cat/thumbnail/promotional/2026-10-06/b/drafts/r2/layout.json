@@ -1,0 +1,107 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep01_cat",
+  "variant": "b",
+  "revision": "promotional_collection_r2",
+  "title": "I Rescued a Kitten. My Parents Said No.",
+  "thumbnail_phrase": "PLEASE?",
+  "story_evidence": "Nemi found Neeko abandoned and shivering in a damp cardboard box at sixteen, cared for her, was forbidden to keep pets by her parents, sheltered her and found an adoptive family. Rain is illustrative atmosphere; huge box and door are promotional exaggerations. Neeko remains alive.",
+  "application": "A colossal slate door with a purely pictorial no-pet emblem is a new visual metaphor of the real parental refusal. Canonical Nemi and Neeko huddle together in a warm field on the other side. Pleading gesture, intact faces and icon barrier supply a question without implying death or permanent ownership.",
+  "background": {
+    "top": "#394b50",
+    "bottom": "#6a7773"
+  },
+  "headline": [
+    {
+      "text": "PLEASE?",
+      "position": [
+        1445,
+        56
+      ],
+      "size": 153,
+      "max_width": 419,
+      "color": "#74413f",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep01_cat/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1290,
+        1200
+      ],
+      "scale": 5.2,
+      "pose": "nervous",
+      "expression": "worried",
+      "mouth": "small_open",
+      "eyes": 1.14,
+      "pupils": 0.9,
+      "gaze": [
+        -0.65,
+        -0.06
+      ],
+      "tilt": -4,
+      "hand_targets": [
+        {
+          "side": "left",
+          "position": [
+            9,
+            -44
+          ],
+          "hand": "open",
+          "angle": 85,
+          "elbow_side": -1
+        },
+        {
+          "side": "right",
+          "position": [
+            65,
+            -50
+          ],
+          "hand": "open",
+          "angle": -85,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "prop",
+      "id": "neeko",
+      "kind": "cat",
+      "position": [
+        1610,
+        1020
+      ],
+      "scale": [
+        10,
+        10
+      ],
+      "angle": 0,
+      "state": "curious",
+      "controls": {
+        "tail_angle": -0.7,
+        "tail_curl": 0.3,
+        "tail_sway": 0
+      }
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep01_cat/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "foreground"
+    }
+  ]
+}

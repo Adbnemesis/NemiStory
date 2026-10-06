@@ -1,0 +1,123 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep06_how_i_animate",
+  "variant": "b",
+  "revision": "promotional_collection_r2",
+  "title": "Why My Animations Take So Long",
+  "thumbnail_phrase": "ONE PIXEL?!",
+  "background": {
+    "top": "#c9b6c9",
+    "bottom": "#b3a7c1"
+  },
+  "headline": [
+    {
+      "text": "ONE",
+      "position": [
+        1375,
+        58
+      ],
+      "size": 166,
+      "max_width": 355,
+      "color": "#493441",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "angle": 0,
+      "outline": 0,
+      "shadow_color": "#00000000"
+    },
+    {
+      "text": "PIXEL?!",
+      "position": [
+        1290,
+        147
+      ],
+      "size": 159,
+      "max_width": 545,
+      "color": "#493441",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "angle": 0,
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep06_how_i_animate/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1530,
+        1120
+      ],
+      "scale": 4.4,
+      "pose": "lean_left",
+      "expression": "frustrated",
+      "mouth": "pout",
+      "gaze": [
+        -0.95,
+        0.05
+      ],
+      "eyes": 0.78,
+      "pupils": 0.83,
+      "tilt": -8,
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            -68,
+            -35
+          ],
+          "hand": "hold_prop",
+          "angle": 0,
+          "elbow_side": 1
+        },
+        {
+          "side": "left",
+          "position": [
+            -79,
+            -94
+          ],
+          "hand": "open",
+          "angle": 42,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "prop",
+      "kind": "script",
+      "id": "PromoMagnifier",
+      "source": "res://nemi/episodes/ep06_how_i_animate/thumbnail/promotional/2026-10-06/PromoMagnifier.gd",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 2.7,
+      "angle": 0,
+      "attachment": {
+        "actor": "nemi",
+        "hand": "right",
+        "grip_local": [
+          0,
+          0
+        ]
+      },
+      "grip_overlay": true
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep06_how_i_animate/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "burst"
+    }
+  ],
+  "story_evidence": "EP06 full production script: Nemi watches fifty times then discovers one tiny jittering hair pixel and fixes it. The angry speck creature is newly invented symbolic nuisance art.",
+  "application": "Giant lens in extreme foreground enlarges one comic hair-pixel nuisance opposite the canonical squint. Real wrist-attached handle; distinct lavender/paper/teal macro composition. One phrase and a complementary process title."
+}

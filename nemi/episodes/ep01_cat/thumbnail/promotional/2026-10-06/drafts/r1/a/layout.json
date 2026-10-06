@@ -1,0 +1,105 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep01_cat",
+  "variant": "a",
+  "revision": "promotional_collection_r1",
+  "title": "I Found a Kitten Nobody Wanted",
+  "thumbnail_phrase": "NOT LEAVING YOU",
+  "story_evidence": "Nemi found Neeko abandoned and shivering in a damp cardboard box at sixteen, cared for her, was forbidden to keep pets by her parents, sheltered her and found an adoptive family. Rain is illustrative atmosphere; huge box and door are promotional exaggerations. Neeko remains alive.",
+  "application": "An intimate giant view of canonical Neeko inside a new perspective box. Nemi reaches protectively across the front flap; warm pool of care and damp cool edges give tenderness. Huge kitten-first cover, not a literal screenshot or old props poster.",
+  "background": {
+    "top": "#263e49",
+    "bottom": "#53787a"
+  },
+  "headline": [
+    {
+      "text": "NOT LEAVING",
+      "position": [
+        1139,
+        59
+      ],
+      "size": 130,
+      "max_width": 680,
+      "color": "#523b3f",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "outline": 0,
+      "shadow_color": "#00000000"
+    },
+    {
+      "text": "YOU",
+      "position": [
+        1270,
+        187
+      ],
+      "size": 129,
+      "max_width": 445,
+      "color": "#8d534a",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep01_cat/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        440,
+        1240
+      ],
+      "scale": 5.4,
+      "pose": "hand_on_heart",
+      "expression": "empathetic",
+      "mouth": "small_open",
+      "eyes": 1.06,
+      "pupils": 0.9,
+      "gaze": [
+        0.82,
+        -0.03
+      ],
+      "tilt": 6,
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            102,
+            -63
+          ],
+          "hand": "open_palm_up",
+          "angle": -75,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "prop",
+      "id": "neeko",
+      "kind": "cat",
+      "position": [
+        1260,
+        990
+      ],
+      "scale": [
+        16,
+        16
+      ],
+      "angle": 0,
+      "state": "curious"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep01_cat/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "foreground"
+    }
+  ]
+}

@@ -43,3 +43,7 @@ B shows the safe autonomous pod/checkmark, crumpled normal taxi/travel-paper met
 ## Final export and review — 6 October 2026
 
 FinalGPU batch passed all6 completion markers without errors/warnings. Each final1920×1080 delivery was individually viewed; all320/160 feed reductions and proposed titles were viewed with mock duration badges on dark surrounds, plus320 on light surrounds. 4Kmasters were decoded/dimension-checked, not individually viewed. Metadata, exact source hashes, output hashes and contact checks are saved per variant. No live test or performance approval claimed.
+
+## Complete collection review — 24 candidates
+
+Both final 1920×1080 versions were individually inspected. The full 24-image collection passed final native GPU export, decoded dimensions/hashes, paged 320/160 feed inspection and previous-delivery preservation checks. Each variant’s source/output hashes, contact geometry and actual visual findings are in provenance_and_qa.json. Native 4K masters were dimension-checked, not individually viewed. No platform upload or measured audience result.

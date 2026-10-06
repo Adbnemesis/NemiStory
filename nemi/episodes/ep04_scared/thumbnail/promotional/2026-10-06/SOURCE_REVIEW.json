@@ -1,0 +1,45 @@
+{
+  "read_in_full": [
+    {
+      "path": "nemi/episodes/ep04_scared/EP04_Script.md",
+      "sha256": "d5fd975e85879ca989cef636942885ae885743a1b7b9609f6cfe150c30e0560d"
+    }
+  ],
+  "actual_film_stills_inspected": [
+    {
+      "path": "nemi/episodes/ep04_scared/thumbnail/reference_1.png",
+      "sha256": "c809d4ac92b30cf26c3847f784d3008201dff3afcb25df6d3286767cf5656ae9"
+    },
+    {
+      "path": "nemi/episodes/ep04_scared/thumbnail/reference_2.png",
+      "sha256": "a2e35b091e096d8c59f2410f00edb84659347f60016911249ae030e148ce1fb0"
+    }
+  ],
+  "reference_sets_inspected": [
+    {
+      "path": "references/thumbnail_ref/thumbnails_set_1.png",
+      "sha256": "93076151d5eec6880d7fdc2330c6984b0d6fe2b293a11fcd67e42107763fd4fb"
+    },
+    {
+      "path": "references/thumbnail_ref/thumbnails_set_2.png",
+      "sha256": "cd76050367932f2bdecfbff9debe6006dd5b3f169c404484960ec0ba1ebfccca"
+    },
+    {
+      "path": "references/thumbnail_ref/thumbnails_set_3.png",
+      "sha256": "8ef5f1b1852a63fdd04d95b6b969a54ed4a2ce5aac746ae1df0f20a556f100fb"
+    }
+  ],
+  "promotional_overview_inspected": {
+    "path": "renders/thumbnail_promotional_2026-10-06/overview.jpg",
+    "sha256": "bafa2991812f95f3a7fc469a139f8e9f4bdbe4397d2ca7386a0e71d98bbd544c"
+  },
+  "style_findings": "Both actual movie stills show colour Nemi, warm burgundy rounded ink, an illustrated desk and purposeful comic doodles. Retain the green outfit and canonical expressive face.",
+  "rig_sources": [
+    {
+      "path": "nemi/characters/nemi/nemi.tscn",
+      "sha256": "0396e0634e9acdc1e99398888621cdbd1f00a0680f6ad52116dd763e01f79106"
+    }
+  ],
+  "source_preservation": "No episode, voice, movie, canonical rig, hand, pose or expression library edits. Existing deliveries remain untouched.",
+  "gpu_export_and_visual_qa": "Root GPU captured both variants. Agent inspected each full JPG, native 160/90 and the 320/180 dark-feed tiles; exact performed review and inspected JPG hashes are saved per variant. Native 4K visual inspection and audience performance not claimed."
+}

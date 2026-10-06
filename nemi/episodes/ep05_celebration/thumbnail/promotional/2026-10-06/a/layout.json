@@ -1,0 +1,73 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep05_celebration",
+  "variant": "a",
+  "revision": "promotional_collection_r1",
+  "title": "1,000 People Actually Subscribed to My Animations?!",
+  "thumbnail_phrase": "1,000?!",
+  "story_evidence": "Nemi reaches one thousand subscribers and marvels that these are actual living people choosing to subscribe.",
+  "application": "A giant newly drawn community heart and rising golden wave of representative viewers lift joyful Nemi. Symbolic people and heart notifications are invented promotional illustration, not exact audience portraits or a performance claim.",
+  "background": {
+    "top": "#325d65",
+    "bottom": "#679e9c"
+  },
+  "headline": [
+    {
+      "text": "1,000?!",
+      "position": [
+        83,
+        58
+      ],
+      "size": 247,
+      "max_width": 640,
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "color": "#513541",
+      "outline": 0,
+      "angle": -2,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep05_celebration/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1295,
+        1115
+      ],
+      "scale": 4.6,
+      "angle": 7,
+      "pose": "palms_up_what",
+      "expression": "excited",
+      "eyes": 1.1,
+      "pupils": 0.9,
+      "gaze": [
+        -0.45,
+        0.18
+      ],
+      "tilt": -5,
+      "mouth": "laugh"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep05_celebration/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "foreground"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep05_celebration/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "burst"
+    }
+  ]
+}

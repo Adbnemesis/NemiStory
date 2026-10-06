@@ -1,0 +1,112 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep02_partner",
+  "variant": "b",
+  "revision": "promotional_collection_r1",
+  "title": "Okay... I Have a Secret Partner",
+  "thumbnail_phrase": "DON\u2019T TELL",
+  "story_evidence": "Nemi opens and closes with a secret partner and asks the audience to keep it between us. Partner is historical ADB.",
+  "application": "Opposing magnetic phones pull apart a huge secret curtain, exposing the pair. Curtain and magnetic attraction are newly invented symbolic art. Tighter paired crop and concealment differ from the expansive chat-heart ribbon.",
+  "background": {
+    "top": "#352d4d",
+    "bottom": "#e9bda9"
+  },
+  "headline": [
+    {
+      "text": "DON\u2019T",
+      "position": [
+        169,
+        64
+      ],
+      "size": 160,
+      "max_width": 490,
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "color": "#513541",
+      "outline": 0,
+      "angle": -3,
+      "shadow_color": "#00000000"
+    },
+    {
+      "text": "TELL",
+      "position": [
+        190,
+        202
+      ],
+      "size": 158,
+      "max_width": 400,
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "color": "#513541",
+      "outline": 0,
+      "angle": -3,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep02_partner/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        825,
+        1180
+      ],
+      "scale": 4.6,
+      "angle": -4,
+      "pose": "finger_to_lips",
+      "expression": "embarrassed",
+      "eyes": 1.1,
+      "pupils": 0.9,
+      "gaze": [
+        0.45,
+        0.05
+      ],
+      "tilt": 1,
+      "mouth": "wavy",
+      "hand_targets": [
+        {
+          "side": "right",
+          "head_offset": [
+            6,
+            10
+          ],
+          "hand": "pointing",
+          "angle": 180,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "character",
+      "id": "adb",
+      "author": "legacy_adb",
+      "rig": "res://nemi/characters/old_adb/OldADB.tscn",
+      "position": [
+        1420,
+        1160
+      ],
+      "scale": 4.45,
+      "angle": 7,
+      "expression": "embarrassed"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep02_partner/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "foreground"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep02_partner/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "burst"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep04_scared",
+  "variant": "b",
+  "revision": "promotional_collection_r1",
+  "title": "What If Nobody Watches My Animations?",
+  "thumbnail_phrase": "ANYONE THERE?",
+  "story_evidence": "Nemi explicitly fears nobody watching and never getting better, and still chooses to make the next animation.",
+  "application": "A practical giant spotlight catches Nemi on an invented empty comic stage, with oversized vacant seats in the foreground. Creator anxiety rather than horror or a claimed real failed show.",
+  "background": {
+    "top": "#332d46",
+    "bottom": "#665069"
+  },
+  "headline": [
+    {
+      "text": "ANYONE",
+      "position": [
+        106,
+        53
+      ],
+      "size": 155,
+      "max_width": 553,
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "color": "#513541",
+      "outline": 0,
+      "angle": 0,
+      "shadow_color": "#00000000"
+    },
+    {
+      "text": "THERE?",
+      "position": [
+        139,
+        190
+      ],
+      "size": 155,
+      "max_width": 480,
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "color": "#513541",
+      "outline": 0,
+      "angle": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep04_scared/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1020,
+        1175
+      ],
+      "scale": 4.05,
+      "angle": 3,
+      "pose": "palms_up_what",
+      "expression": "nervous",
+      "eyes": 1.1,
+      "pupils": 0.9,
+      "gaze": [
+        0,
+        0.15
+      ],
+      "tilt": 3,
+      "mouth": "wavy"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep04_scared/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "foreground"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep04_scared/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "burst"
+    }
+  ]
+}

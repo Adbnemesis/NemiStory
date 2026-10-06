@@ -1,0 +1,72 @@
+{
+  "recorded_before_authoring": true,
+  "episode": "adb/episodes/ep00_intro",
+  "actual_story_read": "Introduction: twenty-four-year-old ADB has an engineering job, played national-level table tennis, loves games/anime and now faces thousands of animation frames without knowing what he is doing.",
+  "inspected_actual_film_stills": [
+    "adb/episodes/ep00_intro/thumbnail/reference_1.png",
+    "adb/episodes/ep00_intro/thumbnail/reference_2.png"
+  ],
+  "reference_sets_viewed": [
+    "references/thumbnail_ref/thumbnails_set_1.png",
+    "references/thumbnail_ref/thumbnails_set_2.png",
+    "references/thumbnail_ref/thumbnails_set_3.png"
+  ],
+  "current_promotional_examples_viewed": "renders/thumbnail_promotional_2026-10-06/overview.jpg",
+  "sources": {
+    "adb/episodes/ep00_intro/Episode00Subtitles.gd": {
+      "sha256": "22ff3e4901543531c247bef3fd0ee098510bd64f1e0516874f4bdf849fc817e1",
+      "bytes": 9999
+    },
+    "adb/episodes/ep00_intro/thumbnail/reference_1.png": {
+      "sha256": "e1fddd4da4e95661dbd62db6a2dcbe5f39e3d533d7597d59394b549859d235f9",
+      "bytes": 39440
+    },
+    "adb/episodes/ep00_intro/thumbnail/reference_2.png": {
+      "sha256": "5adc7c3c56a62c9d8a255bab4d84c58b102584e78e9628b7661bc09d27bb74d5",
+      "bytes": 48298
+    },
+    "references/thumbnail_ref/thumbnails_set_1.png": {
+      "sha256": "93076151d5eec6880d7fdc2330c6984b0d6fe2b293a11fcd67e42107763fd4fb",
+      "bytes": 5027271
+    },
+    "references/thumbnail_ref/thumbnails_set_2.png": {
+      "sha256": "cd76050367932f2bdecfbff9debe6006dd5b3f169c404484960ec0ba1ebfccca",
+      "bytes": 5525478
+    },
+    "references/thumbnail_ref/thumbnails_set_3.png": {
+      "sha256": "8ef5f1b1852a63fdd04d95b6b969a54ed4a2ce5aac746ae1df0f20a556f100fb",
+      "bytes": 3818715
+    },
+    "renders/thumbnail_promotional_2026-10-06/overview.jpg": {
+      "sha256": "bafa2991812f95f3a7fc469a139f8e9f4bdbe4397d2ca7386a0e71d98bbd544c",
+      "bytes": 466608
+    },
+    ".agents/skills/adb-storytime/SKILL.md": {
+      "sha256": "2a617792a4aef0a19070ae59c41e0f06d65e3520605172f0fbb1cf0c5cde8a90",
+      "bytes": 7167
+    },
+    "docs/animation/STORYTIME_THUMBNAILS.md": {
+      "sha256": "a0c563ca45ddb6ad35e44669e6b34ef1851bc655d03924126232c7fa8a2bb270",
+      "bytes": 11389
+    },
+    "tools/storytime/THUMBNAIL_PROMOTIONAL_LAYOUT.md": {
+      "sha256": "01255865541f2f34d9490e627832c4d2b931b44ee92ba7258bfebb831ac0c0c0",
+      "bytes": 4728
+    },
+    "adb/characters/adb/ADB.gd": {
+      "sha256": "5b942fde4ac4251ea0f1070f503286d64b220ca0f175d42f9eb9f273c23679cb",
+      "bytes": 36513
+    },
+    "common/storytime/performances/recipes.json": {
+      "sha256": "6e2326bb52e0fca44c9b4cdd07374fc83a0b5c6a78adef3ed983dd3918d51ea0",
+      "bytes": 15084
+    }
+  },
+  "inspection_notes": "Actual canonical ink/fill, face structure, garment shapes and Neeko cream/ginger design inspected in both saved actual film frames. Reference sets studied for authored interaction, unusual framing, dramatic prop scale and sparse copy. No source artwork traced.",
+  "gpu_review": "Pending; root will render and inspect new final output.",
+  "static_source_validation": {
+    "performed": true,
+    "result": "Passed both A/B layouts via tools/storytime/validate_thumbnail_pilots.py.validate",
+    "scope": "JSON fields, single phrase, dimensions of input coordinates, canonical main rig and resource existence. Not a Godot parser or visual check."
+  }
+}

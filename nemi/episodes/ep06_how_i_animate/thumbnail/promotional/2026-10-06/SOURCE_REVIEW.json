@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-06",
+  "episode": "ep06_how_i_animate",
+  "story_read": "Read the complete production script. Forty keyframe tracks overwhelm Nemi; she watches fifty times and fixes one jittering hair pixel. The story traces real-life spark, notebook, voice master clock, beats, Godot, props, microscopic polish and export.",
+  "actual_film_still_paths_viewed": [
+    "nemi/episodes/ep06_how_i_animate/thumbnail/reference_1.png",
+    "nemi/episodes/ep06_how_i_animate/thumbnail/reference_2.png"
+  ],
+  "references_viewed": [
+    "references/thumbnail_ref/thumbnails_set_1.png",
+    "references/thumbnail_ref/thumbnails_set_2.png",
+    "references/thumbnail_ref/thumbnails_set_3.png",
+    "renders/thumbnail_promotional_2026-10-06/overview.jpg"
+  ],
+  "sources": {
+    "nemi/episodes/ep06_how_i_animate/audio/source/EP06_Script.md": {
+      "sha256": "2a475ae3bf49114348790fcaf988c0fe78b587868b356fdaa66f48ef0c105045",
+      "bytes": 6491
+    },
+    "nemi/episodes/ep06_how_i_animate/thumbnail/reference_1.png": {
+      "sha256": "da5d3f338571adc47fc6d16e31d801439c3a38084be83b51e4f245b23a560aea",
+      "bytes": 53201
+    },
+    "nemi/episodes/ep06_how_i_animate/thumbnail/reference_2.png": {
+      "sha256": "f28b508d0bc6353e84c83aa8ddb9987cd60a6d4f97026e7978105b39cf36ff14",
+      "bytes": 79936
+    },
+    "nemi/episodes/ep06_how_i_animate/thumbnail/source_review.json": {
+      "sha256": "d3f26113353ba3fadc2ed38e1d50f05ed45c9f4218e65cb771c90f46088ac6c7",
+      "bytes": 1313
+    },
+    ".agents/skills/nemi-storytime/SKILL.md": {
+      "sha256": "6552b929559b6fcae3221943bb72225a1ce4b0f4898604246245e9c56b12dab4",
+      "bytes": 7125
+    },
+    ".agents/skills/adb-storytime/SKILL.md": {
+      "sha256": "2a617792a4aef0a19070ae59c41e0f06d65e3520605172f0fbb1cf0c5cde8a90",
+      "bytes": 7167
+    },
+    "docs/animation/STORYTIME_THUMBNAILS.md": {
+      "sha256": "a0c563ca45ddb6ad35e44669e6b34ef1851bc655d03924126232c7fa8a2bb270",
+      "bytes": 11389
+    },
+    "tools/storytime/THUMBNAIL_PROMOTIONAL_LAYOUT.md": {
+      "sha256": "01255865541f2f34d9490e627832c4d2b931b44ee92ba7258bfebb831ac0c0c0",
+      "bytes": 4728
+    },
+    "references/thumbnail_ref/thumbnails_set_1.png": {
+      "sha256": "93076151d5eec6880d7fdc2330c6984b0d6fe2b293a11fcd67e42107763fd4fb",
+      "bytes": 5027271
+    },
+    "references/thumbnail_ref/thumbnails_set_2.png": {
+      "sha256": "cd76050367932f2bdecfbff9debe6006dd5b3f169c404484960ec0ba1ebfccca",
+      "bytes": 5525478
+    },
+    "references/thumbnail_ref/thumbnails_set_3.png": {
+      "sha256": "8ef5f1b1852a63fdd04d95b6b969a54ed4a2ce5aac746ae1df0f20a556f100fb",
+      "bytes": 3818715
+    },
+    "renders/thumbnail_promotional_2026-10-06/overview.jpg": {
+      "sha256": "bafa2991812f95f3a7fc469a139f8e9f4bdbe4397d2ca7386a0e71d98bbd544c",
+      "bytes": 466608
+    }
+  },
+  "authored_before_art": true,
+  "reused_art": [
+    "res://nemi/characters/nemi/nemi.tscn"
+  ],
+  "new_supporting_art": "Original promotional vector illustration through existing held LiveDrawing route; AI-assisted direction/code, no image generation",
+  "visual_export_review": "pending",
+  "audience_ctr": "unmeasured",
+  "static_validation": "Existing static promotional validator passed both JSON layouts and referenced resource paths. GPU parse/render/visual review pending."
+}

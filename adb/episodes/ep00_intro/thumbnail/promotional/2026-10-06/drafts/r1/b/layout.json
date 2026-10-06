@@ -1,0 +1,90 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "adb",
+  "episode": "ep00_intro",
+  "variant": "b",
+  "revision": "promotional_collection_r1",
+  "title": "From National Table Tennis to My First Animation",
+  "thumbnail_phrase": "NEW GAME?",
+  "story_evidence": "ADB introduces himself as an engineer, former national-level table-tennis player and new animator with no idea what he is doing; thousands of drawings compete with his existing activities. Vortex and hybrid object are invented comic promotional metaphors.",
+  "application": "One original colossal hybrid paddle/drawing pencil is gripped by ADB and dominates the frame. Court corner and warm/plum diagonal sell his move into animation; left portrait is distinct from the work-vortex composition.",
+  "background": {
+    "top": "#e8ddd3",
+    "bottom": "#d4c7c4"
+  },
+  "headline": [
+    {
+      "text": "NEW GAME?",
+      "position": [
+        976,
+        56
+      ],
+      "size": 167,
+      "max_width": 820,
+      "color": "#573c56",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://adb/episodes/ep00_intro/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "adb",
+      "author": "adb",
+      "rig": "res://adb/characters/adb/ADB.tscn",
+      "position": [
+        388,
+        1240
+      ],
+      "scale": 5.3,
+      "recipe": "uncertain",
+      "expression": "confused",
+      "mouth": "small_o",
+      "eyes": 1.04,
+      "gaze": [
+        0.83,
+        -0.23
+      ],
+      "tilt": 4,
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            70,
+            -61
+          ],
+          "angle": 160,
+          "hand": "fist"
+        }
+      ]
+    },
+    {
+      "type": "scenery",
+      "source": "res://adb/episodes/ep00_intro/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "hybrid",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "angle": 0,
+      "attachment": {
+        "actor": "adb",
+        "hand": "right",
+        "grip_local": [
+          0,
+          0
+        ]
+      },
+      "grip_overlay": true
+    }
+  ]
+}

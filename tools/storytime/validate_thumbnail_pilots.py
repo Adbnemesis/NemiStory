@@ -7,7 +7,7 @@ import math
 import re
 
 ROOT = Path(__file__).resolve().parents[2]
-MANIFEST = ROOT / 'tools/storytime/thumbnail_promotional_2026-10-06.json'
+MANIFEST = ROOT / 'tools/storytime/thumbnail_promotional_collection.json'
 
 
 def resource(value):
@@ -54,10 +54,12 @@ def validate(path):
         if layer['type'] == 'character':
             assert layer['id'] not in ids, layer['id']
             ids.add(layer['id'])
-            assert layer['author'] in ('adb', 'nemi'), layer
+            assert layer['author'] in ('adb', 'nemi', 'legacy_adb'), layer
             rig = resource(layer['rig'])
-            expected = 'adb/characters/adb/ADB.tscn' if layer['author'] == 'adb' else 'nemi/characters/nemi/nemi.tscn'
+            expected = {'adb':'adb/characters/adb/ADB.tscn', 'nemi':'nemi/characters/nemi/nemi.tscn', 'legacy_adb':'nemi/characters/old_adb/OldADB.tscn'}[layer['author']]
             assert rig == ROOT / expected, rig
+            if layer['author'] == 'legacy_adb':
+                assert layout['episode'] == 'ep02_partner', 'Historical rig only for its historical episode'
             if layer['author'] == 'adb':
                 assert layer['recipe'] in recipes['adb'], layer['recipe']
             for target in layer.get('hand_targets', []):

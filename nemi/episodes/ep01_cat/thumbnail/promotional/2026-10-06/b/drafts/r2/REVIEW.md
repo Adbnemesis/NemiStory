@@ -1,0 +1,1 @@
+R2 source phrase fit below the supported120px minimum, so the graphics export failed the headline check. Preserved for diagnosis; not a reviewed delivery. R3 widens the phrase field inside the same bubble.

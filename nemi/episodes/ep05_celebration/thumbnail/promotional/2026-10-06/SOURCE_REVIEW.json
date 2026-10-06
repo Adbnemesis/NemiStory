@@ -1,0 +1,45 @@
+{
+  "read_in_full": [
+    {
+      "path": "nemi/episodes/ep05_celebration/EP05_Script.md",
+      "sha256": "75ca7519b09fc62d79621254493b7e0b03b87000394fb9c7cf36d83fca1dbe0a"
+    }
+  ],
+  "actual_film_stills_inspected": [
+    {
+      "path": "nemi/episodes/ep05_celebration/thumbnail/reference_1.png",
+      "sha256": "92ccd6f4f9ad9f4f6f2f4f94ac8ffa7640c521de9be8a058681f1aaad0b7a21c"
+    },
+    {
+      "path": "nemi/episodes/ep05_celebration/thumbnail/reference_2.png",
+      "sha256": "6c524353a06b1ddf1796dd20fd6a1020957425c975b8131a1f0e8a56964f4d46"
+    }
+  ],
+  "reference_sets_inspected": [
+    {
+      "path": "references/thumbnail_ref/thumbnails_set_1.png",
+      "sha256": "93076151d5eec6880d7fdc2330c6984b0d6fe2b293a11fcd67e42107763fd4fb"
+    },
+    {
+      "path": "references/thumbnail_ref/thumbnails_set_2.png",
+      "sha256": "cd76050367932f2bdecfbff9debe6006dd5b3f169c404484960ec0ba1ebfccca"
+    },
+    {
+      "path": "references/thumbnail_ref/thumbnails_set_3.png",
+      "sha256": "8ef5f1b1852a63fdd04d95b6b969a54ed4a2ce5aac746ae1df0f20a556f100fb"
+    }
+  ],
+  "promotional_overview_inspected": {
+    "path": "renders/thumbnail_promotional_2026-10-06/overview.jpg",
+    "sha256": "bafa2991812f95f3a7fc469a139f8e9f4bdbe4397d2ca7386a0e71d98bbd544c"
+  },
+  "style_findings": "Actual film stills show green-outfit colour Nemi, simple warm burgundy ink/fill, comic analytics surprise and comment bubbles. Preserve the recognizable canonical design and author profile.",
+  "rig_sources": [
+    {
+      "path": "nemi/characters/nemi/nemi.tscn",
+      "sha256": "0396e0634e9acdc1e99398888621cdbd1f00a0680f6ad52116dd763e01f79106"
+    }
+  ],
+  "source_preservation": "No episode, voice, movie, canonical rig, hand, pose or expression library edits. Existing deliveries remain untouched.",
+  "gpu_export_and_visual_qa": "Root GPU captured both variants. Agent inspected each full JPG, native 160/90 and the 320/180 dark-feed tiles; exact performed review and inspected JPG hashes are saved per variant. Native 4K visual inspection and audience performance not claimed."
+}

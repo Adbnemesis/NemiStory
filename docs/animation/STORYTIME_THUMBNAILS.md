@@ -6,7 +6,7 @@ The user requests original promotional illustrations for every ADB and Nemi epis
 
 **No fixed channel background, palette, font, layout or mandatory aura.** The former gold-ADB/blue-Nemi collection is superseded as a design rule. Choose the background, doodles, typography, props, expression, crop and headline together for the promotional idea. Reference thumbnails can inform composition, character interaction and visual wit; do not copy their finished illustrations or import their anime rendering into our art.
 
-Use **one eye-catching headline only**, optionally split across lines. Omit small captions, labels, branding and secondary copy. Punctuation can support that headline. White silhouette outlines/soft aura and completed author-profile doodles remain available when they improve separation or clarify the event; omit them when unnecessary. An episode-specific palette can reuse a successful colour, but it is a deliberate story choice, never an inherited channel default.
+Create **two distinct promotional concepts per episode**, each paired with a complementary proposed video title. They should differ in visual idea or composition, not just colour or wording. Use **one eye-catching headline per image**, optionally split across lines. Omit small captions, labels, branding and secondary copy. Punctuation can support that headline. White silhouette outlines/soft aura and completed author-profile doodles remain available when they improve separation or clarify the event; omit them when unnecessary. An episode-specific palette can reuse a successful colour, but it is a deliberate story choice, never an inherited channel default.
 
 No AI image generation or restyling. Keep the canonical main-character rigs, face construction and supported acting controls. Existing episode props/scenery are available references and resources, not the only allowed artwork. Author new supporting characters, props, backgrounds and visual metaphors in editable Godot/vector art through the shared illustration route, matching the episode's fill, ink and shape language. Use the narrator's pen profile for authored marks. Ordinary crop, typography, resizing and packaging tools can finish native captures. Do not replace a main character with an independently drawn lookalike or copy an old generated character/face. Record reused and newly authored artwork separately in the provenance.
 
@@ -18,7 +18,7 @@ The user explicitly authorized redesigning all existing numbered episodes: ADB E
 
 ## Read the story, then invent the promotional idea
 
-For thumbnail work, load the narrator’s storytime skill and this guide. Read the episode script/direction, inspect actual movie stills and read the existing rig/prop APIs required by the composition. Save episode-specific evidence and application notes in `thumbnail/BRIEF_AND_REVIEW.md` before composing. Do not create a new episode or fabricate animation-preflight receipts for a static image. Full episode preparation, validation and movie proofs still apply when animation work is separately requested.
+For thumbnail work, load the narrator’s storytime skill and this guide. Read the episode script/direction, inspect actual movie stills and read the existing rig/prop APIs required by the composition. Save episode-specific evidence and application notes before composing in the current promotional revision’s `BRIEF.md` under `thumbnail/promotional/`; legacy single-image work uses `thumbnail/BRIEF_AND_REVIEW.md`. Do not create a new episode or fabricate animation-preflight receipts for a static image. Full episode preparation, validation and movie proofs still apply when animation work is separately requested.
 
 Use the script to understand the subject, emotional stakes and payoff; use actual movie frames to match the character and drawing style. This reading is context for invention, not a requirement to extract the movie's props and arrange them into a poster. Start from a compelling audience question, then explore original visual concepts that express it. A crush might become overwhelming oversized hearts or comic personal-space tension; animation work might become a mountain of unruly drawings. These are promotional metaphors, not claims that those exact scenes were filmed. Save that distinction in the brief. Preserve a reveal when it is the video's payoff.
 
@@ -42,22 +42,20 @@ A native 3840×2160 vector capture supplies the master; deliver 1920×1080 JPG/P
 
 Save dimensions, file sizes, hashes, exact sources, render command/log, the promotional idea, its relationship to the episode and performed/unperformed checks. Use honest provenance: **Godot render with canonical production rigs and reused/newly authored supporting art; AI-assisted direction/code** where appropriate. Do not label AI-assisted vector direction as entirely human handmade. No generative image service belongs to this workflow.
 
-## Earlier editable examples
+## Current two-concept collection and tools
 
-`tools/storytime/thumbnail_collection.json` lists the earlier twelve deliveries. `ThumbnailEpisodeSet.gd` and `ThumbnailStoryArt.gd` provide reusable static capture, rig and type mechanisms, but their layouts are not the active creative standard. New promotional compositions can author their own supporting illustration in the episode's `thumbnail/` while preserving those sources. Background kinds are implementation examples, not mandatory templates for future episodes.
+The current [all-episode collection](PROMOTIONAL_THUMBNAIL_COLLECTION.md) indexes two independently directed promotional images and title pairs for every numbered ADB/Nemi episode. `tools/storytime/thumbnail_promotional_collection.json` is the active manifest. The first six promotional directions and earlier literal/uniform deliveries remain preserved as historical work.
 
-Each episode’s `thumbnail/render_thumbnail.gd` delegates its own layout. From the repository root with the installed Godot executable:
+Editable examples live in each episode’s `thumbnail/promotional/2026-10-06/`: `BRIEF.md`, source/style evidence, newly authored artwork, and A/B variant layouts/exports/QA. `tools/storytime/THUMBNAIL_PROMOTIONAL_LAYOUT.md` documents the static format and a saved complete example. Reuse the mechanisms, not an episode’s visual concept. The [ordered illustration helper](../../tools/storytime/ThumbnailIllustration.gd) prepares held components through the existing LiveDrawing route so foreground fills correctly cover earlier ink.
 
-```sh
-"$GODOT_BIN" --path . --log-file /tmp/story_thumbnails.log --script tools/storytime/ThumbnailEpisodeSet.gd
-```
-
-Render a single current image with its per-episode entry point, or supply `-- --layout=res://<author>/episodes/<episode>/thumbnail/layout.json` to the collection renderer. Layouts record exact headline/font, independent background and placements, existing rig/prop sources, optional aura/marks and story evidence. The previous uniform collection and first standalone taxi/crush sources are preserved under each episode’s revisions; they are historical examples, not current design constraints.
-
-Package the current deliveries without changing their artwork:
+From the repository root:
 
 ```sh
-.venv/bin/python tools/storytime/package_thumbnails.py --output renders/thumbnail_story_collection_2026-10-05
+.venv/bin/python tools/storytime/validate_thumbnail_pilots.py
+"$GODOT_BIN" --path . --log-file /tmp/promotional.log --script tools/storytime/ThumbnailPromotional.gd
+.venv/bin/python tools/storytime/package_promotional_thumbnails.py
 ```
 
-This checks image dimensions and ZIP hashes/contents and creates named JPGs, a gallery and review sheets. It does not perform or claim visual approval; inspect the exported sheets separately.
+For one image, validator `--layout <project-relative-layout>` and renderer `-- --layout=res://<layout>` are supported. Alternate collections use validator/package `--manifest <path>` and renderer `-- --manifest=res://<manifest>`; packaging also accepts `--output <project-relative-folder>`. Preserve prior revisions before replacement. Check render errors in addition to completion markers; source/geometry checks and package hashes do not substitute for visual review.
+
+The package includes named upload JPGs, text-free artwork, paired titles, a filterable gallery, author overviews and paged light/dark feed reviews. Local 4K masters remain beside source. Inspect each full delivery and every reduced page; record honestly if a native master or gallery interaction was not inspected. Do not upload or report a test result unless that action actually occurred within the user’s authorization.

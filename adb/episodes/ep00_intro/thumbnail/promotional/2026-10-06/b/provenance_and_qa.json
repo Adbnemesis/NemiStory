@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-06",
+  "collection": "24 candidates /12 episodes /2 per episode",
+  "episode": "adb/episodes/ep00_intro",
+  "variant": "b",
+  "revision": "promotional_collection_r2",
+  "title": "From National Table Tennis to My First Animation",
+  "headline": "NEW GAME?",
+  "method": "Canonical main-character Godot rig/face with newly authored promotional supporting art/metaphor; AI-assisted direction/vector code. No image-generation service. Pillow for packaging and review sheets only.",
+  "brief": "../BRIEF.md",
+  "metaphor_vs_film": "ADB introduces himself as an engineer, former national-level table-tennis player and new animator with no idea what he is doing; thousands of drawings compete with his existing activities. Vortex and hybrid object are invented comic promotional metaphors.",
+  "source_dependency_hashes": {
+    "adb/characters/adb/ADB.gd": "5b942fde4ac4251ea0f1070f503286d64b220ca0f175d42f9eb9f273c23679cb",
+    "adb/characters/adb/ADB.tscn": "631f6b6e9a88fd5db03fc7273edf915417991736982a7633989224066529f858",
+    "adb/characters/adb/ADBGeometry.gd": "e4cb4dffa00e1be398699742996aca8ca5616a0fc91a1109f28db3024c8d7446",
+    "adb/characters/adb/ADBStyle.gd": "66da8c61efc4011e0f5d3f9b775e74dd6131128b2d6639e81595eb05df9ec020",
+    "adb/episodes/ep00_intro/Episode00Subtitles.gd": "22ff3e4901543531c247bef3fd0ee098510bd64f1e0516874f4bdf849fc817e1",
+    "adb/episodes/ep00_intro/props/ADBIntroProps.gd": "3370f144a11d6fb35caa69ebc04d07d0030ca8107d09267a27fe5653871bc13a",
+    "adb/episodes/ep00_intro/thumbnail/promotional/2026-10-06/PromoArt.gd": "322d834138e653994095308d4b81bc0aabf7cb058d7d560f549de5e9a44a9822",
+    "adb/episodes/ep00_intro/thumbnail/promotional/2026-10-06/b/layout.json": "e6d94160ef35cdd2c8ae79ea74cef9c9f6b50927a21d409843b3b78331c9b9ab",
+    "adb/expressions/ADBFace.gd": "1b07c17cabb5a4642a7ee8179d4f3fa2e5dbcb898bba6c989b9de3b8ee5c880b",
+    "adb/hands/ADBHands.gd": "f28cbf122ad8c84b5b84a36123887ee1cfeb55c1043cbc9851f88cecf2a7b462",
+    "adb/lipsync/ADBLipSync.gd": "3be756eb1601a71a8851424b0d85c066c9ffa570054b2758a01fb88bc459c9f2",
+    "adb/poses/ADBPoseLibrary.gd": "08484b9d2dfdd476d4275076ca5d8b41ac7d2a826e2e2ed5b4341aca5b09dbf0",
+    "assets/fonts/Caveat-Bold.ttf": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+    "assets/fonts/GochiHand-Regular.ttf": "c46b029ab4846b2935e301af0b2cf85a1d74d2858e6a33636a3e64cf3cc4696b",
+    "assets/fonts/Impact.ttf": "57e95627fd36fe2740e5ee8a91ff1ae74fb216df9580bd23e30d6772814727be",
+    "assets/fonts/PatrickHand-Regular.ttf": "0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc",
+    "common/assets/lettering/story_pen.json": "c80163ee9dd5c4b3a746e55bf6610fcf7545bd30dfe83fd86c54c85d88495560",
+    "common/engine/drawing/CommonInkStroke.gd": "ae5ca335a8c8642913a17a626de6d4398d2464c7c536f4135cf2d2d3d0bd37dd",
+    "common/engine/illustration/DrawnLettering.gd": "86477617f992a5798b42b83cc087df7e0e044546af28867c66203fb4e2cce08f",
+    "common/engine/illustration/LiveDrawing.gd": "dea367dfed47fc444d9228023b3229237384c01086e2d8d7ad4997f1169612ba",
+    "common/engine/illustration/LiveInk.gd": "85a7dfec5b1e065014dab0dd43b80a30c2282fb9ba7397d05b83fec8c7e85cdd",
+    "common/storytime/PerformancePlayer.gd": "a19d1bbe544a8c942652dc705a7e61acb8d66e98ca46de0ebd1600fa0d9ba0fd",
+    "common/storytime/ProfileAssets.gd": "2ccc4e013c4538637c2b746d488f633857f5abb8003436537e4c746b9c661dbf",
+    "common/storytime/performances/recipes.json": "6e2326bb52e0fca44c9b4cdd07374fc83a0b5c6a78adef3ed983dd3918d51ea0",
+    "common/storytime/production/ActingTimeline.gd": "89809f3655f3852d4cf535c8f67fa91547599f40f27457c47cc853189b5b26f1",
+    "common/storytime/production/Backdrop.gd": "14a1d973843861d4d0741615eddfb77b504b0468f7e36e31f36e85a110654fd2",
+    "common/storytime/production/HandPaths.gd": "f87567e0d68c7450c4630fa96ef631b02841d75990ebc91af7fee2e666d19e73",
+    "common/storytime/production/Motion.gd": "a7925159ef57d0f13b6d96f93cb4ee303e6dbc084f174170848ed36b16fd29ec",
+    "common/storytime/production/SceneArt.gd": "86ac79c7c57d54a0939240bc7e765be35f9a8cfaeab73ce9d63421353169f8e9",
+    "common/storytime/production/SchoolArt.gd": "07a10dd451ffe2aa79805ccd53d4ccf71d7e46112bd433ee3cdf54e12b99e5c5",
+    "common/storytime/production/SchoolBackdrop.gd": "a946f4aef9b8b9a2863b3355197adc0058573cf0d0f35eb4636543dc5c38f8f6",
+    "common/storytime/production/SchoolGags.gd": "a4d7d1d89a2562fcdf667345f0395f4105870d823a414198708dd20ed7b3b8a8",
+    "common/storytime/production/TravelArt.gd": "f8a1c6b308232c4acc8f6b7418a2fb746cf5086d2c6a68435eaeea450f71704f",
+    "common/storytime/profiles/adb.json": "ca5a41a8b41ec55aca8d8e0e0653bfaa8cd612ca215cae3659cc4f21fb8d431d",
+    "common/storytime/profiles/adb_lettering.json": "e906def8f06d1fb35dfbc7f66c50a42ac47bcc4c5e514dddfb69feb39ef54393",
+    "nemi/characters/neeko/Neeko.gd": "bca2b5e023fb33c78498c2adbe17ee8556b743ea7ced08b99e8c3f1c24589e79",
+    "nemi/characters/neeko/Neeko.tscn": "e7f9d8415c7c95819012d4dfd4589bb9dbcee5c0a63f3e88aa217602166feadd",
+    "nemi/characters/nemi/NemiPose.gd": "5470214d8df90fa8fad97c0b199b119471fc1612cc0129c956cb6e0e3e05c8ed",
+    "nemi/episodes/ep04_scared/Ep04Doodles.gd": "a40f21bf3e252d37c784215a0ef99d35c03fdfdd5538f8b6931c6f64ca4e4179",
+    "nemi/episodes/ep05_celebration/Ep05Doodles.gd": "1b134a1ad5d18c4e0b3fcdcbcf90bfc55a8d3c15838e7a4b8d2d602a8b973d26",
+    "tools/storytime/ThumbnailBatch.gd": "65d4128c9ca40c32bf6096e997aaf4617613e8f7315c890a726f7d57a30319fe",
+    "tools/storytime/ThumbnailEpisodeSet.gd": "c72afee01e152b82293b9d5f6b57fe437d521635b9c227d3ceda56cccc97a20c",
+    "tools/storytime/ThumbnailIllustration.gd": "95f09aed8847abac7a1bd74d72ba2e903ced64c58d6b95d2d965d54373261e61",
+    "tools/storytime/ThumbnailPilot.gd": "f5198efa1cbdb2cd7851263fc42ae7b3cc5239c512b21fd3d9b495bef08ba31a",
+    "tools/storytime/ThumbnailPromotional.gd": "0f1c87fde773b357b75d6d8ffa3042bfdf89dde37c4020b559058abcedf50b1d",
+    "tools/storytime/ThumbnailStoryArt.gd": "66cb4adcfecff511d0796645a0b1426457ca9fd6a5f74672245dbb3dc931476c",
+    "tools/storytime/ThumbnailStyle.gd": "abc2b5ec845ac4151ae0c38c6536017130cce9fcdbae4e0711adab83f2cc8b1d",
+    "tools/storytime/thumbnail_collection.json": "328eb6ef39c6e344026a6b2a66119e27b42fd87fdd1d0e6fa86c828f1e8cf742",
+    "tools/storytime/thumbnail_pilots_2026-10-06.json": "001b352ac87e8e3a711f991a2fdd69e2453df3e82d268e28649e29eb407ac425",
+    "tools/storytime/thumbnail_promotional_collection.json": "c83b3ddb56adbbd597555a854e295fb0d3e3447f55bddbfc0b5adf6bd0c00739"
+  },
+  "outputs": {
+    "thumbnail.jpg": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 234391,
+      "sha256": "81e33c511c2667b3fc15484f2954b8815f45a5338e7ceb30becafe8d7c1e3b20"
+    },
+    "thumbnail.png": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 563161,
+      "sha256": "ea3347b61ffda38d9a9ce30a95d3149ad12facbe2df5d60846117ef1627871c1"
+    },
+    "thumbnail_master_4k.png": {
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "bytes": 732807,
+      "sha256": "abcadd45a45348c5ec425e58f17652e43fbce113ebc33d8552bab2d1697e6ad8"
+    },
+    "thumbnail_phone.png": {
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 56114,
+      "sha256": "416113fe257deb7498a0ccad6675d6418f6fc49fb6594603ba7ab2e4e8344e9b"
+    },
+    "thumbnail_tiny.png": {
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 22208,
+      "sha256": "a434e4d12f81c5e2498d1142f9aefd0d5b7440ec64d158a04739214dc5d2310f"
+    },
+    "scene_without_text.png": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 520464,
+      "sha256": "8b1f6d34ce866a5d519e7ac10f6c8c454f5fcdbee923388d8de5618ca2f3913e"
+    }
+  },
+  "render_command": "/Users/talus/Downloads/Godot.app/Contents/MacOS/Godot --path . --log-file /tmp/thumbnail_all_final_clean.log --script tools/storytime/ThumbnailPromotional.gd",
+  "render_check": "Final graphics export passed 24 variant completion markers and collection marker, without error/warning entries. Static source validation passed before rendering.",
+  "inspection": {
+    "full_delivery": "New paddle\u2013pencil perspective object now clears headline; main face and wrist contact remain readable.",
+    "feed_pages_actually_viewed": [
+      "feed_dark_320_p01.png: native320x180 art, paired title, mock duration badge inspected",
+      "feed_dark_320_p02.png: native320x180 art, paired title, mock duration badge inspected",
+      "feed_dark_320_p03.png: native320x180 art, paired title, mock duration badge inspected",
+      "feed_dark_320_p04.png: native320x180 art, paired title, mock duration badge inspected",
+      "feed_light_320_p01.png: all six native-size images, paired titles and mock duration badges inspected",
+      "feed_light_320_p02.png: all six native-size images, paired titles and mock duration badges inspected",
+      "feed_light_320_p03.png: all six native-size images, paired titles and mock duration badges inspected",
+      "feed_light_320_p04.png: all six native-size images, paired titles and mock duration badges inspected",
+      "feed_dark_160_p01.png: all six native-size images, paired titles and mock duration badges inspected",
+      "feed_dark_160_p02.png: all six native-size images, paired titles and mock duration badges inspected",
+      "feed_dark_160_p03.png: all six native-size images, paired titles and mock duration badges inspected",
+      "feed_dark_160_p04.png: all six native-size images, paired titles and mock duration badges inspected"
+    ],
+    "native_master": "All 3840\u00d72160 decoded/dimension-checked; not individually visually inspected.",
+    "limits": "Visual review by assistant, not measuredCTR or user approval of each new image."
+  },
+  "contact_check": {
+    "contacts": [
+      {
+        "actor": "adb",
+        "error_native_px": 0.0,
+        "grip_local": [
+          0.0,
+          0.0
+        ],
+        "hand": "right",
+        "prop": "res://adb/episodes/ep00_intro/thumbnail/promotional/2026-10-06/PromoArt.gd",
+        "wrist": [
+          759.0,
+          916.699951171875
+        ]
+      }
+    ],
+    "space": "logical 1920x1080; errors in native 4K capture pixels",
+    "variant": "b"
+  },
+  "preservation": "Twelve previous delivery hashes verified unchanged. Existing rigs, character/hand/pose/expression libraries, movies, scripts and voices untouched; prior six promotional source and exploratory drafts retained.",
+  "performance_status": "Proposed creative candidates; no platform upload or live audience result."
+}

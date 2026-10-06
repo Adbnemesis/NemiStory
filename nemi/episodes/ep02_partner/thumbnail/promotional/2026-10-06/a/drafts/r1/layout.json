@@ -1,0 +1,111 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep02_partner",
+  "variant": "a",
+  "revision": "promotional_collection_r1",
+  "title": "How Random Memes Turned Into My Relationship",
+  "thumbnail_phrase": "JUST TEXTING?",
+  "story_evidence": "Online college during lockdown, two to three months of texting and memes until 3 AM led to a partnership. Exact historical goggles ADB kept.",
+  "application": "Giant perspective phones send a newly drawn chat ribbon through an enormous warm heart. Invented promotional metaphor, not an episode screenshot or real quoted messages.",
+  "background": {
+    "top": "#ee9b9f",
+    "bottom": "#a3c6cd"
+  },
+  "headline": [
+    {
+      "text": "JUST",
+      "position": [
+        865,
+        51
+      ],
+      "size": 157,
+      "max_width": 390,
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "color": "#513541",
+      "outline": 0,
+      "angle": 2,
+      "shadow_color": "#00000000"
+    },
+    {
+      "text": "TEXTING?",
+      "position": [
+        806,
+        170
+      ],
+      "size": 149,
+      "max_width": 490,
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "color": "#513541",
+      "outline": 0,
+      "angle": 2,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep02_partner/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        380,
+        1200
+      ],
+      "scale": 4.7,
+      "angle": -4,
+      "pose": "hand_near_cheek",
+      "expression": "embarrassed",
+      "eyes": 1.1,
+      "pupils": 0.9,
+      "gaze": [
+        0.6,
+        0.15
+      ],
+      "tilt": 4,
+      "mouth": "smile",
+      "hand_targets": [
+        {
+          "side": "left",
+          "head_offset": [
+            -32,
+            -11
+          ],
+          "hand": "hand_to_cheek",
+          "angle": -10
+        }
+      ]
+    },
+    {
+      "type": "character",
+      "id": "adb",
+      "author": "legacy_adb",
+      "rig": "res://nemi/characters/old_adb/OldADB.tscn",
+      "position": [
+        1525,
+        1150
+      ],
+      "scale": 4.45,
+      "angle": 5,
+      "expression": "cute"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep02_partner/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "foreground"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep02_partner/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "burst"
+    }
+  ]
+}

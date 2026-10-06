@@ -1,5 +1,7 @@
 # Original promotional thumbnail directions — 6 October 2026
 
+These first six candidates are now included in the [complete 24-image collection](PROMOTIONAL_THUMBNAIL_COLLECTION.md), which covers two concepts for every episode.
+
 The user rejected the literal-scene pilot direction and requested original, striking promotional illustration in the animation style. These six new candidates express the episode's subject through invented cover art, scale, perspective, interaction and visual metaphor. Main ADB/Nemi faces and rigs are canonical; supporting illustration is newly authored in Godot. No image-generation service was used.
 
 | Episode | Version | Proposed title | Single phrase | Promotional idea |

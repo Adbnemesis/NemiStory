@@ -1,0 +1,101 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep00_introduction",
+  "variant": "a",
+  "revision": "promotional_collection_r1",
+  "title": "My First Animation Was a Terrible Idea",
+  "thumbnail_phrase": "NAILED IT.",
+  "story_evidence": "Nemi opens with her terrible teacup-hand drawing resembling an angry ginger root and later describes four hours on one arm movement. New giant root and tangled animation strip are promotional metaphors, not factual scenes or alterations of the main rig.",
+  "application": "A new giant lumpy ginger-root hand with ceramic cup breaks out of a tilted page. A huge foreshortened pencil is anchored to the canonical right hand while the left touches the embarrassed cheek. New original illustration scales the real opening joke into a witty cover.",
+  "background": {
+    "top": "#c7dac0",
+    "bottom": "#e7e4c9"
+  },
+  "headline": [
+    {
+      "text": "NAILED IT.",
+      "position": [
+        1197,
+        58
+      ],
+      "size": 166,
+      "max_width": 629,
+      "color": "#5f3b43",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep00_introduction/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1538,
+        1190
+      ],
+      "scale": 5.2,
+      "pose": "hand_near_cheek",
+      "expression": "embarrassed",
+      "mouth": "small_open",
+      "eyes": 1.02,
+      "pupils": 0.86,
+      "gaze": [
+        -0.88,
+        -0.13
+      ],
+      "tilt": -5,
+      "hand_targets": [
+        {
+          "side": "left",
+          "head_offset": [
+            -44,
+            -2
+          ],
+          "hand": "hand_to_cheek",
+          "angle": 170
+        },
+        {
+          "side": "right",
+          "position": [
+            -89,
+            -63
+          ],
+          "hand": "hold_prop",
+          "angle": 15,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep00_introduction/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "pencil",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "angle": 0,
+      "attachment": {
+        "actor": "nemi",
+        "hand": "right",
+        "grip_local": [
+          0,
+          0
+        ]
+      },
+      "grip_overlay": true
+    }
+  ]
+}

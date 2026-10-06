@@ -1,0 +1,129 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep06_how_i_animate",
+  "variant": "a",
+  "revision": "promotional_collection_r1",
+  "title": "How I Actually Make These Animations",
+  "thumbnail_phrase": "40 TRACKS?!",
+  "background": {
+    "top": "#eee0c8",
+    "bottom": "#f6ddbc"
+  },
+  "headline": [
+    {
+      "text": "40",
+      "position": [
+        175,
+        54
+      ],
+      "size": 180,
+      "max_width": 435,
+      "color": "#493441",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "angle": -3,
+      "outline": 0,
+      "shadow_color": "#00000000"
+    },
+    {
+      "text": "TRACKS?!",
+      "position": [
+        97,
+        178
+      ],
+      "size": 154,
+      "max_width": 566,
+      "color": "#493441",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "angle": -3,
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep06_how_i_animate/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        800,
+        1080
+      ],
+      "scale": 4.1,
+      "pose": "shock_recoil",
+      "expression": "shocked",
+      "mouth": "surprised",
+      "gaze": [
+        0.65,
+        -0.12
+      ],
+      "eyes": 1.12,
+      "pupils": 0.72,
+      "tilt": -4,
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            81,
+            -51
+          ],
+          "hand": "hold_prop",
+          "angle": -28,
+          "elbow_side": 1
+        },
+        {
+          "side": "left",
+          "position": [
+            -112,
+            -71
+          ],
+          "hand": "splayed",
+          "angle": -45,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "prop",
+      "kind": "script",
+      "id": "PromoStylus",
+      "source": "res://nemi/episodes/ep06_how_i_animate/thumbnail/promotional/2026-10-06/PromoStylus.gd",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 3.9,
+      "angle": -28,
+      "attachment": {
+        "actor": "nemi",
+        "hand": "right",
+        "grip_local": [
+          0,
+          0
+        ]
+      },
+      "grip_overlay": true
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep06_how_i_animate/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "foreground"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep06_how_i_animate/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "burst"
+    }
+  ],
+  "story_evidence": "EP06 full production script: forty keyframe tracks scare Nemi. Original looping timeline/oversized stylus are promotional metaphors for that complexity.",
+  "application": "New keyframe rollercoaster carries a loop around the startled canonical face and sweeps past the gripped stylus into the foreground. Distinct warm-paper/cyan/coral value planes and one compact comic burst; no small interface labels."
+}

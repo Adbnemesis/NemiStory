@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-06",
+  "episode": "ep08_forced_bf_channel",
+  "story_read": "Read every subtitle card. The episode replaces the old design with current ADB, and Nemi repeatedly asks him to start making storytime animations. He says no repeatedly, eventually creates a channel and introduces himself. Use the current canonical ADB main rig, never the historical goggles rig for these covers.",
+  "actual_film_still_paths_viewed": [
+    "nemi/episodes/ep08_forced_bf_channel/thumbnail/reference_1.png",
+    "nemi/episodes/ep08_forced_bf_channel/thumbnail/reference_2.png"
+  ],
+  "references_viewed": [
+    "references/thumbnail_ref/thumbnails_set_1.png",
+    "references/thumbnail_ref/thumbnails_set_2.png",
+    "references/thumbnail_ref/thumbnails_set_3.png",
+    "renders/thumbnail_promotional_2026-10-06/overview.jpg"
+  ],
+  "sources": {
+    "nemi/episodes/ep08_forced_bf_channel/Episode08Subtitles.gd": {
+      "sha256": "f0d59a80f991f975839f50479c25f643139489fc4bd81a0cf7672b51ae06ff47",
+      "bytes": 8241
+    },
+    "nemi/episodes/ep08_forced_bf_channel/thumbnail/reference_1.png": {
+      "sha256": "e97634dd13d7abcd9bcce45005aadb803b6f45e743ceead0f33bb139c46a28a1",
+      "bytes": 55974
+    },
+    "nemi/episodes/ep08_forced_bf_channel/thumbnail/reference_2.png": {
+      "sha256": "2e64d13c1d523c37f7447e00071d99b1ce3c6f950ef65b6aaeecff0ddb06910e",
+      "bytes": 47281
+    },
+    "nemi/episodes/ep08_forced_bf_channel/thumbnail/source_review.json": {
+      "sha256": "ebff19bd81ca2c0c8a74321de2f85da03ebd0a7fe8743401bd62c5d0d52969cf",
+      "bytes": 1869
+    },
+    ".agents/skills/nemi-storytime/SKILL.md": {
+      "sha256": "6552b929559b6fcae3221943bb72225a1ce4b0f4898604246245e9c56b12dab4",
+      "bytes": 7125
+    },
+    ".agents/skills/adb-storytime/SKILL.md": {
+      "sha256": "2a617792a4aef0a19070ae59c41e0f06d65e3520605172f0fbb1cf0c5cde8a90",
+      "bytes": 7167
+    },
+    "docs/animation/STORYTIME_THUMBNAILS.md": {
+      "sha256": "a0c563ca45ddb6ad35e44669e6b34ef1851bc655d03924126232c7fa8a2bb270",
+      "bytes": 11389
+    },
+    "tools/storytime/THUMBNAIL_PROMOTIONAL_LAYOUT.md": {
+      "sha256": "01255865541f2f34d9490e627832c4d2b931b44ee92ba7258bfebb831ac0c0c0",
+      "bytes": 4728
+    },
+    "references/thumbnail_ref/thumbnails_set_1.png": {
+      "sha256": "93076151d5eec6880d7fdc2330c6984b0d6fe2b293a11fcd67e42107763fd4fb",
+      "bytes": 5027271
+    },
+    "references/thumbnail_ref/thumbnails_set_2.png": {
+      "sha256": "cd76050367932f2bdecfbff9debe6006dd5b3f169c404484960ec0ba1ebfccca",
+      "bytes": 5525478
+    },
+    "references/thumbnail_ref/thumbnails_set_3.png": {
+      "sha256": "8ef5f1b1852a63fdd04d95b6b969a54ed4a2ce5aac746ae1df0f20a556f100fb",
+      "bytes": 3818715
+    },
+    "renders/thumbnail_promotional_2026-10-06/overview.jpg": {
+      "sha256": "bafa2991812f95f3a7fc469a139f8e9f4bdbe4397d2ca7386a0e71d98bbd544c",
+      "bytes": 466608
+    }
+  },
+  "authored_before_art": true,
+  "reused_art": [
+    "res://nemi/characters/nemi/nemi.tscn",
+    "res://adb/characters/adb/ADB.tscn"
+  ],
+  "new_supporting_art": "Original promotional vector illustration through existing held LiveDrawing route; AI-assisted direction/code, no image generation",
+  "visual_export_review": "pending",
+  "audience_ctr": "unmeasured",
+  "static_validation": "Existing static promotional validator passed both JSON layouts and referenced resource paths. GPU parse/render/visual review pending."
+}

@@ -1,0 +1,94 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep07_zero_marks",
+  "variant": "a",
+  "revision": "promotional_collection_r2",
+  "title": "I Answered Every Question. I Got Zero.",
+  "thumbnail_phrase": "0/30?!",
+  "background": {
+    "top": "#f8e7c8",
+    "bottom": "#ead8ba"
+  },
+  "headline": [
+    {
+      "text": "0/30?!",
+      "position": [
+        1000,
+        123
+      ],
+      "size": 275,
+      "max_width": 720,
+      "color": "#fff4da",
+      "font": "res://assets/fonts/Impact.ttf",
+      "angle": -12,
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep07_zero_marks/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        507,
+        1130
+      ],
+      "scale": 4.5,
+      "pose": "shock_recoil",
+      "expression": "shocked",
+      "mouth": "surprised",
+      "gaze": [
+        0.92,
+        -0.08
+      ],
+      "eyes": 1.2,
+      "pupils": 0.7,
+      "tilt": -5,
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            120,
+            -86
+          ],
+          "hand": "splayed",
+          "angle": -25,
+          "elbow_side": -1
+        },
+        {
+          "side": "left",
+          "position": [
+            -60,
+            -100
+          ],
+          "hand": "open",
+          "angle": -20,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep07_zero_marks/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "paper"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep07_zero_marks/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "grade"
+    }
+  ],
+  "story_evidence": "All EP07 subtitle cards read: Nemi wrote something for every question and received zero out of thirty. Stamp-meteor and enlarged paper are emotional promotional metaphors, not actual filmed events or a new teacher action.",
+  "application": "The grade itself becomes a huge coral object crashing down diagonally onto a foreshortened full answer page while canonical Nemi recoils. Grade is the only text, with no extra caption. Cream/teal planes against red stamp."
+}
