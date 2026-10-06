@@ -1,0 +1,151 @@
+{
+  "format": "storytime-static-pilot-v1",
+  "author": "nemi",
+  "episode": "ep09_sf_accident",
+  "variant": "b",
+  "title": "My First Solo Trip Ended With a Car Crash",
+  "thumbnail_phrase": "ALMOST HOME",
+  "revision": "pilot_r2",
+  "story_evidence": "Spoken script turns 2 and 15\u201317: first solo trip; highway patrol takes statements/inspects crushed bumper; Nemi breaks down crying. Saved film contact sheets inspected at 95s,100s and104\u2013108.95s. Tissue box is an existing TravelArt asset as editorial crying context, not an object identified in those film stills.",
+  "application": "Emotional cab-interior aftermath, materially different from impact A. Canonical seated Nemi, sad face and cheek contact with existing held Nemi teardrop effect. Crushed taxi and highway patrol car visible outside the window; existing seat and tissue box establish cab space. No officer, arrest, injury or entrapment claim; no invented character drawing.",
+  "background": {
+    "top": "#bdc8c7",
+    "bottom": "#879d99"
+  },
+  "headline": [
+    {
+      "text": "ALMOST HOME",
+      "position": [
+        48,
+        46
+      ],
+      "size": 166,
+      "max_width": 968,
+      "color": "#513541",
+      "font": "res://assets/fonts/Caveat-Bold.ttf",
+      "angle": 0,
+      "outline": 0,
+      "outline_color": "#e6ece5",
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/pilots/2026-10-06/PilotArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "prop",
+      "kind": "scene",
+      "asset": "police_car",
+      "position": [
+        -30,
+        410
+      ],
+      "scale": 0.83,
+      "angle": 0
+    },
+    {
+      "type": "prop",
+      "kind": "scene",
+      "asset": "damaged_car",
+      "position": [
+        590,
+        528
+      ],
+      "scale": 1.31,
+      "angle": 0
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1450,
+        1050
+      ],
+      "scale": 4.5,
+      "pose": "seated_at_desk_relaxed",
+      "expression": "sad",
+      "mouth": "frown",
+      "eyes": 0.83,
+      "pupils": 0.97,
+      "gaze": [
+        -0.18,
+        0.3
+      ],
+      "tilt": -7,
+      "arms": [],
+      "hand_targets": [
+        {
+          "side": "left",
+          "head_offset": [
+            -44,
+            -2
+          ],
+          "hand": "hand_to_cheek",
+          "angle": 170
+        }
+      ]
+    },
+    {
+      "type": "prop",
+      "kind": "script",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/pilots/2026-10-06/HeldTear.gd",
+      "position": [
+        1515,
+        620
+      ],
+      "scale": 3.6,
+      "angle": -5,
+      "controls": {
+        "intensity": 3
+      }
+    },
+    {
+      "type": "prop",
+      "kind": "script",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/pilots/2026-10-06/HeldTear.gd",
+      "position": [
+        1302,
+        622
+      ],
+      "scale": 2.9,
+      "angle": 8,
+      "controls": {
+        "intensity": 2
+      }
+    },
+    {
+      "type": "prop",
+      "kind": "scene",
+      "asset": "seat_front",
+      "position": [
+        0,
+        1020
+      ],
+      "scale": 1.28,
+      "angle": 0
+    },
+    {
+      "type": "prop",
+      "kind": "scene",
+      "asset": "tissue_box",
+      "position": [
+        1075,
+        1010
+      ],
+      "scale": 1.15,
+      "angle": 0
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/pilots/2026-10-06/PilotArt.gd",
+      "variant": "b",
+      "part": "foreground"
+    }
+  ]
+}

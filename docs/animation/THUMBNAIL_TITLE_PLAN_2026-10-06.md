@@ -1,6 +1,6 @@
 # ADB + Nemi thumbnail and title plan
 
-Date: 6 October 2026. Status: proposed creative/test plan, not rendered replacements or measured winners.
+Date: 6 October 2026. Status: the literal-scene art direction below was rejected by the user during production. Retained as historical analysis/test planning. The active creative direction is original promotional illustration, including newly authored supporting art, comic exaggeration and metaphor in the animation style. See `STORYTIME_THUMBNAILS.md` and `PROMOTIONAL_THUMBNAILS_2026-10-06.md` for the revised direction and current candidates. No measured winners.
 
 The user reports roughly 1–2% CTR for the current thumbnails and wants to target at least 20%. We should redesign the packaging around a specific story moment and test title/image pairs. Keep the exact production character art; improve staging, hierarchy and the promise to a new viewer. Start with three pilots before replacing another entire collection.
 

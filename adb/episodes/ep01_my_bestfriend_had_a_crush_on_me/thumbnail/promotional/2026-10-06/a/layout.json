@@ -1,0 +1,78 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "adb",
+  "episode": "ep01_my_bestfriend_had_a_crush_on_me",
+  "variant": "a",
+  "revision": "promo_r2",
+  "title": "My Best Friend Said She Had a Crush on Me",
+  "thumbnail_phrase": "FOR ME?!",
+  "story_evidence": "Serious best-friend confession makes ADB lose composure; prank remains hidden. Envelope and Cupid are explicitly invented promotional metaphors, not film events.",
+  "application": "Original dramatic editorial cover with extreme foreground perspective, diagonal energy and preserved canonical main face. Supporting uniform/identity reused, reaching hand and symbolic props newly authored.",
+  "background": {
+    "top": "#c7c7e6",
+    "bottom": "#edcfd6"
+  },
+  "headline": [
+    {
+      "text": "FOR ME?!",
+      "position": [
+        100,
+        45
+      ],
+      "size": 208,
+      "max_width": 580,
+      "font": "res://assets/fonts/Caveat-Bold.ttf",
+      "color": "#613244",
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "prop",
+      "id": "friend",
+      "kind": "scene",
+      "asset": "school_friend_smile",
+      "position": [
+        240,
+        1140
+      ],
+      "scale": 2.35,
+      "angle": 7
+    },
+    {
+      "type": "character",
+      "id": "adb",
+      "author": "adb",
+      "rig": "res://adb/characters/adb/ADB.tscn",
+      "position": [
+        1340,
+        1460
+      ],
+      "scale": 5.7,
+      "angle": 6,
+      "recipe": "shy_confession",
+      "expression": "shocked",
+      "gaze": [
+        -0.78,
+        0.3
+      ],
+      "eyes": 1.2,
+      "tilt": 8,
+      "blush": 0.85,
+      "mouth": "small_o"
+    },
+    {
+      "type": "scenery",
+      "source": "res://adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "foreground"
+    }
+  ]
+}

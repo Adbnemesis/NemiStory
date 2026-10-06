@@ -1,0 +1,128 @@
+{
+  "format": "storytime-static-pilot-v1",
+  "author": "nemi",
+  "episode": "ep03_scolded",
+  "revision": "pilot_r1",
+  "background": {
+    "top": "#faf3e7",
+    "bottom": "#efe4d3"
+  },
+  "story_evidence": "EP03 script/subtitles: missed freezer task, rock-hard chicken, failed defrost attempts, hairdryer on maximum heat, mother entering kitchen. Actual 79s and 88s film stills inspected; payoff withheld.",
+  "variant": "a",
+  "title": "I Tried to Defrost Chicken With a Hairdryer",
+  "thumbnail_phrase": "MOM'S HOME",
+  "application": "Show the absurd tool-food action, with Nemi visibly holding the canonical dryer and looking toward the opening doorway. One short phrase provides the imminent consequence.",
+  "headline": [
+    {
+      "text": "MOM'S HOME",
+      "position": [
+        70,
+        72
+      ],
+      "size": 174,
+      "max_width": 935,
+      "color": "#ad4544",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 5,
+      "outline_color": "#fff7eb",
+      "shadow_color": "#67442b22"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep03_scolded/thumbnail/pilots/2026-10-06/PilotArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1260,
+        1080
+      ],
+      "scale": 4.5,
+      "pose": "relaxed_standing",
+      "expression": "nervous",
+      "mouth": "wavy",
+      "eyes": 1.15,
+      "pupils": 0.78,
+      "gaze": [
+        0.9,
+        -0.1
+      ],
+      "tilt": 4,
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            -43,
+            -80
+          ],
+          "hand": "hold_prop",
+          "angle": 0,
+          "elbow_side": 1
+        },
+        {
+          "side": "left",
+          "position": [
+            -111,
+            -50
+          ],
+          "hand": "open",
+          "angle": 48,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep03_scolded/thumbnail/pilots/2026-10-06/PilotArt.gd",
+      "variant": "a",
+      "part": "foreground"
+    },
+    {
+      "type": "prop",
+      "id": "chicken",
+      "kind": "script",
+      "source": "res://nemi/episodes/ep03_scolded/props/PropChicken.gd",
+      "position": [
+        620,
+        765
+      ],
+      "scale": 7.5,
+      "angle": 0,
+      "controls": {
+        "current_state": "frozen"
+      }
+    },
+    {
+      "type": "prop",
+      "id": "dryer",
+      "kind": "script",
+      "source": "res://nemi/episodes/ep03_scolded/props/PropHairdryer.gd",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 4.5,
+      "angle": 0,
+      "controls": {
+        "current_state": "blast",
+        "_blast_time": 0
+      },
+      "attachment": {
+        "actor": "nemi",
+        "hand": "right",
+        "grip_local": [
+          -3,
+          10
+        ]
+      },
+      "grip_overlay": true
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "format": "storytime-static-pilot-v1",
+  "author": "nemi",
+  "episode": "ep03_scolded",
+  "revision": "pilot_r1",
+  "background": {
+    "top": "#faf3e7",
+    "bottom": "#efe4d3"
+  },
+  "story_evidence": "EP03 script/subtitles: missed freezer task, rock-hard chicken, failed defrost attempts, hairdryer on maximum heat, mother entering kitchen. Actual 79s and 88s film stills inspected; payoff withheld.",
+  "variant": "b",
+  "title": "I Forgot the Chicken Until Mom Got Home",
+  "thumbnail_phrase": "TOO LATE",
+  "application": "Enlarged frozen food leads the scene. Nemi recoils toward the opening door; no dryer or invented mother portrait. The phrase adds the missed-deadline consequence.",
+  "headline": [
+    {
+      "text": "TOO LATE",
+      "position": [
+        90,
+        93
+      ],
+      "size": 204,
+      "max_width": 825,
+      "color": "#5a443f",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 5,
+      "outline_color": "#fff7eb",
+      "shadow_color": "#67442b22"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep03_scolded/thumbnail/pilots/2026-10-06/PilotArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1170,
+        1110
+      ],
+      "scale": 4.3,
+      "pose": "presenting_prop",
+      "expression": "shocked",
+      "mouth": "open_shocked",
+      "eyes": 1.16,
+      "pupils": 0.65,
+      "gaze": [
+        0.87,
+        -0.17
+      ],
+      "tilt": -5,
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            142,
+            -90
+          ],
+          "hand": "splayed_fingers",
+          "angle": -48,
+          "elbow_side": -1
+        },
+        {
+          "side": "left",
+          "position": [
+            -125,
+            -46
+          ],
+          "hand": "open",
+          "angle": 42,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep03_scolded/thumbnail/pilots/2026-10-06/PilotArt.gd",
+      "variant": "b",
+      "part": "foreground"
+    },
+    {
+      "type": "prop",
+      "id": "chicken",
+      "kind": "script",
+      "source": "res://nemi/episodes/ep03_scolded/props/PropChicken.gd",
+      "position": [
+        555,
+        737
+      ],
+      "scale": 9.2,
+      "angle": -3,
+      "controls": {
+        "current_state": "frozen"
+      }
+    }
+  ]
+}

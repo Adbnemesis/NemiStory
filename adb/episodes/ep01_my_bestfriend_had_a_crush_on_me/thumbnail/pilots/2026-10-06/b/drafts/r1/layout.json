@@ -1,0 +1,91 @@
+{
+  "format": "storytime-static-pilot-v1",
+  "author": "adb",
+  "episode": "ep01_my_bestfriend_had_a_crush_on_me",
+  "revision": "pilot_r1",
+  "variant": "b",
+  "title": "I Thought My Best Friend Was Flirting With Me",
+  "thumbnail_phrase": "WAS THAT A SIGN?",
+  "story_evidence": "The narration replays lunch sharing and homework borrowing as romantic clues. The actual movie has a three-card clue board linking lunch, conversation and homework.",
+  "application": "ADB points into the actual lunch clue on the enlarged film board. The framing makes his absurd reinterpretation the action; one question complements the title without exposing the prank.",
+  "background": {
+    "top": "#ede8f0",
+    "bottom": "#ede8f0"
+  },
+  "headline": [
+    {
+      "text": "WAS THAT A SIGN?",
+      "position": [
+        270,
+        25
+      ],
+      "size": 208,
+      "max_width": 1470,
+      "font": "res://assets/fonts/PatrickHand-Regular.ttf",
+      "color": "#303944",
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "prop",
+      "id": "thought_stage",
+      "kind": "script",
+      "source": "res://common/storytime/production/Backdrop.gd",
+      "controls": {
+        "kind": "thought"
+      },
+      "position": [
+        0,
+        120
+      ],
+      "scale": 1.0,
+      "angle": 0
+    },
+    {
+      "type": "prop",
+      "id": "actual_clue_board",
+      "kind": "scene",
+      "asset": "clue_board",
+      "position": [
+        1360,
+        680
+      ],
+      "scale": 1.63,
+      "angle": 0.6
+    },
+    {
+      "type": "character",
+      "id": "adb",
+      "author": "adb",
+      "rig": "res://adb/characters/adb/ADB.tscn",
+      "position": [
+        410,
+        1150
+      ],
+      "scale": 4.7,
+      "angle": 0,
+      "recipe": "clue_point",
+      "expression": "confused",
+      "gaze": [
+        0.78,
+        -0.27
+      ],
+      "eyes": 0.96,
+      "tilt": -2,
+      "mouth": "neutral",
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            94,
+            -135
+          ],
+          "angle": -90,
+          "hand": "pointing"
+        }
+      ]
+    }
+  ]
+}

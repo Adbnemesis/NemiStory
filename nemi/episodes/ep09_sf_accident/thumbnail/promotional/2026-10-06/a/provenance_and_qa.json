@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-06",
+  "episode": "nemi/episodes/ep09_sf_accident",
+  "variant": "a",
+  "revision": "promotional_r2",
+  "title": "My Taxi Got Hit 5 Minutes From the Airport",
+  "headline": "SO CLOSE!",
+  "method": "Original Godot promotional illustration: canonical main rig/face plus newly authored supporting artwork/metaphor; AI-assisted art direction/vector code. No image-generation service. Pillow only for packaging/review reductions.",
+  "creative_brief": "../BRIEF.md",
+  "metaphor_vs_film": "Five minutes from SFO, the ordinary human-driven taxi is rear-ended while Nemi is in the back seat; script turns 11\u201314 and inspected actual film contact sheets. Luggage/flight motif and extreme perspective are original promotional exaggeration, not filmed events.",
+  "source_dependency_hashes": {
+    "adb/episodes/ep00_intro/props/ADBIntroProps.gd": "3370f144a11d6fb35caa69ebc04d07d0030ca8107d09267a27fe5653871bc13a",
+    "adb/poses/ADBPoseLibrary.gd": "08484b9d2dfdd476d4275076ca5d8b41ac7d2a826e2e2ed5b4341aca5b09dbf0",
+    "assets/fonts/Caveat-Bold.ttf": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+    "assets/fonts/Impact.ttf": "57e95627fd36fe2740e5ee8a91ff1ae74fb216df9580bd23e30d6772814727be",
+    "assets/fonts/PatrickHand-Regular.ttf": "0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc",
+    "common/assets/lettering/story_pen.json": "c80163ee9dd5c4b3a746e55bf6610fcf7545bd30dfe83fd86c54c85d88495560",
+    "common/engine/illustration/DrawnLettering.gd": "86477617f992a5798b42b83cc087df7e0e044546af28867c66203fb4e2cce08f",
+    "common/engine/illustration/LiveDrawing.gd": "dea367dfed47fc444d9228023b3229237384c01086e2d8d7ad4997f1169612ba",
+    "common/engine/illustration/LiveInk.gd": "85a7dfec5b1e065014dab0dd43b80a30c2282fb9ba7397d05b83fec8c7e85cdd",
+    "common/storytime/PerformancePlayer.gd": "a19d1bbe544a8c942652dc705a7e61acb8d66e98ca46de0ebd1600fa0d9ba0fd",
+    "common/storytime/ProfileAssets.gd": "2ccc4e013c4538637c2b746d488f633857f5abb8003436537e4c746b9c661dbf",
+    "common/storytime/performances/recipes.json": "6e2326bb52e0fca44c9b4cdd07374fc83a0b5c6a78adef3ed983dd3918d51ea0",
+    "common/storytime/production/ActingTimeline.gd": "89809f3655f3852d4cf535c8f67fa91547599f40f27457c47cc853189b5b26f1",
+    "common/storytime/production/Backdrop.gd": "14a1d973843861d4d0741615eddfb77b504b0468f7e36e31f36e85a110654fd2",
+    "common/storytime/production/HandPaths.gd": "f87567e0d68c7450c4630fa96ef631b02841d75990ebc91af7fee2e666d19e73",
+    "common/storytime/production/Motion.gd": "a7925159ef57d0f13b6d96f93cb4ee303e6dbc084f174170848ed36b16fd29ec",
+    "common/storytime/production/SceneArt.gd": "86ac79c7c57d54a0939240bc7e765be35f9a8cfaeab73ce9d63421353169f8e9",
+    "common/storytime/production/SchoolArt.gd": "07a10dd451ffe2aa79805ccd53d4ccf71d7e46112bd433ee3cdf54e12b99e5c5",
+    "common/storytime/production/SchoolBackdrop.gd": "a946f4aef9b8b9a2863b3355197adc0058573cf0d0f35eb4636543dc5c38f8f6",
+    "common/storytime/production/SchoolGags.gd": "a4d7d1d89a2562fcdf667345f0395f4105870d823a414198708dd20ed7b3b8a8",
+    "common/storytime/production/TravelArt.gd": "f8a1c6b308232c4acc8f6b7418a2fb746cf5086d2c6a68435eaeea450f71704f",
+    "common/storytime/profiles/nemi.json": "f6bee539815f1f96472445366efc7bdae023e97bb05fcde4523a129c584a4b4f",
+    "common/storytime/profiles/nemi_lettering.json": "a385f4627262fbff03fb2ebfeff31f64f2beba67d26a26becee22e48ef814bbb",
+    "nemi/characters/neeko/Neeko.gd": "bca2b5e023fb33c78498c2adbe17ee8556b743ea7ced08b99e8c3f1c24589e79",
+    "nemi/characters/neeko/Neeko.tscn": "e7f9d8415c7c95819012d4dfd4589bb9dbcee5c0a63f3e88aa217602166feadd",
+    "nemi/characters/nemi/NemiPose.gd": "5470214d8df90fa8fad97c0b199b119471fc1612cc0129c956cb6e0e3e05c8ed",
+    "nemi/characters/nemi/NemiProportions.gd": "ec63b3e5a76755622de1c56ab8ac404303c7dac96ba3a33fc638569c830d701d",
+    "nemi/characters/nemi/animation/NemiActingDirector.gd": "975e51846f59e54b8d6075873103f0eb6e70559dcd2d53b2394c43dab5ad1fb7",
+    "nemi/characters/nemi/animation/NemiPerformanceDirector.gd": "eb1106fbc78a5ed43f012926c942d23cafd0349c00b940487458e5b9c47a3178",
+    "nemi/characters/nemi/animation/actions/NemiLipSync.gd": "b9f8c13dd53c07941cfc5a868bb6b2cb8dccd2c409e19ea49879c843f8412331",
+    "nemi/characters/nemi/drawing/InkStroke.gd": "ab6e176455e5350fe64e0a1e9c0c8c6a2051d4c338d1eaab1f935ad28c05bb9d",
+    "nemi/characters/nemi/drawing/NemiDoodles.gd": "e4ec23c0882f327ec04cbcd292de466b53fa84fba62c302bb730046dd81b91e6",
+    "nemi/characters/nemi/drawing/NemiRigDebug.gd": "37fa5806ee8d475acb216caa5ba6687140a7874e59ce5b77f375b35d9104c09c",
+    "nemi/characters/nemi/fx/NemiFXAnchor.gd": "4d1db1de42ee9ae051a95fbe4df90d3dc6c0a78208e38a5c4863516b9ea3fdd8",
+    "nemi/characters/nemi/fx/NemiFXDirector.gd": "93b7b3bd41f2432e9601e1788e4d467b1d73c01051341e2ddbfa46cf4565f83c",
+    "nemi/characters/nemi/fx/NemiFXElement.gd": "e141b31596b267e53cacb04efe98aa187b82e187b41f01dcfd87df3e5fc1e8ab",
+    "nemi/characters/nemi/fx/elements/FXAnger.gd": "51dcbe06a38e1c16b75ba5684c6c14cee5e9de8bd9168803d5632e48a6803c5b",
+    "nemi/characters/nemi/fx/elements/FXAttention.gd": "4492963249f7089fbcfdcfcae6091f94b31b86828854d376d8a21f6416bd6954",
+    "nemi/characters/nemi/fx/elements/FXConfusion.gd": "214d1b24cd48950cde65ce0e79d7b14cc60c2851306e1c0ca7229613d3072207",
+    "nemi/characters/nemi/fx/elements/FXDeadpan.gd": "57030cfb99c400538f1132c50e44df65c71ce8d0665c7e9a161c7e467ed4f6fc",
+    "nemi/characters/nemi/fx/elements/FXEmbarrassment.gd": "3c9a91f3c46f046cccf11a77664a766c18819058469d87247e8b2a481891639b",
+    "nemi/characters/nemi/fx/elements/FXExcitement.gd": "ea1f5b00ccde55183fcccd71f8a8f3658480d6e82d6a1a03bdd2cde0ae1773d0",
+    "nemi/characters/nemi/fx/elements/FXNervous.gd": "d3fd2b4b8c71636b00fa0c77912f00ee2c29342d300a90e9b78edfca022c6742",
+    "nemi/characters/nemi/fx/elements/FXPanic.gd": "bb1206b8079a8c9d8cfc3e1ecfdee34b5a505ea0ab1e94da5fbffe54633a0398",
+    "nemi/characters/nemi/fx/elements/FXRealization.gd": "19a94c64a1a5dba62df6057ae7f014ceb7ded84d9d69ca45a700ffdbb59c3b2d",
+    "nemi/characters/nemi/fx/elements/FXRelief.gd": "7ce24ce94e54041ee36a9f2af82693f5a4ee5f98a08a706e3e2b90cdfb79aebd",
+    "nemi/characters/nemi/fx/elements/FXSad.gd": "f49de3aaa47b2da3e0c182384e5fe3f1edf846774958969b017ae3bb9bbd1608",
+    "nemi/characters/nemi/fx/elements/FXShock.gd": "e25620e71dce9dbffac0316a82e508234bc49f4377bcbf12a204be0380fc8e7c",
+    "nemi/characters/nemi/nemi.gd": "7576ac295587212810c8e016de4bab2945d6a96e3c92fae98360f5385f85cb1d",
+    "nemi/characters/nemi/nemi.tscn": "0396e0634e9acdc1e99398888621cdbd1f00a0680f6ad52116dd763e01f79106",
+    "nemi/characters/nemi/parts/NemiBagPart.gd": "1f22923cab8f74d4127eee98b3eb9d2676531665b04b029c4d1af950f386b545",
+    "nemi/characters/nemi/parts/NemiFace.gd": "b3a9528ca1fb36b6ee4a957739daf51c5d7855497bac35e4400893203a765f0e",
+    "nemi/characters/nemi/parts/NemiHairPart.gd": "687b96a33d1331b09a875737ecb5cc1e6ff4007389fed9ba33d90209c02ab518",
+    "nemi/characters/nemi/parts/NemiHeadPart.gd": "b15163b09622263fff60b2a1ef300b677a1a3eb38118188053077368222ce1c3",
+    "nemi/characters/nemi/parts/NemiLegPart.gd": "3df1b90fb5445ac8ef58693cd5d26b7e67a713252ec8e4d6357e047e19a02a76",
+    "nemi/characters/nemi/parts/NemiLimbPart.gd": "564515a72cae2fa879ae817dbea7288391fc9408920eedbac6c8dc6aa8967539",
+    "nemi/characters/nemi/parts/NemiNeckPart.gd": "3388161fa286e4019dd6fa730c24aec01dcd550af3eb5cbf27c717dc0c4f27e5",
+    "nemi/characters/nemi/parts/NemiSkirtPart.gd": "d76217b8db69f73a66036206b0cdeabb1f05bc5e57401346a253938d9ab7218a",
+    "nemi/characters/nemi/parts/NemiTorsoPart.gd": "c6f2f73a3244f5366cd1fadb1f803544db8fb075e326d178654c0f726a086ee7",
+    "nemi/episodes/ep04_scared/Ep04Doodles.gd": "a40f21bf3e252d37c784215a0ef99d35c03fdfdd5538f8b6931c6f64ca4e4179",
+    "nemi/episodes/ep05_celebration/Ep05Doodles.gd": "1b134a1ad5d18c4e0b3fcdcbcf90bfc55a8d3c15838e7a4b8d2d602a8b973d26",
+    "nemi/episodes/ep09_sf_accident/SCRIPT_AND_BEATS.md": "273e13051c377a5bcd64783aaf4c53a1e7fc20638cc05d77479847a834dd9086",
+    "nemi/episodes/ep09_sf_accident/thumbnail/promotional/2026-10-06/PromoArt.gd": "23b85f7b59586fe7f295e4eb028a99cb4c4329fa31481e3dc58bea67a31d32cf",
+    "nemi/episodes/ep09_sf_accident/thumbnail/promotional/2026-10-06/a/layout.json": "a5f3d7bd229fb67f7e7d752d87fe6d59af8d34df161d362c0d7fbb647cc5c924",
+    "tools/storytime/ThumbnailBatch.gd": "65d4128c9ca40c32bf6096e997aaf4617613e8f7315c890a726f7d57a30319fe",
+    "tools/storytime/ThumbnailEpisodeSet.gd": "c72afee01e152b82293b9d5f6b57fe437d521635b9c227d3ceda56cccc97a20c",
+    "tools/storytime/ThumbnailPilot.gd": "f5198efa1cbdb2cd7851263fc42ae7b3cc5239c512b21fd3d9b495bef08ba31a",
+    "tools/storytime/ThumbnailPromotional.gd": "96a8785edf95a0ced7739fd74b8046b668ba37f4d904cd0776ae42962df48a7a",
+    "tools/storytime/ThumbnailStoryArt.gd": "66cb4adcfecff511d0796645a0b1426457ca9fd6a5f74672245dbb3dc931476c",
+    "tools/storytime/ThumbnailStyle.gd": "abc2b5ec845ac4151ae0c38c6536017130cce9fcdbae4e0711adab83f2cc8b1d",
+    "tools/storytime/thumbnail_collection.json": "328eb6ef39c6e344026a6b2a66119e27b42fd87fdd1d0e6fa86c828f1e8cf742",
+    "tools/storytime/thumbnail_pilots_2026-10-06.json": "666c1eb3a571d342ea706f4bfebfc275e5bf2f704c71dec24e89a2d3ae87b9fe",
+    "tools/storytime/thumbnail_promotional_2026-10-06.json": "d955b1fbb52c069882f4a4536dcf5a866bd55c598b9a2a9a9ab47d88de0ac561"
+  },
+  "reference_screenshot_hashes": {
+    "references/thumbnail_ref/thumbnails_set_1.png": "93076151d5eec6880d7fdc2330c6984b0d6fe2b293a11fcd67e42107763fd4fb",
+    "references/thumbnail_ref/thumbnails_set_2.png": "cd76050367932f2bdecfbff9debe6006dd5b3f169c404484960ec0ba1ebfccca",
+    "references/thumbnail_ref/thumbnails_set_3.png": "8ef5f1b1852a63fdd04d95b6b969a54ed4a2ce5aac746ae1df0f20a556f100fb"
+  },
+  "outputs": {
+    "thumbnail.jpg": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 310109,
+      "sha256": "b943fac282a1751ee32ecaf431151e3aa0689b2fb2b25e65fcc4e0d781aa1176"
+    },
+    "thumbnail.png": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 683072,
+      "sha256": "6ebeb83a82215415c465daec218475b43377ce94b1fbe72476a58bdf83ffea0a"
+    },
+    "thumbnail_master_4k.png": {
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "bytes": 724485,
+      "sha256": "171ade6bcdd88db39b736ccaf6c44770d9d53b637ae6ccac088e503f6fbee6fb"
+    },
+    "thumbnail_phone.png": {
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 65458,
+      "sha256": "71a30f20befa499d65b7a70d0ef84b735db137dd5aa883448f4101cbbfd67cf3"
+    },
+    "thumbnail_tiny.png": {
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 24469,
+      "sha256": "b38a778399bb3ef70babb972e370bb228f1399e57d8e7bf7024adbfa45d5bfad"
+    },
+    "scene_without_text.png": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 635081,
+      "sha256": "6cd6b5f8fe6ec16ca7fa4ea98110ccfc69dadddf88f92a827c01a294d3877379"
+    }
+  },
+  "render_command": "/Users/talus/Downloads/Godot.app/Contents/MacOS/Godot --path . --log-file /tmp/thumbnail_promotional_final.log --script tools/storytime/ThumbnailPromotional.gd",
+  "render_check": "Final graphics batch completed all6 and collection markers without error/warning entries. Structural validation passed all6 before export.",
+  "inspection": {
+    "delivery": "Every final1920x1080 JPG individually viewed.",
+    "feed": "All six viewed at native320x180 and160x90 on dark surrounds, plus320x180 light surrounds, with proposed titles and mock duration badges.",
+    "native_master": "All3840x2160 decoded/dimension-checked, not individually visually inspected.",
+    "finding": "Original perspective rear taxi and incoming nose; raised face preserves mouth/chin, rear contact clear, lower costume occluded."
+  },
+  "contact_check": {
+    "contacts": [],
+    "space": "logical 1920x1080; errors in native 4K capture pixels",
+    "variant": "a"
+  },
+  "preservation": "Existing deliveries and rejected literal pilots kept; canonical rigs/face/hand/pose/expression libraries, films, voice and episode scripts untouched.",
+  "performance_status": "Creative candidates; user feedback and live audience tests pending. No CTR result, platform upload or claim of proven winner."
+}

@@ -1,0 +1,78 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep09_sf_accident",
+  "variant": "a",
+  "revision": "promotional_r1",
+  "title": "My Taxi Got Hit 5 Minutes From the Airport",
+  "thumbnail_phrase": "SO CLOSE!",
+  "story_evidence": "Five minutes from SFO, the ordinary human-driven taxi is rear-ended while Nemi is in the back seat; script turns 11\u201314 and inspected actual film contact sheets. Luggage/flight motif and extreme perspective are original promotional exaggeration, not filmed events.",
+  "application": "Original enormous low-angle rear taxi and foreshortened incoming nose, dominant canonical shocked face integrated above rear trunk/windshield, off-kilter travel motifs and compact reaction balloon. All supporting vehicle/scenery geometry is newly authored; no TravelArt side-view car geometry, bridge collision, injury, driver redraw or Waymo accident claim.",
+  "background": {
+    "top": "#b5dcdd",
+    "bottom": "#7397a2"
+  },
+  "headline": [
+    {
+      "text": "SO",
+      "position": [
+        1350,
+        71
+      ],
+      "size": 169,
+      "max_width": 400,
+      "color": "#513541",
+      "font": "res://assets/fonts/Caveat-Bold.ttf",
+      "angle": -3,
+      "shadow_color": "#00000000"
+    },
+    {
+      "text": "CLOSE!",
+      "position": [
+        1298,
+        215
+      ],
+      "size": 151,
+      "max_width": 508,
+      "color": "#513541",
+      "font": "res://assets/fonts/Caveat-Bold.ttf",
+      "angle": -3,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        690,
+        1180
+      ],
+      "scale": 5.0,
+      "pose": "shock_recoil",
+      "expression": "shocked",
+      "eyes": 1.15,
+      "pupils": 0.83,
+      "gaze": [
+        0.36,
+        0.18
+      ],
+      "tilt": -6,
+      "arms": []
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "foreground"
+    }
+  ]
+}

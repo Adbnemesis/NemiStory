@@ -1,0 +1,134 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep03_scolded",
+  "revision": "promotional_r1",
+  "story_evidence": "The actual EP03 script/subtitles concern forgotten frozen chicken, improvised hairdryer defrost and mother coming home. Actual film frames inspected for character/style. Oversized food, heat ribbon and parent shadow are original promotional metaphors.",
+  "variant": "a",
+  "title": "I Tried to Defrost Chicken With a Hairdryer",
+  "thumbnail_phrase": "STILL FROZEN?!",
+  "background": {
+    "top": "#f59b82",
+    "bottom": "#ed8e75"
+  },
+  "application": "Original impossible emergency-defrost illustration: giant newly drawn raw poultry in cyan ice, newly illustrated oversized hot-air dryer gripped by canonical frustrated Nemi, diagonal cool/warm planes and compact comic speech burst. Symbolic heat, no literal flames or invented injury.",
+  "headline": [
+    {
+      "text": "STILL",
+      "position": [
+        136,
+        92
+      ],
+      "size": 151,
+      "max_width": 555,
+      "color": "#473438",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "angle": -4,
+      "shadow_color": "#00000000"
+    },
+    {
+      "text": "FROZEN?!",
+      "position": [
+        81,
+        233
+      ],
+      "size": 149,
+      "max_width": 600,
+      "color": "#473438",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "angle": -4,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep03_scolded/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep03_scolded/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "food",
+      "position": [
+        538,
+        730
+      ],
+      "scale": 2.15,
+      "angle": -7
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1515,
+        1140
+      ],
+      "scale": 4.4,
+      "pose": "lean_left",
+      "expression": "frustrated",
+      "mouth": "open_excited",
+      "eyes": 1.1,
+      "pupils": 0.8,
+      "gaze": [
+        -0.93,
+        0.31
+      ],
+      "tilt": -8,
+      "hand_targets": [
+        {
+          "side": "right",
+          "position": [
+            -68,
+            -42
+          ],
+          "hand": "hold_prop",
+          "angle": 8,
+          "elbow_side": 1
+        },
+        {
+          "side": "left",
+          "position": [
+            -112,
+            -97
+          ],
+          "hand": "open",
+          "angle": 48,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "prop",
+      "id": "original_hot_air_dryer",
+      "kind": "script",
+      "source": "res://nemi/episodes/ep03_scolded/thumbnail/promotional/2026-10-06/PromoHairdryer.gd",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 3.8,
+      "angle": 8,
+      "controls": {},
+      "attachment": {
+        "actor": "nemi",
+        "hand": "right",
+        "grip_local": [
+          0,
+          0
+        ]
+      },
+      "grip_overlay": true
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep03_scolded/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "a",
+      "part": "burst"
+    }
+  ]
+}

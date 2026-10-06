@@ -1,5 +1,7 @@
 # Current ADB + Nemi episode thumbnails — 2026-10-05
 
+Latest creative direction, 6 October: the user rejected the literal-scene pilots and requested original promotional illustrations. [Six new candidates](PROMOTIONAL_THUMBNAILS_2026-10-06.md) now cover the crush, kitchen and taxi stories using newly authored supporting artwork/metaphors and canonical main characters. The earlier twelve images below remain preserved prior deliveries. The new candidates have not been uploaded or audience-tested.
+
 Performance note, 6 October: the user reports roughly 1–2% CTR. These files remain the delivered baseline, not proven winners. The [new thumbnail/title plan](THUMBNAIL_TITLE_PLAN_2026-10-06.md) proposes story-moment pilots for ADB's crush, Nemi's kitchen and Nemi's taxi episode before another collection-wide replacement. No new thumbnails or live titles were changed by the planning pass.
 
 All 12 numbered episodes have fresh, independently directed static thumbnails: ADB EP00–EP01 and Nemi EP00–EP09. The user's latest direction supersedes the shared gold/blue background rule. Choose backgrounds, doodles, props, type and reactions for each actual story; the production character art provides continuity. Each image has one headline, with no small subtitle labels.

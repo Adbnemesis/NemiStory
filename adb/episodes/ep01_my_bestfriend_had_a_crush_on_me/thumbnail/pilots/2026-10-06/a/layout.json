@@ -1,0 +1,93 @@
+{
+  "format": "storytime-static-pilot-v1",
+  "author": "adb",
+  "episode": "ep01_my_bestfriend_had_a_crush_on_me",
+  "revision": "pilot_r1",
+  "variant": "a",
+  "title": "My Best Friend Said She Had a Crush on Me",
+  "thumbnail_phrase": "WAIT… ME?",
+  "story_evidence": "The unnamed school best friend gives a completely serious confession. ADB believes her and loses his composure; the later prank remains the film payoff.",
+  "application": "Two equally important faces in the actual classroom. Flustered ADB looks toward the original serious friend; one compact reaction complements the relationship title. No romantic success, prank reveal or substituted character art.",
+  "background": {
+    "top": "#f3ecdf",
+    "bottom": "#f3ecdf"
+  },
+  "headline": [
+    {
+      "text": "WAIT… ME?",
+      "position": [
+        830,
+        30
+      ],
+      "size": 235,
+      "max_width": 980,
+      "font": "res://assets/fonts/Caveat-Bold.ttf",
+      "color": "#613c3e",
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "prop",
+      "id": "classroom",
+      "kind": "script",
+      "source": "res://common/storytime/production/Backdrop.gd",
+      "controls": {
+        "kind": "school_classroom"
+      },
+      "position": [
+        -120,
+        235
+      ],
+      "scale": 1.2,
+      "angle": 0
+    },
+    {
+      "type": "prop",
+      "id": "serious_friend",
+      "kind": "scene",
+      "asset": "school_friend",
+      "position": [
+        1300,
+        1920
+      ],
+      "scale": 4.55,
+      "angle": -2.5
+    },
+    {
+      "type": "character",
+      "id": "adb",
+      "author": "adb",
+      "rig": "res://adb/characters/adb/ADB.tscn",
+      "position": [
+        530,
+        1245
+      ],
+      "scale": 5.2,
+      "angle": 0,
+      "recipe": "shy_confession",
+      "expression": "flustered",
+      "gaze": [
+        0.8,
+        -0.1
+      ],
+      "eyes": 1.07,
+      "tilt": -3,
+      "blush": 0.58,
+      "mouth": "small_o"
+    },
+    {
+      "type": "prop",
+      "id": "shared_desk",
+      "kind": "scene",
+      "asset": "desk",
+      "position": [
+        1370,
+        1005
+      ],
+      "scale": 2.3,
+      "angle": 0
+    }
+  ]
+}

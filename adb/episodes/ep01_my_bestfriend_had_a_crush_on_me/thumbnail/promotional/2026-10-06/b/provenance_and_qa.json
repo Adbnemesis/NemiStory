@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-06",
+  "episode": "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me",
+  "variant": "b",
+  "revision": "promo_r2",
+  "title": "She Said She Liked Me. I Believed Her.",
+  "headline": "ME?!",
+  "method": "Original Godot promotional illustration: canonical main rig/face plus newly authored supporting artwork/metaphor; AI-assisted art direction/vector code. No image-generation service. Pillow only for packaging/review reductions.",
+  "creative_brief": "../BRIEF.md",
+  "metaphor_vs_film": "Serious best-friend confession makes ADB lose composure; prank remains hidden. Envelope and Cupid are explicitly invented promotional metaphors, not film events.",
+  "source_dependency_hashes": {
+    "adb/characters/adb/ADB.gd": "5b942fde4ac4251ea0f1070f503286d64b220ca0f175d42f9eb9f273c23679cb",
+    "adb/characters/adb/ADB.tscn": "631f6b6e9a88fd5db03fc7273edf915417991736982a7633989224066529f858",
+    "adb/characters/adb/ADBGeometry.gd": "e4cb4dffa00e1be398699742996aca8ca5616a0fc91a1109f28db3024c8d7446",
+    "adb/characters/adb/ADBStyle.gd": "66da8c61efc4011e0f5d3f9b775e74dd6131128b2d6639e81595eb05df9ec020",
+    "adb/episodes/ep00_intro/props/ADBIntroProps.gd": "3370f144a11d6fb35caa69ebc04d07d0030ca8107d09267a27fe5653871bc13a",
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/narration.txt": "265c82a280dda8ace540781dbfe032f96f68f6d80623cf75199620665d889fa9",
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/promotional/2026-10-06/PromoArt.gd": "63ed4f0fcec3836866ee03a8707a2440cab6c8c95f3ca1fe2191fb916b36f7c4",
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/promotional/2026-10-06/b/layout.json": "bd0fce992039f71d3996938c44672d4b91b9c419838a559bb5fd24d33e92349a",
+    "adb/expressions/ADBFace.gd": "1b07c17cabb5a4642a7ee8179d4f3fa2e5dbcb898bba6c989b9de3b8ee5c880b",
+    "adb/hands/ADBHands.gd": "f28cbf122ad8c84b5b84a36123887ee1cfeb55c1043cbc9851f88cecf2a7b462",
+    "adb/lipsync/ADBLipSync.gd": "3be756eb1601a71a8851424b0d85c066c9ffa570054b2758a01fb88bc459c9f2",
+    "adb/poses/ADBPoseLibrary.gd": "08484b9d2dfdd476d4275076ca5d8b41ac7d2a826e2e2ed5b4341aca5b09dbf0",
+    "assets/fonts/Caveat-Bold.ttf": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+    "assets/fonts/Impact.ttf": "57e95627fd36fe2740e5ee8a91ff1ae74fb216df9580bd23e30d6772814727be",
+    "assets/fonts/PatrickHand-Regular.ttf": "0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc",
+    "common/assets/lettering/story_pen.json": "c80163ee9dd5c4b3a746e55bf6610fcf7545bd30dfe83fd86c54c85d88495560",
+    "common/engine/drawing/CommonInkStroke.gd": "ae5ca335a8c8642913a17a626de6d4398d2464c7c536f4135cf2d2d3d0bd37dd",
+    "common/engine/illustration/DrawnLettering.gd": "86477617f992a5798b42b83cc087df7e0e044546af28867c66203fb4e2cce08f",
+    "common/engine/illustration/LiveDrawing.gd": "dea367dfed47fc444d9228023b3229237384c01086e2d8d7ad4997f1169612ba",
+    "common/engine/illustration/LiveInk.gd": "85a7dfec5b1e065014dab0dd43b80a30c2282fb9ba7397d05b83fec8c7e85cdd",
+    "common/storytime/PerformancePlayer.gd": "a19d1bbe544a8c942652dc705a7e61acb8d66e98ca46de0ebd1600fa0d9ba0fd",
+    "common/storytime/ProfileAssets.gd": "2ccc4e013c4538637c2b746d488f633857f5abb8003436537e4c746b9c661dbf",
+    "common/storytime/performances/recipes.json": "6e2326bb52e0fca44c9b4cdd07374fc83a0b5c6a78adef3ed983dd3918d51ea0",
+    "common/storytime/production/ActingTimeline.gd": "89809f3655f3852d4cf535c8f67fa91547599f40f27457c47cc853189b5b26f1",
+    "common/storytime/production/Backdrop.gd": "14a1d973843861d4d0741615eddfb77b504b0468f7e36e31f36e85a110654fd2",
+    "common/storytime/production/HandPaths.gd": "f87567e0d68c7450c4630fa96ef631b02841d75990ebc91af7fee2e666d19e73",
+    "common/storytime/production/Motion.gd": "a7925159ef57d0f13b6d96f93cb4ee303e6dbc084f174170848ed36b16fd29ec",
+    "common/storytime/production/SceneArt.gd": "86ac79c7c57d54a0939240bc7e765be35f9a8cfaeab73ce9d63421353169f8e9",
+    "common/storytime/production/SchoolArt.gd": "07a10dd451ffe2aa79805ccd53d4ccf71d7e46112bd433ee3cdf54e12b99e5c5",
+    "common/storytime/production/SchoolBackdrop.gd": "a946f4aef9b8b9a2863b3355197adc0058573cf0d0f35eb4636543dc5c38f8f6",
+    "common/storytime/production/SchoolGags.gd": "a4d7d1d89a2562fcdf667345f0395f4105870d823a414198708dd20ed7b3b8a8",
+    "common/storytime/production/TravelArt.gd": "f8a1c6b308232c4acc8f6b7418a2fb746cf5086d2c6a68435eaeea450f71704f",
+    "common/storytime/profiles/adb.json": "ca5a41a8b41ec55aca8d8e0e0653bfaa8cd612ca215cae3659cc4f21fb8d431d",
+    "common/storytime/profiles/adb_lettering.json": "e906def8f06d1fb35dfbc7f66c50a42ac47bcc4c5e514dddfb69feb39ef54393",
+    "nemi/characters/neeko/Neeko.gd": "bca2b5e023fb33c78498c2adbe17ee8556b743ea7ced08b99e8c3f1c24589e79",
+    "nemi/characters/neeko/Neeko.tscn": "e7f9d8415c7c95819012d4dfd4589bb9dbcee5c0a63f3e88aa217602166feadd",
+    "nemi/characters/nemi/NemiPose.gd": "5470214d8df90fa8fad97c0b199b119471fc1612cc0129c956cb6e0e3e05c8ed",
+    "nemi/episodes/ep04_scared/Ep04Doodles.gd": "a40f21bf3e252d37c784215a0ef99d35c03fdfdd5538f8b6931c6f64ca4e4179",
+    "nemi/episodes/ep05_celebration/Ep05Doodles.gd": "1b134a1ad5d18c4e0b3fcdcbcf90bfc55a8d3c15838e7a4b8d2d602a8b973d26",
+    "tools/storytime/ThumbnailBatch.gd": "65d4128c9ca40c32bf6096e997aaf4617613e8f7315c890a726f7d57a30319fe",
+    "tools/storytime/ThumbnailEpisodeSet.gd": "c72afee01e152b82293b9d5f6b57fe437d521635b9c227d3ceda56cccc97a20c",
+    "tools/storytime/ThumbnailPilot.gd": "f5198efa1cbdb2cd7851263fc42ae7b3cc5239c512b21fd3d9b495bef08ba31a",
+    "tools/storytime/ThumbnailPromotional.gd": "96a8785edf95a0ced7739fd74b8046b668ba37f4d904cd0776ae42962df48a7a",
+    "tools/storytime/ThumbnailStoryArt.gd": "66cb4adcfecff511d0796645a0b1426457ca9fd6a5f74672245dbb3dc931476c",
+    "tools/storytime/ThumbnailStyle.gd": "abc2b5ec845ac4151ae0c38c6536017130cce9fcdbae4e0711adab83f2cc8b1d",
+    "tools/storytime/thumbnail_collection.json": "328eb6ef39c6e344026a6b2a66119e27b42fd87fdd1d0e6fa86c828f1e8cf742",
+    "tools/storytime/thumbnail_pilots_2026-10-06.json": "666c1eb3a571d342ea706f4bfebfc275e5bf2f704c71dec24e89a2d3ae87b9fe",
+    "tools/storytime/thumbnail_promotional_2026-10-06.json": "d955b1fbb52c069882f4a4536dcf5a866bd55c598b9a2a9a9ab47d88de0ac561"
+  },
+  "reference_screenshot_hashes": {
+    "references/thumbnail_ref/thumbnails_set_1.png": "93076151d5eec6880d7fdc2330c6984b0d6fe2b293a11fcd67e42107763fd4fb",
+    "references/thumbnail_ref/thumbnails_set_2.png": "cd76050367932f2bdecfbff9debe6006dd5b3f169c404484960ec0ba1ebfccca",
+    "references/thumbnail_ref/thumbnails_set_3.png": "8ef5f1b1852a63fdd04d95b6b969a54ed4a2ce5aac746ae1df0f20a556f100fb"
+  },
+  "outputs": {
+    "thumbnail.jpg": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 325508,
+      "sha256": "2824b8c94599df08f0c3dcf86f5b43e7b53b19b1c061bbe0407b58e879cd4ca5"
+    },
+    "thumbnail.png": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1063126,
+      "sha256": "c9a6298f543ddd2f7b35a421967807dc16b109007b36772ff005d6101291b85e"
+    },
+    "thumbnail_master_4k.png": {
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "bytes": 1261192,
+      "sha256": "aabd78c1e50503c9ce7548f4c739f75288709f4ba7dc9f992caa5cdde7e82780"
+    },
+    "thumbnail_phone.png": {
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 77492,
+      "sha256": "6cdaee838fb878264cc925e9ecb745532298f3b79cffa453c58212c7a00d4713"
+    },
+    "thumbnail_tiny.png": {
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 27509,
+      "sha256": "aeddbb29f8e69c82db5d4eff43148d0e724321055f00a3bde4b9da005f04d5cc"
+    },
+    "scene_without_text.png": {
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1025369,
+      "sha256": "fc8b4f760b4d998e1bf678fa091637cd7cc61e96742febb6290c08db0b422b31"
+    }
+  },
+  "render_command": "/Users/talus/Downloads/Godot.app/Contents/MacOS/Godot --path . --log-file /tmp/thumbnail_promotional_final.log --script tools/storytime/ThumbnailPromotional.gd",
+  "render_check": "Final graphics batch completed all6 and collection markers without error/warning entries. Structural validation passed all6 before export.",
+  "inspection": {
+    "delivery": "Every final1920x1080 JPG individually viewed.",
+    "feed": "All six viewed at native320x180 and160x90 on dark surrounds, plus320x180 light surrounds, with proposed titles and mock duration badges.",
+    "native_master": "All3840x2160 decoded/dimension-checked, not individually visually inspected.",
+    "finding": "Original playful Cupid bow/heart-arrow on a diagonal, comic heart rings; main face and raised supported hand clear."
+  },
+  "contact_check": {
+    "contacts": [],
+    "space": "logical 1920x1080; errors in native 4K capture pixels",
+    "variant": "b"
+  },
+  "preservation": "Existing deliveries and rejected literal pilots kept; canonical rigs/face/hand/pose/expression libraries, films, voice and episode scripts untouched.",
+  "performance_status": "Creative candidates; user feedback and live audience tests pending. No CTR result, platform upload or claim of proven winner."
+}

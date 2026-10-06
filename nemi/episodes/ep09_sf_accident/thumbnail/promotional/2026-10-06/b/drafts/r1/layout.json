@@ -1,0 +1,134 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep09_sf_accident",
+  "variant": "b",
+  "revision": "promotional_r1",
+  "title": "The Driverless Taxi Was Fine. The Next Ride Wasn't.",
+  "thumbnail_phrase": "WRONG RIDE?!",
+  "story_evidence": "The autonomous ride arrives safely without a scratch, but the ordinary airport taxi is rear-ended and Nemi cries. Script turns 6\u20139 and 13\u201318, inspected actual film contact sheets. Giant folded boarding pass is a promotional metaphor, not a lost ticket/missed flight claim.",
+  "application": "Original travel-paper world: safe sensor-roof autonomous pod on clean cyan fold, crushed ordinary cream cab buckles coral paper corner, canonical crying Nemi grips giant ticket between them. New perspective vehicle/paper/scenery art, exact rig/face/hand and existing tear effect reused. Title supplies irony; one compact balloon phrase only. No police arrest, injury, near-death or robot crash.",
+  "background": {
+    "top": "#b2dcd8",
+    "bottom": "#e99e91"
+  },
+  "headline": [
+    {
+      "text": "WRONG",
+      "position": [
+        1378,
+        87
+      ],
+      "size": 153,
+      "max_width": 460,
+      "color": "#513541",
+      "font": "res://assets/fonts/Caveat-Bold.ttf",
+      "angle": -2,
+      "shadow_color": "#00000000"
+    },
+    {
+      "text": "RIDE?!",
+      "position": [
+        1377,
+        238
+      ],
+      "size": 158,
+      "max_width": 470,
+      "color": "#513541",
+      "font": "res://assets/fonts/Caveat-Bold.ttf",
+      "angle": -2,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1190,
+        1100
+      ],
+      "scale": 4.7,
+      "pose": "seated_at_desk_relaxed",
+      "expression": "sad",
+      "mouth": "frown",
+      "eyes": 0.91,
+      "pupils": 1.0,
+      "gaze": [
+        -0.34,
+        0.19
+      ],
+      "tilt": -5,
+      "arms": [],
+      "hand_targets": [
+        {
+          "side": "left",
+          "position": [
+            -94,
+            -68
+          ],
+          "hand": "hold_prop",
+          "angle": 180,
+          "elbow_side": 1
+        }
+      ]
+    },
+    {
+      "type": "prop",
+      "kind": "script",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/promotional/2026-10-06/TicketCrash.gd",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1.0,
+      "angle": 0,
+      "controls": {},
+      "attachment": {
+        "actor": "nemi",
+        "hand": "left",
+        "grip_local": [
+          750,
+          780
+        ]
+      },
+      "grip_overlay": true
+    },
+    {
+      "type": "prop",
+      "kind": "script",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/promotional/2026-10-06/HeldTear.gd",
+      "position": [
+        1246,
+        660
+      ],
+      "scale": 3.9,
+      "angle": -5,
+      "controls": {
+        "intensity": 3
+      }
+    },
+    {
+      "type": "prop",
+      "kind": "script",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/promotional/2026-10-06/HeldTear.gd",
+      "position": [
+        1022,
+        660
+      ],
+      "scale": 3.0,
+      "angle": 8,
+      "controls": {
+        "intensity": 2
+      }
+    }
+  ]
+}

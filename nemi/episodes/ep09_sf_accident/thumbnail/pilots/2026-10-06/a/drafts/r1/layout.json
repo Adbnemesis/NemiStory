@@ -1,0 +1,102 @@
+{
+  "format": "storytime-static-pilot-v1",
+  "author": "nemi",
+  "episode": "ep09_sf_accident",
+  "variant": "a",
+  "title": "My Taxi Got Hit 5 Minutes From the Airport",
+  "thumbnail_phrase": "ALMOST THERE",
+  "revision": "pilot_r1",
+  "story_evidence": "Spoken script turns 11\u201314: five minutes from the departure terminal, ordinary human-driven taxi brakes and is rear-ended while Nemi sits in the back seat. Film contact sheets inspected at 68s, 83s and 86.9s.",
+  "application": "Action-first literal highway collision. Nemi actually inside the enlarged taxi rear window. Taxi and trailing car face left; the following car touches the right/rear damaged bumper. Original car geometry/strokes reused, thumbnail-local exact rear-window shader transparency only. No bridge, robot-car branding, injuries or near-death promise.",
+  "background": {
+    "top": "#e2ecec",
+    "bottom": "#c3d3d0"
+  },
+  "headline": [
+    {
+      "text": "ALMOST THERE",
+      "position": [
+        120,
+        67
+      ],
+      "size": 222,
+      "max_width": 1650,
+      "color": "#513541",
+      "font": "res://assets/fonts/Caveat-Bold.ttf",
+      "angle": -2,
+      "outline": 0,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/pilots/2026-10-06/PilotArt.gd",
+      "variant": "a",
+      "part": "background"
+    },
+    {
+      "type": "character",
+      "id": "passenger",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        955,
+        790
+      ],
+      "scale": 1.7,
+      "pose": "shock_recoil",
+      "expression": "shocked",
+      "eyes": 1.12,
+      "pupils": 0.83,
+      "gaze": [
+        0.35,
+        0.1
+      ],
+      "tilt": 4,
+      "arms": []
+    },
+    {
+      "type": "prop",
+      "id": "taxi",
+      "kind": "script",
+      "source": "res://nemi/episodes/ep09_sf_accident/thumbnail/pilots/2026-10-06/CutawayTaxi.gd",
+      "position": [
+        685,
+        900
+      ],
+      "scale": [
+        -2.2,
+        2.2
+      ],
+      "angle": 0,
+      "controls": {}
+    },
+    {
+      "type": "prop",
+      "kind": "scene",
+      "asset": "car",
+      "position": [
+        2023,
+        900
+      ],
+      "scale": [
+        -2.2,
+        2.2
+      ],
+      "angle": 0
+    },
+    {
+      "type": "mark",
+      "kind": "spark",
+      "position": [
+        1337,
+        755
+      ],
+      "scale": 2.7,
+      "angle": 6,
+      "color": "#513541",
+      "weight": 1.0
+    }
+  ]
+}

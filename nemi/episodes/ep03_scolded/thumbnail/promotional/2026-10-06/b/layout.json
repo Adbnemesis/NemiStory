@@ -1,0 +1,99 @@
+{
+  "format": "storytime-static-promotional-v1",
+  "author": "nemi",
+  "episode": "ep03_scolded",
+  "revision": "promotional_r2",
+  "story_evidence": "The actual EP03 script/subtitles concern forgotten frozen chicken, improvised hairdryer defrost and mother coming home. Actual film frames inspected for character/style. Oversized food, heat ribbon and parent shadow are original promotional metaphors.",
+  "variant": "b",
+  "title": "I Forgot the Chicken Until Mom Got Home",
+  "thumbnail_phrase": "TOO LATE",
+  "background": {
+    "top": "#d6efdf",
+    "bottom": "#dbead6"
+  },
+  "application": "Original deadline metaphor: a giant faceless parent-shaped shadow looms from a warm entry behind desperate canonical Nemi and unwieldy newly illustrated frozen chicken. This is a comic emotional metaphor, not an episode screenshot or claim of a threatening parent.",
+  "headline": [
+    {
+      "text": "TOO LATE",
+      "position": [
+        108,
+        130
+      ],
+      "size": 138,
+      "max_width": 510,
+      "color": "#473438",
+      "font": "res://assets/fonts/GochiHand-Regular.ttf",
+      "angle": -5,
+      "shadow_color": "#00000000"
+    }
+  ],
+  "layers": [
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep03_scolded/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "background"
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep03_scolded/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "food",
+      "position": [
+        495,
+        755
+      ],
+      "scale": 1.75,
+      "angle": 9
+    },
+    {
+      "type": "character",
+      "id": "nemi",
+      "author": "nemi",
+      "rig": "res://nemi/characters/nemi/nemi.tscn",
+      "position": [
+        1100,
+        1120
+      ],
+      "scale": 3.95,
+      "pose": "shock_recoil",
+      "expression": "terrified",
+      "mouth": "wavy",
+      "eyes": 1.17,
+      "pupils": 0.68,
+      "gaze": [
+        0.73,
+        -0.53
+      ],
+      "tilt": 8,
+      "hand_targets": [
+        {
+          "side": "left",
+          "position": [
+            -90,
+            -24
+          ],
+          "hand": "open_palm_up",
+          "angle": -80,
+          "elbow_side": 1
+        },
+        {
+          "side": "right",
+          "head_offset": [
+            41,
+            -11
+          ],
+          "hand": "hand_to_cheek",
+          "angle": 145,
+          "elbow_side": -1
+        }
+      ]
+    },
+    {
+      "type": "scenery",
+      "source": "res://nemi/episodes/ep03_scolded/thumbnail/promotional/2026-10-06/PromoArt.gd",
+      "variant": "b",
+      "part": "burst"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "format": "storytime-static-story-v2",
+  "author": "adb",
+  "episode": "ep01_my_bestfriend_had_a_crush_on_me",
+  "background": {
+    "kind": "crush",
+    "top": "#e9d5cd",
+    "bottom": "#e1b6bd",
+    "set": "school_corridor",
+    "set_opacity": 0.65
+  },
+  "headline": [
+    {
+      "text": "SHE LIKED",
+      "position": [
+        65,
+        80
+      ],
+      "size": 214,
+      "max_width": 990,
+      "color": "#483241",
+      "font": "res://assets/fonts/Impact.ttf"
+    },
+    {
+      "text": "ME?!",
+      "position": [
+        65,
+        325
+      ],
+      "size": 310,
+      "max_width": 800,
+      "color": "#a63758",
+      "font": "res://assets/fonts/Impact.ttf",
+      "outline": 7
+    }
+  ],
+  "characters": [
+    {
+      "author": "adb",
+      "rig": "res://adb/characters/adb/ADB.tscn",
+      "position": [
+        1440,
+        1330
+      ],
+      "scale": 5.6,
+      "recipe": "shy_confession"
+    }
+  ],
+  "props": [
+    {
+      "kind": "scene",
+      "asset": "school_friend",
+      "position": [
+        385,
+        1630
+      ],
+      "scale": 2.5,
+      "angle": 0
+    },
+    {
+      "kind": "scene",
+      "asset": "crush_heart",
+      "position": [
+        825,
+        830
+      ],
+      "scale": 1.8,
+      "angle": -10
+    }
+  ],
+  "marks": [
+    {
+      "kind": "question",
+      "position": [
+        1830,
+        185
+      ],
+      "scale": 2.1,
+      "color": "#613f55",
+      "angle": 0,
+      "weight": 1.3
+    }
+  ],
+  "aura": true,
+  "story_evidence": "A school best friend confesses a crush, then reveals it was a coordinated prank. ADB laughs along and is hurt.",
+  "application": "Direct confession in the actual school corridor; the canonical serious friend illustration and shy ADB leave the prank unrevealed. Warm blush frame contrasts his shirt and makes the human relationship readable.",
+  "revision": "story_r3"
+}

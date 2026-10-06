@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-06",
+  "provenance": "Existing Godot production rig/art; AI-assisted direction/layout. No generated or restyled bitmap art.",
+  "source_authoring_review": [
+    {
+      "variant": "a",
+      "path": "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/pilots/2026-10-06/a/layout.json",
+      "sha256": "8b77693bcc1a2fb901c671571b7b031c9ce2e05f2e531cdbb94e961ae5e9363f",
+      "json_and_referenced_paths": "pass",
+      "render_and_visual_review": "pending root GPU export"
+    },
+    {
+      "variant": "b",
+      "path": "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/pilots/2026-10-06/b/layout.json",
+      "sha256": "cf0f4cadde45443cb6ffc6d8dffbf00981e66c03a83d73fa9a1553d69bc3a14a",
+      "json_and_referenced_paths": "pass",
+      "render_and_visual_review": "r1 full JPG inspected; header/hair overlap fixed in source; r2 GPU export and full/feed QA pending root"
+    }
+  ],
+  "read_or_inspected_source_sha256": {
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/narration.txt": "265c82a280dda8ace540781dbfe032f96f68f6d80623cf75199620665d889fa9",
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/SCRIPT_AND_BEATS.md": "30f7d2dc16b0f8743653d4b3fc0bae313b91416cd75210b7cb1f2a3a3d716dcf",
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/review/4k_serious.jpg": "b9ad50899e16b6236274268845e7e2e3877c9c0cf54108621bb315e8363e959e",
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/review/4k_opening.jpg": "80783386a4226e0881e15e08e8ee94ead18b6391324f8c898ec4cb2568a95b67",
+    "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/review/contact_r4_4k.jpg": "35da42f13de1ff34c8cf7b429d126ea11283809f67f78ef1b0bb63ecac85330a",
+    "common/storytime/production/SchoolArt.gd": "07a10dd451ffe2aa79805ccd53d4ccf71d7e46112bd433ee3cdf54e12b99e5c5",
+    "common/storytime/production/SchoolGags.gd": "a4d7d1d89a2562fcdf667345f0395f4105870d823a414198708dd20ed7b3b8a8",
+    "common/storytime/production/SchoolBackdrop.gd": "a946f4aef9b8b9a2863b3355197adc0058573cf0d0f35eb4636543dc5c38f8f6",
+    "common/storytime/production/Backdrop.gd": "14a1d973843861d4d0741615eddfb77b504b0468f7e36e31f36e85a110654fd2",
+    "adb/characters/adb/ADB.tscn": "631f6b6e9a88fd5db03fc7273edf915417991736982a7633989224066529f858",
+    "adb/characters/adb/ADB.gd": "5b942fde4ac4251ea0f1070f503286d64b220ca0f175d42f9eb9f273c23679cb"
+  },
+  "actual_visual_checks": "Pre-existing movie-review stills and the three reference screenshots viewed. Pilot B r1 full JPG also inspected for header overlap; its canonical board and pointing hand are readable. Current r2 export/feed QA remains pending."
+}

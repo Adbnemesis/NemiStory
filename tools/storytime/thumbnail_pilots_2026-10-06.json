@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-06",
+  "status": "Rejected exploratory literal-scene direction; retained for provenance, not current delivery",
+  "renderer": "tools/storytime/ThumbnailPilot.gd",
+  "baseline_status": "Local delivered image only; actual uploaded title/image not yet supplied",
+  "variants": [
+    {
+      "author": "adb",
+      "episode": "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me",
+      "slug": "crush",
+      "variant": "a",
+      "layout": "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/pilots/2026-10-06/a/layout.json"
+    },
+    {
+      "author": "adb",
+      "episode": "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me",
+      "slug": "crush",
+      "variant": "b",
+      "layout": "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/pilots/2026-10-06/b/layout.json"
+    },
+    {
+      "author": "nemi",
+      "episode": "nemi/episodes/ep03_scolded",
+      "slug": "kitchen",
+      "variant": "a",
+      "layout": "nemi/episodes/ep03_scolded/thumbnail/pilots/2026-10-06/a/layout.json"
+    },
+    {
+      "author": "nemi",
+      "episode": "nemi/episodes/ep03_scolded",
+      "slug": "kitchen",
+      "variant": "b",
+      "layout": "nemi/episodes/ep03_scolded/thumbnail/pilots/2026-10-06/b/layout.json"
+    },
+    {
+      "author": "nemi",
+      "episode": "nemi/episodes/ep09_sf_accident",
+      "slug": "taxi",
+      "variant": "a",
+      "layout": "nemi/episodes/ep09_sf_accident/thumbnail/pilots/2026-10-06/a/layout.json"
+    },
+    {
+      "author": "nemi",
+      "episode": "nemi/episodes/ep09_sf_accident",
+      "slug": "taxi",
+      "variant": "b",
+      "layout": "nemi/episodes/ep09_sf_accident/thumbnail/pilots/2026-10-06/b/layout.json"
+    }
+  ],
+  "baselines": [
+    {
+      "author": "adb",
+      "episode": "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me",
+      "slug": "crush",
+      "image": "adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/pilots/2026-10-06/baseline/thumbnail.jpg",
+      "sha256": "8e60f896c438cb6307a89f3ec005ab9e1c90875d002f1418b57ab0d868ed16e4",
+      "uploaded_title": null,
+      "status": "Local prior delivery; not independently confirmed live upload",
+      "duration_seconds": 110.4
+    },
+    {
+      "author": "nemi",
+      "episode": "nemi/episodes/ep03_scolded",
+      "slug": "kitchen",
+      "image": "nemi/episodes/ep03_scolded/thumbnail/pilots/2026-10-06/baseline/thumbnail.jpg",
+      "sha256": "2bcdea4939e2be62a56903bbd5613270444f78371f07820cb296fc872fb69917",
+      "uploaded_title": null,
+      "status": "Local prior delivery; not independently confirmed live upload",
+      "duration_seconds": null
+    },
+    {
+      "author": "nemi",
+      "episode": "nemi/episodes/ep09_sf_accident",
+      "slug": "taxi",
+      "image": "nemi/episodes/ep09_sf_accident/thumbnail/pilots/2026-10-06/baseline/thumbnail.jpg",
+      "sha256": "29e75ddbbbafb0cac5928abd8a3cd1cba87d2b3bdc372ac521e8091002d4761f",
+      "uploaded_title": null,
+      "status": "Local prior delivery; not independently confirmed live upload",
+      "duration_seconds": 120.0
+    }
+  ]
+}
