@@ -8,6 +8,10 @@ Use **one eye-catching headline only**, optionally split across lines. Omit smal
 
 No AI image generation or restyling. Build in Godot from the canonical rigs, supported acting controls, existing episode props and scenery. New supporting scenery may be explicitly authored in vector/Godot code through the shared illustration route, in the same fill/ink language. Ordinary crop, typography, resizing and packaging tools can finish native captures. Do not replace a character with an independently drawn lookalike or copy an old generated character/face. Record honest provenance for reused assets/background pixels.
 
+## Performance review and next plan
+
+On 6 October 2026 the user reported about 1–2% CTR for the delivered collection and supplied three reference sets. The next proposed direction is a staged story moment, with a complementary title and one short thumbnail phrase, instead of a large headline/portrait with smaller illustrative props. See the [thumbnail and title plan](THUMBNAIL_TITLE_PLAN_2026-10-06.md) for the reference audit, twelve candidate pairs and a three-episode pilot. This is a plan; current images remain the delivered baseline until replacements are separately produced. Readability QA is not audience-performance validation. The user's 20% target is not a verified result or guaranteed minimum.
+
 The user explicitly authorized redesigning all existing numbered episodes: ADB EP00–EP01 and Nemi EP00–EP09. This is thumbnail-only authorization. Preserve films, scripts, rigs, hand/pose/expression libraries, audio and timing. Current recommended delivery paths are indexed in [the collection](THUMBNAIL_COLLECTION.md); historical root thumbnails and previous delivered versions remain preserved.
 
 ## Read and direct the actual story
