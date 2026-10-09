@@ -1,0 +1,297 @@
+{
+  "status": "user-approved R10 full 1080p; superseded by verified native 4K final",
+  "movie": "res://nemi/episodes/ep11_i_really_need_your_help/renders/NEMI_EP11_I_Really_Need_Your_Help_r10_1080p_REVIEW.mp4",
+  "sha256": "c195c411df23f4da6273d2cc74d61aa576bc378763f1551be03626ba053ceb32",
+  "spec_sha256": "882f700027d1f4011b99655b57bc41dcc768499b874b6c9cd5c3685379e412ab",
+  "duration_seconds": 128.3,
+  "hard_cap_seconds": 150,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "128.300000",
+        "nb_read_frames": "3849"
+      }
+    ],
+    "format": {
+      "duration": "128.300000"
+    }
+  },
+  "full_decode_passed": true,
+  "audio": {
+    "integrated_lufs": -21.4,
+    "true_peak_dbfs": -1.7
+  },
+  "stills": [
+    0.5,
+    3.5,
+    7.7,
+    11,
+    15.3,
+    19,
+    24.8,
+    25.4,
+    26.5,
+    30,
+    35.5,
+    39,
+    42,
+    44,
+    44.8,
+    47,
+    51,
+    54,
+    59,
+    62,
+    65,
+    68,
+    70,
+    74,
+    77,
+    80,
+    82,
+    85,
+    89,
+    93,
+    96,
+    101,
+    105,
+    109,
+    114,
+    115.1,
+    118,
+    121,
+    124,
+    126,
+    128
+  ],
+  "caption_count": 87,
+  "all_caption_cards_at_most_five_words": true,
+  "voice_identity": "Canonical Sohee CustomVoice; unchanged identity prompt, original Sohee recordings with selected pitch-preserving tempo 1.00\u20131.12 and explicit phrase-pause edits; retained originals",
+  "alignment": "Measured Whisper word times plus authored existing mouth shapes and consonant closures; not measured phoneme alignment",
+  "sfx_provenance_checked": true,
+  "continuous_playback_review": false,
+  "perceptual_audio_listening": false,
+  "playback_limitation": "Native computer-use player access timed out twice; do not claim continuous watch/listening. Stills, sequence samples, ASR transcript, duration, complete decode and encoded metrics reviewed.",
+  "rigs_edited": false,
+  "user_4k_approval": true,
+  "workflow_updates": "Both storytime skills/shared balance and pacing guidance completed after user agreement; see WORKFLOW_FOLLOWUP.md.",
+  "visual_review": "Actual 41 sampled frames, all six contact sheets and 320x180 opening/ending viewed. Checked opening/late wrists and hands, grounded wide shots, camera returns, stable live-ink progression, milestone phone clearance, readable date/threshold/climb, comment/viewer sequence, live circle at 44s and scratch-out at 115.1s visibly above cards. No continuous playback claim.",
+  "voice_pacing": {
+    "policy": "Unchanged Sohee source recordings; pitch-preserving tempo only; explicit phrase edits, emotional breaths retained; not blanket silence removal.",
+    "lines": [
+      {
+        "line": 0,
+        "tempo": 1.04,
+        "original_duration": 10.16,
+        "final_duration": 9.453,
+        "explicit_pause_edits": [
+          [
+            1.36,
+            2.34,
+            0.5
+          ],
+          [
+            6.72,
+            7.54,
+            0.38
+          ],
+          [
+            8.42,
+            9.18,
+            0.4
+          ]
+        ]
+      },
+      {
+        "line": 1,
+        "tempo": 1.12,
+        "original_duration": 16.0,
+        "final_duration": 13.536,
+        "explicit_pause_edits": [
+          [
+            6.18,
+            7.26,
+            0.36
+          ],
+          [
+            11.6,
+            12.58,
+            0.3
+          ],
+          [
+            13.6,
+            14.4,
+            0.34
+          ]
+        ]
+      },
+      {
+        "line": 2,
+        "tempo": 1.06,
+        "original_duration": 9.12,
+        "final_duration": 8.238,
+        "explicit_pause_edits": [
+          [
+            2.02,
+            2.7,
+            0.3
+          ],
+          [
+            3.5,
+            4.2,
+            0.28
+          ],
+          [
+            5.28,
+            6.12,
+            0.3
+          ]
+        ]
+      },
+      {
+        "line": 3,
+        "tempo": 1.06,
+        "original_duration": 8.88,
+        "final_duration": 8.377,
+        "explicit_pause_edits": []
+      },
+      {
+        "line": 4,
+        "tempo": 1.1,
+        "original_duration": 10.48,
+        "final_duration": 8.353,
+        "explicit_pause_edits": [
+          [
+            1.76,
+            2.64,
+            0.28
+          ],
+          [
+            4.3,
+            5.54,
+            0.3
+          ],
+          [
+            7.66,
+            8.7,
+            0.3
+          ]
+        ]
+      },
+      {
+        "line": 5,
+        "tempo": 1.06,
+        "original_duration": 9.12,
+        "final_duration": 8.32,
+        "explicit_pause_edits": [
+          [
+            3.4,
+            4.34,
+            0.32
+          ]
+        ]
+      },
+      {
+        "line": 6,
+        "tempo": 1.08,
+        "original_duration": 14.0,
+        "final_duration": 12.963,
+        "explicit_pause_edits": []
+      },
+      {
+        "line": 7,
+        "tempo": 1.04,
+        "original_duration": 8.72,
+        "final_duration": 7.939,
+        "explicit_pause_edits": [
+          [
+            4.12,
+            5.32,
+            0.42
+          ]
+        ]
+      },
+      {
+        "line": 8,
+        "tempo": 1.04,
+        "original_duration": 7.6,
+        "final_duration": 7.308,
+        "explicit_pause_edits": []
+      },
+      {
+        "line": 9,
+        "tempo": 1.12,
+        "original_duration": 14.72,
+        "final_duration": 12.551,
+        "explicit_pause_edits": [
+          [
+            2.76,
+            3.74,
+            0.32
+          ],
+          [
+            9.68,
+            10.44,
+            0.3
+          ],
+          [
+            11.28,
+            12.2,
+            0.36
+          ]
+        ]
+      },
+      {
+        "line": 10,
+        "tempo": 1.08,
+        "original_duration": 9.12,
+        "final_duration": 8.061,
+        "explicit_pause_edits": [
+          [
+            6.3,
+            7.36,
+            0.32
+          ]
+        ]
+      },
+      {
+        "line": 11,
+        "tempo": 1.08,
+        "original_duration": 9.12,
+        "final_duration": 8.444,
+        "explicit_pause_edits": []
+      },
+      {
+        "line": 12,
+        "tempo": 1.04,
+        "original_duration": 6.64,
+        "final_duration": 6.385,
+        "explicit_pause_edits": []
+      },
+      {
+        "line": 13,
+        "tempo": 1.0,
+        "original_duration": 4.4,
+        "final_duration": 4.16,
+        "explicit_pause_edits": [
+          [
+            1.96,
+            2.94,
+            0.44
+          ]
+        ]
+      }
+    ]
+  },
+  "voice_pacing_plan_consistency_checked": true,
+  "actual_paced_narration_asr": "review/paced_voice_asr_r7.json; whole paced recording recognized with cached Whisper Tiny, no missing story passage observed; ASR does not prove vocal quality",
+  "sfx_relative_levels": "sound_plan.json; 16 existing recordings with measured cue RMS generally 7\u201311 dB below nearby narration",
+  "review_candidate_revision": "R10",
+  "preview_removed_after_final_4k": true,
+  "media_retention": "Full 1080p preview removed after verified native 4K replacement; actual preview hash/stamp and compact sampled/colour/mobile evidence retained. Original 41 full-resolution sampled PNGs pruned; historic sample times describe performed checks, not files still present."
+}

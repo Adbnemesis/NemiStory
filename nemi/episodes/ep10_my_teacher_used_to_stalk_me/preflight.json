@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "folder": "nemi/episodes/ep10_my_teacher_used_to_stalk_me",
+  "authors": [
+    "nemi"
+  ],
+  "features": [
+    "live_ink",
+    "props",
+    "sfx"
+  ],
+  "documents": {
+    "docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md": {
+      "sha256": "925cdec9bce303be7ab94af86972607cc67d5b7b3bab0f7132751962862fb2e8",
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "note": "R7 keeps 137s narration and EP06 paper treatment while correcting cropped/low annotations. Deliver full 1080p, bind its actual inputs and wait for explicit satisfaction before 4K. Keep movie indices/logs/QA under review, preserve rejected versions until an approved final replacement passes checks."
+    },
+    "docs/animation/STORYTIME_DIRECTION_WORKFLOW.md": {
+      "sha256": "8a790fa8c8d8b948ced2bb41884f6b616fda93b64744c10cd7a2dc847106e938",
+      "parts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "note": "R7 changes only two composition placements while keeping measured narration and performance. Match camera and entire message-card bounds, keep outside ink above screen-space captions, render a stable full 1080p with updated approval signature, and wait for real user satisfaction. Save index and export records under review and retain rejected versions until final replacement checks."
+    },
+    "docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md": {
+      "sha256": "4bbf3a7dbf9d877636fca6fae064f77e1a323d01a313a0ff6c912a438f76a645",
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "note": "R7 preserves Nemi rounded ink and all original main rig/hand/pose definitions. Completed drawings stay still; reposition outside lettering into the picture above captions and reframe the long-night card/clock. Review at 1080p before human satisfaction allows 4K; indices and records stay under review."
+    },
+    "docs/Nemi_Animation_Personality_Guide.md": {
+      "sha256": "d8f6d5afac4a0c38f535b6a88ddd6202fb498d0929bee910ae6228916723bbfd",
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "note": "Use Nemi curiosity, side-eye doubt, quiet recoil and final camera lock as the escalating emotional arc. Keep fear restrained rather than comic flailing, explicit blinks at thought changes, and grounded settled gestures under the current workflow."
+    },
+    "docs/Nemi_Character_Bible.md": {
+      "sha256": "0c6e6beb58af264269f4e9da22cc992599e03ccae7a2b457b57217904a2152ed",
+      "parts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "note": "Adult Nemi recalls school in first person, starts with the disturbing detail, and speaks to one confidant. No gendered self-description or influencer intro; early rationalization and later admission of fear give Nemi a human contradiction without blaming the child."
+    },
+    "docs/Nemi_Dialogue_Guide.md": {
+      "sha256": "aa477493684357e16e4645ff43958a9d51df34c379be62c8f0466d5885de204d",
+      "parts": [
+        1,
+        2
+      ],
+      "note": "Write short contractions, a few thought restarts, and concrete memories like the blue gate and untouched notebook. Preserve pauses after the impossible detail and end on an observation rather than a moral lecture or subscription request."
+    },
+    "common/storytime/profiles/nemi.json": {
+      "sha256": "f6bee539815f1f96472445366efc7bdae023e97bb05fcde4523a129c584a4b4f",
+      "parts": [
+        1
+      ],
+      "note": "Nemi episode 10 uses the saved plum rounded pen for a held secret annotation and a single live underline, replacing the longer draft pattern diagram. No completed ink movement or random glyph variation."
+    },
+    "common/storytime/examples/story_review_48s/REVIEW.md": {
+      "sha256": "170f43ce0a66e54e218beb345e1206f2525aa811624033a192936d70af57745c",
+      "parts": [
+        1
+      ],
+      "note": "Render an integrated forty-eight-second excerpt with the classroom wide, gate geography, phone grip, recognition portrait, captions and selected SFX before the full export. Inspect actual arms and feet rather than trusting boundary math."
+    },
+    "docs/animation/COMMON_ANIMATION_QA.md": {
+      "sha256": "00e95633a0051b02d1cd4b7c3de8e4232783466031deaa82c05b00b36a9d4ed4",
+      "parts": [
+        1
+      ],
+      "note": "Check Nemi silhouette, furniture scale, settled poses, five-word captions, voice clarity and selected sounds; save actual still/playback evidence and mark any listening or lip-sync limitation explicitly."
+    },
+    "tools/tts/config.py": {
+      "sha256": "e40065f248800836e45e48b95af92a745bf1564c17552c1a2eb4a87956223e66",
+      "parts": [
+        1
+      ],
+      "note": "Generate new episode dialogue with unchanged sohee CustomVoice model and canonical identity prompt; retain source WAV hashes, start tempo at 1.00 and remeasure all words. No speaker, EQ or pitch substitution."
+    },
+    "docs/animation/COMMON_CAMERA_STAGING.md": {
+      "sha256": "8fc971efd15373998a419ecbcfd837af62ca21099749d8e11a52937ed098d823",
+      "parts": [
+        1
+      ],
+      "note": "R7 keeps exact-word camera intentions and replaces the long-night push with a wider stable framing that retains message, clock and Nemi. Outside annotation stays above subtitles throughout the insert. Inspect actual endpoints; full 1080p satisfaction is required before 4K, and index lives in review."
+    },
+    "docs/animation/COMMON_SFX_SYSTEM.md": {
+      "sha256": "dc8efd43b08e6aef5503c3e8c51462baec23b8b1c45ce5acb1c16ec8b9f12f12",
+      "parts": [
+        1
+      ],
+      "note": "R7 retains the existing 36 event-linked recording cues and unchanged narration. The documentation now requires a fresh full 1080p review for any future mix change before 4K, even with old approved picture. Measure exported peak, retain provenance, and keep auditory audition honestly pending."
+    },
+    "docs/animation/LIVE_DOODLING_WORKFLOW.md": {
+      "sha256": "584200fb037a1fa298c6b399b47aec91545e63c447911fa240926090a687be55",
+      "parts": [
+        1
+      ],
+      "note": "Use existing seekable LiveInk through version-2 stage for one evidence revision; not a private episode renderer. Held environment art stays fully drawn and phone attachment follows existing palm geometry."
+    },
+    "docs/animation/COMMON_PROP_SYSTEM.md": {
+      "sha256": "ae99ae1cb2061ff3e2cf2523dd2e22d2080a84a1108a7d0b9bce60be06d84ccf",
+      "parts": [
+        1
+      ],
+      "note": "Place classroom desks on the floor baseline with book on its surface; phone grip uses existing hold_prop and local contact, with foreground fingers layered correctly and no hovering objects."
+    },
+    "docs/audio/SFX_System_Guide.md": {
+      "sha256": "2973052c494db7d2788666d73ae9f428b229f0cf106a709dad085009c6f3427f",
+      "parts": [
+        1
+      ],
+      "note": "Choose short page, tactile click, pencil and restrained impact recordings at named story actions. Leave vulnerable pauses clear, add no background music or continuous ambience, and use measured prominence instead of legacy gain labels."
+    },
+    "docs/audio/SFX_License_Registry.md": {
+      "sha256": "b2c33a96c5eb6bcc80f45f0c3d77d93f3d72c42920eef9f53eae0cd5a57676e2",
+      "parts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "Use catalog-checked existing page, click, metal and suspense recordings, exclude procedural placeholders. Root MP3 provenance remains user-selected with unknown original license; this episode does not relabel those clips commercial-safe."
+    },
+    "docs/animation/STORYTIME_EPISODE_COLOUR_THEME.md": {
+      "sha256": "449e16e2495180438ee52f60e573616a0978b7af10cf11c1e304dab1208f39f6",
+      "parts": [
+        1
+      ],
+      "note": "Inspected the original EP06 1080p frames at 2,12,27,42,60,78,96,115s. R5 uses cream paper walls/facades, warm neutral floors and light window washes while preserving colour-mode Nemi. Amber is reserved for the light/lamp clue, rose for secrecy and teal for route/evidence marks; rich scenery, live ink, gestures and camera movement remain. No full-room saturated fills or 4K export."
+    }
+  }
+}

@@ -300,6 +300,174 @@
       "duration": 0.5,
       "intent": "Quiet vulnerable aftermath; shoulders drop and gaze lowers before the tear accent.",
       "face": {}
+    },
+    "school_confide": {
+      "pose": "overwhelmed_chest_touch",
+      "expression": "worried",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 1.0,
+      "head_degrees": -2,
+      "duration": 0.5,
+      "intent": "Private account; hand to chest and concerned eyes.",
+      "face": {},
+      "gesture_arc": 3
+    },
+    "school_question": {
+      "pose": "thinking",
+      "expression": "confused",
+      "gaze": [
+        0.55,
+        -0.12
+      ],
+      "eyes": 0.86,
+      "head_degrees": -3,
+      "duration": 0.5,
+      "intent": "Think through intrusive questions before looking outward.",
+      "face": {},
+      "gesture_arc": 3
+    },
+    "school_point": {
+      "pose": "pointing",
+      "expression": "annoyed",
+      "gaze": [
+        0.7,
+        0
+      ],
+      "eyes": 0.9,
+      "head_degrees": -2,
+      "duration": 0.5,
+      "intent": "Direct attention to specific route/evidence, then settle.",
+      "face": {},
+      "gesture_arc": 3
+    },
+    "school_recoil": {
+      "pose": "shock_recoil",
+      "expression": "terrified",
+      "gaze": [
+        0.15,
+        -0.08
+      ],
+      "eyes": 1.22,
+      "head_degrees": -2,
+      "duration": 0.5,
+      "intent": "Defensive full-body recoil at the impossible private detail.",
+      "face": {},
+      "gesture_arc": 3
+    },
+    "school_shame": {
+      "pose": "hand_near_cheek",
+      "expression": "embarrassed",
+      "gaze": [
+        -0.25,
+        0.3
+      ],
+      "eyes": 0.82,
+      "head_degrees": -3,
+      "duration": 0.5,
+      "intent": "Polite reply remembered with an uneasy cheek gesture.",
+      "face": {},
+      "gesture_arc": 3
+    },
+    "school_gasp": {
+      "pose": "finger_to_lips",
+      "expression": "shocked",
+      "gaze": [
+        0.3,
+        0
+      ],
+      "eyes": 1.13,
+      "head_degrees": 1,
+      "duration": 0.5,
+      "intent": "An intake of recognition with a supported near-mouth hand.",
+      "face": {},
+      "gesture_arc": 3
+    },
+    "school_brace": {
+      "pose": "nervous",
+      "expression": "worried",
+      "gaze": [
+        0.15,
+        0.15
+      ],
+      "eyes": 0.97,
+      "head_degrees": 3,
+      "duration": 0.5,
+      "intent": "Gather hands and brace; do not rotate wrists independently.",
+      "face": {},
+      "gesture_arc": 3
+    },
+    "school_resolve": {
+      "pose": "casual_hand_on_hip",
+      "expression": "annoyed",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.82,
+      "head_degrees": -2,
+      "duration": 0.5,
+      "intent": "Set a boundary with an asymmetric grounded stance.",
+      "face": {},
+      "gesture_arc": 3
+    },
+    "school_relief": {
+      "pose": "relaxed_standing_left_weight",
+      "expression": "happy",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.88,
+      "head_degrees": -2,
+      "duration": 0.5,
+      "intent": "Small release after asking for help, not a victory celebration.",
+      "face": {},
+      "gesture_arc": 3
+    },
+    "school_present": {
+      "pose": "presenting_prop",
+      "expression": "worried",
+      "gaze": [
+        0.35,
+        0.08
+      ],
+      "eyes": 1.0,
+      "head_degrees": -2,
+      "duration": 0.5,
+      "intent": "Present evidence with a deliberately authored existing grip.",
+      "face": {},
+      "gesture_arc": 3
+    },
+    "school_explain": {
+      "pose": "both_hands_explaining_asym",
+      "expression": "neutral",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.93,
+      "head_degrees": 2,
+      "duration": 0.5,
+      "intent": "Two asymmetric arms explain geography without an idle loop.",
+      "face": {},
+      "gesture_arc": 3
+    },
+    "school_last": {
+      "pose": "deadpan_camera_stare",
+      "expression": "deadpan",
+      "gaze": [
+        0,
+        0
+      ],
+      "eyes": 0.8,
+      "head_degrees": 0,
+      "duration": 0.5,
+      "intent": "Quiet camera lock after the final reasonable excuse.",
+      "face": {},
+      "gesture_arc": 3
     }
   },
   "adb": {

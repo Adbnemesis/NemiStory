@@ -1,0 +1,316 @@
+ M .agents/skills/adb-storytime/SKILL.md
+ M .agents/skills/nemi-storytime/SKILL.md
+ M AGENTS.md
+ D adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/renders/ADB_EP01_full_r2_1080p.audio_qa.json
+ D adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/renders/ADB_EP01_full_r2_1080p.capture.log
+ D adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/renders/ADB_EP01_full_r3_1080p.audio_qa.json
+ D adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/renders/ADB_EP01_full_r3_4K.audio_qa.json
+ D adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/renders/ADB_EP01_full_r3_4K.capture.log
+ D adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/renders/ADB_EP01_integrated_r2_1080p.audio_qa.json
+ D adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/renders/ADB_EP01_integrated_r2_1080p.capture.log
+ D adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/renders/ADB_EP01_prank_proof_r1_1080p.audio_qa.json
+ D adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/renders/ADB_EP01_prank_proof_r1_1080p.capture.log
+ D adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/renders/ADB_EP01_proof_r3_4K.audio_qa.json
+ D adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/renders/ADB_EP01_proof_r3_4K.capture.log
+ M common/storytime/performances/recipes.json
+ M common/storytime/production/ActingTimeline.gd
+MM common/storytime/production/Backdrop.gd
+MM common/storytime/production/SceneArt.gd
+AM common/storytime/production/SchoolSuspenseArt.gd
+A  common/storytime/production/SchoolSuspenseBackdrop.gd
+ M docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md
+ M docs/animation/COMMON_ANIMATION_QA.md
+ M docs/animation/COMMON_CAMERA_STAGING.md
+ M docs/animation/COMMON_SFX_SYSTEM.md
+ M docs/animation/COMMON_STORYTIME_ANIMATION_STYLE.md
+ M docs/animation/EPISODE_START.md
+ M docs/animation/PROMOTIONAL_THUMBNAILS_2026-10-06.md
+ M docs/animation/PROMOTIONAL_THUMBNAIL_COLLECTION.md
+MM docs/animation/STORYTIME_DIRECTION_WORKFLOW.md
+ M docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md
+ M docs/animation/STORYTIME_THUMBNAILS.md
+ M docs/animation/THUMBNAIL_COLLECTION.md
+ M docs/animation/THUMBNAIL_TITLE_PLAN_2026-10-06.md
+ M docs/animation/preflight/reading_manifest.json
+ M nemi/episodes/ep09_sf_accident/renders/RENDERS.md
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/.gitignore
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/DIRECTION.md
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/PUBLISHING.md
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/SCRIPT_AND_BEATS.md
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/SCRIPT_AND_BEATS_long_draft.md
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan_long_draft.json
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/preflight.json
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/RENDERS.md
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/REVIEW.md
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/capture_geometry.json
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/final_master_contact01.jpg
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/final_master_contact02.jpg
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/final_master_contact03.jpg
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/final_movie_qa.json
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/final_staging_contact.jpg
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/integrated_contact.jpg
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_short_integrated_r3_1080p.audio_qa.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_short_integrated_r3_1080p.capture.log
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_short_proof_r2_1080p.audio_qa.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_short_proof_r2_1080p.capture.log
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r3_4K.audio_qa.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r3_4K.capture.log
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/retention.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/splice_boundary_measurements.json
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/technical_qa.json
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_long_draft.json
+AM nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan_long_draft.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/source_words.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/source_words_final.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/story.json
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/BRIEF.md
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/PromoArt.gd
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/REVIEW.md
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/TITLES.md
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/contact_geometry.json
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/layout.json
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/thumbnail.jpg
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/thumbnail_phone.png
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/thumbnail_tiny.png
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/contact_geometry.json
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/layout.json
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/thumbnail.jpg
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/thumbnail_phone.png
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/thumbnail_tiny.png
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/exports_qa.json
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/manifest.json
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/mobile_review.jpg
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/timing_reference.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/timing_reference_long_draft.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/align_final.py
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_episode.py
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_short.py
+AD nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_thumbnails.py
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/capture_review.gd
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/generate_voice.py
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/verify_final.py
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/00_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/01_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/02_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/03_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/04_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/05_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/06_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/07_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/08_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/09_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/10_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/11_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/12_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/13_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/14_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/15_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/16_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/17_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/18_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/19_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/20_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/21_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/22_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/23_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/24_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/25_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/26_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/27_nemi.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice_plan.json
+A  nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice_plan_long_draft.json
+ D "references/Come Watch My First Video! \342\231\241.mp4"
+ D "references/WHAT IS HAPPENING ON YOUTUBE___.mp4"
+ D references/adb_model_sheet.jpg
+ D references/adb_model_sheet.jpg.import
+ D references/main_character/nemi_sheet.png
+ D references/main_character/nemi_sheet.png.import
+ M tools/storytime/THUMBNAIL_PROMOTIONAL_LAYOUT.md
+ M tools/storytime/ThumbnailStoryArt.gd
+ M tools/storytime/new_scene.py
+ M tools/storytime/render_scene.py
+ M tools/storytime/thumbnail_collection.json
+ M tools/storytime/thumbnail_pilots_2026-10-06.json
+ M tools/storytime/thumbnail_promotional_2026-10-06.json
+ M tools/storytime/thumbnail_promotional_collection.json
+MM tools/storytime/validate_production.py
+?? adb/episodes/ep02_meet_my_girlfriend/
+?? adb/episodes/ep03_my_school_found_my_youtube_channel/
+?? common/engine/illustration/IllustrationTrack.gd.uid
+?? common/engine/illustration/PropAttachment.gd.uid
+?? common/storytime/PerformancePlayer.gd.uid
+?? common/storytime/ProfileAssets.gd.uid
+?? common/storytime/StorytimeStage.gd.uid
+?? common/storytime/production/ADBEpisodeArt.gd
+?? common/storytime/production/ADBEpisodeBackdrop.gd
+?? common/storytime/production/ActingTimeline.gd.uid
+?? common/storytime/production/Backdrop.gd.uid
+?? common/storytime/production/BeatVFX.gd.uid
+?? common/storytime/production/CreatorEpisodeArt.gd
+?? common/storytime/production/HandPaths.gd.uid
+?? common/storytime/production/Motion.gd.uid
+?? common/storytime/production/ProductionAudio.gd.uid
+?? common/storytime/production/ProductionStage.gd.uid
+?? common/storytime/production/SceneArt.gd.uid
+?? common/storytime/production/SchoolEpisodeArt.gd
+?? common/storytime/production/SchoolEpisodeBackdrop.gd
+?? common/storytime/production/TravelArt.gd.uid
+?? docs/animation/GENERATED_THUMBNAIL_COLLECTION.md
+?? docs/animation/STORYTIME_EPISODE_COLOUR_THEME.md
+?? nemi/episodes/ep08_forced_bf_channel/review/native4k_contact.jpg.import
+?? nemi/episodes/ep08_forced_bf_channel/review/refinement_contact.jpg.import
+?? nemi/episodes/ep08_forced_bf_channel/review/set_scale_contact.jpg.import
+?? nemi/episodes/ep08_forced_bf_channel/thumbnail-v2.jpg.import
+?? nemi/episodes/ep08_forced_bf_channel/thumbnail-v2.png
+?? nemi/episodes/ep08_forced_bf_channel/thumbnail-v2.png.import
+?? nemi/episodes/ep08_forced_bf_channel/thumbnail.jpg.import
+?? nemi/episodes/ep08_forced_bf_channel/thumbnail.png
+?? nemi/episodes/ep08_forced_bf_channel/thumbnail.png.import
+?? nemi/episodes/ep09_sf_accident/renders/EP09_SF_Accident_Viral_SFX_v2_4K.audio_qa.json
+?? nemi/episodes/ep09_sf_accident/renders/EP09_SF_Accident_Viral_SFX_v2_4K.capture.log
+?? nemi/episodes/ep09_sf_accident/renders/stills_4k/
+?? nemi/episodes/ep09_sf_accident/review/camera_contact.jpg.import
+?? nemi/episodes/ep09_sf_accident/review/set_scale_contact.jpg.import
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan_r4.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan_r5.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan_r6.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan_r7.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/1080P_APPROVAL.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/EP06_COLOUR_APPLICATION.md
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/R4_DESIGN.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/R5_DESIGN.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/R5_REVIEW.md
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/R6_REVIEW.md
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/R7_REVIEW.md
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/SOURCE_PUSH_STATUS.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/historical_r3/
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/r5/
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/r6/
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/r7/
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_proof_r1_1080p.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_proof_r1_1080p.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r4_proof_1080p.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r4_proof_1080p.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r5_integrated_1080p.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r5_integrated_1080p.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r5_integrated_1080p.review_stamp.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r5b_proof_1080p.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r5b_proof_1080p.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r5b_proof_1080p.review_stamp.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r7_framing_proof_1080p.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r7_framing_proof_1080p.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r7_framing_proof_1080p.review_stamp.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_short_integrated_r2_1080p.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_short_integrated_r2_1080p.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r5_1080p_REVIEW.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r5_1080p_REVIEW.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r5_1080p_REVIEW.review_stamp.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r6_1080p_REVIEW.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r6_1080p_REVIEW.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r6_1080p_REVIEW.review_stamp.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r7_1080p_REVIEW.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r7_1080p_REVIEW.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r7_1080p_REVIEW.review_stamp.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r8_1080p_APPROVAL_REFRESH.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r8_1080p_APPROVAL_REFRESH.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r8_1080p_APPROVAL_REFRESH.review_stamp.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r8_4K_FINAL.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r8_4K_FINAL.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r8_4K_FINAL.review_stamp.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r5_integrated_1080p.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r5_integrated_1080p.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r5_integrated_1080p.review_stamp.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r5b_proof_1080p.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r5b_proof_1080p.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r5b_proof_1080p.review_stamp.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r7_framing_proof_1080p.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r7_framing_proof_1080p.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r7_framing_proof_1080p.review_stamp.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_short_integrated_r3_1080p.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_short_integrated_r3_1080p.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_short_proof_r2_1080p.audio_qa.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_short_proof_r2_1080p.capture.log
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r3_rejected.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r4_1080p.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r4_colour_rejected.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r5_1080p.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r6_1080p.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r7_1080p.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan_r4.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan_r5.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan_r6.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan_r7.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/CLEANUP.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/PROMPT.md
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/QA.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/REVIEW.md
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/manifest.json
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/review/
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.jpg
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_r4.py
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_r5.py
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_r6.py
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_r7.py
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/capture_r4.gd
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/test_r4_hands.gd
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/verify_1080p_review.py
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/verify_r6_review.py
+?? nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/verify_r7_review.py
+?? nemi/episodes/ep11_i_really_need_your_help/
+?? override.cfg
+?? references/thumbnail_ref/
+?? renders/adb_meet_girlfriend/
+?? renders/adb_school_crush/
+?? renders/adb_school_youtube/
+?? renders/ep08_refinement/
+?? renders/ep09_sf_accident_revision/
+?? renders/live_doodle/final_contact_sheet.jpg.import
+?? renders/live_doodle/preview.png.import
+?? renders/live_doodle/proof_00.png.import
+?? renders/live_doodle/proof_01.png.import
+?? renders/live_doodle/proof_02.png.import
+?? renders/live_doodle/proof_03.png.import
+?? renders/live_doodle/proof_04.png.import
+?? renders/live_doodle/proof_05.png.import
+?? renders/live_doodle/proof_06.png.import
+?? renders/live_doodle/proof_07.png.import
+?? renders/live_doodle/proof_08.png.import
+?? renders/nemi_ep10/
+?? renders/nemi_ep11/
+?? renders/nemi_sf_accident/
+?? renders/pegi_camera_study/
+?? renders/storytime_audit/
+?? renders/storytime_direction/contact_sheet.png.import
+?? renders/storytime_direction/reply_frame.png.import
+?? renders/storytime_direction/weight_frame.png.import
+?? renders/storytime_identity/contact_sheet.png.import
+?? renders/storytime_identity/final_frame.png.import
+?? renders/storytime_identity/frame_12.png.import
+?? renders/storytime_identity/frame_37.png.import
+?? renders/storytime_identity/frame_58.png.import
+?? renders/storytime_identity/frame_78.png.import
+?? renders/storytime_identity/frame_98.png.import
+?? renders/storytime_refinement/audio/
+?? renders/storytime_refinement/contact_motion.jpg.import
+?? renders/storytime_refinement/contact_sheet.jpg.import
+?? renders/storytime_review_48s/audio/
+?? renders/storytime_review_48s/contact.jpg.import
+?? renders/storytime_review_48s/overview.jpg.import
+?? renders/storytime_review_48s/source_voice/
+?? renders/storytime_timing_revision/
+?? renders/thumbnail_package_helper_check/
+?? tools/LiveDoodleShowcase.gd.uid
+?? tools/render_live_doodle.gd.uid
+?? tools/storytime/render_approval.py
+?? tools/storytime/render_stage.gd.uid
+?? tools/storytime/test_identity.gd.uid
+?? tools/storytime/test_production.gd.uid
+?? tools/storytime/test_refinement.gd.uid
+?? tools/storytime/test_render_approval.py
+?? tools/storytime/test_review_story.gd.uid
+?? tools/storytime/thumbnail_generated_collection.json
+?? tools/tests/test_live_ink.gd.uid

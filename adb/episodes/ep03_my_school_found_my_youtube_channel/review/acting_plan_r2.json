@@ -1,0 +1,563 @@
+{
+  "version": 1,
+  "cues": [
+    {
+      "at": 0,
+      "recipe": "embarrassed",
+      "intent": "Exposed by the opening image, still composed enough to narrate.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.48,
+          0.1
+        ],
+        "face": {
+          "blush_intensity": 0.35
+        }
+      }
+    },
+    {
+      "at": 6.67,
+      "recipe": "deadpan",
+      "intent": "Freeze on the upload-regret joke.",
+      "event": "hook_regret",
+      "detail": {
+        "motion": "snap"
+      }
+    },
+    {
+      "at": 8.65,
+      "recipe": "explaining",
+      "intent": "Return to the viewer to distinguish the channels.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0,
+          0
+        ],
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 14.07,
+      "recipe": "shy_confession",
+      "intent": "Real face is the private vulnerability.",
+      "event": "real_face",
+      "detail": {
+        "face": {
+          "blush_intensity": 0.42
+        }
+      }
+    },
+    {
+      "at": 17.0,
+      "recipe": "prop_present",
+      "intent": "Indicate the finished phone illustration.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.55,
+          -0.08
+        ]
+      }
+    },
+    {
+      "at": 24.0,
+      "recipe": "explaining",
+      "intent": "Economical explanation of the old format.",
+      "event": "lipsync",
+      "detail": {
+        "hands": {
+          "right": "pointing",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 28.1,
+      "recipe": "self_impressed",
+      "intent": "Brief knowingly self-serious memory.",
+      "event": "performance_life",
+      "detail": {}
+    },
+    {
+      "at": 28.84,
+      "recipe": "self_impressed",
+      "intent": "Hold the committed performance silhouette.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "at": 36.06,
+      "recipe": "quiet_recoil",
+      "intent": "Small recoil toward the thought of remembering it.",
+      "event": "remember_later",
+      "detail": {
+        "face": {
+          "blush_intensity": 0.34
+        }
+      }
+    },
+    {
+      "at": 37.71,
+      "recipe": "pleased",
+      "intent": "A thousand subscribers is a small private triumph.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.5,
+          -0.04
+        ]
+      }
+    },
+    {
+      "at": 40.23,
+      "recipe": "clue_point",
+      "intent": "Point to evidence once, settle and hold.",
+      "event": "first_thousand",
+      "detail": {}
+    },
+    {
+      "at": 46.29,
+      "recipe": "open_shrug",
+      "intent": "Asymmetric admission that they chose these videos.",
+      "event": "voluntary_audience",
+      "detail": {}
+    },
+    {
+      "at": 49.34,
+      "recipe": "lean_in",
+      "intent": "Confide to one friend.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.7,
+          0
+        ],
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 51.6,
+      "recipe": "deadpan",
+      "intent": "One. Lock the emphasis.",
+      "event": "only_one",
+      "detail": {
+        "motion": "snap"
+      }
+    },
+    {
+      "at": 52.86,
+      "recipe": "recover",
+      "intent": "Reasonable choice resumes composed confidence.",
+      "event": "reasonable",
+      "detail": {}
+    },
+    {
+      "at": 56.46,
+      "recipe": "listening",
+      "intent": "Register the computer room before any reaction.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.55,
+          -0.1
+        ]
+      }
+    },
+    {
+      "at": 59.62,
+      "recipe": "skeptical",
+      "intent": "Computers and internet point toward trouble.",
+      "event": "internet_access",
+      "detail": {
+        "gaze": [
+          0.7,
+          -0.05
+        ]
+      }
+    },
+    {
+      "at": 61.92,
+      "recipe": "nervous_wait",
+      "intent": "Hands gather; knowledge is now dangerous.",
+      "event": "equipped_friend",
+      "detail": {
+        "face": {
+          "sweat_intensity": 0.35,
+          "blush_intensity": 0.22
+        }
+      }
+    },
+    {
+      "at": 65.66,
+      "recipe": "listening",
+      "intent": "Eyes already on the screen; no false mouse grip.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.65,
+          -0.1
+        ],
+        "hands": {
+          "right": "relaxed",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 67.7,
+      "recipe": "quiet_recoil",
+      "intent": "One bounded shock response.",
+      "event": "play_video",
+      "detail": {
+        "motion": "stepped",
+        "step_fps": 12,
+        "face": {
+          "blush_intensity": 0.45
+        }
+      }
+    },
+    {
+      "at": 69.4,
+      "recipe": "nervous_answer",
+      "intent": "Sustained exposed posture while the room sees the videos.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.65,
+          -0.02
+        ],
+        "face": {
+          "sweat_intensity": 0.3,
+          "blush_intensity": 0.5
+        }
+      }
+    },
+    {
+      "at": 73.46,
+      "recipe": "embarrassed",
+      "intent": "Withdraw as each expression is remembered.",
+      "event": "every_expression",
+      "detail": {
+        "gaze": [
+          -0.2,
+          0.28
+        ],
+        "face": {
+          "blush_intensity": 0.56
+        }
+      }
+    },
+    {
+      "at": 77.37,
+      "recipe": "hurt_composure",
+      "intent": "Quiet vulnerability; shoulders and gaze descend.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.08,
+          0.55
+        ],
+        "face": {
+          "blush_intensity": 0.6,
+          "sweat_intensity": 0
+        }
+      }
+    },
+    {
+      "at": 84.01,
+      "recipe": "deadpan",
+      "intent": "A frozen attempt to accept what the classmates now know.",
+      "event": "who_i_am",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "blush_intensity": 0.52,
+          "eye_openness_left": 0.78,
+          "eye_openness_right": 0.8
+        }
+      }
+    },
+    {
+      "at": 86.44,
+      "recipe": "explaining",
+      "intent": "Analyze public posting versus a known audience.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.4,
+          -0.02
+        ],
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        },
+        "face": {
+          "blush_intensity": 0.2
+        }
+      }
+    },
+    {
+      "at": 92.94,
+      "recipe": "soft_shrug",
+      "intent": "The internet felt imaginary; acknowledge the mismatch.",
+      "event": "imaginary_internet",
+      "detail": {}
+    },
+    {
+      "at": 94.4,
+      "recipe": "hurt_composure",
+      "intent": "Return to the concrete classmates and small posture.",
+      "event": "classmates_here",
+      "detail": {
+        "face": {
+          "blush_intensity": 0.35
+        }
+      }
+    },
+    {
+      "at": 96.45,
+      "recipe": "uncertain",
+      "intent": "Tentative hindsight; no invented certainty about their intent.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          -0.2,
+          -0.15
+        ],
+        "face": {
+          "blush_intensity": 0.12
+        }
+      }
+    },
+    {
+      "at": 99.45,
+      "recipe": "weight_shift",
+      "intent": "Eyes return outward before the body loosens.",
+      "event": "not_mean",
+      "detail": {
+        "gaze": [
+          0,
+          0
+        ],
+        "face": {
+          "blush_intensity": 0.1
+        }
+      }
+    },
+    {
+      "at": 103.17,
+      "recipe": "pleased",
+      "intent": "Recognize the purpose of those funny videos.",
+      "event": "videos_funny",
+      "detail": {
+        "gaze": [
+          0.38,
+          -0.05
+        ]
+      }
+    },
+    {
+      "at": 105.52,
+      "recipe": "recover",
+      "intent": "Let the remembered praise register.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.55,
+          -0.03
+        ]
+      }
+    },
+    {
+      "at": 106.66,
+      "recipe": "pleased",
+      "intent": "A small smile for the achievement.",
+      "event": "impressed",
+      "detail": {
+        "face": {
+          "blush_intensity": 0.18
+        }
+      }
+    },
+    {
+      "at": 110.74,
+      "recipe": "shy_confession",
+      "intent": "Admit that embarrassment hid the good part.",
+      "event": "missing_praise",
+      "detail": {
+        "face": {
+          "blush_intensity": 0.35
+        },
+        "gaze": [
+          -0.25,
+          0.25
+        ]
+      }
+    },
+    {
+      "at": 114.9,
+      "recipe": "pleased",
+      "intent": "Warmth leads the changed reading of the memory.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.4,
+          -0.1
+        ],
+        "face": {
+          "blush_intensity": 0.15
+        }
+      }
+    },
+    {
+      "at": 121.22,
+      "recipe": "open_shrug",
+      "intent": "Small open palms own the accidental classroom audience.",
+      "event": "accidental_audience",
+      "detail": {}
+    },
+    {
+      "at": 123.34,
+      "recipe": "explaining",
+      "intent": "Broad reasons for leaving; no platform-policy specifics.",
+      "event": null,
+      "detail": {
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        },
+        "gaze": [
+          0.48,
+          -0.02
+        ]
+      }
+    },
+    {
+      "at": 126.02,
+      "recipe": "weight_shift",
+      "intent": "Work overtakes the old channel.",
+      "event": "work_piled",
+      "detail": {
+        "gaze": [
+          0.45,
+          0.05
+        ]
+      }
+    },
+    {
+      "at": 130.58,
+      "recipe": "listening",
+      "intent": "Lower both hands as the page closes; no empty grip.",
+      "event": "channel_dropped",
+      "detail": {
+        "gaze": [
+          0.35,
+          0.2
+        ],
+        "hands": {
+          "right": "relaxed",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 131.62,
+      "recipe": "recover",
+      "intent": "Return to current creator composure.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "at": 135.48,
+      "recipe": "lean_in",
+      "intent": "A small forward commitment to making videos again.",
+      "event": "youtube_again",
+      "detail": {
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 136.47,
+      "recipe": "prop_present",
+      "intent": "Present the old/new face comparison.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.5,
+          -0.02
+        ],
+        "hands": {
+          "right": "pointing",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 139.55,
+      "recipe": "deadpan",
+      "intent": "The drawing-face joke gets a clean still hold.",
+      "event": "development",
+      "detail": {
+        "motion": "snap"
+      }
+    },
+    {
+      "at": 140.88,
+      "recipe": "skeptical",
+      "intent": "Consider the classmates finding this channel too.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.45,
+          -0.04
+        ],
+        "hands": {
+          "right": "relaxed",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 145.96,
+      "recipe": "deadpan",
+      "intent": "Final ownership of the bit with direct eye contact.",
+      "event": "committed_bit",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "blush_intensity": 0.12
+        }
+      }
+    }
+  ],
+  "mouth_method": "Measured word-bounded broad vowel choices with conservative M/B/P closures; not phoneme-perfect. Portraits require final listening/playback review.",
+  "contact": "No pickup/release or forced grip. The narrator indicates symbolic held evidence and monitor art; the friend action is an authored reconstruction.",
+  "geometry": {
+    "actor_scale": 1.35,
+    "actor_root_y": 634.8,
+    "floor_y": 894,
+    "feet": "Planted existing actor-local cuff y178; unchanged shoe tread fill y192 lands at894",
+    "desk_top_y": 694
+  }
+}

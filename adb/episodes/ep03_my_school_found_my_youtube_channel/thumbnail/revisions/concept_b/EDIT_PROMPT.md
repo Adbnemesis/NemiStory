@@ -1,0 +1,5 @@
+# Targeted factual correction
+
+Edit target: the supplied thumbnail "NOT IN CLASS!" Make ONE factual detail correction only inside the small phone screen: remove the black microphone from the old lip-sync ADB illustration. He was making Dubsmash lip-sync face videos, not recording a singing performance with a microphone. Replace his microphone-holding hand with a clearly empty, natural open/pointing performance gesture near his chest; do not leave a gripping hand around nothing. Keep his cheerful open-mouth lip-sync expression and green button shirt. Preserve everything else exactly: main embarrassed ADB face/hand/hair/outfit, the friendly classmates, giant red play button and pressing finger, all proportions and placements, bright checker background and cutout edges, and the exact headline NOT IN CLASS! with thick BLACK/RED/BLACK outlines. One headline, no new text. Opaque 16:9 wide image.
+
+Edit target: the native initial B candidate preserved under `../concept_b_initial/thumbnail.png`. Built-in image generation was used. All original prompt/reference roles are recorded in `../../PROMPTS.md`.

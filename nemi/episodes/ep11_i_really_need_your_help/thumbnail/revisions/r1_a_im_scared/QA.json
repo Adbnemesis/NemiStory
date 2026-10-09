@@ -1,0 +1,57 @@
+{
+  "status": "Review candidate; user thumbnail selection pending",
+  "headline": "I'M SCARED...",
+  "proposed_title": "I Really Need Your Help",
+  "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail references; not a rig export",
+  "tool": "built-in image_gen.imagegen",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "upload_dimensions": [
+    1280,
+    720
+  ],
+  "conversion": "Downsample to 1280x720 upload JPG; native PNG retained; no upscale",
+  "sha256": {
+    "thumbnail.png": "dd2261da8b94c228587978a3614826d3222824647ffd2179d4d8af06a52adc7b",
+    "thumbnail.jpg": "95f183b3b78271c619c79aaca931c1c1d6f8f56703a07ae49b9cf9d00b6b2fc1",
+    "review/phone.png": "84323c39e1773ba43ba7ed013af49fbc365c1896137f89f5ac1799d588c0fe29",
+    "review/tiny.png": "64f60c2c2d1c2f815917f37d97840cba8887f7ea5a87be76a511009c6a4605a7"
+  },
+  "references": [
+    {
+      "path": "/Users/talus/Documents/adb/references/thumbnail_ref/thumbnail_set_raora.png",
+      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e",
+      "role": "Typography/background"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "role": "Approved promotional finish"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep11_i_really_need_your_help/thumbnail/references/nemi_ep11_worried.png",
+      "sha256": "00a370f829421ab022bfdf3258f9e7c787cc3166f83a605a0bb00a0ceb4f0453",
+      "role": "Target EP11 character identity"
+    }
+  ],
+  "original_tool_output": "/Users/talus/.codex/generated_images/01a114b5-ed41-7e73-ba05-0ea951c69e52/exec-da768fbb-0107-46de-953f-8a1360f81e03.png",
+  "full_output_viewed": true,
+  "mobile_viewed": true,
+  "approved_by_user": false,
+  "review_sizes": [
+    [
+      320,
+      180
+    ],
+    [
+      160,
+      90
+    ]
+  ],
+  "visual_findings": "Exact headline readable at full, 320x180 and160x90. Heavy white type with strong black/red contours, coral/white checkers, prominent worried green eyes and canonical auburn hair/sage hoodie. Single hand-to-chest pose is clear. Qualitative declining graph/video card reads without fabricated numbers. No extra captions; no farewell/deletion claim. Recommended for the sincere personal appeal.",
+  "spelling_checked": true,
+  "character_recognizable_against_episode_reference": true,
+  "hands_and_prop_contacts_reviewed": true
+}

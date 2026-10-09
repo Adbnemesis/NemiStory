@@ -1,0 +1,57 @@
+{
+  "status": "Review candidate; user thumbnail selection pending",
+  "headline": "FOUR MONTHS...",
+  "proposed_title": "I'm Worried About My Channel's Future",
+  "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail references; not a rig export",
+  "tool": "built-in image_gen.imagegen",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "upload_dimensions": [
+    1280,
+    720
+  ],
+  "conversion": "Downsample to 1280x720 upload JPG; native PNG retained; no upscale",
+  "sha256": {
+    "thumbnail.png": "7c931b9f6d88c541fddca2bf85330da608006fcf8d8b7a48328e3a05fc308857",
+    "thumbnail.jpg": "4acb4c9817e59c8f8820cd7e5b6cbfa23510d4c7040d42b3c0b8556f99cde906",
+    "review/phone.png": "8d7f590baef7216a3ee4ebbcc5651c2e8b0eafcd8c7227e9e32b9655276717f1",
+    "review/tiny.png": "241a087d80f0d8633d0e59474734190474ee40df2787acda5c67ee3dd2a42938"
+  },
+  "references": [
+    {
+      "path": "/Users/talus/Documents/adb/references/thumbnail_ref/thumbnail_set_raora.png",
+      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e",
+      "role": "Typography/background"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "role": "Approved promotional finish"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep11_i_really_need_your_help/thumbnail/references/nemi_ep11_worried.png",
+      "sha256": "00a370f829421ab022bfdf3258f9e7c787cc3166f83a605a0bb00a0ceb4f0453",
+      "role": "Target EP11 character identity"
+    }
+  ],
+  "original_tool_output": "/Users/talus/.codex/generated_images/01a114b5-ed41-7e73-ba05-0ea951c69e52/exec-96cc4324-6bcb-42e2-86c6-6d778100e593.png",
+  "full_output_viewed": true,
+  "mobile_viewed": true,
+  "approved_by_user": false,
+  "review_sizes": [
+    [
+      320,
+      180
+    ],
+    [
+      160,
+      90
+    ]
+  ],
+  "visual_findings": "Exact two-line headline readable at full,320x180 and160x90. Nemi and giant hourglass have distinct strong silhouettes, coherent sleeve/wrist contacts and recognizable face. Sand remains in upper bulb, communicating time pressure without declaring failure. Sparse clock ticks and pale cyan/white checkers support the deadline. Red play symbol is visible at phone size; no extra copy.",
+  "spelling_checked": true,
+  "character_recognizable_against_episode_reference": true,
+  "hands_and_prop_contacts_reviewed": true
+}

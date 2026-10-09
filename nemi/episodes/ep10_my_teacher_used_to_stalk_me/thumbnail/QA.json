@@ -1,0 +1,70 @@
+{
+  "status": "Approved by user; sole selected EP10 thumbnail.",
+  "method": "Built-in image generation, reference-based redesign; explicitly requested by user.",
+  "headline": "Don't Tell Anyone...",
+  "proposed_title": "My Teacher Used to Stalk Me",
+  "native_dimensions": [
+    1672,
+    940
+  ],
+  "upload_dimensions": [
+    1280,
+    720
+  ],
+  "native_4k": false,
+  "provenance": "AI-generated raster illustration using Raora thumbnail sheet for typography/background and canonical Nemi episode thumbnail for character/style reference. Not a Godot rig export.",
+  "files": {
+    "thumbnail.png": {
+      "bytes": 1668719,
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    "thumbnail.jpg": {
+      "bytes": 440146,
+      "sha256": "442019678738001aa1de16e9b780fcce2b27cf0ccc83a398101325bccbd42464",
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "review/phone.png": {
+      "bytes": 97132,
+      "sha256": "021d6a358bea26fec8e078eb40976bb5c9c733322a54b426d67f4df89d8041a6",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    "review/tiny.png": {
+      "bytes": 30307,
+      "sha256": "3147204ee8378f2e472add840a7f82a6322f98e9c87d17da342f6a39aeb7c765",
+      "dimensions": [
+        160,
+        90
+      ]
+    }
+  },
+  "episode_video_modified": false,
+  "previous_thumbnails_preserved": false,
+  "platform_upload": false,
+  "mobile_review": "Viewed actual 320\u00d7180 and 160\u00d790 exports; headline, expressions, phone and cutout separation remain legible.",
+  "user_approval_quote": "awesome so we'll be using this thumbnail only",
+  "previous_thumbnails_removed_per_user_request": true,
+  "input_references": [
+    {
+      "path": "references/thumbnail_ref/thumbnail_set_raora.png",
+      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e",
+      "role": "style/typography/background",
+      "retained": true
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/thumbnail.jpg",
+      "sha256": "96f412c8225e537502d2c3275f8cbbca6493f64e57b72548cb2b4752960034fe",
+      "role": "original canonical Nemi identity/style input",
+      "retained": false
+    }
+  ]
+}

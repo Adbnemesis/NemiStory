@@ -2,6 +2,11 @@ extends Node2D
 ## Authored scenery selection. Not every beat needs an illustration reveal.
 var kind := "paper"
 const School=preload("res://common/storytime/production/SchoolBackdrop.gd")
+const Suspense=preload("res://common/storytime/production/SchoolSuspenseBackdrop.gd")
+const Episode=preload("res://common/storytime/production/SchoolEpisodeBackdrop.gd")
+const ADBEp=preload("res://common/storytime/production/ADBEpisodeBackdrop.gd")
+const CreatorArt=preload("res://common/storytime/production/CreatorEpisodeArt.gd")
+const SchoolYoutube=preload("res://common/storytime/production/SchoolYoutubeBackdrop.gd")
 func set_kind(value: String) -> void:
 	if value!=kind:
 		kind=value
@@ -11,6 +16,21 @@ func ink(points: Array, color: Color=Color("#b6aa98"), width: float=2.0) -> void
 	for p in points: packed.append(Vector2(p[0],p[1]))
 	draw_polyline(packed,color,width,true)
 func _draw() -> void:
+	if kind in SchoolYoutube.KINDS:
+		SchoolYoutube.draw_set(self,kind)
+		return
+	if kind=="nemi_creator_studio":
+		CreatorArt.draw_set(self)
+		return
+	if kind in ADBEp.KINDS:
+		ADBEp.draw_set(self,kind)
+		return
+	if kind in Episode.KINDS:
+		Episode.draw_set(self,kind)
+		return
+	if kind in Suspense.KINDS:
+		Suspense.draw_set(self,kind)
+		return
 	if kind in ["school_classroom","school_corridor","school_courtyard"]:
 		School.draw_set(self,kind)
 		return

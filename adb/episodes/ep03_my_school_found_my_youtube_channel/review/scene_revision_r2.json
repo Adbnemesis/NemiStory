@@ -1,0 +1,45 @@
+{
+  "revision": "r2",
+  "reason": "Fresh full-speed proof/stills exposed staging issues before the first full review.",
+  "source_sha256": "32737e9866f09f415552f772a6a9a90e35b3dbb71ab1579fb206a546b43f8ec8",
+  "preserved": [
+    "scene_r1_1080p.json",
+    "tools/build_episode_r1.py",
+    "renders/ADB_EP03_proof_r1_1080p.mp4"
+  ],
+  "changes": [
+    {
+      "kind": "uniform actor staging",
+      "before_root_y": 653.7,
+      "after_root_y": 634.8,
+      "explanation": "Existing solver fixes cuff localy178; unchanged sole adds14units. Scale1.35 gives18.9worldpx sole offset. Tread fill now lands onfloor894; outline straddles plane normally."
+    },
+    {
+      "kind": "camera insert clearance",
+      "shots": [
+        "opening",
+        "playing",
+        "expressions"
+      ],
+      "center_y": 590,
+      "explanation": "Full-world reframe lifts shoes clear of captions while keeping narrator face/monitor visible."
+    },
+    {
+      "kind": "caption case",
+      "word_card": 77,
+      "before": "taking it seriously, And accidentally",
+      "after": "taking it seriously, and accidentally",
+      "audio_changed": false
+    },
+    {
+      "kind": "shared peer art",
+      "owner": "lab_art",
+      "explanation": "Center observer bust now shares desktop shoulder origin after proof revealed a floating lower edge."
+    }
+  ],
+  "pending": [
+    "fresh R2 focused proof",
+    "integrated R2 sequence",
+    "full R2 1080p cut visual/audio review"
+  ]
+}

@@ -120,6 +120,20 @@ static func background(parent: Node2D, author: String, config: Dictionary) -> vo
 	parent.add_child(node)
 
 static func headline(parent: Node2D, item: Dictionary) -> void:
+	# Editorial type can use several concentric strokes without repeating copy
+	# in the layout's headline phrase. Order outermost to innermost.
+	for edge in item.get("outline_layers",[]):
+		# System fonts can produce much thinner native outlines than requested.
+		# Concentric offset glyphs keep the editorial stroke width in canvas pixels.
+		for step in range(48):
+			var back: Dictionary=item.duplicate(true)
+			back.erase("outline_layers")
+			var offset=Vector2.from_angle(float(step)*TAU/48.0)*float(edge.size)
+			back.position=[float(item.position[0])+offset.x,float(item.position[1])+offset.y]
+			back.outline=0
+			back.color=edge.color
+			back.shadow_color="#00000000"
+			headline(parent,back)
 	var font=load(item.get("font","res://assets/fonts/Impact.ttf"))
 	var size_px: int=item.size
 	while font.get_string_size(item.text,HORIZONTAL_ALIGNMENT_LEFT,-1,size_px).x>float(item.max_width):size_px-=1

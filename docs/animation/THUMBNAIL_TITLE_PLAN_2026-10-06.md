@@ -1,5 +1,7 @@
 # ADB + Nemi thumbnail and title plan
 
+> Historical workflow. On 7 October 2026 the user replaced Godot thumbnail creation with reference-guided image generation for both ADB and Nemi. Follow [the current thumbnail guide](STORYTIME_THUMBNAILS.md) and [selected generated thumbnails](GENERATED_THUMBNAIL_COLLECTION.md). The old commands and no-image-generation rules below record earlier work, not current thumbnail instructions.
+
 Date: 6 October 2026. Status: the literal-scene art direction below was rejected by the user during production. Retained as historical analysis/test planning. The active creative direction is original promotional illustration, including newly authored supporting art, comic exaggeration and metaphor in the animation style. See `STORYTIME_THUMBNAILS.md` and `PROMOTIONAL_THUMBNAILS_2026-10-06.md` for the revised direction and current candidates. No measured winners.
 
 The user reports roughly 1–2% CTR for the current thumbnails and wants to target at least 20%. We should redesign the packaging around a specific story moment and test title/image pairs. Keep the exact production character art; improve staging, hierarchy and the promise to a new viewer. Start with three pilots before replacing another entire collection.

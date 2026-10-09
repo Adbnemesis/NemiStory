@@ -29,6 +29,7 @@ The purpose of animation in this medium is **NOT "continuous movement"**—it is
   - **INCORRECT**: Perfect geometric primitives (pure CAD circles, sterile rects) or procedural noise/jitter overlays applied on top of sterile vectors.
 
 ### Color Palette Philosophy
+The current shared episode reference is [EP06 paper and selective colour](STORYTIME_EPISODE_COLOUR_THEME.md). Preserve canonical character colours, cream continuity and readable ink; use selected prop/annotation accents. Richer backgrounds mean more authored scene detail and staging, not broad saturated walls and roads. Promotional thumbnails follow the separate [image-generation guide](STORYTIME_THUMBNAILS.md) and approved Raora/EP10 treatment.
 * **Foundation**: Warm, paper-like backgrounds (`#faf6ee`, `#f5efe4`) providing an illustrated sketchbook feeling.
 * **Character Harmonization**: Muted, sophisticated palettes with high contrast against the paper background, paired with vivid accent colors used strictly for emotional bursts (blush, anger marks, shock rays).
 * **Negative Space**: At least 35% to 50% of the screen area should remain clear, allowing key drawings, props, and subtitles to breathe.

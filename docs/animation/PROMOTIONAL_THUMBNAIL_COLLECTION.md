@@ -1,4 +1,6 @@
-# ADB + Nemi: two promotional thumbnails for every episode
+# Historical Godot promotional thumbnail collection — 2026-10-06
+
+> Historical workflow. On 7 October 2026 the user replaced Godot thumbnail creation with reference-guided image generation for both ADB and Nemi. Follow [the current thumbnail guide](STORYTIME_THUMBNAILS.md) and [selected generated thumbnails](GENERATED_THUMBNAIL_COLLECTION.md). The old commands and no-image-generation rules below record earlier work, not current thumbnail instructions.
 
 Revision label: 2026-10-06. Scope: **24 images, 12 numbered episodes, two distinct concepts each** — ADB EP00–EP01 and Nemi EP00–EP09. The first six promotional candidates are included alongside eighteen new ones. Each has a proposed complementary title and one thumbnail headline. Status: final graphics export, full/mobile visual review and package verification complete. These are creative candidates; publication and audience results remain separate.
 
@@ -46,9 +48,9 @@ Each episode keeps `thumbnail/promotional/2026-10-06/BRIEF.md` and source/style 
 
 Original promotional inventions are described in each brief: paper vortices, oversized letters/Cupid, giant ice/poultry, magnets, empty audience spotlights, community waves, keyframe rollercoasters, grade-stamp meteors, zero portals and director props. Titles' factual subjects/numbers still come from the scripts. The kitten survives and is adopted; the crush prank stays unrevealed; the safe driverless ride is distinguished from the ordinary cab's rear-end accident. A count in a historical episode is not claimed to be current analytics.
 
-Both `.agents/skills/adb-storytime/SKILL.md` and `.agents/skills/nemi-storytime/SKILL.md` require two distinct promotional concepts per episode and route to this index, the [shared guide](STORYTIME_THUMBNAILS.md) and [static layout contract](../../tools/storytime/THUMBNAIL_PROMOTIONAL_LAYOUT.md). Full animation preflight remains separate from this static thumbnail route.
+This historical collection used both storytime skills and the static Godot layout workflow at the time. Current skills now route to the [image-generation guide](STORYTIME_THUMBNAILS.md); these exports remain prior deliveries.
 
-Active manifest: `tools/storytime/thumbnail_promotional_collection.json`. Renderer: `tools/storytime/ThumbnailPromotional.gd`. Validator: `tools/storytime/validate_thumbnail_pilots.py`. Ordered illustration helper: `tools/storytime/ThumbnailIllustration.gd`. Packaging: `tools/storytime/package_promotional_thumbnails.py`.
+Historical Godot manifest: `tools/storytime/thumbnail_promotional_collection.json`. Renderer: `tools/storytime/ThumbnailPromotional.gd`. Validator: `tools/storytime/validate_thumbnail_pilots.py`. Ordered illustration helper: `tools/storytime/ThumbnailIllustration.gd`. Packaging: `tools/storytime/package_promotional_thumbnails.py`.
 
 ```sh
 .venv/bin/python tools/storytime/validate_thumbnail_pilots.py

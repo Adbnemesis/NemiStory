@@ -1,6 +1,8 @@
-# Current ADB + Nemi episode thumbnails — 2026-10-05
+# Historical single-image thumbnail collection — 2026-10-05
 
-The complete current [two-per-episode promotional collection](PROMOTIONAL_THUMBNAIL_COLLECTION.md) supersedes these earlier single-image deliveries. This document is retained as their historical index.
+> Historical workflow. On 7 October 2026 the user replaced Godot thumbnail creation with reference-guided image generation for both ADB and Nemi. Follow [the current thumbnail guide](STORYTIME_THUMBNAILS.md) and [selected generated thumbnails](GENERATED_THUMBNAIL_COLLECTION.md). The old commands and no-image-generation rules below record earlier work, not current thumbnail instructions.
+
+The subsequent historical [two-per-episode promotional collection](PROMOTIONAL_THUMBNAIL_COLLECTION.md) supersedes these earlier single-image deliveries. This document is retained as their historical index.
 
 Latest creative direction, 6 October: the user rejected the literal-scene pilots and requested original promotional illustrations. [Six new candidates](PROMOTIONAL_THUMBNAILS_2026-10-06.md) now cover the crush, kitchen and taxi stories using newly authored supporting artwork/metaphors and canonical main characters. The earlier twelve images below remain preserved prior deliveries. The new candidates have not been uploaded or audience-tested.
 

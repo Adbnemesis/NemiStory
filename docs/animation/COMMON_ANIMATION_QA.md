@@ -29,10 +29,11 @@ No storytime episode or character test may be approved for final release without
 - [ ] **Surface Contact & Grounding**: Are character feet, chair legs, and desk items firmly grounded on floor/desk baselines? (Zero hovering elements).
 - [ ] **Zero Clipping & Intersection**: Do arms, clothing folds, hair strands, and held props overlap with correct anatomical and physical z-ordering? (Zero impossible limb intersections).
 - [ ] **Depth Stacking**: Does the 10-layer depth hierarchy hold? (Character hands over props, props over desks, desks over chair seats, etc.).
-- [ ] **Organic Hand-Drawn Inking**: Does all linework adhere to the `#2b2623` master contour with natural taper and subtle asymmetry? (Zero geometric CAD shapes).
+- [ ] **Organic Hand-Drawn Inking**: Does linework preserve the author-specific contour/mark language and the current [episode colour theme](STORYTIME_EPISODE_COLOUR_THEME.md), with readable ink, natural taper and subtle asymmetry?
 - [ ] **Doodle Quality**: Are circles, arrows, and stars individually drawn? (Zero stock SVG icons or noisy vector jitter filters).
 - [ ] **Handwriting Quality**: Does on-screen text appear handwritten into the sketchbook? (Zero dialogue UI boxes or corporate callout badges).
 - [ ] **Background Continuity**: Do background horizons, perspectives, and environmental props remain consistent across camera reframes?
+- [ ] **Simple Recognizable Settings**: Does the background still establish a place with grounded scenery while leaving the current thought readable?
 
 ---
 
@@ -43,16 +44,19 @@ No storytime episode or character test may be approved for final release without
 - [ ] **Comedic Holds**: Do punchlines and deadpan reactions lock into absolute 0-velocity holds (`0.4s` to `1.5s`) without procedural jitter or float?
 - [ ] **Asymmetry**: Does the pose exhibit natural human asymmetry? (Uneven shoulder line, one dominant acting arm, weight on one hip).
 - [ ] **Micro-Events**: Are natural blinks, eye darts, and subtle head tilts integrated organically throughout conversational passages?
+- [ ] **Accepted Visual Balance**: Do thought-specific expressions, poses, props, held/live doodles, camera and finite VFX develop sequentially throughout the episode, with one focus at a time and deliberate emotional stillness? Review both sparse stretches and competing simultaneous actions; cue counts are not quotas. Use [EP11's accepted balance guidance](STORYTIME_REFINEMENT_WORKFLOW.md).
 
 ---
 
 ## 4. Gate 3: Audio, Voice & Subtitles
 
-- [ ] **Voice Dominance**: Is spoken narration crystal clear at `-2.0 dB` to `-3.5 dB` True Peak?
+- [ ] **Voice Dominance**: Is narration clearly audible in the exported mix, with encoded peak/headroom checks from the current [refinement workflow](STORYTIME_REFINEMENT_WORKFLOW.md)? Numerical levels do not replace listening.
 - [ ] **Lip-Sync Precision**: Do mouth shapes match spoken vowels and consonants with zero drift across the entire episode?
 - [ ] **Subtitle <= 5 Words Rule**: Does EVERY subtitle card contain 5 or fewer words? (Strict rejection if any card has 6+ words).
 - [ ] **Subtitle Clean Removal**: Do subtitles clear immediately during natural spoken pauses $\ge 0.35s$?
 - [ ] **SFX Restraint**: Are sound effects short, crisp, event-driven, and mixed cleanly below the voice?
+- [ ] **SFX Presence**: Are chosen prop, drawing and reaction accents actually audible in the export, with intentional silence where the emotion needs space?
+- [ ] **Conversational Pace**: Have slow phrases and prolonged non-emotional gaps been reviewed against the final audio while preserving the approved voice identity, emotional breaths and meaningful holds? Nemi may use phrase-specific pitch-preserving tempo and selected source-bound pause edits; rebuild dependent word, mouth, caption, acting, camera, ink and sound timing after changes.
 - [ ] **Strict BGM Policy**: Is background music OFF by default? (Zero continuous music tracks filling comedic silence).
 
 ---

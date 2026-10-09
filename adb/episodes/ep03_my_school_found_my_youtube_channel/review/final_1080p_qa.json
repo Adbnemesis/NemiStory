@@ -1,0 +1,85 @@
+{
+  "revision": "r4",
+  "source": "adb/episodes/ep03_my_school_found_my_youtube_channel/scene_r4_1080p.json",
+  "scene_sha256": "a5b04cac2bd7c1cb7a9b6f734545c6258acd5de3bc7f58906d5add80f225d553",
+  "preview": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_1080p_REVIEW.mp4",
+  "preview_sha256": "9f3c05f09e6d0bffc97f6f598d05b2802ea1c3000d8a1ca54597ce33543707c1",
+  "render_inputs_sha256": "eab9d34534680ef3ec2b9318775e8adb62130dfd6d0a0759203e086ad302450f",
+  "preview_stamp": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_1080p_REVIEW.review_stamp.json",
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "4422"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "6910"
+      }
+    ],
+    "format": {
+      "duration": "147.400000"
+    }
+  },
+  "encoded_audio": {
+    "integrated_lufs": -18.9,
+    "true_peak_dbfs": -1.6
+  },
+  "checks": {
+    "resolution": true,
+    "fps": true,
+    "decoded_frame_count": true,
+    "duration": true,
+    "under_runtime_cap": true,
+    "spec_hash": true,
+    "movie_hash": true,
+    "inputs_hash": true,
+    "protected_sources": true
+  },
+  "caption_cards": 105,
+  "word_count": 371,
+  "caption_gaps_cleared": 10,
+  "subjective_listening_performed": false,
+  "user_satisfaction_pending": true,
+  "thumbnail_selection_pending": true,
+  "visual_pause_review_pending": false,
+  "full_playback_review_pending": false,
+  "visual_pause_review": {
+    "actual_exported_midpoints_inspected": [
+      9.37,
+      19.74,
+      25.22,
+      38.76,
+      43.05,
+      82.31,
+      102.12,
+      119.63,
+      124.22,
+      127.12
+    ],
+    "finding": "All ten encoded caption areas are blank at the planned pause midpoints; held art and acting remain visible."
+  },
+  "mouth_method": "Measured word-bounded broad vowels/conservative closures; subjective phoneme precision remains unverified.",
+  "caption_only_revision_checked": true,
+  "playback_review": {
+    "environment": "actual local in-app browser video playback",
+    "observed_clock_seconds": [
+      0.16,
+      56.47,
+      129.52,
+      147.4
+    ],
+    "ended": true,
+    "finding": "Full current cut ran from beginning to ending; sampled live frames and twenty full-film stills inspected. Not uninterrupted frame-by-frame perception.",
+    "subjective_listening": false
+  }
+}

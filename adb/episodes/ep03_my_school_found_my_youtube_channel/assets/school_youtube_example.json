@@ -1,0 +1,50 @@
+{
+  "description": "Copyable version-2 field excerpt for EP03. Not a standalone playable spec or render proof.",
+  "background": "adb_computer_lab",
+  "actor_placement": {
+    "position": [
+      750,
+      634.8
+    ],
+    "scale": 1.35
+  },
+  "browser_prop": {
+    "author": "adb",
+    "kind": "school_youtube_browser",
+    "position": [
+      1400,
+      542
+    ],
+    "scale": [
+      0.6,
+      0.6
+    ],
+    "at": 0,
+    "end": 10,
+    "mode": "hold",
+    "layer": 0,
+    "shots": [
+      "lab_reveal"
+    ]
+  },
+  "live_revision_example": {
+    "author": "adb",
+    "kind": "school_youtube_private_public",
+    "position": [
+      1400,
+      470
+    ],
+    "scale": [
+      0.75,
+      0.75
+    ],
+    "at": 2,
+    "duration": 1.8,
+    "end": 7,
+    "mode": "live",
+    "shots": [
+      "private_public_contrast"
+    ]
+  },
+  "note": "Use the episode's measured voice events and real shot IDs, with one audience focus. This excerpt has no narration, fake word times, approval or private renderer."
+}

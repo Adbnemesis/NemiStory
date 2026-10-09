@@ -1,0 +1,3174 @@
+{
+  "version": 1,
+  "generated_utc": "2026-10-09T08:13:28.924552+00:00",
+  "status": "ready_for_root_commit_exact_pathspec",
+  "authorization": "User-authorized current and previously unpushed project source push, excluding large files; normal push only.",
+  "commit_and_push_performed": false,
+  "pathspec_file": "/private/tmp/adb_ep03_source_commit_paths.nul",
+  "selection_policy": "Exact prior source allowlist plus current EP03 source, small QA and thumbnail upload/mobile images below 1 MiB; movie/audio/model/cache/import/override and raw render trees excluded. Other index intent preserved.",
+  "selected_count": 466,
+  "selected_bytes_excluding_this_report": 12278648,
+  "selected_files": [
+    {
+      "path": ".agents/skills/adb-storytime/SKILL.md",
+      "size_bytes": 12491,
+      "index_oid": "2bcda860782a9ec5c928087c8117742d45a005e4",
+      "sha256": "283c8ce04a97f277a20949497789c185f5461daa46ffc7a4823a32ca6dd1bc1e"
+    },
+    {
+      "path": ".agents/skills/nemi-storytime/SKILL.md",
+      "size_bytes": 12579,
+      "index_oid": "1d21e219e3a0cf7e493f80178d8e18c95ef415c9",
+      "sha256": "65066b17d40b0b0c01b50f4018997607fb3d3d24dabe8ab149b7267fced0fe66"
+    },
+    {
+      "path": "AGENTS.md",
+      "size_bytes": 12749,
+      "index_oid": "fcbd988d768478bf32b61f61b884f0fff50a3b4a",
+      "sha256": "56cf10440178e900ae958c545fed5a7f58ee22d35a30ef158524e87801565fbb"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/CAMERA_AND_SOUND_PLAN.md",
+      "size_bytes": 10012,
+      "index_oid": "dda916dd5f456e064c0197759b719fd490c42ea7",
+      "sha256": "f415dd5a53ad122ade433d1bd14026368941714e303a7c7deca10664800c2343"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/SCRIPT_AND_BEATS.md",
+      "size_bytes": 6217,
+      "index_oid": "019ee7571826b1d7e516f706b3e7ec251dbc4a69",
+      "sha256": "8794bceee40e779ce2624a05f272f62fb2fa039014c417b0e430299d499d39fb"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/camera_plan.json",
+      "size_bytes": 12025,
+      "index_oid": "438aefeb237e1cd29e13ba5a39f86e7aec567ae5",
+      "sha256": "ae248598e9a4a3ae983b41731b9797832ebf40be83921530166fb4ce60125f8f"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/narration.txt",
+      "size_bytes": 1965,
+      "index_oid": "bc087e87d2a90e741dd07915e1a77c15323f83d9",
+      "sha256": "426f7441d120e1660c2bfa123d0481e55480ba60ac436657c57288707b493b6f"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/preflight.json",
+      "size_bytes": 6854,
+      "index_oid": "a2b86961bde31390cf974b91ace666aa751ce947",
+      "sha256": "b321718c83a7d34796b124009d0e9f1b8b5ec7e306ea30c7311fd36def901c3e"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/review/1080P_APPROVAL.json",
+      "size_bytes": 733,
+      "index_oid": "441672510ed0ba524f5b64500412d7286b17d80d",
+      "sha256": "fd88941bb1fd2cdbbaf0984bbd7ec1596d3628f00b3b66c48bd40f768af07424"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/review/RENDERS.md",
+      "size_bytes": 3261,
+      "index_oid": "e1614dbd31380230b76a7050d97619990f6cc933",
+      "sha256": "746d91b64fa6b9692706eef3d74ee08e0dfb02b2dac527e51b23eac509d1fba5"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/review/render_records/ADB_EP02_meet_girlfriend_4K.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "8a5e9f1c7958b49cde1c1d53f6dd7b774eeab51d",
+      "sha256": "086131b30570ecf322a39dc51f13463f3b8aa3514cc85de7e35caf1cdb8726ce"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/review/render_records/ADB_EP02_meet_girlfriend_4K.review_stamp.json",
+      "size_bytes": 360,
+      "index_oid": "3950f4d87eacaa7cad36ec450d09975f8a43b649",
+      "sha256": "57b74a70b1e65628a4aa9bc0399e2485d66800e3d29ea82de8f0fab2f51c41e2"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/review/sfx_cues.json",
+      "size_bytes": 15137,
+      "index_oid": "f2d9d7444652b93d84a2602e35695ec04ef49723",
+      "sha256": "59d2c46bee30c8b5d4dbe4e4c8163d150540ad82605e24da0d3a49af165bfa13"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/scene.json",
+      "size_bytes": 114793,
+      "index_oid": "bf977981bf246b926742106a13c11654aaffa79c",
+      "sha256": "a3a8e958f637426892874900e2512777b5db84c554dc4c5239b1d54e47c9ebc1"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/source_words.json",
+      "size_bytes": 54821,
+      "index_oid": "c2e06b600e96fcca7adec7bb587ab748c6e12a7a",
+      "sha256": "f9343dc3024a05716096d320c753ac1a1ba8937964b92671c70cf49982f6e321"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/thumbnail/BRIEF.md",
+      "size_bytes": 1088,
+      "index_oid": "9ee53407885d2a9b5a05734d21f7c1c7118f5bcf",
+      "sha256": "7bfbbd67f837eb4d162543bd8f4329ea125cfae3a81b641732aabfbe9ef395fb"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/thumbnail/PROMPT.md",
+      "size_bytes": 3918,
+      "index_oid": "bb57c8ba33d911cb08070b4d89d8bd17ad544713",
+      "sha256": "844932ade1dc1c5273641ad8278063a8895d3a33feb87709f44fc742c06fe9e5"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/thumbnail/QA.json",
+      "size_bytes": 2821,
+      "index_oid": "93a8ef479c157775db04f4693a77f8834fb6187f",
+      "sha256": "c689c48b85e10b8af41549f31c2687669de04e25e229189e22100e5d45a3943f"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/thumbnail/REVIEW.md",
+      "size_bytes": 1429,
+      "index_oid": "f80c0faf54aef841d69e45ef5271756807454f3c",
+      "sha256": "b20ac68c6060bd700472f7221652743d8dbfa820290ce250d53a655c724a051f"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/thumbnail/manifest.json",
+      "size_bytes": 610,
+      "index_oid": "bf4e50d9169c83e27b97614decdeac9c922a0b95",
+      "sha256": "d0c4f870a3ad99a8f28cd1ad37d3eee019574ecad109d69973052c5a91b109ab"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/timing_reference.json",
+      "size_bytes": 44727,
+      "index_oid": "3f08608eed1617af40c4fdd5adeb90471af7408a",
+      "sha256": "65bedb8597a20f04d0430c6820dcea0557c75bc58e2586f9297119337f5b4149"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/tools/build_episode.py",
+      "size_bytes": 35515,
+      "index_oid": "809236fd0cdabfac05e8ee7bf35ad145a8e47be9",
+      "sha256": "8a2d5d5acf5fe6f0695d3a957734eb5d5e48cbb482a7dec7000df8609e040369"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/tools/extract_stills.py",
+      "size_bytes": 1697,
+      "index_oid": "f518fb181f718555409c99d3b084e8f623ed904c",
+      "sha256": "ef1ff6b66be636a268919dd077d1befe3f464123d9c7f00106dd78a1c44f6410"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/tools/generate_voice.py",
+      "size_bytes": 3580,
+      "index_oid": "049c90236188836061dd746f6b5482044b16504f",
+      "sha256": "beaa54e1f6411ac5936e233e0e68336163d92fd943ccc053486f24176acb9481"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/voice_plan.json",
+      "size_bytes": 38324,
+      "index_oid": "c1fc80232af74f976c8e7cb7b37e0abc618e4adf",
+      "sha256": "6ebd0c374d4f662aa697b3794d47f9086647e3ff24bb227c8644de430661c6fb"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/voice_plan_r2.json",
+      "size_bytes": 38355,
+      "index_oid": "01c9267e56d7b9159e24bf32802eb947b8d506a9",
+      "sha256": "f3dbc7737cc42ef3bfcbe61af796e85ecf5f390a4bb46bace613cde454e20904"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/SCRIPT_AND_BEATS.md",
+      "size_bytes": 4745,
+      "index_oid": "a5e568a92443f320c2a01041a0738e25873f5c78",
+      "sha256": "fc0bdd42a6846f0169d9e3d6a1a79e3af1932452b91b83025ea65809332a652a"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/STORY_BRIEF.md",
+      "size_bytes": 2799,
+      "index_oid": "61fc56ca40e5c067de3e9a22cda0ccea8b793d88",
+      "sha256": "8d7aa9cbe6ff408fd7193d1715f44e5a153a9f90297ba204ad32d3eead710bdb"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/assets/school_youtube_example.json",
+      "size_bytes": 1010,
+      "index_oid": "c450107b97572fec9b8a6c9d8c0406885dd8cf05",
+      "sha256": "6fb8a6cc3a9f369fe8692b3db0ea7d0dc36ed3c5c7d1073bb9259fb691f4f10b"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/camera_plan.json",
+      "size_bytes": 27337,
+      "index_oid": "f52e3ad0a89acfd9337879d72d5fcc0ad266fe7a",
+      "sha256": "23489594e665be48e06f2e952ecfc18551e2938f927eb6883076ba942e7bfead"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/narration.txt",
+      "size_bytes": 2174,
+      "index_oid": "95a35733382ee87d9bb08c3b55b74651af20cd86",
+      "sha256": "972119bdf9c02afb7ac3aebbcad57713afd22a23c336a7f923b535c857fe5dd3"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/preflight.json",
+      "size_bytes": 8339,
+      "index_oid": "a92accb59d26f5cde47b52dec8f2999133f4e68c",
+      "sha256": "b098623ee148b2b01fd290e677b75c4c9df679786dfc9a551a19cf47d4aac064"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/ART_SOURCE_QA.md",
+      "size_bytes": 2004,
+      "index_oid": "7c2f6d6b464dc32d1a9e9aef8ccc4bea2d89126c",
+      "sha256": "a7159738939426c816fe049636ee157164fd98d421f725d788b17cd01c1959a9"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/FINAL_1080P_REVIEW.md",
+      "size_bytes": 4790,
+      "index_oid": "2116c3554ef931c264093534cd4f5796f1347926",
+      "sha256": "d333cfda8091206582eea8ae62641a2d2e2f90463c07530e0a40c8967c63d7d3"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/PROOF_REVIEW.md",
+      "size_bytes": 3066,
+      "index_oid": "3bc1670d430e71226050b9830c68f5307a4b6bdf",
+      "sha256": "3817843af3c284489367f16b965b6d27af7a90541620b37e86a2fe2b5e11f00b"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/REFERENCE_REVIEW.md",
+      "size_bytes": 1396,
+      "index_oid": "b13a12a20d05e273e9ea7c2aa2e973c3de87853a",
+      "sha256": "718a304c4b0d553c99d4d093a7dc6caee5c8c25587bbd10be2a85c6abc8f1e0f"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/RENDERS.md",
+      "size_bytes": 2117,
+      "index_oid": "8a7076208b97d1c79085613d36be323c57c01735",
+      "sha256": "35783d4ef0da6899ffd404826f38325d8b2eb672bdad4919474cfa9c926cf8eb"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/SOURCE_PUSH_PLAN.json",
+      "size_bytes": 249264,
+      "index_oid": "ce1555e6b4ca9b67ac3913c7599c9a2d872fa3b4",
+      "sha256": "3b7b701383a7d15806fa37c252374f61ea8b0b79dc5fd32c12fd648955220bfa"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/acting_plan_r1.json",
+      "size_bytes": 12159,
+      "index_oid": "0cd492336cf5060cc68b3ebcdd85f184b8c4da87",
+      "sha256": "28b38729133dd8b2c55083fe0d39b899d92d2d19d77f032399012484e269dcf6"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/acting_plan_r2.json",
+      "size_bytes": 12200,
+      "index_oid": "d72e12ff8cb21510036a9ddc1f0cfe1e742dcadb",
+      "sha256": "5b679c58474ffb65010b8ac3fd078cf0de4f2ba6b846b799bc8030fdd6ff1792"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/acting_plan_r3.json",
+      "size_bytes": 12200,
+      "index_oid": "d72e12ff8cb21510036a9ddc1f0cfe1e742dcadb",
+      "sha256": "5b679c58474ffb65010b8ac3fd078cf0de4f2ba6b846b799bc8030fdd6ff1792"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/audio/alternative_alignment_r1.json",
+      "size_bytes": 6888,
+      "index_oid": "7f728d40484120bc589c97dda05974ffadeeb9e6",
+      "sha256": "ae7a18e2dd1d707eb9a48bfb6ded0e2784676f3483c4300f294104b271fc0dc0"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/audio/independent_qa.json",
+      "size_bytes": 23448,
+      "index_oid": "e39a9045e459dda04e10d1f8e1a3bcaa4f16d789",
+      "sha256": "d4706fb890d9d67e7079d1abe43bfc46e224141397dc471d37c2f7023a9bd42c"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/audio/phrase_alignment_r1.json",
+      "size_bytes": 2925,
+      "index_oid": "a8f1c7f4058aff6dabfc0d5351c122c971f66f8a",
+      "sha256": "e57a6c6d6b07b0fc4a183288bb1619ecbdec7a712d7a1ff53da50330c4bb613c"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/audio/voice_qa_r1.json",
+      "size_bytes": 9780,
+      "index_oid": "b934d25e41382e9bc2db4fdc9eb7e5406b1891d7",
+      "sha256": "dbe73544428e4d9202de19d0f0eb7e1cc1c41234f6961ac36c1e61d3128dd893"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/caption_proof_r4/0_0.20.jpg",
+      "size_bytes": 49560,
+      "index_oid": "5e6dcf6134334a65fd0ab1912fdaf7188b0a2a0b",
+      "sha256": "d0462162d56897385e16ef6743c98f39588502fc80dac5b4a24b2f45f2fee2ba"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/caption_proof_r4/1_0.73.jpg",
+      "size_bytes": 48121,
+      "index_oid": "fbd9bcf5df5da695d842b582dfad2a7b352d427f",
+      "sha256": "3607c01bee5c8c36cdc725a1fad922ffa085c2a1ae9ea69fd70218ebce2dff37"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/caption_proof_r4/2_1.20.jpg",
+      "size_bytes": 55509,
+      "index_oid": "bedd4b4d4a6a7656a948d2e3223ee29a3ab92993",
+      "sha256": "0e3ea63ea4cb7ecd76c8a347718a7d79bd6d147876c9fdda65857dd875edf85b"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/caption_proof_r4/3_6.20.jpg",
+      "size_bytes": 48852,
+      "index_oid": "09511f272ab1989b29e48dd80826355251295694",
+      "sha256": "383ffd44a256ac0b80457a739533ba821d929820ca783fa0a5942a86d3d6c49a"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/caption_proof_r4/contact.jpg",
+      "size_bytes": 26037,
+      "index_oid": "cd06429181f48e8a8ba7541fa8a3f64ceaf8f7fb",
+      "sha256": "3d63935e89e236ac6dabf0e75e97f9cc4333ede3eb3a773c743fc8cb81358c0a"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/caption_revision_r4.json",
+      "size_bytes": 11177,
+      "index_oid": "bbed7be3a451b794e8d1fbdc86e4b24bbc499cab",
+      "sha256": "ef19ace214a6059818d41eba9db20b33caecf850e758923788b76139666c1a01"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/colour_comparison.jpg",
+      "size_bytes": 95657,
+      "index_oid": "045bf4078da0dd319aabe278256dcb2daf100aeb",
+      "sha256": "c8def44fa3a8d51bfc5ec5611645ef5c496970d47587ed84bca9e878cfd48360"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/final_1080p_qa.json",
+      "size_bytes": 2712,
+      "index_oid": "55d5352390f638ee97a29a1bcfbe7050a038d1cf",
+      "sha256": "f902745eb7cf496b941d6a080100c031ccef8e5275bb19d7fba9484297d97d9d"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/00_000.8s.jpg",
+      "size_bytes": 65788,
+      "index_oid": "529fdc55b1db3eb2af7697777465a385ee186dda",
+      "sha256": "792fd06a1d79f8148768fefaf07c65601592f7892b9b8403904be36b53441327"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/01_014.4s.jpg",
+      "size_bytes": 59399,
+      "index_oid": "f8ec8a187840f01e4990ed346ff9490b5496f771",
+      "sha256": "b7e7f5b34b7a66ed2c6e1b5c35e49b34d183ab0ea443c2f7963dc5334837566d"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/02_024.7s.jpg",
+      "size_bytes": 52052,
+      "index_oid": "8c63440c20f4d6129539b66f79a671638491cbea",
+      "sha256": "5dd1b8d62be14c1399f6bc7119d91b8393f450fd189eb6dee6842df4593f864c"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/03_031.9s.jpg",
+      "size_bytes": 50728,
+      "index_oid": "2d8f1f89aa93cd5f7b5ac3f4f71175ff56362f02",
+      "sha256": "205881fef6663ae4551892d33e3b4ef4a1f49195e2127ff32d877d871b2bd267"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/04_040.8s.jpg",
+      "size_bytes": 52854,
+      "index_oid": "c5d9e52fd9e7dfa3da63a579c67bbcd89defaf23",
+      "sha256": "5a40aabbb0d22951acc21479b96f182de7152f1b6e06c11ef262f18b8b2980e2"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/05_050.6s.jpg",
+      "size_bytes": 55576,
+      "index_oid": "013f898f57f08998e6a77dc64a21d4058b3f0088",
+      "sha256": "01068ed4f5a5b036e3a83a570da491ad9c1be5bf947fe988a805a54747b4cc1a"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/06_060.3s.jpg",
+      "size_bytes": 57139,
+      "index_oid": "cf011045db052c208bf0ad88a8680d50b09eef1d",
+      "sha256": "437c72d4531c7dc5f15cb2eb2e2eb819d306551857db504c36766bfbb0840ed1"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/07_067.9s.jpg",
+      "size_bytes": 61102,
+      "index_oid": "14513d8c71dbf37bb21dacf48ecadf579847d851",
+      "sha256": "55c6ecc7ee840a3e73701d142eefbdbbbd6661e701177c5256ea4f73740a0841"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/08_070.2s.jpg",
+      "size_bytes": 62768,
+      "index_oid": "8e245c8b693cffd97b30a44811c72102d4e068a4",
+      "sha256": "4f505e48a546d1454f015d66b52be3e6045b868b11b818919366c6aa1f9ee608"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/09_074.3s.jpg",
+      "size_bytes": 61903,
+      "index_oid": "1f7f2e3be9c1df715cb2f6e408385a1ed795c516",
+      "sha256": "48ca6d6bf3da8d6636a9641fef1bb1ccef68955a6c743c1c037117c6f7191b93"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/10_080.5s.jpg",
+      "size_bytes": 46225,
+      "index_oid": "8772f5fecf8e5e851033b463deef36cdcf75e7b7",
+      "sha256": "f4fcb2cbe475c6151f4e7e53e05e4798b09856b09c2f5a374cde6285674322f9"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/11_090.0s.jpg",
+      "size_bytes": 58770,
+      "index_oid": "9cc51e0f7b38bebd6eec0f5566e277e3cfd67fc8",
+      "sha256": "142f5778b9a20358d89c469bbc66d2b934005c04efb2fcb7828b22f19ec19979"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/12_099.0s.jpg",
+      "size_bytes": 44214,
+      "index_oid": "a348916d3571cd70050e835c28ae7b7d82e3d506",
+      "sha256": "9f57d704df6d2989e1b006bebf726125e53fe26e504cff734bc1f68f6e71d868"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/13_107.3s.jpg",
+      "size_bytes": 61688,
+      "index_oid": "4829d13e98272c139c21837ed95f5945da6fbb4d",
+      "sha256": "e756e52e6ccdd58630d438de974718fd5dd156477496e65ff6410618c752aaf0"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/14_111.4s.jpg",
+      "size_bytes": 44226,
+      "index_oid": "926e94e17be0315b4b1c5bca4e950dc9aa11017e",
+      "sha256": "ccc68e672fd6fcfd06de121bdc88a68db1475f5dfed67c2fe789e7d1506383a4"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/15_117.2s.jpg",
+      "size_bytes": 52892,
+      "index_oid": "6a821d7b71f0bfad2131cbf316d1c073aa32938b",
+      "sha256": "79aa038fa13946e159c83b9f6ef6ff66ec56e41df01459ec07bf3c9fa3dc157c"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/16_127.2s.jpg",
+      "size_bytes": 55187,
+      "index_oid": "3d2311ca1d7eb4c9aa83e48bc57366cb38691d79",
+      "sha256": "9ba8c7fbfc8e71fa04dfe6436f874051465b62e7711e82a9169a790cadebf139"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/17_135.9s.jpg",
+      "size_bytes": 50895,
+      "index_oid": "404fb708008310d987050601e780793ba1a68d49",
+      "sha256": "3bb8a4da20a4e80676799d9c19e00c37e1910e762a1e97f88101fc48eae323f3"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/18_138.7s.jpg",
+      "size_bytes": 59332,
+      "index_oid": "1ff37f481e4c33263c90d38ab8db75deff635cdf",
+      "sha256": "81ddf67d9583db58e2bf0859476a01a243e903fbc18f29a7d97b2a487118737e"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/19_146.7s.jpg",
+      "size_bytes": 41085,
+      "index_oid": "14b3586fcd6a5bd1986b5db9df3dd219f5588cd1",
+      "sha256": "e3971428e7b1d041cda135805d01ffcb9d9ddf82d0c14c85971e59ba6aa957a5"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/contact.jpg",
+      "size_bytes": 165378,
+      "index_oid": "dbd76fe7b18dec4664234451806b1216d5d1202a",
+      "sha256": "940177c0180009c4afc1f5e53adc893ce7445334cb212f96f83ee9f982fa152d"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_00_9.37s.jpg",
+      "size_bytes": 42857,
+      "index_oid": "62329f6bb722d98b2913a43089f1c37b996ec03d",
+      "sha256": "3d6878ec6b23dfc0b35f897cfcab460afbaea29221987c237809303ef8a0589f"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_01_19.74s.jpg",
+      "size_bytes": 48246,
+      "index_oid": "74b991e56bb888d78829ebde2fcad676177ca59f",
+      "sha256": "fd8c56b702402a8c421b58e9764fe55fa8e341396794d8e6f2efa2d6f20930d5"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_02_25.22s.jpg",
+      "size_bytes": 48870,
+      "index_oid": "d53291a2553e4458dcb7def4d538a7594aebed02",
+      "sha256": "b058377ca7dec749d27c85b4c1619fadc30b7b46175491b0b279378ce93ce12d"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_03_38.76s.jpg",
+      "size_bytes": 41120,
+      "index_oid": "ae0fd0879befec8d11ef076e42f273226c3f36b1",
+      "sha256": "a34300c98a739c24669448d4ce97f329dd2ee5e62b14135c3cc42d09e4091ceb"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_04_43.05s.jpg",
+      "size_bytes": 46723,
+      "index_oid": "52cb92e8a79575f6a3fb9317d278b62d4fb1321a",
+      "sha256": "41d2bbf9d2cfb627afc174f35348ccb9f33a461e41226b39b093cf7380d7987a"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_05_82.31s.jpg",
+      "size_bytes": 42155,
+      "index_oid": "421b997c8501f2433ae748c9d6e6cef1fa2287fd",
+      "sha256": "563640ad74d914074ea2077d96121ef572ade465489d312b894f1c6516320342"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_06_102.12s.jpg",
+      "size_bytes": 41571,
+      "index_oid": "76d1056b684dc305d16b1e44e8c8219bc7a634a4",
+      "sha256": "e6c1205b3acea585ece1efc3f46950c1f540b52acb25572fb86e38b4d7b073a8"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_07_119.63s.jpg",
+      "size_bytes": 46648,
+      "index_oid": "f14bda81134ea46aa17c78e13c30780b739bfe2d",
+      "sha256": "3550c649e0578cc8bb61b87e29c20ce5f64a22607e66a0513da392a4aec97a78"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_08_124.22s.jpg",
+      "size_bytes": 45249,
+      "index_oid": "eae19cf6d4a74a7af02c495295ee767b6c1d137e",
+      "sha256": "15ea4e8060f9ae789bc181f5fadbe5cdd23abc9ea6c58bbad9980901095d74b7"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_09_127.12s.jpg",
+      "size_bytes": 49907,
+      "index_oid": "8aadebac5bd0004bc2120d0884285c2cb1f99586",
+      "sha256": "00b47060ced0908ce9ae91befe11443108da3b23586982b8a36c79b84b192937"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_contact.jpg",
+      "size_bytes": 55351,
+      "index_oid": "249b119f295d4555cc3f6ed2366f335bf084cc66",
+      "sha256": "24a7d085fe0c835868081c962d7b74118a38b1881a0e36bd29fa5021b0372385"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/initial_workspace_status.txt",
+      "size_bytes": 22768,
+      "index_oid": "dbfd86960805af49bca4d5db7f950d192847a54c",
+      "sha256": "04fa34644604e60eaaa8705a28a16a683cc9edf0c216c9b637e68927944bf482"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/00_01s.jpg",
+      "size_bytes": 47425,
+      "index_oid": "451b68cf0195d68506a341d21f38493efd4d4a10",
+      "sha256": "acd49ea3347131cc4aafd35a59c193a0f2c20f2a56c14e1ccb9f981ea15c08be"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/01_06s.jpg",
+      "size_bytes": 51169,
+      "index_oid": "f519ca2b52a0ad5533da9041bfc3c1b9a1b104b8",
+      "sha256": "8976f2c8b7a5761865e1465664fc1653ad795eb3aacab02856b88bd143918718"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/02_13s.jpg",
+      "size_bytes": 55667,
+      "index_oid": "e89569bff438811e8782c1c9c0deceda6c26366f",
+      "sha256": "67bdc9e511e74d533c8f47c9881eb2da7dcae0374bfbb9ca9e918a5f73de4cef"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/03_23s.jpg",
+      "size_bytes": 57134,
+      "index_oid": "95481c73570f4ddb519d1c88f5183864557b8db5",
+      "sha256": "45537980ce069fb568f2a551f6ed75b05d4648f06ad4d4e6b87cd907113a2945"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/04_30s.jpg",
+      "size_bytes": 60406,
+      "index_oid": "2eb55ae19bd0eb57a418bf8054ecc968998dd58f",
+      "sha256": "dadc7d33a4bac4e9904bcc88af7b9710df482dd064e8fd87cb4a956f73640699"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/05_35s.jpg",
+      "size_bytes": 56502,
+      "index_oid": "b2fc5a9cd08a8972125fd8ec1e4975e36144a7d9",
+      "sha256": "b32220549c1a28f6fad31be2fc5e3112434e9b68ec931bc75f3004ac3b64161e"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/06_44s.jpg",
+      "size_bytes": 42178,
+      "index_oid": "7a8ce7677dce8fbc589e41547a2b0dbea6f13fe2",
+      "sha256": "f6d44d5449259239cb1068e535448bf31aa243213855083fe31e9c2d5aeae777"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/07_57s.jpg",
+      "size_bytes": 65445,
+      "index_oid": "7a9b8ba9e34f96be68ba49d0e257988144371e3e",
+      "sha256": "949af7b95283f784611977bb3310e4b60f21291172adfe5e585aeecb432c7c23"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/contact.jpg",
+      "size_bytes": 45931,
+      "index_oid": "19f861044f1932edce32ad251632947228cf5e4a",
+      "sha256": "db34119b784257cf7683b60f200cd024d9a462df0ea26ee858888dfc7bacc54e"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/player.html",
+      "size_bytes": 1506,
+      "index_oid": "15aa0e300679e0a07070692450075103faea2d4a",
+      "sha256": "156279ed24c4b41ea95f9a0d5bd5ae0d26f7c6939ef4592f26ea73d9f1ae56e9"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/proof_r1/00_0.10.jpg",
+      "size_bytes": 57357,
+      "index_oid": "600e311fbad55fb34c35caea7b24fd318dd1ee0c",
+      "sha256": "7a52f80a34782568b4e40ef01d98a26f995b4a732204774cba689a5a70ca8bcc"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/proof_r1/01_2.12.jpg",
+      "size_bytes": 59414,
+      "index_oid": "c8b2e61a169fc4088194074055c031ad75e254ad",
+      "sha256": "54a84f6b75e1e5db87d6529103022183b56632dcec1c55721866372b68b1423d"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/proof_r1/02_4.40.jpg",
+      "size_bytes": 63291,
+      "index_oid": "69bf1670609903fcc303011062045ebd44a92f70",
+      "sha256": "63cd6f570b0eb0d7d0b8ce910e1aca1b19d04838720b076c780ae27a5d176a50"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/proof_r1/03_7.90.jpg",
+      "size_bytes": 59305,
+      "index_oid": "c0b3e9b983efe523fd74b955e0dce9123d36aea6",
+      "sha256": "8396fea1614a1ed8e2e637651414b0a65fcf74cda1d2080aae65c843278e5dbb"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/proof_r1/contact.jpg",
+      "size_bytes": 76170,
+      "index_oid": "859f7d0a13cb010fbc48e2e4f96b1f3e69316ec1",
+      "sha256": "355d890483155cdf22a4407bc90b610b7d3f80d860a860446ac679c9200c5f6a"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/proof_r2_class.jpg",
+      "size_bytes": 63311,
+      "index_oid": "115002391f2c587e7e764e9335478d0d28f2287b",
+      "sha256": "77c27be227e5b0bbd5ad26dec663053b1d6697093ac523f97d4133551a5ece1e"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/proof_r3_class.jpg",
+      "size_bytes": 62769,
+      "index_oid": "e6f55b4d37f3a4bd426e2f37baf75e641934ea66",
+      "sha256": "f5671ce0033e155e51614d254f77fbd3661b39ca36a865d7e64508cc297d4239"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/protected_sources_after.json",
+      "size_bytes": 91,
+      "index_oid": "3d0b79d8eda1a10a63c2c42274318f45d866677e",
+      "sha256": "12c0519c921fd5150a09095b03703e751df6910f06e89bfa9be5070a78dd6157"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/protected_sources_before.json",
+      "size_bytes": 8794,
+      "index_oid": "288d5b84d0a307a365fa275c74899ae348b8cba9",
+      "sha256": "daa30fddd87c2ee27140fd8def02e87910e803684ea5da767aa9158664c52e9d"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/reference/ep06_002s.jpg",
+      "size_bytes": 55838,
+      "index_oid": "b05ea284f6fec4bdcdb258e90af354b380dd8d0b",
+      "sha256": "be17852678c8557a0c5777333078fba4d960478f25b29dd4ad11ad30d3fce22f"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/reference/ep06_012s.jpg",
+      "size_bytes": 61268,
+      "index_oid": "da9bf78a504a11b51725edbdddd37dc91c795222",
+      "sha256": "73c482aaf7fe961a71669b7ffde3a1407a070acbb9d27fd3db38d2f7ea9885d3"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/reference/ep06_027s.jpg",
+      "size_bytes": 54268,
+      "index_oid": "a82e0d0ffc30d7fbebb31eee2439247139f0b445",
+      "sha256": "64e9b835d4e55b330a985352c912ff8c45614492b5b503404c7da99418250b74"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/reference/ep06_042s.jpg",
+      "size_bytes": 83441,
+      "index_oid": "9ac8d8bc46535fdef92893a6e9f446685157329d",
+      "sha256": "93208abbaf62b16e3fe17224b6d4664d285cd623016fb77eb166affc0639897f"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/reference/ep06_060s.jpg",
+      "size_bytes": 71515,
+      "index_oid": "4c33d93c2b18006c403d82b59a43902fa3a8a04c",
+      "sha256": "88972b255d65cbd7b95703b1d19e4dd964ebe3e950dd1ab33ebb09253e297c0d"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/reference/ep06_078s.jpg",
+      "size_bytes": 52967,
+      "index_oid": "f278e9903b5ba9e7c30196b3113fcafe6520cf2f",
+      "sha256": "cb69aa0ef65c1fcde66ec33f198953c88f929f359e4fd56262104b368886a29f"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/reference/ep06_096s.jpg",
+      "size_bytes": 73153,
+      "index_oid": "341ec19f792f98d010bb218a99d9ef127cad419f",
+      "sha256": "e7f836493288ac111fa4046bdc842e9492344b6d3999efb07bee702fb86db890"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/reference/ep06_115s.jpg",
+      "size_bytes": 59110,
+      "index_oid": "dd3e0665c629805b3724d057bf0ec2f5797a9aaa",
+      "sha256": "deaaed888c690cfe2c4daef9d0fe3212b2d5624d50a3f0527665e01ea876319c"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/reference/ep06_27s.png",
+      "size_bytes": 321048,
+      "index_oid": "bc16c79df940be5025620874bff1cd19174863ab",
+      "sha256": "8b8e9a7e9deb370f6a21dff092c8bffa1e0ffc78b0031bca3f22ce89f1a95964"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/reference/ep06_contact.jpg",
+      "size_bytes": 60686,
+      "index_oid": "95d5d7fd5d6d9d97ddf6f5815e01caa101609069",
+      "sha256": "0aff79223e00037433ee070f41e626449512bacb6d0f068e48ecd8affde4c979"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r3_1080p_REVIEW.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "130f0b675034c7d0f52b0a4da064aa0132a91a55",
+      "sha256": "eb78214f4889760507b61de899d32a162bfcdac45bc2a1288af11f4c6ee8e71e"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r3_1080p_REVIEW.review_stamp.json",
+      "size_bytes": 347,
+      "index_oid": "01e3815ce8c1e06d3c537fb3c3dca544247e893d",
+      "sha256": "1de85909b6404c5fa3ef82c88579cf4aaec53612abfa046eca6481b658bdb8ee"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_1080p_REVIEW.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "130f0b675034c7d0f52b0a4da064aa0132a91a55",
+      "sha256": "eb78214f4889760507b61de899d32a162bfcdac45bc2a1288af11f4c6ee8e71e"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_1080p_REVIEW.review_stamp.json",
+      "size_bytes": 347,
+      "index_oid": "96924f29648be65b46e6f4bdb44a18b83edc7cd5",
+      "sha256": "4f8ee642469c8cd947c5b3a01880be5d28daaa00b76ea8ae84e6158065578e04"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_caption_proof_r4_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "0014e69276ec8e48b0632894a411fa5022da1265",
+      "sha256": "24904d50689873394f1434a482e4cc7a1c0fafabac1a04e5c7ce61ddcd69ba6d"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_caption_proof_r4_1080p.review_stamp.json",
+      "size_bytes": 349,
+      "index_oid": "85961e7985ae1b23a42210604e020c33570cd3f9",
+      "sha256": "aa4214f94675ca66b3f3d597b7a044e6ae1270e09d064ec50dadfec48eff5303"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_integrated_r3_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "bdcbc844bcdfe1a70bdfb2eea9fff33d2999ad96",
+      "sha256": "50ffc5d8117c024c15f6acc493d39b7e3b311ced1c900d92af05b6a5366dd027"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_integrated_r3_1080p.review_stamp.json",
+      "size_bytes": 349,
+      "index_oid": "e66e15d50fbac4e44ec7a4aa2161be67a8802b55",
+      "sha256": "054ae96e454014c06834cd0cdb7914774317fecc8e6fcd2913655301b2211cc5"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_proof_r1_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "dc612baaab483aded1bfef9a6a32c9701030a6b8",
+      "sha256": "675e0a2fb2e08321e2c5f8a76c03b5d89c50cbfe90bfd1e37f598246f2ca8396"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_proof_r1_1080p.review_stamp.json",
+      "size_bytes": 362,
+      "index_oid": "5879c0af8a0aaf5dec9b0c77c4d71fb4b93af5a5",
+      "sha256": "832f324880fe10d60b0347f49a048fd8f12e769325709b6109f9187755e57546"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_proof_r2_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "dc612baaab483aded1bfef9a6a32c9701030a6b8",
+      "sha256": "675e0a2fb2e08321e2c5f8a76c03b5d89c50cbfe90bfd1e37f598246f2ca8396"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_proof_r2_1080p.review_stamp.json",
+      "size_bytes": 362,
+      "index_oid": "82c078915520b3acd2905bc1087d1dfbf8fa6f0e",
+      "sha256": "73b57e9747977e3e07f3ec14b4b843f305a2a1f48f5543c8b0a9380a7e2dd72e"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_proof_r3_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "dc612baaab483aded1bfef9a6a32c9701030a6b8",
+      "sha256": "675e0a2fb2e08321e2c5f8a76c03b5d89c50cbfe90bfd1e37f598246f2ca8396"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_proof_r3_1080p.review_stamp.json",
+      "size_bytes": 362,
+      "index_oid": "dd92ada80d8115acb33f541ac3f5e0d3b00673c7",
+      "sha256": "3b6f95da6fc12201ef1a495365b05ee8ea8fdea8c0db34bf2ea51f71eeb56089"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/scene_revision_r2.json",
+      "size_bytes": 1465,
+      "index_oid": "f20ffea0a1f005f4a9eb7065aff81e98be76ec38",
+      "sha256": "1ffd62bd93da110d147c03f259b33d859ca30ad4e4efb90cf57a8f624cd797af"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/scene_revision_r3.json",
+      "size_bytes": 1902,
+      "index_oid": "f847b355a8ceff41b53c8515aa014d55f28618da",
+      "sha256": "f16bca963bdd4e23757232c4a57ce8319bb29f15ba29bfc1a6288ecf0894eba8"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/scene_staging_review_r1.md",
+      "size_bytes": 2270,
+      "index_oid": "26be08de175de1c077dd686951f50821f4fd733d",
+      "sha256": "10f30f7c05438f72ac7662f263cf00a228b164364326b7fc1700137f9728b369"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/sfx_cues.json",
+      "size_bytes": 18541,
+      "index_oid": "3bb4bd554b955f592e5ca843ce5db93bec489a8c",
+      "sha256": "f18bbe6463a2b9f19300c58239f054a4093700a251411218a050897b507b960b"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/source_qa_r1.json",
+      "size_bytes": 1055,
+      "index_oid": "9aaae4df85bf3fe2c1b13860601b24933e95f404",
+      "sha256": "462dc5c153b66c34bbac15af0e5c88e1baf29740d2beab4a9fb8d80863a61c50"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/source_qa_r2.json",
+      "size_bytes": 1055,
+      "index_oid": "da6ba24f9a5b22be90133db11d0304aa7aeb662a",
+      "sha256": "a87b666a0fac382407c52bf8af8b825516dd4b4e192b51a66a37288ddf622354"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/source_qa_r3.json",
+      "size_bytes": 1055,
+      "index_oid": "a887c4728b0a34901f4c42f9cc1578ce9e309f19",
+      "sha256": "2296ed2fd583306a1d987232aaf208bb6314128775776e22aa4f0af1965c1d60"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/scene.json",
+      "size_bytes": 117029,
+      "index_oid": "362c95bc4a482593fdbd665e1a50b7a968b80dbd",
+      "sha256": "a5b04cac2bd7c1cb7a9b6f734545c6258acd5de3bc7f58906d5add80f225d553"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/scene_r1_1080p.json",
+      "size_bytes": 115594,
+      "index_oid": "a96e0ba8e67d3865947372e8b2208583a990186c",
+      "sha256": "fcdb60d55627a0de367684cbf913600b8a46e6d1b3e5e6c00e84d8ebf0adc65b"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/scene_r2_1080p.json",
+      "size_bytes": 115594,
+      "index_oid": "68c5d66f5381ada2c7ab1521de95b68d2702fea8",
+      "sha256": "32737e9866f09f415552f772a6a9a90e35b3dbb71ab1579fb206a546b43f8ec8"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/scene_r3_1080p.json",
+      "size_bytes": 115594,
+      "index_oid": "30869301c2c306fb809b5dbef586b3efbecfb7a8",
+      "sha256": "a916e57613bd99b7379d919c55fb02339691fbf74f8046b387b450a86b84aeca"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/scene_r4_1080p.json",
+      "size_bytes": 117029,
+      "index_oid": "362c95bc4a482593fdbd665e1a50b7a968b80dbd",
+      "sha256": "a5b04cac2bd7c1cb7a9b6f734545c6258acd5de3bc7f58906d5add80f225d553"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/sound_plan.json",
+      "size_bytes": 18567,
+      "index_oid": "ba9cd2c9ddbb7e88936633c88bbd0733d798ccec",
+      "sha256": "8a85c3984991d8acdc4659622e05c945d47c8118d83b09f618df5ddd21b419c5"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/source_words_r1.json",
+      "size_bytes": 64559,
+      "index_oid": "2d88c4c01bf4dc3c486d3220dcc2ab0e8e74f060",
+      "sha256": "6fc724257c196f7e7b5d9051dcd70abd72852be3f5a8f9651d78a6aca1d1b638"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/source_words_take1.json",
+      "size_bytes": 62474,
+      "index_oid": "9002ebfcfdf6d50d4cf8cc8c158a117343243e5f",
+      "sha256": "9e826bf9cf90bd83e217b2575a5594c1517c0c0310d76802c9a6912379073f09"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/CONCEPTS.md",
+      "size_bytes": 2365,
+      "index_oid": "4316dcb527fb85fe920a1aee0ec74b1d36fa92b0",
+      "sha256": "36402c78df1c741f4a4a8287b0764187084fadbbb13882c66f13b7afd373935d"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/IDENTITY_REVISION_PROMPT.md",
+      "size_bytes": 2817,
+      "index_oid": "42f7555046251fc89d2df11bd2d275ca0f315736",
+      "sha256": "822a21816e7b84b7bb25cb5caeb7491314254669cc252b89d7ba61930c6c3fa6"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/IDENTITY_REVISION_REVIEW.md",
+      "size_bytes": 2948,
+      "index_oid": "dada4e7fa7c984d1f45e87f1afe9b4dc8e6ac338",
+      "sha256": "84684d21cff0bbc4ccc3ae69b4a41c80014ed117bc7add67f459357750cbbda2"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/PROMPTS.md",
+      "size_bytes": 5028,
+      "index_oid": "af7fd69291317a0bb3e5cfc93b1b212b44e5c28c",
+      "sha256": "2034b3403a5d4cb0a21a03e04b8ab2fd4060aada916a396cbebb0ce00d2d606f"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/REVIEW.md",
+      "size_bytes": 5906,
+      "index_oid": "5e8518a796f50649d6e6cde4d0907a7777ff7e23",
+      "sha256": "6719658aeeccaac3401605bf28cca2dab58767568ae22fc76ae65eb47c06bcc0"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/manifest.json",
+      "size_bytes": 5725,
+      "index_oid": "694b0fb0920101488ba1994058add39c3c85b57a",
+      "sha256": "d3f0435afdfe98f57513592bb26157d4a13b89b4f8577767a6c34fc1ba58311f"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/mobile_contact.jpg",
+      "size_bytes": 62139,
+      "index_oid": "786fd39769b93f4b0b77fa2a206ec0fae5b08ac2",
+      "sha256": "2c3ba5223ad6786ecf7c10847697f27b340139257195f35829c1b17ea2ef8546"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/mobile_contact_identity_r2.jpg",
+      "size_bytes": 61631,
+      "index_oid": "d8b4e8015f43f41208e2bc5013e530f7d5daa2a2",
+      "sha256": "abf1df4a4fa54844513573f63bc92e3abd3b756611a0a296ee290356097dfa06"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_a/QA.json",
+      "size_bytes": 887,
+      "index_oid": "86d652df917ce2bdee2652adafea63c2d2fd016b",
+      "sha256": "a989930e378b72ae146bcf6f01b1892c39f5af4bf5c2b4a2ac05c1d8d7524b95"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_a/review/phone.png",
+      "size_bytes": 104646,
+      "index_oid": "ac230e2d4f76f482ce0dce8bb33e5773ad9b3342",
+      "sha256": "8179e0b7168164f94e33d5c44ecdfd59a9dd50859b9bb2f3cfa5303084565de9"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_a/review/tiny.png",
+      "size_bytes": 32076,
+      "index_oid": "011b6a2d631055c3398e62e9a69f7d0203566014",
+      "sha256": "a364eb76b993a387e6855b08b85e40267dba4c888f5d47d7cd20722c383cac9c"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_a/thumbnail.jpg",
+      "size_bytes": 348832,
+      "index_oid": "85b6030b2d0372d08613fb77f26b5510e5a29925",
+      "sha256": "441a32e1bedde822560a30253eae5d730ca7bad2321532cc24453c1428ba2fa1"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_a_identity_r2/QA.json",
+      "size_bytes": 1182,
+      "index_oid": "9916fa8dc27d226bef051a747bb6106683ec2d95",
+      "sha256": "2fd32a9f387bbf015e6ab41830d87c1d7e85760405c4b0d70310b91beab17833"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_a_identity_r2/review/phone.png",
+      "size_bytes": 104347,
+      "index_oid": "105a9b569df3a47a7dfb7629cd22a442671c7821",
+      "sha256": "9823b20d24a4f5d6b32da9be33951ca211c9c184a93b60e050d54f018622a69d"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_a_identity_r2/review/tiny.png",
+      "size_bytes": 31992,
+      "index_oid": "4677d99545c5c4a597fd258868d12a2e8b101be3",
+      "sha256": "d75c7202782396de47233d529e1831d5751e1b150e675094ef9316ba124e5cee"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_a_identity_r2/thumbnail.jpg",
+      "size_bytes": 347709,
+      "index_oid": "6840b056e337177dfcdc1b2b779d00f5797cdbe1",
+      "sha256": "b48adf63c226c1088973db46ffc5f7cc7f374e06561db7fcd59830a515e60759"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b/EDIT_PROMPT.md",
+      "size_bytes": 1110,
+      "index_oid": "dcac7ce2550fbd08fd3cf60f7bcfdc090d2acdc7",
+      "sha256": "95a4a1ea7a0b4f044ce546ba6030fd8fa1fb3aa93d540916a6033f13d51180b3"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b/QA.json",
+      "size_bytes": 888,
+      "index_oid": "f4ce93a2db47bf081589c00784450b997b97e02d",
+      "sha256": "148bd9755cf21b3470eebc8054b72d961e02e9d455384a9f0e250dc7f1981692"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b/review/phone.png",
+      "size_bytes": 111130,
+      "index_oid": "631bda4208bc59e0c5f54fa5a7e8d295975ee6d3",
+      "sha256": "ac1c202dc3823a2ad5dd33eadda9af9e39b83ad5308e07388f1fa1670804e89f"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b/review/tiny.png",
+      "size_bytes": 33364,
+      "index_oid": "3db33809de79de621b5d1d22f7db0f5a5b3b55d2",
+      "sha256": "045227c2036b6a2351e5177e5784dc22b48b840ebc81384d5875714a52a071f7"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b/thumbnail.jpg",
+      "size_bytes": 393278,
+      "index_oid": "0397460cb0d802a9ff4a13ade4eeac29de1c301c",
+      "sha256": "f308354f615b3f2bdc963d045720d27f1d3d1a822f08f2d36fb2f60af4cf50f4"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b_identity_r2/QA.json",
+      "size_bytes": 1183,
+      "index_oid": "5ee760ef7893c83a1102c819c7068737b7cc1f2a",
+      "sha256": "a4a28905db24f6a6e6ee8ecc8a19acd33bf2dad0e96de505b163a50860ccbd84"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b_identity_r2/review/phone.png",
+      "size_bytes": 109415,
+      "index_oid": "b92f8c2066ac27c8554c9c71607a5c70b6b28259",
+      "sha256": "4c992d4a504f923dd5751d5b6846d86cc89ba99bd7b5491e36b9b46545ee23cb"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b_identity_r2/review/tiny.png",
+      "size_bytes": 33168,
+      "index_oid": "02b8cdbacf26c3f4e244196a18de17872c831e5b",
+      "sha256": "aa969ec894a74ec2bd88847c474a6f2e2b192ea33da025bdf6b2613f2cbed311"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b_identity_r2/thumbnail.jpg",
+      "size_bytes": 388777,
+      "index_oid": "9c6b70f33f2893dacab6786103a10627cc303d83",
+      "sha256": "ffd1f6a84e267f851988d1007e207c9d82f9f7de18d8500f5551694cfed8ba3b"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/timing_reference_r1.json",
+      "size_bytes": 15680,
+      "index_oid": "9faba1003475f37006fd9fff58e322b293407b7f",
+      "sha256": "7ea5e598278b40827b8b952840afadb15bfa8aef623863d0417ba442575a3046"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/tools/build_episode.py",
+      "size_bytes": 40421,
+      "index_oid": "322587edac92d4aba8868636161fcc1a9df4f857",
+      "sha256": "fd7061fe4978b3b912be26452224d8fb1095dad6af22a641a889b065d5704aca"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/tools/build_episode_r1.py",
+      "size_bytes": 39343,
+      "index_oid": "8220f99f49d796b6a6fa4c133a6576ec35adb4c0",
+      "sha256": "8448650924eacd3f1cdc463cf012de0e38b2f40156a89662d16e83cca86e64bd"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/tools/build_episode_r2.py",
+      "size_bytes": 39529,
+      "index_oid": "9b2172ac7ba171df1686f599933a380054d42ad0",
+      "sha256": "7164ddface601c9bd1dd612769e3d14cf7681a06106671bf0aeb1780dda1264b"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/tools/build_episode_r3.py",
+      "size_bytes": 39529,
+      "index_oid": "7db67c0a0575645f5b88ccb6c4dfa2db210fb4f6",
+      "sha256": "347eeac1f82966883e1015d21bf198ff89a11710b70085330ebcbbe6508d01fb"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/tools/generate_voice.py",
+      "size_bytes": 4783,
+      "index_oid": "43787715ee77ab4bd4b215be5f9f88762b253c17",
+      "sha256": "de70f2cc45d4198d3fc9d6f77a41871eb18686f5194d3e15c4580aa140d7d390"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/tools/prepare_audio.py",
+      "size_bytes": 8807,
+      "index_oid": "f0f97aa4957d8cc26acdf1e6611e262ee8a2f325",
+      "sha256": "1a380e3a26b2c7727dd23e06b4292b0ecc36f380b937e34bbdbb6838198f0b37"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/voice_plan_r1.json",
+      "size_bytes": 40596,
+      "index_oid": "ea57d3685a0488a212bfff3f4678c197a6265a12",
+      "sha256": "9d5d4c12fc0bfd7bd1f3e86501838ece6870d11b53caee2afb4a44246dbf043c"
+    },
+    {
+      "path": "common/engine/illustration/IllustrationTrack.gd.uid",
+      "size_bytes": 19,
+      "index_oid": "bf80d252f8a2aae0b5cdad930601e28251409416",
+      "sha256": "7cab4d4fb22bd476d6236cd6ba40a6b65d2a6866565a8f6a5174999beed859c4"
+    },
+    {
+      "path": "common/engine/illustration/PropAttachment.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "daab1e9cbd6c5def53b38151156087d803642f39",
+      "sha256": "efaf37ee375e8e3398c618b86bfe6abc7c0dcf6f5cfb4c21963a6c5da4178174"
+    },
+    {
+      "path": "common/storytime/PerformancePlayer.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "d2fe23bbb5ac4f74d5157bafd7d804cce2c7dc63",
+      "sha256": "7ca905fd876275476d9a537f245ea55f1e99ca7a3fc35c6ddd8516eb8a16d52f"
+    },
+    {
+      "path": "common/storytime/ProfileAssets.gd.uid",
+      "size_bytes": 19,
+      "index_oid": "a2844372ddff7a1787acd0b9d55c0ff0263315dd",
+      "sha256": "36d003e85e4f9ab8435aedbe571d3c320356ffdb768d530dc1d5dd6dcc4b9176"
+    },
+    {
+      "path": "common/storytime/StorytimeStage.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "148cc25fd024b7477e264461d1bfcfd862a46a34",
+      "sha256": "192d3f1c8d214cc6136fcd3e6e1b0e9649d440a40771043b170facf8bb1f31ef"
+    },
+    {
+      "path": "common/storytime/performances/recipes.json",
+      "size_bytes": 19048,
+      "index_oid": "b411780e1725ef380f591d3e82e3ac2d36e3c9f5",
+      "sha256": "871ef59e73f99eab889aa51ddd63e488696e6d0866295a3f31aa8f0b90d790cc"
+    },
+    {
+      "path": "common/storytime/production/ADBEpisodeArt.gd",
+      "size_bytes": 10353,
+      "index_oid": "e383324fd9ae89129d54a86a74099c9dca783199",
+      "sha256": "03fd9ec86fb1c017b9519f7ddb189545410414d444ca85de86eaa569cc67189c"
+    },
+    {
+      "path": "common/storytime/production/ADBEpisodeBackdrop.gd",
+      "size_bytes": 16167,
+      "index_oid": "62d4222a7135ef07bde5e4f3de458e67516c7a7a",
+      "sha256": "a54bd8068f855c8e9131ba812affd825e0b5c6aff66c06f6996a848fd39a9d3f"
+    },
+    {
+      "path": "common/storytime/production/ActingTimeline.gd",
+      "size_bytes": 9427,
+      "index_oid": "16d51c6f6efb02c15b9cc2780fd429dcf98253b6",
+      "sha256": "c496f2abe63170f4c62e2c2e97db55f1c63f078acbe2996e57be842c4c494956"
+    },
+    {
+      "path": "common/storytime/production/ActingTimeline.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "2c694427578ab13f178c66508bfedc1a524fddbf",
+      "sha256": "5d615125dd549ffe17f5d7386f02b2821ba0552fa414e8c885726473fa633249"
+    },
+    {
+      "path": "common/storytime/production/Backdrop.gd",
+      "size_bytes": 7816,
+      "index_oid": "087e16465cccaa43e61202cca712edfdbca117b3",
+      "sha256": "2519e415937b68afbc7752fdea67dc5add100d3b15c38bc33e7e7eb14b6ae5eb"
+    },
+    {
+      "path": "common/storytime/production/Backdrop.gd.uid",
+      "size_bytes": 19,
+      "index_oid": "7e70bbcaded4c337ff24b45eef3e82e87ee68ac2",
+      "sha256": "67cae13361dfbb59f2ef0f4590a1b814bb2b918d84c523448b6284b44490c6db"
+    },
+    {
+      "path": "common/storytime/production/BeatVFX.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "36d52f2f9152d534e052e473bc1011ea803a0c71",
+      "sha256": "b8b3dd50424b2e62191a2ab83bc5d07202dd8a5f68df15ad08af738b14008978"
+    },
+    {
+      "path": "common/storytime/production/CreatorEpisodeArt.gd",
+      "size_bytes": 6947,
+      "index_oid": "f1ce7c779073cfb15cb249b41026395af10dc92c",
+      "sha256": "09316e8b088be92b0147d06a773f28441e821c6f4db783391c9105c78ecedd08"
+    },
+    {
+      "path": "common/storytime/production/HandPaths.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "07b240172814f0d81ef5d4d72ade933a95103371",
+      "sha256": "688f89b693045ff441ac3fe95ee6e305a9fd18dd8b6301c85f5fa3e50b7c0b08"
+    },
+    {
+      "path": "common/storytime/production/Motion.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "36d735d24ea96c905005cbda0b44d53b3a898d71",
+      "sha256": "f8b898401f6dbf732172aa314f5044617cfb3ccad856562a458ccfd275147889"
+    },
+    {
+      "path": "common/storytime/production/ProductionAudio.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "e7a5641da51e5e8dd25bf86b21870d09384bbb5d",
+      "sha256": "800ceac10c552062d273b99bd3ff7c5308ac8cab4c99247bfa1c636795ca6064"
+    },
+    {
+      "path": "common/storytime/production/ProductionStage.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "24933f4092c8b196e5773b5afa272437b9fa336d",
+      "sha256": "f290f6bd09ed917d4afb05bb4b7a581636084c18d709e057f4513edf486d30c7"
+    },
+    {
+      "path": "common/storytime/production/SceneArt.gd",
+      "size_bytes": 4164,
+      "index_oid": "6d62ead1fb55d591679456944a0c69b761c56361",
+      "sha256": "ca6f0590dcda9c292749b30dd221e6e8a13ec90b23b7d70b2865fd1799ad51c0"
+    },
+    {
+      "path": "common/storytime/production/SceneArt.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "47fd81236fd45ed3f139b6769fc85855afecf118",
+      "sha256": "417a54b9b90c68ad6253bede458e1a5239d83d32a5f3bbb4ab31599419426059"
+    },
+    {
+      "path": "common/storytime/production/SchoolEpisodeArt.gd",
+      "size_bytes": 7043,
+      "index_oid": "405714f84ddf50661320a0f9cd78943d9ccbf995",
+      "sha256": "e9a123307747a3f06ea49be5207f2f89091746e8702f636b4bd0794358ca3f88"
+    },
+    {
+      "path": "common/storytime/production/SchoolEpisodeBackdrop.gd",
+      "size_bytes": 5947,
+      "index_oid": "99797e9f1674811afcdc0503adaa83c7b4c30c3d",
+      "sha256": "b6c09a7a8992050b43e7edf3e86bb722e89ecfeea7d5011f75a910237724db77"
+    },
+    {
+      "path": "common/storytime/production/SchoolSuspenseArt.gd",
+      "size_bytes": 4852,
+      "index_oid": "fdd2f8e99af1240c977264379b981fa4d2df9480",
+      "sha256": "50eb59d2db09b9341c13abf0820191ac9f87b9af0c6a2ab00b5d2e1ecf0bdb22"
+    },
+    {
+      "path": "common/storytime/production/SchoolSuspenseBackdrop.gd",
+      "size_bytes": 2889,
+      "index_oid": "a12d206abc378cf5cd276b25acf65461fddf859c",
+      "sha256": "dd58ec5855d5d654fe44925b437e304d0b134204b65f98261df403dd0c70790f"
+    },
+    {
+      "path": "common/storytime/production/SchoolYoutubeArt.gd",
+      "size_bytes": 9223,
+      "index_oid": "7b05f66c97383bd8227e68269066efa20bb028ae",
+      "sha256": "70a7df651b247ecea5757514b6d140c746303a92322f526194b412a6315d92a8"
+    },
+    {
+      "path": "common/storytime/production/SchoolYoutubeBackdrop.gd",
+      "size_bytes": 4827,
+      "index_oid": "0ea36034f8713e2a846be06277b3ee56ca77b68c",
+      "sha256": "141c62650e25b3bf5dc3fa103467abe37736babc128a9e579fa98d1e0884c2c5"
+    },
+    {
+      "path": "common/storytime/production/TravelArt.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "5874b00856e5e3ed421e19a25fb053d9b7bca256",
+      "sha256": "930f04074bd7f084933249ffee05611b5ca28b6f98128a3e1b0aa315067dd430"
+    },
+    {
+      "path": "docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md",
+      "size_bytes": 14361,
+      "index_oid": "0e47b19f8b9dd61cc9dce0d18266662ec7a4a68f",
+      "sha256": "4bbf3a7dbf9d877636fca6fae064f77e1a323d01a313a0ff6c912a438f76a645"
+    },
+    {
+      "path": "docs/animation/COMMON_ANIMATION_QA.md",
+      "size_bytes": 6204,
+      "index_oid": "813dfafb1e5949587201d0229ae9322342cd9545",
+      "sha256": "f7158dc651a4f28e090434f43ffc143a7b0a4a9bd27172d2b41f9652d414c73b"
+    },
+    {
+      "path": "docs/animation/COMMON_CAMERA_STAGING.md",
+      "size_bytes": 5724,
+      "index_oid": "f281edd46e88c8f71f27ebbb1bc7669a75286ebf",
+      "sha256": "8fc971efd15373998a419ecbcfd837af62ca21099749d8e11a52937ed098d823"
+    },
+    {
+      "path": "docs/animation/COMMON_SFX_SYSTEM.md",
+      "size_bytes": 5595,
+      "index_oid": "dcaae57750e692f26c92a677cba009a54b270f9e",
+      "sha256": "dc8efd43b08e6aef5503c3e8c51462baec23b8b1c45ce5acb1c16ec8b9f12f12"
+    },
+    {
+      "path": "docs/animation/COMMON_STORYTIME_ANIMATION_STYLE.md",
+      "size_bytes": 4542,
+      "index_oid": "7c49c2f1a04936488e59b290d424f9e371248b5a",
+      "sha256": "9478670f58b560efa4db38f293b559627dac30d8b50ec9e1e7770d0bd9ed017f"
+    },
+    {
+      "path": "docs/animation/EPISODE_START.md",
+      "size_bytes": 9329,
+      "index_oid": "c87128ee587d84c77adf694cc8135a2dc1484ca8",
+      "sha256": "b284d8262b111c0265afb9ca93f6d82b23d3a789e8f4fd0757e540ba7c331476"
+    },
+    {
+      "path": "docs/animation/GENERATED_THUMBNAIL_COLLECTION.md",
+      "size_bytes": 1726,
+      "index_oid": "b06a855272b20f44b1f06edcdf6628ddbd9c4dc4",
+      "sha256": "d096c4b29c219a47fd97a611f7f45b848d3d75835468fa7e4d72827c675a3b26"
+    },
+    {
+      "path": "docs/animation/PROMOTIONAL_THUMBNAILS_2026-10-06.md",
+      "size_bytes": 5288,
+      "index_oid": "52b6a5c1d52ca4931aeaf8f0ec87830a77134c71",
+      "sha256": "38ee7581db03ff487977e3875d37a3c28dc72e65b857a6c57c33eeef43d9f33f"
+    },
+    {
+      "path": "docs/animation/PROMOTIONAL_THUMBNAIL_COLLECTION.md",
+      "size_bytes": 10300,
+      "index_oid": "b5a4ee05288256d75d99bb5e26556996350efd26",
+      "sha256": "e2c838ac1491d3afe9a76f95f3668aa41dcf2eb8eb752a9ee7f39888bb6ccc75"
+    },
+    {
+      "path": "docs/animation/STORYTIME_DIRECTION_WORKFLOW.md",
+      "size_bytes": 27729,
+      "index_oid": "c606a0f6a863152867930f009d5071e293491610",
+      "sha256": "555032d315f9ef84d91bf8cd60a7e18ed11b8c2a9ce61a8d7e552fb7f9f57547"
+    },
+    {
+      "path": "docs/animation/STORYTIME_EPISODE_COLOUR_THEME.md",
+      "size_bytes": 4839,
+      "index_oid": "c00e2af9a8dd41cea4950b48ad94fdd97b30688d",
+      "sha256": "580c657a381ac938ada88e9204b005a1776caf252705d82088d8ed9f040e03be"
+    },
+    {
+      "path": "docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md",
+      "size_bytes": 18943,
+      "index_oid": "2c84015d82bdde329225cd427140db87b8f7cc1a",
+      "sha256": "1bc5459889e30103574f6542f40b9829a5e5228fc0e0306783640681e3181511"
+    },
+    {
+      "path": "docs/animation/STORYTIME_THUMBNAILS.md",
+      "size_bytes": 10108,
+      "index_oid": "1679dac5a401613e81429dd903ad83e79103ebee",
+      "sha256": "228919d921f0989db8a7d551a223181d08b419ac93729d13df57c102c374811c"
+    },
+    {
+      "path": "docs/animation/THUMBNAIL_COLLECTION.md",
+      "size_bytes": 5651,
+      "index_oid": "aa847493f6c86bad7d099551e47bccd1c1cfe4ff",
+      "sha256": "9d67b88a05c3adb21b2165a408e1d9456bba4ed7b0ffb9db774b1ed0d4048317"
+    },
+    {
+      "path": "docs/animation/THUMBNAIL_TITLE_PLAN_2026-10-06.md",
+      "size_bytes": 18776,
+      "index_oid": "8bbe37650bddc2db6e7062bd5ab29279944aa59b",
+      "sha256": "8f75fc8230487457b606eb1ffa0def7417c532a0a993a6365de55d9ea2b48f58"
+    },
+    {
+      "path": "docs/animation/catalogs/SCHOOL_YOUTUBE_ART.md",
+      "size_bytes": 4338,
+      "index_oid": "8a735b8032544a902a95ab4f286f6a54dd62e314",
+      "sha256": "39b27913e5a5d7b2c367bc44fba12eeb0baff8fb9813dad82786d0d161531fc2"
+    },
+    {
+      "path": "docs/animation/preflight/reading_manifest.json",
+      "size_bytes": 1519,
+      "index_oid": "a2ac778a72ebcb99f7d78966aab81fb560389b32",
+      "sha256": "5c32da920fdd88a6e6609a840dd9ad87039f428662625bd50e8f698fd572a47e"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/.gitignore",
+      "size_bytes": 642,
+      "index_oid": "eaed01fcca3c5ccc03d4f659a657d7bf656cb986",
+      "sha256": "cf3890ddfd889fb85397b4e13016108974a829692deec4d974508b33a7a40d29"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/DIRECTION.md",
+      "size_bytes": 3164,
+      "index_oid": "95a42cc9d681b767f0df6f2b676d1ec75086f9ce",
+      "sha256": "8d324e114655bee94281d078196203da111c19b49e2b0407c7cf9fc6a806ef82"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/PUBLISHING.md",
+      "size_bytes": 1140,
+      "index_oid": "97ba542d6f7a87163230548029d6d9dbe12e2499",
+      "sha256": "a8bb01b474915e40b2ecef978ba9f238e86a2f39a58fb5d37f72592d673103bf"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/SCRIPT_AND_BEATS.md",
+      "size_bytes": 3398,
+      "index_oid": "78c1773313c3e2c31a872af9aabe77acbcad7948",
+      "sha256": "8ed46e26cdd5bd7264b43237b98780b4512deb30d77a69f4dce2662685cc7399"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/SCRIPT_AND_BEATS_long_draft.md",
+      "size_bytes": 8251,
+      "index_oid": "a265633a926044e61f539b2728c840eb7a9f3021",
+      "sha256": "c0cd4a993f5c010457bf4fb45d48b4e85346200bec0e5c825713e6edbb6b5ea2"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan.json",
+      "size_bytes": 20651,
+      "index_oid": "7d840f42038b80bd09159b0923026f3770577ff8",
+      "sha256": "198a25e67dffa79cd44926cd96af66028388fb0d468cc4b3cf71084196cc38e7"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan_long_draft.json",
+      "size_bytes": 9913,
+      "index_oid": "fd7f523f4f3c44c511bd595cff97f5976ee29c08",
+      "sha256": "e56674b0be31b606654c6ec4daf99708a8dd2975b1aa8b2e69db635e9d39ff0d"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan_r4.json",
+      "size_bytes": 20642,
+      "index_oid": "57d3132f05b413d9a70ff0b9472f892b724d80ef",
+      "sha256": "88d0825fee080a249ecc909ecd1723c5d8d9bf00813abada9d44a545ff0db10a"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan_r5.json",
+      "size_bytes": 20642,
+      "index_oid": "57d3132f05b413d9a70ff0b9472f892b724d80ef",
+      "sha256": "88d0825fee080a249ecc909ecd1723c5d8d9bf00813abada9d44a545ff0db10a"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan_r6.json",
+      "size_bytes": 20642,
+      "index_oid": "57d3132f05b413d9a70ff0b9472f892b724d80ef",
+      "sha256": "88d0825fee080a249ecc909ecd1723c5d8d9bf00813abada9d44a545ff0db10a"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/camera_plan_r7.json",
+      "size_bytes": 20651,
+      "index_oid": "7d840f42038b80bd09159b0923026f3770577ff8",
+      "sha256": "198a25e67dffa79cd44926cd96af66028388fb0d468cc4b3cf71084196cc38e7"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/preflight.json",
+      "size_bytes": 8084,
+      "index_oid": "13ebb6a6c723d72d5362921c5de3ca06f05df5ac",
+      "sha256": "0c762b3c4e7624ba32b4f8ddb72736b66baa9ba6c940c0502aa59f2127219fd1"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/1080P_APPROVAL.json",
+      "size_bytes": 1005,
+      "index_oid": "24071fcc1a6d9bd941148778e68bc6e68294da20",
+      "sha256": "bfb9f09aac059b17993693c2f7f4cd93cbd3ded2466715f03cd2f997bb459b46"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/EP06_COLOUR_APPLICATION.md",
+      "size_bytes": 1624,
+      "index_oid": "602abd22d3d3b776a57148d4cd86c99b5a6054e9",
+      "sha256": "41fd054ea36ed7412d82a7a2b680d3fcdd7585b50ae5fe2012bb5dc1d94efdf9"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/R4_DESIGN.json",
+      "size_bytes": 1127,
+      "index_oid": "24f3f837cf5cd226a4167e480094da8766d3e2a6",
+      "sha256": "c9388132b36d938096f64caefb9a3895ab710a71eb292f2897274a081b9c1c0b"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/R5_DESIGN.json",
+      "size_bytes": 1302,
+      "index_oid": "8b4b192570eb04310a54cf9cd88fb088b6234b86",
+      "sha256": "5b86e2c2aae4b276416c0ba4f8b20bf7f9372ca1bb241ae5e7d6f36cee72322b"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/R5_REVIEW.md",
+      "size_bytes": 3290,
+      "index_oid": "ac6f131fd4cd1d4bf096ae95d3938a47e418982a",
+      "sha256": "a212ee1857fc2e7500b57db06fe6f0ed737aa51ea4d1ad791f33703437789e5b"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/R6_REVIEW.md",
+      "size_bytes": 3656,
+      "index_oid": "1f223d6f7f0ad728f33c6eb103a1672602cd49f5",
+      "sha256": "2cb52283aa6f4d5c1b11ba466b6ce2b97215d66938729d03c9d697995c5948d7"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/R7_REVIEW.md",
+      "size_bytes": 4933,
+      "index_oid": "dcf05e35c99d912124f12cd038170b2235ed3004",
+      "sha256": "e7cddedb53e7321acc31ff51879967ac9e97fc0d052baffe6d3bd1bf5769d82a"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/RENDERS.md",
+      "size_bytes": 724,
+      "index_oid": "f8ab49a85d165433d8e9aec564cf91ee2d871c81",
+      "sha256": "db65b82106c288f3cd86511a174d4fc5a45265c615d9ec07b4e0dc6b9252dc73"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/REVIEW.md",
+      "size_bytes": 1346,
+      "index_oid": "7f09f1e11c2d998da607d16c434d0822f8f18e93",
+      "sha256": "9d44de7581abb3f3d252044817a8b082eaf7b3e00dce3cc44dea8b6d39aecb01"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/SOURCE_PUSH_STATUS.json",
+      "size_bytes": 552,
+      "index_oid": "19f90937ea73a561a188f7eeb17e551a44175bf5",
+      "sha256": "e39e4ff8571300926469bae743cf9ab98a8fc702e5eca9ebdbd7b2830bb8bd32"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/capture_geometry.json",
+      "size_bytes": 7411,
+      "index_oid": "20e32eae98d17cf45b9659d270143b5d23f6fb59",
+      "sha256": "3f523b23cc95960e0c5c154d38af14d4ad4b63bcb3e865b4e5d8d8fd5bfd0f66"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/final_movie_qa.json",
+      "size_bytes": 1522,
+      "index_oid": "af0f32b90544a9cbc46db2bb56842135246a997c",
+      "sha256": "575ba3a7820246d157ef4c5fdfe009f244dac3c421dd59e5e54be2dbfafaf7c6"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/historical_r3/camera_plan.json",
+      "size_bytes": 7043,
+      "index_oid": "5cdeac64b654f0f8d73a070414a1285927548130",
+      "sha256": "d04131deadc50a79cac93e9d2a7cfbbfa5e59fe3d7699a991e4b76e739655374"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/historical_r3/sound_plan.json",
+      "size_bytes": 9173,
+      "index_oid": "647ae74a98ef561bf3c5f2c6c1cabac05cf6997f",
+      "sha256": "bd75b7716ac8315a43f5291db28f90e6f066ecfa0046c79eeee6bf489fcde6ef"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/historical_r3/technical_qa.json",
+      "size_bytes": 573,
+      "index_oid": "d83ca1a8bc6fc4c821abb44dbbf3dfa8b1e72053",
+      "sha256": "7f21c413fb106149a171152b4146f1e3d22b323eb318bdb2ad8c1efb3c22e9c3"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/r5/movie_qa.json",
+      "size_bytes": 726,
+      "index_oid": "fa65ae3e519b945beb78b4543cc4de2bc8fe7201",
+      "sha256": "65a13f2a39a603a2f510ee732d28fd9daab6f2fb9fbc8d7be52208584267d05c"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/r6/decode_and_sound_check.json",
+      "size_bytes": 250,
+      "index_oid": "34cd2e342f783b8801b6445fb08e8a9e247a5938",
+      "sha256": "1ccc5619aa4228b1e48daae957bb55d695aaaba8b3c411d07e04c41798c4acaa"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/r6/movie_qa.json",
+      "size_bytes": 901,
+      "index_oid": "8d365769f2559d6f3530c9cac56a8d91a86171b2",
+      "sha256": "10853ced59786a6f7f254a4ee71180fba232af56cb0671b730b42b1401c5cbf6"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/r7/independent_review.json",
+      "size_bytes": 584,
+      "index_oid": "49e0740fd10401d2b197e381cea7caab8822057f",
+      "sha256": "7db9f54c95c254e436b8e6d4f3ce41fbc8e305630837623953b1fc42ae8d8cd8"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/r7/movie_qa.json",
+      "size_bytes": 1105,
+      "index_oid": "1a69b0cf4c861025b7f4c4c8761a066249bae479",
+      "sha256": "dc4502c8044055d57cc87d967431328b247afd4aeb85644a33cf33d32cc5cf6e"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_proof_r1_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "e8053fd706077c393070c4b6b50c7e8ad765acef",
+      "sha256": "f73aed799789533a31f59f51fc9fd6cbc024f4b92ee072362a758a23db3e02ca"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r4_proof_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "0421159c766503f38e6d01ad606b77f2d84180f8",
+      "sha256": "f981529493aceb6fe7e82c54c1648662f0083c6bed5b3c8695b427c4a204f066"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r5_integrated_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "42e63160d22bc4fc415d9b48d5c91e0b05e53d72",
+      "sha256": "69142fb5ea75a5711a39efb2c95d504dc243dba8119110594906a02540dbcf5b"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r5_integrated_1080p.review_stamp.json",
+      "size_bytes": 349,
+      "index_oid": "dd6f4085c2998bae7153374b584d556f9f9a68ea",
+      "sha256": "34d84946d085609de237bcc5f2da14e64b6f4963dbadeac82f282be49aaf724e"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r5b_proof_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "bc379a5d02c814b4766602523b3dc352e7ef2de4",
+      "sha256": "8caf9cf1a3cdddba33e6339698276f4a81d7a448f560135515c869f1f8119d38"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r5b_proof_1080p.review_stamp.json",
+      "size_bytes": 346,
+      "index_oid": "02e71f12a0228144db04c5d610109d34bd5ed68b",
+      "sha256": "2125cc121f4c1ef1d10567587fcc77e87cb6d041200548d33f1f09186de2b0ca"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r7_framing_proof_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "eb729f30ee0033d135cb05eb81803b5851d6607d",
+      "sha256": "26a2a930d0116bdb949f448c2c988e75b7cc0a4c6bfb73faa22b79696847d5e9"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_r7_framing_proof_1080p.review_stamp.json",
+      "size_bytes": 349,
+      "index_oid": "8e4f6c256b05ca7010db9d67ee439ca197e2fcdc",
+      "sha256": "c4860881726237ed4da9d7500ebc3cdd792250ac0ec8dfcb45eb960be197c137"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_short_integrated_r2_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "cbc264cb1afbe729e1b3e8874a2b585079ed14dc",
+      "sha256": "da9cedb46016ad1c9b35d2e7a59ef60ff4834a173cf1784bb4c5cfea29ed87b4"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_short_integrated_r3_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "2b147304f065b8a6b8f7c12244b2ae3e6ea6e8b5",
+      "sha256": "85e4d64aefa6d7b7bd2a37a2b40c7286616211f6af547cc4894546c17e615530"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_short_proof_r2_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "626dd51a59d12a582c28257a45e9f20fea73d9da",
+      "sha256": "a4ff08eda1326793264c1d91a49a8a4e5c6d9dbed4dd3e6c730b062cc471e1e8"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r3_4K.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "654dc766b8f4ba6b414edbbb54389698872a5865",
+      "sha256": "fd71410144e4df15fac4ec52296d173846c9ba0f238f1ecf82f870d91b3f7e80"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r5_1080p_REVIEW.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "1659518e4546404694ce594d2d164f3de69170fe",
+      "sha256": "fc3d327623ed6f11701323b761a6e73b29d05ff4016be409772521ff86abe3ee"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r5_1080p_REVIEW.review_stamp.json",
+      "size_bytes": 345,
+      "index_oid": "4daa4c2bfc53f6cafacbc8f83b48bd48e2b72a4f",
+      "sha256": "3c9fca96dc19e078471b99a255375b13653b7c67ba1ea1dfb2e925894c0830d8"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r6_1080p_REVIEW.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "1659518e4546404694ce594d2d164f3de69170fe",
+      "sha256": "fc3d327623ed6f11701323b761a6e73b29d05ff4016be409772521ff86abe3ee"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r6_1080p_REVIEW.review_stamp.json",
+      "size_bytes": 345,
+      "index_oid": "820eeabfdd9a22c4d4e2ead5fb243136433684d0",
+      "sha256": "9bea6ff92a7b0724f410d45dba951d8fa2301471f1c659bcafb1da6562d8c03d"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r7_1080p_REVIEW.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "1659518e4546404694ce594d2d164f3de69170fe",
+      "sha256": "fc3d327623ed6f11701323b761a6e73b29d05ff4016be409772521ff86abe3ee"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r7_1080p_REVIEW.review_stamp.json",
+      "size_bytes": 345,
+      "index_oid": "202c1f86f21029fa63f7bc94b5c147ff5a9859c3",
+      "sha256": "9d07c2e57ab1829ed7c74eb42bf62b080d56c39f16b4195a45e36ff38bb6f3b2"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r8_1080p_APPROVAL_REFRESH.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "1659518e4546404694ce594d2d164f3de69170fe",
+      "sha256": "fc3d327623ed6f11701323b761a6e73b29d05ff4016be409772521ff86abe3ee"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r8_1080p_APPROVAL_REFRESH.review_stamp.json",
+      "size_bytes": 345,
+      "index_oid": "0288c0befbea0413fc734580fc666c71a771640b",
+      "sha256": "ba823c8beae541d79093ef0f3488e511877fd7654a1e1b33a9103b50944ad531"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r8_4K_FINAL.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "1659518e4546404694ce594d2d164f3de69170fe",
+      "sha256": "fc3d327623ed6f11701323b761a6e73b29d05ff4016be409772521ff86abe3ee"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r8_4K_FINAL.review_stamp.json",
+      "size_bytes": 345,
+      "index_oid": "5cd51ac5d3e6cbb633bf73731b02c1ac360bf683",
+      "sha256": "06a6f6070a5c7ef5ec6816004171985148c1ebbe89b60fd118dcf43c8a278a4a"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r5_integrated_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "42e63160d22bc4fc415d9b48d5c91e0b05e53d72",
+      "sha256": "69142fb5ea75a5711a39efb2c95d504dc243dba8119110594906a02540dbcf5b"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r5_integrated_1080p.review_stamp.json",
+      "size_bytes": 349,
+      "index_oid": "dd6f4085c2998bae7153374b584d556f9f9a68ea",
+      "sha256": "34d84946d085609de237bcc5f2da14e64b6f4963dbadeac82f282be49aaf724e"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r5b_proof_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "bc379a5d02c814b4766602523b3dc352e7ef2de4",
+      "sha256": "8caf9cf1a3cdddba33e6339698276f4a81d7a448f560135515c869f1f8119d38"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r5b_proof_1080p.review_stamp.json",
+      "size_bytes": 346,
+      "index_oid": "02e71f12a0228144db04c5d610109d34bd5ed68b",
+      "sha256": "2125cc121f4c1ef1d10567587fcc77e87cb6d041200548d33f1f09186de2b0ca"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r7_framing_proof_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "eb729f30ee0033d135cb05eb81803b5851d6607d",
+      "sha256": "26a2a930d0116bdb949f448c2c988e75b7cc0a4c6bfb73faa22b79696847d5e9"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_r7_framing_proof_1080p.review_stamp.json",
+      "size_bytes": 349,
+      "index_oid": "8e4f6c256b05ca7010db9d67ee439ca197e2fcdc",
+      "sha256": "c4860881726237ed4da9d7500ebc3cdd792250ac0ec8dfcb45eb960be197c137"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_short_integrated_r3_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "2b147304f065b8a6b8f7c12244b2ae3e6ea6e8b5",
+      "sha256": "85e4d64aefa6d7b7bd2a37a2b40c7286616211f6af547cc4894546c17e615530"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/workspace_EP10_short_proof_r2_1080p.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "626dd51a59d12a582c28257a45e9f20fea73d9da",
+      "sha256": "a4ff08eda1326793264c1d91a49a8a4e5c6d9dbed4dd3e6c730b062cc471e1e8"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/retention.json",
+      "size_bytes": 1849,
+      "index_oid": "9c50a7e2d50651b281ddf7e086cc7a0300a818cc",
+      "sha256": "bbab1cf14fb767261362403705d984d80d4ea382bb31a09b2929773373814a90"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/splice_boundary_measurements.json",
+      "size_bytes": 5338,
+      "index_oid": "ebf1656f41ef62aacb6775b548fad4ec85521325",
+      "sha256": "48ddc125ca9bbf5366446df8e54bd2fc457de583d449271f3f8dd381e909a86c"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/technical_qa.json",
+      "size_bytes": 1239,
+      "index_oid": "baf615126eec4e2e7a1af3b7a9396620b0793873",
+      "sha256": "30178615b10dbdd081f10db3620d96023d6ce32552c671d259de6f729a00c26f"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene.json",
+      "size_bytes": 163520,
+      "index_oid": "1cd7abc2fd7986ccc1ede468c1121f461a8c6184",
+      "sha256": "3edf287b907ac34341ebda92a5951d16a451d4d98a83e68a42edd1941eb27578"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_long_draft.json",
+      "size_bytes": 178167,
+      "index_oid": "095d8a0725f62a672ef32d5082ec727400c29b41",
+      "sha256": "d6aa17681cac1c3d42c635e00965536a1eb99339bbe8fae362418ef0274c3547"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r3_rejected.json",
+      "size_bytes": 99952,
+      "index_oid": "d69f3121f77dc2ad5fb9e0b364b586cff484f8ff",
+      "sha256": "6d1f22cf6ad4dbc2fee0ed01d5ed0c4b5d8dc6c5d2b3c76d4df24ebec33155e5"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r4_1080p.json",
+      "size_bytes": 162164,
+      "index_oid": "faa963183f8858e9f28bfb7c5e929390df622803",
+      "sha256": "7b7b4e767753acf6f31d223a2921d0c55b29e6bc62f4de1516dce026d105aa4c"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r4_colour_rejected.json",
+      "size_bytes": 162899,
+      "index_oid": "cbaf960edebbdd4116aac565800448af06f84aae",
+      "sha256": "850b322dc386fef8430a2a423a8d31ac0b730012ce33d5dd50c999264991afb8"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r5_1080p.json",
+      "size_bytes": 163838,
+      "index_oid": "f6730c983e544d661bb3293a65b241df6710df77",
+      "sha256": "37b35605ece8cb63c97e03a24cdb2367de009c1879f74c438537cc8b2cd49847"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r6_1080p.json",
+      "size_bytes": 163540,
+      "index_oid": "c171443bfbd6efc295f6975a2424fbcaecc64341",
+      "sha256": "d0a79d9468fe39694f9c7643054979d2a6a0bee23882efb7641a8f79bc731c04"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/scene_r7_1080p.json",
+      "size_bytes": 163520,
+      "index_oid": "1cd7abc2fd7986ccc1ede468c1121f461a8c6184",
+      "sha256": "3edf287b907ac34341ebda92a5951d16a451d4d98a83e68a42edd1941eb27578"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan.json",
+      "size_bytes": 19694,
+      "index_oid": "ac377e9662d995dd1c72f5f7424184556e1fb85e",
+      "sha256": "58baf04c63590c1103106823bc39a29c0750ad7858aaef21dac49abb0aa06e04"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan_long_draft.json",
+      "size_bytes": 13417,
+      "index_oid": "5cb5cef5e38fff7b2d3f3eccaf444bb7935aedc7",
+      "sha256": "24eba3ce5a138d3f1b586ec3b044d1ca904a6759117274abee7fcef71609d745"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan_r4.json",
+      "size_bytes": 19694,
+      "index_oid": "ac377e9662d995dd1c72f5f7424184556e1fb85e",
+      "sha256": "58baf04c63590c1103106823bc39a29c0750ad7858aaef21dac49abb0aa06e04"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan_r5.json",
+      "size_bytes": 19694,
+      "index_oid": "ac377e9662d995dd1c72f5f7424184556e1fb85e",
+      "sha256": "58baf04c63590c1103106823bc39a29c0750ad7858aaef21dac49abb0aa06e04"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan_r6.json",
+      "size_bytes": 19694,
+      "index_oid": "ac377e9662d995dd1c72f5f7424184556e1fb85e",
+      "sha256": "58baf04c63590c1103106823bc39a29c0750ad7858aaef21dac49abb0aa06e04"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/sound_plan_r7.json",
+      "size_bytes": 19694,
+      "index_oid": "ac377e9662d995dd1c72f5f7424184556e1fb85e",
+      "sha256": "58baf04c63590c1103106823bc39a29c0750ad7858aaef21dac49abb0aa06e04"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/source_words.json",
+      "size_bytes": 105136,
+      "index_oid": "5a64deab31839d1f69cb04b51aa94dbae00fd54b",
+      "sha256": "fde1cbe071e662fe411512fbe24face9f0f6091d65d1063dc922ea0264ec52dc"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/source_words_final.json",
+      "size_bytes": 105431,
+      "index_oid": "025ed94136e1298d0cdb0c27eda847d39768055c",
+      "sha256": "84232a7adbae2fb2f21576afd12f41172ebb11f532cbad5d36ab7acef5bd69bc"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/story.json",
+      "size_bytes": 4398,
+      "index_oid": "cccb59088cfe881e072e90a80041018d390ed93e",
+      "sha256": "38226b5f98aef3ff3603734615c6348718300b3d3090bb3f4f03125c5c2ed0bb"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/CLEANUP.json",
+      "size_bytes": 13976,
+      "index_oid": "9bbe49304ddfaf9863f746c8d03aba37a6a83212",
+      "sha256": "87d06ade6f9c536dfff6f4a93b6277917dbac9047035e579322f7226590008c8"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/PROMPT.md",
+      "size_bytes": 3353,
+      "index_oid": "e344caf2510398fee8472a00aadc5ee44119ed61",
+      "sha256": "4e531b74fd88c9d5ac1c87863e53f40c8eb3b80486275f338710f683c0ebed2a"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/QA.json",
+      "size_bytes": 2290,
+      "index_oid": "561780bbb6e82351a8823a1cb8842eeca473ed6f",
+      "sha256": "9d8762d6971875e61f151049eb884a0dbdac28ef311d233cd049b1d9818f68cc"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/REVIEW.md",
+      "size_bytes": 1456,
+      "index_oid": "faabbccdd9d9e8a16598254bbf991fad62a6040c",
+      "sha256": "b34b852f4e0969a87820447eb53946c1535e50647e83da7d964fd5d4cb954243"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/manifest.json",
+      "size_bytes": 665,
+      "index_oid": "1c0a548c5104f217cf2bbe7dbb0c6ebf809379ad",
+      "sha256": "85e9026284ec8052c788d7b5919dc94a12965cf7da4f849041bf30b500865010"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/timing_reference.json",
+      "size_bytes": 43854,
+      "index_oid": "b10eda6991aad979a22c4f6f608a332e8281431d",
+      "sha256": "4a001bd006a8b8394a3c4814be3fb32194c3c041d6fff47546084bc5a1e310f5"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/timing_reference_long_draft.json",
+      "size_bytes": 84004,
+      "index_oid": "119464dceb9259bfbb9ad3b26b7bc3d744991961",
+      "sha256": "29d794df2acc7b08e007f5b0f080ed1e9966addfada806317e6938c8bc872d55"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/align_final.py",
+      "size_bytes": 987,
+      "index_oid": "2d4476965c6207262e4ecee47f81c62b2d0fab8c",
+      "sha256": "8f82587aa5d67af1d13388a442cd24c8c96220d31d0c6f45dbb9b456e56cca05"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_episode.py",
+      "size_bytes": 15391,
+      "index_oid": "881055da311386db530e2e4317cfe4ec1f3082ac",
+      "sha256": "0b3b9e6513b3c611e3216d75ac0ac67249402038b2d3716f87ebc774106469bd"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_r4.py",
+      "size_bytes": 19205,
+      "index_oid": "b0c2660087e72376213b3bf273c85de53c1e3c99",
+      "sha256": "0dc73f88241121e142553f402e8d613c6afc78880f359ea53ecdefb2fd4cebd9"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_r5.py",
+      "size_bytes": 1302,
+      "index_oid": "1f0e6f540a967254b6fbe43ffdfe0eb23fb225fe",
+      "sha256": "9f4e482e8ecc050b0245a8859fd3b4c40ed6e5aed437dca93f1b738a761870cb"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_r6.py",
+      "size_bytes": 992,
+      "index_oid": "fbea6fae20fa89ff1d3ec12656f5323667d93cf3",
+      "sha256": "0b1df4d2d32f596440b4d7bb9a057bdebdb9f0d0f1e27a85526ce9cf63b56933"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_r7.py",
+      "size_bytes": 1495,
+      "index_oid": "4d0b64e4ede5edce1d1ad79ee597f5c7bbb89c56",
+      "sha256": "69e082eea47c421163ee9e418dd215162fdef9a2c6ea12e1325c14d660fa4814"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_short.py",
+      "size_bytes": 10744,
+      "index_oid": "f1edd07ae8416f2fde14e75d2bb1f44df6e25a4b",
+      "sha256": "5922c5b7feb44a156a8ab55f827002d0963c58cdae671d9f246d8e66b73d1c51"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/capture_r4.gd",
+      "size_bytes": 1075,
+      "index_oid": "8bfbaa237a3b40645431cb0ab9657998cb2bd119",
+      "sha256": "55b2315f21e9984524b8f6907d20ede39e45aa03d35c0cd30581b4d86caa1f26"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/capture_review.gd",
+      "size_bytes": 1462,
+      "index_oid": "f0d2de2a6917dc309c84603457fb9fafa6e6e675",
+      "sha256": "2e1d369a07701093c4202473468a47d526fa27f3266539e39f3840feeb10a377"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/generate_voice.py",
+      "size_bytes": 1725,
+      "index_oid": "096147b682fe2e6c0b454ae8870f290ea961eb84",
+      "sha256": "65f32bd0dd7791b6ac3044bf9bedff8745b6c180a2c03e511eff521dcee18e11"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/test_r4_hands.gd",
+      "size_bytes": 1394,
+      "index_oid": "b0a4f2f19c8e50c7e64da1058723fba55fcf4963",
+      "sha256": "04175e99bf69bb192a51cc882ab9fb37d9b1f4bdcaad05805bbf88205d8235a9"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/verify_1080p_review.py",
+      "size_bytes": 3933,
+      "index_oid": "8e8164114c28bce9a19eb828c4db8fb2213fcb07",
+      "sha256": "b59aec85e5ca1de517390208e59061983e4342e048281d8b4e02021e54741b01"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/verify_final.py",
+      "size_bytes": 3528,
+      "index_oid": "0b926dc2b1a174fcecc993bc464a96e185dc9738",
+      "sha256": "ad6716ce3564e7aee4e08a06ea74a71a2366e30fc666d0b1418ca68628018737"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/verify_r6_review.py",
+      "size_bytes": 3933,
+      "index_oid": "62e9270a3d66f219b1b05c97cbc8d8520b36cce4",
+      "sha256": "ac3584bcc6faa48bd4e22972f2dcd81e38616945997b54eebe3e4df0dd1a42d1"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/verify_r7_review.py",
+      "size_bytes": 3933,
+      "index_oid": "c287805f30f85ba0c7aee7bd5faf7b0b3c21207b",
+      "sha256": "913be15265044963a10c55900844b4c114db22e3544342a6c11d4ca7bbd19f9e"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/00_nemi.json",
+      "size_bytes": 2517,
+      "index_oid": "e9101a24873ba72231d6251f8dafa424f121ec91",
+      "sha256": "cbaeb2361403aac0be6e65c668a890715a0458c7c893fe724e2bff30751cfbcd"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/01_nemi.json",
+      "size_bytes": 4265,
+      "index_oid": "10724fae100f9cb91ec7a16f841bc412e8940290",
+      "sha256": "34f331c20089d1ca7efa7fc5d32c27753f76db4547a5f8c244b86b503c2b9719"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/02_nemi.json",
+      "size_bytes": 3175,
+      "index_oid": "1ab194fa4a2798ea1f96ea4c539be5c0356238c9",
+      "sha256": "b5f824780c87c783777fc49f38824a817c2863ee7e53175e42f664adad9401c3"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/03_nemi.json",
+      "size_bytes": 3364,
+      "index_oid": "cf3439e8386e7da76c75ab16122d2f20569990e0",
+      "sha256": "7818280eef474b58349712dc95697c401baff9655d192008a7d615a572389d1f"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/04_nemi.json",
+      "size_bytes": 3018,
+      "index_oid": "b1524797e0cde0818b28f476c786f9a00df320cd",
+      "sha256": "063ae99576475af13334ea26b00e97b1a83b3dde390ca8e73cb82f691ddffab3"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/05_nemi.json",
+      "size_bytes": 3862,
+      "index_oid": "7e26a851c6c8e6c1d07b8d3cc53e15606acd0c5d",
+      "sha256": "4ed57c7dd9b7e63e05c844f1025498273be7fc8f8d897c486c6b2f8acab9d4dd"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/06_nemi.json",
+      "size_bytes": 3114,
+      "index_oid": "33bd27cdd4306c3ebac45c2c79864d0a72ab312d",
+      "sha256": "f9349428b4e6ea00a4283369713f5eacf0edd2056b50c45d8bd2cabfa84927ad"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/07_nemi.json",
+      "size_bytes": 3586,
+      "index_oid": "99b0950390582edc361959bcceaf498390806eb0",
+      "sha256": "827066567e14d70d9251ab28771fb62ea77b2e200aef3b3b5ec6ff438debc728"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/08_nemi.json",
+      "size_bytes": 3456,
+      "index_oid": "35787cb6e29a71cd312eb88665a5698255218db1",
+      "sha256": "17b4e27b9a46a6c5a01f67e86278ad0b610e7338f55ab181d0bb9143a7e02e47"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/09_nemi.json",
+      "size_bytes": 3804,
+      "index_oid": "9c5717e0cec631507895557aee843fe8fdeae928",
+      "sha256": "86ada387d091947448ef096a616433d27b4a43fbf5727221cd441f5c63c9ac6f"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/10_nemi.json",
+      "size_bytes": 3210,
+      "index_oid": "746d7399cfbd5de143f7f62667d7598f21ae98c5",
+      "sha256": "acf1168286a0a5fa3899beeac5f912e113f02daf97b21e8d0d2e38bbe27c24c0"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/11_nemi.json",
+      "size_bytes": 2403,
+      "index_oid": "5cbec7dbc193dcd1fed0bf2766362d6763eaae88",
+      "sha256": "e86a74edb37e709ed11ea14f7211bdb5586ede92a31c586391f7d38a8905f60c"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/12_nemi.json",
+      "size_bytes": 4039,
+      "index_oid": "67f13a657b96fc365b1a1f95d60cc82140b6b31d",
+      "sha256": "38ee9ca8fa39a5f586d9f6e00a97fffa2d8b83c605c4d297770b7048adb098ea"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/13_nemi.json",
+      "size_bytes": 3771,
+      "index_oid": "f8bc356ccef972ece76f37b883ff827d4277f86d",
+      "sha256": "6842799c1e7bb79de13020787dd480a636cc19a4760094dc61996aa786057b77"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/14_nemi.json",
+      "size_bytes": 2630,
+      "index_oid": "6c16060ed4ec905c25f97e0a57e1d00e8ee0753e",
+      "sha256": "5103a9c3879f61c3fdb54769548135a7fbba5a0e2751d4dbdc2ac387ec26a2c0"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/15_nemi.json",
+      "size_bytes": 3134,
+      "index_oid": "318013f493a4f519861bee07b99e7ecca2536c4c",
+      "sha256": "5f36bf6a5bab3f869632c916469fb8556a3e3a6b18469a214785f21d9d4f0eb1"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/16_nemi.json",
+      "size_bytes": 3327,
+      "index_oid": "3110b2064315d50138aec4fcf0af24f430dc1001",
+      "sha256": "1731ade6b1e37bb2598063d8ba57fcc1abc73abd38d0c6be3e7115e6fa663342"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/17_nemi.json",
+      "size_bytes": 3459,
+      "index_oid": "c9507c33d4a7ca48ceb68454b00e258f14b013c1",
+      "sha256": "9337506688dffa57a069aec7f959701dc820260ef75857621b53ae15c6c44eda"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/18_nemi.json",
+      "size_bytes": 2997,
+      "index_oid": "cca5aaf15430117a4f0d5e6e52917ed305d3142e",
+      "sha256": "7f67a3e74189927253977d05f1db8abfa912baadbadd522d10fe0f4109a4a20a"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/19_nemi.json",
+      "size_bytes": 3373,
+      "index_oid": "4664fcbf0b9c66e275e070e412c05d90ec3221a5",
+      "sha256": "afdf8c8b60566762a5b927fb3de7f7ecf19fc4ec1dc15ea95f5f977c6517d125"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/20_nemi.json",
+      "size_bytes": 3640,
+      "index_oid": "8df88d43cd839a701240aa89a0423387144aa1c4",
+      "sha256": "867122a88736d656252f2112bcccb10c501a11d1f3946c2fe5943959797f0181"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/21_nemi.json",
+      "size_bytes": 3459,
+      "index_oid": "40b7e0d2447b47f0d968bc87b7a071ab7951e405",
+      "sha256": "fb29f6b459a83051631c8d82593f5457731b20d15588df9c3d8ebd0d08ad80d3"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/22_nemi.json",
+      "size_bytes": 3793,
+      "index_oid": "b3cbf8573dc105420478e84a3d1da8dc5e81db9a",
+      "sha256": "dd31f61e6086915993c8b6a5e49626e8a4ff12d9df2d4e15cdaed16f1dce8c57"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/23_nemi.json",
+      "size_bytes": 3207,
+      "index_oid": "6c6fb278721ddad57d8ee19c8d2d5f2c0ade22a4",
+      "sha256": "a98eab8a0c81cfdc02047ae2f0581601d305efcb564db25c91c9c83ba7f1cff7"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/24_nemi.json",
+      "size_bytes": 3931,
+      "index_oid": "a66c1593b3bda693e31e240df328a783f5967e07",
+      "sha256": "3269fd2c942504e33c1cd82b39257e36c7a52aea319d38cb32c3c0a561dc4029"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/25_nemi.json",
+      "size_bytes": 3651,
+      "index_oid": "2197e17d02d19fc56051165c4b00dd07f1ac46ac",
+      "sha256": "e8d69e40eeb9ef25742e538889d209f9b88ad6302c03b7a9e978972a074b0de5"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/26_nemi.json",
+      "size_bytes": 3677,
+      "index_oid": "8a6a8c632c2487789bec215bfbccf84939a81b21",
+      "sha256": "fe0fe4d40b0c57e438fcc7225da293f8ac5e1fcaa0ce03ab85f9d2d141ff4da0"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice/source/27_nemi.json",
+      "size_bytes": 3943,
+      "index_oid": "cbf7ac098309b363008b412c84eb493b36e58808",
+      "sha256": "fbf3a24a6d71ab62a9316e4a6dc1477279207305222d9ef0f5f53d055e4bb220"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice_plan.json",
+      "size_bytes": 39720,
+      "index_oid": "bcf5e2c6b3ac4dfef467f7a30f3e76bb66941425",
+      "sha256": "ffd1d776508c8c7a6894f15ee24d30c45da49d639016eed7b4065f41138a572e"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/voice_plan_long_draft.json",
+      "size_bytes": 76595,
+      "index_oid": "84cd03d054c8966ca996624fc762c187f143a644",
+      "sha256": "cf337d91ad8e0b260bc8e9f77f491f80ef5b7615ea65194a566c2ce8d5faa07a"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/.gitignore",
+      "size_bytes": 68,
+      "index_oid": "06ff2d9913ddcd06888f3096174b647cf54efe16",
+      "sha256": "dd4ffb70035916236bb117828de367bdf0657db5f9ef5c0cf69e87a8335d26f8"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/DIRECTION.md",
+      "size_bytes": 3683,
+      "index_oid": "dfcdb70d0543236aa33045f6349da0496bfe05a9",
+      "sha256": "db2d3204306aa8db4b08ab764382794b61a42cb51c3e50eaab1ff6486a67ca19"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/SCRIPT_AND_BEATS.md",
+      "size_bytes": 3544,
+      "index_oid": "eadf0c9edded082d55528700a134d91bf1938211",
+      "sha256": "5ce1c141d4d876942a61cbd071b0661b10afe08610c750db5724ae22b791ffb2"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/camera_plan.json",
+      "size_bytes": 13279,
+      "index_oid": "bbc368232658b34ce34feff2dd626507f96fe285",
+      "sha256": "016790a20216cad06940059bf4d21cfa337adaa5cda96ac28744d68b157e28d3"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/narration.txt",
+      "size_bytes": 1922,
+      "index_oid": "597076d6cfc6e0034867ca3e4514041221a35c9f",
+      "sha256": "15daa43ec465439a4156f774d49e68c4034aea69cf4a9c652d4f3066dda2a276"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/preflight.json",
+      "size_bytes": 7950,
+      "index_oid": "58a14a59ea468431190e5a7cdff3f89cb989009c",
+      "sha256": "c0234bab1a52fb2974280a4950837af885e101505e48f7c143c8212b38c6b3f8"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/1080P_APPROVAL.json",
+      "size_bytes": 1665,
+      "index_oid": "2064d2c04728a7ea358ac5779b7845f031126bd9",
+      "sha256": "e75f2e719a934b79cd7cbcbadfa2f23c5a6769c8bcc7e6195581ee29032d5e0c"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/NEMI_EP11_I_Really_Need_Your_Help_r10_1080p_REVIEW/QA.json",
+      "size_bytes": 7313,
+      "index_oid": "017ae3e7b2db226f01c811841f472fb5a4fb5d44",
+      "sha256": "4ae5810da846f168e895bff249c19b99376a13e954c2fcace19fda9e4349ed1d"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/NEMI_EP11_I_Really_Need_Your_Help_r5_1080p_REVIEW/QA.json",
+      "size_bytes": 2208,
+      "index_oid": "31f85f7cc9b753e3316038a9a763bc33e0548ed2",
+      "sha256": "2cc69d42fc664193751845a7c723d8c22d6001d5c44d4adc75b63b24c22995b2"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/NEMI_EP11_I_Really_Need_Your_Help_r6_1080p_REVIEW/QA.json",
+      "size_bytes": 2538,
+      "index_oid": "bb1d3625500e9af89ff8eb075b7c41d8668ffc0d",
+      "sha256": "ab82a6e4268a93ae67aa0367de6826c34d0aa9756e2077c2771e98b1836d291d"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/NEMI_EP11_I_Really_Need_Your_Help_r8_1080p_REVIEW/QA.json",
+      "size_bytes": 2330,
+      "index_oid": "dd349e4e2fd3f2cb738ff200aff16482ed369c92",
+      "sha256": "63f240ff8e04c306e36bd7f81fe00d56af4f7e9895dbb248129d9a9542d494da"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/NEMI_EP11_I_Really_Need_Your_Help_r9_1080p_REVIEW/QA.json",
+      "size_bytes": 2330,
+      "index_oid": "12a2037758ba87cfc46567425e835aaf59da9831",
+      "sha256": "e98f03fb5cdffa1f70d3e0a27d37d60883b27977a4f2e4093fcfd1fec22c2d38"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/RENDERS.md",
+      "size_bytes": 3112,
+      "index_oid": "e820f51ae122da941e4b5d0b55c0e93bf73bca56",
+      "sha256": "98b6044db91d33228142aa57987d158e84aa8822fb4dfc5ed5eb5784491dd6dd"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/REVIEW.md",
+      "size_bytes": 3889,
+      "index_oid": "b46adbab8bc399646c6ac4059e540e7f1338da19",
+      "sha256": "c758bbd5dea1ff17438dbdcabc80baedc6842616c563facf005175ea941bd12b"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/WORKFLOW_FOLLOWUP.md",
+      "size_bytes": 1458,
+      "index_oid": "d8d201b46a095378443cd59c8ec335163937060b",
+      "sha256": "4836b5346e5b00bd39437188411c0a72f6533d4e0c4c56abaebef5559cd34ee8"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/final_1080p_qa.json",
+      "size_bytes": 7313,
+      "index_oid": "017ae3e7b2db226f01c811841f472fb5a4fb5d44",
+      "sha256": "4ae5810da846f168e895bff249c19b99376a13e954c2fcace19fda9e4349ed1d"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/final_movie_qa.json",
+      "size_bytes": 3418,
+      "index_oid": "1221d7619c10b2ba9f815fdf11195b0e8a49a3b0",
+      "sha256": "157b71cc4e687f5312237c794b5f97a8a586a1f60958476c4f4974819c11f801"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/paced_voice_asr_r7.json",
+      "size_bytes": 70426,
+      "index_oid": "683ce188e33a449835408cd4906c7035dc1f8d11",
+      "sha256": "36dc9afd67d0866ec2ad404d62166631659956c12df5d6754974f771083a5e6a"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/r10_revision_summary.json",
+      "size_bytes": 1014,
+      "index_oid": "421a061400fce71eb3e2722a1fb501722c956cf2",
+      "sha256": "21dfa2cfd95a5db6c0c2aeec5b5ed44bcfa24383d72bca35ca9964cb27b85d02"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/r8_revision_summary.json",
+      "size_bytes": 772,
+      "index_oid": "e0ec5fd800bb6d2d095813676c3362e7d2f76ea8",
+      "sha256": "ce95a26d21cf612dde34026bb90a92a37d7004c25f2899e685dc9b9f95b6ec3a"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r10_1080p_REVIEW.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "c99e01f1528b89aa7b214350edc2d792d449d560",
+      "sha256": "0af39945254cb11eb0021adf34298f620958f0fea45b427d5b1bccf51686f301"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r10_1080p_REVIEW.review_stamp.json",
+      "size_bytes": 347,
+      "index_oid": "e12746f5de2fd1c440e11c808a71932e188fe000",
+      "sha256": "0670ce7363a068c917e42e7c00b4032ca980b227157c787e0171e27e973bb902"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r10_4K_FINAL.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "c99e01f1528b89aa7b214350edc2d792d449d560",
+      "sha256": "0af39945254cb11eb0021adf34298f620958f0fea45b427d5b1bccf51686f301"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r10_4K_FINAL.review_stamp.json",
+      "size_bytes": 347,
+      "index_oid": "a7cd16de83a975baa4e40567217299c483a360c1",
+      "sha256": "885dcb4c57a11b17bf39ae1aee02d23c92bd4c681acaa1d05286fdbc529862d9"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r5_1080p_REVIEW.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "f07171a0153eb4fb06a29b1d936ecbfcf59be6bd",
+      "sha256": "5c2dfb4ff7a7463b09d2acc7759811de302da739a1ff5eafbb5d538e9d81c3d7"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r5_1080p_REVIEW.review_stamp.json",
+      "size_bytes": 360,
+      "index_oid": "21b7c3e4fed5b19ac28ed13994bac73717661f8b",
+      "sha256": "ab0ec6ab6e6be9344d15ef8aea5860eeb04d929c6d34f684cfc5784ee8043791"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r6_1080p_REVIEW.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "f07171a0153eb4fb06a29b1d936ecbfcf59be6bd",
+      "sha256": "5c2dfb4ff7a7463b09d2acc7759811de302da739a1ff5eafbb5d538e9d81c3d7"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r6_1080p_REVIEW.review_stamp.json",
+      "size_bytes": 360,
+      "index_oid": "ba9caca64e2ff6453cc420dcaf3b59af9a179b49",
+      "sha256": "76688a1af6fc12f2a0e60847399010c7e3e595f246efd7ba2202cbd871d673c5"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r8_1080p_REVIEW.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "c99e01f1528b89aa7b214350edc2d792d449d560",
+      "sha256": "0af39945254cb11eb0021adf34298f620958f0fea45b427d5b1bccf51686f301"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r8_1080p_REVIEW.review_stamp.json",
+      "size_bytes": 347,
+      "index_oid": "bc653f7f3b13e5a144bab404e9c18bfbb7e7ec3c",
+      "sha256": "4b03cf46da9ad0f655e8609df42eb44c3a7ee0e1767e058bbcb283c1ab6c0730"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r9_1080p_REVIEW.audio_qa.json",
+      "size_bytes": 57,
+      "index_oid": "c99e01f1528b89aa7b214350edc2d792d449d560",
+      "sha256": "0af39945254cb11eb0021adf34298f620958f0fea45b427d5b1bccf51686f301"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/render_records/NEMI_EP11_I_Really_Need_Your_Help_r9_1080p_REVIEW.review_stamp.json",
+      "size_bytes": 347,
+      "index_oid": "710e8f8190049a89c97de954442149d96c80495a",
+      "sha256": "c47c5418f3e653748f5823109202f71b1f4fd3a0401911e5ba12f2305b88fec4"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/retention.json",
+      "size_bytes": 88196,
+      "index_oid": "081a9543de9cfd60acfca0585dee91d65c1ada27",
+      "sha256": "4fa54d62fb0c537959cfa63e479da05f701e78054bc91be2f15b48cb83819e65"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/revisions/r6/SCRIPT_AND_BEATS.md",
+      "size_bytes": 3476,
+      "index_oid": "aab760935dbdaa9b1a5638e14a9ca4ada46fa6a0",
+      "sha256": "c8d4185e5ea2c711207052e583652861973a96f63e5cd98a73709d04492f0193"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/revisions/r6/camera_plan.json",
+      "size_bytes": 8484,
+      "index_oid": "19fe3ab070cc9c89c65a7d558ff691e8c2d99ea7",
+      "sha256": "224687ff72eb967d4f2c44ea04c1c3631a2bafdff9d4d916823ae142d9ab7839"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/revisions/r6/sound_plan.json",
+      "size_bytes": 6013,
+      "index_oid": "4e1b1c7553aa3824ad2ad8884a58658297df0f9d",
+      "sha256": "f8daa42b38a2e1d8f2c8fe1dbbbcf5a5f6a0c42a1cce5455c96f7222bf906085"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/revisions/r6/timing_reference.json",
+      "size_bytes": 40253,
+      "index_oid": "c0e45dc867cd6af1e7da631fca4bbe578bd47698",
+      "sha256": "3bc2dabc015d62c077b6995548d6bcce1605fbde91948d41dc33522645b96698"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/review/revisions/r6/voice_plan.json",
+      "size_bytes": 36741,
+      "index_oid": "a7d9e80827580d40c2facbd652fcce976acb99f5",
+      "sha256": "e4d3ca85c38378831592079b55e8b0c2598e0a89a12095ad604f21062d07575b"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/scene.json",
+      "size_bytes": 137996,
+      "index_oid": "37df080e8c3912ac7d929e7bf8b37b6d7f3c0d52",
+      "sha256": "882f700027d1f4011b99655b57bc41dcc768499b874b6c9cd5c3685379e412ab"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/scene_r10_1080p.json",
+      "size_bytes": 137996,
+      "index_oid": "37df080e8c3912ac7d929e7bf8b37b6d7f3c0d52",
+      "sha256": "882f700027d1f4011b99655b57bc41dcc768499b874b6c9cd5c3685379e412ab"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/scene_r1_1080p.json",
+      "size_bytes": 113220,
+      "index_oid": "2a8e2cbb7a9fff1bd060e855d8f7616acea62328",
+      "sha256": "d63f12056d50cdff11a867e2fbc5b22e181aec9ff7b9d09a16325747b8999be6"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/scene_r3_1080p.json",
+      "size_bytes": 113920,
+      "index_oid": "f50dcaf221d6d1f5badbbcf8c17a983b74dcfd3c",
+      "sha256": "c787f954cdee8c6b6fd0d7558cc93b89d87ae819e043bf3077ac820cfe2c0dce"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/scene_r5_1080p.json",
+      "size_bytes": 115320,
+      "index_oid": "f3cabb8890d4b9e5aedf12e4faa1b7bc7cfb55e1",
+      "sha256": "51fb012dd773c0d5d506ba1bb8c49c573e307c4a0cfd1245b1c70fd5c5801ff7"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/scene_r6_1080p.json",
+      "size_bytes": 115542,
+      "index_oid": "45ade58262c99a92d725290b62a8161ff5acedb2",
+      "sha256": "618790cb0c97d1db2626ad4e613fdf94643a493c3c3847b8e2e90124f8487ce3"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/scene_r7_1080p.json",
+      "size_bytes": 137042,
+      "index_oid": "d0e6c3bad1a23303259cc7d1c3804ec0fd75ab0b",
+      "sha256": "d3ff01f7718ac3247b21f091b11d7153d89398dda2e08af6af11e2e2226f5f0f"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/scene_r8_1080p.json",
+      "size_bytes": 137276,
+      "index_oid": "e9d638b5a452bf71fea87b34c0ebd2ce8e69f33e",
+      "sha256": "d219335c2f1241c95cdd986cc01b248014213073954baf65d07852c57695d768"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/scene_r9_1080p.json",
+      "size_bytes": 137708,
+      "index_oid": "81a75a09a5bb7293c82fa8db1216e6909b127fee",
+      "sha256": "e3044607e3696283c2cf727db48783b413a952d8284ed7437097c9e06265bec9"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/sound_plan.json",
+      "size_bytes": 10915,
+      "index_oid": "7f2cc32680a7ba990a3350ffb5af1d90dd02fd49",
+      "sha256": "1fa74b1bfec882a5d59ce7beeb0ff4e76998cb737ca7e6b7e225b56f11ea2045"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/source_words.json",
+      "size_bytes": 50997,
+      "index_oid": "976ef9c209d28a52600efdb54c7a10b153d8a292",
+      "sha256": "23a0e4a5acdb7ceb080d4b01448377fe81fa3034914420170b44cb537c069a75"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/story.json",
+      "size_bytes": 2131,
+      "index_oid": "a8dbf3f3941c5a4a497dd9651936f97cdf7b66d2",
+      "sha256": "b48f6efd41ad63feee142e3d5048599baeb594537e6d324c1fba6948b14863cd"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/BRIEF.md",
+      "size_bytes": 970,
+      "index_oid": "68898d10b0d014a4ce744aaadf0f875e6eb823ca",
+      "sha256": "bdd0c691a4d5047f99a42c77e35c697582f9df3694f6105a2b4708c18420b182"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/PROMPT.md",
+      "size_bytes": 371,
+      "index_oid": "d47dc541398d52ca4278875213cfcc9451433422",
+      "sha256": "34292767cd3d87cbddc26f8ecad0d39d0d964e096c18222ece0445a91822a89b"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/REVIEW.md",
+      "size_bytes": 1080,
+      "index_oid": "e02d93f04f9ac95248e2cac3598d933add2fecf8",
+      "sha256": "bbe329635a911d5be76d5b05d1c6fc864cb6c7725c450733072013348b3f0d67"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/edit_generation.json",
+      "size_bytes": 3524,
+      "index_oid": "36e484b1274c94a2ef0d58b6d98179cdc68e31c9",
+      "sha256": "a20039162be37e9767cc704c56cf8ee8cd53c3c494f346124d24b2ae3c91d0d7"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/generation.json",
+      "size_bytes": 7266,
+      "index_oid": "7de753b19bdd4f77d8cf00cc130e8d211a58e974",
+      "sha256": "83d57477420178d543573fcfa9f147a23b20c78dc7c95196d19aec65a7ea8467"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/manifest.json",
+      "size_bytes": 1301,
+      "index_oid": "dfeff10c5963219d4e5c557f35028df31ceeb783",
+      "sha256": "a66c6daa2b6a3247de97ee961b5c7d95664b61e3fee52c281240422d9ec8b22a"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r1_a_im_scared/PROMPT.md",
+      "size_bytes": 3225,
+      "index_oid": "2f3f2ae0f1d99fc425e988ea32f1aa6d014f38bf",
+      "sha256": "2f095fb7daf1b8635b260a1c587ae9e09cf7d92edeacb9a1525546f6bdf7253b"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r1_a_im_scared/QA.json",
+      "size_bytes": 2533,
+      "index_oid": "121cc14968503fac2772d54927897f95ac9cb92b",
+      "sha256": "e7a09a72f9a863a4417c5e4b007cc8956f6b5c2710c50b8690bb17f52b1300e4"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r1_a_im_scared/REVIEW.md",
+      "size_bytes": 688,
+      "index_oid": "659229886ca510d8ec2c4b372e955a719c74ff3a",
+      "sha256": "22bbd99c91f3fd080056de1c94df5195aecd32812b2cc91352ac4d280bebf62b"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r1_b_four_months/PROMPT.md",
+      "size_bytes": 3463,
+      "index_oid": "d6146e9a95c3ef89626f7a638a1ab202e55a0048",
+      "sha256": "0ccfb48321d3f871784a064a4824cce9969c7876a82f0ef60fc40749284a6bdb"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r1_b_four_months/QA.json",
+      "size_bytes": 2539,
+      "index_oid": "bdfc80a84d3a524fe6994ce2915baeb52560af56",
+      "sha256": "fb2dbdf3f647be1dac55dd8e8ac7f04577daacb72d5080bdc6c81cbaa6c13900"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r1_b_four_months/REVIEW.md",
+      "size_bytes": 679,
+      "index_oid": "2e9d3f8f9473ed379fd1757461da2441a6bd008e",
+      "sha256": "0afc445e42e717d831ff28d566753cf0d9be647e0f4a0a4523d878ee9c8c3e90"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r2_a_im_scared/PROMPT.md",
+      "size_bytes": 1626,
+      "index_oid": "29b9c0472b6d3c4f8a4e253ebd574d3994d9f3c8",
+      "sha256": "7ac9eda48ca8978e894715ade04289ac7e8a0d6f14dbf0ae829e4dacb7cf5b0d"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r2_a_im_scared/QA.json",
+      "size_bytes": 2673,
+      "index_oid": "bf4bee8b80a0b16f9325b35195bb93fc063b1d90",
+      "sha256": "2ae8f6168b3ed833abd1f2e2a94500cf9a8d3a9b70bb58efc2d73758437037d1"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r2_a_im_scared/REVIEW.md",
+      "size_bytes": 703,
+      "index_oid": "ad7a792502d104d77e22cd9ced3901cf830869dd",
+      "sha256": "6db329aff8c98a473026939792e10ab4272d8e0d99b84b885e6b5488e8c88ba5"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r2_b_four_months/PROMPT.md",
+      "size_bytes": 1660,
+      "index_oid": "c95eb0821a753b036114dfaf9222e51a3d600a21",
+      "sha256": "f436ce1a5ac20d3c42daec3cb8d8e809ffeaa5f77d4492603de521cf21504a07"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r2_b_four_months/QA.json",
+      "size_bytes": 2686,
+      "index_oid": "c75f4135ac168f602afe2d9b3d2743729813bad4",
+      "sha256": "71da777015c37ece85bcc7db641b55c1a415732d3ac414c69911e07b83657e81"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r2_b_four_months/REVIEW.md",
+      "size_bytes": 703,
+      "index_oid": "ad7a792502d104d77e22cd9ced3901cf830869dd",
+      "sha256": "6db329aff8c98a473026939792e10ab4272d8e0d99b84b885e6b5488e8c88ba5"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/timing_reference.json",
+      "size_bytes": 51011,
+      "index_oid": "ace1184d0e05288659699b91b21672e6bdc1ecf9",
+      "sha256": "3f6ef7cbb627a32487aae12cb52ac2bbc8e63555d676a563702c77f609f5dd3c"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/tools/align_paced_voice.py",
+      "size_bytes": 704,
+      "index_oid": "7b92e2b68016d2df3e66c2c1c57714552267150e",
+      "sha256": "3b79b968d5e94fd7f02431d626461c49ae8ff4bfe8ef36039c0d6616c8bccf37"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/tools/build_episode.py",
+      "size_bytes": 24757,
+      "index_oid": "9f785170c19fa460e68126d5237a26e13f42b6bd",
+      "sha256": "6c350db4271019ae2bd6fcef1f4ec6f058b6dc6609ea24970d7659850b210ef3"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/tools/build_r6_preserved.py",
+      "size_bytes": 14428,
+      "index_oid": "efa55ad31a0a650c3b1cd4a2e1fd5bbc06ac8f45",
+      "sha256": "f565397c98c49302c4b5b15596a410017b091579fdd9ff5843d6bc2f17274ecb"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/tools/generate_voice.py",
+      "size_bytes": 1725,
+      "index_oid": "d386d9db2ef6ecfbc83836f030e9e5a3eea49a67",
+      "sha256": "7288ccb03987b2139a7223d3f70913677703821a291b555b2136a97f8986780c"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/tools/review_movie.py",
+      "size_bytes": 3991,
+      "index_oid": "37fdf8d43baf51770df8e3a9d04ac146d86043d1",
+      "sha256": "6abb7c7e4782a3bdcdbe71444c7c7b6bf43a37396b3ef40062d111204cb572ae"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/00_nemi.json",
+      "size_bytes": 3782,
+      "index_oid": "7f8f8d172c1ec3fb00272e9a64c0c361fdae97b9",
+      "sha256": "78aeeb967745059de47c61046b12635d3a9c432e5386266765696d7d080b33d5"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/01_nemi.json",
+      "size_bytes": 3924,
+      "index_oid": "3dfa7d1bf56ea14870f10be1ffe04f29960da913",
+      "sha256": "ffcc6ab35c9439a00c439fe0eb3cf1bbf2d0037cbbe53c1524911e5e528c6859"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/02_nemi.json",
+      "size_bytes": 2981,
+      "index_oid": "b9fdf6c6c4a3a6fb9c55a80178e955e092bbcf29",
+      "sha256": "79b0e3c8dfba9bc00edce52c906ada0595ecd7b9128ec5e98d6fa99031e8bae3"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/03_nemi.json",
+      "size_bytes": 3326,
+      "index_oid": "03938c75350c68d6722ebab60e5476248a1a9456",
+      "sha256": "5182570c17fb5cafdf328185bd9134e9685381ef0a84f7212572d6ebcc9c1ed6"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/04_nemi.json",
+      "size_bytes": 3350,
+      "index_oid": "88adf75169d8726957a8b7f2a03681ee5a21c803",
+      "sha256": "bc5609a6759ec23a9791f90a461f4ea36ce4df3d7629bba6b78b598d6d8eced9"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/05_nemi.json",
+      "size_bytes": 3242,
+      "index_oid": "c381aa74dca9a1150874dc871953ca36447ecb77",
+      "sha256": "fc3354291cd1654903e3a6c5df503068d0945c31c50b76a393c867ca4c6c9f3c"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/06_nemi.json",
+      "size_bytes": 4305,
+      "index_oid": "44b81ee77bf3c4f4557d3abda557cc3386bd6c1a",
+      "sha256": "e0df1763c03e3a16db40aa4e6f8a68c2328001529470308628e7dcc2e3c59f58"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/07_nemi.json",
+      "size_bytes": 2865,
+      "index_oid": "64f68b2fac22b7655b7cd6dc18ceb4064f7a3f83",
+      "sha256": "706c89f7546812e84fadb3a26709fc693101b3b065afead5337cd160ecd9c5fd"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/08_nemi.json",
+      "size_bytes": 2984,
+      "index_oid": "77d805bec6371fb42b64929c0a95ae8679dafec0",
+      "sha256": "5d8ebf839e0fc2ecdbc3a17ee071b83945b22a796126a3a9800da8e452bb0787"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/09_nemi.json",
+      "size_bytes": 3922,
+      "index_oid": "6bb60b4864937412f4c5b452562af4d2e3a7dc77",
+      "sha256": "1d4bd3ef65dd6f1f4088f80b1bdf44476fd87030d30e30a03ec4a5e339de6994"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/10_nemi.json",
+      "size_bytes": 3468,
+      "index_oid": "642675150f714616b353fd57d83d36b0b53d3b2b",
+      "sha256": "3d30154870075353e0e3b8aba9945868844811952b1e5e10570a080acf67035a"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/11_nemi.json",
+      "size_bytes": 3538,
+      "index_oid": "d4ad1da8ced38d191ff88e7bc475eff5db4de3bc",
+      "sha256": "49f5a7298e3740ccb5b1fc457937f1a358dacfde8a198028f11305c1ff8e8370"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/12_nemi.json",
+      "size_bytes": 2628,
+      "index_oid": "2187877ccaa7c168293c0c7c58a33e5e70db0510",
+      "sha256": "22fa591e2b91fee78a3e650c7f84e7c49c6f4f90715cfa91b89489eddb7aed55"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice/source/13_nemi.json",
+      "size_bytes": 2153,
+      "index_oid": "9730aa9cfd81a6df0a5c41227abac8452c57778a",
+      "sha256": "b445b3eaaaa471557c894d58b470b32fd7216589fa8cfca21b42879529b63a1a"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice_pacing_r7.json",
+      "size_bytes": 3589,
+      "index_oid": "2b9d04d364679d781fe2f3baa9106ace92aef049",
+      "sha256": "60fe25d7f91f27a3e3d32b7bcb023a6c24fb6c69f90baca46e71b7e4fa535c12"
+    },
+    {
+      "path": "nemi/episodes/ep11_i_really_need_your_help/voice_plan.json",
+      "size_bytes": 42961,
+      "index_oid": "f221b258a3c16a3ee794b23bf52a772893dca3c0",
+      "sha256": "5cb868010c22d5a5b542cbd85aef8050d6c4477144e32ed300f6df4ca33b35ba"
+    },
+    {
+      "path": "tools/LiveDoodleShowcase.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "226e540ecb3bc7deacdc5184674d92395aa681da",
+      "sha256": "c9b4ea5a0a7ed2d5f089333c1f1da5fb029cb3999b5f71c45f3456d3719f9f1b"
+    },
+    {
+      "path": "tools/render_live_doodle.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "967bd54a9693c3a3c1f8de5e4596b54f573a732f",
+      "sha256": "a60c7fe2d3da8ca5cdacf2b78ccb0d89c07e6203a83c45236cb11fdc6f9dd63a"
+    },
+    {
+      "path": "tools/storytime/THUMBNAIL_PROMOTIONAL_LAYOUT.md",
+      "size_bytes": 6422,
+      "index_oid": "433ca07ce3d173854657446000c07f71a586f40b",
+      "sha256": "aa8096b88fb2885385354c6fdf0302fc17908e4eed300ba89b2f1ccdd8498a17"
+    },
+    {
+      "path": "tools/storytime/ThumbnailStoryArt.gd",
+      "size_bytes": 7629,
+      "index_oid": "03edf3a27218907def186daece0099cfb5ccfa78",
+      "sha256": "cafdc39c82dc246ea5f57322f92abb2639ed5e7d4b8bb8a2f5e26dd6e8046883"
+    },
+    {
+      "path": "tools/storytime/new_scene.py",
+      "size_bytes": 5316,
+      "index_oid": "cdb1ecee2f521b3232e7e83cddecc5c3921871b2",
+      "sha256": "c656961bb19bc9faf5b6c4b006942129115b1491f2295ee84f5e414b5244dcab"
+    },
+    {
+      "path": "tools/storytime/render_approval.py",
+      "size_bytes": 5217,
+      "index_oid": "5e5327a4a1931cea6481f35d114f05e8b2ad8b70",
+      "sha256": "b6ce8e026fb157745d28e8b2857136569bb739cc83205464aab3832e23c917d2"
+    },
+    {
+      "path": "tools/storytime/render_scene.py",
+      "size_bytes": 9162,
+      "index_oid": "1556c2d86f88237566226c4a6a5f9e7ddecca391",
+      "sha256": "50d49508ac154eb490c1429977bad637616eba7cc3c876a7772849b246d7b66c"
+    },
+    {
+      "path": "tools/storytime/render_stage.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "79550fe13034988808015402cd1013b547c8c080",
+      "sha256": "d74924520a63ee71a745b39764af9ea1abbc186f38162a3d2e25ad35516c0b9f"
+    },
+    {
+      "path": "tools/storytime/test_identity.gd.uid",
+      "size_bytes": 19,
+      "index_oid": "6f5ea8a15ededffd7dd11cc1e1a6e7b2abc80f34",
+      "sha256": "8116f4eccc00f06fd823788edfce58fabc1d8b11afdac49e7549af9ef14fb34d"
+    },
+    {
+      "path": "tools/storytime/test_production.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "2edb5bac5a2ac1424402439f50a8cd464516317e",
+      "sha256": "bd0cf8ce1917172829e4f7325692280e3f201c2b970b87c8f9ec22266c9fbc77"
+    },
+    {
+      "path": "tools/storytime/test_refinement.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "b6942095d7d32437f91ca9d9da10242e15f0430d",
+      "sha256": "abb670d69def9ca01eedd5a7305275a8cf2aec99d09da8d1313a97846c5939bc"
+    },
+    {
+      "path": "tools/storytime/test_render_approval.py",
+      "size_bytes": 4501,
+      "index_oid": "dbca8935c28896877cd35022f76e4ba564b8c35f",
+      "sha256": "e133a3763747360f87ad45a05c8c4c89727d162e0ee04f055e2276a8cc09e792"
+    },
+    {
+      "path": "tools/storytime/test_review_story.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "ceb71bca3e64132f85fdc1d21c91c39926bde67d",
+      "sha256": "aab68daa149f464c81109e108ac53172a6fec29f77bd748e95c4fe78025b35d1"
+    },
+    {
+      "path": "tools/storytime/thumbnail_collection.json",
+      "size_bytes": 2233,
+      "index_oid": "9f6c697d0773cbbcaf2f6e64c5e037afd93a5117",
+      "sha256": "a30a36ae49face460001a9e1524149d4b5ffe9b09f0528f172230ff852b5b88c"
+    },
+    {
+      "path": "tools/storytime/thumbnail_generated_collection.json",
+      "size_bytes": 1219,
+      "index_oid": "93d5dc8d5681ef8363c6a88b0363817002b28998",
+      "sha256": "c208bf14d8a0e9aa577df0ab8e6a8b5fd7d3591976d4c23d5e334e6669e6886e"
+    },
+    {
+      "path": "tools/storytime/thumbnail_pilots_2026-10-06.json",
+      "size_bytes": 3206,
+      "index_oid": "d04d663654318e495b9c32f9222817a3d2a3a9b9",
+      "sha256": "8a5b941cdeae3e98ee195e7cb9779aea5b8beddb8c88155ee83819b30e342d5c"
+    },
+    {
+      "path": "tools/storytime/thumbnail_promotional_2026-10-06.json",
+      "size_bytes": 1742,
+      "index_oid": "2aedb81e6bad00f0106e0602b2e317db3f4d0c4c",
+      "sha256": "fe02d21ba6c2341230341e47c8d0b3b724227f2429cf555622655d8d97c788b9"
+    },
+    {
+      "path": "tools/storytime/thumbnail_promotional_collection.json",
+      "size_bytes": 9690,
+      "index_oid": "719ff7b4d896dd0c92dcb83e3a515125a78eadfe",
+      "sha256": "d1e297915c777067a885bc5153b553e3904fe1a16006a6f2385892445a520c78"
+    },
+    {
+      "path": "tools/storytime/validate_production.py",
+      "size_bytes": 19610,
+      "index_oid": "e77dd568b802dbf174f0efe8a53e1df4aed6ac6b",
+      "sha256": "07c3f50d3c5ca8bc9457ff78c515e719577ad9ccdb618e28d0c4f695392feef3"
+    },
+    {
+      "path": "tools/tests/test_live_ink.gd.uid",
+      "size_bytes": 20,
+      "index_oid": "53cb3e788a7438e9442eb077bef5c6dff6d09b30",
+      "sha256": "fe5f4841607d91ec24a84ea34b3ca6dc75222a70953e538bd8a86f89dc8bc2d6"
+    }
+  ],
+  "audit_metadata_self_hash_omitted": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/SOURCE_STAGING_REVIEW.json",
+  "secret_scan": {
+    "patterns": [
+      "openai_key",
+      "github_key",
+      "hf_key",
+      "private_key",
+      "aws_key",
+      "google_key",
+      "slack_key"
+    ],
+    "issues": [],
+    "values_disclosed": false
+  },
+  "stale_index_reconciliation": [
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/final_master_contact01.jpg",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/final_master_contact02.jpg",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/final_master_contact03.jpg",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/final_staging_contact.jpg",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/integrated_contact.jpg",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/BRIEF.md",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/PromoArt.gd",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/REVIEW.md",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/TITLES.md",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/contact_geometry.json",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/layout.json",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/thumbnail.jpg",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/thumbnail_phone.png",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/thumbnail_tiny.png",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/contact_geometry.json",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/layout.json",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/thumbnail.jpg",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/thumbnail_phone.png",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/thumbnail_tiny.png",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/exports_qa.json",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/manifest.json",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/mobile_review.jpg",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_thumbnails.py",
+      "worktree_exists": false,
+      "index_exists": false,
+      "result": "already_absent_from_index"
+    }
+  ],
+  "untouched_other_staged_entries": {
+    "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_short_integrated_r3_1080p.capture.log": {
+      "mode": "100644",
+      "oid": "7e00ec0d0194a68a0d8567de6a46cea71897cee5"
+    },
+    "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/EP10_short_proof_r2_1080p.capture.log": {
+      "mode": "100644",
+      "oid": "38b22504e42d7028d2fd87ee4117993d99b44623"
+    },
+    "nemi/episodes/ep10_my_teacher_used_to_stalk_me/review/render_records/NEMI_EP10_Teacher_Stalker_r3_4K.capture.log": {
+      "mode": "100644",
+      "oid": "ca8ad14d59f208f30f9a85f23313923114370ec4"
+    }
+  },
+  "source_deletion_candidates_untouched": [
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/BRIEF.md",
+      "status": "AD",
+      "reason": "missing in current worktree"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/PromoArt.gd",
+      "status": "AD",
+      "reason": "missing in current worktree"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/REVIEW.md",
+      "status": "AD",
+      "reason": "missing in current worktree"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/TITLES.md",
+      "status": "AD",
+      "reason": "missing in current worktree"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/contact_geometry.json",
+      "status": "AD",
+      "reason": "missing in current worktree"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/a/layout.json",
+      "status": "AD",
+      "reason": "missing in current worktree"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/contact_geometry.json",
+      "status": "AD",
+      "reason": "missing in current worktree"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/b/layout.json",
+      "status": "AD",
+      "reason": "missing in current worktree"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/exports_qa.json",
+      "status": "AD",
+      "reason": "missing in current worktree"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/promotional/2026-10-07/manifest.json",
+      "status": "AD",
+      "reason": "missing in current worktree"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/tools/build_thumbnails.py",
+      "status": "AD",
+      "reason": "missing in current worktree"
+    }
+  ],
+  "required_sources_missing": [],
+  "current_head": "7eaae03e29af2102e9ea3925486513dbd8e99d80",
+  "pending_followup": "Root can commit --only with this exact NUL pathspec then normal push under existing authorization. R4 picture/voice/mix is frozen; 4K remains pending actual user satisfaction. Any new changed source/QA paths require refresh and scan.",
+  "actual_staged_secret_scan": {
+    "patterns": [
+      "openai_key",
+      "github_key",
+      "hf_key",
+      "private_key",
+      "aws_key",
+      "google_key",
+      "slack_key",
+      "literal_credential_assignment"
+    ],
+    "issues": [],
+    "values_disclosed": false,
+    "blob_count": 466,
+    "scope": "Exact selected index blobs including audit metadata at scan time"
+  },
+  "workingtree_changed_since_stage": [],
+  "other_staged_entries_changed": [],
+  "whole_index_staged_count": 469,
+  "media_deleted": false,
+  "excluded_local_ep03_media": [
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_proof_r2_1080p.mp4",
+      "size_bytes": 702386,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_caption_proof_r4_1080p.mp4",
+      "size_bytes": 444482,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_integrated_r3_1080p.mp4",
+      "size_bytes": 3473319,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_1080p_REVIEW.mp4",
+      "size_bytes": 8256250,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_proof_r3_1080p.mp4",
+      "size_bytes": 702687,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_My_School_Found_My_YouTube_Channel_r3_1080p_REVIEW.mp4",
+      "size_bytes": 8264494,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_proof_r1_1080p.mp4",
+      "size_bytes": 705922,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_1080p_REVIEW.capture.log",
+      "size_bytes": 263,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_integrated_r3_1080p.capture.log",
+      "size_bytes": 263,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_caption_proof_r4_1080p.capture.log",
+      "size_bytes": 262,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_proof_r1_1080p.capture.log",
+      "size_bytes": 262,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_proof_r3_1080p.capture.log",
+      "size_bytes": 262,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r3_1080p_REVIEW.capture.log",
+      "size_bytes": 263,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_proof_r2_1080p.capture.log",
+      "size_bytes": 262,
+      "reason": "local_movie_audio_capture_or_import"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_a/thumbnail.png",
+      "size_bytes": 1802554,
+      "reason": "native_or_large_image_kept_local"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b_identity_r2/thumbnail.png",
+      "size_bytes": 1910540,
+      "reason": "native_or_large_image_kept_local"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_a_identity_r2/thumbnail.png",
+      "size_bytes": 1799041,
+      "reason": "native_or_large_image_kept_local"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b/thumbnail.png",
+      "size_bytes": 1955151,
+      "reason": "native_or_large_image_kept_local"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/thumbnail/revisions/concept_b_initial/thumbnail.png",
+      "size_bytes": 1944540,
+      "reason": "native_or_large_image_kept_local"
+    }
+  ],
+  "current_scene_sha256": "a5b04cac2bd7c1cb7a9b6f734545c6258acd5de3bc7f58906d5add80f225d553",
+  "final_qa_and_identity_review_included": true,
+  "other_staged_secret_scan": {
+    "blob_count": 3,
+    "total_bytes": 788,
+    "issues": [],
+    "commit_scope_excludes_these": true
+  },
+  "staged_diff_check": {
+    "exit_code": 2,
+    "warnings": [
+      "adb/episodes/ep02_meet_my_girlfriend/tools/build_episode.py:299: trailing whitespace.",
+      "adb/episodes/ep02_meet_my_girlfriend/tools/build_episode.py:301: trailing whitespace.",
+      "adb/episodes/ep02_meet_my_girlfriend/tools/build_episode.py:311: trailing whitespace.",
+      "adb/episodes/ep02_meet_my_girlfriend/tools/build_episode.py:366: trailing whitespace.",
+      "adb/episodes/ep02_meet_my_girlfriend/tools/build_episode.py:374: trailing whitespace.",
+      "adb/episodes/ep02_meet_my_girlfriend/tools/extract_stills.py:12: trailing whitespace.",
+      "adb/episodes/ep02_meet_my_girlfriend/tools/extract_stills.py:30: trailing whitespace.",
+      "adb/episodes/ep02_meet_my_girlfriend/tools/generate_voice.py:57: trailing whitespace.",
+      "adb/episodes/ep02_meet_my_girlfriend/tools/generate_voice.py:63: trailing whitespace.",
+      "adb/episodes/ep02_meet_my_girlfriend/tools/generate_voice.py:65: trailing whitespace.",
+      "adb/episodes/ep02_meet_my_girlfriend/tools/generate_voice.py:91: trailing whitespace."
+    ],
+    "interpretation": "Eleven cosmetic trailing-space warnings in preserved previously unpushed EP02 helpers; no EP03 warnings. Source bytes retained."
+  },
+  "pathspec_sha256": "c34a0f07e3af3b4bd81fbfdac74409659563405d97b34c5e61cb0d432445428c"
+}

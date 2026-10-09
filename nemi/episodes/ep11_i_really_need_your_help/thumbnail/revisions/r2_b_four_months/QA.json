@@ -1,0 +1,55 @@
+{
+  "status": "Review candidate; user thumbnail selection pending",
+  "headline": "FOUR MONTHS...",
+  "proposed_title": "I'm Worried About My Channel's Future",
+  "provenance": "AI-generated raster illustration, image-generation typography revision of the R1 canonical-reference-guided candidate; not a rig export",
+  "tool": "built-in image_gen.imagegen",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "upload_dimensions": [
+    1280,
+    720
+  ],
+  "conversion": "Downsample1280x720 JPG; native PNG retained; no upscale",
+  "sha256": {
+    "thumbnail.png": "35e3167995f1991f9c7477a951804ba429cad5697161647e6acc6938951eb77c",
+    "thumbnail.jpg": "a09f07f50ca5c5df699682db27559a3e2dc1dfb9be7df4cd89337196936d63c1",
+    "review/phone.png": "180feaefff2cfaddc63dae3ae6c73b7cb656643b433072d9be3eb6cd9f45b6e5",
+    "review/tiny.png": "11e80cac3b725138501b0a153fd03b9eb62b3e96ebadf50e608a800050edf20f"
+  },
+  "references": [
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r1_b_four_months/thumbnail.png",
+      "sha256": "7c931b9f6d88c541fddca2bf85330da608006fcf8d8b7a48328e3a05fc308857",
+      "role": "Edit target"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "role": "Approved typography/style"
+    }
+  ],
+  "original_reference_record": "../r1_b_four_months/QA.json",
+  "original_tool_output": "/Users/talus/.codex/generated_images/01a114b5-ed41-7e73-ba05-0ea951c69e52/exec-72ee89b6-2585-403f-8eb0-a2ddffc11123.png",
+  "full_output_viewed": true,
+  "mobile_viewed": true,
+  "approved_by_user": false,
+  "review_sizes": [
+    [
+      320,
+      180
+    ],
+    [
+      160,
+      90
+    ]
+  ],
+  "visual_findings": "Native generated result and320x180/160x90 copies viewed. Outer black contour now continuous and clearly visible beyond red; exact headline retained. Composition, Nemi canonical identity, emotion and hand/prop contacts remain consistent. Letter fills and faces remain uncropped. A directly communicates worry/low reach; B deadline metaphor still requires the complementary episode title to establish context.",
+  "spelling_checked": true,
+  "character_recognizable_against_episode_reference": true,
+  "hands_and_prop_contacts_reviewed": true,
+  "independent_review": "Full/native and both mobile sizes re-reviewed; outer-black typography issue resolved, no material identity/composition/contact regression.",
+  "minor_edge_note": "Lower headline outer outline touches the left image edge; letter fill remains intact and readable."
+}

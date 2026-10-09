@@ -1,0 +1,95 @@
+{
+  "status": "verified native 4K final of the user-approved R10 cut",
+  "movie": "res://nemi/episodes/ep11_i_really_need_your_help/renders/NEMI_EP11_I_Really_Need_Your_Help_r10_4K_FINAL.mp4",
+  "sha256": "13ed389641568c7dc55bee5055705750525f15da247255ab33ac27a0ec44e64e",
+  "bytes": 37542255,
+  "spec_sha256": "882f700027d1f4011b99655b57bc41dcc768499b874b6c9cd5c3685379e412ab",
+  "render_inputs_sha256": "bdf950dfb01fedd906e4d3d629f94bacb781631db57bb60b7dba5c2e0695423c",
+  "duration_seconds": 128.3,
+  "hard_cap_seconds": 150,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "30/1",
+        "duration": "128.300000",
+        "nb_read_frames": "3849"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "128.300000",
+        "nb_read_frames": "6015"
+      }
+    ],
+    "format": {
+      "duration": "128.300000",
+      "size": "37542255"
+    }
+  },
+  "full_video_audio_decode_passed": true,
+  "audio": {
+    "integrated_lufs": -21.4,
+    "true_peak_dbfs": -1.7
+  },
+  "audio_packet_sha256": "5c4f9e72ff0e51c747aa66402437a8f980c7bd017384cfc17d4522241910e071",
+  "audio_identical_to_approved_1080p": true,
+  "user_4k_approval": true,
+  "approval_receipt": "review/1080P_APPROVAL.json",
+  "native_4k": true,
+  "upscaled": false,
+  "stills": [
+    0.5,
+    3.5,
+    19,
+    25.4,
+    35.5,
+    42,
+    44,
+    44.8,
+    51,
+    59,
+    70,
+    85,
+    96,
+    105,
+    109,
+    115.1,
+    118,
+    126,
+    128
+  ],
+  "visual_samples_inspected": true,
+  "continuous_playback_review": false,
+  "perceptual_audio_listening": false,
+  "playback_limitation": "Continuous playback and perceptual listening remain unverified after prior native-player tool timeouts. Full video/audio decode, sampled frames and encoded audio checks do not replace continuous watch/listening.",
+  "voice_identity_preserved": true,
+  "rigs_edited": false,
+  "picture_timing_mix_unchanged_from_approved_R10": true,
+  "visual_review": "All 19 actual 4K sampled frames viewed in four contact sheets, 8 actual 4K PNG frames inspected individually at 2048x1152 display size, and 320x180 opening/ending inspected at original size. Checked simple studio continuity, full-body feet, opening/late wrists and hands, portrait expressions, live circle at 44s, scratch-out at 115.1s, captions and clean final image. No continuous watch/listening claim.",
+  "individual_native_frame_samples": [
+    0.5,
+    25.4,
+    44,
+    59,
+    85,
+    109,
+    115.1,
+    128
+  ],
+  "sample_display_size": [
+    2048,
+    1152
+  ],
+  "workflow_updates": "Both storytime skills and shared colour/refinement/QA guidance updated to codify the user-accepted upper-middle balance and Nemi pacing. WORKFLOW_FOLLOWUP.md records completion.",
+  "thumbnail": "Generated thumbnail candidates are separate under thumbnail/; thumbnail selection is independent of movie approval.",
+  "media_retention": "Only final 4K MP4 remains in episode renders/. Capture log/stamp/audio reports are under review/render_records/. Compact approved 1080p evidence and 8 native 4K PNG + 4 contact + 2 mobile views retained; other generated stills/prior movies removed with hashes in retention.json."
+}

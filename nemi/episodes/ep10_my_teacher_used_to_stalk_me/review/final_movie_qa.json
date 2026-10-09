@@ -1,0 +1,35 @@
+{
+  "status": "Final native 4K export verified after explicit user approval of the complete 1080p cut.",
+  "duration_seconds": 137.0,
+  "hard_limit_seconds": 150,
+  "resolution": [
+    3840,
+    2160
+  ],
+  "fps": "30/1",
+  "decoded_video_frames": 4110,
+  "audio_duration_seconds": 137.0,
+  "audio_qa": {
+    "integrated_lufs": -19.7,
+    "true_peak_dbfs": -1.3
+  },
+  "sha256": "aac88cf65207b4c0e9a94b4168c0dcadcdd38e7bbdebbbc1f50bdf1b5d30f220",
+  "bytes": 55329892,
+  "native_capture": "Shared Godot renderer at 3840\u00d72160; source inputs remained stable during capture.",
+  "scene_sha256": "3edf287b907ac34341ebda92a5951d16a451d4d98a83e68a42edd1941eb27578",
+  "render_inputs_sha256": "d9b20667b3f43bd14b41f8c62782ac9583849b5679c4dca4dd87bdce30902e3a",
+  "user_approved_1080p_preview_sha256": "469f1c5598441477008c656c8daf567e78699873d44003b04eeea584702dd0cc",
+  "visual_samples_seconds": [
+    12,
+    35,
+    69.2,
+    77.4,
+    105,
+    136
+  ],
+  "visual_review": "Decoded frames at six representative story beats from the actual 4K MP4 inspected; framing and approved EP06 cream/ink selective-colour treatment are consistent.",
+  "full_decode": "ffmpeg decoded the complete video and audio streams without errors.",
+  "continuous_playback_review": "not claimed",
+  "auditory_review": "not claimed; audio output helper does not accept this file type.",
+  "user_approval": "Explicit user satisfaction with the complete 1080p cut, followed by explicit request for 4K and removal of unnecessary previous renders."
+}

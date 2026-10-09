@@ -1,0 +1,38 @@
+{
+  "episode": "Nemi EP11 \u2014 I Really Need Your Help",
+  "workflow": "image-generation",
+  "status": "Two distinct thumbnail concepts; selection pending",
+  "selected": null,
+  "recommended": "a",
+  "candidates": [
+    {
+      "id": "a",
+      "headline": "I'M SCARED...",
+      "proposed_title": "I Really Need Your Help",
+      "native": "revisions/r2_a_im_scared/thumbnail.png",
+      "upload": "revisions/r2_a_im_scared/thumbnail.jpg",
+      "prompt": "revisions/r2_a_im_scared/PROMPT.md",
+      "qa": "revisions/r2_a_im_scared/QA.json",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "794c14c58131b84cc80e52c1d463e75455d9ed4c4f329abd4148d383f7a2050c"
+    },
+    {
+      "id": "b",
+      "headline": "FOUR MONTHS...",
+      "proposed_title": "I'm Worried About My Channel's Future",
+      "native": "revisions/r2_b_four_months/thumbnail.png",
+      "upload": "revisions/r2_b_four_months/thumbnail.jpg",
+      "prompt": "revisions/r2_b_four_months/PROMPT.md",
+      "qa": "revisions/r2_b_four_months/QA.json",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "35e3167995f1991f9c7477a951804ba429cad5697161647e6acc6938951eb77c"
+    }
+  ],
+  "earlier_candidates_retained": "revisions/r1_a_im_scared and revisions/r1_b_four_months"
+}

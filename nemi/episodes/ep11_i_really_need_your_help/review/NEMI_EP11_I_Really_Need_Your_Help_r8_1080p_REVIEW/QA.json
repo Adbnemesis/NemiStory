@@ -1,0 +1,82 @@
+{
+  "status": "1080p review; user acceptance pending",
+  "movie": "res://nemi/episodes/ep11_i_really_need_your_help/renders/NEMI_EP11_I_Really_Need_Your_Help_r8_1080p_REVIEW.mp4",
+  "sha256": "7e11bd9e40f0950b1f960045d1a792be85ee559f52d443d5d751141057efc119",
+  "spec_sha256": "d219335c2f1241c95cdd986cc01b248014213073954baf65d07852c57695d768",
+  "duration_seconds": 128.3,
+  "hard_cap_seconds": 150,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "128.300000",
+        "nb_read_frames": "3849"
+      }
+    ],
+    "format": {
+      "duration": "128.300000"
+    }
+  },
+  "full_decode_passed": true,
+  "audio": {
+    "integrated_lufs": -21.4,
+    "true_peak_dbfs": -1.7
+  },
+  "stills": [
+    0.5,
+    3.5,
+    7.7,
+    11,
+    15.3,
+    19,
+    24.8,
+    25.4,
+    26.5,
+    30,
+    35.5,
+    39,
+    42,
+    44.8,
+    47,
+    51,
+    54,
+    59,
+    62,
+    65,
+    68,
+    70,
+    74,
+    77,
+    80,
+    82,
+    85,
+    89,
+    93,
+    96,
+    101,
+    105,
+    109,
+    114,
+    118,
+    121,
+    124,
+    126,
+    128
+  ],
+  "caption_count": 87,
+  "all_caption_cards_at_most_five_words": true,
+  "voice_identity": "Canonical Sohee CustomVoice; unchanged identity prompt, original Sohee recordings with selected pitch-preserving tempo 1.00\u20131.12 and explicit phrase-pause edits; retained originals",
+  "alignment": "Measured Whisper word times plus authored existing mouth shapes and consonant closures; not measured phoneme alignment",
+  "sfx_provenance_checked": true,
+  "continuous_playback_review": false,
+  "perceptual_audio_listening": false,
+  "playback_limitation": "Native computer-use player access timed out twice; do not claim continuous watch/listening. Stills, sequence samples, ASR transcript, duration, complete decode and encoded metrics reviewed.",
+  "rigs_edited": false,
+  "user_4k_approval": false,
+  "workflow_updates": "User asked to finalize both storytime skill/docs balance after agreement on the episode; pending acceptance.",
+  "media_retention": "Superseded preview movie and unnecessary generated stills removed after verified user-approved R10 native 4K final. Historic QA findings and hashes retained; sample times do not imply image files still exist."
+}

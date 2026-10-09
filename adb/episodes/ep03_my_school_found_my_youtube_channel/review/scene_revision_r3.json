@@ -1,0 +1,127 @@
+{
+  "revision": "r3",
+  "spec_sha256": "a916e57613bd99b7379d919c55fb02339691fbf74f8046b387b450a86b84aeca",
+  "reason": "Actual R2 still review showed the right observer shoulder base beyond the desktop edge.",
+  "changes": [
+    {
+      "shots": [
+        "hook_lab"
+      ],
+      "before": [
+        1700,
+        694
+      ],
+      "after": [
+        1620,
+        694
+      ],
+      "scale": [
+        0.78,
+        0.78
+      ]
+    },
+    {
+      "shots": [
+        "class_reveal"
+      ],
+      "before": [
+        1700,
+        694
+      ],
+      "after": [
+        1620,
+        694
+      ],
+      "scale": [
+        0.78,
+        0.78
+      ]
+    },
+    {
+      "shots": [
+        "right_here"
+      ],
+      "before": [
+        1700,
+        694
+      ],
+      "after": [
+        1620,
+        694
+      ],
+      "scale": [
+        0.78,
+        0.78
+      ]
+    },
+    {
+      "shots": [
+        "accidental_class"
+      ],
+      "before": [
+        1700,
+        694
+      ],
+      "after": [
+        1620,
+        694
+      ],
+      "scale": [
+        0.78,
+        0.78
+      ]
+    },
+    {
+      "shots": [
+        "praise"
+      ],
+      "before": [
+        1690,
+        694
+      ],
+      "after": [
+        1625,
+        694
+      ],
+      "scale": [
+        0.75,
+        0.75
+      ]
+    }
+  ],
+  "unchanged": [
+    "narration",
+    "word timing",
+    "mouths",
+    "captions",
+    "acting",
+    "camera",
+    "sound cues",
+    "mix",
+    "runtime"
+  ],
+  "preserved": [
+    "scene_r2_1080p.json",
+    "tools/build_episode_r2.py"
+  ],
+  "desktop_extent": [
+    1090,
+    1810
+  ],
+  "group_origin": "Desktop shoulder base at y694",
+  "group_x_extents": [
+    [
+      1435.92,
+      1807.98
+    ],
+    [
+      1448.0,
+      1805.75
+    ]
+  ],
+  "validator": "full file-based validation passed",
+  "pending": [
+    "integrated R3 proof",
+    "full R3 1080p capture and review"
+  ]
+}

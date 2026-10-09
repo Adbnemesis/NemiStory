@@ -1,0 +1,19 @@
+# Meet My Girlfriend — generated thumbnail prompt
+
+Method: built-in image generation. One image requested. Reference paths and source hashes are recorded in QA.json; image inputs are canonical-art and editorial-style references.
+
+Use case: ads-marketing, reference-guided thumbnail redesign.
+Create ONE finished 16:9 YouTube thumbnail for ADB's storytime episode "Meet My Girlfriend". The subject is how ADB met his girlfriend Nemi at a college dorm hangout, even though they later called themselves "totally normal friends". Young adults. A warm, awkward, teasing romance-comedy mood.
+
+Reference roles:
+Image 1 — Raora thumbnail sheet: typography/background/thumbnail composition guide only. Match the extremely broad bold white sans headline with substantial BLACK inner, vivid RED middle, and BLACK outer outline, bright clean white/pale checker background, huge readable faces and crisp sticker-like separation. Do NOT use its Hololive characters or screenshot UI.
+Image 2 — approved "Don't Tell Anyone..." Nemi thumbnail: use the successful illustration finish, lettering weight, flat illustrated ink/fill and white/red cutout edge treatment. Change the entire subject to romantic comedy. Do not include the teacher, shushing, fear, secrecy props, phone or this image's words.
+Image 3 — canonical ADB portrait: PRIMARY ADB identity reference. ADB is the man with dark navy-black rounded ear-length hair, center-point bangs, two small upper hair flicks, dark slate eyes, peach skin, economical dark slate/black linework and a green open-collar button-up shirt. Keep his actual face construction, hair silhouette, eyes and shirt. Do not give him short generic anime hair, glasses, a hoodie or a different character's face.
+Image 4 — actual "Meet My Girlfriend" episode frame: canon identity, outfit and proportion reference for the couple. Nemi has long red-orange hair with one long ahoge, green eyes, warm burgundy face/contour ink, cheek hatch/blush and green high-neck hoodie. These are ADB and Nemi, not random anime lovers.
+
+Composition: expressive large close-up upper bodies, faces angled toward one another. ADB on the left, flustered but trying to look deadpan, faint blush and a tiny awkward sweat accent, clutching an open grey laptop low against his chest. A simple small thermodynamics curve/graph on the laptop screen, with no readable labels. Nemi on the right, leaning into his personal space with a playful confident grin and blush, offering him ONE red plastic party cup between them. Her offering hand/cup grip must be natural and clearly hers. ADB's laptop-holding hands must be naturally grounded. Let their gazes and contrasting personalities carry the attraction. No kiss, no wedding, no teacher, no ominous surveillance scene.
+Background: mostly bright white with a pale pink-and-white checkerboard accent, sparse warm-ink hearts, one or two simple notebook/math doodles toward the edges. Keep graphic hierarchy and punch of reference 1 and 2. No dull gradient, no detailed room, no busy objects behind faces. Clear white cutout silhouettes with red edging; confident drawn contours and predominantly flat fills, avoid glossy realistic anime shading.
+Text verbatim: "JUST FRIENDS?!"
+ONE enormous broad heavy white sans-serif headline across the top with thick nested BLACK / RED / BLACK contours, safe inside the image. Match the approved reference lettering design and outline weight closely. No smaller captions, name tags, subtitles, watermark or timestamp badge.
+Story truth: This is a promotional exaggeration of their actual first dorm-party interaction plus the next-morning "normal friends" joke. Keep the kiss and five-year relationship payoff for the video. No additional characters or invented claims.
+Output: opaque 16:9 landscape thumbnail, both faces and headline readable at mobile size, polished and energetic while retaining our canonical illustrated identities.

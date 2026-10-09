@@ -1,0 +1,15 @@
+# EP03 proof and integrated review
+
+Current picture source: `scene_r3_1080p.json`, also saved as `scene.json`; 147.4 seconds at 30 fps. R1 and R2 sources/proofs are preserved. No user satisfaction receipt exists and no 4K movie/proof has been rendered.
+
+Rendered the exact production scene through the shared validator/renderer at 1920×1080. Short R3 review window: scene 65.666666667–75.666666667, 300 decoded frames. Integrated R3 window: scene 37.7–96.7, 59 seconds/1770 decoded frames. Independent movie/stamp hashes and encoded sound measurements match those captures.
+
+Inspected extracted original stills and contact sheets. R1 exposed the central observer base floating above the table; the source art correction keeps all three bases aligned. R2 exposed a right observer beyond the tabletop and shoes/caption crowding. R3 shifts the groups inside the tabletop. Actor roots are uniformly y634.8 at scale1.35: the unchanged tread fill reaches world y894, with only its outline straddling the floor line. The closer opening/playing/expressions camera centers preserve caption clearance. R3 class still confirms all observer bases fit, the browser fits the monitor, feet meet the floor, and the primary narrator remains distinct from supporting evidence.
+
+Inspected integrated stills at scene 38.7,43.7,50.7,60.7,67.7,72.7,81.7 and94.7. Observed simple cream-paper settings, the held subscriber evidence, one-friend choice, recognizable computer lab, class reveal, an embarrassed closer face and a private/public counterpoint. Temporary accents clear rather than accumulate; completed ink remains stable. Both arms and hands are visible in wides; no forced grip or pickup is used.
+
+Actual browser playback was run from the beginning to the end for the R3 ten-second proof and the 59-second integrated movie. On an additional integrated pass, UI clock and screenshots confirmed live progression at0.01,24.34,38.95,52.77 seconds and the end at59.00. These are sampled playback observations, not a claim of uninterrupted frame-by-frame perception. The moving samples show the friend context, hand settling into the embarrassed hold, and the private/public image; captions clear during the selected quiet pause. Native player controls sometimes cover the bottom of the screenshot; exported stills establish that this is player overlay, not an encoded caption defect. The local player's seek attempt did not work, so review used playback from the beginning.
+
+Audio source/script/word coverage, mouth intervals, SFX provenance, decoded output levels and timing were independently checked. The environment does not support audio input for the agent; subjective listening, delivery, precise phoneme perception and mix prominence remain pending for the user's full-cut review. No hearing or phoneme-perfect claim is made.
+
+Full R3 capture, whole-film still/playback review and final encoded audio checks are the next review step. Explicit satisfaction with that complete current 1080p cut is required before 4K. Thumbnail A/B selection remains separate and pending.

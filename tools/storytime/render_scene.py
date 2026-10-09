@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate and render a NEW storytime scene; never render over episode output."""
 import argparse
+import fcntl
 import json
 import os
 import re
@@ -10,6 +11,7 @@ import subprocess
 import tempfile
 from validate_scene import ROOT, validate
 from audio_mix import mix_audio, measure_audio
+from render_approval import require_1080p_approval,render_inputs_sha256,sha
 
 def allowed_output(spec_path, output):
     """Allow studies or the matching numbered episode, never another episode."""
@@ -44,15 +46,27 @@ def main():
         parser.error('Use a prepared spec inside this workspace.')
     if output.exists():
         parser.error('Output already exists; choose a new revision filename. Original renders are preserved.')
+    if args.is_4k:
+        try:require_1080p_approval(spec_path,ROOT)
+        except (ValueError,KeyError,json.JSONDecodeError) as error:parser.error(str(error))
     candidates = [args.godot, shutil.which('godot'), str(Path.home()/'Downloads/Godot.app/Contents/MacOS/Godot'), '/Applications/Godot.app/Contents/MacOS/Godot']
     godot = next((p for p in candidates if p and Path(p).is_file()), None)
     if not godot or not shutil.which('ffmpeg') or not shutil.which('ffprobe'):
         parser.error('Existing Godot, FFmpeg, and FFprobe are required; use --godot if needed.')
     output.parent.mkdir(parents=True, exist_ok=True)
     override = ROOT / 'override.cfg'
+    # Concurrent desktop chats share this project config. Own it only while
+    # capturing, force the requested resolution, then restore its prior bytes.
+    (ROOT/'.godot').mkdir(exist_ok=True)
+    lock=open(ROOT/'.godot/storytime_capture.lock','a')
+    try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+    except BlockingIOError:
+        lock.close();parser.error('Another storytime capture is active; retry after it completes.')
+    prior_override=override.read_bytes() if override.exists() else None
+    input_signature=render_inputs_sha256(spec_path,ROOT)
     try:
-        if args.is_4k:
-            override.write_text("[display]\nwindow/size/viewport_width=1920\nwindow/size/viewport_height=1080\nwindow/size/window_width_override=3840\nwindow/size/window_height_override=2160\nwindow/stretch/mode=\"canvas_items\"\nwindow/stretch/aspect=\"keep\"\n")
+        width,height=(3840,2160) if args.is_4k else (1920,1080)
+        override.write_text(f'[display]\nwindow/size/viewport_width=1920\nwindow/size/viewport_height=1080\nwindow/size/window_width_override={width}\nwindow/size/window_height_override={height}\nwindow/stretch/mode="canvas_items"\nwindow/stretch/aspect="keep"\n')
         with tempfile.TemporaryDirectory(prefix='storytime-') as folder:
             raw = Path(folder)/'scene.avi'
             user_args = [f'--spec=res://{spec_path.relative_to(ROOT)}', f'--start={start}', f'--duration={duration}']
@@ -72,6 +86,8 @@ def main():
                 raise RuntimeError('Decoded capture frame count does not match the authored window.')
             if args.is_4k and (int(streams[0].get('width',0)), int(streams[0].get('height',0))) != (3840, 2160):
                 raise RuntimeError(f'Captured video resolution is {streams[0].get("width")}x{streams[0].get("height")}; expected 3840x2160 for 4K')
+            if not args.is_4k and (int(streams[0].get('width',0)),int(streams[0].get('height',0)))!=(1920,1080):
+                raise RuntimeError('1080p review capture has the wrong resolution; no delivery was saved.')
             window_duration=duration
             raw_duration = None
             if streams:
@@ -101,13 +117,17 @@ def main():
                 measured=measure_audio(result)
                 if measured['true_peak_dbfs']>-1.0:
                     raise RuntimeError('Encoded audio exceeds -1 dB true peak; reduce master gain and render again')
+            if render_inputs_sha256(spec_path,ROOT)!=input_signature:
+                raise RuntimeError('Picture/voice source inputs changed during capture; no review delivery was saved. Render a stable revision.')
             shutil.copyfile(result,output)
+            output.with_suffix('.review_stamp.json').write_text(json.dumps(dict(spec_sha256=sha(spec_path),render_inputs_sha256=input_signature,preview_sha256=sha(output),resolution=[width,height],start=start,duration=duration),indent=2)+'\n')
             output.with_suffix('.capture.log').write_text(log)
             if 'mix' in spec and audio:
                 output.with_suffix('.audio_qa.json').write_text(json.dumps(measured,indent=2)+'\n')
     finally:
-        if override.exists():
-            override.unlink()
+        if prior_override is not None:override.write_bytes(prior_override)
+        elif override.exists():override.unlink()
+        fcntl.flock(lock,fcntl.LOCK_UN);lock.close()
     print(output)
 
 if __name__ == '__main__':

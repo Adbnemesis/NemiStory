@@ -56,6 +56,12 @@ func sample(actor: Node2D, author: String, cues: Array, time: float) -> void:
 	current.face.merge(cue.get("face",{}),true)
 	previous.face.merge(old_cue.get("face",{}),true)
 	Base.sample(actor,author,cues,time)
+	if author=="nemi":
+		# Bounded hand paths rotate the wrist globally. Restore its canonical
+		# local rest before each sample so that rotation cannot leak into later
+		# recipe-owned gestures after path ownership ends.
+		actor.left_hand_bone.rotation=actor.left_hand_bone.get_rest().get_rotation()
+		actor.right_hand_bone.rotation=actor.right_hand_bone.get_rest().get_rotation()
 	var duration: float=cue.get("duration",current.duration) if index>0 else 0.0
 	var elapsed: float=time-float(cue.at)
 	var body_t := Base.amount(elapsed,duration,0.15)

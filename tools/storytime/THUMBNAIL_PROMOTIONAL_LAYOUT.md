@@ -1,8 +1,12 @@
-# Static promotional layout contract
+# Historical static Godot promotional layout contract
+
+> Historical workflow. On 7 October 2026 the user replaced Godot thumbnail creation with reference-guided image generation for both ADB and Nemi. Follow [the current thumbnail guide](../../docs/animation/STORYTIME_THUMBNAILS.md) and [selected generated thumbnails](../../docs/animation/GENERATED_THUMBNAIL_COLLECTION.md). The old commands and no-image-generation rules below record earlier work, not current thumbnail instructions.
 
 This is a thumbnail-only adapter around the existing static compositor/illustration/rig controls, not a storytime animation schema or another drawing player. Current saved examples are the 24 layouts listed by `thumbnail_promotional_collection.json`; the first six remain indexed historically by `thumbnail_promotional_2026-10-06.json`. ADB's crush A is a complete example. Preserve character definitions and production libraries.
 
 Required layout fields: `format: storytime-static-promotional-v1`, `author: adb|nemi`, `episode`, `variant: a|b`, `revision`, `title`, `thumbnail_phrase`, `story_evidence`, `application`, `background: {top,bottom}`, `headline`, and ordered `layers`. Geometry is authored on a logical 1920×1080 canvas and rendered natively at 3840×2160. Several headline lines may typeset the same single phrase; no secondary captions. Fonts/resources must resolve in the project.
+
+An editorial headline may specify `outline_layers: [{size: 30, color: "#151015"}, {size: 22, color: "#ed2638"}]`, ordered outermost first, followed by its normal `outline`/`outline_color`. These concentric strokes surround one typeset phrase; they are not extra copy. A project `.tres` SystemFont resource can name a locally available typeface without copying proprietary font data. Record the resolved system-font dependency in provenance. The surviving ADB crush `adb/episodes/ep01_my_bestfriend_had_a_crush_on_me/thumbnail/promotional/2026-10-06/a/layout.json` is a saved example of the legacy format. EP10’s rejected Godot layouts were removed at the user’s request.
 
 Layer types:
 

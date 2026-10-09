@@ -1,0 +1,21 @@
+{
+  "previous_defects": [
+    "Message and clock cropped near 69 seconds",
+    "Outside annotation cropped/overlaid by captions near 77 seconds"
+  ],
+  "proof": "res://renders/nemi_ep10/EP10_r7_framing_proof_1080p.mp4",
+  "reviewed_scene_seconds": [
+    68.9,
+    69.2,
+    77.1,
+    77.4,
+    77.94
+  ],
+  "result": "Both reported defects resolved in actual decoded proof samples; transition clears annotation from portrait",
+  "late_wrist_review_from_r6": [
+    85.5,
+    113.5,
+    136.7
+  ],
+  "limits": "Sampled decoded frame review, not continuous playback/auditory audition"
+}

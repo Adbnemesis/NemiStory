@@ -1,0 +1,359 @@
+{
+  "version": 1,
+  "source_take_count": 18,
+  "selected_take": 1,
+  "source_duration_sum": 136.96,
+  "final_duration": 147.4,
+  "tempo": 1.0,
+  "source_bounds_policy": "Full source takes; no silence trimming.",
+  "speaker": "aiden",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+  "identity_prompt": "Cool, relaxed young adult male around 24, calm conversational speech, confident, subtle dry wit, understated and natural.",
+  "audio_sha256": "3b0ca970f3462e036c301137369612421bf860eb6a484f791b3e599107afa0b8",
+  "voice_plan_sha256": "9d5d4c12fc0bfd7bd1f3e86501838ece6870d11b53caee2afb4a44246dbf043c",
+  "text_tokens_verified": true,
+  "source_hashes_verified": true,
+  "ordered_positive_word_intervals_verified": true,
+  "word_count": 371,
+  "alignment_repairs": [
+    {
+      "paragraph": 11,
+      "action": "Use complete unprompted cached-ASR alignment; preserve original prompted result.",
+      "evidence": "review/audio/alternative_alignment_r1.json"
+    },
+    {
+      "paragraph": 4,
+      "action": "Replace phrase from measured crop to repair zero-duration function word.",
+      "source_crop_start": 7.2,
+      "evidence": "review/audio/phrase_alignment_r1.json"
+    },
+    {
+      "paragraph": 13,
+      "action": "Replace phrase from measured crop to repair zero-duration function word.",
+      "source_crop_start": 4.92,
+      "evidence": "review/audio/phrase_alignment_r1.json"
+    }
+  ],
+  "low_confidence_words": [
+    {
+      "paragraph": 1,
+      "word": "Already",
+      "start": 6.48,
+      "end": 6.96,
+      "probability": 0.64794921875
+    },
+    {
+      "paragraph": 2,
+      "word": "Dubsmash",
+      "start": 3.24,
+      "end": 3.86,
+      "probability": 0.52392578125
+    },
+    {
+      "paragraph": 2,
+      "word": "lip-sync",
+      "start": 7.0,
+      "end": 7.46,
+      "probability": 0.64453125,
+      "alignment_note": "Hyphen compound merged using measured outer bounds."
+    },
+    {
+      "paragraph": 2,
+      "word": "you'd",
+      "start": 9.06,
+      "end": 9.42,
+      "probability": 0.57080078125
+    },
+    {
+      "paragraph": 3,
+      "word": "Face",
+      "start": 1.16,
+      "end": 1.4,
+      "probability": 0.387939453125
+    },
+    {
+      "paragraph": 4,
+      "word": "And",
+      "start": 0.0,
+      "end": 0.4,
+      "probability": 0.6220703125
+    },
+    {
+      "paragraph": 4,
+      "word": "a",
+      "start": 2.36,
+      "end": 2.52,
+      "probability": 0.267333984375
+    },
+    {
+      "paragraph": 7,
+      "word": "Bro",
+      "start": 0.0,
+      "end": 0.36,
+      "probability": 0.304443359375
+    },
+    {
+      "paragraph": 7,
+      "word": "opened",
+      "start": 0.36,
+      "end": 0.8,
+      "probability": 0.0941162109375
+    },
+    {
+      "paragraph": 8,
+      "word": "lip-syncing.",
+      "start": 2.52,
+      "end": 3.0,
+      "probability": 0.61767578125,
+      "alignment_note": "Hyphen compound merged using measured outer bounds."
+    },
+    {
+      "paragraph": 9,
+      "word": "okay.",
+      "start": 5.14,
+      "end": 5.6,
+      "probability": 0.56640625
+    },
+    {
+      "paragraph": 10,
+      "word": "watch",
+      "start": 4.82,
+      "end": 5.14,
+      "probability": 0.183349609375
+    },
+    {
+      "paragraph": 10,
+      "word": "My",
+      "start": 7.9,
+      "end": 7.96,
+      "probability": 0.11761474609375
+    },
+    {
+      "paragraph": 11,
+      "word": "thinking",
+      "start": 0.32,
+      "end": 0.9,
+      "probability": 0.60888671875
+    },
+    {
+      "paragraph": 12,
+      "word": "And",
+      "start": 0.0,
+      "end": 0.22,
+      "probability": 0.5927734375
+    },
+    {
+      "paragraph": 12,
+      "word": "a",
+      "start": 2.32,
+      "end": 2.4,
+      "probability": 0.62841796875
+    },
+    {
+      "paragraph": 12,
+      "word": "I",
+      "start": 6.44,
+      "end": 7.16,
+      "probability": 0.6474609375
+    },
+    {
+      "paragraph": 13,
+      "word": "And",
+      "start": 4.92,
+      "end": 5.14,
+      "probability": 0.0966796875
+    },
+    {
+      "paragraph": 14,
+      "word": "work",
+      "start": 2.68,
+      "end": 2.84,
+      "probability": 0.16650390625
+    },
+    {
+      "paragraph": 14,
+      "word": "I",
+      "start": 7.04,
+      "end": 7.24,
+      "probability": 0.6474609375
+    },
+    {
+      "paragraph": 17,
+      "word": "too...",
+      "start": 1.84,
+      "end": 2.8,
+      "probability": 0.452880859375
+    },
+    {
+      "paragraph": 17,
+      "word": "at",
+      "start": 2.8,
+      "end": 2.96,
+      "probability": 0.1171875
+    }
+  ],
+  "listening_performed": false,
+  "listening_limitation": "Attempted audio-content inspection returned: audio content omitted because you do not support audio input. Transcript verification does not constitute listening.",
+  "pending": [
+    "Subjective Aiden delivery, breaths and thought-gap pacing listening.",
+    "Important spoken-word and mouth-boundary review against final audio.",
+    "Final episode narration/SFX mix audition after sound direction."
+  ],
+  "decoded_audio_checks": {
+    "sample_rate": 24000,
+    "channels": 1,
+    "frames": 3537600,
+    "duration": 147.4,
+    "peak_dbfs": -0.7694693840038158,
+    "all_selected_source_samples_preserved": true,
+    "maximum_delay_quantization_seconds": 4.1666666666666665e-05,
+    "clip_checks": [
+      {
+        "paragraph": 0,
+        "source_duration": 7.92,
+        "final_at": 0.35,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -4.7234185410618785
+      },
+      {
+        "paragraph": 1,
+        "source_duration": 8.0,
+        "final_at": 8.65,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -1.9350199746658814
+      },
+      {
+        "paragraph": 2,
+        "source_duration": 11.44,
+        "final_at": 17.0,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -2.0118705633824776
+      },
+      {
+        "paragraph": 3,
+        "source_duration": 8.32,
+        "final_at": 28.84,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -2.479005181291525
+      },
+      {
+        "paragraph": 4,
+        "source_duration": 11.28,
+        "final_at": 37.71,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -3.0296177996175713
+      },
+      {
+        "paragraph": 5,
+        "source_duration": 6.32,
+        "final_at": 49.34,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -6.284881031358532
+      },
+      {
+        "paragraph": 6,
+        "source_duration": 8.8,
+        "final_at": 56.46,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -2.790242326578812
+      },
+      {
+        "paragraph": 7,
+        "source_duration": 3.04,
+        "final_at": 65.66,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -3.0555801046810194
+      },
+      {
+        "paragraph": 8,
+        "source_duration": 7.52,
+        "final_at": 69.4,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -2.411913353593547
+      },
+      {
+        "paragraph": 9,
+        "source_duration": 8.32,
+        "final_at": 77.37,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -1.2858629107029342
+      },
+      {
+        "paragraph": 10,
+        "source_duration": 9.36,
+        "final_at": 86.44,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -4.69879710512884
+      },
+      {
+        "paragraph": 11,
+        "source_duration": 8.72,
+        "final_at": 96.45,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -2.085362215549304
+      },
+      {
+        "paragraph": 12,
+        "source_duration": 8.88,
+        "final_at": 105.52,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -4.014384022298691
+      },
+      {
+        "paragraph": 13,
+        "source_duration": 7.84,
+        "final_at": 114.9,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -3.1506827276117595
+      },
+      {
+        "paragraph": 14,
+        "source_duration": 7.68,
+        "final_at": 123.34,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -1.9174830779515677
+      },
+      {
+        "paragraph": 15,
+        "source_duration": 4.4,
+        "final_at": 131.62,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -0.7694693840038158
+      },
+      {
+        "paragraph": 16,
+        "source_duration": 3.76,
+        "final_at": 136.47,
+        "delay_quantization_samples": -1,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -4.471857774565158
+      },
+      {
+        "paragraph": 17,
+        "source_duration": 5.36,
+        "final_at": 140.88,
+        "delay_quantization_samples": 0,
+        "max_sample_difference_at_actual_offset": 0.0,
+        "source_peak_dbfs": -1.7055618700690276
+      }
+    ],
+    "final_hash_verified": true,
+    "ordered_word_intervals_verified": true
+  }
+}

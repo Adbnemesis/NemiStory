@@ -1,0 +1,18 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>ADB EP03 local review</title>
+<style>body{margin:0;padding:18px;background:#faf7f2;color:#303944;font:16px system-ui}video{display:block;width:min(100%,1280px);aspect-ratio:16/9;background:#f2ebe0}button,input{font:inherit;margin:10px 8px 8px 0;padding:8px}#status{font-variant-numeric:tabular-nums}</style>
+<video id="movie" controls preload="auto"></video>
+<button id="play">Play from beginning</button><button id="pause">Pause</button>
+<label>Seek seconds <input id="seek" type="number" value="0" min="0" step="0.1"></label><button id="jump">Seek</button>
+<p id="status">Loading review clip</p>
+<script>
+const video=document.getElementById('movie'),status=document.getElementById('status');
+const filename=new URLSearchParams(location.search).get('movie')||'ADB_EP03_proof_r1_1080p.mp4';
+if(/^[A-Za-z0-9_]+\.mp4$/.test(filename))video.src='../renders/'+filename;
+function update(){status.textContent=filename+' · '+video.currentTime.toFixed(2)+' / '+(video.duration||0).toFixed(2)+' seconds · '+(video.ended?'Ended':video.paused?'Paused':'Playing');}
+video.addEventListener('timeupdate',update);video.addEventListener('loadedmetadata',update);video.addEventListener('ended',update);
+document.getElementById('play').onclick=()=>{video.currentTime=0;video.play();};
+document.getElementById('pause').onclick=()=>video.pause();
+document.getElementById('jump').onclick=()=>{video.currentTime=Number(document.getElementById('seek').value);update();};
+</script>

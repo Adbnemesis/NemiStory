@@ -1,0 +1,499 @@
+{
+  "version": 1,
+  "episode": "ADB EP03",
+  "revision": "R4",
+  "scope": "Caption-only pause clearing; frozen R3 retained.",
+  "requirement": "COMMON_ANIMATION_QA.md: subtitles clear immediately during natural spoken pauses >=0.35s.",
+  "source_scene": "res://adb/episodes/ep03_my_school_found_my_youtube_channel/scene_r3_1080p.json",
+  "source_scene_sha256": "a916e57613bd99b7379d919c55fb02339691fbf74f8046b387b450a86b84aeca",
+  "scene": "res://adb/episodes/ep03_my_school_found_my_youtube_channel/scene_r4_1080p.json",
+  "scene_sha256": "a5b04cac2bd7c1cb7a9b6f734545c6258acd5de3bc7f58906d5add80f225d553",
+  "canonical_scene_sha256": "a5b04cac2bd7c1cb7a9b6f734545c6258acd5de3bc7f58906d5add80f225d553",
+  "duration": 147.4,
+  "audio_sha256": "3b0ca970f3462e036c301137369612421bf860eb6a484f791b3e599107afa0b8",
+  "word_asset": "res://renders/adb_school_youtube/audio_r1/timeline.json",
+  "word_asset_sha256": "ffaab9cec66cdf9442c764d9c935c83243945ea0212e738971fce96130a96214",
+  "r3_caption_count": 95,
+  "r4_caption_count": 105,
+  "split_card_count": 10,
+  "changes": [
+    {
+      "r3_caption_index_zero_based": 6,
+      "r3_card": {
+        "actor": "adb",
+        "words": [
+          25,
+          29
+        ],
+        "start": 8.65,
+        "end": 10.51,
+        "text": "And no, it wasn't this"
+      },
+      "r4_cards": [
+        {
+          "actor": "adb",
+          "words": [
+            25,
+            26
+          ],
+          "start": 8.65,
+          "end": 9.19,
+          "text": "And no,"
+        },
+        {
+          "actor": "adb",
+          "words": [
+            27,
+            29
+          ],
+          "start": 9.55,
+          "end": 10.51,
+          "text": "it wasn't this"
+        }
+      ],
+      "cleared_pauses": [
+        {
+          "after_word": 26,
+          "before_word": 27,
+          "start": 9.19,
+          "end": 9.55,
+          "duration": 0.36
+        }
+      ]
+    },
+    {
+      "r3_caption_index_zero_based": 14,
+      "r3_card": {
+        "actor": "adb",
+        "words": [
+          52,
+          56
+        ],
+        "start": 18.16,
+        "end": 21.5,
+        "text": "2015, when Dubsmash was popular."
+      },
+      "r4_cards": [
+        {
+          "actor": "adb",
+          "words": [
+            52,
+            52
+          ],
+          "start": 18.16,
+          "end": 19.4,
+          "text": "2015,"
+        },
+        {
+          "actor": "adb",
+          "words": [
+            53,
+            56
+          ],
+          "start": 20.08,
+          "end": 21.5,
+          "text": "when Dubsmash was popular."
+        }
+      ],
+      "cleared_pauses": [
+        {
+          "after_word": 52,
+          "before_word": 53,
+          "start": 19.4,
+          "end": 20.08,
+          "duration": 0.68
+        }
+      ]
+    },
+    {
+      "r3_caption_index_zero_based": 16,
+      "r3_card": {
+        "actor": "adb",
+        "words": [
+          62,
+          66
+        ],
+        "start": 24.0,
+        "end": 25.8,
+        "text": "lip-sync to it, and act"
+      },
+      "r4_cards": [
+        {
+          "actor": "adb",
+          "words": [
+            62,
+            64
+          ],
+          "start": 24.0,
+          "end": 24.9,
+          "text": "lip-sync to it,"
+        },
+        {
+          "actor": "adb",
+          "words": [
+            65,
+            66
+          ],
+          "start": 25.54,
+          "end": 25.8,
+          "text": "and act"
+        }
+      ],
+      "cleared_pauses": [
+        {
+          "after_word": 64,
+          "before_word": 65,
+          "start": 24.9,
+          "end": 25.54,
+          "duration": 0.64
+        }
+      ]
+    },
+    {
+      "r3_caption_index_zero_based": 25,
+      "r3_card": {
+        "actor": "adb",
+        "words": [
+          98,
+          102
+        ],
+        "start": 37.71,
+        "end": 39.71,
+        "text": "And somehow, that channel had"
+      },
+      "r4_cards": [
+        {
+          "actor": "adb",
+          "words": [
+            98,
+            99
+          ],
+          "start": 37.71,
+          "end": 38.55,
+          "text": "And somehow,"
+        },
+        {
+          "actor": "adb",
+          "words": [
+            100,
+            102
+          ],
+          "start": 38.97,
+          "end": 39.71,
+          "text": "that channel had"
+        }
+      ],
+      "cleared_pauses": [
+        {
+          "after_word": 99,
+          "before_word": 100,
+          "start": 38.55,
+          "end": 38.97,
+          "duration": 0.42
+        }
+      ]
+    },
+    {
+      "r3_caption_index_zero_based": 27,
+      "r3_card": {
+        "actor": "adb",
+        "words": [
+          107,
+          111
+        ],
+        "start": 42.15,
+        "end": 44.37,
+        "text": "Back then, that felt huge."
+      },
+      "r4_cards": [
+        {
+          "actor": "adb",
+          "words": [
+            107,
+            108
+          ],
+          "start": 42.15,
+          "end": 42.81,
+          "text": "Back then,"
+        },
+        {
+          "actor": "adb",
+          "words": [
+            109,
+            111
+          ],
+          "start": 43.29,
+          "end": 44.37,
+          "text": "that felt huge."
+        }
+      ],
+      "cleared_pauses": [
+        {
+          "after_word": 108,
+          "before_word": 109,
+          "start": 42.81,
+          "end": 43.29,
+          "duration": 0.48
+        }
+      ]
+    },
+    {
+      "r3_caption_index_zero_based": 53,
+      "r3_card": {
+        "actor": "adb",
+        "words": [
+          201,
+          202
+        ],
+        "start": 81.99,
+        "end": 82.97,
+        "text": "Like, okay."
+      },
+      "r4_cards": [
+        {
+          "actor": "adb",
+          "words": [
+            201,
+            201
+          ],
+          "start": 81.99,
+          "end": 82.11,
+          "text": "Like,"
+        },
+        {
+          "actor": "adb",
+          "words": [
+            202,
+            202
+          ],
+          "start": 82.51,
+          "end": 82.97,
+          "text": "okay."
+        }
+      ],
+      "cleared_pauses": [
+        {
+          "after_word": 201,
+          "before_word": 202,
+          "start": 82.11,
+          "end": 82.51,
+          "duration": 0.4
+        }
+      ]
+    },
+    {
+      "r3_caption_index_zero_based": 65,
+      "r3_card": {
+        "actor": "adb",
+        "words": [
+          251,
+          255
+        ],
+        "start": 101.59,
+        "end": 103.47,
+        "text": "Sure, those videos were funny."
+      },
+      "r4_cards": [
+        {
+          "actor": "adb",
+          "words": [
+            251,
+            251
+          ],
+          "start": 101.59,
+          "end": 101.83,
+          "text": "Sure,"
+        },
+        {
+          "actor": "adb",
+          "words": [
+            252,
+            255
+          ],
+          "start": 102.41,
+          "end": 103.47,
+          "text": "those videos were funny."
+        }
+      ],
+      "cleared_pauses": [
+        {
+          "after_word": 251,
+          "before_word": 252,
+          "start": 101.83,
+          "end": 102.41,
+          "duration": 0.58
+        }
+      ]
+    },
+    {
+      "r3_caption_index_zero_based": 77,
+      "r3_card": {
+        "actor": "adb",
+        "words": [
+          298,
+          302
+        ],
+        "start": 118.48,
+        "end": 120.7,
+        "text": "taking it seriously, and accidentally"
+      },
+      "r4_cards": [
+        {
+          "actor": "adb",
+          "words": [
+            298,
+            300
+          ],
+          "start": 118.48,
+          "end": 119.44,
+          "text": "taking it seriously,"
+        },
+        {
+          "actor": "adb",
+          "words": [
+            301,
+            302
+          ],
+          "start": 119.82,
+          "end": 120.7,
+          "text": "and accidentally"
+        }
+      ],
+      "cleared_pauses": [
+        {
+          "after_word": 300,
+          "before_word": 301,
+          "start": 119.44,
+          "end": 119.82,
+          "duration": 0.38
+        }
+      ]
+    },
+    {
+      "r3_caption_index_zero_based": 80,
+      "r3_card": {
+        "actor": "adb",
+        "words": [
+          309,
+          313
+        ],
+        "start": 123.34,
+        "end": 126.18,
+        "text": "Eventually, YouTube got stricter, work"
+      },
+      "r4_cards": [
+        {
+          "actor": "adb",
+          "words": [
+            309,
+            309
+          ],
+          "start": 123.34,
+          "end": 123.94,
+          "text": "Eventually,"
+        },
+        {
+          "actor": "adb",
+          "words": [
+            310,
+            313
+          ],
+          "start": 124.5,
+          "end": 126.18,
+          "text": "YouTube got stricter, work"
+        }
+      ],
+      "cleared_pauses": [
+        {
+          "after_word": 309,
+          "before_word": 310,
+          "start": 123.94,
+          "end": 124.5,
+          "duration": 0.56
+        }
+      ]
+    },
+    {
+      "r3_caption_index_zero_based": 81,
+      "r3_card": {
+        "actor": "adb",
+        "words": [
+          314,
+          318
+        ],
+        "start": 126.18,
+        "end": 127.88,
+        "text": "piled up, and I couldn't"
+      },
+      "r4_cards": [
+        {
+          "actor": "adb",
+          "words": [
+            314,
+            315
+          ],
+          "start": 126.18,
+          "end": 126.9,
+          "text": "piled up,"
+        },
+        {
+          "actor": "adb",
+          "words": [
+            316,
+            318
+          ],
+          "start": 127.34,
+          "end": 127.88,
+          "text": "and I couldn't"
+        }
+      ],
+      "cleared_pauses": [
+        {
+          "after_word": 315,
+          "before_word": 316,
+          "start": 126.9,
+          "end": 127.34,
+          "duration": 0.44
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "file_based_validator_passed": true,
+    "all_noncaption_fields_identical_r3": true,
+    "exact_371_word_coverage_once": true,
+    "max_five_words": true,
+    "all_card_edges_measured": true,
+    "no_inside_card_pauses_at_least_350ms": true,
+    "all_350ms_pauses_clear": true,
+    "lowercase_and_correction_preserved": true,
+    "builder_caption_generation_matches": true,
+    "mix_not_recalibrated": true,
+    "unchanged_voice_hash_verified": true,
+    "active_builder_compiles": true
+  },
+  "preservation": {
+    "r3_scene_sha256": "a916e57613bd99b7379d919c55fb02339691fbf74f8046b387b450a86b84aeca",
+    "r3_builder": "res://adb/episodes/ep03_my_school_found_my_youtube_channel/tools/build_episode_r3.py",
+    "r3_builder_sha256": "347eeac1f82966883e1015d21bf198ff89a11710b70085330ebcbbe6508d01fb",
+    "r3_movie": "preserved; no render/delete operation performed"
+  },
+  "pending": [
+    "Fresh full 1080p R4 render and exported pause-frame verification.",
+    "Subjective final narration/SFX listening remains pending; objective checks are not listening.",
+    "Explicit user satisfaction with this current complete 1080p cut before 4K."
+  ],
+  "validator_output": "Valid: My School Found My YouTube Channel (147.4 seconds)",
+  "pause_midpoints_for_export_review": [
+    9.37,
+    19.74,
+    25.22,
+    38.76,
+    43.05,
+    82.31,
+    102.12,
+    119.63,
+    124.22,
+    127.12
+  ]
+}

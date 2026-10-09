@@ -1,0 +1,72 @@
+{
+  "status": "1080p review; user acceptance pending",
+  "movie": "res://nemi/episodes/ep11_i_really_need_your_help/renders/NEMI_EP11_I_Really_Need_Your_Help_r6_1080p_REVIEW.mp4",
+  "sha256": "1f8c3d8c51e6c34e8d74fffcb71ddd15923b68a69d1bf0c4da441840f9c2f185",
+  "spec_sha256": "618790cb0c97d1db2626ad4e613fdf94643a493c3c3847b8e2e90124f8487ce3",
+  "duration_seconds": 144.23333333333332,
+  "hard_cap_seconds": 150,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "144.233333",
+        "nb_read_frames": "4327"
+      }
+    ],
+    "format": {
+      "duration": "144.233333"
+    }
+  },
+  "full_decode_passed": true,
+  "audio": {
+    "integrated_lufs": -22.5,
+    "true_peak_dbfs": -1.6
+  },
+  "stills": [
+    0.5,
+    5.5,
+    13.9,
+    19.6,
+    26.5,
+    29.5,
+    34.5,
+    40.5,
+    49.5,
+    59,
+    62,
+    68,
+    72.3,
+    74,
+    78.5,
+    84,
+    87.5,
+    91,
+    96,
+    103,
+    110,
+    115,
+    120.8,
+    126,
+    133,
+    136.5,
+    140,
+    143.8
+  ],
+  "caption_count": 88,
+  "all_caption_cards_at_most_five_words": true,
+  "voice_identity": "Canonical Sohee CustomVoice; unchanged identity prompt, natural tempo 1.00; newly synthesized performance, retained originals",
+  "alignment": "Measured Whisper word times plus authored existing mouth shapes and consonant closures; not measured phoneme alignment",
+  "sfx_provenance_checked": true,
+  "continuous_playback_review": false,
+  "perceptual_audio_listening": false,
+  "playback_limitation": "Native computer-use player access timed out twice; do not claim continuous watch/listening. Stills, sequence samples, ASR transcript, duration, complete decode and encoded metrics reviewed.",
+  "rigs_edited": false,
+  "user_4k_approval": false,
+  "workflow_updates": "User asked to finalize both storytime skill/docs balance after agreement on the episode; pending acceptance.",
+  "visual_review": "Actual 28 sampled frames spanning all beats, four contact sheets, EP06 comparison and 320x180 opening/ending viewed. R6 chart label and watch-hour numerals fit; subscriber note clears desk; final worried reaction present. Both hands sampled after midpoint and in late gestures. No continuous playback claim.",
+  "media_retention": "Superseded preview movie and unnecessary generated stills removed after verified user-approved R10 native 4K final. Historic QA findings and hashes retained; sample times do not imply image files still exist."
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "ep10_my_teacher_used_to_stalk_me",
+  "policy": "Only final 4K movie in episode renders; logs, hashes, approval, QA and index in review.",
+  "completed_at_local": "2026-10-07",
+  "final_movie": "renders/NEMI_EP10_Teacher_Stalker_r8_4K_FINAL.mp4",
+  "final_movie_sha256": "aac88cf65207b4c0e9a94b4168c0dcadcdd38e7bbdebbbc1f50bdf1b5d30f220",
+  "voice_retained": true,
+  "source_retained": true,
+  "unrelated_episodes_modified": false,
+  "removed_superseded_episode_movies": [
+    "NEMI_EP10_Teacher_Stalker_r3_4K.mp4",
+    "NEMI_EP10_Teacher_Stalker_r5_1080p_REVIEW.mp4",
+    "NEMI_EP10_Teacher_Stalker_r6_1080p_REVIEW.mp4",
+    "NEMI_EP10_Teacher_Stalker_r7_1080p_REVIEW.mp4",
+    "NEMI_EP10_Teacher_Stalker_r8_1080p_APPROVAL_REFRESH.mp4"
+  ],
+  "removed_workspace_proof_movies": [
+    "EP10_r5_integrated_1080p.mp4",
+    "EP10_short_integrated_r3_1080p.mp4",
+    "EP10_r5b_proof_1080p.mp4",
+    "EP10_proof_r1_1080p.mp4",
+    "EP10_r4_proof_1080p.mp4",
+    "EP10_short_integrated_r2_1080p.mp4",
+    "EP10_r7_framing_proof_1080p.mp4",
+    "EP10_short_proof_r2_1080p.mp4"
+  ],
+  "removed_review_stills_count": 435,
+  "removed_review_stills": [],
+  "moved_workspace_proof_records": [
+    "EP10_proof_r1_1080p.capture.log",
+    "EP10_r4_proof_1080p.capture.log",
+    "workspace_EP10_r5_integrated_1080p.capture.log",
+    "workspace_EP10_r5b_proof_1080p.capture.log",
+    "workspace_EP10_r7_framing_proof_1080p.capture.log",
+    "EP10_short_integrated_r2_1080p.capture.log",
+    "workspace_EP10_short_integrated_r3_1080p.capture.log",
+    "workspace_EP10_short_proof_r2_1080p.capture.log"
+  ],
+  "approved_1080p_movie_removed_after_final": true,
+  "continuous_playback_review": "not claimed",
+  "auditory_review": "not claimed",
+  "cleanup_note": "Removal completed after the final 4K export passed full decode, metadata and audio checks."
+}

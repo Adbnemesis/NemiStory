@@ -1,0 +1,26 @@
+# Generated media stays local; source, upload JPGs and compact review remain versioned.
+review/*.png
+review/*.jpg
+!review/final_staging_contact.jpg
+!review/integrated_contact.jpg
+!review/final_master_contact*.jpg
+voice/source/*_large_alignment.json
+thumbnail/**/thumbnail_master_4k.png
+thumbnail/**/thumbnail.png
+thumbnail/**/scene_without_text.png
+thumbnail/**/*.import
+*.import
+*.uid
+tools/*.uid
+
+review/final_movie_stills/
+
+review/r4/*.png
+review/r5/*.png
+review/r5/movie_stills/
+review/ep06_reference/frame_*.jpg
+
+review/r7/movie_stills/
+
+# Approved generated style reference (small native image; no 4K upscale).
+!thumbnail/thumbnail.png

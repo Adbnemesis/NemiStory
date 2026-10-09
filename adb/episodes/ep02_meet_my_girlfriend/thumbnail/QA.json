@@ -1,0 +1,77 @@
+{
+  "status": "Review candidate; user approval pending.",
+  "method": "built-in image generation",
+  "headline": "JUST FRIENDS?!",
+  "proposed_title": "Meet My Girlfriend: Our Awkward Beginning",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "upload_dimensions": [
+    1280,
+    720
+  ],
+  "native_4k": false,
+  "provenance": "AI-generated raster illustration using canonical ADB/Nemi episode art and approved thumbnail references; not a Godot rig export.",
+  "references": [
+    {
+      "path": "references/thumbnail_ref/thumbnail_set_raora.png",
+      "role": "Typography/background/editorial hierarchy",
+      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "role": "Approved generated thumbnail finish; not story/teacher source",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8"
+    },
+    {
+      "path": "adb/renders/rig/06_adb_rig_bust_closeup.png",
+      "role": "Primary canonical ADB identity",
+      "sha256": "948a1f7c4ecf40bc42ea8373e64efff1cdf1cb06a250f088ec65980d03ff6a92"
+    },
+    {
+      "path": "adb/episodes/ep02_meet_my_girlfriend/thumbnail/references/episode_couple_103s.png",
+      "role": "Actual episode couple identity and clothing",
+      "sha256": "8626612e9c80acd22f00ef3f544aed5b8c99ffad7cc0cc926ece7e9d5afb7642"
+    }
+  ],
+  "files": {
+    "thumbnail.png": {
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1750441,
+      "sha256": "a59f50384c290c3240173b1e5cc821058570a57653ee36c4c15ed95acd80bb55"
+    },
+    "thumbnail.jpg": {
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 460651,
+      "sha256": "627ef863ff9c5230dc020a1a6f205be717903b7882b94e89da59caa00389c42d"
+    },
+    "review/phone.png": {
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 102428,
+      "sha256": "76aeb44b84b6e92385b1ac17b8b8f96e76dde762e8feecd61a99f29f5c5ab76e"
+    },
+    "review/tiny.png": {
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 31558,
+      "sha256": "b906f6a11fc6aaef330a44d7be184f5a7b3453db72bbc4ba87177564cf8d68df"
+    }
+  },
+  "full_review": "Viewed full generated output. Text matches JUST FRIENDS?!, heavy outlines and pale-pink checker background match approved graphic approach. ADB/Nemi retain recognizable hair, eyes and green outfits; contrasting blush/expressions, laptop and red cup communicate awkward chemistry. No extra labels or kissing scene.",
+  "mobile_review": "Viewed the actual 320\u00d7180 and 160\u00d790 copies at native size; headline, distinct faces, laptop and red cup remain legible.",
+  "episode_video_voice_rigs_modified": false,
+  "platform_upload": false,
+  "audience_performance_claim": false
+}
