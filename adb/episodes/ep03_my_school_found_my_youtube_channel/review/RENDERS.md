@@ -1,17 +1,11 @@
-# Episode review and masters
+# ADB EP03 final master
 
-Current complete review delivery: `renders/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_1080p_REVIEW.mp4`, 1920×1080, 30 fps, 147.4 seconds (2:27.4). Source: `scene_r4_1080p.json`, identical to current `scene.json`. R4 changes only caption grouping so cards clear during pauses ≥0.35 seconds; R3 voice, acting, scenery, cameras, objects, SFX and mix remain unchanged. Review status and technical evidence are in `FINAL_1080P_REVIEW.md` and `final_1080p_qa.json`.
+Only retained episode movie: `renders/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_4K_FINAL.mp4`.
 
-| Movie | Role | Status |
-|---|---|---|
-| `ADB_EP03_proof_r1_1080p.mp4` | Ten-second monitor/reaction mechanism | Preserved; grounding/spacing revised |
-| `ADB_EP03_proof_r2_1080p.mp4` | Corrected grounding and spacing | Preserved; observer edge revised |
-| `ADB_EP03_proof_r3_1080p.mp4` | Current picture mechanism | Verified; R4 captions supersede grouping |
-| `ADB_EP03_integrated_r3_1080p.mp4` | 59-second integrated story section | Verified; R4 captions supersede grouping |
-| `ADB_EP03_My_School_Found_My_YouTube_Channel_r3_1080p_REVIEW.mp4` | Prior complete cut | Preserved; caption pause clearing revised |
-| `ADB_EP03_caption_proof_r4_1080p.mp4` | Ten-second caption pause proof | Current caption mechanism |
-| `ADB_EP03_My_School_Found_My_YouTube_Channel_r4_1080p_REVIEW.mp4` | Complete current 1080p cut | Pending user satisfaction; no 4K approval |
+Native 3840×2160, 30 fps, 147.4 seconds (2:27.4). The exact user-approved R4 scene, timing and sound remain unchanged; encoded and decoded audio hashes match the approved 1080p cut. Verification: `FINAL_4K_QA.json`, `FINAL_4K_REVIEW.md` and `final_4k/contact.jpg`.
 
-All movies live in this episode's `renders/` folder. Capture logs, encoded audio reports and actual render stamps belong in `review/render_records/`; no movie is overwritten. Full 1080p satisfaction and thumbnail selection are separate pending decisions. No `1080P_APPROVAL.json` is fabricated. No 4K episode/movie proof or final-only cleanup has occurred.
+The actual full 1080p user approval is recorded in `1080P_APPROVAL.json`. After native 4K export checks and full playback, seven earlier movies and 54 redundant individual generated stills were deleted under the user's explicit instruction. `retention.json` preserves their paths/hashes and the final-only folder check. The preview itself is no longer retained; its approval/stamp/hash evidence remains under `review/`.
 
-After explicit satisfaction with the exact current full cut, record the actual quote and source/input/preview hashes before a 4K render. Material changes revoke approval. Only after approved final 4K replacement checks may this episode's superseded movies/unnecessary stills be removed under the retention preference; retain voice, script, source, assets and QA and leave unrelated episodes alone.
+`renders/` contains ONLY this final 4K video. Capture logs, audio reports and render stamps remain in `review/render_records/`. Voice, script, assets, source, thumbnail candidates/references and other episodes are preserved. Workspace `renders/adb_school_youtube/` contains the original declared voice inputs, not superseded episode movies.
+
+Source: unchanged `scene_r4_1080p.json`, exported through the shared renderer's native 4K option. A subsequent material change requires a new complete 1080p cut and fresh user satisfaction.

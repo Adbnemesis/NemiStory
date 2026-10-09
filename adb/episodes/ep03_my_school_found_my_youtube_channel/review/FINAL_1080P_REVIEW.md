@@ -1,5 +1,7 @@
 # ADB EP03 complete 1080p review
 
+Archived review record: the user subsequently approved this exact R4 cut for a resolution-only native 4K export. The verified final master is indexed in `RENDERS.md`; its approved 1080p movie was removed after replacement checks under the explicit retention instruction. Original review observations below describe the pre-approval stage.
+
 Story: **My School Found My YouTube Channel**. The old face-revealing Dubsmash channel is explicitly distinct from the present ADB channel. The date remains an approximate memory around 2015. Classmates' laughter changes meaning through tentative warm adult hindsight rather than an invented bullying story. The ending returns to YouTube with an illustrated face and a dry callback.
 
 The complete current cut is R4, 147.4 seconds at 1920×1080/30 fps, under the user's 180-second ceiling. It uses 18 preserved canonical Aiden sources at 1.00×, 371 measured words, 105 caption cards, 34 thought-motivated shots and 21 original existing sound recordings/root clips. These counts describe the production, not an effects or acting quota. Voice identity/model/prompt, pitch, formants and EQ are unchanged; deliberate thought gaps and the final hold are authored. Source provenance and measurements are retained.

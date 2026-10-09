@@ -1,0 +1,300 @@
+{
+  "created_at_utc": "2026-10-09T09:25:21.757051+00:00",
+  "scope": "Resolution-only 4K export of the user-approved full R4 cut",
+  "final": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_4K_FINAL.mp4",
+  "approved_preview": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_1080p_REVIEW.mp4",
+  "subjective_listening_performed": false,
+  "full_4k_playback_review_performed": true,
+  "visual_sample_inspection": "Recorded separately by root reviewer; this report performs quantitative comparisons.",
+  "checks": {
+    "resolution": true,
+    "fps": true,
+    "decoded_frame_count": true,
+    "duration": true,
+    "under_runtime_cap": true,
+    "decode_clean": true,
+    "audio_format": true,
+    "scene_hash_unchanged": true,
+    "input_signature_unchanged": true,
+    "preview_hash_matches_approval": true,
+    "final_hash_matches_stamp": true,
+    "full_stamp_range": true,
+    "encoded_audio_identical": true,
+    "decoded_audio_identical": true,
+    "true_peak_at_most_minus_1": true,
+    "final_silence_matches_approved": true,
+    "protected_sources_unchanged": true,
+    "picture_samples_similar": true
+  },
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "4422"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "6910"
+      }
+    ],
+    "format": {
+      "duration": "147.400000",
+      "size": "14715742"
+    }
+  },
+  "frame_decode_stderr": "",
+  "source_binding": {
+    "spec_sha256": "a5b04cac2bd7c1cb7a9b6f734545c6258acd5de3bc7f58906d5add80f225d553",
+    "render_inputs_sha256": "eab9d34534680ef3ec2b9318775e8adb62130dfd6d0a0759203e086ad302450f",
+    "final_stamp": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_4K_FINAL.review_stamp.json",
+    "approved_stamp": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_1080p_REVIEW.review_stamp.json",
+    "final_stamp_data": {
+      "spec_sha256": "a5b04cac2bd7c1cb7a9b6f734545c6258acd5de3bc7f58906d5add80f225d553",
+      "render_inputs_sha256": "eab9d34534680ef3ec2b9318775e8adb62130dfd6d0a0759203e086ad302450f",
+      "preview_sha256": "47511cf336190cc715e5ec8b3e308fb3ae74f2b4ae3db1686fc131e622392d3b",
+      "resolution": [
+        3840,
+        2160
+      ],
+      "start": 0,
+      "duration": 147.4
+    },
+    "approved_stamp_data": {
+      "spec_sha256": "a5b04cac2bd7c1cb7a9b6f734545c6258acd5de3bc7f58906d5add80f225d553",
+      "render_inputs_sha256": "eab9d34534680ef3ec2b9318775e8adb62130dfd6d0a0759203e086ad302450f",
+      "preview_sha256": "9f3c05f09e6d0bffc97f6f598d05b2802ea1c3000d8a1ca54597ce33543707c1",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "start": 0,
+      "duration": 147.4
+    },
+    "user_quote": "yep do 4k, don't change anything except the render in 4k.\ndelete all other renders we'll only keep 4k one"
+  },
+  "approved_preview_sha256": "9f3c05f09e6d0bffc97f6f598d05b2802ea1c3000d8a1ca54597ce33543707c1",
+  "final_sha256": "47511cf336190cc715e5ec8b3e308fb3ae74f2b4ae3db1686fc131e622392d3b",
+  "audio_stream_sha256": {
+    "approved": "3c0cc3544daf9985d15e3051c182976f9927989398f4a80d6bf0d03ad0224c8e",
+    "final": "3c0cc3544daf9985d15e3051c182976f9927989398f4a80d6bf0d03ad0224c8e"
+  },
+  "decoded_audio_sha256": {
+    "approved": "e48b71ce23bbd94e0061a4dd8fd4a5ec7cde78030ef140346cebda8f67f8ac5d",
+    "final": "e48b71ce23bbd94e0061a4dd8fd4a5ec7cde78030ef140346cebda8f67f8ac5d"
+  },
+  "encoded_audio_levels": {
+    "integrated_lufs": -18.9,
+    "true_peak_dbfs": -1.6
+  },
+  "audio_final_second": {
+    "approved": {
+      "start_seconds": 146.4,
+      "duration_seconds": 1,
+      "peak_dbfs": -240.0,
+      "rms_dbfs": -240.0
+    },
+    "final": {
+      "start_seconds": 146.4,
+      "duration_seconds": 1,
+      "peak_dbfs": -240.0,
+      "rms_dbfs": -240.0
+    }
+  },
+  "protected_sources": {
+    "count": 74,
+    "changed": []
+  },
+  "picture_comparison": {
+    "method": "Exact clock samples; 4K Lanczos downscaled to 1920x1080; raw RGB comparison to approved 1080p.",
+    "interpretation": "Small rasterization/codec edge differences are expected; unchanged scene/input signatures bind the authored picture.",
+    "sample_count": 22,
+    "samples": [
+      {
+        "requested_time_seconds": 0,
+        "mean_absolute_rgb_error_0_255": 1.1368920803070068,
+        "rgb_rmse_0_255": 5.575596809387207,
+        "fraction_pixels_any_channel_difference_over_30": 0.00783179012345679,
+        "luminance_block_ssim": 0.989067792892456
+      },
+      {
+        "requested_time_seconds": 0.8,
+        "mean_absolute_rgb_error_0_255": 1.25150465965271,
+        "rgb_rmse_0_255": 5.924533367156982,
+        "fraction_pixels_any_channel_difference_over_30": 0.008663194444444444,
+        "luminance_block_ssim": 0.9883924126625061
+      },
+      {
+        "requested_time_seconds": 14.4,
+        "mean_absolute_rgb_error_0_255": 1.1128126382827759,
+        "rgb_rmse_0_255": 5.580519676208496,
+        "fraction_pixels_any_channel_difference_over_30": 0.007944637345679012,
+        "luminance_block_ssim": 0.9906283020973206
+      },
+      {
+        "requested_time_seconds": 24.7,
+        "mean_absolute_rgb_error_0_255": 0.9741312861442566,
+        "rgb_rmse_0_255": 5.1977715492248535,
+        "fraction_pixels_any_channel_difference_over_30": 0.006319444444444444,
+        "luminance_block_ssim": 0.9921568632125854
+      },
+      {
+        "requested_time_seconds": 31.9,
+        "mean_absolute_rgb_error_0_255": 0.9259151816368103,
+        "rgb_rmse_0_255": 5.027965545654297,
+        "fraction_pixels_any_channel_difference_over_30": 0.00640769675925926,
+        "luminance_block_ssim": 0.9924605488777161
+      },
+      {
+        "requested_time_seconds": 40.8,
+        "mean_absolute_rgb_error_0_255": 1.033496379852295,
+        "rgb_rmse_0_255": 5.721436023712158,
+        "fraction_pixels_any_channel_difference_over_30": 0.006995563271604938,
+        "luminance_block_ssim": 0.9925979971885681
+      },
+      {
+        "requested_time_seconds": 50.6,
+        "mean_absolute_rgb_error_0_255": 1.0411038398742676,
+        "rgb_rmse_0_255": 5.028933525085449,
+        "fraction_pixels_any_channel_difference_over_30": 0.0069376929012345675,
+        "luminance_block_ssim": 0.9906078577041626
+      },
+      {
+        "requested_time_seconds": 60.3,
+        "mean_absolute_rgb_error_0_255": 1.0331676006317139,
+        "rgb_rmse_0_255": 4.930177211761475,
+        "fraction_pixels_any_channel_difference_over_30": 0.005828993055555555,
+        "luminance_block_ssim": 0.9922371506690979
+      },
+      {
+        "requested_time_seconds": 67.9,
+        "mean_absolute_rgb_error_0_255": 1.1833399534225464,
+        "rgb_rmse_0_255": 5.576762676239014,
+        "fraction_pixels_any_channel_difference_over_30": 0.006929976851851852,
+        "luminance_block_ssim": 0.988806426525116
+      },
+      {
+        "requested_time_seconds": 70.2,
+        "mean_absolute_rgb_error_0_255": 1.2064653635025024,
+        "rgb_rmse_0_255": 5.850857257843018,
+        "fraction_pixels_any_channel_difference_over_30": 0.008272087191358024,
+        "luminance_block_ssim": 0.9892144203186035
+      },
+      {
+        "requested_time_seconds": 74.3,
+        "mean_absolute_rgb_error_0_255": 1.2227767705917358,
+        "rgb_rmse_0_255": 5.86729621887207,
+        "fraction_pixels_any_channel_difference_over_30": 0.006707658179012346,
+        "luminance_block_ssim": 0.9880117177963257
+      },
+      {
+        "requested_time_seconds": 80.5,
+        "mean_absolute_rgb_error_0_255": 0.6666930317878723,
+        "rgb_rmse_0_255": 4.073816299438477,
+        "fraction_pixels_any_channel_difference_over_30": 0.002740644290123457,
+        "luminance_block_ssim": 0.9943901896476746
+      },
+      {
+        "requested_time_seconds": 90.0,
+        "mean_absolute_rgb_error_0_255": 1.1339287757873535,
+        "rgb_rmse_0_255": 5.981171607971191,
+        "fraction_pixels_any_channel_difference_over_30": 0.008833912037037038,
+        "luminance_block_ssim": 0.9915566444396973
+      },
+      {
+        "requested_time_seconds": 99.0,
+        "mean_absolute_rgb_error_0_255": 0.6077989935874939,
+        "rgb_rmse_0_255": 4.052742958068848,
+        "fraction_pixels_any_channel_difference_over_30": 0.002828896604938272,
+        "luminance_block_ssim": 0.9958702325820923
+      },
+      {
+        "requested_time_seconds": 107.3,
+        "mean_absolute_rgb_error_0_255": 1.2464841604232788,
+        "rgb_rmse_0_255": 6.143887519836426,
+        "fraction_pixels_any_channel_difference_over_30": 0.00945216049382716,
+        "luminance_block_ssim": 0.9888957738876343
+      },
+      {
+        "requested_time_seconds": 111.4,
+        "mean_absolute_rgb_error_0_255": 0.6614718437194824,
+        "rgb_rmse_0_255": 3.9992690086364746,
+        "fraction_pixels_any_channel_difference_over_30": 0.002494212962962963,
+        "luminance_block_ssim": 0.9932360649108887
+      },
+      {
+        "requested_time_seconds": 117.2,
+        "mean_absolute_rgb_error_0_255": 0.944561779499054,
+        "rgb_rmse_0_255": 5.093414783477783,
+        "fraction_pixels_any_channel_difference_over_30": 0.006583719135802469,
+        "luminance_block_ssim": 0.9927324652671814
+      },
+      {
+        "requested_time_seconds": 127.2,
+        "mean_absolute_rgb_error_0_255": 0.994193971157074,
+        "rgb_rmse_0_255": 5.50525426864624,
+        "fraction_pixels_any_channel_difference_over_30": 0.006998939043209877,
+        "luminance_block_ssim": 0.9919004440307617
+      },
+      {
+        "requested_time_seconds": 135.9,
+        "mean_absolute_rgb_error_0_255": 0.9354727864265442,
+        "rgb_rmse_0_255": 5.284585475921631,
+        "fraction_pixels_any_channel_difference_over_30": 0.006742380401234568,
+        "luminance_block_ssim": 0.9918146133422852
+      },
+      {
+        "requested_time_seconds": 138.7,
+        "mean_absolute_rgb_error_0_255": 1.1678494215011597,
+        "rgb_rmse_0_255": 5.970085144042969,
+        "fraction_pixels_any_channel_difference_over_30": 0.008902874228395061,
+        "luminance_block_ssim": 0.9906813502311707
+      },
+      {
+        "requested_time_seconds": 146.7,
+        "mean_absolute_rgb_error_0_255": 0.5786080360412598,
+        "rgb_rmse_0_255": 3.907374620437622,
+        "fraction_pixels_any_channel_difference_over_30": 0.0025651041666666665,
+        "luminance_block_ssim": 0.9952176809310913
+      },
+      {
+        "requested_time_seconds": 147.36666666666667,
+        "mean_absolute_rgb_error_0_255": 0.5786111354827881,
+        "rgb_rmse_0_255": 3.9075467586517334,
+        "fraction_pixels_any_channel_difference_over_30": 0.0025708912037037037,
+        "luminance_block_ssim": 0.995217502117157
+      }
+    ]
+  },
+  "all_performed_checks_pass": true,
+  "root_visual_review": {
+    "native_frames_inspected": [
+      0.8,
+      24.7,
+      70.2,
+      80.5,
+      111.4,
+      138.7,
+      146.7,
+      147.36
+    ],
+    "contact": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/final_4k/contact.jpg",
+    "actual_playback_observations_seconds": [
+      0.17,
+      82.78,
+      147.4
+    ],
+    "ended": true,
+    "scope": "Actual local browser playback beginning-to-end with sampled visual observations; no subjective audio input."
+  },
+  "approved_preview_removed_after_verification": true
+}

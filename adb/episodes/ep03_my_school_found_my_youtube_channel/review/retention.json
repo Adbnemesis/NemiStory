@@ -1,0 +1,385 @@
+{
+  "status": "completed after native4K verification and playback",
+  "user_quote": "yep do 4k, don't change anything except the render in 4k.\ndelete all other renders we'll only keep 4k one",
+  "scope": "Only EP03 movies and enumerated redundant individual QA stills",
+  "final": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_4K_FINAL.mp4",
+  "final_sha256": "47511cf336190cc715e5ec8b3e308fb3ae74f2b4ae3db1686fc131e622392d3b",
+  "final_bytes": 14715742,
+  "removed": [
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_My_School_Found_My_YouTube_Channel_r3_1080p_REVIEW.mp4",
+      "bytes": 8264494,
+      "sha256": "6cdfb8755c393380b831b7ca94f23d39e5af31cdc24471a3dd7924a549139ffe",
+      "kind": "superseded_movie"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_1080p_REVIEW.mp4",
+      "bytes": 8256250,
+      "sha256": "9f3c05f09e6d0bffc97f6f598d05b2802ea1c3000d8a1ca54597ce33543707c1",
+      "kind": "superseded_movie"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_caption_proof_r4_1080p.mp4",
+      "bytes": 444482,
+      "sha256": "a5c9bdcf729231009018afe00204d30117d023f126daf2ef728d29015eb3bbc2",
+      "kind": "superseded_movie"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_integrated_r3_1080p.mp4",
+      "bytes": 3473319,
+      "sha256": "3e6b7b0761c7eb74140a74e119b510df9d5d827ec2cfd2d5aaa4816d79e276b6",
+      "kind": "superseded_movie"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_proof_r1_1080p.mp4",
+      "bytes": 705922,
+      "sha256": "39c5aa80130db2dd44888e622fc0db0afb9b8df83653baa9edf7b904b629178b",
+      "kind": "superseded_movie"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_proof_r2_1080p.mp4",
+      "bytes": 702386,
+      "sha256": "93a146f9baa32588ab2443498b67ac57052b12c89c58ac5da0a79e05ab2ccb03",
+      "kind": "superseded_movie"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/renders/ADB_EP03_proof_r3_1080p.mp4",
+      "bytes": 702687,
+      "sha256": "1625c2aada34b9d09348a33c8fc656d24895aa1324408436253867d3fd5cd73a",
+      "kind": "superseded_movie"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/proof_r1/00_0.10.jpg",
+      "bytes": 57357,
+      "sha256": "7a52f80a34782568b4e40ef01d98a26f995b4a732204774cba689a5a70ca8bcc",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/proof_r1/01_2.12.jpg",
+      "bytes": 59414,
+      "sha256": "54a84f6b75e1e5db87d6529103022183b56632dcec1c55721866372b68b1423d",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/proof_r1/02_4.40.jpg",
+      "bytes": 63291,
+      "sha256": "63cd6f570b0eb0d7d0b8ce910e1aca1b19d04838720b076c780ae27a5d176a50",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/proof_r1/03_7.90.jpg",
+      "bytes": 59305,
+      "sha256": "8396fea1614a1ed8e2e637651414b0a65fcf74cda1d2080aae65c843278e5dbb",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/00_01s.jpg",
+      "bytes": 47425,
+      "sha256": "acd49ea3347131cc4aafd35a59c193a0f2c20f2a56c14e1ccb9f981ea15c08be",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/01_06s.jpg",
+      "bytes": 51169,
+      "sha256": "8976f2c8b7a5761865e1465664fc1653ad795eb3aacab02856b88bd143918718",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/02_13s.jpg",
+      "bytes": 55667,
+      "sha256": "67bdc9e511e74d533c8f47c9881eb2da7dcae0374bfbb9ca9e918a5f73de4cef",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/03_23s.jpg",
+      "bytes": 57134,
+      "sha256": "45537980ce069fb568f2a551f6ed75b05d4648f06ad4d4e6b87cd907113a2945",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/04_30s.jpg",
+      "bytes": 60406,
+      "sha256": "dadc7d33a4bac4e9904bcc88af7b9710df482dd064e8fd87cb4a956f73640699",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/05_35s.jpg",
+      "bytes": 56502,
+      "sha256": "b32220549c1a28f6fad31be2fc5e3112434e9b68ec931bc75f3004ac3b64161e",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/06_44s.jpg",
+      "bytes": 42178,
+      "sha256": "f6d44d5449259239cb1068e535448bf31aa243213855083fe31e9c2d5aeae777",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/integrated_r3/07_57s.jpg",
+      "bytes": 65445,
+      "sha256": "949af7b95283f784611977bb3310e4b60f21291172adfe5e585aeecb432c7c23",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/00_000.8s.jpg",
+      "bytes": 65788,
+      "sha256": "792fd06a1d79f8148768fefaf07c65601592f7892b9b8403904be36b53441327",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/01_014.4s.jpg",
+      "bytes": 59399,
+      "sha256": "b7e7f5b34b7a66ed2c6e1b5c35e49b34d183ab0ea443c2f7963dc5334837566d",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/02_024.7s.jpg",
+      "bytes": 52052,
+      "sha256": "5dd1b8d62be14c1399f6bc7119d91b8393f450fd189eb6dee6842df4593f864c",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/03_031.9s.jpg",
+      "bytes": 50728,
+      "sha256": "205881fef6663ae4551892d33e3b4ef4a1f49195e2127ff32d877d871b2bd267",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/04_040.8s.jpg",
+      "bytes": 52854,
+      "sha256": "5a40aabbb0d22951acc21479b96f182de7152f1b6e06c11ef262f18b8b2980e2",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/05_050.6s.jpg",
+      "bytes": 55576,
+      "sha256": "01068ed4f5a5b036e3a83a570da491ad9c1be5bf947fe988a805a54747b4cc1a",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/06_060.3s.jpg",
+      "bytes": 57139,
+      "sha256": "437c72d4531c7dc5f15cb2eb2e2eb819d306551857db504c36766bfbb0840ed1",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/07_067.9s.jpg",
+      "bytes": 61102,
+      "sha256": "55c6ecc7ee840a3e73701d142eefbdbbbd6661e701177c5256ea4f73740a0841",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/08_070.2s.jpg",
+      "bytes": 62768,
+      "sha256": "4f505e48a546d1454f015d66b52be3e6045b868b11b818919366c6aa1f9ee608",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/09_074.3s.jpg",
+      "bytes": 61903,
+      "sha256": "48ca6d6bf3da8d6636a9641fef1bb1ccef68955a6c743c1c037117c6f7191b93",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/10_080.5s.jpg",
+      "bytes": 46225,
+      "sha256": "f4fcb2cbe475c6151f4e7e53e05e4798b09856b09c2f5a374cde6285674322f9",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/11_090.0s.jpg",
+      "bytes": 58770,
+      "sha256": "142f5778b9a20358d89c469bbc66d2b934005c04efb2fcb7828b22f19ec19979",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/12_099.0s.jpg",
+      "bytes": 44214,
+      "sha256": "9f57d704df6d2989e1b006bebf726125e53fe26e504cff734bc1f68f6e71d868",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/13_107.3s.jpg",
+      "bytes": 61688,
+      "sha256": "e756e52e6ccdd58630d438de974718fd5dd156477496e65ff6410618c752aaf0",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/14_111.4s.jpg",
+      "bytes": 44226,
+      "sha256": "ccc68e672fd6fcfd06de121bdc88a68db1475f5dfed67c2fe789e7d1506383a4",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/15_117.2s.jpg",
+      "bytes": 52892,
+      "sha256": "79aa038fa13946e159c83b9f6ef6ff66ec56e41df01459ec07bf3c9fa3dc157c",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/16_127.2s.jpg",
+      "bytes": 55187,
+      "sha256": "9ba8c7fbfc8e71fa04dfe6436f874051465b62e7711e82a9169a790cadebf139",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/17_135.9s.jpg",
+      "bytes": 50895,
+      "sha256": "3bb8a4da20a4e80676799d9c19e00c37e1910e762a1e97f88101fc48eae323f3",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/18_138.7s.jpg",
+      "bytes": 59332,
+      "sha256": "81ddf67d9583db58e2bf0859476a01a243e903fbc18f29a7d97b2a487118737e",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r3/19_146.7s.jpg",
+      "bytes": 41085,
+      "sha256": "e3971428e7b1d041cda135805d01ffcb9d9ddf82d0c14c85971e59ba6aa957a5",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_00_9.37s.jpg",
+      "bytes": 42857,
+      "sha256": "3d6878ec6b23dfc0b35f897cfcab460afbaea29221987c237809303ef8a0589f",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_01_19.74s.jpg",
+      "bytes": 48246,
+      "sha256": "fd8c56b702402a8c421b58e9764fe55fa8e341396794d8e6f2efa2d6f20930d5",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_02_25.22s.jpg",
+      "bytes": 48870,
+      "sha256": "b058377ca7dec749d27c85b4c1619fadc30b7b46175491b0b279378ce93ce12d",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_03_38.76s.jpg",
+      "bytes": 41120,
+      "sha256": "a34300c98a739c24669448d4ce97f329dd2ee5e62b14135c3cc42d09e4091ceb",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_04_43.05s.jpg",
+      "bytes": 46723,
+      "sha256": "41d2bbf9d2cfb627afc174f35348ccb9f33a461e41226b39b093cf7380d7987a",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_05_82.31s.jpg",
+      "bytes": 42155,
+      "sha256": "563640ad74d914074ea2077d96121ef572ade465489d312b894f1c6516320342",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_06_102.12s.jpg",
+      "bytes": 41571,
+      "sha256": "e6c1205b3acea585ece1efc3f46950c1f540b52acb25572fb86e38b4d7b073a8",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_07_119.63s.jpg",
+      "bytes": 46648,
+      "sha256": "3550c649e0578cc8bb61b87e29c20ce5f64a22607e66a0513da392a4aec97a78",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_08_124.22s.jpg",
+      "bytes": 45249,
+      "sha256": "15ea4e8060f9ae789bc181f5fadbe5cdd23abc9ea6c58bbad9980901095d74b7",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/full_r4/pause_09_127.12s.jpg",
+      "bytes": 49907,
+      "sha256": "00b47060ced0908ce9ae91befe11443108da3b23586982b8a36c79b84b192937",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/caption_proof_r4/0_0.20.jpg",
+      "bytes": 49560,
+      "sha256": "d0462162d56897385e16ef6743c98f39588502fc80dac5b4a24b2f45f2fee2ba",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/caption_proof_r4/1_0.73.jpg",
+      "bytes": 48121,
+      "sha256": "3607c01bee5c8c36cdc725a1fad922ffa085c2a1ae9ea69fd70218ebce2dff37",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/caption_proof_r4/2_1.20.jpg",
+      "bytes": 55509,
+      "sha256": "0e3ea63ea4cb7ecd76c8a347718a7d79bd6d147876c9fdda65857dd875edf85b",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/caption_proof_r4/3_6.20.jpg",
+      "bytes": 48852,
+      "sha256": "383ffd44a256ac0b80457a739533ba821d929820ca783fa0a5942a86d3d6c49a",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/final_4k/00_000.80s.jpg",
+      "bytes": 135466,
+      "sha256": "1266c72467c8de463e25b0942ac69146aa3e8e4d088a33ce5149390a23500904",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/final_4k/01_024.70s.jpg",
+      "bytes": 115079,
+      "sha256": "51984017e87969760a27896c1fb671a9d01dcb5be44eabe243559c7a2b5cacc7",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/final_4k/02_070.20s.jpg",
+      "bytes": 130932,
+      "sha256": "66cff52f4a2e670fdf0dd22a7df3fc2fdaed25bfe071639cbb782d9166c19277",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/final_4k/03_080.50s.jpg",
+      "bytes": 105299,
+      "sha256": "f6189746897e7caed6461f50405d2502ae300525f5f10d9ab598866258c7aff3",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/final_4k/04_111.40s.jpg",
+      "bytes": 102964,
+      "sha256": "a1958934ccb1855f47b1c5572272ad515b63101bc4930e33fa1d0acaa6474b94",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/final_4k/05_138.70s.jpg",
+      "bytes": 129873,
+      "sha256": "b7d1558edca2c336ab3574aa1fdb101c000c3834a1965bb6614ea4e008223b6a",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/final_4k/06_146.70s.jpg",
+      "bytes": 96711,
+      "sha256": "926b64489660e2c3c8bab19e263fc1510c0f010269ea5b2affe69c9d2b50ccd3",
+      "kind": "unneeded_individual_qa_still"
+    },
+    {
+      "path": "adb/episodes/ep03_my_school_found_my_youtube_channel/review/final_4k/07_147.36s.jpg",
+      "bytes": 96714,
+      "sha256": "27e12c9370a4e5f25989cbbefb38ad1755e5d5927402b7a0e14b46778951b439",
+      "kind": "unneeded_individual_qa_still"
+    }
+  ],
+  "removed_movie_count": 7,
+  "removed_still_count": 54,
+  "moved_capture_records": [
+    "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_4K_FINAL.capture.log",
+    "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_4K_FINAL.audio_qa.json",
+    "adb/episodes/ep03_my_school_found_my_youtube_channel/review/render_records/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_4K_FINAL.review_stamp.json"
+  ],
+  "render_folder_contains_only_final_4k": true,
+  "voice_source_thumbnail_and_other_episode_files_preserved": true
+}

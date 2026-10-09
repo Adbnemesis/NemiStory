@@ -1,0 +1,13 @@
+# ADB EP03 final 4K verification
+
+The user approved the exact full R4 1080p cut: “yep do 4k, don't change anything except the render in 4k. delete all other renders we'll only keep 4k one”. The actual quote, scene hash, source/input signature and approved full-preview/stamp hashes were saved in `1080P_APPROVAL.json` and accepted by the shared renderer before export.
+
+Final movie: `renders/ADB_EP03_My_School_Found_My_YouTube_Channel_r4_4K_FINAL.mp4`. The existing R4 scene was passed unchanged to the native Godot renderer with `--4k`; no picture, script, acting, camera, narration, caption, sound or mix change was made. Native capture was 3840×2160, not a 1080p upscale.
+
+Independent verification passes 18 checks: 3840×2160, 30 fps, 147.400 seconds, 4,422 decoded frames and a clean decoder. The exact encoded AAC payload hash and decoded PCM hash both match the approved 1080p movie. Output levels remain −18.9 LUFS/−1.6 dBTP, and the final second of audio is identical. Scene/input hashes and all 74 protected character sources are unchanged. The final movie hash matches its actual render stamp.
+
+Twenty-two exact-clock picture comparisons include the first and last frames. Downscaled 4K versus approved 1080p has maximum mean RGB error 1.252/255, at most 0.945% pixels with any channel difference >30, and minimum block SSIM 0.9880. These expected rasterization/encoding edge differences do not change the authored picture; the unchanged hashes bind the content.
+
+The root reviewer inspected eight actual native 4K frames at 0.8,24.7,70.2,80.5,111.4,138.7,146.7 and 147.36 seconds: hook, phone/live mark, class reveal, close embarrassment, warm thought, then/current comparison and final hold. The contact sheet is `final_4k/contact.jpg`. The same character, settings, captions, prop placement and timing are visible. The full 4K movie played from the opening to the actual 147.40-second ended state, with sampled live observations at 0.17,82.78 and 147.40 seconds. No subjective hearing is claimed; exact audio equivalence preserves the user's approved performance and mix.
+
+Episode-only retention is complete after verification and playback: `renders/` contains only the final 4K movie. New capture/audio/stamp records moved to `review/render_records/`; seven superseded/proof movies and 54 unneeded individual generated QA stills were removed. Small review contacts, original voice, source, thumbnail candidates/references and other episodes remain. `retention.json` records exact removed paths/hashes and final-file checks. The deleted full-preview hash and original approval receipt remain as audit evidence of the successful export; subsequent material revisions require fresh 1080p review.
