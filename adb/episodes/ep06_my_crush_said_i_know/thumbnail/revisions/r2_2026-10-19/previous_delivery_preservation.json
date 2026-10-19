@@ -1,0 +1,55 @@
+{
+  "purpose": "Preserve prior deliveries while offering four new concepts; no automatic selection or replacement.",
+  "files": [
+    {
+      "path": "thumbnail.png",
+      "bytes": 1269059,
+      "sha256": "28212b1eb74f93105e8dd95eb6d235b3d220ba46a64f4170b3e094d229b76023"
+    },
+    {
+      "path": "thumbnail.jpg",
+      "bytes": 230590,
+      "sha256": "1844d7e3a0ee9bcf9a626e0b443d91aaa65e6a2da0c18ef9a48f6e1c934056e2"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 1495,
+      "sha256": "e6b8f57c6574875a05facdcbe287b062d059ebc1701c8397c46f96629b2a52c9"
+    },
+    {
+      "path": "PROMPT.md",
+      "bytes": 2141,
+      "sha256": "b310034fa725d1de296d88c7c22c0a842fc882ad9510ab4925db0ada7eeebd60"
+    },
+    {
+      "path": "PROMPTS.md",
+      "bytes": 3043,
+      "sha256": "669ecaec8a7960a90ec1a2f3be476605c4efbda5dba905a7c1a44acd2c6baf84"
+    },
+    {
+      "path": "CONCEPTS.md",
+      "bytes": 3312,
+      "sha256": "80df66ad10aa0ec87218ae7fd9d70ec8230d285faf1862102e5c9279d47c2057"
+    },
+    {
+      "path": "QA.json",
+      "bytes": 2059,
+      "sha256": "2ab88323722aa215c06609bce1eaf248397b341a29073caf9c1de1a17261d634"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 3683,
+      "sha256": "94fcc62e5864626d400f79ad14238f57fe25752143bccf27722577c28761b975"
+    }
+  ],
+  "changed_files": [
+    "Canonical delivery intentionally replaced after user selection; original copies preserved in archive."
+  ],
+  "before_promotion_verified_unchanged": true,
+  "after_selection": {
+    "canonical_replaced_by": "a_i_know",
+    "approval_quote": "A \u2014 I KNOW. (Recommended)",
+    "archive": "revisions/before_r2_selection_2026-10-19",
+    "archive_hashes_match_original": true
+  }
+}

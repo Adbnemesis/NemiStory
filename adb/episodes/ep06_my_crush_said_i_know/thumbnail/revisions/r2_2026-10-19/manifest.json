@@ -1,0 +1,74 @@
+{
+  "format": "storytime-thumbnail-candidate-batch-v1",
+  "author": "adb",
+  "episode": "ep06_my_crush_said_i_know",
+  "created_utc": "2026-10-19T17:12:57.805486+00:00",
+  "status": "user_selected",
+  "selected_candidate": "a_i_know",
+  "recommended_candidate": "a_i_know",
+  "method": "built-in image_gen.imagegen",
+  "reference_provenance": "references.json",
+  "prompt_set": "PROMPTS.md",
+  "review": "REVIEW.md",
+  "comparison": {
+    "path": "comparison.jpg",
+    "dimensions": [
+      1312,
+      812
+    ],
+    "bytes": 588259,
+    "sha256": "e594d5d087e4a103332dcd342bfd85392ba976e2d51d493b8a2803d43a7a87b0"
+  },
+  "canonical_existing_files_preserved": false,
+  "candidates": [
+    {
+      "id": "a_i_know",
+      "headline": "I KNOW.",
+      "proposed_title": "My Crush's Reply to My Confession",
+      "native": "a_i_know/thumbnail.png",
+      "upload": "a_i_know/thumbnail.jpg",
+      "prompt": "a_i_know/PROMPT.md",
+      "qa": "a_i_know/QA.json",
+      "native_sha256": "96900816a97ab3026a0c801425bbb0409c145f87f8be854d84c12f808b6b661f",
+      "upload_sha256": "459f037974c51c807b63357293bf10311db08502cf746eadc1dcf8067e78fbdc"
+    },
+    {
+      "id": "b_same_class",
+      "headline": "SAME CLASS?!",
+      "proposed_title": "My Crush, Her Boyfriend, and Me",
+      "native": "b_same_class/thumbnail.png",
+      "upload": "b_same_class/thumbnail.jpg",
+      "prompt": "b_same_class/PROMPT.md",
+      "qa": "b_same_class/QA.json",
+      "native_sha256": "627d2b89f4ce0603fd52e3cb02c4acc7a136c2f2bfa85e62b524c6cbff9de626",
+      "upload_sha256": "f12f10e03ca8c83cb5e34b865e3bc8854b85637fb73d577fe9d2c0e3009fb26e"
+    },
+    {
+      "id": "c_hit_send",
+      "headline": "I HIT SEND...",
+      "proposed_title": "The Text I Sent After Our Math Exam",
+      "native": "c_hit_send/thumbnail.png",
+      "upload": "c_hit_send/thumbnail.jpg",
+      "prompt": "c_hit_send/PROMPT.md",
+      "qa": "c_hit_send/QA.json",
+      "native_sha256": "4447121a71374f4f4b6461f1263a5a5faeecf7bf58cba3fdfdd70e9d94e932e1",
+      "upload_sha256": "49c8ee030fe0a080f2a0ede311918bd5e4f815303cbb5deb84528ca246cc18aa"
+    },
+    {
+      "id": "d_years",
+      "headline": "YEARS FOR THIS?!",
+      "proposed_title": "I Asked My Crush Why She Blocked Me",
+      "native": "d_years/thumbnail.png",
+      "upload": "d_years/thumbnail.jpg",
+      "prompt": "d_years/PROMPT.md",
+      "qa": "d_years/QA.json",
+      "native_sha256": "d765f7d771a67df93d19ff51b80fde2987bbcd9ce466e4ff8b758af3691b08c3",
+      "upload_sha256": "0026d6cba1f1c269deea700219bc156a9a1638a9736ba60c1ae2e1700e06928b"
+    }
+  ],
+  "approval": {
+    "quote": "A \u2014 I KNOW. (Recommended)"
+  },
+  "previous_delivery_archive": "../before_r2_selection_2026-10-19",
+  "previous_delivery_archived_and_verified": true
+}

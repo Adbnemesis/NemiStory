@@ -1,0 +1,71 @@
+{
+  "method": "built-in image_gen.imagegen",
+  "provenance": "AI-generated raster illustration using inspected canonical episode art and supplied thumbnail references.",
+  "native_is_exact_generated_copy": true,
+  "source_generated_path": "/Users/talus/.codex/generated_images/01a11f72-fe1c-7283-b36d-4da60887fb47/exec-c7d892f1-e6b6-4455-8b8a-c480d351dd8a.png",
+  "references": "../references.json",
+  "assets": [
+    {
+      "path": "a_i_know/thumbnail.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1551881,
+      "sha256": "96900816a97ab3026a0c801425bbb0409c145f87f8be854d84c12f808b6b661f"
+    },
+    {
+      "path": "a_i_know/thumbnail.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 350986,
+      "sha256": "459f037974c51c807b63357293bf10311db08502cf746eadc1dcf8067e78fbdc"
+    },
+    {
+      "path": "a_i_know/review/phone.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 86854,
+      "sha256": "6978ad82f9ef9806198fce0758a9ed4295158450ffdc68988a1f6f880e71eb4d"
+    },
+    {
+      "path": "a_i_know/review/tiny.png",
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 27113,
+      "sha256": "6e0106d181a1669161e3334781d8ff6606d431fcf72ce5342cc3ac54990f35e2"
+    }
+  ],
+  "conversion": "Preserve native PNG; Lanczos downsample to centered exact 16:9 (about 0.053% source-height crop); no upscale.",
+  "actual_visual_review": {
+    "native": true,
+    "upload_comparison": true,
+    "320x180": true,
+    "160x90": true,
+    "beside_episode_and_style_art": true,
+    "independent_review": true
+  },
+  "checks": {
+    "headline_exact": true,
+    "single_headline": true,
+    "adb_recognizable": true,
+    "black_red_black_contours": true,
+    "clean_hands_and_contacts": true,
+    "truthful_story_promise": true,
+    "no_key_duration_corner_overlap": true
+  },
+  "findings": [
+    "Clearest payoff/facial focus.",
+    "Quote source needs complementary title; bubble tail lies toward ADB."
+  ],
+  "user_approval": {
+    "status": "selected_by_user",
+    "quote": "A \u2014 I KNOW. (Recommended)"
+  }
+}

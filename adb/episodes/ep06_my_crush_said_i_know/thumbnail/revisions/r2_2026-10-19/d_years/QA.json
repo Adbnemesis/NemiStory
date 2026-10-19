@@ -1,0 +1,68 @@
+{
+  "method": "built-in image_gen.imagegen",
+  "provenance": "AI-generated raster illustration using inspected canonical episode art and supplied thumbnail references.",
+  "native_is_exact_generated_copy": true,
+  "source_generated_path": "/Users/talus/.codex/generated_images/01a11f72-fe1c-7283-b36d-4da60887fb47/exec-39f9ab46-bb67-44de-9a08-595c46c81189.png",
+  "references": "../references.json",
+  "assets": [
+    {
+      "path": "d_years/thumbnail.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1967799,
+      "sha256": "d765f7d771a67df93d19ff51b80fde2987bbcd9ce466e4ff8b758af3691b08c3"
+    },
+    {
+      "path": "d_years/thumbnail.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 497876,
+      "sha256": "0026d6cba1f1c269deea700219bc156a9a1638a9736ba60c1ae2e1700e06928b"
+    },
+    {
+      "path": "d_years/review/phone.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 115290,
+      "sha256": "89e3870f35a14f2291462810a72abd91a67c387d783c0d7a7b6ef86c3ad9f1ac"
+    },
+    {
+      "path": "d_years/review/tiny.png",
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 34645,
+      "sha256": "ced81c9b746b9a1b8843341edeb1dafa268171da272803fb397959488df8f2a1"
+    }
+  ],
+  "conversion": "Preserve native PNG; Lanczos downsample to centered exact 16:9 (about 0.053% source-height crop); no upscale.",
+  "actual_visual_review": {
+    "native": true,
+    "upload_comparison": true,
+    "320x180": true,
+    "160x90": true,
+    "beside_episode_and_style_art": true,
+    "independent_review": true
+  },
+  "checks": {
+    "headline_exact": true,
+    "single_headline": true,
+    "adb_recognizable": true,
+    "black_red_black_contours": true,
+    "clean_hands_and_contacts": true,
+    "truthful_story_promise": true,
+    "no_key_duration_corner_overlap": true
+  },
+  "findings": [
+    "Calendar chain is comic metaphor for years of questioning the block.",
+    "Denser at 160x90; outermost hand intentionally cropped, no key face/type cropped."
+  ],
+  "user_approval": "pending"
+}

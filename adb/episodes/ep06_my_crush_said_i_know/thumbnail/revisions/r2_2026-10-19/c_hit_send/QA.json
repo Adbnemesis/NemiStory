@@ -1,0 +1,68 @@
+{
+  "method": "built-in image_gen.imagegen",
+  "provenance": "AI-generated raster illustration using inspected canonical episode art and supplied thumbnail references.",
+  "native_is_exact_generated_copy": true,
+  "source_generated_path": "/Users/talus/.codex/generated_images/01a11f72-fe1c-7283-b36d-4da60887fb47/exec-d1341a1a-6581-42b7-8ee7-cc0dab136e29.png",
+  "references": "../references.json",
+  "assets": [
+    {
+      "path": "c_hit_send/thumbnail.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1664046,
+      "sha256": "4447121a71374f4f4b6461f1263a5a5faeecf7bf58cba3fdfdd70e9d94e932e1"
+    },
+    {
+      "path": "c_hit_send/thumbnail.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 381575,
+      "sha256": "49c8ee030fe0a080f2a0ede311918bd5e4f815303cbb5deb84528ca246cc18aa"
+    },
+    {
+      "path": "c_hit_send/review/phone.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 94190,
+      "sha256": "c5e8c1e2aae4dc47573bd8215d3031112aaa86a62665da042df44a8700d26fb1"
+    },
+    {
+      "path": "c_hit_send/review/tiny.png",
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 29752,
+      "sha256": "bad4d6767946dccd0bd21e4a08f9fb14c43f4f9b9b273ca1f46e67bb06e8e9f5"
+    }
+  ],
+  "conversion": "Preserve native PNG; Lanczos downsample to centered exact 16:9 (about 0.053% source-height crop); no upscale.",
+  "actual_visual_review": {
+    "native": true,
+    "upload_comparison": true,
+    "320x180": true,
+    "160x90": true,
+    "beside_episode_and_style_art": true,
+    "independent_review": true
+  },
+  "checks": {
+    "headline_exact": true,
+    "single_headline": true,
+    "adb_recognizable": true,
+    "black_red_black_contours": true,
+    "clean_hands_and_contacts": true,
+    "truthful_story_promise": true,
+    "no_key_duration_corner_overlap": true
+  },
+  "findings": [
+    "Targeted generated edit removed front bezel camera-like circles; full/mobile rechecked.",
+    "Exam equation is non-caption story prop art."
+  ],
+  "user_approval": "pending"
+}

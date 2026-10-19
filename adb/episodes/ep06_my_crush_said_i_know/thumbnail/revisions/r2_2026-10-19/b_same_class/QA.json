@@ -1,0 +1,68 @@
+{
+  "method": "built-in image_gen.imagegen",
+  "provenance": "AI-generated raster illustration using inspected canonical episode art and supplied thumbnail references.",
+  "native_is_exact_generated_copy": true,
+  "source_generated_path": "/Users/talus/.codex/generated_images/01a11f72-fe1c-7283-b36d-4da60887fb47/exec-3aed6d09-276b-4a83-81db-4d0f33cf7c04.png",
+  "references": "../references.json",
+  "assets": [
+    {
+      "path": "b_same_class/thumbnail.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1810203,
+      "sha256": "627d2b89f4ce0603fd52e3cb02c4acc7a136c2f2bfa85e62b524c6cbff9de626"
+    },
+    {
+      "path": "b_same_class/thumbnail.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 436784,
+      "sha256": "f12f10e03ca8c83cb5e34b865e3bc8854b85637fb73d577fe9d2c0e3009fb26e"
+    },
+    {
+      "path": "b_same_class/review/phone.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 104026,
+      "sha256": "574313c4009c2d3c04ba9635aade84e816782675591b8cc9d6631fad12b68de1"
+    },
+    {
+      "path": "b_same_class/review/tiny.png",
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 31620,
+      "sha256": "1ff28d367c8fe24291aab6e820cda484012e0c3dd3ece3df8ac7c9e741408f4d"
+    }
+  ],
+  "conversion": "Preserve native PNG; Lanczos downsample to centered exact 16:9 (about 0.053% source-height crop); no upscale.",
+  "actual_visual_review": {
+    "native": true,
+    "upload_comparison": true,
+    "320x180": true,
+    "160x90": true,
+    "beside_episode_and_style_art": true,
+    "independent_review": true
+  },
+  "checks": {
+    "headline_exact": true,
+    "single_headline": true,
+    "adb_recognizable": true,
+    "black_red_black_contours": true,
+    "clean_hands_and_contacts": true,
+    "truthful_story_promise": true,
+    "no_key_duration_corner_overlap": true
+  },
+  "findings": [
+    "Truthful shared-class trio.",
+    "Tight top/right headline contour clearance (~1%); avoid additional cropping."
+  ],
+  "user_approval": "pending"
+}
