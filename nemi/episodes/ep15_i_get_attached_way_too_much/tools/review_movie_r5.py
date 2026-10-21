@@ -16,6 +16,8 @@ movie=Path(sys.argv[1]).resolve()
 start=float(sys.argv[2]) if len(sys.argv)>2 else 0
 spec_path=EP/'scene_r5.json'
 spec=json.loads(spec_path.read_text())
+stamp_path=movie.with_suffix('.review_stamp.json')
+if not stamp_path.exists():stamp_path=EP/'review/render_records'/stamp_path.name
 out=EP/'review'/movie.stem
 out.mkdir(parents=True,exist_ok=True)
 probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-count_frames','-select_streams','v:0',
@@ -57,7 +59,7 @@ for cue in spec['sfx']:validate_asset(by_path[cue['file'][6:]],ROOT)
 audio=measure_audio(movie)
 assert audio['true_peak_dbfs']<=-1
 qa=dict(movie='res://'+str(movie.relative_to(ROOT)),sha256=hashlib.sha256(movie.read_bytes()).hexdigest(),
-    spec_sha256=json.loads(movie.with_suffix('.review_stamp.json').read_text())['spec_sha256'],review_context_spec_sha256=hashlib.sha256(spec_path.read_bytes()).hexdigest(),probe=probe,
+    spec_sha256=json.loads(stamp_path.read_text())['spec_sha256'],review_context_spec_sha256=hashlib.sha256(spec_path.read_bytes()).hexdigest(),probe=probe,
     duration_seconds=duration,window_start=start,hard_cap_seconds=180,full_decode_passed=True,
     audio=audio,caption_cards=len(spec['captions']),all_cards_at_most_five_words=all(len(c['text'].split())<=5 for c in spec['captions']),
     sfx_assets_validated=True,stills_scene_seconds=[r+start for r in times],

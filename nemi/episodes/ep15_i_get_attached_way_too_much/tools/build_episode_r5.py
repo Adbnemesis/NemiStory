@@ -401,7 +401,7 @@ for word in scene_timing['words']:
 (EP/'timing_reference_r5_scene.json').write_text(json.dumps(scene_timing,indent=2)+'\n')
 spec['audio_metadata']='res://'+str((EP/'timing_reference_r5_scene.json').relative_to(ROOT))
 
-spec['mix']=calibrate_mix(spec,ROOT)
+spec['mix']=calibrate_mix(spec,ROOT,peak_dbfs=-2.5)
 (EP/'scene_r5.json').write_text(json.dumps(spec,indent=2)+'\n')
 (EP/'camera_plan_r5.json').write_text(json.dumps(camera_plan,indent=2)+'\n')
 (EP/'sound_plan_r5.json').write_text(json.dumps(dict(cues=sound_plan,intentional_silence=[
