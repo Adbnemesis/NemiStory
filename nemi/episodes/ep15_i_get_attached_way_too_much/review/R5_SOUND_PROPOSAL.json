@@ -1,0 +1,245 @@
+{
+  "episode": "nemi_ep15_i_get_attached_way_too_much",
+  "revision": "r5",
+  "scope": "Six proposed word-anchored extra events; final seconds and event offsets to be assigned by scene builder against narration_r5.",
+  "cues": [
+    {
+      "event": "contract_unfold",
+      "catalog_id": "paper_page_flip_03",
+      "file": "res://common/audio/sfx/paper/paper_page_flip_03.ogg",
+      "source_sha256": "c85db5dceb3f1df073e960630277eaa88a5afda0477c1ddd68dad707621767be",
+      "source_excerpt_start_seconds": 0,
+      "duration": 0.231,
+      "gain_db": -6,
+      "story_line_index": 0,
+      "anchor_phrase": "brain signs a lifetime contract",
+      "placement_notes": "At the visible scroll unfolding, before the existing underline scribble; separate the two attacks by at least .35 seconds.",
+      "purpose": "Crisp paper accent gives the contract physical development.",
+      "status": "recommended",
+      "provenance": {
+        "source": "Kenney (rpg)",
+        "source_url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+        "license": "CC0 1.0 Universal (Public Domain)",
+        "commercial_use": true
+      },
+      "validation": {
+        "passed": true,
+        "api": "tools/storytime/sfx_assets.py:validate_asset",
+        "path_and_hash_preserved": true
+      },
+      "measurements": {
+        "decoded_duration_seconds": 0.230604,
+        "mono_rms_dbfs": -29.356,
+        "mono_peak_dbfs": -2.798,
+        "active_50ms_rms_dbfs_above_minus40": -28.749,
+        "after_source_gain_mono_rms_dbfs": -35.356,
+        "after_source_gain_mono_peak_dbfs": -8.798,
+        "active_rms_delta_vs_ep15_r1_voice_fixed_minus2_db": -8.783
+      }
+    },
+    {
+      "event": "time_apart_calendar",
+      "catalog_id": "paper_page_flip_01",
+      "file": "res://common/audio/sfx/paper/paper_page_flip_01.ogg",
+      "source_sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+      "source_excerpt_start_seconds": 0,
+      "duration": 0.769,
+      "gain_db": -9,
+      "story_line_index": 1,
+      "anchor_phrase": "two or three years",
+      "placement_notes": "At the calendar stack advancing once; clear before excited portrait.",
+      "purpose": "Calendar movement communicates the long separation.",
+      "status": "recommended",
+      "provenance": {
+        "source": "Kenney (rpg)",
+        "source_url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+        "license": "CC0 1.0 Universal (Public Domain)",
+        "commercial_use": true
+      },
+      "validation": {
+        "passed": true,
+        "api": "tools/storytime/sfx_assets.py:validate_asset",
+        "path_and_hash_preserved": true
+      },
+      "measurements": {
+        "decoded_duration_seconds": 0.768646,
+        "mono_rms_dbfs": -26.993,
+        "mono_peak_dbfs": 3.277,
+        "active_50ms_rms_dbfs_above_minus40": -23.609,
+        "after_source_gain_mono_rms_dbfs": -35.993,
+        "after_source_gain_mono_peak_dbfs": -5.723,
+        "active_rms_delta_vs_ep15_r1_voice_fixed_minus2_db": -6.643
+      }
+    },
+    {
+      "event": "cafe_cup_contact",
+      "catalog_id": "impact_glass_clink_01",
+      "file": "res://common/audio/sfx/impacts/impact_glass_clink_01.ogg",
+      "source_sha256": "9252d50bfb85edb17d6073c4a7806e10cdb9de56d3dbfc93a4b9727146d2df6d",
+      "source_excerpt_start_seconds": 0,
+      "duration": 0.543,
+      "gain_db": -12,
+      "story_line_index": 2,
+      "anchor_phrase": "catch up",
+      "placement_notes": "At one cup reaching the table in the imagined cafe; exactly one contact accent.",
+      "purpose": "Makes the imagined reunion tactile.",
+      "status": "conditional_visible_contact",
+      "provenance": {
+        "source": "Kenney (impact)",
+        "source_url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+        "license": "CC0 1.0 Universal (Public Domain)",
+        "commercial_use": true
+      },
+      "validation": {
+        "passed": true,
+        "api": "tools/storytime/sfx_assets.py:validate_asset",
+        "path_and_hash_preserved": true
+      },
+      "measurements": {
+        "decoded_duration_seconds": 0.540104,
+        "mono_rms_dbfs": -22.415,
+        "mono_peak_dbfs": 1.872,
+        "active_50ms_rms_dbfs_above_minus40": -19.083,
+        "after_source_gain_mono_rms_dbfs": -34.415,
+        "after_source_gain_mono_peak_dbfs": -10.128,
+        "active_rms_delta_vs_ep15_r1_voice_fixed_minus2_db": -5.117
+      }
+    },
+    {
+      "event": "school_send",
+      "catalog_id": "viral_click",
+      "file": "res://common/audio/sfx/click.mp3",
+      "source_sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "source_excerpt_start_seconds": 0,
+      "duration": 0.365688,
+      "gain_db": -7,
+      "story_line_index": 6,
+      "anchor_phrase": "so much to say",
+      "placement_notes": "At the visible send press, after the existing typing cue ends and before the tiny reply.",
+      "purpose": "Separates outgoing excitement from the incoming small reply.",
+      "status": "recommended",
+      "provenance": {
+        "source": "Existing project root MP3",
+        "license": "Not recorded for existing root MP3",
+        "commercial_use": null,
+        "origin": "existing_root_mp3",
+        "production_use": "User explicitly requested these existing root clips for EP08/EP09"
+      },
+      "validation": {
+        "passed": true,
+        "api": "tools/storytime/sfx_assets.py:validate_asset",
+        "path_and_hash_preserved": true
+      },
+      "measurements": {
+        "decoded_duration_seconds": 0.365687,
+        "mono_rms_dbfs": -27.695,
+        "mono_peak_dbfs": -2.383,
+        "active_50ms_rms_dbfs_above_minus40": -25.075,
+        "after_source_gain_mono_rms_dbfs": -34.695,
+        "after_source_gain_mono_peak_dbfs": -9.383,
+        "active_rms_delta_vs_ep15_r1_voice_fixed_minus2_db": -6.109
+      }
+    },
+    {
+      "event": "memory_photo_slide",
+      "catalog_id": "paper_slide_desk_01",
+      "file": "res://common/audio/sfx/paper/paper_slide_desk_01.wav",
+      "source_sha256": "2e945267f56208884153867d062838888e6bddc92b512e130aa9566255ad36bb",
+      "source_excerpt_start_seconds": 0,
+      "duration": 1.094,
+      "gain_db": -7,
+      "story_line_index": 9,
+      "anchor_phrase": "carry little bits",
+      "placement_notes": "At a photo/card sliding into the memory drawer; do not also play existing page flip at the same instant.",
+      "purpose": "The memory metaphor changes visibly and audibly.",
+      "status": "recommended",
+      "provenance": {
+        "source": "Mixkit",
+        "source_url": "https://assets.mixkit.co/active_storage/sfx/1530/1530.wav",
+        "license": "Mixkit Sound Effects Free License (Commercial Allowed)",
+        "commercial_use": true
+      },
+      "validation": {
+        "passed": true,
+        "api": "tools/storytime/sfx_assets.py:validate_asset",
+        "path_and_hash_preserved": true
+      },
+      "measurements": {
+        "decoded_duration_seconds": 1.094,
+        "mono_rms_dbfs": -29.548,
+        "mono_peak_dbfs": 2.297,
+        "active_50ms_rms_dbfs_above_minus40": -25.19,
+        "after_source_gain_mono_rms_dbfs": -36.548,
+        "after_source_gain_mono_peak_dbfs": -4.703,
+        "active_rms_delta_vs_ep15_r1_voice_fixed_minus2_db": -6.224
+      }
+    },
+    {
+      "event": "neeko_bowl_contact",
+      "catalog_id": "impact_glass_tap_01",
+      "file": "res://common/audio/sfx/impacts/impact_glass_tap_01.ogg",
+      "source_sha256": "d750cf88097d0c3e69920e6e14496e1444e1a9da01aa4cca8f5ec8cb44c57b4f",
+      "source_excerpt_start_seconds": 0,
+      "duration": 0.23075,
+      "gain_db": -14,
+      "story_line_index": 8,
+      "anchor_phrase": "cat I looked after",
+      "placement_notes": "Only if a bowl is actually placed/settles during the initial care tableau, then leave the personal caring/adoption phrases quiet.",
+      "purpose": "A single restrained care-object contact; no meow or implied tragedy.",
+      "status": "conditional_visible_contact",
+      "provenance": {
+        "source": "Kenney (impact)",
+        "source_url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+        "license": "CC0 1.0 Universal (Public Domain)",
+        "commercial_use": true
+      },
+      "validation": {
+        "passed": true,
+        "api": "tools/storytime/sfx_assets.py:validate_asset",
+        "path_and_hash_preserved": true
+      },
+      "measurements": {
+        "decoded_duration_seconds": 0.230396,
+        "mono_rms_dbfs": -18.759,
+        "mono_peak_dbfs": 1.479,
+        "active_50ms_rms_dbfs_above_minus40": -15.136,
+        "after_source_gain_mono_rms_dbfs": -32.759,
+        "after_source_gain_mono_peak_dbfs": -12.521,
+        "active_rms_delta_vs_ep15_r1_voice_fixed_minus2_db": -3.17
+      }
+    }
+  ],
+  "voice_level_reference": {
+    "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/narration_r1.wav",
+    "sha256": "af800db1867104e5f089a04f0623a73e1069584e3337390b745bbe482fc1ef14",
+    "measurements": {
+      "decoded_duration_seconds": 160.4,
+      "mono_rms_dbfs": -26.471,
+      "mono_peak_dbfs": -4.08,
+      "active_50ms_rms_dbfs_above_minus40": -23.966
+    },
+    "fixed_mixer_gain_db": -2
+  },
+  "retain_existing": {
+    "busy_notification": "Original2.4555s clip has measurable active50ms windows through1.05s, then quiet decay; preserve full clip rather than abruptly truncating. Do not add duplicate reply tone at second card.",
+    "arrival": "Existing whoosh covers city arrival; no extra sound simply for added luggage decoration.",
+    "storage": "Retain one bruh commentary after the storage phrase, only if next line gap still accommodates it."
+  },
+  "separation": "Do not stack paper/pen attacks, typing/send/reply, or photo slide/pageflip. One primary visible event per sound.",
+  "silence": [
+    "unsaid confrontation thought",
+    "still hurting admission",
+    "wanted to feel missed too",
+    "maybe should have said less",
+    "Neeko caring/adoption reflection after initial optional prop contact",
+    "matter less words before correction",
+    "for myself and final face hold"
+  ],
+  "source_rule": "Existing rootMP3s and cataloglibrary recordings only, no synthesis/procedural substitutes or pitch/tempo processing.",
+  "review": {
+    "numeric_source_measurements": "complete; comparative measurements only",
+    "perceptual_listening": "not performed; do not infer perception from waveform/RMS",
+    "final_r5_mix": "root must compare local narration, calibrate master and verify encoded truepeak <= -1dBFS",
+    "method": "FFmpeg mono float48k decode; 50ms blocks above -40dBFS define active RMS. Sourcegain is attenuation, not relative dialogue level."
+  }
+}

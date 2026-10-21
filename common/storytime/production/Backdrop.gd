@@ -8,6 +8,7 @@ const ADBEp=preload("res://common/storytime/production/ADBEpisodeBackdrop.gd")
 const CreatorArt=preload("res://common/storytime/production/CreatorEpisodeArt.gd")
 const SchoolYoutube=preload("res://common/storytime/production/SchoolYoutubeBackdrop.gd")
 const Attachment=preload("res://common/storytime/production/AttachmentEpisodeBackdrop.gd")
+const AttachmentRevision=preload("res://common/storytime/production/AttachmentRevisionBackdrop.gd")
 func set_kind(value: String) -> void:
 	if value!=kind:
 		kind=value
@@ -17,6 +18,9 @@ func ink(points: Array, color: Color=Color("#b6aa98"), width: float=2.0) -> void
 	for p in points: packed.append(Vector2(p[0],p[1]))
 	draw_polyline(packed,color,width,true)
 func _draw() -> void:
+	if kind in AttachmentRevision.KINDS:
+		AttachmentRevision.draw_set(self,kind)
+		return
 	if kind in Attachment.KINDS:
 		Attachment.draw_set(self,kind)
 		return

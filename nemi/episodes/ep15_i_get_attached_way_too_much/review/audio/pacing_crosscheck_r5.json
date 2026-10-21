@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "audio_sha256": "d0f344c6575bc5201688db498b37fa49dcbad6dcce83716b599fba11ceb677d6",
+  "independent_asr": "cached mlx-community/whisper-large-v3-turbo; offline, English, word_timestamps=True",
+  "asr_evidence_sha256": "518618d47bec887a4168dd314d6b559e1a47154d45b95760cd0a494f491582e9",
+  "word_count": 384,
+  "r1_to_r5_normalized_lexical_changes": [],
+  "r1_to_r5_same_recognized_word_order": true,
+  "measured_source_vs_final_asr_variants": [
+    {
+      "word_index": 174,
+      "measured_source_word": "missed",
+      "final_asr_word": " miss",
+      "same_as_r1_final_asr": true
+    },
+    {
+      "word_index": 246,
+      "measured_source_word": "I",
+      "final_asr_word": " I'd",
+      "same_as_r1_final_asr": true
+    },
+    {
+      "word_index": 254,
+      "measured_source_word": "Neeko",
+      "final_asr_word": " Nico",
+      "same_as_r1_final_asr": true
+    }
+  ],
+  "variant_review": "All three source/final differences (missed/miss, I/I'd, Neeko/Nico) also occur in the preserved R1 final-ASR evidence. No new lexical change is detected; source word spelling/intervals stay measured and unchanged.",
+  "start_difference_median_seconds": 0.008148,
+  "start_difference_max_seconds": 0.6,
+  "end_difference_median_seconds": 0.008148,
+  "end_difference_max_seconds": 0.151852,
+  "start_difference_note": "ASR sometimes assigns a word onset to preceding silence, including the opening 0.6s. Independent ASR is a completeness check, not a replacement for the source-bound exact timing.",
+  "longest_remaining_internal_gap": {
+    "seconds": 0.84,
+    "source_line": 4,
+    "before": "hurting.",
+    "after": "I"
+  },
+  "interline_word_gap_median_seconds": 1.18,
+  "interline_word_gap_max_seconds": 1.62,
+  "piecewise_mapping_continuous_and_complete": true,
+  "piecewise_interval_count": 47,
+  "direct_acoustic_audition_performed": false
+}

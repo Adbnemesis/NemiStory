@@ -1,0 +1,764 @@
+{
+  "scene_sha256": "42f4275e6df705d0578d75be46a87fe6454184cca73d3d21ee97da17309b804b",
+  "audio_sha256": "d0f344c6575bc5201688db498b37fa49dcbad6dcce83716b599fba11ceb677d6",
+  "timing_sha256": "eba5ef301e6dc633435a79e0cf093d152ce82fc351244d864b0ecca26009b7fa",
+  "source_provenance": [
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/00_nemi_r1.wav",
+      "sha256": "7f5bb6140ec52b7f3c05827b59177f02b1e2c5dccd21657d8b89969c02d3f7e5",
+      "metadata_sha256": "d3550e109c83aa321c341f7da0371750d240c0271b93fedee5e4cb9f185d3b78"
+    },
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/01_nemi_r1.wav",
+      "sha256": "7c969197ba558906696e7a43ca929f1e242b89e4125ea7c6006af8d5ff8b13a3",
+      "metadata_sha256": "3438ad0cd40daddfdea4ffe9c84e390ce45ab55f8d38ddace495bed7e9ecdf35"
+    },
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/02_nemi_r1.wav",
+      "sha256": "932070d30b57b4f37912f1e7aa8a7b9d36c01eb7fbb803fb4e741d068681547a",
+      "metadata_sha256": "7f7f7bd0e08de002d4c3f1594ba8bfeecea657be9ca56d6d2cad903dfce6b6ff"
+    },
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/03_nemi_r1.wav",
+      "sha256": "4f2e1c748e60a9acef70e6f93301b887bee440964cd5f52956941047b168c3ed",
+      "metadata_sha256": "99d7c5cff3e15741de74b137c53c876bd33d2d6aafff14eb541f251bf1052e49"
+    },
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/04_nemi_r1.wav",
+      "sha256": "166d659c369f3340fb85ca050bae840882901faa70dcd98e0e6dd7b95d8a1331",
+      "metadata_sha256": "93ba20477ca384ebca813cca09ce7dc2642ac9caf4a0d354a6d0acd7a3088d98"
+    },
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/05_nemi_r1.wav",
+      "sha256": "a06eca8414e396c08d1869cd33c4e42469a7e5fa6cc26f328df3e31eeb9e9aad",
+      "metadata_sha256": "f007ae90e8553dfe3777976d9971be5ae90ea6403ccb532a80df72a19c7066ce"
+    },
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/06_nemi_r1.wav",
+      "sha256": "1c584a6dd74c7a0708c9427ad63f34b9a1694f1910cffbcd8abc0cb70e4ec06f",
+      "metadata_sha256": "cd89bb2b20e5e543c55cdca4f6b23798f41ca940b8ce93f35a68f98c19a2ebdf"
+    },
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/07_nemi_r1.wav",
+      "sha256": "a3e7f98a6cff675a912837401d0b4a7b04521caecbf3cc6d5c6da3a582ea3776",
+      "metadata_sha256": "b9f8ec5c02408402034e202309c739b4f97aef21250888d8bc83e1142df90307"
+    },
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/08_nemi_r1.wav",
+      "sha256": "05815146d3e2954c09c0bc6233f5cb658523c74dd2f21f6f84edd458637276ce",
+      "metadata_sha256": "5e3c859e558fe6f3abb4b23320feb3cd2c37316ddd091ad24101fd914091d5e4"
+    },
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/09_nemi_r1.wav",
+      "sha256": "1e1e6dc21540b8581dc12c092a33febe9fd924f2a822222fd16f97e5a25241a6",
+      "metadata_sha256": "959cccd39393b036b66a9bae1569a34e2308868e99dc2f29a7446786100884d3"
+    },
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/10_nemi_r1.wav",
+      "sha256": "fca199758c052057d3bd76ac6cd98030e39d53ca3713b9f7125eb346aeadc8b4",
+      "metadata_sha256": "6f268e0d03dd59ac277e216f9ba0f387c8f87632bb0622cd7d4484fdc65c19ff"
+    },
+    {
+      "file": "res://nemi/episodes/ep15_i_get_attached_way_too_much/voice/source/11_nemi_r1.wav",
+      "sha256": "8a15e50d31f745133a60f21af2618613d9b9ac4613436538a9df0f2309d4e43f",
+      "metadata_sha256": "5f84068a2be0e1f6c9c879bc32e6bba64c5f498f3ad60db3c7b83f08e6fdc65e"
+    }
+  ],
+  "command": [
+    "/Users/talus/Downloads/Godot.app/Contents/MacOS/Godot",
+    "--headless",
+    "--path",
+    "/Users/talus/.codex/worktrees/nemi-ep15-review/adb",
+    "--log-file",
+    "/private/tmp/nemi_ep15_timing_stage_r5_final.log",
+    "--script",
+    "/private/tmp/nemi_ep15_timing_stage_probe_r5.gd"
+  ],
+  "probe_source": "tools/stage_contact_probe_r5.gd",
+  "phone_release_jump_world_pixels": 6.1035156022626325e-05,
+  "hand_window_end_jump_world_pixels": 0.0001220703200033313,
+  "rows": [
+    {
+      "at": 135.688147,
+      "caption": "",
+      "grip_socket_distance_screen_pixels": 1105.23571777344,
+      "hand_actor_local": [
+        86.6229858398438,
+        30.3262023925781
+      ],
+      "hand_angle": -41.0000034176587,
+      "hand_world": [
+        721.590209960938,
+        586.320861816406
+      ],
+      "left_foot_world": [
+        526.491882324219,
+        841.162536621094
+      ],
+      "phone_bottom_world_y": 0.0,
+      "phone_tilt": 0.0,
+      "phone_visible": false,
+      "phone_world": [
+        0.0,
+        0.0
+      ],
+      "right_foot_world": [
+        602.218933105469,
+        841.162536621094
+      ],
+      "right_hand_pose": 0,
+      "shot": "worth_revision"
+    },
+    {
+      "at": 135.688148,
+      "caption": "",
+      "grip_socket_distance_screen_pixels": 3.0517578125e-05,
+      "hand_actor_local": [
+        64.9999389648438,
+        -55.0
+      ],
+      "hand_angle": 5.00000540407516,
+      "hand_world": [
+        1223.74975585938,
+        437.0
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 440.806640625,
+      "phone_tilt": 5.00000524520874,
+      "phone_visible": true,
+      "phone_world": [
+        1223.63696289062,
+        438.290008544922
+      ],
+      "right_foot_world": [
+        1142.21887207031,
+        841.16259765625
+      ],
+      "right_hand_pose": 10,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 135.708148,
+      "caption": "",
+      "grip_socket_distance_screen_pixels": 3.0517578125e-05,
+      "hand_actor_local": [
+        64.9999389648438,
+        -55.0
+      ],
+      "hand_angle": 5.00000540407516,
+      "hand_world": [
+        1223.74975585938,
+        437.0
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 440.806640625,
+      "phone_tilt": 5.00000524520874,
+      "phone_visible": true,
+      "phone_world": [
+        1223.63696289062,
+        438.290008544922
+      ],
+      "right_foot_world": [
+        1142.21887207031,
+        841.16259765625
+      ],
+      "right_hand_pose": 10,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 135.808148,
+      "caption": "I can miss someone and",
+      "grip_socket_distance_screen_pixels": 3.0517578125e-05,
+      "hand_actor_local": [
+        64.9999389648438,
+        -55.0
+      ],
+      "hand_angle": 5.00000540407516,
+      "hand_world": [
+        1223.74975585938,
+        437.0
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 440.806640625,
+      "phone_tilt": 5.00000524520874,
+      "phone_visible": true,
+      "phone_world": [
+        1223.63696289062,
+        438.290008544922
+      ],
+      "right_foot_world": [
+        1142.21887207031,
+        841.16259765625
+      ],
+      "right_hand_pose": 10,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 135.928148,
+      "caption": "I can miss someone and",
+      "grip_socket_distance_screen_pixels": 3.0517578125e-05,
+      "hand_actor_local": [
+        64.9999389648438,
+        -55.0
+      ],
+      "hand_angle": 5.00000540407516,
+      "hand_world": [
+        1223.74975585938,
+        437.0
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 440.806640625,
+      "phone_tilt": 5.00000524520874,
+      "phone_visible": true,
+      "phone_world": [
+        1223.63696289062,
+        438.290008544922
+      ],
+      "right_foot_world": [
+        1142.21887207031,
+        841.16259765625
+      ],
+      "right_hand_pose": 10,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 137.288148,
+      "caption": "still put my phone down.",
+      "grip_socket_distance_screen_pixels": 3.0517578125e-05,
+      "hand_actor_local": [
+        64.9999389648438,
+        -55.0
+      ],
+      "hand_angle": 5.00000540407516,
+      "hand_world": [
+        1223.74975585938,
+        437.0
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 440.806640625,
+      "phone_tilt": 5.00000524520874,
+      "phone_visible": true,
+      "phone_world": [
+        1223.63696289062,
+        438.290008544922
+      ],
+      "right_foot_world": [
+        1142.21887207031,
+        841.16259765625
+      ],
+      "right_hand_pose": 10,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 137.488148,
+      "caption": "still put my phone down.",
+      "grip_socket_distance_screen_pixels": 0.0001220703125,
+      "hand_actor_local": [
+        69.6263427734375,
+        -51.9923248291016
+      ],
+      "hand_angle": 36.973378090599,
+      "hand_world": [
+        1231.84606933594,
+        442.263397216797
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 460.664703369141,
+      "phone_tilt": 36.9733772277832,
+      "phone_visible": true,
+      "phone_world": [
+        1231.06713867188,
+        443.298004150391
+      ],
+      "right_foot_world": [
+        1142.21887207031,
+        841.16259765625
+      ],
+      "right_hand_pose": 10,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 137.768147,
+      "caption": "still put my phone down.",
+      "grip_socket_distance_screen_pixels": 3.0517578125e-05,
+      "hand_actor_local": [
+        64.9999389648438,
+        -29.7856903076172
+      ],
+      "hand_angle": 90.0000093346673,
+      "hand_world": [
+        1223.74975585938,
+        481.125030517578
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 510.000030517578,
+      "phone_tilt": 90.0000076293945,
+      "phone_visible": true,
+      "phone_world": [
+        1222.45483398438,
+        481.125030517578
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.162475585938
+      ],
+      "right_hand_pose": 10,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 137.768148,
+      "caption": "still put my phone down.",
+      "grip_socket_distance_screen_pixels": 0.00013647876039613,
+      "hand_actor_local": [
+        64.9999389648438,
+        -29.7856903076172
+      ],
+      "hand_angle": 89.999995674289,
+      "hand_world": [
+        1223.74975585938,
+        481.125030517578
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": true,
+      "phone_world": [
+        1222.45483398438,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.162475585938
+      ],
+      "right_hand_pose": 10,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 137.768149,
+      "caption": "still put my phone down.",
+      "grip_socket_distance_screen_pixels": 0.000152587890625,
+      "hand_actor_local": [
+        64.9999694824219,
+        -29.7856597900391
+      ],
+      "hand_angle": 90.0000025044782,
+      "hand_world": [
+        1223.75,
+        481.125091552734
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": true,
+      "phone_world": [
+        1222.45483398438,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.162475585938
+      ],
+      "right_hand_pose": 10,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 137.788148,
+      "caption": "still put my phone down.",
+      "grip_socket_distance_screen_pixels": 0.312916398048401,
+      "hand_actor_local": [
+        65.0077819824219,
+        -29.6971435546875
+      ],
+      "hand_angle": 89.6355641009338,
+      "hand_world": [
+        1223.76354980469,
+        481.279998779297
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": true,
+      "phone_world": [
+        1222.45483398438,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.16259765625
+      ],
+      "right_hand_pose": 10,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 137.898148,
+      "caption": "still put my phone down.",
+      "grip_socket_distance_screen_pixels": 11.8185567855835,
+      "hand_actor_local": [
+        65.3231506347656,
+        -26.4225463867188
+      ],
+      "hand_angle": 76.3760017519722,
+      "hand_world": [
+        1224.3154296875,
+        487.010528564453
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": true,
+      "phone_world": [
+        1222.45483398438,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.16259765625
+      ],
+      "right_hand_pose": 0,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 138.418147,
+      "caption": "",
+      "grip_socket_distance_screen_pixels": 167.503280639648,
+      "hand_actor_local": [
+        86.6229858398438,
+        30.326171875
+      ],
+      "hand_angle": -41.0000000025641,
+      "hand_world": [
+        1261.59020996094,
+        586.32080078125
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": true,
+      "phone_world": [
+        1222.45483398438,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.16259765625
+      ],
+      "right_hand_pose": 0,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 138.418148,
+      "caption": "",
+      "grip_socket_distance_screen_pixels": 167.503280639648,
+      "hand_actor_local": [
+        86.6229553222656,
+        30.3262023925781
+      ],
+      "hand_angle": -41.0000000025641,
+      "hand_world": [
+        1261.59008789062,
+        586.32080078125
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": true,
+      "phone_world": [
+        1222.45483398438,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.16259765625
+      ],
+      "right_hand_pose": 0,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 138.418149,
+      "caption": "",
+      "grip_socket_distance_screen_pixels": 167.503280639648,
+      "hand_actor_local": [
+        86.6229553222656,
+        30.3262023925781
+      ],
+      "hand_angle": -41.0000000025641,
+      "hand_world": [
+        1261.59008789062,
+        586.32080078125
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": true,
+      "phone_world": [
+        1222.45483398438,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.16259765625
+      ],
+      "right_hand_pose": 0,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 138.438148,
+      "caption": "",
+      "grip_socket_distance_screen_pixels": 167.503280639648,
+      "hand_actor_local": [
+        86.6229553222656,
+        30.3262023925781
+      ],
+      "hand_angle": -41.0000000025641,
+      "hand_world": [
+        1261.59008789062,
+        586.32080078125
+      ],
+      "left_foot_world": [
+        1066.49169921875,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": true,
+      "phone_world": [
+        1222.45483398438,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.16259765625
+      ],
+      "right_hand_pose": 0,
+      "shot": "put_phone_down"
+    },
+    {
+      "at": 140.228148,
+      "caption": "see them without putting my",
+      "grip_socket_distance_screen_pixels": 130.861923217773,
+      "hand_actor_local": [
+        86.6229858398438,
+        30.3262023925781
+      ],
+      "hand_angle": -40.9999965874695,
+      "hand_world": [
+        1261.59020996094,
+        586.320861816406
+      ],
+      "left_foot_world": [
+        1066.49194335938,
+        841.16259765625
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": true,
+      "phone_world": [
+        1222.45495605469,
+        481.125
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.162536621094
+      ],
+      "right_hand_pose": 0,
+      "shot": "own_day"
+    },
+    {
+      "at": 142.468147,
+      "caption": "",
+      "grip_socket_distance_screen_pixels": 170.811584472656,
+      "hand_actor_local": [
+        144.049194335938,
+        -39.9499206542969
+      ],
+      "hand_angle": -115.999998674535,
+      "hand_world": [
+        1362.08605957031,
+        463.337646484375
+      ],
+      "left_foot_world": [
+        1066.49206542969,
+        841.162475585938
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": true,
+      "phone_world": [
+        1222.455078125,
+        481.125
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.162536621094
+      ],
+      "right_hand_pose": 0,
+      "shot": "own_day"
+    },
+    {
+      "at": 142.468148,
+      "caption": "I'll probably always care a",
+      "grip_socket_distance_screen_pixels": 341.62353515625,
+      "hand_actor_local": [
+        144.049224853516,
+        -39.9499053955078
+      ],
+      "hand_angle": -115.999998674535,
+      "hand_world": [
+        1362.08618164062,
+        463.337646484375
+      ],
+      "left_foot_world": [
+        1066.49194335938,
+        841.16259765625
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": false,
+      "phone_world": [
+        1222.455078125,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21887207031,
+        841.16259765625
+      ],
+      "right_hand_pose": 0,
+      "shot": "care_for_self"
+    },
+    {
+      "at": 147.128148,
+      "caption": "",
+      "grip_socket_distance_screen_pixels": 249.744140625,
+      "hand_actor_local": [
+        82.7686462402344,
+        26.5331726074219
+      ],
+      "hand_angle": -41.8271120053905,
+      "hand_world": [
+        1254.84521484375,
+        579.683044433594
+      ],
+      "left_foot_world": [
+        1066.49194335938,
+        841.16259765625
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": false,
+      "phone_world": [
+        1222.455078125,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.16259765625
+      ],
+      "right_hand_pose": 0,
+      "shot": "care_for_self"
+    },
+    {
+      "at": 148.738148,
+      "caption": "",
+      "grip_socket_distance_screen_pixels": 239.434509277344,
+      "hand_actor_local": [
+        91.6538391113281,
+        18.0294189453125
+      ],
+      "hand_angle": -53.0000003364945,
+      "hand_world": [
+        1270.39428710938,
+        564.801513671875
+      ],
+      "left_foot_world": [
+        1066.49194335938,
+        841.162658691406
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": false,
+      "phone_world": [
+        1222.455078125,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.16259765625
+      ],
+      "right_hand_pose": 0,
+      "shot": "care_for_self"
+    },
+    {
+      "at": 150.19,
+      "caption": "",
+      "grip_socket_distance_screen_pixels": 239.434509277344,
+      "hand_actor_local": [
+        91.6538391113281,
+        18.0294189453125
+      ],
+      "hand_angle": -53.0000003364945,
+      "hand_world": [
+        1270.39428710938,
+        564.801513671875
+      ],
+      "left_foot_world": [
+        1066.49194335938,
+        841.162658691406
+      ],
+      "phone_bottom_world_y": 510.0,
+      "phone_tilt": 90.0,
+      "phone_visible": false,
+      "phone_world": [
+        1222.455078125,
+        481.124969482422
+      ],
+      "right_foot_world": [
+        1142.21899414062,
+        841.16259765625
+      ],
+      "right_hand_pose": 0,
+      "shot": "care_for_self"
+    }
+  ]
+}

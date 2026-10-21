@@ -1,0 +1,58 @@
+{
+  "movie": "res://renders/nemi_ep15/EP15_r5_cafe_10s_1080p.mp4",
+  "sha256": "7e1a1ee27283157f0f7f293dc17353206dc99f486fb491b1ba4e38465ff94628",
+  "spec_sha256": "5228ed04e50899386b081c0629bb7bcf802cb2de61afed9274706690ca70920b",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "10.000000",
+        "nb_read_frames": "300"
+      }
+    ],
+    "format": {
+      "duration": "10.000000"
+    }
+  },
+  "duration_seconds": 10.0,
+  "window_start": 26.0,
+  "hard_cap_seconds": 180,
+  "full_decode_passed": true,
+  "audio": {
+    "integrated_lufs": -23.1,
+    "true_peak_dbfs": -7.8
+  },
+  "caption_cards": 107,
+  "all_cards_at_most_five_words": true,
+  "sfx_assets_validated": true,
+  "stills_scene_seconds": [
+    26.291,
+    26.3,
+    27.406,
+    27.807,
+    28.257,
+    28.62,
+    28.77,
+    28.92,
+    29.12,
+    29.233,
+    29.683,
+    30.622,
+    30.972,
+    31.951999999999998,
+    35.084,
+    35.384,
+    35.8
+  ],
+  "subjective_visual_review": "pending inspection of resulting stills and playback",
+  "acoustic_listening": "not performed: this tool session cannot perceive audio; measured levels and independent ASR are recorded separately",
+  "lipsync": "Measured word intervals with authored existing vowel/closure vocabulary; no phoneme-perfect claim",
+  "user_satisfaction": "pending current complete 1080p review",
+  "four_k_rendered": false,
+  "review_context_spec_sha256": "42f4275e6df705d0578d75be46a87fe6454184cca73d3d21ee97da17309b804b",
+  "provenance_note": "Actual capture stamp identifies the rendered source. Later episode changes outside the inspected window are documented in R5 production review."
+}

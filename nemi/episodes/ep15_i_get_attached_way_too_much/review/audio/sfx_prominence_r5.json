@@ -1,0 +1,1675 @@
+{
+  "revision": "r5",
+  "scene_sha256": "881d034f25fc1989c223ad9dec5fe3b687d2054b64d6c9892370066fa6dd27e1",
+  "voice_sha256": "d0f344c6575bc5201688db498b37fa49dcbad6dcce83716b599fba11ceb677d6",
+  "duration": 150.2,
+  "cue_count": 17,
+  "mix": {
+    "master_gain_db": 4.7,
+    "target_lufs": -18.0,
+    "peak_dbfs": -1.5
+  },
+  "floating_mix_measured": {
+    "integrated_lufs": -22.2,
+    "true_peak_dbfs": -1.5
+  },
+  "encoded_movie_audio": {
+    "status": "not yet present at numeric review"
+  },
+  "sfx_interval_overlaps": [],
+  "storage_actual_narration_10ms_blocks_above_minus40_after_master": [
+    [
+      121.838,
+      -31.63
+    ],
+    [
+      121.848,
+      -33.76
+    ],
+    [
+      121.858,
+      -31.56
+    ],
+    [
+      121.868,
+      -31.51
+    ],
+    [
+      121.878,
+      -32.33
+    ],
+    [
+      121.888,
+      -32.68
+    ],
+    [
+      121.898,
+      -33.37
+    ],
+    [
+      121.908,
+      -33.51
+    ],
+    [
+      121.918,
+      -33.87
+    ],
+    [
+      121.928,
+      -35.06
+    ],
+    [
+      121.938,
+      -33.95
+    ],
+    [
+      121.948,
+      -33.97
+    ],
+    [
+      121.958,
+      -34.83
+    ],
+    [
+      121.968,
+      -31.79
+    ],
+    [
+      121.978,
+      -30.66
+    ],
+    [
+      121.988,
+      -34.56
+    ],
+    [
+      121.998,
+      -31.93
+    ],
+    [
+      122.008,
+      -31.23
+    ],
+    [
+      123.078,
+      -30.57
+    ],
+    [
+      123.088,
+      -15.28
+    ],
+    [
+      123.098,
+      -16.06
+    ],
+    [
+      123.108,
+      -13.68
+    ],
+    [
+      123.118,
+      -14.75
+    ],
+    [
+      123.128,
+      -14.58
+    ],
+    [
+      123.138,
+      -14.63
+    ],
+    [
+      123.148,
+      -15.51
+    ],
+    [
+      123.158,
+      -13.22
+    ],
+    [
+      123.168,
+      -12.79
+    ],
+    [
+      123.178,
+      -13.0
+    ],
+    [
+      123.188,
+      -12.97
+    ],
+    [
+      123.198,
+      -12.86
+    ],
+    [
+      123.208,
+      -13.84
+    ]
+  ],
+  "cues": [
+    {
+      "event": "contract",
+      "at": 7.137037,
+      "end": 7.368037,
+      "file": "res://common/audio/sfx/paper/paper_page_flip_03.ogg",
+      "catalog_id": "paper_page_flip_03",
+      "source_sha256": "c85db5dceb3f1df073e960630277eaa88a5afda0477c1ddd68dad707621767be",
+      "validated_existing_asset": true,
+      "source_duration": 0.231,
+      "gain_db": -6,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -29.356,
+          "peak_dbfs": -2.798,
+          "active_50ms_rms_dbfs": -28.749,
+          "active_50ms_fraction": 0.8673
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -28.05,
+          "peak_dbfs": -11.346,
+          "active_50ms_rms_dbfs": -26.294,
+          "active_50ms_fraction": 0.6654
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -25.477,
+          "peak_dbfs": -11.563,
+          "active_50ms_rms_dbfs": -24.856,
+          "active_50ms_fraction": 0.8658
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -6.455,
+        "source_gain_peak_before_master_dbfs": -8.798,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            7.137,
+            7.187,
+            -26.04
+          ],
+          [
+            7.187,
+            7.237,
+            -33.81
+          ],
+          [
+            7.237,
+            7.287,
+            -31.95
+          ],
+          [
+            7.287,
+            7.337,
+            -33.87
+          ]
+        ]
+      },
+      "word_overlap": [
+        "lifetime"
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "a",
+        "start": 7.007407,
+        "end": 7.137037
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "contract.",
+        "start": 7.433333,
+        "end": 8.025926
+      }
+    },
+    {
+      "event": "contract",
+      "at": 7.787037,
+      "end": 8.112037,
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_04.ogg",
+      "catalog_id": "drawing_scratch_scribble_04",
+      "source_sha256": "26009c67ef90ee7a5a2bc458ef9e7f5a9da83da9397a830cff9e4a1813914687",
+      "validated_existing_asset": true,
+      "source_duration": 0.325,
+      "gain_db": -10,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -20.493,
+          "peak_dbfs": -0.987,
+          "active_50ms_rms_dbfs": -20.145,
+          "active_50ms_fraction": 0.9231
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -27.989,
+          "peak_dbfs": -11.192,
+          "active_50ms_rms_dbfs": -26.347,
+          "active_50ms_fraction": 0.6842
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -32.205,
+          "peak_dbfs": -19.158,
+          "active_50ms_rms_dbfs": -31.098,
+          "active_50ms_fraction": 0.7692
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -1.798,
+        "source_gain_peak_before_master_dbfs": -10.987,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            7.787,
+            7.837,
+            -20.38
+          ],
+          [
+            7.837,
+            7.887,
+            -30.89
+          ],
+          [
+            7.887,
+            7.937,
+            -25.49
+          ],
+          [
+            7.937,
+            7.987,
+            -33.38
+          ],
+          [
+            7.987,
+            8.037,
+            -25.74
+          ],
+          [
+            8.037,
+            8.087,
+            -29.2
+          ]
+        ]
+      },
+      "word_overlap": [
+        "contract."
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "lifetime",
+        "start": 7.137037,
+        "end": 7.433333
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "They",
+        "start": 8.359259,
+        "end": 9.007407
+      }
+    },
+    {
+      "event": "reunion",
+      "at": 12.174074,
+      "end": 12.894074,
+      "file": "res://common/audio/sfx/pop.mp3",
+      "catalog_id": "viral_pop",
+      "source_sha256": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "validated_existing_asset": true,
+      "source_duration": 0.72,
+      "gain_db": -10,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -23.201,
+          "peak_dbfs": -0.179,
+          "active_50ms_rms_dbfs": -14.635,
+          "active_50ms_fraction": 0.1389
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -26.138,
+          "peak_dbfs": -7.85,
+          "active_50ms_rms_dbfs": -24.184,
+          "active_50ms_fraction": 0.6371
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -32.697,
+          "peak_dbfs": -20.14,
+          "active_50ms_rms_dbfs": -31.15,
+          "active_50ms_fraction": 0.6944
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": 1.549,
+        "source_gain_peak_before_master_dbfs": -10.179,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            12.274,
+            12.324,
+            -16.94
+          ],
+          [
+            12.324,
+            12.374,
+            -40.44
+          ]
+        ]
+      },
+      "word_overlap": [
+        "reunion."
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "the",
+        "start": 11.988889,
+        "end": 12.174074
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "Once,",
+        "start": 13.261111,
+        "end": 13.705556
+      }
+    },
+    {
+      "event": "city",
+      "at": 14.335185,
+      "end": 14.909873,
+      "file": "res://common/audio/sfx/whoosh.mp3",
+      "catalog_id": "viral_whoosh",
+      "source_sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "validated_existing_asset": true,
+      "source_duration": 0.574688,
+      "gain_db": -14,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -16.205,
+          "peak_dbfs": 0.727,
+          "active_50ms_rms_dbfs": -13.382,
+          "active_50ms_fraction": 0.522
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -26.654,
+          "peak_dbfs": -7.85,
+          "active_50ms_rms_dbfs": -24.881,
+          "active_50ms_fraction": 0.6643
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -27.899,
+          "peak_dbfs": -10.542,
+          "active_50ms_rms_dbfs": -27.317,
+          "active_50ms_fraction": 0.87
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -0.501,
+        "source_gain_peak_before_master_dbfs": -13.273,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            14.385,
+            14.435,
+            -38.67
+          ],
+          [
+            14.435,
+            14.485,
+            -21.84
+          ],
+          [
+            14.485,
+            14.535,
+            -16.64
+          ],
+          [
+            14.535,
+            14.585,
+            -24.78
+          ],
+          [
+            14.585,
+            14.635,
+            -31.76
+          ]
+        ]
+      },
+      "word_overlap": [
+        "city",
+        "with",
+        "my",
+        "family,"
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "a",
+        "start": 14.224074,
+        "end": 14.335185
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "and",
+        "start": 15.52037,
+        "end": 16.335185
+      }
+    },
+    {
+      "event": "calendar",
+      "at": 19.705556,
+      "end": 20.474556,
+      "file": "res://common/audio/sfx/paper/paper_page_flip_01.ogg",
+      "catalog_id": "paper_page_flip_01",
+      "source_sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+      "validated_existing_asset": true,
+      "source_duration": 0.769,
+      "gain_db": -9,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -26.993,
+          "peak_dbfs": 3.277,
+          "active_50ms_rms_dbfs": -23.609,
+          "active_50ms_fraction": 0.4553
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -25.707,
+          "peak_dbfs": -5.089,
+          "active_50ms_rms_dbfs": -23.41,
+          "active_50ms_fraction": 0.5888
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -30.543,
+          "peak_dbfs": -14.127,
+          "active_50ms_rms_dbfs": -29.627,
+          "active_50ms_fraction": 0.8049
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -7.199,
+        "source_gain_peak_before_master_dbfs": -5.723,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            19.956,
+            20.006,
+            -44.28
+          ],
+          [
+            20.006,
+            20.056,
+            -39.47
+          ],
+          [
+            20.056,
+            20.106,
+            -41.22
+          ],
+          [
+            20.106,
+            20.156,
+            -38.66
+          ],
+          [
+            20.256,
+            20.306,
+            -19.85
+          ],
+          [
+            20.306,
+            20.356,
+            -33.98
+          ],
+          [
+            20.356,
+            20.406,
+            -36.65
+          ]
+        ]
+      },
+      "word_overlap": [
+        "two",
+        "or",
+        "three",
+        "years,"
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "in",
+        "start": 19.501852,
+        "end": 19.705556
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "so",
+        "start": 21.02037,
+        "end": 21.705556
+      }
+    },
+    {
+      "event": "invite",
+      "at": 23.924074,
+      "end": 24.289762,
+      "file": "res://common/audio/sfx/click.mp3",
+      "catalog_id": "viral_click",
+      "source_sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "validated_existing_asset": true,
+      "source_duration": 0.365688,
+      "gain_db": -7,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -27.695,
+          "peak_dbfs": -2.383,
+          "active_50ms_rms_dbfs": -25.075,
+          "active_50ms_fraction": 0.5469
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -24.287,
+          "peak_dbfs": -5.151,
+          "active_50ms_rms_dbfs": -22.637,
+          "active_50ms_fraction": 0.6834
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -20.743,
+          "peak_dbfs": -5.151,
+          "active_50ms_rms_dbfs": -20.107,
+          "active_50ms_fraction": 0.8633
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -7.438,
+        "source_gain_peak_before_master_dbfs": -9.383,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            23.924,
+            23.974,
+            -37.99
+          ],
+          [
+            23.974,
+            24.024,
+            -23.27
+          ],
+          [
+            24.024,
+            24.074,
+            -26.48
+          ],
+          [
+            24.074,
+            24.124,
+            -36.81
+          ]
+        ]
+      },
+      "word_overlap": [
+        "asked",
+        "both"
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "I",
+        "start": 23.738889,
+        "end": 23.924074
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "of",
+        "start": 24.572222,
+        "end": 24.757407
+      }
+    },
+    {
+      "event": "cafe_cup",
+      "at": 28.157407,
+      "end": 28.700407,
+      "file": "res://common/audio/sfx/impacts/impact_glass_clink_01.ogg",
+      "catalog_id": "impact_glass_clink_01",
+      "source_sha256": "9252d50bfb85edb17d6073c4a7806e10cdb9de56d3dbfc93a4b9727146d2df6d",
+      "validated_existing_asset": true,
+      "source_duration": 0.543,
+      "gain_db": -12,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -22.415,
+          "peak_dbfs": 1.872,
+          "active_50ms_rms_dbfs": -19.083,
+          "active_50ms_fraction": 0.4629
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -29.02,
+          "peak_dbfs": -11.585,
+          "active_50ms_rms_dbfs": -26.541,
+          "active_50ms_fraction": 0.5645
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -41.357,
+          "peak_dbfs": -19.478,
+          "active_50ms_rms_dbfs": -31.013,
+          "active_50ms_fraction": 0.0921
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -2.542,
+        "source_gain_peak_before_master_dbfs": -10.128,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            28.157,
+            28.207,
+            -19.73
+          ],
+          [
+            28.207,
+            28.257,
+            -32.02
+          ],
+          [
+            28.257,
+            28.307,
+            -37.69
+          ],
+          [
+            28.307,
+            28.357,
+            -42.77
+          ]
+        ]
+      },
+      "word_overlap": [
+        "up,"
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "catch",
+        "start": 27.757407,
+        "end": 28.016667
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "talk",
+        "start": 28.72037,
+        "end": 28.961111
+      }
+    },
+    {
+      "event": "busy",
+      "at": 36.283704,
+      "end": 38.739204,
+      "file": "res://common/audio/sfx/notification.mp3",
+      "catalog_id": "viral_notification",
+      "source_sha256": "b1559967dedb7994a82371f10cec9f7f3992e6b147b4cd88d62112bcdc3f9ba3",
+      "validated_existing_asset": true,
+      "source_duration": 2.4555,
+      "gain_db": -10,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -25.138,
+          "peak_dbfs": 0.429,
+          "active_50ms_rms_dbfs": -21.246,
+          "active_50ms_fraction": 0.4072
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -26.364,
+          "peak_dbfs": -7.502,
+          "active_50ms_rms_dbfs": -23.622,
+          "active_50ms_fraction": 0.5316
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -30.173,
+          "peak_dbfs": -9.625,
+          "active_50ms_rms_dbfs": -26.716,
+          "active_50ms_fraction": 0.4502
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -5.624,
+        "source_gain_peak_before_master_dbfs": -9.571,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            36.334,
+            36.384,
+            -25.2
+          ],
+          [
+            36.384,
+            36.434,
+            -21.77
+          ],
+          [
+            36.434,
+            36.484,
+            -25.25
+          ],
+          [
+            36.484,
+            36.534,
+            -20.24
+          ],
+          [
+            36.534,
+            36.584,
+            -20.58
+          ],
+          [
+            36.584,
+            36.634,
+            -23.44
+          ],
+          [
+            36.634,
+            36.684,
+            -25.95
+          ],
+          [
+            36.684,
+            36.734,
+            -27.44
+          ],
+          [
+            36.734,
+            36.784,
+            -28.89
+          ],
+          [
+            36.784,
+            36.834,
+            -30.55
+          ],
+          [
+            36.834,
+            36.884,
+            -32.08
+          ],
+          [
+            36.884,
+            36.934,
+            -33.18
+          ],
+          [
+            36.934,
+            36.984,
+            -34.24
+          ],
+          [
+            36.984,
+            37.034,
+            -35.35
+          ],
+          [
+            37.034,
+            37.084,
+            -36.74
+          ],
+          [
+            37.084,
+            37.134,
+            -38.07
+          ],
+          [
+            37.134,
+            37.184,
+            -40.1
+          ],
+          [
+            37.184,
+            37.234,
+            -41.77
+          ],
+          [
+            37.234,
+            37.284,
+            -42.9
+          ],
+          [
+            37.284,
+            37.334,
+            -44.03
+          ]
+        ]
+      },
+      "word_overlap": [
+        "busy,",
+        "and",
+        "I",
+        "just",
+        "stared"
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "were",
+        "start": 36.163704,
+        "end": 36.283704
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "at",
+        "start": 39.043704,
+        "end": 39.203704
+      }
+    },
+    {
+      "event": "typing",
+      "at": 74.901111,
+      "end": 76.101111,
+      "file": "res://common/audio/sfx/phone/phone_smartphone_typing_01.wav",
+      "catalog_id": "phone_smartphone_typing_01",
+      "source_sha256": "a6e78230a05f296da7ebdec974c667fad3887cc254b17351eece18b358f08758",
+      "validated_existing_asset": true,
+      "source_duration": 1.2,
+      "gain_db": -10,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -23.573,
+          "peak_dbfs": 1.093,
+          "active_50ms_rms_dbfs": -17.552,
+          "active_50ms_fraction": 0.25
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -27.709,
+          "peak_dbfs": -12.44,
+          "active_50ms_rms_dbfs": -25.8,
+          "active_50ms_fraction": 0.6429
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -27.733,
+          "peak_dbfs": -13.171,
+          "active_50ms_rms_dbfs": -27.164,
+          "active_50ms_fraction": 0.875
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": 0.248,
+        "source_gain_peak_before_master_dbfs": -8.907,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            74.901,
+            74.951,
+            -23.5
+          ],
+          [
+            75.001,
+            75.051,
+            -22.73
+          ],
+          [
+            75.251,
+            75.301,
+            -22.74
+          ],
+          [
+            75.501,
+            75.551,
+            -22.74
+          ],
+          [
+            75.651,
+            75.701,
+            -22.73
+          ],
+          [
+            75.901,
+            75.951,
+            -22.74
+          ]
+        ]
+      },
+      "word_overlap": [
+        "text",
+        "my",
+        "friends",
+        "all",
+        "excited,"
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "I'd",
+        "start": 73.734444,
+        "end": 74.901111
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "hoping",
+        "start": 76.697407,
+        "end": 77.252963
+      }
+    },
+    {
+      "event": "school_send",
+      "at": 78.438148,
+      "end": 78.803836,
+      "file": "res://common/audio/sfx/click.mp3",
+      "catalog_id": "viral_click",
+      "source_sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "validated_existing_asset": true,
+      "source_duration": 0.365688,
+      "gain_db": -7,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -27.695,
+          "peak_dbfs": -2.383,
+          "active_50ms_rms_dbfs": -25.075,
+          "active_50ms_fraction": 0.5469
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -27.63,
+          "peak_dbfs": -12.44,
+          "active_50ms_rms_dbfs": -26.012,
+          "active_50ms_fraction": 0.688
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -28.262,
+          "peak_dbfs": -16.625,
+          "active_50ms_rms_dbfs": -28.262,
+          "active_50ms_fraction": 1.0
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -4.063,
+        "source_gain_peak_before_master_dbfs": -9.383,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            78.438,
+            78.488,
+            -37.99
+          ],
+          [
+            78.488,
+            78.538,
+            -23.27
+          ],
+          [
+            78.538,
+            78.588,
+            -26.48
+          ],
+          [
+            78.588,
+            78.638,
+            -36.81
+          ]
+        ]
+      },
+      "word_overlap": [
+        "same",
+        "energy."
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "that",
+        "start": 78.197407,
+        "end": 78.438148
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "I'd",
+        "start": 79.614074,
+        "end": 80.206667
+      }
+    },
+    {
+      "event": "small_reply",
+      "at": 83.41963,
+      "end": 84.73963,
+      "file": "res://common/audio/sfx/ping.mp3",
+      "catalog_id": "viral_ping",
+      "source_sha256": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91",
+      "validated_existing_asset": true,
+      "source_duration": 1.32,
+      "gain_db": -6,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -31.725,
+          "peak_dbfs": -1.487,
+          "active_50ms_rms_dbfs": -26.591,
+          "active_50ms_fraction": 0.303
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -24.537,
+          "peak_dbfs": -6.151,
+          "active_50ms_rms_dbfs": -22.686,
+          "active_50ms_fraction": 0.6528
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -34.631,
+          "peak_dbfs": -18.173,
+          "active_50ms_rms_dbfs": -30.415,
+          "active_50ms_fraction": 0.3788
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -7.905,
+        "source_gain_peak_before_master_dbfs": -7.487,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            83.72,
+            83.77,
+            -23.71
+          ],
+          [
+            83.77,
+            83.82,
+            -24.62
+          ],
+          [
+            83.82,
+            83.87,
+            -25.84
+          ],
+          [
+            83.87,
+            83.92,
+            -28.85
+          ],
+          [
+            83.92,
+            83.97,
+            -31.69
+          ],
+          [
+            83.97,
+            84.02,
+            -34.26
+          ],
+          [
+            84.02,
+            84.07,
+            -36.78
+          ],
+          [
+            84.07,
+            84.12,
+            -39.19
+          ],
+          [
+            84.12,
+            84.17,
+            -41.68
+          ],
+          [
+            84.17,
+            84.22,
+            -44.21
+          ]
+        ]
+      },
+      "word_overlap": [
+        "small.",
+        "And"
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "so",
+        "start": 83.16037,
+        "end": 83.41963
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "suddenly,",
+        "start": 84.938148,
+        "end": 85.358148
+      }
+    },
+    {
+      "event": "mistake",
+      "at": 92.118148,
+      "end": 92.241148,
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_03.ogg",
+      "catalog_id": "drawing_scratch_scribble_03",
+      "source_sha256": "2d80371b55ebe2e8b916b84093a8ae7717d09a80c6b617079ade5bd0dacba7b7",
+      "validated_existing_asset": true,
+      "source_duration": 0.123,
+      "gain_db": -10,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -18.5,
+          "peak_dbfs": -0.566,
+          "active_50ms_rms_dbfs": -18.5,
+          "active_50ms_fraction": 1.0
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -23.946,
+          "peak_dbfs": -4.704,
+          "active_50ms_rms_dbfs": -23.158,
+          "active_50ms_fraction": 0.8325
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -26.666,
+          "peak_dbfs": -9.796,
+          "active_50ms_rms_dbfs": -25.767,
+          "active_50ms_fraction": 0.813
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -3.342,
+        "source_gain_peak_before_master_dbfs": -10.566,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            92.118,
+            92.168,
+            -22.36
+          ],
+          [
+            92.168,
+            92.218,
+            -28.3
+          ],
+          [
+            92.218,
+            92.241,
+            -21.9
+          ]
+        ]
+      },
+      "word_overlap": [
+        "spelling"
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "a",
+        "start": 91.998148,
+        "end": 92.118148
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "mistake",
+        "start": 92.418148,
+        "end": 92.818148
+      }
+    },
+    {
+      "event": "remember",
+      "at": 110.618148,
+      "end": 111.387148,
+      "file": "res://common/audio/sfx/paper/paper_page_flip_01.ogg",
+      "catalog_id": "paper_page_flip_01",
+      "source_sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+      "validated_existing_asset": true,
+      "source_duration": 0.769,
+      "gain_db": -7,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -26.993,
+          "peak_dbfs": 3.277,
+          "active_50ms_rms_dbfs": -23.609,
+          "active_50ms_fraction": 0.4553
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -28.158,
+          "peak_dbfs": -7.058,
+          "active_50ms_rms_dbfs": -23.601,
+          "active_50ms_fraction": 0.35
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -26.091,
+          "peak_dbfs": -10.455,
+          "active_50ms_rms_dbfs": -25.019,
+          "active_50ms_fraction": 0.7802
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -5.008,
+        "source_gain_peak_before_master_dbfs": -3.723,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            110.868,
+            110.918,
+            -42.28
+          ],
+          [
+            110.918,
+            110.968,
+            -37.47
+          ],
+          [
+            110.968,
+            111.018,
+            -39.22
+          ],
+          [
+            111.018,
+            111.068,
+            -36.66
+          ],
+          [
+            111.068,
+            111.118,
+            -43.34
+          ],
+          [
+            111.118,
+            111.168,
+            -44.3
+          ],
+          [
+            111.168,
+            111.218,
+            -17.85
+          ],
+          [
+            111.218,
+            111.268,
+            -31.98
+          ],
+          [
+            111.268,
+            111.318,
+            -34.65
+          ]
+        ]
+      },
+      "word_overlap": [
+        "remember",
+        "people."
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "I",
+        "start": 109.998148,
+        "end": 110.618148
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "I",
+        "start": 112.138148,
+        "end": 112.758148
+      }
+    },
+    {
+      "event": "keepsake",
+      "at": 114.278148,
+      "end": 115.372148,
+      "file": "res://common/audio/sfx/paper/paper_slide_desk_01.wav",
+      "catalog_id": "paper_slide_desk_01",
+      "source_sha256": "2e945267f56208884153867d062838888e6bddc92b512e130aa9566255ad36bb",
+      "validated_existing_asset": true,
+      "source_duration": 1.094,
+      "gain_db": -7,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -29.548,
+          "peak_dbfs": 2.297,
+          "active_50ms_rms_dbfs": -25.19,
+          "active_50ms_fraction": 0.3656
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -25.726,
+          "peak_dbfs": -9.787,
+          "active_50ms_rms_dbfs": -23.502,
+          "active_50ms_fraction": 0.5984
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -24.245,
+          "peak_dbfs": -11.271,
+          "active_50ms_rms_dbfs": -23.382,
+          "active_50ms_fraction": 0.8172
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -6.688,
+        "source_gain_peak_before_master_dbfs": -4.703,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            114.278,
+            114.328,
+            -44.01
+          ],
+          [
+            114.328,
+            114.378,
+            -37.53
+          ],
+          [
+            114.378,
+            114.428,
+            -36.17
+          ],
+          [
+            114.428,
+            114.478,
+            -27.99
+          ],
+          [
+            114.478,
+            114.528,
+            -30.76
+          ],
+          [
+            114.528,
+            114.578,
+            -33.02
+          ],
+          [
+            114.578,
+            114.628,
+            -25.1
+          ],
+          [
+            114.628,
+            114.678,
+            -21.22
+          ],
+          [
+            114.678,
+            114.728,
+            -35.69
+          ]
+        ]
+      },
+      "word_overlap": [
+        "carry",
+        "little",
+        "bits",
+        "of",
+        "them",
+        "around,"
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "I",
+        "start": 113.678148,
+        "end": 114.278148
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "even",
+        "start": 115.978148,
+        "end": 116.378148
+      }
+    },
+    {
+      "event": "storage",
+      "at": 122.098148,
+      "end": 122.915127,
+      "file": "res://common/audio/sfx/bruh.mp3",
+      "catalog_id": "viral_bruh",
+      "source_sha256": "6a04c34422d17b5ad0a62baaf5810dab7e19aa06baf5cbe2002fc750486ff170",
+      "validated_existing_asset": true,
+      "source_duration": 0.816979,
+      "gain_db": -18,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -11.358,
+          "peak_dbfs": 0.295,
+          "active_50ms_rms_dbfs": -9.639,
+          "active_50ms_fraction": 0.6732
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -24.783,
+          "peak_dbfs": -7.375,
+          "active_50ms_rms_dbfs": -22.977,
+          "active_50ms_fraction": 0.6594
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -240.0,
+          "peak_dbfs": -240.0,
+          "active_50ms_rms_dbfs": -240.0,
+          "active_50ms_fraction": 0.0
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -2.662,
+        "source_gain_peak_before_master_dbfs": -17.705,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            122.098,
+            122.148,
+            -43.88
+          ],
+          [
+            122.148,
+            122.198,
+            -34.23
+          ],
+          [
+            122.198,
+            122.248,
+            -22.96
+          ],
+          [
+            122.248,
+            122.298,
+            -19.02
+          ],
+          [
+            122.298,
+            122.348,
+            -19.91
+          ],
+          [
+            122.348,
+            122.398,
+            -20.91
+          ],
+          [
+            122.398,
+            122.448,
+            -22.65
+          ],
+          [
+            122.448,
+            122.498,
+            -20.59
+          ],
+          [
+            122.498,
+            122.548,
+            -23.23
+          ],
+          [
+            122.548,
+            122.598,
+            -31.8
+          ]
+        ]
+      },
+      "word_overlap": [],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "plan.",
+        "start": 121.578148,
+        "end": 121.978148
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "I'm",
+        "start": 122.988148,
+        "end": 123.228148
+      }
+    },
+    {
+      "event": "less",
+      "at": 134.318148,
+      "end": 135.518148,
+      "file": "res://common/audio/sfx/drawing/drawing_pencil_sketch_01.wav",
+      "catalog_id": "drawing_pencil_sketch_01",
+      "source_sha256": "d12d2f74087fd2aae52e83e5aab812bec44ac282ca63397ad1915eccb7425745",
+      "validated_existing_asset": true,
+      "source_duration": 1.2,
+      "gain_db": -18,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -16.444,
+          "peak_dbfs": -1.377,
+          "active_50ms_rms_dbfs": -16.444,
+          "active_50ms_fraction": 1.0
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -25.703,
+          "peak_dbfs": -8.661,
+          "active_50ms_rms_dbfs": -23.454,
+          "active_50ms_fraction": 0.5952
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -38.775,
+          "peak_dbfs": -17.731,
+          "active_50ms_rms_dbfs": -30.994,
+          "active_50ms_fraction": 0.1667
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -8.99,
+        "source_gain_peak_before_master_dbfs": -19.377,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            134.318,
+            134.368,
+            -28.68
+          ],
+          [
+            134.368,
+            134.418,
+            -25.66
+          ],
+          [
+            134.418,
+            134.468,
+            -26.49
+          ],
+          [
+            134.468,
+            134.518,
+            -33.02
+          ],
+          [
+            134.518,
+            134.568,
+            -43.14
+          ],
+          [
+            134.568,
+            134.618,
+            -33.98
+          ],
+          [
+            134.618,
+            134.668,
+            -32.56
+          ],
+          [
+            134.668,
+            134.718,
+            -31.41
+          ],
+          [
+            134.718,
+            134.768,
+            -33.68
+          ],
+          [
+            134.768,
+            134.818,
+            -36.02
+          ],
+          [
+            134.818,
+            134.868,
+            -40.19
+          ],
+          [
+            134.868,
+            134.918,
+            -38.45
+          ],
+          [
+            134.918,
+            134.968,
+            -31.06
+          ],
+          [
+            134.968,
+            135.018,
+            -26.98
+          ],
+          [
+            135.018,
+            135.068,
+            -32.88
+          ],
+          [
+            135.068,
+            135.118,
+            -29.21
+          ],
+          [
+            135.118,
+            135.168,
+            -33.47
+          ],
+          [
+            135.168,
+            135.218,
+            -32.0
+          ],
+          [
+            135.218,
+            135.268,
+            -33.82
+          ],
+          [
+            135.268,
+            135.318,
+            -27.05
+          ],
+          [
+            135.318,
+            135.368,
+            -29.77
+          ],
+          [
+            135.368,
+            135.418,
+            -25.23
+          ],
+          [
+            135.418,
+            135.468,
+            -27.44
+          ],
+          [
+            135.468,
+            135.518,
+            -26.64
+          ]
+        ]
+      },
+      "word_overlap": [],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "less.",
+        "start": 133.928148,
+        "end": 134.188148
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "I",
+        "start": 135.808148,
+        "end": 135.968148
+      }
+    },
+    {
+      "event": "phone_down",
+      "at": 137.768148,
+      "end": 138.034148,
+      "file": "res://common/audio/sfx/impacts/impact_wood_tap_02.ogg",
+      "catalog_id": "impact_wood_tap_02",
+      "source_sha256": "4b76bf3ccc8e60d19188f3165b778a7817786faa6887c55d9049bcbeef3b425f",
+      "validated_existing_asset": true,
+      "source_duration": 0.266,
+      "gain_db": -10,
+      "measurements": {
+        "source": {
+          "rms_dbfs": -21.0,
+          "peak_dbfs": 2.076,
+          "active_50ms_rms_dbfs": -16.815,
+          "active_50ms_fraction": 0.3807
+        },
+        "nearby_narration_source": {
+          "rms_dbfs": -25.772,
+          "peak_dbfs": -8.766,
+          "active_50ms_rms_dbfs": -23.992,
+          "active_50ms_fraction": 0.6632
+        },
+        "voice_exact_cue_window_source": {
+          "rms_dbfs": -26.068,
+          "peak_dbfs": -16.129,
+          "active_50ms_rms_dbfs": -26.068,
+          "active_50ms_fraction": 1.0
+        },
+        "active_rms_delta_vs_nearby_voice_after_fixed_minus2_db": -0.823,
+        "source_gain_peak_before_master_dbfs": -7.924,
+        "sfx_active50ms_blocks_after_master": [
+          [
+            137.768,
+            137.818,
+            -19.12
+          ],
+          [
+            137.818,
+            137.868,
+            -44.38
+          ]
+        ]
+      },
+      "word_overlap": [
+        "down."
+      ],
+      "previous_word": {
+        "actor": "nemi",
+        "word": "phone",
+        "start": 137.488148,
+        "end": 137.768148
+      },
+      "next_word": {
+        "actor": "nemi",
+        "word": "I",
+        "start": 138.608148,
+        "end": 139.048148
+      }
+    }
+  ],
+  "conclusions": [
+    "All17cue files validate against existing catalog provenance; rootMP3 hashes pinned.",
+    "No SFX interval overlaps another SFX interval.",
+    "School typing/send/reply attacks are separated; contractpaper and pen attacks separated0.65s.",
+    "Storage commentary lies inside a short authored narration gap; see actual10msvoiceblocks and exactwordbounds.",
+    "Emotional hurt/missed/Neeko reflection/finalmyself have no newSFX.",
+    "Perceptual listening was not performed; numeric activelevels are comparative evidence only."
+  ],
+  "method": "FFmpeg mono float48kHz decode. ActiveRMS uses50msblocks above\u221240dBFS before sourcegain. Nearbyvoice uses cueinterval\u00b11.5s with sameactivecriterion; actualnarrationfixed\u22122dB applied for comparison. Gain is linear; no EQ/compression/ducking/pitch processing. Encoded truepeak must<=\u22121dBFS."
+}
