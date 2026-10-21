@@ -2,8 +2,8 @@
   "episode": "nemi_ep15",
   "workflow": "built-in image generation",
   "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail references",
-  "selected": null,
-  "user_selected": false,
+  "selected": "C",
+  "user_selected": true,
   "candidates": [
     {
       "id": "A",
@@ -34,7 +34,7 @@
       "jpg": "revisions/r2_c_i_need_you/thumbnail.jpg",
       "prompt": "revisions/r2_c_i_need_you/PROMPT.md",
       "qa": "revisions/r2_c_i_need_you/QA.json",
-      "status": "current candidate"
+      "status": "user-approved; sole selected thumbnail"
     },
     {
       "id": "D",
@@ -45,12 +45,19 @@
       "jpg": "revisions/r2_d_dont_go/thumbnail.jpg",
       "prompt": "revisions/r2_d_dont_go/PROMPT.md",
       "qa": "revisions/r2_d_dont_go/QA.json",
-      "status": "current candidate"
+      "status": "preserved alternative; not current delivery"
     }
   ],
-  "current_candidate_ids": [
-    "C",
-    "D"
-  ],
-  "revision_request": "uh no, i need a better clickbait thumbnail, like nemi being a needy girl a little lewd expression"
+  "current_candidate_ids": [],
+  "revision_request": "uh no, i need a better clickbait thumbnail, like nemi being a needy girl a little lewd expression",
+  "approval_quote": "C \u2014 I NEED YOU\u2026 (sleeve grab)",
+  "approval_date": "2026-10-21",
+  "headline": "I NEED YOU...",
+  "title": "I Get Attached Way Too Much",
+  "native": "thumbnail.png",
+  "upload": "thumbnail.jpg",
+  "prompt": "PROMPT.md",
+  "qa": "QA.json",
+  "native_sha256": "82793d56ccfc41b2781a17dea7eac7a345fdf9e683cc5c3f2d109fc2698955a3",
+  "upload_sha256": "670018f0eff0a4cbe19dcd2ec3ef72bc9200ab8f55b9f877db52c0262d33dc18"
 }
