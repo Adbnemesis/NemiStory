@@ -6107,7 +6107,7 @@
       "end": 145.357778,
       "position": [
         1070,
-        580
+        535
       ],
       "scale": [
         1.0,
@@ -6122,20 +6122,21 @@
     },
     {
       "author": "nemi",
-      "kind": "attachment_phone_rest",
+      "kind": "phone",
       "at": 147.157778,
       "end": 152.577778,
       "position": [
-        1210,
-        610
+        1430,
+        612
       ],
       "scale": [
-        1.0,
-        1.0
+        1.1,
+        1.1
       ],
       "mode": "hold",
       "layer": 2,
-      "event": "phone_down"
+      "event": "phone_down",
+      "tilt": 90
     }
   ],
   "props": [

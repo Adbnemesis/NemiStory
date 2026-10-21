@@ -224,8 +224,9 @@ art('text',E['storage'],end('storage_aside'),pos=(1070,660),text='storage full',
 art('text',cut('worth_revision')['start'],end('worth_revision'),pos=(1010,400),text='i matter less',size=50,accent=True)
 revision=art('scratch',E['less']+.65,end('worth_revision'),pos=(1200,440),scale=2.5,mode='live',draw_duration=.5,event_id='less')
 revision['event_offset']=.65
-art('text',E['less']+1.2,end('worth_revision'),pos=(1070,580),text='still me',size=56,mode='live',draw_duration=.75)
-art('attachment_phone_rest',E['phone_down'],end('own_day'),pos=(1210,610),scale=1.0,event_id='phone_down')
+art('text',E['less']+1.2,end('worth_revision'),pos=(1070,535),text='still me',size=56,mode='live',draw_duration=.75)
+resting_phone=art('phone',E['phone_down'],end('own_day'),pos=(1430,612),scale=1.1,event_id='phone_down')
+resting_phone['tilt']=90
 
 # A phone is already in Nemi's hand on the invitation cut. The grip is continuous
 # through the city reply, then is cleared with the next cut; no false pickup.
@@ -284,7 +285,9 @@ for pick in palette['cues']:
     cue=dict(file=pick['file'],at=r(at),duration=1.2 if name=='less' else pick['duration'],gain_db=pick['gain_db'],event=name)
     if delta:cue['event_offset']=delta
     sfx.append(cue)
-    sound_plan.append(dict(**pick,at=r(at)))
+    record=dict(pick)
+    record.update(at=r(at),event=name,source_palette_event=pick['event'],duration=cue['duration'],event_offset=delta)
+    sound_plan.append(record)
 
 vfx=[dict(author='nemi',kind='realization',actor='nemi',offset=[100,-80],at=E['contract'],end=r(E['contract']+.65),strength=.55,event='contract'),
      dict(author='nemi',kind='tension',actor='nemi',offset=[100,-60],at=E['busy'],end=r(E['busy']+.6),strength=.55,event='busy'),
