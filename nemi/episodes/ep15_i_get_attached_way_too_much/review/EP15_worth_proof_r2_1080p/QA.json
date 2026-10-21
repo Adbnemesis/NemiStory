@@ -1,0 +1,47 @@
+{
+  "movie": "res://renders/nemi_ep15/EP15_worth_proof_r2_1080p.mp4",
+  "sha256": "019631e3ce22daef541301944b4010a3c53aa6671ce2a6c9a676637f5cd01e90",
+  "spec_sha256": "81d448841c54b8ae707ce43ec14c45d53e6592b89eeeb6a78e83e695e3c96fd6",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "10.000000",
+        "nb_read_frames": "300"
+      }
+    ],
+    "format": {
+      "duration": "10.000000"
+    }
+  },
+  "duration_seconds": 10.0,
+  "window_start": 138.0,
+  "hard_cap_seconds": 180,
+  "full_decode_passed": true,
+  "audio": {
+    "integrated_lufs": -21.6,
+    "true_peak_dbfs": -6.8
+  },
+  "caption_cards": 107,
+  "all_cards_at_most_five_words": true,
+  "sfx_assets_validated": true,
+  "stills_scene_seconds": [
+    138.3,
+    140.418,
+    140.718,
+    142.938,
+    145.258,
+    145.558,
+    147.8,
+    147.958
+  ],
+  "subjective_visual_review": "pending inspection of resulting stills and playback",
+  "acoustic_listening": "not performed: this tool session cannot perceive audio; measured levels and independent ASR are recorded separately",
+  "lipsync": "Measured word intervals with authored existing vowel/closure vocabulary; no phoneme-perfect claim",
+  "user_satisfaction": "pending current complete 1080p review",
+  "four_k_rendered": false
+}
