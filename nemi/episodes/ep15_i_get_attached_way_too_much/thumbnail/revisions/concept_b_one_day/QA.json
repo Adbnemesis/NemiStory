@@ -1,0 +1,48 @@
+{
+  "concept": "B",
+  "headline": "ONE DAY?",
+  "proposed_title": "I Came All That Way\u2026 and We Didn\u2019t Meet",
+  "status": "candidate; selection pending",
+  "generator": "built-in image_gen",
+  "source_generated_path": "/Users/talus/.codex/generated_images/01a15da1-83f9-7c92-8177-80dec78c8ed5/exec-3298daa7-a78c-4d91-806c-cfd3179529c7.png",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "native_png_sha256": "bb30ceb825f68e4c2596459b7ea2df5d0efea1e39129fa6d18a3c4808fd07d02",
+  "upload_jpg_dimensions": [
+    1280,
+    720
+  ],
+  "upload_jpg_sha256": "a2e74875df79e25608114313279cbdfb941c42629072b97942d2e329658bf978",
+  "conversion": "Native PNG unchanged; upload/review copies use LANCZOS fit to16:9 with minimal centre crop if needed; no upscale.",
+  "references": [
+    {
+      "file": "references/raora_typography_reference.png",
+      "source": "references/thumbnail_ref/thumbnail_set_raora.png",
+      "role": "typography/background/cutout reference",
+      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e"
+    },
+    {
+      "file": "references/approved_nemi_ep10.png",
+      "source": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "role": "approved illustrated thumbnail finish",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8"
+    },
+    {
+      "file": "references/canonical_ep15_r5.jpg",
+      "source": "nemi/episodes/ep15_i_get_attached_way_too_much/review/NEMI_EP15_I_Get_Attached_Way_Too_Much_r5_1080p_REVIEW/frame_000_000.200s.jpg",
+      "role": "actual target episode identity",
+      "sha256": "4951d7f089715e3b1c65fd433fb808550cc7b6626a9ea4b78508228a23e9ed87"
+    }
+  ],
+  "full_size_inspection": "Inspected actual generated full image beside canonical episode and style references. Exact singleheadline, green eyes/redorange fringe/ahoge/greenhoodie, clean hands and emotion, bright palechecker and bold outlinedtype pass. Type clips no letters; hair reaches frame edge intentionally. No extra labels or watermark.",
+  "human_approval": false,
+  "platform_uploaded": false,
+  "native_4k_claim": false,
+  "exact_rig_export": false,
+  "mobile_inspection": {
+    "320x180": "Inspected side-by-side in mobile_comparison.png: exact headline readable, eye/mouth emotion clear, props recognizable, strong cutout edges.",
+    "160x90": "Inspected tiny versions: headlines and faces remain clear. A photo details simplify at tiny scale but heart/attachment promise remains; B suitcase and two grey reply bubbles remain recognizable."
+  }
+}
