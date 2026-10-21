@@ -12,7 +12,8 @@
       "png": "revisions/concept_a_too_attached/thumbnail.png",
       "jpg": "revisions/concept_a_too_attached/thumbnail.jpg",
       "prompt": "revisions/concept_a_too_attached/PROMPT.md",
-      "qa": "revisions/concept_a_too_attached/QA.json"
+      "qa": "revisions/concept_a_too_attached/QA.json",
+      "status": "superseded: user requested bolder, needy/flirtatious expression"
     },
     {
       "id": "B",
@@ -21,7 +22,35 @@
       "png": "revisions/concept_b_one_day/thumbnail.png",
       "jpg": "revisions/concept_b_one_day/thumbnail.jpg",
       "prompt": "revisions/concept_b_one_day/PROMPT.md",
-      "qa": "revisions/concept_b_one_day/QA.json"
+      "qa": "revisions/concept_b_one_day/QA.json",
+      "status": "superseded: user requested bolder, needy/flirtatious expression"
+    },
+    {
+      "id": "C",
+      "revision": 2,
+      "headline": "I NEED YOU...",
+      "proposed_title": "I Get Attached Way Too Much",
+      "png": "revisions/r2_c_i_need_you/thumbnail.png",
+      "jpg": "revisions/r2_c_i_need_you/thumbnail.jpg",
+      "prompt": "revisions/r2_c_i_need_you/PROMPT.md",
+      "qa": "revisions/r2_c_i_need_you/QA.json",
+      "status": "current candidate"
+    },
+    {
+      "id": "D",
+      "revision": 2,
+      "headline": "DON\u2019T GO...",
+      "proposed_title": "I Get Attached Way Too Much",
+      "png": "revisions/r2_d_dont_go/thumbnail.png",
+      "jpg": "revisions/r2_d_dont_go/thumbnail.jpg",
+      "prompt": "revisions/r2_d_dont_go/PROMPT.md",
+      "qa": "revisions/r2_d_dont_go/QA.json",
+      "status": "current candidate"
     }
-  ]
+  ],
+  "current_candidate_ids": [
+    "C",
+    "D"
+  ],
+  "revision_request": "uh no, i need a better clickbait thumbnail, like nemi being a needy girl a little lewd expression"
 }

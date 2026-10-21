@@ -1,0 +1,128 @@
+{
+  "movie": "nemi/episodes/ep15_i_get_attached_way_too_much/renders/NEMI_EP15_I_Get_Attached_Way_Too_Much_r5_4K_FINAL.mp4",
+  "movie_sha256": "802dc36a534d45c4fbd4d4554a8e54ad0b3a01cf2830d958f454e311020db2a8",
+  "scene_sha256": "6b9a5c5b8b17f1cd87294a0e7247f961ad426507655e7c64341603e76640a88b",
+  "render_inputs_sha256": "818a6655a19a57bed6615bc6b4b8ded9d2d507d2580e7992e311383d26283e20",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "4506"
+      }
+    ],
+    "format": {
+      "duration": "150.200000"
+    }
+  },
+  "full_decode_passed": true,
+  "encoded_audio": {
+    "integrated_lufs": -23.3,
+    "true_peak_dbfs": -2.9
+  },
+  "compressed_audio_packets_identical_to_user_approved_preview": true,
+  "audio_packet_sha256": "e2f81872aaf327880f2c4f91870e2d8ebc5593c78213036d689d132bf3b14668",
+  "native_4k_render": "Fresh Godot3840x2160 rasterization through normalrender_scene.py --4k; not an upscale.",
+  "user_approval_receipt": "review/1080P_APPROVAL.json",
+  "samples": [
+    {
+      "seconds": 7.9,
+      "file": "review/final_4k/frame_0007.90s.png",
+      "native_dimensions": [
+        3840,
+        2160
+      ],
+      "downsample_vs_approved_mean_absolute_rgb_difference": 1.3977,
+      "p99_absolute_difference": 30.0
+    },
+    {
+      "seconds": 30.95,
+      "file": "review/final_4k/frame_0030.95s.png",
+      "native_dimensions": [
+        3840,
+        2160
+      ],
+      "downsample_vs_approved_mean_absolute_rgb_difference": 1.3386,
+      "p99_absolute_difference": 25.0
+    },
+    {
+      "seconds": 37.1,
+      "file": "review/final_4k/frame_0037.10s.png",
+      "native_dimensions": [
+        3840,
+        2160
+      ],
+      "downsample_vs_approved_mean_absolute_rgb_difference": 1.2085,
+      "p99_absolute_difference": 24.0
+    },
+    {
+      "seconds": 81.8,
+      "file": "review/final_4k/frame_0081.80s.png",
+      "native_dimensions": [
+        3840,
+        2160
+      ],
+      "downsample_vs_approved_mean_absolute_rgb_difference": 1.5225,
+      "p99_absolute_difference": 29.0
+    },
+    {
+      "seconds": 100.3,
+      "file": "review/final_4k/frame_0100.30s.png",
+      "native_dimensions": [
+        3840,
+        2160
+      ],
+      "downsample_vs_approved_mean_absolute_rgb_difference": 1.3625,
+      "p99_absolute_difference": 28.0
+    },
+    {
+      "seconds": 121.8,
+      "file": "review/final_4k/frame_0121.80s.png",
+      "native_dimensions": [
+        3840,
+        2160
+      ],
+      "downsample_vs_approved_mean_absolute_rgb_difference": 1.5086,
+      "p99_absolute_difference": 31.0
+    },
+    {
+      "seconds": 135.58,
+      "file": "review/final_4k/frame_0135.58s.png",
+      "native_dimensions": [
+        3840,
+        2160
+      ],
+      "downsample_vs_approved_mean_absolute_rgb_difference": 1.2892,
+      "p99_absolute_difference": 28.0
+    },
+    {
+      "seconds": 137.82,
+      "file": "review/final_4k/frame_0137.82s.png",
+      "native_dimensions": [
+        3840,
+        2160
+      ],
+      "downsample_vs_approved_mean_absolute_rgb_difference": 1.025,
+      "p99_absolute_difference": 21.0
+    },
+    {
+      "seconds": 149.8,
+      "file": "review/final_4k/frame_0149.80s.png",
+      "native_dimensions": [
+        3840,
+        2160
+      ],
+      "downsample_vs_approved_mean_absolute_rgb_difference": 0.9029,
+      "p99_absolute_difference": 18.0
+    }
+  ],
+  "visual_review": "Inspected nine-scene contact sheet and closing native4K image. Framing, captions, cream palette, props/contact and ink match approved R5. 4K-to1080 sample differences are consistent with fresh rasterization/encoding. No content changes.",
+  "playback": "Exercised entire native3840x2160 movie from0 to150.20 at1x in local browser; observed130.32/146.26 and ended150.20. Sampled visual inspection, not continuous human visual or acoustic audition.",
+  "acoustic_review": "User approved exact1080p mix;4K AAC packets identical. No new perceptual listening claimed.",
+  "cleanup_permitted_after_visual_checks": true,
+  "visual_review_passed": true,
+  "playback_review_passed": true
+}
