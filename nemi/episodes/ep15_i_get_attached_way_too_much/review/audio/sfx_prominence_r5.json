@@ -14,7 +14,11 @@
     "true_peak_dbfs": -2.5
   },
   "encoded_movie_audio": {
-    "status": "not yet present at numeric review"
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "integrated_lufs": -23.3,
+    "true_peak_dbfs": -2.9
   },
   "sfx_interval_overlaps": [],
   "storage_actual_narration_10ms_blocks_above_minus40_after_master": [
@@ -1641,5 +1645,7 @@
     "Emotional hurt/missed/Neeko reflection/finalmyself have no newSFX.",
     "Perceptual listening was not performed; numeric activelevels are comparative evidence only."
   ],
-  "method": "FFmpeg mono float48kHz decode. ActiveRMS uses50msblocks above\u221240dBFS before sourcegain. Nearbyvoice uses cueinterval\u00b11.5s with sameactivecriterion; actualnarrationfixed\u22122dB applied for comparison. Gain is linear; no EQ/compression/ducking/pitch processing. Encoded truepeak must<=\u22121dBFS."
+  "method": "FFmpeg mono float48kHz decode. ActiveRMS uses50msblocks above\u221240dBFS before sourcegain. Nearbyvoice uses cueinterval\u00b11.5s with sameactivecriterion; actualnarrationfixed\u22122dB applied for comparison. Gain is linear; no EQ/compression/ducking/pitch processing. Encoded truepeak must<=\u22121dBFS.",
+  "encoded_movie_sha256": "4cb4c036a52e032dd037babdd703d2175cbe1762bfcfc99faa0331ddfa6412b6",
+  "encoded_review_record": "review/audio/encoded_r5.json"
 }

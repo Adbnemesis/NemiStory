@@ -1,0 +1,60 @@
+{
+  "revision": "r5",
+  "source_branch": "codex/nemi-ep15-review",
+  "picture_mix_source_commit": "8a3f9c5",
+  "isolated_checkout": "/Users/talus/.codex/worktrees/nemi-ep15-review/adb",
+  "movie": "res://nemi/episodes/ep15_i_get_attached_way_too_much/renders/NEMI_EP15_I_Get_Attached_Way_Too_Much_r5_1080p_REVIEW.mp4",
+  "movie_sha256": "4cb4c036a52e032dd037babdd703d2175cbe1762bfcfc99faa0331ddfa6412b6",
+  "scene_sha256": "6b9a5c5b8b17f1cd87294a0e7247f961ad426507655e7c64341603e76640a88b",
+  "render_inputs_sha256": "818a6655a19a57bed6615bc6b4b8ded9d2d507d2580e7992e311383d26283e20",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "frame_count": 4506,
+  "duration_seconds": 150.2,
+  "original_user_range_seconds": [
+    150,
+    180
+  ],
+  "reduction_from_r4_seconds": 10.2,
+  "retained_words": 384,
+  "caption_cards": 107,
+  "authored_mouth_intervals": 823,
+  "drawings": 37,
+  "live_drawings": 22,
+  "settings": [
+    "attachment_home",
+    "attachment_cafe_r5",
+    "attachment_visit_r5",
+    "attachment_school_nook_r5",
+    "attachment_home_care_r5"
+  ],
+  "sfx_cues": 17,
+  "encoded_audio": {
+    "integrated_lufs": -23.3,
+    "true_peak_dbfs": -2.9
+  },
+  "preflight_current": true,
+  "full_validator_passed": true,
+  "five_engine_checks_passed": true,
+  "full_decode_passed": true,
+  "decoded_stills": 195,
+  "contact_sheets": 25,
+  "all_current_render_inputs_still_match_actual_capture": true,
+  "opening_review": "R5_FULL_REVIEW_OPENING.md",
+  "middle_review": "R5_FULL_REVIEW_MIDDLE.md",
+  "closing_review": "R5_FULL_REVIEW_CLOSING.md",
+  "timing_review": "R5_TIMING_REVIEW_FINAL.md with mix-only applicability in audio/R5_MIX_CORRECTION.json",
+  "pacing": "11 explicit waveform-safe silence windows plus selected shorter interline holds; same approved source recordings and phrase tempos. Emotional pauses preserved.",
+  "first_full_attempt": "Normal renderer rejected AAC truepeak; no movie saved. Complete normal rerender after measured1dB constant master attenuation.",
+  "playback": "Normal-speed browser playback exercised0.00 through150.20 with sampled pictures and final hold; no frame-by-frame perceptual or acoustic certification.",
+  "subjective_audio_listening": "Not performed: tool session cannot perceive audio. Independent ASR/waveform/correlation/activecuelevel and encoded truepeak checks passed; user listening review remains pending.",
+  "lipsync": "Measured word-clock approximations using supported vowel/closure controls; no phoneme-perfect claim.",
+  "older_movies_preserved": true,
+  "four_k_rendered": false,
+  "user_satisfaction": "Pending exact completeR5 full1080p review",
+  "approval_receipt_created": false,
+  "delivery_ready_for_user_review": true
+}

@@ -1,13 +1,19 @@
 # EP15 current production source
 
-The current cut is directed by `scene.json` and preserved as `scene_r4_1080p.json`. Runtime is 160.4 seconds (2:40.4), under the user's 180-second maximum and within the requested 150–180 seconds.
+The current R5 cut is directed by `scene_r5.json` and `tools/build_episode_r5.py`. Runtime150.2seconds (2:30.2) meets the user's150–180second request. Previous R4 `scene.json` and `scene_r4_1080p.json`, R3/R4 movies, original voice and earlier QA remain preserved.
 
-Stable source branch: `codex/nemi-ep15-review`. Picture revision commit: `5af2e0f`. Active managed checkout: `/Users/talus/.codex/worktrees/nemi-ep15-review/adb`.
+Stable source branch: `codex/nemi-ep15-review`. Current picture/mix source commit: `8a3f9c5`. Active managed checkout: `/Users/talus/.codex/worktrees/nemi-ep15-review/adb`. This isolated checkout avoids unrelated simultaneous production changes invalidating the exact render input signature. The renderer was not bypassed.
 
-This isolated checkout is necessary because another production added shared artwork during the first main-checkout capture. The normal renderer correctly rejected that unstable capture. It has not been bypassed or changed. All exports use the normal file-based validator, current episode preparation and shared renderer. A fresh Godot checkout needs its normal editor import/class-cache initialization; standard engine checks also need their existing small narration fixtures.
+Run the episode builder with the retained narration/SFX present, then the normal validator/renderer:
 
-Voice originals, final narration and movies remain local. The source metadata and voice plan pin exact original SHA-256 hashes. Copy the declared existing narration and SFX paths when reproducing this checkout; do not synthesize replacements and reuse old word times. The canonical Sohee config and actual synthesis-engine hashes are recorded separately. Later source regeneration may vary and needs new alignment.
+```sh
+python3 nemi/episodes/ep15_i_get_attached_way_too_much/tools/build_episode_r5.py
+python3 tools/storytime/validate_scene.py nemi/episodes/ep15_i_get_attached_way_too_much/scene_r5.json
+python3 tools/storytime/render_scene.py --spec nemi/episodes/ep15_i_get_attached_way_too_much/scene_r5.json --output nemi/episodes/ep15_i_get_attached_way_too_much/renders/NEW_REVISION_1080p.mp4
+```
 
-The complete 1080p cut is the user review deliverable. No 4K was rendered and no user approval receipt exists. Preserve this stable checkout and its declared narration/SFX until the user is satisfied and any approved 4K is complete. A future 4K must use this exact preview/input signature and the user's real satisfaction quote through the normal gate. Main-checkout shared source changes do not authorize rebinding approval.
+`tools/build_voice_plan_r5.py` reconstructs the exact R5 narration from the12hash-verified original Sohee recordings, fixed silence bounds and existing approved phrase tempos. It emits transformed exact word times and old/new map. The scene builder derives a copy of that metadata with61 city word actor aliases solely to support two non-simultaneous instances of the unchanged Nemi rig. Audio, author, source hashes and word intervals are identical. Do not synthesize replacement sources and reuse these timings.
 
-Logs, encoded audio reports and actual render stamps belong in `review/render_records/`; movie indices belong in `review/RENDERS.md`. Earlier proof movies and the superseded R3 full cut are retained. Final-only cleanup applies only after the user-approved final 4K passes checks. No unrelated episode cleanup is authorized.
+Voice originals, final narration and movies remain local; generated media is excluded from Git. Main-checkout files are synced for convenient review, but its unrelated shared source is not the reviewed isolated input signature. Future4K must use this exact isolated spec/input signature and the actual user's satisfaction quote through the normal approval gate. No quote/receipt exists yet.
+
+Logs, audio reports and capture stamps belong in `review/render_records/`; movie indices belong in `review/RENDERS.md`. Keep the stable checkout, all revisions, declared voice/SFX and review evidence until the user-approved final4K passes; only then apply episode-scoped final-only retention.
