@@ -12,6 +12,8 @@ ART |= {'crush_heart','wrong_homework','clue_board','ban_stamp','prank_plan','bl
 ART |= {'teacher_ordinary','teacher_distant','nemi_mother','curtain_closed','window_lit','evidence_phone','school_gate','school_notebook','watching_shadow'}
 ART |= {'route_map','route_main','route_detour','school_questions','unknown_contact','sealed_message','bedroom_lamp','window_sightline','evidence_folder','screenshot_stack','school_satchel','mother_phone','clock_light'}
 ART |= {'red_cup','red_cup_offered','thermo_laptop','thermo_diagram','anime_vs_physics','stolen_hoodie','anniversary_photo','comic_speech_bubble','sweat_drops','confusion_marks','sparkle_stars','heart_doodle','action_burst_mistake','potato_chart'}
+# Nemi-only authored catalog/example: EP15 ART_REFERENCE.md and art_example.json.
+ART |= {'attachment_invite','attachment_busy','attachment_reunion','attachment_messages','attachment_neeko','attachment_heart_thread','attachment_phone_rest'}
 HANDS = {'nemi': {'relaxed','pointing','fist','open','open_palm_up','finger_count_one','finger_count_two','finger_count_three','splayed_fingers','pinch','hold_prop','hand_to_chest','hand_to_cheek','hand_to_mouth','facepalm','hands_together','grip_strap'},
          'adb': {'relaxed','open_palm','pointing','fist','holding_cup','shrug_open','hand_to_chin'}}
 
@@ -107,7 +109,7 @@ def validate_production(spec, root, core_validate, check_assets=True):
         shot_ids.add(shot['id'])
         require(num(shot.get('start')) and num(shot.get('end')) and abs(shot['start']-previous)<1e-6 and shot['start']<shot['end']<=duration,'shots must cover the scene in order, without gaps/overlaps')
         previous=shot['end']
-        require(shot.get('background') in {'adb_computer_lab','adb_creator_studio_ep03','nemi_creator_studio','paper','room','thought','evening','studio_nemi','studio_adb','sf_street','sf_bridge','tech_auditorium','car_cabin','airport_road','roadside','school_classroom','school_corridor','school_courtyard','residential_lane','stationery_shop','home_curtain','school_office','school_day_r4','school_corridor_r4','school_courtyard_r4','school_street_r4','bedroom_evening_r4','lane_night_r4','school_office_r4','adb_studio_ep02','adb_dorm_party','adb_balcony_4am','adb_morning_panic'},'Unknown background')
+        require(shot.get('background') in {'attachment_home','attachment_city','adb_computer_lab','adb_creator_studio_ep03','nemi_creator_studio','paper','room','thought','evening','studio_nemi','studio_adb','sf_street','sf_bridge','tech_auditorium','car_cabin','airport_road','roadside','school_classroom','school_corridor','school_courtyard','residential_lane','stationery_shop','home_curtain','school_office','school_day_r4','school_corridor_r4','school_courtyard_r4','school_street_r4','bedroom_evening_r4','lane_night_r4','school_office_r4','adb_studio_ep02','adb_dorm_party','adb_balcony_4am','adb_morning_panic'},'Unknown background')
         require(isinstance(shot.get('actors'),dict),'shot actors must be an id → placement object')
         for id,placement in shot['actors'].items():
             require(id in ids,f'Unknown shot actor: {id}')
@@ -148,6 +150,8 @@ def validate_production(spec, root, core_validate, check_assets=True):
             require(item.get('author') in profiles,f'{group} {i}: author must have an actor')
             allowed=set(profiles[item['author']]['marks'])|ART|{'text'}
             require(item.get('kind') in allowed,f'{group} {i}: unknown art kind')
+            if item.get('kind','').startswith('attachment_'):
+                require(item['author']=='nemi',f'{group} {i}: attachment illustrations are authored for Nemi only')
             require(item.get('mode','hold') in {'hold','live'},'mode must be hold or live')
             if group=='props': require(item.get('mode','hold')=='hold','props use hold; live geometry belongs in drawings')
             if item.get('mode','hold')=='live': require('duration' in item,'live drawing duration is required')

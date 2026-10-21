@@ -1,0 +1,127 @@
+{
+  "audio_file": "nemi/episodes/ep15_i_get_attached_way_too_much/voice/narration_r1.wav",
+  "audio_sha256": "af800db1867104e5f089a04f0623a73e1069584e3337390b745bbe482fc1ef14",
+  "sample_rate": 24000,
+  "channels": 1,
+  "duration_seconds": 160.4,
+  "runtime_within_150_180": true,
+  "peak_dbfs": -4.381399623766643,
+  "rms_dbfs": -26.45422806033688,
+  "clipping_sample_count": 0,
+  "word_count": 384,
+  "source_count": 12,
+  "source_duration_total": 144.72,
+  "direct_acoustic_review_performed": false,
+  "source_pause_policy": "All source bounds 0.0\u2013full duration; no blanket silence trimming; every source pause and breath retained. Explicit per-thought tempos and separate authored reaction holds.",
+  "line_measures": [
+    {
+      "source_line": 0,
+      "tempo": 1.08,
+      "rms_dbfs": -27.0450373957442,
+      "peak_dbfs": -11.18370864522885
+    },
+    {
+      "source_line": 1,
+      "tempo": 1.08,
+      "rms_dbfs": -25.960514205894167,
+      "peak_dbfs": -5.0875496713779045
+    },
+    {
+      "source_line": 2,
+      "tempo": 1.08,
+      "rms_dbfs": -26.0989989063931,
+      "peak_dbfs": -5.183305129511135
+    },
+    {
+      "source_line": 3,
+      "tempo": 1.0,
+      "rms_dbfs": -26.34209919641158,
+      "peak_dbfs": -7.501980914143756
+    },
+    {
+      "source_line": 4,
+      "tempo": 1.0,
+      "rms_dbfs": -25.88143244937408,
+      "peak_dbfs": -6.229313810791841
+    },
+    {
+      "source_line": 5,
+      "tempo": 1.0,
+      "rms_dbfs": -25.416468397073025,
+      "peak_dbfs": -6.278871358129596
+    },
+    {
+      "source_line": 6,
+      "tempo": 1.08,
+      "rms_dbfs": -26.72787811363712,
+      "peak_dbfs": -8.267874847690585
+    },
+    {
+      "source_line": 7,
+      "tempo": 1.0,
+      "rms_dbfs": -23.255174656436893,
+      "peak_dbfs": -4.873560138481765
+    },
+    {
+      "source_line": 8,
+      "tempo": 1.0,
+      "rms_dbfs": -28.069193544286914,
+      "peak_dbfs": -4.381399623766643
+    },
+    {
+      "source_line": 9,
+      "tempo": 1.0,
+      "rms_dbfs": -28.005721825829326,
+      "peak_dbfs": -7.057710568733978
+    },
+    {
+      "source_line": 10,
+      "tempo": 1.0,
+      "rms_dbfs": -23.58528320130688,
+      "peak_dbfs": -5.381981970069235
+    },
+    {
+      "source_line": 11,
+      "tempo": 1.0,
+      "rms_dbfs": -26.638985117604058,
+      "peak_dbfs": -8.241135299723787
+    }
+  ],
+  "final_asr_comparison": {
+    "expected_word_count": 384,
+    "final_asr_word_count": 384,
+    "differences": [
+      {
+        "operation": "replace",
+        "source_words": [
+          "missed"
+        ],
+        "final_asr_words": [
+          "miss"
+        ],
+        "source_index": 174
+      },
+      {
+        "operation": "replace",
+        "source_words": [
+          "i"
+        ],
+        "final_asr_words": [
+          "i'd"
+        ],
+        "source_index": 246
+      },
+      {
+        "operation": "replace",
+        "source_words": [
+          "neeko"
+        ],
+        "final_asr_words": [
+          "nico"
+        ],
+        "source_index": 254
+      }
+    ],
+    "interpretation": "No missing sentences or blocks. Three lexical differences: final recognizer inflection missed/miss, initial I/Id, and proper name spelling. Per-source independent passes support the source timing text. These remain acoustic audition points, not silently changed audio."
+  }
+}

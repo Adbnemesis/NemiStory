@@ -1,0 +1,15 @@
+{
+  "word_corrections": [
+    {
+      "source_line": 8,
+      "word_index": 8,
+      "from": " Nico",
+      "to": " Neeko",
+      "reason": "Proper-name spelling supplied by user; preserves measured phonetic interval, no sound replacement."
+    }
+  ],
+  "evidence": "Twelve cache-only large-v3-turbo independent transcriptions compared to tiny. Large recognizer resolves work, attached, and I'd; no forced fabricated word intervals. Source08 article is the in both ASR passes; retained as recognized rather than forcing script a. Source07 should have is expanded in both ASR passes and retained.",
+  "direct_acoustic_review_performed": false,
+  "timing_interval_issues": [],
+  "status": "machine_crosscheck_complete; human audition pending"
+}
