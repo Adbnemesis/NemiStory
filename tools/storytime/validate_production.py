@@ -3,8 +3,10 @@ import copy
 import math
 from pathlib import Path
 
-ART = {'laptop','phone','mug','tabs','cloud','desk','suitcase','car','damaged_car','police_car','steering_wheel','boarding_pass','clipboard','flashlight','traffic_cone','tissue_box','seat_front'}
+ART = {'laptop','phone','mug','tabs','cloud','desk','suitcase','car','damaged_car','police_car','steering_wheel','boarding_pass','clipboard','flashlight','traffic_cone','tissue_box','seat_front','porcelain_bowl'}
 ART |= {'creator_reach_chart','creator_calendar','creator_comment','creator_story_pages','creator_upload','creator_draft_choices','creator_hour_steps','creator_viewers'}
+# EP17 Nemi evidence art; catalog and silent example live beside the episode.
+ART |= {'milestone_1000_card','milestone_bad_hand','milestone_redraw_hand','milestone_one_frame'}
 # Existing-field catalog/example: docs/animation/catalogs/SCHOOL_YOUTUBE_ART.md
 ART |= {'school_youtube_browser','school_youtube_phone','school_youtube_subscribers','school_youtube_peers','school_youtube_private_public','school_youtube_archive','school_youtube_then_now'}
 ART |= {'school_friend','school_friend_smile','school_friend_laugh','school_classmate','school_classmate_laugh','lunch_box','homework_notes','school_clock'}
@@ -12,8 +14,15 @@ ART |= {'crush_heart','wrong_homework','clue_board','ban_stamp','prank_plan','bl
 ART |= {'teacher_ordinary','teacher_distant','nemi_mother','curtain_closed','window_lit','evidence_phone','school_gate','school_notebook','watching_shadow'}
 ART |= {'route_map','route_main','route_detour','school_questions','unknown_contact','sealed_message','bedroom_lamp','window_sightline','evidence_folder','screenshot_stack','school_satchel','mother_phone','clock_light'}
 ART |= {'red_cup','red_cup_offered','thermo_laptop','thermo_diagram','anime_vs_physics','stolen_hoodie','anniversary_photo','comic_speech_bubble','sweat_drops','confusion_marks','sparkle_stars','heart_doodle','action_burst_mistake','potato_chart'}
+ART |= {'classroom_double_desk','crush_desk_partner','border_line_dispute','confession_paper_note','gossip_betrayal_tree','hallway_paralysis','twin_crush_disaster'}
+ART |= {'japanese_classroom_desk','japanese_blackboard','school_chat_phone','chat_bubble_outgoing_1','chat_bubble_outgoing_2','deactivated_contact_card','peaceful_delusion_badge','rival_boyfriend_diagram','blocked_stamp','broken_heart_doodle'}
+ART |= {'high_school_reshuffle_board','trio_seating_diagram','quiet_corner_desk','friend_group_doodle','why_did_you_block_me_bubble','she_forgot_doodle','math_half_yearly_exam','confession_text_screen','i_know_reply_bubble','high_school_anticlimax_badge'}
+ART |= {'post_confession_chat','hallway_fight_doodle','blocked_again_screen','five_year_breakup_timeline','wingmen_matchmaking_board','unblocked_notification','dating_again_announcement','pedestal_shattered','real_friends_desk','college_nemi_cameo'}
+ART |= {'scam_concert_poster','scam_sold_out_screen','scam_resale_listing','scam_detective_badge','scam_sherlock_pipe','scam_urgency_timer','scam_bank_transfer','scam_blocked_alert','scam_empty_wallet','scam_ghost_soul'}
 # Nemi-only authored catalog/example: EP15 ART_REFERENCE.md and art_example.json.
 ART |= {'attachment_invite','attachment_busy','attachment_reunion','attachment_messages','attachment_neeko','attachment_heart_thread','attachment_phone_rest'}
+# R5 Nemi-only stage overlays: EP15 ART_REFERENCE_R5.md and art_example_r5.json.
+ART |= {'attachment_school_message_frame', 'attachment_life_calendar', 'attachment_memory_keepsakes', 'attachment_message_edit_crossout', 'attachment_busy_second', 'attachment_journey_friends', 'attachment_school_message_build', 'attachment_memory_overflow', 'attachment_worth_reply', 'attachment_cafe_conversation', 'attachment_cafe_cup_three', 'attachment_worth_heart', 'attachment_school_message_second', 'attachment_time_apart', 'attachment_neeko_care', 'attachment_busy_pair', 'attachment_contract_scroll', 'attachment_journey_route', 'attachment_message_edit', 'attachment_cafe_cup_two', 'attachment_school_message_reply', 'attachment_cafe_cup_one', 'attachment_busy_first', 'attachment_school_message_first', 'attachment_memory_drawer', 'attachment_contract_seal'}
 HANDS = {'nemi': {'relaxed','pointing','fist','open','open_palm_up','finger_count_one','finger_count_two','finger_count_three','splayed_fingers','pinch','hold_prop','hand_to_chest','hand_to_cheek','hand_to_mouth','facepalm','hands_together','grip_strap'},
          'adb': {'relaxed','open_palm','pointing','fist','holding_cup','shrug_open','hand_to_chin'}}
 
@@ -109,7 +118,7 @@ def validate_production(spec, root, core_validate, check_assets=True):
         shot_ids.add(shot['id'])
         require(num(shot.get('start')) and num(shot.get('end')) and abs(shot['start']-previous)<1e-6 and shot['start']<shot['end']<=duration,'shots must cover the scene in order, without gaps/overlaps')
         previous=shot['end']
-        require(shot.get('background') in {'attachment_home','attachment_city','adb_computer_lab','adb_creator_studio_ep03','nemi_creator_studio','paper','room','thought','evening','studio_nemi','studio_adb','sf_street','sf_bridge','tech_auditorium','car_cabin','airport_road','roadside','school_classroom','school_corridor','school_courtyard','residential_lane','stationery_shop','home_curtain','school_office','school_day_r4','school_corridor_r4','school_courtyard_r4','school_street_r4','bedroom_evening_r4','lane_night_r4','school_office_r4','adb_studio_ep02','adb_dorm_party','adb_balcony_4am','adb_morning_panic'},'Unknown background')
+        require(shot.get('background') in {'attachment_visit_r5','attachment_cafe_r5','attachment_school_nook_r5','attachment_home_care_r5','attachment_home','attachment_city','adb_computer_lab','adb_creator_studio_ep03','nemi_creator_studio','paper','room','thought','evening','studio_nemi','studio_adb','sf_street','sf_bridge','tech_auditorium','car_cabin','airport_road','roadside','school_classroom','school_corridor','school_courtyard','residential_lane','stationery_shop','home_curtain','school_office','school_day_r4','school_corridor_r4','school_courtyard_r4','school_street_r4','bedroom_evening_r4','lane_night_r4','school_office_r4','adb_studio_ep02','adb_dorm_party','adb_balcony_4am','adb_morning_panic'},'Unknown background')
         require(isinstance(shot.get('actors'),dict),'shot actors must be an id → placement object')
         for id,placement in shot['actors'].items():
             require(id in ids,f'Unknown shot actor: {id}')
@@ -152,6 +161,8 @@ def validate_production(spec, root, core_validate, check_assets=True):
             require(item.get('kind') in allowed,f'{group} {i}: unknown art kind')
             if item.get('kind','').startswith('attachment_'):
                 require(item['author']=='nemi',f'{group} {i}: attachment illustrations are authored for Nemi only')
+            if item.get('kind','').startswith('milestone_'):
+                require(item['author']=='nemi',f'{group} {i}: milestone illustrations are authored for Nemi only')
             require(item.get('mode','hold') in {'hold','live'},'mode must be hold or live')
             if group=='props': require(item.get('mode','hold')=='hold','props use hold; live geometry belongs in drawings')
             if item.get('mode','hold')=='live': require('duration' in item,'live drawing duration is required')

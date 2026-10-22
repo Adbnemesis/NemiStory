@@ -1,0 +1,339 @@
+{
+  "movie": "/Users/talus/Documents/adb/nemi/episodes/ep16_im_embarrassed_to_tell_people_what_i_do/renders/NEMI_EP16_Embarrassed_r1_1080p_PROOF_10s.mp4",
+  "movie_sha256": "b0ad62c443dcc4b438d05823a1467b32518d429e6a16281742ac657b77220fd4",
+  "scene": "/Users/talus/Documents/adb/nemi/episodes/ep16_im_embarrassed_to_tell_people_what_i_do/scene.json",
+  "scene_sha256": "4983abc95f1c46264d5909f64650dede003acdbbd982f698802242fe93505df7",
+  "full_episode": false,
+  "window_start": 0.0,
+  "duration_seconds": 10.0,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "decoded_frames": 300
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "integrated_lufs": -19.6,
+    "true_peak_dbfs": -5.4
+  },
+  "full_decode": "passed without decoder diagnostics",
+  "exact_current_render_stamp": "matches scene, picture/voice inputs, movie and window",
+  "voice_sha256": "8cf5b750588a8f8126c8c59c7466c65369166394ee55edb34a766e1153c0dc51",
+  "waveform": {
+    "encoded_vs_fresh_mix_correlation": 0.9994947448823184,
+    "normalized_rms_error": 0.03187569133967403,
+    "voice_only_correlation": 0.9994179771159458,
+    "fitted_voice_gain_db": 2.665728460484053,
+    "voice_only_mask_samples": 270187,
+    "mask_correction": "SFX outside the review window now skip empty intersections rather than using negative Python slice indices. All voice-only stats recomputed once; media unchanged."
+  },
+  "sfx_overlaps": [],
+  "sfx_prominence": [
+    {
+      "event": "question",
+      "at": 1.729075,
+      "end": 2.379075,
+      "file": "res://common/audio/sfx/stings/sting_question_chime_01.ogg",
+      "catalog_id": "sting_question_chime_01",
+      "sha256": "abb8f9e4eb2071491b0b15f84ee302386b1847609310c1b000ae174639a6cc5a",
+      "gain_db": -10,
+      "source": {
+        "rms_dbfs": -11.7662,
+        "peak_dbfs": -0.8961,
+        "active_50ms_rms_dbfs": -11.7662,
+        "active_50ms_fraction": 1.0
+      },
+      "nearby_voice": {
+        "rms_dbfs": -24.4147,
+        "peak_dbfs": -4.978,
+        "active_50ms_rms_dbfs": -21.4671,
+        "active_50ms_fraction": 0.50685
+      },
+      "active_rms_db_relative_to_nearby_voice": 1.701
+    },
+    {
+      "event": "creative",
+      "at": 19.95596,
+      "end": 20.90596,
+      "file": "res://common/audio/sfx/drawing/drawing_pencil_write_short_01.wav",
+      "catalog_id": "drawing_pencil_write_short_01",
+      "sha256": "dc1d1fa8499b41c584e46f2a036fd925da2e2c0c9f7030055f5102adde42c06b",
+      "gain_db": -9,
+      "source": {
+        "rms_dbfs": -37.1606,
+        "peak_dbfs": -19.713,
+        "active_50ms_rms_dbfs": -35.0745,
+        "active_50ms_fraction": 0.54637
+      },
+      "nearby_voice": {
+        "rms_dbfs": -26.2055,
+        "peak_dbfs": -7.4069,
+        "active_50ms_rms_dbfs": -21.8605,
+        "active_50ms_fraction": 0.36709
+      },
+      "active_rms_db_relative_to_nearby_voice": -20.214
+    },
+    {
+      "event": "repeat",
+      "at": 21.465051,
+      "end": 22.115050999999998,
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_01.ogg",
+      "catalog_id": "drawing_scratch_scribble_01",
+      "sha256": "5c294d2e1a6b6d07ee2d75b17105a55ad3527e5482dd60652dc49c2ea4c70096",
+      "gain_db": -8,
+      "source": {
+        "rms_dbfs": -12.2975,
+        "peak_dbfs": -0.8126,
+        "active_50ms_rms_dbfs": -12.2975,
+        "active_50ms_fraction": 1.0
+      },
+      "nearby_voice": {
+        "rms_dbfs": -26.0446,
+        "peak_dbfs": -7.4069,
+        "active_50ms_rms_dbfs": -22.9789,
+        "active_50ms_fraction": 0.49315
+      },
+      "active_rms_db_relative_to_nearby_voice": 4.681
+    },
+    {
+      "event": "computer",
+      "at": 38.155993,
+      "end": 38.971993000000005,
+      "file": "res://common/audio/sfx/bruh.mp3",
+      "catalog_id": "viral_bruh",
+      "sha256": "6a04c34422d17b5ad0a62baaf5810dab7e19aa06baf5cbe2002fc750486ff170",
+      "gain_db": -12,
+      "source": {
+        "rms_dbfs": -11.3525,
+        "peak_dbfs": 0.2954,
+        "active_50ms_rms_dbfs": -9.6393,
+        "active_50ms_fraction": 0.67402
+      },
+      "nearby_voice": {
+        "rms_dbfs": -21.6138,
+        "peak_dbfs": -3.4459,
+        "active_50ms_rms_dbfs": -19.4166,
+        "active_50ms_fraction": 0.60273
+      },
+      "active_rms_db_relative_to_nearby_voice": -0.223
+    },
+    {
+      "event": "phone",
+      "at": 41.687845,
+      "end": 42.087845,
+      "file": "res://common/audio/sfx/pop.mp3",
+      "catalog_id": "viral_pop",
+      "sha256": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "gain_db": -9,
+      "source": {
+        "rms_dbfs": -20.6481,
+        "peak_dbfs": -0.1794,
+        "active_50ms_rms_dbfs": -14.6348,
+        "active_50ms_fraction": 0.25
+      },
+      "nearby_voice": {
+        "rms_dbfs": -22.7251,
+        "peak_dbfs": -6.0578,
+        "active_50ms_rms_dbfs": -21.0306,
+        "active_50ms_fraction": 0.67647
+      },
+      "active_rms_db_relative_to_nearby_voice": -0.604
+    },
+    {
+      "event": "video",
+      "at": 46.573401,
+      "end": 46.938401,
+      "file": "res://common/audio/sfx/click.mp3",
+      "catalog_id": "viral_click",
+      "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "gain_db": -8,
+      "source": {
+        "rms_dbfs": -27.6872,
+        "peak_dbfs": -2.3832,
+        "active_50ms_rms_dbfs": -25.0746,
+        "active_50ms_fraction": 0.54795
+      },
+      "nearby_voice": {
+        "rms_dbfs": -23.234,
+        "peak_dbfs": -5.0221,
+        "active_50ms_rms_dbfs": -20.432,
+        "active_50ms_fraction": 0.52452
+      },
+      "active_rms_db_relative_to_nearby_voice": -10.643
+    },
+    {
+      "event": "hair",
+      "at": 51.740067,
+      "end": 52.340067000000005,
+      "file": "res://common/audio/sfx/paper/paper_page_flip_01.ogg",
+      "catalog_id": "paper_page_flip_01",
+      "sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+      "gain_db": -8,
+      "source": {
+        "rms_dbfs": -26.1589,
+        "peak_dbfs": 3.2772,
+        "active_50ms_rms_dbfs": -22.3911,
+        "active_50ms_fraction": 0.41667
+      },
+      "nearby_voice": {
+        "rms_dbfs": -25.5808,
+        "peak_dbfs": -6.199,
+        "active_50ms_rms_dbfs": -23.7302,
+        "active_50ms_fraction": 0.65278
+      },
+      "active_rms_db_relative_to_nearby_voice": -4.661
+    },
+    {
+      "event": "joke",
+      "at": 60.911919,
+      "end": 61.511919,
+      "file": "res://common/audio/sfx/ui/ui_confirm_chime_01.ogg",
+      "catalog_id": "ui_confirm_chime_01",
+      "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a",
+      "gain_db": -10,
+      "source": {
+        "rms_dbfs": -11.313,
+        "peak_dbfs": -0.9274,
+        "active_50ms_rms_dbfs": -11.313,
+        "active_50ms_fraction": 1.0
+      },
+      "nearby_voice": {
+        "rms_dbfs": -25.1378,
+        "peak_dbfs": -4.5546,
+        "active_50ms_rms_dbfs": -22.131,
+        "active_50ms_fraction": 0.5
+      },
+      "active_rms_db_relative_to_nearby_voice": 2.818
+    },
+    {
+      "event": "next",
+      "at": 88.631919,
+      "end": 89.23191899999999,
+      "file": "res://common/audio/sfx/paper/paper_page_flip_02.ogg",
+      "catalog_id": "paper_page_flip_02",
+      "sha256": "3409042acbfaebc24c1a6327dc073e36f9250841712e96c5040da566a97df73c",
+      "gain_db": -9,
+      "source": {
+        "rms_dbfs": -34.329,
+        "peak_dbfs": -6.7333,
+        "active_50ms_rms_dbfs": -33.4878,
+        "active_50ms_fraction": 0.81313
+      },
+      "nearby_voice": {
+        "rms_dbfs": -23.646,
+        "peak_dbfs": -8.2217,
+        "active_50ms_rms_dbfs": -21.7019,
+        "active_50ms_fraction": 0.63889
+      },
+      "active_rms_db_relative_to_nearby_voice": -18.786
+    },
+    {
+      "event": "claim",
+      "at": 96.691919,
+      "end": 97.541919,
+      "file": "res://common/audio/sfx/drawing/drawing_pencil_letters_01.wav",
+      "catalog_id": "drawing_pencil_letters_01",
+      "sha256": "8536d6356fa8c997dc6796f4ec9748b6a88383537cb5479cbd8f01b6ab6fc456",
+      "gain_db": -9,
+      "source": {
+        "rms_dbfs": -36.1977,
+        "peak_dbfs": -14.5728,
+        "active_50ms_rms_dbfs": -31.0052,
+        "active_50ms_fraction": 0.29412
+      },
+      "nearby_voice": {
+        "rms_dbfs": -26.2591,
+        "peak_dbfs": -6.2282,
+        "active_50ms_rms_dbfs": -23.5324,
+        "active_50ms_fraction": 0.53247
+      },
+      "active_rms_db_relative_to_nearby_voice": -14.473
+    },
+    {
+      "event": "hands",
+      "at": 100.651919,
+      "end": 101.201919,
+      "file": "res://common/audio/sfx/paper/paper_book_open_01.ogg",
+      "catalog_id": "paper_book_open_01",
+      "sha256": "953390534377222bee89ac8cd9e60a58fdc037c71a4d7c18c43cd647c7f34ba8",
+      "gain_db": -10,
+      "source": {
+        "rms_dbfs": -31.2221,
+        "peak_dbfs": -10.4934,
+        "active_50ms_rms_dbfs": -29.4326,
+        "active_50ms_fraction": 0.66198
+      },
+      "nearby_voice": {
+        "rms_dbfs": -26.4887,
+        "peak_dbfs": -7.0574,
+        "active_50ms_rms_dbfs": -24.419,
+        "active_50ms_fraction": 0.61972
+      },
+      "active_rms_db_relative_to_nearby_voice": -13.014
+    }
+  ],
+  "stills": [
+    {
+      "file": "frame_000_000.200s.jpg",
+      "scene_time": 0.2
+    },
+    {
+      "file": "frame_001_001.624s.jpg",
+      "scene_time": 1.624
+    },
+    {
+      "file": "frame_002_003.148s.jpg",
+      "scene_time": 3.148
+    },
+    {
+      "file": "frame_003_003.448s.jpg",
+      "scene_time": 3.448
+    },
+    {
+      "file": "frame_004_005.112s.jpg",
+      "scene_time": 5.112
+    },
+    {
+      "file": "frame_005_006.876s.jpg",
+      "scene_time": 6.876
+    },
+    {
+      "file": "frame_006_007.176s.jpg",
+      "scene_time": 7.176
+    },
+    {
+      "file": "frame_007_008.197s.jpg",
+      "scene_time": 8.197
+    },
+    {
+      "file": "frame_008_009.318s.jpg",
+      "scene_time": 9.318
+    },
+    {
+      "file": "frame_009_009.618s.jpg",
+      "scene_time": 9.618
+    },
+    {
+      "file": "frame_010_009.800s.jpg",
+      "scene_time": 9.8
+    }
+  ],
+  "subjective_visual_review": "Inspected contact_01 andcontact_02: recognizable cream caf\u00e9/table/chairs/cups/window, canonical Nemi colours, visible full body/feet in establishing shots and thoughtful portrait reaction, captions visible. No obvious duplicate prop or arm/hand deformation in these sampled stills. Actual continuous playback was unavailable; no motion/pacing or acoustic approval.",
+  "perceptual_audio_listening": "unperformed; numeric correlation, truepeak and SFX prominence are evidence only",
+  "user_full_1080p_satisfaction": "pending",
+  "four_k_rendered": false,
+  "scope": "10-second R1 proof audited against exact then-current scene/source signatures; later scene revisions do not retrospectively change this audit or constitute final delivery.",
+  "scene_sfx_cue_count": 11,
+  "window_sfx_cue_count": 1,
+  "visual_revision_note": "Author identified computer-work lettering overlapping the pendant and plans episode-only reposition. These stills/proof remain original evidence, not the revised full cut.",
+  "scene_snapshot": "scene_at_audit.json",
+  "snapshot_provenance": "Author restored original R1 label positions from build revision; exact bytes SHA256matches original proof stamp and independent audit. Current revisions remain separate.",
+  "voice_generation_runtime_sha256": {
+    "tools/tts/config.py": "e40065f248800836e45e48b95af92a745bf1564c17552c1a2eb4a87956223e66",
+    "tools/tts/engine.py": "768dc188162a50884d1d8f97bc4614ffc3b9294a8bb526edec39fef7dbe9736a"
+  },
+  "voice_runtime_provenance_record": "../audio/GENERATION_RUNTIME.json"
+}

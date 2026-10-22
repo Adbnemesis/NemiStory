@@ -1,0 +1,28 @@
+{
+  "source_spec": "scene_r5_1080p.json",
+  "caption_cards": 71,
+  "max_caption_words": 5,
+  "duration_seconds": 107.4,
+  "voices": "Canonical Sohee sources retained, hashes recorded; no identity/pitch/formant/EQ changes.",
+  "checked": [
+    "Complete current preflight with genuine episode-specific application notes",
+    "Original12source hashes and independent cached large-v3-turbo word transcription",
+    "Explicit phrase tempo/gap plan and final242word timeline hash",
+    "Full validator including source narration/caption alignment",
+    "Existing engine check suite independently passed",
+    "Fresh10second opening proof stills",
+    "Fresh48second integrated last-half stills including rightgrip release boundaries",
+    "Numerical source/prominence and encodedAudioQA",
+    "R5 measured exact author lettering widths and revised two-line cafe labels",
+    "Fresh R5 ten-second label proof stills independently reviewed by parent",
+    "Current builder reproduced R5 snapshot byte-for-byte; SHA recorded",
+    "CompleteR5current1080p export,exact107.4s3222frames,fullAVdecode,stamp match,37sampledstills and encoded-1.6dBTP"
+  ],
+  "pending": [
+    "Actual real-time playback through an accessible surface",
+    "Perceptual acoustic listening and phoneme-perfect close-up review",
+    "User satisfaction with exact current full1080p cut"
+  ],
+  "no_4k": true,
+  "current_source": "scene_r5_1080p.json"
+}

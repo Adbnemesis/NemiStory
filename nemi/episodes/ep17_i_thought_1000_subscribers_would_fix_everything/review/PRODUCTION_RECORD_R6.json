@@ -1,0 +1,61 @@
+{
+  "title": "i thought 1,000 subscribers would fix everything",
+  "current_scene": "scene_r6_1080p.json",
+  "duration": 114.43333333333334,
+  "hard_runtime_cap": 120,
+  "resolution": "1920x1080",
+  "four_k_status": "Not authorized: requires explicit satisfaction with current full1080p cut",
+  "voice": {
+    "speaker": "sohee",
+    "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+    "identity_prompt": "Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful.",
+    "source_generation_speed": 1.0,
+    "source_count": 11,
+    "source_words": "source_words.json",
+    "final_audio": "voice/narration_r3.wav",
+    "final_audio_sha256": "804a5879bdfd2eb8658c6e9b975d12f46c2515cf3162cb87c03c14351fc661c9",
+    "final_timing": "timing_reference_r3.json",
+    "pacing_record": "review/PACING_R3.json"
+  },
+  "checks": {
+    "full_schema_and_current_preflight": true,
+    "new_art_engine_test": true,
+    "rig_library_edits": false,
+    "max_caption_words": 5,
+    "final_word_boundaries": "Measured approximate ASR; six uncertain sources independently checked with cached large-v3-turbo",
+    "audio_audition": false,
+    "actual_video_playback": "unperformed",
+    "reason": "Audio input unsupported; browser video control disabled in current tool session. No automatic ASR/numeric claim replaces perceptual review.",
+    "perceptual_audio_listening": "unperformed",
+    "decoded_still_review": "10s original/corrected insert, notebook grip entry+release, label fit, integrated60s all12sampledthoughtstates, fullface details",
+    "full_decode": true,
+    "encoded_voice_correlation": 0.999456,
+    "encoded_mix_correlation": 0.999379,
+    "whole_cut_still_review": "R5allshots86samples reviewed; onlycroppedlabel revised inR6 and independently measured; R6changedshot freshproof inspected.",
+    "all_five_profile_text_bounds_inside_frame": true,
+    "text_bounds_record": "review/TEXT_BOUNDS_R6.json",
+    "changed_label_full_movie_still_review": "Actual R6full49.4sframe inspected; complete nobodywatching with space at rightedge; matches fresh proof and exact bounds."
+  },
+  "revision": "R6: exact measured bounds and complete nobody-watching label; all other picture/voice/mix unchanged fromR5",
+  "current_full_review": "renders/NEMI_EP17_1000_Subscribers_r6_1080p_REVIEW.mp4",
+  "full_export": {
+    "file": "renders/NEMI_EP17_1000_Subscribers_r6_1080p_REVIEW.mp4",
+    "sha256": "5bcbb5b40c0b3551623fdf3ea21f60016f415c9983c9a6d9145da617e36e80a9",
+    "duration": 114.433333,
+    "decoded_video_frames": 3433,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "encoded_audio": {
+      "format": "AAC",
+      "sample_rate": 48000,
+      "channels": 2,
+      "integrated_lufs": -21.3,
+      "true_peak_dbfs": -1.8
+    },
+    "exact_stamp": "review/render_records/NEMI_EP17_1000_Subscribers_r6_1080p_REVIEW.review_stamp.json",
+    "independent_audit": "review/independent_full_r6/INDEPENDENT_QA.json"
+  }
+}

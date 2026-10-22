@@ -1,0 +1,9 @@
+# EP16 R5 complete current 1080p cut
+
+Full A/V decode passes. Video is1920×1080 at30FPS, exactly107.400seconds and3,222decoded frames. AAC duration matches107.400seconds. The render stamp matches the exact immutable R5spec and movie hashes. Encoded audio measures−19.9LUFS and−1.6dB truepeak. An independent reviewer confirmed the expected narration-plus-SFX mix with0.999316correlation and eleven nonoverlapping event cues.
+
+Inspected all37planned frames: every one of the32shot centres, both sides of phone entry and release ownership, and the settled ending. Full-size label details at21.406and29.801seconds confirm legible short Nemi lettering with clearance from the cafe pendant cable. The two-line labels keep their original size; no shrinking or caption collision is introduced. Full-body shots retain a consistent actor-to-chair/table scale with feet on the shared floor. Both arms and wrists remain readable. The phone grip persists until the narrator’s studio cut at92.731919; hands are relaxed afterward and late gestures have no empty grip or leaked angle. The final face settles into a small private smile.
+
+No new actionable visual issue was found in sampled frames. Scenery is intentionally simple and recognizable; live short revisions, held video/draft evidence, Nemi’s poses/expressions, thought-led camera and finite existing SFX progress sequentially around one focus. This is a sampled-frame/technical review, not real-time playback.
+
+Actual real-time playback and acoustic listening remain unperformed because the available tools could not access those modalities. Word-derived mouth vowels/closures are approximate, not measured phonemes. These limitations are explicitly preserved for user review. No user satisfaction receipt has been recorded and no4Kmovie has been exported.

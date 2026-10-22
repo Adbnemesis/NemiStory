@@ -1,0 +1,91 @@
+{
+  "duration": 114.43333333333334,
+  "source_duration": 113.84000000000002,
+  "tempos": [
+    1.1,
+    1.1,
+    1.0,
+    1.1,
+    1.1,
+    1.0,
+    1.1,
+    1.1,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "holds": [
+    0.35,
+    0.4,
+    0.5,
+    0.7,
+    0.55,
+    0.75,
+    0.65,
+    0.6,
+    0.7,
+    0.8,
+    1.7
+  ],
+  "selected_gap_edits": [
+    {
+      "line": 3,
+      "start": 7.1,
+      "end": 7.8,
+      "reason": "frame / Same hand",
+      "rms_dbfs": -79.289729,
+      "peak_dbfs": -70.308999
+    },
+    {
+      "line": 4,
+      "start": 5.35,
+      "end": 5.95,
+      "reason": "checkpoint / Why",
+      "rms_dbfs": -92.292675,
+      "peak_dbfs": -78.267799
+    },
+    {
+      "line": 8,
+      "start": 4.6,
+      "end": 5.0,
+      "reason": "digits / People",
+      "rms_dbfs": -77.609372,
+      "peak_dbfs": -67.386438
+    }
+  ],
+  "word_group_repairs": [
+    {
+      "line": 3,
+      "alignment": "independent cached whisper-large-v3-turbo source words",
+      "acoustic_review_pending": true
+    },
+    {
+      "line": 5,
+      "alignment": "independent cached whisper-large-v3-turbo source words",
+      "acoustic_review_pending": true
+    },
+    {
+      "line": 6,
+      "alignment": "independent cached whisper-large-v3-turbo source words",
+      "acoustic_review_pending": true
+    },
+    {
+      "line": 7,
+      "alignment": "independent cached whisper-large-v3-turbo source words",
+      "acoustic_review_pending": true
+    },
+    {
+      "line": 8,
+      "alignment": "independent cached whisper-large-v3-turbo source words",
+      "acoustic_review_pending": true
+    },
+    {
+      "line": 10,
+      "alignment": "independent cached whisper-large-v3-turbo source words",
+      "acoustic_review_pending": true
+    }
+  ],
+  "identity_policy": "Unchanged canonical Sohee CustomVoice; source1.00; atempo only",
+  "acoustic_audition_performed": false,
+  "final_word_review_required": true
+}

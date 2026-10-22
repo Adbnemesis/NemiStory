@@ -1,0 +1,139 @@
+{
+  "narration_sha256": "8cf5b750588a8f8126c8c59c7466c65369166394ee55edb34a766e1153c0dc51",
+  "method": "Decode each selected exact source at original rate; apply declared source gain; compare to nearby narration after fixed-2dB voice mixer gain. Master constant affects both equally.",
+  "limits": "This does not establish perceptual audibility or replace listening. No synthesis, processing or alternate mix was made.",
+  "cues": [
+    {
+      "event": "question",
+      "at": 1.729075,
+      "file": "res://common/audio/sfx/stings/sting_question_chime_01.ogg",
+      "source_sha256": "abb8f9e4eb2071491b0b15f84ee302386b1847609310c1b000ae174639a6cc5a",
+      "source_gain_db": -16,
+      "duration": 0.65,
+      "sfx_rms_dbfs": -27.77,
+      "sfx_peak_dbfs": -16.91,
+      "nearby_voice_rms_dbfs": -33.93,
+      "sfx_rms_relative_to_nearby_voice_db": 6.16
+    },
+    {
+      "event": "creative",
+      "at": 19.95596,
+      "file": "res://common/audio/sfx/drawing/drawing_pencil_sketch_01.wav",
+      "source_sha256": "d12d2f74087fd2aae52e83e5aab812bec44ac282ca63397ad1915eccb7425745",
+      "source_gain_db": -11,
+      "duration": 0.95,
+      "sfx_rms_dbfs": -28.79,
+      "sfx_peak_dbfs": -14.72,
+      "nearby_voice_rms_dbfs": -27.56,
+      "sfx_rms_relative_to_nearby_voice_db": -1.23
+    },
+    {
+      "event": "repeat",
+      "at": 21.465051,
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_01.ogg",
+      "source_sha256": "5c294d2e1a6b6d07ee2d75b17105a55ad3527e5482dd60652dc49c2ea4c70096",
+      "source_gain_db": -13,
+      "duration": 0.65,
+      "sfx_rms_dbfs": -25.77,
+      "sfx_peak_dbfs": -15.0,
+      "nearby_voice_rms_dbfs": -25.67,
+      "sfx_rms_relative_to_nearby_voice_db": -0.1
+    },
+    {
+      "event": "computer",
+      "at": 38.155993,
+      "file": "res://common/audio/sfx/bruh.mp3",
+      "source_sha256": "6a04c34422d17b5ad0a62baaf5810dab7e19aa06baf5cbe2002fc750486ff170",
+      "source_gain_db": -12,
+      "duration": 0.816,
+      "sfx_rms_dbfs": -23.35,
+      "sfx_peak_dbfs": -11.7,
+      "nearby_voice_rms_dbfs": -35.5,
+      "sfx_rms_relative_to_nearby_voice_db": 12.15
+    },
+    {
+      "event": "phone",
+      "at": 41.687845,
+      "file": "res://common/audio/sfx/pop.mp3",
+      "source_sha256": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "source_gain_db": -9,
+      "duration": 0.4,
+      "sfx_rms_dbfs": -29.65,
+      "sfx_peak_dbfs": -9.17,
+      "nearby_voice_rms_dbfs": -21.76,
+      "sfx_rms_relative_to_nearby_voice_db": -7.89
+    },
+    {
+      "event": "video",
+      "at": 46.573401,
+      "file": "res://common/audio/sfx/click.mp3",
+      "source_sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "source_gain_db": -8,
+      "duration": 0.365,
+      "sfx_rms_dbfs": -35.98,
+      "sfx_peak_dbfs": -11.47,
+      "nearby_voice_rms_dbfs": -26.64,
+      "sfx_rms_relative_to_nearby_voice_db": -9.34
+    },
+    {
+      "event": "hair",
+      "at": 51.740067,
+      "file": "res://common/audio/sfx/paper/paper_page_flip_01.ogg",
+      "source_sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+      "source_gain_db": -8,
+      "duration": 0.6,
+      "sfx_rms_dbfs": -34.22,
+      "sfx_peak_dbfs": -4.79,
+      "nearby_voice_rms_dbfs": -25.85,
+      "sfx_rms_relative_to_nearby_voice_db": -8.37
+    },
+    {
+      "event": "joke",
+      "at": 60.911919,
+      "file": "res://common/audio/sfx/ui/ui_confirm_chime_01.ogg",
+      "source_sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a",
+      "source_gain_db": -16,
+      "duration": 0.6,
+      "sfx_rms_dbfs": -27.31,
+      "sfx_peak_dbfs": -16.93,
+      "nearby_voice_rms_dbfs": -32.09,
+      "sfx_rms_relative_to_nearby_voice_db": 4.78
+    },
+    {
+      "event": "next",
+      "at": 88.631919,
+      "file": "res://common/audio/sfx/paper/paper_book_paging_single_01.wav",
+      "source_sha256": "d9299ed2bee5ff3743702d4d961f48d3cc4370bb48eb2c3ef51af12c4bc3937a",
+      "source_gain_db": -10,
+      "duration": 0.6,
+      "sfx_rms_dbfs": -31.99,
+      "sfx_peak_dbfs": -8.94,
+      "nearby_voice_rms_dbfs": -27.36,
+      "sfx_rms_relative_to_nearby_voice_db": -4.63
+    },
+    {
+      "event": "claim",
+      "at": 96.691919,
+      "file": "res://common/audio/sfx/drawing/drawing_pencil_sketch_01.wav",
+      "source_sha256": "d12d2f74087fd2aae52e83e5aab812bec44ac282ca63397ad1915eccb7425745",
+      "source_gain_db": -10,
+      "duration": 0.85,
+      "sfx_rms_dbfs": -27.59,
+      "sfx_peak_dbfs": -13.72,
+      "nearby_voice_rms_dbfs": -25.52,
+      "sfx_rms_relative_to_nearby_voice_db": -2.07
+    },
+    {
+      "event": "hands",
+      "at": 100.651919,
+      "file": "res://common/audio/sfx/paper/paper_page_flip_03.ogg",
+      "source_sha256": "c85db5dceb3f1df073e960630277eaa88a5afda0477c1ddd68dad707621767be",
+      "source_gain_db": -6,
+      "duration": 0.6,
+      "sfx_rms_dbfs": -35.64,
+      "sfx_peak_dbfs": -8.8,
+      "nearby_voice_rms_dbfs": -29.88,
+      "sfx_rms_relative_to_nearby_voice_db": -5.76
+    }
+  ]
+}

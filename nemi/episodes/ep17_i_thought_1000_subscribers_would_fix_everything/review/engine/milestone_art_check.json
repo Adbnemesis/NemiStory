@@ -1,0 +1,14 @@
+{
+  "check": "targeted current Milestone art registration/engine stage test",
+  "outcome": "passed",
+  "art_example_full_scene_validator": "passed via normal validate_scene.py including current preflight",
+  "known_unrelated_headless_diagnostic": "get_system_ca_certificates ret != noErr; same recognized diagnostic as shared engine checker",
+  "actual_render_or_playback_review": "not performed by this engine test",
+  "source_sha256": {
+    "common/storytime/production/MilestoneEpisodeArt.gd": "99bf84e23963ac588cbe46805b961804e47fbc0150a24a126ff6ef705f233c2f",
+    "common/storytime/production/SceneArt.gd": "4deceef07feb84af2b62f5e17e5de375c6776122fcb39e543785be7ff1a4a919",
+    "tools/storytime/validate_production.py": "efe047b135dbe976e48d306578e291dbefe25dacc28604d0d17e20272349cdb5",
+    "docs/animation/STORYTIME_DIRECTION_WORKFLOW.md": "cb8edaa0462480ffcc8acff1b4d4ef5d60f484458e6a9e702c6d079cc780f8c8",
+    "nemi/episodes/ep17_i_thought_1000_subscribers_would_fix_everything/art_example.json": "defc98b355bcfbb2da40626f4aba3826548995ce5fc885f8e53de8a7fbd049ce"
+  }
+}

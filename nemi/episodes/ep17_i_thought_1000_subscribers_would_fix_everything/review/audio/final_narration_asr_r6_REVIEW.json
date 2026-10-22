@@ -1,0 +1,17 @@
+{
+  "raw_asr_record": "final_narration_asr_r6.json",
+  "raw_asr_record_sha256": "28712ca10752091b58e38c39ac8b970910412e80b3744cad99273a01a56799ef",
+  "audio_sha256": "804a5879bdfd2eb8658c6e9b975d12f46c2515cf3162cb87c03c14351fc661c9",
+  "normalized_token_similarity": 0.9895615866388309,
+  "semantic_review": "No omitted story content found. 1,000 is split into two ASR tokens. The final narration ASR hears reached in I'd reached the checkpoint, matching intended story/script; existing timing metadata and caption transcribe reach. The minor caption grammar discrepancy does not indicate missing recorded narration.",
+  "minor_caption_discrepancy": {
+    "start": 39.428182,
+    "end": 40.537273,
+    "current": "I'd reach the checkpoint.",
+    "intended_and_asr": "I'd reached the checkpoint.",
+    "status": "reported to parent; no scene/media changes made during independent final QA"
+  },
+  "timing_limits": "Median matched word start difference0.020909s; max0.850909s confirms independent ASR timing is approximate and cannot certify phoneme-perfect sync. Existing manually refined timing unchanged.",
+  "acoustic_listening": "unperformed; independent transcription evidence only",
+  "scene_or_media_changed": false
+}

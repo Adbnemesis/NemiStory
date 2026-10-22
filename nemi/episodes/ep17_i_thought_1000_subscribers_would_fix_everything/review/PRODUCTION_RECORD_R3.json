@@ -1,0 +1,31 @@
+{
+  "title": "i thought 1,000 subscribers would fix everything",
+  "current_scene": "scene_r3_1080p.json",
+  "duration": 114.43333333333334,
+  "hard_runtime_cap": 120,
+  "resolution": "1920x1080",
+  "four_k_status": "Not authorized: requires explicit satisfaction with current full1080p cut",
+  "voice": {
+    "speaker": "sohee",
+    "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+    "identity_prompt": "Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful.",
+    "source_generation_speed": 1.0,
+    "source_count": 11,
+    "source_words": "source_words.json",
+    "final_audio": "voice/narration_r3.wav",
+    "final_audio_sha256": "804a5879bdfd2eb8658c6e9b975d12f46c2515cf3162cb87c03c14351fc661c9",
+    "final_timing": "timing_reference_r3.json",
+    "pacing_record": "review/PACING_R3.json"
+  },
+  "checks": {
+    "full_schema_and_current_preflight": true,
+    "new_art_engine_test": true,
+    "rig_library_edits": false,
+    "max_caption_words": 5,
+    "final_word_boundaries": "Measured approximate ASR; six uncertain sources independently checked with cached large-v3-turbo",
+    "audio_audition": false,
+    "actual_video_playback": false,
+    "reason": "Audio input unsupported; browser video control disabled in current tool session. No automatic ASR/numeric claim replaces perceptual review."
+  },
+  "revision": "R3 grip entry/release aligned to prop lifetime; late half picture/audio unchanged from R2 integrated"
+}

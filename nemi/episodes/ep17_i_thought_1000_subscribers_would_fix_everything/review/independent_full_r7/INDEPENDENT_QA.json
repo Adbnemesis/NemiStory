@@ -1,0 +1,336 @@
+{
+  "voice_generation_runtime_sha256": {
+    "tools/tts/config.py": "e40065f248800836e45e48b95af92a745bf1564c17552c1a2eb4a87956223e66",
+    "tools/tts/engine.py": "768dc188162a50884d1d8f97bc4614ffc3b9294a8bb526edec39fef7dbe9736a"
+  },
+  "voice_runtime_provenance_record": "../audio/GENERATION_RUNTIME.json",
+  "movie": "/Users/talus/Documents/adb/nemi/episodes/ep17_i_thought_1000_subscribers_would_fix_everything/renders/NEMI_EP17_1000_Subscribers_r7_1080p_REVIEW.mp4",
+  "movie_sha256": "d4715c689b611411230b00b8f5497753418bbe677bbaa96d242fd5e34aad921b",
+  "scene": "/Users/talus/Documents/adb/nemi/episodes/ep17_i_thought_1000_subscribers_would_fix_everything/scene_r7_1080p.json",
+  "scene_sha256": "1618b226985167161204ae2fb7b7607ab877f44d9ce6df6c4d10a665f62d84e8",
+  "full_episode": true,
+  "window_start": 0,
+  "duration_seconds": 114.433333,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "decoded_frames": 3433
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "integrated_lufs": -21.3,
+    "true_peak_dbfs": -1.8
+  },
+  "full_decode": "passed without decoder diagnostics",
+  "exact_current_render_stamp": "matches scene, picture/voice inputs, movie and window",
+  "voice_sha256": "804a5879bdfd2eb8658c6e9b975d12f46c2515cf3162cb87c03c14351fc661c9",
+  "waveform": {
+    "encoded_vs_fresh_mix_correlation": 0.999378659544182,
+    "normalized_rms_error": 0.03531631514823695,
+    "voice_only_correlation": 0.9994559220187358,
+    "fitted_voice_gain_db": 2.3722
+  },
+  "scene_sfx_cue_count": 12,
+  "window_sfx_cue_count": 12,
+  "sfx_overlaps": [],
+  "sfx_prominence": [
+    {
+      "event": "upgrade",
+      "at": 2.445455,
+      "end": 4.0454550000000005,
+      "file": "res://common/audio/sfx/chime.mp3",
+      "catalog_id": "viral_chime",
+      "sha256": "74823b1b27703c56e0652db838f503c150ce9c2442d47d27430af3d5121d6d12",
+      "gain_db": -10,
+      "source": {
+        "rms_dbfs": -30.7907,
+        "peak_dbfs": -9.3365,
+        "active_50ms_rms_dbfs": -29.543,
+        "active_50ms_fraction": 0.75
+      },
+      "nearby_voice": {
+        "rms_dbfs": -24.7185,
+        "peak_dbfs": -7.5727,
+        "active_50ms_rms_dbfs": -23.5949,
+        "active_50ms_fraction": 0.77174
+      },
+      "active_rms_db_relative_to_nearby_voice": -13.948
+    },
+    {
+      "event": "excuse",
+      "at": 11.668182,
+      "end": 12.218182,
+      "file": "res://common/audio/sfx/paper/paper_book_open_01.ogg",
+      "catalog_id": "paper_book_open_01",
+      "sha256": "953390534377222bee89ac8cd9e60a58fdc037c71a4d7c18c43cd647c7f34ba8",
+      "gain_db": -9,
+      "source": {
+        "rms_dbfs": -31.2221,
+        "peak_dbfs": -10.4934,
+        "active_50ms_rms_dbfs": -29.4326,
+        "active_50ms_fraction": 0.66198
+      },
+      "nearby_voice": {
+        "rms_dbfs": -23.2092,
+        "peak_dbfs": -4.2477,
+        "active_50ms_rms_dbfs": -22.2554,
+        "active_50ms_fraction": 0.80282
+      },
+      "active_rms_db_relative_to_nearby_voice": -14.177
+    },
+    {
+      "event": "reached",
+      "at": 17.780909,
+      "end": 18.780909,
+      "file": "res://common/audio/sfx/stings/sting_achievement_bell_01.wav",
+      "catalog_id": "sting_achievement_bell_01",
+      "sha256": "db0faf0b89ea70f4f7fdaff3e169d8c0216f4d7a92f15b5cda7f7e0526b900cb",
+      "gain_db": -10,
+      "source": {
+        "rms_dbfs": -15.1532,
+        "peak_dbfs": 2.0284,
+        "active_50ms_rms_dbfs": -14.6962,
+        "active_50ms_fraction": 0.9
+      },
+      "nearby_voice": {
+        "rms_dbfs": -24.9003,
+        "peak_dbfs": -9.1031,
+        "active_50ms_rms_dbfs": -23.1141,
+        "active_50ms_fraction": 0.6625
+      },
+      "active_rms_db_relative_to_nearby_voice": 0.418
+    },
+    {
+      "event": "morning",
+      "at": 24.800909,
+      "end": 25.120909,
+      "file": "res://common/audio/sfx/computer/computer_mouse_click_close_01.wav",
+      "catalog_id": "computer_mouse_click_close_01",
+      "sha256": "fe535fd085fe27f4397e2e6ab2e5798f66636f1d7244b559018aed85fa99348b",
+      "gain_db": -7,
+      "source": {
+        "rms_dbfs": -23.3099,
+        "peak_dbfs": 2.9179,
+        "active_50ms_rms_dbfs": -18.2589,
+        "active_50ms_fraction": 0.3125
+      },
+      "nearby_voice": {
+        "rms_dbfs": -24.5979,
+        "peak_dbfs": -5.2655,
+        "active_50ms_rms_dbfs": -22.5489,
+        "active_50ms_fraction": 0.62349
+      },
+      "active_rms_db_relative_to_nearby_voice": -0.71
+    },
+    {
+      "event": "bananas",
+      "at": 35.188182,
+      "end": 36.005182,
+      "file": "res://common/audio/sfx/bruh.mp3",
+      "catalog_id": "viral_bruh",
+      "sha256": "6a04c34422d17b5ad0a62baaf5810dab7e19aa06baf5cbe2002fc750486ff170",
+      "gain_db": -22,
+      "source": {
+        "rms_dbfs": -11.3577,
+        "peak_dbfs": 0.2954,
+        "active_50ms_rms_dbfs": -9.6393,
+        "active_50ms_fraction": 0.67321
+      },
+      "nearby_voice": {
+        "rms_dbfs": -29.0384,
+        "peak_dbfs": -9.123,
+        "active_50ms_rms_dbfs": -26.3461,
+        "active_50ms_fraction": 0.53707
+      },
+      "active_rms_db_relative_to_nearby_voice": -3.293
+    },
+    {
+      "event": "update",
+      "at": 38.155455,
+      "end": 38.855455000000006,
+      "file": "res://common/audio/sfx/error.mp3",
+      "catalog_id": "viral_error",
+      "sha256": "b4882e3941ca496b5038e7c7d64318419da9f69d3da9540a1c693adc639cf121",
+      "gain_db": -12,
+      "source": {
+        "rms_dbfs": -34.74,
+        "peak_dbfs": -18.7442,
+        "active_50ms_rms_dbfs": -26.289,
+        "active_50ms_fraction": 0.14286
+      },
+      "nearby_voice": {
+        "rms_dbfs": -27.7382,
+        "peak_dbfs": -10.5854,
+        "active_50ms_rms_dbfs": -24.3623,
+        "active_50ms_fraction": 0.45946
+      },
+      "active_rms_db_relative_to_nearby_voice": -11.927
+    },
+    {
+      "event": "people",
+      "at": 52.043636,
+      "end": 52.743636,
+      "file": "res://common/audio/sfx/stings/sting_question_chime_01.ogg",
+      "catalog_id": "sting_question_chime_01",
+      "sha256": "abb8f9e4eb2071491b0b15f84ee302386b1847609310c1b000ae174639a6cc5a",
+      "gain_db": -11,
+      "source": {
+        "rms_dbfs": -11.7662,
+        "peak_dbfs": -0.8961,
+        "active_50ms_rms_dbfs": -11.7662,
+        "active_50ms_fraction": 1.0
+      },
+      "nearby_voice": {
+        "rms_dbfs": -24.4047,
+        "peak_dbfs": -7.9272,
+        "active_50ms_rms_dbfs": -22.2455,
+        "active_50ms_fraction": 0.60811
+      },
+      "active_rms_db_relative_to_nearby_voice": 1.479
+    },
+    {
+      "event": "worthy",
+      "at": 56.546364,
+      "end": 57.846363999999994,
+      "file": "res://common/audio/sfx/paper/paper_book_paging_single_01.wav",
+      "catalog_id": "paper_book_paging_single_01",
+      "sha256": "d9299ed2bee5ff3743702d4d961f48d3cc4370bb48eb2c3ef51af12c4bc3937a",
+      "gain_db": -6,
+      "source": {
+        "rms_dbfs": -25.3256,
+        "peak_dbfs": 0.8669,
+        "active_50ms_rms_dbfs": -20.7218,
+        "active_50ms_fraction": 0.34615
+      },
+      "nearby_voice": {
+        "rms_dbfs": -22.8754,
+        "peak_dbfs": -5.9172,
+        "active_50ms_rms_dbfs": -21.3848,
+        "active_50ms_fraction": 0.7093
+      },
+      "active_rms_db_relative_to_nearby_voice": -3.337
+    },
+    {
+      "event": "redrew",
+      "at": 59.400909,
+      "end": 61.000909,
+      "file": "res://common/audio/sfx/drawing/drawing_pencil_sketch_01.wav",
+      "catalog_id": "drawing_pencil_sketch_01",
+      "sha256": "d12d2f74087fd2aae52e83e5aab812bec44ac282ca63397ad1915eccb7425745",
+      "gain_db": -14,
+      "source": {
+        "rms_dbfs": -15.0891,
+        "peak_dbfs": 0.0949,
+        "active_50ms_rms_dbfs": -15.0891,
+        "active_50ms_fraction": 1.0
+      },
+      "nearby_voice": {
+        "rms_dbfs": -24.5296,
+        "peak_dbfs": -6.2753,
+        "active_50ms_rms_dbfs": -21.5214,
+        "active_50ms_fraction": 0.5
+      },
+      "active_rms_db_relative_to_nearby_voice": -5.568
+    },
+    {
+      "event": "no",
+      "at": 72.36,
+      "end": 72.499,
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_01.ogg",
+      "catalog_id": "drawing_scratch_scribble_01",
+      "sha256": "5c294d2e1a6b6d07ee2d75b17105a55ad3527e5482dd60652dc49c2ea4c70096",
+      "gain_db": -16,
+      "source": {
+        "rms_dbfs": -12.2871,
+        "peak_dbfs": -0.8126,
+        "active_50ms_rms_dbfs": -12.2871,
+        "active_50ms_fraction": 1.0
+      },
+      "nearby_voice": {
+        "rms_dbfs": -28.3923,
+        "peak_dbfs": -4.4145,
+        "active_50ms_rms_dbfs": -24.8584,
+        "active_50ms_fraction": 0.4425
+      },
+      "active_rms_db_relative_to_nearby_voice": -1.429
+    },
+    {
+      "event": "stories",
+      "at": 84.130909,
+      "end": 84.830909,
+      "file": "res://common/audio/sfx/paper/paper_page_turn_crisp_01.wav",
+      "catalog_id": "paper_page_turn_crisp_01",
+      "sha256": "54a9d84e3ea8317ffbae44e80b0148728b764867e46e6d2a35910c82190f6124",
+      "gain_db": -10,
+      "source": {
+        "rms_dbfs": -33.0106,
+        "peak_dbfs": -0.8705,
+        "active_50ms_rms_dbfs": -28.2928,
+        "active_50ms_fraction": 0.33216
+      },
+      "nearby_voice": {
+        "rms_dbfs": -28.2866,
+        "peak_dbfs": -12.0423,
+        "active_50ms_rms_dbfs": -26.7574,
+        "active_50ms_fraction": 0.7027
+      },
+      "active_rms_db_relative_to_nearby_voice": -9.535
+    },
+    {
+      "event": "frame",
+      "at": 103.650909,
+      "end": 104.650909,
+      "file": "res://common/audio/sfx/drawing/drawing_pencil_sketch_01.wav",
+      "catalog_id": "drawing_pencil_sketch_01",
+      "sha256": "d12d2f74087fd2aae52e83e5aab812bec44ac282ca63397ad1915eccb7425745",
+      "gain_db": -11,
+      "source": {
+        "rms_dbfs": -17.2979,
+        "peak_dbfs": -3.194,
+        "active_50ms_rms_dbfs": -17.2979,
+        "active_50ms_fraction": 1.0
+      },
+      "nearby_voice": {
+        "rms_dbfs": -28.1408,
+        "peak_dbfs": -13.8694,
+        "active_50ms_rms_dbfs": -25.7574,
+        "active_50ms_fraction": 0.575
+      },
+      "active_rms_db_relative_to_nearby_voice": -0.54
+    }
+  ],
+  "stills": [
+    {
+      "file": "corrected_caption_040.000s.jpg",
+      "scene_time": 40.0
+    }
+  ],
+  "subjective_visual_review": "Inspected exact full R7 frame40.000s: corrected caption reads I'd reached the checkpoint. fully and within frame. Verified scene R6\u2192R7 differs only audio_metadata path/caption25 token and metadata word89 transcription; all timing, audio, acting, mouth, camera, illustration, prop and mix fields identical. Previous R5all11sheets/86samples and R6changed-shot visual coverage apply. No unresolved critical sampled issue; full playback unperformed.",
+  "perceptual_audio_listening": "unperformed; numeric correlation, truepeak and SFX prominence are evidence only",
+  "user_full_1080p_satisfaction": "pending",
+  "four_k_rendered": false,
+  "scene_snapshot": "scene_at_audit.json",
+  "visual_review": {
+    "current_still_inspected": "corrected_caption_040.000s.jpg",
+    "scene_time": 40.0,
+    "corrected_caption": "I'd reached the checkpoint.",
+    "caption_index": 25,
+    "metadata_word_index": 89,
+    "unchanged_visual_coverage": [
+      "../independent_full_r5/VISUAL_REVIEW.md",
+      "../independent_full_r6/VISUAL_REVIEW.md"
+    ],
+    "exact_revision_difference_verified": "Only audio_metadata path, caption25 reach\u2192reached and metadata word89 reach\u2192reached; timings and other fields identical.",
+    "critical_findings": [],
+    "full_playback": "unperformed; permitted computer-use surfaces did not support media playback",
+    "perceptual_listening": "unperformed; numeric/ASR evidence only"
+  },
+  "independent_final_narration_asr": "../audio/final_narration_asr_r6.json",
+  "independent_final_narration_asr_applicability": {
+    "audio_hash_identical_to_asr_source": "804a5879bdfd2eb8658c6e9b975d12f46c2515cf3162cb87c03c14351fc661c9",
+    "result": "Same narration PCM; prior reached ASR supports corrected token, no extra ASR pass needed."
+  }
+}
