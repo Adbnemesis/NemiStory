@@ -9,7 +9,6 @@ const Suspense=preload("res://common/storytime/production/SchoolSuspenseArt.gd")
 const Episode=preload("res://common/storytime/production/SchoolEpisodeArt.gd")
 const ADBEpArt=preload("res://common/storytime/production/ADBEpisodeArt.gd")
 const CreatorArt=preload("res://common/storytime/production/CreatorEpisodeArt.gd")
-const MilestoneArt=preload("res://common/storytime/production/MilestoneEpisodeArt.gd")
 const SchoolYoutube=preload("res://common/storytime/production/SchoolYoutubeArt.gd")
 const SchoolCrush=preload("res://common/storytime/production/SchoolCrushArt.gd")
 const SchoolBlocked=preload("res://common/storytime/production/SchoolBlockedArt.gd")
@@ -19,7 +18,6 @@ const ScamArt=preload("res://common/storytime/production/ScamEpisodeArt.gd")
 const AttachmentArt=preload("res://common/storytime/production/AttachmentEpisodeArt.gd")
 const AttachmentRevision=preload("res://common/storytime/production/AttachmentRevisionArt.gd")
 static func make(author: String, kind: String) -> Node2D:
-	if kind in MilestoneArt.KINDS: return MilestoneArt.make(author,kind)
 	if kind in AttachmentRevision.KINDS: return AttachmentRevision.make(author,kind)
 	if kind in MovingOn.KINDS: return MovingOn.make(author,kind)
 	if kind in AttachmentArt.KINDS: return AttachmentArt.make(author,kind)
@@ -66,21 +64,6 @@ static func make(author: String, kind: String) -> Node2D:
 		"desk":
 			shapes=[[[[-245,0],[237,-2],[242,13],[-247,15],[-245,0]],pale]]
 			lines=[[[[-216,15],[-221,177]],3.2],[[[211,13],[215,178]],3.2]]
-		"porcelain_bowl":
-			shapes=[
-				[[[-60,40],[60,40],[75,90],[-75,90],[-60,40]],Color("#e8e2d5")],
-				[[[-110,-40],[110,-40],[70,45],[-70,45],[-110,-40]],pale],
-				[[[-70,-35],[0,-45],[70,-35],[0,-20],[-70,-35]],Color("#c5e0e5")],
-				[[[-85,-155],[85,-155],[80,-45],[-80,-45],[-85,-155]],pale]
-			]
-			lines=[
-				[[[-90,-155],[90,-155]],3.0],
-				[[[-85,-135],[-105,-135],[-105,-120]],2.5,Color("#b89e7e")],
-				[[[-115,-40],[-80,-55],[0,-60],[80,-55],[115,-40],[80,-25],[0,-20],[-80,-25],[-115,-40]],3.2],
-				[[[-40,-33],[-15,-30],[15,-34],[40,-31]],1.8,Color("#7ea5b0")],
-				[[[-30,-65],[-20,-85],[-35,-105],[-15,-125]],2.0,Color("#88a870")],
-				[[[15,-65],[28,-88],[12,-110],[30,-130]],2.0,Color("#88a870")]
-			]
 		_:
 			assert(false,"Unknown production prop: "+kind)
 	for shape_index in range(shapes.size()):

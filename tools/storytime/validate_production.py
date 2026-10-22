@@ -3,10 +3,8 @@ import copy
 import math
 from pathlib import Path
 
-ART = {'laptop','phone','mug','tabs','cloud','desk','suitcase','car','damaged_car','police_car','steering_wheel','boarding_pass','clipboard','flashlight','traffic_cone','tissue_box','seat_front','porcelain_bowl'}
+ART = {'laptop','phone','mug','tabs','cloud','desk','suitcase','car','damaged_car','police_car','steering_wheel','boarding_pass','clipboard','flashlight','traffic_cone','tissue_box','seat_front'}
 ART |= {'creator_reach_chart','creator_calendar','creator_comment','creator_story_pages','creator_upload','creator_draft_choices','creator_hour_steps','creator_viewers'}
-# EP17 Nemi evidence art; catalog and silent example live beside the episode.
-ART |= {'milestone_1000_card','milestone_bad_hand','milestone_redraw_hand','milestone_one_frame'}
 # Existing-field catalog/example: docs/animation/catalogs/SCHOOL_YOUTUBE_ART.md
 ART |= {'school_youtube_browser','school_youtube_phone','school_youtube_subscribers','school_youtube_peers','school_youtube_private_public','school_youtube_archive','school_youtube_then_now'}
 ART |= {'school_friend','school_friend_smile','school_friend_laugh','school_classmate','school_classmate_laugh','lunch_box','homework_notes','school_clock'}
