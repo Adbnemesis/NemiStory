@@ -27,6 +27,14 @@ with tempfile.TemporaryDirectory() as folder:
  assert rms(values,rate,.45,.49)<.0001
  assert abs(rms(values,rate,.505,.535)-.3/2*10**(-12/20))<.002
  assert rms(values,rate,.56,.7)<.0001
+ # Music has its own long-form lane and an explicit source in-point.
+ music={'duration':1,'audio':None,'music':[{'file':'res://effect.wav','at':.3,'source_start':.08,'duration':.1,'gain_db':-12}]}
+ output=mix_audio(music,root,root/'music.wav')
+ with wave.open(str(output),'rb') as stream:
+  rate=stream.getframerate();values=array.array('h',stream.readframes(stream.getnframes()))
+ assert rms(values,rate,.2,.29)<.0001
+ assert rms(values,rate,.302,.316)>.02
+ assert rms(values,rate,.33,.5)<.0001
  # An intentionally hot voice and coincident effect must remain below the
  # requested true peak after a constant master gain. No clipping limiter.
  write(root/'hot.wav',1,0,1)

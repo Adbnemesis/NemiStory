@@ -1,0 +1,1602 @@
+{
+  "version": 2,
+  "title": "A message to every storytime animator \u2014 ADB",
+  "duration": 25.0,
+  "fps": 30,
+  "audio": "res://adb/episodes/ep08_message_to_storytime_animators/voice/prepared_r2/narration.wav",
+  "audio_metadata": "res://adb/episodes/ep08_message_to_storytime_animators/voice/prepared_r2/timeline.json",
+  "direction": {
+    "promise": "An unknown animator announces an absurdly confident challenge.",
+    "want": "Find the audience for the stories ADB already wants to tell.",
+    "choice": "Declare that he is coming for everyone\u2019s watch time.",
+    "consequence": "A grand ambition meets a very small audience and a real pile of drawings.",
+    "payoff": "The confident challenger quietly asks where his audience is.",
+    "beats": [
+      {
+        "start": 0,
+        "end": 2.533333,
+        "thought": "Listen, fellow animators.",
+        "focus": "ADB direct address",
+        "visual": "Studio portrait and progressive red opener.",
+        "intent": "Establish the audience and dry confidence."
+      },
+      {
+        "start": 2.533333,
+        "end": 7.6,
+        "thought": "This is ADB, and he is underwatched.",
+        "focus": "ADB face and name",
+        "visual": "Cream portraits alternate with studio word edits.",
+        "intent": "Let the confidence meet its first honest admission."
+      },
+      {
+        "start": 7.6,
+        "end": 14.333333,
+        "thought": "I am coming for your watch time.",
+        "focus": "ADB challenge",
+        "visual": "Open-palmed wide, then room with giant replacement words.",
+        "intent": "Escalate the ambition with the reference\u2019s cut rhythm."
+      },
+      {
+        "start": 14.333333,
+        "end": 18.56,
+        "thought": "The stories and work are already here.",
+        "focus": "Notebook and editing workload",
+        "visual": "Cream story props and short insert gags.",
+        "intent": "Ground the swagger in real creative work."
+      },
+      {
+        "start": 18.56,
+        "end": 22.1,
+        "thought": "Now where is the audience?",
+        "focus": "ADB pause and face",
+        "visual": "Quiet studio return; eye glance then dry hold.",
+        "intent": "Let the request emerge beneath the bravado."
+      },
+      {
+        "start": 22.1,
+        "end": 25,
+        "thought": "Let the last line land.",
+        "focus": "Black tail",
+        "visual": "Empty black shot.",
+        "intent": "Match the source ending and hold its punctuation."
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "first_insert",
+      "at": 2.533333333333333,
+      "intent": "First bright self-introduction cut."
+    },
+    {
+      "id": "stories_reveal",
+      "at": 14.333333333333334,
+      "intent": "Cut from grand ambition to real story pages."
+    },
+    {
+      "id": "workload_snap",
+      "at": 16.2,
+      "intent": "Abrupt laptop workload gag."
+    },
+    {
+      "id": "stack_snap",
+      "at": 16.6,
+      "intent": "Finished pages replace the laptop closeup."
+    }
+  ],
+  "actors": [
+    {
+      "id": "adb",
+      "author": "adb",
+      "performances": [
+        {
+          "at": 0,
+          "recipe": "deadpan",
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 0.22,
+          "recipe": "explaining",
+          "duration": 0.34,
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 2.533333,
+          "recipe": "uncertain",
+          "duration": 0.28,
+          "gaze": [
+            0.15,
+            0
+          ],
+          "hands": {
+            "right": "hand_to_chin"
+          }
+        },
+        {
+          "at": 3.54,
+          "recipe": "pleased",
+          "duration": 0.3,
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 4.833333,
+          "recipe": "skeptical",
+          "duration": 0.26,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "brow_left_height": -2,
+            "brow_right_height": 1.4
+          }
+        },
+        {
+          "at": 6.32,
+          "recipe": "deadpan",
+          "motion": "snap",
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 7.6,
+          "recipe": "realization",
+          "duration": 0.4,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "open_palm",
+            "right": "open_palm"
+          }
+        },
+        {
+          "at": 9.5,
+          "recipe": "lean_in",
+          "duration": 0.28,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "right": "pointing"
+          }
+        },
+        {
+          "at": 11.52,
+          "recipe": "explaining",
+          "duration": 0.3,
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 12.18,
+          "recipe": "pleased",
+          "duration": 0.3,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "brow_right_height": -1.2
+          }
+        },
+        {
+          "at": 14.333333,
+          "recipe": "prop_present",
+          "duration": 0.3,
+          "gaze": [
+            0.6,
+            0.1
+          ],
+          "hands": {
+            "right": "open_palm"
+          }
+        },
+        {
+          "at": 15.3,
+          "recipe": "prop_present",
+          "motion": "snap",
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "right": "holding_cup"
+          }
+        },
+        {
+          "at": 16.2,
+          "recipe": "recover",
+          "motion": "snap",
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 16.6,
+          "recipe": "soft_shrug",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 18,
+          "recipe": "recover",
+          "duration": 0.3,
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 18.56,
+          "recipe": "pleased",
+          "duration": 0.25,
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 19.84,
+          "recipe": "listening",
+          "duration": 0.25,
+          "gaze": [
+            0.4,
+            -0.1
+          ],
+          "blinks": [
+            20.0
+          ]
+        },
+        {
+          "at": 20.46,
+          "recipe": "uncertain",
+          "duration": 0.28,
+          "gaze": [
+            -0.35,
+            0
+          ]
+        },
+        {
+          "at": 21.62,
+          "recipe": "deadpan",
+          "motion": "snap",
+          "gaze": [
+            0,
+            0
+          ]
+        }
+      ],
+      "mouths": [
+        {
+          "start": 0.0,
+          "end": 0.01,
+          "shape": "neutral"
+        },
+        {
+          "start": 0.01,
+          "end": 0.155,
+          "shape": "talk_open"
+        },
+        {
+          "start": 0.155,
+          "end": 0.2,
+          "shape": "neutral"
+        },
+        {
+          "start": 0.2,
+          "end": 0.225,
+          "shape": "neutral"
+        },
+        {
+          "start": 0.225,
+          "end": 0.34,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 0.34,
+          "end": 0.455,
+          "shape": "talk_open"
+        },
+        {
+          "start": 0.455,
+          "end": 0.5,
+          "shape": "neutral"
+        },
+        {
+          "start": 0.5,
+          "end": 0.51,
+          "shape": "neutral"
+        },
+        {
+          "start": 0.51,
+          "end": 0.775,
+          "shape": "talk_round"
+        },
+        {
+          "start": 0.775,
+          "end": 0.82,
+          "shape": "neutral"
+        },
+        {
+          "start": 0.82,
+          "end": 0.83,
+          "shape": "neutral"
+        },
+        {
+          "start": 0.83,
+          "end": 0.9825,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 0.9825,
+          "end": 1.135,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 1.135,
+          "end": 1.18,
+          "shape": "neutral"
+        },
+        {
+          "start": 1.18,
+          "end": 1.19,
+          "shape": "neutral"
+        },
+        {
+          "start": 1.19,
+          "end": 1.5625,
+          "shape": "talk_round"
+        },
+        {
+          "start": 1.5625,
+          "end": 1.935,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 1.935,
+          "end": 1.98,
+          "shape": "neutral"
+        },
+        {
+          "start": 1.98,
+          "end": 1.99,
+          "shape": "neutral"
+        },
+        {
+          "start": 1.99,
+          "end": 2.2125,
+          "shape": "talk_open"
+        },
+        {
+          "start": 2.2125,
+          "end": 2.435,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 2.435,
+          "end": 2.48,
+          "shape": "neutral"
+        },
+        {
+          "start": 3.54,
+          "end": 3.565,
+          "shape": "neutral"
+        },
+        {
+          "start": 3.565,
+          "end": 3.735,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 3.735,
+          "end": 3.78,
+          "shape": "neutral"
+        },
+        {
+          "start": 3.78,
+          "end": 3.79,
+          "shape": "neutral"
+        },
+        {
+          "start": 3.79,
+          "end": 3.865,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 3.865,
+          "end": 3.9,
+          "shape": "neutral"
+        },
+        {
+          "start": 3.9,
+          "end": 3.91,
+          "shape": "neutral"
+        },
+        {
+          "start": 3.91,
+          "end": 4.115,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 4.115,
+          "end": 4.16,
+          "shape": "neutral"
+        },
+        {
+          "start": 4.16,
+          "end": 4.17,
+          "shape": "neutral"
+        },
+        {
+          "start": 4.17,
+          "end": 4.4325,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 4.4325,
+          "end": 4.695,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 4.695,
+          "end": 4.74,
+          "shape": "neutral"
+        },
+        {
+          "start": 6.06,
+          "end": 6.07,
+          "shape": "neutral"
+        },
+        {
+          "start": 6.07,
+          "end": 6.275,
+          "shape": "talk_open"
+        },
+        {
+          "start": 6.275,
+          "end": 6.32,
+          "shape": "neutral"
+        },
+        {
+          "start": 6.32,
+          "end": 6.33,
+          "shape": "neutral"
+        },
+        {
+          "start": 6.33,
+          "end": 6.5625,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 6.5625,
+          "end": 6.795,
+          "shape": "talk_round"
+        },
+        {
+          "start": 6.795,
+          "end": 6.84,
+          "shape": "neutral"
+        },
+        {
+          "start": 6.84,
+          "end": 6.85,
+          "shape": "neutral"
+        },
+        {
+          "start": 6.85,
+          "end": 7.1025,
+          "shape": "talk_open"
+        },
+        {
+          "start": 7.1025,
+          "end": 7.355,
+          "shape": "talk_round"
+        },
+        {
+          "start": 7.355,
+          "end": 7.4,
+          "shape": "neutral"
+        },
+        {
+          "start": 9.5,
+          "end": 9.51,
+          "shape": "neutral"
+        },
+        {
+          "start": 9.51,
+          "end": 9.715,
+          "shape": "talk_open"
+        },
+        {
+          "start": 9.715,
+          "end": 9.76,
+          "shape": "neutral"
+        },
+        {
+          "start": 9.78,
+          "end": 9.79,
+          "shape": "neutral"
+        },
+        {
+          "start": 9.79,
+          "end": 9.915,
+          "shape": "talk_open"
+        },
+        {
+          "start": 9.915,
+          "end": 9.96,
+          "shape": "neutral"
+        },
+        {
+          "start": 9.96,
+          "end": 9.97,
+          "shape": "neutral"
+        },
+        {
+          "start": 9.97,
+          "end": 10.215,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 10.215,
+          "end": 10.26,
+          "shape": "neutral"
+        },
+        {
+          "start": 10.26,
+          "end": 10.27,
+          "shape": "neutral"
+        },
+        {
+          "start": 10.27,
+          "end": 10.415,
+          "shape": "talk_round"
+        },
+        {
+          "start": 10.415,
+          "end": 10.46,
+          "shape": "neutral"
+        },
+        {
+          "start": 10.46,
+          "end": 10.47,
+          "shape": "neutral"
+        },
+        {
+          "start": 10.47,
+          "end": 10.715,
+          "shape": "talk_round"
+        },
+        {
+          "start": 10.715,
+          "end": 10.76,
+          "shape": "neutral"
+        },
+        {
+          "start": 10.76,
+          "end": 10.77,
+          "shape": "neutral"
+        },
+        {
+          "start": 10.77,
+          "end": 11.095,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 11.095,
+          "end": 11.14,
+          "shape": "neutral"
+        },
+        {
+          "start": 11.52,
+          "end": 11.545,
+          "shape": "neutral"
+        },
+        {
+          "start": 11.545,
+          "end": 11.655,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 11.655,
+          "end": 11.7,
+          "shape": "neutral"
+        },
+        {
+          "start": 11.7,
+          "end": 11.725,
+          "shape": "neutral"
+        },
+        {
+          "start": 11.725,
+          "end": 11.83,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 11.83,
+          "end": 11.935,
+          "shape": "talk_open"
+        },
+        {
+          "start": 11.935,
+          "end": 11.98,
+          "shape": "neutral"
+        },
+        {
+          "start": 11.98,
+          "end": 11.99,
+          "shape": "neutral"
+        },
+        {
+          "start": 11.99,
+          "end": 12.135,
+          "shape": "talk_open"
+        },
+        {
+          "start": 12.135,
+          "end": 12.18,
+          "shape": "neutral"
+        },
+        {
+          "start": 12.18,
+          "end": 12.205,
+          "shape": "neutral"
+        },
+        {
+          "start": 12.205,
+          "end": 12.555,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 12.555,
+          "end": 12.6,
+          "shape": "neutral"
+        },
+        {
+          "start": 12.6,
+          "end": 12.61,
+          "shape": "neutral"
+        },
+        {
+          "start": 12.61,
+          "end": 12.8825,
+          "shape": "talk_round"
+        },
+        {
+          "start": 12.8825,
+          "end": 13.155,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 13.155,
+          "end": 13.2,
+          "shape": "neutral"
+        },
+        {
+          "start": 13.2,
+          "end": 13.21,
+          "shape": "neutral"
+        },
+        {
+          "start": 13.21,
+          "end": 13.4325,
+          "shape": "talk_open"
+        },
+        {
+          "start": 13.4325,
+          "end": 13.655,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 13.655,
+          "end": 13.7,
+          "shape": "neutral"
+        },
+        {
+          "start": 13.7,
+          "end": 13.71,
+          "shape": "neutral"
+        },
+        {
+          "start": 13.71,
+          "end": 13.815,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 13.815,
+          "end": 13.86,
+          "shape": "neutral"
+        },
+        {
+          "start": 13.88,
+          "end": 13.89,
+          "shape": "neutral"
+        },
+        {
+          "start": 13.89,
+          "end": 14.195,
+          "shape": "talk_round"
+        },
+        {
+          "start": 14.195,
+          "end": 14.24,
+          "shape": "neutral"
+        },
+        {
+          "start": 18.56,
+          "end": 18.57,
+          "shape": "neutral"
+        },
+        {
+          "start": 18.57,
+          "end": 18.755,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 18.755,
+          "end": 18.8,
+          "shape": "neutral"
+        },
+        {
+          "start": 18.8,
+          "end": 18.81,
+          "shape": "neutral"
+        },
+        {
+          "start": 18.81,
+          "end": 18.915,
+          "shape": "talk_round"
+        },
+        {
+          "start": 18.915,
+          "end": 18.96,
+          "shape": "neutral"
+        },
+        {
+          "start": 18.96,
+          "end": 18.97,
+          "shape": "neutral"
+        },
+        {
+          "start": 18.97,
+          "end": 19.065,
+          "shape": "talk_open"
+        },
+        {
+          "start": 19.065,
+          "end": 19.1,
+          "shape": "neutral"
+        },
+        {
+          "start": 19.1,
+          "end": 19.11,
+          "shape": "neutral"
+        },
+        {
+          "start": 19.11,
+          "end": 19.3325,
+          "shape": "talk_round"
+        },
+        {
+          "start": 19.3325,
+          "end": 19.555,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 19.555,
+          "end": 19.6,
+          "shape": "neutral"
+        },
+        {
+          "start": 20.46,
+          "end": 20.47,
+          "shape": "neutral"
+        },
+        {
+          "start": 20.47,
+          "end": 20.635,
+          "shape": "talk_open"
+        },
+        {
+          "start": 20.635,
+          "end": 20.68,
+          "shape": "neutral"
+        },
+        {
+          "start": 21.04,
+          "end": 21.05,
+          "shape": "neutral"
+        },
+        {
+          "start": 21.05,
+          "end": 21.155,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 21.155,
+          "end": 21.2,
+          "shape": "neutral"
+        },
+        {
+          "start": 21.2,
+          "end": 21.21,
+          "shape": "neutral"
+        },
+        {
+          "start": 21.21,
+          "end": 21.265,
+          "shape": "talk_open"
+        },
+        {
+          "start": 21.265,
+          "end": 21.3,
+          "shape": "neutral"
+        },
+        {
+          "start": 21.3,
+          "end": 21.31,
+          "shape": "neutral"
+        },
+        {
+          "start": 21.31,
+          "end": 21.4425,
+          "shape": "talk_round"
+        },
+        {
+          "start": 21.4425,
+          "end": 21.575,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 21.575,
+          "end": 21.62,
+          "shape": "neutral"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "opening",
+      "start": 0,
+      "end": 2.533333333333333,
+      "background": "studio_adb",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          250
+        ],
+        "zoom": 1.85
+      }
+    },
+    {
+      "id": "name_insert",
+      "start": 2.533333333333333,
+      "end": 3.9,
+      "background": "paper",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          230
+        ],
+        "zoom": 2.1
+      }
+    },
+    {
+      "id": "name_room",
+      "start": 3.9,
+      "end": 4.833333333333333,
+      "background": "studio_adb",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          250
+        ],
+        "zoom": 1.85
+      }
+    },
+    {
+      "id": "truth_insert",
+      "start": 4.833333333333333,
+      "end": 6.4,
+      "background": "paper",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          230
+        ],
+        "zoom": 2.35
+      }
+    },
+    {
+      "id": "truth_room",
+      "start": 6.4,
+      "end": 7.6,
+      "background": "studio_adb",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          250
+        ],
+        "zoom": 1.85
+      }
+    },
+    {
+      "id": "challenge_insert",
+      "start": 7.6,
+      "end": 9.666666666666666,
+      "background": "paper",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.0
+      }
+    },
+    {
+      "id": "challenge_room",
+      "start": 9.666666666666666,
+      "end": 14.333333333333334,
+      "background": "studio_adb",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          250
+        ],
+        "zoom": 1.85
+      }
+    },
+    {
+      "id": "stories",
+      "start": 14.333333333333334,
+      "end": 15.3,
+      "background": "paper",
+      "actors": {
+        "adb": {
+          "position": [
+            650,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          510
+        ],
+        "zoom": 1.05
+      }
+    },
+    {
+      "id": "notebook_insert",
+      "start": 15.3,
+      "end": 16.2,
+      "background": "paper",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          1030,
+          380
+        ],
+        "zoom": 1.6
+      }
+    },
+    {
+      "id": "workload_insert",
+      "start": 16.2,
+      "end": 16.6,
+      "background": "paper",
+      "actors": {},
+      "camera": {
+        "center": [
+          1210,
+          620
+        ],
+        "zoom": 2.1
+      }
+    },
+    {
+      "id": "proud_insert",
+      "start": 16.6,
+      "end": 18.0,
+      "background": "paper",
+      "actors": {
+        "adb": {
+          "position": [
+            700,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.0
+      }
+    },
+    {
+      "id": "closing_insert",
+      "start": 18.0,
+      "end": 18.866666666666667,
+      "background": "paper",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          230
+        ],
+        "zoom": 2.1
+      }
+    },
+    {
+      "id": "closing_room",
+      "start": 18.866666666666667,
+      "end": 22.1,
+      "background": "studio_adb",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            555.8
+          ],
+          "scale": 1.9
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          250
+        ],
+        "zoom": 1.85
+      }
+    },
+    {
+      "id": "black_tail",
+      "start": 22.1,
+      "end": 25.0,
+      "background": "black",
+      "actors": {}
+    }
+  ],
+  "props": [
+    {
+      "author": "adb",
+      "kind": "desk",
+      "at": 0,
+      "end": 22.1,
+      "position": [
+        410,
+        717
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "opening",
+        "name_room",
+        "truth_room",
+        "challenge_room",
+        "closing_room"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "adb",
+      "kind": "laptop",
+      "at": 0,
+      "end": 22.1,
+      "position": [
+        410,
+        654
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "opening",
+        "name_room",
+        "truth_room",
+        "challenge_room",
+        "closing_room"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "adb",
+      "kind": "desk",
+      "at": 14.333333,
+      "end": 16.6,
+      "position": [
+        1210,
+        715
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "stories",
+        "workload_insert"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "adb",
+      "kind": "notebook",
+      "at": 14.333333,
+      "end": 15.3,
+      "position": [
+        1210,
+        640
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "stories"
+      ],
+      "layer": 2
+    },
+    {
+      "author": "adb",
+      "kind": "notebook",
+      "at": 15.3,
+      "end": 16.2,
+      "scale": [
+        0.7,
+        0.7
+      ],
+      "mode": "hold",
+      "shots": [
+        "notebook_insert"
+      ],
+      "layer": 0,
+      "attach": {
+        "actor": "adb",
+        "hand": "right",
+        "grip": [
+          55,
+          30
+        ],
+        "angle": 0
+      }
+    },
+    {
+      "author": "adb",
+      "kind": "laptop",
+      "at": 16.2,
+      "end": 16.6,
+      "position": [
+        1210,
+        652
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "workload_insert"
+      ],
+      "layer": 2
+    },
+    {
+      "author": "adb",
+      "kind": "tabs",
+      "at": 16.6,
+      "end": 18,
+      "position": [
+        1290,
+        604.45
+      ],
+      "scale": [
+        1.65,
+        1.65
+      ],
+      "mode": "hold",
+      "shots": [
+        "proud_insert"
+      ],
+      "layer": 2
+    },
+    {
+      "author": "adb",
+      "kind": "desk",
+      "at": 16.6,
+      "end": 18,
+      "position": [
+        1350,
+        715
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "proud_insert"
+      ],
+      "layer": 0
+    }
+  ],
+  "drawings": [],
+  "vfx": [],
+  "sfx": [
+    {
+      "file": "res://common/audio/sfx/whoosh.mp3",
+      "at": 2.533333333333333,
+      "duration": 0.32,
+      "gain_db": -12,
+      "event": "first_insert"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_turn_crisp_01.wav",
+      "at": 14.333333333333334,
+      "duration": 0.6,
+      "gain_db": -8,
+      "event": "stories_reveal"
+    },
+    {
+      "file": "res://common/audio/sfx/click.mp3",
+      "at": 16.2,
+      "duration": 0.3,
+      "gain_db": -9,
+      "event": "workload_snap"
+    },
+    {
+      "file": "res://common/audio/sfx/pop.mp3",
+      "at": 16.6,
+      "duration": 0.35,
+      "gain_db": -10,
+      "event": "stack_snap"
+    }
+  ],
+  "script": [
+    {
+      "actor": "adb",
+      "start": 0.0,
+      "end": 2.52,
+      "text": "A message to every storytime animator."
+    },
+    {
+      "actor": "adb",
+      "start": 3.54,
+      "end": 4.82,
+      "text": "My name is ADB."
+    },
+    {
+      "actor": "adb",
+      "start": 6.06,
+      "end": 7.5,
+      "text": "I'm dangerously underwatched."
+    },
+    {
+      "actor": "adb",
+      "start": 9.5,
+      "end": 14.3,
+      "text": "And I'm gonna steal your watch time. By becoming the biggest storytime animator in the world."
+    },
+    {
+      "actor": "adb",
+      "start": 18.56,
+      "end": 21.92,
+      "text": "I've got the stories. Now, where's the audience?"
+    }
+  ],
+  "captions": [],
+  "overlays": [
+    {
+      "start": 0.0,
+      "end": 0.2,
+      "text": "A",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 0.2,
+      "end": 0.5,
+      "text": "A message",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 0.5,
+      "end": 0.82,
+      "text": "A message to",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 0.82,
+      "end": 1.18,
+      "text": "A message to every",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 1.18,
+      "end": 1.98,
+      "text": "A message to every storytime",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 1.98,
+      "end": 2.533333333333333,
+      "text": "A message to every storytime animator.",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 3.9,
+      "end": 4.16,
+      "text": "IS",
+      "style": "red_serif"
+    },
+    {
+      "start": 4.16,
+      "end": 4.833333333333333,
+      "text": "ADB",
+      "style": "red_serif"
+    },
+    {
+      "start": 6.4,
+      "end": 6.84,
+      "text": "DANGEROUSLY",
+      "style": "red_serif"
+    },
+    {
+      "start": 6.84,
+      "end": 7.5200000000000005,
+      "text": "UNDERWATCHED",
+      "style": "red_serif"
+    },
+    {
+      "start": 9.666666666666666,
+      "end": 9.76,
+      "text": "AND",
+      "style": "red_serif"
+    },
+    {
+      "start": 9.76,
+      "end": 9.78,
+      "text": "I'M",
+      "style": "red_serif"
+    },
+    {
+      "start": 9.78,
+      "end": 9.96,
+      "text": "GONNA",
+      "style": "red_serif"
+    },
+    {
+      "start": 9.96,
+      "end": 10.26,
+      "text": "STEAL",
+      "style": "red_serif"
+    },
+    {
+      "start": 10.26,
+      "end": 10.46,
+      "text": "YOUR",
+      "style": "red_serif"
+    },
+    {
+      "start": 10.46,
+      "end": 10.76,
+      "text": "WATCH",
+      "style": "red_serif"
+    },
+    {
+      "start": 10.76,
+      "end": 11.52,
+      "text": "TIME",
+      "style": "red_serif"
+    },
+    {
+      "start": 11.52,
+      "end": 11.7,
+      "text": "BY",
+      "style": "red_serif"
+    },
+    {
+      "start": 11.7,
+      "end": 11.98,
+      "text": "BECOMING",
+      "style": "red_serif"
+    },
+    {
+      "start": 11.98,
+      "end": 12.18,
+      "text": "THE",
+      "style": "red_serif"
+    },
+    {
+      "start": 12.18,
+      "end": 12.6,
+      "text": "BIGGEST",
+      "style": "red_serif"
+    },
+    {
+      "start": 12.6,
+      "end": 13.2,
+      "text": "STORYTIME",
+      "style": "red_serif"
+    },
+    {
+      "start": 13.2,
+      "end": 13.7,
+      "text": "ANIMATOR",
+      "style": "red_serif"
+    },
+    {
+      "start": 13.7,
+      "end": 13.86,
+      "text": "IN",
+      "style": "red_serif"
+    },
+    {
+      "start": 13.86,
+      "end": 13.88,
+      "text": "THE",
+      "style": "red_serif"
+    },
+    {
+      "start": 13.88,
+      "end": 14.333333333333334,
+      "text": "WORLD",
+      "style": "red_serif"
+    }
+  ],
+  "music": [
+    {
+      "at": 0,
+      "file": "res://renders/message_to_storytime_reference/audio/reference_music_bed_hybrid.wav",
+      "duration": 25,
+      "gain_db": -6
+    }
+  ],
+  "mix": {
+    "master_gain_db": 4.1,
+    "target_lufs": -18.0,
+    "peak_dbfs": -1.5
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "sfx": [
+    {
+      "file": "res://common/audio/sfx/whoosh.mp3",
+      "at": 2.533333333333333,
+      "duration": 0.32,
+      "gain_db": -12,
+      "event": "first_insert"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_turn_crisp_01.wav",
+      "at": 14.333333333333334,
+      "duration": 0.6,
+      "gain_db": -8,
+      "event": "stories_reveal"
+    },
+    {
+      "file": "res://common/audio/sfx/click.mp3",
+      "at": 16.2,
+      "duration": 0.3,
+      "gain_db": -9,
+      "event": "workload_snap"
+    },
+    {
+      "file": "res://common/audio/sfx/pop.mp3",
+      "at": 16.6,
+      "duration": 0.35,
+      "gain_db": -10,
+      "event": "stack_snap"
+    }
+  ],
+  "music": [
+    {
+      "at": 0,
+      "file": "res://renders/message_to_storytime_reference/audio/reference_music_bed_hybrid.wav",
+      "duration": 25,
+      "gain_db": -6
+    }
+  ],
+  "music_provenance": "User-supplied reference video hybrid instrumental bed; review/hybrid_bed_provenance.json. Original soundtrack only in conservatively narrator-free cutaways, separated bed beneath narration. Preserve exact source dropouts and final impact; no loop.",
+  "voice": "Canonical Aiden source_r1, 1.00\u00d7, no identity changes."
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "cue": {
+      "file": "res://common/audio/sfx/paper/paper_book_open_01.ogg",
+      "at": 15.3,
+      "duration": 0.7,
+      "gain_db": -8,
+      "event": "story_stack"
+    },
+    "sha256": "953390534377222bee89ac8cd9e60a58fdc037c71a4d7c18c43cd647c7f34ba8",
+    "catalog": {
+      "id": "paper_book_open_01",
+      "filename": "paper_book_open_01.ogg",
+      "category": "paper",
+      "sub_category": "paper",
+      "description": "Book / notebook opening sound",
+      "source": "Kenney (rpg)",
+      "source_url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+      "license": "CC0 1.0 Universal (Public Domain)",
+      "attribution_required": false,
+      "commercial_use": true,
+      "tags": [
+        "paper",
+        "book",
+        "open"
+      ],
+      "mix_guidance": "normal (-3dB)",
+      "relative_path": "common/audio/sfx/paper/paper_book_open_01.ogg",
+      "file_size_bytes": 8273,
+      "duration_seconds": 0.154,
+      "channels": 2,
+      "sample_rate": 48000,
+      "sound_type": "event_sfx"
+    }
+  },
+  {
+    "cue": {
+      "file": "res://common/audio/sfx/paper/paper_page_flip_01.ogg",
+      "at": 16.2,
+      "duration": 0.75,
+      "gain_db": -12,
+      "event": "story_detail"
+    },
+    "sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+    "catalog": {
+      "id": "paper_page_flip_01",
+      "filename": "paper_page_flip_01.ogg",
+      "category": "paper",
+      "sub_category": "paper",
+      "description": "Quick notebook page turn",
+      "source": "Kenney (rpg)",
+      "source_url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+      "license": "CC0 1.0 Universal (Public Domain)",
+      "attribution_required": false,
+      "commercial_use": true,
+      "tags": [
+        "paper",
+        "page",
+        "flip",
+        "turn"
+      ],
+      "mix_guidance": "normal (-3dB)",
+      "relative_path": "common/audio/sfx/paper/paper_page_flip_01.ogg",
+      "file_size_bytes": 18248,
+      "duration_seconds": 0.769,
+      "channels": 2,
+      "sample_rate": 48000,
+      "sound_type": "event_sfx"
+    }
+  }
+]

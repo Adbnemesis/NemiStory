@@ -1,0 +1,48 @@
+{
+  "source": "/Users/talus/Downloads/This Is A Message To All Minecraft Youtubers.mp4",
+  "source_sha256": "da2e2ce404461f9823ac33213d1bc51996e60e13c51ff21e3159904a6c4682c1",
+  "method": "HTDemucs 4.0.1; cached 955717e8 safetensors; no new musical synthesis",
+  "model_sha256": "d9fa14133cfcc034a6758923bb3a8ca9f8dfd0b582134643bbf83f72c17576dd",
+  "sample_rate": 44100,
+  "samples": 1104896,
+  "duration": 25.054331065759637,
+  "elapsed_seconds": 8.37847900390625,
+  "output_sha256": "5575f06dbab342dbf0945803c2e6448d602ceee5dfe56f2131031a4763587980",
+  "review_required": true,
+  "note": "Model estimate; no claim of lossless/original instrumental. Check voice leakage before use.",
+  "final_bed": "reference_music_bed_hybrid.wav",
+  "final_bed_sha256": "0a49be263d7419c690e13c55e338eee192763c9240c253e4deae7547e0f9d374",
+  "final_bed_duration": 25.0,
+  "final_edit": "No new musical synthesis. Original soundtrack in listed narrator-free windows; separated instrumental at other times; dry intro 0\u20132.200 s silent; exact 25.000 s duration. Source final shout/chant classification remains uncertain; retain this alternate so producers can replace with exact library accent if it is treated as an SFX cue.",
+  "cleanliness_check": "Full mix exact reference transcript isolated in vocal stem; instrumental ASR returned an unrelated sentence in first 0\u20133.22 s only; other stem detected initial this is fragments in dry intro, now gated. No narrator sentences recognized afterward. ASR is not listening. Perceptual review remains required.",
+  "hybrid_windows_original_audio": [
+    [
+      2.24,
+      3.5
+    ],
+    [
+      4.82,
+      5.99
+    ],
+    [
+      7.61,
+      9.17
+    ],
+    [
+      14.3,
+      18.44
+    ],
+    [
+      22.0,
+      25.0
+    ]
+  ],
+  "hybrid_reason": "Preserve source soundtrack vocal chops/stabs and final musical/hype tail in conservative narrator-free windows. Elsewhere use separated bed. Twenty-millisecond internal crossfades avoid splice clicks.",
+  "peak_dbfs": -15.175920016958756,
+  "overall_rms_dbfs": -29.011549768273053,
+  "asr_cleanliness_check": {
+    "result": "No source narrator words recognized. One short hallucination Buzz during silent/dry intro.",
+    "file": "hybrid_bed_whisper_check.json",
+    "limits": "ASR cannot certify inaudible leakage or substitute for playback."
+  }
+}

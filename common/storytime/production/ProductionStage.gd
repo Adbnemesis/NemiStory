@@ -18,6 +18,7 @@ var actors: Dictionary={}
 var pictures: Array[Dictionary]=[]
 var effects: Array[Dictionary]=[]
 var caption: Label
+var editorial_labels: Array[Dictionary]=[]
 var acting := Acting.new()
 var elapsed := 0.0
 var audio_clock: AudioStreamPlayer
@@ -65,6 +66,33 @@ func _ready() -> void:
 	caption.add_theme_color_override("font_outline_color",Color("#faf7f1"))
 	caption.add_theme_constant_override("outline_size",8)
 	add_child(caption)
+	# Editorial typography is independent of each author's hand-drawn lettering.
+	for item in spec.get("overlays",[]):
+		var label := Label.new()
+		var serif: bool=item.style=="red_serif"
+		var font := SystemFont.new()
+		font.font_names=PackedStringArray(["Times New Roman","Times","Liberation Serif"] if serif else ["Arial","Helvetica","Liberation Sans"])
+		font.font_weight=400 if serif else 700
+		label.add_theme_font_override("font",font)
+		var font_size: int=int(item.get("size",580 if serif else 72))
+		label.add_theme_font_size_override("font_size",font_size)
+		label.add_theme_color_override("font_color",Color("#e00000"))
+		label.add_theme_color_override("font_outline_color",Color("#450000"))
+		label.add_theme_constant_override("outline_size",0 if serif else 3)
+		var origin: Array=item.get("position",[0,-96] if serif else [120,720])
+		label.position=Vector2(origin[0],origin[1])
+		var measured: float=font.get_string_size(item.text,HORIZONTAL_ALIGNMENT_LEFT,-1,font_size).x
+		label.size=Vector2(maxf(1920,measured+12) if serif else 1680,800 if serif else 340)
+		label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+		if serif:
+			# Keep the tall cap height. Compress long words horizontally only.
+			label.scale.x=minf(0.78,1920.0/label.size.x)
+			label.position.x+=(1920.0-label.size.x*label.scale.x)/2.0
+		if not serif: label.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART
+		label.text=item.text
+		label.z_index=101
+		add_child(label)
+		editorial_labels.append({"node":label,"spec":item})
 	if not manual:
 		if spec.get("audio"):
 			audio_clock=AudioStreamPlayer.new()
@@ -72,7 +100,7 @@ func _ready() -> void:
 			audio_clock.volume_db=-2.0+float(spec.get("mix",{}).get("master_gain_db",0))
 			add_child(audio_clock)
 			audio_clock.play()
-		for item in spec.get("sfx",[]):
+		for item in spec.get("sfx",[])+spec.get("music",[]):
 			var player := AudioStreamPlayer.new()
 			player.stream=Media.read(item.file)
 			player.volume_db=item.gain_db+float(spec.get("mix",{}).get("master_gain_db",0))
@@ -160,12 +188,14 @@ func sample(time: float) -> void:
 	caption.text=""
 	for item in spec.get("captions",[]):
 		if time>=item.start and time<item.end: caption.text=item.text
+	for entry in editorial_labels:
+		entry.node.visible=time>=entry.spec.start and time<entry.spec.end
 	# Audio events follow the same absolute timeline and never retrigger on hold.
 	for entry in sfx_players:
 		var item: Dictionary=entry.spec
 		if time<last_time:
 			entry.node.stop()
-			if time>=item.at and time<item.at+item.duration: entry.node.play(time-item.at)
-		elif last_time<item.at and time>=item.at: entry.node.play(maxf(0,time-item.at))
+			if time>=item.at and time<item.at+item.duration: entry.node.play(float(item.get("source_start",0))+time-item.at)
+		elif last_time<item.at and time>=item.at: entry.node.play(float(item.get("source_start",0))+maxf(0,time-item.at))
 		if time>=item.at+item.duration: entry.node.stop()
 	last_time=time

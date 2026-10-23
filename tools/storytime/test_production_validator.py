@@ -32,6 +32,10 @@ case(lambda s:s['shots'][0]['camera'].update(path=[{'at':0,'center':[960,540],'z
 case(lambda s:s.update(mix={'master_gain_db':0,'target_lufs':-18,'peak_dbfs':0}))
 case(lambda s:s['drawings'][0].update(event_offset=-.2))
 case(lambda s:s['actors'][0].update(hand_path_window=[3,2]))
+case(lambda s:s.update(overlays=[{'start':1,'end':2,'text':'X','style':'invented'}]))
+case(lambda s:s.update(overlays=[{'start':1,'end':2,'text':'X','style':'red_serif','size':999}]))
+case(lambda s:s.update(music=[{'at':0,'duration':20,'file':'res://missing.wav','gain_db':-12}]))
+case(lambda s:s.update(music=[{'at':0,'duration':1,'file':'res://missing.wav','gain_db':-12,'source_start':-1}]))
 for spec in cases:
  try:validate_production(spec,ROOT,validate_data,check_assets=False)
  except (ValueError,KeyError,TypeError):continue

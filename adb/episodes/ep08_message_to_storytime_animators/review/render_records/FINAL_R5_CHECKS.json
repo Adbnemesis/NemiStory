@@ -1,0 +1,50 @@
+{
+  "movie": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_R5_1080p.mp4",
+  "sha256": "6eaf768bd23e03e370db50da25e4d3b13914d6747b43c05b4eac33112bb804d4",
+  "spec": "adb/episodes/ep08_message_to_storytime_animators/scene_r5_1080p.json",
+  "spec_sha256": "7357b308f68a528d0098d24defffac9bcfa43aef0f2e8ecf0c72bd1b44b330df",
+  "render_inputs_sha256": "5e524e94c4c8db09512dafa27791706dff723643377933a1a30a4de0ba3e3841",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "25.000000",
+        "nb_read_frames": "750"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "25.000000",
+        "nb_read_frames": "1172"
+      }
+    ],
+    "format": {
+      "duration": "25.000000"
+    }
+  },
+  "encoded_audio": {
+    "integrated_lufs": -18.0,
+    "true_peak_dbfs": -1.6
+  },
+  "decoded_pcm_sha256": "d555003c449905ab8b875ba3da3ebd20252fc14ee12f84b4cff7cf75d548161c",
+  "audio_identical_to_prior_asr_reviewed_cut": "ADB_Message_R2_1080p.mp4",
+  "black_tail": {
+    "first_frame": 663,
+    "frames": 87,
+    "start_seconds": 22.1,
+    "max_downsampled_rgb": 0
+  },
+  "visual_review": "Parent inspected complete 1fps contact and revised first10s type proof; independent agent inspected props/contact and critical boundaries. This is decoded frame review, not a claim of subjective full-speed playback.",
+  "audio_review": "Cached ASR on byte-identical prior mix recovers new script with no source narration; peak/loudness checks pass. Perceptual listening remains pending user review.",
+  "approval": {
+    "full_1080p_user_satisfaction": false,
+    "4k_permitted": false
+  }
+}

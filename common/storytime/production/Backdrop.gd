@@ -18,6 +18,9 @@ func ink(points: Array, color: Color=Color("#b6aa98"), width: float=2.0) -> void
 	for p in points: packed.append(Vector2(p[0],p[1]))
 	draw_polyline(packed,color,width,true)
 func _draw() -> void:
+	if kind=="black":
+		draw_rect(Rect2(-3000,-3000,8000,8000),Color.BLACK)
+		return
 	if kind in AttachmentRevision.KINDS:
 		AttachmentRevision.draw_set(self,kind)
 		return

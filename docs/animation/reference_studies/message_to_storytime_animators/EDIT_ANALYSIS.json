@@ -1,0 +1,121 @@
+{
+  "source_path": "/Users/talus/Downloads/This Is A Message To All Minecraft Youtubers.mp4",
+  "source_sha256": "da2e2ce404461f9823ac33213d1bc51996e60e13c51ff21e3159904a6c4682c1",
+  "picture": {
+    "duration": 25,
+    "fps": 30,
+    "width": 640,
+    "height": 360,
+    "frames": 750
+  },
+  "cuts_method": "FFmpeg scene score >0.055 plus contact-sheet inspection; 16.3667 is object movement, not a shot cut",
+  "shots": [
+    {
+      "start": 0,
+      "end": 2.533333,
+      "set": "room",
+      "function": "progressive red bold opening caption"
+    },
+    {
+      "start": 2.533333,
+      "end": 3.9,
+      "set": "bright",
+      "function": "self-introduction pose"
+    },
+    {
+      "start": 3.9,
+      "end": 4.833333,
+      "set": "room",
+      "function": "giant red serif name"
+    },
+    {
+      "start": 4.833333,
+      "end": 6.4,
+      "set": "bright",
+      "function": "closer self-assertion"
+    },
+    {
+      "start": 6.4,
+      "end": 7.6,
+      "set": "room",
+      "function": "giant identity words"
+    },
+    {
+      "start": 7.6,
+      "end": 9.666667,
+      "set": "bright",
+      "function": "arms-open presentation"
+    },
+    {
+      "start": 9.666667,
+      "end": 14.333333,
+      "set": "room",
+      "function": "one giant red word per spoken emphasis"
+    },
+    {
+      "start": 14.333333,
+      "end": 15.3,
+      "set": "bright",
+      "function": "desk insert"
+    },
+    {
+      "start": 15.3,
+      "end": 16.2,
+      "set": "bright",
+      "function": "object gag"
+    },
+    {
+      "start": 16.2,
+      "end": 16.6,
+      "set": "bright",
+      "function": "object close-up"
+    },
+    {
+      "start": 16.6,
+      "end": 18,
+      "set": "bright",
+      "function": "reaction/prop consequence"
+    },
+    {
+      "start": 18,
+      "end": 18.866667,
+      "set": "bright",
+      "function": "thought pose"
+    },
+    {
+      "start": 18.866667,
+      "end": 22.1,
+      "set": "room",
+      "function": "dry spoken payoff; no captions"
+    },
+    {
+      "start": 22.1,
+      "end": 25,
+      "set": "black",
+      "function": "black tail"
+    }
+  ],
+  "typography": {
+    "opening": "red bold sans, lower middle, cumulative words",
+    "emphasis": "thin high-contrast red serif, all caps, upper full-width, words replace rather than accumulate",
+    "cutaways": "no captions",
+    "ending": "no captions"
+  },
+  "adaptation": {
+    "author_versions": [
+      "nemi/episodes/ep17_message_to_storytime_animators",
+      "adb/episodes/ep08_message_to_storytime_animators"
+    ],
+    "runtime_cap": 25,
+    "picture_route": "existing Godot rigs and validated version-2 stage; author cream-paper studio, bright paper inserts",
+    "voices": "canonical Sohee and Aiden without identity changes",
+    "music": "source-separated instrumental estimate with honest provenance; no original narration reused"
+  },
+  "review": {
+    "contact_sheets": [
+      "contact_01.jpg",
+      "contact_02.jpg"
+    ],
+    "subjective_audio_review": "cross-check pending external video analysis; separation transcribed for leakage"
+  }
+}

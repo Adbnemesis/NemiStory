@@ -1,0 +1,1231 @@
+{
+  "version": 2,
+  "title": "A Message To Every Storytime Animator \u2014 Nemi",
+  "duration": 25,
+  "fps": 30,
+  "caption_size": 52,
+  "audio": "res://nemi/episodes/ep17_message_to_storytime_animators/audio/prepared_r1/narration.wav",
+  "audio_metadata": "res://nemi/episodes/ep17_message_to_storytime_animators/audio/prepared_r1/timeline.json",
+  "direction": {
+    "promise": "Nemi sends a bold message to storytime animators.",
+    "want": "Become the biggest storytime animator.",
+    "choice": "Announce a confident challenge.",
+    "consequence": "The prepared stories still meet an overthinking habit.",
+    "payoff": "Her biggest rival is her own hesitation.",
+    "beats": [
+      {
+        "start": 0,
+        "end": 2.533333333333333,
+        "thought": "Address the animation community",
+        "focus": "Direct face and progressive red hook",
+        "visual": "Studio portrait",
+        "intent": "Immediate address."
+      },
+      {
+        "start": 2.533333333333333,
+        "end": 4.833333333333333,
+        "thought": "Introduce Nemi",
+        "focus": "Face then red name",
+        "visual": "Confiding bright insert then studio",
+        "intent": "Mirror reference alternation."
+      },
+      {
+        "start": 4.833333333333333,
+        "end": 7.6,
+        "thought": "Claim an unimpressive profession",
+        "focus": "Concerned face and overthinker word",
+        "visual": "Bright closeup then deadpan studio",
+        "intent": "Set up self-aware contrast."
+      },
+      {
+        "start": 7.6,
+        "end": 14.333333333333334,
+        "thought": "Make a comically grand challenge",
+        "focus": "One gesture then giant red words",
+        "visual": "Bright pose then locked studio",
+        "intent": "Escalate confidence without extra clutter."
+      },
+      {
+        "start": 14.333333333333334,
+        "end": 18.866666666666667,
+        "thought": "The stories are ready",
+        "focus": "Laptop and story stack",
+        "visual": "Brief bright object gag and full pose",
+        "intent": "Animator-specific visual counterpoint."
+      },
+      {
+        "start": 18.866666666666667,
+        "end": 22.1,
+        "thought": "The obstacle is still overthinking",
+        "focus": "Deadpan face",
+        "visual": "Studio return",
+        "intent": "Pay off the identity admission."
+      },
+      {
+        "start": 22.1,
+        "end": 25,
+        "thought": "Let the joke end",
+        "focus": "Black",
+        "visual": "Empty tail",
+        "intent": "Preserve reference end timing."
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "story_stack",
+      "at": 15.3,
+      "intent": "The first story stack replaces the reference food gag."
+    },
+    {
+      "id": "story_detail",
+      "at": 16.2,
+      "intent": "Quick story stack insert."
+    },
+    {
+      "id": "triumph",
+      "at": 16.6,
+      "intent": "Nemi confidently presents the stories before the dry confession."
+    }
+  ],
+  "actors": [
+    {
+      "id": "nemi",
+      "author": "nemi",
+      "performances": [
+        {
+          "at": 0,
+          "recipe": "deadpan",
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 2.533333333333333,
+          "recipe": "school_confide",
+          "motion": "snap",
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 3.9,
+          "recipe": "deadpan",
+          "motion": "snap",
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 4.833333333333333,
+          "recipe": "uncertain",
+          "motion": "snap",
+          "gaze": [
+            -0.35,
+            -0.2
+          ]
+        },
+        {
+          "at": 6.4,
+          "recipe": "deadpan",
+          "motion": "snap",
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 7.6,
+          "recipe": "prop_present",
+          "motion": "snap",
+          "gaze": [
+            0.4,
+            0
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "pointing"
+          }
+        },
+        {
+          "at": 9.666666666666666,
+          "recipe": "deadpan",
+          "motion": "snap",
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 14.333333333333334,
+          "recipe": "explaining",
+          "motion": "snap",
+          "gaze": [
+            0.5,
+            0.15
+          ]
+        },
+        {
+          "at": 15.3,
+          "recipe": "prop_present",
+          "motion": "snap",
+          "gaze": [
+            0.65,
+            0
+          ]
+        },
+        {
+          "at": 16.6,
+          "recipe": "pleased",
+          "motion": "snap",
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 18.0,
+          "recipe": "soft_shrug",
+          "motion": "snap",
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 18.866666666666667,
+          "recipe": "deadpan",
+          "motion": "snap",
+          "gaze": [
+            0,
+            0
+          ]
+        }
+      ],
+      "mouths": [
+        {
+          "start": 0.015,
+          "end": 0.185,
+          "shape": "ae"
+        },
+        {
+          "start": 0.185,
+          "end": 0.22,
+          "shape": "closed"
+        },
+        {
+          "start": 0.235,
+          "end": 0.525,
+          "shape": "ae"
+        },
+        {
+          "start": 0.525,
+          "end": 0.56,
+          "shape": "closed"
+        },
+        {
+          "start": 0.575,
+          "end": 0.845,
+          "shape": "o_u"
+        },
+        {
+          "start": 0.845,
+          "end": 0.88,
+          "shape": "closed"
+        },
+        {
+          "start": 0.895,
+          "end": 1.245,
+          "shape": "small_open"
+        },
+        {
+          "start": 1.245,
+          "end": 1.28,
+          "shape": "closed"
+        },
+        {
+          "start": 1.295,
+          "end": 2.025,
+          "shape": "o_u"
+        },
+        {
+          "start": 2.025,
+          "end": 2.06,
+          "shape": "closed"
+        },
+        {
+          "start": 2.075,
+          "end": 2.505,
+          "shape": "o_u"
+        },
+        {
+          "start": 2.505,
+          "end": 2.54,
+          "shape": "closed"
+        },
+        {
+          "start": 3.555,
+          "end": 3.765,
+          "shape": "small_open"
+        },
+        {
+          "start": 3.765,
+          "end": 3.8,
+          "shape": "closed"
+        },
+        {
+          "start": 3.815,
+          "end": 4.165,
+          "shape": "ae"
+        },
+        {
+          "start": 4.165,
+          "end": 4.2,
+          "shape": "closed"
+        },
+        {
+          "start": 4.215,
+          "end": 4.305,
+          "shape": "small_open"
+        },
+        {
+          "start": 4.305,
+          "end": 4.34,
+          "shape": "closed"
+        },
+        {
+          "start": 6.075,
+          "end": 6.305,
+          "shape": "small_open"
+        },
+        {
+          "start": 6.305,
+          "end": 6.34,
+          "shape": "closed"
+        },
+        {
+          "start": 6.355,
+          "end": 6.425,
+          "shape": "ae"
+        },
+        {
+          "start": 6.425,
+          "end": 6.46,
+          "shape": "closed"
+        },
+        {
+          "start": 6.475,
+          "end": 7.265,
+          "shape": "o_u"
+        },
+        {
+          "start": 7.265,
+          "end": 7.3,
+          "shape": "closed"
+        },
+        {
+          "start": 9.255,
+          "end": 9.445,
+          "shape": "ae"
+        },
+        {
+          "start": 9.445,
+          "end": 9.48,
+          "shape": "closed"
+        },
+        {
+          "start": 9.495,
+          "end": 9.585,
+          "shape": "small_open"
+        },
+        {
+          "start": 9.585,
+          "end": 9.62,
+          "shape": "closed"
+        },
+        {
+          "start": 9.635,
+          "end": 9.825,
+          "shape": "ae"
+        },
+        {
+          "start": 9.825,
+          "end": 9.86,
+          "shape": "closed"
+        },
+        {
+          "start": 9.875,
+          "end": 10.445,
+          "shape": "ae"
+        },
+        {
+          "start": 10.445,
+          "end": 10.48,
+          "shape": "closed"
+        },
+        {
+          "start": 10.495,
+          "end": 10.785,
+          "shape": "o_u"
+        },
+        {
+          "start": 10.785,
+          "end": 10.82,
+          "shape": "closed"
+        },
+        {
+          "start": 10.835,
+          "end": 11.125,
+          "shape": "ae"
+        },
+        {
+          "start": 11.125,
+          "end": 11.16,
+          "shape": "closed"
+        },
+        {
+          "start": 11.175,
+          "end": 11.445,
+          "shape": "ae"
+        },
+        {
+          "start": 11.445,
+          "end": 11.48,
+          "shape": "closed"
+        },
+        {
+          "start": 11.595,
+          "end": 11.765,
+          "shape": "small_open"
+        },
+        {
+          "start": 11.765,
+          "end": 11.8,
+          "shape": "closed"
+        },
+        {
+          "start": 11.815,
+          "end": 12.065,
+          "shape": "small_open"
+        },
+        {
+          "start": 12.065,
+          "end": 12.1,
+          "shape": "closed"
+        },
+        {
+          "start": 12.115,
+          "end": 12.225,
+          "shape": "small_open"
+        },
+        {
+          "start": 12.225,
+          "end": 12.26,
+          "shape": "closed"
+        },
+        {
+          "start": 12.275,
+          "end": 12.565,
+          "shape": "small_open"
+        },
+        {
+          "start": 12.565,
+          "end": 12.6,
+          "shape": "closed"
+        },
+        {
+          "start": 12.615,
+          "end": 13.045,
+          "shape": "o_u"
+        },
+        {
+          "start": 13.045,
+          "end": 13.08,
+          "shape": "closed"
+        },
+        {
+          "start": 13.095,
+          "end": 13.545,
+          "shape": "o_u"
+        },
+        {
+          "start": 13.545,
+          "end": 13.58,
+          "shape": "closed"
+        },
+        {
+          "start": 13.595,
+          "end": 13.705,
+          "shape": "small_open"
+        },
+        {
+          "start": 13.705,
+          "end": 13.74,
+          "shape": "closed"
+        },
+        {
+          "start": 13.775,
+          "end": 14.085,
+          "shape": "o_u"
+        },
+        {
+          "start": 14.085,
+          "end": 14.12,
+          "shape": "closed"
+        },
+        {
+          "start": 18.575,
+          "end": 18.765,
+          "shape": "small_open"
+        },
+        {
+          "start": 18.765,
+          "end": 18.8,
+          "shape": "closed"
+        },
+        {
+          "start": 18.815,
+          "end": 18.985,
+          "shape": "ae"
+        },
+        {
+          "start": 18.985,
+          "end": 19.02,
+          "shape": "closed"
+        },
+        {
+          "start": 19.035,
+          "end": 19.185,
+          "shape": "small_open"
+        },
+        {
+          "start": 19.185,
+          "end": 19.22,
+          "shape": "closed"
+        },
+        {
+          "start": 19.235,
+          "end": 19.305,
+          "shape": "small_open"
+        },
+        {
+          "start": 19.305,
+          "end": 19.34,
+          "shape": "closed"
+        },
+        {
+          "start": 19.355,
+          "end": 19.705,
+          "shape": "o_u"
+        },
+        {
+          "start": 19.705,
+          "end": 19.74,
+          "shape": "closed"
+        },
+        {
+          "start": 19.985,
+          "end": 20.295,
+          "shape": "o_u"
+        },
+        {
+          "start": 20.295,
+          "end": 20.33,
+          "shape": "closed"
+        },
+        {
+          "start": 20.345,
+          "end": 20.675,
+          "shape": "small_open"
+        },
+        {
+          "start": 20.675,
+          "end": 20.71,
+          "shape": "closed"
+        },
+        {
+          "start": 20.725,
+          "end": 20.815,
+          "shape": "small_open"
+        },
+        {
+          "start": 20.815,
+          "end": 20.85,
+          "shape": "closed"
+        },
+        {
+          "start": 20.865,
+          "end": 20.975,
+          "shape": "ae"
+        },
+        {
+          "start": 20.975,
+          "end": 21.01,
+          "shape": "closed"
+        },
+        {
+          "start": 21.025,
+          "end": 21.315,
+          "shape": "o_u"
+        },
+        {
+          "start": 21.315,
+          "end": 21.35,
+          "shape": "closed"
+        },
+        {
+          "start": 21.365,
+          "end": 21.875,
+          "shape": "o_u"
+        },
+        {
+          "start": 21.875,
+          "end": 21.91,
+          "shape": "closed"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "room_open",
+      "start": 0,
+      "end": 2.533333333333333,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          620,
+          331
+        ],
+        "zoom": 2.17
+      }
+    },
+    {
+      "id": "insert_confide",
+      "start": 2.533333333333333,
+      "end": 3.9,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            960,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          340
+        ],
+        "zoom": 2.6
+      }
+    },
+    {
+      "id": "room_name",
+      "start": 3.9,
+      "end": 4.833333333333333,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          620,
+          331
+        ],
+        "zoom": 2.17
+      }
+    },
+    {
+      "id": "insert_close",
+      "start": 4.833333333333333,
+      "end": 6.4,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            960,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          390
+        ],
+        "zoom": 2.35
+      }
+    },
+    {
+      "id": "room_identity",
+      "start": 6.4,
+      "end": 7.6,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          620,
+          331
+        ],
+        "zoom": 2.17
+      }
+    },
+    {
+      "id": "insert_ambition",
+      "start": 7.6,
+      "end": 9.666666666666666,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            960,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          510
+        ],
+        "zoom": 1.18
+      }
+    },
+    {
+      "id": "room_boast",
+      "start": 9.666666666666666,
+      "end": 14.333333333333334,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          620,
+          331
+        ],
+        "zoom": 2.17
+      }
+    },
+    {
+      "id": "insert_desk",
+      "start": 14.333333333333334,
+      "end": 15.3,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            960,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          1120,
+          530
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "insert_stories",
+      "start": 15.3,
+      "end": 16.2,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            960,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          1140,
+          460
+        ],
+        "zoom": 1.45
+      }
+    },
+    {
+      "id": "insert_detail",
+      "start": 16.2,
+      "end": 16.6,
+      "background": "paper",
+      "actors": {},
+      "camera": {
+        "center": [
+          1290,
+          480
+        ],
+        "zoom": 2.05
+      }
+    },
+    {
+      "id": "insert_triumph",
+      "start": 16.6,
+      "end": 18.0,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            960,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          450
+        ],
+        "zoom": 1.6
+      }
+    },
+    {
+      "id": "insert_shrug",
+      "start": 18.0,
+      "end": 18.866666666666667,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            960,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          430
+        ],
+        "zoom": 1.8
+      }
+    },
+    {
+      "id": "room_payoff",
+      "start": 18.866666666666667,
+      "end": 22.1,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          620,
+          331
+        ],
+        "zoom": 2.17
+      }
+    },
+    {
+      "id": "black_tail",
+      "start": 22.1,
+      "end": 25,
+      "background": "black",
+      "actors": {},
+      "camera": {
+        "center": [
+          960,
+          331
+        ],
+        "zoom": 2.17
+      }
+    }
+  ],
+  "drawings": [],
+  "props": [
+    {
+      "author": "nemi",
+      "kind": "desk",
+      "at": 14.333333333333334,
+      "end": 15.3,
+      "position": [
+        1230,
+        734
+      ],
+      "scale": [
+        1.05,
+        1.05
+      ],
+      "mode": "hold",
+      "shots": [
+        "insert_desk"
+      ],
+      "layer": 0
+    },
+    {
+      "author": "nemi",
+      "kind": "laptop",
+      "at": 14.333333333333334,
+      "end": 15.3,
+      "position": [
+        1230,
+        600
+      ],
+      "scale": [
+        0.8,
+        0.8
+      ],
+      "mode": "hold",
+      "shots": [
+        "insert_desk"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "creator_story_pages",
+      "at": 15.3,
+      "end": 16.2,
+      "position": [
+        1270,
+        440
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "shots": [
+        "insert_stories"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "creator_story_pages",
+      "at": 16.2,
+      "end": 16.6,
+      "position": [
+        1290,
+        480
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "hold",
+      "shots": [
+        "insert_detail"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "creator_story_pages",
+      "at": 16.6,
+      "end": 18.0,
+      "position": [
+        1260,
+        440
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "shots": [
+        "insert_triumph"
+      ]
+    }
+  ],
+  "vfx": [],
+  "sfx": [
+    {
+      "file": "res://common/audio/sfx/paper/paper_book_open_01.ogg",
+      "at": 15.3,
+      "duration": 0.7,
+      "gain_db": -8,
+      "event": "story_stack"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_flip_01.ogg",
+      "at": 16.2,
+      "duration": 0.75,
+      "gain_db": -8,
+      "event": "story_detail"
+    }
+  ],
+  "music": [
+    {
+      "at": 0,
+      "file": "res://renders/message_to_storytime_reference/audio/reference_music_bed_hybrid.wav",
+      "duration": 25,
+      "gain_db": -6
+    }
+  ],
+  "script": [
+    {
+      "actor": "nemi",
+      "start": 0.0,
+      "end": 2.56,
+      "text": "A message to every storytime animator."
+    },
+    {
+      "actor": "nemi",
+      "start": 3.54,
+      "end": 4.5,
+      "text": "My name's Nemi."
+    },
+    {
+      "actor": "nemi",
+      "start": 6.06,
+      "end": 7.34,
+      "text": "I'm an overthinker."
+    },
+    {
+      "actor": "nemi",
+      "start": 9.24,
+      "end": 11.56,
+      "text": "And I'm gonna steal your watch time."
+    },
+    {
+      "actor": "nemi",
+      "start": 11.58,
+      "end": 14.23,
+      "text": "By becoming the biggest storytime animator in the world."
+    },
+    {
+      "actor": "nemi",
+      "start": 18.56,
+      "end": 19.84,
+      "text": "I've already got the stories."
+    },
+    {
+      "actor": "nemi",
+      "start": 19.87,
+      "end": 22.05,
+      "text": "Now I just gotta stop overthinking."
+    }
+  ],
+  "captions": [],
+  "overlays": [
+    {
+      "start": 0.0,
+      "end": 0.22,
+      "text": "A",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 0.22,
+      "end": 0.56,
+      "text": "A message",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 0.56,
+      "end": 0.88,
+      "text": "A message to",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 0.88,
+      "end": 1.28,
+      "text": "A message to every",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 1.28,
+      "end": 2.06,
+      "text": "A message to every storytime",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 2.06,
+      "end": 2.533333333333333,
+      "text": "A message to every storytime animator.",
+      "style": "red_intro",
+      "size": 110,
+      "position": [
+        120,
+        735
+      ]
+    },
+    {
+      "start": 3.9,
+      "end": 4.2,
+      "text": "NAME'S",
+      "style": "red_serif"
+    },
+    {
+      "start": 4.2,
+      "end": 4.833333333333333,
+      "text": "NEMI",
+      "style": "red_serif"
+    },
+    {
+      "start": 6.4,
+      "end": 6.46,
+      "text": "AN",
+      "style": "red_serif"
+    },
+    {
+      "start": 6.46,
+      "end": 7.6,
+      "text": "OVERTHINKER",
+      "style": "red_serif"
+    },
+    {
+      "start": 9.666666666666666,
+      "end": 9.86,
+      "text": "GONNA",
+      "style": "red_serif"
+    },
+    {
+      "start": 9.86,
+      "end": 10.48,
+      "text": "STEAL",
+      "style": "red_serif"
+    },
+    {
+      "start": 10.48,
+      "end": 10.82,
+      "text": "YOUR",
+      "style": "red_serif"
+    },
+    {
+      "start": 10.82,
+      "end": 11.16,
+      "text": "WATCH",
+      "style": "red_serif"
+    },
+    {
+      "start": 11.16,
+      "end": 11.58,
+      "text": "TIME",
+      "style": "red_serif"
+    },
+    {
+      "start": 11.58,
+      "end": 11.8,
+      "text": "BY",
+      "style": "red_serif"
+    },
+    {
+      "start": 11.8,
+      "end": 12.1,
+      "text": "BECOMING",
+      "style": "red_serif"
+    },
+    {
+      "start": 12.1,
+      "end": 12.26,
+      "text": "THE",
+      "style": "red_serif"
+    },
+    {
+      "start": 12.26,
+      "end": 12.6,
+      "text": "BIGGEST",
+      "style": "red_serif"
+    },
+    {
+      "start": 12.6,
+      "end": 13.08,
+      "text": "STORYTIME",
+      "style": "red_serif"
+    },
+    {
+      "start": 13.08,
+      "end": 13.58,
+      "text": "ANIMATOR",
+      "style": "red_serif"
+    },
+    {
+      "start": 13.58,
+      "end": 13.74,
+      "text": "IN",
+      "style": "red_serif"
+    },
+    {
+      "start": 13.74,
+      "end": 13.76,
+      "text": "THE",
+      "style": "red_serif"
+    },
+    {
+      "start": 13.76,
+      "end": 14.333333333333334,
+      "text": "WORLD",
+      "style": "red_serif"
+    }
+  ],
+  "mix": {
+    "master_gain_db": 4.7,
+    "target_lufs": -18.0,
+    "peak_dbfs": -1.5
+  }
+}

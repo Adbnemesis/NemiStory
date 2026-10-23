@@ -1,0 +1,25 @@
+{
+  "note": "Numerical cue measurements including constant master gain, before AAC. Not a subjective listening approval.",
+  "cues": [
+    {
+      "file": "res://common/audio/sfx/paper/paper_book_open_01.ogg",
+      "sha256": "953390534377222bee89ac8cd9e60a58fdc037c71a4d7c18c43cd647c7f34ba8",
+      "event": "story_stack",
+      "at": 15.3,
+      "duration": 0.7,
+      "gain_db": -8,
+      "post_master_rms_dbfs": -33.55,
+      "post_master_peak_dbfs": -11.44
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_flip_01.ogg",
+      "sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+      "event": "story_detail",
+      "at": 16.2,
+      "duration": 0.5,
+      "gain_db": -8,
+      "post_master_rms_dbfs": -41.7,
+      "post_master_peak_dbfs": -22.9
+    }
+  ]
+}

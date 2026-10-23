@@ -1,0 +1,28 @@
+{
+  "reference": {
+    "file": "/Users/talus/Downloads/This Is A Message To All Minecraft Youtubers.mp4",
+    "duration_seconds": 25,
+    "fps": 30,
+    "analysis": "Parent measured and inspected actual reference; this agent inspected both reference contact sheets."
+  },
+  "voice": {
+    "canonical_speaker": "sohee",
+    "identity_settings": "unchanged tools/tts/config.py",
+    "tempo": 1.0,
+    "word_alignment": "cached Whisper Tiny approximate words",
+    "unused_sources_preserved": true,
+    "auditory_review": "pending; audio input unsupported in this agent"
+  },
+  "picture_review": {
+    "proof_1080p": "renders/Nemi_Message_Type_Proof_R7_1080p.mp4",
+    "full_cut": "renders/Nemi_Message_R7_1080p.mp4",
+    "contact_sheet": "review/full_r7_contact.jpg",
+    "inspected": "Parent inspected full1fps contact and fresh10s type proof; independent review checked critical cuts, word bounds and laptop/desk contact. White insert at16.6 shows an intentionally held symbolic story-page panel, not a physical floating pickup.",
+    "full_playback": "Human subjective full-speed playback pending; decoded-frame inspection performed."
+  },
+  "approval": {
+    "user_full_1080p_satisfaction": false,
+    "4k_permitted": false
+  },
+  "final_checks": "review/render_records/FINAL_R7_CHECKS.json"
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Optional version-2 field fragment; merge into a prepared production, not a standalone scene.",
+  "overlays": [
+    {"start": 0, "end": 0.4, "text": "A message", "style": "red_intro"},
+    {"start": 0.4, "end": 2.5, "text": "A message to every storytime animator.", "style": "red_intro"},
+    {"start": 3.9, "end": 4.4, "text": "NEMI", "style": "red_serif", "size": 580}
+  ],
+  "music": [
+    {"at": 0, "file": "res://renders/example/instrumental.wav", "source_start": 0, "duration": 25, "gain_db": -12}
+  ],
+  "shots_fragment": [
+    {"id": "black_tail", "start": 22.1, "end": 25, "background": "black", "actors": {}}
+  ]
+}

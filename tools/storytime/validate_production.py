@@ -37,7 +37,7 @@ def validate_production(spec, root, core_validate, check_assets=True):
         resolved=(root/path[6:]).resolve()
         require(resolved.is_relative_to(root) and resolved.suffix.lower() in {'.wav','.mp3','.ogg'},f'{where}: unsupported/outside-workspace audio')
         if check_assets: require(resolved.is_file(),f'{where}: missing audio; regenerate/fetch the declared asset first: {path}')
-    keys(spec,'version title duration fps caption_size audio audio_metadata mix direction actors shots drawings props vfx sfx script captions events','scene')
+    keys(spec,'version title duration fps caption_size audio audio_metadata mix direction actors shots drawings props vfx sfx music script captions overlays events','scene')
     require(num(spec.get('caption_size',32)) and 32<=spec.get('caption_size',32)<=64,'caption_size must be 32..64 pixels')
     require(isinstance(spec.get('shots'),list) and spec['shots'],'shots are required')
     require(isinstance(spec.get('actors'),list) and spec['actors'],'actors are required')
@@ -116,7 +116,7 @@ def validate_production(spec, root, core_validate, check_assets=True):
         shot_ids.add(shot['id'])
         require(num(shot.get('start')) and num(shot.get('end')) and abs(shot['start']-previous)<1e-6 and shot['start']<shot['end']<=duration,'shots must cover the scene in order, without gaps/overlaps')
         previous=shot['end']
-        require(shot.get('background') in {'attachment_visit_r5','attachment_cafe_r5','attachment_school_nook_r5','attachment_home_care_r5','attachment_home','attachment_city','adb_computer_lab','adb_creator_studio_ep03','nemi_creator_studio','paper','room','thought','evening','studio_nemi','studio_adb','sf_street','sf_bridge','tech_auditorium','car_cabin','airport_road','roadside','school_classroom','school_corridor','school_courtyard','residential_lane','stationery_shop','home_curtain','school_office','school_day_r4','school_corridor_r4','school_courtyard_r4','school_street_r4','bedroom_evening_r4','lane_night_r4','school_office_r4','adb_studio_ep02','adb_dorm_party','adb_balcony_4am','adb_morning_panic'},'Unknown background')
+        require(shot.get('background') in {'attachment_visit_r5','attachment_cafe_r5','attachment_school_nook_r5','attachment_home_care_r5','attachment_home','attachment_city','adb_computer_lab','adb_creator_studio_ep03','nemi_creator_studio','black','paper','room','thought','evening','studio_nemi','studio_adb','sf_street','sf_bridge','tech_auditorium','car_cabin','airport_road','roadside','school_classroom','school_corridor','school_courtyard','residential_lane','stationery_shop','home_curtain','school_office','school_day_r4','school_corridor_r4','school_courtyard_r4','school_street_r4','bedroom_evening_r4','lane_night_r4','school_office_r4','adb_studio_ep02','adb_dorm_party','adb_balcony_4am','adb_morning_panic'},'Unknown background')
         require(isinstance(shot.get('actors'),dict),'shot actors must be an id → placement object')
         for id,placement in shot['actors'].items():
             require(id in ids,f'Unknown shot actor: {id}')
@@ -180,7 +180,7 @@ def validate_production(spec, root, core_validate, check_assets=True):
             drawings.append(copy_item)
     normalized['drawings']=drawings
     normalized['audio']=spec.get('audio') if check_assets else None
-    for key in ['shots','props','vfx','sfx','script','events','audio_metadata','mix','direction','caption_size']: normalized.pop(key,None)
+    for key in ['shots','props','vfx','sfx','music','script','overlays','events','audio_metadata','mix','direction','caption_size']: normalized.pop(key,None)
     core_validate(normalized)
     require(not spec['script'] or spec.get('audio'),'spoken script needs narration audio; silent studies must omit spoken turns/mouths')
     if spec.get('audio'): media(spec['audio'],'narration')
@@ -213,6 +213,23 @@ def validate_production(spec, root, core_validate, check_assets=True):
         if 'actor' in effect: require(effect['actor'] in ids and ids[effect['actor']]==effect['author'] and point(effect.get('offset',[80,-30])),'invalid VFX actor/offset')
         else: require(point(effect.get('position')),'VFX needs actor or position')
         if 'shots' in effect: require(set(effect['shots'])<=shot_ids,'unknown VFX shot')
+    require(isinstance(spec.get('overlays',[]),list),'overlays must be a list')
+    previous=0
+    for card in spec.get('overlays',[]):
+        keys(card,'start end text style position size','editorial overlay')
+        require(num(card.get('start')) and num(card.get('end')) and previous<=card['start']<card['end']<=duration,'editorial overlays must be ordered, nonoverlapping and inside the scene')
+        previous=card['end']
+        require(isinstance(card.get('text'),str) and 0<len(card['text'])<=160 and len(card['text'].split())<=12,'editorial overlay needs at most twelve words / 160 characters')
+        require(card.get('style') in {'red_serif','red_intro'},'unknown editorial overlay style')
+        require(point(card.get('position',[0,0])),'overlay position needs [x,y]')
+        require(num(card.get('size',72)) and 32<=card.get('size',72)<=720,'overlay size must be 32..720')
+    require(isinstance(spec.get('music',[]),list),'music must be a list')
+    for music in spec.get('music',[]):
+        keys(music,'at file duration gain_db source_start','music')
+        require(num(music.get('at')) and num(music.get('duration')) and 0<=music['at'] and 0<music['duration']<=duration and music['at']+music['duration']<=duration,'music must fit the scene clock')
+        require(num(music.get('source_start',0)) and music.get('source_start',0)>=0,'music source_start must be nonnegative')
+        require(num(music.get('gain_db')) and -60<=music['gain_db']<=0,'music gain must be -60..0 dB')
+        media(music.get('file'),'music')
     for sound in spec.get('sfx',[]):
         keys(sound,'at file duration gain_db event event_offset','SFX')
         timing_event(sound)

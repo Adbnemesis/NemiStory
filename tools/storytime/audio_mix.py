@@ -27,11 +27,11 @@ def mix_audio(spec,root,destination,floating=False):
         inputs += ['-i',str(root/spec['audio'].removeprefix('res://'))]
         filters.append(f'[0:a]asetpts=PTS-STARTPTS,volume=-2dB,apad,atrim=duration={spec["duration"]}[voice]')
         labels.append('[voice]')
-    for sound in spec.get('sfx',[]):
+    for sound in spec.get('sfx',[])+spec.get('music',[]):
         index=len(inputs)//2
         inputs += ['-i',str(root/sound['file'].removeprefix('res://'))]
         label=f's{index}'
-        filters.append(f'[{index}:a]atrim=duration={sound["duration"]},asetpts=PTS-STARTPTS,volume={sound["gain_db"]}dB,adelay={round(sound["at"]*1000)}:all=1[{label}]')
+        filters.append(f'[{index}:a]atrim=start={sound.get("source_start",0)}:duration={sound["duration"]},asetpts=PTS-STARTPTS,volume={sound["gain_db"]}dB,adelay={round(sound["at"]*1000)}:all=1[{label}]')
         labels.append(f'[{label}]')
     if not inputs: return None
     gain=spec.get('mix',{}).get('master_gain_db',0)

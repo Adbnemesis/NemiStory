@@ -1,0 +1,50 @@
+{
+  "movie": "nemi/episodes/ep17_message_to_storytime_animators/renders/Nemi_Message_R7_1080p.mp4",
+  "sha256": "31281274246acc7390a55543b856ef7f5b6e5d91dad6205aec16114509751969",
+  "spec": "nemi/episodes/ep17_message_to_storytime_animators/scene_r7_1080p.json",
+  "spec_sha256": "7d3da51a80daf4cc0aa2e4810b6a114a71c2cb2bb559f3cd5e3e8934bad083a1",
+  "render_inputs_sha256": "e4faa7343977621c4225fbc9d4beda5c8cbc7df11919c9de9647237dd4536045",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "25.000000",
+        "nb_read_frames": "750"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "25.000000",
+        "nb_read_frames": "1172"
+      }
+    ],
+    "format": {
+      "duration": "25.000000"
+    }
+  },
+  "encoded_audio": {
+    "integrated_lufs": -18.1,
+    "true_peak_dbfs": -1.8
+  },
+  "decoded_pcm_sha256": "6cf91e31ecfb4db4ac86d30c5b04bde6f5f16e7a642279f8e27fa05778145231",
+  "audio_identical_to_prior_asr_reviewed_cut": "Nemi_Message_R5_1080p.mp4",
+  "black_tail": {
+    "first_frame": 663,
+    "frames": 87,
+    "start_seconds": 22.1,
+    "max_downsampled_rgb": 0
+  },
+  "visual_review": "Parent inspected complete 1fps contact and revised first10s type proof; independent agent inspected props/contact and critical boundaries. This is decoded frame review, not a claim of subjective full-speed playback.",
+  "audio_review": "Cached ASR on byte-identical prior mix recovers new script with no source narration; peak/loudness checks pass. Perceptual listening remains pending user review.",
+  "approval": {
+    "full_1080p_user_satisfaction": false,
+    "4k_permitted": false
+  }
+}

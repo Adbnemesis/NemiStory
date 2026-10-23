@@ -1,0 +1,18 @@
+{
+  "source": "/Users/talus/Downloads/This Is A Message To All Minecraft Youtubers.mp4",
+  "source_sha256": "da2e2ce404461f9823ac33213d1bc51996e60e13c51ff21e3159904a6c4682c1",
+  "method": "HTDemucs 4.0.1; cached 955717e8 safetensors; no new musical synthesis",
+  "model_sha256": "d9fa14133cfcc034a6758923bb3a8ca9f8dfd0b582134643bbf83f72c17576dd",
+  "sample_rate": 44100,
+  "samples": 1104896,
+  "duration": 25.054331065759637,
+  "elapsed_seconds": 8.37847900390625,
+  "output_sha256": "5575f06dbab342dbf0945803c2e6448d602ceee5dfe56f2131031a4763587980",
+  "review_required": true,
+  "note": "Model estimate; no claim of lossless/original instrumental. Check voice leakage before use.",
+  "final_bed": "reference_music_bed_clean.wav",
+  "final_bed_sha256": "39762ef51ec9bf83f71d3d6a0449cfc4edb543497c577898a585e0a536f5fe67",
+  "final_bed_duration": 25.0,
+  "final_edit": "Gate 0\u20132.200 s to silence (dry source intro, separated residue -61.3 dBFS); 5 ms entrance ramp; trim only AAC excess tail after picture 25.000 s. All soundtrack section timing preserved.",
+  "cleanliness_check": "Full mix exact reference transcript isolated in vocal stem; instrumental ASR returned an unrelated sentence in first 0\u20133.22 s only; other stem detected initial this is fragments in dry intro, now gated. No narrator sentences recognized afterward. ASR is not listening. Perceptual review remains required."
+}

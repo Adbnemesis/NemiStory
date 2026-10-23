@@ -1,0 +1,9 @@
+# Nemi message — final 1080p review
+
+Current delivery is Nemi_Message_R7_1080p.mp4, 25.000 seconds, 1920×1080, 30 fps. Current prepared source is scene_r7_1080p.json. The approved Sohee identity/settings remain unchanged; all phrases use 1.00× tempo. The closing sentence gap was selectively shortened from the measured source, preserving the spoken words and final landing. Rejected/unused takes remain saved. Word boundaries are measured approximate ASR with authored mouth intervals, not phoneme alignment.
+
+Fresh ten-second proofs and complete versions were rendered through the shared validator. R6 corrected the laptop resting on the desktop; R7 makes the red serif words as tall and horizontally condensed as the supplied reference. The updated direction guide was read through all six parts and acknowledged for this production. Parent reviewed the entire final 1 fps contact plus fresh type proof. Independent review checked the desktop contact, cut boundaries, tall red words and exact black tail. The story-page panel at 16.6–18.0 is symbolic held art.
+
+FINAL_R7_CHECKS.json confirms 750 decoded frames, exact 25-second duration, all 87 black frames from 22.1 s, matching source/render stamp hashes and decoded audio identical to ASR-reviewed R5. ASR recovers the complete new script, with no source narrator lines. Encoded levels are −18.1 LUFS / −1.8 dB true peak. Two event-linked existing paper effects retain recorded source paths/hashes and measured levels; the hybrid music bed preserves source bursts/dropouts separately from narration.
+
+The shared 48-second integrated regression and engine/schema/audio tests passed. Decoded visual, numerical and ASR checks do not substitute for subjective listening/full-speed playback; those remain pending user review. No 1080p satisfaction or 4K approval receipt has been fabricated. Prior movies, voice sources and local media are preserved; logs/stamps/reports are under review/render_records.
