@@ -1,0 +1,73 @@
+{
+  "status": "Current candidate, user selection pending",
+  "method": "Built-in image generation",
+  "headline": "A MESSAGE",
+  "native_4k": false,
+  "provenance": "AI-generated raster illustration using canonical episode art and actual final movie mood reference. Not an exact rig export.",
+  "user_direction_override": "Dark studio, seated chair and restrained announcement type explicitly replace this episode\u2019s earlier bright/checker promotional treatment.",
+  "files": {
+    "thumbnail.png": {
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1738707,
+      "sha256": "1a9b7cd2b399a62fd252df87db1c051277464b8252274d0cc6368572a7899822"
+    },
+    "thumbnail.jpg": {
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 250475,
+      "sha256": "63acaecb0ebd69a84270768c49968d00b2db8fc5859649a9ded43c8588db2c7b"
+    },
+    "review/phone.png": {
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 95691,
+      "sha256": "0287d89aced0fbedd6cf3d6deb4a242901ab538cabad2b0aa5576e0a99a41737"
+    },
+    "review/tiny.png": {
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 28041,
+      "sha256": "675518be70bcf2840b193ad33375eca0f4d41e228514dff419bb00a5d446c2b5"
+    }
+  },
+  "conversion": "Native1672\u00d7941 PNG preserved byte-for-byte.1280\u00d7720 JPG uses Lanczos downsampling with a subpixel center crop to exact16:9,quality95. No upscaling.",
+  "references": [
+    {
+      "path": "nemi/episodes/ep17_message_to_storytime_animators/thumbnail/references/canonical_episode_frame_0150.jpg",
+      "sha256": "95dc7e90417cf8729b7db9a8dd721abad319df82b0ad91b0c4b06f1dbdf68111",
+      "role": "canonical episode character identity/ink",
+      "viewed": true
+    },
+    {
+      "path": "nemi/episodes/ep17_message_to_storytime_animators/thumbnail/references/dark_room_04_25.jpg",
+      "sha256": "dc8e5d0f459d28ed04673bcb4701ce7e07c8f526b2d46f9c507bfaca43e8d3a6",
+      "role": "actual final movie room/value/lighting/typography mood; existing text replaced",
+      "viewed": true
+    }
+  ],
+  "visual_review": {
+    "full_native_viewed": true,
+    "320x180_viewed": true,
+    "160x90_viewed": true,
+    "exact_headline_spelling": true,
+    "character_sitting_on_visible_chair": true,
+    "dark_background": true,
+    "canonical_identity_readable": true,
+    "no_secondary_copy": true,
+    "face_and_type_outside_duration_area": true,
+    "findings": "Nemi sits back in a dark upholstered armchair, with both forearms supported by visible armrests and crossed legs/seat in frame. Her canonical red-orange hair, ahoge, green eyes, high-neck green top and crossbody strap remain recognizable. The calm smirk, warm practical light and giant red serif headline match the approved movie mood. Both resting hands appear naturally attached. At160\u00d790 the seated silhouette and headline remain clear."
+  },
+  "platform_upload": false,
+  "ctr_measured": false,
+  "user_approved": false,
+  "rejected_bright_round_preserved": true
+}

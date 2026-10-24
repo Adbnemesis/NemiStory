@@ -1,0 +1,18 @@
+# Angled chair close-up
+
+Built-in image generation. Explicit current user direction overrides the earlier bright thumbnail default for these two videos only.
+
+Use case: ads-marketing. Make a finished16:9 opaque landscape YouTube thumbnail for a25-second, mock-serious self-confident message to all storytime animators.
+INPUT ROLES: Image1 is the canonical character identity/ink reference. Image2 is the ACTUAL FINAL VIDEO'S dark studio mood, lighting, depth and restrained announcement typography reference; its existing word is NOT the requested text. Use these references to match this video, not a generic brightly coloured storytime thumbnail.
+USER DIRECTION OVERRIDES EARLIER THUMBNAILS: dark background, narrator SITTING ON A CHAIR, exact sole headline "A MESSAGE". Quiet authority and dry swagger. The chair and supported seated posture must be unambiguous. Face must read at phone size with restrained light.
+Keep illustration in the canonical flat2D storytime ink/fill language with tasteful cel shadows, in the dim layered animator studio. No photorealistic person, anime redesign or3D plastic person. Do not add white cutout sticker borders, checkerboard, comic bursts, reaction crowd, book presentation, smiling open mouth, speech bubbles, caption labels, logos, UI or watermark. This is an ominous-looking announcement played with calm confidence, not a crying apology or horror threat.
+
+CHARACTER ADB: preserve his angular pale male face, blue-grey eyes, small sharp lower-eye ink accents, chin-length dark blue-black spiky hair and twin upward crown tufts, sage-green open-collar button shirt, dark trousers, economical charcoal ink and flatfills. His dry laidback half-smile is controlled, not angry or anxious. Do not give him Nemi's green eyes/red hair, extra costume or generic anime features.
+
+COMPOSITION B — LEAN IN: a closer three-quarter seated composition. The narrator occupies the right half to two-thirds, clearly sitting in a dark charcoal swivel desk chair with its curved high back visible beside the head and shoulder, and a visible armrest/seat at lower-right. Turned slightly toward camera, leaning forward with one elbow comfortably supported on the chair armrest, hands loosely and naturally together above the lap. Calm intent eye contact, lowered eyelids and a tiny confident half-smile, as though about to say something important. This is a close waist/thigh seated crop, not standing behind furniture. One low drawing-desk edge enters the foreground without concealing the fact of sitting. Dark studio detail and one soft warm lamp are pushed into deep background shadow; cool rim plus warm face light gives strong readable separation, still recognizably flat illustrated character art.
+TEXT EXACTLY: "A MESSAGE", a single headline laid out as two clean large lines on the left: "A" above "MESSAGE". Off-white/ivory, bold condensed upright serif, sharply legible against almost-black negative space, faint restrained dark shadow only. It should feel like a cinematic announcement card. No thick red/black cartoon contours, no other copy. Face and chair on right, headline on left, safe margins, eyes visible, uncluttered.
+
+## Reference roles
+
+- `adb/episodes/ep08_message_to_storytime_animators/thumbnail/references/canonical_episode_frame_0150.jpg` — canonical episode character identity/ink; SHA-256 `64dbbabbdaea75286dbf574e7f79b53e7d2b48a6160c21cd835cb8d04dd5befc`.
+- `adb/episodes/ep08_message_to_storytime_animators/thumbnail/references/dark_room_04_25.jpg` — actual final movie room/value/lighting/typography mood; existing text replaced; SHA-256 `6a3bb5b7c2b35f60676c22f52fe5a551fb4783856b2f8276f00b34bba0801eff`.

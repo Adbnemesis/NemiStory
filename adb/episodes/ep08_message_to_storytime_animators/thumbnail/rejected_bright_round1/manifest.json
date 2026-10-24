@@ -1,0 +1,51 @@
+{
+  "format": "storytime-generated-thumbnail-candidates-v1",
+  "author": "adb",
+  "episode": "ep08_message_to_storytime_animators",
+  "status": "assistant-recommended current delivery; both candidates preserved; user has not selected/approved a thumbnail",
+  "recommended_concept": "concept_b_hand_r2",
+  "selection_by": "assistant editorial recommendation",
+  "headline": "MAKE ROOM.",
+  "title": "Storytime Animators, I'm Coming for Your Watch Time",
+  "native": "thumbnail.png",
+  "upload": "thumbnail.jpg",
+  "prompt": "PROMPT.md",
+  "qa": "QA.json",
+  "review": "REVIEW.md",
+  "method": "built-in image generation",
+  "native_sha256": "7662d92b251ebc31f44dd13ad0fd9b08356dcabc92db05792578bf424af1d75e",
+  "upload_sha256": "c27d72bd0b4783d0dc10bb28f5e2efe58f61ee266b4c5d490eb6e4249f4fbd88",
+  "candidates": [
+    {
+      "id": "concept_a",
+      "headline": "WHO IS THIS GUY?!",
+      "suggested_title": "Storytime Animators, I'm Coming for Your Watch Time",
+      "native": "revisions/concept_a/thumbnail.png",
+      "upload": "revisions/concept_a/thumbnail.jpg",
+      "native_sha256": "1d5d41fe40c701bac825dbba8d8f99179d6e7b8f48e21fbd786fe789ed77fea4",
+      "upload_sha256": "f56f0d97e9b128a4ccebe4c3bd595f4aeb320ddcb9a280af2e5d81fcb092f6ce"
+    },
+    {
+      "id": "concept_b",
+      "headline": "MAKE ROOM.",
+      "suggested_title": "I'm Dangerously Underwatched",
+      "native": "revisions/concept_b/thumbnail.png",
+      "upload": "revisions/concept_b/thumbnail.jpg",
+      "native_sha256": "3bb16355fdf5c4ffd48412f958b3db38b0119eafa4185f43798a110465cbd42c",
+      "upload_sha256": "d54442bf9a3a0aefd0450f32f1316f9a09af4080f5be62c9a0c3e4d4f04aec1a"
+    },
+    {
+      "id": "concept_b_hand_r2",
+      "headline": "MAKE ROOM.",
+      "suggested_title": "Storytime Animators, I'm Coming for Your Watch Time",
+      "native": "revisions/concept_b_hand_r2/thumbnail.png",
+      "upload": "revisions/concept_b_hand_r2/thumbnail.jpg",
+      "native_sha256": "7662d92b251ebc31f44dd13ad0fd9b08356dcabc92db05792578bf424af1d75e",
+      "upload_sha256": "c27d72bd0b4783d0dc10bb28f5e2efe58f61ee266b4c5d490eb6e4249f4fbd88"
+    }
+  ],
+  "user_approval": null,
+  "platform_upload": false,
+  "retained_identity_reference": "references/canonical_episode_frame_0150.jpg",
+  "retained_identity_reference_sha256": "64dbbabbdaea75286dbf574e7f79b53e7d2b48a6160c21cd835cb8d04dd5befc"
+}

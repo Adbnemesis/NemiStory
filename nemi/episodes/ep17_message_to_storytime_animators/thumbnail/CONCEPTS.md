@@ -1,17 +1,17 @@
-# NEMI thumbnail concepts
+# NEMI — A MESSAGE
 
-Recommended: **MOVE OVER!** (`concept_a`). Proposed video title: **A Message to Every Storytime Animator**. Native1672×941 PNG and1280×720 upload JPG are at the thumbnail root. This is an assistant recommendation; no user selection/approval is invented.
+Two current dark-room seated concepts, made from the user’s correction. Neither is marked as user-selected.
 
-## MOVE OVER!
+## A — Frontal armchair announcement
 
-![Concept](revisions/concept_a/thumbnail.jpg)
+![Option A](revisions/dark_message_a/thumbnail.jpg)
 
-[Native PNG](revisions/concept_a/thumbnail.png) · [Prompt](revisions/concept_a/PROMPT.md) · [Review](revisions/concept_a/REVIEW.md)
+[Native PNG](revisions/dark_message_a/thumbnail.png) · [Upload JPG](revisions/dark_message_a/thumbnail.jpg) · [Prompt](revisions/dark_message_a/PROMPT.md) · [QA](revisions/dark_message_a/QA.json)
 
-## BIGGEST? EASY.
+## B — Angled chair close-up
 
-![Concept](revisions/concept_b/thumbnail.jpg)
+![Option B](revisions/dark_message_b/thumbnail.jpg)
 
-[Native PNG](revisions/concept_b/thumbnail.png) · [Prompt](revisions/concept_b/PROMPT.md) · [Review](revisions/concept_b/REVIEW.md)
+[Native PNG](revisions/dark_message_b/thumbnail.png) · [Upload JPG](revisions/dark_message_b/thumbnail.jpg) · [Prompt](revisions/dark_message_b/PROMPT.md) · [QA](revisions/dark_message_b/QA.json)
 
-Both concepts are original AI-generated illustrations. Full and mobile views were inspected; no live upload or CTR result is claimed. Candidates stay outside the user-approved collection index until the user chooses.
+[Full/mobile review](REVIEW.md). Earlier bright deliveries remain preserved under `rejected_bright_round1/`; they are user-rejected and are not current options.

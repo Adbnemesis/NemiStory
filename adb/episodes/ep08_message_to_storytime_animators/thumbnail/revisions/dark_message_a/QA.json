@@ -1,0 +1,73 @@
+{
+  "status": "Current candidate, user selection pending",
+  "method": "Built-in image generation",
+  "headline": "A MESSAGE",
+  "native_4k": false,
+  "provenance": "AI-generated raster illustration using canonical episode art and actual final movie mood reference. Not an exact rig export.",
+  "user_direction_override": "Dark studio, seated chair and restrained announcement type explicitly replace this episode\u2019s earlier bright/checker promotional treatment.",
+  "files": {
+    "thumbnail.png": {
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1657514,
+      "sha256": "f0dc441e5d2b173370f47d7eabe87d1f586e32712807fd9217fed884c5952f0a"
+    },
+    "thumbnail.jpg": {
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 224204,
+      "sha256": "748d5eba7dd75507e3b722f960bba23b866e4f162560dcc5f196845fe8bd037e"
+    },
+    "review/phone.png": {
+      "dimensions": [
+        320,
+        180
+      ],
+      "bytes": 88661,
+      "sha256": "726168598078c1728ee9ad80c99b282a9bbc8d6b672edf9a9855a39cd38ce542"
+    },
+    "review/tiny.png": {
+      "dimensions": [
+        160,
+        90
+      ],
+      "bytes": 26224,
+      "sha256": "af210c2eb61f1879eb7ebc5618e7debeccbbd7226ed6ad8c2015e1a3e92563dc"
+    }
+  },
+  "conversion": "Native1672\u00d7941 PNG preserved byte-for-byte.1280\u00d7720 JPG uses Lanczos downsampling with a subpixel center crop to exact16:9,quality95. No upscaling.",
+  "references": [
+    {
+      "path": "adb/episodes/ep08_message_to_storytime_animators/thumbnail/references/canonical_episode_frame_0150.jpg",
+      "sha256": "64dbbabbdaea75286dbf574e7f79b53e7d2b48a6160c21cd835cb8d04dd5befc",
+      "role": "canonical episode character identity/ink",
+      "viewed": true
+    },
+    {
+      "path": "adb/episodes/ep08_message_to_storytime_animators/thumbnail/references/dark_room_04_25.jpg",
+      "sha256": "6a3bb5b7c2b35f60676c22f52fe5a551fb4783856b2f8276f00b34bba0801eff",
+      "role": "actual final movie room/value/lighting/typography mood; existing text replaced",
+      "viewed": true
+    }
+  ],
+  "visual_review": {
+    "full_native_viewed": true,
+    "320x180_viewed": true,
+    "160x90_viewed": true,
+    "exact_headline_spelling": true,
+    "character_sitting_on_visible_chair": true,
+    "dark_background": true,
+    "canonical_identity_readable": true,
+    "no_secondary_copy": true,
+    "face_and_type_outside_duration_area": true,
+    "findings": "ADB reclines in the substantial dark armchair, arms supported on both armrests and crossed legs visible. His dark crown tufts, angular face, blue-grey eyes, lower-eye ink and green open-collar shirt remain recognizable. The dry smirk and red serif headline fit the actual video. Relaxed hands rest on the chair with plausible wrist continuity. The posture and text read at160\u00d790."
+  },
+  "platform_upload": false,
+  "ctr_measured": false,
+  "user_approved": false,
+  "rejected_bright_round_preserved": true
+}

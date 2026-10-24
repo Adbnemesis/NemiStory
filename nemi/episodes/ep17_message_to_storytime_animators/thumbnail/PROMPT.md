@@ -1,15 +1,13 @@
-# Move Over — direct challenge
+# Current dark seated thumbnail prompt set
 
-Generator: built-in image generation.
+The user explicitly requested two versions for each author: dark background, sitting on a chair and the sole headline **A MESSAGE**. This supersedes the rejected bright treatment for this production.
 
-Use case: ads-marketing. Asset: finished 16:9 landscape YouTube thumbnail for Nemi's25-second comedic challenge to every storytime animator. Generate an original illustrated promotional composition.
-INPUTS: Image1 is typography/background/cutout reference only (Raora thumbnail collage); do not reproduce its people, logos or UI. Image2 is the approved illustrated finish and bold lettering example only; do not copy the teacher or frightened expression. Image3 is the CANONICAL NEMI identity reference. Preserve her long straight red-orange hair, little upward ahoge, jagged bangs, emerald-green eyes, pale face, sage-green high-neck drawstring top, dark cross-body strap, warm burgundy line art and flat storytime illustration.
-IDEA: Nemi is the new challenger playfully telling the animation world to make room. Huge close-up on the right, gleefully self-assured asymmetric grin, one eyebrow lifted, lively mischievous green eyes looking straight at the viewer. She confidently thrusts an open sketchbook toward the camera from the lower center; her two hands visibly grip its side edges with clean anatomy. On the left, three much smaller anonymous simple monochrome doodle animator heads peek from behind its edge, surprised by her entrance. They are generic symbolic rivals with no identifiable real creator faces. Book pages show bold comic stick-figure panels, no writing. Comic scale and expression should communicate audacious takeover rather than real violence.
-DESIGN: bright white with very pale mint checker accents, only a few purposeful pencil/speed doodles. Large simple cutout shapes, crisp white silhouette separation and selective thick red contour. Composition must read instantly at160x90: one big confident face, one foreshortened sketchbook, tiny startled rivals.
-TEXT EXACTLY: "MOVE OVER!" One headline only across the upper quarter, broad extremely heavy WHITE sans lettering, substantial BLACK inner / RED middle / BLACK outer outline layers, matching the bold contour weight of image2. Safe margins on all four sides; do not cover eyes. No second line of explanatory copy, labels, names, badge, timestamp, watermark, YouTube UI or extra text. Keep lower-right duration area free of critical details. Opaque16:9 polished2D promotional art, not a screenshot, not photorealistic, not generic anime. Preserve Nemi's identifiable simple face construction and warm ink.
+## A — Frontal armchair announcement
 
-## Input roles
+[Exact prompt and input roles](revisions/dark_message_a/PROMPT.md).
 
-- `references/thumbnail_ref/thumbnail_set_raora.png` — typography/background/cutout reference; SHA-256 `cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e`.
-- `nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png` — approved illustrated finish reference; SHA-256 `e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8`.
-- `nemi/episodes/ep17_message_to_storytime_animators/review/edit_r8/stills/0150.jpg` — actual target-author episode art for identity; SHA-256 `95dc7e90417cf8729b7db9a8dd721abad319df82b0ad91b0c4b06f1dbdf68111`.
+## B — Angled chair close-up
+
+[Exact prompt and input roles](revisions/dark_message_b/PROMPT.md).
+
+Earlier prompts and deliveries are preserved in `rejected_bright_round1/` and the earlier `revisions/` folders. No current candidate has been selected by the user.

@@ -1,8 +1,22 @@
 {
-  "method": "built-in image generation",
-  "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail style references; not a rig export or editable vector.",
-  "headline": "MOVE OVER!",
-  "proposed_title": "A Message to Every Storytime Animator",
+  "status": "Two current dark seated candidates; awaiting user selection. Earlier bright thumbnails rejected.",
+  "method": "Built-in image generation",
+  "current_candidates": [
+    {
+      "id": "dark_message_a",
+      "qa": "revisions/dark_message_a/QA.json",
+      "native_sha256": "1a9b7cd2b399a62fd252df87db1c051277464b8252274d0cc6368572a7899822",
+      "upload_sha256": "63acaecb0ebd69a84270768c49968d00b2db8fc5859649a9ded43c8588db2c7b"
+    },
+    {
+      "id": "dark_message_b",
+      "qa": "revisions/dark_message_b/QA.json",
+      "native_sha256": "0f54c998a60197d857befb246bc01aba14355d336d43fb6dfa28d448146425ba",
+      "upload_sha256": "d02a8072dfd6f6271bfa332fa55121340bf591ba93ed882de4ee9deb46510bdb"
+    }
+  ],
+  "parent_full_mobile_review": true,
+  "independent_review": "review/DARK_PAIR_INDEPENDENT_REVIEW.md",
   "native_dimensions": [
     1672,
     941
@@ -12,76 +26,7 @@
     720
   ],
   "native_4k": false,
-  "conversion": "Original native PNG preserved byte-for-byte. Upload JPG is center-fitted/downsampled to1280\u00d7720 with Lanczos, quality94; source near16:9 requires a subpixel edge crop. No upscaling.",
-  "references": [
-    {
-      "path": "references/thumbnail_ref/thumbnail_set_raora.png",
-      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e",
-      "role": "typography/background/cutout reference",
-      "viewed": true
-    },
-    {
-      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
-      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
-      "role": "approved illustrated finish reference",
-      "viewed": true
-    },
-    {
-      "path": "nemi/episodes/ep17_message_to_storytime_animators/review/edit_r8/stills/0150.jpg",
-      "sha256": "95dc7e90417cf8729b7db9a8dd721abad319df82b0ad91b0c4b06f1dbdf68111",
-      "role": "actual target-author episode art for identity",
-      "viewed": true
-    }
-  ],
-  "files": {
-    "thumbnail.png": {
-      "sha256": "fa49eddb67a70ddb4aff2d63c7f68fa82abac8c4906fc02d2163080d3157075d",
-      "bytes": 2022121,
-      "dimensions": [
-        1672,
-        941
-      ]
-    },
-    "thumbnail.jpg": {
-      "sha256": "571ebcb1aac3ed9f580362763c49d015e01cd53f9bf1c99b31b47b01d47d0abf",
-      "bytes": 338675,
-      "dimensions": [
-        1280,
-        720
-      ]
-    },
-    "review/phone.png": {
-      "sha256": "2aa618d3f1b6cf84aed18ad81ae197cca4ff94c1d6df6088bacbbef99ac28e60",
-      "bytes": 118977,
-      "dimensions": [
-        320,
-        180
-      ]
-    },
-    "review/tiny.png": {
-      "sha256": "ec406808c2ffa982ba87ef0071bcb64a4edd2bdcde65d6f9c7a105697b72269b",
-      "bytes": 35479,
-      "dimensions": [
-        160,
-        90
-      ]
-    }
-  },
-  "visual_review": {
-    "full_native_output_viewed": true,
-    "mobile_320x180_viewed": true,
-    "tiny_160x90_viewed": true,
-    "exact_headline": true,
-    "thick_white_black_red_black_type": true,
-    "identity_consistent_with_target_episode": true,
-    "no_secondary_caption": true,
-    "clean_primary_contact_and_hands": true,
-    "important_face_and_headline_outside_duration_area": true,
-    "findings": "Clear mischievous smile, emerald eyes, red-orange hair/ahoge and green outfit retain Nemi. Both gripping hands overlap the open sketchbook cleanly. At160\u00d790 the comic panels simplify to texture, while the large face, headline and book silhouette remain clear. This is the recommended concept because it makes the challenge and storytime medium immediate."
-  },
-  "user_approval": null,
-  "platform_uploaded": false,
-  "ctr_measured": false,
-  "alternatives_preserved": true,
-  "status": "Assistant recommended delivery; user selection/approval pending."
+  "old_bright_preserved": true,
+  "user_approved": false,
+  "platform_upload": false
 }

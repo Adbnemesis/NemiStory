@@ -1,8 +1,22 @@
 {
-  "method": "Built-in image generation; targeted hand anatomy edit",
-  "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail style references; not a rig export or editable vector.",
-  "headline": "MAKE ROOM.",
-  "proposed_title": "Storytime Animators, I'm Coming for Your Watch Time",
+  "status": "Two current dark seated candidates; awaiting user selection. Earlier bright thumbnails rejected.",
+  "method": "Built-in image generation",
+  "current_candidates": [
+    {
+      "id": "dark_message_a",
+      "qa": "revisions/dark_message_a/QA.json",
+      "native_sha256": "f0dc441e5d2b173370f47d7eabe87d1f586e32712807fd9217fed884c5952f0a",
+      "upload_sha256": "748d5eba7dd75507e3b722f960bba23b866e4f162560dcc5f196845fe8bd037e"
+    },
+    {
+      "id": "dark_message_b",
+      "qa": "revisions/dark_message_b/QA.json",
+      "native_sha256": "64eddcbc4d4da0d3ac54fc144717b95ababafc675035c92f0c3d02e37d0d3596",
+      "upload_sha256": "27aa49a142cd0f3316d21fe00823bfdf4ac460fb854e6c7bba56d7609fb0a1cd"
+    }
+  ],
+  "parent_full_mobile_review": true,
+  "independent_review": "review/DARK_PAIR_INDEPENDENT_REVIEW.md",
   "native_dimensions": [
     1672,
     941
@@ -12,79 +26,7 @@
     720
   ],
   "native_4k": false,
-  "conversion": "Original native PNG preserved byte-for-byte. Upload JPG is center-fitted/downsampled to1280\u00d7720 with Lanczos, quality94; source near16:9 requires a subpixel edge crop. No upscaling.",
-  "references": [
-    {
-      "path": "references/thumbnail_ref/thumbnail_set_raora.png",
-      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e",
-      "role": "typography/background/cutout reference",
-      "viewed": true
-    },
-    {
-      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
-      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
-      "role": "approved illustrated finish reference",
-      "viewed": true
-    },
-    {
-      "path": "adb/episodes/ep08_message_to_storytime_animators/review/edit_r8/stills/0150.jpg",
-      "sha256": "64dbbabbdaea75286dbf574e7f79b53e7d2b48a6160c21cd835cb8d04dd5befc",
-      "role": "actual target-author episode art for identity",
-      "viewed": true
-    }
-  ],
-  "files": {
-    "thumbnail.png": {
-      "sha256": "7662d92b251ebc31f44dd13ad0fd9b08356dcabc92db05792578bf424af1d75e",
-      "bytes": 1769649,
-      "dimensions": [
-        1672,
-        941
-      ]
-    },
-    "thumbnail.jpg": {
-      "sha256": "c27d72bd0b4783d0dc10bb28f5e2efe58f61ee266b4c5d490eb6e4249f4fbd88",
-      "bytes": 298483,
-      "dimensions": [
-        1280,
-        720
-      ]
-    },
-    "review/phone.png": {
-      "sha256": "00e32b5672008c32a500214793a555ed049823fad5349721bdfc338b56e336a4",
-      "bytes": 105053,
-      "dimensions": [
-        320,
-        180
-      ]
-    },
-    "review/tiny.png": {
-      "sha256": "4b2260ece4a5721acb00f35cb21f261ce3d7b85951f0697929d3a445311296fc",
-      "bytes": 31896,
-      "dimensions": [
-        160,
-        90
-      ]
-    }
-  },
-  "visual_review": {
-    "full_native_output_viewed": true,
-    "mobile_320x180_viewed": true,
-    "tiny_160x90_viewed": true,
-    "exact_headline": true,
-    "thick_white_black_red_black_type": true,
-    "identity_consistent_with_target_episode": true,
-    "no_secondary_caption": true,
-    "clean_primary_contact_and_hands": true,
-    "important_face_and_headline_outside_duration_area": true,
-    "findings": "Targeted hand edit now shows four separated extended fingers of graduated lengths plus one thumb. Palm heel/wrist/forearm remain connected and in clean contact with the red panel. Canonical ADB face, headline, framing and background are visually preserved. Full native,320\u00d7180 and160\u00d790 images were inspected; headline/face/action remain clear."
-  },
-  "user_approval": null,
-  "platform_uploaded": false,
-  "ctr_measured": false,
-  "alternatives_preserved": true,
-  "edit_target": {
-    "path": "revisions/concept_b/thumbnail.png",
-    "sha256": "3bb16355fdf5c4ffd48412f958b3db38b0119eafa4185f43798a110465cbd42c"
-  }
+  "old_bright_preserved": true,
+  "user_approved": false,
+  "platform_upload": false
 }
