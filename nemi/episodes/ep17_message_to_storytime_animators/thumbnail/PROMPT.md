@@ -27,3 +27,7 @@ The user requested the usual episode-thumbnail illustration/heavy outlined lette
 ## Latest: black void spotlight
 
 The supplied photo replaces the furnished-room setting. [A exact prompt](revisions/black_void_spotlight_a/PROMPT.md) · [B exact prompt](revisions/black_void_spotlight_b/PROMPT.md). Prior prompt sets stay preserved.
+
+## Latest identity/title correction
+
+[Exact A/B prompts](IDENTITY_R2_SET.md) use EP13 face/ink and full-body wardrobe references. The supplied black-void setup remains; A MESSAGE is one centred top line. Prior prompts that specified black skirt/tights were incorrect and are historical.

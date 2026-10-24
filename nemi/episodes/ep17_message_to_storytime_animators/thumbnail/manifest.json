@@ -2,7 +2,7 @@
   "format": "storytime-generated-thumbnail-candidates-v2",
   "author": "nemi",
   "episode": "ep17_message_to_storytime_animators",
-  "status": "Latest black-void spotlight pair follows attached reference; all earlier variants preserved; selection pending.",
+  "status": "Latest pair corrects Nemi outfit/face and top-centred title; accepted black-void setup retained; selection pending.",
   "headline": "A MESSAGE",
   "selected_concept": null,
   "user_approved": false,
@@ -105,12 +105,44 @@
           "upload_sha256": "1523ec999a9e55bc2145a63d7ce905f97a45a2bbc7e60bdd7d4bd8251db41bed"
         }
       ]
+    },
+    {
+      "id": "black_void_identity_r2",
+      "user_direction": "yea its good but why have you changed nemi's style? she doesn't wear black skirt? check other ep's thumbnails your style is matching now just fix how nemi looks\nalso A MESSAGE position is weird ig it should be top centre aligned or somrthing",
+      "references": "EP13 thumbnail plus canonical full-body outfit",
+      "candidates": [
+        {
+          "id": "black_void_identity_r2_a",
+          "label": "A",
+          "concept": "Corrected Nemi \u2014 full spotlight",
+          "headline": "A MESSAGE",
+          "native": "revisions/black_void_identity_r2_a/thumbnail.png",
+          "upload": "revisions/black_void_identity_r2_a/thumbnail.jpg",
+          "prompt": "revisions/black_void_identity_r2_a/PROMPT.md",
+          "qa": "revisions/black_void_identity_r2_a/QA.json",
+          "native_sha256": "09bd5eff16a081d4f96d3f6d488f1eebefd119e4035a57943880e2442bd25e0c",
+          "upload_sha256": "dc90a259e0363349db19e81bd884204dfe35619bd10ae3692577c5e159d1c62f"
+        },
+        {
+          "id": "black_void_identity_r2_b",
+          "label": "B",
+          "concept": "Corrected Nemi \u2014 closer spotlight",
+          "headline": "A MESSAGE",
+          "native": "revisions/black_void_identity_r2_b/thumbnail.png",
+          "upload": "revisions/black_void_identity_r2_b/thumbnail.jpg",
+          "prompt": "revisions/black_void_identity_r2_b/PROMPT.md",
+          "qa": "revisions/black_void_identity_r2_b/QA.json",
+          "native_sha256": "327f6dfdea68f9adc30bb427b6a531c8e49e62eb2ef80aa12f2f859c7a150fe9",
+          "upload_sha256": "a4663a65397dbecb38e8636e7895e1c68c25ce76fe81dd1110c9b8b3fa1b810e"
+        }
+      ]
     }
   ],
   "latest_pair": [
-    "black_void_spotlight_a",
-    "black_void_spotlight_b"
+    "black_void_identity_r2_a",
+    "black_void_identity_r2_b"
   ],
   "preserve_existing": true,
-  "existing_dark_pair_feedback": "User says this is fine and do not delete; no individual image selected."
+  "existing_dark_pair_feedback": "User says this is fine and do not delete; no individual image selected.",
+  "current_outfit_note": "Sage hoodie; FOREST-GREEN pleated skirt; bare legs; WHITE crew socks; WHITE/GREEN chunky sneakers. Prior black tights/shoes were incorrect."
 }

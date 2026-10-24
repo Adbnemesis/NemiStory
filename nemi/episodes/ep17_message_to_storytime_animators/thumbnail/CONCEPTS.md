@@ -1,3 +1,9 @@
+# Latest Nemi correction
+
+[Corrected character/outfit and top-centred A MESSAGE — A/B](IDENTITY_R2_SET.md). The accepted black-void setting remains. All earlier versions stay below unchanged.
+
+---
+
 # Latest Nemi pair — black void spotlight
 
 [View the two new black-void options, native PNGs and prompts](BLACK_VOID_SET.md). The attached example is now the setting reference: one simple chair under one overhead light, no furnished room. Earlier sets remain unchanged below.

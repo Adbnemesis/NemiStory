@@ -9,3 +9,5 @@ Movie typography/props are rasterized at3840×2160; the same canonical character
 Additional Nemi-only [illustrated forward-lean pair](thumbnail/CONCEPTS.md) restores the established episode-thumbnail art/type style in the dark room. Earlier dark/serif choices are explicitly retained.
 
 Latest Nemi choices use [one spotlight in a completely black void](thumbnail/BLACK_VOID_SET.md), following the attached example. All earlier choices remain preserved.
+
+Latest Nemi [corrected identity/outfit and top-centred title pair](thumbnail/IDENTITY_R2_SET.md) supersedes the incorrect black wardrobe details; the accepted black-void setting is retained.

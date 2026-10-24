@@ -31,3 +31,7 @@ The scene contains only Nemi, one simple thin-legged chair, one overhead white s
 The closer seated composition keeps the same featureless black void and single overhead light/floor pool. Nemi leans forward on the simple chair, forearms/elbows near the knees, hands resting together and feet grounded. Her face and red hair are larger than A, while the chair back, seat, legs and forward posture remain visible. Headline spells A MESSAGE with no extra copy. Full/mobile views show coherent limbs/hand overlap and no blocking text/face crop. At160×90 the larger silhouette offers more character emphasis than A.
 
 See `review/BLACK_VOID_INDEPENDENT_REVIEW.md`; earlier images are preserved.
+
+## Latest identity/title correction
+
+The prior black skirt/tights/shoes and narrower face were an identity mismatch. Specific full-body wardrobe evidence supersedes earlier broad identity claims. New A/B restore visibly green pleats, bare legs, white socks and white/green sneakers; title is one top-centred line. [Corrected pair](IDENTITY_R2_SET.md).

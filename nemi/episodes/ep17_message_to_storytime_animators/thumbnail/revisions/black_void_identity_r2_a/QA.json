@@ -1,0 +1,103 @@
+{
+  "status": "Corrected candidate; user selection pending",
+  "method": "Built-in image generation targeted edits",
+  "headline": "A MESSAGE",
+  "native_4k": false,
+  "provenance": "Reference-guided generated raster illustration, not exact rig export. Corrected from the user-approved black-void concept using full-body and episode-thumbnail identity references.",
+  "files": {
+    "thumbnail.png": {
+      "sha256": "09bd5eff16a081d4f96d3f6d488f1eebefd119e4035a57943880e2442bd25e0c",
+      "bytes": 1125011,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail.jpg": {
+      "sha256": "dc90a259e0363349db19e81bd884204dfe35619bd10ae3692577c5e159d1c62f",
+      "bytes": 143438,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "review/phone.png": {
+      "sha256": "ece099afb795a97e8a4aa7d0234dbd9da614acd339d38ff266192fc44ddd8ca7",
+      "bytes": 50022,
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    "review/tiny.png": {
+      "sha256": "e91a41e2de39d1b9025950b32917cbc02e46e920aec0818eff2bc2cdde925660",
+      "bytes": 13908,
+      "dimensions": [
+        160,
+        90
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "nemi/episodes/ep17_message_to_storytime_animators/thumbnail/revisions/black_void_spotlight_a/thumbnail.png",
+      "sha256": "fd1c362e02a2fd498a0feec0b0ec4fe1d675567fceb6a73055591d2b44383cbe",
+      "role": "Edit target: earlier black-void variant, accepted setting/pose/style; incorrect outfit and text placement to revise",
+      "viewed": true
+    },
+    {
+      "path": "nemi/episodes/ep13_please_support_me/thumbnail/thumbnail.png",
+      "sha256": "58e00ce0916f9e209230551c4d24c68f13e8d1998da27be6c0a8a899ea0462e3",
+      "role": "EP13 thumbnail: recognizable Nemi face/hair/illustrated ink/headline reference only",
+      "viewed": true
+    },
+    {
+      "path": "nemi/characters/nemi/renders/01_nemi_fullbody_idle_color.png",
+      "sha256": "178f18da3c49f285d2fcfb241ea340e24d181ffb5196a739862ce748f4a0c497",
+      "role": "Full-body canonical: forest-green skirt, bare legs, white socks, white-green platform sneakers, sage hoodie and bag",
+      "viewed": true
+    }
+  ],
+  "outfit_evidence": {
+    "source": "nemi/characters/nemi/renders/01_nemi_fullbody_idle_color.png",
+    "documentation": [
+      "nemi/characters/nemi/README.md",
+      "nemi/characters/nemi/documentation/NEMI_ANIMATION_GUIDE.md"
+    ],
+    "hoodie": "oversized sage cowl-neck drawstring",
+    "skirt": "dark forest-green pleats visibly green",
+    "legs": "bare pale legs; no opaque tights",
+    "socks": "white crew",
+    "shoes": "unbranded white chunky platform sneakers with emerald accents",
+    "bag": "dark crossbody messenger"
+  },
+  "headline_alignment": {
+    "layout": "one line, top centre",
+    "method": "Red contour bounding box within top230 native pixels; character red within this band stays inside headline horizontal extents.",
+    "bounds": [
+      244,
+      30,
+      1430,
+      229
+    ],
+    "headline_center_x": 837.0,
+    "canvas_center_x": 836.0,
+    "center_error_px": 1.0,
+    "within_1_percent_canvas_width": true
+  },
+  "visual_review": {
+    "native_output_viewed": true,
+    "320x180_viewed": true,
+    "160x90_viewed": true,
+    "black_void_single_spotlight_retained": true,
+    "corrected_outfit_verified_against_fullbody": true,
+    "top_centred_headline": true,
+    "findings": "The revised character has a visible forest-green pleated skirt, bare pale legs, white crew socks and white chunky sneakers with green panels. The sage cowl-neck hoodie, copper hair/ahoge, larger green eyes and messenger strap remain. Face is guided toward the fuller EP13 construction while keeping the accepted illustrated finish. Chair/forward lean/single overhead cone and empty black space remain. A MESSAGE is one horizontal line at the top, centred on the canvas. Full/mobile views show grounded feet, natural resting hands and readable type. Facial detail naturally becomes small at160\u00d790 in the wide composition."
+  },
+  "conversion": "Native1672\u00d7941 PNG preserved; upload1280\u00d7720 JPG uses Lanczos downsampling/subpixel center fit atquality95, without upscaling.",
+  "previous_images_preserved": true,
+  "movie_modified": false,
+  "adb_modified": false,
+  "user_approved": false,
+  "platform_upload": false
+}

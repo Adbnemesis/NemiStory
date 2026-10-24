@@ -1,3 +1,5 @@
+Current corrected Nemi/title versions: [IDENTITY_R2_SET.md](IDENTITY_R2_SET.md). The earlier pair below has the accepted lighting/layout but incorrect black outfit details, now superseded. Files are retained.
+
 # Nemi — black void and one spotlight
 
 Latest pair follows the supplied empty-space/chair/overhead-light example. All previous options are preserved; no image is marked selected.

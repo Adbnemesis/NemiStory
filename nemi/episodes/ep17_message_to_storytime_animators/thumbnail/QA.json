@@ -74,5 +74,21 @@
     "full_mobile_viewed": true,
     "all_earlier_images_preserved": true,
     "independent_review": "review/BLACK_VOID_INDEPENDENT_REVIEW.md"
+  },
+  "latest_identity_r2": {
+    "candidates": [
+      {
+        "id": "black_void_identity_r2_a",
+        "qa": "revisions/black_void_identity_r2_a/QA.json"
+      },
+      {
+        "id": "black_void_identity_r2_b",
+        "qa": "revisions/black_void_identity_r2_b/QA.json"
+      }
+    ],
+    "reference_audit": "review/IDENTITY_R2_REFERENCE_AUDIT.md",
+    "independent_review": "review/IDENTITY_R2_INDEPENDENT_REVIEW.md",
+    "prior_outfit_identity_checks_superseded": true,
+    "all_earlier_images_preserved": true
   }
 }

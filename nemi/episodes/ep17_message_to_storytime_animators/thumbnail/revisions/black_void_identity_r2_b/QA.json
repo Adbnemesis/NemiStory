@@ -1,0 +1,109 @@
+{
+  "status": "Corrected candidate; user selection pending",
+  "method": "Built-in image generation targeted edits",
+  "headline": "A MESSAGE",
+  "native_4k": false,
+  "provenance": "Reference-guided generated raster illustration, not exact rig export. Corrected from the user-approved black-void concept using full-body and episode-thumbnail identity references.",
+  "files": {
+    "thumbnail.png": {
+      "sha256": "327f6dfdea68f9adc30bb427b6a531c8e49e62eb2ef80aa12f2f859c7a150fe9",
+      "bytes": 1471002,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail.jpg": {
+      "sha256": "a4663a65397dbecb38e8636e7895e1c68c25ce76fe81dd1110c9b8b3fa1b810e",
+      "bytes": 157889,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "review/phone.png": {
+      "sha256": "6c651d58edb6d1b1f8b38bd7256a4d8058a314786a0bfb0aa113369c0731d9b0",
+      "bytes": 64421,
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    "review/tiny.png": {
+      "sha256": "b24914e01649ea1982eeea39707b4424d1f27dd1c01b278da35248ba03da18f9",
+      "bytes": 17626,
+      "dimensions": [
+        160,
+        90
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "nemi/episodes/ep17_message_to_storytime_animators/thumbnail/revisions/black_void_spotlight_b/thumbnail.png",
+      "sha256": "e381f5f8bb8cb1edd6f5df1cc11f947789c4273f595b4f9b941bc66aaeed93a1",
+      "role": "Edit target: earlier black-void variant, accepted setting/pose/style; incorrect outfit and text placement to revise",
+      "viewed": true
+    },
+    {
+      "path": "nemi/episodes/ep13_please_support_me/thumbnail/thumbnail.png",
+      "sha256": "58e00ce0916f9e209230551c4d24c68f13e8d1998da27be6c0a8a899ea0462e3",
+      "role": "EP13 thumbnail: recognizable Nemi face/hair/illustrated ink/headline reference only",
+      "viewed": true
+    },
+    {
+      "path": "nemi/characters/nemi/renders/01_nemi_fullbody_idle_color.png",
+      "sha256": "178f18da3c49f285d2fcfb241ea340e24d181ffb5196a739862ce748f4a0c497",
+      "role": "Full-body canonical: forest-green skirt, bare legs, white socks, white-green platform sneakers, sage hoodie and bag",
+      "viewed": true
+    }
+  ],
+  "outfit_evidence": {
+    "source": "nemi/characters/nemi/renders/01_nemi_fullbody_idle_color.png",
+    "documentation": [
+      "nemi/characters/nemi/README.md",
+      "nemi/characters/nemi/documentation/NEMI_ANIMATION_GUIDE.md"
+    ],
+    "hoodie": "oversized sage cowl-neck drawstring",
+    "skirt": "dark forest-green pleats visibly green",
+    "legs": "bare pale legs; no opaque tights",
+    "socks": "white crew",
+    "shoes": "unbranded white chunky platform sneakers with emerald accents",
+    "bag": "dark crossbody messenger"
+  },
+  "headline_alignment": {
+    "layout": "one line, top centre",
+    "method": "Red contour bounding box within top230 native pixels; character red within this band stays inside headline horizontal extents.",
+    "bounds": [
+      363,
+      19,
+      1311,
+      229
+    ],
+    "headline_center_x": 837.0,
+    "canvas_center_x": 836.0,
+    "center_error_px": 1.0,
+    "within_1_percent_canvas_width": true
+  },
+  "visual_review": {
+    "native_output_viewed": true,
+    "320x180_viewed": true,
+    "160x90_viewed": true,
+    "black_void_single_spotlight_retained": true,
+    "corrected_outfit_verified_against_fullbody": true,
+    "top_centred_headline": true,
+    "findings": "The closer revised character has visibly green skirt folds, bare legs, white crew socks and unbranded white/green platform sneakers; no black tights or all-black shoes remain. The face uses a rounder/larger-green-eye interpretation from EP13, with the accepted confident expression and illustrated finish. The title is a single top-centred line; the ahoge slightly touches its lower edge without hiding the words or eyes. The forward chair pose and pure black spotlight setting remain. Hand overlap and shoe contact read coherently in native/mobile views."
+  },
+  "conversion": "Native1672\u00d7941 PNG preserved; upload1280\u00d7720 JPG uses Lanczos downsampling/subpixel center fit atquality95, without upscaling.",
+  "previous_images_preserved": true,
+  "movie_modified": false,
+  "adb_modified": false,
+  "user_approved": false,
+  "platform_upload": false,
+  "shoe_panel_refinement": {
+    "intermediate": "before_shoe_panel_refinement.png",
+    "intermediate_sha256": "2cb45a2d6d29705835e6ac19d25708de6220affa145e5f6011a377630a4cf426",
+    "change": "Remove unrequested logo-like shoe marks, retain generic emerald panels.",
+    "prompt": "Image1 is the EDIT TARGET, a finished thumbnail. Change ONLY the green markings on BOTH sneakers: replace the swoosh/check-shaped logo-like marks with simple unbranded emerald-green rectangular/curved colour PANELS matching a generic white chunky platform sneaker. No recognizable brand logo, word or check/swoosh. Keep the shoes WHITE with GREEN accents, shape, laces, thick soles, perspective and location unchanged.\nPRESERVE EVERYTHING ELSE exactly: Nemi's corrected round face/large green eyes/red hair/sage hoodie/forest-green skirt/bare legs/white crew socks/bag, seated forward lean, hands, chair, black void, single overhead spotlight/floor pool, canvas/crop and top-centred one-line \"A MESSAGE\" headline and outlines. Do not add text or redesign any other part. This is a tiny shoe-panel correction only."
+  }
+}
