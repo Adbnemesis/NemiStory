@@ -2,7 +2,7 @@
   "format": "storytime-generated-thumbnail-candidates-v2",
   "author": "nemi",
   "episode": "ep17_message_to_storytime_animators",
-  "status": "Two current dark seated candidates; awaiting user selection. Earlier bright thumbnails rejected.",
+  "status": "Existing dark pair is acceptable and explicitly retained; additional illustrated forward-lean Nemi pair awaiting selection.",
   "headline": "A MESSAGE",
   "selected_concept": null,
   "user_approved": false,
@@ -42,5 +42,44 @@
   "rejection_quote": "nah thumbnail are bad\nyou didn't get the vibe of the video\nthumbnail should be like dark background, nemi/adb sitting on chair\nand it says \"A MESSAGE\"\nsomething like that you gotta make\nmake 2 of each again",
   "previous_delivery_archive": "rejected_bright_round1/",
   "legacy_root_png_status": "thumbnail.png and thumbnail.jpg remain preserved rejected prior files, not the current candidate delivery.",
-  "platform_upload": false
+  "platform_upload": false,
+  "additional_sets": [
+    {
+      "id": "illustrated_dark_forward",
+      "scope": "Nemi only; additional candidates",
+      "user_direction": "no i mean this is fine dopn't delete these but make other set for nemi\nlike the thumbnails we used to make for nemi's episodes that style reference only but like in a dark room, nemi sitting bended forward something like that you know\nplease get the gist of the video we really need good",
+      "candidates": [
+        {
+          "id": "illustrated_dark_forward_a",
+          "label": "A",
+          "concept": "Front-of-chair forward lean",
+          "headline": "A MESSAGE",
+          "native": "revisions/illustrated_dark_forward_a/thumbnail.png",
+          "upload": "revisions/illustrated_dark_forward_a/thumbnail.jpg",
+          "prompt": "revisions/illustrated_dark_forward_a/PROMPT.md",
+          "qa": "revisions/illustrated_dark_forward_a/QA.json",
+          "native_sha256": "2aa3756460af0d7d0a4aead1fcf2e5d8b68b1c60284ac75483313cf095453e01",
+          "upload_sha256": "fef3393e5bb591d0c0cd357d4e55b3730ee44b63c2863e34ee9f7fbca1985e8b"
+        },
+        {
+          "id": "illustrated_dark_forward_b",
+          "label": "B",
+          "concept": "Angled forward lean close-up",
+          "headline": "A MESSAGE",
+          "native": "revisions/illustrated_dark_forward_b/thumbnail.png",
+          "upload": "revisions/illustrated_dark_forward_b/thumbnail.jpg",
+          "prompt": "revisions/illustrated_dark_forward_b/PROMPT.md",
+          "qa": "revisions/illustrated_dark_forward_b/QA.json",
+          "native_sha256": "4d98f51a3c3db08109ff98b660da5e68f6f1a705bbbb63092b45b3344f653e72",
+          "upload_sha256": "fc30233f8f0db05302c3a2e93471681c2f153ce71a11ca5802a88711e43c33c5"
+        }
+      ]
+    }
+  ],
+  "latest_pair": [
+    "illustrated_dark_forward_a",
+    "illustrated_dark_forward_b"
+  ],
+  "preserve_existing": true,
+  "existing_dark_pair_feedback": "User says this is fine and do not delete; no individual image selected."
 }

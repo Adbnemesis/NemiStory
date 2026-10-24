@@ -28,5 +28,28 @@
   "native_4k": false,
   "old_bright_preserved": true,
   "user_approved": false,
-  "platform_upload": false
+  "platform_upload": false,
+  "additional_illustrated_forward_set": {
+    "candidates": [
+      {
+        "id": "illustrated_dark_forward_a",
+        "qa": "revisions/illustrated_dark_forward_a/QA.json"
+      },
+      {
+        "id": "illustrated_dark_forward_b",
+        "qa": "revisions/illustrated_dark_forward_b/QA.json"
+      }
+    ],
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "full_mobile_inspected": true,
+    "independent_review": "review/ILLUSTRATED_FORWARD_INDEPENDENT_REVIEW.md",
+    "existing_sets_preserved": true
+  }
 }

@@ -1,0 +1,85 @@
+{
+  "status": "Additional Nemi-only candidate; no user selection inferred",
+  "method": "Built-in image generation",
+  "headline": "A MESSAGE",
+  "provenance": "AI-generated reference-guided raster promotional illustration. Not exact rig artwork or native4K.",
+  "native_4k": false,
+  "conversion": "Native1672\u00d7941 PNG preserved byte-for-byte;1280\u00d7720 JPG downsampled with Lanczos and a subpixel center fit,quality95. No upscaling.",
+  "references": [
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "role": "EP10: established promotional illustration/face/outlined-type style only; no scene/emotion/bright background copy",
+      "viewed": true
+    },
+    {
+      "path": "nemi/episodes/ep15_i_get_attached_way_too_much/thumbnail/thumbnail.png",
+      "sha256": "82793d56ccfc41b2781a17dea7eac7a345fdf9e683cc5c3f2d109fc2698955a3",
+      "role": "EP15: richer illustrated eye/hair/cel-shading and bold composition style only; no crying/romance/phone copy",
+      "viewed": true
+    },
+    {
+      "path": "nemi/episodes/ep17_message_to_storytime_animators/thumbnail/references/canonical_episode_frame_0150.jpg",
+      "sha256": "95dc7e90417cf8729b7db9a8dd721abad319df82b0ad91b0c4b06f1dbdf68111",
+      "role": "Actual current episode identity/ink/wardrobe",
+      "viewed": true
+    },
+    {
+      "path": "nemi/episodes/ep17_message_to_storytime_animators/thumbnail/references/dark_room_04_25.jpg",
+      "sha256": "dc8e5d0f459d28ed04673bcb4701ce7e07c8f526b2d46f9c507bfaca43e8d3a6",
+      "role": "Actual current final movie dark-room value/mood only",
+      "viewed": true
+    }
+  ],
+  "files": {
+    "thumbnail.png": {
+      "sha256": "4d98f51a3c3db08109ff98b660da5e68f6f1a705bbbb63092b45b3344f653e72",
+      "bytes": 1880440,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail.jpg": {
+      "sha256": "fc30233f8f0db05302c3a2e93471681c2f153ce71a11ca5802a88711e43c33c5",
+      "bytes": 289959,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "review/phone.png": {
+      "sha256": "b2665b3d8bd7e5fb114f96bb95d341538f216265d910cc21a8f0512b97551112",
+      "bytes": 105411,
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    "review/tiny.png": {
+      "sha256": "20da3cd46071453e8aeb8720527c4555f0f0fd1b02eb2693dc7107d6b5628d6e",
+      "bytes": 30879,
+      "dimensions": [
+        160,
+        90
+      ]
+    }
+  },
+  "visual_review": {
+    "native_generation_output_viewed": true,
+    "320x180_viewed": true,
+    "160x90_viewed": true,
+    "exact_headline": true,
+    "illustrated_episode_thumbnail_treatment": true,
+    "dark_room": true,
+    "visible_seated_forward_lean": true,
+    "face_and_type_outside_duration_area": true,
+    "findings": "A closer angled chair composition: Nemi leans distinctly forward with elbows/forearms above the knees and loosely overlapping hands near the lower edge. Chair back/arms and thighs are visible; she reads seated and engaged, not reclining. Larger face on the right and two-line outlined headline on the left give a different hierarchy from A. Canonical red-orange hair, green eyes, green high-neck top and strap remain clear. Expression is self-assured with direct gaze and a restrained smirk. The upper hair/ahoge crops intentionally while the eyes remain fully visible; the hands crop at the bottom without an extra limb or floating wrist. Phone views keep the face and exact words readable."
+  },
+  "earlier_variants_preserved": true,
+  "adb_untouched": true,
+  "movie_modified": false,
+  "user_approved": false,
+  "platform_upload": false,
+  "ctr_measured": false
+}

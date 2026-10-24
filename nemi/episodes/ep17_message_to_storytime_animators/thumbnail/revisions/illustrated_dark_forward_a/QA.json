@@ -1,0 +1,85 @@
+{
+  "status": "Additional Nemi-only candidate; no user selection inferred",
+  "method": "Built-in image generation",
+  "headline": "A MESSAGE",
+  "provenance": "AI-generated reference-guided raster promotional illustration. Not exact rig artwork or native4K.",
+  "native_4k": false,
+  "conversion": "Native1672\u00d7941 PNG preserved byte-for-byte;1280\u00d7720 JPG downsampled with Lanczos and a subpixel center fit,quality95. No upscaling.",
+  "references": [
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "role": "EP10: established promotional illustration/face/outlined-type style only; no scene/emotion/bright background copy",
+      "viewed": true
+    },
+    {
+      "path": "nemi/episodes/ep15_i_get_attached_way_too_much/thumbnail/thumbnail.png",
+      "sha256": "82793d56ccfc41b2781a17dea7eac7a345fdf9e683cc5c3f2d109fc2698955a3",
+      "role": "EP15: richer illustrated eye/hair/cel-shading and bold composition style only; no crying/romance/phone copy",
+      "viewed": true
+    },
+    {
+      "path": "nemi/episodes/ep17_message_to_storytime_animators/thumbnail/references/canonical_episode_frame_0150.jpg",
+      "sha256": "95dc7e90417cf8729b7db9a8dd721abad319df82b0ad91b0c4b06f1dbdf68111",
+      "role": "Actual current episode identity/ink/wardrobe",
+      "viewed": true
+    },
+    {
+      "path": "nemi/episodes/ep17_message_to_storytime_animators/thumbnail/references/dark_room_04_25.jpg",
+      "sha256": "dc8e5d0f459d28ed04673bcb4701ce7e07c8f526b2d46f9c507bfaca43e8d3a6",
+      "role": "Actual current final movie dark-room value/mood only",
+      "viewed": true
+    }
+  ],
+  "files": {
+    "thumbnail.png": {
+      "sha256": "2aa3756460af0d7d0a4aead1fcf2e5d8b68b1c60284ac75483313cf095453e01",
+      "bytes": 1835453,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail.jpg": {
+      "sha256": "fef3393e5bb591d0c0cd357d4e55b3730ee44b63c2863e34ee9f7fbca1985e8b",
+      "bytes": 285808,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "review/phone.png": {
+      "sha256": "6555fa337f7482cdc441d21f4abe3029fe7dba34b8367379d6b8c31b1df9971e",
+      "bytes": 103969,
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    "review/tiny.png": {
+      "sha256": "c43fdb6ddd58deda8d48093ded3420d33fbca74815ead527fa34636fed4fcd53",
+      "bytes": 30638,
+      "dimensions": [
+        160,
+        90
+      ]
+    }
+  },
+  "visual_review": {
+    "native_generation_output_viewed": true,
+    "320x180_viewed": true,
+    "160x90_viewed": true,
+    "exact_headline": true,
+    "illustrated_episode_thumbnail_treatment": true,
+    "dark_room": true,
+    "visible_seated_forward_lean": true,
+    "face_and_type_outside_duration_area": true,
+    "findings": "Front-of-chair medium-close composition: Nemi visibly bends forward at the hips, shoulders/head ahead of the chair back, elbows supported on knees and hands loosely clasped between them. Long hair falls forward, and chair sides/seat plus bent thighs establish the seated posture. Large green eyes, red-orange hair/ahoge and green drawstring top/crossbody strap remain recognizable. Warm illustrated shading, detailed eyes and thick white BLACK/RED/BLACK headline recover her established thumbnail treatment. Calm knowing smirk fits the confident announcement. Hands overlap coherently; lower fingertips crop naturally at the frame edge. At160\u00d790 the headline, gaze and forward-lean silhouette remain clear."
+  },
+  "earlier_variants_preserved": true,
+  "adb_untouched": true,
+  "movie_modified": false,
+  "user_approved": false,
+  "platform_upload": false,
+  "ctr_measured": false
+}
