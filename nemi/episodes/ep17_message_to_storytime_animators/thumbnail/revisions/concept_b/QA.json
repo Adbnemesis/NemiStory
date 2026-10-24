@@ -1,0 +1,86 @@
+{
+  "method": "built-in image generation",
+  "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail style references; not a rig export or editable vector.",
+  "headline": "BIGGEST? EASY.",
+  "proposed_title": "I'm Already the Most Dramatic",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "upload_dimensions": [
+    1280,
+    720
+  ],
+  "native_4k": false,
+  "conversion": "Original native PNG preserved byte-for-byte. Upload JPG is center-fitted/downsampled to1280\u00d7720 with Lanczos, quality94; source near16:9 requires a subpixel edge crop. No upscaling.",
+  "references": [
+    {
+      "path": "references/thumbnail_ref/thumbnail_set_raora.png",
+      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e",
+      "role": "typography/background/cutout reference",
+      "viewed": true
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "role": "approved illustrated finish reference",
+      "viewed": true
+    },
+    {
+      "path": "nemi/episodes/ep17_message_to_storytime_animators/review/edit_r8/stills/0150.jpg",
+      "sha256": "95dc7e90417cf8729b7db9a8dd721abad319df82b0ad91b0c4b06f1dbdf68111",
+      "role": "actual target-author episode art for identity",
+      "viewed": true
+    }
+  ],
+  "files": {
+    "thumbnail.png": {
+      "sha256": "891d2db8a2665b3782566ebfc071aaf415bf8f332ed0d0aa10bb45918ddabd36",
+      "bytes": 1835160,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail.jpg": {
+      "sha256": "9993d378508dafba3319709c152df7ef2f0d0b76b5fe96c0cac2e7a953757837",
+      "bytes": 294888,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "review/phone.png": {
+      "sha256": "26c438d849dcbe29d8bfd7342f6388ed70a4a8461d572d1c742895d84eea942c",
+      "bytes": 107407,
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    "review/tiny.png": {
+      "sha256": "83c7e5bed034fac9fcebffa62c28503523aba0e518b08e181b2276b5d10fc61c",
+      "bytes": 32662,
+      "dimensions": [
+        160,
+        90
+      ]
+    }
+  },
+  "visual_review": {
+    "full_native_output_viewed": true,
+    "mobile_320x180_viewed": true,
+    "tiny_160x90_viewed": true,
+    "exact_headline": true,
+    "thick_white_black_red_black_type": true,
+    "identity_consistent_with_target_episode": true,
+    "no_secondary_caption": true,
+    "clean_primary_contact_and_hands": true,
+    "important_face_and_headline_outside_duration_area": true,
+    "findings": "Distinct literal-giant metaphor with face above a city of storyboard towers. Resting cheek and oversized grip read as easy self-belief. Green eyes, red hair, green top and burgundy linework remain recognizable. At160\u00d790 the giant/tiny relation remains clear; tiny rivals are supporting silhouettes, not required reading."
+  },
+  "user_approval": null,
+  "platform_uploaded": false,
+  "ctr_measured": false,
+  "alternatives_preserved": true
+}

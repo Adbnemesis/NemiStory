@@ -1,0 +1,399 @@
+{
+  "author": "adb",
+  "retention": "Keep only the final verified4K movie in this episode renders folder; source/voice/assets/QA/thumbnail references preserved.",
+  "replacement": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_EDIT_R13_4K_FINAL.mp4",
+  "replacement_sha256": "61f8480ffbb11c08dee137edbb9fd301c17dfbd3bc55a5595ce117d94932688b",
+  "replacement_qa_passed": true,
+  "replacement_qa": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/render_records/FINAL_4K_CHECKS.json",
+  "replacement_qa_sha256": "d74a62fb19b22c0ca9c45ad5b47b714f64469cdbede26e443291537ee1502ced",
+  "deleted_movies": [
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_Proof_R3_1080p.mp4",
+      "bytes": 1199250,
+      "sha256": "137609e3d9ee616607422533394ce0f2d93a715c6b274c97f01c728f8332faf5"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_Contact_Proof_R4_1080p.mp4",
+      "bytes": 1076938,
+      "sha256": "68aedb76520563a5dd29778a3794b695f15da674c355f2d1e2f58b774f7461de"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_EDIT_R10_4K_FINAL.mp4",
+      "bytes": 11291382,
+      "sha256": "75fc8f0e1f3184b7ab4d3bedd245e099b045ed832ebae238a88b3a2acf6a7c91"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_Contact_Proof_R3_1080p.mp4",
+      "bytes": 1070112,
+      "sha256": "62beb47dc3abc72eb2632a3b70a000a7f7ed4d5c61d4d414a849cf2991a03cee"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_EDIT_R11_4K_FINAL.mp4",
+      "bytes": 11292457,
+      "sha256": "61f8480ffbb11c08dee137edbb9fd301c17dfbd3bc55a5595ce117d94932688b"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_R4_1080p.mp4",
+      "bytes": 2524756,
+      "sha256": "31b71f8fc4b8c77e4e88736225a723c8cbf02c1d934ca65bea4e40c206c219b2"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_Proof_R1_1080p.mp4",
+      "bytes": 1259188,
+      "sha256": "d6b32affee762dc7d7b23b234469b8421f1e75d360a95d4cbf93697cac84bfa8"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_R2_1080p.mp4",
+      "bytes": 2569299,
+      "sha256": "919df4b94e0e269ce716f7c08fd664057420cac9914284cab10db69f5219aeea"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_EDIT_R12_4K_FINAL.mp4",
+      "bytes": 11292434,
+      "sha256": "784abdea3ae66f06ea2e2d95411ca6118654a523e67793db95d8a1e5b904ec9b"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_EDIT_R9_1080p.mp4",
+      "bytes": 4603541,
+      "sha256": "810c9489846686c98f461f9ce7ad59639c641bd39b00cdefd52cc3d209d0007a"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_Type_Proof_R5_1080p.mp4",
+      "bytes": 1302228,
+      "sha256": "2a72aa8145a263a119c6faf1095b7ecd9c53e25ac5b067e2339c521bbd84dd59"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_R5_1080p.mp4",
+      "bytes": 2785898,
+      "sha256": "6eaf768bd23e03e370db50da25e4d3b13914d6747b43c05b4eac33112bb804d4"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_EDIT_R8_1080p.mp4",
+      "bytes": 4646430,
+      "sha256": "1e392afdf56188f6f657d65a5c4a1c68585bdac2a4c4abfdcb1dc249c0c90696"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/audio_no_seek_remux_test.mp4",
+      "bytes": 11292457,
+      "sha256": "d7f219b6c12f556aa649e7025b0d68f65db19c66c2643e9b0b71c8ebefe403ab"
+    }
+  ],
+  "removed_unnecessary_new_stills": [
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0663.jpg",
+      "bytes": 130227,
+      "sha256": "221801f5c3a3afd11b81efdcc14e7760de84804df3ec7e21f1537f3401a640cb"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0662.jpg",
+      "bytes": 957755,
+      "sha256": "2bd28067a40ff7ac04f8db2eb6704cf112d4f54b01042fd9ad6d5e113ab3901f"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0270.jpg",
+      "bytes": 303733,
+      "sha256": "a57d7351e69717471549f6e7a6aa87c400a688119f5962070336c8a53a1407bc"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0660.jpg",
+      "bytes": 957755,
+      "sha256": "2bd28067a40ff7ac04f8db2eb6704cf112d4f54b01042fd9ad6d5e113ab3901f"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0498.jpg",
+      "bytes": 311368,
+      "sha256": "f68fdcc0a74f75dffb4e5cc1edeabf8296e838d61dd51735734aa152fcd480b3"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0117.jpg",
+      "bytes": 964497,
+      "sha256": "20195f06a27d43ded679cfbbac9a15b267638df45111eebd6df3b233997234e9"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0116.jpg",
+      "bytes": 281855,
+      "sha256": "2083ad1af8b62920a0ad502ba8b230c9450e66221f9ce6ccacd67b0973bff1f9"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0300.jpg",
+      "bytes": 976445,
+      "sha256": "ee97d9769f94877c346d753d22978f1883d4f8626850e63ed8b4ad92276b7082"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0060.jpg",
+      "bytes": 1032309,
+      "sha256": "730c42a2ad739eaa59a89b03a90af21681b052fcf0dd11d68705537d65346ed8"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0510.jpg",
+      "bytes": 345838,
+      "sha256": "28c763c7e464b45ba6b888afe684ea90b96684c0daa552fecb0e949a1ceac397"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0289.jpg",
+      "bytes": 303733,
+      "sha256": "a57d7351e69717471549f6e7a6aa87c400a688119f5962070336c8a53a1407bc"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0458.jpg",
+      "bytes": 317234,
+      "sha256": "bc36b4ed8339fa246dc1157e59030717c7312025ba846d444303d3996036317f"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0459.jpg",
+      "bytes": 321550,
+      "sha256": "4771d76898c0445b5d69e8037588f4760c5866e69007d93e5fe656899048ab18"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0539.jpg",
+      "bytes": 272215,
+      "sha256": "953a07e014261364bf83cfab6e6d080a7182f14eb053745a27bb906ca40ee090"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0210.jpg",
+      "bytes": 1021543,
+      "sha256": "952d118519c7be8294abb9b12b0a52ae9f727e29351e97d094a0dc4dddd2034a"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0600.jpg",
+      "bytes": 961053,
+      "sha256": "dfcb931e17bc0ec4c5cb69adb7d040843a27f5c529c2af40637d46bc51af5b55"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0000.jpg",
+      "bytes": 965991,
+      "sha256": "497922ab04382d9c206900b898c47c0916da37fea419f615afda5fb94b9b19f9"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0570.jpg",
+      "bytes": 961053,
+      "sha256": "dfcb931e17bc0ec4c5cb69adb7d040843a27f5c529c2af40637d46bc51af5b55"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0565.jpg",
+      "bytes": 282344,
+      "sha256": "ba30b81503b4032912353eda948e01bd498629ec6ac76c694541a686834e69f0"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0229.jpg",
+      "bytes": 303733,
+      "sha256": "a57d7351e69717471549f6e7a6aa87c400a688119f5962070336c8a53a1407bc"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0360.jpg",
+      "bytes": 961341,
+      "sha256": "14687f2064690a715f3b08247d1053e81fecc4b888d1e3b4b5b04e203a7ee19a"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0566.jpg",
+      "bytes": 961053,
+      "sha256": "dfcb931e17bc0ec4c5cb69adb7d040843a27f5c529c2af40637d46bc51af5b55"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0228.jpg",
+      "bytes": 303733,
+      "sha256": "a57d7351e69717471549f6e7a6aa87c400a688119f5962070336c8a53a1407bc"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0231.jpg",
+      "bytes": 303733,
+      "sha256": "a57d7351e69717471549f6e7a6aa87c400a688119f5962070336c8a53a1407bc"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0191.jpg",
+      "bytes": 256050,
+      "sha256": "65555c80a056394c75e13f2de5c1e8ae204a416f67729ff17b9e88c70052f24e"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0230.jpg",
+      "bytes": 303733,
+      "sha256": "a57d7351e69717471549f6e7a6aa87c400a688119f5962070336c8a53a1407bc"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0030.jpg",
+      "bytes": 1004795,
+      "sha256": "53b362ce431cffb75793e4196ff923a4a40ac511f2f44786ac3427d4873e5572"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0540.jpg",
+      "bytes": 282344,
+      "sha256": "ba30b81503b4032912353eda948e01bd498629ec6ac76c694541a686834e69f0"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0420.jpg",
+      "bytes": 966213,
+      "sha256": "1dc199e7e6eb95f6491818d7b9807c2b92af4f38eb25500df7d51f8fa33b14f3"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0150.jpg",
+      "bytes": 256050,
+      "sha256": "65555c80a056394c75e13f2de5c1e8ae204a416f67729ff17b9e88c70052f24e"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0144.jpg",
+      "bytes": 967190,
+      "sha256": "e14bf819efe24d9bc3dada087e29730a33ff0927a5dbf3eb2d77d1f16f04197b"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0192.jpg",
+      "bytes": 1017165,
+      "sha256": "47393574e9cb9ce831d41d822abb661af021b9ad9d212ac154a5f23f08eb5780"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0145.jpg",
+      "bytes": 256050,
+      "sha256": "65555c80a056394c75e13f2de5c1e8ae204a416f67729ff17b9e88c70052f24e"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0390.jpg",
+      "bytes": 987242,
+      "sha256": "b6be10bebe21037d7b9f887a764f5c32a2f0805606abc45b75c65d0e45440e0d"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0630.jpg",
+      "bytes": 957755,
+      "sha256": "2bd28067a40ff7ac04f8db2eb6704cf112d4f54b01042fd9ad6d5e113ab3901f"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0180.jpg",
+      "bytes": 256050,
+      "sha256": "65555c80a056394c75e13f2de5c1e8ae204a416f67729ff17b9e88c70052f24e"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0497.jpg",
+      "bytes": 401002,
+      "sha256": "f65102cdab5f79e286eca80584e33905ae63cd43472875fbeb43f6074bd561e9"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0290.jpg",
+      "bytes": 976445,
+      "sha256": "ee97d9769f94877c346d753d22978f1883d4f8626850e63ed8b4ad92276b7082"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0509.jpg",
+      "bytes": 311368,
+      "sha256": "f68fdcc0a74f75dffb4e5cc1edeabf8296e838d61dd51735734aa152fcd480b3"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0090.jpg",
+      "bytes": 281855,
+      "sha256": "2083ad1af8b62920a0ad502ba8b230c9450e66221f9ce6ccacd67b0973bff1f9"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0480.jpg",
+      "bytes": 321550,
+      "sha256": "4771d76898c0445b5d69e8037588f4760c5866e69007d93e5fe656899048ab18"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0330.jpg",
+      "bytes": 972965,
+      "sha256": "7e2aa25388761691bd77e0b47e48dd120a6e4ebe047458e9b3937ccd3582dac0"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0720.jpg",
+      "bytes": 130227,
+      "sha256": "221801f5c3a3afd11b81efdcc14e7760de84804df3ec7e21f1537f3401a640cb"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0240.jpg",
+      "bytes": 303733,
+      "sha256": "a57d7351e69717471549f6e7a6aa87c400a688119f5962070336c8a53a1407bc"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0485.jpg",
+      "bytes": 321550,
+      "sha256": "4771d76898c0445b5d69e8037588f4760c5866e69007d93e5fe656899048ab18"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0486.jpg",
+      "bytes": 401002,
+      "sha256": "f65102cdab5f79e286eca80584e33905ae63cd43472875fbeb43f6074bd561e9"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0690.jpg",
+      "bytes": 130227,
+      "sha256": "221801f5c3a3afd11b81efdcc14e7760de84804df3ec7e21f1537f3401a640cb"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0120.jpg",
+      "bytes": 964497,
+      "sha256": "20195f06a27d43ded679cfbbac9a15b267638df45111eebd6df3b233997234e9"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/stills/0450.jpg",
+      "bytes": 317234,
+      "sha256": "bc36b4ed8339fa246dc1157e59030717c7312025ba846d444303d3996036317f"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/scale_proof/360.jpg",
+      "bytes": 961341,
+      "sha256": "14687f2064690a715f3b08247d1053e81fecc4b888d1e3b4b5b04e203a7ee19a"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/scale_proof/600.jpg",
+      "bytes": 961053,
+      "sha256": "dfcb931e17bc0ec4c5cb69adb7d040843a27f5c529c2af40637d46bc51af5b55"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/scale_proof/505.jpg",
+      "bytes": 311368,
+      "sha256": "f68fdcc0a74f75dffb4e5cc1edeabf8296e838d61dd51735734aa152fcd480b3"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/scale_proof/470.jpg",
+      "bytes": 321550,
+      "sha256": "4771d76898c0445b5d69e8037588f4760c5866e69007d93e5fe656899048ab18"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/scale_proof/513.jpg",
+      "bytes": 272215,
+      "sha256": "953a07e014261364bf83cfab6e6d080a7182f14eb053745a27bb906ca40ee090"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/scale_proof/120.jpg",
+      "bytes": 964497,
+      "sha256": "20195f06a27d43ded679cfbbac9a15b267638df45111eebd6df3b233997234e9"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/scale_proof/490.jpg",
+      "bytes": 401002,
+      "sha256": "f65102cdab5f79e286eca80584e33905ae63cd43472875fbeb43f6074bd561e9"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/scale_proof/024.jpg",
+      "bytes": 993026,
+      "sha256": "56d9a8421a95c0f948c9d8681806b94527b95db9df92f553c801bb0423c5b85a"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/scale_proof/230.jpg",
+      "bytes": 303733,
+      "sha256": "a57d7351e69717471549f6e7a6aa87c400a688119f5962070336c8a53a1407bc"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/full_decoded_contact.jpg",
+      "bytes": 335375,
+      "sha256": "db03daa11955029971ff9577a7847f11a68849fcf648297e37b095bdfb11c89f"
+    },
+    {
+      "file": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/decoded_cut_boundaries.jpg",
+      "bytes": 214943,
+      "sha256": "0c7ee9e550593d7bb52eb2babde63179ca2b3126312ff612fa75626f06827550"
+    }
+  ],
+  "preserved_local_media": [
+    "adb/episodes/ep08_message_to_storytime_animators/voice",
+    "adb/episodes/ep08_message_to_storytime_animators/review",
+    "adb/episodes/ep08_message_to_storytime_animators/edit_rebuild",
+    "adb/episodes/ep08_message_to_storytime_animators/thumbnail",
+    "renders/message_to_storytime_rebuild/assets",
+    "renders/message_to_storytime_rebuild/character_plates",
+    "renders/message_to_storytime_rebuild/character_plates_4k",
+    "renders/message_to_storytime_reference/audio"
+  ],
+  "thumbnail_identity_preserved": "adb/episodes/ep08_message_to_storytime_animators/review/edit_r8/stills/0150.jpg",
+  "renders_contains_only_final_4k": true,
+  "remaining_renders": [
+    "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_EDIT_R13_4K_FINAL.mp4"
+  ],
+  "movie_files_outside_episode_renders": []
+}

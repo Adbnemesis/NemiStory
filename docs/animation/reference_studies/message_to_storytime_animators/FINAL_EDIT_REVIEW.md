@@ -1,4 +1,7 @@
-# Current external edit review — EDIT R9
+# Historical1080p rebuild record — user approved24October2026
+
+The user subsequently approved these completeR9edits and requested4K. Current export/approval/cleanup evidence is under each episode’s `review/edit_4k/`; current movie links are in `review/RENDERS.md`. The dated review and its actual verification limits below are retained unchanged.
+
 
 Reviewed24October2026. This record supersedes the earlier review of the rejected Godot presentation. It distinguishes sampled visual inspection from whole-file decoded checks and from perceptual listening.
 

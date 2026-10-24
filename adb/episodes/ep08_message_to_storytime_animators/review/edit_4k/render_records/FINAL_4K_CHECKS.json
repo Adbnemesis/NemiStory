@@ -1,0 +1,58 @@
+{
+  "author": "adb",
+  "movie": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_EDIT_R13_4K_FINAL.mp4",
+  "movie_sha256": "61f8480ffbb11c08dee137edbb9fd301c17dfbd3bc55a5595ce117d94932688b",
+  "format": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 3840,
+        "height": 2160,
+        "avg_frame_rate": "30/1",
+        "start_time": "0.000000",
+        "duration": "25.000000",
+        "nb_read_frames": "750"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "start_time": "0.000000",
+        "duration": "25.000000",
+        "nb_read_frames": "1172"
+      }
+    ],
+    "format": {
+      "duration": "25.000000"
+    }
+  },
+  "approved_preview_sha256": "810c9489846686c98f461f9ce7ad59639c641bd39b00cdefd52cc3d209d0007a",
+  "approval_receipt": "adb/episodes/ep08_message_to_storytime_animators/review/edit_4k/1080P_EXTERNAL_EDIT_APPROVAL.json",
+  "exact_approved_aac_payload": true,
+  "aac_adts_sha256": "2119c892a137406c38689c67b7fa5a07e7910e8e4ddb36def3ad83094d2c1a77",
+  "aac_bytes": 796046,
+  "picture_timeline_unchanged": true,
+  "all_render_inputs_current": true,
+  "black_tail": {
+    "start_frame": 663,
+    "end_frame": 749,
+    "start_s": 22.1,
+    "frames": 87,
+    "every_full_rgb_frame_matches_all_zero": true,
+    "full_rgb_frame_md5": "24ec178329f57999731b0b02b365ac15"
+  },
+  "loudness_summary": "Integrated loudness:\n    I:         -17.9 LUFS\n    Threshold: -28.5 LUFS\n\n  Loudness range:\n    LRA:         5.6 LU\n    Threshold: -38.5 LUFS\n    LRA low:   -21.4 LUFS\n    LRA high:  -15.8 LUFS\n\n  True peak:\n    Peak:       -1.6 dBFS\n[out#0/null @ 0x7a3440300] video:311KiB audio:4688KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  750 fps=408 q=-0.0 Lsize=N/A time=00:00:25.00 bitrate=N/A speed=13.6x elapsed=0:00:01.84",
+  "resolution_provenance": {
+    "typography": "Native3840 output rasterization from installed source fonts",
+    "props": "Same approved logical paths rasterized at2x",
+    "characters": "Same canonical rigs/poses recaptured at4000x4400 registration; no performance changes",
+    "studio_background": "Original1672x940 raster resized to3840x2160 with Lanczos; not a native4K source",
+    "bright_background": "Analytic gradient evaluated at3840x2160"
+  },
+  "limits": "Full-file decoded numerical checks and sampled decoded visual inspection; no new full-speed perceptual audio-listening claim. Audio is bit-identical to the user-approved R9 AAC payload."
+}

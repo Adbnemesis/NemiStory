@@ -1,0 +1,15 @@
+# Unknown challenger — who is this guy
+
+Generator: built-in image generation.
+
+Use case: ads-marketing. Asset: finished16:9 landscape YouTube thumbnail for ADB's25-second comic manifesto: he is dangerously underwatched and plans to become the biggest storytime animator. Generate an original thumbnail with strong curiosity and a dry confident joke.
+INPUTS: Image1 is Raora promotional typography/background/cutout reference only, no borrowed people/branding/UI. Image2 is the approved illustrated thumbnail finish/outline-heavy type example only, no teacher or Nemi. Image3 is CANONICAL ADB identity: preserve the angular pale face, dark blue-black chin-length spiky hair with two upward crown tufts, blue-grey eyes, sharp lower-eye ink accents, open-collar sage-green button shirt, dark charcoal economical line art and flat illustrated shading. He is male; do not replace him with Nemi, a green-eyed girl or generic anime boy.
+IDEA: an unknown challenger has abruptly entered the scene. ADB's huge face emerges confidently through a torn blank sheet of storyboard paper in the center-right, one forearm braced naturally on the lower torn edge; expression is a restrained smug half-smile, one brow lifted, amused direct eye contact. On the left, two smaller anonymous outlined doodle animator faces stare at him in exaggerated surprise. Their reaction directs attention toward his face; ADB looks entirely unbothered. Torn paper is a clean illustrative entrance metaphor, not a real injury, fight or event claim. A couple of blank comic-panel scraps curl outward; no writing in them.
+DESIGN: bright white background with pale neutral checker texture and a sparse red comic burst behind the paper opening. Bold cutout edges, white silhouette separation with selective red edging, dark simple author-specific ink/fills. One dominant face; generous breathing room and clean hand anatomy. Phone-readable face/contrast; lower-right duration area has no important copy.
+TEXT EXACTLY: "WHO IS THIS GUY?!" Single short headline across the top in broad heavy WHITE sans lettering, extremely thick BLACK inner / RED middle / BLACK outer outline layers like image2. Keep safe margins, do not cover eyes, no other words. No subtitle/name/small labels, logos, subscriber counts, fake metrics, watermark, timestamp or screenshot UI. Final is opaque16:9 polished illustrated promotional art with canonical ADB identity, not an anime redesign.
+
+## Input roles
+
+- `references/thumbnail_ref/thumbnail_set_raora.png` — typography/background/cutout reference; SHA-256 `cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e`.
+- `nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png` — approved illustrated finish reference; SHA-256 `e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8`.
+- `adb/episodes/ep08_message_to_storytime_animators/review/edit_r8/stills/0150.jpg` — actual target-author episode art for identity; SHA-256 `64dbbabbdaea75286dbf574e7f79b53e7d2b48a6160c21cd835cb8d04dd5befc`.

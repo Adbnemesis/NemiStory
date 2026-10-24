@@ -1,4 +1,7 @@
-# External edit rebuild — current EDIT R9
+# Historical1080p rebuild record — user approved24October2026
+
+The user subsequently approved these completeR9edits and requested4K. Current export/approval/cleanup evidence is under each episode’s `review/edit_4k/`; current movie links are in `review/RENDERS.md`. The dated review and its actual verification limits below are retained unchanged.
+
 
 The earlier Godot presentation was rejected. These replacements are actual layered video edits: independent character alpha footage, a detailed dim studio background, bright close-up inserts, oversized serif words behind the head, purposeful prop montage, one brief source-like dissolve and a dry uncaptained ending. Godot supplies only canonical character art; it does not assemble these movies.
 

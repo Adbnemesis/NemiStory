@@ -1,0 +1,58 @@
+{
+  "author": "nemi",
+  "movie": "nemi/episodes/ep17_message_to_storytime_animators/renders/Nemi_Message_EDIT_R13_4K_FINAL.mp4",
+  "movie_sha256": "7bed4366629e636b6f6831c44f05f63fe00a92ff6552f8ee85546a4a386dea45",
+  "format": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 3840,
+        "height": 2160,
+        "avg_frame_rate": "30/1",
+        "start_time": "0.000000",
+        "duration": "25.000000",
+        "nb_read_frames": "750"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "start_time": "0.000000",
+        "duration": "25.000000",
+        "nb_read_frames": "1172"
+      }
+    ],
+    "format": {
+      "duration": "25.000000"
+    }
+  },
+  "approved_preview_sha256": "f50e678f7b967280af99b2e1caf50170a90a74bff28db05a438712068ff64e28",
+  "approval_receipt": "nemi/episodes/ep17_message_to_storytime_animators/review/edit_4k/1080P_EXTERNAL_EDIT_APPROVAL.json",
+  "exact_approved_aac_payload": true,
+  "aac_adts_sha256": "17f6b91b069cf36031dd68f362c5f3a3075bac6217e505c40cdc31f8f22ba741",
+  "aac_bytes": 788211,
+  "picture_timeline_unchanged": true,
+  "all_render_inputs_current": true,
+  "black_tail": {
+    "start_frame": 663,
+    "end_frame": 749,
+    "start_s": 22.1,
+    "frames": 87,
+    "every_full_rgb_frame_matches_all_zero": true,
+    "full_rgb_frame_md5": "24ec178329f57999731b0b02b365ac15"
+  },
+  "loudness_summary": "Integrated loudness:\n    I:         -18.5 LUFS\n    Threshold: -29.1 LUFS\n\n  Loudness range:\n    LRA:         4.7 LU\n    Threshold: -39.3 LUFS\n    LRA low:   -21.4 LUFS\n    LRA high:  -16.7 LUFS\n\n  True peak:\n    Peak:       -1.6 dBFS\n[out#0/null @ 0x745030300] video:311KiB audio:4688KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  750 fps=628 q=-0.0 Lsize=N/A time=00:00:25.00 bitrate=N/A speed=20.9x elapsed=0:00:01.19",
+  "resolution_provenance": {
+    "typography": "Native3840 output rasterization from installed source fonts",
+    "props": "Same approved logical paths rasterized at2x",
+    "characters": "Same canonical rigs/poses recaptured at4000x4400 registration; no performance changes",
+    "studio_background": "Original1672x940 raster resized to3840x2160 with Lanczos; not a native4K source",
+    "bright_background": "Analytic gradient evaluated at3840x2160"
+  },
+  "limits": "Full-file decoded numerical checks and sampled decoded visual inspection; no new full-speed perceptual audio-listening claim. Audio is bit-identical to the user-approved R9 AAC payload."
+}
