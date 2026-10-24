@@ -1,0 +1,59 @@
+{
+  "revision": "EDIT R9",
+  "movie": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_EDIT_R9_1080p.mp4",
+  "sha256": "810c9489846686c98f461f9ce7ad59639c641bd39b00cdefd52cc3d209d0007a",
+  "format": {
+    "duration_s": 25.0,
+    "fps": "30/1",
+    "frames": "750",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "input_hashes_current": true,
+  "picture_timeline_contiguous": true,
+  "black_tail": {
+    "start_frame": 663,
+    "start_s": 22.1,
+    "frames": 87,
+    "decoded_rgb_max": 0,
+    "frame662_max": 255
+  },
+  "audio": {
+    "lufs": -18.0,
+    "true_peak_dbtp": -1.63,
+    "offset_s": 0.0,
+    "source_correlation": 0.9999664710676556,
+    "recognized": " A message to every storytime animators. My name is A D B. I'm dangerously underwatched. Stealing your watch time. Becoming the biggest storytime animator in the world. I've already got the stories. Now I just gotta be the biggest.",
+    "asr_exact_normalized": false,
+    "differences": [
+      {
+        "operation": "replace",
+        "expected": [
+          {
+            "word": "animator.",
+            "start": 1.7,
+            "end": 2.22,
+            "source_start": 1.7,
+            "source_end": 2.22,
+            "source_take": "b",
+            "section": "hook",
+            "probability": 0.99560546875,
+            "normalized": "animator"
+          }
+        ],
+        "recognized": [
+          {
+            "word": " animators.",
+            "start": 1.7,
+            "end": 2.26,
+            "probability": 0.564453125,
+            "normalized": "animators"
+          }
+        ]
+      }
+    ]
+  },
+  "review_limits": "Decoded whole-file checks and sampled visual inspection. No full-speed perceptual audio listening or emotional-quality certification claimed. No human satisfaction/4K approval recorded."
+}

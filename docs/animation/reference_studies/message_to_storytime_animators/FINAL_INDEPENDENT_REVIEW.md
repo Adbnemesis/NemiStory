@@ -1,4 +1,6 @@
-# Independent final review
+# Historical review — prior presentation rejected by user
+
+This record concerns the old Godot cuts. The user subsequently rejected their voice emotion, expressions and presentation. It is preserved as history and does not approve the current external edit. See `FINAL_EDIT_REVIEW.md` for EDIT R9.
 
 Review date: 23 October 2026. No blocking visual or media-structure defect was identified in the final decoded samples. This review covers extracted video frames, media measurements, production specs and earlier speech-recognition evidence. It does not claim human listening or real-time perceptual playback. The user's explicit satisfaction with the complete current 1080p cuts remains required before any 4K export.
 

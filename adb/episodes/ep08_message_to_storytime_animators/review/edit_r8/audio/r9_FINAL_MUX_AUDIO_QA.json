@@ -1,0 +1,421 @@
+{
+  "author": "adb",
+  "video": "adb/episodes/ep08_message_to_storytime_animators/renders/ADB_Message_EDIT_R9_1080p.mp4",
+  "video_sha256": "810c9489846686c98f461f9ce7ad59639c641bd39b00cdefd52cc3d209d0007a",
+  "revision": "R9",
+  "source_mix": {
+    "path": "adb/episodes/ep08_message_to_storytime_animators/voice/edit_r8/mix_r8.wav",
+    "sha256": "16db884e3c01c6ba72d4c477aea9d839bb771d3a2f2afd37daff0e87ba3befed",
+    "expected_receipt_sha256": "16db884e3c01c6ba72d4c477aea9d839bb771d3a2f2afd37daff0e87ba3befed",
+    "receipt_match": true
+  },
+  "source_words": {
+    "path": "adb/episodes/ep08_message_to_storytime_animators/voice/edit_r8/final_words.json",
+    "sha256": "c82a21a6ce7325a0de755873fc1c7046c94d0474dd27b43a87feefcbd277ed83",
+    "expected_receipt_sha256": "c82a21a6ce7325a0de755873fc1c7046c94d0474dd27b43a87feefcbd277ed83",
+    "receipt_match": true,
+    "final_spoken_word_expected_end_s": 22.0
+  },
+  "mux_audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "stream_start_time": "0.000000",
+    "container_stream_duration_s": 25.0,
+    "decoded_frames": 1200128,
+    "decoded_duration_s": 25.002666666666666,
+    "decoded_pcm_sha256": "0f527d4c81bcf77e58a3eabdef7c9bcb70b1c22e724c413cf9da75643532acd6",
+    "elementary_aac_sha256": "2119c892a137406c38689c67b7fa5a07e7910e8e4ddb36def3ad83094d2c1a77",
+    "aac_reuse_note": "If R9 has exactly this ADTS elementary-stream hash and identical stream start/duration, decoded audio/ASR/level results can be reused for that picture-only revision."
+  },
+  "picture_timing": {
+    "duration_s": 25.0,
+    "fps": "30/1",
+    "frames": "750",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "decoded_levels": {
+    "integrated_lufs": -18.0,
+    "true_peak_dbtp": -1.63,
+    "loudness_range_lu": 16.4,
+    "threshold_lufs": -29.01
+  },
+  "source_waveform_comparison": {
+    "comparison_frames": 1200000,
+    "correlation": 0.9999664710676556,
+    "signal_to_codec_error_db": 41.70276243487267,
+    "max_absolute_pcm_error": 0.028246045112609863,
+    "timing_offset_at_8khz_samples": 0,
+    "timing_offset_s": 0.0,
+    "decoded_padding_frames_after_25s": 128,
+    "method": "Zero-lag waveform comparison plus independent +/-50ms cross-correlation search at 8 kHz. AAC is lossy; byte identity to the PCM mix is not expected."
+  },
+  "verification_limits": "Decoded waveform/codec, ASR, timing and loudness checks are technical evidence only. No audible emotional/naturalness/listening approval is claimed.",
+  "asr": {
+    "recognized_text": " A message to every storytime animators. My name is A D B. I'm dangerously underwatched. Stealing your watch time. Becoming the biggest storytime animator in the world. I've already got the stories. Now I just gotta be the biggest.",
+    "expected_word_count_after_name_normalization": 37,
+    "recognized_word_count_after_name_normalization": 37,
+    "matched_words": 36,
+    "differences": [
+      {
+        "operation": "replace",
+        "expected": [
+          {
+            "word": "animator.",
+            "start": 1.7,
+            "end": 2.22,
+            "source_start": 1.7,
+            "source_end": 2.22,
+            "source_take": "b",
+            "section": "hook",
+            "probability": 0.99560546875,
+            "normalized": "animator"
+          }
+        ],
+        "recognized": [
+          {
+            "word": " animators.",
+            "start": 1.7,
+            "end": 2.26,
+            "probability": 0.564453125,
+            "normalized": "animators"
+          }
+        ]
+      }
+    ],
+    "exact_normalized_sequence_match": false,
+    "timing_matches": [
+      {
+        "word": "A",
+        "expected_start": 0.0,
+        "actual_start": 0.0,
+        "start_delta_s": 0.0,
+        "expected_end": 0.16,
+        "actual_end": 0.16,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "message",
+        "expected_start": 0.16,
+        "actual_start": 0.16,
+        "start_delta_s": 0.0,
+        "expected_end": 0.46,
+        "actual_end": 0.46,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "to",
+        "expected_start": 0.46,
+        "actual_start": 0.46,
+        "start_delta_s": 0.0,
+        "expected_end": 0.68,
+        "actual_end": 0.66,
+        "end_delta_s": -0.02
+      },
+      {
+        "word": "every",
+        "expected_start": 0.68,
+        "actual_start": 0.66,
+        "start_delta_s": -0.02,
+        "expected_end": 0.94,
+        "actual_end": 0.94,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "storytime",
+        "expected_start": 0.94,
+        "actual_start": 0.94,
+        "start_delta_s": 0.0,
+        "expected_end": 1.7,
+        "actual_end": 1.7,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "My",
+        "expected_start": 3.18,
+        "actual_start": 3.1200000000000023,
+        "start_delta_s": -0.06,
+        "expected_end": 3.68,
+        "actual_end": 3.66,
+        "end_delta_s": -0.02
+      },
+      {
+        "word": "name",
+        "expected_start": 3.68,
+        "actual_start": 3.66,
+        "start_delta_s": -0.02,
+        "expected_end": 3.9,
+        "actual_end": 3.88,
+        "end_delta_s": -0.02
+      },
+      {
+        "word": "is",
+        "expected_start": 3.9,
+        "actual_start": 3.88,
+        "start_delta_s": -0.02,
+        "expected_end": 4.1,
+        "actual_end": 4.1,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "A D B",
+        "expected_start": 4.1,
+        "actual_start": 4.1,
+        "start_delta_s": 0.0,
+        "expected_end": 4.76,
+        "actual_end": 4.76,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "I'm",
+        "expected_start": 5.53,
+        "actual_start": 5.760000000000003,
+        "start_delta_s": 0.23,
+        "expected_end": 6.07,
+        "actual_end": 6.300000000000002,
+        "end_delta_s": 0.23
+      },
+      {
+        "word": "dangerously",
+        "expected_start": 6.07,
+        "actual_start": 6.300000000000002,
+        "start_delta_s": 0.23,
+        "expected_end": 6.85,
+        "actual_end": 6.84,
+        "end_delta_s": -0.01
+      },
+      {
+        "word": "underwatched.",
+        "expected_start": 6.85,
+        "actual_start": 6.84,
+        "start_delta_s": -0.01,
+        "expected_end": 7.57,
+        "actual_end": 7.58,
+        "end_delta_s": 0.01
+      },
+      {
+        "word": "Stealing",
+        "expected_start": 9.53,
+        "actual_start": 9.580000000000002,
+        "start_delta_s": 0.05,
+        "expected_end": 10.13,
+        "actual_end": 10.12,
+        "end_delta_s": -0.01
+      },
+      {
+        "word": "your",
+        "expected_start": 10.13,
+        "actual_start": 10.12,
+        "start_delta_s": -0.01,
+        "expected_end": 10.27,
+        "actual_end": 10.26,
+        "end_delta_s": -0.01
+      },
+      {
+        "word": "watch",
+        "expected_start": 10.27,
+        "actual_start": 10.26,
+        "start_delta_s": -0.01,
+        "expected_end": 10.57,
+        "actual_end": 10.58,
+        "end_delta_s": 0.01
+      },
+      {
+        "word": "time.",
+        "expected_start": 10.57,
+        "actual_start": 10.58,
+        "start_delta_s": 0.01,
+        "expected_end": 10.91,
+        "actual_end": 10.92,
+        "end_delta_s": 0.01
+      },
+      {
+        "word": "Becoming",
+        "expected_start": 11.19,
+        "actual_start": 11.18,
+        "start_delta_s": -0.01,
+        "expected_end": 11.73,
+        "actual_end": 11.72,
+        "end_delta_s": -0.01
+      },
+      {
+        "word": "the",
+        "expected_start": 11.73,
+        "actual_start": 11.72,
+        "start_delta_s": -0.01,
+        "expected_end": 11.93,
+        "actual_end": 11.92,
+        "end_delta_s": -0.01
+      },
+      {
+        "word": "biggest",
+        "expected_start": 11.93,
+        "actual_start": 11.92,
+        "start_delta_s": -0.01,
+        "expected_end": 12.33,
+        "actual_end": 12.32,
+        "end_delta_s": -0.01
+      },
+      {
+        "word": "storytime",
+        "expected_start": 12.33,
+        "actual_start": 12.32,
+        "start_delta_s": -0.01,
+        "expected_end": 13.05,
+        "actual_end": 13.06,
+        "end_delta_s": 0.01
+      },
+      {
+        "word": "animator",
+        "expected_start": 13.05,
+        "actual_start": 13.06,
+        "start_delta_s": 0.01,
+        "expected_end": 13.57,
+        "actual_end": 13.58,
+        "end_delta_s": 0.01
+      },
+      {
+        "word": "in",
+        "expected_start": 13.57,
+        "actual_start": 13.58,
+        "start_delta_s": 0.01,
+        "expected_end": 13.71,
+        "actual_end": 13.72,
+        "end_delta_s": 0.01
+      },
+      {
+        "word": "the",
+        "expected_start": 13.71,
+        "actual_start": 13.72,
+        "start_delta_s": 0.01,
+        "expected_end": 13.79,
+        "actual_end": 13.8,
+        "end_delta_s": 0.01
+      },
+      {
+        "word": "world.",
+        "expected_start": 13.79,
+        "actual_start": 13.8,
+        "start_delta_s": 0.01,
+        "expected_end": 14.11,
+        "actual_end": 14.12,
+        "end_delta_s": 0.01
+      },
+      {
+        "word": "I've",
+        "expected_start": 18.48,
+        "actual_start": 18.48,
+        "start_delta_s": 0.0,
+        "expected_end": 19.02,
+        "actual_end": 19.02,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "already",
+        "expected_start": 19.02,
+        "actual_start": 19.02,
+        "start_delta_s": 0.0,
+        "expected_end": 19.3,
+        "actual_end": 19.3,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "got",
+        "expected_start": 19.3,
+        "actual_start": 19.3,
+        "start_delta_s": 0.0,
+        "expected_end": 19.5,
+        "actual_end": 19.5,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "the",
+        "expected_start": 19.5,
+        "actual_start": 19.5,
+        "start_delta_s": 0.0,
+        "expected_end": 19.66,
+        "actual_end": 19.66,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "stories.",
+        "expected_start": 19.66,
+        "actual_start": 19.66,
+        "start_delta_s": 0.0,
+        "expected_end": 20.06,
+        "actual_end": 20.06,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "Now",
+        "expected_start": 20.48,
+        "actual_start": 20.44,
+        "start_delta_s": -0.04,
+        "expected_end": 20.94,
+        "actual_end": 20.92,
+        "end_delta_s": -0.02
+      },
+      {
+        "word": "I",
+        "expected_start": 20.94,
+        "actual_start": 20.92,
+        "start_delta_s": -0.02,
+        "expected_end": 21.12,
+        "actual_end": 21.12,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "just",
+        "expected_start": 21.12,
+        "actual_start": 21.12,
+        "start_delta_s": 0.0,
+        "expected_end": 21.3,
+        "actual_end": 21.28,
+        "end_delta_s": -0.02
+      },
+      {
+        "word": "gotta",
+        "expected_start": 21.3,
+        "actual_start": 21.28,
+        "start_delta_s": -0.02,
+        "expected_end": 21.5,
+        "actual_end": 21.5,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "be",
+        "expected_start": 21.5,
+        "actual_start": 21.5,
+        "start_delta_s": 0.0,
+        "expected_end": 21.64,
+        "actual_end": 21.66,
+        "end_delta_s": 0.02
+      },
+      {
+        "word": "the",
+        "expected_start": 21.64,
+        "actual_start": 21.66,
+        "start_delta_s": 0.02,
+        "expected_end": 21.76,
+        "actual_end": 21.76,
+        "end_delta_s": 0.0
+      },
+      {
+        "word": "biggest.",
+        "expected_start": 21.76,
+        "actual_start": 21.76,
+        "start_delta_s": 0.0,
+        "expected_end": 22.0,
+        "actual_end": 22.02,
+        "end_delta_s": 0.02
+      }
+    ],
+    "median_absolute_word_start_error_s": 0.01,
+    "p95_absolute_word_start_error_s": 0.10250000000000001,
+    "maximum_absolute_word_start_error_s": 0.23,
+    "asr_limit": "Approximate ASR boundaries can shift through pauses. Independent waveform zero-lag agreement is stronger evidence of mux synchronization. Proper-name prompt only; no full expected-script prompt was supplied."
+  }
+}
