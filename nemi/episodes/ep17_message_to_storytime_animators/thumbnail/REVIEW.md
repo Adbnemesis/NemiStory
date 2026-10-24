@@ -23,3 +23,11 @@ Front-of-chair medium-close composition: Nemi visibly bends forward at the hips,
 **B — Angled forward lean close-up**
 
 A closer angled chair composition: Nemi leans distinctly forward with elbows/forearms above the knees and loosely overlapping hands near the lower edge. Chair back/arms and thighs are visible; she reads seated and engaged, not reclining. Larger face on the right and two-line outlined headline on the left give a different hierarchy from A. Canonical red-orange hair, green eyes, green high-neck top and strap remain clear. Expression is self-assured with direct gaze and a restrained smirk. The upper hair/ahoge crops intentionally while the eyes remain fully visible; the hands crop at the bottom without an extra limb or floating wrist. Phone views keep the face and exact words readable.
+
+## Latest black-void pair
+
+The scene contains only Nemi, one simple thin-legged chair, one overhead white spotlight/cone and its floor pool. No walls, shelves, lamps, plants, desk, windows or room scenery are visible. Nemi bends forward with elbows on her knees and feet meeting the lit floor; the full chair and body are shown. Red-orange hair/ahoge, green eyes and green high-neck outfit preserve identity. The headline reads exactly A MESSAGE in heavy white outlined type. At160×90 the full figure and light silhouette read, while facial detail becomes small; this is the deliberately wider reference-like choice.
+
+The closer seated composition keeps the same featureless black void and single overhead light/floor pool. Nemi leans forward on the simple chair, forearms/elbows near the knees, hands resting together and feet grounded. Her face and red hair are larger than A, while the chair back, seat, legs and forward posture remain visible. Headline spells A MESSAGE with no extra copy. Full/mobile views show coherent limbs/hand overlap and no blocking text/face crop. At160×90 the larger silhouette offers more character emphasis than A.
+
+See `review/BLACK_VOID_INDEPENDENT_REVIEW.md`; earlier images are preserved.

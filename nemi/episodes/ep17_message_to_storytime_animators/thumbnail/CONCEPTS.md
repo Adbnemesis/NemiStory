@@ -1,3 +1,9 @@
+# Latest Nemi pair — black void spotlight
+
+[View the two new black-void options, native PNGs and prompts](BLACK_VOID_SET.md). The attached example is now the setting reference: one simple chair under one overhead light, no furnished room. Earlier sets remain unchanged below.
+
+---
+
 # Additional Nemi set — illustrated forward lean
 
 Nemi’s established episode-thumbnail illustration and bold WHITE/BLACK/RED/BLACK lettering, in the dark room. Previous options are kept below and unchanged. No selection is inferred.

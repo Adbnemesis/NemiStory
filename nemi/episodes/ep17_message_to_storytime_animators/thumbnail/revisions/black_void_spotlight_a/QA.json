@@ -1,0 +1,80 @@
+{
+  "status": "New black-void candidate; user selection pending",
+  "method": "Built-in image generation",
+  "headline": "A MESSAGE",
+  "provenance": "Original AI-generated raster illustration guided by user-supplied lighting/composition reference and canonical Nemi art. Not an exact rig export or stock-photo edit.",
+  "native_4k": false,
+  "files": {
+    "thumbnail.png": {
+      "sha256": "fd1c362e02a2fd498a0feec0b0ec4fe1d675567fceb6a73055591d2b44383cbe",
+      "bytes": 1113899,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail.jpg": {
+      "sha256": "48ca36e65b22db1d88cc7a37c7dbf6ebc86e9cc7a70d742568165df6b9f55b01",
+      "bytes": 130543,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "review/phone.png": {
+      "sha256": "c519e40538276a248e382b4e9336b40437bbfdf72c5fa5f23756d6332b0cfe87",
+      "bytes": 48901,
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    "review/tiny.png": {
+      "sha256": "c6dfc58b910eb9fda39cc4a546f344ae09b106d9dcfeb39ebbd3e9522c4f40ca",
+      "bytes": 13852,
+      "dimensions": [
+        160,
+        90
+      ]
+    }
+  },
+  "conversion": "Native1672\u00d7941 PNG preserved byte-for-byte.1280\u00d7720 upload JPG: Lanczos downsample/subpixel center fit,quality95. No upscaling.",
+  "references": [
+    {
+      "path": "/var/folders/ys/tggf0syn5jg95cjmgd9jk2gr0000gn/T/codex-clipboard-576c4bff-4d90-4d7b-b73e-7f975f0fd85c.png",
+      "sha256": "7767e394181174a86cbe207f87791498b70df9c9e948a26f7793c433c6de436e",
+      "role": "User-supplied reference: black void, lone chair, single overhead light and floor pool; composition/light only, no stock person/pixels/mark copied",
+      "viewed": true,
+      "retained_copy": "nemi/episodes/ep17_message_to_storytime_animators/thumbnail/references/user_black_void_spotlight_reference.png"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "role": "EP10: Nemi established illustrated thumbnail/type style only; not scene/background/emotion",
+      "viewed": true
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep17_message_to_storytime_animators/thumbnail/references/canonical_episode_frame_0150.jpg",
+      "sha256": "95dc7e90417cf8729b7db9a8dd721abad319df82b0ad91b0c4b06f1dbdf68111",
+      "role": "Current episode identity/wardrobe/ink",
+      "viewed": true
+    }
+  ],
+  "visual_review": {
+    "full_native_output_viewed": true,
+    "320x180_viewed": true,
+    "160x90_viewed": true,
+    "black_void_without_room_scenery": true,
+    "single_overhead_spotlight": true,
+    "simple_chair_and_forward_lean": true,
+    "exact_headline": true,
+    "no_extra_copy": true,
+    "findings": "The scene contains only Nemi, one simple thin-legged chair, one overhead white spotlight/cone and its floor pool. No walls, shelves, lamps, plants, desk, windows or room scenery are visible. Nemi bends forward with elbows on her knees and feet meeting the lit floor; the full chair and body are shown. Red-orange hair/ahoge, green eyes and green high-neck outfit preserve identity. The headline reads exactly A MESSAGE in heavy white outlined type. At160\u00d790 the full figure and light silhouette read, while facial detail becomes small; this is the deliberately wider reference-like choice."
+  },
+  "previous_images_preserved": true,
+  "movie_modified": false,
+  "adb_modified": false,
+  "user_approved": false,
+  "platform_upload": false,
+  "ctr_measured": false
+}

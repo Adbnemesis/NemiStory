@@ -2,7 +2,7 @@
   "format": "storytime-generated-thumbnail-candidates-v2",
   "author": "nemi",
   "episode": "ep17_message_to_storytime_animators",
-  "status": "Existing dark pair is acceptable and explicitly retained; additional illustrated forward-lean Nemi pair awaiting selection.",
+  "status": "Latest black-void spotlight pair follows attached reference; all earlier variants preserved; selection pending.",
   "headline": "A MESSAGE",
   "selected_concept": null,
   "user_approved": false,
@@ -74,11 +74,42 @@
           "upload_sha256": "fc30233f8f0db05302c3a2e93471681c2f153ce71a11ca5802a88711e43c33c5"
         }
       ]
+    },
+    {
+      "id": "black_void_spotlight",
+      "user_direction": "no man, you're not getting it, its like completely black room no background full dark, an example could be the attached photo.\nsomething like that for nemi you're getting me?",
+      "reference": "references/user_black_void_spotlight_reference.png",
+      "candidates": [
+        {
+          "id": "black_void_spotlight_a",
+          "label": "A",
+          "concept": "Full seated figure under one spotlight",
+          "headline": "A MESSAGE",
+          "native": "revisions/black_void_spotlight_a/thumbnail.png",
+          "upload": "revisions/black_void_spotlight_a/thumbnail.jpg",
+          "prompt": "revisions/black_void_spotlight_a/PROMPT.md",
+          "qa": "revisions/black_void_spotlight_a/QA.json",
+          "native_sha256": "fd1c362e02a2fd498a0feec0b0ec4fe1d675567fceb6a73055591d2b44383cbe",
+          "upload_sha256": "48ca36e65b22db1d88cc7a37c7dbf6ebc86e9cc7a70d742568165df6b9f55b01"
+        },
+        {
+          "id": "black_void_spotlight_b",
+          "label": "B",
+          "concept": "Closer forward address in black void",
+          "headline": "A MESSAGE",
+          "native": "revisions/black_void_spotlight_b/thumbnail.png",
+          "upload": "revisions/black_void_spotlight_b/thumbnail.jpg",
+          "prompt": "revisions/black_void_spotlight_b/PROMPT.md",
+          "qa": "revisions/black_void_spotlight_b/QA.json",
+          "native_sha256": "e381f5f8bb8cb1edd6f5df1cc11f947789c4273f595b4f9b941bc66aaeed93a1",
+          "upload_sha256": "1523ec999a9e55bc2145a63d7ce905f97a45a2bbc7e60bdd7d4bd8251db41bed"
+        }
+      ]
     }
   ],
   "latest_pair": [
-    "illustrated_dark_forward_a",
-    "illustrated_dark_forward_b"
+    "black_void_spotlight_a",
+    "black_void_spotlight_b"
   ],
   "preserve_existing": true,
   "existing_dark_pair_feedback": "User says this is fine and do not delete; no individual image selected."

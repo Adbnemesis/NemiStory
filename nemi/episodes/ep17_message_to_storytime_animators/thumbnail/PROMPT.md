@@ -23,3 +23,7 @@ The user requested the usual episode-thumbnail illustration/heavy outlined lette
 **B — Angled forward lean close-up**
 
 [Exact prompt](revisions/illustrated_dark_forward_b/PROMPT.md).
+
+## Latest: black void spotlight
+
+The supplied photo replaces the furnished-room setting. [A exact prompt](revisions/black_void_spotlight_a/PROMPT.md) · [B exact prompt](revisions/black_void_spotlight_b/PROMPT.md). Prior prompt sets stay preserved.
