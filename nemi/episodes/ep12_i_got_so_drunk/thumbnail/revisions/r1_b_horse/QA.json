@@ -1,0 +1,67 @@
+{
+  "status": "Reviewed candidate; user selection pending",
+  "headline": "THAT'S A HORSE?!",
+  "proposed_title": "Our Chill Night Went Completely Wrong",
+  "tool": "built-in image_gen.imagegen",
+  "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail references; not a Godot rig export",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "upload_dimensions": [
+    1280,
+    720
+  ],
+  "conversion": "Original native PNG copied byte-for-byte. JPG and mobile PNGs resampled to exact 16:9 sizes without upscaling; source ratio differs slightly from exact 16:9.",
+  "original_tool_output": "/Users/talus/.codex/generated_images/01a13641-0c61-7302-8688-959e0174a273/exec-1ca4074b-d4a1-47fb-8020-93fea88db1ab.png",
+  "sha256": {
+    "thumbnail.png": "232b519652b62ea722d6de6c1851a5ff6d4addfd265ec49fd0035ce6077176cd",
+    "thumbnail.jpg": "f3dcee234ba60cc1ed0a6048054a52755717c3b9db053ed47c17e89da771f2d3",
+    "review/phone.png": "2a1db3bb1892f060c6f0f43e9b8837899a515a75eb7cb5f72d913a57d21b697c",
+    "review/tiny.png": "389be8d5844c624befee5e60cc25a6fe22a1bcac453c5a04c9bef42db704a9b0"
+  },
+  "references": [
+    {
+      "path": "/Users/talus/Documents/adb/references/thumbnail_ref/thumbnail_set_raora.png",
+      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e",
+      "role": "Typography/background/graphic hierarchy only"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "role": "User-approved illustrated finish and BLACK/RED/BLACK outlines"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r2_a_im_scared/thumbnail.png",
+      "sha256": "794c14c58131b84cc80e52c1d463e75455d9ed4c4f329abd4148d383f7a2050c",
+      "role": "Recent typography continuity; EP11 selection not asserted"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep12_i_got_so_drunk/review/1080p_stills/beat00_hook_3.5s.png",
+      "sha256": "e30da04bbca2db91cd84be65347ffe931f3a033c34525b820d0f2ddb2b2b63ad",
+      "role": "Actual EP12 Nemi identity"
+    }
+  ],
+  "approved_by_user": false,
+  "full_output_viewed": true,
+  "mobile_viewed": true,
+  "visual_review_status": "Passed full/mobile review; no material revision needed",
+  "reviewed_on": "2026-10-13",
+  "review_sizes": [
+    [
+      320,
+      180
+    ],
+    [
+      160,
+      90
+    ]
+  ],
+  "visual_findings": "Readable sad potato with four legs, clear embarrassed Nemi, exact punctuation and outline layers; coherent marker grip and five-finger palm. Tight uncropped typography; duration area may overlap lower palm but not face, marker or drawing.",
+  "spelling_checked": true,
+  "character_recognizable_against_episode_reference": true,
+  "hands_and_prop_contacts_reviewed": true,
+  "crop_and_duration_area_reviewed": true,
+  "independent_review": "Native, phone and tiny outputs reviewed independently against episode/story and style references; no material revision required.",
+  "prompt_sha256": "b18a35d3a9948f82be7942b456f667763a48e7dbee09078ccc6850d6d30af4f3"
+}

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://neekocat01char"]
+
+[ext_resource type="Script" path="res://nemi/characters/neeko/Neeko.gd" id="1_neeko"]
+
+[node name="Neeko" type="Node2D"]
+script = ExtResource("1_neeko")

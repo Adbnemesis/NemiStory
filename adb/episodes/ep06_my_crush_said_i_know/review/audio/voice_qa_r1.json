@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "source_take_count": 9,
+  "selected_take": 1,
+  "source_duration_sum": 88.24000000000001,
+  "final_duration": 93.16666666666667,
+  "tempo": 1.0,
+  "source_bounds_policy": "Full source takes; no silence trimming.",
+  "speaker": "aiden",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+  "identity_prompt": "Cool, relaxed young adult male around 24, calm conversational speech, confident, subtle dry wit, understated and natural.",
+  "audio_sha256": "184f27c1fe8603885cc938346770c6efeb242ef09458e651bbc296ea5a0713d7",
+  "voice_plan_sha256": "38071e4cc03df04e3c3ed2a7f1623995c260d5e3ba7fb43f98cf725738ad55fd",
+  "text_tokens_verified": true,
+  "source_hashes_verified": true,
+  "ordered_positive_word_intervals_verified": true,
+  "word_count": 234,
+  "alignment_repairs": [
+    {
+      "paragraph": 3,
+      "word": "and",
+      "repaired_bounds": [
+        5.15,
+        5.3
+      ],
+      "note": "Zero-duration whisper timestamp adjusted."
+    }
+  ],
+  "low_confidence_words": [
+    {
+      "paragraph": 1,
+      "word": "Which",
+      "start": 0.0,
+      "end": 0.26,
+      "probability": 0.437255859375
+    },
+    {
+      "paragraph": 1,
+      "word": "me,",
+      "start": 0.58,
+      "end": 1.22,
+      "probability": 0.61181640625
+    },
+    {
+      "paragraph": 1,
+      "word": "boyfriend...",
+      "start": 2.84,
+      "end": 3.9,
+      "probability": 0.5048828125
+    },
+    {
+      "paragraph": 1,
+      "word": "all",
+      "start": 3.9,
+      "end": 4.08,
+      "probability": 0.36865234375
+    },
+    {
+      "paragraph": 2,
+      "word": "kid",
+      "start": 6.38,
+      "end": 6.8,
+      "probability": 0.548828125
+    },
+    {
+      "paragraph": 4,
+      "word": "Hey,",
+      "start": 4.9,
+      "end": 5.06,
+      "probability": 0.57373046875
+    },
+    {
+      "paragraph": 5,
+      "word": "Wait,",
+      "start": 2.92,
+      "end": 3.04,
+      "probability": 0.5078125
+    },
+    {
+      "paragraph": 7,
+      "word": "Exam",
+      "start": 0.0,
+      "end": 0.46,
+      "probability": 0.5029296875
+    },
+    {
+      "paragraph": 8,
+      "word": "I",
+      "start": 7.4,
+      "end": 7.82,
+      "probability": 0.07232666015625
+    }
+  ],
+  "listening_performed": false,
+  "listening_limitation": "Attempted audio-content inspection returned: audio content omitted because you do not support audio input. Transcript verification does not constitute listening.",
+  "pending": [
+    "Subjective Aiden delivery, breaths and thought-gap pacing listening.",
+    "Important spoken-word and mouth-boundary review against final audio.",
+    "Final episode narration/SFX mix audition after sound direction."
+  ]
+}

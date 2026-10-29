@@ -1,0 +1,21 @@
+{
+  "previous_scene_sha256": "881d034f25fc1989c223ad9dec5fe3b687d2054b64d6c9892370066fa6dd27e1",
+  "current_scene_sha256": "6b9a5c5b8b17f1cd87294a0e7247f961ad426507655e7c64341603e76640a88b",
+  "only_mix_changed": true,
+  "all_picture_voice_word_caption_mouth_acting_camera_sfx_timing_identical": true,
+  "previous_mix": {
+    "master_gain_db": 4.7,
+    "target_lufs": -18.0,
+    "peak_dbfs": -1.5
+  },
+  "current_mix": {
+    "master_gain_db": 3.7,
+    "target_lufs": -18.0,
+    "peak_dbfs": -2.5
+  },
+  "normal_export_first_attempt": "Rejected because full encoded AAC truepeak exceeded -1dBFS. No movie saved; diagnostic preserved.",
+  "audio_only_preflight": "Exact shared PCM16mix encoded defaultAAC128k at3.7master measured -23.3LUFS/-2.9dBTP. Full normal renderer is rerunning, with no picture reuse or gate bypass.",
+  "audit_applicability": "Earlier exact actor/timing and picture proofs retain their measured mechanisms. Constant1dB master attenuation is the sole scene change; current full export still requires decode/playback/encoded checks.",
+  "four_k_rendered": false,
+  "user_approval_receipt_created": false
+}

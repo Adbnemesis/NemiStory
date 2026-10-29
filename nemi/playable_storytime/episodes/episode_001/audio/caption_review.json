@@ -1,0 +1,102 @@
+{
+  "revision": "r8",
+  "audio_sha256": "c12d75dec313942e3535121534dda87a31ffc5562313693bfa230a7e18bf37e0",
+  "final_word_timeline_sha256": "7b9f6f1cd7bfd132e5972c29794404b47fdff7aefb011a288b2da9eeb56756b7",
+  "method": "Compare final processed-clip approximate ASR with intended script. Same-unit spelling only; uncertain semantic/multiword units omitted from short cards. No replacement or fabricated word timing.",
+  "safe_same_unit_spelling_corrections": [
+    {
+      "word_index": 4,
+      "from": "putting",
+      "to": "pudding",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 227,
+      "from": "putting.",
+      "to": "pudding.",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 285,
+      "from": "stationary",
+      "to": "stationery",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 288,
+      "from": "putting.",
+      "to": "pudding.",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 305,
+      "from": "one.",
+      "to": "won.",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 367,
+      "from": "practice",
+      "to": "practise",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 381,
+      "from": "Their",
+      "to": "They're",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 458,
+      "from": "nemi.",
+      "to": "Nemi.",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    }
+  ],
+  "omit_uncertain_caption_word_ranges": [
+    {
+      "words": [
+        157,
+        158
+      ],
+      "reason": "Understudy recognized as under/study; do not collapse two measured units into one invented interval."
+    },
+    {
+      "words": [
+        167,
+        167
+      ],
+      "reason": "Intended why recognized as what; pronunciation/semantic unit uncertain without listening."
+    },
+    {
+      "words": [
+        185,
+        185
+      ],
+      "reason": "Point at a door recognized as point it a door; do not invent or relabel the preposition."
+    },
+    {
+      "words": [
+        197,
+        197
+      ],
+      "reason": "Ticked recognized as took; preserve raw evidence and omit uncertain short-card group."
+    },
+    {
+      "words": [
+        210,
+        211
+      ],
+      "reason": "Noticeboard recognized as two units; do not merge their boundaries."
+    },
+    {
+      "words": [
+        214,
+        215
+      ],
+      "reason": "Opening noticeboard compound recognized as two units; omit uncertain short-card group."
+    }
+  ],
+  "source_vs_final_note": "The unedited source recognizer produced Cariobox; fresh final edited-clip recognition independently measured Carry / a / box. No old source word times or merged token were reused.",
+  "listening_review": "pending; text/source/energy review is not heard pronunciation"
+}

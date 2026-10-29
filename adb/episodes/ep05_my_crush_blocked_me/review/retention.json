@@ -1,0 +1,28 @@
+{
+  "policy": "single-master-retained; superseded renders removed upon user request",
+  "user_request": "awesome, now render this in 4k and delete other renders, also give the thumbnails as well",
+  "deleted_renders": [
+    {
+      "path": "adb/episodes/ep05_my_crush_blocked_me/renders/ADB_EP05_My_Crush_Blocked_Me_r1_1080p.mp4",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "size_bytes": 15114572,
+      "sha256": "49a73cab7b095e9db5fcc115eaea3d6674ef88593675494bdbe7a11e896e1acc",
+      "reason": "superseded by approved native 4K UHD master per explicit user instruction"
+    }
+  ],
+  "retained_master": {
+    "path": "adb/episodes/ep05_my_crush_blocked_me/renders/ADB_EP05_My_Crush_Blocked_Me_4K.mp4",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "fps": 30.0,
+    "frames": 3571,
+    "duration": 119.033333,
+    "size_bytes": 27339986,
+    "sha256": "484bd137c24817071ea5bb5acfbbe55f6fb1ec1b8998c976ce34b26021b7e36e"
+  }
+}

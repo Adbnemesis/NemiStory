@@ -1,0 +1,36 @@
+{
+  "status": "QA Passed",
+  "native_dimensions": [
+    1376,
+    768
+  ],
+  "aspect_ratio": "16:9",
+  "native_file": "thumbnail.png",
+  "native_sha256": "16ece2dffdcfd8efbdc26a88b6faa00d64bfb53fecf06d8ef2abc2521afba88f",
+  "upload_file": "thumbnail.jpg",
+  "upload_sha256": "090b63b8daabe73c66fefdc0de7509799fc3ed64fd95616de7016e0b55e31dd3",
+  "alternative_b_native_sha256": "6d83d5a6e38444c0794fcc857095988736bef060b3393fe06854399b230005f1",
+  "alternative_b_upload_sha256": "60942537d7dafadaccc5a2baf4a6720fd0a03f325351e9cf4b085bfe180e5d7f",
+  "style_reference": "references/thumbnail_ref/thumbnail_set_raora.png & adb/episodes/ep07_how_i_got_over_my_crush/thumbnail/thumbnail.png",
+  "provenance": "AI-generated raster illustration using built-in image generator and approved ADB storytime thumbnail references; not exact Godot rig art or native 4K",
+  "references_checked": [
+    "references/thumbnail_ref/thumbnail_set_raora.png",
+    "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+    "adb/episodes/ep07_how_i_got_over_my_crush/thumbnail/thumbnail.png",
+    "adb/episodes/ep06_my_crush_said_i_know/thumbnail/thumbnail.png",
+    "adb/episodes/ep05_my_crush_blocked_me/thumbnail/thumbnail.png"
+  ],
+  "checks": {
+    "headline_verbatim": "10 YEARS FOR THIS?! (Candidate A) / WORST CRUSH EVER?! (Candidate B)",
+    "headline_contour": "Thick nested BLACK / RED / BLACK borders on broad heavy white sans-serif letters",
+    "character_identity": "ADB: canonical curtain dark navy-black hair with triangular forehead opening and flicks, almond steel-blue eyes, green collared shirt, clean ink contours",
+    "background_treatment": "Pale lavender/blue (Concept A) and mint green (Concept B) checkerboard background with clean sticker cutout margins",
+    "cutout_silhouette": "Crisp white outline with selective red outer glow",
+    "mobile_readability_passed": true,
+    "phone_preview_320x180_verified": true,
+    "tiny_preview_160x90_verified": true,
+    "no_secondary_captions": true,
+    "no_watermark": true,
+    "lower_right_duration_safe": true
+  }
+}

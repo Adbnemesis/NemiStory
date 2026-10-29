@@ -1,0 +1,15 @@
+# Current finished drawing-escape production
+
+Episode002R9 has a completed native4K360master at`episodes/episode_002/renders/NEMI_Playable_EP002_r9_4K_360_YOUTUBE.mp4`. It preserves the accepted220-second/30fps/6600frame source. [Current render index](../episodes/episode_002/review/RENDERS.md), [delivery record](../episodes/episode_002/review/final_4k_r9/DELIVERY.json), [user approval](../episodes/episode_002/review/1080P_APPROVAL.json) and [current compatibility](../episodes/episode_002/metadata/compatibility.md) are authoritative. User accepts this as a starter; it is not a claimed creative-quality benchmark.
+
+The accepted source clock remains`r9_visibility_pace`: choices1/2,4/5,7/8; natural joins66/132/198; native destinations0/22/44/66/88/110/132/154/176/198. The local final4Kwrapper only names the new movie; it does not mutate canonical story/spec timing.18originalSoheetakes remain;17retimedprocessedvariants,3hash-boundquietcuts/1.5source seconds,495wordintervals and133captions. Voice,pacing,source and233test evidence remain under`review/visibility_pace_r9/`.
+
+Production order was final voice/alignment→specialized word-anchored compiler→mix calibration→rebuild→validate/proofs→complete1080p/sphere→explicituseracceptance→boundapprovalreceipt→native4Ksphere→metadata→full decode/digit/frame checks. Never run generic preparation over a specialized game without checking what it overwrites. Episode002's builder is plot-specific, not a generic engine for a new premise. During capture, no concurrent source mutation/bootstrap/sync is allowed; frozen signatures enforce that boundary.
+
+For a new compatible export, inspect actual help for`tools/render.py`, use a new output filename and preserve required approval. `--4k --mode sphere` renders3840×1920 from native production; it does not upscale an existing movie. Inject spherical metadata with`tools/spatial_metadata.py`, then run`media_qa.py --sphere --duration220 --fps30` and the digit/result evidence tools on the final file. Do not reuse existing evidence destinations or overwrite media. Any picture/voice/timing edit needs a new complete1080p approval.
+
+Final4Kpasses full decode/clock/audio headroom, validv1/v2metadata and faststart. Encoded audio payload is unchanged.11hero+13digit/clue+50routepictures were actually viewed. Source/number checks and sampled projections do not establish actual playback/listening/nativeYouTube/realphone behaviour; those remain unverified. No upload occurred.
+
+The only movie in this episode's`renders/`is final4K. The exact approved1080p/report are retained as approval evidence in`review/approval_evidence/`; old delivery docs/reports are historical. Cleanup removes37superseded movies after replacementchecks and preserves source/audio/assets/QA. See`review/final_4k_r9/CLEANUP.json`.
+
+Future video skills are installed as`$nemi-playable-youtube`and`$adb-playable-youtube`; editable packages/evaluations are under`documentation/skill_creation/`. ADB requires its own maintained author/path adapter and canonicalAiden/rig proof; the current Nemi wrappers are not author-neutral.

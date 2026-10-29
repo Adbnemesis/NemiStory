@@ -1,0 +1,3944 @@
+{
+  "duration": 240,
+  "fps": 30,
+  "scenes": [
+    {
+      "scene_id": "practice",
+      "start": 0,
+      "end": 24,
+      "narrative_objective": "Press 1 to open the badge round.",
+      "voiceover": [
+        {
+          "id": "r7_0_0",
+          "text": "Save my school day. Drag to look around. Number keys choose. On phones, swipe and use numbered chapters.",
+          "at": 0.8,
+          "window_end": 9.21325,
+          "recipe": "school_brace",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_0_1",
+          "text": "Practice: press one. It opens the badge round. Try it now. You are officially my lookout.",
+          "at": 9.26325,
+          "window_end": 15.1735,
+          "recipe": "school_present",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_0_2",
+          "text": "Paused? Press play after choosing. Or keep watching; we'll start together.",
+          "at": 15.2235,
+          "window_end": 23.9,
+          "recipe": "school_point",
+          "tempo": 1.12
+        }
+      ],
+      "characters": [
+        "nemi"
+      ],
+      "expressions_actions": [
+        {
+          "at": 0,
+          "recipe": "school_brace",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            8.77
+          ]
+        },
+        {
+          "at": 9.26325,
+          "recipe": "school_present",
+          "duration": 0.36,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "open_palm_up"
+          },
+          "blinks": [
+            14.87325
+          ]
+        },
+        {
+          "at": 15.2235,
+          "recipe": "school_point",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "pointing"
+          },
+          "blinks": [
+            21.0335
+          ]
+        }
+      ],
+      "camera": {
+        "upload": "Viewer controls orientation; no forced turn/reset",
+        "director_review": [
+          {
+            "at": 0,
+            "yaw": 0
+          },
+          {
+            "at": 6.4,
+            "yaw": 0
+          },
+          {
+            "at": 9.6,
+            "yaw": 0
+          },
+          {
+            "at": 19.2,
+            "yaw": 0
+          },
+          {
+            "at": 22.4,
+            "yaw": 0
+          }
+        ],
+        "fov": 50
+      },
+      "spatial_layout": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "hallway_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "hallway_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "hallway_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "hallway_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "star_badge",
+              "kind": "badge",
+              "x": 1000,
+              "y": 600,
+              "text": "STAR\n3 USE BADGE",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_poster",
+              "kind": "poster",
+              "x": 300,
+              "y": 440,
+              "text": "DUCK CLUB",
+              "author": "nemi"
+            },
+            {
+              "id": "sandwich_decoy",
+              "kind": "sandwich",
+              "x": 1520,
+              "y": 690,
+              "text": "2 INSPECT LUNCH",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "environment_events": [],
+      "props": [
+        {
+          "author": "nemi",
+          "kind": "school_satchel",
+          "at": 0,
+          "end": 24,
+          "position": [
+            1200,
+            480
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "mode": "hold",
+          "shots": [
+            "practice"
+          ]
+        }
+      ],
+      "ink": [
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "a fictional school game",
+          "size": 34,
+          "position": [
+            980,
+            150
+          ],
+          "at": 0,
+          "end": 24,
+          "mode": "hold",
+          "shots": [
+            "practice"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "1: start: badge round",
+          "size": 28,
+          "position": [
+            980,
+            730
+          ],
+          "at": 15.0235,
+          "end": 24,
+          "mode": "hold",
+          "shots": [
+            "practice"
+          ]
+        }
+      ],
+      "sound": [
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/transition_camera_shutter_01.wav",
+          "at": 2.26,
+          "duration": 0.351,
+          "gain_db": -10,
+          "event": "camera_discovery"
+        }
+      ],
+      "vfx": [],
+      "music": [
+        {
+          "at": 0,
+          "file": "res://nemi/playable_storytime/episodes/episode_001/audio/score.wav",
+          "duration": 240,
+          "gain_db": -15
+        }
+      ],
+      "transition": "Exact chapter-clock location cut; viewer orientation persists",
+      "gameplay": [],
+      "accessibility": "Pause/retry freely; narration supplies directions and eventual answers; complete optional SRT uses measured utterance bounds",
+      "dependencies": [
+        "scene.json",
+        "audio/narration.wav",
+        "audio/render_timeline.json",
+        "assets/locations.json",
+        "gameplay/challenges.json"
+      ]
+    },
+    {
+      "scene_id": "badge_choice",
+      "start": 24,
+      "end": 48,
+      "narrative_objective": "Find the star badge. Choose badge or sandwich.",
+      "voiceover": [
+        {
+          "id": "r7_1_0",
+          "text": "Round one. Badge or lunch? I need my student badge to get into assembly.",
+          "at": 24.8,
+          "window_end": 29.991542,
+          "recipe": "school_question",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_1_1",
+          "text": "Look left. The star badge is three. The sandwich is two. Choose one number.",
+          "at": 30.041542,
+          "window_end": 36.066417,
+          "recipe": "school_point",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_1_2",
+          "text": "Three takes the badge. Two inspects lunch. You can choose while I worry.",
+          "at": 36.116417,
+          "window_end": 47.9,
+          "recipe": "skeptical",
+          "tempo": 1.12
+        }
+      ],
+      "characters": [
+        "nemi"
+      ],
+      "expressions_actions": [
+        {
+          "at": 24.8,
+          "recipe": "school_question",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            29.709999999999997
+          ]
+        },
+        {
+          "at": 30.041542,
+          "recipe": "school_point",
+          "duration": 0.36,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "pointing"
+          },
+          "blinks": [
+            35.811541999999996
+          ]
+        },
+        {
+          "at": 36.116417,
+          "recipe": "skeptical",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            41.166416999999996
+          ]
+        }
+      ],
+      "camera": {
+        "upload": "Viewer controls orientation; no forced turn/reset",
+        "director_review": [
+          {
+            "at": 24,
+            "yaw": 0
+          },
+          {
+            "at": 30.301542,
+            "yaw": 0
+          },
+          {
+            "at": 31.101542,
+            "yaw": -90
+          },
+          {
+            "at": 36.116417,
+            "yaw": -90
+          },
+          {
+            "at": 36.916417,
+            "yaw": 0
+          }
+        ],
+        "fov": 60
+      },
+      "spatial_layout": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "hallway_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "hallway_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "hallway_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "hallway_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "star_badge",
+              "kind": "badge",
+              "x": 1000,
+              "y": 600,
+              "text": "STAR\n3 USE BADGE",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_poster",
+              "kind": "poster",
+              "x": 300,
+              "y": 440,
+              "text": "DUCK CLUB",
+              "author": "nemi"
+            },
+            {
+              "id": "sandwich_decoy",
+              "kind": "sandwich",
+              "x": 1520,
+              "y": 690,
+              "text": "2 INSPECT LUNCH",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "environment_events": [],
+      "props": [
+        {
+          "author": "nemi",
+          "kind": "school_questions",
+          "at": 24,
+          "end": 48,
+          "position": [
+            1200,
+            480
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "mode": "hold",
+          "shots": [
+            "badge_choice"
+          ]
+        }
+      ],
+      "ink": [
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "round one: badge or lunch",
+          "size": 34,
+          "position": [
+            980,
+            150
+          ],
+          "at": 24,
+          "end": 48,
+          "mode": "hold",
+          "shots": [
+            "badge_choice"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "2: inspect sandwich   /   3: use star badge",
+          "size": 28,
+          "position": [
+            980,
+            730
+          ],
+          "at": 35.916417,
+          "end": 48,
+          "mode": "hold",
+          "shots": [
+            "badge_choice"
+          ]
+        }
+      ],
+      "sound": [
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/paper_page_turn_crisp_01.wav",
+          "at": 26.02,
+          "duration": 0.452,
+          "gain_db": -10,
+          "event": "missing_badge"
+        },
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/paper_slide_desk_01.wav",
+          "at": 31.381542,
+          "duration": 1.094,
+          "gain_db": -10,
+          "event": "badge_evidence"
+        }
+      ],
+      "vfx": [],
+      "music": [
+        {
+          "at": 0,
+          "file": "res://nemi/playable_storytime/episodes/episode_001/audio/score.wav",
+          "duration": 240,
+          "gain_db": -15
+        }
+      ],
+      "transition": "Exact chapter-clock location cut; viewer orientation persists",
+      "gameplay": [
+        {
+          "id": "badge",
+          "narrative_purpose": "Recover the badge that creates the hosting problem.",
+          "start": 24,
+          "end": 72,
+          "objective": "Find the star badge. Choose badge or sandwich.",
+          "clue_id": "star_badge",
+          "inputs": [
+            "desktop WASD",
+            "mouse drag",
+            "YouTube app swipe",
+            "pause",
+            "desktop number keys 0–9",
+            "mobile numbered chapters"
+          ],
+          "solution": "3 USE BADGE",
+          "instructions": "Find the star badge. Choose badge or sandwich.",
+          "visual_change": "Native viewpoint rotation reveals the clue; a digit key selects an authored story scene.",
+          "success": "The named intended route gives an immediate outcome receipt from every viewing direction.",
+          "hints": [],
+          "retry_method": "Press 1 to return to this round; each result offers a single forward continuation.",
+          "valid_destinations": [
+            72
+          ],
+          "alternative_outcomes": [
+            48
+          ],
+          "do_nothing": "Nemi previews the optional silly detour, then the main story continues. No detected choice is claimed.",
+          "wrong_answer": "The explicitly named detour gives a joke and a single clear continuation.",
+          "state_tracking": false,
+          "desktop": true,
+          "mobile": "Current YouTube app: swipe to look; choose matching numbered chapter. Chapters/channel availability and upload test pending.",
+          "device_limitations": [
+            "Click the desktop player before using top-row number keys. K resumes if paused.",
+            "Number keys are desktop controls; mobile uses numbered chapters when available.",
+            "TV/controller behavior unverified. Captions are optional conventional subtitles."
+          ],
+          "solution_key": 3,
+          "retry_key": 1,
+          "alternative_keys": [
+            2
+          ]
+        }
+      ],
+      "accessibility": "Pause/retry freely; narration supplies directions and eventual answers; complete optional SRT uses measured utterance bounds",
+      "dependencies": [
+        "scene.json",
+        "audio/narration.wav",
+        "audio/render_timeline.json",
+        "assets/locations.json",
+        "gameplay/challenges.json"
+      ]
+    },
+    {
+      "scene_id": "sandwich_result",
+      "start": 48,
+      "end": 72,
+      "narrative_objective": "Sandwich inspected. Press 3 to use the badge.",
+      "voiceover": [
+        {
+          "id": "r7_2_0",
+          "text": "Sandwich route. That's lunch. Apparently bread is not a recognized form of identification.",
+          "at": 48.8,
+          "window_end": 55.994958,
+          "recipe": "deadpan",
+          "tempo": 1.08
+        },
+        {
+          "id": "r7_2_1",
+          "text": "The sandwich has excellent layers. None of them contain my student number.",
+          "at": 56.044958,
+          "window_end": 60.547625,
+          "recipe": "school_explain",
+          "tempo": 1.08
+        },
+        {
+          "id": "r7_2_2",
+          "text": "Press three to take the badge and continue. I'm retiring from sandwich security.",
+          "at": 60.597625,
+          "window_end": 71.9,
+          "recipe": "school_point",
+          "tempo": 1.08
+        }
+      ],
+      "characters": [
+        "nemi"
+      ],
+      "expressions_actions": [
+        {
+          "at": 48.8,
+          "recipe": "deadpan",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            55.53
+          ]
+        },
+        {
+          "at": 56.044958,
+          "recipe": "school_explain",
+          "duration": 0.36,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            60.274958
+          ]
+        },
+        {
+          "at": 60.597625,
+          "recipe": "school_point",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "pointing"
+          },
+          "blinks": [
+            65.20762500000001
+          ]
+        }
+      ],
+      "camera": {
+        "upload": "Viewer controls orientation; no forced turn/reset",
+        "director_review": [
+          {
+            "at": 48,
+            "yaw": 0
+          },
+          {
+            "at": 54.4,
+            "yaw": 0
+          },
+          {
+            "at": 57.6,
+            "yaw": 0
+          },
+          {
+            "at": 67.2,
+            "yaw": 0
+          },
+          {
+            "at": 70.4,
+            "yaw": 0
+          }
+        ],
+        "fov": 50
+      },
+      "spatial_layout": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "hallway_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "hallway_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "hallway_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "hallway_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "star_badge",
+              "kind": "badge",
+              "x": 1000,
+              "y": 600,
+              "text": "STAR\n3 USE BADGE",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_poster",
+              "kind": "poster",
+              "x": 300,
+              "y": 440,
+              "text": "DUCK CLUB",
+              "author": "nemi"
+            },
+            {
+              "id": "sandwich_decoy",
+              "kind": "sandwich",
+              "x": 1520,
+              "y": 690,
+              "text": "2 INSPECT LUNCH",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "environment_events": [],
+      "props": [
+        {
+          "author": "nemi",
+          "kind": "school_notebook",
+          "at": 48,
+          "end": 72,
+          "position": [
+            1200,
+            480
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "mode": "hold",
+          "shots": [
+            "sandwich_result"
+          ]
+        }
+      ],
+      "ink": [
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "sandwich security",
+          "size": 34,
+          "position": [
+            980,
+            150
+          ],
+          "at": 48,
+          "end": 72,
+          "mode": "hold",
+          "shots": [
+            "sandwich_result"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "3: use star badge",
+          "size": 28,
+          "position": [
+            980,
+            730
+          ],
+          "at": 60.397625,
+          "end": 72,
+          "mode": "hold",
+          "shots": [
+            "sandwich_result"
+          ]
+        }
+      ],
+      "sound": [
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/cartoon_boing_bounce_01.wav",
+          "at": 48.8,
+          "duration": 1.241,
+          "gain_db": -11,
+          "event": "sandwich"
+        }
+      ],
+      "vfx": [],
+      "music": [
+        {
+          "at": 0,
+          "file": "res://nemi/playable_storytime/episodes/episode_001/audio/score.wav",
+          "duration": 240,
+          "gain_db": -15
+        }
+      ],
+      "transition": "Exact chapter-clock location cut; viewer orientation persists",
+      "gameplay": [
+        {
+          "id": "badge",
+          "narrative_purpose": "Recover the badge that creates the hosting problem.",
+          "start": 24,
+          "end": 72,
+          "objective": "Find the star badge. Choose badge or sandwich.",
+          "clue_id": "star_badge",
+          "inputs": [
+            "desktop WASD",
+            "mouse drag",
+            "YouTube app swipe",
+            "pause",
+            "desktop number keys 0–9",
+            "mobile numbered chapters"
+          ],
+          "solution": "3 USE BADGE",
+          "instructions": "Find the star badge. Choose badge or sandwich.",
+          "visual_change": "Native viewpoint rotation reveals the clue; a digit key selects an authored story scene.",
+          "success": "The named intended route gives an immediate outcome receipt from every viewing direction.",
+          "hints": [],
+          "retry_method": "Press 1 to return to this round; each result offers a single forward continuation.",
+          "valid_destinations": [
+            72
+          ],
+          "alternative_outcomes": [
+            48
+          ],
+          "do_nothing": "Nemi previews the optional silly detour, then the main story continues. No detected choice is claimed.",
+          "wrong_answer": "The explicitly named detour gives a joke and a single clear continuation.",
+          "state_tracking": false,
+          "desktop": true,
+          "mobile": "Current YouTube app: swipe to look; choose matching numbered chapter. Chapters/channel availability and upload test pending.",
+          "device_limitations": [
+            "Click the desktop player before using top-row number keys. K resumes if paused.",
+            "Number keys are desktop controls; mobile uses numbered chapters when available.",
+            "TV/controller behavior unverified. Captions are optional conventional subtitles."
+          ],
+          "solution_key": 3,
+          "retry_key": 1,
+          "alternative_keys": [
+            2
+          ]
+        }
+      ],
+      "accessibility": "Pause/retry freely; narration supplies directions and eventual answers; complete optional SRT uses measured utterance bounds",
+      "dependencies": [
+        "scene.json",
+        "audio/narration.wav",
+        "audio/render_timeline.json",
+        "assets/locations.json",
+        "gameplay/challenges.json"
+      ]
+    },
+    {
+      "scene_id": "badge_result",
+      "start": 72,
+      "end": 96,
+      "narrative_objective": "Badge found. Press 4 for the noticeboard.",
+      "voiceover": [
+        {
+          "id": "r7_3_0",
+          "text": "Badge route. Badge found. Wait. Student host? I volunteered to hold a door. An audience is different.",
+          "at": 72.8,
+          "window_end": 82.326583,
+          "recipe": "realization",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_3_1",
+          "text": "One signature. That's all it took to promote me from late student to public entertainment.",
+          "at": 82.376583,
+          "window_end": 88.362542,
+          "recipe": "school_shame",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_3_2",
+          "text": "Next: choose the right room. Press four for the noticeboard. Please read it more carefully than I did.",
+          "at": 88.412542,
+          "window_end": 95.9,
+          "recipe": "school_point",
+          "tempo": 1.12
+        }
+      ],
+      "characters": [
+        "nemi"
+      ],
+      "expressions_actions": [
+        {
+          "at": 72.8,
+          "recipe": "realization",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": []
+        },
+        {
+          "at": 77.44,
+          "recipe": "school_gasp",
+          "duration": 0.28,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": []
+        },
+        {
+          "at": 82.376583,
+          "recipe": "school_shame",
+          "duration": 0.36,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            87.90658300000001
+          ]
+        },
+        {
+          "at": 88.412542,
+          "recipe": "school_point",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "pointing"
+          },
+          "blinks": [
+            94.422542
+          ]
+        }
+      ],
+      "camera": {
+        "upload": "Viewer controls orientation; no forced turn/reset",
+        "director_review": [
+          {
+            "at": 72,
+            "yaw": 0
+          },
+          {
+            "at": 78.4,
+            "yaw": 0
+          },
+          {
+            "at": 81.6,
+            "yaw": 0
+          },
+          {
+            "at": 91.2,
+            "yaw": 0
+          },
+          {
+            "at": 94.4,
+            "yaw": 0
+          }
+        ],
+        "fov": 50
+      },
+      "spatial_layout": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "classroom_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "class_board_0",
+              "kind": "board",
+              "x": 960,
+              "y": 400,
+              "text": "A SMALL FAVOUR",
+              "accent": "#dce0d6",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "classroom_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "old_notice",
+              "kind": "board",
+              "x": 470,
+              "y": 460,
+              "text": "OLD: 5 PUDDING\nINSPECTION ROOM",
+              "crossed": true,
+              "author": "nemi"
+            },
+            {
+              "id": "star_correction",
+              "kind": "clue",
+              "x": 1160,
+              "y": 450,
+              "text": "TODAY\n6 ASSEMBLY",
+              "accent": "#6e8b74",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "classroom_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "class_board_2",
+              "kind": "board",
+              "x": 960,
+              "y": 400,
+              "text": "REHEARSAL TODAY",
+              "accent": "#dce0d6",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "classroom_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "environment_events": [],
+      "props": [
+        {
+          "author": "nemi",
+          "kind": "clipboard",
+          "at": 72,
+          "end": 96,
+          "position": [
+            1200,
+            480
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "mode": "hold",
+          "shots": [
+            "badge_result"
+          ]
+        }
+      ],
+      "ink": [
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "student host?!",
+          "size": 34,
+          "position": [
+            980,
+            150
+          ],
+          "at": 72,
+          "end": 96,
+          "mode": "hold",
+          "shots": [
+            "badge_result"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "4: choose the room",
+          "size": 28,
+          "position": [
+            980,
+            730
+          ],
+          "at": 88.212542,
+          "end": 96,
+          "mode": "hold",
+          "shots": [
+            "badge_result"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "underline",
+          "position": [
+            1210,
+            178
+          ],
+          "scale": [
+            2.0,
+            1.0
+          ],
+          "at": 82.856583,
+          "duration": 0.45,
+          "end": 96,
+          "mode": "live",
+          "event": "signature",
+          "shots": [
+            "badge_result"
+          ]
+        }
+      ],
+      "sound": [
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/comedic_record_scratch_01.wav",
+          "at": 77.44,
+          "duration": 1.109,
+          "gain_db": -10,
+          "event": "student_host"
+        },
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/paper_slide_desk_01.wav",
+          "at": 82.856583,
+          "duration": 1.094,
+          "gain_db": -12,
+          "event": "signature"
+        }
+      ],
+      "vfx": [
+        {
+          "kind": "sweat",
+          "author": "nemi",
+          "actor": "nemi",
+          "at": 77.44,
+          "end": 78.14,
+          "strength": 0.7,
+          "event": "student_host"
+        }
+      ],
+      "music": [
+        {
+          "at": 0,
+          "file": "res://nemi/playable_storytime/episodes/episode_001/audio/score.wav",
+          "duration": 240,
+          "gain_db": -15
+        }
+      ],
+      "transition": "Exact chapter-clock location cut; viewer orientation persists",
+      "gameplay": [],
+      "accessibility": "Pause/retry freely; narration supplies directions and eventual answers; complete optional SRT uses measured utterance bounds",
+      "dependencies": [
+        "scene.json",
+        "audio/narration.wav",
+        "audio/render_timeline.json",
+        "assets/locations.json",
+        "gameplay/challenges.json"
+      ]
+    },
+    {
+      "scene_id": "notice_choice",
+      "start": 96,
+      "end": 120,
+      "narrative_objective": "Choose the new assembly notice or the old pudding notice.",
+      "voiceover": [
+        {
+          "id": "r7_4_0",
+          "text": "Round two. Which room? Look right. Today's star marks the new assembly notice.",
+          "at": 96.8,
+          "window_end": 104.614417,
+          "recipe": "school_question",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_4_1",
+          "text": "Six goes to assembly. Five follows the crossed-out pudding notice. One of these seems suspiciously delicious.",
+          "at": 104.664417,
+          "window_end": 111.605875,
+          "recipe": "school_point",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_4_2",
+          "text": "Choose five for pudding, or six for assembly. I'll judge the school, not you.",
+          "at": 111.655875,
+          "window_end": 119.9,
+          "recipe": "skeptical",
+          "tempo": 1.12
+        }
+      ],
+      "characters": [
+        "nemi"
+      ],
+      "expressions_actions": [
+        {
+          "at": 96.8,
+          "recipe": "school_question",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            104.25
+          ]
+        },
+        {
+          "at": 104.664417,
+          "recipe": "school_point",
+          "duration": 0.36,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "pointing"
+          },
+          "blinks": [
+            111.134417
+          ]
+        },
+        {
+          "at": 111.655875,
+          "recipe": "skeptical",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            117.705875
+          ]
+        }
+      ],
+      "camera": {
+        "upload": "Viewer controls orientation; no forced turn/reset",
+        "director_review": [
+          {
+            "at": 96,
+            "yaw": 0
+          },
+          {
+            "at": 99.68,
+            "yaw": 0
+          },
+          {
+            "at": 100.48,
+            "yaw": 90
+          },
+          {
+            "at": 111.655875,
+            "yaw": 90
+          },
+          {
+            "at": 112.455875,
+            "yaw": 0
+          }
+        ],
+        "fov": 60
+      },
+      "spatial_layout": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "classroom_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "class_board_0",
+              "kind": "board",
+              "x": 960,
+              "y": 400,
+              "text": "A SMALL FAVOUR",
+              "accent": "#dce0d6",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "classroom_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "old_notice",
+              "kind": "board",
+              "x": 470,
+              "y": 460,
+              "text": "OLD: 5 PUDDING\nINSPECTION ROOM",
+              "crossed": true,
+              "author": "nemi"
+            },
+            {
+              "id": "star_correction",
+              "kind": "clue",
+              "x": 1160,
+              "y": 450,
+              "text": "TODAY\n6 ASSEMBLY",
+              "accent": "#6e8b74",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "classroom_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "class_board_2",
+              "kind": "board",
+              "x": 960,
+              "y": 400,
+              "text": "REHEARSAL TODAY",
+              "accent": "#dce0d6",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "classroom_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "environment_events": [],
+      "props": [
+        {
+          "author": "nemi",
+          "kind": "route_map",
+          "at": 96,
+          "end": 120,
+          "position": [
+            1200,
+            480
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "mode": "hold",
+          "shots": [
+            "notice_choice"
+          ]
+        }
+      ],
+      "ink": [
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "round two: which room",
+          "size": 34,
+          "position": [
+            980,
+            150
+          ],
+          "at": 96,
+          "end": 120,
+          "mode": "hold",
+          "shots": [
+            "notice_choice"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "5: try pudding room   /   6: go to assembly",
+          "size": 28,
+          "position": [
+            980,
+            730
+          ],
+          "at": 111.455875,
+          "end": 120,
+          "mode": "hold",
+          "shots": [
+            "notice_choice"
+          ]
+        }
+      ],
+      "sound": [
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/paper_page_turn_crisp_01.wav",
+          "at": 102.18,
+          "duration": 0.452,
+          "gain_db": -10,
+          "event": "corrected_notice"
+        }
+      ],
+      "vfx": [],
+      "music": [
+        {
+          "at": 0,
+          "file": "res://nemi/playable_storytime/episodes/episode_001/audio/score.wav",
+          "duration": 240,
+          "gain_db": -15
+        }
+      ],
+      "transition": "Exact chapter-clock location cut; viewer orientation persists",
+      "gameplay": [
+        {
+          "id": "notice",
+          "narrative_purpose": "Distinguish corrected evidence from a confident outdated arrow.",
+          "start": 96,
+          "end": 144,
+          "objective": "Choose the new assembly notice or the old pudding notice.",
+          "clue_id": "star_correction",
+          "inputs": [
+            "desktop WASD",
+            "mouse drag",
+            "YouTube app swipe",
+            "pause",
+            "desktop number keys 0–9",
+            "mobile numbered chapters"
+          ],
+          "solution": "6 ASSEMBLY",
+          "instructions": "Choose the new assembly notice or the old pudding notice.",
+          "visual_change": "Native viewpoint rotation reveals the clue; a digit key selects an authored story scene.",
+          "success": "The named intended route gives an immediate outcome receipt from every viewing direction.",
+          "hints": [],
+          "retry_method": "Press 4 to return to this round; each result offers a single forward continuation.",
+          "valid_destinations": [
+            144
+          ],
+          "alternative_outcomes": [
+            120
+          ],
+          "do_nothing": "Nemi previews the optional silly detour, then the main story continues. No detected choice is claimed.",
+          "wrong_answer": "The explicitly named detour gives a joke and a single clear continuation.",
+          "state_tracking": false,
+          "desktop": true,
+          "mobile": "Current YouTube app: swipe to look; choose matching numbered chapter. Chapters/channel availability and upload test pending.",
+          "device_limitations": [
+            "Click the desktop player before using top-row number keys. K resumes if paused.",
+            "Number keys are desktop controls; mobile uses numbered chapters when available.",
+            "TV/controller behavior unverified. Captions are optional conventional subtitles."
+          ],
+          "solution_key": 6,
+          "retry_key": 4,
+          "alternative_keys": [
+            5
+          ]
+        }
+      ],
+      "accessibility": "Pause/retry freely; narration supplies directions and eventual answers; complete optional SRT uses measured utterance bounds",
+      "dependencies": [
+        "scene.json",
+        "audio/narration.wav",
+        "audio/render_timeline.json",
+        "assets/locations.json",
+        "gameplay/challenges.json"
+      ]
+    },
+    {
+      "scene_id": "pudding_result",
+      "start": 120,
+      "end": 144,
+      "narrative_objective": "Pudding detour. Press 6 to go to assembly.",
+      "voiceover": [
+        {
+          "id": "r7_5_0",
+          "text": "Pudding route. There is no pudding. The cup is full of pencils. This department has betrayed me.",
+          "at": 120.8,
+          "window_end": 127.179042,
+          "recipe": "deadpan",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_5_1",
+          "text": "If you came for dessert, I'm sorry. If you're just watching, this is why I need supervision.",
+          "at": 127.229042,
+          "window_end": 132.308,
+          "recipe": "embarrassed",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_5_2",
+          "text": "Press six to go to assembly. I'm leaving a strongly worded review in crayon.",
+          "at": 132.358,
+          "window_end": 143.9,
+          "recipe": "school_resolve",
+          "tempo": 1.12
+        }
+      ],
+      "characters": [
+        "nemi"
+      ],
+      "expressions_actions": [
+        {
+          "at": 120.8,
+          "recipe": "deadpan",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            126.99000000000001
+          ]
+        },
+        {
+          "at": 127.229042,
+          "recipe": "embarrassed",
+          "duration": 0.36,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            131.899042
+          ]
+        },
+        {
+          "at": 132.358,
+          "recipe": "school_resolve",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            137.608
+          ]
+        }
+      ],
+      "camera": {
+        "upload": "Viewer controls orientation; no forced turn/reset",
+        "director_review": [
+          {
+            "at": 120,
+            "yaw": 0
+          },
+          {
+            "at": 126.4,
+            "yaw": 0
+          },
+          {
+            "at": 129.6,
+            "yaw": 0
+          },
+          {
+            "at": 139.2,
+            "yaw": 0
+          },
+          {
+            "at": 142.4,
+            "yaw": 0
+          }
+        ],
+        "fov": 50
+      },
+      "spatial_layout": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "classroom_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "class_board_0",
+              "kind": "board",
+              "x": 960,
+              "y": 400,
+              "text": "A SMALL FAVOUR",
+              "accent": "#dce0d6",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "classroom_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "old_notice",
+              "kind": "board",
+              "x": 470,
+              "y": 460,
+              "text": "OLD: 5 PUDDING\nINSPECTION ROOM",
+              "crossed": true,
+              "author": "nemi"
+            },
+            {
+              "id": "star_correction",
+              "kind": "clue",
+              "x": 1160,
+              "y": 450,
+              "text": "TODAY\n6 ASSEMBLY",
+              "accent": "#6e8b74",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "classroom_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "class_board_2",
+              "kind": "board",
+              "x": 960,
+              "y": 400,
+              "text": "REHEARSAL TODAY",
+              "accent": "#dce0d6",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "classroom_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "environment_events": [],
+      "props": [
+        {
+          "author": "nemi",
+          "kind": "mug",
+          "at": 120,
+          "end": 144,
+          "position": [
+            1200,
+            480
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "mode": "hold",
+          "shots": [
+            "pudding_result"
+          ]
+        }
+      ],
+      "ink": [
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "pudding department",
+          "size": 34,
+          "position": [
+            980,
+            150
+          ],
+          "at": 120,
+          "end": 144,
+          "mode": "hold",
+          "shots": [
+            "pudding_result"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "6: go to assembly",
+          "size": 28,
+          "position": [
+            980,
+            730
+          ],
+          "at": 132.158,
+          "end": 144,
+          "mode": "hold",
+          "shots": [
+            "pudding_result"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "scratch",
+          "position": [
+            1220,
+            150
+          ],
+          "scale": [
+            1.8,
+            0.8
+          ],
+          "at": 124.38,
+          "duration": 0.4,
+          "end": 144,
+          "mode": "live",
+          "event": "pencils",
+          "shots": [
+            "pudding_result"
+          ]
+        }
+      ],
+      "sound": [
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/comedic_fail_low_tone_01.wav",
+          "at": 120.8,
+          "duration": 1.515,
+          "gain_db": -11,
+          "event": "detour"
+        },
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/cartoon_pop_dry_01.wav",
+          "at": 124.38,
+          "duration": 0.305,
+          "gain_db": -10,
+          "event": "pencils"
+        }
+      ],
+      "vfx": [],
+      "music": [
+        {
+          "at": 0,
+          "file": "res://nemi/playable_storytime/episodes/episode_001/audio/score.wav",
+          "duration": 240,
+          "gain_db": -15
+        }
+      ],
+      "transition": "Exact chapter-clock location cut; viewer orientation persists",
+      "gameplay": [
+        {
+          "id": "notice",
+          "narrative_purpose": "Distinguish corrected evidence from a confident outdated arrow.",
+          "start": 96,
+          "end": 144,
+          "objective": "Choose the new assembly notice or the old pudding notice.",
+          "clue_id": "star_correction",
+          "inputs": [
+            "desktop WASD",
+            "mouse drag",
+            "YouTube app swipe",
+            "pause",
+            "desktop number keys 0–9",
+            "mobile numbered chapters"
+          ],
+          "solution": "6 ASSEMBLY",
+          "instructions": "Choose the new assembly notice or the old pudding notice.",
+          "visual_change": "Native viewpoint rotation reveals the clue; a digit key selects an authored story scene.",
+          "success": "The named intended route gives an immediate outcome receipt from every viewing direction.",
+          "hints": [],
+          "retry_method": "Press 4 to return to this round; each result offers a single forward continuation.",
+          "valid_destinations": [
+            144
+          ],
+          "alternative_outcomes": [
+            120
+          ],
+          "do_nothing": "Nemi previews the optional silly detour, then the main story continues. No detected choice is claimed.",
+          "wrong_answer": "The explicitly named detour gives a joke and a single clear continuation.",
+          "state_tracking": false,
+          "desktop": true,
+          "mobile": "Current YouTube app: swipe to look; choose matching numbered chapter. Chapters/channel availability and upload test pending.",
+          "device_limitations": [
+            "Click the desktop player before using top-row number keys. K resumes if paused.",
+            "Number keys are desktop controls; mobile uses numbered chapters when available.",
+            "TV/controller behavior unverified. Captions are optional conventional subtitles."
+          ],
+          "solution_key": 6,
+          "retry_key": 4,
+          "alternative_keys": [
+            5
+          ]
+        }
+      ],
+      "accessibility": "Pause/retry freely; narration supplies directions and eventual answers; complete optional SRT uses measured utterance bounds",
+      "dependencies": [
+        "scene.json",
+        "audio/narration.wav",
+        "audio/render_timeline.json",
+        "assets/locations.json",
+        "gameplay/challenges.json"
+      ]
+    },
+    {
+      "scene_id": "assembly_result",
+      "start": 144,
+      "end": 168,
+      "narrative_objective": "Assembly reached. Press 7 for the final choice.",
+      "voiceover": [
+        {
+          "id": "r7_6_0",
+          "text": "Assembly route. We made it. That's the microphone. Why does it look more prepared than me?",
+          "at": 144.8,
+          "window_end": 151.027375,
+          "recipe": "school_relief",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_6_1",
+          "text": "I could hide. Or I could check the audience before inventing a national emergency.",
+          "at": 151.077375,
+          "window_end": 156.592042,
+          "recipe": "school_shame",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_6_2",
+          "text": "Press seven for the last choice. Hide, or take the microphone. You get the deciding vote.",
+          "at": 156.642042,
+          "window_end": 167.9,
+          "recipe": "school_present",
+          "tempo": 1.12
+        }
+      ],
+      "characters": [
+        "nemi"
+      ],
+      "expressions_actions": [
+        {
+          "at": 144.8,
+          "recipe": "school_relief",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            150.85
+          ]
+        },
+        {
+          "at": 151.077375,
+          "recipe": "school_shame",
+          "duration": 0.36,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            156.167375
+          ]
+        },
+        {
+          "at": 156.642042,
+          "recipe": "school_present",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "open_palm_up"
+          },
+          "blinks": [
+            162.272042
+          ]
+        }
+      ],
+      "camera": {
+        "upload": "Viewer controls orientation; no forced turn/reset",
+        "director_review": [
+          {
+            "at": 144,
+            "yaw": 0
+          },
+          {
+            "at": 150.4,
+            "yaw": 0
+          },
+          {
+            "at": 153.6,
+            "yaw": 0
+          },
+          {
+            "at": 163.2,
+            "yaw": 0
+          },
+          {
+            "at": 166.4,
+            "yaw": 0
+          }
+        ],
+        "fov": 50
+      },
+      "spatial_layout": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "assembly_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "microphone",
+              "kind": "microphone",
+              "x": 1650,
+              "y": 685,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "assembly_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "duck_seat",
+              "kind": "bench",
+              "x": 520,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_seat",
+              "kind": "bench",
+              "x": 1430,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_bench",
+              "kind": "bench",
+              "x": 960,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "audience_notice",
+              "kind": "clue",
+              "x": 1000,
+              "y": 400,
+              "text": "REHEARSAL\n3 STUFFED ANIMALS\n8 HIDE / 9 HOST",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_audience",
+              "kind": "duck",
+              "x": 520,
+              "y": 650,
+              "text": "DUCK",
+              "author": "nemi"
+            },
+            {
+              "id": "bear_audience",
+              "kind": "bear",
+              "x": 960,
+              "y": 610,
+              "text": "BEAR",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_audience",
+              "kind": "rabbit",
+              "x": 1430,
+              "y": 610,
+              "text": "RABBIT",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_review",
+              "kind": "poster",
+              "x": 300,
+              "y": 290,
+              "text": "DUCK REVIEW\nMORE BREAD",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "assembly_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "environment_events": [],
+      "props": [
+        {
+          "author": "nemi",
+          "kind": "school_notebook",
+          "at": 144,
+          "end": 168,
+          "position": [
+            1200,
+            480
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "mode": "hold",
+          "shots": [
+            "assembly_result"
+          ]
+        }
+      ],
+      "ink": [
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "one tiny microphone",
+          "size": 34,
+          "position": [
+            980,
+            150
+          ],
+          "at": 144,
+          "end": 168,
+          "mode": "hold",
+          "shots": [
+            "assembly_result"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "7: make the final choice",
+          "size": 28,
+          "position": [
+            980,
+            730
+          ],
+          "at": 156.442042,
+          "end": 168,
+          "mode": "hold",
+          "shots": [
+            "assembly_result"
+          ]
+        }
+      ],
+      "sound": [
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/cartoon_boing_metallic_01.wav",
+          "at": 147.9,
+          "duration": 1.205,
+          "gain_db": -12,
+          "event": "microphone_fear"
+        }
+      ],
+      "vfx": [],
+      "music": [
+        {
+          "at": 0,
+          "file": "res://nemi/playable_storytime/episodes/episode_001/audio/score.wav",
+          "duration": 240,
+          "gain_db": -15
+        }
+      ],
+      "transition": "Exact chapter-clock location cut; viewer orientation persists",
+      "gameplay": [],
+      "accessibility": "Pause/retry freely; narration supplies directions and eventual answers; complete optional SRT uses measured utterance bounds",
+      "dependencies": [
+        "scene.json",
+        "audio/narration.wav",
+        "audio/render_timeline.json",
+        "assets/locations.json",
+        "gameplay/challenges.json"
+      ]
+    },
+    {
+      "scene_id": "audience_choice",
+      "start": 168,
+      "end": 192,
+      "narrative_objective": "Look behind Nemi. Choose hiding or the microphone.",
+      "voiceover": [
+        {
+          "id": "r7_7_0",
+          "text": "Final round. Hide or host? Turn around and look at the audience before you choose.",
+          "at": 168.8,
+          "window_end": 173.576542,
+          "recipe": "school_brace",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_7_1",
+          "text": "The audience is three stuffed animals. Eight is hiding. Nine takes the microphone. I can probably survive a duck.",
+          "at": 173.626542,
+          "window_end": 181.624542,
+          "recipe": "realization",
+          "tempo": 1.12
+        },
+        {
+          "id": "r7_7_2",
+          "text": "Ready? Press nine. Want the cowardly version? Press eight. I've prepared both emotionally.",
+          "at": 181.674542,
+          "window_end": 191.9,
+          "recipe": "school_point",
+          "tempo": 1.12
+        }
+      ],
+      "characters": [
+        "nemi"
+      ],
+      "expressions_actions": [
+        {
+          "at": 168.8,
+          "recipe": "school_brace",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            173.19
+          ]
+        },
+        {
+          "at": 173.626542,
+          "recipe": "realization",
+          "duration": 0.36,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            181.316542
+          ]
+        },
+        {
+          "at": 181.674542,
+          "recipe": "school_point",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "pointing"
+          },
+          "blinks": [
+            188.744542
+          ]
+        }
+      ],
+      "camera": {
+        "upload": "Viewer controls orientation; no forced turn/reset",
+        "director_review": [
+          {
+            "at": 168,
+            "yaw": 0
+          },
+          {
+            "at": 171.54,
+            "yaw": 0
+          },
+          {
+            "at": 172.34,
+            "yaw": 180
+          },
+          {
+            "at": 181.674542,
+            "yaw": 180
+          },
+          {
+            "at": 182.474542,
+            "yaw": 0
+          }
+        ],
+        "fov": 60
+      },
+      "spatial_layout": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "assembly_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "microphone",
+              "kind": "microphone",
+              "x": 1650,
+              "y": 685,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "assembly_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "duck_seat",
+              "kind": "bench",
+              "x": 520,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_seat",
+              "kind": "bench",
+              "x": 1430,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_bench",
+              "kind": "bench",
+              "x": 960,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "audience_notice",
+              "kind": "clue",
+              "x": 1000,
+              "y": 400,
+              "text": "REHEARSAL\n3 STUFFED ANIMALS\n8 HIDE / 9 HOST",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_audience",
+              "kind": "duck",
+              "x": 520,
+              "y": 650,
+              "text": "DUCK",
+              "author": "nemi"
+            },
+            {
+              "id": "bear_audience",
+              "kind": "bear",
+              "x": 960,
+              "y": 610,
+              "text": "BEAR",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_audience",
+              "kind": "rabbit",
+              "x": 1430,
+              "y": 610,
+              "text": "RABBIT",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_review",
+              "kind": "poster",
+              "x": 300,
+              "y": 290,
+              "text": "DUCK REVIEW\nMORE BREAD",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "assembly_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "environment_events": [],
+      "props": [
+        {
+          "author": "nemi",
+          "kind": "school_questions",
+          "at": 168,
+          "end": 192,
+          "position": [
+            1200,
+            480
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "mode": "hold",
+          "shots": [
+            "audience_choice"
+          ]
+        }
+      ],
+      "ink": [
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "round three: hide or host",
+          "size": 34,
+          "position": [
+            980,
+            150
+          ],
+          "at": 168,
+          "end": 192,
+          "mode": "hold",
+          "shots": [
+            "audience_choice"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "8: hide behind clipboard   /   9: take the microphone",
+          "size": 28,
+          "position": [
+            980,
+            730
+          ],
+          "at": 181.474542,
+          "end": 192,
+          "mode": "hold",
+          "shots": [
+            "audience_choice"
+          ]
+        }
+      ],
+      "sound": [
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/sting_magic_sparkle_chime_01.wav",
+          "at": 174.906542,
+          "duration": 1.301,
+          "gain_db": -11,
+          "event": "rehearsal_reveal"
+        }
+      ],
+      "vfx": [
+        {
+          "kind": "relief",
+          "author": "nemi",
+          "actor": "nemi",
+          "at": 174.906542,
+          "end": 175.606542,
+          "strength": 0.7,
+          "event": "rehearsal_reveal"
+        }
+      ],
+      "music": [
+        {
+          "at": 0,
+          "file": "res://nemi/playable_storytime/episodes/episode_001/audio/score.wav",
+          "duration": 240,
+          "gain_db": -15
+        }
+      ],
+      "transition": "Exact chapter-clock location cut; viewer orientation persists",
+      "gameplay": [
+        {
+          "id": "audience",
+          "narrative_purpose": "Discover the harmless audience and release stage fright.",
+          "start": 168,
+          "end": 216,
+          "objective": "Look behind Nemi. Choose hiding or the microphone.",
+          "clue_id": "audience_notice",
+          "inputs": [
+            "desktop WASD",
+            "mouse drag",
+            "YouTube app swipe",
+            "pause",
+            "desktop number keys 0–9",
+            "mobile numbered chapters"
+          ],
+          "solution": "9 HOST",
+          "instructions": "Look behind Nemi. Choose hiding or the microphone.",
+          "visual_change": "Native viewpoint rotation reveals the clue; a digit key selects an authored story scene.",
+          "success": "The named intended route gives an immediate outcome receipt from every viewing direction.",
+          "hints": [],
+          "retry_method": "Press 7 to return to this round; each result offers a single forward continuation.",
+          "valid_destinations": [
+            216
+          ],
+          "alternative_outcomes": [
+            192
+          ],
+          "do_nothing": "Nemi previews the optional silly detour, then the main story continues. No detected choice is claimed.",
+          "wrong_answer": "The explicitly named detour gives a joke and a single clear continuation.",
+          "state_tracking": false,
+          "desktop": true,
+          "mobile": "Current YouTube app: swipe to look; choose matching numbered chapter. Chapters/channel availability and upload test pending.",
+          "device_limitations": [
+            "Click the desktop player before using top-row number keys. K resumes if paused.",
+            "Number keys are desktop controls; mobile uses numbered chapters when available.",
+            "TV/controller behavior unverified. Captions are optional conventional subtitles."
+          ],
+          "solution_key": 9,
+          "retry_key": 7,
+          "alternative_keys": [
+            8
+          ]
+        }
+      ],
+      "accessibility": "Pause/retry freely; narration supplies directions and eventual answers; complete optional SRT uses measured utterance bounds",
+      "dependencies": [
+        "scene.json",
+        "audio/narration.wav",
+        "audio/render_timeline.json",
+        "assets/locations.json",
+        "gameplay/challenges.json"
+      ]
+    },
+    {
+      "scene_id": "hiding_result",
+      "start": 192,
+      "end": 216,
+      "narrative_objective": "Hiding detour. Press 9 to take the microphone.",
+      "voiceover": [
+        {
+          "id": "r7_8_0",
+          "text": "Hiding route. My natural habitat: avoiding a harmless social situation. A very comfortable mistake.",
+          "at": 192.8,
+          "window_end": 201.777958,
+          "recipe": "embarrassed",
+          "tempo": 1.08
+        },
+        {
+          "id": "r7_8_1",
+          "text": "Unfortunately, the duck can still see me. My imaginary clipboard fortress has a serious design flaw.",
+          "at": 201.827958,
+          "window_end": 210.263,
+          "recipe": "skeptical",
+          "tempo": 1.08
+        },
+        {
+          "id": "r7_8_2",
+          "text": "Press nine for the stage. We'll face the three softest critics in education together.",
+          "at": 210.313,
+          "window_end": 215.9,
+          "recipe": "school_resolve",
+          "tempo": 1.08
+        }
+      ],
+      "characters": [
+        "nemi"
+      ],
+      "expressions_actions": [
+        {
+          "at": 192.8,
+          "recipe": "embarrassed",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            201.51000000000002
+          ]
+        },
+        {
+          "at": 201.827958,
+          "recipe": "skeptical",
+          "duration": 0.36,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            210.037958
+          ]
+        },
+        {
+          "at": 210.313,
+          "recipe": "school_resolve",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            215.023
+          ]
+        }
+      ],
+      "camera": {
+        "upload": "Viewer controls orientation; no forced turn/reset",
+        "director_review": [
+          {
+            "at": 192,
+            "yaw": 0
+          },
+          {
+            "at": 198.4,
+            "yaw": 0
+          },
+          {
+            "at": 201.6,
+            "yaw": 0
+          },
+          {
+            "at": 211.2,
+            "yaw": 0
+          },
+          {
+            "at": 214.4,
+            "yaw": 0
+          }
+        ],
+        "fov": 50
+      },
+      "spatial_layout": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "assembly_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "microphone",
+              "kind": "microphone",
+              "x": 1650,
+              "y": 685,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "assembly_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "duck_seat",
+              "kind": "bench",
+              "x": 520,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_seat",
+              "kind": "bench",
+              "x": 1430,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_bench",
+              "kind": "bench",
+              "x": 960,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "audience_notice",
+              "kind": "clue",
+              "x": 1000,
+              "y": 400,
+              "text": "REHEARSAL\n3 STUFFED ANIMALS\n8 HIDE / 9 HOST",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_audience",
+              "kind": "duck",
+              "x": 520,
+              "y": 650,
+              "text": "DUCK",
+              "author": "nemi"
+            },
+            {
+              "id": "bear_audience",
+              "kind": "bear",
+              "x": 960,
+              "y": 610,
+              "text": "BEAR",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_audience",
+              "kind": "rabbit",
+              "x": 1430,
+              "y": 610,
+              "text": "RABBIT",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_review",
+              "kind": "poster",
+              "x": 300,
+              "y": 290,
+              "text": "DUCK REVIEW\nMORE BREAD",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "assembly_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "environment_events": [],
+      "props": [
+        {
+          "author": "nemi",
+          "kind": "clipboard",
+          "at": 192,
+          "end": 216,
+          "position": [
+            1200,
+            480
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "mode": "hold",
+          "shots": [
+            "hiding_result"
+          ]
+        }
+      ],
+      "ink": [
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "an excellent hiding place",
+          "size": 34,
+          "position": [
+            980,
+            150
+          ],
+          "at": 192,
+          "end": 216,
+          "mode": "hold",
+          "shots": [
+            "hiding_result"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "9: take the microphone",
+          "size": 28,
+          "position": [
+            980,
+            730
+          ],
+          "at": 210.113,
+          "end": 216,
+          "mode": "hold",
+          "shots": [
+            "hiding_result"
+          ]
+        }
+      ],
+      "sound": [
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/comedic_fail_low_tone_01.wav",
+          "at": 192.8,
+          "duration": 1.1,
+          "gain_db": -12,
+          "event": "hiding"
+        },
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/paper_slide_desk_01.wav",
+          "at": 206.747958,
+          "duration": 1.094,
+          "gain_db": -10,
+          "event": "clipboard"
+        }
+      ],
+      "vfx": [],
+      "music": [
+        {
+          "at": 0,
+          "file": "res://nemi/playable_storytime/episodes/episode_001/audio/score.wav",
+          "duration": 240,
+          "gain_db": -15
+        }
+      ],
+      "transition": "Exact chapter-clock location cut; viewer orientation persists",
+      "gameplay": [
+        {
+          "id": "audience",
+          "narrative_purpose": "Discover the harmless audience and release stage fright.",
+          "start": 168,
+          "end": 216,
+          "objective": "Look behind Nemi. Choose hiding or the microphone.",
+          "clue_id": "audience_notice",
+          "inputs": [
+            "desktop WASD",
+            "mouse drag",
+            "YouTube app swipe",
+            "pause",
+            "desktop number keys 0–9",
+            "mobile numbered chapters"
+          ],
+          "solution": "9 HOST",
+          "instructions": "Look behind Nemi. Choose hiding or the microphone.",
+          "visual_change": "Native viewpoint rotation reveals the clue; a digit key selects an authored story scene.",
+          "success": "The named intended route gives an immediate outcome receipt from every viewing direction.",
+          "hints": [],
+          "retry_method": "Press 7 to return to this round; each result offers a single forward continuation.",
+          "valid_destinations": [
+            216
+          ],
+          "alternative_outcomes": [
+            192
+          ],
+          "do_nothing": "Nemi previews the optional silly detour, then the main story continues. No detected choice is claimed.",
+          "wrong_answer": "The explicitly named detour gives a joke and a single clear continuation.",
+          "state_tracking": false,
+          "desktop": true,
+          "mobile": "Current YouTube app: swipe to look; choose matching numbered chapter. Chapters/channel availability and upload test pending.",
+          "device_limitations": [
+            "Click the desktop player before using top-row number keys. K resumes if paused.",
+            "Number keys are desktop controls; mobile uses numbered chapters when available.",
+            "TV/controller behavior unverified. Captions are optional conventional subtitles."
+          ],
+          "solution_key": 9,
+          "retry_key": 7,
+          "alternative_keys": [
+            8
+          ]
+        }
+      ],
+      "accessibility": "Pause/retry freely; narration supplies directions and eventual answers; complete optional SRT uses measured utterance bounds",
+      "dependencies": [
+        "scene.json",
+        "audio/narration.wav",
+        "audio/render_timeline.json",
+        "assets/locations.json",
+        "gameplay/challenges.json"
+      ]
+    },
+    {
+      "scene_id": "stage_result",
+      "start": 216,
+      "end": 240,
+      "narrative_objective": "You reached the ending. Press 0 to play again.",
+      "voiceover": [
+        {
+          "id": "r7_9_0",
+          "text": "On stage. Good morning, distinguished duck. Today's lesson: read the form before volunteering.",
+          "at": 216.8,
+          "window_end": 224.711333,
+          "recipe": "school_present",
+          "tempo": 1.08
+        },
+        {
+          "id": "r7_9_1",
+          "text": "I survived. You're hired: camera operator. Your salary is imaginary pudding. The benefits are also imaginary.",
+          "at": 224.761333,
+          "window_end": 234.499083,
+          "recipe": "pleased",
+          "tempo": 1.08
+        },
+        {
+          "id": "r7_9_2",
+          "text": "Press zero to play again and try the ridiculous routes. And please don't read the duck's review.",
+          "at": 234.549083,
+          "window_end": 239.9,
+          "recipe": "deadpan",
+          "tempo": 1.08
+        }
+      ],
+      "characters": [
+        "nemi"
+      ],
+      "expressions_actions": [
+        {
+          "at": 216.8,
+          "recipe": "school_present",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "open_palm_up"
+          },
+          "blinks": [
+            224.13
+          ]
+        },
+        {
+          "at": 224.761333,
+          "recipe": "pleased",
+          "duration": 0.36,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": []
+        },
+        {
+          "at": 229.421333,
+          "recipe": "deadpan",
+          "duration": 0.28,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": []
+        },
+        {
+          "at": 234.549083,
+          "recipe": "deadpan",
+          "duration": 0.36,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            238.359083
+          ]
+        }
+      ],
+      "camera": {
+        "upload": "Viewer controls orientation; no forced turn/reset",
+        "director_review": [
+          {
+            "at": 216,
+            "yaw": 0
+          },
+          {
+            "at": 222.4,
+            "yaw": 0
+          },
+          {
+            "at": 225.6,
+            "yaw": 0
+          },
+          {
+            "at": 235.2,
+            "yaw": 0
+          },
+          {
+            "at": 238.4,
+            "yaw": 0
+          }
+        ],
+        "fov": 50
+      },
+      "spatial_layout": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "assembly_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "microphone",
+              "kind": "microphone",
+              "x": 1650,
+              "y": 685,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "assembly_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "duck_seat",
+              "kind": "bench",
+              "x": 520,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_seat",
+              "kind": "bench",
+              "x": 1430,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_bench",
+              "kind": "bench",
+              "x": 960,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "audience_notice",
+              "kind": "clue",
+              "x": 1000,
+              "y": 400,
+              "text": "REHEARSAL\n3 STUFFED ANIMALS\n8 HIDE / 9 HOST",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_audience",
+              "kind": "duck",
+              "x": 520,
+              "y": 650,
+              "text": "DUCK",
+              "author": "nemi"
+            },
+            {
+              "id": "bear_audience",
+              "kind": "bear",
+              "x": 960,
+              "y": 610,
+              "text": "BEAR",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_audience",
+              "kind": "rabbit",
+              "x": 1430,
+              "y": 610,
+              "text": "RABBIT",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_review",
+              "kind": "poster",
+              "x": 300,
+              "y": 290,
+              "text": "DUCK REVIEW\nMORE BREAD",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "assembly_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "environment_events": [],
+      "props": [
+        {
+          "author": "nemi",
+          "kind": "clipboard",
+          "at": 216,
+          "end": 240,
+          "position": [
+            1200,
+            480
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "mode": "hold",
+          "shots": [
+            "stage_result"
+          ]
+        }
+      ],
+      "ink": [
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "you saved my school day",
+          "size": 34,
+          "position": [
+            980,
+            150
+          ],
+          "at": 216,
+          "end": 240,
+          "mode": "hold",
+          "shots": [
+            "stage_result"
+          ]
+        },
+        {
+          "author": "nemi",
+          "kind": "text",
+          "text": "0: play again",
+          "size": 28,
+          "position": [
+            980,
+            730
+          ],
+          "at": 234.349083,
+          "end": 240,
+          "mode": "hold",
+          "shots": [
+            "stage_result"
+          ]
+        }
+      ],
+      "sound": [
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/paper_page_turn_crisp_01.wav",
+          "at": 219.6,
+          "duration": 0.452,
+          "gain_db": -11,
+          "event": "duck_greeting"
+        },
+        {
+          "file": "res://nemi/playable_storytime/assets/sfx/comedic_fail_low_tone_01.wav",
+          "at": 229.421333,
+          "duration": 1.1,
+          "gain_db": -12,
+          "event": "unpaid_promotion"
+        }
+      ],
+      "vfx": [],
+      "music": [
+        {
+          "at": 0,
+          "file": "res://nemi/playable_storytime/episodes/episode_001/audio/score.wav",
+          "duration": 240,
+          "gain_db": -15
+        }
+      ],
+      "transition": "Exact chapter-clock location cut; viewer orientation persists",
+      "gameplay": [],
+      "accessibility": "Pause/retry freely; narration supplies directions and eventual answers; complete optional SRT uses measured utterance bounds",
+      "dependencies": [
+        "scene.json",
+        "audio/narration.wav",
+        "audio/render_timeline.json",
+        "assets/locations.json",
+        "gameplay/challenges.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "version": 2,
+  "cues": [
+    {
+      "at": 0,
+      "recipe": "explaining",
+      "intent": "Opening composure connecting primary school crush to middle school.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.35,
+          0
+        ],
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 3.11,
+      "recipe": "shy_confession",
+      "intent": "Mentioning the primary school crush broadcasted.",
+      "event": "crush",
+      "detail": {
+        "gaze": [
+          0.3,
+          0.2
+        ],
+        "face": {
+          "blush_intensity": 0.3
+        }
+      }
+    },
+    {
+      "at": 5.39,
+      "recipe": "nervous_wait",
+      "intent": "Middle school arrival anxiety.",
+      "event": "middle_school",
+      "detail": {
+        "gaze": [
+          -0.2,
+          -0.1
+        ],
+        "face": {
+          "brow_left_height": 2,
+          "brow_right_height": -1
+        }
+      }
+    },
+    {
+      "at": 7.67,
+      "recipe": "hurt_composure",
+      "intent": "Sections reshuffled completely.",
+      "event": "reshuffled",
+      "detail": {
+        "gaze": [
+          0.4,
+          0
+        ],
+        "face": {
+          "brow_left_height": 2,
+          "brow_right_height": 2
+        }
+      }
+    },
+    {
+      "at": 11.29,
+      "recipe": "deadpan",
+      "intent": "Different classes, wings, and desks.",
+      "event": "different_desks",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "eye_openness_left": 0.82,
+          "eye_openness_right": 0.82
+        }
+      }
+    },
+    {
+      "at": 12.22,
+      "recipe": "explaining",
+      "intent": "Japanese elective was our only shared class.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.45,
+          -0.05
+        ],
+        "hands": {
+          "right": "pointing",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 15.98,
+      "recipe": "pleased",
+      "intent": "Japanese class memory.",
+      "event": "japanese",
+      "detail": {
+        "gaze": [
+          0.35,
+          0
+        ],
+        "face": {
+          "blush_intensity": 0.2
+        }
+      }
+    },
+    {
+      "at": 19.92,
+      "recipe": "listening",
+      "intent": "Couple times a week in the same room.",
+      "event": "same_room",
+      "detail": {
+        "gaze": [
+          0.5,
+          -0.05
+        ]
+      }
+    },
+    {
+      "at": 22.86,
+      "recipe": "deadpan",
+      "intent": "Except in middle school, nobody talks.",
+      "event": "nobody_talks",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "eye_openness_left": 0.8,
+          "eye_openness_right": 0.8
+        }
+      }
+    },
+    {
+      "at": 26.52,
+      "recipe": "hurt_composure",
+      "intent": "From sharing a desk to acting like strangers.",
+      "event": "strangers",
+      "detail": {
+        "gaze": [
+          -0.3,
+          0.25
+        ],
+        "face": {
+          "blush_intensity": 0.35,
+          "brow_left_height": 2
+        }
+      }
+    },
+    {
+      "at": 27.5,
+      "recipe": "shy_confession",
+      "intent": "Still, in my head, I thought we were still friends.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.35,
+          0.15
+        ],
+        "face": {
+          "blush_intensity": 0.4
+        }
+      }
+    },
+    {
+      "at": 31.92,
+      "recipe": "pleased",
+      "intent": "Sat together all year camaraderie.",
+      "event": "still_friends",
+      "detail": {
+        "gaze": [
+          0,
+          0
+        ],
+        "face": {
+          "blush_intensity": 0.3
+        }
+      }
+    },
+    {
+      "at": 33.38,
+      "recipe": "lean_in",
+      "intent": "Messaging her on the school chat app.",
+      "event": "messaged",
+      "detail": {
+        "hands": {
+          "right": "hand_to_chin",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 36.82,
+      "recipe": "soft_shrug",
+      "intent": "Just a casual greeting.",
+      "event": "casual_hey",
+      "detail": {
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 39.08,
+      "recipe": "nervous_wait",
+      "intent": "No reply. Silence.",
+      "event": "no_reply",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "sweat_intensity": 0.4,
+          "brow_left_height": 2
+        }
+      }
+    },
+    {
+      "at": 40.24,
+      "recipe": "uncertain",
+      "intent": "I waited days in agonizing suspense.",
+      "event": "waited_days",
+      "detail": {
+        "gaze": [
+          -0.25,
+          -0.2
+        ],
+        "face": {
+          "sweat_intensity": 0.5
+        }
+      }
+    },
+    {
+      "at": 42.92,
+      "recipe": "embarrassed",
+      "intent": "Foolishly texted twice.",
+      "event": "texted_twice",
+      "detail": {
+        "face": {
+          "blush_intensity": 0.65,
+          "brow_left_angle": 2,
+          "brow_right_angle": -2
+        }
+      }
+    },
+    {
+      "at": 44.7,
+      "recipe": "nervous_answer",
+      "intent": "Did you see my message?",
+      "event": "see_my_message",
+      "detail": {
+        "gaze": [
+          0.4,
+          0.2
+        ],
+        "face": {
+          "blush_intensity": 0.7,
+          "sweat_intensity": 0.55
+        }
+      }
+    },
+    {
+      "at": 45.63,
+      "recipe": "realization",
+      "intent": "Right after that, her profile vanished!",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.5,
+          0
+        ],
+        "face": {
+          "sweat_intensity": 0.6,
+          "eye_openness_left": 1.15,
+          "eye_openness_right": 1.15
+        }
+      }
+    },
+    {
+      "at": 47.29,
+      "recipe": "quiet_recoil",
+      "intent": "Vanished from my friends list completely.",
+      "event": "profile_vanished",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "sweat_intensity": 0.7,
+          "brow_left_height": 3,
+          "brow_right_height": 3
+        }
+      }
+    },
+    {
+      "at": 50.19,
+      "recipe": "uncertain",
+      "intent": "Any normal kid would know what happened.",
+      "event": "completely_gone",
+      "detail": {
+        "gaze": [
+          -0.3,
+          0
+        ]
+      }
+    },
+    {
+      "at": 53.83,
+      "recipe": "self_impressed",
+      "intent": "But my naive brain concluded...",
+      "event": "naive_brain",
+      "detail": {
+        "gaze": [
+          0.4,
+          -0.1
+        ],
+        "hands": {
+          "right": "pointing",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 56.79,
+      "recipe": "pleased",
+      "intent": "Oh! She deactivated her account!",
+      "event": "deactivated_account",
+      "detail": {
+        "face": {
+          "blush_intensity": 0.25,
+          "brow_left_height": 1
+        }
+      }
+    },
+    {
+      "at": 58.63,
+      "recipe": "open_shrug",
+      "intent": "Respect to her for quitting social media!",
+      "event": "respect_detox",
+      "detail": {
+        "hands": {
+          "right": "open_palm",
+          "left": "open_palm"
+        },
+        "face": {
+          "eye_openness_left": 0.95,
+          "eye_openness_right": 0.95
+        }
+      }
+    },
+    {
+      "at": 61.07,
+      "recipe": "pleased",
+      "intent": "I lived in that peaceful delusion for a whole year.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0,
+          0
+        ],
+        "face": {
+          "blush_intensity": 0.2
+        }
+      }
+    },
+    {
+      "at": 61.89,
+      "recipe": "self_impressed",
+      "intent": "A full year of blissful ignorance.",
+      "event": "peaceful_delusion",
+      "detail": {
+        "hands": {
+          "right": "hand_to_chin",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 66.45,
+      "recipe": "soft_shrug",
+      "intent": "Genuinely thought she was just off the grid.",
+      "event": "off_grid",
+      "detail": {
+        "gaze": [
+          0.3,
+          0
+        ]
+      }
+    },
+    {
+      "at": 67.17,
+      "recipe": "explaining",
+      "intent": "Studying hard for middle school.",
+      "event": "studying_hard",
+      "detail": {
+        "gaze": [
+          0.35,
+          -0.05
+        ]
+      }
+    },
+    {
+      "at": 68.56,
+      "recipe": "weight_shift",
+      "intent": "Fast forward to our second year of middle school.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.4,
+          0
+        ]
+      }
+    },
+    {
+      "at": 71.52,
+      "recipe": "listening",
+      "intent": "In Japanese class, overhearing whispers behind me.",
+      "event": "japanese_class",
+      "detail": {
+        "gaze": [
+          0.45,
+          -0.1
+        ]
+      }
+    },
+    {
+      "at": 72.46,
+      "recipe": "skeptical",
+      "intent": "Giggling with her friends behind me.",
+      "event": "overheard_giggling",
+      "detail": {
+        "gaze": [
+          0.65,
+          -0.05
+        ],
+        "face": {
+          "brow_left_height": -2,
+          "brow_left_angle": -2
+        }
+      }
+    },
+    {
+      "at": 75.08,
+      "recipe": "lean_in",
+      "intent": "Chatting late at night with her boyfriend.",
+      "event": "chatting_late",
+      "detail": {
+        "gaze": [
+          0.6,
+          0
+        ]
+      }
+    },
+    {
+      "at": 77.8,
+      "recipe": "realization",
+      "intent": "On that exact chat app?!",
+      "event": "exact_app",
+      "detail": {
+        "face": {
+          "sweat_intensity": 0.5,
+          "brow_left_height": 2
+        }
+      }
+    },
+    {
+      "at": 78.48,
+      "recipe": "skeptical",
+      "intent": "And the boyfriend...",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.5,
+          0
+        ],
+        "face": {
+          "brow_left_height": -3
+        }
+      }
+    },
+    {
+      "at": 80.96,
+      "recipe": "dry_annoyance",
+      "intent": "Was the same guy from primary school who liked her too!",
+      "event": "primary_rival",
+      "detail": {
+        "gaze": [
+          0.6,
+          -0.05
+        ],
+        "face": {
+          "brow_left_height": -2,
+          "brow_right_height": 1
+        }
+      }
+    },
+    {
+      "at": 83.88,
+      "recipe": "hurt_composure",
+      "intent": "They were dating, texting all the time.",
+      "event": "dating",
+      "detail": {
+        "gaze": [
+          -0.2,
+          0.3
+        ],
+        "face": {
+          "blush_intensity": 0.4
+        }
+      }
+    },
+    {
+      "at": 87.78,
+      "recipe": "quiet_recoil",
+      "intent": "And her account was very much alive.",
+      "event": "very_much_alive",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "sweat_intensity": 0.75,
+          "eye_openness_left": 0.8,
+          "eye_openness_right": 0.8
+        }
+      }
+    },
+    {
+      "at": 88.69,
+      "recipe": "deadpan",
+      "intent": "My brain froze. 0-velocity shock.",
+      "event": null,
+      "detail": {
+        "motion": "snap",
+        "gaze": [
+          0,
+          0
+        ],
+        "face": {
+          "eye_openness_left": 0.75,
+          "eye_openness_right": 0.75,
+          "sweat_intensity": 0.85
+        }
+      }
+    },
+    {
+      "at": 92.55,
+      "recipe": "quiet_recoil",
+      "intent": "If she is chatting every day... she never deactivated.",
+      "event": "never_deactivated",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "sweat_intensity": 0.9,
+          "brow_left_height": 3,
+          "brow_right_height": 3
+        }
+      }
+    },
+    {
+      "at": 94.97,
+      "recipe": "deadpan",
+      "intent": "WHICH MEANS SHE BLOCKED ME!",
+      "event": "she_blocked_me",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "blush_intensity": 0.8,
+          "eye_openness_left": 0.72,
+          "eye_openness_right": 0.72,
+          "sweat_intensity": 0.95
+        }
+      }
+    },
+    {
+      "at": 97.07,
+      "recipe": "embarrassed",
+      "intent": "She saw my two texts, felt second-hand embarrassment.",
+      "event": "two_texts",
+      "detail": {
+        "gaze": [
+          -0.3,
+          0.3
+        ],
+        "face": {
+          "blush_intensity": 0.85,
+          "brow_left_angle": 3
+        }
+      }
+    },
+    {
+      "at": 100.19,
+      "recipe": "deadpan",
+      "intent": "And erased me from existence.",
+      "event": "erased_existence",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "blush_intensity": 0.6,
+          "eye_openness_left": 0.75,
+          "eye_openness_right": 0.75
+        }
+      }
+    },
+    {
+      "at": 102.51,
+      "recipe": "hurt_composure",
+      "intent": "Bro, that honestly broke my twelve-year-old soul.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0,
+          0.2
+        ],
+        "face": {
+          "brow_left_height": 2,
+          "brow_right_height": 2,
+          "blush_intensity": 0.4
+        }
+      }
+    },
+    {
+      "at": 107.35,
+      "recipe": "soft_shrug",
+      "intent": "I was so sad.",
+      "event": "so_sad",
+      "detail": {
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        },
+        "face": {
+          "blush_intensity": 0.3
+        }
+      }
+    },
+    {
+      "at": 110.07,
+      "recipe": "open_shrug",
+      "intent": "Spent a whole year admiring a fake social media detox.",
+      "event": "admiring_fake",
+      "detail": {
+        "hands": {
+          "right": "open_palm",
+          "left": "open_palm"
+        }
+      }
+    },
+    {
+      "at": 114.91,
+      "recipe": "soft_shrug",
+      "intent": "When in reality, I was just blocked.",
+      "event": "just_blocked",
+      "detail": {
+        "gaze": [
+          0.2,
+          0
+        ]
+      }
+    },
+    {
+      "at": 116.87,
+      "recipe": "deadpan",
+      "intent": "Middle school is pure pain. Final camera lock.",
+      "event": "pure_pain",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "blush_intensity": 0.15,
+          "eye_openness_left": 0.8,
+          "eye_openness_right": 0.8
+        }
+      }
+    }
+  ],
+  "mouth_method": "Measured word-bounded broad vowel choices with conservative M/B/P closures; not phoneme-perfect. Auditory review pending.",
+  "contact": "No pickup/release or forced grip. Narrator indicates classroom sets, smartphone chat, and diagrams.",
+  "geometry": {
+    "actor_scale": 1.08,
+    "actor_root_y": 686.64,
+    "floor_y": 894,
+    "feet": "Planted existing actor-local cuff y178; unchanged shoe tread fill y192 lands at 894"
+  }
+}

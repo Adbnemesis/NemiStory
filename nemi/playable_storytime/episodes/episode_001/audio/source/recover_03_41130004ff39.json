@@ -1,0 +1,36 @@
+{
+  "id": "recover_03",
+  "author": "nemi",
+  "text": "Okay. New plan. Reach the correct hall before anyone hands me a microphone. Please inspect the noticeboard. I'm emotionally unavailable.",
+  "file": "res://episodes/episode_001/audio/source/recover_03_41130004ff39.wav",
+  "sha256": "a1a9e312e8369302592a921aa035a656f51f8ab8742eed00f7f47148a0fdadee",
+  "identity": {
+    "model_name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "repo_id": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+    "model_version": "1.7B-CustomVoice-bf16",
+    "runtime": "mlx-audio",
+    "license": "Qwen Community License / Apache 2.0",
+    "speaker": "sohee",
+    "voice_identifier": "sohee",
+    "voice_design_prompt": "Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful.",
+    "language": "English",
+    "sample_rate": 24000,
+    "output_format": "WAV",
+    "default_speed": 1.0,
+    "ref_audio_path": "audio/nemi/reference/nemi_golden_reference.wav",
+    "ref_text_path": "audio/nemi/reference/nemi_golden_reference.txt",
+    "pause_policy": {
+      "short_pause": 0.2,
+      "medium_pause": 0.35,
+      "thought_pause": 0.45,
+      "deadpan_pause": 1.5,
+      "dramatic_pause": 0.8,
+      "stinger_pause": 0.2
+    },
+    "device": "mps"
+  },
+  "model_provenance": ".cache/models/qwen.provenance.json",
+  "source_tempo": 1.0,
+  "new_recording": true,
+  "listening_review": "pending"
+}

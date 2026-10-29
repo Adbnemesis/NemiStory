@@ -1,0 +1,16 @@
+# Simplify while matching established Nemi thumbnails
+
++Edit image1 into a much simpler 16:9 YouTube thumbnail. Image1 is the EDIT TARGET: its wording and playable-number hook stay, but its ornate rendering, crowded layout and face styling must change. Images2 and3 are the authoritative EXISTING NEMI THUMBNAIL STYLE AND FACE REFERENCES. Match their flat cartoon construction, recognizable Nemi and graphic text treatment. Image4 supplies current episode wardrobe/identity only. Do not include other characters from any reference.
+
+User correction: the old result looks overdone and generically AI-generated. Make a clean, uncomplicated illustration that belongs beside the existing Nemi thumbnails. The main goal is continuity of Nemi's design, not extra polish or spectacle.
+
+ONLY THREE VISUAL GROUPS:
+1. The exact headline "PLAY IN YOUTUBE!" with broad heavy white sans lettering and the same substantial BLACK / RED / BLACK outlines as image2/3. It may wrap as PLAY IN on line1 and YOUTUBE! on line2 in the left half. Keep generous safe margins and clear word spacing. This remains one headline; no other words.
+2. One large waist-up Nemi on the right, drawn in the SAME SIMPLE FLAT CARTOON STYLE as image2/3: the same pointed red-orange bangs and long smooth hair silhouette, one distinctive ahoge, green eyes and their recognizable rounded/relaxed shape, small simple nose, warm burgundy line art, sage green high-neck top and black crossbody strap. An interested playful smile and slightly raised eyebrow, rather than a manic wide-eyed anime expression. Match the existing face structure closely. Hair uses a few broad flat shapes and one restrained cel-shadow, not individual strands, gloss, translucent fringe, gradients or painterly lighting. Keep her facial details simple. Her one visible hand can point naturally toward the keys, normally sized, coherent five-finger anatomy, no foreshortening.
+3. Two plain physical keyboard keycaps labeled only "1" and "2" in the lower-left area below the headline. White/light gray flat fills, simple warm dark outlines, minimal shallow side edge for readability, no glossy 3D bevels, no gigantic viewer hand. Keep keys large enough to recognize but subordinate to Nemi and the headline.
+
+BACKGROUND: bright white with a barely visible PALE GRAY checker patch, much quieter than image1. Clean flat fills and confident burgundy contours, a modest white cutout rim around Nemi like the established thumbnails. Plenty of breathing room. No full red poster background.
+
+REMOVE ENTIRELY from image1: sketchbook, paper texture, torn hole, door, eraser, forked arrows, giant fingertip, red motion rays, yellow emphasis bursts, sparkles, floating shavings, extra tiny marks and extra props. Do not add a logo or screenshot interface. No watermark, no secondary captions, no timestamp. Face/headline/key numerals must stay clear of the lower-right platform duration area. Do not copy the old face: match the two established Nemi thumbnail references. A simple familiar character plus bold headline and two keys is the whole concept.
+
+Method: built-in image generation edit. Exact input-image roles/hashes: references.json. Native generated raster will be preserved; no episode/movie/voice change.

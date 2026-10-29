@@ -1,0 +1,845 @@
+{
+  "version": 2,
+  "clock": "final prepared Aiden word clock",
+  "actor_scale": 1.08,
+  "actor_root_y": 686.64,
+  "floor_y": 894,
+  "shots": [
+    {
+      "shot": "p0_studio_intro",
+      "start": 0.0,
+      "end": 5.63,
+      "paragraph": 1,
+      "exact_spoken_cue": "transferred",
+      "measured_word": {
+        "word": "transferred",
+        "word_index": 7,
+        "paragraph": 1,
+        "start": 2.21,
+        "end": 2.59
+      },
+      "sentence_context": "When I was eight years old, I transferred to a new primary school. Which is already pretty stressful when your whole world is recess.",
+      "event": "transferred",
+      "focus": "Presenter intro to primary school memory",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.1,
+      "reason": "Adult ADB introduces childhood transfer from studio.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 0.0,
+          "center": [
+            960,
+            550
+          ],
+          "zoom": 1.1
+        },
+        {
+          "at": 5.63,
+          "center": [
+            960,
+            530
+          ],
+          "zoom": 1.25
+        }
+      ]
+    },
+    {
+      "shot": "p0_courtyard_recess",
+      "start": 5.63,
+      "end": 8.46,
+      "paragraph": 1,
+      "exact_spoken_cue": "stressful",
+      "measured_word": {
+        "word": "stressful",
+        "word_index": 17,
+        "paragraph": 1,
+        "start": 5.63,
+        "end": 6.15
+      },
+      "sentence_context": "When I was eight years old, I transferred to a new primary school. Which is already pretty stressful when your whole world is recess.",
+      "event": "stressful",
+      "focus": "School courtyard context for age 8 anxiety",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.1,
+      "reason": "Visual transition to outdoor school grounds.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p1_policy_classroom",
+      "start": 8.46,
+      "end": 14.9,
+      "paragraph": 2,
+      "exact_spoken_cue": "forced",
+      "measured_word": {
+        "word": "forced",
+        "word_index": 27,
+        "paragraph": 2,
+        "start": 9.7,
+        "end": 10.2
+      },
+      "sentence_context": "Back then, teachers forced opposite genders to sit together to keep classes quiet. So I sat with a girl. And no, she wasn't Nemi. I was eight years old, okay? Relax.",
+      "event": "forced",
+      "focus": "Classroom seating rule established",
+      "center": [
+        960,
+        560
+      ],
+      "zoom": 1.05,
+      "reason": "Establish the classroom seating rule.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p1_seated_girl_reveal",
+      "start": 14.9,
+      "end": 16.94,
+      "paragraph": 2,
+      "exact_spoken_cue": "girl.",
+      "measured_word": {
+        "word": "girl.",
+        "word_index": 42,
+        "paragraph": 2,
+        "start": 14.9,
+        "end": 15.08
+      },
+      "sentence_context": "Back then, teachers forced opposite genders to sit together to keep classes quiet. So I sat with a girl. And no, she wasn't Nemi. I was eight years old, okay? Relax.",
+      "event": "girl",
+      "focus": "Seated next to female desk partner",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.2,
+      "reason": "Cut in on the desk partner assignment.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p1_fourth_wall_relax",
+      "start": 16.94,
+      "end": 20.59,
+      "paragraph": 2,
+      "exact_spoken_cue": "Nemi.",
+      "measured_word": {
+        "word": "Nemi.",
+        "word_index": 47,
+        "paragraph": 2,
+        "start": 16.94,
+        "end": 17.2
+      },
+      "sentence_context": "Back then, teachers forced opposite genders to sit together to keep classes quiet. So I sat with a girl. And no, she wasn't Nemi. I was eight years old, okay? Relax.",
+      "event": "nemi",
+      "focus": "Fourth wall studio break: She was NOT Nemi!",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.35,
+      "reason": "Direct-to-camera studio defense: Relax, I was eight!",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 16.94,
+          "center": [
+            960,
+            550
+          ],
+          "zoom": 1.35
+        },
+        {
+          "at": 20.59,
+          "center": [
+            960,
+            530
+          ],
+          "zoom": 1.6
+        }
+      ]
+    },
+    {
+      "shot": "p2_double_desk_full",
+      "start": 20.59,
+      "end": 24.79,
+      "paragraph": 3,
+      "exact_spoken_cue": "stuck",
+      "measured_word": {
+        "word": "stuck",
+        "word_index": 59,
+        "paragraph": 3,
+        "start": 21.57,
+        "end": 21.85
+      },
+      "sentence_context": "We were two kids stuck at the same double desk all day. You draw a pencil line down the center, and if someone's elbow crosses it, that's an international incident.",
+      "event": "stuck",
+      "focus": "Two kids stuck at wooden double desk",
+      "center": [
+        960,
+        560
+      ],
+      "zoom": 1.1,
+      "reason": "Ground the physical two-seater wooden desk.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p2_pencil_standoff",
+      "start": 24.79,
+      "end": 29.31,
+      "paragraph": 3,
+      "exact_spoken_cue": "pencil",
+      "measured_word": {
+        "word": "pencil",
+        "word_index": 70,
+        "paragraph": 3,
+        "start": 24.79,
+        "end": 25.03
+      },
+      "sentence_context": "We were two kids stuck at the same double desk all day. You draw a pencil line down the center, and if someone's elbow crosses it, that's an international incident.",
+      "event": "pencil_line",
+      "focus": "Drawing pencil border line down center",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.22,
+      "reason": "Close framing on the drawn pencil border line.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 24.79,
+          "center": [
+            960,
+            550
+          ],
+          "zoom": 1.22
+        },
+        {
+          "at": 29.31,
+          "center": [
+            960,
+            540
+          ],
+          "zoom": 1.38
+        }
+      ]
+    },
+    {
+      "shot": "p2_incident_shock",
+      "start": 29.31,
+      "end": 30.32,
+      "paragraph": 3,
+      "exact_spoken_cue": "incident.",
+      "measured_word": {
+        "word": "incident.",
+        "word_index": 84,
+        "paragraph": 3,
+        "start": 29.31,
+        "end": 29.71
+      },
+      "sentence_context": "We were two kids stuck at the same double desk all day. You draw a pencil line down the center, and if someone's elbow crosses it, that's an international incident.",
+      "event": "incident",
+      "focus": "International incident elbow collision shock",
+      "center": [
+        800,
+        550
+      ],
+      "zoom": 1.45,
+      "reason": "Comedic shock freeze on the elbow collision.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p3_sharing_supplies",
+      "start": 30.32,
+      "end": 37.88,
+      "paragraph": 4,
+      "exact_spoken_cue": "sharing",
+      "measured_word": {
+        "word": "sharing",
+        "word_index": 86,
+        "paragraph": 4,
+        "start": 30.62,
+        "end": 30.86
+      },
+      "sentence_context": "But sharing erasers, borrowing sharpeners, and complaining about homework made the borders disappear. Somewhere between third-grade math and lunch, I realized... I had a crush on my desk partner.",
+      "event": "sharing_erasers",
+      "focus": "Sharing erasers and sharpeners across desk",
+      "center": [
+        960,
+        560
+      ],
+      "zoom": 1.15,
+      "reason": "Warm classroom routine with school supplies.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p3_math_lunch_transition",
+      "start": 37.88,
+      "end": 39.26,
+      "paragraph": 4,
+      "exact_spoken_cue": "math",
+      "measured_word": {
+        "word": "math",
+        "word_index": 101,
+        "paragraph": 4,
+        "start": 37.88,
+        "end": 38.26
+      },
+      "sentence_context": "But sharing erasers, borrowing sharpeners, and complaining about homework made the borders disappear. Somewhere between third-grade math and lunch, I realized... I had a crush on my desk partner.",
+      "event": "math_lunch",
+      "focus": "Third grade math and lunch transition",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.22,
+      "reason": "Pacing the realization between math class and lunch.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p3_crush_realization_portrait",
+      "start": 39.26,
+      "end": 42.66,
+      "paragraph": 4,
+      "exact_spoken_cue": "realized...",
+      "measured_word": {
+        "word": "realized...",
+        "word_index": 105,
+        "paragraph": 4,
+        "start": 39.26,
+        "end": 40.34
+      },
+      "sentence_context": "But sharing erasers, borrowing sharpeners, and complaining about homework made the borders disappear. Somewhere between third-grade math and lunch, I realized... I had a crush on my desk partner.",
+      "event": "realized_crush",
+      "focus": "Childhood crush realization portrait",
+      "center": [
+        750,
+        550
+      ],
+      "zoom": 1.5,
+      "reason": "Warm introspective portrait with blush as crush lands.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 39.26,
+          "center": [
+            750,
+            550
+          ],
+          "zoom": 1.5
+        },
+        {
+          "at": 42.66,
+          "center": [
+            750,
+            540
+          ],
+          "zoom": 1.65
+        }
+      ]
+    },
+    {
+      "shot": "p4_innocent_courtyard",
+      "start": 42.66,
+      "end": 46.1,
+      "paragraph": 5,
+      "exact_spoken_cue": "innocent.",
+      "measured_word": {
+        "word": "innocent.",
+        "word_index": 117,
+        "paragraph": 5,
+        "start": 43.42,
+        "end": 43.8
+      },
+      "sentence_context": "It was completely innocent. No master plan. I was just happy that I got assigned to that desk.",
+      "event": "innocent_kid",
+      "focus": "Contented 8-year-old child in courtyard",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.1,
+      "reason": "Preserve the innocent sweetness of an 8-year-old.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p4_quietly_happy_desk",
+      "start": 46.1,
+      "end": 48.6,
+      "paragraph": 5,
+      "exact_spoken_cue": "happy",
+      "measured_word": {
+        "word": "happy",
+        "word_index": 124,
+        "paragraph": 5,
+        "start": 46.1,
+        "end": 46.48
+      },
+      "sentence_context": "It was completely innocent. No master plan. I was just happy that I got assigned to that desk.",
+      "event": "quietly_happy",
+      "focus": "Quietly happy at that double desk",
+      "center": [
+        800,
+        550
+      ],
+      "zoom": 1.4,
+      "reason": "Peaceful memory of having that assigned seat.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p5_reshuffle_corridor",
+      "start": 48.6,
+      "end": 54.38,
+      "paragraph": 6,
+      "exact_spoken_cue": "middle",
+      "measured_word": {
+        "word": "middle",
+        "word_index": 135,
+        "paragraph": 6,
+        "start": 49.7,
+        "end": 49.94
+      },
+      "sentence_context": "Next year, nearing middle school, sections were getting reshuffled. A friend sat next to me and started drilling me: \"Bro, who do you like? Tell me! I swear on my life I won't tell anyone.\"",
+      "event": "middle_school",
+      "focus": "Middle school reshuffle hallway dread",
+      "center": [
+        960,
+        560
+      ],
+      "zoom": 1.08,
+      "reason": "Corridor transition introducing classroom separation.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 48.6,
+          "center": [
+            960,
+            560
+          ],
+          "zoom": 1.08
+        },
+        {
+          "at": 54.38,
+          "center": [
+            900,
+            550
+          ],
+          "zoom": 1.2
+        }
+      ]
+    },
+    {
+      "shot": "p5_friend_inquisition",
+      "start": 54.38,
+      "end": 59.16,
+      "paragraph": 6,
+      "exact_spoken_cue": "drilling",
+      "measured_word": {
+        "word": "drilling",
+        "word_index": 149,
+        "paragraph": 6,
+        "start": 54.38,
+        "end": 54.68
+      },
+      "sentence_context": "Next year, nearing middle school, sections were getting reshuffled. A friend sat next to me and started drilling me: \"Bro, who do you like? Tell me! I swear on my life I won't tell anyone.\"",
+      "event": "friend_drilling",
+      "focus": "Friend sits down and drills ADB",
+      "center": [
+        915,
+        550
+      ],
+      "zoom": 1.2,
+      "reason": "Inquisitive friend asking who do you like.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p5_solemn_swear_vow",
+      "start": 59.16,
+      "end": 61.93,
+      "paragraph": 6,
+      "exact_spoken_cue": "swear",
+      "measured_word": {
+        "word": "swear",
+        "word_index": 159,
+        "paragraph": 6,
+        "start": 59.16,
+        "end": 59.42
+      },
+      "sentence_context": "Next year, nearing middle school, sections were getting reshuffled. A friend sat next to me and started drilling me: \"Bro, who do you like? Tell me! I swear on my life I won't tell anyone.\"",
+      "event": "swear_vow",
+      "focus": "Friend swears on his life to keep secret",
+      "center": [
+        750,
+        550
+      ],
+      "zoom": 1.45,
+      "reason": "Solemn fake vow of absolute secrecy.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p6_whisper_secret",
+      "start": 61.93,
+      "end": 68.35,
+      "paragraph": 7,
+      "exact_spoken_cue": "whispered",
+      "measured_word": {
+        "word": "whispered",
+        "word_index": 177,
+        "paragraph": 7,
+        "start": 65.01,
+        "end": 65.39
+      },
+      "sentence_context": "I was stupid enough to believe him. I leaned in, whispered her name, and genuinely thought it was locked in a vault.",
+      "event": "whispered_name",
+      "focus": "Leaning in to whisper her name",
+      "center": [
+        880,
+        550
+      ],
+      "zoom": 1.25,
+      "reason": "The fateful whispered disclosure.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p6_locked_vault",
+      "start": 68.35,
+      "end": 69.38,
+      "paragraph": 7,
+      "exact_spoken_cue": "vault.",
+      "measured_word": {
+        "word": "vault.",
+        "word_index": 188,
+        "paragraph": 7,
+        "start": 68.35,
+        "end": 68.57
+      },
+      "sentence_context": "I was stupid enough to believe him. I leaned in, whispered her name, and genuinely thought it was locked in a vault.",
+      "event": "locked_vault",
+      "focus": "Naive reassurance: secret locked in a vault",
+      "center": [
+        750,
+        550
+      ],
+      "zoom": 1.45,
+      "reason": "Calm before the storm.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p7_four_minutes_gossip",
+      "start": 69.38,
+      "end": 74.02,
+      "paragraph": 8,
+      "exact_spoken_cue": "minutes,",
+      "measured_word": {
+        "word": "minutes,",
+        "word_index": 191,
+        "paragraph": 8,
+        "start": 70.14,
+        "end": 70.5
+      },
+      "sentence_context": "Within four minutes, he told every single friend in our group. And then he walked right up to the girl and told her too.",
+      "event": "four_minutes",
+      "focus": "Gossip network spreading across whole school",
+      "center": [
+        960,
+        560
+      ],
+      "zoom": 1.15,
+      "reason": "Rapid push-out revealing the gossip spread.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 69.38,
+          "center": [
+            960,
+            560
+          ],
+          "zoom": 1.15
+        },
+        {
+          "at": 74.02,
+          "center": [
+            1050,
+            560
+          ],
+          "zoom": 0.98
+        }
+      ]
+    },
+    {
+      "shot": "p7_told_the_girl_direct",
+      "start": 74.02,
+      "end": 77.12,
+      "paragraph": 8,
+      "exact_spoken_cue": "walked",
+      "measured_word": {
+        "word": "walked",
+        "word_index": 203,
+        "paragraph": 8,
+        "start": 74.02,
+        "end": 74.32
+      },
+      "sentence_context": "Within four minutes, he told every single friend in our group. And then he walked right up to the girl and told her too.",
+      "event": "walked_up",
+      "focus": "Walking right up to the girl to tell her",
+      "center": [
+        920,
+        550
+      ],
+      "zoom": 1.18,
+      "reason": "Peak horror: friend telling the girl directly.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p8_hallway_spotlight",
+      "start": 77.12,
+      "end": 84.66,
+      "paragraph": 9,
+      "exact_spoken_cue": "paralyzed.",
+      "measured_word": {
+        "word": "paralyzed.",
+        "word_index": 220,
+        "paragraph": 9,
+        "start": 79.32,
+        "end": 79.84
+      },
+      "sentence_context": "I was standing in the hallway, completely paralyzed. The whole group was laughing, she knew, and my soul basically left my body.",
+      "event": "hallway_paralysis",
+      "focus": "ADB frozen in hallway spotlight while group laughs",
+      "center": [
+        960,
+        560
+      ],
+      "zoom": 1.05,
+      "reason": "Social execution: slow dread push-in on frozen ADB.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 77.12,
+          "center": [
+            960,
+            560
+          ],
+          "zoom": 1.05
+        },
+        {
+          "at": 84.66,
+          "center": [
+            800,
+            550
+          ],
+          "zoom": 1.28
+        }
+      ]
+    },
+    {
+      "shot": "p8_soul_departure_portrait",
+      "start": 84.66,
+      "end": 85.79,
+      "paragraph": 9,
+      "exact_spoken_cue": "body.",
+      "measured_word": {
+        "word": "body.",
+        "word_index": 234,
+        "paragraph": 9,
+        "start": 84.66,
+        "end": 84.92
+      },
+      "sentence_context": "I was standing in the hallway, completely paralyzed. The whole group was laughing, she knew, and my soul basically left my body.",
+      "event": "soul_departure",
+      "focus": "Out of body shock: soul leaves body",
+      "center": [
+        750,
+        550
+      ],
+      "zoom": 1.5,
+      "reason": "Ultimate second-hand embarrassment.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p9_cherry_twist",
+      "start": 85.79,
+      "end": 88.69,
+      "paragraph": 10,
+      "exact_spoken_cue": "cherry",
+      "measured_word": {
+        "word": "cherry",
+        "word_index": 238,
+        "paragraph": 10,
+        "start": 86.33,
+        "end": 86.57
+      },
+      "sentence_context": "And then the cherry on top: another friend in our group ALSO liked her. So now two of us were publicly exposed and mourning our childhood romance together.",
+      "event": "cherry_on_top",
+      "focus": "Corridor plot twist: another friend liked her too",
+      "center": [
+        960,
+        560
+      ],
+      "zoom": 1.12,
+      "reason": "Finding out another friend liked the same girl.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p9_twin_crush_diagram",
+      "start": 88.69,
+      "end": 90.45,
+      "paragraph": 10,
+      "exact_spoken_cue": "ALSO",
+      "measured_word": {
+        "word": "ALSO",
+        "word_index": 246,
+        "paragraph": 10,
+        "start": 88.69,
+        "end": 89.05
+      },
+      "sentence_context": "And then the cherry on top: another friend in our group ALSO liked her. So now two of us were publicly exposed and mourning our childhood romance together.",
+      "event": "also_liked",
+      "focus": "Twin crush diagram: two boys, one girl",
+      "center": [
+        900,
+        550
+      ],
+      "zoom": 1.15,
+      "reason": "Visual representation of the mutual crush disaster.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p9_mutual_mourning",
+      "start": 90.45,
+      "end": 95.71,
+      "paragraph": 10,
+      "exact_spoken_cue": "two",
+      "measured_word": {
+        "word": "two",
+        "word_index": 251,
+        "paragraph": 10,
+        "start": 90.45,
+        "end": 91.05
+      },
+      "sentence_context": "And then the cherry on top: another friend in our group ALSO liked her. So now two of us were publicly exposed and mourning our childhood romance together.",
+      "event": "two_exposed",
+      "focus": "Two fallen comrades mourning together",
+      "center": [
+        750,
+        550
+      ],
+      "zoom": 1.45,
+      "reason": "Deadpan mutual heartbreak.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p10_that_was_sad",
+      "start": 95.71,
+      "end": 98.65,
+      "paragraph": 11,
+      "exact_spoken_cue": "sad.",
+      "measured_word": {
+        "word": "sad.",
+        "word_index": 267,
+        "paragraph": 11,
+        "start": 96.79,
+        "end": 97.21
+      },
+      "sentence_context": "So yeah. That was sad. But at least I learned at age eight never to trust a friend with a secret.",
+      "event": "that_was_sad",
+      "focus": "Presenter studio: So yeah. That was sad.",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.22,
+      "reason": "Adult ADB summing up the childhood tragedy.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p10_valuable_lesson",
+      "start": 98.65,
+      "end": 99.63,
+      "paragraph": 11,
+      "exact_spoken_cue": "learned",
+      "measured_word": {
+        "word": "learned",
+        "word_index": 272,
+        "paragraph": 11,
+        "start": 98.65,
+        "end": 98.95
+      },
+      "sentence_context": "So yeah. That was sad. But at least I learned at age eight never to trust a friend with a secret.",
+      "event": "learned_lesson",
+      "focus": "Wise nod: valuable lesson learned",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.28,
+      "reason": "Reflective humor and life lesson.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p10_final_deadpan_hold",
+      "start": 99.63,
+      "end": 103.1,
+      "paragraph": 11,
+      "exact_spoken_cue": "never",
+      "measured_word": {
+        "word": "never",
+        "word_index": 276,
+        "paragraph": 11,
+        "start": 99.63,
+        "end": 99.89
+      },
+      "sentence_context": "So yeah. That was sad. But at least I learned at age eight never to trust a friend with a secret.",
+      "event": "never_trust",
+      "focus": "Final deadpan hold: never trust a friend with a secret",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.35,
+      "reason": "Final cinematic push-in into black hold.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 99.63,
+          "center": [
+            960,
+            550
+          ],
+          "zoom": 1.35
+        },
+        {
+          "at": 103.1,
+          "center": [
+            960,
+            540
+          ],
+          "zoom": 1.6
+        }
+      ]
+    }
+  ]
+}

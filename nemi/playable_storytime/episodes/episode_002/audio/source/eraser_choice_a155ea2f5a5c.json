@@ -1,0 +1,36 @@
+{
+  "id": "eraser_choice",
+  "author": "nemi",
+  "text": "Wait, where did the eraser go? Look behind you. It's heading straight for the page edge, taking the path with it. I can try beating it there, or use that flat top as a lift. Seven to race it, or eight to ride it.",
+  "file": "res://episodes/episode_002/audio/source/eraser_choice_a155ea2f5a5c.wav",
+  "sha256": "3557ebb5cd81ec61c571f5b84fc40106885844485529a56d54fe06ceab1c4d67",
+  "identity": {
+    "model_name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "repo_id": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+    "model_version": "1.7B-CustomVoice-bf16",
+    "runtime": "mlx-audio",
+    "license": "Qwen Community License / Apache 2.0",
+    "speaker": "sohee",
+    "voice_identifier": "sohee",
+    "voice_design_prompt": "Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful.",
+    "language": "English",
+    "sample_rate": 24000,
+    "output_format": "WAV",
+    "default_speed": 1.0,
+    "ref_audio_path": "audio/nemi/reference/nemi_golden_reference.wav",
+    "ref_text_path": "audio/nemi/reference/nemi_golden_reference.txt",
+    "pause_policy": {
+      "short_pause": 0.2,
+      "medium_pause": 0.35,
+      "thought_pause": 0.45,
+      "deadpan_pause": 1.5,
+      "dramatic_pause": 0.8,
+      "stinger_pause": 0.2
+    },
+    "device": "mps"
+  },
+  "model_provenance": ".cache/models/qwen.provenance.json",
+  "source_tempo": 1.0,
+  "new_recording": true,
+  "listening_review": "pending"
+}

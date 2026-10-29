@@ -1,0 +1,2465 @@
+{
+  "id": "episode_001",
+  "title": "I Volunteered for Free Pudding. You Have to Help.",
+  "fiction": true,
+  "duration": 240,
+  "fps": 30,
+  "revision": "r9",
+  "episode_id": "episode_001",
+  "media_basename": "NEMI_Playable_EP001_r9_2160x1080_360_REVIEW.mp4",
+  "direction": {
+    "promise": "Help Nemi survive the school job she impulsively accepted after reading free pudding.",
+    "want": "She wants the promised pudding and an escape from speaking in public.",
+    "choice": "One companion chooses sensible help or indulgent detours while she rationalizes her own poor judgment.",
+    "consequence": "Each tempting escape reveals another concrete misunderstanding; the host badge makes the commitment real.",
+    "payoff": "She manages an imperfect greeting to a toy rehearsal audience, then finally reads that pudding was last Friday."
+  },
+  "chapters": [
+    {
+      "id": "practice",
+      "start": 0,
+      "end": 24,
+      "name": "PRACTICE · PRESS 1",
+      "location": "volunteer_hall",
+      "focus": "Press 1 to open the badge round.",
+      "framing": "medium",
+      "review_yaw": 0,
+      "review_fov": 64,
+      "prop": null,
+      "drawing": null,
+      "heading_size": 34,
+      "lines": [
+        {
+          "id": "r8_0_0",
+          "text": "Look, I saw free pudding on a school volunteer form, and I signed before I reached the part explaining what I'd volunteered for. You're taking over before I make it worse. Drag to look around and press one to start. On phones, swipe and use numbered chapters. If you're paused, press play.",
+          "at": 0.35,
+          "window_end": 23.8,
+          "recipe": "school_confide",
+          "tempo": 1.08,
+          "duration": 0.4,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "PRACTICE: PRESS 1",
+        "subtitle": "Drag to look. Press 1 to start."
+      },
+      "camera_beats": [
+        {
+          "clip_id": "r8_0_0",
+          "word": "volunteer",
+          "yaw": 20,
+          "pitch": 0,
+          "fov": 58,
+          "duration": 0.35,
+          "intent": "Show the form that tempted her; hold the initial receipt before reframing",
+          "offset": 0.47
+        },
+        {
+          "clip_id": "r8_0_0",
+          "word": "You're",
+          "yaw": -17,
+          "pitch": 6,
+          "fov": 43,
+          "duration": 0.2,
+          "intent": "Recruit one friend"
+        },
+        {
+          "clip_id": "r8_0_0",
+          "word": "Drag",
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 72,
+          "duration": 0.5,
+          "intent": "Open the playable geography"
+        }
+      ]
+    },
+    {
+      "id": "badge_choice",
+      "start": 24,
+      "end": 48,
+      "name": "1 · BADGE OR LUNCH",
+      "location": "hallway",
+      "focus": "Find the star badge. Choose badge or sandwich.",
+      "framing": "wide",
+      "review_yaw": 0,
+      "review_fov": 64,
+      "prop": null,
+      "drawing": null,
+      "heading_size": 34,
+      "lines": [
+        {
+          "id": "r8_1_0",
+          "text": "My badge is somewhere on the left, next to a sandwich that's honestly looking more useful than I am. The badge gets us through that door; the sandwich lets me avoid making a decision for another five minutes. Three for the badge, two for lunch. Please don't encourage me. I'm very easy to encourage.",
+          "at": 24.35,
+          "window_end": 47.8,
+          "recipe": "uncertain",
+          "tempo": 1.08,
+          "duration": 0.4,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "1  BADGE OR LUNCH",
+        "subtitle": "2 sandwich or 3 star badge."
+      },
+      "camera_beats": [
+        {
+          "clip_id": "r8_1_0",
+          "word": "left",
+          "yaw": -90,
+          "pitch": 0,
+          "fov": 72,
+          "duration": 0.65,
+          "intent": "Show both badge and sandwich clearly; hold the initial receipt before reframing",
+          "offset": 0.95
+        },
+        {
+          "clip_id": "r8_1_0",
+          "word": "Please",
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 40,
+          "duration": 0.24,
+          "intent": "Return for the sheepish request"
+        }
+      ]
+    },
+    {
+      "id": "sandwich_result",
+      "start": 48,
+      "end": 72,
+      "name": "2 · SANDWICH ROUTE",
+      "location": "lunch_hall",
+      "focus": "Sandwich inspected. Press 3 to use the badge.",
+      "framing": "medium",
+      "review_yaw": 0,
+      "review_fov": 64,
+      "prop": null,
+      "drawing": null,
+      "heading_size": 34,
+      "lines": [
+        {
+          "id": "r8_2_0",
+          "text": "Okay, let's hear the sandwich out. It's got layers, it's well prepared, and it hasn't agreed to do anything embarrassing today. Honestly, it should be wearing my badge. Unfortunately, I can't send bread through that door and go home, so three gets the badge. We'll keep the sandwich as an emergency understudy.",
+          "at": 48.35,
+          "window_end": 71.8,
+          "recipe": "prop_present",
+          "tempo": 1.08,
+          "duration": 0.4,
+          "hands": {
+            "left": "relaxed",
+            "right": "open_palm_up"
+          }
+        }
+      ],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "2  SANDWICH ROUTE",
+        "subtitle": "Press 3 for the star badge."
+      },
+      "camera_beats": [
+        {
+          "clip_id": "r8_2_0",
+          "word": "layers",
+          "yaw": 22,
+          "pitch": 0,
+          "fov": 54,
+          "duration": 0.38,
+          "intent": "Look at the actual prepared sandwich; hold the initial receipt before reframing",
+          "offset": 0.37
+        },
+        {
+          "clip_id": "r8_2_0",
+          "word": "Honestly",
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 39,
+          "duration": 0.2,
+          "intent": "Read the absurd calculation"
+        },
+        {
+          "clip_id": "r8_2_0",
+          "word": "badge",
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 64,
+          "duration": 0.4,
+          "intent": "Return to the practical way forward"
+        }
+      ]
+    },
+    {
+      "id": "badge_result",
+      "start": 72,
+      "end": 96,
+      "name": "3 · BADGE FOUND",
+      "location": "host_classroom",
+      "focus": "Badge found. Press 4 for the noticeboard.",
+      "framing": "medium",
+      "review_yaw": 0,
+      "review_fov": 64,
+      "prop": null,
+      "drawing": null,
+      "heading_size": 34,
+      "lines": [
+        {
+          "id": "r8_3_0",
+          "text": "Oh, thank goodness, there's my badge. Hang on, why does it say HOST? I thought I'd signed up to help, you know, carry a box, point at a door, quietly disappear when somebody mentions a microphone. Apparently I ticked the enthusiastic box. There's an enthusiastic box? Four, please. We need the noticeboard.",
+          "at": 72.35,
+          "window_end": 95.8,
+          "recipe": "school_relief",
+          "tempo": 1.12,
+          "duration": 0.4,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "3  BADGE FOUND",
+        "subtitle": "Press 4 for the noticeboard."
+      },
+      "camera_beats": [
+        {
+          "clip_id": "r8_3_0",
+          "word": "badge",
+          "yaw": 20,
+          "pitch": 0,
+          "fov": 46,
+          "duration": 0.35,
+          "intent": "Read the host pass; hold the initial receipt before reframing",
+          "offset": 1.01
+        },
+        {
+          "clip_id": "r8_3_0",
+          "word": "HOST",
+          "yaw": -17,
+          "pitch": 8,
+          "fov": 37,
+          "duration": 0.12,
+          "intent": "Catch the recognition on her face"
+        },
+        {
+          "clip_id": "r8_3_0",
+          "word": "thought",
+          "yaw": -17,
+          "pitch": 2,
+          "fov": 52,
+          "duration": 0.28,
+          "intent": "Allow the embarrassed explanation room"
+        },
+        {
+          "clip_id": "r8_3_0",
+          "word": "enthusiastic",
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 41,
+          "duration": 0.18,
+          "intent": "Read the checkbox confession"
+        },
+        {
+          "clip_id": "r8_3_0",
+          "word": "Four",
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 64,
+          "duration": 0.3,
+          "intent": "Resume the search"
+        }
+      ]
+    },
+    {
+      "id": "notice_choice",
+      "start": 96,
+      "end": 120,
+      "name": "4 · WHICH ROOM?",
+      "location": "classroom",
+      "focus": "Choose the new assembly notice or the old pudding notice.",
+      "framing": "wide",
+      "review_yaw": 0,
+      "review_fov": 64,
+      "prop": null,
+      "drawing": null,
+      "heading_size": 34,
+      "lines": [
+        {
+          "id": "r8_4_0",
+          "text": "Right, the noticeboard. The sensible new sign says assembly, and the old one says pudding. Before you say anything, I can see that it's crossed out. I'm choosing to interpret that as decorative. Six gets us to assembly; five lets us investigate the pudding. You can probably guess which one I'm hoping for.",
+          "at": 96.35,
+          "window_end": 119.8,
+          "recipe": "skeptical",
+          "tempo": 1.08,
+          "duration": 0.4,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "4  CHOOSE THE ROOM",
+        "subtitle": "5 pudding or 6 assembly."
+      },
+      "camera_beats": [
+        {
+          "clip_id": "r8_4_0",
+          "word": "new",
+          "yaw": 90,
+          "pitch": 0,
+          "fov": 74,
+          "duration": 0.65,
+          "intent": "Read both notices and the obvious cross-out; hold the initial receipt before reframing",
+          "offset": 0.07
+        },
+        {
+          "clip_id": "r8_4_0",
+          "word": "anything",
+          "yaw": -17,
+          "pitch": 6,
+          "fov": 42,
+          "duration": 0.25,
+          "intent": "Catch her anticipating the objection"
+        },
+        {
+          "clip_id": "r8_4_0",
+          "word": "Six",
+          "yaw": 90,
+          "pitch": 0,
+          "fov": 74,
+          "duration": 0.6,
+          "intent": "Leave the two real labels readable"
+        },
+        {
+          "clip_id": "r8_4_0",
+          "word": "hoping",
+          "yaw": -17,
+          "pitch": 6,
+          "fov": 44,
+          "duration": 0.25,
+          "intent": "Let the preference show"
+        }
+      ]
+    },
+    {
+      "id": "pudding_result",
+      "start": 120,
+      "end": 144,
+      "name": "5 · PUDDING ROUTE",
+      "location": "pudding_cupboard",
+      "focus": "Pudding detour. Press 6 to go to assembly.",
+      "framing": "medium",
+      "review_yaw": 0,
+      "review_fov": 64,
+      "prop": null,
+      "drawing": null,
+      "heading_size": 34,
+      "lines": [
+        {
+          "id": "r8_5_0",
+          "text": "There's a cup! See, I told you this was worth investigating. Oh, those are pencils. I've come to the stationery cupboard for pudding, and somehow I'm still looking for a spoon. Please don't tell the sandwich; it'll think it's won. Come on, six gets us to assembly before I start checking glue sticks for ingredients.",
+          "at": 120.35,
+          "window_end": 143.8,
+          "recipe": "pleased",
+          "tempo": 1.12,
+          "duration": 0.4,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "5  PUDDING ROUTE",
+        "subtitle": "Press 6 for assembly."
+      },
+      "camera_beats": [
+        {
+          "clip_id": "r8_5_0",
+          "word": "worth",
+          "yaw": 20,
+          "pitch": 0,
+          "fov": 54,
+          "duration": 0.3,
+          "intent": "Hope and the actual cup share one focus"
+        },
+        {
+          "clip_id": "r8_5_0",
+          "word": "cupboard",
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 40,
+          "duration": 0.22,
+          "intent": "Read the embarrassed admission"
+        },
+        {
+          "clip_id": "r8_5_0",
+          "word": "sandwich",
+          "yaw": -17,
+          "pitch": 4,
+          "fov": 48,
+          "duration": 0.25,
+          "intent": "The remembered rival is a reaction, not another insert"
+        },
+        {
+          "clip_id": "r8_5_0",
+          "word": "ingredients",
+          "yaw": -17,
+          "pitch": 4,
+          "fov": 47,
+          "duration": 0.2,
+          "intent": "Hold the last dry thought"
+        }
+      ]
+    },
+    {
+      "id": "assembly_result",
+      "start": 144,
+      "end": 168,
+      "name": "6 · ASSEMBLY REACHED",
+      "location": "assembly_stage",
+      "focus": "Assembly reached. Press 7 for the final choice.",
+      "framing": "medium",
+      "review_yaw": 0,
+      "review_fov": 64,
+      "prop": null,
+      "drawing": null,
+      "heading_size": 34,
+      "lines": [
+        {
+          "id": "r8_6_0",
+          "text": "That's the microphone. I can explain an entire anime power system to somebody who didn't ask, but apparently good morning requires rehearsing until my personality leaves my body. Before I get up there, could you check who's watching? Seven opens the last choice. I'm going to practise looking like this was my idea.",
+          "at": 144.35,
+          "window_end": 167.8,
+          "recipe": "school_brace",
+          "tempo": 1.12,
+          "duration": 0.4,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "6  ASSEMBLY REACHED",
+        "subtitle": "Press 7 to check the audience."
+      },
+      "camera_beats": [
+        {
+          "clip_id": "r8_6_0",
+          "word": "anime",
+          "yaw": -17,
+          "pitch": 4,
+          "fov": 46,
+          "duration": 0.3,
+          "intent": "Let familiar confidence return"
+        },
+        {
+          "clip_id": "r8_6_0",
+          "word": "personality",
+          "yaw": -17,
+          "pitch": 8,
+          "fov": 38,
+          "duration": 0.18,
+          "intent": "The simple greeting defeats her"
+        },
+        {
+          "clip_id": "r8_6_0",
+          "word": "check",
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Give the audience investigation space"
+        }
+      ]
+    },
+    {
+      "id": "audience_choice",
+      "start": 168,
+      "end": 192,
+      "name": "7 · HIDE OR HOST?",
+      "location": "assembly",
+      "focus": "Look behind Nemi. Choose hiding or the microphone.",
+      "framing": "wide",
+      "review_yaw": 0,
+      "review_fov": 64,
+      "prop": null,
+      "drawing": null,
+      "heading_size": 34,
+      "lines": [
+        {
+          "id": "r8_7_0",
+          "text": "Hang on, turn around for a second. They're toys. It's a rehearsal! I've spent the entire morning rehearsing my apology to a duck. And look at its face, why does it seem like it knows? Nine takes the microphone; eight lets me hide. Please pick before I start explaining myself to the bear.",
+          "at": 168.35,
+          "window_end": 191.8,
+          "recipe": "uncertain",
+          "tempo": 1.08,
+          "duration": 0.4,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "7  HIDE OR HOST",
+        "subtitle": "Look behind Nemi. Choose 8 or 9."
+      },
+      "camera_beats": [
+        {
+          "clip_id": "r8_7_0",
+          "word": "around",
+          "yaw": 180,
+          "pitch": 0,
+          "fov": 74,
+          "duration": 0.65,
+          "intent": "Turn the whole view to the real toy audience; hold the initial receipt before reframing",
+          "offset": 1.91
+        },
+        {
+          "clip_id": "r8_7_0",
+          "word": "knows",
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 39,
+          "duration": 0.25,
+          "intent": "Return to the suspicious duck reaction"
+        },
+        {
+          "clip_id": "r8_7_0",
+          "word": "Nine",
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 66,
+          "duration": 0.4,
+          "intent": "Offer the last decision in context"
+        }
+      ]
+    },
+    {
+      "id": "hiding_result",
+      "start": 192,
+      "end": 216,
+      "name": "8 · HIDING ROUTE",
+      "location": "assembly",
+      "focus": "Hiding in plain sight. Press 9 for the microphone.",
+      "framing": "medium",
+      "review_yaw": 0,
+      "review_fov": 64,
+      "prop": null,
+      "drawing": null,
+      "heading_size": 34,
+      "lines": [
+        {
+          "id": "r8_8_0",
+          "text": "Okay, new plan: I stand completely still and become school furniture. Nobody expects a chair to introduce the assembly. Why am I making eye contact with the duck? It's a toy, Nemi, it doesn't know anything. Nine, please. I'd rather do the speech than lose a staring contest to stuffing.",
+          "at": 192.35,
+          "window_end": 215.8,
+          "recipe": "deadpan",
+          "tempo": 1.08,
+          "duration": 0.4,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "8  HIDING ROUTE",
+        "subtitle": "Hiding in plain sight. Press 9."
+      },
+      "camera_beats": [
+        {
+          "clip_id": "r8_8_0",
+          "word": "still",
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 72,
+          "duration": 0.3,
+          "intent": "Prove the whole body is planted and frozen; hold the initial receipt before reframing",
+          "offset": 0.51
+        },
+        {
+          "clip_id": "r8_8_0",
+          "word": "eye",
+          "yaw": -17,
+          "pitch": 8,
+          "fov": 38,
+          "duration": 0.28,
+          "intent": "Only the eyes betray the hiding plan"
+        },
+        {
+          "clip_id": "r8_8_0",
+          "word": "Nine",
+          "yaw": -17,
+          "pitch": 2,
+          "fov": 54,
+          "duration": 0.3,
+          "intent": "Release the failed freeze"
+        }
+      ]
+    },
+    {
+      "id": "stage_result",
+      "start": 216,
+      "end": 240,
+      "name": "9 · ON STAGE",
+      "location": "final_rehearsal",
+      "focus": "You reached the ending. Press 0 to play again.",
+      "framing": "medium",
+      "review_yaw": 0,
+      "review_fov": 64,
+      "prop": null,
+      "drawing": null,
+      "heading_size": 34,
+      "lines": [
+        {
+          "id": "r8_9_0",
+          "text": "Good morning, everyone, and welcome to whatever this is. Right, nobody fainted. The duck looks exactly as disappointed as before, so I'm calling that progress. Thank you for staying with me. And the pudding was last Friday. Of course it was. Zero if you'd like to try talking me out of this next time.",
+          "at": 216.35,
+          "window_end": 239.8,
+          "recipe": "school_present",
+          "tempo": 1.08,
+          "duration": 0.4,
+          "hands": {
+            "left": "relaxed",
+            "right": "open_palm_up"
+          }
+        }
+      ],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "9  ON STAGE",
+        "subtitle": "Press 0 to play again."
+      },
+      "camera_beats": [
+        {
+          "clip_id": "r8_9_0",
+          "word": "disappointed",
+          "yaw": 180,
+          "pitch": 0,
+          "fov": 65,
+          "duration": 0.5,
+          "intent": "Check the unmoving critic"
+        },
+        {
+          "clip_id": "r8_9_0",
+          "word": "progress",
+          "yaw": -17,
+          "pitch": 4,
+          "fov": 48,
+          "duration": 0.35,
+          "intent": "Return to a modest recovery"
+        },
+        {
+          "clip_id": "r8_9_0",
+          "word": "Thank",
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 41,
+          "duration": 0.3,
+          "intent": "Keep the gratitude personal"
+        },
+        {
+          "clip_id": "r8_9_0",
+          "word": "pudding",
+          "yaw": 20,
+          "pitch": 0,
+          "fov": 57,
+          "duration": 0.4,
+          "intent": "Read the actual old date"
+        },
+        {
+          "clip_id": "r8_9_0",
+          "word": "course",
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 40,
+          "duration": 0.2,
+          "intent": "Hold the final realization"
+        },
+        {
+          "clip_id": "r8_9_0",
+          "word": "time",
+          "offset": 1.2,
+          "yaw": 145,
+          "pitch": 8,
+          "fov": 48,
+          "duration": 0.4,
+          "intent": "Use the final quiet hold for the duck review and sandwich callback"
+        }
+      ]
+    }
+  ],
+  "additional_drawings": [
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "1 START",
+      "size": 30,
+      "position": [
+        990,
+        875
+      ],
+      "at": 3.5,
+      "end": 24,
+      "mode": "hold",
+      "shots": [
+        "practice"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "2 LUNCH / 3 BADGE",
+      "size": 30,
+      "position": [
+        990,
+        875
+      ],
+      "at": 27.5,
+      "end": 48,
+      "mode": "hold",
+      "shots": [
+        "badge_choice"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "3 USE BADGE",
+      "size": 30,
+      "position": [
+        990,
+        875
+      ],
+      "at": 51.5,
+      "end": 72,
+      "mode": "hold",
+      "shots": [
+        "sandwich_result"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "4 NOTICEBOARD",
+      "size": 30,
+      "position": [
+        990,
+        875
+      ],
+      "at": 75.5,
+      "end": 96,
+      "mode": "hold",
+      "shots": [
+        "badge_result"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "5 PUDDING / 6 ASSEMBLY",
+      "size": 30,
+      "position": [
+        990,
+        875
+      ],
+      "at": 99.5,
+      "end": 120,
+      "mode": "hold",
+      "shots": [
+        "notice_choice"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "6 ASSEMBLY",
+      "size": 30,
+      "position": [
+        990,
+        875
+      ],
+      "at": 123.5,
+      "end": 144,
+      "mode": "hold",
+      "shots": [
+        "pudding_result"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "7 CHECK AUDIENCE",
+      "size": 30,
+      "position": [
+        990,
+        875
+      ],
+      "at": 147.5,
+      "end": 168,
+      "mode": "hold",
+      "shots": [
+        "assembly_result"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "8 HIDE / 9 MICROPHONE",
+      "size": 30,
+      "position": [
+        990,
+        875
+      ],
+      "at": 171.5,
+      "end": 192,
+      "mode": "hold",
+      "shots": [
+        "audience_choice"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "9 MICROPHONE",
+      "size": 30,
+      "position": [
+        990,
+        875
+      ],
+      "at": 195.5,
+      "end": 216,
+      "mode": "hold",
+      "shots": [
+        "hiding_result"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "0 PLAY AGAIN",
+      "size": 30,
+      "position": [
+        990,
+        875
+      ],
+      "at": 219.5,
+      "end": 240,
+      "mode": "hold",
+      "shots": [
+        "stage_result"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "underline",
+      "position": [
+        1280,
+        492
+      ],
+      "scale": [
+        1.6,
+        1
+      ],
+      "at": 0,
+      "duration": 0.45,
+      "end": 12,
+      "mode": "live",
+      "event": "acting_c0_0",
+      "shots": [
+        "practice"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "enthusiastic?!",
+      "size": 42,
+      "position": [
+        1030,
+        780
+      ],
+      "at": 0,
+      "end": 96,
+      "mode": "hold",
+      "event": "acting_c3_6",
+      "shots": [
+        "badge_result"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "scratch",
+      "position": [
+        1310,
+        565
+      ],
+      "scale": [
+        1.5,
+        0.7
+      ],
+      "at": 0,
+      "duration": 0.4,
+      "end": 144,
+      "mode": "live",
+      "event": "dessert_contents",
+      "shots": [
+        "pudding_result"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "good morning...",
+      "size": 38,
+      "position": [
+        1020,
+        320
+      ],
+      "at": 0,
+      "end": 164,
+      "mode": "hold",
+      "event": "acting_c6_3",
+      "shots": [
+        "assembly_result"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "text": "perfectly normal chair",
+      "size": 34,
+      "position": [
+        990,
+        575
+      ],
+      "at": 0,
+      "end": 212,
+      "mode": "hold",
+      "event": "acting_c8_0",
+      "shots": [
+        "hiding_result"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "arrow",
+      "position": [
+        905,
+        555
+      ],
+      "scale": [
+        1.5,
+        1.0
+      ],
+      "tilt": 180,
+      "at": 0,
+      "duration": 0.5,
+      "end": 212,
+      "mode": "live",
+      "event": "acting_c8_0",
+      "shots": [
+        "hiding_result"
+      ]
+    }
+  ],
+  "sound_cues": [
+    {
+      "id": "form_signature",
+      "clip_id": "r8_0_0",
+      "word": "signed",
+      "asset_id": "paper_page_turn_crisp_01",
+      "duration": 0.452,
+      "gain_db": -9,
+      "intent": "Her signature makes the impulsive choice real"
+    },
+    {
+      "id": "tempting_lunch",
+      "clip_id": "r8_1_0",
+      "word": "sandwich",
+      "asset_id": "cartoon_boing_bounce_01",
+      "duration": 1.241,
+      "gain_db": -12,
+      "intent": "Lunch distracts her from the sensible task"
+    },
+    {
+      "id": "bread_candidate",
+      "clip_id": "r8_2_0",
+      "word": "prepared",
+      "asset_id": "cartoon_pop_dry_01",
+      "duration": 0.305,
+      "gain_db": -11,
+      "intent": "The sandwich becomes her absurd better candidate"
+    },
+    {
+      "id": "job_title",
+      "clip_id": "r8_3_0",
+      "word": "HOST",
+      "asset_id": "comedic_record_scratch_01",
+      "duration": 1.109,
+      "gain_db": -9,
+      "intent": "The badge reveals the public-speaking obligation"
+    },
+    {
+      "id": "fatal_checkbox",
+      "clip_id": "r8_3_0",
+      "word": "enthusiastic",
+      "asset_id": "paper_slide_desk_01",
+      "duration": 1.094,
+      "gain_db": -11,
+      "intent": "She remembers the checkbox that caused this"
+    },
+    {
+      "id": "obvious_crossout",
+      "clip_id": "r8_4_0",
+      "word": "crossed",
+      "asset_id": "paper_page_turn_crisp_01",
+      "duration": 0.452,
+      "gain_db": -10,
+      "intent": "The evidence contradicts her dessert theory"
+    },
+    {
+      "id": "dessert_contents",
+      "clip_id": "r8_5_0",
+      "word": "pencils",
+      "asset_id": "comedic_fail_low_tone_01",
+      "duration": 1.515,
+      "gain_db": -10,
+      "intent": "Actual pencils defeat the pudding theory"
+    },
+    {
+      "id": "microphone",
+      "clip_id": "r8_6_0",
+      "word": "microphone",
+      "asset_id": "cartoon_boing_metallic_01",
+      "duration": 1.205,
+      "gain_db": -12,
+      "intent": "A small object causes an outsized concern"
+    },
+    {
+      "id": "toy_reveal",
+      "clip_id": "r8_7_0",
+      "word": "toys",
+      "asset_id": "sting_magic_sparkle_chime_01",
+      "duration": 1.301,
+      "gain_db": -11,
+      "intent": "The toy audience releases the imagined danger"
+    },
+    {
+      "id": "suspicious_duck",
+      "clip_id": "r8_7_0",
+      "word": "knows",
+      "asset_id": "cartoon_pop_dry_01",
+      "duration": 0.305,
+      "gain_db": -12,
+      "intent": "She immediately invents a new smaller worry"
+    },
+    {
+      "id": "old_date",
+      "clip_id": "r8_9_0",
+      "word": "Friday",
+      "asset_id": "comedic_fail_low_tone_01",
+      "duration": 1.1,
+      "gain_db": -10,
+      "intent": "Finally reading the date reverses the opening promise"
+    }
+  ],
+  "reaction_cues": [
+    {
+      "event": "job_title",
+      "kind": "sweat",
+      "strength": 0.65
+    },
+    {
+      "event": "toy_reveal",
+      "kind": "relief",
+      "strength": 0.6
+    }
+  ],
+  "acting_accents": [],
+  "navigation": {
+    "mode": "youtube_digits",
+    "key_targets": [
+      {
+        "key": 0,
+        "chapter": "practice"
+      },
+      {
+        "key": 1,
+        "chapter": "badge_choice"
+      },
+      {
+        "key": 2,
+        "chapter": "sandwich_result"
+      },
+      {
+        "key": 3,
+        "chapter": "badge_result"
+      },
+      {
+        "key": 4,
+        "chapter": "notice_choice"
+      },
+      {
+        "key": 5,
+        "chapter": "pudding_result"
+      },
+      {
+        "key": 6,
+        "chapter": "assembly_result"
+      },
+      {
+        "key": 7,
+        "chapter": "audience_choice"
+      },
+      {
+        "key": 8,
+        "chapter": "hiding_result"
+      },
+      {
+        "key": 9,
+        "chapter": "stage_result"
+      }
+    ]
+  },
+  "interaction_scenes": [
+    {
+      "id": "practice",
+      "start": 0,
+      "end": 24,
+      "objective": "Press 1 to open the badge round.",
+      "choices": [
+        {
+          "key": 1,
+          "label": "Start: badge round",
+          "chapter": "badge_choice"
+        }
+      ],
+      "feedback": "PRACTICE: PRESS 1"
+    },
+    {
+      "id": "badge_choice",
+      "start": 24,
+      "end": 48,
+      "objective": "Find the star badge. Choose badge or sandwich.",
+      "choices": [
+        {
+          "key": 2,
+          "label": "Inspect sandwich",
+          "chapter": "sandwich_result"
+        },
+        {
+          "key": 3,
+          "label": "Use star badge",
+          "chapter": "badge_result"
+        }
+      ],
+      "feedback": "1  BADGE OR LUNCH"
+    },
+    {
+      "id": "sandwich_result",
+      "start": 48,
+      "end": 72,
+      "objective": "Sandwich inspected. Press 3 to use the badge.",
+      "choices": [
+        {
+          "key": 3,
+          "label": "Use star badge",
+          "chapter": "badge_result"
+        }
+      ],
+      "feedback": "2  SANDWICH ROUTE"
+    },
+    {
+      "id": "badge_result",
+      "start": 72,
+      "end": 96,
+      "objective": "Badge found. Press 4 for the noticeboard.",
+      "choices": [
+        {
+          "key": 4,
+          "label": "Choose the room",
+          "chapter": "notice_choice"
+        }
+      ],
+      "feedback": "3  BADGE FOUND"
+    },
+    {
+      "id": "notice_choice",
+      "start": 96,
+      "end": 120,
+      "objective": "Choose the new assembly notice or the old pudding notice.",
+      "choices": [
+        {
+          "key": 5,
+          "label": "Try pudding room",
+          "chapter": "pudding_result"
+        },
+        {
+          "key": 6,
+          "label": "Go to assembly",
+          "chapter": "assembly_result"
+        }
+      ],
+      "feedback": "4  CHOOSE THE ROOM"
+    },
+    {
+      "id": "pudding_result",
+      "start": 120,
+      "end": 144,
+      "objective": "Pudding detour. Press 6 to go to assembly.",
+      "choices": [
+        {
+          "key": 6,
+          "label": "Go to assembly",
+          "chapter": "assembly_result"
+        }
+      ],
+      "feedback": "5  PUDDING ROUTE"
+    },
+    {
+      "id": "assembly_result",
+      "start": 144,
+      "end": 168,
+      "objective": "Assembly reached. Press 7 for the final choice.",
+      "choices": [
+        {
+          "key": 7,
+          "label": "Make the final choice",
+          "chapter": "audience_choice"
+        }
+      ],
+      "feedback": "6  ASSEMBLY REACHED"
+    },
+    {
+      "id": "audience_choice",
+      "start": 168,
+      "end": 192,
+      "objective": "Look behind Nemi. Choose hiding or the microphone.",
+      "choices": [
+        {
+          "key": 8,
+          "label": "Hide in plain sight",
+          "chapter": "hiding_result"
+        },
+        {
+          "key": 9,
+          "label": "Take the microphone",
+          "chapter": "stage_result"
+        }
+      ],
+      "feedback": "7  HIDE OR HOST"
+    },
+    {
+      "id": "hiding_result",
+      "start": 192,
+      "end": 216,
+      "objective": "Hiding in plain sight. Press 9 for the microphone.",
+      "choices": [
+        {
+          "key": 9,
+          "label": "Take the microphone",
+          "chapter": "stage_result"
+        }
+      ],
+      "feedback": "8  HIDING ROUTE"
+    },
+    {
+      "id": "stage_result",
+      "start": 216,
+      "end": 240,
+      "objective": "You reached the ending. Press 0 to play again.",
+      "choices": [
+        {
+          "key": 0,
+          "label": "Play again",
+          "chapter": "practice"
+        }
+      ],
+      "feedback": "9  ON STAGE"
+    }
+  ],
+  "acting_beats": [
+    {
+      "id": "c0_0",
+      "clip_id": "r8_0_0",
+      "word": "free",
+      "recipe": "pleased",
+      "duration": 0.38,
+      "intent": "Dessert briefly wins over judgment",
+      "hands": {
+        "left": "relaxed",
+        "right": "open_palm_up"
+      }
+    },
+    {
+      "id": "c0_1",
+      "clip_id": "r8_0_0",
+      "word": "signed",
+      "recipe": "school_shame",
+      "duration": 0.5,
+      "intent": "Admit signing before reading",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.25,
+        0.3
+      ]
+    },
+    {
+      "id": "c0_2",
+      "clip_id": "r8_0_0",
+      "word": "You're",
+      "recipe": "school_confide",
+      "duration": 0.38,
+      "intent": "Make the viewer a trusted friend",
+      "hands": {
+        "left": "relaxed",
+        "right": "hand_to_chest"
+      }
+    },
+    {
+      "id": "c0_3",
+      "clip_id": "r8_0_0",
+      "word": "worse",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "Acknowledge her own poor judgment",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0,
+        0
+      ],
+      "face": {
+        "eye_openness": 0.83
+      },
+      "blinks": [
+        10.69
+      ]
+    },
+    {
+      "id": "c0_4",
+      "clip_id": "r8_0_0",
+      "word": "Drag",
+      "recipe": "explaining",
+      "duration": 0.38,
+      "intent": "Offer one calm practical instruction",
+      "hands": {
+        "left": "relaxed",
+        "right": "open_palm_up"
+      }
+    },
+    {
+      "id": "c0_5",
+      "clip_id": "r8_0_0",
+      "word": "phones",
+      "recipe": "school_point",
+      "duration": 0.28,
+      "intent": "Include phone viewers without an announcer voice",
+      "hands": {
+        "left": "relaxed",
+        "right": "pointing"
+      },
+      "motion": "stepped",
+      "step_fps": 12
+    },
+    {
+      "id": "c1_0",
+      "clip_id": "r8_1_0",
+      "word": "left",
+      "recipe": "school_point",
+      "duration": 0.28,
+      "intent": "Eyes and pointing hand lead toward the evidence",
+      "hands": {
+        "left": "pointing",
+        "right": "relaxed"
+      },
+      "motion": "stepped",
+      "step_fps": 12,
+      "gaze": [
+        -0.75,
+        0
+      ]
+    },
+    {
+      "id": "c1_1",
+      "clip_id": "r8_1_0",
+      "word": "sandwich",
+      "recipe": "pleased",
+      "duration": 0.38,
+      "intent": "Be visibly tempted by lunch",
+      "hands": {
+        "left": "relaxed",
+        "right": "open_palm_up"
+      }
+    },
+    {
+      "id": "c1_2",
+      "clip_id": "r8_1_0",
+      "word": "useful",
+      "recipe": "skeptical",
+      "duration": 0.32,
+      "intent": "Compare herself with a sandwich",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.45,
+        0
+      ],
+      "face": {
+        "left_brow_tilt": -0.1,
+        "right_brow_tilt": 0.09
+      }
+    },
+    {
+      "id": "c1_3",
+      "clip_id": "r8_1_0",
+      "word": "door",
+      "recipe": "school_resolve",
+      "duration": 0.28,
+      "intent": "Remember the sensible objective",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "stepped",
+      "step_fps": 12
+    },
+    {
+      "id": "c1_4",
+      "clip_id": "r8_1_0",
+      "word": "avoid",
+      "recipe": "embarrassed",
+      "duration": 0.5,
+      "intent": "Catch herself inventing an excuse",
+      "hands": {
+        "left": "relaxed",
+        "right": "hand_to_cheek"
+      },
+      "gaze": [
+        0.25,
+        0.3
+      ]
+    },
+    {
+      "id": "c1_5",
+      "clip_id": "r8_1_0",
+      "word": "Three",
+      "recipe": "school_point",
+      "duration": 0.28,
+      "intent": "Give both concise choices once",
+      "hands": {
+        "left": "pointing",
+        "right": "relaxed"
+      },
+      "motion": "stepped",
+      "step_fps": 12
+    },
+    {
+      "id": "c1_6",
+      "clip_id": "r8_1_0",
+      "word": "Please",
+      "recipe": "school_confide",
+      "duration": 0.38,
+      "intent": "Ask a friend not to enable her",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "blinks": [
+        43.61
+      ]
+    },
+    {
+      "id": "c1_7",
+      "clip_id": "r8_1_0",
+      "word": "easy",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "Admit that she absolutely can be enabled",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0,
+        0
+      ],
+      "face": {
+        "eye_openness": 0.83
+      }
+    },
+    {
+      "id": "c2_0",
+      "clip_id": "r8_2_0",
+      "word": "hear",
+      "recipe": "prop_present",
+      "duration": 0.38,
+      "intent": "Interview the absurd alternative",
+      "hands": {
+        "left": "relaxed",
+        "right": "open_palm_up"
+      }
+    },
+    {
+      "id": "c2_1",
+      "clip_id": "r8_2_0",
+      "word": "prepared",
+      "recipe": "pleased",
+      "duration": 0.38,
+      "intent": "Build an unreasonable case for bread",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c2_2",
+      "clip_id": "r8_2_0",
+      "word": "Honestly",
+      "recipe": "school_question",
+      "duration": 0.38,
+      "intent": "Actually consider replacing herself",
+      "hands": {
+        "left": "relaxed",
+        "right": "hand_to_cheek"
+      },
+      "blinks": [
+        57.73
+      ]
+    },
+    {
+      "id": "c2_3",
+      "clip_id": "r8_2_0",
+      "word": "wearing",
+      "recipe": "realization",
+      "duration": 0.18,
+      "intent": "The badge comparison briefly seems persuasive",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "face": {
+        "eye_openness": 1.18,
+        "pupil_scale": 0.75
+      }
+    },
+    {
+      "id": "c2_4",
+      "clip_id": "r8_2_0",
+      "word": "Unfortunately",
+      "recipe": "quiet_recoil",
+      "duration": 0.38,
+      "intent": "Reality interrupts the excuse",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c2_5",
+      "clip_id": "r8_2_0",
+      "word": "home",
+      "recipe": "embarrassed",
+      "duration": 0.5,
+      "intent": "Confess what she really wanted",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.25,
+        0.3
+      ]
+    },
+    {
+      "id": "c2_6",
+      "clip_id": "r8_2_0",
+      "word": "emergency",
+      "recipe": "skeptical",
+      "duration": 0.32,
+      "intent": "Retain a little faith in the understudy",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.45,
+        0
+      ],
+      "face": {
+        "left_brow_tilt": -0.1,
+        "right_brow_tilt": 0.09
+      }
+    },
+    {
+      "id": "c3_0",
+      "clip_id": "r8_3_0",
+      "word": "goodness",
+      "recipe": "school_relief",
+      "duration": 0.62,
+      "intent": "Relief before reading the smaller text",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c3_1",
+      "clip_id": "r8_3_0",
+      "word": "Hang",
+      "recipe": "school_question",
+      "duration": 0.38,
+      "intent": "Eyes drop to read the badge",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.55,
+        0.45
+      ]
+    },
+    {
+      "id": "c3_2",
+      "clip_id": "r8_3_0",
+      "word": "HOST",
+      "recipe": "school_recoil",
+      "duration": 0.18,
+      "intent": "Recognition hits on the actual job title",
+      "hands": {
+        "left": "splayed_fingers",
+        "right": "splayed_fingers"
+      },
+      "motion": "snap",
+      "face": {
+        "eye_openness": 1.18,
+        "pupil_scale": 0.75
+      }
+    },
+    {
+      "id": "c3_3",
+      "clip_id": "r8_3_0",
+      "word": "thought",
+      "recipe": "embarrassed",
+      "duration": 0.5,
+      "intent": "She had imagined disappearing into a small helpful job",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.25,
+        0.3
+      ]
+    },
+    {
+      "id": "c3_4",
+      "clip_id": "r8_3_0",
+      "word": "microphone",
+      "recipe": "school_recoil",
+      "duration": 0.38,
+      "intent": "The part she was trying to avoid becomes concrete",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c3_5",
+      "clip_id": "r8_3_0",
+      "word": "Apparently",
+      "recipe": "skeptical",
+      "duration": 0.32,
+      "intent": "Read the evidence against herself",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.45,
+        0
+      ],
+      "face": {
+        "left_brow_tilt": -0.1,
+        "right_brow_tilt": 0.09
+      },
+      "blinks": [
+        86.83
+      ]
+    },
+    {
+      "id": "c3_6",
+      "clip_id": "r8_3_0",
+      "word": "enthusiastic",
+      "recipe": "school_shame",
+      "duration": 0.5,
+      "intent": "Remember the fatal checkbox",
+      "hands": {
+        "left": "relaxed",
+        "right": "hand_to_cheek"
+      },
+      "gaze": [
+        0.25,
+        0.3
+      ]
+    },
+    {
+      "id": "c3_7",
+      "clip_id": "r8_3_0",
+      "word": "Four",
+      "recipe": "school_confide",
+      "duration": 0.38,
+      "intent": "Appeal to the viewer for the next decision",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c4_0",
+      "clip_id": "r8_4_0",
+      "word": "sensible",
+      "recipe": "explaining",
+      "duration": 0.38,
+      "intent": "Present what she knows she should choose",
+      "hands": {
+        "left": "relaxed",
+        "right": "open_palm_up"
+      }
+    },
+    {
+      "id": "c4_1",
+      "clip_id": "r8_4_0",
+      "word": "old",
+      "recipe": "pleased",
+      "duration": 0.38,
+      "intent": "Her attention drifts toward dessert again",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c4_2",
+      "clip_id": "r8_4_0",
+      "word": "anything",
+      "recipe": "school_shame",
+      "duration": 0.5,
+      "intent": "Anticipate the viewer noticing the obvious flaw",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.25,
+        0.3
+      ],
+      "blinks": [
+        105.45
+      ]
+    },
+    {
+      "id": "c4_3",
+      "clip_id": "r8_4_0",
+      "word": "crossed",
+      "recipe": "skeptical",
+      "duration": 0.32,
+      "intent": "Register the cross-out clearly",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.45,
+        0
+      ],
+      "face": {
+        "left_brow_tilt": -0.1,
+        "right_brow_tilt": 0.09
+      }
+    },
+    {
+      "id": "c4_4",
+      "clip_id": "r8_4_0",
+      "word": "decorative",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "Defend an indefensible reading",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0,
+        0
+      ],
+      "face": {
+        "eye_openness": 0.83
+      }
+    },
+    {
+      "id": "c4_5",
+      "clip_id": "r8_4_0",
+      "word": "Six",
+      "recipe": "school_point",
+      "duration": 0.28,
+      "intent": "Offer a responsible choice and a tempting detour",
+      "hands": {
+        "left": "relaxed",
+        "right": "pointing"
+      },
+      "motion": "stepped",
+      "step_fps": 12
+    },
+    {
+      "id": "c4_6",
+      "clip_id": "r8_4_0",
+      "word": "hoping",
+      "recipe": "pleased",
+      "duration": 0.38,
+      "intent": "A small sheepish admission of the preference",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c5_0",
+      "clip_id": "r8_5_0",
+      "word": "cup",
+      "recipe": "pleased",
+      "duration": 0.38,
+      "intent": "Hope rises at a familiar dessert shape",
+      "hands": {
+        "left": "relaxed",
+        "right": "open_palm_up"
+      }
+    },
+    {
+      "id": "c5_1",
+      "clip_id": "r8_5_0",
+      "word": "Oh",
+      "recipe": "realization",
+      "duration": 0.18,
+      "intent": "Look into the cup before committing the body",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "face": {
+        "eye_openness": 1.18,
+        "pupil_scale": 0.75
+      },
+      "gaze": [
+        0.6,
+        0.4
+      ]
+    },
+    {
+      "id": "c5_2",
+      "clip_id": "r8_5_0",
+      "word": "pencils",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "Let the actual contents destroy the theory",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0,
+        0
+      ],
+      "face": {
+        "eye_openness": 0.83
+      }
+    },
+    {
+      "id": "c5_3",
+      "clip_id": "r8_5_0",
+      "word": "cupboard",
+      "recipe": "embarrassed",
+      "duration": 0.5,
+      "intent": "Own the completely avoidable detour",
+      "hands": {
+        "left": "relaxed",
+        "right": "hand_to_cheek"
+      },
+      "gaze": [
+        0.25,
+        0.3
+      ]
+    },
+    {
+      "id": "c5_4",
+      "clip_id": "r8_5_0",
+      "word": "spoon",
+      "recipe": "uncertain",
+      "duration": 0.38,
+      "intent": "Notice that she is still looking anyway",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "blinks": [
+        133.55
+      ]
+    },
+    {
+      "id": "c5_5",
+      "clip_id": "r8_5_0",
+      "word": "sandwich",
+      "recipe": "skeptical",
+      "duration": 0.32,
+      "intent": "Remember her imaginary rival",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.45,
+        0
+      ],
+      "face": {
+        "left_brow_tilt": -0.1,
+        "right_brow_tilt": 0.09
+      }
+    },
+    {
+      "id": "c5_6",
+      "clip_id": "r8_5_0",
+      "word": "Six",
+      "recipe": "school_resolve",
+      "duration": 0.28,
+      "intent": "Finally agree to move toward the assembly",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "stepped",
+      "step_fps": 12
+    },
+    {
+      "id": "c5_7",
+      "clip_id": "r8_5_0",
+      "word": "ingredients",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "Lock eyes with the viewer after the last excuse",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0,
+        0
+      ],
+      "face": {
+        "eye_openness": 0.83
+      }
+    },
+    {
+      "id": "c6_1",
+      "clip_id": "r8_6_0",
+      "word": "explain",
+      "recipe": "explaining",
+      "duration": 0.38,
+      "intent": "Recover confidence in a familiar interest",
+      "hands": {
+        "left": "relaxed",
+        "right": "open_palm_up"
+      }
+    },
+    {
+      "id": "c6_2",
+      "clip_id": "r8_6_0",
+      "word": "anime",
+      "recipe": "pleased",
+      "duration": 0.38,
+      "intent": "Brief enthusiastic knowledge contrast",
+      "hands": {
+        "left": "relaxed",
+        "right": "pointing"
+      }
+    },
+    {
+      "id": "c6_3",
+      "clip_id": "r8_6_0",
+      "word": "good",
+      "recipe": "school_question",
+      "duration": 0.38,
+      "intent": "Try the much simpler greeting",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c6_4",
+      "clip_id": "r8_6_0",
+      "word": "personality",
+      "recipe": "overwhelmed",
+      "duration": 0.38,
+      "intent": "The tiny social task defeats her confidence",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c6_5",
+      "clip_id": "r8_6_0",
+      "word": "check",
+      "recipe": "school_confide",
+      "duration": 0.38,
+      "intent": "Ask the companion for a manageable next action",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "blinks": [
+        160.89
+      ]
+    },
+    {
+      "id": "c6_6",
+      "clip_id": "r8_6_0",
+      "word": "Seven",
+      "recipe": "school_point",
+      "duration": 0.28,
+      "intent": "Direct attention to who is watching",
+      "hands": {
+        "left": "relaxed",
+        "right": "pointing"
+      },
+      "motion": "stepped",
+      "step_fps": 12
+    },
+    {
+      "id": "c6_7",
+      "clip_id": "r8_6_0",
+      "word": "idea",
+      "recipe": "recover",
+      "duration": 0.38,
+      "intent": "Try to regain a plausible composed face",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c7_0",
+      "clip_id": "r8_7_0",
+      "word": "turn",
+      "recipe": "school_point",
+      "duration": 0.28,
+      "intent": "Invite an actual look behind her",
+      "hands": {
+        "left": "relaxed",
+        "right": "pointing"
+      },
+      "motion": "stepped",
+      "step_fps": 12
+    },
+    {
+      "id": "c7_1",
+      "clip_id": "r8_7_0",
+      "word": "toys",
+      "recipe": "realization",
+      "duration": 0.18,
+      "intent": "The audience is smaller than her imagined catastrophe",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "face": {
+        "eye_openness": 1.18,
+        "pupil_scale": 0.75
+      }
+    },
+    {
+      "id": "c7_2",
+      "clip_id": "r8_7_0",
+      "word": "rehearsal",
+      "recipe": "school_relief",
+      "duration": 0.62,
+      "intent": "Release the tension",
+      "hands": {
+        "left": "relaxed",
+        "right": "open_palm_up"
+      }
+    },
+    {
+      "id": "c7_3",
+      "clip_id": "r8_7_0",
+      "word": "apology",
+      "recipe": "school_shame",
+      "duration": 0.5,
+      "intent": "Recognize how far the spiral went",
+      "hands": {
+        "left": "relaxed",
+        "right": "hand_to_cheek"
+      },
+      "gaze": [
+        0.25,
+        0.3
+      ],
+      "blinks": [
+        175.93
+      ]
+    },
+    {
+      "id": "c7_4",
+      "clip_id": "r8_7_0",
+      "word": "duck",
+      "recipe": "skeptical",
+      "duration": 0.32,
+      "intent": "Begin taking the toy personally",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.45,
+        0
+      ],
+      "face": {
+        "left_brow_tilt": -0.1,
+        "right_brow_tilt": 0.09
+      }
+    },
+    {
+      "id": "c7_5",
+      "clip_id": "r8_7_0",
+      "word": "knows",
+      "recipe": "quiet_recoil",
+      "duration": 0.38,
+      "intent": "A specific suspicious duck thought",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c7_6",
+      "clip_id": "r8_7_0",
+      "word": "Nine",
+      "recipe": "school_present",
+      "duration": 0.38,
+      "intent": "Offer courage or another absurd escape",
+      "hands": {
+        "left": "relaxed",
+        "right": "open_palm_up"
+      }
+    },
+    {
+      "id": "c7_7",
+      "clip_id": "r8_7_0",
+      "word": "bear",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "Stop before explaining herself to another toy",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0,
+        0
+      ],
+      "face": {
+        "eye_openness": 0.83
+      }
+    },
+    {
+      "id": "c8_0",
+      "clip_id": "r8_8_0",
+      "word": "still",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "Freeze the planted full-body silhouette",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0,
+        0
+      ],
+      "face": {
+        "eye_openness": 0.83
+      }
+    },
+    {
+      "id": "c8_1",
+      "clip_id": "r8_8_0",
+      "word": "chair",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "Only the dry face carries the furniture claim",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0,
+        0
+      ],
+      "face": {
+        "eye_openness": 0.83
+      }
+    },
+    {
+      "id": "c8_2",
+      "clip_id": "r8_8_0",
+      "word": "eye",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "The body stays fixed while the eyes betray her",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0.6,
+        0
+      ],
+      "face": {
+        "eye_openness": 0.83
+      }
+    },
+    {
+      "id": "c8_3",
+      "clip_id": "r8_8_0",
+      "word": "toy",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "Try to reason with herself without breaking the pose",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0.2,
+        0.2
+      ],
+      "face": {
+        "eye_openness": 0.83
+      },
+      "blinks": [
+        204.57
+      ]
+    },
+    {
+      "id": "c8_4",
+      "clip_id": "r8_8_0",
+      "word": "Nine",
+      "recipe": "recover",
+      "duration": 0.38,
+      "intent": "Give up the hiding plan and release the frozen body",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c8_5",
+      "clip_id": "r8_8_0",
+      "word": "speech",
+      "recipe": "school_resolve",
+      "duration": 0.28,
+      "intent": "Choose the actual small brave action",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "stepped",
+      "step_fps": 12
+    },
+    {
+      "id": "c8_6",
+      "clip_id": "r8_8_0",
+      "word": "stuffing",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "Give the final stare back to the viewer",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0,
+        0
+      ],
+      "face": {
+        "eye_openness": 0.83
+      }
+    },
+    {
+      "id": "c9_0",
+      "clip_id": "r8_9_0",
+      "word": "whatever",
+      "recipe": "school_shame",
+      "duration": 0.5,
+      "intent": "Let the imperfect greeting happen",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.25,
+        0.3
+      ]
+    },
+    {
+      "id": "c9_1",
+      "clip_id": "r8_9_0",
+      "word": "fainted",
+      "recipe": "pleased",
+      "duration": 0.38,
+      "intent": "A modest recovery instead of a victory pose",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c9_2",
+      "clip_id": "r8_9_0",
+      "word": "disappointed",
+      "recipe": "skeptical",
+      "duration": 0.32,
+      "intent": "One last glance toward the imagined critic",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.45,
+        0
+      ],
+      "face": {
+        "left_brow_tilt": -0.1,
+        "right_brow_tilt": 0.09
+      }
+    },
+    {
+      "id": "c9_3",
+      "clip_id": "r8_9_0",
+      "word": "progress",
+      "recipe": "school_relief",
+      "duration": 0.62,
+      "intent": "Accept that an imperfect attempt counts",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "c9_4",
+      "clip_id": "r8_9_0",
+      "word": "Thank",
+      "recipe": "pleased",
+      "duration": 0.38,
+      "intent": "Warm direct gratitude to one companion",
+      "hands": {
+        "left": "relaxed",
+        "right": "hand_to_chest"
+      }
+    },
+    {
+      "id": "c9_5",
+      "clip_id": "r8_9_0",
+      "word": "Friday",
+      "recipe": "realization",
+      "duration": 0.18,
+      "intent": "Finally notice the date on the pudding evidence",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "face": {
+        "eye_openness": 1.18,
+        "pupil_scale": 0.75
+      }
+    },
+    {
+      "id": "c9_6",
+      "clip_id": "r8_9_0",
+      "word": "course",
+      "recipe": "deadpan",
+      "duration": 0.12,
+      "intent": "The opening promise reverses; let it land",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "motion": "snap",
+      "gaze": [
+        0,
+        0
+      ],
+      "face": {
+        "eye_openness": 0.83
+      },
+      "blinks": [
+        232.45
+      ]
+    },
+    {
+      "id": "c9_7",
+      "clip_id": "r8_9_0",
+      "word": "Zero",
+      "recipe": "soft_shrug",
+      "duration": 0.38,
+      "intent": "Invite another attempt without a sales pitch",
+      "hands": {
+        "left": "relaxed",
+        "right": "open_palm_up"
+      }
+    }
+  ],
+  "additional_props": []
+}

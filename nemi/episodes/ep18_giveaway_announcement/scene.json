@@ -1,0 +1,1883 @@
+{
+  "version": 2,
+  "title": "Halloween Giveaway Announcement \u2014 Nemi",
+  "duration": 40.0,
+  "fps": 30,
+  "caption_size": 48,
+  "audio": "res://nemi/episodes/ep18_giveaway_announcement/audio/prepared_r5/narration.wav",
+  "audio_metadata": "res://nemi/episodes/ep18_giveaway_announcement/audio/prepared_r5/timeline.json",
+  "direction": {
+    "promise": "Nemi excites the community with a high-energy, hilarious Halloween giveaway announcement.",
+    "want": "Reward true community members with personalized, hand-crafted artwork and channel recognition.",
+    "choice": "Deliver clear rules with playful comedic banter ('no shadow clones or burner alts!') so it feels like a real creator event.",
+    "consequence": "Hyped community participation, clean fair entries, and active Discord introductions.",
+    "payoff": "A joyful, memorable storytime community celebration full of warmth and festive Halloween cheer.",
+    "beats": [
+      {
+        "start": 0.0,
+        "end": 5.4,
+        "thought": "Stop scrolling hook",
+        "focus": "Direct enthusiastic eye contact and welcoming announcement wave",
+        "visual": "nemi_creator_studio; energetic portrait",
+        "intent": "Immediately hook the audience and establish the Halloween giveaway."
+      },
+      {
+        "start": 5.4,
+        "end": 18.1,
+        "thought": "Drum roll & 3 Spooky Prizes",
+        "focus": "Comedic anticipation buildup leading to excited fanfare unveiling the 3 prizes",
+        "visual": "nemi_creator_studio; wide creator staging with tablet and prize popups",
+        "intent": "Build dramatic, playful tension before unveiling the three creative gifts."
+      },
+      {
+        "start": 18.1,
+        "end": 24.1,
+        "thought": "Frictionless steps to enter",
+        "focus": "Dynamic checklist: Discord, introductions, YouTube sub, DMs open",
+        "visual": "nemi_creator_studio; engaging community checklist",
+        "intent": "Give clear, frictionless instructions for entering."
+      },
+      {
+        "start": 24.1,
+        "end": 33.4,
+        "thought": "The rules & shadow clones comedy",
+        "focus": "Close-up squint into the camera lens with playful suspicion and urgency timer",
+        "visual": "nemi_creator_studio; intimate comedic close-up",
+        "intent": "Enforce fair rules with genuine humor and character personality."
+      },
+      {
+        "start": 33.4,
+        "end": 40.0,
+        "thought": "Warm Halloween sendoff",
+        "focus": "Beaming smile, two-handed wave, floating hearts and sparkles",
+        "visual": "nemi_creator_studio; warm festive wide",
+        "intent": "Leave the community hyped, happy, and wishing everyone good luck."
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "ev_pop_intro",
+      "at": 0.2,
+      "intent": "Audible pop for announcement opener"
+    },
+    {
+      "id": "ev_reveal_giveaway",
+      "at": 2.3,
+      "intent": "Chime reveal for Halloween theme"
+    },
+    {
+      "id": "ev_drumroll_rise",
+      "at": 6.9,
+      "intent": "Riser buildup for dramatic drumroll"
+    },
+    {
+      "id": "ev_fanfare_prizes",
+      "at": 9.0,
+      "intent": "Fanfare bells for the 3 prizes"
+    },
+    {
+      "id": "ev_prize_pfp",
+      "at": 11.15,
+      "intent": "Chime for custom PFP reveal"
+    },
+    {
+      "id": "ev_prize_doodle",
+      "at": 13.65,
+      "intent": "Chime for spooky doodle reveal"
+    },
+    {
+      "id": "ev_prize_shoutout",
+      "at": 16.35,
+      "intent": "Chime for channel shoutout reveal"
+    },
+    {
+      "id": "ev_req_discord",
+      "at": 18.5,
+      "intent": "Pop cue for Discord checklist item"
+    },
+    {
+      "id": "ev_req_youtube",
+      "at": 21.6,
+      "intent": "Pop cue for YouTube sub checklist item"
+    },
+    {
+      "id": "ev_rules_warn",
+      "at": 28.15,
+      "intent": "Comedy error accent for shadow clones rule"
+    },
+    {
+      "id": "ev_rules_clock",
+      "at": 31.2,
+      "intent": "Ticking clock for 48 hours countdown"
+    },
+    {
+      "id": "ev_outro_cheer",
+      "at": 38.0,
+      "intent": "Celebratory bells for happy Halloween outro"
+    }
+  ],
+  "actors": [
+    {
+      "id": "nemi",
+      "author": "nemi",
+      "performances": [
+        {
+          "at": 0.0,
+          "recipe": "pleased",
+          "motion": "snap",
+          "gaze": [
+            0.0,
+            0.0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "face": {
+            "eye_openness": 1.15,
+            "pupil_scale": 1.1
+          }
+        },
+        {
+          "at": 0.2,
+          "recipe": "school_gasp",
+          "motion": "snap",
+          "gaze": [
+            0.0,
+            -0.1
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "splayed_fingers"
+          }
+        },
+        {
+          "at": 2.29,
+          "recipe": "pleased",
+          "motion": "snap",
+          "gaze": [
+            0.1,
+            0.0
+          ],
+          "hands": {
+            "left": "hand_to_chest",
+            "right": "open_palm_up"
+          }
+        },
+        {
+          "at": 5.4,
+          "recipe": "lean_in",
+          "motion": "snap",
+          "gaze": [
+            0.0,
+            0.0
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "open_palm_up"
+          }
+        },
+        {
+          "at": 6.9,
+          "recipe": "school_brace",
+          "motion": "snap",
+          "gaze": [
+            0.0,
+            -0.2
+          ],
+          "hands": {
+            "left": "hands_together",
+            "right": "hands_together"
+          },
+          "face": {
+            "eye_openness": 0.2,
+            "pupil_scale": 0.9
+          }
+        },
+        {
+          "at": 9.0,
+          "recipe": "prop_present",
+          "motion": "snap",
+          "gaze": [
+            0.35,
+            0.0
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "pointing"
+          }
+        },
+        {
+          "at": 11.15,
+          "recipe": "school_point",
+          "motion": "snap",
+          "gaze": [
+            0.4,
+            -0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "finger_count_one"
+          }
+        },
+        {
+          "at": 13.65,
+          "recipe": "prop_present",
+          "motion": "snap",
+          "gaze": [
+            0.4,
+            0.0
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "finger_count_two"
+          }
+        },
+        {
+          "at": 16.35,
+          "recipe": "pleased",
+          "motion": "snap",
+          "gaze": [
+            0.3,
+            0.0
+          ],
+          "hands": {
+            "left": "finger_count_three",
+            "right": "open_palm_up"
+          }
+        },
+        {
+          "at": 18.1,
+          "recipe": "explaining",
+          "motion": "snap",
+          "gaze": [
+            0.3,
+            0.1
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "open"
+          }
+        },
+        {
+          "at": 18.74,
+          "recipe": "school_explain",
+          "motion": "snap",
+          "gaze": [
+            0.35,
+            0.0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "pointing"
+          }
+        },
+        {
+          "at": 20.3,
+          "recipe": "school_explain",
+          "motion": "snap",
+          "gaze": [
+            0.35,
+            0.1
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 21.63,
+          "recipe": "school_point",
+          "motion": "snap",
+          "gaze": [
+            0.35,
+            0.0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "pointing"
+          }
+        },
+        {
+          "at": 22.93,
+          "recipe": "lean_in",
+          "motion": "snap",
+          "gaze": [
+            0.1,
+            0.0
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "open_palm_up"
+          }
+        },
+        {
+          "at": 24.1,
+          "recipe": "school_resolve",
+          "motion": "snap",
+          "gaze": [
+            0.0,
+            0.0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "finger_count_one"
+          }
+        },
+        {
+          "at": 28.14,
+          "recipe": "skeptical",
+          "motion": "snap",
+          "gaze": [
+            0.35,
+            0.0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "pointing"
+          },
+          "face": {
+            "eye_openness": 0.65,
+            "pupil_scale": 0.85
+          }
+        },
+        {
+          "at": 31.07,
+          "recipe": "school_resolve",
+          "motion": "snap",
+          "gaze": [
+            0.3,
+            0.0
+          ],
+          "hands": {
+            "left": "finger_count_two",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 33.4,
+          "recipe": "soft_shrug",
+          "motion": "snap",
+          "gaze": [
+            0.0,
+            0.0
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "open_palm_up"
+          }
+        },
+        {
+          "at": 35.21,
+          "recipe": "school_relief",
+          "motion": "snap",
+          "gaze": [
+            0.0,
+            0.0
+          ],
+          "hands": {
+            "left": "open",
+            "right": "open"
+          },
+          "face": {
+            "eye_openness": 1.2,
+            "pupil_scale": 1.15
+          }
+        },
+        {
+          "at": 38.0,
+          "recipe": "pleased",
+          "motion": "snap",
+          "gaze": [
+            0.0,
+            0.0
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "open_palm_up"
+          }
+        },
+        {
+          "at": 39.0,
+          "recipe": "pleased",
+          "motion": "smooth",
+          "duration": 0.4,
+          "gaze": [
+            0.0,
+            0.0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "mouths": [
+        {
+          "start": 0.2,
+          "end": 0.589,
+          "shape": "small_open"
+        },
+        {
+          "start": 0.589,
+          "end": 1.052,
+          "shape": "open_excited"
+        },
+        {
+          "start": 1.052,
+          "end": 1.367,
+          "shape": "o_u"
+        },
+        {
+          "start": 1.367,
+          "end": 1.83,
+          "shape": "wide"
+        },
+        {
+          "start": 2.126,
+          "end": 2.181,
+          "shape": "small_open"
+        },
+        {
+          "start": 2.181,
+          "end": 2.293,
+          "shape": "small_open"
+        },
+        {
+          "start": 2.293,
+          "end": 2.774,
+          "shape": "open_excited"
+        },
+        {
+          "start": 2.774,
+          "end": 3.293,
+          "shape": "small_open"
+        },
+        {
+          "start": 3.293,
+          "end": 3.496,
+          "shape": "small_open"
+        },
+        {
+          "start": 3.496,
+          "end": 3.904,
+          "shape": "small_open"
+        },
+        {
+          "start": 3.904,
+          "end": 4.385,
+          "shape": "smile_wide"
+        },
+        {
+          "start": 4.385,
+          "end": 4.811,
+          "shape": "small_open"
+        },
+        {
+          "start": 5.563,
+          "end": 5.767,
+          "shape": "small_open"
+        },
+        {
+          "start": 5.767,
+          "end": 6.193,
+          "shape": "wide"
+        },
+        {
+          "start": 6.915,
+          "end": 7.396,
+          "shape": "o_u"
+        },
+        {
+          "start": 7.396,
+          "end": 7.582,
+          "shape": "small_open"
+        },
+        {
+          "start": 7.582,
+          "end": 7.896,
+          "shape": "small_open"
+        },
+        {
+          "start": 9.007,
+          "end": 9.193,
+          "shape": "wide"
+        },
+        {
+          "start": 9.193,
+          "end": 9.637,
+          "shape": "open_excited"
+        },
+        {
+          "start": 9.637,
+          "end": 10.174,
+          "shape": "wide"
+        },
+        {
+          "start": 11.137,
+          "end": 11.174,
+          "shape": "small_open"
+        },
+        {
+          "start": 11.174,
+          "end": 11.526,
+          "shape": "small_open"
+        },
+        {
+          "start": 11.526,
+          "end": 12.007,
+          "shape": "smile_wide"
+        },
+        {
+          "start": 12.007,
+          "end": 12.693,
+          "shape": "open_excited"
+        },
+        {
+          "start": 13.563,
+          "end": 13.674,
+          "shape": "small_open"
+        },
+        {
+          "start": 13.674,
+          "end": 14.248,
+          "shape": "small_open"
+        },
+        {
+          "start": 14.248,
+          "end": 14.748,
+          "shape": "smile_wide"
+        },
+        {
+          "start": 14.748,
+          "end": 15.23,
+          "shape": "small_open"
+        },
+        {
+          "start": 15.23,
+          "end": 15.47,
+          "shape": "small_open"
+        },
+        {
+          "start": 15.47,
+          "end": 16.063,
+          "shape": "small_open"
+        },
+        {
+          "start": 16.359,
+          "end": 16.489,
+          "shape": "small_open"
+        },
+        {
+          "start": 16.489,
+          "end": 16.656,
+          "shape": "small_open"
+        },
+        {
+          "start": 16.656,
+          "end": 16.804,
+          "shape": "small_open"
+        },
+        {
+          "start": 16.804,
+          "end": 16.97,
+          "shape": "small_open"
+        },
+        {
+          "start": 16.97,
+          "end": 17.119,
+          "shape": "small_open"
+        },
+        {
+          "start": 17.119,
+          "end": 17.23,
+          "shape": "small_open"
+        },
+        {
+          "start": 17.23,
+          "end": 17.452,
+          "shape": "small_open"
+        },
+        {
+          "start": 17.452,
+          "end": 17.767,
+          "shape": "small_open"
+        },
+        {
+          "start": 18.333,
+          "end": 18.537,
+          "shape": "small_open"
+        },
+        {
+          "start": 18.537,
+          "end": 18.74,
+          "shape": "ae"
+        },
+        {
+          "start": 18.74,
+          "end": 19.018,
+          "shape": "small_open"
+        },
+        {
+          "start": 19.018,
+          "end": 19.166,
+          "shape": "small_open"
+        },
+        {
+          "start": 19.166,
+          "end": 19.555,
+          "shape": "small_open"
+        },
+        {
+          "start": 20.148,
+          "end": 20.314,
+          "shape": "small_open"
+        },
+        {
+          "start": 20.314,
+          "end": 20.555,
+          "shape": "wide"
+        },
+        {
+          "start": 20.555,
+          "end": 20.611,
+          "shape": "small_open"
+        },
+        {
+          "start": 20.611,
+          "end": 21.111,
+          "shape": "ae"
+        },
+        {
+          "start": 21.629,
+          "end": 21.907,
+          "shape": "ae"
+        },
+        {
+          "start": 21.907,
+          "end": 22.166,
+          "shape": "small_open"
+        },
+        {
+          "start": 22.166,
+          "end": 22.463,
+          "shape": "smile_wide"
+        },
+        {
+          "start": 22.463,
+          "end": 22.926,
+          "shape": "small_open"
+        },
+        {
+          "start": 22.926,
+          "end": 23.129,
+          "shape": "small_open"
+        },
+        {
+          "start": 23.129,
+          "end": 23.296,
+          "shape": "o_u"
+        },
+        {
+          "start": 23.296,
+          "end": 23.611,
+          "shape": "small_open"
+        },
+        {
+          "start": 23.611,
+          "end": 23.777,
+          "shape": "small_open"
+        },
+        {
+          "start": 24.289,
+          "end": 24.604,
+          "shape": "o_u"
+        },
+        {
+          "start": 24.604,
+          "end": 24.9,
+          "shape": "small_open"
+        },
+        {
+          "start": 25.456,
+          "end": 25.733,
+          "shape": "small_open"
+        },
+        {
+          "start": 25.733,
+          "end": 26.215,
+          "shape": "small_open"
+        },
+        {
+          "start": 26.215,
+          "end": 26.548,
+          "shape": "small_open"
+        },
+        {
+          "start": 26.548,
+          "end": 26.9,
+          "shape": "small_open"
+        },
+        {
+          "start": 26.9,
+          "end": 27.345,
+          "shape": "small_open"
+        },
+        {
+          "start": 28.141,
+          "end": 28.493,
+          "shape": "small_open"
+        },
+        {
+          "start": 28.493,
+          "end": 28.77,
+          "shape": "small_open"
+        },
+        {
+          "start": 28.77,
+          "end": 29.196,
+          "shape": "small_open"
+        },
+        {
+          "start": 29.196,
+          "end": 29.585,
+          "shape": "small_open"
+        },
+        {
+          "start": 29.585,
+          "end": 29.882,
+          "shape": "small_open"
+        },
+        {
+          "start": 29.882,
+          "end": 30.474,
+          "shape": "small_open"
+        },
+        {
+          "start": 30.9,
+          "end": 30.974,
+          "shape": "small_open"
+        },
+        {
+          "start": 30.974,
+          "end": 31.067,
+          "shape": "o_u"
+        },
+        {
+          "start": 31.067,
+          "end": 31.215,
+          "shape": "small_open"
+        },
+        {
+          "start": 31.215,
+          "end": 31.863,
+          "shape": "small_open"
+        },
+        {
+          "start": 31.863,
+          "end": 32.456,
+          "shape": "o_u"
+        },
+        {
+          "start": 32.456,
+          "end": 32.752,
+          "shape": "small_open"
+        },
+        {
+          "start": 32.752,
+          "end": 32.993,
+          "shape": "wide"
+        },
+        {
+          "start": 33.578,
+          "end": 34.134,
+          "shape": "small_open"
+        },
+        {
+          "start": 34.134,
+          "end": 34.874,
+          "shape": "small_open"
+        },
+        {
+          "start": 35.208,
+          "end": 35.337,
+          "shape": "small_open"
+        },
+        {
+          "start": 35.337,
+          "end": 35.874,
+          "shape": "small_open"
+        },
+        {
+          "start": 35.874,
+          "end": 36.171,
+          "shape": "small_open"
+        },
+        {
+          "start": 36.171,
+          "end": 36.43,
+          "shape": "small_open"
+        },
+        {
+          "start": 36.43,
+          "end": 36.745,
+          "shape": "small_open"
+        },
+        {
+          "start": 36.745,
+          "end": 37.3,
+          "shape": "small_open"
+        },
+        {
+          "start": 38.004,
+          "end": 38.263,
+          "shape": "small_open"
+        },
+        {
+          "start": 38.263,
+          "end": 38.763,
+          "shape": "smile_wide"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot_01_hook",
+      "start": 0.0,
+      "end": 5.4,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            580
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          620,
+          370
+        ],
+        "zoom": 1.65
+      }
+    },
+    {
+      "id": "shot_02_prizes",
+      "start": 5.4,
+      "end": 18.1,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            460,
+            580
+          ],
+          "scale": 1.6
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          500
+        ],
+        "zoom": 1.05
+      }
+    },
+    {
+      "id": "shot_03_requirements",
+      "start": 18.1,
+      "end": 24.1,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            460,
+            580
+          ],
+          "scale": 1.6
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          500
+        ],
+        "zoom": 1.05
+      }
+    },
+    {
+      "id": "shot_04_rules",
+      "start": 24.1,
+      "end": 33.4,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            480,
+            580
+          ],
+          "scale": 1.6
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          500
+        ],
+        "zoom": 1.08
+      }
+    },
+    {
+      "id": "shot_05_outro",
+      "start": 33.4,
+      "end": 40.0,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            960,
+            580
+          ],
+          "scale": 1.7
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          480
+        ],
+        "zoom": 1.3
+      }
+    }
+  ],
+  "drawings": [
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        280,
+        120
+      ],
+      "at": 2.3,
+      "duration": 0.35,
+      "end": 5.3,
+      "size": 32,
+      "text": "HALLOWEEN GIVEAWAY!",
+      "accent": true,
+      "mode": "live",
+      "layer": 4,
+      "shots": [
+        "shot_01_hook"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        780,
+        240
+      ],
+      "at": 9.0,
+      "duration": 0.35,
+      "end": 18.0,
+      "size": 36,
+      "text": "3 HALLOWEEN PRIZES!",
+      "accent": true,
+      "mode": "live",
+      "layer": 4,
+      "shots": [
+        "shot_02_prizes"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "underline",
+      "position": [
+        980,
+        275
+      ],
+      "scale": [
+        1.4,
+        1.0
+      ],
+      "at": 9.25,
+      "duration": 0.25,
+      "end": 18.0,
+      "accent": true,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_02_prizes"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        780,
+        340
+      ],
+      "at": 11.15,
+      "duration": 0.3,
+      "end": 18.0,
+      "size": 30,
+      "text": "- 1. CUSTOM PFP",
+      "accent": false,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_02_prizes"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        780,
+        430
+      ],
+      "at": 13.65,
+      "duration": 0.3,
+      "end": 18.0,
+      "size": 30,
+      "text": "- 2. SPOOKY DOODLE",
+      "accent": false,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_02_prizes"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        780,
+        520
+      ],
+      "at": 16.35,
+      "duration": 0.3,
+      "end": 18.0,
+      "size": 30,
+      "text": "- 3. CHANNEL SHOUTOUT",
+      "accent": false,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_02_prizes"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "spark",
+      "position": [
+        1240,
+        520
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "at": 16.55,
+      "duration": 0.2,
+      "end": 18.0,
+      "accent": true,
+      "mode": "live",
+      "layer": 4,
+      "shots": [
+        "shot_02_prizes"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        760,
+        240
+      ],
+      "at": 18.35,
+      "duration": 0.35,
+      "end": 24.0,
+      "size": 36,
+      "text": "HOW TO ENTER:",
+      "accent": true,
+      "mode": "live",
+      "layer": 4,
+      "shots": [
+        "shot_03_requirements"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "underline",
+      "position": [
+        900,
+        275
+      ],
+      "scale": [
+        1.2,
+        1.0
+      ],
+      "at": 18.6,
+      "duration": 0.25,
+      "end": 24.0,
+      "accent": true,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_03_requirements"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        760,
+        330
+      ],
+      "at": 18.75,
+      "duration": 0.3,
+      "end": 24.0,
+      "size": 28,
+      "text": "- JOIN NEMI DISCORD",
+      "accent": false,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_03_requirements"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        760,
+        410
+      ],
+      "at": 20.3,
+      "duration": 0.3,
+      "end": 24.0,
+      "size": 28,
+      "text": "- SAY HI IN INTROS",
+      "accent": false,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_03_requirements"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        760,
+        490
+      ],
+      "at": 21.65,
+      "duration": 0.3,
+      "end": 24.0,
+      "size": 28,
+      "text": "- SUBSCRIBE ON YOUTUBE",
+      "accent": false,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_03_requirements"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        760,
+        570
+      ],
+      "at": 22.95,
+      "duration": 0.3,
+      "end": 24.0,
+      "size": 28,
+      "text": "- KEEP YOUR DMS OPEN",
+      "accent": false,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_03_requirements"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "arrow",
+      "position": [
+        1200,
+        570
+      ],
+      "scale": [
+        0.9,
+        0.9
+      ],
+      "at": 23.1,
+      "duration": 0.2,
+      "end": 24.0,
+      "accent": true,
+      "mode": "live",
+      "layer": 4,
+      "shots": [
+        "shot_03_requirements"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        780,
+        240
+      ],
+      "at": 24.3,
+      "duration": 0.3,
+      "end": 33.3,
+      "size": 36,
+      "text": "FAIR RULES:",
+      "accent": true,
+      "mode": "live",
+      "layer": 4,
+      "shots": [
+        "shot_04_rules"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "underline",
+      "position": [
+        890,
+        275
+      ],
+      "scale": [
+        1.1,
+        1.0
+      ],
+      "at": 24.5,
+      "duration": 0.25,
+      "end": 33.3,
+      "accent": true,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_04_rules"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        780,
+        330
+      ],
+      "at": 25.45,
+      "duration": 0.3,
+      "end": 33.3,
+      "size": 28,
+      "text": "- 1 ENTRY PER PERSON",
+      "accent": false,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_04_rules"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        780,
+        410
+      ],
+      "at": 28.15,
+      "duration": 0.3,
+      "end": 33.3,
+      "size": 30,
+      "text": "- NO SHADOW CLONES!",
+      "accent": true,
+      "mode": "live",
+      "layer": 4,
+      "shots": [
+        "shot_04_rules"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        780,
+        490
+      ],
+      "at": 31.05,
+      "duration": 0.3,
+      "end": 33.3,
+      "size": 28,
+      "text": "- 48 HOURS TO CLAIM",
+      "accent": false,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_04_rules"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "position": [
+        640,
+        130
+      ],
+      "at": 38.0,
+      "duration": 0.35,
+      "end": 40.0,
+      "size": 38,
+      "text": "HAPPY HALLOWEEN!",
+      "accent": true,
+      "mode": "live",
+      "layer": 4,
+      "shots": [
+        "shot_05_outro"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "circle",
+      "position": [
+        960,
+        130
+      ],
+      "scale": [
+        3.2,
+        1.2
+      ],
+      "at": 38.3,
+      "duration": 0.3,
+      "end": 40.0,
+      "accent": true,
+      "mode": "live",
+      "layer": 3,
+      "shots": [
+        "shot_05_outro"
+      ]
+    }
+  ],
+  "props": [
+    {
+      "author": "nemi",
+      "kind": "sparkle_stars",
+      "position": [
+        780,
+        240
+      ],
+      "scale": [
+        0.8,
+        0.8
+      ],
+      "at": 0.2,
+      "end": 5.3,
+      "mode": "hold",
+      "layer": 3,
+      "shots": [
+        "shot_01_hook"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_tablet_work",
+      "position": [
+        1350,
+        620
+      ],
+      "scale": [
+        0.75,
+        0.75
+      ],
+      "at": 5.5,
+      "end": 18.0,
+      "mode": "hold",
+      "layer": 2,
+      "shots": [
+        "shot_02_prizes"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "school_chat_phone",
+      "position": [
+        1420,
+        480
+      ],
+      "scale": [
+        0.65,
+        0.65
+      ],
+      "at": 18.2,
+      "end": 24.0,
+      "mode": "hold",
+      "layer": 2,
+      "shots": [
+        "shot_03_requirements"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "confusion_marks",
+      "position": [
+        440,
+        260
+      ],
+      "scale": [
+        0.85,
+        0.85
+      ],
+      "at": 28.14,
+      "end": 31.0,
+      "mode": "hold",
+      "layer": 3,
+      "shots": [
+        "shot_04_rules"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "scam_urgency_timer",
+      "position": [
+        1400,
+        480
+      ],
+      "scale": [
+        0.7,
+        0.7
+      ],
+      "at": 31.0,
+      "end": 33.3,
+      "mode": "hold",
+      "layer": 3,
+      "shots": [
+        "shot_04_rules"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "sparkle_stars",
+      "position": [
+        660,
+        240
+      ],
+      "scale": [
+        0.7,
+        0.7
+      ],
+      "at": 33.5,
+      "end": 40.0,
+      "mode": "hold",
+      "layer": 3,
+      "shots": [
+        "shot_05_outro"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "heart_doodle",
+      "position": [
+        1260,
+        240
+      ],
+      "scale": [
+        0.8,
+        0.8
+      ],
+      "at": 35.0,
+      "end": 40.0,
+      "mode": "hold",
+      "layer": 3,
+      "shots": [
+        "shot_05_outro"
+      ]
+    }
+  ],
+  "vfx": [],
+  "sfx": [
+    {
+      "file": "res://common/audio/sfx/pop.mp3",
+      "at": 0.2,
+      "duration": 0.8,
+      "gain_db": -6.0,
+      "event": "ev_pop_intro"
+    },
+    {
+      "file": "res://common/audio/sfx/chime.mp3",
+      "at": 2.3,
+      "duration": 1.2,
+      "gain_db": -8.0,
+      "event": "ev_reveal_giveaway"
+    },
+    {
+      "file": "res://common/audio/sfx/riser.mp3",
+      "at": 6.9,
+      "duration": 1.6,
+      "gain_db": -6.0,
+      "event": "ev_drumroll_rise"
+    },
+    {
+      "file": "res://common/audio/sfx/stings/sting_happy_bells_01.wav",
+      "at": 9.0,
+      "duration": 1.5,
+      "gain_db": -7.0,
+      "event": "ev_fanfare_prizes"
+    },
+    {
+      "file": "res://common/audio/sfx/chime.mp3",
+      "at": 11.15,
+      "duration": 1.0,
+      "gain_db": -8.0,
+      "event": "ev_prize_pfp"
+    },
+    {
+      "file": "res://common/audio/sfx/chime.mp3",
+      "at": 13.65,
+      "duration": 1.0,
+      "gain_db": -8.0,
+      "event": "ev_prize_doodle"
+    },
+    {
+      "file": "res://common/audio/sfx/chime.mp3",
+      "at": 16.35,
+      "duration": 1.0,
+      "gain_db": -8.0,
+      "event": "ev_prize_shoutout"
+    },
+    {
+      "file": "res://common/audio/sfx/pop.mp3",
+      "at": 18.5,
+      "duration": 0.8,
+      "gain_db": -7.0,
+      "event": "ev_req_discord"
+    },
+    {
+      "file": "res://common/audio/sfx/pop.mp3",
+      "at": 21.6,
+      "duration": 0.8,
+      "gain_db": -7.0,
+      "event": "ev_req_youtube"
+    },
+    {
+      "file": "res://common/audio/sfx/error.mp3",
+      "at": 28.15,
+      "duration": 1.2,
+      "gain_db": -8.0,
+      "event": "ev_rules_warn"
+    },
+    {
+      "file": "res://common/audio/sfx/clock-ticking.mp3",
+      "at": 31.2,
+      "duration": 1.8,
+      "gain_db": -9.0,
+      "event": "ev_rules_clock"
+    },
+    {
+      "file": "res://common/audio/sfx/stings/sting_happy_bells_01.wav",
+      "at": 38.0,
+      "duration": 2.0,
+      "gain_db": -6.0,
+      "event": "ev_outro_cheer"
+    }
+  ],
+  "music": [],
+  "script": [
+    {
+      "actor": "nemi",
+      "start": 0.2,
+      "end": 5.203,
+      "text": "Stop scrolling you guys. We are officially hosting a massive Halloween giveaway."
+    },
+    {
+      "actor": "nemi",
+      "start": 5.563,
+      "end": 17.973,
+      "text": "The prizes? Drum roll please? Three spooky prizes. A custom Halloween PFP. A personalized doodle drawn by me. And a shout out in my next video."
+    },
+    {
+      "actor": "nemi",
+      "start": 18.333,
+      "end": 23.929,
+      "text": "To enter join our Discord, say hi and introductions, subscribe on YouTube and keep your DMs open."
+    },
+    {
+      "actor": "nemi",
+      "start": 24.289,
+      "end": 33.218,
+      "text": "Rule 1. Only one entry per person. No shadow clones or burner ults, and you have 48 hours to claim."
+    },
+    {
+      "actor": "nemi",
+      "start": 33.578,
+      "end": 39.322,
+      "text": "No spamming, be nice and good luck everyone. Happy Halloween!"
+    }
+  ],
+  "captions": [
+    {
+      "actor": "nemi",
+      "words": [
+        0,
+        3
+      ],
+      "start": 0.2,
+      "end": 1.8696300000000001,
+      "text": "Stop scrolling, you guys!"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        4,
+        7
+      ],
+      "start": 2.125926,
+      "end": 3.292593,
+      "text": "We are officially hosting"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        8,
+        11
+      ],
+      "start": 3.292593,
+      "end": 4.851111,
+      "text": "a massive Halloween giveaway!"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        12,
+        13
+      ],
+      "start": 5.563,
+      "end": 6.23263,
+      "text": "The prizes?"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        14,
+        16
+      ],
+      "start": 6.914852,
+      "end": 7.936333,
+      "text": "Drum roll, please!"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        17,
+        19
+      ],
+      "start": 9.007444,
+      "end": 10.214110999999999,
+      "text": "Three spooky prizes:"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        20,
+        23
+      ],
+      "start": 11.137074,
+      "end": 12.732629999999999,
+      "text": "A custom Halloween PFP,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        24,
+        26
+      ],
+      "start": 13.563,
+      "end": 14.748185,
+      "text": "a personalized doodle"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        27,
+        29
+      ],
+      "start": 14.748185,
+      "end": 16.102999999999998,
+      "text": "drawn by me,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        30,
+        33
+      ],
+      "start": 16.359296,
+      "end": 16.970407,
+      "text": "and a shout out"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        34,
+        37
+      ],
+      "start": 16.970407,
+      "end": 17.806704,
+      "text": "in my next video!"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        38,
+        42
+      ],
+      "start": 18.333,
+      "end": 19.595222,
+      "text": "To enter, join our Discord,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        43,
+        46
+      ],
+      "start": 20.147815,
+      "end": 21.150778,
+      "text": "say hi and introductions,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        47,
+        49
+      ],
+      "start": 21.629296,
+      "end": 22.46263,
+      "text": "subscribe on YouTube,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        50,
+        54
+      ],
+      "start": 22.46263,
+      "end": 23.817444,
+      "text": "and keep your DMs open!"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        55,
+        56
+      ],
+      "start": 24.289,
+      "end": 24.940110999999998,
+      "text": "Rule 1:"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        57,
+        61
+      ],
+      "start": 25.455667,
+      "end": 27.384556,
+      "text": "Only one entry per person!"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        62,
+        64
+      ],
+      "start": 28.140852,
+      "end": 29.196407,
+      "text": "No shadow clones"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        65,
+        67
+      ],
+      "start": 29.196407,
+      "end": 30.514184999999998,
+      "text": "or burner ults,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        68,
+        71
+      ],
+      "start": 30.900111,
+      "end": 31.863074,
+      "text": "and you have 48"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        72,
+        74
+      ],
+      "start": 31.863074,
+      "end": 33.032704,
+      "text": "hours to claim!"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        75,
+        76
+      ],
+      "start": 33.578,
+      "end": 34.914296,
+      "text": "No spamming,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        77,
+        78
+      ],
+      "start": 35.20763,
+      "end": 35.874296,
+      "text": "be nice,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        79,
+        82
+      ],
+      "start": 35.874296,
+      "end": 37.340222,
+      "text": "and good luck everyone!"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        83,
+        84
+      ],
+      "start": 38.003926,
+      "end": 38.803185,
+      "text": "Happy Halloween!"
+    }
+  ],
+  "overlays": [],
+  "mix": {
+    "master_gain_db": 5.8,
+    "target_lufs": -18.0,
+    "peak_dbfs": -2.0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "identity": {
+    "model_name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "repo_id": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+    "model_version": "1.7B-CustomVoice-bf16",
+    "runtime": "mlx-audio",
+    "license": "Qwen Community License / Apache 2.0",
+    "speaker": "sohee",
+    "voice_identifier": "sohee",
+    "voice_design_prompt": "Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful.",
+    "language": "English",
+    "sample_rate": 24000,
+    "output_format": "WAV",
+    "default_speed": 1.0,
+    "ref_audio_path": "audio/nemi/reference/nemi_golden_reference.wav",
+    "ref_text_path": "audio/nemi/reference/nemi_golden_reference.txt",
+    "pause_policy": {
+      "short_pause": 0.2,
+      "medium_pause": 0.35,
+      "thought_pause": 0.45,
+      "deadpan_pause": 1.5,
+      "dramatic_pause": 0.8,
+      "stinger_pause": 0.2
+    },
+    "device": "mps"
+  },
+  "copied_model": ".cache/models/qwen.provenance.json",
+  "source_edit_plan_sha256": null,
+  "source_edit_policy": "Only explicit hash-bound quiet-gap ranges; 60ms measured word edges and energy limits; independently realigned final processed audio",
+  "copied_alignment_model": ".cache/models/whisper.provenance.json",
+  "dialogue_sha256": "f97337d894d08459d8646384d9f18392a0e96ae2bba6fb261c0788e40507a5ac",
+  "audio_sha256": "447fbd638e228871642193f9f90cef89a50adef6034a4acbe536c21d74aee4d1",
+  "duration": 45.0,
+  "sample_rate": 24000,
+  "channels": 1,
+  "no_pitch_formant_eq_or_identity_change": true,
+  "listening_review": "pending",
+  "alignment_review": "pending; ASR words are approximate and can differ from script",
+  "canonical_copies": {
+    "config.py": "e40065f248800836e45e48b95af92a745bf1564c17552c1a2eb4a87956223e66",
+    "engine.py": "768dc188162a50884d1d8f97bc4614ffc3b9294a8bb526edec39fef7dbe9736a",
+    "pacing.py": "74112e48deb29eb30cf60a26afb11346d56594cb5b0de8f42429bf566022404f"
+  }
+}

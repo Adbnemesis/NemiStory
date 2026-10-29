@@ -1,0 +1,18 @@
+.cache/
+cache/
+**/.godot/
+**/__pycache__/
+**/*.pyc
+**/*.mp4
+**/*.avi
+**/*.wav
+**/*.m4a
+**/*.mp3
+**/*.ogg
+**/*.log
+# Frozen production media is recreated from the local source paths/provenance.
+engine/godot/nemi/playable_storytime/episodes/**/audio/
+engine/godot/nemi/playable_storytime/episodes/**/review/
+previews/fixtures/*.mp4
+documentation/isolation_baseline.json
+documentation/isolation_check.json

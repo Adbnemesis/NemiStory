@@ -1,0 +1,18 @@
+{
+  "added": [],
+  "deleted": [],
+  "modified": [],
+  "inventory_errors": [],
+  "passed": true,
+  "baseline": "/Users/talus/Documents/adb/nemi/playable_storytime/documentation/isolation_baseline.json",
+  "checked_utc": "2026-10-26T06:51:55.860852+00:00",
+  "baseline_files": 14617,
+  "limitations": [
+    "SHA256 covers recognized source/configuration files up to 4 MiB. Other files, large media, and sensitive-name files are checked by size, mtime_ns and mode only.",
+    "A large-file change that restores all recorded metadata could evade this check. This report is not a full media-content attestation.",
+    "Excluded .git, .venv, .godot and node_modules directory contents are not monitored; every discovered excluded path is listed.",
+    "External concurrent changes are detected but cannot be attributed automatically to this production.",
+    "The baseline preserves the existing dirty Git state; check compares filesystem state rather than assuming a clean checkout.",
+    "File access times are intentionally ignored because read-only inspection can change them."
+  ]
+}

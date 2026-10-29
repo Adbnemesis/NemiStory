@@ -1,0 +1,201 @@
+extends Node2D
+## Version 2: shot grammar, grounded acting, props, held/live art, VFX, sound.
+const OldStage=preload("res://common/storytime/StorytimeStage.gd")
+const Acting=preload("res://common/storytime/production/ActingTimeline.gd")
+const Art=preload("res://common/storytime/production/SceneArt.gd")
+const Assets=preload("res://common/storytime/ProfileAssets.gd")
+const Background=preload("res://common/storytime/production/Backdrop.gd")
+const Media=preload("res://common/storytime/production/ProductionAudio.gd")
+const Accent=preload("res://common/storytime/production/BeatVFX.gd")
+const Motion=preload("res://common/storytime/production/Motion.gd")
+const HandPaths=preload("res://common/storytime/production/HandPaths.gd")
+var spec: Dictionary
+var manual := false
+var spec_path := "res://common/storytime/examples/storytime_direction_10s.json"
+var world: Node2D
+var backdrop: Node2D
+var actors: Dictionary={}
+var pictures: Array[Dictionary]=[]
+var effects: Array[Dictionary]=[]
+var caption: Label
+var editorial_labels: Array[Dictionary]=[]
+var acting := Acting.new()
+var elapsed := 0.0
+var audio_clock: AudioStreamPlayer
+var sfx_players: Array[Dictionary]=[]
+var last_time := -1.0
+var current_shot := ""
+
+func _ready() -> void:
+	for arg in OS.get_cmdline_user_args():
+		if arg.begins_with("--spec="): spec_path=arg.trim_prefix("--spec=")
+	spec=JSON.parse_string(FileAccess.get_file_as_string(spec_path))
+	world=Node2D.new()
+	add_child(world)
+	backdrop=Background.new()
+	world.add_child(backdrop)
+	for item in spec.actors:
+		var actor: Node2D=OldStage.Scenes[item.author].instantiate()
+		world.add_child(actor)
+		actor.process_mode=Node.PROCESS_MODE_DISABLED
+		actor.z_index=1
+		acting.bind(actor,item.author)
+		actors[item.id]={"node":actor,"spec":item}
+	for item in spec.drawings+spec.get("props",[]):
+		var node: Node2D
+		if item.kind=="text": node=Assets.lettering(item.author,item.text,item.size,item.get("accent",false),item.get("variant",0))
+		else: node=Art.make(item.author,item.kind)
+		world.add_child(node)
+		node.z_index=item.get("layer",2)
+		pictures.append({"node":node,"spec":item})
+	for item in spec.get("vfx",[]):
+		var node=Accent.new()
+		node.kind=item.kind
+		node.author=item.author
+		node.strength=item.get("strength",1.0)
+		node.z_index=5
+		world.add_child(node)
+		effects.append({"node":node,"spec":item})
+	caption=Label.new()
+	caption.z_index=100
+	caption.position=Vector2(120,974)
+	caption.size=Vector2(1680,65)
+	caption.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+	caption.add_theme_font_size_override("font_size",spec.get("caption_size",32))
+	caption.add_theme_color_override("font_color",Color("#493a42"))
+	caption.add_theme_color_override("font_outline_color",Color("#faf7f1"))
+	caption.add_theme_constant_override("outline_size",8)
+	add_child(caption)
+	# Editorial typography is independent of each author's hand-drawn lettering.
+	for item in spec.get("overlays",[]):
+		var label := Label.new()
+		var serif: bool=item.style=="red_serif"
+		var font := SystemFont.new()
+		font.font_names=PackedStringArray(["Times New Roman","Times","Liberation Serif"] if serif else ["Arial","Helvetica","Liberation Sans"])
+		font.font_weight=400 if serif else 700
+		label.add_theme_font_override("font",font)
+		var font_size: int=int(item.get("size",580 if serif else 72))
+		label.add_theme_font_size_override("font_size",font_size)
+		label.add_theme_color_override("font_color",Color("#e00000"))
+		label.add_theme_color_override("font_outline_color",Color("#450000"))
+		label.add_theme_constant_override("outline_size",0 if serif else 3)
+		var origin: Array=item.get("position",[0,-96] if serif else [120,720])
+		label.position=Vector2(origin[0],origin[1])
+		var measured: float=font.get_string_size(item.text,HORIZONTAL_ALIGNMENT_LEFT,-1,font_size).x
+		label.size=Vector2(maxf(1920,measured+12) if serif else 1680,800 if serif else 340)
+		label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+		if serif:
+			# Keep the tall cap height. Compress long words horizontally only.
+			label.scale.x=minf(0.78,1920.0/label.size.x)
+			label.position.x+=(1920.0-label.size.x*label.scale.x)/2.0
+		if not serif: label.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART
+		label.text=item.text
+		label.z_index=101
+		add_child(label)
+		editorial_labels.append({"node":label,"spec":item})
+	if not manual:
+		if spec.get("audio"):
+			audio_clock=AudioStreamPlayer.new()
+			audio_clock.stream=Media.read(spec.audio)
+			audio_clock.volume_db=-2.0+float(spec.get("mix",{}).get("master_gain_db",0))
+			add_child(audio_clock)
+			audio_clock.play()
+		for item in spec.get("sfx",[])+spec.get("music",[]):
+			var player := AudioStreamPlayer.new()
+			player.stream=Media.read(item.file)
+			player.volume_db=item.gain_db+float(spec.get("mix",{}).get("master_gain_db",0))
+			add_child(player)
+			sfx_players.append({"node":player,"spec":item})
+	sample(0.0)
+
+func _process(delta: float) -> void:
+	if manual: return
+	elapsed+=delta
+	if audio_clock and audio_clock.playing:
+		elapsed=maxf(0,audio_clock.get_playback_position()+AudioServer.get_time_since_last_mix()-AudioServer.get_output_latency())
+	sample(elapsed)
+	if elapsed>=float(spec.duration): get_tree().quit()
+
+func sample(time: float) -> void:
+	var shot: Dictionary=spec.shots[0]
+	for item in spec.shots:
+		if time>=item.start and time<item.end: shot=item
+	current_shot=shot.id
+	backdrop.set_kind(shot.background)
+	var camera: Dictionary=shot.get("camera",{})
+	var zoom: float=camera.get("zoom",1.0)
+	var center: Array=camera.get("center",[960,540])
+	if camera.has("path"):
+		var point := Motion.point(camera.path,time,"center")
+		center=[point.x,point.y]
+		zoom=Motion.scalar(camera.path,time,"zoom",zoom)
+	world.scale=Vector2.ONE*zoom
+	world.position=Vector2(960,540)-Vector2(center[0],center[1])*zoom
+	for id in actors:
+		var entry: Dictionary=actors[id]
+		var node: Node2D=entry.node
+		node.visible=shot.actors.has(id)
+		if not node.visible: continue
+		var block: Dictionary=shot.actors[id]
+		node.position=Vector2(block.position[0],block.position[1])
+		node.scale=Vector2.ONE*float(block.scale)
+		acting.sample(node,entry.spec.author,entry.spec.performances,time)
+		var hand_window: Array=entry.spec.get("hand_path_window",[0,spec.duration])
+		if time>=float(hand_window[0]) and time<float(hand_window[1]):
+			HandPaths.sample(node,entry.spec.author,entry.spec.get("hand_paths",{}),time)
+		for mouth in entry.spec.get("mouths",[]):
+			if time>=mouth.start and time<mouth.end:
+				if entry.spec.author=="nemi": node.set_mouth_shape(mouth.shape)
+				else: node.set_mouth(mouth.shape)
+	for entry in pictures:
+		var item: Dictionary=entry.spec
+		var node: Node2D=entry.node
+		node.visible=time>=item.at and time<item.end and (not item.has("shots") or current_shot in item.shots)
+		if not node.visible: continue
+		var scale_value: Array=item.get("scale",[1,1])
+		node.scale=Vector2(scale_value[0],scale_value[1])
+		node.rotation_degrees=item.get("tilt",0)
+		# Resting and held phases use the same authored physical object size.
+		if item.has("attach"):
+			node.scale*=actors[item.attach.actor].node.scale
+		if item.has("attach") and time>=float(item.get("attach_start",item.at)) and time<float(item.get("attach_end",item.end)):
+			var attach: Dictionary=item.attach
+			var actor: Node2D=actors[attach.actor].node
+			node.visible=actor.visible
+			var hand: Node2D=actor.get(attach.hand+"_hand_bone") if actors[attach.actor].spec.author=="nemi" else actor.get(attach.hand+"_hand_node")
+			node.global_scale=actor.global_scale*Vector2(scale_value[0],scale_value[1])
+			node.global_rotation=hand.global_rotation+deg_to_rad(float(attach.get("angle",0)))
+			var grip: Array=attach.grip
+			var socket: Vector2=hand.get_prop_anchor() if hand.has_method("get_prop_anchor") else Vector2(0,8)
+			if attach.has("socket"): socket=Vector2(attach.socket[0],attach.socket[1])
+			node.global_position=hand.to_global(socket)-node.global_transform.basis_xform(Vector2(grip[0],grip[1]))
+		else:
+			node.position=Motion.point(item.path,time) if item.has("path") else Vector2(item.position[0],item.position[1])
+			if item.has("path"): node.rotation_degrees=Motion.scalar(item.path,time,"tilt",item.get("tilt",0))
+		node.progress=clampf((time-item.at)/float(item.duration),0,1) if item.get("mode","hold")=="live" else 1.0
+	for entry in effects:
+		var item: Dictionary=entry.spec
+		var node: Node2D=entry.node
+		node.visible=time>=item.at and time<item.end and (not item.has("shots") or current_shot in item.shots)
+		if not node.visible: continue
+		if item.has("actor"):
+			var actor: Node2D=actors[item.actor].node
+			node.visible=actor.visible
+			var offset: Array=item.get("offset",[80,-30])
+			node.global_position=actor.face.global_position+world.global_transform.basis_xform(Vector2(offset[0],offset[1]))
+		else: node.position=Vector2(item.position[0],item.position[1])
+		node.sample((time-item.at)/(item.end-item.at))
+	caption.text=""
+	for item in spec.get("captions",[]):
+		if time>=item.start and time<item.end: caption.text=item.text
+	for entry in editorial_labels:
+		entry.node.visible=time>=entry.spec.start and time<entry.spec.end
+	# Audio events follow the same absolute timeline and never retrigger on hold.
+	for entry in sfx_players:
+		var item: Dictionary=entry.spec
+		if time<last_time:
+			entry.node.stop()
+			if time>=item.at and time<item.at+item.duration: entry.node.play(float(item.get("source_start",0))+time-item.at)
+		elif last_time<item.at and time>=item.at: entry.node.play(float(item.get("source_start",0))+maxf(0,time-item.at))
+		if time>=item.at+item.duration: entry.node.stop()
+	last_time=time

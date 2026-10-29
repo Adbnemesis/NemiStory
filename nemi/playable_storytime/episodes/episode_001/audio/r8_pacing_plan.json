@@ -1,0 +1,406 @@
+{
+  "created_utc": "2026-10-26T05:53:11.114558+00:00",
+  "revision": "r8",
+  "canonical_sohee_identity_unchanged": true,
+  "dialogue_sha256": "b5cc4b84c6295c542607cb8a2d3ab49cdd2d9f1686da05ebd92f3532a796889c",
+  "narration_sha256": "c12d75dec313942e3535121534dda87a31ffc5562313693bfa230a7e18bf37e0",
+  "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+  "clips": [
+    {
+      "id": "r8_0_0",
+      "words": 52,
+      "source_duration": 21.36,
+      "edited_source_duration": 21.36,
+      "tempo": 1.08,
+      "final_duration": 19.764166666666668,
+      "at": 0.35,
+      "end_at": 20.114167,
+      "window_end": 23.8,
+      "end_hold_to_chapter_boundary": 3.885833,
+      "source_edits": [],
+      "asr_script_differences": [
+        {
+          "tag": "replace",
+          "expected": [
+            "pudding"
+          ],
+          "asr": [
+            "putting"
+          ]
+        }
+      ],
+      "alignment": "res://episodes/episode_001/audio/processed/r8_0_0_533e45fb34f8_tempo1.080.words.json"
+    },
+    {
+      "id": "r8_1_0",
+      "words": 54,
+      "source_duration": 24.88,
+      "edited_source_duration": 24.88,
+      "tempo": 1.08,
+      "final_duration": 23.009541666666667,
+      "at": 24.35,
+      "end_at": 47.359542,
+      "window_end": 47.8,
+      "end_hold_to_chapter_boundary": 0.640458,
+      "source_edits": [],
+      "asr_script_differences": [],
+      "alignment": "res://episodes/episode_001/audio/processed/r8_1_0_01bd83ff793a_tempo1.080.words.json"
+    },
+    {
+      "id": "r8_2_0",
+      "words": 52,
+      "source_duration": 21.04,
+      "edited_source_duration": 21.04,
+      "tempo": 1.08,
+      "final_duration": 19.478166666666667,
+      "at": 48.35,
+      "end_at": 67.828167,
+      "window_end": 71.8,
+      "end_hold_to_chapter_boundary": 4.171833,
+      "source_edits": [],
+      "asr_script_differences": [
+        {
+          "tag": "replace",
+          "expected": [
+            "understudy"
+          ],
+          "asr": [
+            "under",
+            "study"
+          ]
+        }
+      ],
+      "alignment": "res://episodes/episode_001/audio/processed/r8_2_0_cda613aa956b_tempo1.080.words.json"
+    },
+    {
+      "id": "r8_3_0",
+      "words": 52,
+      "source_duration": 29.52,
+      "edited_source_duration": 26.07,
+      "tempo": 1.12,
+      "final_duration": 23.255708333333335,
+      "at": 72.35,
+      "end_at": 95.605708,
+      "window_end": 95.8,
+      "end_hold_to_chapter_boundary": 0.394292,
+      "source_edits": [
+        {
+          "start": 9.65,
+          "end": 10.95,
+          "reason": "Shorten the ordinary hesitation after you know; retain both breath edges",
+          "start_sample": 231600,
+          "end_sample": 262800,
+          "removed_seconds": 1.3,
+          "rms_dbfs": -87.8788,
+          "peak_dbfs": -73.407,
+          "measured_gap": {
+            "after": "know?",
+            "before": "Cariobox",
+            "start": 9.38,
+            "end": 11.339999999999998
+          }
+        },
+        {
+          "start": 16.9,
+          "end": 18.1,
+          "reason": "Tighten explanation transition after microphone; retain 0.76 second thought gap",
+          "start_sample": 405600,
+          "end_sample": 434400,
+          "removed_seconds": 1.2,
+          "rms_dbfs": -89.86,
+          "peak_dbfs": -76.3296,
+          "measured_gap": {
+            "after": "microphone.",
+            "before": "Apparently,",
+            "start": 16.52,
+            "end": 18.48
+          }
+        },
+        {
+          "start": 25.0,
+          "end": 25.65,
+          "reason": "Move from the enthusiastic-box joke into the noticeboard request",
+          "start_sample": 600000,
+          "end_sample": 615600,
+          "removed_seconds": 0.65,
+          "rms_dbfs": -85.9778,
+          "peak_dbfs": -73.407,
+          "measured_gap": {
+            "after": "box.",
+            "before": "Four,",
+            "start": 24.62,
+            "end": 25.939999999999998
+          }
+        },
+        {
+          "start": 27.85,
+          "end": 28.15,
+          "reason": "Close an ordinary internal pause after please",
+          "start_sample": 668400,
+          "end_sample": 675600,
+          "removed_seconds": 0.3,
+          "rms_dbfs": -83.7423,
+          "peak_dbfs": -73.407,
+          "measured_gap": {
+            "after": "please.",
+            "before": "We",
+            "start": 27.4,
+            "end": 28.34
+          }
+        }
+      ],
+      "asr_script_differences": [
+        {
+          "tag": "replace",
+          "expected": [
+            "why"
+          ],
+          "asr": [
+            "what"
+          ]
+        },
+        {
+          "tag": "replace",
+          "expected": [
+            "at"
+          ],
+          "asr": [
+            "it"
+          ]
+        },
+        {
+          "tag": "replace",
+          "expected": [
+            "ticked"
+          ],
+          "asr": [
+            "took"
+          ]
+        },
+        {
+          "tag": "replace",
+          "expected": [
+            "noticeboard"
+          ],
+          "asr": [
+            "notice",
+            "board"
+          ]
+        }
+      ],
+      "alignment": "res://episodes/episode_001/audio/processed/r8_3_0_ed3e9427a83c_edit53cfd22995fc_tempo1.120.words.json"
+    },
+    {
+      "id": "r8_4_0",
+      "words": 53,
+      "source_duration": 25.28,
+      "edited_source_duration": 25.28,
+      "tempo": 1.08,
+      "final_duration": 23.386458333333334,
+      "at": 96.35,
+      "end_at": 119.736458,
+      "window_end": 119.8,
+      "end_hold_to_chapter_boundary": 0.263542,
+      "source_edits": [],
+      "asr_script_differences": [
+        {
+          "tag": "replace",
+          "expected": [
+            "noticeboard"
+          ],
+          "asr": [
+            "notice",
+            "board"
+          ]
+        },
+        {
+          "tag": "replace",
+          "expected": [
+            "pudding"
+          ],
+          "asr": [
+            "putting"
+          ]
+        }
+      ],
+      "alignment": "res://episodes/episode_001/audio/processed/r8_4_0_3db8079f7b3e_tempo1.080.words.json"
+    },
+    {
+      "id": "r8_5_0",
+      "words": 55,
+      "source_duration": 28.0,
+      "edited_source_duration": 25.95,
+      "tempo": 1.12,
+      "final_duration": 23.179791666666667,
+      "at": 120.35,
+      "end_at": 143.529792,
+      "window_end": 143.8,
+      "end_hold_to_chapter_boundary": 0.470208,
+      "source_edits": [
+        {
+          "start": 11.8,
+          "end": 12.5,
+          "reason": "Keep the cupboard-for-pudding sentence connected before and somehow",
+          "start_sample": 283200,
+          "end_sample": 300000,
+          "removed_seconds": 0.7,
+          "rms_dbfs": -67.7592,
+          "peak_dbfs": -60.4818,
+          "measured_gap": {
+            "after": "putting.",
+            "before": "And",
+            "start": 11.4,
+            "end": 12.76
+          }
+        },
+        {
+          "start": 16.1,
+          "end": 17.0,
+          "reason": "Tighten transition from spoon observation to sandwich aside",
+          "start_sample": 386400,
+          "end_sample": 408000,
+          "removed_seconds": 0.9,
+          "rms_dbfs": -66.782,
+          "peak_dbfs": -58.7133,
+          "measured_gap": {
+            "after": "spoon.",
+            "before": "Please",
+            "start": 15.7,
+            "end": 17.32
+          }
+        },
+        {
+          "start": 23.15,
+          "end": 23.6,
+          "reason": "Connect Come on with the practical instruction",
+          "start_sample": 555600,
+          "end_sample": 566400,
+          "removed_seconds": 0.45,
+          "rms_dbfs": -67.688,
+          "peak_dbfs": -60.206,
+          "measured_gap": {
+            "after": "on.",
+            "before": "Six",
+            "start": 22.82,
+            "end": 23.96
+          }
+        }
+      ],
+      "asr_script_differences": [
+        {
+          "tag": "replace",
+          "expected": [
+            "stationery"
+          ],
+          "asr": [
+            "stationary"
+          ]
+        },
+        {
+          "tag": "replace",
+          "expected": [
+            "pudding"
+          ],
+          "asr": [
+            "putting"
+          ]
+        },
+        {
+          "tag": "replace",
+          "expected": [
+            "won"
+          ],
+          "asr": [
+            "one"
+          ]
+        }
+      ],
+      "alignment": "res://episodes/episode_001/audio/processed/r8_5_0_8bbe3d84adec_edit53cfd22995fc_tempo1.120.words.json"
+    },
+    {
+      "id": "r8_6_0",
+      "words": 53,
+      "source_duration": 26.08,
+      "edited_source_duration": 26.08,
+      "tempo": 1.12,
+      "final_duration": 23.254625,
+      "at": 144.35,
+      "end_at": 167.604625,
+      "window_end": 167.8,
+      "end_hold_to_chapter_boundary": 0.395375,
+      "source_edits": [],
+      "asr_script_differences": [
+        {
+          "tag": "replace",
+          "expected": [
+            "practise"
+          ],
+          "asr": [
+            "practice"
+          ]
+        }
+      ],
+      "alignment": "res://episodes/episode_001/audio/processed/r8_6_0_88e00209a069_tempo1.120.words.json"
+    },
+    {
+      "id": "r8_7_0",
+      "words": 53,
+      "source_duration": 23.52,
+      "edited_source_duration": 23.52,
+      "tempo": 1.08,
+      "final_duration": 21.753833333333333,
+      "at": 168.35,
+      "end_at": 190.103833,
+      "window_end": 191.8,
+      "end_hold_to_chapter_boundary": 1.896167,
+      "source_edits": [],
+      "asr_script_differences": [
+        {
+          "tag": "replace",
+          "expected": [
+            "they're"
+          ],
+          "asr": [
+            "their"
+          ]
+        }
+      ],
+      "alignment": "res://episodes/episode_001/audio/processed/r8_7_0_12c7aab294d8_tempo1.080.words.json"
+    },
+    {
+      "id": "r8_8_0",
+      "words": 50,
+      "source_duration": 23.2,
+      "edited_source_duration": 23.2,
+      "tempo": 1.08,
+      "final_duration": 21.477333333333334,
+      "at": 192.35,
+      "end_at": 213.827333,
+      "window_end": 215.8,
+      "end_hold_to_chapter_boundary": 2.172667,
+      "source_edits": [],
+      "asr_script_differences": [],
+      "alignment": "res://episodes/episode_001/audio/processed/r8_8_0_38e92feb41d2_tempo1.080.words.json"
+    },
+    {
+      "id": "r8_9_0",
+      "words": 54,
+      "source_duration": 21.2,
+      "edited_source_duration": 21.2,
+      "tempo": 1.08,
+      "final_duration": 19.608541666666667,
+      "at": 216.35,
+      "end_at": 235.958542,
+      "window_end": 239.8,
+      "end_hold_to_chapter_boundary": 4.041458,
+      "source_edits": [],
+      "asr_script_differences": [],
+      "alignment": "res://episodes/episode_001/audio/processed/r8_9_0_cc3b09c13bb1_tempo1.080.words.json"
+    }
+  ],
+  "total_final_speech_seconds": 218.16816666666668,
+  "explicit_source_seconds_removed": 5.5,
+  "final_word_count": 531,
+  "all_clips_fit": true,
+  "listening_review": "pending; numeric bounds/energy/alignment checks are not perceptual audio review"
+}

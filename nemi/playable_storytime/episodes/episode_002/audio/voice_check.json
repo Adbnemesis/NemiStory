@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "duration": 220.0,
+  "sample_rate": 24000,
+  "channels": 1,
+  "clips": 18,
+  "words": 495,
+  "audio_sha256": "b6c2b8052ac437d6cd5b1ca3da0142ea6e89e1ab45649ac9160ddf5406f43edf",
+  "dialogue_sha256": "dccd4449d395d5a5b07848aaa84019a249844bc75540219e84245c463097abb4",
+  "source_edit_plan_sha256": "613d081d66d3b671dc69f8ba0e7875569f577a39d3f073df8f70bfeef48e42d4",
+  "explicit_source_cuts": 3,
+  "checks": [
+    "canonical implementation hashes",
+    "dialogue text and placement",
+    "source and final audio hashes",
+    "processed alignment hashes",
+    "explicit quiet-gap cut bounds/word edges/energy/hash",
+    "authored window fit",
+    "ordered measured scene-clock words",
+    "full-duration PCM format"
+  ],
+  "listening_review": "pending; automated checks do not establish perceptual quality"
+}

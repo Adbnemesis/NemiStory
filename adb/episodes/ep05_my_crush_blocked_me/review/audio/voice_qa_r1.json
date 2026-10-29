@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "source_take_count": 9,
+  "selected_take": 1,
+  "source_duration_sum": 114.16,
+  "final_duration": 119.03333333333333,
+  "tempo": 1.0,
+  "source_bounds_policy": "Full source takes; no silence trimming.",
+  "speaker": "aiden",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+  "identity_prompt": "Cool, relaxed young adult male around 24, calm conversational speech, confident, subtle dry wit, understated and natural.",
+  "audio_sha256": "b1c3d1327a548dd32c4ec47ec612aac2e0f190b76a0d2f32f6e642e764063db9",
+  "voice_plan_sha256": "d08a35186e2eabb13e53f2a4605fe0ce535f26c45b1c71711c5241e1466916f2",
+  "text_tokens_verified": true,
+  "source_hashes_verified": true,
+  "ordered_positive_word_intervals_verified": true,
+  "word_count": 294,
+  "alignment_repairs": [],
+  "low_confidence_words": [
+    {
+      "paragraph": 0,
+      "word": "middle",
+      "start": 5.04,
+      "end": 5.16,
+      "probability": 0.56103515625
+    },
+    {
+      "paragraph": 0,
+      "word": "reshuffled.",
+      "start": 7.32,
+      "end": 7.86,
+      "probability": 0.59375
+    },
+    {
+      "paragraph": 2,
+      "word": "we",
+      "start": 2.26,
+      "end": 2.42,
+      "probability": 0.5810546875
+    },
+    {
+      "paragraph": 2,
+      "word": "friends.'",
+      "start": 4.42,
+      "end": 5.62,
+      "probability": 0.49853515625
+    },
+    {
+      "paragraph": 2,
+      "word": "hey,",
+      "start": 9.32,
+      "end": 9.62,
+      "probability": 0.25390625
+    },
+    {
+      "paragraph": 3,
+      "word": "friends",
+      "start": 2.58,
+      "end": 2.9,
+      "probability": 0.60546875
+    },
+    {
+      "paragraph": 6,
+      "word": "And",
+      "start": 0.0,
+      "end": 0.22,
+      "probability": 0.6259765625
+    },
+    {
+      "paragraph": 8,
+      "word": "Bro,",
+      "start": 0.0,
+      "end": 0.4,
+      "probability": 0.6123046875
+    }
+  ],
+  "listening_performed": false,
+  "listening_limitation": "Attempted audio-content inspection returned: audio content omitted because you do not support audio input. Transcript verification does not constitute listening.",
+  "pending": [
+    "Subjective Aiden delivery, breaths and thought-gap pacing listening.",
+    "Important spoken-word and mouth-boundary review against final audio.",
+    "Final episode narration/SFX mix audition after sound direction."
+  ]
+}

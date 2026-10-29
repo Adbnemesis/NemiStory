@@ -1,0 +1,5 @@
+# R4 school scenery correction
+
+Inspected the five actual decoded 1080p proof stills at 0.2, 3.5, 5.7, 8.6 and 9.7 seconds from the fresh 95–105-second excerpt. The school shots now use existing school_corridor_r4. Locker/door bottoms meet the visible floor line around screen y999; Nemi's shoe soles sit just above the same line. The floating classroom desks identified in FULL_VISUAL_REVIEW_PART_B.md are absent, so that material scenery fault is resolved in this proof. The earlier rejection note is retained unchanged.
+
+The full-body gesture and close crossed-arm samples retain continuous sleeves, hands and wrists. The phone illustration and “too excited?” drawing remain readable against the quiet locker treatment. The cut back to home retains the previously reviewed adult furniture scale. No new material visual fault found in these five stills. No source edits were made. This is a decoded-still check, not playback or acoustic listening; the complete current R4 movie remains a separate production review.

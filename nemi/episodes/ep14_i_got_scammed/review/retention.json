@@ -1,0 +1,46 @@
+{
+  "retention_policy": "final-4k-only; supersede intermediate cuts upon explicit user request 'delete other rendeers'",
+  "authorized_by": "user",
+  "user_quote": "awesime now do thumbnsail and render this in 4k, delete other rendeers",
+  "timestamp": "2026-10-19T15:14:00+05:30",
+  "final_4k": {
+    "file": "nemi/episodes/ep14_i_got_scammed/renders/NEMI_EP14_I_Got_Scammed_r4_4K_FINAL.mp4",
+    "bytes": 28535088,
+    "sha256": "9ee07b94338801091dbdfdaf0421796efe71e7225426aea63a5c052e813c768f",
+    "resolution": [3840, 2160],
+    "duration": 126.966667
+  },
+  "removed_superseded_renders": [
+    {
+      "path": "nemi/episodes/ep14_i_got_scammed/renders/ep14_i_got_scammed_r1_1080p.mp4",
+      "bytes": 13072168,
+      "sha256": "45d1f0c01509d448f7d2ec23e656ebdff66b8795c5e662b81fa97267706de504",
+      "note": "R1 short preview (92.00s)"
+    },
+    {
+      "path": "nemi/episodes/ep14_i_got_scammed/renders/ep14_i_got_scammed_r2_1080p.mp4",
+      "bytes": 7720577,
+      "sha256": "8f64ffcbcde15b4dcee6acecdbc0e6190a909eb5043d81bdd9b066372f9de176",
+      "note": "R2 expanded cut with tiny character framing and robotic script (157.73s)"
+    },
+    {
+      "path": "nemi/episodes/ep14_i_got_scammed/renders/ep14_i_got_scammed_r3_1080p.mp4",
+      "bytes": 15881501,
+      "sha256": "c356e0540037765bb29783ca3e79b5b6cbd307d4a825e886e7c1f5f4e4d3081f",
+      "note": "R3 conversational rewrite with prominent framing before sentence pause tightening (151.93s)"
+    },
+    {
+      "path": "nemi/episodes/ep14_i_got_scammed/renders/ep14_i_got_scammed_r4_1080p.mp4",
+      "bytes": 14684654,
+      "sha256": "4e58d6dfdf860e77f7f46166f493f07f2b4dfb5d00436db4242f1cd1be292780",
+      "note": "R4 approved full 1080p preview (126.97s); verified in 1080P_APPROVAL.json before cleanup"
+    }
+  ],
+  "preserved_artifacts": [
+    "Voice audio source files under voice/source/",
+    "Canonical narration WAV and timing reference under voice/ and root",
+    "Scene script, beats, and specification (SCRIPT_AND_BEATS.md, story.json, scene.json)",
+    "Render records, stamps, and audio reports under review/render_records/",
+    "Thumbnails and candidate revisions under thumbnail/"
+  ]
+}

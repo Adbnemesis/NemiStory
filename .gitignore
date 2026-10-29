@@ -52,3 +52,36 @@ audio/nemi/intro/segments_*/
 *.vtt
 *.tsv
 
+
+# Render outputs and generated local media
+renders/
+references/thumbnail_ref/
+**/stills/
+**/stills_*/
+**/*_stills/
+**/*_stills
+**/*_stills/**
+**/final_4k/
+**/review/full_*/
+**/review/caption_proof_*/
+**/review/proof_*/
+
+# Audio formats
+*.m4a
+*.aac
+*.flac
+
+# Native image masters (keep thumbnail.jpg and metadata)
+**/thumbnail/**/*.png
+**/thumbnail/*.png
+**/thumbnail-v2.png
+
+# Playable storytime generated local reviews and renders
+nemi/playable_storytime/episodes/**/review/
+nemi/playable_storytime/episodes/**/renders/
+nemi/playable_storytime/cache/
+nemi/playable_storytime/.cache/
+nemi/playable_storytime/engine/godot/nemi/playable_storytime/episodes/**/review/
+**/frame_*.png
+**/frame_*.jpg
+thumbnail.png

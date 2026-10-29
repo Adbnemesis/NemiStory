@@ -1,0 +1,793 @@
+{
+  "scene_sha256": "881d034f25fc1989c223ad9dec5fe3b687d2054b64d6c9892370066fa6dd27e1",
+  "audio_sha256": "d0f344c6575bc5201688db498b37fa49dcbad6dcce83716b599fba11ceb677d6",
+  "canonical_timing_sha256": "eba5ef301e6dc633435a79e0cf093d152ce82fc351244d864b0ecca26009b7fa",
+  "scene_timing_sha256": "ff910561950ffb319ded0d2ee350ab37c5b7ee71fd5bb78151b46204717e6a0d",
+  "metadata_change_only_city_word_actor_alias": true,
+  "caption_count": 107,
+  "word_count": 384,
+  "mouth_counts": {
+    "nemi": 692,
+    "nemi_city": 131
+  },
+  "aliased_word_count": 61,
+  "existing_nemi_rig_git_diff_empty": true,
+  "phone_release_jump_world_pixels": 0.0,
+  "final_hand_window_jump_world_pixels": 0.00025165440089254873,
+  "command": [
+    "/Users/talus/Downloads/Godot.app/Contents/MacOS/Godot",
+    "--headless",
+    "--path",
+    "/Users/talus/.codex/worktrees/nemi-ep15-review/adb",
+    "--log-file",
+    "/private/tmp/nemi_ep15_final_alias_stage_r5_final.log",
+    "--script",
+    "/private/tmp/nemi_ep15_final_alias_stage_probe_r5.gd"
+  ],
+  "probe": {
+    "boundary_rows": [
+      {
+        "at": 23.618888,
+        "hand_actor_local": [
+          68.0,
+          -11.9999847412109
+        ],
+        "hand_angle": 2.19497640654608e-06,
+        "hand_world": [
+          689.0,
+          512.25
+        ],
+        "phone_bottom_world_y": 513.545043945312,
+        "phone_tilt": 2.7733933620766e-06,
+        "phone_visible": false,
+        "phone_world": [
+          689.0,
+          513.545043945312
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "excited",
+        "socket_grip_distance_screen_pixels": 6.103515625e-05,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      },
+      {
+        "at": 23.618889,
+        "hand_actor_local": [
+          75.0000305175781,
+          -35.0
+        ],
+        "hand_angle": -8.0000042068973,
+        "hand_world": [
+          701.250061035156,
+          472.000091552734
+        ],
+        "phone_bottom_world_y": 469.263854980469,
+        "phone_tilt": -8.00000476837158,
+        "phone_visible": true,
+        "phone_world": [
+          701.430419921875,
+          473.282501220703
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "invitation",
+        "socket_grip_distance_screen_pixels": 6.82393801980652e-05,
+        "visible_instances": [
+          "nemi_city"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi_city": 10
+        }
+      },
+      {
+        "at": 23.61889,
+        "hand_actor_local": [
+          75.0000305175781,
+          -35.0
+        ],
+        "hand_angle": -8.0000042068973,
+        "hand_world": [
+          701.250061035156,
+          472.000091552734
+        ],
+        "phone_bottom_world_y": 469.263854980469,
+        "phone_tilt": -8.00000476837158,
+        "phone_visible": true,
+        "phone_world": [
+          701.430419921875,
+          473.282501220703
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "invitation",
+        "socket_grip_distance_screen_pixels": 6.82393801980652e-05,
+        "visible_instances": [
+          "nemi_city"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi_city": 10
+        }
+      },
+      {
+        "at": 26.090741,
+        "hand_actor_local": [
+          74.9999389648438,
+          -35.0
+        ],
+        "hand_angle": -7.99999225406625,
+        "hand_world": [
+          701.249877929688,
+          471.999969482422
+        ],
+        "phone_bottom_world_y": 469.263732910156,
+        "phone_tilt": -7.99999284744263,
+        "phone_visible": true,
+        "phone_world": [
+          701.430114746094,
+          473.282348632812
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "imagined_catchup",
+        "socket_grip_distance_screen_pixels": 0.0,
+        "visible_instances": [
+          "nemi_city"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi_city": 10
+        }
+      },
+      {
+        "at": 35.183704,
+        "hand_actor_local": [
+          74.9999694824219,
+          -35.0
+        ],
+        "hand_angle": -8.00000762199188,
+        "hand_world": [
+          701.25,
+          472.000091552734
+        ],
+        "phone_bottom_world_y": 469.263854980469,
+        "phone_tilt": -8.00000762939453,
+        "phone_visible": true,
+        "phone_world": [
+          701.430297851562,
+          473.282501220703
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "busy_replies",
+        "socket_grip_distance_screen_pixels": 6.82393801980652e-05,
+        "visible_instances": [
+          "nemi_city"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi_city": 10
+        }
+      },
+      {
+        "at": 36.283704,
+        "hand_actor_local": [
+          74.9999694824219,
+          -35.0
+        ],
+        "hand_angle": -8.00000762199188,
+        "hand_world": [
+          701.25,
+          472.000091552734
+        ],
+        "phone_bottom_world_y": 469.263854980469,
+        "phone_tilt": -8.00000762939453,
+        "phone_visible": true,
+        "phone_world": [
+          701.430297851562,
+          473.282501220703
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "busy_replies",
+        "socket_grip_distance_screen_pixels": 6.82393801980652e-05,
+        "visible_instances": [
+          "nemi_city"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi_city": 10
+        }
+      },
+      {
+        "at": 38.703704,
+        "hand_actor_local": [
+          69.9996032714844,
+          -13.7921752929688
+        ],
+        "hand_angle": -0.623363511181855,
+        "hand_world": [
+          692.499328613281,
+          509.113677978516
+        ],
+        "phone_bottom_world_y": 510.094482421875,
+        "phone_tilt": -0.623363494873047,
+        "phone_visible": true,
+        "phone_world": [
+          692.513427734375,
+          510.408599853516
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "phone_stare",
+        "socket_grip_distance_screen_pixels": 0.0,
+        "visible_instances": [
+          "nemi_city"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi_city": 10
+        }
+      },
+      {
+        "at": 39.203704,
+        "hand_actor_local": [
+          68.0,
+          -12.0
+        ],
+        "hand_angle": 4.75971382080638e-07,
+        "hand_world": [
+          689.0,
+          512.25
+        ],
+        "phone_bottom_world_y": 513.544982910156,
+        "phone_tilt": 4.75971347668747e-07,
+        "phone_visible": true,
+        "phone_world": [
+          689.0,
+          513.544982910156
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "phone_stare",
+        "socket_grip_distance_screen_pixels": 0.0,
+        "visible_instances": [
+          "nemi_city"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi_city": 10
+        }
+      },
+      {
+        "at": 41.103704,
+        "hand_actor_local": [
+          68.0,
+          -11.9999694824219
+        ],
+        "hand_angle": 3.41509458500638e-06,
+        "hand_world": [
+          689.0,
+          512.250061035156
+        ],
+        "phone_bottom_world_y": 513.545043945312,
+        "phone_tilt": 3.41509439749643e-06,
+        "phone_visible": true,
+        "phone_world": [
+          689.0,
+          513.545043945312
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "far_away",
+        "socket_grip_distance_screen_pixels": 0.0,
+        "visible_instances": [
+          "nemi_city"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi_city": 10
+        }
+      },
+      {
+        "at": 43.603704,
+        "hand_actor_local": [
+          68.0,
+          -12.0000152587891
+        ],
+        "hand_angle": 1.68231261899383e-06,
+        "hand_world": [
+          689.000061035156,
+          512.250061035156
+        ],
+        "phone_bottom_world_y": 513.545043945312,
+        "phone_tilt": 1.6823125861265e-06,
+        "phone_visible": true,
+        "phone_world": [
+          689.000122070312,
+          513.545043945312
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "one_day",
+        "socket_grip_distance_screen_pixels": 6.103515625e-05,
+        "visible_instances": [
+          "nemi_city"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi_city": 10
+        }
+      },
+      {
+        "at": 46.963703,
+        "hand_actor_local": [
+          67.9999694824219,
+          -12.0000305175781
+        ],
+        "hand_angle": 2.77339299691678e-06,
+        "hand_world": [
+          689.0,
+          512.25
+        ],
+        "phone_bottom_world_y": 513.545043945312,
+        "phone_tilt": 2.7733933620766e-06,
+        "phone_visible": true,
+        "phone_world": [
+          689.000061035156,
+          513.545043945312
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "one_day",
+        "socket_grip_distance_screen_pixels": 8.63167442730628e-05,
+        "visible_instances": [
+          "nemi_city"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi_city": 10
+        }
+      },
+      {
+        "at": 46.963704,
+        "hand_actor_local": [
+          68.0,
+          -11.9999847412109
+        ],
+        "hand_angle": 2.19497640654608e-06,
+        "hand_world": [
+          689.0,
+          512.25
+        ],
+        "phone_bottom_world_y": 513.545043945312,
+        "phone_tilt": 2.7733933620766e-06,
+        "phone_visible": false,
+        "phone_world": [
+          689.0,
+          513.545043945312
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "unsaid",
+        "socket_grip_distance_screen_pixels": 6.103515625e-05,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      },
+      {
+        "at": 46.963705,
+        "hand_actor_local": [
+          68.0,
+          -11.9999847412109
+        ],
+        "hand_angle": 2.19497640654608e-06,
+        "hand_world": [
+          689.0,
+          512.25
+        ],
+        "phone_bottom_world_y": 513.545043945312,
+        "phone_tilt": 2.7733933620766e-06,
+        "phone_visible": false,
+        "phone_world": [
+          689.0,
+          513.545043945312
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi_city",
+        "shot": "unsaid",
+        "socket_grip_distance_screen_pixels": 6.103515625e-05,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      },
+      {
+        "at": 135.688147,
+        "hand_actor_local": [
+          86.6229858398438,
+          30.3262023925781
+        ],
+        "hand_angle": -41.0000000025641,
+        "hand_world": [
+          721.590270996094,
+          586.320922851562
+        ],
+        "phone_bottom_world_y": 510.000061035156,
+        "phone_tilt": 90.0,
+        "phone_visible": false,
+        "phone_world": [
+          1222.45520019531,
+          481.125061035156
+        ],
+        "right_hand_shape": 0,
+        "sampled_actor": "nemi",
+        "shot": "worth_revision",
+        "socket_grip_distance_screen_pixels": 571.607849121094,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      },
+      {
+        "at": 135.688148,
+        "hand_actor_local": [
+          65.0000305175781,
+          -54.9999694824219
+        ],
+        "hand_angle": 5.00000711162245,
+        "hand_world": [
+          1223.75,
+          437.000061035156
+        ],
+        "phone_bottom_world_y": 440.806701660156,
+        "phone_tilt": 5.00000667572021,
+        "phone_visible": true,
+        "phone_world": [
+          1223.63708496094,
+          438.290069580078
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi",
+        "shot": "put_phone_down",
+        "socket_grip_distance_screen_pixels": 3.0517578125e-05,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 10
+        }
+      },
+      {
+        "at": 137.768147,
+        "hand_actor_local": [
+          65.0000305175781,
+          -29.7857055664062
+        ],
+        "hand_angle": 90.0000025044782,
+        "hand_world": [
+          1223.75,
+          481.125030517578
+        ],
+        "phone_bottom_world_y": 510.000030517578,
+        "phone_tilt": 90.0,
+        "phone_visible": true,
+        "phone_world": [
+          1222.45495605469,
+          481.125030517578
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi",
+        "shot": "put_phone_down",
+        "socket_grip_distance_screen_pixels": 0.0001220703125,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 10
+        }
+      },
+      {
+        "at": 137.768148,
+        "hand_actor_local": [
+          65.0000305175781,
+          -29.7857360839844
+        ],
+        "hand_angle": 90.0000093346673,
+        "hand_world": [
+          1223.75,
+          481.124969482422
+        ],
+        "phone_bottom_world_y": 510.000030517578,
+        "phone_tilt": 90.0,
+        "phone_visible": true,
+        "phone_world": [
+          1222.45495605469,
+          481.125030517578
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi",
+        "shot": "put_phone_down",
+        "socket_grip_distance_screen_pixels": 0.00013647876039613,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 10
+        }
+      },
+      {
+        "at": 137.768149,
+        "hand_actor_local": [
+          65.0000305175781,
+          -29.7857055664062
+        ],
+        "hand_angle": 90.0000093346673,
+        "hand_world": [
+          1223.75,
+          481.125030517578
+        ],
+        "phone_bottom_world_y": 510.000030517578,
+        "phone_tilt": 90.0,
+        "phone_visible": true,
+        "phone_world": [
+          1222.45495605469,
+          481.125030517578
+        ],
+        "right_hand_shape": 10,
+        "sampled_actor": "nemi",
+        "shot": "put_phone_down",
+        "socket_grip_distance_screen_pixels": 0.0001220703125,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 10
+        }
+      },
+      {
+        "at": 137.898148,
+        "hand_actor_local": [
+          65.3232116699219,
+          -26.4225463867188
+        ],
+        "hand_angle": 76.3760017519722,
+        "hand_world": [
+          1224.31555175781,
+          487.010528564453
+        ],
+        "phone_bottom_world_y": 510.000030517578,
+        "phone_tilt": 90.0,
+        "phone_visible": true,
+        "phone_world": [
+          1222.45495605469,
+          481.125030517578
+        ],
+        "right_hand_shape": 0,
+        "sampled_actor": "nemi",
+        "shot": "put_phone_down",
+        "socket_grip_distance_screen_pixels": 10.8028564453125,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      },
+      {
+        "at": 138.418147,
+        "hand_actor_local": [
+          86.6228637695312,
+          30.3262023925781
+        ],
+        "hand_angle": -41.0000000025641,
+        "hand_world": [
+          1261.58996582031,
+          586.32080078125
+        ],
+        "phone_bottom_world_y": 510.000030517578,
+        "phone_tilt": 90.0,
+        "phone_visible": true,
+        "phone_world": [
+          1222.45495605469,
+          481.125030517578
+        ],
+        "right_hand_shape": 0,
+        "sampled_actor": "nemi",
+        "shot": "put_phone_down",
+        "socket_grip_distance_screen_pixels": 153.108352661133,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      },
+      {
+        "at": 138.418148,
+        "hand_actor_local": [
+          86.6229858398438,
+          30.326171875
+        ],
+        "hand_angle": -41.0000034176587,
+        "hand_world": [
+          1261.59020996094,
+          586.320739746094
+        ],
+        "phone_bottom_world_y": 510.000030517578,
+        "phone_tilt": 90.0,
+        "phone_visible": true,
+        "phone_world": [
+          1222.45495605469,
+          481.125030517578
+        ],
+        "right_hand_shape": 0,
+        "sampled_actor": "nemi",
+        "shot": "put_phone_down",
+        "socket_grip_distance_screen_pixels": 153.108413696289,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      },
+      {
+        "at": 138.418149,
+        "hand_actor_local": [
+          86.6229858398438,
+          30.326171875
+        ],
+        "hand_angle": -41.0000034176587,
+        "hand_world": [
+          1261.59020996094,
+          586.320739746094
+        ],
+        "phone_bottom_world_y": 510.000030517578,
+        "phone_tilt": 90.0,
+        "phone_visible": true,
+        "phone_world": [
+          1222.45495605469,
+          481.125030517578
+        ],
+        "right_hand_shape": 0,
+        "sampled_actor": "nemi",
+        "shot": "put_phone_down",
+        "socket_grip_distance_screen_pixels": 153.108413696289,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      },
+      {
+        "at": 142.468147,
+        "hand_actor_local": [
+          144.049194335938,
+          -39.9499206542969
+        ],
+        "hand_angle": -115.999998674535,
+        "hand_world": [
+          1362.08605957031,
+          463.337646484375
+        ],
+        "phone_bottom_world_y": 510.0,
+        "phone_tilt": 90.0,
+        "phone_visible": true,
+        "phone_world": [
+          1222.455078125,
+          481.125
+        ],
+        "right_hand_shape": 0,
+        "sampled_actor": "nemi",
+        "shot": "own_day",
+        "socket_grip_distance_screen_pixels": 170.811584472656,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      },
+      {
+        "at": 142.468148,
+        "hand_actor_local": [
+          144.049224853516,
+          -39.9499053955078
+        ],
+        "hand_angle": -115.999998674535,
+        "hand_world": [
+          1362.08618164062,
+          463.337646484375
+        ],
+        "phone_bottom_world_y": 510.0,
+        "phone_tilt": 90.0,
+        "phone_visible": false,
+        "phone_world": [
+          1222.455078125,
+          481.124969482422
+        ],
+        "right_hand_shape": 0,
+        "sampled_actor": "nemi",
+        "shot": "care_for_self",
+        "socket_grip_distance_screen_pixels": 341.62353515625,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      },
+      {
+        "at": 147.128148,
+        "hand_actor_local": [
+          82.7686462402344,
+          26.5331726074219
+        ],
+        "hand_angle": -41.8271120053905,
+        "hand_world": [
+          1254.84521484375,
+          579.683044433594
+        ],
+        "phone_bottom_world_y": 510.0,
+        "phone_tilt": 90.0,
+        "phone_visible": false,
+        "phone_world": [
+          1222.455078125,
+          481.124969482422
+        ],
+        "right_hand_shape": 0,
+        "sampled_actor": "nemi",
+        "shot": "care_for_self",
+        "socket_grip_distance_screen_pixels": 249.744140625,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      },
+      {
+        "at": 150.199999,
+        "hand_actor_local": [
+          91.6538391113281,
+          18.0294189453125
+        ],
+        "hand_angle": -53.0000003364945,
+        "hand_world": [
+          1270.39428710938,
+          564.801513671875
+        ],
+        "phone_bottom_world_y": 510.0,
+        "phone_tilt": 90.0,
+        "phone_visible": false,
+        "phone_world": [
+          1222.455078125,
+          481.124969482422
+        ],
+        "right_hand_shape": 0,
+        "sampled_actor": "nemi",
+        "shot": "care_for_self",
+        "socket_grip_distance_screen_pixels": 239.434509277344,
+        "visible_instances": [
+          "nemi"
+        ],
+        "visible_right_hand_shapes": {
+          "nemi": 0
+        }
+      }
+    ],
+    "city_frame_count": 700,
+    "city_hand_shape_violations": [],
+    "city_max_contact_error_screen_pixels": 0.000152587890625,
+    "city_max_origin_step_world_pixels": 0.814252495765686,
+    "city_phone_offscreen_frames": [],
+    "frame_count": 4506,
+    "visibility_violations": []
+  },
+  "probe_source": "extends SceneTree\nconst Stage=preload(\"res://common/storytime/production/ProductionStage.gd\")\nfunc _initialize():\n call_deferred(\"probe\")\nfunc xy(p:Vector2)->Array:\n return [p.x,p.y]\nfunc visible_ids(stage)->Array:\n var ids=[]\n for id in stage.actors:\n  if stage.actors[id].node.visible:ids.append(id)\n return ids\nfunc phone_node(stage,city:bool)->Node2D:\n for entry in stage.pictures:\n  if entry.spec.kind==\"phone\" and (float(entry.spec.at)<100)==city:return entry.node\n return null\nfunc probe():\n var stage=Stage.new()\n stage.manual=true\n stage.spec_path=\"res://nemi/episodes/ep15_i_get_attached_way_too_much/scene_r5.json\"\n root.add_child(stage)\n await process_frame\n var city=stage.actors.nemi_city.node\n var main=stage.actors.nemi.node\n var city_phone=phone_node(stage,true)\n var final_phone=phone_node(stage,false)\n var visibility_violations=[]\n var city_max_contact_error=0.0\n var city_max_origin_step=0.0\n var city_frame_count=0\n var city_hand_shape_violations=[]\n var city_offscreen_frames=[]\n var previous_city_position=Vector2.ZERO\n var previous_city_valid=false\n for frame in range(int(round(float(stage.spec.duration)*float(stage.spec.fps)))):\n  var t=float(frame)/float(stage.spec.fps)\n  stage.sample(t)\n  var ids=visible_ids(stage)\n  if ids.size()!=1:visibility_violations.append({\"frame\":frame,\"at\":t,\"visible\":ids})\n  if t>=23.618889 and t<46.963704:\n   city_frame_count+=1\n   var error=city.right_hand_bone.to_global(Vector2(0,8)).distance_to(city_phone.to_global(Vector2(0,11)))\n   city_max_contact_error=maxf(city_max_contact_error,error)\n   if ids!=[\"nemi_city\"] or not city_phone.visible:visibility_violations.append({\"frame\":frame,\"at\":t,\"visible\":ids,\"city_phone_visible\":city_phone.visible})\n   if city.right_hand_visual.hand_pose!=10:city_hand_shape_violations.append({\"frame\":frame,\"at\":t,\"shape\":city.right_hand_visual.hand_pose})\n   var wp=stage.world.to_local(city_phone.global_position)\n   if previous_city_valid:city_max_origin_step=maxf(city_max_origin_step,wp.distance_to(previous_city_position))\n   previous_city_position=wp\n   previous_city_valid=true\n   var minp=Vector2(INF,INF)\n   var maxp=Vector2(-INF,-INF)\n   for vertex in [Vector2(-23,-60),Vector2(-16,-66),Vector2(17,-62),Vector2(25,-53),Vector2(22,19),Vector2(15,26),Vector2(-17,23),Vector2(-25,16)]:\n    var p=city_phone.to_global(vertex)\n    minp=minp.min(p)\n    maxp=maxp.max(p)\n   if minp.x<0 or minp.y<0 or maxp.x>1920 or maxp.y>1080:city_offscreen_frames.append({\"frame\":frame,\"at\":t,\"min\":xy(minp),\"max\":xy(maxp)})\n var rows=[]\n for t in [23.618888,23.618889,23.618890,26.090741,35.183704,36.283704,38.703704,39.203704,41.103704,43.603704,46.963703,46.963704,46.963705,135.688147,135.688148,137.768147,137.768148,137.768149,137.898148,138.418147,138.418148,138.418149,142.468147,142.468148,147.128148,150.199999]:\n  stage.sample(t)\n  var use_city=t<100\n  var actor=city if use_city else main\n  var phone=city_phone if use_city else final_phone\n  var visible_hand_shapes={}\n  for id in visible_ids(stage):visible_hand_shapes[id]=stage.actors[id].node.right_hand_visual.hand_pose\n  rows.append({\"at\":t,\"shot\":stage.current_shot,\"visible_instances\":visible_ids(stage),\"phone_visible\":phone.visible,\n   \"sampled_actor\":\"nemi_city\" if use_city else \"nemi\",\"visible_right_hand_shapes\":visible_hand_shapes,\n   \"hand_actor_local\":xy(actor.to_local(actor.right_hand_bone.global_position)),\"hand_world\":xy(stage.world.to_local(actor.right_hand_bone.global_position)),\n   \"hand_angle\":rad_to_deg(actor.right_hand_bone.global_rotation),\"right_hand_shape\":actor.right_hand_visual.hand_pose,\n   \"phone_world\":xy(stage.world.to_local(phone.global_position)),\"phone_tilt\":phone.rotation_degrees,\n   \"socket_grip_distance_screen_pixels\":actor.right_hand_bone.to_global(Vector2(0,8)).distance_to(phone.to_global(Vector2(0,11))),\n   \"phone_bottom_world_y\":stage.world.to_local(phone.to_global(Vector2(25,0))).y})\n print(\"FINAL_ALIAS_STAGE \",JSON.stringify({\"frame_count\":int(round(float(stage.spec.duration)*float(stage.spec.fps))),\"visibility_violations\":visibility_violations,\n  \"city_frame_count\":city_frame_count,\"city_max_contact_error_screen_pixels\":city_max_contact_error,\"city_max_origin_step_world_pixels\":city_max_origin_step,\n  \"city_hand_shape_violations\":city_hand_shape_violations,\"city_phone_offscreen_frames\":city_offscreen_frames,\"boundary_rows\":rows}))\n quit()\n"
+}

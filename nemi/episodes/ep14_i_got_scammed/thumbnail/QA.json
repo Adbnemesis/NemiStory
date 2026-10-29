@@ -1,0 +1,64 @@
+{
+  "status": "Ready for upload; Primary delivered EP14 thumbnail concept.",
+  "method": "Built-in image generation, editorial sticker layout matching approved EP10 standard.",
+  "headline": "I Paid To Get Blocked!",
+  "proposed_title": "I Paid A Scalper Just To Get Blocked... (I Got Scammed)",
+  "native_dimensions": [
+    1376,
+    768
+  ],
+  "upload_dimensions": [
+    1280,
+    720
+  ],
+  "native_4k": false,
+  "provenance": "AI-generated raster illustration following Raora editorial reference (references/thumbnail_ref/thumbnail_set_raora.png) and approved Nemi EP10 thumbnail standard (nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png). White sticker contour on pale cyan/white checkerboard with custom phone UI and sold out ticket doodles.",
+  "files": {
+    "thumbnail.png": {
+      "bytes": 1388014,
+      "sha256": "409cea538b5db895c34f66da8c3a6439609a46baefc3268e49e1ad38d79cd637",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    "thumbnail.jpg": {
+      "bytes": 358110,
+      "sha256": "adfeed21071601fd06594f6cd4de76b4391f763bbf863be25ae5141aac481317",
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "review/phone.png": {
+      "bytes": 108407,
+      "sha256": "271810a0a97f49a279bc1b57a4fd49f65ac4290b0e1814bbe23883fe1b846837",
+      "dimensions": [
+        320,
+        180
+      ]
+    },
+    "review/tiny.png": {
+      "bytes": 32718,
+      "sha256": "1f0acdc24dbf94e86a42627c3fb847cc035b5d8b080ec4b62c83f36d88b87ce4",
+      "dimensions": [
+        160,
+        90
+      ]
+    }
+  },
+  "episode_video_modified": false,
+  "mobile_review": "Viewed 320x180 and 160x90 exports. Bold headline with black/red/black triple outline and Nemi panic blush face remain highly legible at small phone grid scale.",
+  "input_references": [
+    {
+      "path": "references/thumbnail_ref/thumbnail_set_raora.png",
+      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e",
+      "role": "typography/checker background reference"
+    },
+    {
+      "path": "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "role": "approved Nemi character design & linework reference"
+    }
+  ]
+}

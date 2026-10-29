@@ -1,0 +1,382 @@
+[
+  {
+    "start": 0.0,
+    "end": 22.0,
+    "words": "I drew this place, and that eraser is eating the floor. I'm on that floor. Click and drag to look around, or swipe on your phone. Find the door to your left or the tear to your right, then press one for the door, or two for the tear.",
+    "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+    "intent": "Get me off the page",
+    "panorama_policy": "Viewer controls orientation. Director review uses authored yaw only; spherical upload has no forced turn.",
+    "word_cues": [
+      {
+        "at": 0.320833,
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 9.940833,
+        "yaw": -76,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 11.460833,
+        "yaw": 76,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 13.780833,
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      }
+    ]
+  },
+  {
+    "start": 22.0,
+    "end": 44.0,
+    "words": "Oh, of course. It's a drawing of a door. I gave it a doorknob and absolutely no depth.",
+    "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+    "intent": "The door is only ink",
+    "panorama_policy": "Viewer controls orientation. Director review uses authored yaw only; spherical upload has no forced turn.",
+    "word_cues": [
+      {
+        "at": 22.366667,
+        "yaw": -76,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 26.586667,
+        "yaw": -92,
+        "pitch": 0,
+        "fov": 50,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 34.066667,
+        "yaw": -76,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 35.826667,
+        "yaw": 76,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      }
+    ]
+  },
+  {
+    "start": 44.0,
+    "end": 66.0,
+    "words": "Wait, there's actual space behind the paper. We can get through that! My best exit is the bit I didn't draw.",
+    "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+    "intent": "A real opening",
+    "panorama_policy": "Viewer controls orientation. Director review uses authored yaw only; spherical upload has no forced turn.",
+    "word_cues": [
+      {
+        "at": 44.275,
+        "yaw": 76,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 49.755,
+        "yaw": 92,
+        "pitch": 0,
+        "fov": 56,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 55.946667,
+        "yaw": 76,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      }
+    ]
+  },
+  {
+    "start": 66.0,
+    "end": 88.0,
+    "words": "Oh. I stopped drawing the bridge halfway across. Apparently I thought Future Me would deal with it. Look underneath the left route, then at that loose paper tab on the right. Four to run across, or five to fold the tab.",
+    "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+    "intent": "The unfinished bridge",
+    "panorama_policy": "Viewer controls orientation. Director review uses authored yaw only; spherical upload has no forced turn.",
+    "word_cues": [
+      {
+        "at": 66.366667,
+        "yaw": 76,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 75.846667,
+        "yaw": 14,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 80.526667,
+        "yaw": 166,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 82.706667,
+        "yaw": 90,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      }
+    ]
+  },
+  {
+    "start": 88.0,
+    "end": 110.0,
+    "words": "I was going to take a very confident first step. The bridge has taken it for me. Right into the hole. That's useful information to get before the rest of me follows. Back it up. Five for the paper tab, please.",
+    "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+    "intent": "Before the first step",
+    "panorama_policy": "Viewer controls orientation. Director review uses authored yaw only; spherical upload has no forced turn.",
+    "word_cues": [
+      {
+        "at": 88.366667,
+        "yaw": 14,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 96.386667,
+        "yaw": -2,
+        "pitch": 0,
+        "fov": 52,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 100.186667,
+        "yaw": 14,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      }
+    ]
+  },
+  {
+    "start": 110.0,
+    "end": 132.0,
+    "words": "There, that fold reaches the other side, and the crease is holding. Okay, small steps. I'm trusting paper with my entire existence, which feels like a fairly normal day in animation. There, both feet are across. I think I'm allowed to breathe now.",
+    "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+    "intent": "A supported paper fold",
+    "panorama_policy": "Viewer controls orientation. Director review uses authored yaw only; spherical upload has no forced turn.",
+    "word_cues": [
+      {
+        "at": 110.366667,
+        "yaw": 166,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 117.586667,
+        "yaw": -179,
+        "pitch": 0,
+        "fov": 56,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 126.126667,
+        "yaw": 166,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      }
+    ]
+  },
+  {
+    "start": 132.0,
+    "end": 154.0,
+    "words": "Look to our right. It's the same eraser, still heading toward my desk and wiping out the ink path. The ground won't last much longer. But that solid top isn't made of ink, so we could use it as a lift. Seven to race it, or eight to ride it straight onto that desk.",
+    "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+    "intent": "The eraser is going there",
+    "panorama_policy": "Viewer controls orientation. Director review uses authored yaw only; spherical upload has no forced turn.",
+    "word_cues": [
+      {
+        "at": 132.733333,
+        "yaw": 166,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Keep Nemi on her completed paper before following her named cue."
+      },
+      {
+        "at": 133.393333,
+        "yaw": -104,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.7,
+        "action": "Reveal the same single eraser removing the ink route."
+      },
+      {
+        "at": 143.673333,
+        "yaw": -90,
+        "pitch": 0,
+        "fov": 62,
+        "duration": 0.5,
+        "action": "Inspect the physical top that makes riding a causal solution."
+      },
+      {
+        "at": 148.293333,
+        "yaw": 104,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.6,
+        "action": "Show the fragile ink race route."
+      },
+      {
+        "at": 150.113333,
+        "yaw": -104,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.6,
+        "action": "Return to the same eraser and the desk route it offers."
+      }
+    ]
+  },
+  {
+    "start": 154.0,
+    "end": 176.0,
+    "words": "I had a whole escape route a second ago. Now it's a very clean drawing of absolutely nothing. Excellent work, eraser. Terrible timing. I'm staying right here until that bit comes back. Okay, eight. Let's use the thing that's already going there.",
+    "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+    "intent": "The erased shortcut",
+    "panorama_policy": "Viewer controls orientation. Director review uses authored yaw only; spherical upload has no forced turn.",
+    "word_cues": [
+      {
+        "at": 154.366667,
+        "yaw": 104,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 161.626667,
+        "yaw": 88,
+        "pitch": 0,
+        "fov": 54,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 169.226667,
+        "yaw": -104,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      }
+    ]
+  },
+  {
+    "start": 176.0,
+    "end": 198.0,
+    "words": "Okay, I'm on. This is a ridiculous vehicle, but it does have a better route than I do. Just keep going toward the desk. No sudden turns. I am being surprisingly polite to something that nearly deleted my shoes. There's the edge. Ready?",
+    "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+    "intent": "The ridiculous vehicle",
+    "panorama_policy": "Viewer controls orientation. Director review uses authored yaw only; spherical upload has no forced turn.",
+    "word_cues": [
+      {
+        "at": 176.366667,
+        "yaw": -104,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 183.446667,
+        "yaw": -104,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 192.126667,
+        "yaw": -88,
+        "pitch": 0,
+        "fov": 64,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      }
+    ]
+  },
+  {
+    "start": 198.0,
+    "end": 220.0,
+    "words": "A desk. A boring, solid desk. I've never appreciated furniture this much. Thank you for getting me out of that. I'm going to fix the drawing now, starting with a proper exit. Actually, no. First, that eraser is staying out here.",
+    "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+    "intent": "Outside the drawing",
+    "panorama_policy": "Viewer controls orientation. Director review uses authored yaw only; spherical upload has no forced turn.",
+    "word_cues": [
+      {
+        "at": 198.366667,
+        "yaw": -88,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 205.726667,
+        "yaw": -79,
+        "pitch": 0,
+        "fov": 48,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      },
+      {
+        "at": 213.366667,
+        "yaw": -65,
+        "pitch": 0,
+        "fov": 68,
+        "duration": 0.4,
+        "action": "Follow the named thought and its actual spatial evidence"
+      }
+    ]
+  }
+]

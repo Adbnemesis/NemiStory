@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "spec_sha256": "a8a3be6ad89fc08a188f6efad2311d60b1b85c828ddc443c5c5fc0c4323b18da",
+  "audio_sha256": "b1c3d1327a548dd32c4ec47ec612aac2e0f190b76a0d2f32f6e642e764063db9",
+  "duration": 119.03333333333333,
+  "narration_paragraphs": 9,
+  "shot_count": 24,
+  "caption_count": 87,
+  "mouth_interval_count": 344,
+  "sfx_count": 44,
+  "drawing_count": 45,
+  "prop_count": 23,
+  "source_checks": {
+    "full_file_based_validator": "passed",
+    "runtime_cap": "passed 119.03s <= 120.0s",
+    "caption_word_clock": "hash-checked final timeline",
+    "sfx_provenance": "existing files validated; no synthesized/procedural substitutions"
+  },
+  "pending": [
+    "fresh full 1080p cut render",
+    "actual stills and full-speed playback",
+    "all portraits and both-arm anatomy review",
+    "final full-cut audio audition",
+    "encoded AAC peak review",
+    "user satisfaction with the full 1080p cut"
+  ]
+}

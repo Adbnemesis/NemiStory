@@ -1,0 +1,6637 @@
+{
+  "version": 2,
+  "title": "i got so drunk",
+  "duration": 148.2,
+  "fps": 30,
+  "caption_size": 52,
+  "audio": "res://nemi/episodes/ep12_i_got_so_drunk/voice/narration.wav",
+  "audio_metadata": "res://nemi/episodes/ep12_i_got_so_drunk/timing_reference.json",
+  "direction": {
+    "promise": "Understand how a supposedly 'chill' Friday night with college friends and ADB spiraled into legendary drunken chaos.",
+    "want": "Have a relaxed, responsible night catching up with friends.",
+    "choice": "Pre-game two full bottles of vodka, order Chinese takeout, take vodka shots, play drunken Pictionary, go clubbing, and play games until sunrise.",
+    "consequence": "Each stop escalates the chaos until the room spins at 5 AM and dinner is lost to the bathroom porcelain.",
+    "payoff": "A comatose twelve-hour recovery sleep, a skull-crushing hangover, and the immortal storytime conclusion: 'Ten out of ten night. Never doing it again.'",
+    "beats": [
+      {
+        "start": 0.0,
+        "end": 7.553571,
+        "thought": "The Friday Confession Hook",
+        "focus": "The Friday Confession Hook",
+        "visual": "portrait; studio_nemi",
+        "intent": "Let the audience register the friday confession hook."
+      },
+      {
+        "start": 7.553571,
+        "end": 16.739286,
+        "thought": "Two Friends and False Responsibility",
+        "focus": "Two Friends and False Responsibility",
+        "visual": "medium; studio_nemi",
+        "intent": "Let the audience register two friends and false responsibility."
+      },
+      {
+        "start": 16.739286,
+        "end": 27.932268,
+        "thought": "The Two Bottles Vodka Pre-Game",
+        "focus": "The Two Bottles Vodka Pre-Game",
+        "visual": "medium; studio_nemi",
+        "intent": "Let the audience register the two bottles vodka pre-game."
+      },
+      {
+        "start": 27.932268,
+        "end": 41.048935,
+        "thought": "Arrival at ADB's Living Room",
+        "focus": "Arrival at ADB's Living Room",
+        "visual": "wide; studio_adb",
+        "intent": "Let the audience register arrival at adb's living room."
+      },
+      {
+        "start": 41.048935,
+        "end": 51.834198,
+        "thought": "Chinese Takeout and Shot Glasses",
+        "focus": "Chinese Takeout and Shot Glasses",
+        "visual": "medium; studio_adb",
+        "intent": "Let the audience register chinese takeout and shot glasses."
+      },
+      {
+        "start": 51.834198,
+        "end": 60.512769,
+        "thought": "ADB Calm vs Ascending Dimension",
+        "focus": "ADB Calm vs Ascending Dimension",
+        "visual": "wide; studio_adb",
+        "intent": "Let the audience register adb calm vs ascending dimension."
+      },
+      {
+        "start": 60.512769,
+        "end": 69.662055,
+        "thought": "The Drunk Pictionary Warning",
+        "focus": "The Drunk Pictionary Warning",
+        "visual": "medium; studio_adb",
+        "intent": "Let the audience register the drunk pictionary warning."
+      },
+      {
+        "start": 69.662055,
+        "end": 79.227769,
+        "thought": "The Depressed Potato-Horse Debate",
+        "focus": "The Depressed Potato-Horse Debate",
+        "visual": "medium; studio_adb",
+        "intent": "Let the audience register the depressed potato-horse debate."
+      },
+      {
+        "start": 79.227769,
+        "end": 88.475627,
+        "thought": "The 11 PM Clubbing Eureka",
+        "focus": "The 11 PM Clubbing Eureka",
+        "visual": "portrait; thought",
+        "intent": "Let the audience register the 11 pm clubbing eureka."
+      },
+      {
+        "start": 88.475627,
+        "end": 95.949198,
+        "thought": "Inside the Club: Floor Bass & Bar Shots",
+        "focus": "Inside the Club: Floor Bass & Bar Shots",
+        "visual": "wide; adb_dorm_party",
+        "intent": "Let the audience register inside the club: floor bass & bar shots."
+      },
+      {
+        "start": 95.949198,
+        "end": 103.449198,
+        "thought": "Dancing Like Rent Is Due",
+        "focus": "Dancing Like Rent Is Due",
+        "visual": "medium; adb_dorm_party",
+        "intent": "Let the audience register dancing like rent is due."
+      },
+      {
+        "start": 103.449198,
+        "end": 115.915338,
+        "thought": "3 AM Carpet Gaming Session",
+        "focus": "3 AM Carpet Gaming Session",
+        "visual": "wide; room",
+        "intent": "Let the audience register 3 am carpet gaming session."
+      },
+      {
+        "start": 115.915338,
+        "end": 124.574624,
+        "thought": "5 AM: The Vodka Collects Its Debt",
+        "focus": "5 AM: The Vodka Collects Its Debt",
+        "visual": "portrait; thought",
+        "intent": "Let the audience register 5 am: the vodka collects its debt."
+      },
+      {
+        "start": 124.574624,
+        "end": 132.763195,
+        "thought": "The Cold Porcelain Bowl Epiphany",
+        "focus": "The Cold Porcelain Bowl Epiphany",
+        "visual": "medium; paper",
+        "intent": "Let the audience register the cold porcelain bowl epiphany."
+      },
+      {
+        "start": 132.763195,
+        "end": 148.2,
+        "thought": "The Morning Hangover: 10/10 Never Again",
+        "focus": "The Morning Hangover: 10/10 Never Again",
+        "visual": "portrait; room",
+        "intent": "Let the audience register the morning hangover: 10/10 never again."
+      }
+    ]
+  },
+  "actors": [
+    {
+      "id": "nemi",
+      "author": "nemi",
+      "performances": [
+        {
+          "at": 0.0,
+          "recipe": "explaining",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0,
+            "left_brow_offset": [
+              0,
+              -1.5
+            ],
+            "right_brow_offset": [
+              0,
+              0.8
+            ]
+          },
+          "blinks": [
+            2.2,
+            5.5
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "open_palm_up"
+          }
+        },
+        {
+          "at": 6.810715,
+          "recipe": "realization",
+          "duration": 0.38,
+          "gaze": [
+            0,
+            0
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 7.553571,
+          "recipe": "pleased",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0
+          },
+          "blinks": [
+            9.753571,
+            13.053571
+          ],
+          "hands": {}
+        },
+        {
+          "at": 15.177143,
+          "recipe": "soft_shrug",
+          "duration": 0.38,
+          "gaze": [
+            0.2,
+            -0.1
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 16.739286,
+          "recipe": "school_point",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0
+          },
+          "blinks": [
+            18.939286,
+            22.239286
+          ],
+          "hands": {}
+        },
+        {
+          "at": 27.433847,
+          "recipe": "deadpan",
+          "duration": 0.38,
+          "gaze": [
+            0,
+            0
+          ],
+          "blinks": [],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 27.932268,
+          "recipe": "school_explain",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0
+          },
+          "blinks": [
+            30.132268,
+            33.432268
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "open_palm_up"
+          }
+        },
+        {
+          "at": 40.074198,
+          "recipe": "overwhelmed",
+          "duration": 0.38,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 41.048935,
+          "recipe": "school_present",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0
+          },
+          "blinks": [
+            43.248935,
+            46.548935
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "open_palm_up"
+          }
+        },
+        {
+          "at": 51.210338,
+          "recipe": "prop_present",
+          "duration": 0.38,
+          "gaze": [
+            0.2,
+            0
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 51.834198,
+          "recipe": "school_confide",
+          "duration": 0.45,
+          "gaze": [
+            0.25,
+            0.1
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0
+          },
+          "blinks": [
+            54.034198,
+            57.334198
+          ],
+          "hands": {}
+        },
+        {
+          "at": 59.734198,
+          "recipe": "overwhelmed",
+          "duration": 0.38,
+          "gaze": [
+            0.3,
+            -0.1
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 60.512769,
+          "recipe": "skeptical",
+          "duration": 0.45,
+          "gaze": [
+            0.25,
+            0.1
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0,
+            "left_brow_offset": [
+              0,
+              -1.5
+            ],
+            "right_brow_offset": [
+              0,
+              0.8
+            ]
+          },
+          "blinks": [
+            62.712769,
+            66.012769
+          ],
+          "hands": {}
+        },
+        {
+          "at": 69.407055,
+          "recipe": "school_confide",
+          "duration": 0.254,
+          "gaze": [
+            0,
+            0
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 69.662055,
+          "recipe": "embarrassed",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0,
+            "left_brow_offset": [
+              0,
+              -1.5
+            ],
+            "right_brow_offset": [
+              0,
+              0.8
+            ]
+          },
+          "blinks": [
+            71.862055,
+            75.162055
+          ],
+          "hands": {}
+        },
+        {
+          "at": 76.103483,
+          "recipe": "school_recoil",
+          "duration": 0.38,
+          "gaze": [
+            -0.2,
+            0
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 78.579912,
+          "recipe": "deadpan",
+          "duration": 0.38,
+          "gaze": [
+            0,
+            0
+          ],
+          "blinks": [],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 79.227769,
+          "recipe": "realization",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0
+          },
+          "blinks": [
+            81.427769,
+            84.727769
+          ],
+          "hands": {}
+        },
+        {
+          "at": 88.217056,
+          "recipe": "school_explain",
+          "duration": 0.257571,
+          "gaze": [
+            0,
+            0
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 88.475627,
+          "recipe": "school_gasp",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0
+          },
+          "blinks": [
+            90.675627,
+            93.975627
+          ],
+          "hands": {}
+        },
+        {
+          "at": 95.619198,
+          "recipe": "school_question",
+          "duration": 0.329,
+          "gaze": [
+            0.2,
+            0
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 95.949198,
+          "recipe": "school_resolve",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0
+          },
+          "blinks": [
+            98.149198,
+            101.449198
+          ],
+          "hands": {}
+        },
+        {
+          "at": 102.706341,
+          "recipe": "overwhelmed",
+          "duration": 0.38,
+          "gaze": [
+            0,
+            0.1
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 103.449198,
+          "recipe": "quiet_recoil",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0
+          },
+          "blinks": [
+            105.649198,
+            108.949198
+          ],
+          "hands": {}
+        },
+        {
+          "at": 115.514637,
+          "recipe": "school_relief",
+          "duration": 0.38,
+          "gaze": [
+            0,
+            0
+          ],
+          "blinks": [],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 115.915338,
+          "recipe": "school_brace",
+          "duration": 0.45,
+          "gaze": [
+            0.25,
+            0.1
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0,
+            "left_brow_offset": [
+              0,
+              -1.5
+            ],
+            "right_brow_offset": [
+              0,
+              0.8
+            ]
+          },
+          "blinks": [
+            118.115338,
+            121.415338
+          ],
+          "hands": {}
+        },
+        {
+          "at": 123.896767,
+          "recipe": "overwhelmed",
+          "duration": 0.38,
+          "gaze": [
+            0.2,
+            0.1
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 124.574624,
+          "recipe": "school_shame",
+          "duration": 0.45,
+          "gaze": [
+            0.15,
+            0.25
+          ],
+          "face": {
+            "eye_openness": 0.6,
+            "pupil_scale": 0.8,
+            "left_brow_offset": [
+              0,
+              -2.5
+            ],
+            "right_brow_offset": [
+              0,
+              2.5
+            ]
+          },
+          "blinks": [
+            126.774624,
+            130.074624
+          ],
+          "hands": {
+            "left": "hand_to_mouth",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 132.329624,
+          "recipe": "quiet_recoil",
+          "duration": 0.38,
+          "gaze": [
+            0.15,
+            0.2
+          ],
+          "blinks": [],
+          "hands": {}
+        },
+        {
+          "at": 132.763195,
+          "recipe": "deadpan",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness": 0.96,
+            "pupil_scale": 1.0
+          },
+          "blinks": [
+            134.963195,
+            138.263195
+          ],
+          "hands": {}
+        },
+        {
+          "at": 147.173721,
+          "recipe": "school_confide",
+          "duration": 0.38,
+          "gaze": [
+            0,
+            0
+          ],
+          "blinks": [],
+          "hands": {}
+        }
+      ],
+      "mouths": [
+        {
+          "start": 0.21,
+          "end": 0.43,
+          "shape": "ae"
+        },
+        {
+          "start": 0.96357,
+          "end": 0.99357,
+          "shape": "closed"
+        },
+        {
+          "start": 0.99357,
+          "end": 1.18857,
+          "shape": "ae"
+        },
+        {
+          "start": 1.21357,
+          "end": 1.385,
+          "shape": "ae"
+        },
+        {
+          "start": 1.41,
+          "end": 1.44,
+          "shape": "closed"
+        },
+        {
+          "start": 1.44,
+          "end": 1.56357,
+          "shape": "small_open"
+        },
+        {
+          "start": 1.58857,
+          "end": 1.68857,
+          "shape": "ae"
+        },
+        {
+          "start": 1.71357,
+          "end": 1.83143,
+          "shape": "small_open"
+        },
+        {
+          "start": 1.85643,
+          "end": 1.97429,
+          "shape": "ae"
+        },
+        {
+          "start": 1.99929,
+          "end": 2.17071,
+          "shape": "small_open"
+        },
+        {
+          "start": 2.19571,
+          "end": 2.22571,
+          "shape": "closed"
+        },
+        {
+          "start": 2.22571,
+          "end": 2.44571,
+          "shape": "ae"
+        },
+        {
+          "start": 2.44571,
+          "end": 2.61714,
+          "shape": "small_open"
+        },
+        {
+          "start": 2.64214,
+          "end": 2.76,
+          "shape": "o_u"
+        },
+        {
+          "start": 2.785,
+          "end": 2.92071,
+          "shape": "ae"
+        },
+        {
+          "start": 2.94571,
+          "end": 3.11714,
+          "shape": "o_u"
+        },
+        {
+          "start": 3.14214,
+          "end": 3.24214,
+          "shape": "small_open"
+        },
+        {
+          "start": 3.26714,
+          "end": 3.42071,
+          "shape": "small_open"
+        },
+        {
+          "start": 3.44571,
+          "end": 3.56357,
+          "shape": "ae"
+        },
+        {
+          "start": 3.58857,
+          "end": 3.80857,
+          "shape": "ae"
+        },
+        {
+          "start": 3.80857,
+          "end": 4.08143,
+          "shape": "small_open"
+        },
+        {
+          "start": 4.10643,
+          "end": 4.32643,
+          "shape": "ae"
+        },
+        {
+          "start": 4.32643,
+          "end": 4.65286,
+          "shape": "small_open"
+        },
+        {
+          "start": 4.67786,
+          "end": 4.70786,
+          "shape": "closed"
+        },
+        {
+          "start": 4.70786,
+          "end": 4.86714,
+          "shape": "ae"
+        },
+        {
+          "start": 4.89214,
+          "end": 4.99214,
+          "shape": "small_open"
+        },
+        {
+          "start": 5.01714,
+          "end": 5.23714,
+          "shape": "ae"
+        },
+        {
+          "start": 5.23714,
+          "end": 5.43857,
+          "shape": "small_open"
+        },
+        {
+          "start": 5.46357,
+          "end": 5.68357,
+          "shape": "ae"
+        },
+        {
+          "start": 5.68357,
+          "end": 6.08143,
+          "shape": "small_open"
+        },
+        {
+          "start": 6.10643,
+          "end": 6.32643,
+          "shape": "ae"
+        },
+        {
+          "start": 6.32643,
+          "end": 6.61714,
+          "shape": "small_open"
+        },
+        {
+          "start": 6.64214,
+          "end": 6.79572,
+          "shape": "small_open"
+        },
+        {
+          "start": 6.82071,
+          "end": 7.04071,
+          "shape": "ae"
+        },
+        {
+          "start": 7.04071,
+          "end": 7.15286,
+          "shape": "small_open"
+        },
+        {
+          "start": 7.68357,
+          "end": 7.71357,
+          "shape": "closed"
+        },
+        {
+          "start": 7.71357,
+          "end": 7.93357,
+          "shape": "ae"
+        },
+        {
+          "start": 7.93357,
+          "end": 8.01571,
+          "shape": "small_open"
+        },
+        {
+          "start": 8.04071,
+          "end": 8.26071,
+          "shape": "ae"
+        },
+        {
+          "start": 8.29071,
+          "end": 8.51071,
+          "shape": "ae"
+        },
+        {
+          "start": 8.51071,
+          "end": 8.67643,
+          "shape": "small_open"
+        },
+        {
+          "start": 9.16929,
+          "end": 9.21571,
+          "shape": "o_u"
+        },
+        {
+          "start": 9.24071,
+          "end": 9.32286,
+          "shape": "small_open"
+        },
+        {
+          "start": 9.34786,
+          "end": 9.43,
+          "shape": "small_open"
+        },
+        {
+          "start": 9.455,
+          "end": 9.675,
+          "shape": "ae"
+        },
+        {
+          "start": 9.675,
+          "end": 9.76929,
+          "shape": "small_open"
+        },
+        {
+          "start": 9.79429,
+          "end": 10.01429,
+          "shape": "ae"
+        },
+        {
+          "start": 10.01429,
+          "end": 10.18,
+          "shape": "small_open"
+        },
+        {
+          "start": 10.205,
+          "end": 10.425,
+          "shape": "ae"
+        },
+        {
+          "start": 10.425,
+          "end": 10.53714,
+          "shape": "small_open"
+        },
+        {
+          "start": 10.56214,
+          "end": 10.73357,
+          "shape": "ae"
+        },
+        {
+          "start": 10.75857,
+          "end": 10.93,
+          "shape": "small_open"
+        },
+        {
+          "start": 10.955,
+          "end": 10.985,
+          "shape": "closed"
+        },
+        {
+          "start": 10.985,
+          "end": 11.055,
+          "shape": "small_open"
+        },
+        {
+          "start": 11.08,
+          "end": 11.11,
+          "shape": "closed"
+        },
+        {
+          "start": 11.11,
+          "end": 11.33,
+          "shape": "ae"
+        },
+        {
+          "start": 11.33,
+          "end": 11.555,
+          "shape": "small_open"
+        },
+        {
+          "start": 11.91929,
+          "end": 12.13929,
+          "shape": "ae"
+        },
+        {
+          "start": 12.13929,
+          "end": 12.305,
+          "shape": "small_open"
+        },
+        {
+          "start": 12.33,
+          "end": 12.41214,
+          "shape": "small_open"
+        },
+        {
+          "start": 12.43714,
+          "end": 12.65714,
+          "shape": "ae"
+        },
+        {
+          "start": 12.65714,
+          "end": 12.78714,
+          "shape": "small_open"
+        },
+        {
+          "start": 12.81214,
+          "end": 13.03214,
+          "shape": "ae"
+        },
+        {
+          "start": 13.03214,
+          "end": 13.43,
+          "shape": "small_open"
+        },
+        {
+          "start": 13.455,
+          "end": 13.675,
+          "shape": "small_open"
+        },
+        {
+          "start": 13.74071,
+          "end": 13.805,
+          "shape": "ae"
+        },
+        {
+          "start": 13.83,
+          "end": 14.05,
+          "shape": "ae"
+        },
+        {
+          "start": 14.08,
+          "end": 14.19786,
+          "shape": "small_open"
+        },
+        {
+          "start": 14.22286,
+          "end": 14.39429,
+          "shape": "ae"
+        },
+        {
+          "start": 14.41929,
+          "end": 14.57286,
+          "shape": "small_open"
+        },
+        {
+          "start": 14.59786,
+          "end": 14.81786,
+          "shape": "ae"
+        },
+        {
+          "start": 14.81786,
+          "end": 15.16214,
+          "shape": "small_open"
+        },
+        {
+          "start": 15.18714,
+          "end": 15.40714,
+          "shape": "ae"
+        },
+        {
+          "start": 15.40714,
+          "end": 16.25143,
+          "shape": "small_open"
+        },
+        {
+          "start": 16.27643,
+          "end": 16.49643,
+          "shape": "ae"
+        },
+        {
+          "start": 16.49643,
+          "end": 16.57286,
+          "shape": "small_open"
+        },
+        {
+          "start": 16.86929,
+          "end": 17.03727,
+          "shape": "small_open"
+        },
+        {
+          "start": 17.06227,
+          "end": 17.16007,
+          "shape": "small_open"
+        },
+        {
+          "start": 17.18508,
+          "end": 17.40508,
+          "shape": "ae"
+        },
+        {
+          "start": 17.81665,
+          "end": 17.89692,
+          "shape": "small_open"
+        },
+        {
+          "start": 17.92192,
+          "end": 18.03727,
+          "shape": "small_open"
+        },
+        {
+          "start": 18.06227,
+          "end": 18.14253,
+          "shape": "small_open"
+        },
+        {
+          "start": 18.16753,
+          "end": 18.38753,
+          "shape": "ae"
+        },
+        {
+          "start": 18.38753,
+          "end": 18.54604,
+          "shape": "small_open"
+        },
+        {
+          "start": 18.57104,
+          "end": 18.79104,
+          "shape": "ae"
+        },
+        {
+          "start": 18.79104,
+          "end": 18.91446,
+          "shape": "small_open"
+        },
+        {
+          "start": 18.93946,
+          "end": 19.00218,
+          "shape": "ae"
+        },
+        {
+          "start": 19.02718,
+          "end": 19.24718,
+          "shape": "ae"
+        },
+        {
+          "start": 19.24718,
+          "end": 19.30043,
+          "shape": "small_open"
+        },
+        {
+          "start": 19.32543,
+          "end": 19.35543,
+          "shape": "closed"
+        },
+        {
+          "start": 19.35543,
+          "end": 19.57543,
+          "shape": "ae"
+        },
+        {
+          "start": 19.60613,
+          "end": 19.79165,
+          "shape": "small_open"
+        },
+        {
+          "start": 19.81665,
+          "end": 19.98464,
+          "shape": "o_u"
+        },
+        {
+          "start": 20.00964,
+          "end": 20.22964,
+          "shape": "small_open"
+        },
+        {
+          "start": 20.22964,
+          "end": 20.28288,
+          "shape": "small_open"
+        },
+        {
+          "start": 20.30788,
+          "end": 20.33788,
+          "shape": "closed"
+        },
+        {
+          "start": 20.33788,
+          "end": 20.55788,
+          "shape": "ae"
+        },
+        {
+          "start": 20.58858,
+          "end": 20.72148,
+          "shape": "small_open"
+        },
+        {
+          "start": 20.74648,
+          "end": 20.94955,
+          "shape": "o_u"
+        },
+        {
+          "start": 20.97455,
+          "end": 21.19455,
+          "shape": "small_open"
+        },
+        {
+          "start": 21.22016,
+          "end": 21.26534,
+          "shape": "ae"
+        },
+        {
+          "start": 21.29034,
+          "end": 21.32034,
+          "shape": "closed"
+        },
+        {
+          "start": 21.32034,
+          "end": 21.44078,
+          "shape": "ae"
+        },
+        {
+          "start": 21.46578,
+          "end": 21.6513,
+          "shape": "ae"
+        },
+        {
+          "start": 22.15946,
+          "end": 22.37946,
+          "shape": "o_u"
+        },
+        {
+          "start": 22.37946,
+          "end": 22.45025,
+          "shape": "small_open"
+        },
+        {
+          "start": 22.47525,
+          "end": 22.50525,
+          "shape": "closed"
+        },
+        {
+          "start": 22.50525,
+          "end": 22.72525,
+          "shape": "ae"
+        },
+        {
+          "start": 23.28665,
+          "end": 23.36692,
+          "shape": "small_open"
+        },
+        {
+          "start": 23.39192,
+          "end": 23.50727,
+          "shape": "ae"
+        },
+        {
+          "start": 23.53227,
+          "end": 23.56227,
+          "shape": "closed"
+        },
+        {
+          "start": 23.56227,
+          "end": 23.77043,
+          "shape": "ae"
+        },
+        {
+          "start": 24.33858,
+          "end": 24.41885,
+          "shape": "small_open"
+        },
+        {
+          "start": 24.44385,
+          "end": 24.5592,
+          "shape": "o_u"
+        },
+        {
+          "start": 24.5842,
+          "end": 24.66446,
+          "shape": "small_open"
+        },
+        {
+          "start": 24.68946,
+          "end": 24.78727,
+          "shape": "ae"
+        },
+        {
+          "start": 24.81227,
+          "end": 24.94516,
+          "shape": "ae"
+        },
+        {
+          "start": 24.97016,
+          "end": 25.08551,
+          "shape": "ae"
+        },
+        {
+          "start": 25.11051,
+          "end": 25.33051,
+          "shape": "ae"
+        },
+        {
+          "start": 25.33051,
+          "end": 25.43639,
+          "shape": "small_open"
+        },
+        {
+          "start": 25.63683,
+          "end": 25.85683,
+          "shape": "ae"
+        },
+        {
+          "start": 25.85683,
+          "end": 25.99779,
+          "shape": "small_open"
+        },
+        {
+          "start": 26.46139,
+          "end": 26.68139,
+          "shape": "ae"
+        },
+        {
+          "start": 26.68139,
+          "end": 26.91007,
+          "shape": "small_open"
+        },
+        {
+          "start": 26.93508,
+          "end": 27.15508,
+          "shape": "ae"
+        },
+        {
+          "start": 27.15508,
+          "end": 27.41885,
+          "shape": "small_open"
+        },
+        {
+          "start": 27.44385,
+          "end": 27.66385,
+          "shape": "ae"
+        },
+        {
+          "start": 28.06227,
+          "end": 28.28227,
+          "shape": "small_open"
+        },
+        {
+          "start": 28.28227,
+          "end": 28.49341,
+          "shape": "small_open"
+        },
+        {
+          "start": 28.51841,
+          "end": 28.73841,
+          "shape": "small_open"
+        },
+        {
+          "start": 28.73841,
+          "end": 28.8092,
+          "shape": "small_open"
+        },
+        {
+          "start": 28.8342,
+          "end": 28.8642,
+          "shape": "closed"
+        },
+        {
+          "start": 28.8642,
+          "end": 29.0842,
+          "shape": "ae"
+        },
+        {
+          "start": 29.1149,
+          "end": 29.26534,
+          "shape": "small_open"
+        },
+        {
+          "start": 29.29034,
+          "end": 29.51034,
+          "shape": "small_open"
+        },
+        {
+          "start": 29.51034,
+          "end": 29.66885,
+          "shape": "small_open"
+        },
+        {
+          "start": 29.69385,
+          "end": 29.91385,
+          "shape": "ae"
+        },
+        {
+          "start": 29.91385,
+          "end": 30.23025,
+          "shape": "small_open"
+        },
+        {
+          "start": 30.25525,
+          "end": 30.47525,
+          "shape": "ae"
+        },
+        {
+          "start": 30.47525,
+          "end": 30.68639,
+          "shape": "small_open"
+        },
+        {
+          "start": 30.71139,
+          "end": 30.93139,
+          "shape": "ae"
+        },
+        {
+          "start": 30.93139,
+          "end": 31.0899,
+          "shape": "small_open"
+        },
+        {
+          "start": 31.1149,
+          "end": 31.3349,
+          "shape": "ae"
+        },
+        {
+          "start": 31.3349,
+          "end": 31.73902,
+          "shape": "small_open"
+        },
+        {
+          "start": 31.76402,
+          "end": 31.98402,
+          "shape": "ae"
+        },
+        {
+          "start": 31.98402,
+          "end": 32.33551,
+          "shape": "small_open"
+        },
+        {
+          "start": 32.36051,
+          "end": 32.58051,
+          "shape": "ae"
+        },
+        {
+          "start": 32.64121,
+          "end": 32.86121,
+          "shape": "small_open"
+        },
+        {
+          "start": 32.86121,
+          "end": 33.23025,
+          "shape": "small_open"
+        },
+        {
+          "start": 33.25525,
+          "end": 33.47525,
+          "shape": "ae"
+        },
+        {
+          "start": 33.47525,
+          "end": 34.01972,
+          "shape": "small_open"
+        },
+        {
+          "start": 34.04472,
+          "end": 34.07472,
+          "shape": "closed"
+        },
+        {
+          "start": 34.07472,
+          "end": 34.29472,
+          "shape": "ae"
+        },
+        {
+          "start": 34.29472,
+          "end": 34.42323,
+          "shape": "small_open"
+        },
+        {
+          "start": 34.96139,
+          "end": 35.18139,
+          "shape": "ae"
+        },
+        {
+          "start": 35.18139,
+          "end": 35.70832,
+          "shape": "small_open"
+        },
+        {
+          "start": 35.94385,
+          "end": 36.00657,
+          "shape": "ae"
+        },
+        {
+          "start": 36.03157,
+          "end": 36.23464,
+          "shape": "ae"
+        },
+        {
+          "start": 36.25964,
+          "end": 36.28964,
+          "shape": "closed"
+        },
+        {
+          "start": 36.28964,
+          "end": 36.50964,
+          "shape": "ae"
+        },
+        {
+          "start": 36.50964,
+          "end": 36.60306,
+          "shape": "small_open"
+        },
+        {
+          "start": 36.62806,
+          "end": 36.84806,
+          "shape": "ae"
+        },
+        {
+          "start": 36.84806,
+          "end": 37.28727,
+          "shape": "small_open"
+        },
+        {
+          "start": 37.31227,
+          "end": 37.53227,
+          "shape": "ae"
+        },
+        {
+          "start": 37.53227,
+          "end": 37.74341,
+          "shape": "small_open"
+        },
+        {
+          "start": 37.76841,
+          "end": 37.98841,
+          "shape": "ae"
+        },
+        {
+          "start": 37.98841,
+          "end": 38.26972,
+          "shape": "small_open"
+        },
+        {
+          "start": 38.29472,
+          "end": 38.44516,
+          "shape": "ae"
+        },
+        {
+          "start": 38.47016,
+          "end": 38.69016,
+          "shape": "o_u"
+        },
+        {
+          "start": 38.69016,
+          "end": 38.9013,
+          "shape": "small_open"
+        },
+        {
+          "start": 39.25964,
+          "end": 39.47964,
+          "shape": "ae"
+        },
+        {
+          "start": 39.47964,
+          "end": 40.0592,
+          "shape": "small_open"
+        },
+        {
+          "start": 40.0842,
+          "end": 40.3042,
+          "shape": "ae"
+        },
+        {
+          "start": 40.3042,
+          "end": 40.70832,
+          "shape": "small_open"
+        },
+        {
+          "start": 41.17893,
+          "end": 41.39893,
+          "shape": "small_open"
+        },
+        {
+          "start": 41.42455,
+          "end": 41.61008,
+          "shape": "small_open"
+        },
+        {
+          "start": 41.63508,
+          "end": 41.85507,
+          "shape": "ae"
+        },
+        {
+          "start": 41.85507,
+          "end": 41.94341,
+          "shape": "small_open"
+        },
+        {
+          "start": 41.96841,
+          "end": 42.18841,
+          "shape": "ae"
+        },
+        {
+          "start": 42.23157,
+          "end": 42.45157,
+          "shape": "ae"
+        },
+        {
+          "start": 42.45157,
+          "end": 42.73288,
+          "shape": "small_open"
+        },
+        {
+          "start": 42.75788,
+          "end": 42.97788,
+          "shape": "small_open"
+        },
+        {
+          "start": 43.0035,
+          "end": 43.2235,
+          "shape": "ae"
+        },
+        {
+          "start": 43.2235,
+          "end": 43.43464,
+          "shape": "small_open"
+        },
+        {
+          "start": 43.45964,
+          "end": 43.67964,
+          "shape": "small_open"
+        },
+        {
+          "start": 43.72279,
+          "end": 43.94279,
+          "shape": "small_open"
+        },
+        {
+          "start": 43.94279,
+          "end": 44.31183,
+          "shape": "small_open"
+        },
+        {
+          "start": 44.83999,
+          "end": 45.05999,
+          "shape": "ae"
+        },
+        {
+          "start": 45.12069,
+          "end": 45.27113,
+          "shape": "small_open"
+        },
+        {
+          "start": 45.29613,
+          "end": 45.51613,
+          "shape": "small_open"
+        },
+        {
+          "start": 45.51613,
+          "end": 45.85007,
+          "shape": "small_open"
+        },
+        {
+          "start": 45.87507,
+          "end": 45.90507,
+          "shape": "closed"
+        },
+        {
+          "start": 45.90507,
+          "end": 46.12507,
+          "shape": "ae"
+        },
+        {
+          "start": 46.12507,
+          "end": 46.2185,
+          "shape": "small_open"
+        },
+        {
+          "start": 46.2435,
+          "end": 46.4635,
+          "shape": "small_open"
+        },
+        {
+          "start": 46.48911,
+          "end": 46.70911,
+          "shape": "ae"
+        },
+        {
+          "start": 46.76981,
+          "end": 46.98981,
+          "shape": "ae"
+        },
+        {
+          "start": 46.98981,
+          "end": 47.35885,
+          "shape": "small_open"
+        },
+        {
+          "start": 47.887,
+          "end": 48.09007,
+          "shape": "ae"
+        },
+        {
+          "start": 48.11507,
+          "end": 48.23043,
+          "shape": "ae"
+        },
+        {
+          "start": 48.25543,
+          "end": 48.47543,
+          "shape": "ae"
+        },
+        {
+          "start": 48.47543,
+          "end": 48.59885,
+          "shape": "small_open"
+        },
+        {
+          "start": 48.62385,
+          "end": 48.84385,
+          "shape": "small_open"
+        },
+        {
+          "start": 48.84385,
+          "end": 49.00236,
+          "shape": "small_open"
+        },
+        {
+          "start": 49.07999,
+          "end": 49.29999,
+          "shape": "ae"
+        },
+        {
+          "start": 49.3256,
+          "end": 49.5456,
+          "shape": "ae"
+        },
+        {
+          "start": 49.5456,
+          "end": 49.77429,
+          "shape": "small_open"
+        },
+        {
+          "start": 49.79929,
+          "end": 50.01929,
+          "shape": "ae"
+        },
+        {
+          "start": 50.01929,
+          "end": 50.19534,
+          "shape": "small_open"
+        },
+        {
+          "start": 50.22034,
+          "end": 50.40586,
+          "shape": "ae"
+        },
+        {
+          "start": 50.43086,
+          "end": 50.46086,
+          "shape": "closed"
+        },
+        {
+          "start": 50.46086,
+          "end": 50.68086,
+          "shape": "ae"
+        },
+        {
+          "start": 50.68086,
+          "end": 50.79183,
+          "shape": "small_open"
+        },
+        {
+          "start": 50.81683,
+          "end": 51.03683,
+          "shape": "o_u"
+        },
+        {
+          "start": 51.03683,
+          "end": 51.19534,
+          "shape": "small_open"
+        },
+        {
+          "start": 51.22034,
+          "end": 51.44034,
+          "shape": "small_open"
+        },
+        {
+          "start": 51.44034,
+          "end": 51.49358,
+          "shape": "small_open"
+        },
+        {
+          "start": 51.9642,
+          "end": 51.9942,
+          "shape": "closed"
+        },
+        {
+          "start": 51.9942,
+          "end": 52.2142,
+          "shape": "ae"
+        },
+        {
+          "start": 52.2142,
+          "end": 52.29634,
+          "shape": "small_open"
+        },
+        {
+          "start": 52.32134,
+          "end": 52.42134,
+          "shape": "ae"
+        },
+        {
+          "start": 52.44634,
+          "end": 52.59991,
+          "shape": "o_u"
+        },
+        {
+          "start": 52.62491,
+          "end": 52.84491,
+          "shape": "ae"
+        },
+        {
+          "start": 52.84491,
+          "end": 52.92134,
+          "shape": "small_open"
+        },
+        {
+          "start": 52.94634,
+          "end": 53.16634,
+          "shape": "ae"
+        },
+        {
+          "start": 53.16634,
+          "end": 53.22491,
+          "shape": "small_open"
+        },
+        {
+          "start": 53.64277,
+          "end": 53.70705,
+          "shape": "ae"
+        },
+        {
+          "start": 53.73205,
+          "end": 53.90348,
+          "shape": "small_open"
+        },
+        {
+          "start": 53.92848,
+          "end": 54.14848,
+          "shape": "ae"
+        },
+        {
+          "start": 54.14848,
+          "end": 54.20705,
+          "shape": "small_open"
+        },
+        {
+          "start": 54.23205,
+          "end": 54.26205,
+          "shape": "closed"
+        },
+        {
+          "start": 54.26205,
+          "end": 54.48205,
+          "shape": "ae"
+        },
+        {
+          "start": 54.48205,
+          "end": 54.77848,
+          "shape": "small_open"
+        },
+        {
+          "start": 55.35134,
+          "end": 55.57134,
+          "shape": "ae"
+        },
+        {
+          "start": 55.57134,
+          "end": 55.70134,
+          "shape": "small_open"
+        },
+        {
+          "start": 55.72634,
+          "end": 55.91563,
+          "shape": "ae"
+        },
+        {
+          "start": 55.94063,
+          "end": 56.11205,
+          "shape": "ae"
+        },
+        {
+          "start": 56.13705,
+          "end": 56.3442,
+          "shape": "ae"
+        },
+        {
+          "start": 56.3692,
+          "end": 56.5892,
+          "shape": "o_u"
+        },
+        {
+          "start": 56.63705,
+          "end": 56.85705,
+          "shape": "ae"
+        },
+        {
+          "start": 56.85705,
+          "end": 57.0942,
+          "shape": "small_open"
+        },
+        {
+          "start": 57.58348,
+          "end": 57.64777,
+          "shape": "ae"
+        },
+        {
+          "start": 57.67277,
+          "end": 57.8442,
+          "shape": "ae"
+        },
+        {
+          "start": 57.8692,
+          "end": 57.95134,
+          "shape": "small_open"
+        },
+        {
+          "start": 57.97634,
+          "end": 58.14777,
+          "shape": "small_open"
+        },
+        {
+          "start": 58.17277,
+          "end": 58.39277,
+          "shape": "ae"
+        },
+        {
+          "start": 58.42277,
+          "end": 58.64277,
+          "shape": "small_open"
+        },
+        {
+          "start": 58.64277,
+          "end": 58.79063,
+          "shape": "small_open"
+        },
+        {
+          "start": 58.81563,
+          "end": 59.03563,
+          "shape": "ae"
+        },
+        {
+          "start": 59.03563,
+          "end": 59.32634,
+          "shape": "small_open"
+        },
+        {
+          "start": 59.35134,
+          "end": 59.54063,
+          "shape": "small_open"
+        },
+        {
+          "start": 59.56563,
+          "end": 59.7192,
+          "shape": "ae"
+        },
+        {
+          "start": 59.7442,
+          "end": 59.9642,
+          "shape": "ae"
+        },
+        {
+          "start": 59.9642,
+          "end": 60.16563,
+          "shape": "small_open"
+        },
+        {
+          "start": 60.64277,
+          "end": 60.86277,
+          "shape": "ae"
+        },
+        {
+          "start": 60.91063,
+          "end": 61.13063,
+          "shape": "ae"
+        },
+        {
+          "start": 61.13063,
+          "end": 61.3142,
+          "shape": "small_open"
+        },
+        {
+          "start": 61.3392,
+          "end": 61.5592,
+          "shape": "small_open"
+        },
+        {
+          "start": 61.5592,
+          "end": 61.72491,
+          "shape": "small_open"
+        },
+        {
+          "start": 61.74991,
+          "end": 61.96991,
+          "shape": "ae"
+        },
+        {
+          "start": 62.03563,
+          "end": 62.25563,
+          "shape": "ae"
+        },
+        {
+          "start": 62.25563,
+          "end": 62.58205,
+          "shape": "small_open"
+        },
+        {
+          "start": 62.60705,
+          "end": 62.63705,
+          "shape": "closed"
+        },
+        {
+          "start": 62.63705,
+          "end": 62.85705,
+          "shape": "small_open"
+        },
+        {
+          "start": 62.85705,
+          "end": 62.97491,
+          "shape": "small_open"
+        },
+        {
+          "start": 62.99991,
+          "end": 63.21991,
+          "shape": "small_open"
+        },
+        {
+          "start": 63.21991,
+          "end": 63.27848,
+          "shape": "small_open"
+        },
+        {
+          "start": 63.30348,
+          "end": 63.52348,
+          "shape": "ae"
+        },
+        {
+          "start": 63.52348,
+          "end": 63.72491,
+          "shape": "small_open"
+        },
+        {
+          "start": 64.31777,
+          "end": 64.53777,
+          "shape": "small_open"
+        },
+        {
+          "start": 64.53777,
+          "end": 64.59634,
+          "shape": "small_open"
+        },
+        {
+          "start": 64.62134,
+          "end": 64.84134,
+          "shape": "o_u"
+        },
+        {
+          "start": 64.87134,
+          "end": 65.04277,
+          "shape": "ae"
+        },
+        {
+          "start": 65.06777,
+          "end": 65.09777,
+          "shape": "closed"
+        },
+        {
+          "start": 65.09777,
+          "end": 65.31777,
+          "shape": "ae"
+        },
+        {
+          "start": 65.31777,
+          "end": 65.39991,
+          "shape": "small_open"
+        },
+        {
+          "start": 65.42491,
+          "end": 65.64491,
+          "shape": "ae"
+        },
+        {
+          "start": 65.64491,
+          "end": 65.9892,
+          "shape": "small_open"
+        },
+        {
+          "start": 66.40706,
+          "end": 66.62706,
+          "shape": "ae"
+        },
+        {
+          "start": 66.62706,
+          "end": 67.06063,
+          "shape": "small_open"
+        },
+        {
+          "start": 67.08563,
+          "end": 67.11563,
+          "shape": "closed"
+        },
+        {
+          "start": 67.11563,
+          "end": 67.33563,
+          "shape": "ae"
+        },
+        {
+          "start": 67.33563,
+          "end": 67.81063,
+          "shape": "small_open"
+        },
+        {
+          "start": 68.36348,
+          "end": 68.58348,
+          "shape": "small_open"
+        },
+        {
+          "start": 68.58348,
+          "end": 68.7492,
+          "shape": "small_open"
+        },
+        {
+          "start": 68.7742,
+          "end": 68.9942,
+          "shape": "small_open"
+        },
+        {
+          "start": 68.9942,
+          "end": 69.1242,
+          "shape": "small_open"
+        },
+        {
+          "start": 69.1492,
+          "end": 69.3692,
+          "shape": "small_open"
+        },
+        {
+          "start": 69.41706,
+          "end": 69.4992,
+          "shape": "small_open"
+        },
+        {
+          "start": 69.79206,
+          "end": 69.98134,
+          "shape": "small_open"
+        },
+        {
+          "start": 70.00634,
+          "end": 70.22634,
+          "shape": "ae"
+        },
+        {
+          "start": 70.22634,
+          "end": 70.28491,
+          "shape": "small_open"
+        },
+        {
+          "start": 70.30991,
+          "end": 70.42777,
+          "shape": "small_open"
+        },
+        {
+          "start": 70.45277,
+          "end": 70.58848,
+          "shape": "ae"
+        },
+        {
+          "start": 70.61348,
+          "end": 70.78491,
+          "shape": "small_open"
+        },
+        {
+          "start": 70.80991,
+          "end": 71.02991,
+          "shape": "ae"
+        },
+        {
+          "start": 71.59563,
+          "end": 71.71348,
+          "shape": "small_open"
+        },
+        {
+          "start": 71.73848,
+          "end": 71.95848,
+          "shape": "o_u"
+        },
+        {
+          "start": 71.98848,
+          "end": 72.20848,
+          "shape": "ae"
+        },
+        {
+          "start": 72.23848,
+          "end": 72.40991,
+          "shape": "small_open"
+        },
+        {
+          "start": 72.43491,
+          "end": 72.65491,
+          "shape": "ae"
+        },
+        {
+          "start": 72.65491,
+          "end": 72.89205,
+          "shape": "small_open"
+        },
+        {
+          "start": 72.91706,
+          "end": 73.13706,
+          "shape": "ae"
+        },
+        {
+          "start": 73.13706,
+          "end": 73.3742,
+          "shape": "small_open"
+        },
+        {
+          "start": 73.3992,
+          "end": 73.4292,
+          "shape": "closed"
+        },
+        {
+          "start": 73.4292,
+          "end": 73.6492,
+          "shape": "ae"
+        },
+        {
+          "start": 73.6492,
+          "end": 73.76705,
+          "shape": "small_open"
+        },
+        {
+          "start": 73.79206,
+          "end": 74.01206,
+          "shape": "ae"
+        },
+        {
+          "start": 74.07777,
+          "end": 74.29777,
+          "shape": "ae"
+        },
+        {
+          "start": 74.29777,
+          "end": 74.39205,
+          "shape": "small_open"
+        },
+        {
+          "start": 74.93491,
+          "end": 75.15491,
+          "shape": "ae"
+        },
+        {
+          "start": 75.15491,
+          "end": 75.28491,
+          "shape": "small_open"
+        },
+        {
+          "start": 75.30991,
+          "end": 75.52991,
+          "shape": "ae"
+        },
+        {
+          "start": 75.52991,
+          "end": 75.69563,
+          "shape": "small_open"
+        },
+        {
+          "start": 76.11348,
+          "end": 76.33348,
+          "shape": "ae"
+        },
+        {
+          "start": 76.33348,
+          "end": 76.71348,
+          "shape": "small_open"
+        },
+        {
+          "start": 77.28634,
+          "end": 77.50634,
+          "shape": "small_open"
+        },
+        {
+          "start": 77.57206,
+          "end": 77.79206,
+          "shape": "ae"
+        },
+        {
+          "start": 77.85777,
+          "end": 78.0292,
+          "shape": "small_open"
+        },
+        {
+          "start": 78.0542,
+          "end": 78.2742,
+          "shape": "small_open"
+        },
+        {
+          "start": 78.32206,
+          "end": 78.54206,
+          "shape": "ae"
+        },
+        {
+          "start": 78.58991,
+          "end": 78.61991,
+          "shape": "closed"
+        },
+        {
+          "start": 78.61991,
+          "end": 78.83991,
+          "shape": "ae"
+        },
+        {
+          "start": 79.35777,
+          "end": 79.38777,
+          "shape": "closed"
+        },
+        {
+          "start": 79.38777,
+          "end": 79.5292,
+          "shape": "small_open"
+        },
+        {
+          "start": 79.5542,
+          "end": 79.7742,
+          "shape": "small_open"
+        },
+        {
+          "start": 79.7742,
+          "end": 79.86848,
+          "shape": "small_open"
+        },
+        {
+          "start": 80.39348,
+          "end": 80.54706,
+          "shape": "ae"
+        },
+        {
+          "start": 80.57206,
+          "end": 80.79206,
+          "shape": "ae"
+        },
+        {
+          "start": 80.79206,
+          "end": 81.01134,
+          "shape": "small_open"
+        },
+        {
+          "start": 81.66134,
+          "end": 81.70777,
+          "shape": "small_open"
+        },
+        {
+          "start": 81.73277,
+          "end": 81.86848,
+          "shape": "ae"
+        },
+        {
+          "start": 81.89348,
+          "end": 81.99348,
+          "shape": "small_open"
+        },
+        {
+          "start": 82.01848,
+          "end": 82.17206,
+          "shape": "small_open"
+        },
+        {
+          "start": 82.19706,
+          "end": 82.41706,
+          "shape": "ae"
+        },
+        {
+          "start": 82.41706,
+          "end": 82.68991,
+          "shape": "small_open"
+        },
+        {
+          "start": 83.26277,
+          "end": 83.48277,
+          "shape": "ae"
+        },
+        {
+          "start": 83.51277,
+          "end": 83.64848,
+          "shape": "ae"
+        },
+        {
+          "start": 83.67348,
+          "end": 83.79134,
+          "shape": "o_u"
+        },
+        {
+          "start": 83.81634,
+          "end": 84.03634,
+          "shape": "small_open"
+        },
+        {
+          "start": 84.03634,
+          "end": 84.13063,
+          "shape": "small_open"
+        },
+        {
+          "start": 84.8342,
+          "end": 84.8642,
+          "shape": "closed"
+        },
+        {
+          "start": 84.8642,
+          "end": 85.0842,
+          "shape": "ae"
+        },
+        {
+          "start": 85.11991,
+          "end": 85.33991,
+          "shape": "ae"
+        },
+        {
+          "start": 85.33991,
+          "end": 85.48777,
+          "shape": "small_open"
+        },
+        {
+          "start": 85.51277,
+          "end": 85.54277,
+          "shape": "closed"
+        },
+        {
+          "start": 85.54277,
+          "end": 85.76277,
+          "shape": "ae"
+        },
+        {
+          "start": 85.76277,
+          "end": 86.0592,
+          "shape": "small_open"
+        },
+        {
+          "start": 86.0842,
+          "end": 86.23777,
+          "shape": "ae"
+        },
+        {
+          "start": 86.26277,
+          "end": 86.48277,
+          "shape": "ae"
+        },
+        {
+          "start": 86.53063,
+          "end": 86.75063,
+          "shape": "small_open"
+        },
+        {
+          "start": 86.75063,
+          "end": 86.91634,
+          "shape": "small_open"
+        },
+        {
+          "start": 86.94134,
+          "end": 87.16134,
+          "shape": "small_open"
+        },
+        {
+          "start": 87.19134,
+          "end": 87.3092,
+          "shape": "ae"
+        },
+        {
+          "start": 87.3342,
+          "end": 87.5542,
+          "shape": "ae"
+        },
+        {
+          "start": 87.5542,
+          "end": 87.63063,
+          "shape": "small_open"
+        },
+        {
+          "start": 87.65563,
+          "end": 87.68563,
+          "shape": "closed"
+        },
+        {
+          "start": 87.68563,
+          "end": 87.90563,
+          "shape": "ae"
+        },
+        {
+          "start": 87.90563,
+          "end": 87.98777,
+          "shape": "small_open"
+        },
+        {
+          "start": 88.01277,
+          "end": 88.20206,
+          "shape": "small_open"
+        },
+        {
+          "start": 88.22706,
+          "end": 88.36277,
+          "shape": "ae"
+        },
+        {
+          "start": 88.60563,
+          "end": 88.79491,
+          "shape": "small_open"
+        },
+        {
+          "start": 88.81991,
+          "end": 88.90206,
+          "shape": "ae"
+        },
+        {
+          "start": 88.92706,
+          "end": 89.14706,
+          "shape": "ae"
+        },
+        {
+          "start": 89.14706,
+          "end": 89.3842,
+          "shape": "small_open"
+        },
+        {
+          "start": 89.89706,
+          "end": 89.92706,
+          "shape": "closed"
+        },
+        {
+          "start": 89.92706,
+          "end": 90.14706,
+          "shape": "ae"
+        },
+        {
+          "start": 90.20063,
+          "end": 90.42063,
+          "shape": "ae"
+        },
+        {
+          "start": 90.42063,
+          "end": 90.49706,
+          "shape": "small_open"
+        },
+        {
+          "start": 90.52206,
+          "end": 90.74206,
+          "shape": "small_open"
+        },
+        {
+          "start": 90.80777,
+          "end": 90.88991,
+          "shape": "ae"
+        },
+        {
+          "start": 90.91491,
+          "end": 91.13491,
+          "shape": "o_u"
+        },
+        {
+          "start": 91.13491,
+          "end": 91.24706,
+          "shape": "small_open"
+        },
+        {
+          "start": 91.61134,
+          "end": 91.69348,
+          "shape": "ae"
+        },
+        {
+          "start": 91.71848,
+          "end": 91.93848,
+          "shape": "small_open"
+        },
+        {
+          "start": 91.93848,
+          "end": 92.01491,
+          "shape": "small_open"
+        },
+        {
+          "start": 92.03991,
+          "end": 92.25991,
+          "shape": "ae"
+        },
+        {
+          "start": 92.25991,
+          "end": 92.33634,
+          "shape": "small_open"
+        },
+        {
+          "start": 92.36134,
+          "end": 92.58134,
+          "shape": "ae"
+        },
+        {
+          "start": 92.58134,
+          "end": 92.69348,
+          "shape": "small_open"
+        },
+        {
+          "start": 92.71848,
+          "end": 92.93848,
+          "shape": "ae"
+        },
+        {
+          "start": 92.93848,
+          "end": 93.12206,
+          "shape": "small_open"
+        },
+        {
+          "start": 93.14706,
+          "end": 93.36706,
+          "shape": "small_open"
+        },
+        {
+          "start": 93.36706,
+          "end": 93.65777,
+          "shape": "small_open"
+        },
+        {
+          "start": 93.68277,
+          "end": 93.90277,
+          "shape": "ae"
+        },
+        {
+          "start": 93.90277,
+          "end": 94.51491,
+          "shape": "small_open"
+        },
+        {
+          "start": 94.53991,
+          "end": 94.75991,
+          "shape": "ae"
+        },
+        {
+          "start": 94.75991,
+          "end": 94.81848,
+          "shape": "small_open"
+        },
+        {
+          "start": 94.84348,
+          "end": 94.87348,
+          "shape": "closed"
+        },
+        {
+          "start": 94.87348,
+          "end": 95.05063,
+          "shape": "o_u"
+        },
+        {
+          "start": 95.07563,
+          "end": 95.29563,
+          "shape": "small_open"
+        },
+        {
+          "start": 95.29563,
+          "end": 95.3542,
+          "shape": "small_open"
+        },
+        {
+          "start": 95.3792,
+          "end": 95.53277,
+          "shape": "small_open"
+        },
+        {
+          "start": 95.55777,
+          "end": 95.6042,
+          "shape": "ae"
+        },
+        {
+          "start": 95.6292,
+          "end": 95.6592,
+          "shape": "closed"
+        },
+        {
+          "start": 95.6592,
+          "end": 95.74706,
+          "shape": "ae"
+        },
+        {
+          "start": 96.0792,
+          "end": 96.2992,
+          "shape": "small_open"
+        },
+        {
+          "start": 96.3292,
+          "end": 96.46491,
+          "shape": "ae"
+        },
+        {
+          "start": 96.48991,
+          "end": 96.60777,
+          "shape": "ae"
+        },
+        {
+          "start": 96.63277,
+          "end": 96.83991,
+          "shape": "ae"
+        },
+        {
+          "start": 96.86491,
+          "end": 97.08491,
+          "shape": "o_u"
+        },
+        {
+          "start": 97.11491,
+          "end": 97.33491,
+          "shape": "ae"
+        },
+        {
+          "start": 97.38277,
+          "end": 97.60277,
+          "shape": "ae"
+        },
+        {
+          "start": 97.60277,
+          "end": 97.69706,
+          "shape": "small_open"
+        },
+        {
+          "start": 97.72206,
+          "end": 97.89348,
+          "shape": "ae"
+        },
+        {
+          "start": 97.91848,
+          "end": 98.01848,
+          "shape": "small_open"
+        },
+        {
+          "start": 98.04348,
+          "end": 98.25063,
+          "shape": "ae"
+        },
+        {
+          "start": 98.27563,
+          "end": 98.4292,
+          "shape": "ae"
+        },
+        {
+          "start": 98.4542,
+          "end": 98.64348,
+          "shape": "ae"
+        },
+        {
+          "start": 98.66848,
+          "end": 98.88848,
+          "shape": "small_open"
+        },
+        {
+          "start": 98.88848,
+          "end": 99.03634,
+          "shape": "small_open"
+        },
+        {
+          "start": 99.6092,
+          "end": 99.8292,
+          "shape": "ae"
+        },
+        {
+          "start": 99.8292,
+          "end": 100.0842,
+          "shape": "small_open"
+        },
+        {
+          "start": 100.1092,
+          "end": 100.3292,
+          "shape": "ae"
+        },
+        {
+          "start": 100.3292,
+          "end": 100.5842,
+          "shape": "small_open"
+        },
+        {
+          "start": 100.6092,
+          "end": 100.8292,
+          "shape": "ae"
+        },
+        {
+          "start": 100.8292,
+          "end": 101.03063,
+          "shape": "small_open"
+        },
+        {
+          "start": 101.05563,
+          "end": 101.27563,
+          "shape": "ae"
+        },
+        {
+          "start": 101.27563,
+          "end": 101.53063,
+          "shape": "small_open"
+        },
+        {
+          "start": 102.07348,
+          "end": 102.10348,
+          "shape": "closed"
+        },
+        {
+          "start": 102.10348,
+          "end": 102.19134,
+          "shape": "small_open"
+        },
+        {
+          "start": 102.21634,
+          "end": 102.38777,
+          "shape": "ae"
+        },
+        {
+          "start": 102.41277,
+          "end": 102.61991,
+          "shape": "ae"
+        },
+        {
+          "start": 102.64491,
+          "end": 102.69134,
+          "shape": "small_open"
+        },
+        {
+          "start": 102.71634,
+          "end": 102.93634,
+          "shape": "ae"
+        },
+        {
+          "start": 102.93634,
+          "end": 103.06634,
+          "shape": "small_open"
+        },
+        {
+          "start": 103.5792,
+          "end": 103.7992,
+          "shape": "small_open"
+        },
+        {
+          "start": 103.82481,
+          "end": 104.04481,
+          "shape": "ae"
+        },
+        {
+          "start": 104.04481,
+          "end": 104.43139,
+          "shape": "small_open"
+        },
+        {
+          "start": 104.45639,
+          "end": 104.67639,
+          "shape": "ae"
+        },
+        {
+          "start": 104.67639,
+          "end": 105.44894,
+          "shape": "small_open"
+        },
+        {
+          "start": 105.47394,
+          "end": 105.69394,
+          "shape": "ae"
+        },
+        {
+          "start": 105.69394,
+          "end": 105.81736,
+          "shape": "small_open"
+        },
+        {
+          "start": 105.84236,
+          "end": 106.02788,
+          "shape": "ae"
+        },
+        {
+          "start": 106.05288,
+          "end": 106.27288,
+          "shape": "ae"
+        },
+        {
+          "start": 106.27288,
+          "end": 106.69455,
+          "shape": "small_open"
+        },
+        {
+          "start": 107.08797,
+          "end": 107.15069,
+          "shape": "small_open"
+        },
+        {
+          "start": 107.17569,
+          "end": 107.39569,
+          "shape": "ae"
+        },
+        {
+          "start": 107.39569,
+          "end": 107.48402,
+          "shape": "small_open"
+        },
+        {
+          "start": 107.50902,
+          "end": 107.53902,
+          "shape": "closed"
+        },
+        {
+          "start": 107.53902,
+          "end": 107.75902,
+          "shape": "ae"
+        },
+        {
+          "start": 107.78972,
+          "end": 107.90507,
+          "shape": "small_open"
+        },
+        {
+          "start": 107.93008,
+          "end": 107.96008,
+          "shape": "closed"
+        },
+        {
+          "start": 107.96008,
+          "end": 108.13314,
+          "shape": "ae"
+        },
+        {
+          "start": 108.15815,
+          "end": 108.30858,
+          "shape": "small_open"
+        },
+        {
+          "start": 108.33358,
+          "end": 108.41385,
+          "shape": "small_open"
+        },
+        {
+          "start": 108.43885,
+          "end": 108.65885,
+          "shape": "ae"
+        },
+        {
+          "start": 108.65885,
+          "end": 108.78227,
+          "shape": "small_open"
+        },
+        {
+          "start": 108.80727,
+          "end": 109.02727,
+          "shape": "ae"
+        },
+        {
+          "start": 109.02727,
+          "end": 109.2735,
+          "shape": "small_open"
+        },
+        {
+          "start": 109.81165,
+          "end": 109.97964,
+          "shape": "ae"
+        },
+        {
+          "start": 110.00464,
+          "end": 110.22464,
+          "shape": "ae"
+        },
+        {
+          "start": 110.22464,
+          "end": 110.5235,
+          "shape": "small_open"
+        },
+        {
+          "start": 110.5485,
+          "end": 110.7685,
+          "shape": "small_open"
+        },
+        {
+          "start": 110.8292,
+          "end": 111.0492,
+          "shape": "ae"
+        },
+        {
+          "start": 111.59551,
+          "end": 111.81551,
+          "shape": "small_open"
+        },
+        {
+          "start": 111.87622,
+          "end": 112.09622,
+          "shape": "small_open"
+        },
+        {
+          "start": 112.09622,
+          "end": 112.41262,
+          "shape": "small_open"
+        },
+        {
+          "start": 112.98078,
+          "end": 113.06104,
+          "shape": "small_open"
+        },
+        {
+          "start": 113.08604,
+          "end": 113.11604,
+          "shape": "closed"
+        },
+        {
+          "start": 113.11604,
+          "end": 113.33604,
+          "shape": "o_u"
+        },
+        {
+          "start": 113.38429,
+          "end": 113.51718,
+          "shape": "small_open"
+        },
+        {
+          "start": 113.54218,
+          "end": 113.76218,
+          "shape": "ae"
+        },
+        {
+          "start": 113.76218,
+          "end": 113.90315,
+          "shape": "small_open"
+        },
+        {
+          "start": 113.92815,
+          "end": 114.11367,
+          "shape": "ae"
+        },
+        {
+          "start": 114.13867,
+          "end": 114.16867,
+          "shape": "closed"
+        },
+        {
+          "start": 114.16867,
+          "end": 114.38867,
+          "shape": "ae"
+        },
+        {
+          "start": 114.38867,
+          "end": 114.44701,
+          "shape": "small_open"
+        },
+        {
+          "start": 114.47201,
+          "end": 114.69201,
+          "shape": "ae"
+        },
+        {
+          "start": 114.69201,
+          "end": 114.85051,
+          "shape": "small_open"
+        },
+        {
+          "start": 114.87551,
+          "end": 115.09551,
+          "shape": "ae"
+        },
+        {
+          "start": 115.09551,
+          "end": 115.1663,
+          "shape": "small_open"
+        },
+        {
+          "start": 115.1913,
+          "end": 115.37683,
+          "shape": "small_open"
+        },
+        {
+          "start": 115.40183,
+          "end": 115.49964,
+          "shape": "ae"
+        },
+        {
+          "start": 115.52464,
+          "end": 115.67507,
+          "shape": "ae"
+        },
+        {
+          "start": 116.04534,
+          "end": 116.26534,
+          "shape": "ae"
+        },
+        {
+          "start": 116.26534,
+          "end": 116.89534,
+          "shape": "small_open"
+        },
+        {
+          "start": 116.92034,
+          "end": 117.14034,
+          "shape": "ae"
+        },
+        {
+          "start": 117.14034,
+          "end": 117.87748,
+          "shape": "small_open"
+        },
+        {
+          "start": 117.90248,
+          "end": 118.12248,
+          "shape": "ae"
+        },
+        {
+          "start": 118.17034,
+          "end": 118.39034,
+          "shape": "small_open"
+        },
+        {
+          "start": 118.39034,
+          "end": 118.50248,
+          "shape": "small_open"
+        },
+        {
+          "start": 118.52748,
+          "end": 118.64534,
+          "shape": "small_open"
+        },
+        {
+          "start": 118.72391,
+          "end": 118.75391,
+          "shape": "closed"
+        },
+        {
+          "start": 118.75391,
+          "end": 118.97391,
+          "shape": "ae"
+        },
+        {
+          "start": 118.97391,
+          "end": 119.12748,
+          "shape": "small_open"
+        },
+        {
+          "start": 119.71605,
+          "end": 119.93605,
+          "shape": "o_u"
+        },
+        {
+          "start": 119.98391,
+          "end": 120.20391,
+          "shape": "ae"
+        },
+        {
+          "start": 120.20391,
+          "end": 120.47677,
+          "shape": "small_open"
+        },
+        {
+          "start": 120.50177,
+          "end": 120.72177,
+          "shape": "ae"
+        },
+        {
+          "start": 120.72177,
+          "end": 120.90534,
+          "shape": "small_open"
+        },
+        {
+          "start": 120.93034,
+          "end": 121.15034,
+          "shape": "ae"
+        },
+        {
+          "start": 121.18034,
+          "end": 121.40034,
+          "shape": "ae"
+        },
+        {
+          "start": 121.99605,
+          "end": 122.21605,
+          "shape": "ae"
+        },
+        {
+          "start": 122.26391,
+          "end": 122.48391,
+          "shape": "o_u"
+        },
+        {
+          "start": 122.53177,
+          "end": 122.75177,
+          "shape": "ae"
+        },
+        {
+          "start": 122.75177,
+          "end": 122.93534,
+          "shape": "small_open"
+        },
+        {
+          "start": 122.96034,
+          "end": 123.18034,
+          "shape": "ae"
+        },
+        {
+          "start": 123.18034,
+          "end": 123.43534,
+          "shape": "small_open"
+        },
+        {
+          "start": 123.46034,
+          "end": 123.68034,
+          "shape": "ae"
+        },
+        {
+          "start": 123.68034,
+          "end": 123.73891,
+          "shape": "small_open"
+        },
+        {
+          "start": 123.76391,
+          "end": 123.88177,
+          "shape": "small_open"
+        },
+        {
+          "start": 123.90677,
+          "end": 124.12677,
+          "shape": "ae"
+        },
+        {
+          "start": 124.12677,
+          "end": 124.31034,
+          "shape": "small_open"
+        },
+        {
+          "start": 124.70462,
+          "end": 124.92462,
+          "shape": "small_open"
+        },
+        {
+          "start": 124.97248,
+          "end": 125.19248,
+          "shape": "ae"
+        },
+        {
+          "start": 125.19248,
+          "end": 125.41177,
+          "shape": "small_open"
+        },
+        {
+          "start": 125.43677,
+          "end": 125.53677,
+          "shape": "small_open"
+        },
+        {
+          "start": 125.56177,
+          "end": 125.60819,
+          "shape": "ae"
+        },
+        {
+          "start": 125.6332,
+          "end": 125.6632,
+          "shape": "closed"
+        },
+        {
+          "start": 125.6632,
+          "end": 125.8832,
+          "shape": "o_u"
+        },
+        {
+          "start": 125.8832,
+          "end": 125.96534,
+          "shape": "small_open"
+        },
+        {
+          "start": 126.5182,
+          "end": 126.72534,
+          "shape": "ae"
+        },
+        {
+          "start": 126.75034,
+          "end": 126.85034,
+          "shape": "ae"
+        },
+        {
+          "start": 126.87534,
+          "end": 127.09534,
+          "shape": "small_open"
+        },
+        {
+          "start": 127.09534,
+          "end": 127.15391,
+          "shape": "small_open"
+        },
+        {
+          "start": 127.17891,
+          "end": 127.20891,
+          "shape": "closed"
+        },
+        {
+          "start": 127.20891,
+          "end": 127.42891,
+          "shape": "ae"
+        },
+        {
+          "start": 127.42891,
+          "end": 127.68962,
+          "shape": "small_open"
+        },
+        {
+          "start": 127.71462,
+          "end": 127.74462,
+          "shape": "closed"
+        },
+        {
+          "start": 127.74462,
+          "end": 127.96462,
+          "shape": "small_open"
+        },
+        {
+          "start": 128.0182,
+          "end": 128.2382,
+          "shape": "small_open"
+        },
+        {
+          "start": 128.2382,
+          "end": 128.31462,
+          "shape": "small_open"
+        },
+        {
+          "start": 128.33962,
+          "end": 128.55962,
+          "shape": "ae"
+        },
+        {
+          "start": 128.55962,
+          "end": 128.70748,
+          "shape": "small_open"
+        },
+        {
+          "start": 128.73248,
+          "end": 128.95248,
+          "shape": "ae"
+        },
+        {
+          "start": 128.95248,
+          "end": 129.43962,
+          "shape": "small_open"
+        },
+        {
+          "start": 129.46462,
+          "end": 129.68462,
+          "shape": "ae"
+        },
+        {
+          "start": 129.68462,
+          "end": 129.79677,
+          "shape": "small_open"
+        },
+        {
+          "start": 129.82177,
+          "end": 130.04177,
+          "shape": "ae"
+        },
+        {
+          "start": 130.04177,
+          "end": 130.31462,
+          "shape": "small_open"
+        },
+        {
+          "start": 130.33962,
+          "end": 130.55962,
+          "shape": "small_open"
+        },
+        {
+          "start": 130.55962,
+          "end": 130.72534,
+          "shape": "small_open"
+        },
+        {
+          "start": 130.75034,
+          "end": 130.97034,
+          "shape": "ae"
+        },
+        {
+          "start": 130.97034,
+          "end": 131.38605,
+          "shape": "small_open"
+        },
+        {
+          "start": 131.41105,
+          "end": 131.63105,
+          "shape": "ae"
+        },
+        {
+          "start": 131.63105,
+          "end": 131.81462,
+          "shape": "small_open"
+        },
+        {
+          "start": 131.83962,
+          "end": 132.05962,
+          "shape": "o_u"
+        },
+        {
+          "start": 132.08962,
+          "end": 132.30962,
+          "shape": "small_open"
+        },
+        {
+          "start": 132.33962,
+          "end": 132.51105,
+          "shape": "ae"
+        },
+        {
+          "start": 132.89319,
+          "end": 133.11319,
+          "shape": "small_open"
+        },
+        {
+          "start": 133.11319,
+          "end": 133.21907,
+          "shape": "small_open"
+        },
+        {
+          "start": 133.24407,
+          "end": 133.46407,
+          "shape": "ae"
+        },
+        {
+          "start": 133.46407,
+          "end": 133.78048,
+          "shape": "small_open"
+        },
+        {
+          "start": 133.80548,
+          "end": 134.02548,
+          "shape": "ae"
+        },
+        {
+          "start": 134.02548,
+          "end": 134.2717,
+          "shape": "small_open"
+        },
+        {
+          "start": 134.2967,
+          "end": 134.3267,
+          "shape": "closed"
+        },
+        {
+          "start": 134.3267,
+          "end": 134.5467,
+          "shape": "ae"
+        },
+        {
+          "start": 134.5467,
+          "end": 134.76293,
+          "shape": "small_open"
+        },
+        {
+          "start": 134.78793,
+          "end": 135.00793,
+          "shape": "small_open"
+        },
+        {
+          "start": 135.00793,
+          "end": 135.18398,
+          "shape": "small_open"
+        },
+        {
+          "start": 135.20898,
+          "end": 135.42898,
+          "shape": "ae"
+        },
+        {
+          "start": 135.42898,
+          "end": 135.64013,
+          "shape": "small_open"
+        },
+        {
+          "start": 135.66512,
+          "end": 135.88512,
+          "shape": "ae"
+        },
+        {
+          "start": 135.88512,
+          "end": 136.32434,
+          "shape": "small_open"
+        },
+        {
+          "start": 136.34933,
+          "end": 136.56933,
+          "shape": "ae"
+        },
+        {
+          "start": 136.56933,
+          "end": 136.62258,
+          "shape": "small_open"
+        },
+        {
+          "start": 136.64758,
+          "end": 136.86758,
+          "shape": "small_open"
+        },
+        {
+          "start": 136.92828,
+          "end": 137.14828,
+          "shape": "small_open"
+        },
+        {
+          "start": 137.14828,
+          "end": 137.41206,
+          "shape": "small_open"
+        },
+        {
+          "start": 137.43705,
+          "end": 137.65705,
+          "shape": "small_open"
+        },
+        {
+          "start": 137.65705,
+          "end": 137.92083,
+          "shape": "small_open"
+        },
+        {
+          "start": 137.94583,
+          "end": 138.16583,
+          "shape": "ae"
+        },
+        {
+          "start": 138.16583,
+          "end": 138.79802,
+          "shape": "small_open"
+        },
+        {
+          "start": 139.32618,
+          "end": 139.54618,
+          "shape": "ae"
+        },
+        {
+          "start": 139.58934,
+          "end": 139.80934,
+          "shape": "ae"
+        },
+        {
+          "start": 139.80934,
+          "end": 139.89767,
+          "shape": "small_open"
+        },
+        {
+          "start": 139.92267,
+          "end": 139.98539,
+          "shape": "small_open"
+        },
+        {
+          "start": 140.01039,
+          "end": 140.23039,
+          "shape": "ae"
+        },
+        {
+          "start": 140.23039,
+          "end": 140.33627,
+          "shape": "small_open"
+        },
+        {
+          "start": 140.36127,
+          "end": 140.58127,
+          "shape": "ae"
+        },
+        {
+          "start": 140.62442,
+          "end": 140.84442,
+          "shape": "ae"
+        },
+        {
+          "start": 140.84442,
+          "end": 140.91521,
+          "shape": "small_open"
+        },
+        {
+          "start": 140.94021,
+          "end": 140.97021,
+          "shape": "closed"
+        },
+        {
+          "start": 140.97021,
+          "end": 141.19021,
+          "shape": "ae"
+        },
+        {
+          "start": 141.19021,
+          "end": 141.31872,
+          "shape": "small_open"
+        },
+        {
+          "start": 141.34372,
+          "end": 141.56372,
+          "shape": "ae"
+        },
+        {
+          "start": 141.56372,
+          "end": 141.70469,
+          "shape": "small_open"
+        },
+        {
+          "start": 141.72969,
+          "end": 141.75969,
+          "shape": "closed"
+        },
+        {
+          "start": 141.75969,
+          "end": 141.96785,
+          "shape": "small_open"
+        },
+        {
+          "start": 141.99284,
+          "end": 142.21284,
+          "shape": "small_open"
+        },
+        {
+          "start": 142.21284,
+          "end": 142.54679,
+          "shape": "small_open"
+        },
+        {
+          "start": 143.13495,
+          "end": 143.35495,
+          "shape": "ae"
+        },
+        {
+          "start": 143.35495,
+          "end": 143.54855,
+          "shape": "small_open"
+        },
+        {
+          "start": 144.0967,
+          "end": 144.3167,
+          "shape": "small_open"
+        },
+        {
+          "start": 144.3167,
+          "end": 144.38749,
+          "shape": "small_open"
+        },
+        {
+          "start": 144.41249,
+          "end": 144.63249,
+          "shape": "small_open"
+        },
+        {
+          "start": 144.67565,
+          "end": 144.75592,
+          "shape": "small_open"
+        },
+        {
+          "start": 144.78091,
+          "end": 145.00091,
+          "shape": "small_open"
+        },
+        {
+          "start": 145.06162,
+          "end": 145.28162,
+          "shape": "ae"
+        },
+        {
+          "start": 145.28162,
+          "end": 145.52785,
+          "shape": "small_open"
+        },
+        {
+          "start": 146.096,
+          "end": 146.316,
+          "shape": "ae"
+        },
+        {
+          "start": 146.316,
+          "end": 146.5096,
+          "shape": "small_open"
+        },
+        {
+          "start": 146.5346,
+          "end": 146.7546,
+          "shape": "ae"
+        },
+        {
+          "start": 146.7546,
+          "end": 146.89556,
+          "shape": "small_open"
+        },
+        {
+          "start": 146.92056,
+          "end": 147.14056,
+          "shape": "small_open"
+        },
+        {
+          "start": 147.18372,
+          "end": 147.40372,
+          "shape": "ae"
+        },
+        {
+          "start": 147.40372,
+          "end": 147.59732,
+          "shape": "small_open"
+        }
+      ]
+    },
+    {
+      "id": "adb",
+      "author": "adb",
+      "performances": [
+        {
+          "at": 0.0,
+          "recipe": "listening",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ],
+          "blinks": [
+            1.5
+          ]
+        },
+        {
+          "at": 28.052268,
+          "recipe": "listening",
+          "duration": 0.4,
+          "gaze": [
+            -0.3,
+            0
+          ],
+          "blinks": [
+            29.552268
+          ]
+        },
+        {
+          "at": 30.701391,
+          "recipe": "weight_shift",
+          "duration": 0.4,
+          "gaze": [
+            -0.25,
+            0
+          ],
+          "blinks": [
+            32.201391
+          ]
+        },
+        {
+          "at": 41.168935,
+          "recipe": "prop_present",
+          "duration": 0.4,
+          "gaze": [
+            -0.3,
+            0
+          ],
+          "blinks": [
+            42.668935
+          ]
+        },
+        {
+          "at": 51.954198,
+          "recipe": "deadpan",
+          "duration": 0.45,
+          "gaze": [
+            0,
+            0
+          ],
+          "blinks": [
+            53.454198
+          ]
+        },
+        {
+          "at": 56.627055,
+          "recipe": "dry_annoyance",
+          "duration": 0.4,
+          "gaze": [
+            -0.2,
+            0
+          ],
+          "blinks": [
+            58.127055
+          ]
+        },
+        {
+          "at": 60.632769,
+          "recipe": "skeptical",
+          "duration": 0.4,
+          "gaze": [
+            -0.35,
+            0.05
+          ],
+          "blinks": [
+            62.132769
+          ]
+        },
+        {
+          "at": 69.782055,
+          "recipe": "dry_annoyance",
+          "duration": 0.4,
+          "gaze": [
+            -0.3,
+            0
+          ],
+          "blinks": [
+            71.282055
+          ]
+        },
+        {
+          "at": 76.103483,
+          "recipe": "self_impressed",
+          "duration": 0.4,
+          "gaze": [
+            0,
+            0
+          ],
+          "blinks": [
+            77.603483
+          ]
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "beat_00",
+      "start": 0.0,
+      "end": 7.553571,
+      "background": "studio_nemi",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          620,
+          365
+        ],
+        "zoom": 2.05,
+        "path": [
+          {
+            "at": 0.0,
+            "center": [
+              620,
+              365
+            ],
+            "zoom": 2.05
+          },
+          {
+            "at": 0.8,
+            "center": [
+              620,
+              365
+            ],
+            "zoom": 2.05
+          },
+          {
+            "at": 2.2,
+            "center": [
+              620,
+              355
+            ],
+            "zoom": 2.15
+          }
+        ]
+      }
+    },
+    {
+      "id": "beat_01",
+      "start": 7.553571,
+      "end": 16.739286,
+      "background": "studio_nemi",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            580
+          ],
+          "scale": 1.5
+        }
+      },
+      "camera": {
+        "center": [
+          860,
+          505
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "beat_02",
+      "start": 16.739286,
+      "end": 27.932268,
+      "background": "studio_nemi",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            580
+          ],
+          "scale": 1.5
+        }
+      },
+      "camera": {
+        "center": [
+          860,
+          505
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "beat_03",
+      "start": 27.932268,
+      "end": 41.048935,
+      "background": "studio_adb",
+      "actors": {
+        "nemi": {
+          "position": [
+            480,
+            580
+          ],
+          "scale": 1.45
+        },
+        "adb": {
+          "position": [
+            860,
+            580
+          ],
+          "scale": 1.45
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          530
+        ],
+        "zoom": 1.08
+      }
+    },
+    {
+      "id": "beat_04",
+      "start": 41.048935,
+      "end": 51.834198,
+      "background": "studio_adb",
+      "actors": {
+        "nemi": {
+          "position": [
+            480,
+            580
+          ],
+          "scale": 1.45
+        },
+        "adb": {
+          "position": [
+            860,
+            580
+          ],
+          "scale": 1.45
+        }
+      },
+      "camera": {
+        "center": [
+          860,
+          505
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "beat_05",
+      "start": 51.834198,
+      "end": 60.512769,
+      "background": "studio_adb",
+      "actors": {
+        "nemi": {
+          "position": [
+            480,
+            580
+          ],
+          "scale": 1.45
+        },
+        "adb": {
+          "position": [
+            860,
+            580
+          ],
+          "scale": 1.45
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          530
+        ],
+        "zoom": 1.08
+      }
+    },
+    {
+      "id": "beat_06",
+      "start": 60.512769,
+      "end": 69.662055,
+      "background": "studio_adb",
+      "actors": {
+        "nemi": {
+          "position": [
+            480,
+            580
+          ],
+          "scale": 1.45
+        },
+        "adb": {
+          "position": [
+            860,
+            580
+          ],
+          "scale": 1.45
+        }
+      },
+      "camera": {
+        "center": [
+          860,
+          505
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "beat_07",
+      "start": 69.662055,
+      "end": 79.227769,
+      "background": "studio_adb",
+      "actors": {
+        "nemi": {
+          "position": [
+            480,
+            580
+          ],
+          "scale": 1.45
+        },
+        "adb": {
+          "position": [
+            860,
+            580
+          ],
+          "scale": 1.45
+        }
+      },
+      "camera": {
+        "center": [
+          860,
+          505
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "beat_08",
+      "start": 79.227769,
+      "end": 88.475627,
+      "background": "thought",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          620,
+          365
+        ],
+        "zoom": 2.05
+      }
+    },
+    {
+      "id": "beat_09",
+      "start": 88.475627,
+      "end": 95.949198,
+      "background": "adb_dorm_party",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            580
+          ],
+          "scale": 1.5
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          530
+        ],
+        "zoom": 1.08
+      }
+    },
+    {
+      "id": "beat_10",
+      "start": 95.949198,
+      "end": 103.449198,
+      "background": "adb_dorm_party",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            580
+          ],
+          "scale": 1.5
+        }
+      },
+      "camera": {
+        "center": [
+          860,
+          505
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "beat_11",
+      "start": 103.449198,
+      "end": 115.915338,
+      "background": "room",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            580
+          ],
+          "scale": 1.5
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          530
+        ],
+        "zoom": 1.08
+      }
+    },
+    {
+      "id": "beat_12",
+      "start": 115.915338,
+      "end": 124.574624,
+      "background": "thought",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          620,
+          365
+        ],
+        "zoom": 2.05,
+        "path": [
+          {
+            "at": 115.915338,
+            "center": [
+              620,
+              365
+            ],
+            "zoom": 2.05
+          },
+          {
+            "at": 116.515338,
+            "center": [
+              620,
+              365
+            ],
+            "zoom": 2.05
+          },
+          {
+            "at": 118.415338,
+            "center": [
+              645,
+              375
+            ],
+            "zoom": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "beat_13",
+      "start": 124.574624,
+      "end": 132.763195,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            580
+          ],
+          "scale": 1.5
+        }
+      },
+      "camera": {
+        "center": [
+          860,
+          505
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "beat_14",
+      "start": 132.763195,
+      "end": 148.2,
+      "background": "room",
+      "actors": {
+        "nemi": {
+          "position": [
+            620,
+            570
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          620,
+          365
+        ],
+        "zoom": 2.05,
+        "path": [
+          {
+            "at": 132.763195,
+            "center": [
+              620,
+              365
+            ],
+            "zoom": 2.05
+          },
+          {
+            "at": 133.563195,
+            "center": [
+              620,
+              365
+            ],
+            "zoom": 2.05
+          },
+          {
+            "at": 135.763195,
+            "center": [
+              620,
+              355
+            ],
+            "zoom": 2.12
+          }
+        ]
+      }
+    }
+  ],
+  "drawings": [
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 3.435715,
+      "end": 7.553571,
+      "position": [
+        1080,
+        260
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "text": "Friday 8 PM",
+      "size": 50,
+      "shots": [
+        "beat_00"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 9.784286,
+      "end": 16.739286,
+      "position": [
+        1140,
+        260
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "live",
+      "text": "chill night",
+      "size": 52,
+      "duration": 1.2,
+      "shots": [
+        "beat_01"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 20.297882,
+      "end": 27.932268,
+      "position": [
+        1140,
+        260
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "live",
+      "text": "vodka x 2",
+      "size": 58,
+      "duration": 1.25,
+      "shots": [
+        "beat_02"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 36.249637,
+      "end": 41.048935,
+      "position": [
+        1220,
+        260
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "text": "6 people total",
+      "size": 48,
+      "shots": [
+        "beat_03"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 46.759812,
+      "end": 51.834198,
+      "position": [
+        1200,
+        260
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "text": "takeout mountain",
+      "size": 46,
+      "shots": [
+        "beat_04"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 67.075627,
+      "end": 69.662055,
+      "position": [
+        1180,
+        260
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "live",
+      "text": "DO NOT DO IT",
+      "size": 52,
+      "duration": 1.0,
+      "shots": [
+        "beat_06"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 70.799912,
+      "end": 76.103483,
+      "position": [
+        1260,
+        260
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "live",
+      "text": "horse??",
+      "size": 54,
+      "duration": 1.0,
+      "shots": [
+        "beat_07"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "scratch",
+      "at": 76.103483,
+      "end": 79.227769,
+      "position": [
+        1320,
+        530
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "live",
+      "duration": 0.6,
+      "shots": [
+        "beat_07"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 76.103483,
+      "end": 79.227769,
+      "position": [
+        1280,
+        320
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "text": "toaster!",
+      "size": 54,
+      "accent": true,
+      "shots": [
+        "beat_07"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 82.187055,
+      "end": 88.475627,
+      "position": [
+        1080,
+        300
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "live",
+      "text": "CLUBBING!",
+      "size": 66,
+      "duration": 1.2,
+      "shots": [
+        "beat_08"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "spark",
+      "at": 82.487055,
+      "end": 88.475627,
+      "position": [
+        1260,
+        230
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "duration": 0.6,
+      "shots": [
+        "beat_08"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 90.904912,
+      "end": 95.949198,
+      "position": [
+        1160,
+        260
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "text": "BASS",
+      "size": 62,
+      "shots": [
+        "beat_09"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "spark",
+      "at": 96.622769,
+      "end": 103.449198,
+      "position": [
+        980,
+        340
+      ],
+      "scale": [
+        1.35,
+        1.35
+      ],
+      "mode": "live",
+      "duration": 0.7,
+      "shots": [
+        "beat_10"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 103.814812,
+      "end": 115.915338,
+      "position": [
+        1160,
+        260
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "text": "3:00 AM",
+      "size": 52,
+      "shots": [
+        "beat_11"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "circle",
+      "at": 122.25391,
+      "end": 124.574624,
+      "position": [
+        1080,
+        360
+      ],
+      "scale": [
+        1.4,
+        1.4
+      ],
+      "mode": "live",
+      "duration": 1.2,
+      "shots": [
+        "beat_12"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 125.623195,
+      "end": 132.763195,
+      "position": [
+        980,
+        230
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "live",
+      "text": "5:30 AM",
+      "size": 48,
+      "duration": 0.8,
+      "shots": [
+        "beat_13"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "scratch",
+      "at": 127.704624,
+      "end": 132.763195,
+      "position": [
+        940,
+        620
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "live",
+      "duration": 0.6,
+      "shots": [
+        "beat_13"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 130.329624,
+      "end": 132.763195,
+      "position": [
+        980,
+        310
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "live",
+      "text": "RIP NOODLES",
+      "size": 50,
+      "duration": 0.8,
+      "accent": true,
+      "shots": [
+        "beat_13"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 145.051616,
+      "end": 148.2,
+      "position": [
+        1100,
+        310
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "live",
+      "text": "10 / 10",
+      "size": 64,
+      "duration": 1.1,
+      "accent": true,
+      "shots": [
+        "beat_14"
+      ],
+      "layer": 3
+    },
+    {
+      "author": "nemi",
+      "kind": "text",
+      "at": 147.173721,
+      "end": 148.2,
+      "position": [
+        1060,
+        420
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "live",
+      "text": "never again",
+      "size": 48,
+      "duration": 0.8,
+      "shots": [
+        "beat_14"
+      ],
+      "layer": 3
+    }
+  ],
+  "props": [
+    {
+      "author": "nemi",
+      "kind": "desk",
+      "at": 0.0,
+      "end": 7.553571,
+      "position": [
+        1260,
+        717
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_00"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "desk",
+      "at": 16.739286,
+      "end": 27.932268,
+      "position": [
+        1260,
+        717
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_02"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "school_friend",
+      "at": 20.297882,
+      "end": 27.932268,
+      "position": [
+        280,
+        890
+      ],
+      "scale": [
+        1.3,
+        1.3
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_02"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "school_classmate_laugh",
+      "at": 20.297882,
+      "end": 27.932268,
+      "position": [
+        920,
+        890
+      ],
+      "scale": [
+        1.3,
+        1.3
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_02"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "red_cup",
+      "at": 20.297882,
+      "end": 27.932268,
+      "position": [
+        1200,
+        715
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "shots": [
+        "beat_02"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "school_friend_smile",
+      "at": 27.932268,
+      "end": 41.048935,
+      "position": [
+        180,
+        890
+      ],
+      "scale": [
+        1.25,
+        1.25
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_03"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "school_classmate",
+      "at": 27.932268,
+      "end": 41.048935,
+      "position": [
+        320,
+        890
+      ],
+      "scale": [
+        1.25,
+        1.25
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_03"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "school_classmate_laugh",
+      "at": 27.932268,
+      "end": 41.048935,
+      "position": [
+        1140,
+        890
+      ],
+      "scale": [
+        1.25,
+        1.25
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_03"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "school_friend_laugh",
+      "at": 27.932268,
+      "end": 41.048935,
+      "position": [
+        1320,
+        890
+      ],
+      "scale": [
+        1.25,
+        1.25
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_03"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "lunch_box",
+      "at": 41.048935,
+      "end": 51.834198,
+      "position": [
+        670,
+        660
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_04"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "red_cup",
+      "at": 51.210338,
+      "end": 51.834198,
+      "position": [
+        750,
+        630
+      ],
+      "scale": [
+        0.85,
+        0.85
+      ],
+      "mode": "hold",
+      "shots": [
+        "beat_04"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "notebook",
+      "at": 60.512769,
+      "end": 69.662055,
+      "position": [
+        1280,
+        570
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "hold",
+      "shots": [
+        "beat_06"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "potato_chart",
+      "at": 70.799912,
+      "end": 79.227769,
+      "position": [
+        1320,
+        530
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "shots": [
+        "beat_07"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "red_cup",
+      "at": 95.065626,
+      "end": 95.949198,
+      "position": [
+        950,
+        620
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "shots": [
+        "beat_09"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "laptop",
+      "at": 103.449198,
+      "end": 115.915338,
+      "position": [
+        800,
+        780
+      ],
+      "scale": [
+        0.9,
+        0.9
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_11"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "confusion_marks",
+      "at": 122.25391,
+      "end": 124.574624,
+      "position": [
+        720,
+        340
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "shots": [
+        "beat_12"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "sweat_drops",
+      "at": 122.25391,
+      "end": 124.574624,
+      "position": [
+        530,
+        360
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "layer": 2,
+      "shots": [
+        "beat_12"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "porcelain_bowl",
+      "at": 124.574624,
+      "end": 132.763195,
+      "position": [
+        940,
+        720
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_13"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "tissue_box",
+      "at": 125.623195,
+      "end": 132.763195,
+      "position": [
+        1140,
+        750
+      ],
+      "scale": [
+        0.95,
+        0.95
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_13"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "lunch_box",
+      "at": 125.623195,
+      "end": 132.763195,
+      "position": [
+        1240,
+        740
+      ],
+      "scale": [
+        0.9,
+        0.9
+      ],
+      "mode": "hold",
+      "layer": 0,
+      "shots": [
+        "beat_13"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "sweat_drops",
+      "at": 125.623195,
+      "end": 132.763195,
+      "position": [
+        530,
+        360
+      ],
+      "scale": [
+        1.05,
+        1.05
+      ],
+      "mode": "hold",
+      "layer": 2,
+      "shots": [
+        "beat_13"
+      ]
+    },
+    {
+      "author": "nemi",
+      "kind": "mug",
+      "at": 132.763195,
+      "end": 148.2,
+      "position": [
+        1120,
+        630
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "beat_14"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dimension_spark",
+      "at": 59.734198,
+      "intent": "Ascending to another dimension"
+    },
+    {
+      "id": "club_eureka",
+      "at": 82.187055,
+      "intent": "The drunken epiphany to go clubbing"
+    },
+    {
+      "id": "club_bass",
+      "at": 90.904912,
+      "intent": "Sub bass vibrating through the floor"
+    },
+    {
+      "id": "hair_disaster",
+      "at": 102.706341,
+      "intent": "Hair disaster after chaotic dancing"
+    },
+    {
+      "id": "room_spin",
+      "at": 123.896767,
+      "intent": "Room starts spinning like a carousel"
+    },
+    {
+      "id": "lost_dinner",
+      "at": 132.329624,
+      "intent": "Losing dinner to the porcelain bowl"
+    },
+    {
+      "id": "sfx_0_decisions_ui_click_tactile_01",
+      "at": 6.810715,
+      "intent": "Friday evening decision hook"
+    },
+    {
+      "id": "sfx_1_friends_ui_confirm_chime_03",
+      "at": 9.784286,
+      "intent": "College friends arrival warmth"
+    },
+    {
+      "id": "sfx_2_bottles_impact_glass_tap_01",
+      "at": 20.297882,
+      "intent": "Setting down vodka bottles on desk"
+    },
+    {
+      "id": "sfx_2_pre_food_glasses_clinking_01",
+      "at": 21.280339,
+      "intent": "Pre-game clinking toast"
+    },
+    {
+      "id": "sfx_3_choices_movement_footstep_wood_01",
+      "at": 30.701391,
+      "intent": "Packing up and walking"
+    },
+    {
+      "id": "sfx_3_place_impact_wood_tap_01",
+      "at": 34.034724,
+      "intent": "Entering ADB apartment"
+    },
+    {
+      "id": "sfx_4_takeout_paper_slide_desk_01",
+      "at": 46.759812,
+      "intent": "Chinese takeout boxes sliding onto coffee table"
+    },
+    {
+      "id": "sfx_4_shots_food_glasses_clinking_01",
+      "at": 51.210338,
+      "intent": "Pouring and clinking shot glasses"
+    },
+    {
+      "id": "sfx_5_multiplying_food_drink_quick_sip_01",
+      "at": 54.222055,
+      "intent": "Taking another shot"
+    },
+    {
+      "id": "sfx_5_dimension_sting_magic_sparkle_chime_01",
+      "at": 59.734198,
+      "intent": "Ascending to another dimension"
+    },
+    {
+      "id": "sfx_6_dictionary_paper_page_flip_01",
+      "at": 63.293483,
+      "intent": "Flipping open the Pictionary pad"
+    },
+    {
+      "id": "sfx_6_blasted_impact_generic_light_01",
+      "at": 67.075627,
+      "intent": "Comedic warning emphasis"
+    },
+    {
+      "id": "sfx_7_draw_drawing_scratch_scribble_01",
+      "at": 70.442769,
+      "intent": "Live drawing the potato horse"
+    },
+    {
+      "id": "sfx_7_toaster_cartoon_pop_dry_01",
+      "at": 76.103483,
+      "intent": "Someone screams toaster revelation"
+    },
+    {
+      "id": "sfx_7_argued_comedic_record_scratch_01",
+      "at": 77.562055,
+      "intent": "Arguing for ten straight minutes"
+    },
+    {
+      "id": "sfx_8_11_reaction_female_gasp_surprised_01",
+      "at": 79.544198,
+      "intent": "Sudden 11 PM clubbing impulse"
+    },
+    {
+      "id": "sfx_8_clubbing_whoosh_fast_transition_01",
+      "at": 82.187055,
+      "intent": "Transitioning out to the club"
+    },
+    {
+      "id": "sfx_9_floor_impact_cinematic_deep_whoosh_01",
+      "at": 90.904912,
+      "intent": "Sub bass vibrating through the club floor"
+    },
+    {
+      "id": "sfx_9_shots_food_glasses_clinking_01",
+      "at": 95.065626,
+      "intent": "Taking shots at the club bar"
+    },
+    {
+      "id": "sfx_10_dance_whoosh_air_clean_01",
+      "at": 96.622769,
+      "intent": "Hitting the dance floor with rent-due energy"
+    },
+    {
+      "id": "sfx_10_disaster_impact_generic_light_01",
+      "at": 102.706341,
+      "intent": "Hair disaster recoil"
+    },
+    {
+      "id": "sfx_11_house_impact_drop_soft_01",
+      "at": 108.797268,
+      "intent": "Slumping down onto the carpet at 3 AM"
+    },
+    {
+      "id": "sfx_11_games_computer_mouse_click_multi_01",
+      "at": 113.532181,
+      "intent": "Booting up video games on the floor"
+    },
+    {
+      "id": "sfx_12_debt_comedic_record_slowdown_01",
+      "at": 121.170338,
+      "intent": "Vodka collecting its 5 AM debt"
+    },
+    {
+      "id": "sfx_12_carousel_suspense_glass_hit_cinematic_01",
+      "at": 123.896767,
+      "intent": "Room starts spinning like a carousel"
+    },
+    {
+      "id": "sfx_13_sprinted_reaction_female_gasp_astonished_01",
+      "at": 124.962481,
+      "intent": "Sprinting to the bathroom in panic"
+    },
+    {
+      "id": "sfx_13_bowl_impact_generic_light_02",
+      "at": 127.704624,
+      "intent": "Gripping the cold porcelain bowl"
+    },
+    {
+      "id": "sfx_14_sunrise_food_water_pour_01",
+      "at": 135.198984,
+      "intent": "Morning hangover water glass poured"
+    },
+    {
+      "id": "sfx_14_night_ui_confirm_chime_03",
+      "at": 145.051616,
+      "intent": "Immortal 10 out of 10 verdict chime"
+    },
+    {
+      "id": "sfx_14_again_paper_book_close_01",
+      "at": 147.173721,
+      "intent": "Final quiet closure: never doing it again"
+    }
+  ],
+  "vfx": [
+    {
+      "kind": "realization",
+      "author": "nemi",
+      "actor": "nemi",
+      "offset": [
+        90,
+        -65
+      ],
+      "at": 59.734198,
+      "end": 60.734198,
+      "shots": [
+        "beat_05"
+      ],
+      "strength": 0.5,
+      "event": "dimension_spark"
+    },
+    {
+      "kind": "realization",
+      "author": "nemi",
+      "actor": "nemi",
+      "offset": [
+        88,
+        -68
+      ],
+      "at": 82.187055,
+      "end": 83.287055,
+      "shots": [
+        "beat_08"
+      ],
+      "strength": 0.6,
+      "event": "club_eureka"
+    },
+    {
+      "kind": "impact",
+      "author": "nemi",
+      "actor": "nemi",
+      "offset": [
+        85,
+        -60
+      ],
+      "at": 90.904912,
+      "end": 91.704912,
+      "shots": [
+        "beat_09"
+      ],
+      "strength": 0.55,
+      "event": "club_bass"
+    },
+    {
+      "kind": "sweat",
+      "author": "nemi",
+      "actor": "nemi",
+      "offset": [
+        90,
+        -68
+      ],
+      "at": 102.706341,
+      "end": 103.556341,
+      "shots": [
+        "beat_10"
+      ],
+      "strength": 0.5,
+      "event": "hair_disaster"
+    },
+    {
+      "kind": "tension",
+      "author": "nemi",
+      "actor": "nemi",
+      "offset": [
+        92,
+        -68
+      ],
+      "at": 123.896767,
+      "end": 125.096767,
+      "shots": [
+        "beat_12"
+      ],
+      "strength": 0.6,
+      "event": "room_spin"
+    },
+    {
+      "kind": "tears",
+      "author": "nemi",
+      "actor": "nemi",
+      "offset": [
+        88,
+        -65
+      ],
+      "at": 132.329624,
+      "end": 132.729624,
+      "shots": [
+        "beat_13"
+      ],
+      "strength": 0.5,
+      "event": "lost_dinner"
+    }
+  ],
+  "sfx": [
+    {
+      "file": "res://common/audio/sfx/ui/ui_click_tactile_01.ogg",
+      "at": 6.810715,
+      "duration": 0.22,
+      "gain_db": -14.5,
+      "event": "sfx_0_decisions_ui_click_tactile_01"
+    },
+    {
+      "file": "res://common/audio/sfx/ui/ui_confirm_chime_03.ogg",
+      "at": 9.784286,
+      "duration": 0.8,
+      "gain_db": -19.7,
+      "event": "sfx_1_friends_ui_confirm_chime_03"
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_glass_tap_01.ogg",
+      "at": 20.297882,
+      "duration": 0.45,
+      "gain_db": -20,
+      "event": "sfx_2_bottles_impact_glass_tap_01"
+    },
+    {
+      "file": "res://common/audio/sfx/food/food_glasses_clinking_01.wav",
+      "at": 21.280339,
+      "duration": 0.65,
+      "gain_db": -17.2,
+      "event": "sfx_2_pre_food_glasses_clinking_01"
+    },
+    {
+      "file": "res://common/audio/sfx/movement/movement_footstep_wood_01.ogg",
+      "at": 30.701391,
+      "duration": 0.35,
+      "gain_db": -18.7,
+      "event": "sfx_3_choices_movement_footstep_wood_01"
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_wood_tap_01.ogg",
+      "at": 34.034724,
+      "duration": 0.3,
+      "gain_db": -20,
+      "event": "sfx_3_place_impact_wood_tap_01"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_slide_desk_01.wav",
+      "at": 46.759812,
+      "duration": 0.65,
+      "gain_db": -13.5,
+      "event": "sfx_4_takeout_paper_slide_desk_01"
+    },
+    {
+      "file": "res://common/audio/sfx/food/food_glasses_clinking_01.wav",
+      "at": 51.210338,
+      "duration": 0.65,
+      "gain_db": -17.2,
+      "event": "sfx_4_shots_food_glasses_clinking_01"
+    },
+    {
+      "file": "res://common/audio/sfx/food/food_drink_quick_sip_01.wav",
+      "at": 54.222055,
+      "duration": 0.4,
+      "gain_db": -8.6,
+      "event": "sfx_5_multiplying_food_drink_quick_sip_01"
+    },
+    {
+      "file": "res://common/audio/sfx/stings/sting_magic_sparkle_chime_01.wav",
+      "at": 59.734198,
+      "duration": 0.9,
+      "gain_db": -16.7,
+      "event": "sfx_5_dimension_sting_magic_sparkle_chime_01"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_flip_01.ogg",
+      "at": 63.293483,
+      "duration": 0.76,
+      "gain_db": -13.7,
+      "event": "sfx_6_dictionary_paper_page_flip_01"
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_generic_light_01.ogg",
+      "at": 67.075627,
+      "duration": 0.3,
+      "gain_db": -18.5,
+      "event": "sfx_6_blasted_impact_generic_light_01"
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_01.ogg",
+      "at": 70.442769,
+      "duration": 0.85,
+      "gain_db": -20,
+      "event": "sfx_7_draw_drawing_scratch_scribble_01"
+    },
+    {
+      "file": "res://common/audio/sfx/cartoon/cartoon_pop_dry_01.wav",
+      "at": 76.103483,
+      "duration": 0.35,
+      "gain_db": -16.6,
+      "event": "sfx_7_toaster_cartoon_pop_dry_01"
+    },
+    {
+      "file": "res://common/audio/sfx/comedic/comedic_record_scratch_01.wav",
+      "at": 77.562055,
+      "duration": 0.55,
+      "gain_db": -12.7,
+      "event": "sfx_7_argued_comedic_record_scratch_01"
+    },
+    {
+      "file": "res://common/audio/sfx/reaction/reaction_female_gasp_surprised_01.wav",
+      "at": 79.544198,
+      "duration": 0.45,
+      "gain_db": -20,
+      "event": "sfx_8_11_reaction_female_gasp_surprised_01"
+    },
+    {
+      "file": "res://common/audio/sfx/whooshes/whoosh_fast_transition_01.wav",
+      "at": 82.187055,
+      "duration": 0.65,
+      "gain_db": -6,
+      "event": "sfx_8_clubbing_whoosh_fast_transition_01"
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_cinematic_deep_whoosh_01.wav",
+      "at": 90.904912,
+      "duration": 1.1,
+      "gain_db": -20,
+      "event": "sfx_9_floor_impact_cinematic_deep_whoosh_01"
+    },
+    {
+      "file": "res://common/audio/sfx/food/food_glasses_clinking_01.wav",
+      "at": 95.065626,
+      "duration": 0.65,
+      "gain_db": -20,
+      "event": "sfx_9_shots_food_glasses_clinking_01"
+    },
+    {
+      "file": "res://common/audio/sfx/whooshes/whoosh_air_clean_01.wav",
+      "at": 96.622769,
+      "duration": 0.5,
+      "gain_db": -6,
+      "event": "sfx_10_dance_whoosh_air_clean_01"
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_generic_light_01.ogg",
+      "at": 102.706341,
+      "duration": 0.3,
+      "gain_db": -20,
+      "event": "sfx_10_disaster_impact_generic_light_01"
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_drop_soft_01.ogg",
+      "at": 108.797268,
+      "duration": 0.5,
+      "gain_db": -20,
+      "event": "sfx_11_house_impact_drop_soft_01"
+    },
+    {
+      "file": "res://common/audio/sfx/computer/computer_mouse_click_multi_01.wav",
+      "at": 113.532181,
+      "duration": 0.4,
+      "gain_db": -8.3,
+      "event": "sfx_11_games_computer_mouse_click_multi_01"
+    },
+    {
+      "file": "res://common/audio/sfx/comedic/comedic_record_slowdown_01.wav",
+      "at": 121.170338,
+      "duration": 0.95,
+      "gain_db": -20,
+      "event": "sfx_12_debt_comedic_record_slowdown_01"
+    },
+    {
+      "file": "res://common/audio/sfx/suspense/suspense_glass_hit_cinematic_01.wav",
+      "at": 123.896767,
+      "duration": 0.8,
+      "gain_db": -20,
+      "event": "sfx_12_carousel_suspense_glass_hit_cinematic_01"
+    },
+    {
+      "file": "res://common/audio/sfx/reaction/reaction_female_gasp_astonished_01.wav",
+      "at": 124.962481,
+      "duration": 0.5,
+      "gain_db": -20,
+      "event": "sfx_13_sprinted_reaction_female_gasp_astonished_01"
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_generic_light_02.ogg",
+      "at": 127.704624,
+      "duration": 0.35,
+      "gain_db": -20,
+      "event": "sfx_13_bowl_impact_generic_light_02"
+    },
+    {
+      "file": "res://common/audio/sfx/food/food_water_pour_01.wav",
+      "at": 135.198984,
+      "duration": 0.9,
+      "gain_db": -6,
+      "event": "sfx_14_sunrise_food_water_pour_01"
+    },
+    {
+      "file": "res://common/audio/sfx/ui/ui_confirm_chime_03.ogg",
+      "at": 145.051616,
+      "duration": 0.8,
+      "gain_db": -20,
+      "event": "sfx_14_night_ui_confirm_chime_03"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_book_close_01.ogg",
+      "at": 147.173721,
+      "duration": 0.5,
+      "gain_db": -20,
+      "event": "sfx_14_again_paper_book_close_01"
+    }
+  ],
+  "script": [
+    {
+      "actor": "nemi",
+      "start": 0.18,
+      "end": 7.187858,
+      "text": "Wait\u2014please tell me I'm not the only person who has looked at a Friday evening and made a completely catastrophic series of decisions."
+    },
+    {
+      "actor": "nemi",
+      "start": 7.653571,
+      "end": 16.607857,
+      "text": "Because last weekend, two of my college friends came over to my place, and we convinced ourselves we were going to have a chill, responsible night."
+    },
+    {
+      "actor": "nemi",
+      "start": 16.839286,
+      "end": 27.717005,
+      "text": "We got ready, put on our outfits, and then someone pulled out two full bottles of vodka for the pre-game. Two bottles. For three people. We looked at each other and went: 'Yeah, totally reasonable start.'"
+    },
+    {
+      "actor": "nemi",
+      "start": 28.032268,
+      "end": 40.743321,
+      "text": "So we pack up our questionable life choices and head over to ADB's place. Suddenly we're six people crammed into his living room, absolutely starving."
+    },
+    {
+      "actor": "nemi",
+      "start": 41.148935,
+      "end": 51.528584,
+      "text": "We do what any civilized group does at eight p.m.: order an ungodly mountain of Chinese takeout, open the containers on the coffee table, and start pouring vodka shots."
+    },
+    {
+      "actor": "nemi",
+      "start": 51.934198,
+      "end": 60.200627,
+      "text": "Between the noodles and dumplings, the shots kept multiplying. ADB was sitting there looking calm while the rest of us were slowly ascending to another dimension."
+    },
+    {
+      "actor": "nemi",
+      "start": 60.612769,
+      "end": 69.534198,
+      "text": "And that is when someone brought out Pictionary. If you've never played Pictionary while completely blasted... do not do it."
+    },
+    {
+      "actor": "nemi",
+      "start": 69.762055,
+      "end": 78.885627,
+      "text": "I tried to draw a horse. It looked like an aggressively depressed potato with legs. Someone screamed 'toaster!' We argued for ten straight minutes."
+    },
+    {
+      "actor": "nemi",
+      "start": 79.327769,
+      "end": 88.39777,
+      "text": "By eleven, someone yelled: 'WE HAVE TO GO CLUBBING!' And when you're drunk, your brain genuinely believes that every club is the greatest place on Earth."
+    },
+    {
+      "actor": "nemi",
+      "start": 88.575627,
+      "end": 95.782055,
+      "text": "We get inside, bass vibrating through the floor, and our immediate genius idea is... taking even MORE shots at the bar."
+    },
+    {
+      "actor": "nemi",
+      "start": 96.049198,
+      "end": 103.101341,
+      "text": "We hit the dance floor and danced like our rent was due tomorrow. Complete, shameless, chaotic energy. My hair was a disaster."
+    },
+    {
+      "actor": "nemi",
+      "start": 103.549198,
+      "end": 115.710075,
+      "text": "At three a.m., exhausted and half-deaf, we somehow made it back to our friend's house. Normal humans would sleep. Not us. We booted up games and played all night on the carpet."
+    },
+    {
+      "actor": "nemi",
+      "start": 116.015338,
+      "end": 124.345339,
+      "text": "And right around five in the morning... the vodka finally collected its debt. The room started spinning like a carousel."
+    },
+    {
+      "actor": "nemi",
+      "start": 124.674624,
+      "end": 132.546053,
+      "text": "I sprinted to the bathroom, hugged the cold porcelain bowl for dear life, and violently lost every single noodle from dinner."
+    },
+    {
+      "actor": "nemi",
+      "start": 132.863195,
+      "end": 147.632318,
+      "text": "I collapsed into bed at sunrise and woke up twelve hours later feeling like a steamroller had backed over my skull. ...Anyway. Ten out of ten night. Never doing it again."
+    }
+  ],
+  "captions": [
+    {
+      "actor": "nemi",
+      "words": [
+        0,
+        0
+      ],
+      "start": 0.2,
+      "end": 0.485714,
+      "text": "Wait,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        1,
+        5
+      ],
+      "start": 0.953572,
+      "end": 1.846429,
+      "text": "please tell me I'm not"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        6,
+        10
+      ],
+      "start": 1.846429,
+      "end": 2.935715,
+      "text": "the only person who has"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        11,
+        15
+      ],
+      "start": 2.935715,
+      "end": 4.096429,
+      "text": "looked at a Friday evening"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        16,
+        20
+      ],
+      "start": 4.096429,
+      "end": 6.096429,
+      "text": "and made a completely catastrophic"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        21,
+        23
+      ],
+      "start": 6.096429,
+      "end": 7.167858,
+      "text": "series of decisions."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        24,
+        26
+      ],
+      "start": 7.673571,
+      "end": 8.691428,
+      "text": "Because last weekend,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        27,
+        31
+      ],
+      "start": 9.159286,
+      "end": 10.195,
+      "text": "two of my college friends"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        32,
+        36
+      ],
+      "start": 10.195,
+      "end": 11.57,
+      "text": "came over to my place,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        37,
+        41
+      ],
+      "start": 11.909286,
+      "end": 13.730714,
+      "text": "and we convinced ourselves we"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        42,
+        46
+      ],
+      "start": 13.730714,
+      "end": 14.587857,
+      "text": "were going to have a"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        47,
+        49
+      ],
+      "start": 14.587857,
+      "end": 16.587857,
+      "text": "chill responsible night."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        50,
+        52
+      ],
+      "start": 16.859286,
+      "end": 17.455777,
+      "text": "We got ready."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        53,
+        57
+      ],
+      "start": 17.806654,
+      "end": 18.929461,
+      "text": "Put on our outfits and"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        58,
+        62
+      ],
+      "start": 18.929461,
+      "end": 19.999637,
+      "text": "then someone pulled out two"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        63,
+        67
+      ],
+      "start": 19.999637,
+      "end": 21.210163,
+      "text": "full bottles of vodka for"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        68,
+        70
+      ],
+      "start": 21.210163,
+      "end": 21.666304,
+      "text": "the pre -game."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        71,
+        72
+      ],
+      "start": 22.149461,
+      "end": 22.763496,
+      "text": "Two bottles."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        73,
+        75
+      ],
+      "start": 23.276654,
+      "end": 23.785426,
+      "text": "For three people."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        76,
+        80
+      ],
+      "start": 24.328584,
+      "end": 24.960163,
+      "text": "We looked at each other"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        81,
+        83
+      ],
+      "start": 24.960163,
+      "end": 26.012795,
+      "text": "and went, yeah,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        84,
+        86
+      ],
+      "start": 26.451391,
+      "end": 27.697005,
+      "text": "totally reasonable start."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        87,
+        91
+      ],
+      "start": 28.052268,
+      "end": 29.683847,
+      "text": "So we pack up our"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        92,
+        96
+      ],
+      "start": 29.683847,
+      "end": 32.350514,
+      "text": "questionable life choices and head"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        97,
+        100
+      ],
+      "start": 32.350514,
+      "end": 34.438233,
+      "text": "over to ADB's place."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        101,
+        105
+      ],
+      "start": 34.951391,
+      "end": 37.302268,
+      "text": "Suddenly, we're six people crammed"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        106,
+        110
+      ],
+      "start": 37.302268,
+      "end": 40.074198,
+      "text": "into his living room, absolutely"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        111,
+        111
+      ],
+      "start": 40.074198,
+      "end": 40.723321,
+      "text": "starving."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        112,
+        116
+      ],
+      "start": 41.168935,
+      "end": 42.747882,
+      "text": "We do what any civilized"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        117,
+        120
+      ],
+      "start": 42.747882,
+      "end": 44.32683,
+      "text": "group does at 8pm."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        121,
+        125
+      ],
+      "start": 44.829987,
+      "end": 46.47911,
+      "text": "Order an ungodly mountain of"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        126,
+        127
+      ],
+      "start": 46.47911,
+      "end": 47.373847,
+      "text": "Chinese takeout."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        128,
+        132
+      ],
+      "start": 47.877005,
+      "end": 49.069988,
+      "text": "Open the containers on the"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        133,
+        137
+      ],
+      "start": 49.069988,
+      "end": 50.80683,
+      "text": "coffee table and start pouring"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        138,
+        139
+      ],
+      "start": 50.80683,
+      "end": 51.508584,
+      "text": "vodka shots."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        140,
+        144
+      ],
+      "start": 51.954198,
+      "end": 53.239912,
+      "text": "Between the noodles and dumplings,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        145,
+        148
+      ],
+      "start": 53.632769,
+      "end": 54.793484,
+      "text": "the shots kept multiplying."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        149,
+        153
+      ],
+      "start": 55.341341,
+      "end": 56.627055,
+      "text": "ADB was sitting there looking"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        154,
+        154
+      ],
+      "start": 56.627055,
+      "end": 57.109198,
+      "text": "calm,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        155,
+        159
+      ],
+      "start": 57.519912,
+      "end": 58.162769,
+      "text": "while the rest of us"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        160,
+        164
+      ],
+      "start": 58.162769,
+      "end": 59.734198,
+      "text": "were slowly ascending to another"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        165,
+        165
+      ],
+      "start": 59.734198,
+      "end": 60.180627,
+      "text": "dimension."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        166,
+        170
+      ],
+      "start": 60.632769,
+      "end": 62.597055,
+      "text": "And that is when someone"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        171,
+        173
+      ],
+      "start": 62.597055,
+      "end": 63.739912,
+      "text": "brought out dictionary."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        174,
+        178
+      ],
+      "start": 64.30777,
+      "end": 66.004198,
+      "text": "If you've never played dictionary,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        179,
+        181
+      ],
+      "start": 66.361341,
+      "end": 67.825627,
+      "text": "we'll completely blasted."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        182,
+        185
+      ],
+      "start": 68.353484,
+      "end": 69.514198,
+      "text": "Do not do it."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        186,
+        190
+      ],
+      "start": 69.782055,
+      "end": 70.799912,
+      "text": "I tried to draw a"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        191,
+        191
+      ],
+      "start": 70.799912,
+      "end": 71.067769,
+      "text": "horse."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        192,
+        196
+      ],
+      "start": 71.585627,
+      "end": 72.907055,
+      "text": "It looks like an aggressively"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        197,
+        200
+      ],
+      "start": 72.907055,
+      "end": 74.407055,
+      "text": "depressed potato with legs."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        201,
+        202
+      ],
+      "start": 74.924912,
+      "end": 75.710626,
+      "text": "Someone screamed,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        203,
+        203
+      ],
+      "start": 76.103483,
+      "end": 76.728483,
+      "text": "Toaster!"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        204,
+        208
+      ],
+      "start": 77.276341,
+      "end": 78.579912,
+      "text": "We argued for 10 straight"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        209,
+        209
+      ],
+      "start": 78.579912,
+      "end": 78.865627,
+      "text": "minutes."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        210,
+        211
+      ],
+      "start": 79.347769,
+      "end": 79.883483,
+      "text": "By 11,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        212,
+        213
+      ],
+      "start": 80.383483,
+      "end": 81.02634,
+      "text": "someone yelled,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        214,
+        218
+      ],
+      "start": 81.65134,
+      "end": 82.704912,
+      "text": "we have to go clubbing."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        219,
+        222
+      ],
+      "start": 83.25277,
+      "end": 84.145627,
+      "text": "And when you're drunk,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        223,
+        227
+      ],
+      "start": 84.770627,
+      "end": 86.25277,
+      "text": "your brain genuinely believes that"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        228,
+        232
+      ],
+      "start": 86.25277,
+      "end": 87.645627,
+      "text": "every club is the greatest"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        233,
+        235
+      ],
+      "start": 87.645627,
+      "end": 88.37777,
+      "text": "place on earth."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        236,
+        238
+      ],
+      "start": 88.595627,
+      "end": 89.399198,
+      "text": "We get inside,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        239,
+        243
+      ],
+      "start": 89.887055,
+      "end": 91.262055,
+      "text": "base vibrating through the floor,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        244,
+        248
+      ],
+      "start": 91.601341,
+      "end": 93.137055,
+      "text": "and our immediate genius idea"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        249,
+        253
+      ],
+      "start": 93.137055,
+      "end": 95.369198,
+      "text": "is taking even more shots"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        254,
+        256
+      ],
+      "start": 95.369198,
+      "end": 95.762055,
+      "text": "at the bar."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        257,
+        261
+      ],
+      "start": 96.069198,
+      "end": 97.104912,
+      "text": "We hit the dance floor"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        262,
+        266
+      ],
+      "start": 97.104912,
+      "end": 98.265627,
+      "text": "and danced like our rent"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        267,
+        269
+      ],
+      "start": 98.265627,
+      "end": 99.051341,
+      "text": "was due tomorrow."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        270,
+        273
+      ],
+      "start": 99.599198,
+      "end": 101.545626,
+      "text": "Complete shameless chaotic energy."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        274,
+        278
+      ],
+      "start": 102.063484,
+      "end": 103.081341,
+      "text": "My hair was a disaster."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        279,
+        283
+      ],
+      "start": 103.569198,
+      "end": 106.042882,
+      "text": "At 3am exhausted and half"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        284,
+        284
+      ],
+      "start": 106.042882,
+      "end": 106.709549,
+      "text": "-deaf,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        285,
+        289
+      ],
+      "start": 107.07797,
+      "end": 108.148145,
+      "text": "we somehow made it back"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        290,
+        293
+      ],
+      "start": 108.148145,
+      "end": 109.288496,
+      "text": "to our friend's house."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        294,
+        297
+      ],
+      "start": 109.801654,
+      "end": 111.082356,
+      "text": "Normal humans would sleep,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        298,
+        299
+      ],
+      "start": 111.585514,
+      "end": 112.427619,
+      "text": "not us."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        300,
+        304
+      ],
+      "start": 112.970777,
+      "end": 114.128672,
+      "text": "We booted up games and"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        305,
+        309
+      ],
+      "start": 114.128672,
+      "end": 115.514637,
+      "text": "played all night on the"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        310,
+        310
+      ],
+      "start": 115.514637,
+      "end": 115.690075,
+      "text": "carpet."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        311,
+        315
+      ],
+      "start": 116.035338,
+      "end": 118.660338,
+      "text": "and right around 5 in"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        316,
+        317
+      ],
+      "start": 118.660338,
+      "end": 119.142481,
+      "text": "the morning,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        318,
+        322
+      ],
+      "start": 119.670338,
+      "end": 121.170338,
+      "text": "the vodka finally collected its"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        323,
+        323
+      ],
+      "start": 121.170338,
+      "end": 121.438195,
+      "text": "debt."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        324,
+        328
+      ],
+      "start": 121.986053,
+      "end": 123.75391,
+      "text": "The room started spinning like"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        329,
+        330
+      ],
+      "start": 123.75391,
+      "end": 124.325339,
+      "text": "a carousel."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        331,
+        335
+      ],
+      "start": 124.694624,
+      "end": 125.980338,
+      "text": "I sprinted to the bathroom."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        336,
+        340
+      ],
+      "start": 126.508196,
+      "end": 128.008196,
+      "text": "Hugged the cold porcelain bowl"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        341,
+        345
+      ],
+      "start": 128.008196,
+      "end": 130.329624,
+      "text": "for dear life, and violently"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        346,
+        350
+      ],
+      "start": 130.329624,
+      "end": 132.329624,
+      "text": "lost every single noodle from"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        351,
+        351
+      ],
+      "start": 132.329624,
+      "end": 132.526053,
+      "text": "dinner."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        352,
+        356
+      ],
+      "start": 132.883195,
+      "end": 135.198984,
+      "text": "I collapsed into bed at"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        357,
+        361
+      ],
+      "start": 135.198984,
+      "end": 137.427055,
+      "text": "sunrise and woke up 12"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        362,
+        363
+      ],
+      "start": 137.427055,
+      "end": 138.81302,
+      "text": "hours later,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        364,
+        368
+      ],
+      "start": 139.316178,
+      "end": 140.614424,
+      "text": "feeling like a steam roller"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        369,
+        373
+      ],
+      "start": 140.614424,
+      "end": 142.561792,
+      "text": "had backed over my skull."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        374,
+        374
+      ],
+      "start": 143.12495,
+      "end": 143.563547,
+      "text": "Anyway,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        375,
+        379
+      ],
+      "start": 144.086704,
+      "end": 145.542845,
+      "text": "10 out of 10 night."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        380,
+        383
+      ],
+      "start": 146.086002,
+      "end": 147.612318,
+      "text": "Never doing it again."
+    }
+  ],
+  "mix": {
+    "master_gain_db": 7.1,
+    "target_lufs": -18.0,
+    "peak_dbfs": -1.5
+  }
+}

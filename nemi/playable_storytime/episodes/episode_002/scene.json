@@ -1,0 +1,5424 @@
+{
+  "version": 2,
+  "title": "Please Get Me Out of My Own Drawing — Playable Storytime",
+  "duration": 220,
+  "fps": 30,
+  "audio": "res://nemi/playable_storytime/episodes/episode_002/audio/narration.wav",
+  "audio_metadata": "res://nemi/playable_storytime/episodes/episode_002/audio/render_timeline.json",
+  "caption_size": 48,
+  "direction": {
+    "promise": "The eraser is removing the drawn ground. Help Nemi reach the same real desk outside the book.",
+    "want": "She wants the ordinary solid desk beyond the page.",
+    "choice": "Keep following one physical escape route; inspect the next obstruction and choose an action.",
+    "consequence": "Ink shortcuts vanish; real paper holds; the same solid eraser carries her over the ink it removes.",
+    "payoff": "She gets off the drawing onto the real desk, where she is safe from being rubbed out.",
+    "beats": [
+      {
+        "start": 0.0,
+        "end": 22.0,
+        "thought": "Get me off the page",
+        "focus": "Get me off the page",
+        "visual": "Get me off the page",
+        "intent": "Develop one thought with settled acting and readable spatial evidence."
+      },
+      {
+        "start": 22.0,
+        "end": 44.0,
+        "thought": "The door is only ink",
+        "focus": "The door is only ink",
+        "visual": "The door is only ink",
+        "intent": "Develop one thought with settled acting and readable spatial evidence."
+      },
+      {
+        "start": 44.0,
+        "end": 66.0,
+        "thought": "A real opening",
+        "focus": "A real opening",
+        "visual": "A real opening",
+        "intent": "Develop one thought with settled acting and readable spatial evidence."
+      },
+      {
+        "start": 66.0,
+        "end": 88.0,
+        "thought": "The unfinished bridge",
+        "focus": "The unfinished bridge",
+        "visual": "The unfinished bridge",
+        "intent": "Develop one thought with settled acting and readable spatial evidence."
+      },
+      {
+        "start": 88.0,
+        "end": 110.0,
+        "thought": "Before the first step",
+        "focus": "Before the first step",
+        "visual": "Before the first step",
+        "intent": "Develop one thought with settled acting and readable spatial evidence."
+      },
+      {
+        "start": 110.0,
+        "end": 132.0,
+        "thought": "A supported paper fold",
+        "focus": "A supported paper fold",
+        "visual": "A supported paper fold",
+        "intent": "Develop one thought with settled acting and readable spatial evidence."
+      },
+      {
+        "start": 132.0,
+        "end": 154.0,
+        "thought": "The eraser is going there",
+        "focus": "The eraser is going there",
+        "visual": "The eraser is going there",
+        "intent": "Develop one thought with settled acting and readable spatial evidence."
+      },
+      {
+        "start": 154.0,
+        "end": 176.0,
+        "thought": "The erased shortcut",
+        "focus": "The erased shortcut",
+        "visual": "The erased shortcut",
+        "intent": "Develop one thought with settled acting and readable spatial evidence."
+      },
+      {
+        "start": 176.0,
+        "end": 198.0,
+        "thought": "The ridiculous vehicle",
+        "focus": "The ridiculous vehicle",
+        "visual": "The ridiculous vehicle",
+        "intent": "Develop one thought with settled acting and readable spatial evidence."
+      },
+      {
+        "start": 198.0,
+        "end": 220.0,
+        "thought": "Outside the drawing",
+        "focus": "Outside the drawing",
+        "visual": "Outside the drawing",
+        "intent": "Develop one thought with settled acting and readable spatial evidence."
+      }
+    ]
+  },
+  "actors": [
+    {
+      "id": "nemi",
+      "author": "nemi",
+      "performances": [
+        {
+          "at": 0,
+          "recipe": "quiet_recoil",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 0.940833,
+          "recipe": "embarrassed",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_drawing_hook_place0"
+        },
+        {
+          "at": 2.980833,
+          "recipe": "quiet_recoil",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_drawing_hook_floor1"
+        },
+        {
+          "at": 5.760833,
+          "recipe": "explaining",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_drawing_hook_click2"
+        },
+        {
+          "at": 10.380833,
+          "recipe": "explaining",
+          "duration": 0.35,
+          "gaze": [
+            -0.7,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_drawing_hook_left3"
+        },
+        {
+          "at": 12.020833,
+          "recipe": "uncertain",
+          "duration": 0.35,
+          "gaze": [
+            0.7,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_drawing_hook_right4"
+        },
+        {
+          "at": 13.780833,
+          "recipe": "explaining",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_drawing_hook_press5"
+        },
+        {
+          "at": 16.591667,
+          "recipe": "explaining",
+          "duration": 0.259,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 16.851667,
+          "recipe": "explaining",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_phone_chapter_hint_phones6"
+        },
+        {
+          "at": 22.366667,
+          "recipe": "realization",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 24.086667,
+          "recipe": "embarrassed",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_door_admission_drawing7"
+        },
+        {
+          "at": 26.586667,
+          "recipe": "deadpan",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_door_admission_absolutely8",
+          "blinks": [
+            27.086667
+          ]
+        },
+        {
+          "at": 31.166667,
+          "recipe": "explaining",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 32.566667,
+          "recipe": "skeptical",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_door_recovery_ambitious9"
+        },
+        {
+          "at": 35.826667,
+          "recipe": "explaining",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_door_recovery_two10"
+        },
+        {
+          "at": 40.333333,
+          "recipe": "school_brace",
+          "duration": 0.3,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_door_pursuit_thought"
+        },
+        {
+          "at": 44.275,
+          "recipe": "realization",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 45.915,
+          "recipe": "realization",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_tear_discovery_space11"
+        },
+        {
+          "at": 48.235,
+          "recipe": "school_relief",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_tear_discovery_through12",
+          "blinks": [
+            48.735
+          ]
+        },
+        {
+          "at": 49.755,
+          "recipe": "deadpan",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_tear_discovery_best13",
+          "blinks": [
+            50.255
+          ]
+        },
+        {
+          "at": 53.166667,
+          "recipe": "explaining",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 55.946667,
+          "recipe": "pleased",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_desk_beyond_desk14"
+        },
+        {
+          "at": 64.186667,
+          "recipe": "quiet_recoil",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_desk_beyond_stop15"
+        },
+        {
+          "at": 66.366667,
+          "recipe": "embarrassed",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 68.626667,
+          "recipe": "embarrassed",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_bridge_choice_halfway16"
+        },
+        {
+          "at": 72.146667,
+          "recipe": "deadpan",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_bridge_choice_future17",
+          "blinks": [
+            72.646667
+          ]
+        },
+        {
+          "at": 75.846667,
+          "recipe": "explaining",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_bridge_choice_underneath18"
+        },
+        {
+          "at": 82.706667,
+          "recipe": "uncertain",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_bridge_choice_four19"
+        },
+        {
+          "at": 88.366667,
+          "recipe": "school_brace",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 89.666667,
+          "recipe": "pleased",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_bridge_failure_confident20"
+        },
+        {
+          "at": 94.806667,
+          "recipe": "quiet_recoil",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_bridge_failure_hole21"
+        },
+        {
+          "at": 96.386667,
+          "recipe": "deadpan",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_bridge_failure_useful22",
+          "blinks": [
+            96.886667
+          ]
+        },
+        {
+          "at": 101.926667,
+          "recipe": "explaining",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_bridge_failure_five23"
+        },
+        {
+          "at": 104.775,
+          "recipe": "school_resolve",
+          "duration": 0.3,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_bridge_pursuit_thought"
+        },
+        {
+          "at": 110.366667,
+          "recipe": "uncertain",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 113.706667,
+          "recipe": "school_relief",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_fold_cross_holding24",
+          "blinks": [
+            114.206667
+          ]
+        },
+        {
+          "at": 117.586667,
+          "recipe": "uncertain",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_fold_cross_trusting25"
+        },
+        {
+          "at": 122.546667,
+          "recipe": "deadpan",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_fold_cross_normal26",
+          "blinks": [
+            123.046667
+          ]
+        },
+        {
+          "at": 126.126667,
+          "recipe": "school_relief",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_fold_cross_across27",
+          "blinks": [
+            126.626667
+          ]
+        },
+        {
+          "at": 128.286667,
+          "recipe": "recover",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_fold_cross_breathe28"
+        },
+        {
+          "at": 130.075,
+          "recipe": "school_relief",
+          "duration": 0.3,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_paper_safety_thought",
+          "blinks": [
+            130.575
+          ]
+        },
+        {
+          "at": 132.733333,
+          "recipe": "school_question",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 133.393333,
+          "recipe": "school_question",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_eraser_choice_where29"
+        },
+        {
+          "at": 134.673333,
+          "recipe": "uncertain",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_eraser_choice_behind30"
+        },
+        {
+          "at": 138.693333,
+          "recipe": "quiet_recoil",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_eraser_choice_path31"
+        },
+        {
+          "at": 146.833333,
+          "recipe": "realization",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_eraser_choice_lift32"
+        },
+        {
+          "at": 148.293333,
+          "recipe": "explaining",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_eraser_choice_seven33"
+        },
+        {
+          "at": 154.366667,
+          "recipe": "quiet_recoil",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 160.406667,
+          "recipe": "deadpan",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_race_failure_nothing34",
+          "blinks": [
+            160.906667
+          ]
+        },
+        {
+          "at": 161.626667,
+          "recipe": "skeptical",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_race_failure_excellent35"
+        },
+        {
+          "at": 165.646667,
+          "recipe": "school_brace",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_race_failure_staying36"
+        },
+        {
+          "at": 169.226667,
+          "recipe": "school_resolve",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_race_failure_eight37"
+        },
+        {
+          "at": 173.616667,
+          "recipe": "school_resolve",
+          "duration": 0.219,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 173.836667,
+          "recipe": "school_resolve",
+          "duration": 0.3,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_ride_commit_thought"
+        },
+        {
+          "at": 176.366667,
+          "recipe": "school_brace",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 178.826667,
+          "recipe": "skeptical",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_eraser_ride_ridiculous38"
+        },
+        {
+          "at": 183.446667,
+          "recipe": "school_brace",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_eraser_ride_going39"
+        },
+        {
+          "at": 188.146667,
+          "recipe": "deadpan",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_eraser_ride_polite40",
+          "blinks": [
+            188.646667
+          ]
+        },
+        {
+          "at": 190.166667,
+          "recipe": "quiet_recoil",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_eraser_ride_shoes41"
+        },
+        {
+          "at": 192.126667,
+          "recipe": "realization",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_eraser_ride_edge42"
+        },
+        {
+          "at": 193.966667,
+          "recipe": "school_brace",
+          "duration": 0.3,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_ride_land_thought"
+        },
+        {
+          "at": 198.366667,
+          "recipe": "school_relief",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            198.866667
+          ]
+        },
+        {
+          "at": 200.266667,
+          "recipe": "school_relief",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_studio_ending_solid43",
+          "blinks": [
+            200.766667
+          ]
+        },
+        {
+          "at": 205.726667,
+          "recipe": "pleased",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_studio_ending_thank44"
+        },
+        {
+          "at": 210.326667,
+          "recipe": "school_resolve",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_studio_ending_proper45"
+        },
+        {
+          "at": 211.546667,
+          "recipe": "deadpan",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_studio_ending_actually46",
+          "blinks": [
+            212.046667
+          ]
+        },
+        {
+          "at": 214.406667,
+          "recipe": "pleased",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "acting_studio_ending_here47"
+        }
+      ],
+      "mouths": [
+        {
+          "start": 0.320833,
+          "end": 0.48583299999999996,
+          "shape": "small_open"
+        },
+        {
+          "start": 0.520833,
+          "end": 0.725833,
+          "shape": "ae"
+        },
+        {
+          "start": 0.760833,
+          "end": 0.905833,
+          "shape": "small_open"
+        },
+        {
+          "start": 0.940833,
+          "end": 1.2258330000000002,
+          "shape": "ae"
+        },
+        {
+          "start": 1.260833,
+          "end": 1.625833,
+          "shape": "ae"
+        },
+        {
+          "start": 1.660833,
+          "end": 1.865833,
+          "shape": "ae"
+        },
+        {
+          "start": 1.900833,
+          "end": 2.2058329999999997,
+          "shape": "ae"
+        },
+        {
+          "start": 2.240833,
+          "end": 2.485833,
+          "shape": "small_open"
+        },
+        {
+          "start": 2.520833,
+          "end": 2.7058329999999997,
+          "shape": "ae"
+        },
+        {
+          "start": 2.740833,
+          "end": 2.945833,
+          "shape": "ae"
+        },
+        {
+          "start": 2.980833,
+          "end": 3.1458329999999997,
+          "shape": "o_u"
+        },
+        {
+          "start": 3.880833,
+          "end": 4.185833,
+          "shape": "small_open"
+        },
+        {
+          "start": 4.220833,
+          "end": 4.4458329999999995,
+          "shape": "small_open"
+        },
+        {
+          "start": 4.480833,
+          "end": 4.665833,
+          "shape": "ae"
+        },
+        {
+          "start": 4.700833,
+          "end": 5.105833,
+          "shape": "o_u"
+        },
+        {
+          "start": 5.760833,
+          "end": 6.065833,
+          "shape": "small_open"
+        },
+        {
+          "start": 6.100833,
+          "end": 6.225833,
+          "shape": "ae"
+        },
+        {
+          "start": 6.260833,
+          "end": 6.4858329999999995,
+          "shape": "ae"
+        },
+        {
+          "start": 6.520833,
+          "end": 6.645833,
+          "shape": "small_open"
+        },
+        {
+          "start": 6.680833,
+          "end": 6.805833,
+          "shape": "o_u"
+        },
+        {
+          "start": 6.840833,
+          "end": 7.205833,
+          "shape": "ae"
+        },
+        {
+          "start": 7.240833,
+          "end": 7.585833,
+          "shape": "small_open"
+        },
+        {
+          "start": 7.620833,
+          "end": 7.825833,
+          "shape": "ae"
+        },
+        {
+          "start": 7.860833,
+          "end": 8.025833,
+          "shape": "small_open"
+        },
+        {
+          "start": 8.060833,
+          "end": 8.125833,
+          "shape": "o_u"
+        },
+        {
+          "start": 8.160833,
+          "end": 8.525833,
+          "shape": "ae"
+        },
+        {
+          "start": 9.640833,
+          "end": 9.765833,
+          "shape": "small_open"
+        },
+        {
+          "start": 9.800833,
+          "end": 9.905833,
+          "shape": "ae"
+        },
+        {
+          "start": 9.940833,
+          "end": 10.065833,
+          "shape": "o_u"
+        },
+        {
+          "start": 10.100833,
+          "end": 10.225833,
+          "shape": "small_open"
+        },
+        {
+          "start": 10.260833,
+          "end": 10.345833,
+          "shape": "o_u"
+        },
+        {
+          "start": 10.380833,
+          "end": 10.665833,
+          "shape": "ae"
+        },
+        {
+          "start": 10.700833,
+          "end": 11.245833,
+          "shape": "small_open"
+        },
+        {
+          "start": 11.280833,
+          "end": 11.425832999999999,
+          "shape": "ae"
+        },
+        {
+          "start": 11.460833,
+          "end": 11.665833,
+          "shape": "ae"
+        },
+        {
+          "start": 11.700833,
+          "end": 11.865833,
+          "shape": "small_open"
+        },
+        {
+          "start": 11.900833,
+          "end": 11.985833,
+          "shape": "o_u"
+        },
+        {
+          "start": 12.020833,
+          "end": 12.285833,
+          "shape": "small_open"
+        },
+        {
+          "start": 13.600833,
+          "end": 13.745833,
+          "shape": "ae"
+        },
+        {
+          "start": 13.780833,
+          "end": 14.045833,
+          "shape": "ae"
+        },
+        {
+          "start": 14.080833,
+          "end": 14.345833,
+          "shape": "ae"
+        },
+        {
+          "start": 14.380833,
+          "end": 14.545833,
+          "shape": "small_open"
+        },
+        {
+          "start": 14.580833,
+          "end": 14.605833,
+          "shape": "ae"
+        },
+        {
+          "start": 14.640833,
+          "end": 14.905833,
+          "shape": "o_u"
+        },
+        {
+          "start": 14.940833,
+          "end": 15.225833,
+          "shape": "small_open"
+        },
+        {
+          "start": 15.260833,
+          "end": 15.585833,
+          "shape": "small_open"
+        },
+        {
+          "start": 15.620833,
+          "end": 15.785833,
+          "shape": "small_open"
+        },
+        {
+          "start": 15.820833,
+          "end": 15.905833,
+          "shape": "ae"
+        },
+        {
+          "start": 15.940833,
+          "end": 16.125833,
+          "shape": "ae"
+        },
+        {
+          "start": 16.591667,
+          "end": 16.816667,
+          "shape": "small_open"
+        },
+        {
+          "start": 16.851667,
+          "end": 17.396667,
+          "shape": "ae"
+        },
+        {
+          "start": 17.431667,
+          "end": 17.736667,
+          "shape": "ae"
+        },
+        {
+          "start": 17.771667,
+          "end": 17.876667,
+          "shape": "ae"
+        },
+        {
+          "start": 17.911667,
+          "end": 18.176667,
+          "shape": "ae"
+        },
+        {
+          "start": 18.211667,
+          "end": 18.756667,
+          "shape": "ae"
+        },
+        {
+          "start": 19.471667,
+          "end": 19.536667,
+          "shape": "o_u"
+        },
+        {
+          "start": 19.571667,
+          "end": 19.656667,
+          "shape": "ae"
+        },
+        {
+          "start": 19.691667,
+          "end": 19.976667,
+          "shape": "ae"
+        },
+        {
+          "start": 20.011667,
+          "end": 20.176667,
+          "shape": "small_open"
+        },
+        {
+          "start": 20.211667,
+          "end": 20.316667,
+          "shape": "o_u"
+        },
+        {
+          "start": 22.366667,
+          "end": 22.771667,
+          "shape": "small_open"
+        },
+        {
+          "start": 22.946667,
+          "end": 23.051667,
+          "shape": "small_open"
+        },
+        {
+          "start": 23.086667,
+          "end": 23.331667,
+          "shape": "ae"
+        },
+        {
+          "start": 23.806667,
+          "end": 23.971667,
+          "shape": "small_open"
+        },
+        {
+          "start": 24.006667,
+          "end": 24.051667,
+          "shape": "ae"
+        },
+        {
+          "start": 24.086667,
+          "end": 24.311667,
+          "shape": "ae"
+        },
+        {
+          "start": 24.346667,
+          "end": 24.511667,
+          "shape": "small_open"
+        },
+        {
+          "start": 24.546667,
+          "end": 24.571667,
+          "shape": "ae"
+        },
+        {
+          "start": 24.606667,
+          "end": 24.891666999999998,
+          "shape": "o_u"
+        },
+        {
+          "start": 25.386667,
+          "end": 25.471667,
+          "shape": "small_open"
+        },
+        {
+          "start": 25.506667,
+          "end": 25.631667,
+          "shape": "ae"
+        },
+        {
+          "start": 25.666667,
+          "end": 25.831667,
+          "shape": "small_open"
+        },
+        {
+          "start": 25.866667,
+          "end": 26.051667,
+          "shape": "o_u"
+        },
+        {
+          "start": 26.086667,
+          "end": 26.331667,
+          "shape": "small_open"
+        },
+        {
+          "start": 26.366667,
+          "end": 26.551667,
+          "shape": "ae"
+        },
+        {
+          "start": 26.586667,
+          "end": 27.091667,
+          "shape": "ae"
+        },
+        {
+          "start": 27.126667,
+          "end": 27.491667,
+          "shape": "small_open"
+        },
+        {
+          "start": 27.526667,
+          "end": 27.851667,
+          "shape": "ae"
+        },
+        {
+          "start": 31.166667,
+          "end": 31.291667,
+          "shape": "ae"
+        },
+        {
+          "start": 31.326667,
+          "end": 31.551667,
+          "shape": "ae"
+        },
+        {
+          "start": 31.586667,
+          "end": 32.131667,
+          "shape": "ae"
+        },
+        {
+          "start": 32.166667,
+          "end": 32.531667000000006,
+          "shape": "ae"
+        },
+        {
+          "start": 32.566667,
+          "end": 32.971667000000004,
+          "shape": "ae"
+        },
+        {
+          "start": 33.746667,
+          "end": 34.031667000000006,
+          "shape": "ae"
+        },
+        {
+          "start": 34.066667,
+          "end": 34.211667000000006,
+          "shape": "small_open"
+        },
+        {
+          "start": 34.246667,
+          "end": 34.391667000000005,
+          "shape": "ae"
+        },
+        {
+          "start": 34.426667,
+          "end": 34.851667000000006,
+          "shape": "ae"
+        },
+        {
+          "start": 35.346667,
+          "end": 35.791667000000004,
+          "shape": "small_open"
+        },
+        {
+          "start": 35.826667,
+          "end": 36.251667000000005,
+          "shape": "small_open"
+        },
+        {
+          "start": 36.286667,
+          "end": 36.411667,
+          "shape": "small_open"
+        },
+        {
+          "start": 36.446667,
+          "end": 36.511667,
+          "shape": "ae"
+        },
+        {
+          "start": 36.546667,
+          "end": 36.791667000000004,
+          "shape": "ae"
+        },
+        {
+          "start": 37.466667,
+          "end": 37.571667000000005,
+          "shape": "small_open"
+        },
+        {
+          "start": 37.606667,
+          "end": 37.791667000000004,
+          "shape": "ae"
+        },
+        {
+          "start": 37.826667,
+          "end": 37.911667,
+          "shape": "ae"
+        },
+        {
+          "start": 37.946667,
+          "end": 38.271667,
+          "shape": "ae"
+        },
+        {
+          "start": 38.306667,
+          "end": 38.651667,
+          "shape": "ae"
+        },
+        {
+          "start": 38.686667,
+          "end": 38.851667000000006,
+          "shape": "small_open"
+        },
+        {
+          "start": 38.886667,
+          "end": 38.99166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 39.026667,
+          "end": 39.331667,
+          "shape": "ae"
+        },
+        {
+          "start": 39.366667,
+          "end": 39.691667,
+          "shape": "ae"
+        },
+        {
+          "start": 40.333333,
+          "end": 40.678333,
+          "shape": "ae"
+        },
+        {
+          "start": 40.713333,
+          "end": 41.038333,
+          "shape": "ae"
+        },
+        {
+          "start": 41.073333,
+          "end": 41.438333,
+          "shape": "small_open"
+        },
+        {
+          "start": 41.473333,
+          "end": 41.678333,
+          "shape": "small_open"
+        },
+        {
+          "start": 41.713333,
+          "end": 42.018333000000005,
+          "shape": "small_open"
+        },
+        {
+          "start": 42.693333,
+          "end": 43.038333,
+          "shape": "ae"
+        },
+        {
+          "start": 43.073333,
+          "end": 43.338333000000006,
+          "shape": "small_open"
+        },
+        {
+          "start": 44.275,
+          "end": 44.52,
+          "shape": "ae"
+        },
+        {
+          "start": 45.335,
+          "end": 45.52,
+          "shape": "ae"
+        },
+        {
+          "start": 45.555,
+          "end": 45.88,
+          "shape": "ae"
+        },
+        {
+          "start": 45.915,
+          "end": 46.24,
+          "shape": "ae"
+        },
+        {
+          "start": 46.275,
+          "end": 46.56,
+          "shape": "ae"
+        },
+        {
+          "start": 46.595,
+          "end": 46.7,
+          "shape": "ae"
+        },
+        {
+          "start": 46.735,
+          "end": 47.02,
+          "shape": "ae"
+        },
+        {
+          "start": 47.895,
+          "end": 47.92,
+          "shape": "ae"
+        },
+        {
+          "start": 47.955,
+          "end": 48.040000000000006,
+          "shape": "ae"
+        },
+        {
+          "start": 48.075,
+          "end": 48.2,
+          "shape": "ae"
+        },
+        {
+          "start": 48.235,
+          "end": 48.34,
+          "shape": "small_open"
+        },
+        {
+          "start": 48.375,
+          "end": 48.68000000000001,
+          "shape": "ae"
+        },
+        {
+          "start": 49.615,
+          "end": 49.720000000000006,
+          "shape": "small_open"
+        },
+        {
+          "start": 49.755,
+          "end": 49.96,
+          "shape": "ae"
+        },
+        {
+          "start": 49.995,
+          "end": 50.42,
+          "shape": "ae"
+        },
+        {
+          "start": 50.455,
+          "end": 50.940000000000005,
+          "shape": "small_open"
+        },
+        {
+          "start": 50.975,
+          "end": 51.06,
+          "shape": "ae"
+        },
+        {
+          "start": 51.095,
+          "end": 51.24,
+          "shape": "small_open"
+        },
+        {
+          "start": 51.275,
+          "end": 51.38,
+          "shape": "small_open"
+        },
+        {
+          "start": 51.415,
+          "end": 51.64,
+          "shape": "small_open"
+        },
+        {
+          "start": 51.675,
+          "end": 51.82,
+          "shape": "ae"
+        },
+        {
+          "start": 53.166667,
+          "end": 53.99166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 54.026667,
+          "end": 55.411667,
+          "shape": "ae"
+        },
+        {
+          "start": 55.446667,
+          "end": 55.591667,
+          "shape": "small_open"
+        },
+        {
+          "start": 55.626667,
+          "end": 55.911667,
+          "shape": "ae"
+        },
+        {
+          "start": 55.946667,
+          "end": 56.311667,
+          "shape": "ae"
+        },
+        {
+          "start": 56.346667,
+          "end": 56.711667000000006,
+          "shape": "ae"
+        },
+        {
+          "start": 56.746667,
+          "end": 57.291667000000004,
+          "shape": "small_open"
+        },
+        {
+          "start": 57.726667,
+          "end": 57.851667000000006,
+          "shape": "ae"
+        },
+        {
+          "start": 57.886667,
+          "end": 58.011667,
+          "shape": "small_open"
+        },
+        {
+          "start": 58.046667,
+          "end": 58.131667,
+          "shape": "small_open"
+        },
+        {
+          "start": 58.166667,
+          "end": 58.271667,
+          "shape": "ae"
+        },
+        {
+          "start": 58.306667,
+          "end": 58.731667,
+          "shape": "ae"
+        },
+        {
+          "start": 59.126667,
+          "end": 59.511667,
+          "shape": "small_open"
+        },
+        {
+          "start": 59.546667,
+          "end": 59.891667000000005,
+          "shape": "ae"
+        },
+        {
+          "start": 59.926667,
+          "end": 60.151667,
+          "shape": "ae"
+        },
+        {
+          "start": 60.186667,
+          "end": 60.49166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 61.466667,
+          "end": 61.511667,
+          "shape": "ae"
+        },
+        {
+          "start": 61.546667,
+          "end": 61.651667,
+          "shape": "ae"
+        },
+        {
+          "start": 61.686667,
+          "end": 62.111667000000004,
+          "shape": "ae"
+        },
+        {
+          "start": 62.146667,
+          "end": 62.571667000000005,
+          "shape": "ae"
+        },
+        {
+          "start": 62.606667,
+          "end": 62.811667,
+          "shape": "ae"
+        },
+        {
+          "start": 62.846667,
+          "end": 63.251667000000005,
+          "shape": "ae"
+        },
+        {
+          "start": 63.766667,
+          "end": 63.891667000000005,
+          "shape": "small_open"
+        },
+        {
+          "start": 63.926667,
+          "end": 64.111667,
+          "shape": "ae"
+        },
+        {
+          "start": 64.146667,
+          "end": 64.161667,
+          "shape": "ae"
+        },
+        {
+          "start": 64.186667,
+          "end": 64.33166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 64.366667,
+          "end": 64.63166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 64.666667,
+          "end": 64.77166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 64.806667,
+          "end": 64.931667,
+          "shape": "ae"
+        },
+        {
+          "start": 64.966667,
+          "end": 65.13166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 66.366667,
+          "end": 66.791667,
+          "shape": "small_open"
+        },
+        {
+          "start": 67.226667,
+          "end": 67.351667,
+          "shape": "small_open"
+        },
+        {
+          "start": 67.386667,
+          "end": 67.77166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 67.806667,
+          "end": 68.171667,
+          "shape": "ae"
+        },
+        {
+          "start": 68.206667,
+          "end": 68.351667,
+          "shape": "ae"
+        },
+        {
+          "start": 68.386667,
+          "end": 68.591667,
+          "shape": "ae"
+        },
+        {
+          "start": 68.626667,
+          "end": 69.071667,
+          "shape": "ae"
+        },
+        {
+          "start": 69.106667,
+          "end": 69.77166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 70.526667,
+          "end": 71.171667,
+          "shape": "ae"
+        },
+        {
+          "start": 71.206667,
+          "end": 71.651667,
+          "shape": "small_open"
+        },
+        {
+          "start": 71.686667,
+          "end": 72.111667,
+          "shape": "small_open"
+        },
+        {
+          "start": 72.146667,
+          "end": 72.63166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 72.666667,
+          "end": 73.13166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 73.166667,
+          "end": 73.55166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 73.586667,
+          "end": 73.91166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 73.946667,
+          "end": 74.13166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 74.166667,
+          "end": 74.971667,
+          "shape": "small_open"
+        },
+        {
+          "start": 75.586667,
+          "end": 75.811667,
+          "shape": "o_u"
+        },
+        {
+          "start": 75.846667,
+          "end": 76.491667,
+          "shape": "ae"
+        },
+        {
+          "start": 76.526667,
+          "end": 76.77166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 76.806667,
+          "end": 77.05166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 77.086667,
+          "end": 77.651667,
+          "shape": "ae"
+        },
+        {
+          "start": 78.506667,
+          "end": 78.791667,
+          "shape": "ae"
+        },
+        {
+          "start": 78.846667,
+          "end": 79.491667,
+          "shape": "ae"
+        },
+        {
+          "start": 79.526667,
+          "end": 79.711667,
+          "shape": "ae"
+        },
+        {
+          "start": 79.746667,
+          "end": 80.091667,
+          "shape": "o_u"
+        },
+        {
+          "start": 80.126667,
+          "end": 80.491667,
+          "shape": "ae"
+        },
+        {
+          "start": 80.526667,
+          "end": 80.931667,
+          "shape": "ae"
+        },
+        {
+          "start": 80.966667,
+          "end": 81.171667,
+          "shape": "small_open"
+        },
+        {
+          "start": 81.206667,
+          "end": 81.291667,
+          "shape": "ae"
+        },
+        {
+          "start": 81.326667,
+          "end": 81.751667,
+          "shape": "small_open"
+        },
+        {
+          "start": 82.706667,
+          "end": 82.871667,
+          "shape": "small_open"
+        },
+        {
+          "start": 82.906667,
+          "end": 83.091667,
+          "shape": "small_open"
+        },
+        {
+          "start": 83.126667,
+          "end": 83.231667,
+          "shape": "small_open"
+        },
+        {
+          "start": 83.266667,
+          "end": 83.851667,
+          "shape": "ae"
+        },
+        {
+          "start": 84.646667,
+          "end": 84.851667,
+          "shape": "small_open"
+        },
+        {
+          "start": 84.886667,
+          "end": 85.791667,
+          "shape": "ae"
+        },
+        {
+          "start": 85.826667,
+          "end": 86.05166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 86.086667,
+          "end": 86.291667,
+          "shape": "small_open"
+        },
+        {
+          "start": 86.326667,
+          "end": 86.471667,
+          "shape": "ae"
+        },
+        {
+          "start": 86.506667,
+          "end": 86.791667,
+          "shape": "ae"
+        },
+        {
+          "start": 88.366667,
+          "end": 88.531667,
+          "shape": "small_open"
+        },
+        {
+          "start": 88.566667,
+          "end": 88.69166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 88.726667,
+          "end": 88.951667,
+          "shape": "small_open"
+        },
+        {
+          "start": 88.986667,
+          "end": 89.071667,
+          "shape": "small_open"
+        },
+        {
+          "start": 89.106667,
+          "end": 89.251667,
+          "shape": "ae"
+        },
+        {
+          "start": 89.286667,
+          "end": 89.41166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 89.446667,
+          "end": 89.63166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 89.666667,
+          "end": 90.111667,
+          "shape": "ae"
+        },
+        {
+          "start": 90.146667,
+          "end": 90.55166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 90.586667,
+          "end": 90.931667,
+          "shape": "ae"
+        },
+        {
+          "start": 91.846667,
+          "end": 92.031667,
+          "shape": "ae"
+        },
+        {
+          "start": 92.066667,
+          "end": 92.33166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 92.366667,
+          "end": 92.531667,
+          "shape": "ae"
+        },
+        {
+          "start": 92.566667,
+          "end": 92.811667,
+          "shape": "ae"
+        },
+        {
+          "start": 92.846667,
+          "end": 92.991667,
+          "shape": "small_open"
+        },
+        {
+          "start": 93.026667,
+          "end": 93.171667,
+          "shape": "small_open"
+        },
+        {
+          "start": 93.206667,
+          "end": 93.431667,
+          "shape": "ae"
+        },
+        {
+          "start": 94.126667,
+          "end": 94.41166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 94.446667,
+          "end": 94.611667,
+          "shape": "small_open"
+        },
+        {
+          "start": 94.646667,
+          "end": 94.77166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 94.806667,
+          "end": 95.05166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 95.986667,
+          "end": 96.351667,
+          "shape": "ae"
+        },
+        {
+          "start": 96.386667,
+          "end": 96.63166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 96.666667,
+          "end": 97.251667,
+          "shape": "ae"
+        },
+        {
+          "start": 97.286667,
+          "end": 97.531667,
+          "shape": "small_open"
+        },
+        {
+          "start": 97.566667,
+          "end": 97.69166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 97.726667,
+          "end": 97.991667,
+          "shape": "ae"
+        },
+        {
+          "start": 98.026667,
+          "end": 98.13166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 98.166667,
+          "end": 98.371667,
+          "shape": "ae"
+        },
+        {
+          "start": 98.406667,
+          "end": 98.511667,
+          "shape": "small_open"
+        },
+        {
+          "start": 98.546667,
+          "end": 98.651667,
+          "shape": "ae"
+        },
+        {
+          "start": 98.686667,
+          "end": 98.991667,
+          "shape": "small_open"
+        },
+        {
+          "start": 100.186667,
+          "end": 100.311667,
+          "shape": "ae"
+        },
+        {
+          "start": 100.346667,
+          "end": 100.41166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 100.446667,
+          "end": 100.69166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 101.926667,
+          "end": 102.111667,
+          "shape": "ae"
+        },
+        {
+          "start": 102.146667,
+          "end": 102.33166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 102.366667,
+          "end": 102.391667,
+          "shape": "ae"
+        },
+        {
+          "start": 102.426667,
+          "end": 102.651667,
+          "shape": "ae"
+        },
+        {
+          "start": 102.686667,
+          "end": 103.011667,
+          "shape": "ae"
+        },
+        {
+          "start": 103.046667,
+          "end": 103.211667,
+          "shape": "ae"
+        },
+        {
+          "start": 104.775,
+          "end": 105.0,
+          "shape": "ae"
+        },
+        {
+          "start": 105.035,
+          "end": 105.24000000000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 105.275,
+          "end": 105.46000000000001,
+          "shape": "ae"
+        },
+        {
+          "start": 105.495,
+          "end": 105.64,
+          "shape": "ae"
+        },
+        {
+          "start": 105.675,
+          "end": 105.98,
+          "shape": "ae"
+        },
+        {
+          "start": 106.615,
+          "end": 106.76,
+          "shape": "ae"
+        },
+        {
+          "start": 106.795,
+          "end": 107.26,
+          "shape": "ae"
+        },
+        {
+          "start": 107.295,
+          "end": 107.60000000000001,
+          "shape": "ae"
+        },
+        {
+          "start": 107.635,
+          "end": 107.9,
+          "shape": "ae"
+        },
+        {
+          "start": 108.255,
+          "end": 108.27,
+          "shape": "ae"
+        },
+        {
+          "start": 108.295,
+          "end": 108.46000000000001,
+          "shape": "ae"
+        },
+        {
+          "start": 108.495,
+          "end": 108.74000000000001,
+          "shape": "ae"
+        },
+        {
+          "start": 108.775,
+          "end": 108.92,
+          "shape": "ae"
+        },
+        {
+          "start": 110.366667,
+          "end": 110.651667,
+          "shape": "ae"
+        },
+        {
+          "start": 110.946667,
+          "end": 111.05166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 111.086667,
+          "end": 111.391667,
+          "shape": "small_open"
+        },
+        {
+          "start": 111.426667,
+          "end": 111.751667,
+          "shape": "ae"
+        },
+        {
+          "start": 111.786667,
+          "end": 111.991667,
+          "shape": "ae"
+        },
+        {
+          "start": 112.026667,
+          "end": 112.19166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 112.226667,
+          "end": 112.571667,
+          "shape": "ae"
+        },
+        {
+          "start": 112.606667,
+          "end": 112.871667,
+          "shape": "ae"
+        },
+        {
+          "start": 112.906667,
+          "end": 113.011667,
+          "shape": "ae"
+        },
+        {
+          "start": 113.046667,
+          "end": 113.27166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 113.306667,
+          "end": 113.671667,
+          "shape": "small_open"
+        },
+        {
+          "start": 113.706667,
+          "end": 114.05166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 115.206667,
+          "end": 115.391667,
+          "shape": "ae"
+        },
+        {
+          "start": 115.806667,
+          "end": 115.971667,
+          "shape": "ae"
+        },
+        {
+          "start": 116.006667,
+          "end": 116.291667,
+          "shape": "ae"
+        },
+        {
+          "start": 117.426667,
+          "end": 117.55166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 117.586667,
+          "end": 117.851667,
+          "shape": "small_open"
+        },
+        {
+          "start": 117.886667,
+          "end": 118.211667,
+          "shape": "ae"
+        },
+        {
+          "start": 118.246667,
+          "end": 118.491667,
+          "shape": "small_open"
+        },
+        {
+          "start": 118.526667,
+          "end": 118.69166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 118.726667,
+          "end": 119.251667,
+          "shape": "ae"
+        },
+        {
+          "start": 119.286667,
+          "end": 119.91166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 120.766667,
+          "end": 120.931667,
+          "shape": "small_open"
+        },
+        {
+          "start": 120.966667,
+          "end": 121.231667,
+          "shape": "ae"
+        },
+        {
+          "start": 121.266667,
+          "end": 121.651667,
+          "shape": "ae"
+        },
+        {
+          "start": 121.686667,
+          "end": 121.891667,
+          "shape": "ae"
+        },
+        {
+          "start": 121.926667,
+          "end": 122.511667,
+          "shape": "ae"
+        },
+        {
+          "start": 122.546667,
+          "end": 122.951667,
+          "shape": "ae"
+        },
+        {
+          "start": 122.986667,
+          "end": 123.33166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 123.366667,
+          "end": 123.531667,
+          "shape": "small_open"
+        },
+        {
+          "start": 123.566667,
+          "end": 124.031667,
+          "shape": "ae"
+        },
+        {
+          "start": 125.166667,
+          "end": 125.251667,
+          "shape": "ae"
+        },
+        {
+          "start": 125.286667,
+          "end": 125.571667,
+          "shape": "small_open"
+        },
+        {
+          "start": 125.606667,
+          "end": 125.871667,
+          "shape": "ae"
+        },
+        {
+          "start": 125.906667,
+          "end": 126.091667,
+          "shape": "ae"
+        },
+        {
+          "start": 126.126667,
+          "end": 126.531667,
+          "shape": "ae"
+        },
+        {
+          "start": 127.406667,
+          "end": 127.511667,
+          "shape": "small_open"
+        },
+        {
+          "start": 127.546667,
+          "end": 127.69166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 127.726667,
+          "end": 127.871667,
+          "shape": "small_open"
+        },
+        {
+          "start": 127.906667,
+          "end": 128.111667,
+          "shape": "ae"
+        },
+        {
+          "start": 128.146667,
+          "end": 128.251667,
+          "shape": "small_open"
+        },
+        {
+          "start": 128.286667,
+          "end": 128.51166700000002,
+          "shape": "ae"
+        },
+        {
+          "start": 128.546667,
+          "end": 128.811667,
+          "shape": "small_open"
+        },
+        {
+          "start": 130.075,
+          "end": 130.28,
+          "shape": "small_open"
+        },
+        {
+          "start": 130.315,
+          "end": 130.62,
+          "shape": "ae"
+        },
+        {
+          "start": 130.655,
+          "end": 130.86,
+          "shape": "ae"
+        },
+        {
+          "start": 130.895,
+          "end": 131.3,
+          "shape": "ae"
+        },
+        {
+          "start": 132.733333,
+          "end": 132.978333,
+          "shape": "o_u"
+        },
+        {
+          "start": 133.013333,
+          "end": 133.158333,
+          "shape": "small_open"
+        },
+        {
+          "start": 133.193333,
+          "end": 133.35833300000002,
+          "shape": "small_open"
+        },
+        {
+          "start": 133.393333,
+          "end": 133.678333,
+          "shape": "small_open"
+        },
+        {
+          "start": 134.253333,
+          "end": 134.458333,
+          "shape": "small_open"
+        },
+        {
+          "start": 134.493333,
+          "end": 134.63833300000002,
+          "shape": "ae"
+        },
+        {
+          "start": 134.673333,
+          "end": 134.938333,
+          "shape": "ae"
+        },
+        {
+          "start": 134.973333,
+          "end": 135.418333,
+          "shape": "ae"
+        },
+        {
+          "start": 136.333333,
+          "end": 136.498333,
+          "shape": "small_open"
+        },
+        {
+          "start": 136.533333,
+          "end": 136.778333,
+          "shape": "ae"
+        },
+        {
+          "start": 136.813333,
+          "end": 137.058333,
+          "shape": "ae"
+        },
+        {
+          "start": 137.093333,
+          "end": 137.258333,
+          "shape": "small_open"
+        },
+        {
+          "start": 137.293333,
+          "end": 137.598333,
+          "shape": "ae"
+        },
+        {
+          "start": 137.633333,
+          "end": 137.778333,
+          "shape": "ae"
+        },
+        {
+          "start": 137.813333,
+          "end": 137.998333,
+          "shape": "small_open"
+        },
+        {
+          "start": 138.033333,
+          "end": 138.338333,
+          "shape": "small_open"
+        },
+        {
+          "start": 138.373333,
+          "end": 138.458333,
+          "shape": "ae"
+        },
+        {
+          "start": 138.493333,
+          "end": 138.658333,
+          "shape": "small_open"
+        },
+        {
+          "start": 138.693333,
+          "end": 139.118333,
+          "shape": "ae"
+        },
+        {
+          "start": 139.913333,
+          "end": 140.13833300000002,
+          "shape": "ae"
+        },
+        {
+          "start": 140.173333,
+          "end": 140.438333,
+          "shape": "small_open"
+        },
+        {
+          "start": 140.473333,
+          "end": 140.758333,
+          "shape": "small_open"
+        },
+        {
+          "start": 140.793333,
+          "end": 141.098333,
+          "shape": "ae"
+        },
+        {
+          "start": 141.133333,
+          "end": 141.378333,
+          "shape": "small_open"
+        },
+        {
+          "start": 141.413333,
+          "end": 141.85833300000002,
+          "shape": "ae"
+        },
+        {
+          "start": 142.773333,
+          "end": 143.038333,
+          "shape": "small_open"
+        },
+        {
+          "start": 143.073333,
+          "end": 143.238333,
+          "shape": "ae"
+        },
+        {
+          "start": 143.273333,
+          "end": 143.63833300000002,
+          "shape": "small_open"
+        },
+        {
+          "start": 143.673333,
+          "end": 144.038333,
+          "shape": "small_open"
+        },
+        {
+          "start": 144.073333,
+          "end": 144.35833300000002,
+          "shape": "small_open"
+        },
+        {
+          "start": 144.393333,
+          "end": 144.538333,
+          "shape": "ae"
+        },
+        {
+          "start": 144.573333,
+          "end": 144.698333,
+          "shape": "small_open"
+        },
+        {
+          "start": 144.733333,
+          "end": 145.038333,
+          "shape": "small_open"
+        },
+        {
+          "start": 145.473333,
+          "end": 145.818333,
+          "shape": "small_open"
+        },
+        {
+          "start": 145.853333,
+          "end": 145.938333,
+          "shape": "ae"
+        },
+        {
+          "start": 145.973333,
+          "end": 146.118333,
+          "shape": "small_open"
+        },
+        {
+          "start": 146.153333,
+          "end": 146.35833300000002,
+          "shape": "ae"
+        },
+        {
+          "start": 146.393333,
+          "end": 146.518333,
+          "shape": "small_open"
+        },
+        {
+          "start": 146.553333,
+          "end": 146.778333,
+          "shape": "ae"
+        },
+        {
+          "start": 146.813333,
+          "end": 146.828333,
+          "shape": "ae"
+        },
+        {
+          "start": 146.833333,
+          "end": 147.118333,
+          "shape": "small_open"
+        },
+        {
+          "start": 148.293333,
+          "end": 148.57833300000001,
+          "shape": "ae"
+        },
+        {
+          "start": 148.613333,
+          "end": 148.738333,
+          "shape": "small_open"
+        },
+        {
+          "start": 148.773333,
+          "end": 148.958333,
+          "shape": "ae"
+        },
+        {
+          "start": 148.993333,
+          "end": 149.198333,
+          "shape": "small_open"
+        },
+        {
+          "start": 149.833333,
+          "end": 150.07833300000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 150.113333,
+          "end": 150.338333,
+          "shape": "ae"
+        },
+        {
+          "start": 150.373333,
+          "end": 150.538333,
+          "shape": "small_open"
+        },
+        {
+          "start": 150.573333,
+          "end": 150.758333,
+          "shape": "ae"
+        },
+        {
+          "start": 150.793333,
+          "end": 150.938333,
+          "shape": "small_open"
+        },
+        {
+          "start": 150.973333,
+          "end": 151.538333,
+          "shape": "ae"
+        },
+        {
+          "start": 151.573333,
+          "end": 151.978333,
+          "shape": "small_open"
+        },
+        {
+          "start": 152.013333,
+          "end": 152.278333,
+          "shape": "ae"
+        },
+        {
+          "start": 152.313333,
+          "end": 152.598333,
+          "shape": "ae"
+        },
+        {
+          "start": 154.366667,
+          "end": 154.531667,
+          "shape": "small_open"
+        },
+        {
+          "start": 154.566667,
+          "end": 154.671667,
+          "shape": "ae"
+        },
+        {
+          "start": 154.706667,
+          "end": 154.831667,
+          "shape": "ae"
+        },
+        {
+          "start": 154.866667,
+          "end": 155.151667,
+          "shape": "o_u"
+        },
+        {
+          "start": 155.186667,
+          "end": 155.631667,
+          "shape": "ae"
+        },
+        {
+          "start": 155.666667,
+          "end": 155.931667,
+          "shape": "ae"
+        },
+        {
+          "start": 155.966667,
+          "end": 156.131667,
+          "shape": "ae"
+        },
+        {
+          "start": 156.166667,
+          "end": 156.391667,
+          "shape": "ae"
+        },
+        {
+          "start": 156.426667,
+          "end": 156.771667,
+          "shape": "ae"
+        },
+        {
+          "start": 157.606667,
+          "end": 158.031667,
+          "shape": "small_open"
+        },
+        {
+          "start": 158.066667,
+          "end": 158.331667,
+          "shape": "small_open"
+        },
+        {
+          "start": 158.366667,
+          "end": 158.431667,
+          "shape": "ae"
+        },
+        {
+          "start": 158.466667,
+          "end": 158.631667,
+          "shape": "ae"
+        },
+        {
+          "start": 158.666667,
+          "end": 159.051667,
+          "shape": "ae"
+        },
+        {
+          "start": 159.086667,
+          "end": 159.45166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 159.486667,
+          "end": 159.791667,
+          "shape": "small_open"
+        },
+        {
+          "start": 159.826667,
+          "end": 160.371667,
+          "shape": "ae"
+        },
+        {
+          "start": 160.406667,
+          "end": 160.95166700000001,
+          "shape": "small_open"
+        },
+        {
+          "start": 161.626667,
+          "end": 162.071667,
+          "shape": "ae"
+        },
+        {
+          "start": 162.106667,
+          "end": 162.491667,
+          "shape": "small_open"
+        },
+        {
+          "start": 162.586667,
+          "end": 162.831667,
+          "shape": "ae"
+        },
+        {
+          "start": 163.746667,
+          "end": 164.01166700000002,
+          "shape": "ae"
+        },
+        {
+          "start": 164.046667,
+          "end": 164.411667,
+          "shape": "small_open"
+        },
+        {
+          "start": 165.546667,
+          "end": 165.611667,
+          "shape": "small_open"
+        },
+        {
+          "start": 165.646667,
+          "end": 165.931667,
+          "shape": "ae"
+        },
+        {
+          "start": 165.966667,
+          "end": 166.251667,
+          "shape": "small_open"
+        },
+        {
+          "start": 166.286667,
+          "end": 166.711667,
+          "shape": "ae"
+        },
+        {
+          "start": 166.746667,
+          "end": 167.031667,
+          "shape": "small_open"
+        },
+        {
+          "start": 167.066667,
+          "end": 167.251667,
+          "shape": "ae"
+        },
+        {
+          "start": 167.286667,
+          "end": 167.431667,
+          "shape": "small_open"
+        },
+        {
+          "start": 167.466667,
+          "end": 167.691667,
+          "shape": "ae"
+        },
+        {
+          "start": 167.726667,
+          "end": 168.131667,
+          "shape": "ae"
+        },
+        {
+          "start": 168.806667,
+          "end": 168.971667,
+          "shape": "ae"
+        },
+        {
+          "start": 169.226667,
+          "end": 169.271667,
+          "shape": "ae"
+        },
+        {
+          "start": 170.006667,
+          "end": 170.271667,
+          "shape": "ae"
+        },
+        {
+          "start": 170.306667,
+          "end": 170.431667,
+          "shape": "ae"
+        },
+        {
+          "start": 170.466667,
+          "end": 170.591667,
+          "shape": "ae"
+        },
+        {
+          "start": 170.626667,
+          "end": 170.791667,
+          "shape": "small_open"
+        },
+        {
+          "start": 170.826667,
+          "end": 170.991667,
+          "shape": "ae"
+        },
+        {
+          "start": 171.026667,
+          "end": 171.311667,
+          "shape": "ae"
+        },
+        {
+          "start": 171.346667,
+          "end": 171.631667,
+          "shape": "small_open"
+        },
+        {
+          "start": 171.666667,
+          "end": 171.891667,
+          "shape": "ae"
+        },
+        {
+          "start": 173.616667,
+          "end": 173.801667,
+          "shape": "ae"
+        },
+        {
+          "start": 173.836667,
+          "end": 174.061667,
+          "shape": "small_open"
+        },
+        {
+          "start": 174.096667,
+          "end": 174.381667,
+          "shape": "small_open"
+        },
+        {
+          "start": 174.416667,
+          "end": 174.661667,
+          "shape": "small_open"
+        },
+        {
+          "start": 174.696667,
+          "end": 174.98166700000002,
+          "shape": "ae"
+        },
+        {
+          "start": 176.366667,
+          "end": 176.691667,
+          "shape": "ae"
+        },
+        {
+          "start": 177.186667,
+          "end": 177.271667,
+          "shape": "small_open"
+        },
+        {
+          "start": 177.306667,
+          "end": 177.551667,
+          "shape": "small_open"
+        },
+        {
+          "start": 178.266667,
+          "end": 178.571667,
+          "shape": "small_open"
+        },
+        {
+          "start": 178.606667,
+          "end": 178.751667,
+          "shape": "small_open"
+        },
+        {
+          "start": 178.786667,
+          "end": 178.80166699999998,
+          "shape": "ae"
+        },
+        {
+          "start": 178.826667,
+          "end": 179.171667,
+          "shape": "small_open"
+        },
+        {
+          "start": 179.206667,
+          "end": 179.691667,
+          "shape": "ae"
+        },
+        {
+          "start": 180.346667,
+          "end": 180.551667,
+          "shape": "small_open"
+        },
+        {
+          "start": 180.586667,
+          "end": 180.991667,
+          "shape": "small_open"
+        },
+        {
+          "start": 181.026667,
+          "end": 181.151667,
+          "shape": "ae"
+        },
+        {
+          "start": 181.186667,
+          "end": 181.351667,
+          "shape": "ae"
+        },
+        {
+          "start": 181.386667,
+          "end": 181.45166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 181.486667,
+          "end": 181.631667,
+          "shape": "ae"
+        },
+        {
+          "start": 181.666667,
+          "end": 181.851667,
+          "shape": "ae"
+        },
+        {
+          "start": 181.886667,
+          "end": 181.971667,
+          "shape": "ae"
+        },
+        {
+          "start": 182.006667,
+          "end": 182.111667,
+          "shape": "small_open"
+        },
+        {
+          "start": 182.146667,
+          "end": 182.371667,
+          "shape": "small_open"
+        },
+        {
+          "start": 183.046667,
+          "end": 183.191667,
+          "shape": "small_open"
+        },
+        {
+          "start": 183.226667,
+          "end": 183.411667,
+          "shape": "ae"
+        },
+        {
+          "start": 183.446667,
+          "end": 183.691667,
+          "shape": "small_open"
+        },
+        {
+          "start": 183.726667,
+          "end": 183.891667,
+          "shape": "ae"
+        },
+        {
+          "start": 183.926667,
+          "end": 184.031667,
+          "shape": "ae"
+        },
+        {
+          "start": 184.066667,
+          "end": 184.351667,
+          "shape": "ae"
+        },
+        {
+          "start": 185.526667,
+          "end": 185.691667,
+          "shape": "small_open"
+        },
+        {
+          "start": 185.726667,
+          "end": 185.911667,
+          "shape": "ae"
+        },
+        {
+          "start": 185.946667,
+          "end": 186.251667,
+          "shape": "small_open"
+        },
+        {
+          "start": 187.166667,
+          "end": 187.271667,
+          "shape": "small_open"
+        },
+        {
+          "start": 187.306667,
+          "end": 187.411667,
+          "shape": "ae"
+        },
+        {
+          "start": 187.446667,
+          "end": 187.591667,
+          "shape": "ae"
+        },
+        {
+          "start": 187.626667,
+          "end": 188.111667,
+          "shape": "small_open"
+        },
+        {
+          "start": 188.146667,
+          "end": 188.531667,
+          "shape": "ae"
+        },
+        {
+          "start": 188.566667,
+          "end": 188.791667,
+          "shape": "small_open"
+        },
+        {
+          "start": 188.826667,
+          "end": 189.051667,
+          "shape": "ae"
+        },
+        {
+          "start": 189.086667,
+          "end": 189.251667,
+          "shape": "ae"
+        },
+        {
+          "start": 189.286667,
+          "end": 189.45166700000001,
+          "shape": "ae"
+        },
+        {
+          "start": 189.486667,
+          "end": 189.851667,
+          "shape": "ae"
+        },
+        {
+          "start": 189.886667,
+          "end": 190.131667,
+          "shape": "small_open"
+        },
+        {
+          "start": 190.166667,
+          "end": 190.491667,
+          "shape": "ae"
+        },
+        {
+          "start": 191.706667,
+          "end": 191.991667,
+          "shape": "ae"
+        },
+        {
+          "start": 192.026667,
+          "end": 192.091667,
+          "shape": "ae"
+        },
+        {
+          "start": 192.126667,
+          "end": 192.431667,
+          "shape": "ae"
+        },
+        {
+          "start": 193.126667,
+          "end": 193.271667,
+          "shape": "ae"
+        },
+        {
+          "start": 193.966667,
+          "end": 194.371667,
+          "shape": "ae"
+        },
+        {
+          "start": 194.406667,
+          "end": 194.631667,
+          "shape": "small_open"
+        },
+        {
+          "start": 194.666667,
+          "end": 194.73166700000002,
+          "shape": "ae"
+        },
+        {
+          "start": 194.766667,
+          "end": 195.151667,
+          "shape": "ae"
+        },
+        {
+          "start": 196.166667,
+          "end": 196.271667,
+          "shape": "ae"
+        },
+        {
+          "start": 196.306667,
+          "end": 196.431667,
+          "shape": "ae"
+        },
+        {
+          "start": 196.466667,
+          "end": 196.691667,
+          "shape": "small_open"
+        },
+        {
+          "start": 196.726667,
+          "end": 196.791667,
+          "shape": "ae"
+        },
+        {
+          "start": 196.826667,
+          "end": 197.151667,
+          "shape": "ae"
+        },
+        {
+          "start": 198.366667,
+          "end": 198.591667,
+          "shape": "ae"
+        },
+        {
+          "start": 198.626667,
+          "end": 198.971667,
+          "shape": "ae"
+        },
+        {
+          "start": 199.346667,
+          "end": 199.591667,
+          "shape": "ae"
+        },
+        {
+          "start": 199.626667,
+          "end": 199.991667,
+          "shape": "small_open"
+        },
+        {
+          "start": 200.266667,
+          "end": 200.791667,
+          "shape": "small_open"
+        },
+        {
+          "start": 200.826667,
+          "end": 201.491667,
+          "shape": "ae"
+        },
+        {
+          "start": 202.266667,
+          "end": 202.611667,
+          "shape": "ae"
+        },
+        {
+          "start": 202.646667,
+          "end": 202.831667,
+          "shape": "ae"
+        },
+        {
+          "start": 202.866667,
+          "end": 203.271667,
+          "shape": "ae"
+        },
+        {
+          "start": 203.306667,
+          "end": 203.811667,
+          "shape": "ae"
+        },
+        {
+          "start": 203.846667,
+          "end": 204.191667,
+          "shape": "small_open"
+        },
+        {
+          "start": 204.226667,
+          "end": 204.631667,
+          "shape": "small_open"
+        },
+        {
+          "start": 205.726667,
+          "end": 205.811667,
+          "shape": "ae"
+        },
+        {
+          "start": 205.846667,
+          "end": 205.931667,
+          "shape": "o_u"
+        },
+        {
+          "start": 205.966667,
+          "end": 206.031667,
+          "shape": "small_open"
+        },
+        {
+          "start": 206.066667,
+          "end": 206.191667,
+          "shape": "ae"
+        },
+        {
+          "start": 206.226667,
+          "end": 206.391667,
+          "shape": "ae"
+        },
+        {
+          "start": 206.426667,
+          "end": 206.51166700000002,
+          "shape": "small_open"
+        },
+        {
+          "start": 206.546667,
+          "end": 206.611667,
+          "shape": "small_open"
+        },
+        {
+          "start": 206.646667,
+          "end": 206.871667,
+          "shape": "ae"
+        },
+        {
+          "start": 207.766667,
+          "end": 208.01166700000002,
+          "shape": "small_open"
+        },
+        {
+          "start": 208.046667,
+          "end": 208.151667,
+          "shape": "small_open"
+        },
+        {
+          "start": 208.186667,
+          "end": 208.271667,
+          "shape": "small_open"
+        },
+        {
+          "start": 208.306667,
+          "end": 208.471667,
+          "shape": "small_open"
+        },
+        {
+          "start": 208.506667,
+          "end": 208.631667,
+          "shape": "ae"
+        },
+        {
+          "start": 208.666667,
+          "end": 208.851667,
+          "shape": "ae"
+        },
+        {
+          "start": 208.886667,
+          "end": 209.391667,
+          "shape": "small_open"
+        },
+        {
+          "start": 209.806667,
+          "end": 210.01166700000002,
+          "shape": "ae"
+        },
+        {
+          "start": 210.046667,
+          "end": 210.23166700000002,
+          "shape": "small_open"
+        },
+        {
+          "start": 210.266667,
+          "end": 210.291667,
+          "shape": "ae"
+        },
+        {
+          "start": 210.326667,
+          "end": 210.51166700000002,
+          "shape": "ae"
+        },
+        {
+          "start": 210.546667,
+          "end": 210.991667,
+          "shape": "ae"
+        },
+        {
+          "start": 211.546667,
+          "end": 211.791667,
+          "shape": "ae"
+        },
+        {
+          "start": 211.926667,
+          "end": 212.071667,
+          "shape": "small_open"
+        },
+        {
+          "start": 212.686667,
+          "end": 213.031667,
+          "shape": "small_open"
+        },
+        {
+          "start": 213.266667,
+          "end": 213.331667,
+          "shape": "ae"
+        },
+        {
+          "start": 213.366667,
+          "end": 213.651667,
+          "shape": "ae"
+        },
+        {
+          "start": 213.686667,
+          "end": 213.891667,
+          "shape": "small_open"
+        },
+        {
+          "start": 213.926667,
+          "end": 214.111667,
+          "shape": "ae"
+        },
+        {
+          "start": 214.146667,
+          "end": 214.371667,
+          "shape": "small_open"
+        },
+        {
+          "start": 214.406667,
+          "end": 214.531667,
+          "shape": "ae"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "the_floor_is_disappearing",
+      "start": 0.0,
+      "end": 22.0,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            960,
+            620
+          ],
+          "scale": 1.4
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "the_door_was_only_ink",
+      "start": 22.0,
+      "end": 44.0,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            900,
+            620
+          ],
+          "scale": 1.4
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "there_is_space_beyond",
+      "start": 44.0,
+      "end": 66.0,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            1000,
+            620
+          ],
+          "scale": 1.4
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "the_missing_bridge",
+      "start": 66.0,
+      "end": 88.0,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            1000,
+            620
+          ],
+          "scale": 1.4
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "the_bridge_gives_way",
+      "start": 88.0,
+      "end": 110.0,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            900,
+            620
+          ],
+          "scale": 1.4
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "the_paper_holds",
+      "start": 110.0,
+      "end": 126.126667,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            1000,
+            620
+          ],
+          "scale": 1.4
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "the_paper_holds_arrival",
+      "start": 126.126667,
+      "end": 132.0,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            320,
+            620
+          ],
+          "scale": 1.4
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "where_is_the_eraser",
+      "start": 132.0,
+      "end": 154.0,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            320,
+            620
+          ],
+          "scale": 1.4
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "the_path_is_gone",
+      "start": 154.0,
+      "end": 176.0,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            900,
+            620
+          ],
+          "scale": 1.4
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "the_eraser_lift",
+      "start": 176.0,
+      "end": 198.0,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            650,
+            620
+          ],
+          "scale": 1.4
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    },
+    {
+      "id": "a_solid_desk",
+      "start": 198.0,
+      "end": 220.0,
+      "background": "paper",
+      "actors": {
+        "nemi": {
+          "position": [
+            1150,
+            620
+          ],
+          "scale": 1.4
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1
+      }
+    }
+  ],
+  "drawings": [],
+  "props": [],
+  "events": [
+    {
+      "id": "eraser_cut",
+      "at": 1.750833,
+      "intent": "eraser cut uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "door_flat",
+      "at": 23.386667,
+      "intent": "door flat uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "door_rewind",
+      "at": 34.066667,
+      "intent": "door rewind uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "tear_open",
+      "at": 45.915,
+      "intent": "tear open uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "bridge_falls",
+      "at": 92.066667,
+      "intent": "bridge falls uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "bridge_rewind",
+      "at": 100.186667,
+      "intent": "bridge rewind uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "tab_opens",
+      "at": 111.086667,
+      "intent": "tab opens uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "eraser_reappears",
+      "at": 133.393333,
+      "intent": "eraser reappears uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "path_erased",
+      "at": 160.406667,
+      "intent": "path erased uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "path_rewind",
+      "at": 167.726667,
+      "intent": "path rewind uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "ride_travel",
+      "at": 183.446667,
+      "intent": "ride travel uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "studio_arrival",
+      "at": 198.626667,
+      "intent": "studio arrival uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "eraser_still_coming",
+      "at": 106.795,
+      "intent": "Existing recorded scrape keeps the same offscreen eraser threat present during the crossing."
+    },
+    {
+      "id": "acting_drawing_hook_place0",
+      "at": 0.940833,
+      "intent": "Approved opening thought"
+    },
+    {
+      "id": "acting_drawing_hook_floor1",
+      "at": 2.980833,
+      "intent": "Approved opening thought"
+    },
+    {
+      "id": "acting_drawing_hook_click2",
+      "at": 5.760833,
+      "intent": "Approved opening thought"
+    },
+    {
+      "id": "acting_drawing_hook_left3",
+      "at": 10.380833,
+      "intent": "Approved opening thought"
+    },
+    {
+      "id": "acting_drawing_hook_right4",
+      "at": 12.020833,
+      "intent": "Approved opening thought"
+    },
+    {
+      "id": "acting_drawing_hook_press5",
+      "at": 13.780833,
+      "intent": "Approved opening thought"
+    },
+    {
+      "id": "acting_phone_chapter_hint_phones6",
+      "at": 16.851667,
+      "intent": "One clear thought change: phones"
+    },
+    {
+      "id": "acting_door_admission_drawing7",
+      "at": 24.086667,
+      "intent": "One clear thought change: drawing"
+    },
+    {
+      "id": "acting_door_admission_absolutely8",
+      "at": 26.586667,
+      "intent": "One clear thought change: absolutely"
+    },
+    {
+      "id": "acting_door_recovery_ambitious9",
+      "at": 32.566667,
+      "intent": "One clear thought change: ambitious"
+    },
+    {
+      "id": "acting_door_recovery_two10",
+      "at": 35.826667,
+      "intent": "One clear thought change: two"
+    },
+    {
+      "id": "acting_tear_discovery_space11",
+      "at": 45.915,
+      "intent": "One clear thought change: space"
+    },
+    {
+      "id": "acting_tear_discovery_through12",
+      "at": 48.235,
+      "intent": "One clear thought change: through"
+    },
+    {
+      "id": "acting_tear_discovery_best13",
+      "at": 49.755,
+      "intent": "One clear thought change: best"
+    },
+    {
+      "id": "acting_desk_beyond_desk14",
+      "at": 55.946667,
+      "intent": "One clear thought change: desk"
+    },
+    {
+      "id": "acting_desk_beyond_stop15",
+      "at": 64.186667,
+      "intent": "One clear thought change: stop"
+    },
+    {
+      "id": "acting_bridge_choice_halfway16",
+      "at": 68.626667,
+      "intent": "One clear thought change: halfway"
+    },
+    {
+      "id": "acting_bridge_choice_future17",
+      "at": 72.146667,
+      "intent": "One clear thought change: Future"
+    },
+    {
+      "id": "acting_bridge_choice_underneath18",
+      "at": 75.846667,
+      "intent": "One clear thought change: underneath"
+    },
+    {
+      "id": "acting_bridge_choice_four19",
+      "at": 82.706667,
+      "intent": "One clear thought change: Four"
+    },
+    {
+      "id": "acting_bridge_failure_confident20",
+      "at": 89.666667,
+      "intent": "One clear thought change: confident"
+    },
+    {
+      "id": "acting_bridge_failure_hole21",
+      "at": 94.806667,
+      "intent": "One clear thought change: hole"
+    },
+    {
+      "id": "acting_bridge_failure_useful22",
+      "at": 96.386667,
+      "intent": "One clear thought change: useful"
+    },
+    {
+      "id": "acting_bridge_failure_five23",
+      "at": 101.926667,
+      "intent": "One clear thought change: Five"
+    },
+    {
+      "id": "acting_fold_cross_holding24",
+      "at": 113.706667,
+      "intent": "One clear thought change: holding"
+    },
+    {
+      "id": "acting_fold_cross_trusting25",
+      "at": 117.586667,
+      "intent": "One clear thought change: trusting"
+    },
+    {
+      "id": "acting_fold_cross_normal26",
+      "at": 122.546667,
+      "intent": "One clear thought change: normal"
+    },
+    {
+      "id": "acting_fold_cross_across27",
+      "at": 126.126667,
+      "intent": "One clear thought change: across"
+    },
+    {
+      "id": "acting_fold_cross_breathe28",
+      "at": 128.286667,
+      "intent": "One clear thought change: breathe"
+    },
+    {
+      "id": "acting_eraser_choice_where29",
+      "at": 133.393333,
+      "intent": "One clear thought change: where"
+    },
+    {
+      "id": "acting_eraser_choice_behind30",
+      "at": 134.673333,
+      "intent": "One clear thought change: behind"
+    },
+    {
+      "id": "acting_eraser_choice_path31",
+      "at": 138.693333,
+      "intent": "One clear thought change: path"
+    },
+    {
+      "id": "acting_eraser_choice_lift32",
+      "at": 146.833333,
+      "intent": "One clear thought change: lift"
+    },
+    {
+      "id": "acting_eraser_choice_seven33",
+      "at": 148.293333,
+      "intent": "One clear thought change: Seven"
+    },
+    {
+      "id": "acting_race_failure_nothing34",
+      "at": 160.406667,
+      "intent": "One clear thought change: nothing"
+    },
+    {
+      "id": "acting_race_failure_excellent35",
+      "at": 161.626667,
+      "intent": "One clear thought change: Excellent"
+    },
+    {
+      "id": "acting_race_failure_staying36",
+      "at": 165.646667,
+      "intent": "One clear thought change: staying"
+    },
+    {
+      "id": "acting_race_failure_eight37",
+      "at": 169.226667,
+      "intent": "One clear thought change: eight"
+    },
+    {
+      "id": "acting_eraser_ride_ridiculous38",
+      "at": 178.826667,
+      "intent": "One clear thought change: ridiculous"
+    },
+    {
+      "id": "acting_eraser_ride_going39",
+      "at": 183.446667,
+      "intent": "One clear thought change: going"
+    },
+    {
+      "id": "acting_eraser_ride_polite40",
+      "at": 188.146667,
+      "intent": "One clear thought change: polite"
+    },
+    {
+      "id": "acting_eraser_ride_shoes41",
+      "at": 190.166667,
+      "intent": "One clear thought change: shoes"
+    },
+    {
+      "id": "acting_eraser_ride_edge42",
+      "at": 192.126667,
+      "intent": "One clear thought change: edge"
+    },
+    {
+      "id": "acting_studio_ending_solid43",
+      "at": 200.266667,
+      "intent": "One clear thought change: solid"
+    },
+    {
+      "id": "acting_studio_ending_thank44",
+      "at": 205.726667,
+      "intent": "One clear thought change: Thank"
+    },
+    {
+      "id": "acting_studio_ending_proper45",
+      "at": 210.326667,
+      "intent": "One clear thought change: proper"
+    },
+    {
+      "id": "acting_studio_ending_actually46",
+      "at": 211.546667,
+      "intent": "One clear thought change: Actually"
+    },
+    {
+      "id": "acting_studio_ending_here47",
+      "at": 214.406667,
+      "intent": "One clear thought change: here"
+    },
+    {
+      "id": "acting_door_pursuit_thought",
+      "at": 40.333333,
+      "intent": "Carry the same eraser/desk escape through the former silent boundary."
+    },
+    {
+      "id": "acting_bridge_pursuit_thought",
+      "at": 104.775,
+      "intent": "Carry the same eraser/desk escape through the former silent boundary."
+    },
+    {
+      "id": "acting_paper_safety_thought",
+      "at": 130.075,
+      "intent": "Carry the same eraser/desk escape through the former silent boundary."
+    },
+    {
+      "id": "acting_ride_commit_thought",
+      "at": 173.836667,
+      "intent": "Carry the same eraser/desk escape through the former silent boundary."
+    },
+    {
+      "id": "acting_ride_land_thought",
+      "at": 193.966667,
+      "intent": "Carry the same eraser/desk escape through the former silent boundary."
+    }
+  ],
+  "sfx": [
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/paper_slide_desk_01.wav",
+      "at": 1.750833,
+      "duration": 1.0,
+      "gain_db": -8,
+      "event": "eraser_cut"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/paper_page_turn_crisp_01.wav",
+      "at": 23.386667,
+      "duration": 1.0,
+      "gain_db": -7,
+      "event": "door_flat"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/comedic_record_scratch_fast_01.wav",
+      "at": 34.066667,
+      "duration": 1.1,
+      "gain_db": -10,
+      "event": "door_rewind"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/paper_page_turn_crisp_01.wav",
+      "at": 45.915,
+      "duration": 1.1,
+      "gain_db": -6,
+      "event": "tear_open"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/impact_wood_hard_hit_01.wav",
+      "at": 92.066667,
+      "duration": 1.1,
+      "gain_db": -13,
+      "event": "bridge_falls"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/comedic_record_scratch_fast_01.wav",
+      "at": 100.186667,
+      "duration": 1.1,
+      "gain_db": -10,
+      "event": "bridge_rewind"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/paper_book_paging_single_01.wav",
+      "at": 111.086667,
+      "duration": 1.1,
+      "gain_db": -7,
+      "event": "tab_opens"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/paper_slide_desk_01.wav",
+      "at": 133.393333,
+      "duration": 1.1,
+      "gain_db": -7,
+      "event": "eraser_reappears"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/paper_slide_desk_01.wav",
+      "at": 160.406667,
+      "duration": 1.1,
+      "gain_db": -7,
+      "event": "path_erased"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/comedic_record_scratch_fast_01.wav",
+      "at": 167.726667,
+      "duration": 1.1,
+      "gain_db": -10,
+      "event": "path_rewind"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/paper_slide_desk_01.wav",
+      "at": 183.446667,
+      "duration": 1.1,
+      "gain_db": -9,
+      "event": "ride_travel"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/paper_slide_desk_01.wav",
+      "at": 198.626667,
+      "duration": 1.0,
+      "gain_db": -10,
+      "event": "studio_arrival"
+    },
+    {
+      "file": "res://nemi/playable_storytime/assets/sfx/paper_slide_desk_01.wav",
+      "at": 106.795,
+      "duration": 1.1,
+      "gain_db": -9,
+      "event": "eraser_still_coming"
+    }
+  ],
+  "vfx": [],
+  "script": [
+    {
+      "actor": "nemi",
+      "start": 0.320833,
+      "end": 16.315708,
+      "text": "I drew this place, and that eraser is eating the floor. I'm on that floor. Click and drag to look around, or swipe on your phone. Find the door to your left or the tear to your right, then press one for the door, or two for the tear."
+    },
+    {
+      "actor": "nemi",
+      "start": 16.591667,
+      "end": 20.371625,
+      "text": "On phones, tap the matching chapter. You can pause to look."
+    },
+    {
+      "actor": "nemi",
+      "start": 22.366667,
+      "end": 29.352375,
+      "text": "Oh, of course. It's a drawing of a door. I gave it a doorknob and absolutely no depth."
+    },
+    {
+      "actor": "nemi",
+      "start": 31.166667,
+      "end": 39.893209,
+      "text": "The little keyhole was ambitious. Let's put that back. Try two for the tear; I can be embarrassed somewhere with an actual opening."
+    },
+    {
+      "actor": "nemi",
+      "start": 40.333333,
+      "end": 43.477583,
+      "text": "That eraser is still coming. Keep going."
+    },
+    {
+      "actor": "nemi",
+      "start": 44.275,
+      "end": 51.984042,
+      "text": "Wait, there's actual space behind the paper. We can get through that! My best exit is the bit I didn't draw."
+    },
+    {
+      "actor": "nemi",
+      "start": 53.166667,
+      "end": 65.194959,
+      "text": "And there's my real desk beyond it. Once I'm on that desk, I'm outside the drawing, where the eraser can't reach me. But there's a gap before I get there."
+    },
+    {
+      "actor": "nemi",
+      "start": 66.366667,
+      "end": 86.971834,
+      "text": "Oh. I stopped drawing the bridge halfway across. Apparently I thought Future Me would deal with it. Look underneath the left route, then at that loose paper tab on the right. Four to run across, or five to fold the tab."
+    },
+    {
+      "actor": "nemi",
+      "start": 88.366667,
+      "end": 103.496542,
+      "text": "I was going to take a very confident first step. The bridge has taken it for me. Right into the hole. That's useful information to get before the rest of me follows. Back it up. Five for the paper tab, please."
+    },
+    {
+      "actor": "nemi",
+      "start": 104.775,
+      "end": 109.03625,
+      "text": "We still need that desk. The eraser hasn't stopped, and neither can we."
+    },
+    {
+      "actor": "nemi",
+      "start": 110.366667,
+      "end": 128.921917,
+      "text": "There, that fold reaches the other side, and the crease is holding. Okay, small steps. I'm trusting paper with my entire existence, which feels like a fairly normal day in animation. There, both feet are across. I think I'm allowed to breathe now."
+    },
+    {
+      "actor": "nemi",
+      "start": 130.075,
+      "end": 131.510292,
+      "text": "It can't erase paper."
+    },
+    {
+      "actor": "nemi",
+      "start": 132.733333,
+      "end": 152.715166,
+      "text": "Look to our right. It's the same eraser, still heading toward my desk and wiping out the ink path. The ground won't last much longer. But that solid top isn't made of ink, so we could use it as a lift. Seven to race it, or eight to ride it straight onto that desk."
+    },
+    {
+      "actor": "nemi",
+      "start": 154.366667,
+      "end": 171.99075,
+      "text": "I had a whole escape route a second ago. Now it's a very clean drawing of absolutely nothing. Excellent work, eraser. Terrible timing. I'm staying right here until that bit comes back. Okay, eight. Let's use the thing that's already going there."
+    },
+    {
+      "actor": "nemi",
+      "start": 173.616667,
+      "end": 175.216667,
+      "text": "The solid top won't disappear."
+    },
+    {
+      "actor": "nemi",
+      "start": 176.366667,
+      "end": 193.438667,
+      "text": "Okay, I'm on. This is a ridiculous vehicle, but it does have a better route than I do. Just keep going toward the desk. No sudden turns. I am being surprisingly polite to something that nearly deleted my shoes. There's the edge. Ready?"
+    },
+    {
+      "actor": "nemi",
+      "start": 193.966667,
+      "end": 197.295292,
+      "text": "Straight onto the desk. Then we're off the page."
+    },
+    {
+      "actor": "nemi",
+      "start": 198.366667,
+      "end": 214.643167,
+      "text": "A desk. A boring, solid desk. I've never appreciated furniture this much. Thank you for getting me out of that. I'm going to fix the drawing now, starting with a proper exit. Actually, no. First, that eraser is staying out here."
+    }
+  ],
+  "captions": [
+    {
+      "actor": "nemi",
+      "words": [
+        0,
+        3
+      ],
+      "start": 0.320833,
+      "end": 1.260833,
+      "text": "I drew this place"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        4,
+        7
+      ],
+      "start": 1.260833,
+      "end": 2.520833,
+      "text": "and that eraser is"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        8,
+        11
+      ],
+      "start": 2.520833,
+      "end": 4.220833,
+      "text": "eating the floor. I'm"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        12,
+        15
+      ],
+      "start": 4.220833,
+      "end": 6.100833,
+      "text": "on that floor. Click"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        16,
+        19
+      ],
+      "start": 6.100833,
+      "end": 6.840833,
+      "text": "and drag to look"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        20,
+        23
+      ],
+      "start": 6.840833,
+      "end": 8.060833,
+      "text": "around or swipe on"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        24,
+        27
+      ],
+      "start": 8.060833,
+      "end": 9.940833,
+      "text": "your phone. Find the"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        28,
+        31
+      ],
+      "start": 9.940833,
+      "end": 10.700833,
+      "text": "door to your left"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        32,
+        35
+      ],
+      "start": 10.700833,
+      "end": 11.900833,
+      "text": "or the tear to"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        36,
+        39
+      ],
+      "start": 11.900833,
+      "end": 14.080833,
+      "text": "your right. Then press"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        40,
+        43
+      ],
+      "start": 14.080833,
+      "end": 14.940833,
+      "text": "one for the door"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        44,
+        47
+      ],
+      "start": 14.940833,
+      "end": 15.940833,
+      "text": "or two for the"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        48,
+        48
+      ],
+      "start": 15.940833,
+      "end": 16.160833,
+      "text": "tear."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        49,
+        52
+      ],
+      "start": 16.591667,
+      "end": 17.911667,
+      "text": "On phones tap the"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        53,
+        56
+      ],
+      "start": 17.911667,
+      "end": 19.691667,
+      "text": "matching chapter. You can"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        57,
+        59
+      ],
+      "start": 19.691667,
+      "end": 20.351667,
+      "text": "pause to look."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        60,
+        63
+      ],
+      "start": 22.366667,
+      "end": 24.006667,
+      "text": "Oh, of course, it's"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        64,
+        67
+      ],
+      "start": 24.006667,
+      "end": 24.606667,
+      "text": "a drawing of a"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        68,
+        71
+      ],
+      "start": 24.606667,
+      "end": 25.866667,
+      "text": "door. I gave it"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        72,
+        75
+      ],
+      "start": 25.866667,
+      "end": 27.126667,
+      "text": "door knob and absolutely"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        76,
+        77
+      ],
+      "start": 27.126667,
+      "end": 27.886667,
+      "text": "no depth."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        78,
+        81
+      ],
+      "start": 31.166667,
+      "end": 32.566667,
+      "text": "The little keyhole was"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        82,
+        85
+      ],
+      "start": 32.566667,
+      "end": 34.426667,
+      "text": "ambitious. Let's put that"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        86,
+        89
+      ],
+      "start": 34.426667,
+      "end": 36.446667,
+      "text": "back. Try two for"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        90,
+        93
+      ],
+      "start": 36.446667,
+      "end": 37.826667,
+      "text": "the tear. I can"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        94,
+        97
+      ],
+      "start": 37.826667,
+      "end": 38.886667,
+      "text": "be embarrassed somewhere with"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        98,
+        100
+      ],
+      "start": 38.886667,
+      "end": 39.726667,
+      "text": "an actual opening."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        101,
+        104
+      ],
+      "start": 40.333333,
+      "end": 41.713333,
+      "text": "That eraser is still"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        105,
+        107
+      ],
+      "start": 41.713333,
+      "end": 43.373333,
+      "text": "coming. Keep going."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        108,
+        111
+      ],
+      "start": 44.275,
+      "end": 46.275,
+      "text": "Wait, there's actual space"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        112,
+        115
+      ],
+      "start": 46.275,
+      "end": 47.955,
+      "text": "behind the paper. We"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        116,
+        119
+      ],
+      "start": 47.955,
+      "end": 48.715,
+      "text": "can get through that."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        120,
+        123
+      ],
+      "start": 49.615,
+      "end": 50.975,
+      "text": "My best exit is"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        124,
+        127
+      ],
+      "start": 50.975,
+      "end": 51.675,
+      "text": "the bit I didn't"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        128,
+        128
+      ],
+      "start": 51.675,
+      "end": 51.855,
+      "text": "draw."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        129,
+        132
+      ],
+      "start": 53.166667,
+      "end": 55.946667,
+      "text": "And there's my real"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        133,
+        136
+      ],
+      "start": 55.946667,
+      "end": 57.886667,
+      "text": "desk beyond it. Once"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        137,
+        140
+      ],
+      "start": 57.886667,
+      "end": 58.766667,
+      "text": "I'm on that desk,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        141,
+        144
+      ],
+      "start": 59.126667,
+      "end": 60.526667,
+      "text": "I'm outside the drawing."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        145,
+        148
+      ],
+      "start": 61.466667,
+      "end": 62.606667,
+      "text": "Where the eraser can't"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        149,
+        152
+      ],
+      "start": 62.606667,
+      "end": 64.146667,
+      "text": "reach me. But there's"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        153,
+        156
+      ],
+      "start": 64.146667,
+      "end": 64.806667,
+      "text": "a gap before I"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        157,
+        158
+      ],
+      "start": 64.806667,
+      "end": 65.166667,
+      "text": "get there."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        159,
+        162
+      ],
+      "start": 66.366667,
+      "end": 68.206667,
+      "text": "Oh, I stopped drawing"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        163,
+        166
+      ],
+      "start": 68.206667,
+      "end": 69.806667,
+      "text": "the bridge halfway across."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        167,
+        170
+      ],
+      "start": 70.526667,
+      "end": 72.666667,
+      "text": "Apparently I thought future"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        171,
+        174
+      ],
+      "start": 72.666667,
+      "end": 74.166667,
+      "text": "me would deal with"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        175,
+        178
+      ],
+      "start": 74.166667,
+      "end": 76.806667,
+      "text": "it. Look underneath the"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        179,
+        182
+      ],
+      "start": 76.806667,
+      "end": 79.526667,
+      "text": "left route. Then, at"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        183,
+        186
+      ],
+      "start": 79.526667,
+      "end": 80.966667,
+      "text": "that loose paper tab"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        187,
+        190
+      ],
+      "start": 80.966667,
+      "end": 82.906667,
+      "text": "on the right, Four"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        191,
+        194
+      ],
+      "start": 82.906667,
+      "end": 84.886667,
+      "text": "to run across, or"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        195,
+        198
+      ],
+      "start": 84.886667,
+      "end": 86.506667,
+      "text": "five to fold the"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        199,
+        199
+      ],
+      "start": 86.506667,
+      "end": 86.826667,
+      "text": "tab."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        200,
+        203
+      ],
+      "start": 88.366667,
+      "end": 89.106667,
+      "text": "I was going to"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        204,
+        207
+      ],
+      "start": 89.106667,
+      "end": 90.146667,
+      "text": "take a very confident"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        208,
+        211
+      ],
+      "start": 90.146667,
+      "end": 92.366667,
+      "text": "first step. The bridge"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        212,
+        215
+      ],
+      "start": 92.366667,
+      "end": 93.206667,
+      "text": "has taken it for"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        216,
+        219
+      ],
+      "start": 93.206667,
+      "end": 94.806667,
+      "text": "me. Right into the"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        220,
+        223
+      ],
+      "start": 94.806667,
+      "end": 97.286667,
+      "text": "hole. That's useful information"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        224,
+        227
+      ],
+      "start": 97.286667,
+      "end": 98.166667,
+      "text": "to get before the"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        228,
+        231
+      ],
+      "start": 98.166667,
+      "end": 99.026667,
+      "text": "rest of me follows."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        232,
+        235
+      ],
+      "start": 100.186667,
+      "end": 102.146667,
+      "text": "Back it up. Five"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        236,
+        239
+      ],
+      "start": 102.146667,
+      "end": 103.046667,
+      "text": "for the paper tab,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        240,
+        240
+      ],
+      "start": 103.046667,
+      "end": 103.246667,
+      "text": "please."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        241,
+        244
+      ],
+      "start": 104.775,
+      "end": 105.675,
+      "text": "We still need that"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        245,
+        248
+      ],
+      "start": 105.675,
+      "end": 107.635,
+      "text": "desk. The eraser hasn't"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        249,
+        252
+      ],
+      "start": 107.635,
+      "end": 108.775,
+      "text": "stopped, and neither can"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        253,
+        253
+      ],
+      "start": 108.775,
+      "end": 108.955,
+      "text": "we."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        254,
+        257
+      ],
+      "start": 110.366667,
+      "end": 111.786667,
+      "text": "There, that fold reaches"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        258,
+        261
+      ],
+      "start": 111.786667,
+      "end": 112.906667,
+      "text": "the other side and"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        262,
+        265
+      ],
+      "start": 112.906667,
+      "end": 114.086667,
+      "text": "the crease is holding."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        266,
+        269
+      ],
+      "start": 115.206667,
+      "end": 117.586667,
+      "text": "Okay, small steps. I'm"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        270,
+        273
+      ],
+      "start": 117.586667,
+      "end": 118.726667,
+      "text": "trusting paper with my"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        274,
+        277
+      ],
+      "start": 118.726667,
+      "end": 121.266667,
+      "text": "entire existence, which feels"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        278,
+        281
+      ],
+      "start": 121.266667,
+      "end": 122.986667,
+      "text": "like a fairly normal"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        282,
+        285
+      ],
+      "start": 122.986667,
+      "end": 125.286667,
+      "text": "day in animation. There,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        286,
+        289
+      ],
+      "start": 125.286667,
+      "end": 126.566667,
+      "text": "both feet are across."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        290,
+        293
+      ],
+      "start": 127.406667,
+      "end": 128.146667,
+      "text": "I think I'm allowed"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        294,
+        296
+      ],
+      "start": 128.146667,
+      "end": 128.846667,
+      "text": "to breathe now."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        297,
+        300
+      ],
+      "start": 130.075,
+      "end": 131.335,
+      "text": "It can't erase paper."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        301,
+        304
+      ],
+      "start": 132.733333,
+      "end": 133.713333,
+      "text": "Look to our right,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        305,
+        308
+      ],
+      "start": 134.253333,
+      "end": 135.453333,
+      "text": "it's the same eraser,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        309,
+        312
+      ],
+      "start": 136.333333,
+      "end": 137.293333,
+      "text": "still heading toward my"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        313,
+        316
+      ],
+      "start": 137.293333,
+      "end": 138.373333,
+      "text": "desk and wiping out"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        317,
+        320
+      ],
+      "start": 138.373333,
+      "end": 140.173333,
+      "text": "the ink path. The"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        321,
+        324
+      ],
+      "start": 140.173333,
+      "end": 141.413333,
+      "text": "ground won't last much"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        325,
+        328
+      ],
+      "start": 141.413333,
+      "end": 143.673333,
+      "text": "longer, but that solid"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        329,
+        332
+      ],
+      "start": 143.673333,
+      "end": 144.733333,
+      "text": "top isn't made of"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        333,
+        336
+      ],
+      "start": 144.733333,
+      "end": 146.153333,
+      "text": "ink, so we could"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        337,
+        340
+      ],
+      "start": 146.153333,
+      "end": 146.833333,
+      "text": "use it as a"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        341,
+        344
+      ],
+      "start": 146.833333,
+      "end": 148.993333,
+      "text": "lift. Seven to race"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        345,
+        348
+      ],
+      "start": 148.993333,
+      "end": 150.573333,
+      "text": "it, or eight to"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        349,
+        352
+      ],
+      "start": 150.573333,
+      "end": 152.013333,
+      "text": "ride it straight onto"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        353,
+        354
+      ],
+      "start": 152.013333,
+      "end": 152.633333,
+      "text": "that desk."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        355,
+        358
+      ],
+      "start": 154.366667,
+      "end": 155.186667,
+      "text": "I had a whole"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        359,
+        362
+      ],
+      "start": 155.186667,
+      "end": 156.426667,
+      "text": "escape route a second"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        363,
+        366
+      ],
+      "start": 156.426667,
+      "end": 158.466667,
+      "text": "ago. Now it's a"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        367,
+        370
+      ],
+      "start": 158.466667,
+      "end": 159.826667,
+      "text": "very clean drawing of"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        371,
+        374
+      ],
+      "start": 159.826667,
+      "end": 162.526667,
+      "text": "absolutely nothing. Excellent work,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        375,
+        378
+      ],
+      "start": 162.586667,
+      "end": 165.646667,
+      "text": "eraser. Terrible timing. I'm"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        379,
+        382
+      ],
+      "start": 165.646667,
+      "end": 167.066667,
+      "text": "staying right here until"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        383,
+        386
+      ],
+      "start": 167.066667,
+      "end": 168.166667,
+      "text": "that bit comes back."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        387,
+        390
+      ],
+      "start": 168.806667,
+      "end": 170.466667,
+      "text": "Okay, eight. Let's use"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        391,
+        394
+      ],
+      "start": 170.466667,
+      "end": 171.346667,
+      "text": "the thing that's already"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        395,
+        396
+      ],
+      "start": 171.346667,
+      "end": 171.926667,
+      "text": "going there."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        397,
+        400
+      ],
+      "start": 173.616667,
+      "end": 174.696667,
+      "text": "A solid top won't"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        401,
+        401
+      ],
+      "start": 174.696667,
+      "end": 175.016667,
+      "text": "disappear."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        402,
+        405
+      ],
+      "start": 176.366667,
+      "end": 178.606667,
+      "text": "Okay, I'm on. This"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        406,
+        409
+      ],
+      "start": 178.606667,
+      "end": 179.726667,
+      "text": "is a ridiculous vehicle,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        410,
+        413
+      ],
+      "start": 180.346667,
+      "end": 181.386667,
+      "text": "but it does have"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        414,
+        417
+      ],
+      "start": 181.386667,
+      "end": 182.006667,
+      "text": "a better route than"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        418,
+        421
+      ],
+      "start": 182.006667,
+      "end": 183.446667,
+      "text": "I do. Just keep"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        422,
+        425
+      ],
+      "start": 183.446667,
+      "end": 184.386667,
+      "text": "going toward the desk."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        426,
+        429
+      ],
+      "start": 185.526667,
+      "end": 187.306667,
+      "text": "No sudden turns. I"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        430,
+        433
+      ],
+      "start": 187.306667,
+      "end": 188.566667,
+      "text": "am being surprisingly polite"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        434,
+        437
+      ],
+      "start": 188.566667,
+      "end": 189.486667,
+      "text": "to something that nearly"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        438,
+        441
+      ],
+      "start": 189.486667,
+      "end": 192.026667,
+      "text": "deleted my shoes. There's"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        442,
+        444
+      ],
+      "start": 192.026667,
+      "end": 193.306667,
+      "text": "the edge. Ready?"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        445,
+        448
+      ],
+      "start": 193.966667,
+      "end": 195.186667,
+      "text": "Straight onto the desk,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        449,
+        452
+      ],
+      "start": 196.166667,
+      "end": 196.826667,
+      "text": "then we're off the"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        453,
+        453
+      ],
+      "start": 196.826667,
+      "end": 197.186667,
+      "text": "page."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        454,
+        457
+      ],
+      "start": 198.366667,
+      "end": 200.026667,
+      "text": "a desk, a boring,"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        458,
+        461
+      ],
+      "start": 200.266667,
+      "end": 202.866667,
+      "text": "solid desk. I've never"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        462,
+        465
+      ],
+      "start": 202.866667,
+      "end": 204.666667,
+      "text": "appreciated furniture this much."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        466,
+        469
+      ],
+      "start": 205.726667,
+      "end": 206.226667,
+      "text": "Thank you for getting"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        470,
+        473
+      ],
+      "start": 206.226667,
+      "end": 206.906667,
+      "text": "me out of that."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        474,
+        477
+      ],
+      "start": 207.766667,
+      "end": 208.506667,
+      "text": "I'm going to fix"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        478,
+        481
+      ],
+      "start": 208.506667,
+      "end": 210.046667,
+      "text": "the drawing now, starting"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        482,
+        485
+      ],
+      "start": 210.046667,
+      "end": 211.026667,
+      "text": "with a proper exit."
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        486,
+        489
+      ],
+      "start": 211.546667,
+      "end": 213.366667,
+      "text": "Actually, no. First, that"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        490,
+        493
+      ],
+      "start": 213.366667,
+      "end": 214.406667,
+      "text": "eraser is staying out"
+    },
+    {
+      "actor": "nemi",
+      "words": [
+        494,
+        494
+      ],
+      "start": 214.406667,
+      "end": 214.566667,
+      "text": "here."
+    }
+  ],
+  "mix": {
+    "master_gain_db": 5.2,
+    "target_lufs": -18.0,
+    "peak_dbfs": -1.5
+  }
+}

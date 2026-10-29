@@ -1,0 +1,797 @@
+{
+  "version": 1,
+  "duration": 40.0,
+  "dialogue_sha256": "4de625792a3e46e043b1ae8e46f2c3fcf1a06987099a1ace75e6d01069ca3fcc",
+  "source_edit_plan_sha256": null,
+  "identity_policy": "new canonical Sohee recordings; unchanged model weights/speaker/instruction; only explicit quiet-gap source cuts and pitch-preserving tempo",
+  "alignment_kind": "independent local Whisper Tiny alignment of final processed clips; approximate words, not phonemes",
+  "review_required": true,
+  "clips": [
+    {
+      "id": "drawing_hook",
+      "author": "nemi",
+      "file": "res://episodes/episode_002/audio/source/drawing_hook_d1745bc779ce.wav",
+      "sha256": "5b6665c773f261bb71e6bbe0d790fcac4ad07a0e7e0d6375f6c072fe665ce14a",
+      "text": "I drew this place, and that eraser is eating the floor. I'm on that floor. Click and drag to look around, or swipe on your phone. Find the door to your left or the tear to your right, then press one for the door, or two for the tear.",
+      "at": 0.35,
+      "start": 0,
+      "end": 17.28,
+      "tempo": 1.0,
+      "end_at": 17.63,
+      "window_end": 19.7,
+      "processed_file": "res://episodes/episode_002/audio/processed/drawing_hook_d1745bc779ce_tempo1.000.wav",
+      "processed_sha256": "75aa06dfb9a24a21ae631c12b5a57bdf86adec3c6ab8d2141ad9155cf3966a1b",
+      "source_duration": 17.28,
+      "edited_source_duration": 17.28,
+      "source_edit_plan_sha256": null,
+      "source_edits": [],
+      "final_duration": 17.28,
+      "alignment": "res://episodes/episode_002/audio/processed/drawing_hook_d1745bc779ce_tempo1.000.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    },
+    {
+      "id": "door_admission",
+      "author": "nemi",
+      "file": "res://episodes/episode_002/audio/source/door_admission_1ba3eeefdc52.wav",
+      "sha256": "b93854f16ef2f40619ddd16245c98fdf633f0e2a2753ffb3f4854909a19d0c39",
+      "text": "Oh, of course. It's a drawing of a door. I gave it a doorknob and absolutely no depth.",
+      "at": 20.4,
+      "start": 0,
+      "end": 7.5275,
+      "tempo": 1.0,
+      "end_at": 27.9275,
+      "window_end": 28.7,
+      "processed_file": "res://episodes/episode_002/audio/processed/door_admission_1ba3eeefdc52_tempo1.000.wav",
+      "processed_sha256": "0ae0368eed697ea9b3028f4c6b4a3c0d13c1118749ba60ca5c3a88a734152a15",
+      "source_duration": 7.5275,
+      "edited_source_duration": 7.5275,
+      "source_edit_plan_sha256": null,
+      "source_edits": [],
+      "final_duration": 7.5275,
+      "alignment": "res://episodes/episode_002/audio/processed/door_admission_1ba3eeefdc52_tempo1.000.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    },
+    {
+      "id": "tear_discovery",
+      "author": "nemi",
+      "file": "res://episodes/episode_002/audio/source/tear_discovery_e2391f8cd9b5.wav",
+      "sha256": "fd8fa8727704a457ec3b33f14777ab8a4024edacfb88d4776087888507bae5dc",
+      "text": "Wait, there's actual space behind the paper. We can get through that! My best exit is the bit I didn't draw.",
+      "at": 30.3,
+      "start": 0,
+      "end": 8.32,
+      "tempo": 1.0,
+      "end_at": 38.62,
+      "window_end": 39.5,
+      "processed_file": "res://episodes/episode_002/audio/processed/tear_discovery_e2391f8cd9b5_tempo1.000.wav",
+      "processed_sha256": "cfe737224f6fb06d64d42e23eb926f7d1bffa5c9b6e176c8858a07366152e93f",
+      "source_duration": 8.32,
+      "edited_source_duration": 8.32,
+      "source_edit_plan_sha256": null,
+      "source_edits": [],
+      "final_duration": 8.32,
+      "alignment": "res://episodes/episode_002/audio/processed/tear_discovery_e2391f8cd9b5_tempo1.000.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    }
+  ],
+  "words": [
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 0.35,
+      "end": 0.59,
+      "confidence": 0.95458984375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "drew",
+      "start": 0.59,
+      "end": 0.81,
+      "confidence": 0.548828125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "this",
+      "start": 0.81,
+      "end": 1.01,
+      "confidence": 0.99560546875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "place",
+      "start": 1.01,
+      "end": 1.37,
+      "confidence": 0.9921875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 1.37,
+      "end": 1.81,
+      "confidence": 0.783203125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "that",
+      "start": 1.81,
+      "end": 2.07,
+      "confidence": 0.99072265625,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "eraser",
+      "start": 2.07,
+      "end": 2.43,
+      "confidence": 0.96337890625,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "is",
+      "start": 2.43,
+      "end": 2.73,
+      "confidence": 0.99609375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "eating",
+      "start": 2.73,
+      "end": 2.97,
+      "confidence": 0.94140625,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 2.97,
+      "end": 3.21,
+      "confidence": 0.99609375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "floor.",
+      "start": 3.21,
+      "end": 3.43,
+      "confidence": 0.994140625,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "I'm",
+      "start": 4.21,
+      "end": 4.57,
+      "confidence": 0.7509765625,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "on",
+      "start": 4.57,
+      "end": 4.83,
+      "confidence": 0.99365234375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "that",
+      "start": 4.83,
+      "end": 5.07,
+      "confidence": 0.98486328125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "floor.",
+      "start": 5.07,
+      "end": 5.59,
+      "confidence": 0.99951171875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "Click",
+      "start": 6.27,
+      "end": 6.59,
+      "confidence": 0.98486328125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 6.59,
+      "end": 6.77,
+      "confidence": 0.97216796875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "drag",
+      "start": 6.77,
+      "end": 7.03,
+      "confidence": 0.99462890625,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 7.03,
+      "end": 7.23,
+      "confidence": 0.99267578125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "look",
+      "start": 7.23,
+      "end": 7.37,
+      "confidence": 0.982421875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "around",
+      "start": 7.37,
+      "end": 7.83,
+      "confidence": 0.99560546875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "or",
+      "start": 7.83,
+      "end": 8.23,
+      "confidence": 0.876953125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "swipe",
+      "start": 8.23,
+      "end": 8.49,
+      "confidence": 0.99609375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "on",
+      "start": 8.49,
+      "end": 8.71,
+      "confidence": 0.98828125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "your",
+      "start": 8.71,
+      "end": 8.81,
+      "confidence": 0.9892578125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "phone.",
+      "start": 8.81,
+      "end": 9.29,
+      "confidence": 0.99560546875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "Find",
+      "start": 10.41,
+      "end": 10.57,
+      "confidence": 0.96630859375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 10.57,
+      "end": 10.73,
+      "confidence": 0.98095703125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "door",
+      "start": 10.73,
+      "end": 10.89,
+      "confidence": 0.99560546875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 10.89,
+      "end": 11.09,
+      "confidence": 0.986328125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "your",
+      "start": 11.09,
+      "end": 11.19,
+      "confidence": 0.99267578125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "left",
+      "start": 11.19,
+      "end": 11.55,
+      "confidence": 0.99560546875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "or",
+      "start": 11.55,
+      "end": 12.19,
+      "confidence": 0.9091796875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 12.19,
+      "end": 12.37,
+      "confidence": 0.97314453125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "tear",
+      "start": 12.37,
+      "end": 12.61,
+      "confidence": 0.72802734375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 12.61,
+      "end": 12.85,
+      "confidence": 0.990234375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "your",
+      "start": 12.85,
+      "end": 12.99,
+      "confidence": 0.98779296875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "right.",
+      "start": 12.99,
+      "end": 13.29,
+      "confidence": 0.9990234375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "Then",
+      "start": 14.69,
+      "end": 14.89,
+      "confidence": 0.97265625,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "press",
+      "start": 14.89,
+      "end": 15.21,
+      "confidence": 0.9658203125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "one",
+      "start": 15.21,
+      "end": 15.53,
+      "confidence": 0.7578125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "for",
+      "start": 15.53,
+      "end": 15.71,
+      "confidence": 0.99462890625,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 15.71,
+      "end": 15.81,
+      "confidence": 0.99755859375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "door",
+      "start": 15.81,
+      "end": 16.15,
+      "confidence": 0.9970703125,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "or",
+      "start": 16.15,
+      "end": 16.51,
+      "confidence": 0.9052734375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "two",
+      "start": 16.51,
+      "end": 16.85,
+      "confidence": 0.9931640625,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "for",
+      "start": 16.85,
+      "end": 17.09,
+      "confidence": 0.99560546875,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 17.09,
+      "end": 17.21,
+      "confidence": 0.9990234375,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "tear.",
+      "start": 17.21,
+      "end": 17.49,
+      "confidence": 0.9931640625,
+      "clip_id": "drawing_hook"
+    },
+    {
+      "actor": "nemi",
+      "word": "Oh,",
+      "start": 20.4,
+      "end": 20.88,
+      "confidence": 0.75439453125,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "of",
+      "start": 21.02,
+      "end": 21.2,
+      "confidence": 0.98779296875,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "course,",
+      "start": 21.2,
+      "end": 21.46,
+      "confidence": 0.99462890625,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "it's",
+      "start": 21.94,
+      "end": 22.16,
+      "confidence": 0.978515625,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 22.16,
+      "end": 22.26,
+      "confidence": 0.97998046875,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "drawing",
+      "start": 22.26,
+      "end": 22.54,
+      "confidence": 0.98095703125,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "of",
+      "start": 22.54,
+      "end": 22.76,
+      "confidence": 0.99365234375,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 22.76,
+      "end": 22.82,
+      "confidence": 0.96435546875,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "door.",
+      "start": 22.82,
+      "end": 23.12,
+      "confidence": 0.95751953125,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 23.66,
+      "end": 23.8,
+      "confidence": 0.99462890625,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "gave",
+      "start": 23.8,
+      "end": 23.94,
+      "confidence": 0.9345703125,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "it",
+      "start": 23.94,
+      "end": 24.16,
+      "confidence": 0.99658203125,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 24.16,
+      "end": 24.18,
+      "confidence": 0.99755859375,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "door",
+      "start": 24.18,
+      "end": 24.44,
+      "confidence": 0.92138671875,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "knob",
+      "start": 24.44,
+      "end": 24.72,
+      "confidence": 0.91796875,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 24.72,
+      "end": 24.98,
+      "confidence": 0.66259765625,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "absolutely",
+      "start": 24.98,
+      "end": 25.54,
+      "confidence": 0.98779296875,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "no",
+      "start": 25.54,
+      "end": 25.96,
+      "confidence": 0.9736328125,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "depth.",
+      "start": 25.96,
+      "end": 26.36,
+      "confidence": 0.98583984375,
+      "clip_id": "door_admission"
+    },
+    {
+      "actor": "nemi",
+      "word": "Wait,",
+      "start": 30.3,
+      "end": 30.6,
+      "confidence": 0.90478515625,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "there's",
+      "start": 31.44,
+      "end": 31.68,
+      "confidence": 0.96875,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "actual",
+      "start": 31.68,
+      "end": 32.08,
+      "confidence": 0.9921875,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "space",
+      "start": 32.08,
+      "end": 32.48,
+      "confidence": 0.9990234375,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "behind",
+      "start": 32.48,
+      "end": 32.78,
+      "confidence": 0.9970703125,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 32.78,
+      "end": 32.94,
+      "confidence": 0.99755859375,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "paper.",
+      "start": 32.94,
+      "end": 33.3,
+      "confidence": 0.99755859375,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "We",
+      "start": 34.2,
+      "end": 34.26,
+      "confidence": 0.990234375,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "can",
+      "start": 34.26,
+      "end": 34.4,
+      "confidence": 0.998046875,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "get",
+      "start": 34.4,
+      "end": 34.56,
+      "confidence": 0.99658203125,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "through",
+      "start": 34.56,
+      "end": 34.74,
+      "confidence": 0.998046875,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "that.",
+      "start": 34.74,
+      "end": 35.06,
+      "confidence": 0.994140625,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "My",
+      "start": 36.08,
+      "end": 36.2,
+      "confidence": 0.9765625,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "best",
+      "start": 36.2,
+      "end": 36.48,
+      "confidence": 0.99658203125,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "exit",
+      "start": 36.48,
+      "end": 36.9,
+      "confidence": 0.990234375,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "is",
+      "start": 36.9,
+      "end": 37.54,
+      "confidence": 0.95361328125,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 37.54,
+      "end": 37.66,
+      "confidence": 0.93115234375,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "bit",
+      "start": 37.66,
+      "end": 37.84,
+      "confidence": 0.9853515625,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 37.84,
+      "end": 38.0,
+      "confidence": 0.98046875,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "didn't",
+      "start": 38.0,
+      "end": 38.3,
+      "confidence": 0.990234375,
+      "clip_id": "tear_discovery"
+    },
+    {
+      "actor": "nemi",
+      "word": "draw.",
+      "start": 38.3,
+      "end": 38.46,
+      "confidence": 0.98779296875,
+      "clip_id": "tear_discovery"
+    }
+  ],
+  "audio_sha256": "a28a997f377251fdae53a017dd24ad8ce00c44eaceb90acf1db4928150e978ab",
+  "display_corrections": [],
+  "raw_alignment_preserved": "timeline.json and processed/*.words.json retain original recognizer output"
+}

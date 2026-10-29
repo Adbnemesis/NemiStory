@@ -1,0 +1,36 @@
+{
+  "id": "bridge_choice",
+  "author": "nemi",
+  "text": "Oh. I stopped drawing the bridge halfway across. Apparently I thought Future Me would deal with it. Look underneath the left route, then at that loose paper tab on the right. Four to run across, or five to fold the tab.",
+  "file": "res://episodes/episode_002/audio/source/bridge_choice_1976dedf81c4.wav",
+  "sha256": "cb524c183d4a50cdfe95336126a4999583e934cc214545229a61f05465d8a38a",
+  "identity": {
+    "model_name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "repo_id": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+    "model_version": "1.7B-CustomVoice-bf16",
+    "runtime": "mlx-audio",
+    "license": "Qwen Community License / Apache 2.0",
+    "speaker": "sohee",
+    "voice_identifier": "sohee",
+    "voice_design_prompt": "Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful.",
+    "language": "English",
+    "sample_rate": 24000,
+    "output_format": "WAV",
+    "default_speed": 1.0,
+    "ref_audio_path": "audio/nemi/reference/nemi_golden_reference.wav",
+    "ref_text_path": "audio/nemi/reference/nemi_golden_reference.txt",
+    "pause_policy": {
+      "short_pause": 0.2,
+      "medium_pause": 0.35,
+      "thought_pause": 0.45,
+      "deadpan_pause": 1.5,
+      "dramatic_pause": 0.8,
+      "stinger_pause": 0.2
+    },
+    "device": "mps"
+  },
+  "model_provenance": ".cache/models/qwen.provenance.json",
+  "source_tempo": 1.0,
+  "new_recording": true,
+  "listening_review": "pending"
+}

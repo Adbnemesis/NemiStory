@@ -1,0 +1,41 @@
+{
+  "revision": "r3",
+  "runtime_seconds": 160.4,
+  "hard_cap_seconds": 180,
+  "source_branch": "codex/nemi-ep15-review",
+  "source_commit": "3715d5b",
+  "isolated_checkout": "/Users/talus/.codex/worktrees/nemi-ep15-review/adb",
+  "reason": "Main checkout shared production source was changed by another active production during capture; normal renderer correctly discarded that capture. Final export uses an isolated managed checkout with complete preflight and identical frozen inputs.",
+  "scene_sha256": "31165c168743df3bdad2943fd7f077db9abdaea0937531f4cd36c3a14704b9a1",
+  "audio_signature": "80dae7035b89aa88ce62dd0883f61631f56353027997e8e3cf541b4b6a6ad6fb",
+  "r2_to_r3_audio_unchanged": true,
+  "focused_proofs": [
+    "res://renders/nemi_ep15/EP15_phone_camera_proof_r1_1080p.mp4",
+    "res://renders/nemi_ep15/EP15_worth_proof_r2_1080p.mp4",
+    "res://renders/nemi_ep15/EP15_worth_proof_r3_1080p.mp4"
+  ],
+  "integrated_review": "res://renders/nemi_ep15/EP15_integrated_r2_1080p.mp4",
+  "engine_checks": [
+    "test_live_ink.gd",
+    "test_identity.gd",
+    "test_production.gd",
+    "test_refinement.gd",
+    "test_review_story.gd"
+  ],
+  "completed_checks": [
+    "Current preflight read/ack records",
+    "Full scene validation",
+    "5 standard engine checks in source and isolated checkout",
+    "R1 phone proof inspected in decoded stills and browser playback",
+    "60s corrected integrated sequence decoded, 46 stills produced and key sheets inspected, normal-speed browser playback exercised",
+    "R3 late live-ink/phone proof inspected; phone rests on existing desk; final lettering clear of furniture",
+    "Exact source/SFX provenance and hashes",
+    "Numeric SFX prominence checked; pencil correction clears protected words; comic accent in a speech gap"
+  ],
+  "acoustic_listening": "Pending user review; this tool session does not support audio perception. Independent final ASR and numeric mix checks are complete, which do not replace listening.",
+  "remaining": [
+    "Full movie decode, frame count, encoded peak and final visual inspection",
+    "User satisfaction with complete current 1080p cut before any 4K"
+  ],
+  "four_k_rendered": false
+}

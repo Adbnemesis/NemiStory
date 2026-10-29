@@ -1,0 +1,27 @@
+{
+  "scope": "Fixed drawing-material/context fragment, not a standalone production or rendered approval",
+  "scene_fragment": {
+    "id": "material_readability",
+    "start": 66,
+    "end": 88,
+    "location": "sketchbook gap",
+    "actor_wall": 1,
+    "walls": [
+      {"index": 0, "objects": [
+        {"id": "unfinished_bridge", "author": "nemi", "kind": "sketch_bridge", "x": 1420, "y": 820, "text": "4 RUN ACROSS"},
+        {"id": "bridge_ink_bottle", "author": "nemi", "kind": "ink_bottle", "x": 610, "y": 905}
+      ]},
+      {"index": 1, "objects": []},
+      {"index": 2, "objects": [
+        {"id": "loose_tab", "author": "nemi", "kind": "paper_tab", "x": 500, "y": 837, "text": "5 FOLD THE TAB"},
+        {"id": "real_paper_stack", "author": "nemi", "kind": "paper_stack", "x": 1420, "y": 905},
+        {"id": "stack_paper_clip", "author": "nemi", "kind": "paper_clip", "x": 1440, "y": 745}
+      ]},
+      {"index": 3, "objects": [
+        {"id": "drawing_ruler", "author": "nemi", "kind": "ruler", "x": 1200, "y": 905, "text": ""}
+      ]}
+    ],
+    "environment_events": []
+  },
+  "dependencies": "Merge only into a complete drawing-world timeline and canonical Nemi production scene. Context kinds are fixed held scenery, accept no choice text/actions/path/material state and do not imply new gameplay. Keep matching context wall/ID/kind/author/x/y in each continuity group. The bridge near front and completed paper front are both y905 at these origins. Actual event times, voice, camera, acting and sound are separately authored and validated."
+}

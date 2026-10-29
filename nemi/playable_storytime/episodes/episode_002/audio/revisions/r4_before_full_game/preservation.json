@@ -1,0 +1,57 @@
+{
+  "source": "Active R4 audio before full-game assembly; original takes remain in audio/source and audio/processed",
+  "files": [
+    {
+      "file": "R4_VOICE_REVIEW.json",
+      "sha256": "09382f17220100760975fa59ecc5405b719d25129731e5644736a4462ffe7a7f",
+      "bytes": 1216
+    },
+    {
+      "file": "R4_VOICE_REVIEW.md",
+      "sha256": "243169d0e23b831b364af01908c5779fcb2b7a807767d8cee1eb94691949018c",
+      "bytes": 1317
+    },
+    {
+      "file": "generation_progress.json",
+      "sha256": "4a9e3a3ad9241a5ff026f0cb0c8e0de91cb0d5d812bd55bf94eb621ab2ed5cdf",
+      "bytes": 3433
+    },
+    {
+      "file": "mix.wav",
+      "sha256": "bd716b414c32e1d88db1c9378384ab4a495bcdcfa711ab853770272585ac5a6e",
+      "bytes": 7680078
+    },
+    {
+      "file": "mix_calibration.json",
+      "sha256": "aeaa60db3ae54fced454014a60f21ea3b345cc341a8d5c4dea28d6e68a17e8b2",
+      "bytes": 431
+    },
+    {
+      "file": "narration.wav",
+      "sha256": "a28a997f377251fdae53a017dd24ad8ce00c44eaceb90acf1db4928150e978ab",
+      "bytes": 3840080
+    },
+    {
+      "file": "render_timeline.json",
+      "sha256": "cfe6739504942df0272afd0157abe40750e8747c161e001ad6d745dfa16cf985",
+      "bytes": 18739
+    },
+    {
+      "file": "timeline.json",
+      "sha256": "71472c0a85780bf97eb69c5782e16a14babcefa581cf54b6728f77d108b81f7f",
+      "bytes": 18603
+    },
+    {
+      "file": "voice_check.json",
+      "sha256": "a0b038bec599c4c5ec2d06e3b5775bad407cf7c124be67eebace8689d9aa992f",
+      "bytes": 761
+    },
+    {
+      "file": "voice_provenance.json",
+      "sha256": "a9ac87cca82fbf1144b87fd054b461d6e16f8ca32ed1cdfd4ade4ed259a99931",
+      "bytes": 1959
+    }
+  ],
+  "dialogue_sha256": "4de625792a3e46e043b1ae8e46f2c3fcf1a06987099a1ace75e6d01069ca3fcc",
+  "preservation_check": "All copied bytes hash-identical"
+}

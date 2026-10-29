@@ -1,0 +1,366 @@
+{
+  "scope": "Current R6 executable source fragments; not a standalone production or approval",
+  "authored_duration": 240,
+  "source_story_chapter": {
+    "id": "badge_hunt",
+    "start": 24,
+    "end": 48,
+    "name": "1 · Find the star badge",
+    "location": "hallway",
+    "focus": "Search the school hallway for one star badge.",
+    "framing": "wide",
+    "review_yaw": -90,
+    "prop": "school_questions",
+    "drawing": "find the star",
+    "lines": [
+      {
+        "id": "badge_01",
+        "at": 24.65,
+        "window_end": 31.350083,
+        "recipe": "school_question",
+        "text": "Find my star badge. Not the trophy. Definitely not the sandwich. Look around the hallway.",
+        "tempo": 1.08
+      },
+      {
+        "id": "badge_02",
+        "at": 31.400083,
+        "window_end": 37.96325,
+        "recipe": "school_point",
+        "text": "The real badge has our route number. Press that number when you find it. I'll supervise nervously.",
+        "tempo": 1.08
+      },
+      {
+        "id": "badge_03",
+        "at": 38.01325,
+        "window_end": 47.9,
+        "recipe": "skeptical",
+        "text": "Need a hint? Press two. I'm trusting your eyeballs. A deeply irresponsible promotion.",
+        "tempo": 1.08
+      }
+    ],
+    "review_fov": 60,
+    "review_look": {
+      "clip_id": "badge_01",
+      "word": "star"
+    },
+    "review_return": {
+      "clip_id": "badge_03",
+      "word": "Need"
+    }
+  },
+  "scene": {
+    "id": "badge_hunt",
+    "start": 24,
+    "end": 48,
+    "location": "hallway",
+    "review_yaw": -90,
+    "walls": [
+      {
+        "index": 0,
+        "objects": [
+          {
+            "id": "hallway_0_door",
+            "kind": "door",
+            "x": 1450,
+            "y": 550,
+            "text": "CLASSROOM",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_0_clock",
+            "kind": "clock",
+            "x": 280,
+            "y": 210,
+            "text": "",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_0_lockers",
+            "kind": "locker",
+            "x": 470,
+            "y": 600,
+            "text": "",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_0_bench",
+            "kind": "bench",
+            "x": 920,
+            "y": 820,
+            "text": "",
+            "author": "nemi"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "objects": [
+          {
+            "id": "hallway_1_door",
+            "kind": "door",
+            "x": 1450,
+            "y": 550,
+            "text": "CLASSROOM",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_1_clock",
+            "kind": "clock",
+            "x": 280,
+            "y": 210,
+            "text": "",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_1_lockers",
+            "kind": "locker",
+            "x": 470,
+            "y": 600,
+            "text": "",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_1_bench",
+            "kind": "bench",
+            "x": 920,
+            "y": 820,
+            "text": "",
+            "author": "nemi"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "objects": [
+          {
+            "id": "hallway_2_door",
+            "kind": "door",
+            "x": 1450,
+            "y": 550,
+            "text": "CLASSROOM",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_2_clock",
+            "kind": "clock",
+            "x": 280,
+            "y": 210,
+            "text": "",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_2_lockers",
+            "kind": "locker",
+            "x": 470,
+            "y": 600,
+            "text": "",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_2_bench",
+            "kind": "bench",
+            "x": 920,
+            "y": 820,
+            "text": "",
+            "author": "nemi"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "objects": [
+          {
+            "id": "hallway_3_door",
+            "kind": "door",
+            "x": 1450,
+            "y": 550,
+            "text": "CLASSROOM",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_3_clock",
+            "kind": "clock",
+            "x": 280,
+            "y": 210,
+            "text": "",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_3_lockers",
+            "kind": "locker",
+            "x": 470,
+            "y": 600,
+            "text": "",
+            "author": "nemi"
+          },
+          {
+            "id": "hallway_3_bench",
+            "kind": "bench",
+            "x": 920,
+            "y": 820,
+            "text": "",
+            "author": "nemi"
+          },
+          {
+            "id": "star_badge",
+            "kind": "badge",
+            "x": 1000,
+            "y": 600,
+            "text": "STAR\nPRESS 3",
+            "accent": "#ad5e69",
+            "author": "nemi"
+          },
+          {
+            "id": "duck_poster",
+            "kind": "poster",
+            "x": 300,
+            "y": 440,
+            "text": "DUCK CLUB",
+            "author": "nemi"
+          },
+          {
+            "id": "sandwich_decoy",
+            "kind": "sandwich",
+            "x": 1520,
+            "y": 690,
+            "text": "LUNCH",
+            "author": "nemi"
+          }
+        ]
+      }
+    ],
+    "review_yaw_path": [
+      {
+        "at": 24,
+        "yaw": 0
+      },
+      {
+        "at": 25.07,
+        "yaw": 0
+      },
+      {
+        "at": 25.87,
+        "yaw": -90
+      },
+      {
+        "at": 38.01325,
+        "yaw": -90
+      },
+      {
+        "at": 38.81325,
+        "yaw": 0
+      }
+    ],
+    "review_fov": 60,
+    "environment_events": []
+  },
+  "navigation": {
+    "mode": "youtube_digits",
+    "key_targets": [
+      {
+        "key": 0,
+        "chapter": "cold_open"
+      },
+      {
+        "key": 1,
+        "chapter": "badge_hunt"
+      },
+      {
+        "key": 2,
+        "chapter": "badge_hint"
+      },
+      {
+        "key": 3,
+        "chapter": "badge_recovery"
+      },
+      {
+        "key": 4,
+        "chapter": "notice_puzzle"
+      },
+      {
+        "key": 5,
+        "chapter": "pudding_detour"
+      },
+      {
+        "key": 6,
+        "chapter": "assembly_arrival"
+      },
+      {
+        "key": 7,
+        "chapter": "final_hunt"
+      },
+      {
+        "key": 8,
+        "chapter": "final_hint"
+      },
+      {
+        "key": 9,
+        "chapter": "payoff"
+      }
+    ]
+  },
+  "challenge": {
+    "id": "badge",
+    "narrative_purpose": "Recover the badge that creates the hosting problem.",
+    "start": 24,
+    "end": 72,
+    "objective": "Find and read star badge",
+    "clue_id": "star_badge",
+    "inputs": [
+      "desktop WASD",
+      "mouse drag",
+      "YouTube app swipe",
+      "pause",
+      "desktop number keys 0–9",
+      "mobile numbered chapters"
+    ],
+    "solution": "PRESS 3",
+    "instructions": "Look around. Find the number on the real clue. Press 3; on the app select chapter 3.",
+    "visual_change": "Native viewpoint rotation reveals the clue; a digit key selects an authored story scene.",
+    "success": "Viewer recognizes the clue and chooses its printed destination.",
+    "hints": [
+      {
+        "at": 48,
+        "text": "A short narrated hint and solution follow for passive viewers."
+      }
+    ],
+    "retry_method": "Press 1 to retry, or select its numbered chapter on mobile.",
+    "valid_destinations": [
+      72
+    ],
+    "alternative_outcomes": [],
+    "do_nothing": "Hints and a coherent linear continuation play automatically.",
+    "wrong_answer": "Viewer may seek back to search again; nothing is locked.",
+    "state_tracking": false,
+    "desktop": true,
+    "mobile": "Current YouTube app: swipe to look; choose matching numbered chapter. Chapters/channel availability and upload test pending.",
+    "device_limitations": [
+      "Click the desktop player before using top-row number keys. K resumes if paused.",
+      "Number keys are desktop controls; mobile uses numbered chapters when available.",
+      "TV/controller behavior unverified. Captions are optional conventional subtitles."
+    ],
+    "solution_key": 3,
+    "retry_key": 1,
+    "alternative_keys": []
+  },
+  "other_clues": [
+    {
+      "id": "star_correction",
+      "kind": "clue",
+      "x": 1160,
+      "y": 450,
+      "text": "TODAY\nASSEMBLY\nPRESS 6",
+      "accent": "#6e8b74",
+      "author": "nemi"
+    },
+    {
+      "id": "audience_notice",
+      "kind": "clue",
+      "x": 1000,
+      "y": 400,
+      "text": "REHEARSAL\n3 STUFFED ANIMALS\nPRESS 9",
+      "accent": "#ad5e69",
+      "author": "nemi"
+    }
+  ]
+}

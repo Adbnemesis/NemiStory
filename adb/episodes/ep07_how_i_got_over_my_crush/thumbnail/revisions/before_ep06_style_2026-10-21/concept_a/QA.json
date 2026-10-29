@@ -1,0 +1,32 @@
+{
+  "status": "QA Passed",
+  "native_dimensions": [
+    1376,
+    768
+  ],
+  "upload_dimensions": [
+    1280,
+    720
+  ],
+  "aspect_ratio": "16:9",
+  "native_file": "thumbnail.png",
+  "native_sha256": "1eaacb210dca4272a82d2edd613889addf72c6ab70eb89b10a7eee695226b44a",
+  "upload_file": "thumbnail.jpg",
+  "upload_sha256": "1b31d1af74abd5453578d6d195e34164d3b7af7e73b003bd0c63767e8f7e9756",
+  "provenance": "AI-generated raster illustration using built-in image generator and approved storytime thumbnail references; not exact Godot rig art or native 4K",
+  "references_checked": [
+    "references/thumbnail_ref/thumbnail_set_raora.png",
+    "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+    "adb/episodes/ep05_my_crush_blocked_me/thumbnail/thumbnail.png"
+  ],
+  "checks": {
+    "headline_verbatim": "I'M OVER HER!",
+    "headline_contour": "Thick nested BLACK / RED / BLACK borders on broad white rounded sans-serif",
+    "character_identity": "ADB: parted dark navy-black hair, almond dark blue eyes, calm/shocked expression, green collared shirt, clean ink contours",
+    "background_treatment": "Bright white with pale pastel checkerboard and floating doodles",
+    "cutout_silhouette": "Crisp white outline with selective red outer glow",
+    "mobile_readability_passed": true,
+    "no_secondary_captions": true,
+    "no_watermark": true
+  }
+}

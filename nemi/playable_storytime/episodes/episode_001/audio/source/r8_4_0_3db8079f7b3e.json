@@ -1,0 +1,36 @@
+{
+  "id": "r8_4_0",
+  "author": "nemi",
+  "text": "Right, the noticeboard. The sensible new sign says assembly, and the old one says pudding. Before you say anything, I can see that it's crossed out. I'm choosing to interpret that as decorative. Six gets us to assembly; five lets us investigate the pudding. You can probably guess which one I'm hoping for.",
+  "file": "res://episodes/episode_001/audio/source/r8_4_0_3db8079f7b3e.wav",
+  "sha256": "831f947c0b31c5e43692be1050238d4cbfb85d0136ed2405f483591c0910e7c3",
+  "identity": {
+    "model_name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "repo_id": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+    "model_version": "1.7B-CustomVoice-bf16",
+    "runtime": "mlx-audio",
+    "license": "Qwen Community License / Apache 2.0",
+    "speaker": "sohee",
+    "voice_identifier": "sohee",
+    "voice_design_prompt": "Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful.",
+    "language": "English",
+    "sample_rate": 24000,
+    "output_format": "WAV",
+    "default_speed": 1.0,
+    "ref_audio_path": "audio/nemi/reference/nemi_golden_reference.wav",
+    "ref_text_path": "audio/nemi/reference/nemi_golden_reference.txt",
+    "pause_policy": {
+      "short_pause": 0.2,
+      "medium_pause": 0.35,
+      "thought_pause": 0.45,
+      "deadpan_pause": 1.5,
+      "dramatic_pause": 0.8,
+      "stinger_pause": 0.2
+    },
+    "device": "mps"
+  },
+  "model_provenance": ".cache/models/qwen.provenance.json",
+  "source_tempo": 1.0,
+  "new_recording": true,
+  "listening_review": "pending"
+}

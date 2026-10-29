@@ -66,7 +66,7 @@
         "end": 91.097778,
         "thought": "The same unequal energy happened in school.",
         "focus": "Outgoing versus incoming message",
-        "visual": "Classroom wide then message evidence, small underline.",
+        "visual": "School corridor wide then message evidence, small underline.",
         "intent": "Connect the present to the older pattern."
       },
       {
@@ -5328,7 +5328,7 @@
       "id": "school_memory",
       "start": 76.12,
       "end": 80.147407,
-      "background": "school_day_r4",
+      "background": "school_corridor_r4",
       "actors": {
         "nemi": {
           "position": [
@@ -5350,7 +5350,7 @@
       "id": "school_messages",
       "start": 80.147407,
       "end": 91.097778,
-      "background": "school_day_r4",
+      "background": "school_corridor_r4",
       "actors": {
         "nemi": {
           "position": [
@@ -5372,7 +5372,7 @@
       "id": "feeling_silly",
       "start": 91.097778,
       "end": 94.877778,
-      "background": "school_day_r4",
+      "background": "school_corridor_r4",
       "actors": {
         "nemi": {
           "position": [
@@ -5394,7 +5394,7 @@
       "id": "editing_excitement",
       "start": 94.877778,
       "end": 100.857778,
-      "background": "school_day_r4",
+      "background": "school_corridor_r4",
       "actors": {
         "nemi": {
           "position": [
@@ -5416,7 +5416,7 @@
       "id": "said_less",
       "start": 100.857778,
       "end": 104.037778,
-      "background": "school_day_r4",
+      "background": "school_corridor_r4",
       "actors": {
         "nemi": {
           "position": [
@@ -6107,7 +6107,7 @@
       "end": 145.357778,
       "position": [
         1070,
-        580
+        535
       ],
       "scale": [
         1.0,
@@ -6122,20 +6122,21 @@
     },
     {
       "author": "nemi",
-      "kind": "attachment_phone_rest",
+      "kind": "phone",
       "at": 147.157778,
       "end": 152.577778,
       "position": [
-        1210,
-        610
+        1430,
+        612
       ],
       "scale": [
-        1.0,
-        1.0
+        1.1,
+        1.1
       ],
       "mode": "hold",
       "layer": 2,
-      "event": "phone_down"
+      "event": "phone_down",
+      "tilt": 90
     }
   ],
   "props": [

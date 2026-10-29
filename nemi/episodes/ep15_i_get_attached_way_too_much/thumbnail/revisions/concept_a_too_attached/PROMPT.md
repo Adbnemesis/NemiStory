@@ -1,0 +1,15 @@
+# EP15 thumbnail — concept_a_too_attached
+
+Built-in image generation; reference-guided new illustration. No external API/CLI fallback.
+
+## Input roles
+
+1. Raora set: typography/background/cutout composition only; no copied people or branding.
+2. Approved Nemi EP10 thumbnail: illustrated finish only; no teacher/story/words copied.
+3. Actual EP15 R5 frame at0.200s: canonical Nemi hair, face, eyes, outfit and ink/fill identity.
+
+## Exact generation prompt
+
+Use case: ads-marketing. Create a NEW polished 16:9 opaque landscape YouTube thumbnail, guided by references, NOT a remake of their compositions. Input image 1 is STYLE ONLY: heavy broad white sans headline lettering with substantial BLACK inner / vivid RED middle / BLACK outer contours, white/pale-checker background, clean large cutout silhouettes. Do not copy its anime people, logos, screenshot UI, borders or timestamps. Input image 2 is the approved illustrated thumbnail FINISH, retaining warm burgundy ink and clear flat fills; do not copy its teacher, shushing pose, scene, words or blue palette. Input image 3 is the target episode's CANONICAL NEMI identity: red-orange long straight hair, angular layered fringe with one tall ahoge, large green eyes, small angular nose, simple expressive face, diagonal rosy cheek hatching, oversized muted-green high-neck hoodie with drawstring, black crossbody strap. Match her recognizable face/hair/clothing, warm rounded hand-drawn burgundy line language and flat illustration. Strong graphic expression, not a generic anime replacement. Bright clean white with only very pale warm-grey checker accents; no cream room scenery. Crisp white silhouette edge and selective red outer edge, excellent phone-size legibility, large face and prop. Typography must be massive broad heavy WHITE sans with thick layered BLACK/RED/BLACK outlines like references; no small handwritten headline, thin outline or dull gradient. ONE headline only, exact spelling, no extra words, captions, labels, logos or watermarks. Leave safe 5% margins for letters; no important detail in bottom-right timestamp area.
+Concept A — attachment as an oversized burden she lovingly refuses to release. Nemi in a close chest-up three-quarter pose fills left/centre, worried-embarrassed green eyes glancing toward the viewer, small strained smile, arms hugging an absurdly large soft rose-red heart tightly against her chest. Heart occupies the lower right and has a simple unbroken curling red thread leading to two tiny anonymous friendship photo cards and one tiny cream-and-ginger cat memory cutout around its far edge; these are symbolic memories, not loss/death. Clear fingers around heart, natural clean anatomy, no extra arms. Main story is her tender grip and self-aware overattachment, not a romance breakup. Headline exact: "TOO ATTACHED". Place across upper third in one powerful line or two compact words, enormous but not covering eyes. Strong clear emotional hook and original staging. No chains, wounds, broken heart, death, malicious friends or secondary text.
+

@@ -1,0 +1,2526 @@
+{
+  "duration": 240,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "practice",
+      "start": 0,
+      "end": 24,
+      "location": "volunteer_hall",
+      "review_yaw": 0,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "volunteer_hall_0_door",
+              "kind": "door",
+              "x": 1660,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_0_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_0_bench",
+              "kind": "bench",
+              "x": 1330,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_form",
+              "kind": "form",
+              "x": 1330,
+              "y": 595,
+              "text": "VOLUNTEER FORM\nFREE PUDDING\nI CAN HELP",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "volunteer_hall_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_1_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "volunteer_hall_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_2_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "volunteer_hall_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_3_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "volunteer_hall_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "star_badge",
+              "kind": "badge",
+              "x": 1000,
+              "y": 600,
+              "text": "STAR\n3 USE BADGE",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_poster",
+              "kind": "poster",
+              "x": 300,
+              "y": 440,
+              "text": "DUCK CLUB",
+              "author": "nemi"
+            },
+            {
+              "id": "sandwich_decoy",
+              "kind": "sandwich",
+              "x": 1520,
+              "y": 690,
+              "text": "2 INSPECT LUNCH",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 0,
+          "yaw": 0
+        },
+        {
+          "at": 6.4,
+          "yaw": 0
+        },
+        {
+          "at": 9.6,
+          "yaw": 0
+        },
+        {
+          "at": 19.2,
+          "yaw": 0
+        },
+        {
+          "at": 22.4,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 64,
+      "environment_events": [],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "PRACTICE: PRESS 1",
+        "subtitle": "Drag to look. Press 1 to start."
+      },
+      "review_camera_beats": [
+        {
+          "at": 3.6,
+          "yaw": 20,
+          "pitch": 0,
+          "fov": 58,
+          "duration": 0.35,
+          "intent": "Show the form that tempted her; hold the initial receipt before reframing"
+        },
+        {
+          "at": 8.99,
+          "yaw": -17,
+          "pitch": 6,
+          "fov": 43,
+          "duration": 0.2,
+          "intent": "Recruit one friend"
+        },
+        {
+          "at": 11.77,
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 72,
+          "duration": 0.5,
+          "intent": "Open the playable geography"
+        }
+      ]
+    },
+    {
+      "id": "badge_choice",
+      "start": 24,
+      "end": 48,
+      "location": "hallway",
+      "review_yaw": 0,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "hallway_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "hallway_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "hallway_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "hallway_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "hallway_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "star_badge",
+              "kind": "badge",
+              "x": 1000,
+              "y": 600,
+              "text": "STAR\n3 USE BADGE",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_poster",
+              "kind": "poster",
+              "x": 300,
+              "y": 440,
+              "text": "DUCK CLUB",
+              "author": "nemi"
+            },
+            {
+              "id": "sandwich_decoy",
+              "kind": "sandwich",
+              "x": 1520,
+              "y": 690,
+              "text": "2 INSPECT LUNCH",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 24,
+          "yaw": 0
+        },
+        {
+          "at": 30.4,
+          "yaw": 0
+        },
+        {
+          "at": 33.6,
+          "yaw": 0
+        },
+        {
+          "at": 43.2,
+          "yaw": 0
+        },
+        {
+          "at": 46.4,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 64,
+      "environment_events": [],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "1  BADGE OR LUNCH",
+        "subtitle": "2 sandwich or 3 star badge."
+      },
+      "review_camera_beats": [
+        {
+          "at": 27.6,
+          "yaw": -90,
+          "pitch": 0,
+          "fov": 72,
+          "duration": 0.65,
+          "intent": "Show both badge and sandwich clearly; hold the initial receipt before reframing"
+        },
+        {
+          "at": 43.49,
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 40,
+          "duration": 0.24,
+          "intent": "Return for the sheepish request"
+        }
+      ]
+    },
+    {
+      "id": "sandwich_result",
+      "start": 48,
+      "end": 72,
+      "location": "lunch_hall",
+      "review_yaw": 0,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "lunch_hall_0_door",
+              "kind": "door",
+              "x": 1660,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_0_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_0_bench",
+              "kind": "bench",
+              "x": 1320,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "sandwich_understudy",
+              "kind": "sandwich",
+              "x": 1320,
+              "y": 673,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "lunch_hall_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_1_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "lunch_hall_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_2_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "lunch_hall_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_3_lockers",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "lunch_hall_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "star_badge",
+              "kind": "badge",
+              "x": 1000,
+              "y": 600,
+              "text": "STAR\n3 USE BADGE",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_poster",
+              "kind": "poster",
+              "x": 300,
+              "y": 440,
+              "text": "DUCK CLUB",
+              "author": "nemi"
+            },
+            {
+              "id": "sandwich_decoy",
+              "kind": "sandwich",
+              "x": 1520,
+              "y": 690,
+              "text": "2 INSPECT LUNCH",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 48,
+          "yaw": 0
+        },
+        {
+          "at": 54.4,
+          "yaw": 0
+        },
+        {
+          "at": 57.6,
+          "yaw": 0
+        },
+        {
+          "at": 67.2,
+          "yaw": 0
+        },
+        {
+          "at": 70.4,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 64,
+      "environment_events": [],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "2  SANDWICH ROUTE",
+        "subtitle": "Press 3 for the star badge."
+      },
+      "review_camera_beats": [
+        {
+          "at": 51.6,
+          "yaw": 22,
+          "pitch": 0,
+          "fov": 54,
+          "duration": 0.38,
+          "intent": "Look at the actual prepared sandwich; hold the initial receipt before reframing"
+        },
+        {
+          "at": 57.61,
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 39,
+          "duration": 0.2,
+          "intent": "Read the absurd calculation"
+        },
+        {
+          "at": 59.27,
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 64,
+          "duration": 0.4,
+          "intent": "Return to the practical way forward"
+        }
+      ]
+    },
+    {
+      "id": "badge_result",
+      "start": 72,
+      "end": 96,
+      "location": "host_classroom",
+      "review_yaw": 0,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "host_classroom_0_door",
+              "kind": "door",
+              "x": 1660,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "host_classroom_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "host_classroom_0_bench",
+              "kind": "bench",
+              "x": 1320,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "host_badge",
+              "kind": "badge",
+              "x": 1320,
+              "y": 580,
+              "text": "STUDENT\nHOST",
+              "author": "nemi",
+              "accent": "#ad5e69"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "host_classroom_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "host_classroom_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "host_classroom_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "host_classroom_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "host_classroom_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "host_classroom_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "class_board_2",
+              "kind": "board",
+              "x": 960,
+              "y": 400,
+              "text": "REHEARSAL TODAY",
+              "accent": "#dce0d6",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "host_classroom_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "host_classroom_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "host_classroom_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 72,
+          "yaw": 0
+        },
+        {
+          "at": 78.4,
+          "yaw": 0
+        },
+        {
+          "at": 81.6,
+          "yaw": 0
+        },
+        {
+          "at": 91.2,
+          "yaw": 0
+        },
+        {
+          "at": 94.4,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 64,
+      "environment_events": [],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "3  BADGE FOUND",
+        "subtitle": "Press 4 for the noticeboard."
+      },
+      "review_camera_beats": [
+        {
+          "at": 75.6,
+          "yaw": 20,
+          "pitch": 0,
+          "fov": 46,
+          "duration": 0.35,
+          "intent": "Read the host pass; hold the initial receipt before reframing"
+        },
+        {
+          "at": 77.69,
+          "yaw": -17,
+          "pitch": 8,
+          "fov": 37,
+          "duration": 0.12,
+          "intent": "Catch the recognition on her face"
+        },
+        {
+          "at": 79.09,
+          "yaw": -17,
+          "pitch": 2,
+          "fov": 52,
+          "duration": 0.28,
+          "intent": "Allow the embarrassed explanation room"
+        },
+        {
+          "at": 87.83,
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 41,
+          "duration": 0.18,
+          "intent": "Read the checkbox confession"
+        },
+        {
+          "at": 93.25,
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 64,
+          "duration": 0.3,
+          "intent": "Resume the search"
+        }
+      ]
+    },
+    {
+      "id": "notice_choice",
+      "start": 96,
+      "end": 120,
+      "location": "classroom",
+      "review_yaw": 0,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "classroom_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "class_board_0",
+              "kind": "board",
+              "x": 960,
+              "y": 400,
+              "text": "A SMALL FAVOUR",
+              "accent": "#dce0d6",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "classroom_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "old_notice",
+              "kind": "board",
+              "x": 470,
+              "y": 460,
+              "text": "OLD: 5 PUDDING\nLAST FRIDAY\nINSPECTION ROOM",
+              "crossed": true,
+              "author": "nemi"
+            },
+            {
+              "id": "star_correction",
+              "kind": "clue",
+              "x": 1160,
+              "y": 450,
+              "text": "TODAY\n6 ASSEMBLY",
+              "accent": "#6e8b74",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "classroom_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "class_board_2",
+              "kind": "board",
+              "x": 960,
+              "y": 400,
+              "text": "REHEARSAL TODAY",
+              "accent": "#dce0d6",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "classroom_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "classroom_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 96,
+          "yaw": 0
+        },
+        {
+          "at": 102.4,
+          "yaw": 0
+        },
+        {
+          "at": 105.6,
+          "yaw": 0
+        },
+        {
+          "at": 115.2,
+          "yaw": 0
+        },
+        {
+          "at": 118.4,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 64,
+      "environment_events": [],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "4  CHOOSE THE ROOM",
+        "subtitle": "5 pudding or 6 assembly."
+      },
+      "review_camera_beats": [
+        {
+          "at": 99.6,
+          "yaw": 90,
+          "pitch": 0,
+          "fov": 74,
+          "duration": 0.65,
+          "intent": "Read both notices and the obvious cross-out; hold the initial receipt before reframing"
+        },
+        {
+          "at": 105.33,
+          "yaw": -17,
+          "pitch": 6,
+          "fov": 42,
+          "duration": 0.25,
+          "intent": "Catch her anticipating the objection"
+        },
+        {
+          "at": 111.61,
+          "yaw": 90,
+          "pitch": 0,
+          "fov": 74,
+          "duration": 0.6,
+          "intent": "Leave the two real labels readable"
+        },
+        {
+          "at": 119.05,
+          "yaw": -17,
+          "pitch": 6,
+          "fov": 44,
+          "duration": 0.25,
+          "intent": "Let the preference show"
+        }
+      ]
+    },
+    {
+      "id": "pudding_result",
+      "start": 120,
+      "end": 144,
+      "location": "pudding_cupboard",
+      "review_yaw": 0,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "pudding_cupboard_0_door",
+              "kind": "door",
+              "x": 1660,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "pudding_cupboard_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "pudding_cupboard_0_bench",
+              "kind": "bench",
+              "x": 1320,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "paper_cupboard",
+              "kind": "locker",
+              "x": 265,
+              "y": 600,
+              "text": "PAPER",
+              "author": "nemi",
+              "accent": "#ddd5c9"
+            },
+            {
+              "id": "paint_cupboard",
+              "kind": "locker",
+              "x": 470,
+              "y": 600,
+              "text": "ART",
+              "author": "nemi",
+              "accent": "#d4d9d0"
+            },
+            {
+              "id": "dessert_pencils",
+              "kind": "pencil_cup",
+              "x": 1320,
+              "y": 640,
+              "text": "PENCILS",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "pudding_cupboard_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "pudding_cupboard_1_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "pudding_cupboard_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "old_notice",
+              "kind": "board",
+              "x": 470,
+              "y": 460,
+              "text": "OLD: 5 PUDDING\nLAST FRIDAY\nINSPECTION ROOM",
+              "crossed": true,
+              "author": "nemi"
+            },
+            {
+              "id": "star_correction",
+              "kind": "clue",
+              "x": 1160,
+              "y": 450,
+              "text": "TODAY\n6 ASSEMBLY",
+              "accent": "#6e8b74",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "pudding_cupboard_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "pudding_cupboard_2_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "pudding_cupboard_2_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "class_board_2",
+              "kind": "board",
+              "x": 960,
+              "y": 400,
+              "text": "REHEARSAL TODAY",
+              "accent": "#dce0d6",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "pudding_cupboard_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "pudding_cupboard_3_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "pudding_cupboard_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 120,
+          "yaw": 0
+        },
+        {
+          "at": 126.4,
+          "yaw": 0
+        },
+        {
+          "at": 129.6,
+          "yaw": 0
+        },
+        {
+          "at": 139.2,
+          "yaw": 0
+        },
+        {
+          "at": 142.4,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 64,
+      "environment_events": [],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "5  PUDDING ROUTE",
+        "subtitle": "Press 6 for assembly."
+      },
+      "review_camera_beats": [
+        {
+          "at": 123.87,
+          "yaw": 20,
+          "pitch": 0,
+          "fov": 54,
+          "duration": 0.3,
+          "intent": "Hope and the actual cup share one focus"
+        },
+        {
+          "at": 129.71,
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 40,
+          "duration": 0.22,
+          "intent": "Read the embarrassed admission"
+        },
+        {
+          "at": 135.25,
+          "yaw": -17,
+          "pitch": 4,
+          "fov": 48,
+          "duration": 0.25,
+          "intent": "The remembered rival is a reaction, not another insert"
+        },
+        {
+          "at": 142.79,
+          "yaw": -17,
+          "pitch": 4,
+          "fov": 47,
+          "duration": 0.2,
+          "intent": "Hold the last dry thought"
+        }
+      ]
+    },
+    {
+      "id": "assembly_result",
+      "start": 144,
+      "end": 168,
+      "location": "assembly_stage",
+      "review_yaw": 0,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "assembly_stage_0_door",
+              "kind": "door",
+              "x": 1640,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_stage_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_stage_0_bench",
+              "kind": "bench",
+              "x": 1460,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "microphone",
+              "kind": "microphone",
+              "x": 1040,
+              "y": 685,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "assembly_stage_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_stage_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "duck_seat",
+              "kind": "bench",
+              "x": 520,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_seat",
+              "kind": "bench",
+              "x": 1430,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_stage_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_stage_2_bench",
+              "kind": "bench",
+              "x": 960,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "audience_notice",
+              "kind": "clue",
+              "x": 1000,
+              "y": 400,
+              "text": "REHEARSAL\n3 STUFFED ANIMALS\n8 HIDE / 9 HOST",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_audience",
+              "kind": "duck",
+              "x": 520,
+              "y": 650,
+              "text": "DUCK",
+              "author": "nemi"
+            },
+            {
+              "id": "bear_audience",
+              "kind": "bear",
+              "x": 960,
+              "y": 610,
+              "text": "BEAR",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_audience",
+              "kind": "rabbit",
+              "x": 1430,
+              "y": 610,
+              "text": "RABBIT",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_review",
+              "kind": "poster",
+              "x": 300,
+              "y": 290,
+              "text": "DUCK REVIEW\nMORE BREAD",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "assembly_stage_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_stage_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 144,
+          "yaw": 0
+        },
+        {
+          "at": 150.4,
+          "yaw": 0
+        },
+        {
+          "at": 153.6,
+          "yaw": 0
+        },
+        {
+          "at": 163.2,
+          "yaw": 0
+        },
+        {
+          "at": 166.4,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 64,
+      "environment_events": [],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "6  ASSEMBLY REACHED",
+        "subtitle": "Press 7 to check the audience."
+      },
+      "review_camera_beats": [
+        {
+          "at": 148.07,
+          "yaw": -17,
+          "pitch": 4,
+          "fov": 46,
+          "duration": 0.3,
+          "intent": "Let familiar confidence return"
+        },
+        {
+          "at": 156.23,
+          "yaw": -17,
+          "pitch": 8,
+          "fov": 38,
+          "duration": 0.18,
+          "intent": "The simple greeting defeats her"
+        },
+        {
+          "at": 160.77,
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Give the audience investigation space"
+        }
+      ]
+    },
+    {
+      "id": "audience_choice",
+      "start": 168,
+      "end": 192,
+      "location": "assembly",
+      "review_yaw": 0,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "assembly_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "microphone",
+              "kind": "microphone",
+              "x": 1650,
+              "y": 685,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "assembly_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "duck_seat",
+              "kind": "bench",
+              "x": 520,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_seat",
+              "kind": "bench",
+              "x": 1430,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_bench",
+              "kind": "bench",
+              "x": 960,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "audience_notice",
+              "kind": "clue",
+              "x": 1000,
+              "y": 400,
+              "text": "REHEARSAL\n3 STUFFED ANIMALS\n8 HIDE / 9 HOST",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_audience",
+              "kind": "duck",
+              "x": 520,
+              "y": 650,
+              "text": "DUCK",
+              "author": "nemi"
+            },
+            {
+              "id": "bear_audience",
+              "kind": "bear",
+              "x": 960,
+              "y": 610,
+              "text": "BEAR",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_audience",
+              "kind": "rabbit",
+              "x": 1430,
+              "y": 610,
+              "text": "RABBIT",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_review",
+              "kind": "poster",
+              "x": 300,
+              "y": 290,
+              "text": "DUCK REVIEW\nMORE BREAD",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "assembly_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 168,
+          "yaw": 0
+        },
+        {
+          "at": 174.4,
+          "yaw": 0
+        },
+        {
+          "at": 177.6,
+          "yaw": 0
+        },
+        {
+          "at": 187.2,
+          "yaw": 0
+        },
+        {
+          "at": 190.4,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 64,
+      "environment_events": [],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "7  HIDE OR HOST",
+        "subtitle": "Look behind Nemi. Choose 8 or 9."
+      },
+      "review_camera_beats": [
+        {
+          "at": 171.6,
+          "yaw": 180,
+          "pitch": 0,
+          "fov": 74,
+          "duration": 0.65,
+          "intent": "Turn the whole view to the real toy audience; hold the initial receipt before reframing"
+        },
+        {
+          "at": 181.31,
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 39,
+          "duration": 0.25,
+          "intent": "Return to the suspicious duck reaction"
+        },
+        {
+          "at": 183.19,
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 66,
+          "duration": 0.4,
+          "intent": "Offer the last decision in context"
+        }
+      ]
+    },
+    {
+      "id": "hiding_result",
+      "start": 192,
+      "end": 216,
+      "location": "assembly",
+      "review_yaw": 0,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "assembly_0_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_0_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "microphone",
+              "kind": "microphone",
+              "x": 1650,
+              "y": 685,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "assembly_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "duck_seat",
+              "kind": "bench",
+              "x": 520,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_seat",
+              "kind": "bench",
+              "x": 1430,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_2_bench",
+              "kind": "bench",
+              "x": 960,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "audience_notice",
+              "kind": "clue",
+              "x": 1000,
+              "y": 400,
+              "text": "REHEARSAL\n3 STUFFED ANIMALS\n8 HIDE / 9 HOST",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_audience",
+              "kind": "duck",
+              "x": 520,
+              "y": 650,
+              "text": "DUCK",
+              "author": "nemi"
+            },
+            {
+              "id": "bear_audience",
+              "kind": "bear",
+              "x": 960,
+              "y": 610,
+              "text": "BEAR",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_audience",
+              "kind": "rabbit",
+              "x": 1430,
+              "y": 610,
+              "text": "RABBIT",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_review",
+              "kind": "poster",
+              "x": 300,
+              "y": 290,
+              "text": "DUCK REVIEW\nMORE BREAD",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "assembly_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "assembly_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 192,
+          "yaw": 0
+        },
+        {
+          "at": 198.4,
+          "yaw": 0
+        },
+        {
+          "at": 201.6,
+          "yaw": 0
+        },
+        {
+          "at": 211.2,
+          "yaw": 0
+        },
+        {
+          "at": 214.4,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 64,
+      "environment_events": [],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "8  HIDING ROUTE",
+        "subtitle": "Hiding in plain sight. Press 9."
+      },
+      "review_camera_beats": [
+        {
+          "at": 195.6,
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 72,
+          "duration": 0.3,
+          "intent": "Prove the whole body is planted and frozen; hold the initial receipt before reframing"
+        },
+        {
+          "at": 201.97,
+          "yaw": -17,
+          "pitch": 8,
+          "fov": 38,
+          "duration": 0.28,
+          "intent": "Only the eyes betray the hiding plan"
+        },
+        {
+          "at": 208.43,
+          "yaw": -17,
+          "pitch": 2,
+          "fov": 54,
+          "duration": 0.3,
+          "intent": "Release the failed freeze"
+        }
+      ]
+    },
+    {
+      "id": "stage_result",
+      "start": 216,
+      "end": 240,
+      "location": "final_rehearsal",
+      "review_yaw": 0,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "final_rehearsal_0_door",
+              "kind": "door",
+              "x": 1680,
+              "y": 550,
+              "text": "NEMI HERE",
+              "author": "nemi"
+            },
+            {
+              "id": "final_rehearsal_0_clock",
+              "kind": "clock",
+              "x": 280,
+              "y": 210,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "final_rehearsal_0_bench",
+              "kind": "bench",
+              "x": 1320,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "microphone",
+              "kind": "microphone",
+              "x": 950,
+              "y": 685,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "pudding_date_receipt",
+              "kind": "board",
+              "x": 1320,
+              "y": 560,
+              "text": "FREE PUDDING\nLAST FRIDAY",
+              "author": "nemi",
+              "accent": "#dce0d6"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "final_rehearsal_1_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM B",
+              "author": "nemi"
+            },
+            {
+              "id": "final_rehearsal_1_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "duck_seat",
+              "kind": "bench",
+              "x": 520,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_seat",
+              "kind": "bench",
+              "x": 1430,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "final_rehearsal_2_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "EXIT",
+              "author": "nemi"
+            },
+            {
+              "id": "final_rehearsal_2_bench",
+              "kind": "bench",
+              "x": 960,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            },
+            {
+              "id": "audience_notice",
+              "kind": "clue",
+              "x": 1000,
+              "y": 400,
+              "text": "REHEARSAL\n3 STUFFED ANIMALS\n8 HIDE / 9 HOST",
+              "accent": "#ad5e69",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_audience",
+              "kind": "duck",
+              "x": 520,
+              "y": 650,
+              "text": "DUCK",
+              "author": "nemi"
+            },
+            {
+              "id": "bear_audience",
+              "kind": "bear",
+              "x": 960,
+              "y": 610,
+              "text": "BEAR",
+              "author": "nemi"
+            },
+            {
+              "id": "rabbit_audience",
+              "kind": "rabbit",
+              "x": 1430,
+              "y": 610,
+              "text": "RABBIT",
+              "author": "nemi"
+            },
+            {
+              "id": "duck_review",
+              "kind": "poster",
+              "x": 300,
+              "y": 290,
+              "text": "DUCK REVIEW\nMORE BREAD",
+              "author": "nemi"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "final_rehearsal_3_door",
+              "kind": "door",
+              "x": 1450,
+              "y": 550,
+              "text": "ROOM A",
+              "author": "nemi"
+            },
+            {
+              "id": "final_rehearsal_3_bench",
+              "kind": "bench",
+              "x": 920,
+              "y": 820,
+              "text": "",
+              "author": "nemi"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 216,
+          "yaw": 0
+        },
+        {
+          "at": 222.4,
+          "yaw": 0
+        },
+        {
+          "at": 225.6,
+          "yaw": 0
+        },
+        {
+          "at": 235.2,
+          "yaw": 0
+        },
+        {
+          "at": 238.4,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 64,
+      "environment_events": [],
+      "entry_card": {
+        "duration": 3.5,
+        "title": "9  ON STAGE",
+        "subtitle": "Press 0 to play again."
+      },
+      "review_camera_beats": [
+        {
+          "at": 224.19,
+          "yaw": 180,
+          "pitch": 0,
+          "fov": 65,
+          "duration": 0.5,
+          "intent": "Check the unmoving critic"
+        },
+        {
+          "at": 227.45,
+          "yaw": -17,
+          "pitch": 4,
+          "fov": 48,
+          "duration": 0.35,
+          "intent": "Return to a modest recovery"
+        },
+        {
+          "at": 228.65,
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 41,
+          "duration": 0.3,
+          "intent": "Keep the gratitude personal"
+        },
+        {
+          "at": 230.47,
+          "yaw": 20,
+          "pitch": 0,
+          "fov": 57,
+          "duration": 0.4,
+          "intent": "Read the actual old date"
+        },
+        {
+          "at": 232.33,
+          "yaw": -17,
+          "pitch": 7,
+          "fov": 40,
+          "duration": 0.2,
+          "intent": "Hold the final realization"
+        },
+        {
+          "at": 236.93,
+          "yaw": 145,
+          "pitch": 8,
+          "fov": 48,
+          "duration": 0.4,
+          "intent": "Use the final quiet hold for the duck review and sandwich callback"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "mode": "youtube_digits",
+    "key_targets": [
+      {
+        "key": 0,
+        "chapter": "practice"
+      },
+      {
+        "key": 1,
+        "chapter": "badge_choice"
+      },
+      {
+        "key": 2,
+        "chapter": "sandwich_result"
+      },
+      {
+        "key": 3,
+        "chapter": "badge_result"
+      },
+      {
+        "key": 4,
+        "chapter": "notice_choice"
+      },
+      {
+        "key": 5,
+        "chapter": "pudding_result"
+      },
+      {
+        "key": 6,
+        "chapter": "assembly_result"
+      },
+      {
+        "key": 7,
+        "chapter": "audience_choice"
+      },
+      {
+        "key": 8,
+        "chapter": "hiding_result"
+      },
+      {
+        "key": 9,
+        "chapter": "stage_result"
+      }
+    ]
+  },
+  "revision": "r9",
+  "episode_id": "episode_001",
+  "media_basename": "NEMI_Playable_EP001_r9_2160x1080_360_REVIEW.mp4",
+  "interaction_scenes": [
+    {
+      "id": "practice",
+      "start": 0,
+      "end": 24,
+      "objective": "Press 1 to open the badge round.",
+      "choices": [
+        {
+          "key": 1,
+          "label": "Start: badge round",
+          "chapter": "badge_choice"
+        }
+      ],
+      "feedback": "PRACTICE: PRESS 1"
+    },
+    {
+      "id": "badge_choice",
+      "start": 24,
+      "end": 48,
+      "objective": "Find the star badge. Choose badge or sandwich.",
+      "choices": [
+        {
+          "key": 2,
+          "label": "Inspect sandwich",
+          "chapter": "sandwich_result"
+        },
+        {
+          "key": 3,
+          "label": "Use star badge",
+          "chapter": "badge_result"
+        }
+      ],
+      "feedback": "1  BADGE OR LUNCH"
+    },
+    {
+      "id": "sandwich_result",
+      "start": 48,
+      "end": 72,
+      "objective": "Sandwich inspected. Press 3 to use the badge.",
+      "choices": [
+        {
+          "key": 3,
+          "label": "Use star badge",
+          "chapter": "badge_result"
+        }
+      ],
+      "feedback": "2  SANDWICH ROUTE"
+    },
+    {
+      "id": "badge_result",
+      "start": 72,
+      "end": 96,
+      "objective": "Badge found. Press 4 for the noticeboard.",
+      "choices": [
+        {
+          "key": 4,
+          "label": "Choose the room",
+          "chapter": "notice_choice"
+        }
+      ],
+      "feedback": "3  BADGE FOUND"
+    },
+    {
+      "id": "notice_choice",
+      "start": 96,
+      "end": 120,
+      "objective": "Choose the new assembly notice or the old pudding notice.",
+      "choices": [
+        {
+          "key": 5,
+          "label": "Try pudding room",
+          "chapter": "pudding_result"
+        },
+        {
+          "key": 6,
+          "label": "Go to assembly",
+          "chapter": "assembly_result"
+        }
+      ],
+      "feedback": "4  CHOOSE THE ROOM"
+    },
+    {
+      "id": "pudding_result",
+      "start": 120,
+      "end": 144,
+      "objective": "Pudding detour. Press 6 to go to assembly.",
+      "choices": [
+        {
+          "key": 6,
+          "label": "Go to assembly",
+          "chapter": "assembly_result"
+        }
+      ],
+      "feedback": "5  PUDDING ROUTE"
+    },
+    {
+      "id": "assembly_result",
+      "start": 144,
+      "end": 168,
+      "objective": "Assembly reached. Press 7 for the final choice.",
+      "choices": [
+        {
+          "key": 7,
+          "label": "Make the final choice",
+          "chapter": "audience_choice"
+        }
+      ],
+      "feedback": "6  ASSEMBLY REACHED"
+    },
+    {
+      "id": "audience_choice",
+      "start": 168,
+      "end": 192,
+      "objective": "Look behind Nemi. Choose hiding or the microphone.",
+      "choices": [
+        {
+          "key": 8,
+          "label": "Hide in plain sight",
+          "chapter": "hiding_result"
+        },
+        {
+          "key": 9,
+          "label": "Take the microphone",
+          "chapter": "stage_result"
+        }
+      ],
+      "feedback": "7  HIDE OR HOST"
+    },
+    {
+      "id": "hiding_result",
+      "start": 192,
+      "end": 216,
+      "objective": "Hiding in plain sight. Press 9 for the microphone.",
+      "choices": [
+        {
+          "key": 9,
+          "label": "Take the microphone",
+          "chapter": "stage_result"
+        }
+      ],
+      "feedback": "8  HIDING ROUTE"
+    },
+    {
+      "id": "stage_result",
+      "start": 216,
+      "end": 240,
+      "objective": "You reached the ending. Press 0 to play again.",
+      "choices": [
+        {
+          "key": 0,
+          "label": "Play again",
+          "chapter": "practice"
+        }
+      ],
+      "feedback": "9  ON STAGE"
+    }
+  ]
+}

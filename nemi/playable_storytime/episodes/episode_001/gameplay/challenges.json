@@ -1,0 +1,381 @@
+{
+  "duration": 240,
+  "automatic_state": false,
+  "challenges": [
+    {
+      "id": "badge",
+      "narrative_purpose": "Recover the badge that creates the hosting problem.",
+      "start": 24,
+      "end": 72,
+      "objective": "Find the star badge. Choose badge or sandwich.",
+      "clue_id": "star_badge",
+      "inputs": [
+        "desktop WASD",
+        "mouse drag",
+        "YouTube app swipe",
+        "pause",
+        "desktop number keys 0–9",
+        "mobile numbered chapters"
+      ],
+      "solution": "3 USE BADGE",
+      "instructions": "Find the star badge. Choose badge or sandwich.",
+      "visual_change": "Native viewpoint rotation reveals the clue; a digit key selects an authored story scene.",
+      "success": "The named intended route gives an immediate outcome receipt from every viewing direction.",
+      "hints": [],
+      "retry_method": "Press 1 to return to this round; each result offers a single forward continuation.",
+      "valid_destinations": [
+        72
+      ],
+      "alternative_outcomes": [
+        48
+      ],
+      "do_nothing": "Nemi previews the optional silly detour, then the main story continues. No detected choice is claimed.",
+      "wrong_answer": "The explicitly named detour gives a joke and a single clear continuation.",
+      "state_tracking": false,
+      "desktop": true,
+      "mobile": "Current YouTube app: swipe to look; choose matching numbered chapter. Chapters/channel availability and upload test pending.",
+      "device_limitations": [
+        "Click the desktop player before using top-row number keys. K resumes if paused.",
+        "Number keys are desktop controls; mobile uses numbered chapters when available.",
+        "TV/controller behavior unverified. Captions are optional conventional subtitles."
+      ],
+      "solution_key": 3,
+      "retry_key": 1,
+      "alternative_keys": [
+        2
+      ]
+    },
+    {
+      "id": "notice",
+      "narrative_purpose": "Distinguish corrected evidence from a confident outdated arrow.",
+      "start": 96,
+      "end": 144,
+      "objective": "Choose the new assembly notice or the old pudding notice.",
+      "clue_id": "star_correction",
+      "inputs": [
+        "desktop WASD",
+        "mouse drag",
+        "YouTube app swipe",
+        "pause",
+        "desktop number keys 0–9",
+        "mobile numbered chapters"
+      ],
+      "solution": "6 ASSEMBLY",
+      "instructions": "Choose the new assembly notice or the old pudding notice.",
+      "visual_change": "Native viewpoint rotation reveals the clue; a digit key selects an authored story scene.",
+      "success": "The named intended route gives an immediate outcome receipt from every viewing direction.",
+      "hints": [],
+      "retry_method": "Press 4 to return to this round; each result offers a single forward continuation.",
+      "valid_destinations": [
+        144
+      ],
+      "alternative_outcomes": [
+        120
+      ],
+      "do_nothing": "Nemi previews the optional silly detour, then the main story continues. No detected choice is claimed.",
+      "wrong_answer": "The explicitly named detour gives a joke and a single clear continuation.",
+      "state_tracking": false,
+      "desktop": true,
+      "mobile": "Current YouTube app: swipe to look; choose matching numbered chapter. Chapters/channel availability and upload test pending.",
+      "device_limitations": [
+        "Click the desktop player before using top-row number keys. K resumes if paused.",
+        "Number keys are desktop controls; mobile uses numbered chapters when available.",
+        "TV/controller behavior unverified. Captions are optional conventional subtitles."
+      ],
+      "solution_key": 6,
+      "retry_key": 4,
+      "alternative_keys": [
+        5
+      ]
+    },
+    {
+      "id": "audience",
+      "narrative_purpose": "Discover the harmless audience and release stage fright.",
+      "start": 168,
+      "end": 216,
+      "objective": "Look behind Nemi. Choose hiding or the microphone.",
+      "clue_id": "audience_notice",
+      "inputs": [
+        "desktop WASD",
+        "mouse drag",
+        "YouTube app swipe",
+        "pause",
+        "desktop number keys 0–9",
+        "mobile numbered chapters"
+      ],
+      "solution": "9 HOST",
+      "instructions": "Look behind Nemi. Choose hiding or the microphone.",
+      "visual_change": "Native viewpoint rotation reveals the clue; a digit key selects an authored story scene.",
+      "success": "The named intended route gives an immediate outcome receipt from every viewing direction.",
+      "hints": [],
+      "retry_method": "Press 7 to return to this round; each result offers a single forward continuation.",
+      "valid_destinations": [
+        216
+      ],
+      "alternative_outcomes": [
+        192
+      ],
+      "do_nothing": "Nemi previews the optional silly detour, then the main story continues. No detected choice is claimed.",
+      "wrong_answer": "The explicitly named detour gives a joke and a single clear continuation.",
+      "state_tracking": false,
+      "desktop": true,
+      "mobile": "Current YouTube app: swipe to look; choose matching numbered chapter. Chapters/channel availability and upload test pending.",
+      "device_limitations": [
+        "Click the desktop player before using top-row number keys. K resumes if paused.",
+        "Number keys are desktop controls; mobile uses numbered chapters when available.",
+        "TV/controller behavior unverified. Captions are optional conventional subtitles."
+      ],
+      "solution_key": 9,
+      "retry_key": 7,
+      "alternative_keys": [
+        8
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "passive",
+      "times": [
+        0,
+        24,
+        48,
+        72,
+        96,
+        120,
+        144,
+        168,
+        192,
+        216
+      ]
+    },
+    {
+      "id": "main",
+      "times": [
+        0,
+        24,
+        72,
+        96,
+        144,
+        168,
+        216
+      ]
+    },
+    {
+      "id": "all_silly",
+      "times": [
+        0,
+        24,
+        48,
+        72,
+        96,
+        120,
+        144,
+        168,
+        192,
+        216
+      ]
+    }
+  ],
+  "navigation": {
+    "mode": "youtube_digits",
+    "key_targets": [
+      {
+        "key": 0,
+        "chapter": "practice"
+      },
+      {
+        "key": 1,
+        "chapter": "badge_choice"
+      },
+      {
+        "key": 2,
+        "chapter": "sandwich_result"
+      },
+      {
+        "key": 3,
+        "chapter": "badge_result"
+      },
+      {
+        "key": 4,
+        "chapter": "notice_choice"
+      },
+      {
+        "key": 5,
+        "chapter": "pudding_result"
+      },
+      {
+        "key": 6,
+        "chapter": "assembly_result"
+      },
+      {
+        "key": 7,
+        "chapter": "audience_choice"
+      },
+      {
+        "key": 8,
+        "chapter": "hiding_result"
+      },
+      {
+        "key": 9,
+        "chapter": "stage_result"
+      }
+    ]
+  },
+  "interaction_scenes": [
+    {
+      "id": "practice",
+      "start": 0,
+      "end": 24,
+      "objective": "Press 1 to open the badge round.",
+      "choices": [
+        {
+          "key": 1,
+          "label": "Start: badge round",
+          "chapter": "badge_choice"
+        }
+      ],
+      "feedback": "PRACTICE: PRESS 1"
+    },
+    {
+      "id": "badge_choice",
+      "start": 24,
+      "end": 48,
+      "objective": "Find the star badge. Choose badge or sandwich.",
+      "choices": [
+        {
+          "key": 2,
+          "label": "Inspect sandwich",
+          "chapter": "sandwich_result"
+        },
+        {
+          "key": 3,
+          "label": "Use star badge",
+          "chapter": "badge_result"
+        }
+      ],
+      "feedback": "1  BADGE OR LUNCH"
+    },
+    {
+      "id": "sandwich_result",
+      "start": 48,
+      "end": 72,
+      "objective": "Sandwich inspected. Press 3 to use the badge.",
+      "choices": [
+        {
+          "key": 3,
+          "label": "Use star badge",
+          "chapter": "badge_result"
+        }
+      ],
+      "feedback": "2  SANDWICH ROUTE"
+    },
+    {
+      "id": "badge_result",
+      "start": 72,
+      "end": 96,
+      "objective": "Badge found. Press 4 for the noticeboard.",
+      "choices": [
+        {
+          "key": 4,
+          "label": "Choose the room",
+          "chapter": "notice_choice"
+        }
+      ],
+      "feedback": "3  BADGE FOUND"
+    },
+    {
+      "id": "notice_choice",
+      "start": 96,
+      "end": 120,
+      "objective": "Choose the new assembly notice or the old pudding notice.",
+      "choices": [
+        {
+          "key": 5,
+          "label": "Try pudding room",
+          "chapter": "pudding_result"
+        },
+        {
+          "key": 6,
+          "label": "Go to assembly",
+          "chapter": "assembly_result"
+        }
+      ],
+      "feedback": "4  CHOOSE THE ROOM"
+    },
+    {
+      "id": "pudding_result",
+      "start": 120,
+      "end": 144,
+      "objective": "Pudding detour. Press 6 to go to assembly.",
+      "choices": [
+        {
+          "key": 6,
+          "label": "Go to assembly",
+          "chapter": "assembly_result"
+        }
+      ],
+      "feedback": "5  PUDDING ROUTE"
+    },
+    {
+      "id": "assembly_result",
+      "start": 144,
+      "end": 168,
+      "objective": "Assembly reached. Press 7 for the final choice.",
+      "choices": [
+        {
+          "key": 7,
+          "label": "Make the final choice",
+          "chapter": "audience_choice"
+        }
+      ],
+      "feedback": "6  ASSEMBLY REACHED"
+    },
+    {
+      "id": "audience_choice",
+      "start": 168,
+      "end": 192,
+      "objective": "Look behind Nemi. Choose hiding or the microphone.",
+      "choices": [
+        {
+          "key": 8,
+          "label": "Hide in plain sight",
+          "chapter": "hiding_result"
+        },
+        {
+          "key": 9,
+          "label": "Take the microphone",
+          "chapter": "stage_result"
+        }
+      ],
+      "feedback": "7  HIDE OR HOST"
+    },
+    {
+      "id": "hiding_result",
+      "start": 192,
+      "end": 216,
+      "objective": "Hiding in plain sight. Press 9 for the microphone.",
+      "choices": [
+        {
+          "key": 9,
+          "label": "Take the microphone",
+          "chapter": "stage_result"
+        }
+      ],
+      "feedback": "8  HIDING ROUTE"
+    },
+    {
+      "id": "stage_result",
+      "start": 216,
+      "end": 240,
+      "objective": "You reached the ending. Press 0 to play again.",
+      "choices": [
+        {
+          "key": 0,
+          "label": "Play again",
+          "chapter": "practice"
+        }
+      ],
+      "feedback": "9  ON STAGE"
+    }
+  ]
+}

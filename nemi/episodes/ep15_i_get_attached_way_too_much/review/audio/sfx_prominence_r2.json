@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "scene_sha256": "6551909d2f1944869cb1f18a06220e12be5f7a90f37073f63de159b3fefc758b",
+  "scene_sha256": "81d448841c54b8ae707ce43ec14c45d53e6592b89eeeb6a78e83e695e3c96fd6",
   "narration_sha256": "af800db1867104e5f089a04f0623a73e1069584e3337390b745bbe482fc1ef14",
   "timing_sha256": "f578fcdaf7766a45ea89443cafc671d6994c3f07951573cfdbd3030062e8318f",
   "shared_audio_mixer_sha256": "d96aa23c4a4cc0ca379412b8f4255baa694393d4acb4efeb1efa727e1c0e94b3",
-  "shared_mix_sha256": "d50b3edbcb059831b4cf2d73e4cc54e9e283345fdb13bb3c12897ef35dfa584c",
+  "shared_mix_sha256": "3f4585bcfb2a9b0b9e43ee4186bdbc3ecd77907b46a7b72e1818ec40ffd4a277",
   "source_mutation": false,
   "mixed_audio_saved": false,
   "method": {
@@ -21,13 +21,9 @@
       "integrated_lufs": -22.3,
       "true_peak_dbfs": -1.5
     },
-    "rms_dbfs": -26.684,
+    "rms_dbfs": -26.693,
     "sample_peak_dbfs": -1.49,
     "clip_samples": 0,
-    "stem_reconstruction_difference": {
-      "rms_dbfs": -54.879,
-      "sample_peak_dbfs": -10.249
-    },
     "exact_floating_stem_reconstruction_difference": {
       "rms_dbfs": -240.0,
       "sample_peak_dbfs": -240.0
@@ -42,21 +38,21 @@
       "configured_at": 7.137037,
       "shared_mixer_onset_rounded_ms": 7.137,
       "configured_duration": 0.325,
-      "decoded_excerpt_duration": 0.3250208333333333,
-      "actual_end_at": 7.462020833333333,
+      "decoded_excerpt_duration": 0.325,
+      "actual_end_at": 7.462,
       "gain_db": -10,
       "final_total_source_gain_db": -5.3,
       "sfx_final_level": {
-        "rms_dbfs": -29.157,
+        "rms_dbfs": -29.156,
         "sample_peak_dbfs": -9.899
       },
       "voice_same_window": {
-        "rms_dbfs": -27.188,
+        "rms_dbfs": -27.187,
         "sample_peak_dbfs": -11.873
       },
       "sfx_minus_voice_window_rms_db": -1.969,
       "active_sfx_50ms_threshold_dbfs": -45,
-      "active_sfx_fraction": 0.923,
+      "active_sfx_fraction": 0.9231,
       "active_sfx_level": {
         "rms_dbfs": -28.809,
         "sample_peak_dbfs": -9.899
@@ -146,8 +142,8 @@
       "configured_at": 15.388889,
       "shared_mixer_onset_rounded_ms": 15.389,
       "configured_duration": 0.574688,
-      "decoded_excerpt_duration": 0.5747083333333334,
-      "actual_end_at": 15.963708333333333,
+      "decoded_excerpt_duration": 0.5746875,
+      "actual_end_at": 15.963687499999999,
       "gain_db": -14,
       "final_total_source_gain_db": -9.3,
       "sfx_final_level": {
@@ -155,10 +151,10 @@
         "sample_peak_dbfs": -11.598
       },
       "voice_same_window": {
-        "rms_dbfs": -28.207,
+        "rms_dbfs": -28.206,
         "sample_peak_dbfs": -10.853
       },
-      "sfx_minus_voice_window_rms_db": -0.309,
+      "sfx_minus_voice_window_rms_db": -0.31,
       "active_sfx_50ms_threshold_dbfs": -45,
       "active_sfx_fraction": 0.435,
       "active_sfx_level": {
@@ -208,8 +204,8 @@
       "configured_at": 25.87037,
       "shared_mixer_onset_rounded_ms": 25.87,
       "configured_duration": 0.365688,
-      "decoded_excerpt_duration": 0.36570833333333336,
-      "actual_end_at": 26.235708333333335,
+      "decoded_excerpt_duration": 0.3656875,
+      "actual_end_at": 26.2356875,
       "gain_db": -7,
       "final_total_source_gain_db": -2.3,
       "sfx_final_level": {
@@ -265,8 +261,8 @@
       "configured_at": 38.68,
       "shared_mixer_onset_rounded_ms": 38.68,
       "configured_duration": 2.4555,
-      "decoded_excerpt_duration": 2.4555208333333334,
-      "actual_end_at": 41.13552083333333,
+      "decoded_excerpt_duration": 2.4555,
+      "actual_end_at": 41.1355,
       "gain_db": -10,
       "final_total_source_gain_db": -5.3,
       "sfx_final_level": {
@@ -503,21 +499,21 @@
       "configured_at": 119.017778,
       "shared_mixer_onset_rounded_ms": 119.018,
       "configured_duration": 0.769,
-      "decoded_excerpt_duration": 0.7686458333333334,
-      "actual_end_at": 119.78664583333334,
+      "decoded_excerpt_duration": 0.769,
+      "actual_end_at": 119.787,
       "gain_db": -7,
       "final_total_source_gain_db": -2.3,
       "sfx_final_level": {
-        "rms_dbfs": -32.381,
+        "rms_dbfs": -32.383,
         "sample_peak_dbfs": -1.471
       },
       "voice_same_window": {
-        "rms_dbfs": -26.395,
+        "rms_dbfs": -26.397,
         "sample_peak_dbfs": -10.765
       },
       "sfx_minus_voice_window_rms_db": -5.986,
       "active_sfx_50ms_threshold_dbfs": -45,
-      "active_sfx_fraction": 0.3903,
+      "active_sfx_fraction": 0.3901,
       "active_sfx_level": {
         "rms_dbfs": -28.337,
         "sample_peak_dbfs": -1.471
@@ -544,7 +540,7 @@
         }
       ],
       "shared_mix_same_window": {
-        "rms_dbfs": -25.428,
+        "rms_dbfs": -25.43,
         "sample_peak_dbfs": -1.49
       }
     },
@@ -593,52 +589,41 @@
       "event": "less",
       "file": "res://common/audio/sfx/drawing/drawing_pencil_sketch_01.wav",
       "source_sha256": "d12d2f74087fd2aae52e83e5aab812bec44ac282ca63397ad1915eccb7425745",
-      "configured_at": 143.037778,
-      "shared_mixer_onset_rounded_ms": 143.038,
-      "configured_duration": 1.868,
-      "decoded_excerpt_duration": 1.8680208333333332,
-      "actual_end_at": 144.90602083333334,
+      "configured_at": 143.687778,
+      "shared_mixer_onset_rounded_ms": 143.688,
+      "configured_duration": 1.2,
+      "decoded_excerpt_duration": 1.2,
+      "actual_end_at": 144.88799999999998,
       "gain_db": -18,
       "final_total_source_gain_db": -13.3,
       "sfx_final_level": {
-        "rms_dbfs": -31.326,
-        "sample_peak_dbfs": -15.281
+        "rms_dbfs": -32.915,
+        "sample_peak_dbfs": -17.828
       },
       "voice_same_window": {
-        "rms_dbfs": -27.829,
-        "sample_peak_dbfs": -8.971
+        "rms_dbfs": -39.083,
+        "sample_peak_dbfs": -18.041
       },
-      "sfx_minus_voice_window_rms_db": -3.497,
+      "sfx_minus_voice_window_rms_db": 6.168,
       "active_sfx_50ms_threshold_dbfs": -45,
-      "active_sfx_fraction": 0.9368,
+      "active_sfx_fraction": 0.9583,
       "active_sfx_level": {
-        "rms_dbfs": -31.049,
-        "sample_peak_dbfs": -15.281
+        "rms_dbfs": -32.738,
+        "sample_peak_dbfs": -17.828
       },
       "voice_same_active_sfx_windows": {
-        "rms_dbfs": -27.848,
-        "sample_peak_dbfs": -8.971
+        "rms_dbfs": -38.898,
+        "sample_peak_dbfs": -18.041
       },
-      "sfx_minus_voice_active_window_rms_db": -3.201,
+      "sfx_minus_voice_active_window_rms_db": 6.16,
       "sample_above_minus45_extent": [
-        143.050313,
-        144.853229
+        143.700333,
+        144.887979
       ],
-      "overlapping_measured_narration_words": [
-        {
-          "word": "matter",
-          "start": 143.037778,
-          "end": 143.297778
-        },
-        {
-          "word": "less.",
-          "start": 143.297778,
-          "end": 143.557778
-        }
-      ],
+      "overlapping_measured_narration_words": [],
       "shared_mix_same_window": {
-        "rms_dbfs": -26.206,
-        "sample_peak_dbfs": -8.821
+        "rms_dbfs": -31.966,
+        "sample_peak_dbfs": -15.817
       }
     },
     {
@@ -648,21 +633,21 @@
       "configured_at": 147.157778,
       "shared_mixer_onset_rounded_ms": 147.158,
       "configured_duration": 0.266,
-      "decoded_excerpt_duration": 0.2627083333333333,
-      "actual_end_at": 147.42070833333332,
+      "decoded_excerpt_duration": 0.266,
+      "actual_end_at": 147.42399999999998,
       "gain_db": -10,
       "final_total_source_gain_db": -5.3,
       "sfx_final_level": {
-        "rms_dbfs": -29.311,
+        "rms_dbfs": -29.365,
         "sample_peak_dbfs": -6.242
       },
       "voice_same_window": {
-        "rms_dbfs": -24.316,
+        "rms_dbfs": -24.29,
         "sample_peak_dbfs": -14.304
       },
-      "sfx_minus_voice_window_rms_db": -4.995,
+      "sfx_minus_voice_window_rms_db": -5.075,
       "active_sfx_50ms_threshold_dbfs": -45,
-      "active_sfx_fraction": 0.1903,
+      "active_sfx_fraction": 0.188,
       "active_sfx_level": {
         "rms_dbfs": -22.128,
         "sample_peak_dbfs": -6.242
@@ -684,7 +669,7 @@
         }
       ],
       "shared_mix_same_window": {
-        "rms_dbfs": -23.562,
+        "rms_dbfs": -23.549,
         "sample_peak_dbfs": -7.309
       }
     }
@@ -728,7 +713,7 @@
           "event": "busy",
           "overlap": [
             40.12,
-            41.135521
+            41.1355
           ],
           "level_during_overlap": {
             "rms_dbfs": -70.105,
@@ -810,53 +795,41 @@
       "start": 142.917778,
       "end": 143.557778,
       "intent": "Palette protects key words from drawing sound.",
-      "sfx_overlaps": [
-        {
-          "event": "less",
-          "overlap": [
-            143.038,
-            143.557778
-          ],
-          "level_during_overlap": {
-            "rms_dbfs": -33.681,
-            "sample_peak_dbfs": -20.532
-          }
-        }
-      ],
+      "sfx_overlaps": [],
       "sfx_stem_level": {
-        "rms_dbfs": -34.584,
-        "sample_peak_dbfs": -20.532
+        "rms_dbfs": -240.0,
+        "sample_peak_dbfs": -240.0
       },
       "shared_mix_level": {
-        "rms_dbfs": -21.966,
-        "sample_peak_dbfs": -8.821
+        "rms_dbfs": -22.233,
+        "sample_peak_dbfs": -8.972
       }
     },
     {
-      "name": "i_matter_less_following_hold",
+      "name": "authored_correction_after_matter_less",
       "start": 143.557778,
       "end": 145.357778,
-      "intent": "Palette asks realization held in silence.",
+      "intent": "Revised root direction: first finish key words, then live crossout/still-me revision with finite pencil sound. This is an authored action window rather than an emotional silence requirement.",
       "sfx_overlaps": [
         {
           "event": "less",
           "overlap": [
-            143.557778,
-            144.906021
+            143.688,
+            144.888
           ],
           "level_during_overlap": {
-            "rms_dbfs": -30.676,
-            "sample_peak_dbfs": -15.281
+            "rms_dbfs": -32.915,
+            "sample_peak_dbfs": -17.828
           }
         }
       ],
       "sfx_stem_level": {
-        "rms_dbfs": -31.931,
-        "sample_peak_dbfs": -15.281
+        "rms_dbfs": -34.676,
+        "sample_peak_dbfs": -17.828
       },
       "shared_mix_level": {
-        "rms_dbfs": -31.193,
-        "sample_peak_dbfs": -15.282
+        "rms_dbfs": -33.367,
+        "sample_peak_dbfs": -15.817
       }
     },
     {
@@ -873,25 +846,69 @@
         "rms_dbfs": -35.979,
         "sample_peak_dbfs": -15.781
       }
+    },
+    {
+      "name": "quiet_after_final_correction_before_next_sentence",
+      "start": 144.888,
+      "end": 145.477778,
+      "intent": "Allow revised ink and pencil cue to settle before the next narration sentence.",
+      "sfx_stem_level": {
+        "rms_dbfs": -84.832,
+        "sample_peak_dbfs": -42.139
+      },
+      "shared_mix_level": {
+        "rms_dbfs": -84.834,
+        "sample_peak_dbfs": -42.144
+      },
+      "sfx_overlaps": []
     }
   ],
   "acoustic_audition_performed": false,
   "acoustic_review_status": "pending: audio playback tool returns unsupported to the production agents; no auditory perception claimed",
   "findings": [
+    "Corrected pencil cue starts after matter-less words, has no narration-word overlap, and ends before next sentence.",
     "No SFX cues overlap one another and no narration clips overlap.",
-    "Storage bruh occurs wholly after plan and before the next narration sentence.",
-    "Pencil cue less overlaps matter less and its following hold; this is a sound-palette silence conflict, not an inaudibility failure.",
-    "Busy notification file extends into the beginning of I just; inspect active tail measurement before claiming absolute quiet.",
-    "Other specified vulnerable/Neeko/final quiet intervals contain no SFX cues."
+    "Storage bruh remains wholly inside the measured speech gap.",
+    "Busy notification tail under I just stared is extremely quiet; active sound ends earlier.",
+    "Specified hurt/admission, self-conscious sentence, Neeko and final quiet windows remain free of SFX.",
+    "Finite revised pencil drawing intentionally occupies the post-equation action window, followed by a clear pause."
   ],
   "summary": {
-    "cue_active_sfx_minus_voice_db_range_excluding_speech_gap": [
+    "cue_active_sfx_minus_voice_db_range_excluding_speech_gaps": [
       -11.292,
       8.266
     ],
-    "faintest_comparison": "Invitation click is below simultaneous speech; its high transient is numerically present but needs actual audition.",
-    "busy_stare_tail": "Notification residual during I just stared phrase is extremely quiet; its full file extent is not evidence of sustained audible sound.",
-    "required_revision": "Current pencil sound overlaps matter less; root has planned placing the live correction and sound after the protected words.",
-    "root_planned_revision_received": "No scene mutation performed by this QA agent; this report describes the hashed as-found scene."
-  }
+    "faintest_comparison": "Invitation click is below simultaneous speech; its high transient is numerically present but actual audition remains pending.",
+    "silence_conflicts": "Previous pencil overlap resolved by revised post-word timing; no remaining unintended cue overlap with protected key words.",
+    "acoustic_review": "Pending; tools return unsupported audio, so numerical prominence is not claimed as heard audibility."
+  },
+  "corrected_pencil_check": {
+    "configured_at": 143.687778,
+    "shared_mixer_actual_interval": [
+      143.688,
+      144.88799999999998
+    ],
+    "protected_words_end": 143.557778,
+    "margin_after_protected_words": 0.130222,
+    "next_narration_word": {
+      "actor": "nemi",
+      "word": "I",
+      "start": 145.477778,
+      "end": 145.637778
+    },
+    "margin_before_next_narration": 0.589778,
+    "overlapping_narration_words": [],
+    "resolved": true,
+    "purpose": "Finite original pencil recording accompanies revised live correction after the false equation is spoken; sound ends before next sentence. Numeric activity verified, acoustic audition pending."
+  },
+  "sound_plan_record_check": {
+    "sound_plan_sha256": "92b0af404e1eeb3f237b41f2c3866a6061d924007abc91900adfbc8724dfbf77",
+    "recorded_pencil_at": 143.687778,
+    "recorded_pencil_duration": 1.2,
+    "scene_pencil_at": 143.687778,
+    "scene_pencil_duration": 1.2,
+    "matches_scene": true,
+    "note": "Root updated the planning record during this check; final sound-plan at/duration now match the exact corrected scene."
+  },
+  "revision": "Corrected final R2; original as-found report preserved as sfx_prominence_r1_before_correction.json"
 }

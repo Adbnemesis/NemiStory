@@ -1,0 +1,2076 @@
+{
+  "duration": 220,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "the_floor_is_disappearing",
+      "start": 0.0,
+      "end": 22.0,
+      "location": "page_room",
+      "review_yaw": 0,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "giant_eraser",
+              "author": "nemi",
+              "kind": "eraser",
+              "x": 1530,
+              "y": 895,
+              "text": ""
+            },
+            {
+              "id": "page_goal",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 110,
+              "text": "GET ME OFF THE PAGE"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "real_tear",
+              "author": "nemi",
+              "kind": "page_tear",
+              "x": 500,
+              "y": 610,
+              "text": "2  TAKE THE TEAR"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "back_rings",
+              "author": "nemi",
+              "kind": "binder_ring",
+              "x": 440,
+              "y": 510,
+              "text": ""
+            },
+            {
+              "id": "back_pencil",
+              "author": "nemi",
+              "kind": "pencil",
+              "x": 1240,
+              "y": 700,
+              "text": ""
+            },
+            {
+              "id": "drawing_ruler",
+              "author": "nemi",
+              "kind": "ruler",
+              "x": 1200,
+              "y": 905,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "ink_door",
+              "author": "nemi",
+              "kind": "sketch_door",
+              "x": 1420,
+              "y": 610,
+              "text": "1  TRY THE DOOR"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 0.0,
+          "yaw": 0
+        },
+        {
+          "at": 5.866667,
+          "yaw": 0
+        },
+        {
+          "at": 8.8,
+          "yaw": 0
+        },
+        {
+          "at": 17.6,
+          "yaw": 0
+        },
+        {
+          "at": 20.533333,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 68,
+      "environment_events": [
+        {
+          "id": "eraser_cut_world",
+          "kind": "erase_sweep",
+          "object": "giant_eraser",
+          "at": 1.750833,
+          "end": 2.750833,
+          "event": "eraser_cut"
+        }
+      ],
+      "review_camera_beats": [
+        {
+          "at": 0.0,
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0,
+          "intent": "Keep the established spatial anchor into this thought; no front-facing reset."
+        },
+        {
+          "at": 0.320833,
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 9.940833,
+          "yaw": -76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 11.460833,
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 13.780833,
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_wall": 0,
+      "continuity_group": "full_0",
+      "name": "Get me off the page"
+    },
+    {
+      "id": "the_door_was_only_ink",
+      "start": 22.0,
+      "end": 44.0,
+      "location": "page_room",
+      "review_yaw": -76,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "giant_eraser",
+              "author": "nemi",
+              "kind": "eraser",
+              "x": 1530,
+              "y": 895,
+              "text": "",
+              "erased": true
+            },
+            {
+              "id": "page_goal",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 110,
+              "text": "GET ME OFF THE PAGE"
+            },
+            {
+              "id": "recovery_0",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "2 TAKE THE TEAR",
+              "visible_from_event": "door_rewind"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "real_tear",
+              "author": "nemi",
+              "kind": "page_tear",
+              "x": 500,
+              "y": 610,
+              "text": "2  TAKE THE TEAR"
+            },
+            {
+              "id": "recovery_1",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "2 TAKE THE TEAR",
+              "visible_from_event": "door_rewind"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "back_rings",
+              "author": "nemi",
+              "kind": "binder_ring",
+              "x": 440,
+              "y": 510,
+              "text": ""
+            },
+            {
+              "id": "back_pencil",
+              "author": "nemi",
+              "kind": "pencil",
+              "x": 1240,
+              "y": 700,
+              "text": ""
+            },
+            {
+              "id": "drawing_ruler",
+              "author": "nemi",
+              "kind": "ruler",
+              "x": 1200,
+              "y": 905,
+              "text": ""
+            },
+            {
+              "id": "recovery_2",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "2 TAKE THE TEAR",
+              "visible_from_event": "door_rewind"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "ink_door",
+              "author": "nemi",
+              "kind": "sketch_door",
+              "x": 1420,
+              "y": 610,
+              "text": "1  TRY THE DOOR"
+            },
+            {
+              "id": "recovery_3",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "2 TAKE THE TEAR",
+              "visible_from_event": "door_rewind"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 22.0,
+          "yaw": 0
+        },
+        {
+          "at": 27.866667,
+          "yaw": 0
+        },
+        {
+          "at": 30.8,
+          "yaw": -76
+        },
+        {
+          "at": 39.6,
+          "yaw": -76
+        },
+        {
+          "at": 42.533333,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 68,
+      "environment_events": [
+        {
+          "id": "door_flat_world",
+          "kind": "door_flatten",
+          "object": "ink_door",
+          "at": 23.386667,
+          "end": 24.386667,
+          "event": "door_flat"
+        },
+        {
+          "id": "door_rewind_world",
+          "kind": "rewind",
+          "object": "ink_door",
+          "at": 34.066667,
+          "end": 35.166667,
+          "event": "door_rewind"
+        }
+      ],
+      "review_camera_beats": [
+        {
+          "at": 22.0,
+          "yaw": -76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0,
+          "intent": "Keep the established spatial anchor into this thought; no front-facing reset."
+        },
+        {
+          "at": 22.366667,
+          "yaw": -76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 26.586667,
+          "yaw": -92,
+          "pitch": 0,
+          "fov": 50,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 34.066667,
+          "yaw": -76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 35.826667,
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_wall": 3,
+      "continuity_group": "full_1",
+      "name": "The door is only ink",
+      "entry_card": {
+        "duration": 3,
+        "title": "1 DOOR",
+        "subtitle": "The chosen action is in this direction"
+      }
+    },
+    {
+      "id": "there_is_space_beyond",
+      "start": 44.0,
+      "end": 66.0,
+      "location": "page_room",
+      "review_yaw": 76,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "giant_eraser",
+              "author": "nemi",
+              "kind": "eraser",
+              "x": 1530,
+              "y": 895,
+              "text": "",
+              "erased": true
+            },
+            {
+              "id": "page_goal",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 110,
+              "text": "GET ME OFF THE PAGE"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "real_tear",
+              "author": "nemi",
+              "kind": "page_tear",
+              "x": 500,
+              "y": 610,
+              "text": "2  TAKE THE TEAR"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "back_rings",
+              "author": "nemi",
+              "kind": "binder_ring",
+              "x": 440,
+              "y": 510,
+              "text": ""
+            },
+            {
+              "id": "back_pencil",
+              "author": "nemi",
+              "kind": "pencil",
+              "x": 1240,
+              "y": 700,
+              "text": ""
+            },
+            {
+              "id": "drawing_ruler",
+              "author": "nemi",
+              "kind": "ruler",
+              "x": 1200,
+              "y": 905,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "ink_door",
+              "author": "nemi",
+              "kind": "sketch_door",
+              "x": 1420,
+              "y": 610,
+              "text": "1  TRY THE DOOR"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 44.0,
+          "yaw": 0
+        },
+        {
+          "at": 49.866667,
+          "yaw": 0
+        },
+        {
+          "at": 52.8,
+          "yaw": 76
+        },
+        {
+          "at": 61.6,
+          "yaw": 76
+        },
+        {
+          "at": 64.533333,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 68,
+      "environment_events": [
+        {
+          "id": "tear_open_world",
+          "kind": "tear_open",
+          "object": "real_tear",
+          "at": 45.915,
+          "end": 47.115,
+          "event": "tear_open"
+        }
+      ],
+      "review_camera_beats": [
+        {
+          "at": 44.0,
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0,
+          "intent": "Keep the established spatial anchor into this thought; no front-facing reset."
+        },
+        {
+          "at": 44.275,
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 49.755,
+          "yaw": 92,
+          "pitch": 0,
+          "fov": 56,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 55.946667,
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_wall": 1,
+      "continuity_group": "full_2",
+      "name": "A real opening",
+      "entry_card": {
+        "duration": 3,
+        "title": "2 TEAR",
+        "subtitle": "The chosen action is in this direction"
+      }
+    },
+    {
+      "id": "the_missing_bridge",
+      "start": 66.0,
+      "end": 88.0,
+      "location": "gap_room",
+      "review_yaw": 90,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "unfinished_bridge",
+              "author": "nemi",
+              "kind": "sketch_bridge",
+              "x": 1420,
+              "y": 820,
+              "text": "4 RUN ACROSS"
+            },
+            {
+              "id": "bridge_ink_bottle",
+              "author": "nemi",
+              "kind": "ink_bottle",
+              "x": 610,
+              "y": 905,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "real_tear",
+              "author": "nemi",
+              "kind": "page_tear",
+              "x": 500,
+              "y": 610,
+              "text": "",
+              "opened": true
+            },
+            {
+              "id": "gap_landmark",
+              "author": "nemi",
+              "kind": "page_edge",
+              "x": 1240,
+              "y": 840,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "loose_tab",
+              "author": "nemi",
+              "kind": "paper_tab",
+              "x": 500,
+              "y": 837,
+              "text": "5 FOLD THE TAB"
+            },
+            {
+              "id": "real_paper_stack",
+              "author": "nemi",
+              "kind": "paper_stack",
+              "x": 1420,
+              "y": 905,
+              "text": ""
+            },
+            {
+              "id": "stack_paper_clip",
+              "author": "nemi",
+              "kind": "paper_clip",
+              "x": 1440,
+              "y": 745,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "bindings",
+              "author": "nemi",
+              "kind": "binder_ring",
+              "x": 440,
+              "y": 510,
+              "text": ""
+            },
+            {
+              "id": "escape_vehicle",
+              "author": "nemi",
+              "kind": "ride_eraser",
+              "x": 440,
+              "y": 925,
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 66.0,
+          "yaw": 0
+        },
+        {
+          "at": 71.866667,
+          "yaw": 0
+        },
+        {
+          "at": 74.8,
+          "yaw": 90
+        },
+        {
+          "at": 83.6,
+          "yaw": 90
+        },
+        {
+          "at": 86.533333,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 68,
+      "environment_events": [],
+      "review_camera_beats": [
+        {
+          "at": 66.0,
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0,
+          "intent": "Keep the established spatial anchor into this thought; no front-facing reset."
+        },
+        {
+          "at": 66.366667,
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 75.846667,
+          "yaw": 14,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 80.526667,
+          "yaw": 166,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 82.706667,
+          "yaw": 90,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_wall": 1,
+      "continuity_group": "full_3",
+      "name": "The unfinished bridge"
+    },
+    {
+      "id": "the_bridge_gives_way",
+      "start": 88.0,
+      "end": 110.0,
+      "location": "gap_room",
+      "review_yaw": 14,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "unfinished_bridge",
+              "author": "nemi",
+              "kind": "sketch_bridge",
+              "x": 1420,
+              "y": 820,
+              "text": "4 RUN ACROSS"
+            },
+            {
+              "id": "bridge_ink_bottle",
+              "author": "nemi",
+              "kind": "ink_bottle",
+              "x": 610,
+              "y": 905,
+              "text": ""
+            },
+            {
+              "id": "recovery_0",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "5 FOLD THE TAB",
+              "visible_from_event": "bridge_rewind"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "real_tear",
+              "author": "nemi",
+              "kind": "page_tear",
+              "x": 500,
+              "y": 610,
+              "text": "",
+              "opened": true
+            },
+            {
+              "id": "gap_landmark",
+              "author": "nemi",
+              "kind": "page_edge",
+              "x": 1240,
+              "y": 840,
+              "text": ""
+            },
+            {
+              "id": "recovery_1",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "5 FOLD THE TAB",
+              "visible_from_event": "bridge_rewind"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "loose_tab",
+              "author": "nemi",
+              "kind": "paper_tab",
+              "x": 500,
+              "y": 837,
+              "text": "5 FOLD THE TAB"
+            },
+            {
+              "id": "real_paper_stack",
+              "author": "nemi",
+              "kind": "paper_stack",
+              "x": 1420,
+              "y": 905,
+              "text": ""
+            },
+            {
+              "id": "stack_paper_clip",
+              "author": "nemi",
+              "kind": "paper_clip",
+              "x": 1440,
+              "y": 745,
+              "text": ""
+            },
+            {
+              "id": "recovery_2",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "5 FOLD THE TAB",
+              "visible_from_event": "bridge_rewind"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "bindings",
+              "author": "nemi",
+              "kind": "binder_ring",
+              "x": 440,
+              "y": 510,
+              "text": ""
+            },
+            {
+              "id": "escape_vehicle",
+              "author": "nemi",
+              "kind": "ride_eraser",
+              "x": 440,
+              "y": 925,
+              "text": ""
+            },
+            {
+              "id": "recovery_3",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "5 FOLD THE TAB",
+              "visible_from_event": "bridge_rewind"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 88.0,
+          "yaw": 0
+        },
+        {
+          "at": 93.866667,
+          "yaw": 0
+        },
+        {
+          "at": 96.8,
+          "yaw": 14
+        },
+        {
+          "at": 105.6,
+          "yaw": 14
+        },
+        {
+          "at": 108.533333,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 68,
+      "environment_events": [
+        {
+          "id": "bridge_falls_world",
+          "kind": "bridge_break",
+          "object": "unfinished_bridge",
+          "at": 92.066667,
+          "end": 93.266667,
+          "event": "bridge_falls"
+        },
+        {
+          "id": "bridge_rewind_world",
+          "kind": "rewind",
+          "object": "unfinished_bridge",
+          "at": 100.186667,
+          "end": 101.286667,
+          "event": "bridge_rewind"
+        }
+      ],
+      "review_camera_beats": [
+        {
+          "at": 88.0,
+          "yaw": 14,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0,
+          "intent": "Keep the established spatial anchor into this thought; no front-facing reset."
+        },
+        {
+          "at": 88.366667,
+          "yaw": 14,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 96.386667,
+          "yaw": -2,
+          "pitch": 0,
+          "fov": 52,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 100.186667,
+          "yaw": 14,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_wall": 0,
+      "continuity_group": "full_4",
+      "name": "Before the first step",
+      "entry_card": {
+        "duration": 3,
+        "title": "4 RUN ACROSS",
+        "subtitle": "The chosen action is in this direction"
+      }
+    },
+    {
+      "id": "the_paper_holds",
+      "start": 110.0,
+      "end": 132.0,
+      "location": "gap_room",
+      "review_yaw": 166,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "unfinished_bridge",
+              "author": "nemi",
+              "kind": "sketch_bridge",
+              "x": 1420,
+              "y": 820,
+              "text": "4 RUN ACROSS"
+            },
+            {
+              "id": "bridge_ink_bottle",
+              "author": "nemi",
+              "kind": "ink_bottle",
+              "x": 610,
+              "y": 905,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "real_tear",
+              "author": "nemi",
+              "kind": "page_tear",
+              "x": 500,
+              "y": 610,
+              "text": "",
+              "opened": true
+            },
+            {
+              "id": "gap_landmark",
+              "author": "nemi",
+              "kind": "page_edge",
+              "x": 1240,
+              "y": 840,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "loose_tab",
+              "author": "nemi",
+              "kind": "paper_tab",
+              "x": 500,
+              "y": 837,
+              "text": "5 FOLD THE TAB"
+            },
+            {
+              "id": "real_paper_stack",
+              "author": "nemi",
+              "kind": "paper_stack",
+              "x": 1420,
+              "y": 905,
+              "text": ""
+            },
+            {
+              "id": "stack_paper_clip",
+              "author": "nemi",
+              "kind": "paper_clip",
+              "x": 1440,
+              "y": 745,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "bindings",
+              "author": "nemi",
+              "kind": "binder_ring",
+              "x": 440,
+              "y": 510,
+              "text": ""
+            },
+            {
+              "id": "escape_vehicle",
+              "author": "nemi",
+              "kind": "ride_eraser",
+              "x": 440,
+              "y": 925,
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 110.0,
+          "yaw": 0
+        },
+        {
+          "at": 115.866667,
+          "yaw": 0
+        },
+        {
+          "at": 118.8,
+          "yaw": 166
+        },
+        {
+          "at": 127.6,
+          "yaw": 166
+        },
+        {
+          "at": 130.533333,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 68,
+      "environment_events": [
+        {
+          "id": "tab_opens_world",
+          "kind": "tab_fold",
+          "object": "loose_tab",
+          "at": 111.086667,
+          "end": 112.586667,
+          "event": "tab_opens"
+        }
+      ],
+      "review_camera_beats": [
+        {
+          "at": 110.0,
+          "yaw": 166,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0,
+          "intent": "Keep the established spatial anchor into this thought; no front-facing reset."
+        },
+        {
+          "at": 110.366667,
+          "yaw": 166,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 117.586667,
+          "yaw": -179,
+          "pitch": 0,
+          "fov": 56,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 126.126667,
+          "yaw": 166,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_wall": 2,
+      "continuity_group": "full_5",
+      "name": "A supported paper fold",
+      "entry_card": {
+        "duration": 3,
+        "title": "5 FOLD THE TAB",
+        "subtitle": "The chosen action is in this direction"
+      }
+    },
+    {
+      "id": "where_is_the_eraser",
+      "start": 132.0,
+      "end": 154.0,
+      "location": "edge_choice",
+      "review_yaw": -180,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "erased_trail",
+              "author": "nemi",
+              "kind": "page_edge",
+              "x": 1150,
+              "y": 840,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "race_path",
+              "author": "nemi",
+              "kind": "sketch_bridge",
+              "x": 1420,
+              "y": 820,
+              "text": "7 RACE IT"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "loose_tab",
+              "author": "nemi",
+              "kind": "paper_tab",
+              "x": 500,
+              "y": 837,
+              "text": "",
+              "folded": true
+            },
+            {
+              "id": "forward_edge",
+              "author": "nemi",
+              "kind": "page_edge",
+              "x": 1450,
+              "y": 840,
+              "text": ""
+            },
+            {
+              "id": "real_paper_stack",
+              "author": "nemi",
+              "kind": "paper_stack",
+              "x": 1420,
+              "y": 905,
+              "text": ""
+            },
+            {
+              "id": "stack_paper_clip",
+              "author": "nemi",
+              "kind": "paper_clip",
+              "x": 1440,
+              "y": 745,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "escape_vehicle",
+              "author": "nemi",
+              "kind": "ride_eraser",
+              "x": 440,
+              "y": 925,
+              "text": "8 RIDE IT",
+              "erasing": true,
+              "path": [
+                {
+                  "at": 133.393333,
+                  "position": [
+                    440,
+                    925
+                  ]
+                },
+                {
+                  "at": 141.393333,
+                  "position": [
+                    650,
+                    925
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 132.0,
+          "yaw": 0
+        },
+        {
+          "at": 137.866667,
+          "yaw": 0
+        },
+        {
+          "at": 140.8,
+          "yaw": -180
+        },
+        {
+          "at": 149.6,
+          "yaw": -180
+        },
+        {
+          "at": 152.533333,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 68,
+      "environment_events": [
+        {
+          "id": "eraser_reappears_world",
+          "kind": "eraser_pass",
+          "object": "escape_vehicle",
+          "at": 133.393333,
+          "end": 141.393333,
+          "event": "eraser_reappears"
+        }
+      ],
+      "review_camera_beats": [
+        {
+          "at": 132.0,
+          "yaw": 166,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0,
+          "intent": "Keep the established spatial anchor into this thought; no front-facing reset."
+        },
+        {
+          "at": 132.733333,
+          "yaw": 166,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Keep Nemi on her completed paper before following her named cue."
+        },
+        {
+          "at": 133.393333,
+          "yaw": -104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.7,
+          "intent": "Reveal the same single eraser removing the ink route."
+        },
+        {
+          "at": 143.673333,
+          "yaw": -90,
+          "pitch": 0,
+          "fov": 62,
+          "duration": 0.5,
+          "intent": "Inspect the physical top that makes riding a causal solution."
+        },
+        {
+          "at": 148.293333,
+          "yaw": 104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.6,
+          "intent": "Show the fragile ink race route."
+        },
+        {
+          "at": 150.113333,
+          "yaw": -104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.6,
+          "intent": "Return to the same eraser and the desk route it offers."
+        }
+      ],
+      "actor_wall": 2,
+      "continuity_group": "full_6",
+      "name": "The eraser is going there"
+    },
+    {
+      "id": "the_path_is_gone",
+      "start": 154.0,
+      "end": 176.0,
+      "location": "edge_failure",
+      "review_yaw": 104,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "bindings",
+              "author": "nemi",
+              "kind": "binder_ring",
+              "x": 440,
+              "y": 510,
+              "text": ""
+            },
+            {
+              "id": "recovery_0",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "8 RIDE IT",
+              "visible_from_event": "path_rewind"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "race_path",
+              "author": "nemi",
+              "kind": "sketch_bridge",
+              "x": 1420,
+              "y": 820,
+              "text": "7 RACE IT"
+            },
+            {
+              "id": "recovery_1",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "8 RIDE IT",
+              "visible_from_event": "path_rewind"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "loose_tab",
+              "author": "nemi",
+              "kind": "paper_tab",
+              "x": 500,
+              "y": 837,
+              "text": "",
+              "folded": true
+            },
+            {
+              "id": "real_paper_stack",
+              "author": "nemi",
+              "kind": "paper_stack",
+              "x": 1420,
+              "y": 905,
+              "text": ""
+            },
+            {
+              "id": "stack_paper_clip",
+              "author": "nemi",
+              "kind": "paper_clip",
+              "x": 1440,
+              "y": 745,
+              "text": ""
+            },
+            {
+              "id": "recovery_2",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "8 RIDE IT",
+              "visible_from_event": "path_rewind"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "escape_vehicle",
+              "author": "nemi",
+              "kind": "ride_eraser",
+              "x": 500,
+              "y": 925,
+              "text": "8 RIDE IT"
+            },
+            {
+              "id": "recovery_3",
+              "author": "nemi",
+              "kind": "paper_exit",
+              "x": 960,
+              "y": 330,
+              "text": "8 RIDE IT",
+              "visible_from_event": "path_rewind"
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 154.0,
+          "yaw": 0
+        },
+        {
+          "at": 159.866667,
+          "yaw": 0
+        },
+        {
+          "at": 162.8,
+          "yaw": 104
+        },
+        {
+          "at": 171.6,
+          "yaw": 104
+        },
+        {
+          "at": 174.533333,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 68,
+      "environment_events": [
+        {
+          "id": "path_erased_world",
+          "kind": "bridge_break",
+          "object": "race_path",
+          "at": 160.406667,
+          "end": 161.906667,
+          "event": "path_erased"
+        },
+        {
+          "id": "path_rewind_world",
+          "kind": "rewind",
+          "object": "race_path",
+          "at": 167.726667,
+          "end": 168.826667,
+          "event": "path_rewind"
+        }
+      ],
+      "review_camera_beats": [
+        {
+          "at": 154.0,
+          "yaw": 104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0,
+          "intent": "Keep the established spatial anchor into this thought; no front-facing reset."
+        },
+        {
+          "at": 154.366667,
+          "yaw": 104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 161.626667,
+          "yaw": 88,
+          "pitch": 0,
+          "fov": 54,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 169.226667,
+          "yaw": -104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_wall": 1,
+      "continuity_group": "full_7",
+      "name": "The erased shortcut",
+      "entry_card": {
+        "duration": 3,
+        "title": "7 RACE IT",
+        "subtitle": "The chosen action is in this direction"
+      }
+    },
+    {
+      "id": "the_eraser_lift",
+      "start": 176.0,
+      "end": 198.0,
+      "location": "edge_ride",
+      "review_yaw": -104,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "bindings",
+              "author": "nemi",
+              "kind": "binder_ring",
+              "x": 440,
+              "y": 510,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "last_ink",
+              "author": "nemi",
+              "kind": "page_edge",
+              "x": 1420,
+              "y": 840,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "loose_tab",
+              "author": "nemi",
+              "kind": "paper_tab",
+              "x": 500,
+              "y": 837,
+              "text": "",
+              "folded": true
+            },
+            {
+              "id": "real_paper_stack",
+              "author": "nemi",
+              "kind": "paper_stack",
+              "x": 1420,
+              "y": 905,
+              "text": ""
+            },
+            {
+              "id": "stack_paper_clip",
+              "author": "nemi",
+              "kind": "paper_clip",
+              "x": 1440,
+              "y": 745,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "escape_vehicle",
+              "author": "nemi",
+              "kind": "ride_eraser",
+              "x": 650,
+              "y": 925,
+              "text": "8 RIDE IT",
+              "path": [
+                {
+                  "at": 183.446667,
+                  "position": [
+                    650,
+                    925
+                  ]
+                },
+                {
+                  "at": 191.446667,
+                  "position": [
+                    1150,
+                    925
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "destination_desk",
+              "author": "nemi",
+              "kind": "studio_desk",
+              "x": 1500,
+              "y": 1023,
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 176.0,
+          "yaw": 0
+        },
+        {
+          "at": 181.866667,
+          "yaw": 0
+        },
+        {
+          "at": 184.8,
+          "yaw": -104
+        },
+        {
+          "at": 193.6,
+          "yaw": -104
+        },
+        {
+          "at": 196.533333,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 68,
+      "environment_events": [
+        {
+          "id": "ride_travel_world",
+          "kind": "eraser_pass",
+          "object": "escape_vehicle",
+          "at": 183.446667,
+          "end": 191.446667,
+          "event": "ride_travel"
+        }
+      ],
+      "review_camera_beats": [
+        {
+          "at": 176.0,
+          "yaw": -104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0,
+          "intent": "Keep the established spatial anchor into this thought; no front-facing reset."
+        },
+        {
+          "at": 176.366667,
+          "yaw": -104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 183.446667,
+          "yaw": -104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 192.126667,
+          "yaw": -88,
+          "pitch": 0,
+          "fov": 64,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_wall": 3,
+      "continuity_group": "full_8",
+      "name": "The ridiculous vehicle",
+      "entry_card": {
+        "duration": 3,
+        "title": "8 RIDE IT",
+        "subtitle": "The chosen action is in this direction"
+      },
+      "actor_transport": {
+        "actor": "nemi",
+        "object": "escape_vehicle",
+        "event": "ride_travel"
+      }
+    },
+    {
+      "id": "a_solid_desk",
+      "start": 198.0,
+      "end": 220.0,
+      "location": "studio",
+      "review_yaw": -90,
+      "walls": [
+        {
+          "index": 0,
+          "objects": [
+            {
+              "id": "finished_door",
+              "author": "nemi",
+              "kind": "sketch_door",
+              "x": 500,
+              "y": 610,
+              "text": "A PROPER EXIT"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "objects": [
+            {
+              "id": "bindings",
+              "author": "nemi",
+              "kind": "binder_ring",
+              "x": 440,
+              "y": 510,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "objects": [
+            {
+              "id": "studio_pencil",
+              "author": "nemi",
+              "kind": "pencil",
+              "x": 1250,
+              "y": 700,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "objects": [
+            {
+              "id": "destination_desk",
+              "author": "nemi",
+              "kind": "studio_desk",
+              "x": 1500,
+              "y": 760,
+              "text": ""
+            },
+            {
+              "id": "outside_eraser",
+              "author": "nemi",
+              "kind": "eraser",
+              "x": 1450,
+              "y": 900,
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "review_yaw_path": [
+        {
+          "at": 198.0,
+          "yaw": 0
+        },
+        {
+          "at": 203.866667,
+          "yaw": 0
+        },
+        {
+          "at": 206.8,
+          "yaw": -90
+        },
+        {
+          "at": 215.6,
+          "yaw": -90
+        },
+        {
+          "at": 218.533333,
+          "yaw": 0
+        }
+      ],
+      "review_fov": 68,
+      "environment_events": [
+        {
+          "id": "studio_arrival_world",
+          "kind": "escape_reveal",
+          "object": "destination_desk",
+          "at": 198.626667,
+          "end": 199.626667,
+          "event": "studio_arrival"
+        }
+      ],
+      "review_camera_beats": [
+        {
+          "at": 198.0,
+          "yaw": -88,
+          "pitch": 0,
+          "fov": 64,
+          "duration": 0,
+          "intent": "Keep the established spatial anchor into this thought; no front-facing reset."
+        },
+        {
+          "at": 198.366667,
+          "yaw": -88,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 205.726667,
+          "yaw": -79,
+          "pitch": 0,
+          "fov": 48,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "at": 213.366667,
+          "yaw": -65,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_wall": 3,
+      "continuity_group": "full_9",
+      "name": "Outside the drawing"
+    }
+  ],
+  "navigation": {
+    "mode": "youtube_digits",
+    "key_targets": [
+      {
+        "key": 0,
+        "chapter": "the_floor_is_disappearing"
+      },
+      {
+        "key": 1,
+        "chapter": "the_door_was_only_ink"
+      },
+      {
+        "key": 2,
+        "chapter": "there_is_space_beyond"
+      },
+      {
+        "key": 3,
+        "chapter": "the_missing_bridge"
+      },
+      {
+        "key": 4,
+        "chapter": "the_bridge_gives_way"
+      },
+      {
+        "key": 5,
+        "chapter": "the_paper_holds"
+      },
+      {
+        "key": 6,
+        "chapter": "where_is_the_eraser"
+      },
+      {
+        "key": 7,
+        "chapter": "the_path_is_gone"
+      },
+      {
+        "key": 8,
+        "chapter": "the_eraser_lift"
+      },
+      {
+        "key": 9,
+        "chapter": "a_solid_desk"
+      }
+    ]
+  },
+  "revision": "r9_visibility_pace",
+  "episode_id": "episode_002",
+  "media_basename": "NEMI_Playable_EP002_r9_2160x1080_360_REVIEW.mp4",
+  "interaction_scenes": [
+    {
+      "id": "the_floor_is_disappearing",
+      "start": 0.0,
+      "end": 22.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Look for the two exits. Choose the one you trust.",
+      "choices": [
+        {
+          "key": 1,
+          "label": "Try the door",
+          "chapter": "the_door_was_only_ink"
+        },
+        {
+          "key": 2,
+          "label": "Take the tear",
+          "chapter": "there_is_space_beyond"
+        }
+      ]
+    },
+    {
+      "id": "the_door_was_only_ink",
+      "start": 22.0,
+      "end": 44.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Let the door attempt play out; the rewind points you to the tear.",
+      "choices": [
+        {
+          "key": 2,
+          "label": "Take the tear",
+          "chapter": "there_is_space_beyond"
+        }
+      ]
+    },
+    {
+      "id": "there_is_space_beyond",
+      "start": 44.0,
+      "end": 66.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "The desk is outside the drawing. Keep following the opening toward safety.",
+      "choices": []
+    },
+    {
+      "id": "the_missing_bridge",
+      "start": 66.0,
+      "end": 88.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "The eraser is still coming. Choose how to cross the gap on the way to the desk.",
+      "choices": [
+        {
+          "key": 4,
+          "label": "Run across",
+          "chapter": "the_bridge_gives_way"
+        },
+        {
+          "key": 5,
+          "label": "Fold the tab",
+          "chapter": "the_paper_holds"
+        }
+      ]
+    },
+    {
+      "id": "the_bridge_gives_way",
+      "start": 88.0,
+      "end": 110.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Let the attempt finish. The paper tab is still available after the rewind.",
+      "choices": [
+        {
+          "key": 5,
+          "label": "Fold the tab",
+          "chapter": "the_paper_holds"
+        }
+      ]
+    },
+    {
+      "id": "the_paper_holds",
+      "start": 110.0,
+      "end": 132.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Real paper holds while the ink disappears. Stay with Nemi toward the desk.",
+      "choices": []
+    },
+    {
+      "id": "where_is_the_eraser",
+      "start": 132.0,
+      "end": 154.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "One eraser, one destination: race along the ink, or ride its solid top to the desk.",
+      "choices": [
+        {
+          "key": 7,
+          "label": "Race it",
+          "chapter": "the_path_is_gone"
+        },
+        {
+          "key": 8,
+          "label": "Ride it",
+          "chapter": "the_eraser_lift"
+        }
+      ]
+    },
+    {
+      "id": "the_path_is_gone",
+      "start": 154.0,
+      "end": 176.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Wait for the rewind, then use the eraser as a lift.",
+      "choices": [
+        {
+          "key": 8,
+          "label": "Ride it",
+          "chapter": "the_eraser_lift"
+        }
+      ]
+    },
+    {
+      "id": "the_eraser_lift",
+      "start": 176.0,
+      "end": 198.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Stay aboard with Nemi. The ride continues into the ending.",
+      "choices": []
+    },
+    {
+      "id": "a_solid_desk",
+      "start": 198.0,
+      "end": 220.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "You reached the desk. Press 0 only if you want to play again.",
+      "choices": [
+        {
+          "key": 0,
+          "label": "Play again",
+          "chapter": "the_floor_is_disappearing"
+        }
+      ]
+    }
+  ],
+  "world_renderer": "drawing",
+  "preview_choice_turns": true,
+  "preview_goal": "Get Nemi to the desk beyond the page.",
+  "preview_handoffs": [
+    {
+      "at": 22.0,
+      "yaw": -76,
+      "duration": 0.9
+    },
+    {
+      "at": 44.0,
+      "yaw": 76,
+      "duration": 1.2
+    },
+    {
+      "at": 88.0,
+      "yaw": 14,
+      "duration": 0.9
+    },
+    {
+      "at": 110.0,
+      "yaw": 166,
+      "duration": 1.2
+    },
+    {
+      "at": 154.0,
+      "yaw": 104,
+      "duration": 0.9
+    },
+    {
+      "at": 176.0,
+      "yaw": -104,
+      "duration": 1.2
+    }
+  ],
+  "natural_continuity": [
+    {
+      "at": 66.0,
+      "from_scene": "there_is_space_beyond",
+      "to_scene": "the_missing_bridge",
+      "actor_wall": 1,
+      "position": [
+        1000,
+        620
+      ],
+      "landmark": "real_tear"
+    },
+    {
+      "at": 132.0,
+      "from_scene": "the_paper_holds",
+      "to_scene": "where_is_the_eraser",
+      "actor_wall": 2,
+      "position": [
+        320,
+        620
+      ],
+      "landmark": "loose_tab"
+    },
+    {
+      "at": 198.0,
+      "from_scene": "the_eraser_lift",
+      "to_scene": "a_solid_desk",
+      "actor_wall": 3,
+      "position": [
+        1150,
+        620
+      ],
+      "landmark": "destination_desk"
+    }
+  ]
+}

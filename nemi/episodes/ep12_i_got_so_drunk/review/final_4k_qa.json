@@ -1,0 +1,57 @@
+{
+  "status": "approved_4k_master_delivered",
+  "movie": "res://nemi/episodes/ep12_i_got_so_drunk/renders/NEMI_EP12_I_Got_So_Drunk_r5_4K_FINAL.mp4",
+  "sha256": "75901888b4b8fbdd914bed46f5dd29bf3e03c6b8346d4aaa4c9315cc0865287d",
+  "spec_sha256": "b2cefa913209f9685c989ef669845d49f89d81991d8c1fe376f1c31c2ad9ec76",
+  "render_inputs_sha256": "d934f5527befd3c678a3aec8d11e3b419722105fa1450498dda3e1e97a878df2",
+  "duration_seconds": 148.2,
+  "hard_cap_seconds": 150,
+  "probe": {
+    "streams": [
+      {
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "30/1",
+        "duration": "148.200000",
+        "nb_read_frames": "4446",
+        "codec_name": "h264"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration": "148.200000",
+        "nb_read_frames": "6947"
+      }
+    ],
+    "format": {
+      "duration": "148.200000",
+      "size": 28145483,
+      "bit_rate": 1519324
+    }
+  },
+  "full_decode_passed": true,
+  "audio": {
+    "integrated_lufs": -18.6,
+    "true_peak_dbfs": -1.4
+  },
+  "stills_4k": [
+    12.0,
+    23.0,
+    33.0,
+    48.0,
+    74.0,
+    100.0,
+    128.0
+  ],
+  "visual_inspection": {
+    "resolution": "Native 3840x2160 (4K UHD) vector rendering via Godot Movie Maker",
+    "continuity": "Consistent cream paper backdrop (#faf7f2) and burgundy linework across all 15 beats",
+    "characters": "Canonical Nemi, ADB, and college friends",
+    "side_characters_staging": "Side characters appear strictly during explicit 3-6 people dialogue: 2 friends appear in Beat 2 (20.3s-27.9s) for 'Two bottles. For three people.', and 4 friends join Nemi and ADB in Beat 3 (27.9s-41.0s) for 'Suddenly we're six people crammed into his living room'. Cleared completely from all other beats.",
+    "acting": "15 sequential thought-driven poses with deliberate comedic holds; Beat 13 has Nemi hunched beside the porcelain toilet with sick sweat, hand to mouth, and downward gaze",
+    "props_and_ink": "Beat 13 features vector porcelain toilet with water and wavy steam, tissue box, takeout container, '5:30 AM' live text, sick scratch doodle, and 'RIP NOODLES' accent lettering. Beat 2 red cup rests on desk surface.",
+    "sound": "30 event-calibrated non-procedural sound cues mixed to -18.6 LUFS / -1.4 dBTP; voice audibility verified with safe phonetic decay tails (+0.18s) and attack leads (-0.12s)",
+    "subtitles": "98 subtitle cards, maximum 5 words each, synchronized with measured speech bounds"
+  }
+}

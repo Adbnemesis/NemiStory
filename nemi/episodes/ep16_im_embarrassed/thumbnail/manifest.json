@@ -1,0 +1,34 @@
+{
+  "episode": "nemi_ep16",
+  "workflow": "built-in image generation",
+  "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail references",
+  "selected": null,
+  "user_selected": false,
+  "candidates": [
+    {
+      "id": "A",
+      "headline": "DON'T LOOK...",
+      "proposed_title": "I'm Embarrassed by What I Do for a Living",
+      "png": "revisions/concept_a_dont_look/thumbnail.png",
+      "jpg": "revisions/concept_a_dont_look/thumbnail.jpg",
+      "prompt": "revisions/concept_a_dont_look/PROMPT.md",
+      "qa": "revisions/concept_a_dont_look/QA.json",
+      "status": "candidate; selection pending"
+    },
+    {
+      "id": "B",
+      "headline": "JUST A TIP...?",
+      "proposed_title": "Hardly Anyone Even Donates...",
+      "png": "revisions/concept_b_just_a_tip/thumbnail.png",
+      "jpg": "revisions/concept_b_just_a_tip/thumbnail.jpg",
+      "prompt": "revisions/concept_b_just_a_tip/PROMPT.md",
+      "qa": "revisions/concept_b_just_a_tip/QA.json",
+      "status": "candidate; selection pending"
+    }
+  ],
+  "current_candidate_ids": [
+    "A",
+    "B"
+  ],
+  "user_request": "also do the thumbnails as well, make them a little lewd check previous eps thumbnails"
+}

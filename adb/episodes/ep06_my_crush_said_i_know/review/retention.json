@@ -1,0 +1,24 @@
+{
+  "episode": "ep06_my_crush_said_i_know",
+  "policy": "single_final_4k_master_in_renders",
+  "user_instruction": "great now render it in 4k and delete other renders",
+  "final_master": {
+    "file": "renders/ADB_EP06_My_Crush_Said_I_Know_4K.mp4",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "frames": 2795,
+    "duration": 93.166667,
+    "size_bytes": 25148911,
+    "sha256": "1118dbd8d0223522bdec1722ce843f0678ab139f317ec3a53832d198c3a75d96"
+  },
+  "superseded_deleted": [
+    {
+      "file": "renders/ADB_EP06_My_Crush_Said_I_Know_1080p_r1.mp4",
+      "sha256": "312f07bcf0384f090a7b4b8d71d2b04bcdfd6a51aa4c895933904c1f8ee897c8",
+      "size_bytes": 13827207,
+      "reason": "superseded by final approved 4K master per user request"
+    }
+  ]
+}

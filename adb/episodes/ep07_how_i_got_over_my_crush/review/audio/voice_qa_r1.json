@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "source_take_count": 9,
+  "selected_take": 1,
+  "source_duration_sum": 123.68,
+  "final_duration": 128.73333333333332,
+  "tempo": 1.0,
+  "source_bounds_policy": "Full source takes; no silence trimming.",
+  "speaker": "aiden",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+  "identity_prompt": "Cool, relaxed young adult male around 24, calm conversational speech, confident, subtle dry wit, understated and natural.",
+  "audio_sha256": "3a44b868caa50caea319aa652bf67f11e38f752d65ed93b056e550662139bdf9",
+  "voice_plan_sha256": "1b91617535cc58fabeaaa891aff9dab93d664064c74b9455579ff238141297a0",
+  "text_tokens_verified": true,
+  "source_hashes_verified": true,
+  "ordered_positive_word_intervals_verified": true,
+  "word_count": 300,
+  "alignment_repairs": [
+    {
+      "paragraph": 8,
+      "word": "So,",
+      "repaired_bounds": [
+        8.97,
+        9.12
+      ],
+      "note": "Zero-duration whisper timestamp adjusted."
+    }
+  ],
+  "low_confidence_words": [
+    {
+      "paragraph": 0,
+      "word": "I-know",
+      "start": 1.36,
+      "end": 2.24,
+      "probability": 0.2113037109375,
+      "alignment_note": "Hyphen compound merged using measured outer bounds."
+    },
+    {
+      "paragraph": 1,
+      "word": "savior",
+      "start": 9.46,
+      "end": 9.98,
+      "probability": 0.56005859375
+    },
+    {
+      "paragraph": 2,
+      "word": "bad-mouthing",
+      "start": 4.6,
+      "end": 5.26,
+      "probability": 0.568359375,
+      "alignment_note": "Hyphen compound merged using measured outer bounds."
+    },
+    {
+      "paragraph": 4,
+      "word": "she",
+      "start": 9.96,
+      "end": 10.68,
+      "probability": 0.5947265625
+    },
+    {
+      "paragraph": 5,
+      "word": "okay,",
+      "start": 4.1,
+      "end": 4.56,
+      "probability": 0.55908203125
+    },
+    {
+      "paragraph": 6,
+      "word": "And",
+      "start": 0.0,
+      "end": 0.32,
+      "probability": 0.5859375
+    },
+    {
+      "paragraph": 6,
+      "word": "yeah,",
+      "start": 10.96,
+      "end": 11.2,
+      "probability": 0.1611328125
+    },
+    {
+      "paragraph": 8,
+      "word": "great",
+      "start": 1.18,
+      "end": 1.4,
+      "probability": 0.60009765625
+    },
+    {
+      "paragraph": 8,
+      "word": "Nami.",
+      "start": 8.14,
+      "end": 8.28,
+      "probability": 0.4326171875
+    }
+  ],
+  "listening_performed": false,
+  "listening_limitation": "Attempted audio-content inspection returned: audio content omitted because you do not support audio input. Transcript verification does not constitute listening.",
+  "pending": [
+    "Subjective Aiden delivery, breaths and thought-gap pacing listening.",
+    "Important spoken-word and mouth-boundary review against final audio.",
+    "Final episode narration/SFX mix audition after sound direction."
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "page_room": [
+    {
+      "index": 0,
+      "objects": [
+        {
+          "id": "giant_eraser",
+          "author": "nemi",
+          "kind": "eraser",
+          "x": 1530,
+          "y": 895,
+          "text": ""
+        },
+        {
+          "id": "page_goal",
+          "author": "nemi",
+          "kind": "paper_exit",
+          "x": 960,
+          "y": 110,
+          "text": "GET ME OFF THE PAGE"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "objects": [
+        {
+          "id": "real_tear",
+          "author": "nemi",
+          "kind": "page_tear",
+          "x": 500,
+          "y": 610,
+          "text": "2  TAKE THE TEAR"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "objects": [
+        {
+          "id": "back_rings",
+          "author": "nemi",
+          "kind": "binder_ring",
+          "x": 440,
+          "y": 510,
+          "text": ""
+        },
+        {
+          "id": "back_pencil",
+          "author": "nemi",
+          "kind": "pencil",
+          "x": 1240,
+          "y": 700,
+          "text": ""
+        },
+        {
+          "id": "drawing_ruler",
+          "author": "nemi",
+          "kind": "ruler",
+          "x": 1200,
+          "y": 905,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "objects": [
+        {
+          "id": "ink_door",
+          "author": "nemi",
+          "kind": "sketch_door",
+          "x": 1420,
+          "y": 610,
+          "text": "1  TRY THE DOOR"
+        }
+      ]
+    }
+  ],
+  "gap_room": [
+    {
+      "index": 0,
+      "objects": [
+        {
+          "id": "unfinished_bridge",
+          "author": "nemi",
+          "kind": "sketch_bridge",
+          "x": 1420,
+          "y": 820,
+          "text": "4 RUN ACROSS"
+        },
+        {
+          "id": "bridge_ink_bottle",
+          "author": "nemi",
+          "kind": "ink_bottle",
+          "x": 610,
+          "y": 905,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "objects": [
+        {
+          "id": "real_tear",
+          "author": "nemi",
+          "kind": "page_tear",
+          "x": 500,
+          "y": 610,
+          "text": "",
+          "opened": true
+        },
+        {
+          "id": "gap_landmark",
+          "author": "nemi",
+          "kind": "page_edge",
+          "x": 1240,
+          "y": 840,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "objects": [
+        {
+          "id": "loose_tab",
+          "author": "nemi",
+          "kind": "paper_tab",
+          "x": 500,
+          "y": 837,
+          "text": "5 FOLD THE TAB"
+        },
+        {
+          "id": "real_paper_stack",
+          "author": "nemi",
+          "kind": "paper_stack",
+          "x": 1420,
+          "y": 905,
+          "text": ""
+        },
+        {
+          "id": "stack_paper_clip",
+          "author": "nemi",
+          "kind": "paper_clip",
+          "x": 1440,
+          "y": 745,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "objects": [
+        {
+          "id": "bindings",
+          "author": "nemi",
+          "kind": "binder_ring",
+          "x": 440,
+          "y": 510,
+          "text": ""
+        },
+        {
+          "id": "escape_vehicle",
+          "author": "nemi",
+          "kind": "ride_eraser",
+          "x": 440,
+          "y": 925,
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "edge_choice": [
+    {
+      "index": 0,
+      "objects": [
+        {
+          "id": "erased_trail",
+          "author": "nemi",
+          "kind": "page_edge",
+          "x": 1150,
+          "y": 840,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "objects": [
+        {
+          "id": "race_path",
+          "author": "nemi",
+          "kind": "sketch_bridge",
+          "x": 1420,
+          "y": 820,
+          "text": "7 RACE IT"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "objects": [
+        {
+          "id": "loose_tab",
+          "author": "nemi",
+          "kind": "paper_tab",
+          "x": 500,
+          "y": 837,
+          "text": "",
+          "folded": true
+        },
+        {
+          "id": "forward_edge",
+          "author": "nemi",
+          "kind": "page_edge",
+          "x": 1450,
+          "y": 840,
+          "text": ""
+        },
+        {
+          "id": "real_paper_stack",
+          "author": "nemi",
+          "kind": "paper_stack",
+          "x": 1420,
+          "y": 905,
+          "text": ""
+        },
+        {
+          "id": "stack_paper_clip",
+          "author": "nemi",
+          "kind": "paper_clip",
+          "x": 1440,
+          "y": 745,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "objects": [
+        {
+          "id": "escape_vehicle",
+          "author": "nemi",
+          "kind": "ride_eraser",
+          "x": 440,
+          "y": 925,
+          "text": "8 RIDE IT",
+          "erasing": true
+        }
+      ]
+    }
+  ],
+  "edge_failure": [
+    {
+      "index": 0,
+      "objects": [
+        {
+          "id": "bindings",
+          "author": "nemi",
+          "kind": "binder_ring",
+          "x": 440,
+          "y": 510,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "objects": [
+        {
+          "id": "race_path",
+          "author": "nemi",
+          "kind": "sketch_bridge",
+          "x": 1420,
+          "y": 820,
+          "text": "7 RACE IT"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "objects": [
+        {
+          "id": "loose_tab",
+          "author": "nemi",
+          "kind": "paper_tab",
+          "x": 500,
+          "y": 837,
+          "text": "",
+          "folded": true
+        },
+        {
+          "id": "real_paper_stack",
+          "author": "nemi",
+          "kind": "paper_stack",
+          "x": 1420,
+          "y": 905,
+          "text": ""
+        },
+        {
+          "id": "stack_paper_clip",
+          "author": "nemi",
+          "kind": "paper_clip",
+          "x": 1440,
+          "y": 745,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "objects": [
+        {
+          "id": "escape_vehicle",
+          "author": "nemi",
+          "kind": "ride_eraser",
+          "x": 500,
+          "y": 925,
+          "text": "8 RIDE IT"
+        }
+      ]
+    }
+  ],
+  "edge_ride": [
+    {
+      "index": 0,
+      "objects": [
+        {
+          "id": "bindings",
+          "author": "nemi",
+          "kind": "binder_ring",
+          "x": 440,
+          "y": 510,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "objects": [
+        {
+          "id": "last_ink",
+          "author": "nemi",
+          "kind": "page_edge",
+          "x": 1420,
+          "y": 840,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "objects": [
+        {
+          "id": "loose_tab",
+          "author": "nemi",
+          "kind": "paper_tab",
+          "x": 500,
+          "y": 837,
+          "text": "",
+          "folded": true
+        },
+        {
+          "id": "real_paper_stack",
+          "author": "nemi",
+          "kind": "paper_stack",
+          "x": 1420,
+          "y": 905,
+          "text": ""
+        },
+        {
+          "id": "stack_paper_clip",
+          "author": "nemi",
+          "kind": "paper_clip",
+          "x": 1440,
+          "y": 745,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "objects": [
+        {
+          "id": "escape_vehicle",
+          "author": "nemi",
+          "kind": "ride_eraser",
+          "x": 650,
+          "y": 925,
+          "text": "8 RIDE IT"
+        },
+        {
+          "id": "destination_desk",
+          "author": "nemi",
+          "kind": "studio_desk",
+          "x": 1500,
+          "y": 1023,
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "studio": [
+    {
+      "index": 0,
+      "objects": [
+        {
+          "id": "finished_door",
+          "author": "nemi",
+          "kind": "sketch_door",
+          "x": 500,
+          "y": 610,
+          "text": "A PROPER EXIT"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "objects": [
+        {
+          "id": "bindings",
+          "author": "nemi",
+          "kind": "binder_ring",
+          "x": 440,
+          "y": 510,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "objects": [
+        {
+          "id": "studio_pencil",
+          "author": "nemi",
+          "kind": "pencil",
+          "x": 1250,
+          "y": 700,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "objects": [
+        {
+          "id": "destination_desk",
+          "author": "nemi",
+          "kind": "studio_desk",
+          "x": 1500,
+          "y": 760,
+          "text": ""
+        },
+        {
+          "id": "outside_eraser",
+          "author": "nemi",
+          "kind": "eraser",
+          "x": 1450,
+          "y": 900,
+          "text": ""
+        }
+      ]
+    }
+  ]
+}

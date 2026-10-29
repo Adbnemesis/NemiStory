@@ -1,0 +1,56 @@
+{
+  "status": "ready_for_user_review",
+  "movie": "res://nemi/episodes/ep12_i_got_so_drunk/renders/NEMI_EP12_I_Got_So_Drunk_r5_1080p.mp4",
+  "sha256": "d6d692ba5d586a2a49795987508f50806b81689296f2e3d8acfe9a9a51f22fff",
+  "spec_sha256": "b2cefa913209f9685c989ef669845d49f89d81991d8c1fe376f1c31c2ad9ec76",
+  "duration_seconds": 148.2,
+  "hard_cap_seconds": 150,
+  "probe": {
+    "streams": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "148.200000",
+        "nb_read_frames": "4446",
+        "codec_name": "h264"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": 48000,
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "148.200000",
+      "size": 15003129,
+      "bit_rate": 810133
+    }
+  },
+  "full_decode_passed": true,
+  "audio": {
+    "integrated_lufs": -18.6,
+    "true_peak_dbfs": -1.4
+  },
+  "stills": [
+    12.0,
+    23.0,
+    33.0,
+    48.0,
+    74.0,
+    100.0,
+    123.0,
+    128.0,
+    131.5,
+    142.0
+  ],
+  "visual_inspection": {
+    "continuity": "Consistent cream paper backdrop (#faf7f2) and burgundy linework across all 15 beats",
+    "characters": "Canonical Nemi, ADB, and college friends (female friend in school blazer/skirt and male classmate in jacket/trousers)",
+    "side_characters_staging": "Side characters appear strictly during explicit 3-6 people dialogue: 2 friends appear in Beat 2 (20.3s-27.9s) for 'Two bottles. For three people.', and 4 friends join Nemi and ADB in Beat 3 (27.9s-41.0s) for 'Suddenly we're six people crammed into his living room'. Cleared completely from Beats 1, 4, 5, 6, 7, 9, 10, and 11.",
+    "acting": "15 sequential thought-driven poses with deliberate comedic holds; Beat 13 has Nemi hunched beside the porcelain toilet with sick sweat, hand to mouth, and downward gaze",
+    "props_and_ink": "Beat 13 features vector porcelain toilet with water and wavy steam, tissue box, takeout container, '5:30 AM' live text, sick scratch doodle, and 'RIP NOODLES' accent lettering. Beat 2 red cup rests on desk surface.",
+    "sound": "30 event-calibrated non-procedural sound cues mixed to -18.6 LUFS / -1.4 dBTP; voice audibility verified with safe phonetic decay tails (+0.18s) and attack leads (-0.12s)",
+    "subtitles": "98 subtitle cards, maximum 5 words each, synchronized with measured speech bounds"
+  }
+}

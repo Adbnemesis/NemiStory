@@ -1,0 +1,37 @@
+{
+  "episode": "Nemi EP12 — I Got So Drunk",
+  "status": "Pair reviewed; user selection pending",
+  "tool": "built-in image_gen.imagegen",
+  "reviewed_on": "2026-10-13",
+  "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail references",
+  "approved_by_user": false,
+  "selected": null,
+  "candidates": [
+    {
+      "id": "a",
+      "qa": "revisions/r1_a_never_again/QA.json"
+    },
+    {
+      "id": "b",
+      "qa": "revisions/r1_b_horse/QA.json"
+    }
+  ],
+  "story_context_art_viewed": [
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep12_i_got_so_drunk/review/4k_stills/still_4k_074.0s.png",
+      "sha256": "8ad36722a81e6daf217f840f6cc7362b6601e6f7669a71478e15c2706b2c94ee",
+      "role": "Viewed for final-episode story context; not a generator input"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep12_i_got_so_drunk/review/4k_stills/still_4k_131.5s.png",
+      "sha256": "ff1a6aac9a7a58bee168d841943b756ef425063ff4c6340a83a6a5bd656a2681",
+      "role": "Viewed for final-episode story context; not a generator input"
+    }
+  ],
+  "all_candidate_files_decoded_and_hashes_verified": true,
+  "native_pngs_match_generator_outputs": true,
+  "upscaling": false,
+  "platform_upload": false,
+  "ctr_test": false,
+  "episode_media_changes": false
+}

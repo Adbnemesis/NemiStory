@@ -1,0 +1,38 @@
+{
+  "scope": "Drawing-world field-contract fragment, not a standalone episode or rendered approval",
+  "scene_fragment": {
+    "start": 144,
+    "end": 168,
+    "walls": [
+      {
+        "index": 3,
+        "objects": [
+          {
+            "id": "escape_vehicle",
+            "author": "nemi",
+            "kind": "ride_eraser",
+            "x": 440,
+            "y": 925,
+            "text": "8 RIDE IT",
+            "erasing": true,
+            "path": [
+              {"at": 148, "position": [440, 925]},
+              {"at": 156, "position": [650, 925]}
+            ]
+          }
+        ]
+      }
+    ],
+    "environment_events": [
+      {
+        "id": "eraser_approach_world",
+        "kind": "eraser_pass",
+        "object": "escape_vehicle",
+        "at": 148,
+        "end": 156,
+        "event": "eraser_approach"
+      }
+    ]
+  },
+  "dependencies": "Merge into a complete four-wall drawing scene. Its production spec must define eraser_approach at148s; final recording alignment chooses the actual event time. erasing is a strict boolean on ride_eraser only. A true flag requires a level monotonic horizontal path plus the existing finite matching eraser_pass event. No actor_transport is implied; Nemi boards only in separately authored already-aboard coverage. The road strip reconstructs from absolute path time and remains still after the event."
+}

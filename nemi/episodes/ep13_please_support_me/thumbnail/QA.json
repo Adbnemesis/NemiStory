@@ -1,0 +1,25 @@
+{
+  "status": "QA Passed",
+  "native_dimensions": [1376, 768],
+  "aspect_ratio": "16:9",
+  "native_file": "thumbnail.png",
+  "native_sha256": "58e00ce0916f9e209230551c4d24c68f13e8d1998da27be6c0a8a899ea0462e3",
+  "upload_file": "thumbnail.jpg",
+  "upload_sha256": "5082ac914b6ce2ac1f894ff113e0159245feb73a1532f6c5cfe7a53c3c69b5d4",
+  "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail references",
+  "references_checked": [
+    "references/thumbnail_ref/thumbnail_set_raora.png",
+    "nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+    "nemi/episodes/ep13_please_support_me/review/NEMI_EP13_Please_Support_Me_r3_1080p/frame_044.80.png"
+  ],
+  "checks": {
+    "headline_verbatim": "PLEASE SUPPORT ME!",
+    "headline_contour": "Thick nested BLACK / RED / BLACK borders on broad white rounded sans-serif",
+    "character_identity": "Nemi: red-orange hair, single long ahoge, large green eyes, blush, green sweater, plum ink outlines",
+    "background_treatment": "Bright white with pale cyan checkerboard and sparse hand-drawn doodles",
+    "cutout_silhouette": "Crisp white outline with selective red outer glow",
+    "mobile_readability_passed": true,
+    "no_secondary_captions": true,
+    "no_watermark": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "status": "verified final replacement; episode-scoped final-only retention complete",
+  "authorization": "User explicitly requested native 4K export and cleanup: 'okay this is awesome, not just render this in 4k, delete all others renders, do not change anything at all except the quality to 4k' followed by 'i hope u deleted other renders, only 4k one is there and renmaed it as well'. AGENTS.md retention preference requires only the verified final 4K video in this episode renders folder.",
+  "replacement": {
+    "path": "res://nemi/episodes/ep12_i_got_so_drunk/renders/NEMI_EP12_I_Got_So_Drunk_r5_4K_FINAL.mp4",
+    "sha256": "75901888b4b8fbdd914bed46f5dd29bf3e03c6b8346d4aaa4c9315cc0865287d",
+    "bytes": 28145483
+  },
+  "deleted": [
+    {
+      "path": "res://nemi/episodes/ep12_i_got_so_drunk/renders/NEMI_EP12_I_Got_So_Drunk_r1_1080p.mp4",
+      "bytes": 14875419,
+      "kind": "superseded movie"
+    },
+    {
+      "path": "res://nemi/episodes/ep12_i_got_so_drunk/renders/NEMI_EP12_I_Got_So_Drunk_r2_1080p.mp4",
+      "bytes": 15129720,
+      "kind": "superseded movie"
+    },
+    {
+      "path": "res://nemi/episodes/ep12_i_got_so_drunk/renders/NEMI_EP12_I_Got_So_Drunk_r3_1080p.mp4",
+      "bytes": 15751229,
+      "kind": "superseded movie"
+    },
+    {
+      "path": "res://nemi/episodes/ep12_i_got_so_drunk/renders/NEMI_EP12_I_Got_So_Drunk_r4_1080p.mp4",
+      "bytes": 15007720,
+      "kind": "superseded movie"
+    },
+    {
+      "path": "res://nemi/episodes/ep12_i_got_so_drunk/renders/NEMI_EP12_I_Got_So_Drunk_r5_1080p.mp4",
+      "bytes": 15003129,
+      "sha256": "d6d692ba5d586a2a49795987508f50806b81689296f2e3d8acfe9a9a51f22fff",
+      "kind": "approved 1080p preview (removed after verified 4k export)"
+    },
+    {
+      "path": "res://nemi/episodes/ep12_i_got_so_drunk/renders/proof_10s.mp4",
+      "bytes": 1637227,
+      "kind": "superseded proof"
+    },
+    {
+      "path": "res://nemi/episodes/ep12_i_got_so_drunk/renders/proof_10s_r2.mp4",
+      "bytes": 1641911,
+      "kind": "superseded proof"
+    }
+  ],
+  "preserved_records": [
+    "res://nemi/episodes/ep12_i_got_so_drunk/review/render_records/NEMI_EP12_I_Got_So_Drunk_r5_4K_FINAL.capture.log",
+    "res://nemi/episodes/ep12_i_got_so_drunk/review/render_records/NEMI_EP12_I_Got_So_Drunk_r5_4K_FINAL.audio_qa.json",
+    "res://nemi/episodes/ep12_i_got_so_drunk/review/render_records/NEMI_EP12_I_Got_So_Drunk_r5_4K_FINAL.review_stamp.json",
+    "res://nemi/episodes/ep12_i_got_so_drunk/review/render_records/NEMI_EP12_I_Got_So_Drunk_r5_1080p.capture.log",
+    "res://nemi/episodes/ep12_i_got_so_drunk/review/render_records/NEMI_EP12_I_Got_So_Drunk_r5_1080p.audio_qa.json",
+    "res://nemi/episodes/ep12_i_got_so_drunk/review/render_records/NEMI_EP12_I_Got_So_Drunk_r5_1080p.review_stamp.json"
+  ]
+}

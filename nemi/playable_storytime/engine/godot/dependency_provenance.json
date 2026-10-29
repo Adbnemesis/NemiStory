@@ -1,0 +1,1178 @@
+{
+  "source_repository": "/Users/talus/Documents/adb",
+  "copied_files": [
+    {
+      "path": "adb/characters/adb/ADB.gd",
+      "sha256": "5b942fde4ac4251ea0f1070f503286d64b220ca0f175d42f9eb9f273c23679cb",
+      "bytes": 36513
+    },
+    {
+      "path": "adb/characters/adb/ADB.tscn",
+      "sha256": "631f6b6e9a88fd5db03fc7273edf915417991736982a7633989224066529f858",
+      "bytes": 226
+    },
+    {
+      "path": "adb/characters/adb/ADBGeometry.gd",
+      "sha256": "e4cb4dffa00e1be398699742996aca8ca5616a0fc91a1109f28db3024c8d7446",
+      "bytes": 13416
+    },
+    {
+      "path": "adb/characters/adb/ADBStyle.gd",
+      "sha256": "66da8c61efc4011e0f5d3f9b775e74dd6131128b2d6639e81595eb05df9ec020",
+      "bytes": 2811
+    },
+    {
+      "path": "adb/docs/ADB_ACTING_GUIDE.md",
+      "sha256": "c8e4d5c012758bd80b84d04f8a8e7161b92c86e9ffded1be313285978d256860",
+      "bytes": 7678
+    },
+    {
+      "path": "adb/docs/ADB_CHARACTER_GUIDE.md",
+      "sha256": "16c076406a6e662dade0c36e391b44927eda459dedbd93dbd65c79ab7544d72b",
+      "bytes": 9751
+    },
+    {
+      "path": "adb/docs/ADB_LIP_SYNC_GUIDE.md",
+      "sha256": "05dd8f139ad9a32337163135408923d73a3463e8e2f05565711a632d211301e6",
+      "bytes": 3427
+    },
+    {
+      "path": "adb/episodes/ep00_intro/props/ADBIntroProps.gd",
+      "sha256": "3370f144a11d6fb35caa69ebc04d07d0030ca8107d09267a27fe5653871bc13a",
+      "bytes": 12702
+    },
+    {
+      "path": "adb/expressions/ADBFace.gd",
+      "sha256": "1b07c17cabb5a4642a7ee8179d4f3fa2e5dbcb898bba6c989b9de3b8ee5c880b",
+      "bytes": 23031
+    },
+    {
+      "path": "adb/hands/ADBHands.gd",
+      "sha256": "f28cbf122ad8c84b5b84a36123887ee1cfeb55c1043cbc9851f88cecf2a7b462",
+      "bytes": 6528
+    },
+    {
+      "path": "adb/lipsync/ADBLipSync.gd",
+      "sha256": "3be756eb1601a71a8851424b0d85c066c9ffa570054b2758a01fb88bc459c9f2",
+      "bytes": 1653
+    },
+    {
+      "path": "adb/poses/ADBPoseLibrary.gd",
+      "sha256": "08484b9d2dfdd476d4275076ca5d8b41ac7d2a826e2e2ed5b4341aca5b09dbf0",
+      "bytes": 23599
+    },
+    {
+      "path": "assets/fonts/Caveat-Bold.ttf",
+      "sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+      "bytes": 403648
+    },
+    {
+      "path": "assets/fonts/Impact.ttf",
+      "sha256": "57e95627fd36fe2740e5ee8a91ff1ae74fb216df9580bd23e30d6772814727be",
+      "bytes": 138488
+    },
+    {
+      "path": "assets/fonts/PatrickHand-Regular.ttf",
+      "sha256": "0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc",
+      "bytes": 214772
+    },
+    {
+      "path": "common/assets/lettering/story_pen.json",
+      "sha256": "c80163ee9dd5c4b3a746e55bf6610fcf7545bd30dfe83fd86c54c85d88495560",
+      "bytes": 52545
+    },
+    {
+      "path": "common/engine/camera/StoryCamera.gd",
+      "sha256": "5f91d20b4d574e351fb1b469466425c95b98e7baae1a60668d0cb67b778c5059",
+      "bytes": 3861
+    },
+    {
+      "path": "common/engine/characters/StoryCharacter.gd",
+      "sha256": "a30ceeec8857fcaa334ac6d72307c4c45507a83ba69dc6b259060a85423ed81a",
+      "bytes": 7549
+    },
+    {
+      "path": "common/engine/doodles/CommonDoodle.gd",
+      "sha256": "3691dfc094e4705d480ee89c0294989289119c4b7a27b6e0d75139ad2010cd7c",
+      "bytes": 1845
+    },
+    {
+      "path": "common/engine/drawing/CommonInkStroke.gd",
+      "sha256": "ae5ca335a8c8642913a17a626de6d4398d2464c7c536f4135cf2d2d3d0bd37dd",
+      "bytes": 5578
+    },
+    {
+      "path": "common/engine/handwriting/CommonHandwriting.gd",
+      "sha256": "0b21d4c330e4590e0cef73b2ecbb6981930793ad9e3fad2c5cd3855b7c7c7d72",
+      "bytes": 1669
+    },
+    {
+      "path": "common/engine/illustration/DrawnLettering.gd",
+      "sha256": "86477617f992a5798b42b83cc087df7e0e044546af28867c66203fb4e2cce08f",
+      "bytes": 2201
+    },
+    {
+      "path": "common/engine/illustration/IllustrationTrack.gd",
+      "sha256": "406310273257e5ce03f33b1c74d976c9d5ea7d66c3ae167127c1a804a111e4ed",
+      "bytes": 554
+    },
+    {
+      "path": "common/engine/illustration/LiveDrawing.gd",
+      "sha256": "dea367dfed47fc444d9228023b3229237384c01086e2d8d7ad4997f1169612ba",
+      "bytes": 2878
+    },
+    {
+      "path": "common/engine/illustration/LiveInk.gd",
+      "sha256": "85a7dfec5b1e065014dab0dd43b80a30c2282fb9ba7397d05b83fec8c7e85cdd",
+      "bytes": 5034
+    },
+    {
+      "path": "common/engine/illustration/PropAttachment.gd",
+      "sha256": "6abaf23f54264a969d6b641615d0bf63c3c5a75cb6725490afa8a361097285c5",
+      "bytes": 868
+    },
+    {
+      "path": "common/engine/illustration/StoryMarks.gd",
+      "sha256": "227c5b397cddc636a57ab4824cba9509a284c3149ffed4f00a27851e1c64d4bf",
+      "bytes": 2765
+    },
+    {
+      "path": "common/engine/props/SpeechBubble.gd",
+      "sha256": "d1d1952f41d6e0172b99facce8fd7ba826168d173de83a5f665400df13adc46f",
+      "bytes": 1027
+    },
+    {
+      "path": "common/engine/props/StoryProp.gd",
+      "sha256": "70b3d79d4cc3eb80a184e68d7afce98e0ecaaa5f9d236692d34a6a83e543af84",
+      "bytes": 1338
+    },
+    {
+      "path": "common/engine/timing/StoryDirector.gd",
+      "sha256": "e36044e15c1bd32eff5b5f2104ae85e5cb4cbb09aa9eeec4a7e7fcc8cb50bda1",
+      "bytes": 1139
+    },
+    {
+      "path": "common/engine/utils/HandDrawnMath.gd",
+      "sha256": "eb7753519eef96601c9b3df6f9f1e9116bdd3640f28f290762c9d1d636ce7ccc",
+      "bytes": 1893
+    },
+    {
+      "path": "common/storytime/PerformancePlayer.gd",
+      "sha256": "a19d1bbe544a8c942652dc705a7e61acb8d66e98ca46de0ebd1600fa0d9ba0fd",
+      "bytes": 5533
+    },
+    {
+      "path": "common/storytime/ProfileAssets.gd",
+      "sha256": "2ccc4e013c4538637c2b746d488f633857f5abb8003436537e4c746b9c661dbf",
+      "bytes": 3503
+    },
+    {
+      "path": "common/storytime/StorytimeStage.gd",
+      "sha256": "27d2ef966080d8cb4a3f702bf34c151518b983b597fbeb45090afc9e5244ccd6",
+      "bytes": 3650
+    },
+    {
+      "path": "common/storytime/StorytimeStage.tscn",
+      "sha256": "686058e55bbbac20ef9c34c225fc5fdd25e91e2ec7d941c280c8508cae261c23",
+      "bytes": 186
+    },
+    {
+      "path": "common/storytime/examples/refinement_10s/scene.json",
+      "sha256": "9216d59c11289fb6c4b04beac6e5c355500eb64711503094619a3174e0135f03",
+      "bytes": 16085
+    },
+    {
+      "path": "common/storytime/examples/story_review_48s/REVIEW.md",
+      "sha256": "170f43ce0a66e54e218beb345e1206f2525aa811624033a192936d70af57745c",
+      "bytes": 3962
+    },
+    {
+      "path": "common/storytime/examples/story_review_48s/scene.json",
+      "sha256": "5616fa8552a46ba3dffab21e7419799bf27816711db4e0450216daa79cb386a7",
+      "bytes": 36445
+    },
+    {
+      "path": "common/storytime/examples/storytime_direction_10s.json",
+      "sha256": "2dd09067ffb8ed0075029c18aaf6f1460545c5cae8fa53b474ce126e5da359d3",
+      "bytes": 9317
+    },
+    {
+      "path": "common/storytime/examples/two_authors_10s.json",
+      "sha256": "2e23ec28e1d236fd45454038dd45d5f4b87184572ad7fc0ecc4af1d084dfc7b2",
+      "bytes": 6430
+    },
+    {
+      "path": "common/storytime/performances/recipes.json",
+      "sha256": "871ef59e73f99eab889aa51ddd63e488696e6d0866295a3f31aa8f0b90d790cc",
+      "bytes": 19048
+    },
+    {
+      "path": "common/storytime/production/ADBEpisodeArt.gd",
+      "sha256": "03fd9ec86fb1c017b9519f7ddb189545410414d444ca85de86eaa569cc67189c",
+      "bytes": 10353
+    },
+    {
+      "path": "common/storytime/production/ADBEpisodeBackdrop.gd",
+      "sha256": "a54bd8068f855c8e9131ba812affd825e0b5c6aff66c06f6996a848fd39a9d3f",
+      "bytes": 16167
+    },
+    {
+      "path": "common/storytime/production/ActingTimeline.gd",
+      "sha256": "c496f2abe63170f4c62e2c2e97db55f1c63f078acbe2996e57be842c4c494956",
+      "bytes": 9427
+    },
+    {
+      "path": "common/storytime/production/AttachmentEpisodeArt.gd",
+      "sha256": "4d049bde33d2bad5e5b1cdea9cbe9139a63d8a39fcb82b157973c484c420762b",
+      "bytes": 8051
+    },
+    {
+      "path": "common/storytime/production/AttachmentEpisodeBackdrop.gd",
+      "sha256": "0d77cedd4319b4b32790116623ebe0adb595ef22ea875583415814e69e6e4a0f",
+      "bytes": 3551
+    },
+    {
+      "path": "common/storytime/production/AttachmentRevisionArt.gd",
+      "sha256": "0c16ac242037dc98a1b06536d65af27f26ba61f38b00405caff94c48caae711f",
+      "bytes": 14691
+    },
+    {
+      "path": "common/storytime/production/AttachmentRevisionBackdrop.gd",
+      "sha256": "a8732e3a3db7d0a38d22068858331f44a91db05acb259b236eef60761f56280f",
+      "bytes": 7417
+    },
+    {
+      "path": "common/storytime/production/Backdrop.gd",
+      "sha256": "5aba79fd920cc5cc4781fa069801637bb7d6281012bfab7de3bddcc8c70ee0c4",
+      "bytes": 8249
+    },
+    {
+      "path": "common/storytime/production/BeatVFX.gd",
+      "sha256": "8df3d101919f4232e9b3e921cc1f4490247608fc4ed945c5ebaa5f4c4ed4e91b",
+      "bytes": 2077
+    },
+    {
+      "path": "common/storytime/production/CreatorEpisodeArt.gd",
+      "sha256": "09316e8b088be92b0147d06a773f28441e821c6f4db783391c9105c78ecedd08",
+      "bytes": 6947
+    },
+    {
+      "path": "common/storytime/production/EmbarrassedEpisodeArt.gd",
+      "sha256": "413215e81411a1686003266db4926cb14d472bc824717c4de6be8d19cf97068d",
+      "bytes": 14091
+    },
+    {
+      "path": "common/storytime/production/HandPaths.gd",
+      "sha256": "f87567e0d68c7450c4630fa96ef631b02841d75990ebc91af7fee2e666d19e73",
+      "bytes": 2450
+    },
+    {
+      "path": "common/storytime/production/HighSchoolCrushArt.gd",
+      "sha256": "9d2b34337b98bf7137f9be866cd5eccb34058446588345434e0ae2f6c9fc6d04",
+      "bytes": 12045
+    },
+    {
+      "path": "common/storytime/production/Motion.gd",
+      "sha256": "a7925159ef57d0f13b6d96f93cb4ee303e6dbc084f174170848ed36b16fd29ec",
+      "bytes": 995
+    },
+    {
+      "path": "common/storytime/production/MovingOnArt.gd",
+      "sha256": "7bce68b9e2853de0cfad6452cc9ae25a1329e9a53eb7a85b191146588483efb7",
+      "bytes": 11266
+    },
+    {
+      "path": "common/storytime/production/ProductionAudio.gd",
+      "sha256": "96db89948fe1b5b1b3c238aeefda8820da3079d765702c2ebe75763c3630acde",
+      "bytes": 465
+    },
+    {
+      "path": "common/storytime/production/ProductionStage.gd",
+      "sha256": "21274af6ef604e230fbd29cb4059bf08a51f1e7b5e7b50d7048e1d4cd425f4a9",
+      "bytes": 9550
+    },
+    {
+      "path": "common/storytime/production/ProductionStage.tscn",
+      "sha256": "724f04ce04ff68f5c00f002f4d38e08faeda93a173a88572a9d592fb54a2a527",
+      "bytes": 199
+    },
+    {
+      "path": "common/storytime/production/ScamEpisodeArt.gd",
+      "sha256": "29b2d07e1cb4920f2166fd5957aedc8435dd40ec6c4803b73858abb186896358",
+      "bytes": 11025
+    },
+    {
+      "path": "common/storytime/production/SceneArt.gd",
+      "sha256": "59322eff4ffd4376ad6eefe3d558bbf9d1727d9f0e273e26c18180a47f9ddbf3",
+      "bytes": 5412
+    },
+    {
+      "path": "common/storytime/production/SchoolArt.gd",
+      "sha256": "07a10dd451ffe2aa79805ccd53d4ccf71d7e46112bd433ee3cdf54e12b99e5c5",
+      "bytes": 6042
+    },
+    {
+      "path": "common/storytime/production/SchoolBackdrop.gd",
+      "sha256": "a946f4aef9b8b9a2863b3355197adc0058573cf0d0f35eb4636543dc5c38f8f6",
+      "bytes": 3754
+    },
+    {
+      "path": "common/storytime/production/SchoolBlockedArt.gd",
+      "sha256": "254b1675dbeb47754b790b2731f64af63bcd1ae349ab95b970310ec87652428f",
+      "bytes": 12361
+    },
+    {
+      "path": "common/storytime/production/SchoolCrushArt.gd",
+      "sha256": "9ac8a7ec92f1dbf297930af2373bb6d10ebf1b4d8b69942702f312df69547c9a",
+      "bytes": 10704
+    },
+    {
+      "path": "common/storytime/production/SchoolEpisodeArt.gd",
+      "sha256": "e9a123307747a3f06ea49be5207f2f89091746e8702f636b4bd0794358ca3f88",
+      "bytes": 7043
+    },
+    {
+      "path": "common/storytime/production/SchoolEpisodeBackdrop.gd",
+      "sha256": "b6c09a7a8992050b43e7edf3e86bb722e89ecfeea7d5011f75a910237724db77",
+      "bytes": 5947
+    },
+    {
+      "path": "common/storytime/production/SchoolGags.gd",
+      "sha256": "a4d7d1d89a2562fcdf667345f0395f4105870d823a414198708dd20ed7b3b8a8",
+      "bytes": 4028
+    },
+    {
+      "path": "common/storytime/production/SchoolSuspenseArt.gd",
+      "sha256": "50eb59d2db09b9341c13abf0820191ac9f87b9af0c6a2ab00b5d2e1ecf0bdb22",
+      "bytes": 4852
+    },
+    {
+      "path": "common/storytime/production/SchoolSuspenseBackdrop.gd",
+      "sha256": "dd58ec5855d5d654fe44925b437e304d0b134204b65f98261df403dd0c70790f",
+      "bytes": 2889
+    },
+    {
+      "path": "common/storytime/production/SchoolYoutubeArt.gd",
+      "sha256": "70a7df651b247ecea5757514b6d140c746303a92322f526194b412a6315d92a8",
+      "bytes": 9223
+    },
+    {
+      "path": "common/storytime/production/SchoolYoutubeBackdrop.gd",
+      "sha256": "141c62650e25b3bf5dc3fa103467abe37736babc128a9e579fa98d1e0884c2c5",
+      "bytes": 4827
+    },
+    {
+      "path": "common/storytime/production/TravelArt.gd",
+      "sha256": "f8a1c6b308232c4acc8f6b7418a2fb746cf5086d2c6a68435eaeea450f71704f",
+      "bytes": 4891
+    },
+    {
+      "path": "common/storytime/profiles/adb.json",
+      "sha256": "ca5a41a8b41ec55aca8d8e0e0653bfaa8cd612ca215cae3659cc4f21fb8d431d",
+      "bytes": 5588
+    },
+    {
+      "path": "common/storytime/profiles/adb_lettering.json",
+      "sha256": "e906def8f06d1fb35dfbc7f66c50a42ac47bcc4c5e514dddfb69feb39ef54393",
+      "bytes": 71143
+    },
+    {
+      "path": "common/storytime/profiles/nemi.json",
+      "sha256": "f6bee539815f1f96472445366efc7bdae023e97bb05fcde4523a129c584a4b4f",
+      "bytes": 5984
+    },
+    {
+      "path": "common/storytime/profiles/nemi_lettering.json",
+      "sha256": "a385f4627262fbff03fb2ebfeff31f64f2beba67d26a26becee22e48ef814bbb",
+      "bytes": 51475
+    },
+    {
+      "path": "docs/Nemi_Animation_Personality_Guide.md",
+      "sha256": "d8f6d5afac4a0c38f535b6a88ddd6202fb498d0929bee910ae6228916723bbfd",
+      "bytes": 17731
+    },
+    {
+      "path": "docs/Nemi_Character_Bible.md",
+      "sha256": "0c6e6beb58af264269f4e9da22cc992599e03ccae7a2b457b57217904a2152ed",
+      "bytes": 19409
+    },
+    {
+      "path": "docs/Nemi_Dialogue_Guide.md",
+      "sha256": "aa477493684357e16e4645ff43958a9d51df34c379be62c8f0466d5885de204d",
+      "bytes": 10601
+    },
+    {
+      "path": "docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md",
+      "sha256": "4bbf3a7dbf9d877636fca6fae064f77e1a323d01a313a0ff6c912a438f76a645",
+      "bytes": 14361
+    },
+    {
+      "path": "docs/animation/COMMON_ANIMATION_QA.md",
+      "sha256": "f7158dc651a4f28e090434f43ffc143a7b0a4a9bd27172d2b41f9652d414c73b",
+      "bytes": 6204
+    },
+    {
+      "path": "docs/animation/COMMON_CAMERA_STAGING.md",
+      "sha256": "8fc971efd15373998a419ecbcfd837af62ca21099749d8e11a52937ed098d823",
+      "bytes": 5724
+    },
+    {
+      "path": "docs/animation/COMMON_PROP_SYSTEM.md",
+      "sha256": "ae99ae1cb2061ff3e2cf2523dd2e22d2080a84a1108a7d0b9bce60be06d84ccf",
+      "bytes": 3887
+    },
+    {
+      "path": "docs/animation/COMMON_SFX_SYSTEM.md",
+      "sha256": "dc8efd43b08e6aef5503c3e8c51462baec23b8b1c45ce5acb1c16ec8b9f12f12",
+      "bytes": 5595
+    },
+    {
+      "path": "docs/animation/LIVE_DOODLING_WORKFLOW.md",
+      "sha256": "584200fb037a1fa298c6b399b47aec91545e63c447911fa240926090a687be55",
+      "bytes": 5630
+    },
+    {
+      "path": "docs/animation/STORYTIME_DIRECTION_WORKFLOW.md",
+      "sha256": "2a0d499289fb0e24d219d866912a6819b7dfd20f64fadc28d58c4c753cb6bea6",
+      "bytes": 32965
+    },
+    {
+      "path": "docs/animation/STORYTIME_EPISODE_COLOUR_THEME.md",
+      "sha256": "580c657a381ac938ada88e9204b005a1776caf252705d82088d8ed9f040e03be",
+      "bytes": 4839
+    },
+    {
+      "path": "docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md",
+      "sha256": "1bc5459889e30103574f6542f40b9829a5e5228fc0e0306783640681e3181511",
+      "bytes": 18943
+    },
+    {
+      "path": "docs/animation/preflight/historical_specs.json",
+      "sha256": "5cb987683b60272fe5e2163986bf6fcbb2d60398a99a38521cde078fc55f373a",
+      "bytes": 511
+    },
+    {
+      "path": "docs/animation/preflight/reading_manifest.json",
+      "sha256": "5c32da920fdd88a6e6609a840dd9ad87039f428662625bd50e8f698fd572a47e",
+      "bytes": 1519
+    },
+    {
+      "path": "docs/audio/SFX_License_Registry.md",
+      "sha256": "b2c33a96c5eb6bcc80f45f0c3d77d93f3d72c42920eef9f53eae0cd5a57676e2",
+      "bytes": 34395
+    },
+    {
+      "path": "docs/audio/SFX_System_Guide.md",
+      "sha256": "2973052c494db7d2788666d73ae9f428b229f0cf106a709dad085009c6f3427f",
+      "bytes": 5678
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/body/pose_crossed_arms.png",
+      "sha256": "d10dc6459f31714053f5b7e18f608e3c3f6fb12db2a9a283827e7dbe915d887c",
+      "bytes": 4582
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/body/pose_gesturing.png",
+      "sha256": "fd71233a7da2a7ee2d39e24429a3a8e80ae70d79782aefa96065068e796a1e57",
+      "bytes": 4358
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/body/pose_neutral.png",
+      "sha256": "09d46f6ce508d38ddf34ddd7bc21d0b8f07aacb25a55080573c48f635b0455df",
+      "bytes": 4118
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/body/pose_recoil.png",
+      "sha256": "c99b9095f04557e56f753e3bb5ebb28f6ac3b370c57dcedf79aab88249aca874",
+      "bytes": 4151
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/details/detail_blush.png",
+      "sha256": "38a55a14df913a2527aa5a1ca5e092b334ea561a0077b386f02e4dbfaae75468",
+      "bytes": 1242
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/details/detail_exclamation.png",
+      "sha256": "8bbe43a3f7d6805925f5a2e8bd4feb302f9f6cb142f1960c6203cbb4ae0f1616",
+      "bytes": 1705
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/details/detail_sweat.png",
+      "sha256": "4d585d92ba2e2f7955bb43bb8db5ab4fe4401544d161bca2aedc08deb0186f58",
+      "bytes": 1326
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/eyes/eyes_blink.png",
+      "sha256": "2f2bed1836e56aa7e7fd31265468be5c8dc9f35c5447466541742a6afe1d647d",
+      "bytes": 1164
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/eyes/eyes_deadpan.png",
+      "sha256": "fbc0cfb2027b5d3190c6656a1d71867fbd30ce3587def6f6327809ca0ee7e996",
+      "bytes": 1443
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/eyes/eyes_neutral.png",
+      "sha256": "50c5d10d3a6a58c1a055f230826b07298d2aeab2ed9008397ddfe825aea317dc",
+      "bytes": 2002
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/eyes/eyes_shocked.png",
+      "sha256": "473df4f0e2f33203ecacaa65cfa60018bc4e7dfe5d54fe52436e7654edfea5d8",
+      "bytes": 1848
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/eyes/eyes_sparkle.png",
+      "sha256": "8702cfcae5948ff10f3791ad1ef622ad3fc08d349301712db29f9ac4ce6a078c",
+      "bytes": 2037
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/eyes/eyes_squint.png",
+      "sha256": "274602332aec5fc9c1e923fc4647efad1c1363000eb61165e6bedfafeef939d9",
+      "bytes": 1721
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/mouths/mouth_blep.png",
+      "sha256": "91e01eaef3db2ef234fbe08649c8c8f8c423331262e7611a2512d4a5c91db67b",
+      "bytes": 1271
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/mouths/mouth_flat.png",
+      "sha256": "685151e60a7716f85c23cc226cb94d68086acd5e13e2bb019fded7fe11edf771",
+      "bytes": 1132
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/mouths/mouth_open_o.png",
+      "sha256": "53e45daac819ca40d53ba83e78c8afe647177508c0087f2671177b1edaa7308c",
+      "bytes": 1274
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/mouths/mouth_smile.png",
+      "sha256": "a9a34386625a8ea90f5c9efd16339f550811d120adfb0d6271287574efac4617",
+      "bytes": 1304
+    },
+    {
+      "path": "nemi/assets/characters/storyteller/mouths/mouth_smirk.png",
+      "sha256": "c08c2c5765795934be6a668337f0c3fdc49428cc4ccf264ab9192a4598a47329",
+      "bytes": 1227
+    },
+    {
+      "path": "nemi/characters/neeko/Neeko.gd",
+      "sha256": "bca2b5e023fb33c78498c2adbe17ee8556b743ea7ced08b99e8c3f1c24589e79",
+      "bytes": 16595
+    },
+    {
+      "path": "nemi/characters/neeko/Neeko.tscn",
+      "sha256": "e7f9d8415c7c95819012d4dfd4589bb9dbcee5c0a63f3e88aa217602166feadd",
+      "bytes": 214
+    },
+    {
+      "path": "nemi/characters/nemi/NemiGeometry.gd",
+      "sha256": "49e1e05bb12e47dba9292cb0ac3f339b36ff0db7818805ab4994c2ecddc2c699",
+      "bytes": 42551
+    },
+    {
+      "path": "nemi/characters/nemi/NemiPose.gd",
+      "sha256": "5470214d8df90fa8fad97c0b199b119471fc1612cc0129c956cb6e0e3e05c8ed",
+      "bytes": 53841
+    },
+    {
+      "path": "nemi/characters/nemi/NemiProportions.gd",
+      "sha256": "ec63b3e5a76755622de1c56ab8ac404303c7dac96ba3a33fc638569c830d701d",
+      "bytes": 3958
+    },
+    {
+      "path": "nemi/characters/nemi/NemiStyle.gd",
+      "sha256": "1df0240bae6594d37a0457a76692d18ff96c575f9ca313690f955b2cb9f49efb",
+      "bytes": 4550
+    },
+    {
+      "path": "nemi/characters/nemi/README.md",
+      "sha256": "7ff287012804311133fc9b21409ba49b38f2c83fe6f83c351bda0b9bad081463",
+      "bytes": 6000
+    },
+    {
+      "path": "nemi/characters/nemi/animation/NemiActingDirector.gd",
+      "sha256": "975e51846f59e54b8d6075873103f0eb6e70559dcd2d53b2394c43dab5ad1fb7",
+      "bytes": 13423
+    },
+    {
+      "path": "nemi/characters/nemi/animation/NemiPerformanceDirector.gd",
+      "sha256": "eb1106fbc78a5ed43f012926c942d23cafd0349c00b940487458e5b9c47a3178",
+      "bytes": 19231
+    },
+    {
+      "path": "nemi/characters/nemi/animation/NemiSequence.gd",
+      "sha256": "eca0c00a2d75159b7959a7449a7c7b26a0e675b1285d61189277bb21c2cdecb2",
+      "bytes": 6070
+    },
+    {
+      "path": "nemi/characters/nemi/animation/actions/NemiBodyActing.gd",
+      "sha256": "16116e3441769c61cd1b6d6ee921ff1719d80d3e94e5507e6a06a13a02c1b918",
+      "bytes": 22782
+    },
+    {
+      "path": "nemi/characters/nemi/animation/actions/NemiEyeActing.gd",
+      "sha256": "2e9a621b053873c3f1f12d7da63b6314ffbc45045ac6ef84ab94523fdec444e3",
+      "bytes": 5029
+    },
+    {
+      "path": "nemi/characters/nemi/animation/actions/NemiFaceActing.gd",
+      "sha256": "2c8658d43a8f1c9da5e924dba53adf9fb9014a98ce77f4b847064c6b1f4b78b6",
+      "bytes": 3889
+    },
+    {
+      "path": "nemi/characters/nemi/animation/actions/NemiHeadActing.gd",
+      "sha256": "bfcab9374858de094a674b0f5913dc762f5fab476ab47dc1adaa191bd840d824",
+      "bytes": 6254
+    },
+    {
+      "path": "nemi/characters/nemi/animation/actions/NemiLipSync.gd",
+      "sha256": "b9f8c13dd53c07941cfc5a868bb6b2cb8dccd2c409e19ea49879c843f8412331",
+      "bytes": 5276
+    },
+    {
+      "path": "nemi/characters/nemi/animation/primitives/NemiMotionPrimitives.gd",
+      "sha256": "00ec07de59d45da41a7a4a09d3d04df8ac2ed77ca01f6f004706e71a6f91af23",
+      "bytes": 5634
+    },
+    {
+      "path": "nemi/characters/nemi/animation/primitives/NemiTiming.gd",
+      "sha256": "3d8569cd54a986c3ad5d096c6bbcc96814fed5ff8a8c220ddd22a9a351a07778",
+      "bytes": 4387
+    },
+    {
+      "path": "nemi/characters/nemi/animation/reactions/NemiReactions.gd",
+      "sha256": "071761fe51e4437ce741c3b126724ed1bc18481fc9d158355405366c6cfee3b7",
+      "bytes": 11536
+    },
+    {
+      "path": "nemi/characters/nemi/documentation/NEMI_ACTING_SYSTEM_GUIDE.md",
+      "sha256": "dc55de5e40fd6bdf4b27e3a36bafb5cd2341a9860c9af9f03cb61a8d7d0132d0",
+      "bytes": 7875
+    },
+    {
+      "path": "nemi/characters/nemi/documentation/NEMI_ANIMATION_GUIDE.md",
+      "sha256": "5f7714e9ec0388f4460b46907bf459aab5bca1d27b7722bd0399c626480584cc",
+      "bytes": 6332
+    },
+    {
+      "path": "nemi/characters/nemi/documentation/NEMI_EXPRESSION_FX_GUIDE.md",
+      "sha256": "3e7b7320169ba2e0837ba4b082795edd933d166ec2fb3ff46a6e6b689fd51cb3",
+      "bytes": 7747
+    },
+    {
+      "path": "nemi/characters/nemi/documentation/NEMI_RIG_V1_GUIDE.md",
+      "sha256": "678d97402867fe5166ef9632ff566ec4a7e2660a3cf901cdd1e881d5f8674f75",
+      "bytes": 9860
+    },
+    {
+      "path": "nemi/characters/nemi/documentation/NEMI_VOICE_AND_SCRIPT_STYLE.md",
+      "sha256": "7147e29771b2597d4ebf3ac031313b0fa4492a57e1b402039cfe89f3ca4e1082",
+      "bytes": 1653
+    },
+    {
+      "path": "nemi/characters/nemi/drawing/IllustrationCanvas2D.gd",
+      "sha256": "e872a34814c0bc12963bd9c31998f4d4e13b9959a76c2b1e0589ec58b8c7c9ac",
+      "bytes": 3359
+    },
+    {
+      "path": "nemi/characters/nemi/drawing/IllustrationShape.gd",
+      "sha256": "22df2938afda7660f9ee2d80ed5b9d19e37b7309d864f1ecd2cc24123af97c41",
+      "bytes": 1593
+    },
+    {
+      "path": "nemi/characters/nemi/drawing/InkStroke.gd",
+      "sha256": "ab6e176455e5350fe64e0a1e9c0c8c6a2051d4c338d1eaab1f935ad28c05bb9d",
+      "bytes": 6512
+    },
+    {
+      "path": "nemi/characters/nemi/drawing/NemiDoodles.gd",
+      "sha256": "e4ec23c0882f327ec04cbcd292de466b53fa84fba62c302bb730046dd81b91e6",
+      "bytes": 3841
+    },
+    {
+      "path": "nemi/characters/nemi/drawing/NemiRigDebug.gd",
+      "sha256": "37fa5806ee8d475acb216caa5ba6687140a7874e59ce5b77f375b35d9104c09c",
+      "bytes": 2217
+    },
+    {
+      "path": "nemi/characters/nemi/fx/NemiFXAnchor.gd",
+      "sha256": "4d1db1de42ee9ae051a95fbe4df90d3dc6c0a78208e38a5c4863516b9ea3fdd8",
+      "bytes": 4227
+    },
+    {
+      "path": "nemi/characters/nemi/fx/NemiFXDirector.gd",
+      "sha256": "93b7b3bd41f2432e9601e1788e4d467b1d73c01051341e2ddbfa46cf4565f83c",
+      "bytes": 13791
+    },
+    {
+      "path": "nemi/characters/nemi/fx/NemiFXElement.gd",
+      "sha256": "e141b31596b267e53cacb04efe98aa187b82e187b41f01dcfd87df3e5fc1e8ab",
+      "bytes": 8229
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXAnger.gd",
+      "sha256": "51dcbe06a38e1c16b75ba5684c6c14cee5e9de8bd9168803d5632e48a6803c5b",
+      "bytes": 3696
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXAttention.gd",
+      "sha256": "4492963249f7089fbcfdcfcae6091f94b31b86828854d376d8a21f6416bd6954",
+      "bytes": 2921
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXConfusion.gd",
+      "sha256": "214d1b24cd48950cde65ce0e79d7b14cc60c2851306e1c0ca7229613d3072207",
+      "bytes": 2877
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXDeadpan.gd",
+      "sha256": "57030cfb99c400538f1132c50e44df65c71ce8d0665c7e9a161c7e467ed4f6fc",
+      "bytes": 2019
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXEmbarrassment.gd",
+      "sha256": "3c9a91f3c46f046cccf11a77664a766c18819058469d87247e8b2a481891639b",
+      "bytes": 3038
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXExcitement.gd",
+      "sha256": "ea1f5b00ccde55183fcccd71f8a8f3658480d6e82d6a1a03bdd2cde0ae1773d0",
+      "bytes": 2891
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXNervous.gd",
+      "sha256": "d3fd2b4b8c71636b00fa0c77912f00ee2c29342d300a90e9b78edfca022c6742",
+      "bytes": 2578
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXPanic.gd",
+      "sha256": "bb1206b8079a8c9d8cfc3e1ecfdee34b5a505ea0ab1e94da5fbffe54633a0398",
+      "bytes": 3402
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXRealization.gd",
+      "sha256": "19a94c64a1a5dba62df6057ae7f014ceb7ded84d9d69ca45a700ffdbb59c3b2d",
+      "bytes": 4107
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXRelief.gd",
+      "sha256": "7ce24ce94e54041ee36a9f2af82693f5a4ee5f98a08a706e3e2b90cdfb79aebd",
+      "bytes": 2227
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXSad.gd",
+      "sha256": "f49de3aaa47b2da3e0c182384e5fe3f1edf846774958969b017ae3bb9bbd1608",
+      "bytes": 2240
+    },
+    {
+      "path": "nemi/characters/nemi/fx/elements/FXShock.gd",
+      "sha256": "e25620e71dce9dbffac0316a82e508234bc49f4377bcbf12a204be0380fc8e7c",
+      "bytes": 3209
+    },
+    {
+      "path": "nemi/characters/nemi/nemi.gd",
+      "sha256": "7576ac295587212810c8e016de4bab2945d6a96e3c92fae98360f5385f85cb1d",
+      "bytes": 36591
+    },
+    {
+      "path": "nemi/characters/nemi/nemi.tscn",
+      "sha256": "0396e0634e9acdc1e99398888621cdbd1f00a0680f6ad52116dd763e01f79106",
+      "bytes": 10241
+    },
+    {
+      "path": "nemi/characters/nemi/parts/NemiBagPart.gd",
+      "sha256": "1f22923cab8f74d4127eee98b3eb9d2676531665b04b029c4d1af950f386b545",
+      "bytes": 2091
+    },
+    {
+      "path": "nemi/characters/nemi/parts/NemiFace.gd",
+      "sha256": "b3a9528ca1fb36b6ee4a957739daf51c5d7855497bac35e4400893203a765f0e",
+      "bytes": 31872
+    },
+    {
+      "path": "nemi/characters/nemi/parts/NemiHairPart.gd",
+      "sha256": "687b96a33d1331b09a875737ecb5cc1e6ff4007389fed9ba33d90209c02ab518",
+      "bytes": 4449
+    },
+    {
+      "path": "nemi/characters/nemi/parts/NemiHeadPart.gd",
+      "sha256": "b15163b09622263fff60b2a1ef300b677a1a3eb38118188053077368222ce1c3",
+      "bytes": 1755
+    },
+    {
+      "path": "nemi/characters/nemi/parts/NemiLegPart.gd",
+      "sha256": "3df1b90fb5445ac8ef58693cd5d26b7e67a713252ec8e4d6357e047e19a02a76",
+      "bytes": 3835
+    },
+    {
+      "path": "nemi/characters/nemi/parts/NemiLimbPart.gd",
+      "sha256": "564515a72cae2fa879ae817dbea7288391fc9408920eedbac6c8dc6aa8967539",
+      "bytes": 7198
+    },
+    {
+      "path": "nemi/characters/nemi/parts/NemiNeckPart.gd",
+      "sha256": "3388161fa286e4019dd6fa730c24aec01dcd550af3eb5cbf27c717dc0c4f27e5",
+      "bytes": 1064
+    },
+    {
+      "path": "nemi/characters/nemi/parts/NemiPart.gd",
+      "sha256": "60c79b09ffd62c532499b488fce3154802e2656be71d8c93dd10e6dbd3efe356",
+      "bytes": 1349
+    },
+    {
+      "path": "nemi/characters/nemi/parts/NemiSkirtPart.gd",
+      "sha256": "d76217b8db69f73a66036206b0cdeabb1f05bc5e57401346a253938d9ab7218a",
+      "bytes": 2039
+    },
+    {
+      "path": "nemi/characters/nemi/parts/NemiTorsoPart.gd",
+      "sha256": "c6f2f73a3244f5366cd1fadb1f803544db8fb075e326d178654c0f726a086ee7",
+      "bytes": 3686
+    },
+    {
+      "path": "nemi/characters/nemi/renders/README.md",
+      "sha256": "b826bf6711bc1b5d8dd4d0a294d2acfdb873b21ba40316e7db0dadbe074fe1eb",
+      "bytes": 2704
+    },
+    {
+      "path": "nemi/characters/nemi/test/NemiActingTest.gd",
+      "sha256": "8a2b9d23c7d6ecfa9b497d9fa902562d4d7abe92891419d99665859e5ef83a4c",
+      "bytes": 7229
+    },
+    {
+      "path": "nemi/characters/nemi/test/NemiActingTest.tscn",
+      "sha256": "84b3614586ba793b569894a41c5c6578d0901e90faf2b5a38d4dc7d8808a21e5",
+      "bytes": 7544
+    },
+    {
+      "path": "nemi/characters/nemi/test/NemiArtTest.gd",
+      "sha256": "ae2e0c5dd7570d4f4e03b88dc85c896e88f687c08a9bcd2d24af186d8b7c4f6f",
+      "bytes": 3463
+    },
+    {
+      "path": "nemi/characters/nemi/test/NemiArtTest.tscn",
+      "sha256": "a582a527fa83be7c5c020f56db3ec5b449795a6d26bd5349653486b6c5e51675",
+      "bytes": 3345
+    },
+    {
+      "path": "nemi/characters/nemi/test/NemiExpressionFXTest.gd",
+      "sha256": "cdae7f1ea026bcba1d332a39363042e4fa83e9dc4580204fbd6d50df6dfe12c0",
+      "bytes": 5473
+    },
+    {
+      "path": "nemi/characters/nemi/test/NemiExpressionFXTest.tscn",
+      "sha256": "cd8d26733bde9dfce0bb512d20657a3f0b6c5632e1bfe9f1ad5e8b17651d5803",
+      "bytes": 2117
+    },
+    {
+      "path": "nemi/characters/nemi/test/NemiProportionOverlay.gd",
+      "sha256": "13dc7a673fc3202f3b76fa47bf339f462887f1fb9b98c30a4bd5b29e6fee906f",
+      "bytes": 3592
+    },
+    {
+      "path": "nemi/characters/nemi/test/NemiRigTest.gd",
+      "sha256": "2acd044825678751696752cf1a3ed86a8b7cd4382cbd81a1455237441e1413ea",
+      "bytes": 10197
+    },
+    {
+      "path": "nemi/characters/nemi/test/NemiRigTest.tscn",
+      "sha256": "503f9b192068d89639954edd06cddfad69acd080abc2db375b04e41496a83ce2",
+      "bytes": 19797
+    },
+    {
+      "path": "nemi/characters/nemi/test/NemiTimingHUD.gd",
+      "sha256": "4b2ec125ade2d0f9fd964ca38766418fb18bc0038256493915f502d825f8dafe",
+      "bytes": 1950
+    },
+    {
+      "path": "nemi/characters/nemi/test/NemiTimingHUD.tscn",
+      "sha256": "ff1bc7fe4c45d940a3c87b8f7b0a858c78c7e34bb6b67abb3c900103c295c718",
+      "bytes": 4849
+    },
+    {
+      "path": "nemi/characters/nemi/test/TestLipSync.gd",
+      "sha256": "afae7f0eac46f316bdc77d846dc05f8b4b8e242809997f11820dbc90d208cfc0",
+      "bytes": 1757
+    },
+    {
+      "path": "nemi/characters/nemi/test/TestLipSync.tscn",
+      "sha256": "92484e9839be54c033c1e214cf08a890db4cce81150f13c112d4e4d94150ebf6",
+      "bytes": 919
+    },
+    {
+      "path": "nemi/episodes/ep04_scared/Ep04Doodles.gd",
+      "sha256": "a40f21bf3e252d37c784215a0ef99d35c03fdfdd5538f8b6931c6f64ca4e4179",
+      "bytes": 55444
+    },
+    {
+      "path": "nemi/episodes/ep05_celebration/Ep05Doodles.gd",
+      "sha256": "1b134a1ad5d18c4e0b3fcdcbcf90bfc55a8d3c15838e7a4b8d2d602a8b973d26",
+      "bytes": 20754
+    },
+    {
+      "path": "tools/storytime/THUMBNAIL_PROMOTIONAL_LAYOUT.md",
+      "sha256": "aa8096b88fb2885385354c6fdf0302fc17908e4eed300ba89b2f1ccdd8498a17",
+      "bytes": 6422
+    },
+    {
+      "path": "tools/storytime/ThumbnailBatch.gd",
+      "sha256": "65d4128c9ca40c32bf6096e997aaf4617613e8f7315c890a726f7d57a30319fe",
+      "bytes": 6069
+    },
+    {
+      "path": "tools/storytime/ThumbnailEpisodeSet.gd",
+      "sha256": "c72afee01e152b82293b9d5f6b57fe437d521635b9c227d3ceda56cccc97a20c",
+      "bytes": 4028
+    },
+    {
+      "path": "tools/storytime/ThumbnailIllustration.gd",
+      "sha256": "95f09aed8847abac7a1bd74d72ba2e903ced64c58d6b95d2d965d54373261e61",
+      "bytes": 2690
+    },
+    {
+      "path": "tools/storytime/ThumbnailPilot.gd",
+      "sha256": "f5198efa1cbdb2cd7851263fc42ae7b3cc5239c512b21fd3d9b495bef08ba31a",
+      "bytes": 5375
+    },
+    {
+      "path": "tools/storytime/ThumbnailPromotional.gd",
+      "sha256": "0f1c87fde773b357b75d6d8ffa3042bfdf89dde37c4020b559058abcedf50b1d",
+      "bytes": 538
+    },
+    {
+      "path": "tools/storytime/ThumbnailStoryArt.gd",
+      "sha256": "cafdc39c82dc246ea5f57322f92abb2639ed5e7d4b8bb8a2f5e26dd6e8046883",
+      "bytes": 7629
+    },
+    {
+      "path": "tools/storytime/ThumbnailStyle.gd",
+      "sha256": "abc2b5ec845ac4151ae0c38c6536017130cce9fcdbae4e0711adab83f2cc8b1d",
+      "bytes": 3530
+    },
+    {
+      "path": "tools/storytime/align_voice.py",
+      "sha256": "40416fd0eb58da9b353faa98ffaa0a9e503856b248aab64cb44d89b87e32632d",
+      "bytes": 1751
+    },
+    {
+      "path": "tools/storytime/audio_mix.py",
+      "sha256": "df60a244ed433b197384704297907a7fedd44b52d3d164e4e48d3bf87cebfcd6",
+      "bytes": 2786
+    },
+    {
+      "path": "tools/storytime/build_refinement_proof.py",
+      "sha256": "ed33e8cfd6be7772e8abcecd8913a8bfe4a0f180963625ff19b7a5a3f8eee98e",
+      "bytes": 9642
+    },
+    {
+      "path": "tools/storytime/build_review_story.py",
+      "sha256": "d16efbb509cac898dd2da6b04e1f2e9288dc568978ce2477754de68e49120881",
+      "bytes": 11473
+    },
+    {
+      "path": "tools/storytime/calibrate_mix.py",
+      "sha256": "ba0d32b97d50f2675d606e348867ae5aad5ff9af429ff8efc449bbe69e042b4f",
+      "bytes": 980
+    },
+    {
+      "path": "tools/storytime/check_engine.py",
+      "sha256": "732748163d1f8a1d4ca29c870821b4f7afae6f23c4d6391ecbae9f9938f4c7a2",
+      "bytes": 1523
+    },
+    {
+      "path": "tools/storytime/generate_proof_voice.py",
+      "sha256": "b5a02724f73df6c5f961473f13f81efa25d994847fb67429391ba1bce68007c5",
+      "bytes": 1132
+    },
+    {
+      "path": "tools/storytime/generate_review_voice.py",
+      "sha256": "69dd33a3ffd27565a8d9198c3aa1d694d348ee13f0c73ecbd2219287457c7132",
+      "bytes": 2329
+    },
+    {
+      "path": "tools/storytime/new_scene.py",
+      "sha256": "c656961bb19bc9faf5b6c4b006942129115b1491f2295ee84f5e414b5244dcab",
+      "bytes": 5316
+    },
+    {
+      "path": "tools/storytime/package_promotional_thumbnails.py",
+      "sha256": "5c772c7f116f5e1533c3cdf2b456d26e5e9592084c36a5c1b54d00f656f0e48c",
+      "bytes": 10809
+    },
+    {
+      "path": "tools/storytime/package_thumbnails.py",
+      "sha256": "2a307b3da4a3fd12aeb2bd62b518626263f3d9727d7dcda545bc98f37609c3a5",
+      "bytes": 5796
+    },
+    {
+      "path": "tools/storytime/preflight.py",
+      "sha256": "e066397e53fdf2b4ba32a7c72bb2eb7477ab2484c3bea22350e3d5391c500bbe",
+      "bytes": 8853
+    },
+    {
+      "path": "tools/storytime/prepare_direction_proof.py",
+      "sha256": "fe7dbad9770b8a58cce9fba05dd8dc1f45ca6684c8f11ca669db16e1b2552b36",
+      "bytes": 5891
+    },
+    {
+      "path": "tools/storytime/prepare_voice.py",
+      "sha256": "29100f77af21b90369e3ff324047f2366e66be1788a68fb4cdaa8eca2f332bd7",
+      "bytes": 6256
+    },
+    {
+      "path": "tools/storytime/reexport_episode_sound.py",
+      "sha256": "357fd250cb221acde22f60be1aa6553941f5b64cb10a5349e8ea9a3ee3c6d156",
+      "bytes": 4510
+    },
+    {
+      "path": "tools/storytime/render_approval.py",
+      "sha256": "b6ce8e026fb157745d28e8b2857136569bb739cc83205464aab3832e23c917d2",
+      "bytes": 5217
+    },
+    {
+      "path": "tools/storytime/render_scene.py",
+      "sha256": "50d49508ac154eb490c1429977bad637616eba7cc3c876a7772849b246d7b66c",
+      "bytes": 9162
+    },
+    {
+      "path": "tools/storytime/render_stage.gd",
+      "sha256": "f3bafb61d7b6234e697e93532e919ad60403885c8f9bc7af04b9d3e743c02da7",
+      "bytes": 2224
+    },
+    {
+      "path": "tools/storytime/revise_ep08_ep09_sound.py",
+      "sha256": "6531f47802856658283ba48cd4e0f9a97c19db33eead43bc925462ad0387afca",
+      "bytes": 7269
+    },
+    {
+      "path": "tools/storytime/sfx_assets.py",
+      "sha256": "ee488dd5acc8de28dc01a6929feda2989fdffd4814221d3ebc7c4a6b3a064c89",
+      "bytes": 1249
+    },
+    {
+      "path": "tools/storytime/sfx_levels.py",
+      "sha256": "4f3cce57d3d3a0093100fad0c4d9b250658177aea3484e2df2ccca5841fbee5d",
+      "bytes": 1058
+    },
+    {
+      "path": "tools/storytime/test_audio_mix.py",
+      "sha256": "9c78ad609e0123da1380c1202d60d347c55a1bd293b3a3c3054dc662840e9219",
+      "bytes": 2706
+    },
+    {
+      "path": "tools/storytime/test_identity.gd",
+      "sha256": "85409702d4503fef65f8fe2c0a806a34ca9c0419e433e5aac007c1c5389275df",
+      "bytes": 2801
+    },
+    {
+      "path": "tools/storytime/test_pacing.py",
+      "sha256": "09e91e772d9144393e28f95e9aa38d2f510cd1a73dfe533dd68d1f148ce8e602",
+      "bytes": 3228
+    },
+    {
+      "path": "tools/storytime/test_preflight.py",
+      "sha256": "44a0b5b3684a3315ab0dc929b94b346a245bf71280935e2283dd13d6300a44a1",
+      "bytes": 7849
+    },
+    {
+      "path": "tools/storytime/test_production.gd",
+      "sha256": "100a72ea7a8d97bf710113947678ee7d28963b0bffcb415d117c8d0de6bf7e5d",
+      "bytes": 3775
+    },
+    {
+      "path": "tools/storytime/test_production_validator.py",
+      "sha256": "ce02bbcb2a1ed3a815d19a9a6551610dbdba20d7ba51e1f6246a77854e1bd30f",
+      "bytes": 3391
+    },
+    {
+      "path": "tools/storytime/test_refinement.gd",
+      "sha256": "0f4133f03a1c7dab0a28e405b757efec0c37a7d0380d5a5c2c3e5ce3ffb028f9",
+      "bytes": 3527
+    },
+    {
+      "path": "tools/storytime/test_render_approval.py",
+      "sha256": "e133a3763747360f87ad45a05c8c4c89727d162e0ee04f055e2276a8cc09e792",
+      "bytes": 4501
+    },
+    {
+      "path": "tools/storytime/test_render_output.py",
+      "sha256": "d05a01f14801655aa16d517695f83fe863549f6cc17ad989e88d6eea9e8737ea",
+      "bytes": 1325
+    },
+    {
+      "path": "tools/storytime/test_render_timing.py",
+      "sha256": "69165fba4bc25ac5de5045e6a43f270e63fdb4aa1dac1d4909c925075ba966e3",
+      "bytes": 1488
+    },
+    {
+      "path": "tools/storytime/test_review_story.gd",
+      "sha256": "a0169bd9527a45e3fd193fc0681cc27c62158288b64c87d20baa4dcb7267d1d0",
+      "bytes": 2260
+    },
+    {
+      "path": "tools/storytime/test_sfx_assets.py",
+      "sha256": "2cbc75eb49bf07d41ea1a4e45c3bae9ecf90c5438036ed0081dce9ff89cea1a6",
+      "bytes": 1172
+    },
+    {
+      "path": "tools/storytime/test_validator.py",
+      "sha256": "570f3904a53bb6b7ea7cfab0eedfa7058875f5983949fc35616748b5e5646854",
+      "bytes": 1430
+    },
+    {
+      "path": "tools/storytime/thumbnail_collection.json",
+      "sha256": "a30a36ae49face460001a9e1524149d4b5ffe9b09f0528f172230ff852b5b88c",
+      "bytes": 2233
+    },
+    {
+      "path": "tools/storytime/thumbnail_generated_collection.json",
+      "sha256": "60bfc97b6525f199d0afda9c7da326a7c4ecdc56c26ce368cf1bffc8f16998aa",
+      "bytes": 4517
+    },
+    {
+      "path": "tools/storytime/thumbnail_pilots_2026-10-06.json",
+      "sha256": "8a5b941cdeae3e98ee195e7cb9779aea5b8beddb8c88155ee83819b30e342d5c",
+      "bytes": 3206
+    },
+    {
+      "path": "tools/storytime/thumbnail_promotional_2026-10-06.json",
+      "sha256": "fe02d21ba6c2341230341e47c8d0b3b724227f2429cf555622655d8d97c788b9",
+      "bytes": 1742
+    },
+    {
+      "path": "tools/storytime/thumbnail_promotional_collection.json",
+      "sha256": "d1e297915c777067a885bc5153b553e3904fe1a16006a6f2385892445a520c78",
+      "bytes": 9690
+    },
+    {
+      "path": "tools/storytime/validate_production.py",
+      "sha256": "e1a9ca3faa826e90da6cd24ca8d1c94de104ce4727a3274e16b6652ed8bcedcb",
+      "bytes": 24374
+    },
+    {
+      "path": "tools/storytime/validate_scene.py",
+      "sha256": "241964d7a98d10f2e1aa3971722103bc7057815c97f87a9dd3c70986c3b9f284",
+      "bytes": 7684
+    },
+    {
+      "path": "tools/storytime/validate_thumbnail_pilots.py",
+      "sha256": "ec3c42bf5a7ed7b1dc4b64d8b4a352fde5b13a302576545375067d03cf246c48",
+      "bytes": 4356
+    },
+    {
+      "path": "tools/tts/config.py",
+      "sha256": "e40065f248800836e45e48b95af92a745bf1564c17552c1a2eb4a87956223e66",
+      "bytes": 3922
+    }
+  ],
+  "missing_references": [
+    "common/storytime/profiles/%s.json",
+    "renders/storytime_identity/frame_%02d.png"
+  ],
+  "notes": [
+    "Original dependencies are read-only. Copied rig, drawing and acting files are byte-identical.",
+    "Missing references can occur in unused historical examples/runtime optional resources; compile and full validation determine used dependency readiness."
+  ]
+}

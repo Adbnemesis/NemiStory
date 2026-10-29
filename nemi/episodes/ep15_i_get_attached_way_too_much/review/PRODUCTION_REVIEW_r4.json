@@ -1,0 +1,46 @@
+{
+  "revision": "r4",
+  "source_branch": "codex/nemi-ep15-review",
+  "source_commit": "5af2e0f",
+  "isolated_checkout": "/Users/talus/.codex/worktrees/nemi-ep15-review/adb",
+  "duration_seconds": 160.4,
+  "hard_cap_seconds": 180,
+  "source_scene_sha256": "27bf5c20c1a60e4e49f8798c0fd255f290e4307ea8a02f09f14df2c60b401918",
+  "previous_full_movie": "NEMI_EP15_I_Get_Attached_Way_Too_Much_r3_1080p_REVIEW.mp4",
+  "correction": "Full-film still review exposed older school_day_r4 desk feet ending above its floor. R4 selects existing school_corridor_r4 for the school-memory beats without editing the old set or episodes. Fresh 95\u2013105s proof confirms lockers/door and Nemi share the ground plane.",
+  "audio_unchanged_from_r3": true,
+  "audio_signature": "80dae7035b89aa88ce62dd0883f61631f56353027997e8e3cf541b4b6a6ad6fb",
+  "evidence": [
+    "FULL_VISUAL_REVIEW_PART_A.md",
+    "FULL_VISUAL_REVIEW_PART_B.md",
+    "SCHOOL_CORRECTION_R4.md",
+    "ART_REVIEW_r3.md",
+    "audio/sfx_prominence_r2.json",
+    "audio/r3_audio_unchanged.json"
+  ],
+  "five_engine_checks_passed": true,
+  "preflight_current_in_isolated_checkout": true,
+  "full_validator_passed": true,
+  "subjective_audio_listening": "Not performed: this session cannot perceive audio. Independent ASR, waveform/clipping checks, SFX provenance/prominence and encoded peak are recorded; user listening review remains pending.",
+  "lipsync": "Measured word alignment and authored existing vowel/closure shapes. No automatic phoneme-perfect claim.",
+  "four_k_rendered": false,
+  "user_satisfaction": "Pending exact complete1080pR4 movie",
+  "full_r4_export_and_playback": "Complete: final160.4s movie fully decoded,99 stills sampled, school correction checked in full R4, normal-speed browser playback exercised from0.00 to160.40 with visual samples and final hold observed. This is a sampled visual/playback review, not acoustic listening.",
+  "movie": "res://nemi/episodes/ep15_i_get_attached_way_too_much/renders/NEMI_EP15_I_Get_Attached_Way_Too_Much_r4_1080p_REVIEW.mp4",
+  "movie_sha256": "1e06449e6e3a8847230555bbe144e7ccc9ae4b1f1830d214d0bf04645e3601ac",
+  "render_inputs_sha256": "f4ca71b0bed9831d8fbdde6d73fd426892c71942d460b21367dc4c78d03a67c8",
+  "full_decode_passed": true,
+  "frame_count": 4812,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "encoded_audio": {
+    "integrated_lufs": -22.3,
+    "true_peak_dbfs": -2.0
+  },
+  "caption_cards": 107,
+  "all_caption_cards_at_most_five_words": true,
+  "stills_inspected": "R3 full99samples partitioned across root/two reviewers, R4 fresh school proof5samples and fullR4 school/contact sheets07\u201309 rechecked. All other picture cues unchanged; selected R4 full stills checked.",
+  "delivery_ready_for_user_review": true
+}

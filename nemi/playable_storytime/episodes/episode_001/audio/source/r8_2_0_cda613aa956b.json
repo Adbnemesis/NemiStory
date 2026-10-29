@@ -1,0 +1,36 @@
+{
+  "id": "r8_2_0",
+  "author": "nemi",
+  "text": "Okay, let's hear the sandwich out. It's got layers, it's well prepared, and it hasn't agreed to do anything embarrassing today. Honestly, it should be wearing my badge. Unfortunately, I can't send bread through that door and go home, so three gets the badge. We'll keep the sandwich as an emergency understudy.",
+  "file": "res://episodes/episode_001/audio/source/r8_2_0_cda613aa956b.wav",
+  "sha256": "02aa5c407dac3720714042cbe76905df2adbfa61a9f3bc1a0d97263bb746dff6",
+  "identity": {
+    "model_name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "repo_id": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+    "model_version": "1.7B-CustomVoice-bf16",
+    "runtime": "mlx-audio",
+    "license": "Qwen Community License / Apache 2.0",
+    "speaker": "sohee",
+    "voice_identifier": "sohee",
+    "voice_design_prompt": "Warm, natural young adult woman around 24, relaxed conversational speech, friendly, casual, intelligent, slightly playful.",
+    "language": "English",
+    "sample_rate": 24000,
+    "output_format": "WAV",
+    "default_speed": 1.0,
+    "ref_audio_path": "audio/nemi/reference/nemi_golden_reference.wav",
+    "ref_text_path": "audio/nemi/reference/nemi_golden_reference.txt",
+    "pause_policy": {
+      "short_pause": 0.2,
+      "medium_pause": 0.35,
+      "thought_pause": 0.45,
+      "deadpan_pause": 1.5,
+      "dramatic_pause": 0.8,
+      "stinger_pause": 0.2
+    },
+    "device": "mps"
+  },
+  "model_provenance": ".cache/models/qwen.provenance.json",
+  "source_tempo": 1.0,
+  "new_recording": true,
+  "listening_review": "pending"
+}

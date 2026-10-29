@@ -1,0 +1,745 @@
+{
+  "version": 2,
+  "clock": "final prepared Aiden word clock",
+  "actor_scale": 1.08,
+  "actor_root_y": 686.64,
+  "floor_y": 894,
+  "shots": [
+    {
+      "shot": "p0_studio_intro",
+      "start": 0.0,
+      "end": 5.39,
+      "paragraph": 1,
+      "exact_spoken_cue": "broadcasted",
+      "measured_word": {
+        "word": "broadcasted",
+        "word_index": 4,
+        "paragraph": 1,
+        "start": 1.37,
+        "end": 2.15
+      },
+      "sentence_context": "So after my friend broadcasted my primary school crush to the entire universe, middle school arrived. Our sections got reshuffled. Different classes, different wings, different desks.",
+      "event": "broadcasted",
+      "focus": "Presenter intro connecting EP04 to middle school",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.1,
+      "reason": "Adult ADB introduces childhood middle school arrival from studio.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 0.0,
+          "center": [
+            960,
+            550
+          ],
+          "zoom": 1.1
+        },
+        {
+          "at": 5.39,
+          "center": [
+            960,
+            530
+          ],
+          "zoom": 1.22
+        }
+      ]
+    },
+    {
+      "shot": "p0_corridor_reshuffle",
+      "start": 5.39,
+      "end": 12.22,
+      "paragraph": 1,
+      "exact_spoken_cue": "reshuffled.",
+      "measured_word": {
+        "word": "reshuffled.",
+        "word_index": 19,
+        "paragraph": 1,
+        "start": 7.67,
+        "end": 8.21
+      },
+      "sentence_context": "So after my friend broadcasted my primary school crush to the entire universe, middle school arrived. Our sections got reshuffled. Different classes, different wings, different desks.",
+      "event": "reshuffled",
+      "focus": "Middle school corridor: sections reshuffled",
+      "center": [
+        960,
+        560
+      ],
+      "zoom": 1.08,
+      "reason": "Transition to middle school corridor with different classes and desks.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p1_japanese_classroom",
+      "start": 12.22,
+      "end": 22.86,
+      "paragraph": 2,
+      "exact_spoken_cue": "second",
+      "measured_word": {
+        "word": "second",
+        "word_index": 34,
+        "paragraph": 2,
+        "start": 14.4,
+        "end": 14.74
+      },
+      "sentence_context": "The only thing we still shared was our second language elective: Japanese. So a couple of times a week, we were in the same room. Except in middle school, nobody talks. We went from sharing a desk to acting like strangers.",
+      "event": "second_language",
+      "focus": "Middle school Japanese elective classroom",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.05,
+      "reason": "Establish the Japanese elective classroom with separate desks.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p1_classroom_strangers",
+      "start": 22.86,
+      "end": 27.5,
+      "paragraph": 2,
+      "exact_spoken_cue": "strangers.",
+      "measured_word": {
+        "word": "strangers.",
+        "word_index": 66,
+        "paragraph": 2,
+        "start": 26.52,
+        "end": 26.82
+      },
+      "sentence_context": "The only thing we still shared was our second language elective: Japanese. So a couple of times a week, we were in the same room. Except in middle school, nobody talks. We went from sharing a desk to acting like strangers.",
+      "event": "strangers",
+      "focus": "Acting like strangers across the room",
+      "center": [
+        800,
+        550
+      ],
+      "zoom": 1.25,
+      "reason": "Close framing on the awkward silence between former desk partners.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 22.86,
+          "center": [
+            800,
+            550
+          ],
+          "zoom": 1.25
+        },
+        {
+          "at": 27.5,
+          "center": [
+            800,
+            535
+          ],
+          "zoom": 1.4
+        }
+      ]
+    },
+    {
+      "shot": "p2_nostalgia_desk",
+      "start": 27.5,
+      "end": 33.38,
+      "paragraph": 3,
+      "exact_spoken_cue": "friends.'",
+      "measured_word": {
+        "word": "friends.'",
+        "word_index": 80,
+        "paragraph": 3,
+        "start": 31.92,
+        "end": 33.12
+      },
+      "sentence_context": "Still, in my head, I thought, 'We sat together all year. We're still friends.' So I messaged her on our chat app. Just a casual 'Hey, how's it going?' No reply. I waited days. So I foolishly texted twice: 'Did you see my message?'",
+      "event": "still_friends",
+      "focus": "Still friends assumption at desk",
+      "center": [
+        800,
+        550
+      ],
+      "zoom": 1.22,
+      "reason": "Aiden naively assumes they are still friends after sitting together all year.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p2_chat_outgoing_1",
+      "start": 33.38,
+      "end": 39.08,
+      "paragraph": 3,
+      "exact_spoken_cue": "messaged",
+      "measured_word": {
+        "word": "messaged",
+        "word_index": 83,
+        "paragraph": 3,
+        "start": 33.38,
+        "end": 33.76
+      },
+      "sentence_context": "Still, in my head, I thought, 'We sat together all year. We're still friends.' So I messaged her on our chat app. Just a casual 'Hey, how's it going?' No reply. I waited days. So I foolishly texted twice: 'Did you see my message?'",
+      "event": "messaged",
+      "focus": "Sending casual greeting on school chat app",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.15,
+      "reason": "Thought space displaying smartphone screen and first outgoing message bubble.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p2_waiting_silence",
+      "start": 39.08,
+      "end": 42.92,
+      "paragraph": 3,
+      "exact_spoken_cue": "waited",
+      "measured_word": {
+        "word": "waited",
+        "word_index": 99,
+        "paragraph": 3,
+        "start": 40.24,
+        "end": 40.4
+      },
+      "sentence_context": "Still, in my head, I thought, 'We sat together all year. We're still friends.' So I messaged her on our chat app. Just a casual 'Hey, how's it going?' No reply. I waited days. So I foolishly texted twice: 'Did you see my message?'",
+      "event": "waited_days",
+      "focus": "Days of silence waiting at desk",
+      "center": [
+        800,
+        550
+      ],
+      "zoom": 1.35,
+      "reason": "Aiden anxiously checking desk, waiting days with zero reply.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p2_chat_outgoing_2",
+      "start": 42.92,
+      "end": 45.63,
+      "paragraph": 3,
+      "exact_spoken_cue": "twice.",
+      "measured_word": {
+        "word": "twice.",
+        "word_index": 105,
+        "paragraph": 3,
+        "start": 42.92,
+        "end": 43.4
+      },
+      "sentence_context": "Still, in my head, I thought, 'We sat together all year. We're still friends.' So I messaged her on our chat app. Just a casual 'Hey, how's it going?' No reply. I waited days. So I foolishly texted twice: 'Did you see my message?'",
+      "event": "texted_twice",
+      "focus": "Sending desperate second text on chat app",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.2,
+      "reason": "Comedic tension: foolishly sending the second text.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 42.92,
+          "center": [
+            960,
+            550
+          ],
+          "zoom": 1.2
+        },
+        {
+          "at": 45.63,
+          "center": [
+            960,
+            535
+          ],
+          "zoom": 1.45
+        }
+      ]
+    },
+    {
+      "shot": "p3_profile_vanished",
+      "start": 45.63,
+      "end": 50.19,
+      "paragraph": 4,
+      "exact_spoken_cue": "vanished",
+      "measured_word": {
+        "word": "vanished",
+        "word_index": 116,
+        "paragraph": 4,
+        "start": 47.29,
+        "end": 47.77
+      },
+      "sentence_context": "Right after that, her profile vanished from my friends list. Completely gone. Any normal kid would know what happened. But my naive brain concluded: 'Oh! She deactivated her account! Respect to her for quitting social media.'",
+      "event": "profile_vanished",
+      "focus": "Her profile vanishes from friends list",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.25,
+      "reason": "Disappearing contact card with blank silhouette.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p3_naive_rationalization",
+      "start": 50.19,
+      "end": 58.63,
+      "paragraph": 4,
+      "exact_spoken_cue": "deactivated",
+      "measured_word": {
+        "word": "deactivated",
+        "word_index": 137,
+        "paragraph": 4,
+        "start": 56.79,
+        "end": 57.45
+      },
+      "sentence_context": "Right after that, her profile vanished from my friends list. Completely gone. Any normal kid would know what happened. But my naive brain concluded: 'Oh! She deactivated her account! Respect to her for quitting social media.'",
+      "event": "deactivated_account",
+      "focus": "Naive brain rationalization: Deactivated!",
+      "center": [
+        800,
+        550
+      ],
+      "zoom": 1.3,
+      "reason": "Aiden proudly concluding she merely deactivated her account.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p3_respect_detox",
+      "start": 58.63,
+      "end": 61.07,
+      "paragraph": 4,
+      "exact_spoken_cue": "Respect",
+      "measured_word": {
+        "word": "Respect",
+        "word_index": 140,
+        "paragraph": 4,
+        "start": 58.63,
+        "end": 58.95
+      },
+      "sentence_context": "Right after that, her profile vanished from my friends list. Completely gone. Any normal kid would know what happened. But my naive brain concluded: 'Oh! She deactivated her account! Respect to her for quitting social media.'",
+      "event": "respect_detox",
+      "focus": "Respect to her for quitting social media!",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.25,
+      "reason": "Presenter studio: Fourth wall salute to her fake digital detox.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 58.63,
+          "center": [
+            960,
+            550
+          ],
+          "zoom": 1.25
+        },
+        {
+          "at": 61.07,
+          "center": [
+            960,
+            535
+          ],
+          "zoom": 1.5
+        }
+      ]
+    },
+    {
+      "shot": "p4_peaceful_delusion",
+      "start": 61.07,
+      "end": 66.45,
+      "paragraph": 5,
+      "exact_spoken_cue": "peaceful",
+      "measured_word": {
+        "word": "peaceful",
+        "word_index": 151,
+        "paragraph": 5,
+        "start": 61.89,
+        "end": 62.33
+      },
+      "sentence_context": "I lived in that peaceful delusion for a whole year. I genuinely thought she was just off the grid, studying hard.",
+      "event": "peaceful_delusion",
+      "focus": "Living in peaceful delusion with golden halo",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.15,
+      "reason": "Peaceful delusion badge and halo for a full year of ignorance.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p4_studying_hard",
+      "start": 66.45,
+      "end": 68.56,
+      "paragraph": 5,
+      "exact_spoken_cue": "studying",
+      "measured_word": {
+        "word": "studying",
+        "word_index": 166,
+        "paragraph": 5,
+        "start": 67.17,
+        "end": 67.51
+      },
+      "sentence_context": "I lived in that peaceful delusion for a whole year. I genuinely thought she was just off the grid, studying hard.",
+      "event": "studying_hard",
+      "focus": "Off the grid studying hard portrait",
+      "center": [
+        800,
+        550
+      ],
+      "zoom": 1.4,
+      "reason": "Warm naive admiration of her supposed study discipline.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p5_year_two_corridor",
+      "start": 68.56,
+      "end": 71.52,
+      "paragraph": 6,
+      "exact_spoken_cue": "second",
+      "measured_word": {
+        "word": "second",
+        "word_index": 172,
+        "paragraph": 6,
+        "start": 69.4,
+        "end": 69.7
+      },
+      "sentence_context": "Fast forward to our second year of middle school. In Japanese class, I overheard her giggling with her friends behind me about chatting late at night with her boyfriend on that exact app.",
+      "event": "second_year",
+      "focus": "Fast forward to second year of middle school",
+      "center": [
+        960,
+        560
+      ],
+      "zoom": 1.08,
+      "reason": "Corridor time jump to Year 2 of middle school.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p5_japanese_eavesdrop",
+      "start": 71.52,
+      "end": 76.48,
+      "paragraph": 6,
+      "exact_spoken_cue": "overheard",
+      "measured_word": {
+        "word": "overheard",
+        "word_index": 181,
+        "paragraph": 6,
+        "start": 72.46,
+        "end": 72.88
+      },
+      "sentence_context": "Fast forward to our second year of middle school. In Japanese class, I overheard her giggling with her friends behind me about chatting late at night with her boyfriend on that exact app.",
+      "event": "overheard_giggling",
+      "focus": "Overhearing giggles in Japanese class",
+      "center": [
+        800,
+        550
+      ],
+      "zoom": 1.25,
+      "reason": "Aiden sitting in class while ears perk up at whispering behind him.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 71.52,
+          "center": [
+            800,
+            550
+          ],
+          "zoom": 1.25
+        },
+        {
+          "at": 76.48,
+          "center": [
+            800,
+            535
+          ],
+          "zoom": 1.42
+        }
+      ]
+    },
+    {
+      "shot": "p5_boyfriend_reveal",
+      "start": 76.48,
+      "end": 78.48,
+      "paragraph": 6,
+      "exact_spoken_cue": "app.",
+      "measured_word": {
+        "word": "app.",
+        "word_index": 200,
+        "paragraph": 6,
+        "start": 77.8,
+        "end": 78.06
+      },
+      "sentence_context": "Fast forward to our second year of middle school. In Japanese class, I overheard her giggling with her friends behind me about chatting late at night with her boyfriend on that exact app.",
+      "event": "exact_app",
+      "focus": "Chatting late at night with boyfriend on that exact app",
+      "center": [
+        800,
+        550
+      ],
+      "zoom": 1.45,
+      "reason": "Shock freeze as boyfriend chatting on that exact app is revealed.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p6_rival_identified",
+      "start": 78.48,
+      "end": 83.88,
+      "paragraph": 7,
+      "exact_spoken_cue": "primary",
+      "measured_word": {
+        "word": "primary",
+        "word_index": 209,
+        "paragraph": 7,
+        "start": 80.96,
+        "end": 81.36
+      },
+      "sentence_context": "And the boyfriend... was the same guy from primary school who used to like her too. They were dating, texting all the time, and her account was very much alive.",
+      "event": "primary_rival",
+      "focus": "Boyfriend is the same primary school crush rival!",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.15,
+      "reason": "Branching diagram showing the rival boyfriend from EP04 dating the crush.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p6_active_account_dread",
+      "start": 83.88,
+      "end": 88.69,
+      "paragraph": 7,
+      "exact_spoken_cue": "alive.",
+      "measured_word": {
+        "word": "alive.",
+        "word_index": 230,
+        "paragraph": 7,
+        "start": 87.78,
+        "end": 88.12
+      },
+      "sentence_context": "And the boyfriend... was the same guy from primary school who used to like her too. They were dating, texting all the time, and her account was very much alive.",
+      "event": "very_much_alive",
+      "focus": "Texting all the time: Her account is very much alive",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.25,
+      "reason": "Active online green dot and messaging diagram confirming the account lives.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 83.88,
+          "center": [
+            960,
+            550
+          ],
+          "zoom": 1.25
+        },
+        {
+          "at": 88.69,
+          "center": [
+            960,
+            535
+          ],
+          "zoom": 1.45
+        }
+      ]
+    },
+    {
+      "shot": "p7_brain_froze",
+      "start": 88.69,
+      "end": 94.97,
+      "paragraph": 8,
+      "exact_spoken_cue": "froze.",
+      "measured_word": {
+        "word": "froze.",
+        "word_index": 233,
+        "paragraph": 8,
+        "start": 89.25,
+        "end": 89.63
+      },
+      "sentence_context": "My brain froze. If she's chatting every day... she never deactivated. WHICH MEANS SHE BLOCKED ME. She saw my two texts, felt second-hand embarrassment, and erased me from existence.",
+      "event": "brain_froze",
+      "focus": "Brain froze: She never deactivated",
+      "center": [
+        800,
+        550
+      ],
+      "zoom": 1.35,
+      "reason": "Sudden deadpan realization: logic pieces snapping together.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p7_she_blocked_me_punch",
+      "start": 94.97,
+      "end": 97.07,
+      "paragraph": 8,
+      "exact_spoken_cue": "blocked",
+      "measured_word": {
+        "word": "blocked",
+        "word_index": 245,
+        "paragraph": 8,
+        "start": 94.97,
+        "end": 95.29
+      },
+      "sentence_context": "My brain froze. If she's chatting every day... she never deactivated. WHICH MEANS SHE BLOCKED ME. She saw my two texts, felt second-hand embarrassment, and erased me from existence.",
+      "event": "she_blocked_me",
+      "focus": "WHICH MEANS SHE BLOCKED ME!",
+      "center": [
+        960,
+        540
+      ],
+      "zoom": 1.55,
+      "reason": "Peak comedic shock punch-in with massive red BLOCKED stamp!",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 94.97,
+          "center": [
+            960,
+            540
+          ],
+          "zoom": 1.55
+        },
+        {
+          "at": 97.07,
+          "center": [
+            960,
+            530
+          ],
+          "zoom": 1.7
+        }
+      ]
+    },
+    {
+      "shot": "p7_erased_existence",
+      "start": 97.07,
+      "end": 102.51,
+      "paragraph": 8,
+      "exact_spoken_cue": "erased",
+      "measured_word": {
+        "word": "erased",
+        "word_index": 256,
+        "paragraph": 8,
+        "start": 100.19,
+        "end": 100.53
+      },
+      "sentence_context": "My brain froze. If she's chatting every day... she never deactivated. WHICH MEANS SHE BLOCKED ME. She saw my two texts, felt second-hand embarrassment, and erased me from existence.",
+      "event": "erased_existence",
+      "focus": "Second-hand embarrassment: Erased from existence",
+      "center": [
+        750,
+        550
+      ],
+      "zoom": 1.45,
+      "reason": "Shattered heart doodle and soul departure as Aiden is erased from existence.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p8_broken_soul_studio",
+      "start": 102.51,
+      "end": 110.07,
+      "paragraph": 9,
+      "exact_spoken_cue": "broke",
+      "measured_word": {
+        "word": "broke",
+        "word_index": 263,
+        "paragraph": 9,
+        "start": 104.17,
+        "end": 104.53
+      },
+      "sentence_context": "Bro, that honestly broke my twelve-year-old soul. I was so sad. I spent a whole year admiring a fake social media detox, when in reality, I was just blocked. Middle school is pure pain.",
+      "event": "broke_soul",
+      "focus": "Presenter studio: Bro, that honestly broke my twelve-year-old soul",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.2,
+      "reason": "Adult Aiden reflecting with genuine comedic heartbreak.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p8_fake_detox_confession",
+      "start": 110.07,
+      "end": 116.87,
+      "paragraph": 9,
+      "exact_spoken_cue": "detox.",
+      "measured_word": {
+        "word": "detox.",
+        "word_index": 281,
+        "paragraph": 9,
+        "start": 111.85,
+        "end": 112.39
+      },
+      "sentence_context": "Bro, that honestly broke my twelve-year-old soul. I was so sad. I spent a whole year admiring a fake social media detox, when in reality, I was just blocked. Middle school is pure pain.",
+      "event": "fake_detox",
+      "focus": "Admired a fake social media detox for a whole year",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.3,
+      "reason": "Shrug of complete defeat: in reality, I was just blocked.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": []
+    },
+    {
+      "shot": "p8_middle_school_pain",
+      "start": 116.87,
+      "end": 119.033333,
+      "paragraph": 9,
+      "exact_spoken_cue": "pure",
+      "measured_word": {
+        "word": "pure",
+        "word_index": 292,
+        "paragraph": 9,
+        "start": 116.87,
+        "end": 117.39
+      },
+      "sentence_context": "Bro, that honestly broke my twelve-year-old soul. I was so sad. I spent a whole year admiring a fake social media detox, when in reality, I was just blocked. Middle school is pure pain.",
+      "event": "pure_pain",
+      "focus": "Middle school is pure pain: final comedic deadpan hold",
+      "center": [
+        960,
+        550
+      ],
+      "zoom": 1.38,
+      "reason": "Slow cinematic push-in into final deadpan hold through black.",
+      "finish": "Hold the settled image until the next measured thought/cut.",
+      "path": [
+        {
+          "at": 116.87,
+          "center": [
+            960,
+            550
+          ],
+          "zoom": 1.38
+        },
+        {
+          "at": 119.033333,
+          "center": [
+            960,
+            535
+          ],
+          "zoom": 1.6
+        }
+      ]
+    }
+  ]
+}

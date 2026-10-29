@@ -1,0 +1,4657 @@
+{
+  "version": 1,
+  "duration": 240.0,
+  "dialogue_sha256": "b5cc4b84c6295c542607cb8a2d3ab49cdd2d9f1686da05ebd92f3532a796889c",
+  "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+  "identity_policy": "new canonical Sohee recordings; unchanged model weights/speaker/instruction; only explicit quiet-gap source cuts and pitch-preserving tempo",
+  "alignment_kind": "independent local Whisper Tiny alignment of final processed clips; approximate words, not phonemes",
+  "review_required": true,
+  "clips": [
+    {
+      "id": "r8_0_0",
+      "author": "nemi",
+      "file": "res://episodes/episode_001/audio/source/r8_0_0_533e45fb34f8.wav",
+      "sha256": "551c281d4874b5b5d85eb6427d30b4b8162f9d0d3a475c6c50660548c8bcfc06",
+      "text": "Look, I saw free pudding on a school volunteer form, and I signed before I reached the part explaining what I'd volunteered for. You're taking over before I make it worse. Drag to look around and press one to start. On phones, swipe and use numbered chapters. If you're paused, press play.",
+      "at": 0.35,
+      "start": 0,
+      "end": 21.36,
+      "tempo": 1.08,
+      "end_at": 20.114167,
+      "window_end": 23.8,
+      "processed_file": "res://episodes/episode_001/audio/processed/r8_0_0_533e45fb34f8_tempo1.080.wav",
+      "processed_sha256": "8f23d8bd0ffe7f752577ec770e8b71e58d8089f629bd8246a1598ef75184edda",
+      "source_duration": 21.36,
+      "edited_source_duration": 21.36,
+      "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+      "source_edits": [],
+      "final_duration": 19.764166666666668,
+      "alignment": "res://episodes/episode_001/audio/processed/r8_0_0_533e45fb34f8_tempo1.080.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    },
+    {
+      "id": "r8_1_0",
+      "author": "nemi",
+      "file": "res://episodes/episode_001/audio/source/r8_1_0_01bd83ff793a.wav",
+      "sha256": "a2ae7c3136ac0ff356f9fb84ba1d3418abf4887340fac914152be4a9ab285354",
+      "text": "My badge is somewhere on the left, next to a sandwich that's honestly looking more useful than I am. The badge gets us through that door; the sandwich lets me avoid making a decision for another five minutes. Three for the badge, two for lunch. Please don't encourage me. I'm very easy to encourage.",
+      "at": 24.35,
+      "start": 0,
+      "end": 24.88,
+      "tempo": 1.08,
+      "end_at": 47.359542,
+      "window_end": 47.8,
+      "processed_file": "res://episodes/episode_001/audio/processed/r8_1_0_01bd83ff793a_tempo1.080.wav",
+      "processed_sha256": "2c1418b2d1fc6cbecf7ad4fcea4604fae5699e9789df48624e77e99c5122e9a9",
+      "source_duration": 24.88,
+      "edited_source_duration": 24.88,
+      "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+      "source_edits": [],
+      "final_duration": 23.009541666666667,
+      "alignment": "res://episodes/episode_001/audio/processed/r8_1_0_01bd83ff793a_tempo1.080.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    },
+    {
+      "id": "r8_2_0",
+      "author": "nemi",
+      "file": "res://episodes/episode_001/audio/source/r8_2_0_cda613aa956b.wav",
+      "sha256": "02aa5c407dac3720714042cbe76905df2adbfa61a9f3bc1a0d97263bb746dff6",
+      "text": "Okay, let's hear the sandwich out. It's got layers, it's well prepared, and it hasn't agreed to do anything embarrassing today. Honestly, it should be wearing my badge. Unfortunately, I can't send bread through that door and go home, so three gets the badge. We'll keep the sandwich as an emergency understudy.",
+      "at": 48.35,
+      "start": 0,
+      "end": 21.04,
+      "tempo": 1.08,
+      "end_at": 67.828167,
+      "window_end": 71.8,
+      "processed_file": "res://episodes/episode_001/audio/processed/r8_2_0_cda613aa956b_tempo1.080.wav",
+      "processed_sha256": "50648be398b75c386a3e2e0933fd9cae470d841362bda47bbe1ed4eb8e361ba5",
+      "source_duration": 21.04,
+      "edited_source_duration": 21.04,
+      "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+      "source_edits": [],
+      "final_duration": 19.478166666666667,
+      "alignment": "res://episodes/episode_001/audio/processed/r8_2_0_cda613aa956b_tempo1.080.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    },
+    {
+      "id": "r8_3_0",
+      "author": "nemi",
+      "file": "res://episodes/episode_001/audio/source/r8_3_0_ed3e9427a83c.wav",
+      "sha256": "543972fabf4f21bbf13e4506f58061734dd52079320d7118ed638f4074e07d1a",
+      "text": "Oh, thank goodness, there's my badge. Hang on, why does it say HOST? I thought I'd signed up to help, you know, carry a box, point at a door, quietly disappear when somebody mentions a microphone. Apparently I ticked the enthusiastic box. There's an enthusiastic box? Four, please. We need the noticeboard.",
+      "at": 72.35,
+      "start": 0,
+      "end": 29.52,
+      "tempo": 1.12,
+      "end_at": 95.605708,
+      "window_end": 95.8,
+      "processed_file": "res://episodes/episode_001/audio/processed/r8_3_0_ed3e9427a83c_edit53cfd22995fc_tempo1.120.wav",
+      "processed_sha256": "d9bbe92792169019464ae769ddcc2f330a00ea8a3ce04f144268607247ce8eda",
+      "source_duration": 29.52,
+      "edited_source_duration": 26.07,
+      "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+      "source_edits": [
+        {
+          "start": 9.65,
+          "end": 10.95,
+          "reason": "Shorten the ordinary hesitation after you know; retain both breath edges",
+          "start_sample": 231600,
+          "end_sample": 262800,
+          "removed_seconds": 1.3,
+          "rms_dbfs": -87.8788,
+          "peak_dbfs": -73.407,
+          "measured_gap": {
+            "after": "know?",
+            "before": "Cariobox",
+            "start": 9.38,
+            "end": 11.339999999999998
+          }
+        },
+        {
+          "start": 16.9,
+          "end": 18.1,
+          "reason": "Tighten explanation transition after microphone; retain 0.76 second thought gap",
+          "start_sample": 405600,
+          "end_sample": 434400,
+          "removed_seconds": 1.2,
+          "rms_dbfs": -89.86,
+          "peak_dbfs": -76.3296,
+          "measured_gap": {
+            "after": "microphone.",
+            "before": "Apparently,",
+            "start": 16.52,
+            "end": 18.48
+          }
+        },
+        {
+          "start": 25.0,
+          "end": 25.65,
+          "reason": "Move from the enthusiastic-box joke into the noticeboard request",
+          "start_sample": 600000,
+          "end_sample": 615600,
+          "removed_seconds": 0.65,
+          "rms_dbfs": -85.9778,
+          "peak_dbfs": -73.407,
+          "measured_gap": {
+            "after": "box.",
+            "before": "Four,",
+            "start": 24.62,
+            "end": 25.939999999999998
+          }
+        },
+        {
+          "start": 27.85,
+          "end": 28.15,
+          "reason": "Close an ordinary internal pause after please",
+          "start_sample": 668400,
+          "end_sample": 675600,
+          "removed_seconds": 0.3,
+          "rms_dbfs": -83.7423,
+          "peak_dbfs": -73.407,
+          "measured_gap": {
+            "after": "please.",
+            "before": "We",
+            "start": 27.4,
+            "end": 28.34
+          }
+        }
+      ],
+      "final_duration": 23.255708333333335,
+      "alignment": "res://episodes/episode_001/audio/processed/r8_3_0_ed3e9427a83c_edit53cfd22995fc_tempo1.120.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    },
+    {
+      "id": "r8_4_0",
+      "author": "nemi",
+      "file": "res://episodes/episode_001/audio/source/r8_4_0_3db8079f7b3e.wav",
+      "sha256": "831f947c0b31c5e43692be1050238d4cbfb85d0136ed2405f483591c0910e7c3",
+      "text": "Right, the noticeboard. The sensible new sign says assembly, and the old one says pudding. Before you say anything, I can see that it's crossed out. I'm choosing to interpret that as decorative. Six gets us to assembly; five lets us investigate the pudding. You can probably guess which one I'm hoping for.",
+      "at": 96.35,
+      "start": 0,
+      "end": 25.28,
+      "tempo": 1.08,
+      "end_at": 119.736458,
+      "window_end": 119.8,
+      "processed_file": "res://episodes/episode_001/audio/processed/r8_4_0_3db8079f7b3e_tempo1.080.wav",
+      "processed_sha256": "3e0dce516df24094c3c5d6a3f8631fedf1943fc8a7ab9bde0f3c45e47defb353",
+      "source_duration": 25.28,
+      "edited_source_duration": 25.28,
+      "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+      "source_edits": [],
+      "final_duration": 23.386458333333334,
+      "alignment": "res://episodes/episode_001/audio/processed/r8_4_0_3db8079f7b3e_tempo1.080.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    },
+    {
+      "id": "r8_5_0",
+      "author": "nemi",
+      "file": "res://episodes/episode_001/audio/source/r8_5_0_8bbe3d84adec.wav",
+      "sha256": "d62cee10dfa6889bc47a3ed42be50ba95386d1502f9d6be42a076823343dc9c9",
+      "text": "There's a cup! See, I told you this was worth investigating. Oh, those are pencils. I've come to the stationery cupboard for pudding, and somehow I'm still looking for a spoon. Please don't tell the sandwich; it'll think it's won. Come on, six gets us to assembly before I start checking glue sticks for ingredients.",
+      "at": 120.35,
+      "start": 0,
+      "end": 28.0,
+      "tempo": 1.12,
+      "end_at": 143.529792,
+      "window_end": 143.8,
+      "processed_file": "res://episodes/episode_001/audio/processed/r8_5_0_8bbe3d84adec_edit53cfd22995fc_tempo1.120.wav",
+      "processed_sha256": "696279034f8fafa5bca4b4ce99dc4949931f44d921062acf15ac92bf326d0c37",
+      "source_duration": 28.0,
+      "edited_source_duration": 25.95,
+      "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+      "source_edits": [
+        {
+          "start": 11.8,
+          "end": 12.5,
+          "reason": "Keep the cupboard-for-pudding sentence connected before and somehow",
+          "start_sample": 283200,
+          "end_sample": 300000,
+          "removed_seconds": 0.7,
+          "rms_dbfs": -67.7592,
+          "peak_dbfs": -60.4818,
+          "measured_gap": {
+            "after": "putting.",
+            "before": "And",
+            "start": 11.4,
+            "end": 12.76
+          }
+        },
+        {
+          "start": 16.1,
+          "end": 17.0,
+          "reason": "Tighten transition from spoon observation to sandwich aside",
+          "start_sample": 386400,
+          "end_sample": 408000,
+          "removed_seconds": 0.9,
+          "rms_dbfs": -66.782,
+          "peak_dbfs": -58.7133,
+          "measured_gap": {
+            "after": "spoon.",
+            "before": "Please",
+            "start": 15.7,
+            "end": 17.32
+          }
+        },
+        {
+          "start": 23.15,
+          "end": 23.6,
+          "reason": "Connect Come on with the practical instruction",
+          "start_sample": 555600,
+          "end_sample": 566400,
+          "removed_seconds": 0.45,
+          "rms_dbfs": -67.688,
+          "peak_dbfs": -60.206,
+          "measured_gap": {
+            "after": "on.",
+            "before": "Six",
+            "start": 22.82,
+            "end": 23.96
+          }
+        }
+      ],
+      "final_duration": 23.179791666666667,
+      "alignment": "res://episodes/episode_001/audio/processed/r8_5_0_8bbe3d84adec_edit53cfd22995fc_tempo1.120.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    },
+    {
+      "id": "r8_6_0",
+      "author": "nemi",
+      "file": "res://episodes/episode_001/audio/source/r8_6_0_88e00209a069.wav",
+      "sha256": "0104f5e2a167388f8de58297f9aff9bd0d4b962a4511881c3a1a59a592a21541",
+      "text": "That's the microphone. I can explain an entire anime power system to somebody who didn't ask, but apparently good morning requires rehearsing until my personality leaves my body. Before I get up there, could you check who's watching? Seven opens the last choice. I'm going to practise looking like this was my idea.",
+      "at": 144.35,
+      "start": 0,
+      "end": 26.08,
+      "tempo": 1.12,
+      "end_at": 167.604625,
+      "window_end": 167.8,
+      "processed_file": "res://episodes/episode_001/audio/processed/r8_6_0_88e00209a069_tempo1.120.wav",
+      "processed_sha256": "d2a3bcd905b62f605ab31c897371b90153182f3541753b71a87bf41c97d7e7f3",
+      "source_duration": 26.08,
+      "edited_source_duration": 26.08,
+      "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+      "source_edits": [],
+      "final_duration": 23.254625,
+      "alignment": "res://episodes/episode_001/audio/processed/r8_6_0_88e00209a069_tempo1.120.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    },
+    {
+      "id": "r8_7_0",
+      "author": "nemi",
+      "file": "res://episodes/episode_001/audio/source/r8_7_0_12c7aab294d8.wav",
+      "sha256": "c64591bdd1599207160022ce6a46c4237b71d2e8874f8af8638dc1cc19381991",
+      "text": "Hang on, turn around for a second. They're toys. It's a rehearsal! I've spent the entire morning rehearsing my apology to a duck. And look at its face, why does it seem like it knows? Nine takes the microphone; eight lets me hide. Please pick before I start explaining myself to the bear.",
+      "at": 168.35,
+      "start": 0,
+      "end": 23.52,
+      "tempo": 1.08,
+      "end_at": 190.103833,
+      "window_end": 191.8,
+      "processed_file": "res://episodes/episode_001/audio/processed/r8_7_0_12c7aab294d8_tempo1.080.wav",
+      "processed_sha256": "a17ac17accbfb966a255c9da0ef34912fed85e1364231c68840454c3b3dc6d56",
+      "source_duration": 23.52,
+      "edited_source_duration": 23.52,
+      "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+      "source_edits": [],
+      "final_duration": 21.753833333333333,
+      "alignment": "res://episodes/episode_001/audio/processed/r8_7_0_12c7aab294d8_tempo1.080.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    },
+    {
+      "id": "r8_8_0",
+      "author": "nemi",
+      "file": "res://episodes/episode_001/audio/source/r8_8_0_38e92feb41d2.wav",
+      "sha256": "25c105ae5c1886ed2d5267263870a64d1ec46681825bd9dda23efe1345a81dfb",
+      "text": "Okay, new plan: I stand completely still and become school furniture. Nobody expects a chair to introduce the assembly. Why am I making eye contact with the duck? It's a toy, Nemi, it doesn't know anything. Nine, please. I'd rather do the speech than lose a staring contest to stuffing.",
+      "at": 192.35,
+      "start": 0,
+      "end": 23.2,
+      "tempo": 1.08,
+      "end_at": 213.827333,
+      "window_end": 215.8,
+      "processed_file": "res://episodes/episode_001/audio/processed/r8_8_0_38e92feb41d2_tempo1.080.wav",
+      "processed_sha256": "ff80aeaf2867df143cfc2da8bfd19d99439b062988d07dbcec11792c5b594dc8",
+      "source_duration": 23.2,
+      "edited_source_duration": 23.2,
+      "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+      "source_edits": [],
+      "final_duration": 21.477333333333334,
+      "alignment": "res://episodes/episode_001/audio/processed/r8_8_0_38e92feb41d2_tempo1.080.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    },
+    {
+      "id": "r8_9_0",
+      "author": "nemi",
+      "file": "res://episodes/episode_001/audio/source/r8_9_0_cc3b09c13bb1.wav",
+      "sha256": "6c463e431005bb6169506e991c95cd57105431b4e25a685ae3eee3b536352e22",
+      "text": "Good morning, everyone, and welcome to whatever this is. Right, nobody fainted. The duck looks exactly as disappointed as before, so I'm calling that progress. Thank you for staying with me. And the pudding was last Friday. Of course it was. Zero if you'd like to try talking me out of this next time.",
+      "at": 216.35,
+      "start": 0,
+      "end": 21.2,
+      "tempo": 1.08,
+      "end_at": 235.958542,
+      "window_end": 239.8,
+      "processed_file": "res://episodes/episode_001/audio/processed/r8_9_0_cc3b09c13bb1_tempo1.080.wav",
+      "processed_sha256": "ad986673d113daaa025bb5288491f2989f8c7cfecb26946fa0416bd4cc93f100",
+      "source_duration": 21.2,
+      "edited_source_duration": 21.2,
+      "source_edit_plan_sha256": "53cfd22995fcf4c2c252a351f25e0626983a274f2e9608b1cc691729caf2d5e2",
+      "source_edits": [],
+      "final_duration": 19.608541666666667,
+      "alignment": "res://episodes/episode_001/audio/processed/r8_9_0_cc3b09c13bb1_tempo1.080.words.json",
+      "listening_review": "pending",
+      "pace_review": "pending"
+    }
+  ],
+  "words": [
+    {
+      "actor": "nemi",
+      "word": "Look,",
+      "start": 0.35,
+      "end": 0.69,
+      "confidence": 0.87646484375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 1.25,
+      "end": 1.47,
+      "confidence": 0.99072265625,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "saw",
+      "start": 1.47,
+      "end": 1.69,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "free",
+      "start": 1.69,
+      "end": 2.09,
+      "confidence": 0.48681640625,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "pudding",
+      "start": 2.09,
+      "end": 2.47,
+      "confidence": 0.59521484375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "on",
+      "start": 2.47,
+      "end": 2.71,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 2.71,
+      "end": 2.83,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "school",
+      "start": 2.83,
+      "end": 3.13,
+      "confidence": 0.94482421875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "volunteer",
+      "start": 3.13,
+      "end": 3.65,
+      "confidence": 0.9755859375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "form,",
+      "start": 3.65,
+      "end": 4.19,
+      "confidence": 0.97216796875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 4.65,
+      "end": 4.77,
+      "confidence": 0.9873046875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 4.77,
+      "end": 4.89,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "signed",
+      "start": 4.89,
+      "end": 5.27,
+      "confidence": 0.96533203125,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "before",
+      "start": 5.27,
+      "end": 5.55,
+      "confidence": 0.990234375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 5.55,
+      "end": 5.75,
+      "confidence": 0.99609375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "reached",
+      "start": 5.75,
+      "end": 6.05,
+      "confidence": 0.91455078125,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 6.05,
+      "end": 6.19,
+      "confidence": 0.98388671875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "part",
+      "start": 6.19,
+      "end": 6.41,
+      "confidence": 0.97021484375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "explaining",
+      "start": 6.41,
+      "end": 6.97,
+      "confidence": 0.998046875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "what",
+      "start": 6.97,
+      "end": 7.23,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I'd",
+      "start": 7.23,
+      "end": 7.37,
+      "confidence": 0.74267578125,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "volunteered",
+      "start": 7.37,
+      "end": 7.71,
+      "confidence": 0.9208984375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "for.",
+      "start": 7.71,
+      "end": 8.45,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "You're",
+      "start": 8.99,
+      "end": 9.13,
+      "confidence": 0.9521484375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "taking",
+      "start": 9.13,
+      "end": 9.41,
+      "confidence": 0.99169921875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "over",
+      "start": 9.41,
+      "end": 9.73,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "before",
+      "start": 9.73,
+      "end": 10.11,
+      "confidence": 0.98876953125,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 10.11,
+      "end": 10.23,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "make",
+      "start": 10.23,
+      "end": 10.43,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "it",
+      "start": 10.43,
+      "end": 10.57,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "worse.",
+      "start": 10.57,
+      "end": 10.89,
+      "confidence": 0.99609375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Drag",
+      "start": 11.77,
+      "end": 11.99,
+      "confidence": 0.93505859375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 11.99,
+      "end": 12.15,
+      "confidence": 0.990234375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "look",
+      "start": 12.15,
+      "end": 12.31,
+      "confidence": 0.982421875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "around",
+      "start": 12.31,
+      "end": 12.63,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 12.63,
+      "end": 12.85,
+      "confidence": 0.990234375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "press",
+      "start": 12.85,
+      "end": 13.13,
+      "confidence": 0.9912109375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "one",
+      "start": 13.13,
+      "end": 13.35,
+      "confidence": 0.828125,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 13.35,
+      "end": 13.51,
+      "confidence": 0.9921875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "start.",
+      "start": 13.51,
+      "end": 13.77,
+      "confidence": 0.97900390625,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "On",
+      "start": 14.71,
+      "end": 14.91,
+      "confidence": 0.9404296875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "phones,",
+      "start": 14.91,
+      "end": 15.45,
+      "confidence": 0.859375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "swipe",
+      "start": 15.67,
+      "end": 15.95,
+      "confidence": 0.97216796875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 15.95,
+      "end": 16.33,
+      "confidence": 0.95947265625,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "use",
+      "start": 16.33,
+      "end": 16.65,
+      "confidence": 0.98876953125,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "numbered",
+      "start": 16.65,
+      "end": 17.01,
+      "confidence": 0.430908203125,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "chapters.",
+      "start": 17.01,
+      "end": 17.49,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "If",
+      "start": 18.27,
+      "end": 18.47,
+      "confidence": 0.9921875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "you're",
+      "start": 18.47,
+      "end": 18.65,
+      "confidence": 0.98046875,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "paused,",
+      "start": 18.65,
+      "end": 19.07,
+      "confidence": 0.98681640625,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "press",
+      "start": 19.53,
+      "end": 19.75,
+      "confidence": 0.98583984375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "play.",
+      "start": 19.75,
+      "end": 20.03,
+      "confidence": 0.86474609375,
+      "clip_id": "r8_0_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "My",
+      "start": 24.35,
+      "end": 24.63,
+      "confidence": 0.9306640625,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "badge",
+      "start": 24.63,
+      "end": 25.15,
+      "confidence": 0.9892578125,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "is",
+      "start": 25.15,
+      "end": 25.69,
+      "confidence": 0.98681640625,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "somewhere",
+      "start": 25.69,
+      "end": 26.29,
+      "confidence": 0.970703125,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "on",
+      "start": 26.29,
+      "end": 26.59,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 26.59,
+      "end": 26.65,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "left",
+      "start": 26.65,
+      "end": 27.15,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "next",
+      "start": 27.15,
+      "end": 27.99,
+      "confidence": 0.44091796875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 27.99,
+      "end": 28.17,
+      "confidence": 0.998046875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 28.17,
+      "end": 28.27,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "sandwich",
+      "start": 28.27,
+      "end": 28.67,
+      "confidence": 0.9912109375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "that's",
+      "start": 28.67,
+      "end": 29.23,
+      "confidence": 0.96875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "honestly",
+      "start": 29.23,
+      "end": 29.69,
+      "confidence": 0.98974609375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "looking",
+      "start": 29.69,
+      "end": 30.25,
+      "confidence": 0.9931640625,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "more",
+      "start": 30.25,
+      "end": 31.45,
+      "confidence": 0.91162109375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "useful",
+      "start": 31.45,
+      "end": 31.97,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "than",
+      "start": 31.97,
+      "end": 32.29,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 32.29,
+      "end": 32.49,
+      "confidence": 0.98681640625,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "am.",
+      "start": 32.49,
+      "end": 32.87,
+      "confidence": 0.9921875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "The",
+      "start": 33.29,
+      "end": 33.39,
+      "confidence": 0.99169921875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "badge",
+      "start": 33.39,
+      "end": 33.91,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "gets",
+      "start": 33.91,
+      "end": 34.23,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "us",
+      "start": 34.23,
+      "end": 34.49,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "through",
+      "start": 34.49,
+      "end": 34.93,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "that",
+      "start": 34.93,
+      "end": 35.19,
+      "confidence": 0.9931640625,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "door.",
+      "start": 35.19,
+      "end": 35.51,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "The",
+      "start": 36.19,
+      "end": 36.33,
+      "confidence": 0.98583984375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "sandwich",
+      "start": 36.33,
+      "end": 36.77,
+      "confidence": 0.9921875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "lets",
+      "start": 36.77,
+      "end": 37.13,
+      "confidence": 0.97314453125,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "me",
+      "start": 37.13,
+      "end": 37.35,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "avoid",
+      "start": 37.35,
+      "end": 37.65,
+      "confidence": 0.998046875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "making",
+      "start": 37.65,
+      "end": 37.99,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 37.99,
+      "end": 38.09,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "decision",
+      "start": 38.09,
+      "end": 38.53,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "for",
+      "start": 38.53,
+      "end": 38.97,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "another",
+      "start": 38.97,
+      "end": 39.19,
+      "confidence": 0.998046875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "five",
+      "start": 39.19,
+      "end": 39.57,
+      "confidence": 0.73388671875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "minutes.",
+      "start": 39.57,
+      "end": 40.01,
+      "confidence": 0.99609375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Three",
+      "start": 40.63,
+      "end": 40.79,
+      "confidence": 0.7373046875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "for",
+      "start": 40.79,
+      "end": 40.99,
+      "confidence": 0.994140625,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 40.99,
+      "end": 41.07,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "badge.",
+      "start": 41.07,
+      "end": 41.53,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Two",
+      "start": 42.07,
+      "end": 42.23,
+      "confidence": 0.94677734375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "for",
+      "start": 42.23,
+      "end": 42.39,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "lunch.",
+      "start": 42.39,
+      "end": 42.75,
+      "confidence": 0.994140625,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Please",
+      "start": 43.49,
+      "end": 43.75,
+      "confidence": 0.97607421875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "don't",
+      "start": 43.75,
+      "end": 44.01,
+      "confidence": 0.98876953125,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "encourage",
+      "start": 44.01,
+      "end": 44.49,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "me.",
+      "start": 44.49,
+      "end": 44.83,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I'm",
+      "start": 45.37,
+      "end": 45.75,
+      "confidence": 0.97900390625,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "very",
+      "start": 45.75,
+      "end": 46.07,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "easy",
+      "start": 46.07,
+      "end": 46.49,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 46.49,
+      "end": 46.73,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "encourage.",
+      "start": 46.73,
+      "end": 46.99,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_1_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Okay,",
+      "start": 48.35,
+      "end": 48.67,
+      "confidence": 0.6572265625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "let's",
+      "start": 49.15,
+      "end": 49.33,
+      "confidence": 0.99072265625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "hear",
+      "start": 49.33,
+      "end": 49.41,
+      "confidence": 0.9208984375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 49.41,
+      "end": 49.59,
+      "confidence": 0.990234375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "sandwich",
+      "start": 49.59,
+      "end": 49.79,
+      "confidence": 0.9931640625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "out.",
+      "start": 49.79,
+      "end": 50.15,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "It's",
+      "start": 50.85,
+      "end": 51.05,
+      "confidence": 0.98046875,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "got",
+      "start": 51.05,
+      "end": 51.23,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "layers,",
+      "start": 51.23,
+      "end": 51.69,
+      "confidence": 0.99267578125,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "it's",
+      "start": 52.05,
+      "end": 52.29,
+      "confidence": 0.97900390625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "well",
+      "start": 52.29,
+      "end": 52.51,
+      "confidence": 0.72412109375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "prepared,",
+      "start": 52.51,
+      "end": 52.95,
+      "confidence": 0.82275390625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 53.83,
+      "end": 54.05,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "it",
+      "start": 54.05,
+      "end": 54.19,
+      "confidence": 0.986328125,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "hasn't",
+      "start": 54.19,
+      "end": 54.53,
+      "confidence": 0.98388671875,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "agreed",
+      "start": 54.53,
+      "end": 54.85,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 54.85,
+      "end": 55.01,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "do",
+      "start": 55.01,
+      "end": 55.17,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "anything",
+      "start": 55.17,
+      "end": 55.51,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "embarrassing",
+      "start": 55.51,
+      "end": 55.99,
+      "confidence": 0.9794921875,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "today.",
+      "start": 55.99,
+      "end": 56.53,
+      "confidence": 0.998046875,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Honestly,",
+      "start": 57.61,
+      "end": 58.01,
+      "confidence": 0.98486328125,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "it",
+      "start": 58.27,
+      "end": 58.51,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "should",
+      "start": 58.51,
+      "end": 58.67,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "be",
+      "start": 58.67,
+      "end": 58.79,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "wearing",
+      "start": 58.79,
+      "end": 59.03,
+      "confidence": 0.90087890625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "my",
+      "start": 59.03,
+      "end": 59.27,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "badge.",
+      "start": 59.27,
+      "end": 59.65,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Unfortunately,",
+      "start": 60.45,
+      "end": 60.93,
+      "confidence": 0.99072265625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 61.07,
+      "end": 61.29,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "can't",
+      "start": 61.29,
+      "end": 61.59,
+      "confidence": 0.998046875,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "send",
+      "start": 61.59,
+      "end": 61.73,
+      "confidence": 0.97705078125,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "bread",
+      "start": 61.73,
+      "end": 61.93,
+      "confidence": 0.94970703125,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "through",
+      "start": 61.93,
+      "end": 62.15,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "that",
+      "start": 62.15,
+      "end": 62.33,
+      "confidence": 0.9931640625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "door",
+      "start": 62.33,
+      "end": 62.53,
+      "confidence": 0.970703125,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 62.53,
+      "end": 62.69,
+      "confidence": 0.97802734375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "go",
+      "start": 62.69,
+      "end": 62.83,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "home.",
+      "start": 62.83,
+      "end": 63.11,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "So",
+      "start": 63.77,
+      "end": 63.85,
+      "confidence": 0.98876953125,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "three",
+      "start": 63.85,
+      "end": 64.29,
+      "confidence": 0.55078125,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "gets",
+      "start": 64.29,
+      "end": 64.45,
+      "confidence": 0.841796875,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 64.45,
+      "end": 64.59,
+      "confidence": 0.99169921875,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "badge.",
+      "start": 64.59,
+      "end": 64.95,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "We'll",
+      "start": 65.53,
+      "end": 65.83,
+      "confidence": 0.9931640625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "keep",
+      "start": 65.83,
+      "end": 66.03,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 66.03,
+      "end": 66.19,
+      "confidence": 0.94775390625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "sandwich",
+      "start": 66.19,
+      "end": 66.43,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "as",
+      "start": 66.43,
+      "end": 66.77,
+      "confidence": 0.9853515625,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "an",
+      "start": 66.77,
+      "end": 66.85,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "emergency",
+      "start": 66.85,
+      "end": 67.21,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "under",
+      "start": 67.21,
+      "end": 67.57,
+      "confidence": 0.876953125,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "study.",
+      "start": 67.57,
+      "end": 67.73,
+      "confidence": 0.59716796875,
+      "clip_id": "r8_2_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Oh,",
+      "start": 72.35,
+      "end": 72.79,
+      "confidence": 0.66357421875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "thank",
+      "start": 73.15,
+      "end": 73.35,
+      "confidence": 0.95458984375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "goodness,",
+      "start": 73.35,
+      "end": 73.93,
+      "confidence": 0.998046875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "there's",
+      "start": 74.31,
+      "end": 74.49,
+      "confidence": 0.97265625,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "my",
+      "start": 74.49,
+      "end": 74.59,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "badge.",
+      "start": 74.59,
+      "end": 75.23,
+      "confidence": 0.99072265625,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Hang",
+      "start": 76.37,
+      "end": 76.47,
+      "confidence": 0.97607421875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "on,",
+      "start": 76.47,
+      "end": 76.67,
+      "confidence": 0.9931640625,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "what",
+      "start": 77.01,
+      "end": 77.21,
+      "confidence": 0.623046875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "does",
+      "start": 77.21,
+      "end": 77.35,
+      "confidence": 0.78076171875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "it",
+      "start": 77.35,
+      "end": 77.45,
+      "confidence": 0.99609375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "say",
+      "start": 77.45,
+      "end": 77.69,
+      "confidence": 0.99169921875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "host?",
+      "start": 77.69,
+      "end": 78.09,
+      "confidence": 0.477783203125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 78.85,
+      "end": 79.09,
+      "confidence": 0.97705078125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "thought",
+      "start": 79.09,
+      "end": 79.31,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I'd",
+      "start": 79.31,
+      "end": 79.51,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "signed",
+      "start": 79.51,
+      "end": 79.75,
+      "confidence": 0.95361328125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "up",
+      "start": 79.75,
+      "end": 79.95,
+      "confidence": 0.990234375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 79.95,
+      "end": 80.09,
+      "confidence": 0.998046875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "help,",
+      "start": 80.09,
+      "end": 80.31,
+      "confidence": 0.994140625,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "you",
+      "start": 80.49,
+      "end": 80.55,
+      "confidence": 0.98876953125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "know?",
+      "start": 80.55,
+      "end": 80.71,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Carry",
+      "start": 81.09,
+      "end": 81.29,
+      "confidence": 0.53564453125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 81.29,
+      "end": 81.45,
+      "confidence": 0.88720703125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "box,",
+      "start": 81.45,
+      "end": 81.81,
+      "confidence": 0.99072265625,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "point",
+      "start": 82.19,
+      "end": 82.39,
+      "confidence": 0.81591796875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "it",
+      "start": 82.39,
+      "end": 82.59,
+      "confidence": 0.82080078125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 82.59,
+      "end": 82.65,
+      "confidence": 0.693359375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "door,",
+      "start": 82.65,
+      "end": 82.93,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "quietly",
+      "start": 83.59,
+      "end": 83.89,
+      "confidence": 0.9736328125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "disappear",
+      "start": 83.89,
+      "end": 84.35,
+      "confidence": 0.98828125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "when",
+      "start": 84.35,
+      "end": 84.65,
+      "confidence": 0.990234375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "somebody",
+      "start": 84.65,
+      "end": 84.95,
+      "confidence": 0.99267578125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "mentions",
+      "start": 84.95,
+      "end": 85.29,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 85.29,
+      "end": 85.53,
+      "confidence": 0.98974609375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "microphone.",
+      "start": 85.53,
+      "end": 85.93,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Apparently,",
+      "start": 86.71,
+      "end": 87.17,
+      "confidence": 0.9794921875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 87.35,
+      "end": 87.51,
+      "confidence": 0.998046875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "took",
+      "start": 87.51,
+      "end": 87.71,
+      "confidence": 0.50732421875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 87.71,
+      "end": 87.83,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "enthusiastic",
+      "start": 87.83,
+      "end": 88.21,
+      "confidence": 0.98876953125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "box.",
+      "start": 88.21,
+      "end": 88.87,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "There's",
+      "start": 90.19,
+      "end": 90.67,
+      "confidence": 0.951171875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "an",
+      "start": 90.67,
+      "end": 90.77,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "enthusiastic",
+      "start": 90.77,
+      "end": 91.31,
+      "confidence": 0.990234375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "box.",
+      "start": 91.31,
+      "end": 92.01,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Four,",
+      "start": 93.25,
+      "end": 93.73,
+      "confidence": 0.59033203125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "please,",
+      "start": 93.73,
+      "end": 94.21,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "we",
+      "start": 94.59,
+      "end": 94.69,
+      "confidence": 0.99609375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "need",
+      "start": 94.69,
+      "end": 94.89,
+      "confidence": 0.998046875,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 94.89,
+      "end": 95.03,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "notice",
+      "start": 95.03,
+      "end": 95.31,
+      "confidence": 0.52880859375,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "board.",
+      "start": 95.31,
+      "end": 95.53,
+      "confidence": 0.8017578125,
+      "clip_id": "r8_3_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Right,",
+      "start": 96.35,
+      "end": 96.73,
+      "confidence": 0.7841796875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 97.25,
+      "end": 97.41,
+      "confidence": 0.96630859375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "notice",
+      "start": 97.41,
+      "end": 97.71,
+      "confidence": 0.55322265625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "board,",
+      "start": 97.71,
+      "end": 98.17,
+      "confidence": 0.888671875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 99.01,
+      "end": 99.15,
+      "confidence": 0.966796875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "sensible",
+      "start": 99.15,
+      "end": 99.53,
+      "confidence": 0.97998046875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "new",
+      "start": 99.53,
+      "end": 99.85,
+      "confidence": 0.8486328125,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "sign",
+      "start": 99.85,
+      "end": 100.11,
+      "confidence": 0.93505859375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "says,",
+      "start": 100.11,
+      "end": 100.59,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "assembly",
+      "start": 100.75,
+      "end": 101.31,
+      "confidence": 0.08990478515625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 101.31,
+      "end": 102.01,
+      "confidence": 0.46923828125,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 102.01,
+      "end": 102.15,
+      "confidence": 0.990234375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "old",
+      "start": 102.15,
+      "end": 102.35,
+      "confidence": 0.98828125,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "one",
+      "start": 102.35,
+      "end": 102.61,
+      "confidence": 0.966796875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "says,",
+      "start": 102.61,
+      "end": 102.93,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "pudding.",
+      "start": 103.03,
+      "end": 103.23,
+      "confidence": 0.35693359375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Before",
+      "start": 104.47,
+      "end": 104.81,
+      "confidence": 0.958984375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "you",
+      "start": 104.81,
+      "end": 105.01,
+      "confidence": 0.998046875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "say",
+      "start": 105.01,
+      "end": 105.33,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "anything,",
+      "start": 105.33,
+      "end": 105.79,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 106.03,
+      "end": 106.27,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "can",
+      "start": 106.27,
+      "end": 106.47,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "see",
+      "start": 106.47,
+      "end": 106.69,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "that",
+      "start": 106.69,
+      "end": 106.85,
+      "confidence": 0.99072265625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "it's",
+      "start": 106.85,
+      "end": 107.01,
+      "confidence": 0.99072265625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "crossed",
+      "start": 107.01,
+      "end": 107.31,
+      "confidence": 0.98291015625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "out.",
+      "start": 107.31,
+      "end": 107.77,
+      "confidence": 0.99609375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I'm",
+      "start": 108.37,
+      "end": 108.71,
+      "confidence": 0.96875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "choosing",
+      "start": 108.71,
+      "end": 109.07,
+      "confidence": 0.99609375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 109.07,
+      "end": 109.41,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "interpret",
+      "start": 109.41,
+      "end": 109.65,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "that",
+      "start": 109.65,
+      "end": 109.99,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "as",
+      "start": 109.99,
+      "end": 110.33,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "decorative.",
+      "start": 110.33,
+      "end": 110.69,
+      "confidence": 0.88525390625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Six",
+      "start": 111.61,
+      "end": 112.15,
+      "confidence": 0.697265625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "gets",
+      "start": 112.15,
+      "end": 112.45,
+      "confidence": 0.90673828125,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "us",
+      "start": 112.45,
+      "end": 112.65,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 112.65,
+      "end": 112.79,
+      "confidence": 0.99267578125,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "assembly.",
+      "start": 112.79,
+      "end": 113.21,
+      "confidence": 0.97216796875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Five",
+      "start": 114.27,
+      "end": 114.63,
+      "confidence": 0.9091796875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "lets",
+      "start": 114.63,
+      "end": 114.89,
+      "confidence": 0.9033203125,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "us",
+      "start": 114.89,
+      "end": 115.09,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "investigate",
+      "start": 115.09,
+      "end": 115.63,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 115.63,
+      "end": 115.95,
+      "confidence": 0.998046875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "pudding.",
+      "start": 115.95,
+      "end": 116.27,
+      "confidence": 0.77587890625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "You",
+      "start": 117.39,
+      "end": 117.61,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "can",
+      "start": 117.61,
+      "end": 117.75,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "probably",
+      "start": 117.75,
+      "end": 118.09,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "guess",
+      "start": 118.09,
+      "end": 118.41,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "which",
+      "start": 118.41,
+      "end": 118.71,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "one",
+      "start": 118.71,
+      "end": 118.89,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I'm",
+      "start": 118.89,
+      "end": 119.05,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "hoping",
+      "start": 119.05,
+      "end": 119.27,
+      "confidence": 0.998046875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "for.",
+      "start": 119.27,
+      "end": 119.65,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_4_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "There's",
+      "start": 120.35,
+      "end": 120.77,
+      "confidence": 0.79833984375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 120.77,
+      "end": 120.83,
+      "confidence": 0.94482421875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "cup.",
+      "start": 120.83,
+      "end": 121.15,
+      "confidence": 0.95166015625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "See,",
+      "start": 121.65,
+      "end": 122.13,
+      "confidence": 0.9755859375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 122.95,
+      "end": 123.25,
+      "confidence": 0.9921875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "told",
+      "start": 123.25,
+      "end": 123.43,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "you",
+      "start": 123.43,
+      "end": 123.57,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "this",
+      "start": 123.57,
+      "end": 123.73,
+      "confidence": 0.98291015625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "was",
+      "start": 123.73,
+      "end": 123.87,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "worth",
+      "start": 123.87,
+      "end": 124.11,
+      "confidence": 0.998046875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "investigating.",
+      "start": 124.11,
+      "end": 124.63,
+      "confidence": 0.98828125,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Oh,",
+      "start": 126.11,
+      "end": 126.27,
+      "confidence": 0.94140625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "those",
+      "start": 126.39,
+      "end": 126.53,
+      "confidence": 0.9921875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "are",
+      "start": 126.53,
+      "end": 126.63,
+      "confidence": 0.9658203125,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "pencils.",
+      "start": 126.63,
+      "end": 126.95,
+      "confidence": 0.99169921875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I've",
+      "start": 128.71,
+      "end": 128.91,
+      "confidence": 0.9853515625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "come",
+      "start": 128.91,
+      "end": 129.03,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 129.03,
+      "end": 129.19,
+      "confidence": 0.998046875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 129.19,
+      "end": 129.31,
+      "confidence": 0.98046875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "stationery",
+      "start": 129.31,
+      "end": 129.71,
+      "confidence": 0.91748046875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "cupboard",
+      "start": 129.71,
+      "end": 130.05,
+      "confidence": 0.98974609375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "for",
+      "start": 130.05,
+      "end": 130.27,
+      "confidence": 0.998046875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "pudding.",
+      "start": 130.27,
+      "end": 130.51,
+      "confidence": 0.90576171875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "And",
+      "start": 131.17,
+      "end": 131.27,
+      "confidence": 0.98388671875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "somehow,",
+      "start": 131.27,
+      "end": 131.69,
+      "confidence": 0.98681640625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I'm",
+      "start": 132.25,
+      "end": 132.61,
+      "confidence": 0.99609375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "still",
+      "start": 132.61,
+      "end": 132.83,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "looking",
+      "start": 132.83,
+      "end": 133.09,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "for",
+      "start": 133.09,
+      "end": 133.33,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 133.33,
+      "end": 133.43,
+      "confidence": 0.998046875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "spoon.",
+      "start": 133.43,
+      "end": 133.77,
+      "confidence": 0.97607421875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Please",
+      "start": 134.47,
+      "end": 134.73,
+      "confidence": 0.99267578125,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "don't",
+      "start": 134.73,
+      "end": 134.95,
+      "confidence": 0.96923828125,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "tell",
+      "start": 134.95,
+      "end": 135.07,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 135.07,
+      "end": 135.25,
+      "confidence": 0.99609375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "sandwich.",
+      "start": 135.25,
+      "end": 135.49,
+      "confidence": 0.93994140625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "It'll",
+      "start": 136.41,
+      "end": 136.61,
+      "confidence": 0.9521484375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "think",
+      "start": 136.61,
+      "end": 136.79,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "it's",
+      "start": 136.79,
+      "end": 137.01,
+      "confidence": 0.9921875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "won.",
+      "start": 137.01,
+      "end": 137.29,
+      "confidence": 0.9521484375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Come",
+      "start": 138.87,
+      "end": 139.07,
+      "confidence": 0.9833984375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "on.",
+      "start": 139.07,
+      "end": 139.27,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Six",
+      "start": 139.95,
+      "end": 140.13,
+      "confidence": 0.88720703125,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "gets",
+      "start": 140.13,
+      "end": 140.35,
+      "confidence": 0.41259765625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "us",
+      "start": 140.35,
+      "end": 140.55,
+      "confidence": 0.998046875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 140.55,
+      "end": 140.65,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "assembly",
+      "start": 140.65,
+      "end": 140.99,
+      "confidence": 0.93896484375,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "before",
+      "start": 140.99,
+      "end": 141.39,
+      "confidence": 0.962890625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 141.39,
+      "end": 141.53,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "start",
+      "start": 141.53,
+      "end": 141.79,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "checking",
+      "start": 141.79,
+      "end": 142.05,
+      "confidence": 0.98779296875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "glue",
+      "start": 142.05,
+      "end": 142.31,
+      "confidence": 0.73779296875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "sticks",
+      "start": 142.31,
+      "end": 142.57,
+      "confidence": 0.982421875,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "for",
+      "start": 142.57,
+      "end": 142.79,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "ingredients.",
+      "start": 142.79,
+      "end": 143.15,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_5_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "That's",
+      "start": 144.35,
+      "end": 144.69,
+      "confidence": 0.916015625,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 144.69,
+      "end": 144.71,
+      "confidence": 0.9794921875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "microphone.",
+      "start": 144.71,
+      "end": 145.05,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 146.17,
+      "end": 146.53,
+      "confidence": 0.98876953125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "can",
+      "start": 146.53,
+      "end": 146.67,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "explain",
+      "start": 146.67,
+      "end": 147.13,
+      "confidence": 0.998046875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "an",
+      "start": 147.13,
+      "end": 147.47,
+      "confidence": 0.98583984375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "entire",
+      "start": 147.47,
+      "end": 148.07,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "anime",
+      "start": 148.07,
+      "end": 148.61,
+      "confidence": 0.9140625,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "power",
+      "start": 148.61,
+      "end": 148.99,
+      "confidence": 0.962890625,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "system",
+      "start": 148.99,
+      "end": 149.45,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 149.45,
+      "end": 150.03,
+      "confidence": 0.97216796875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "somebody",
+      "start": 150.03,
+      "end": 150.41,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "who",
+      "start": 150.41,
+      "end": 150.99,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "didn't",
+      "start": 150.99,
+      "end": 151.31,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "ask,",
+      "start": 151.31,
+      "end": 151.65,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "but",
+      "start": 152.05,
+      "end": 152.43,
+      "confidence": 0.98779296875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "apparently",
+      "start": 152.43,
+      "end": 152.89,
+      "confidence": 0.95263671875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "good",
+      "start": 152.89,
+      "end": 153.31,
+      "confidence": 0.5751953125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "morning",
+      "start": 153.31,
+      "end": 153.73,
+      "confidence": 0.9716796875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "requires",
+      "start": 153.73,
+      "end": 154.37,
+      "confidence": 0.87353515625,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "rehearsing",
+      "start": 154.37,
+      "end": 155.07,
+      "confidence": 0.99267578125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "until",
+      "start": 155.07,
+      "end": 155.61,
+      "confidence": 0.98583984375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "my",
+      "start": 155.61,
+      "end": 156.23,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "personality",
+      "start": 156.23,
+      "end": 156.83,
+      "confidence": 0.98876953125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "leaves",
+      "start": 156.83,
+      "end": 157.19,
+      "confidence": 0.9892578125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "my",
+      "start": 157.19,
+      "end": 157.41,
+      "confidence": 0.998046875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "body.",
+      "start": 157.41,
+      "end": 157.69,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Before",
+      "start": 159.07,
+      "end": 159.35,
+      "confidence": 0.9912109375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 159.35,
+      "end": 159.49,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "get",
+      "start": 159.49,
+      "end": 159.61,
+      "confidence": 0.98974609375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "up",
+      "start": 159.61,
+      "end": 159.77,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "there,",
+      "start": 159.77,
+      "end": 160.13,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "could",
+      "start": 160.49,
+      "end": 160.69,
+      "confidence": 0.98828125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "you",
+      "start": 160.69,
+      "end": 160.77,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "check",
+      "start": 160.77,
+      "end": 160.99,
+      "confidence": 0.9931640625,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "who's",
+      "start": 160.99,
+      "end": 161.21,
+      "confidence": 0.9306640625,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "watching?",
+      "start": 161.21,
+      "end": 161.51,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Seven",
+      "start": 162.49,
+      "end": 162.73,
+      "confidence": 0.7880859375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "opens",
+      "start": 162.73,
+      "end": 163.05,
+      "confidence": 0.9091796875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 163.05,
+      "end": 163.23,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "last",
+      "start": 163.23,
+      "end": 163.47,
+      "confidence": 0.994140625,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "choice.",
+      "start": 163.47,
+      "end": 163.87,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I'm",
+      "start": 165.37,
+      "end": 165.55,
+      "confidence": 0.986328125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "going",
+      "start": 165.55,
+      "end": 165.71,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 165.71,
+      "end": 165.83,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "practise",
+      "start": 165.83,
+      "end": 166.15,
+      "confidence": 0.9873046875,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "looking",
+      "start": 166.15,
+      "end": 166.45,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "like",
+      "start": 166.45,
+      "end": 166.69,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "this",
+      "start": 166.69,
+      "end": 166.85,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "was",
+      "start": 166.85,
+      "end": 166.99,
+      "confidence": 0.96533203125,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "my",
+      "start": 166.99,
+      "end": 167.17,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "idea.",
+      "start": 167.17,
+      "end": 167.45,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_6_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Hang",
+      "start": 168.35,
+      "end": 168.59,
+      "confidence": 0.2232666015625,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "on.",
+      "start": 168.59,
+      "end": 168.91,
+      "confidence": 0.990234375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Turn",
+      "start": 169.35,
+      "end": 169.69,
+      "confidence": 0.966796875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "around",
+      "start": 169.69,
+      "end": 169.99,
+      "confidence": 0.9921875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "for",
+      "start": 169.99,
+      "end": 170.15,
+      "confidence": 0.9912109375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 170.15,
+      "end": 170.21,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "second.",
+      "start": 170.21,
+      "end": 170.51,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "They're",
+      "start": 171.13,
+      "end": 171.29,
+      "confidence": 0.306884765625,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "toys.",
+      "start": 171.29,
+      "end": 171.63,
+      "confidence": 0.9599609375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "It's",
+      "start": 172.51,
+      "end": 172.71,
+      "confidence": 0.9873046875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 172.71,
+      "end": 172.75,
+      "confidence": 0.98779296875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "rehearsal.",
+      "start": 172.75,
+      "end": 173.13,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I've",
+      "start": 173.91,
+      "end": 174.11,
+      "confidence": 0.98388671875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "spent",
+      "start": 174.11,
+      "end": 174.31,
+      "confidence": 0.998046875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 174.31,
+      "end": 174.45,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "entire",
+      "start": 174.45,
+      "end": 174.79,
+      "confidence": 0.998046875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "morning",
+      "start": 174.79,
+      "end": 175.19,
+      "confidence": 0.98583984375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "rehearsing",
+      "start": 175.19,
+      "end": 175.69,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "my",
+      "start": 175.69,
+      "end": 175.81,
+      "confidence": 0.99267578125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "apology",
+      "start": 175.81,
+      "end": 176.21,
+      "confidence": 0.96142578125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 176.21,
+      "end": 176.49,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 176.49,
+      "end": 176.57,
+      "confidence": 0.9833984375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "duck",
+      "start": 176.57,
+      "end": 176.91,
+      "confidence": 0.89013671875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 176.91,
+      "end": 177.71,
+      "confidence": 0.564453125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "look",
+      "start": 177.71,
+      "end": 177.89,
+      "confidence": 0.92236328125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "at",
+      "start": 177.89,
+      "end": 177.97,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "its",
+      "start": 177.97,
+      "end": 178.15,
+      "confidence": 0.9033203125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "face.",
+      "start": 178.15,
+      "end": 178.53,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Why",
+      "start": 179.49,
+      "end": 179.79,
+      "confidence": 0.9423828125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "does",
+      "start": 179.79,
+      "end": 179.93,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "it",
+      "start": 179.93,
+      "end": 180.09,
+      "confidence": 0.9892578125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "seem",
+      "start": 180.09,
+      "end": 180.41,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "like",
+      "start": 180.41,
+      "end": 181.19,
+      "confidence": 0.8466796875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "it",
+      "start": 181.19,
+      "end": 181.31,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "knows?",
+      "start": 181.31,
+      "end": 181.61,
+      "confidence": 0.98046875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Nine",
+      "start": 183.19,
+      "end": 183.55,
+      "confidence": 0.72314453125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "takes",
+      "start": 183.55,
+      "end": 183.93,
+      "confidence": 0.9873046875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 183.93,
+      "end": 184.11,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "microphone.",
+      "start": 184.11,
+      "end": 184.45,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Eight",
+      "start": 185.27,
+      "end": 185.53,
+      "confidence": 0.9384765625,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "lets",
+      "start": 185.53,
+      "end": 185.81,
+      "confidence": 0.9482421875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "me",
+      "start": 185.81,
+      "end": 186.03,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "hide.",
+      "start": 186.03,
+      "end": 186.29,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Please",
+      "start": 187.47,
+      "end": 187.77,
+      "confidence": 0.9775390625,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "pick",
+      "start": 187.77,
+      "end": 188.03,
+      "confidence": 0.93603515625,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "before",
+      "start": 188.03,
+      "end": 188.31,
+      "confidence": 0.990234375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 188.31,
+      "end": 188.47,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "start",
+      "start": 188.47,
+      "end": 188.71,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "explaining",
+      "start": 188.71,
+      "end": 189.15,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "myself",
+      "start": 189.15,
+      "end": 189.59,
+      "confidence": 0.98779296875,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 189.59,
+      "end": 189.77,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 189.77,
+      "end": 189.87,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "bear.",
+      "start": 189.87,
+      "end": 190.01,
+      "confidence": 0.984375,
+      "clip_id": "r8_7_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Okay,",
+      "start": 192.35,
+      "end": 192.67,
+      "confidence": 0.443603515625,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "new",
+      "start": 192.99,
+      "end": 193.19,
+      "confidence": 0.8056640625,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "plan.",
+      "start": 193.19,
+      "end": 193.45,
+      "confidence": 0.98583984375,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 194.01,
+      "end": 194.13,
+      "confidence": 0.953125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "stand",
+      "start": 194.13,
+      "end": 194.43,
+      "confidence": 0.951171875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "completely",
+      "start": 194.43,
+      "end": 195.09,
+      "confidence": 0.98828125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "still",
+      "start": 195.09,
+      "end": 195.51,
+      "confidence": 0.99072265625,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 195.51,
+      "end": 195.69,
+      "confidence": 0.96728515625,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "become",
+      "start": 195.69,
+      "end": 195.97,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "school",
+      "start": 195.97,
+      "end": 196.31,
+      "confidence": 0.90966796875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "furniture.",
+      "start": 196.31,
+      "end": 196.69,
+      "confidence": 0.96484375,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Nobody",
+      "start": 197.73,
+      "end": 198.11,
+      "confidence": 0.97412109375,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "expects",
+      "start": 198.11,
+      "end": 198.57,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 198.57,
+      "end": 198.81,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "chair",
+      "start": 198.81,
+      "end": 199.01,
+      "confidence": 0.95947265625,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 199.01,
+      "end": 199.21,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "introduce",
+      "start": 199.21,
+      "end": 199.57,
+      "confidence": 0.998046875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 199.57,
+      "end": 199.89,
+      "confidence": 0.9912109375,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "assembly.",
+      "start": 199.89,
+      "end": 200.21,
+      "confidence": 0.9501953125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Why",
+      "start": 201.09,
+      "end": 201.47,
+      "confidence": 0.96875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "am",
+      "start": 201.47,
+      "end": 201.59,
+      "confidence": 0.998046875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I",
+      "start": 201.59,
+      "end": 201.71,
+      "confidence": 0.98828125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "making",
+      "start": 201.71,
+      "end": 201.97,
+      "confidence": 0.99609375,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "eye",
+      "start": 201.97,
+      "end": 202.33,
+      "confidence": 0.98193359375,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "contact",
+      "start": 202.33,
+      "end": 202.61,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "with",
+      "start": 202.61,
+      "end": 202.93,
+      "confidence": 0.998046875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 202.93,
+      "end": 203.05,
+      "confidence": 0.982421875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "duck?",
+      "start": 203.05,
+      "end": 203.27,
+      "confidence": 0.83056640625,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "It's",
+      "start": 204.19,
+      "end": 204.41,
+      "confidence": 0.98291015625,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 204.41,
+      "end": 204.45,
+      "confidence": 0.9775390625,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "toy,",
+      "start": 204.45,
+      "end": 204.77,
+      "confidence": 0.98828125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Nemi.",
+      "start": 205.13,
+      "end": 205.35,
+      "confidence": 0.5029296875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "It",
+      "start": 205.99,
+      "end": 206.17,
+      "confidence": 0.9912109375,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "doesn't",
+      "start": 206.17,
+      "end": 206.61,
+      "confidence": 0.998046875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "know",
+      "start": 206.61,
+      "end": 206.85,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "anything.",
+      "start": 206.85,
+      "end": 207.35,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Nine,",
+      "start": 208.43,
+      "end": 208.83,
+      "confidence": 0.62841796875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "please.",
+      "start": 209.03,
+      "end": 209.33,
+      "confidence": 0.99609375,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I'd",
+      "start": 210.23,
+      "end": 210.33,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "rather",
+      "start": 210.33,
+      "end": 210.51,
+      "confidence": 1.0,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "do",
+      "start": 210.51,
+      "end": 210.71,
+      "confidence": 0.99609375,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 210.71,
+      "end": 210.87,
+      "confidence": 0.97314453125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "speech",
+      "start": 210.87,
+      "end": 211.29,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "than",
+      "start": 211.29,
+      "end": 211.61,
+      "confidence": 0.95703125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "lose",
+      "start": 211.61,
+      "end": 211.81,
+      "confidence": 0.92626953125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "a",
+      "start": 211.81,
+      "end": 211.97,
+      "confidence": 0.98779296875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "staring",
+      "start": 211.97,
+      "end": 212.35,
+      "confidence": 0.89453125,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "contest",
+      "start": 212.35,
+      "end": 213.03,
+      "confidence": 0.9794921875,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 213.03,
+      "end": 213.39,
+      "confidence": 0.962890625,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "stuffing.",
+      "start": 213.39,
+      "end": 213.61,
+      "confidence": 0.962890625,
+      "clip_id": "r8_8_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Good",
+      "start": 216.35,
+      "end": 216.53,
+      "confidence": 0.84716796875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "morning",
+      "start": 216.53,
+      "end": 216.75,
+      "confidence": 0.98291015625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "everyone",
+      "start": 216.75,
+      "end": 217.29,
+      "confidence": 0.5634765625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 217.29,
+      "end": 218.09,
+      "confidence": 0.458984375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "welcome",
+      "start": 218.09,
+      "end": 218.59,
+      "confidence": 0.97314453125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 218.59,
+      "end": 219.09,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "whatever",
+      "start": 219.09,
+      "end": 219.41,
+      "confidence": 0.859375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "this",
+      "start": 219.41,
+      "end": 219.69,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "is,",
+      "start": 219.69,
+      "end": 220.17,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "right?",
+      "start": 220.59,
+      "end": 220.79,
+      "confidence": 0.935546875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Nobody",
+      "start": 221.13,
+      "end": 221.39,
+      "confidence": 0.9638671875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "fainted.",
+      "start": 221.39,
+      "end": 221.99,
+      "confidence": 0.7939453125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "The",
+      "start": 222.69,
+      "end": 222.83,
+      "confidence": 0.98681640625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "duck",
+      "start": 222.83,
+      "end": 223.01,
+      "confidence": 0.9111328125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "looks",
+      "start": 223.01,
+      "end": 223.23,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "exactly",
+      "start": 223.23,
+      "end": 223.79,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "as",
+      "start": 223.79,
+      "end": 224.19,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "disappointed",
+      "start": 224.19,
+      "end": 224.67,
+      "confidence": 0.93017578125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "as",
+      "start": 224.67,
+      "end": 225.13,
+      "confidence": 0.99365234375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "before,",
+      "start": 225.13,
+      "end": 225.55,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "so",
+      "start": 226.07,
+      "end": 226.57,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "I'm",
+      "start": 226.57,
+      "end": 226.99,
+      "confidence": 0.9736328125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "calling",
+      "start": 226.99,
+      "end": 227.23,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "that",
+      "start": 227.23,
+      "end": 227.45,
+      "confidence": 0.9951171875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "progress.",
+      "start": 227.45,
+      "end": 227.85,
+      "confidence": 0.96240234375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Thank",
+      "start": 228.65,
+      "end": 228.83,
+      "confidence": 0.990234375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "you",
+      "start": 228.83,
+      "end": 228.93,
+      "confidence": 0.99609375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "for",
+      "start": 228.93,
+      "end": 229.05,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "staying",
+      "start": 229.05,
+      "end": 229.27,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "with",
+      "start": 229.27,
+      "end": 229.45,
+      "confidence": 1.0,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "me,",
+      "start": 229.45,
+      "end": 230.09,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "and",
+      "start": 230.15,
+      "end": 230.41,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "the",
+      "start": 230.41,
+      "end": 230.47,
+      "confidence": 0.99072265625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "pudding",
+      "start": 230.47,
+      "end": 230.67,
+      "confidence": 0.87939453125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "was",
+      "start": 230.67,
+      "end": 230.89,
+      "confidence": 0.9990234375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "last",
+      "start": 230.89,
+      "end": 231.17,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Friday.",
+      "start": 231.17,
+      "end": 231.45,
+      "confidence": 0.9208984375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "Of",
+      "start": 232.17,
+      "end": 232.33,
+      "confidence": 0.994140625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "course",
+      "start": 232.33,
+      "end": 232.53,
+      "confidence": 0.99658203125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "it",
+      "start": 232.53,
+      "end": 232.67,
+      "confidence": 0.7744140625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "was,",
+      "start": 232.67,
+      "end": 232.95,
+      "confidence": 0.99951171875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "zero",
+      "start": 233.43,
+      "end": 233.81,
+      "confidence": 0.6923828125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "if",
+      "start": 233.81,
+      "end": 234.05,
+      "confidence": 0.896484375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "you'd",
+      "start": 234.05,
+      "end": 234.23,
+      "confidence": 0.98388671875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "like",
+      "start": 234.23,
+      "end": 234.39,
+      "confidence": 0.99853515625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "to",
+      "start": 234.39,
+      "end": 234.45,
+      "confidence": 0.998046875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "try",
+      "start": 234.45,
+      "end": 234.63,
+      "confidence": 0.99609375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "talking",
+      "start": 234.63,
+      "end": 234.93,
+      "confidence": 0.9404296875,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "me",
+      "start": 234.93,
+      "end": 235.13,
+      "confidence": 0.9755859375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "out",
+      "start": 235.13,
+      "end": 235.25,
+      "confidence": 0.99755859375,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "of",
+      "start": 235.25,
+      "end": 235.35,
+      "confidence": 0.962890625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "this",
+      "start": 235.35,
+      "end": 235.53,
+      "confidence": 0.9970703125,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "next",
+      "start": 235.53,
+      "end": 235.73,
+      "confidence": 0.99462890625,
+      "clip_id": "r8_9_0"
+    },
+    {
+      "actor": "nemi",
+      "word": "time.",
+      "start": 235.73,
+      "end": 235.93,
+      "confidence": 0.99560546875,
+      "clip_id": "r8_9_0"
+    }
+  ],
+  "audio_sha256": "c12d75dec313942e3535121534dda87a31ffc5562313693bfa230a7e18bf37e0",
+  "display_corrections": [
+    {
+      "word_index": 4,
+      "from": "putting",
+      "to": "pudding",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 227,
+      "from": "putting.",
+      "to": "pudding.",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 285,
+      "from": "stationary",
+      "to": "stationery",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 288,
+      "from": "putting.",
+      "to": "pudding.",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 305,
+      "from": "one.",
+      "to": "won.",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 367,
+      "from": "practice",
+      "to": "practise",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 381,
+      "from": "Their",
+      "to": "They're",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    },
+    {
+      "word_index": 458,
+      "from": "nemi.",
+      "to": "Nemi.",
+      "reason": "Same measured spoken unit; contextual spelling/capitalization only, original interval unchanged"
+    }
+  ],
+  "raw_alignment_preserved": "timeline.json and processed/*.words.json retain original recognizer output"
+}

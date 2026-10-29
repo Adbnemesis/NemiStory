@@ -1,0 +1,23 @@
+{
+  "episode_art": [
+    {
+      "path": "review/reference/ep11_balance.jpg",
+      "sha256": "eb853da4ed41f222fc65babeeac19329186e6384bcc258755fb00077273056a7",
+      "origin": "Frame extracted read-only from existing approved Nemi movie; artistic reference only"
+    },
+    {
+      "path": "review/reference/ep06_colour.jpg",
+      "sha256": "407825617731682ddb46e9b93a51b5e01c415be81b427762cab2aaef12938c0e",
+      "origin": "Frame extracted read-only from existing approved Nemi movie; artistic reference only"
+    },
+    {
+      "path": "assets/locations.json",
+      "origin": "Original deterministic room layouts and puzzle placement; cream paper, plum ink, selective washed fills",
+      "implementation": "engine/godot/SchoolWall.gd draws native Godot geometry; no external art download"
+    }
+  ],
+  "rig": "Byte-identical copied canonical Nemi rig; engine/godot/dependency_provenance.json",
+  "sfx": "sound_plan.json records exact existing recording hashes, source URLs and licenses",
+  "music": "audio/score_composition.json original score",
+  "thumbnail": "thumbnail/QA.json generated raster illustration using approved reference art"
+}

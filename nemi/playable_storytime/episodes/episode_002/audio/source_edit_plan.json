@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "notes": "R9 active: three partial ordinary quiet-gap cuts; retain all other source samples and preserve breaths, deadpan, instructions and ending relief. Independently realign processed audio.",
+  "clips": {
+    "desk_beyond": {
+      "source_sha256": "bef255a9dbe2b4e9e4e0716b7b47253393eed14de984be400f6bd3670020002e",
+      "remove_ranges": [
+        {
+          "start": 11.45,
+          "end": 12.05,
+          "reason": "Shorten the ordinary explanatory pivot before But there is a gap; retain 580ms of the source pause."
+        }
+      ]
+    },
+    "bridge_choice": {
+      "source_sha256": "cb524c183d4a50cdfe95336126a4999583e934cc214545229a61f05465d8a38a",
+      "remove_ranges": [
+        {
+          "start": 10.4,
+          "end": 10.8,
+          "reason": "Shorten the explanatory turn from the Future Me joke to looking at the route; retain 460ms of the original pause."
+        }
+      ]
+    },
+    "race_failure": {
+      "source_sha256": "f6874c574c4a90d2dd05ba40c76c9c3c37f723616ee3318ef90d259a96eedabc",
+      "remove_ranges": [
+        {
+          "start": 15.75,
+          "end": 16.25,
+          "reason": "Shorten the ordinary reset before Okay eight; retain 680ms of the source pause and visible restoration time."
+        }
+      ]
+    }
+  }
+}

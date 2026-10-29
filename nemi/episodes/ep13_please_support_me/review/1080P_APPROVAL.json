@@ -1,0 +1,15 @@
+{
+  "approved": true,
+  "approved_by": "user",
+  "user_quote": "great now do thumbnail and render this in 4k, delete all other renders",
+  "spec_sha256": "0e503be19d90411360cd71ca2a2d71c6409bbc2ac8cb93a750249b82bf6a0801",
+  "render_inputs_sha256": "3acdcfb61ee1a42f67e7a3633f8b4e7301960cd5a7431eb8851f714af0b61c09",
+  "preview": "res://nemi/episodes/ep13_please_support_me/renders/NEMI_EP13_Please_Support_Me_r3_1080p.mp4",
+  "preview_sha256": "9208410832f6730c31352fd37d937cde100ff4cfbb0a0ed86a3527ba36a16122",
+  "preview_stamp": "res://nemi/episodes/ep13_please_support_me/review/render_records/NEMI_EP13_Please_Support_Me_r3_1080p.review_stamp.json",
+  "preview_removed_after_final_4k": true,
+  "scope": "Full approved R3 1080p picture, timing and mix; native 4K export of the identical scene.",
+  "final_4k": "res://nemi/episodes/ep13_please_support_me/renders/NEMI_EP13_Please_Support_Me_r3_4K_FINAL.mp4",
+  "final_4k_sha256": "f4be381934d5f1f456626a36194e1db8ac5c2ff1feb7ac8c27bdb0241747523d",
+  "retention_note": "The complete approved R3 1080p preview was verified against its actual render stamp, used by the 4K approval gate, then removed along with superseded renders per explicit user instruction ('delete all other renders') and repository final-only retention policy. Capture logs and audio reports archived in review/render_records/."
+}

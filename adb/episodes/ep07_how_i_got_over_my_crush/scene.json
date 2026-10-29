@@ -1,0 +1,6853 @@
+{
+  "version": 2,
+  "title": "How I Got Over My Crush",
+  "duration": 128.73333333333332,
+  "fps": 30,
+  "caption_size": 52,
+  "audio": "res://renders/adb_how_i_got_over_my_crush/audio/narration.wav",
+  "audio_metadata": "res://renders/adb_how_i_got_over_my_crush/audio/timeline.json",
+  "direction": {
+    "promise": "After surviving the awkward 'I know' confession, Aiden stays on friendly terms with his crush\u2014until an impulsive text in defense of her tears triggers an immediate second block.",
+    "want": "Aiden wants to be a supportive confidant when her five-year relationship collapses, secretly hoping his friends' persistent matchmaking might give them a real shot.",
+    "choice": "When she unexpectedly starts dating someone else at the start of senior year, Aiden abruptly steps off the pedestal, letting every lingering romantic feeling dissolve on the spot.",
+    "consequence": "Stripped of adolescent expectations and crush drama, the two finally talk as genuine, relaxed equals during their final months of high school.",
+    "payoff": "Aiden graduates with a good friend, zero regrets, and walks into college ready for the chapter that brings him to his real girlfriend, Nemi.",
+    "beats": [
+      {
+        "start": 0.0,
+        "end": 12.94,
+        "thought": "Normal life after the confession",
+        "focus": "Sunlit classroom banter and homework notes",
+        "visual": "post_confession_chat",
+        "intent": "Establish that the confession didn't break their rapport."
+      },
+      {
+        "start": 12.94,
+        "end": 26.06,
+        "thought": "Hallway fight and savior complex",
+        "focus": "Hallway quarrel drama",
+        "visual": "hallway_fight_doodle",
+        "intent": "Show the catalyst for the terrible mistake."
+      },
+      {
+        "start": 26.06,
+        "end": 43.54,
+        "thought": "Badmouthing bf and getting blocked again",
+        "focus": "Bedroom texting and red alert screen",
+        "visual": "blocked_again_screen",
+        "intent": "Deliver the heartbreaking second block."
+      },
+      {
+        "start": 43.54,
+        "end": 59.67,
+        "thought": "The 5-year relationship ends",
+        "focus": "Courtyard breakup news and bro sympathy",
+        "visual": "five_year_breakup_timeline",
+        "intent": "Show the end of an era with mixed emotions."
+      },
+      {
+        "start": 59.67,
+        "end": 72.28,
+        "thought": "Squad matchmaking and unblock miracle",
+        "focus": "Street squad walk and green unblock card",
+        "visual": "wingmen_matchmaking_board",
+        "intent": "Show peer matchmaking creating renewed hope."
+      },
+      {
+        "start": 72.28,
+        "end": 84.45,
+        "thought": "She is already dating someone else",
+        "focus": "Senior year classroom and shock announcement",
+        "visual": "dating_again_announcement",
+        "intent": "Comic record scratch shock moment."
+      },
+      {
+        "start": 84.45,
+        "end": 99.19,
+        "thought": "The pedestal shatters completely",
+        "focus": "Shattered pedestal and deadpan stare",
+        "visual": "pedestal_shattered",
+        "intent": "The instantaneous evaporation of romantic feelings."
+      },
+      {
+        "start": 99.19,
+        "end": 115.43,
+        "thought": "Genuine high school friendship",
+        "focus": "Classroom desk with shared drinks",
+        "visual": "real_friends_desk",
+        "intent": "Show peaceful resolution as platonic equals."
+      },
+      {
+        "start": 115.43,
+        "end": 128.733333,
+        "thought": "Graduation, college, and Nemi",
+        "focus": "Graduation and meeting girlfriend Nemi",
+        "visual": "college_nemi_cameo",
+        "intent": "Heartwarming payoff meeting girlfriend Nemi in college."
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "confession_aftermath",
+      "at": 2.59,
+      "intent": "Paragraph 1, measured word \u201cconfession\u201d: authored thought accent."
+    },
+    {
+      "id": "didnt_stop",
+      "at": 4.25,
+      "intent": "Paragraph 1, measured word \u201cstop\u201d: authored thought accent."
+    },
+    {
+      "id": "banter_class",
+      "at": 6.61,
+      "intent": "Paragraph 1, measured word \u201cclass\u201d: authored thought accent."
+    },
+    {
+      "id": "homework_notes",
+      "at": 7.81,
+      "intent": "Paragraph 1, measured word \u201chomework\u201d: authored thought accent."
+    },
+    {
+      "id": "surprisingly_normal",
+      "at": 11.93,
+      "intent": "Paragraph 1, measured word \u201cnormal\u201d: authored thought accent."
+    },
+    {
+      "id": "until_one_day",
+      "at": 12.94,
+      "intent": "Paragraph 2, measured word \u201cuntil\u201d: authored thought accent."
+    },
+    {
+      "id": "hallway_fight",
+      "at": 16.96,
+      "intent": "Paragraph 2, measured word \u201cfight\u201d: authored thought accent."
+    },
+    {
+      "id": "she_crying",
+      "at": 18.94,
+      "intent": "Paragraph 2, measured word \u201ccrying\u201d: authored thought accent."
+    },
+    {
+      "id": "savior_complex",
+      "at": 22.4,
+      "intent": "Paragraph 2, measured word \u201csavior\u201d: authored thought accent."
+    },
+    {
+      "id": "overdrive",
+      "at": 24.94,
+      "intent": "Paragraph 2, measured word \u201coverdrive\u201d: authored thought accent."
+    },
+    {
+      "id": "felt_terrible",
+      "at": 26.46,
+      "intent": "Paragraph 3, measured word \u201cterrible\u201d: authored thought accent."
+    },
+    {
+      "id": "grabbed_phone",
+      "at": 29.08,
+      "intent": "Paragraph 3, measured word \u201cphone\u201d: authored thought accent."
+    },
+    {
+      "id": "badmouthing_bf",
+      "at": 30.66,
+      "intent": "Paragraph 3, measured word \u201cbadmouthing\u201d: authored thought accent."
+    },
+    {
+      "id": "big_mistake",
+      "at": 32.88,
+      "intent": "Paragraph 3, measured word \u201cmistake\u201d: authored thought accent."
+    },
+    {
+      "id": "she_furious",
+      "at": 34.3,
+      "intent": "Paragraph 3, measured word \u201cfurious\u201d: authored thought accent."
+    },
+    {
+      "id": "blocked_again",
+      "at": 37.8,
+      "intent": "Paragraph 3, measured word \u201cblocked\u201d: authored thought accent."
+    },
+    {
+      "id": "broke_me",
+      "at": 41.94,
+      "intent": "Paragraph 3, measured word \u201cbroke\u201d: authored thought accent."
+    },
+    {
+      "id": "second_year_end",
+      "at": 45.28,
+      "intent": "Paragraph 4, measured word \u201csecond\u201d: authored thought accent."
+    },
+    {
+      "id": "news_dropped",
+      "at": 47.86,
+      "intent": "Paragraph 4, measured word \u201cnews\u201d: authored thought accent."
+    },
+    {
+      "id": "broke_up",
+      "at": 50.2,
+      "intent": "Paragraph 4, measured word \u201cbroke\u201d: authored thought accent."
+    },
+    {
+      "id": "five_years",
+      "at": 51.34,
+      "intent": "Paragraph 4, measured word \u201cfive\u201d: authored thought accent."
+    },
+    {
+      "id": "felt_bad_bf",
+      "at": 56.14,
+      "intent": "Paragraph 4, measured word \u201cbad\u201d: authored thought accent."
+    },
+    {
+      "id": "good_friend",
+      "at": 58.44,
+      "intent": "Paragraph 4, measured word \u201cfriend\u201d: authored thought accent."
+    },
+    {
+      "id": "she_single",
+      "at": 61.63,
+      "intent": "Paragraph 5, measured word \u201csingle\u201d: authored thought accent."
+    },
+    {
+      "id": "squad_work",
+      "at": 62.71,
+      "intent": "Paragraph 5, measured word \u201csquad\u201d: authored thought accent."
+    },
+    {
+      "id": "matchmaking_mode",
+      "at": 64.63,
+      "intent": "Paragraph 5, measured word \u201cmatchmaking\u201d: authored thought accent."
+    },
+    {
+      "id": "hyped_me_up",
+      "at": 66.09,
+      "intent": "Paragraph 5, measured word \u201chyped\u201d: authored thought accent."
+    },
+    {
+      "id": "unblocked_me",
+      "at": 70.89,
+      "intent": "Paragraph 5, measured word \u201cunblocked\u201d: authored thought accent."
+    },
+    {
+      "id": "senior_year",
+      "at": 73.48,
+      "intent": "Paragraph 6, measured word \u201csenior\u201d: authored thought accent."
+    },
+    {
+      "id": "walk_in",
+      "at": 75.16,
+      "intent": "Paragraph 6, measured word \u201cwalk\u201d: authored thought accent."
+    },
+    {
+      "id": "universe_setting_up",
+      "at": 77.76,
+      "intent": "Paragraph 6, measured word \u201cuniverse\u201d: authored thought accent."
+    },
+    {
+      "id": "find_out",
+      "at": 80.24,
+      "intent": "Paragraph 6, measured word \u201cfind\u201d: authored thought accent."
+    },
+    {
+      "id": "dating_again",
+      "at": 81.72,
+      "intent": "Paragraph 6, measured word \u201cdating\u201d: authored thought accent."
+    },
+    {
+      "id": "someone_else",
+      "at": 82.44,
+      "intent": "Paragraph 6, measured word \u201celse\u201d: authored thought accent."
+    },
+    {
+      "id": "switch_flipped",
+      "at": 86.03,
+      "intent": "Paragraph 7, measured word \u201cswitch\u201d: authored thought accent."
+    },
+    {
+      "id": "feelings_vanished",
+      "at": 88.49,
+      "intent": "Paragraph 7, measured word \u201cfeelings\u201d: authored thought accent."
+    },
+    {
+      "id": "pedestal_shattered",
+      "at": 90.51,
+      "intent": "Paragraph 7, measured word \u201cpedestal\u201d: authored thought accent."
+    },
+    {
+      "id": "different_way",
+      "at": 93.81,
+      "intent": "Paragraph 7, measured word \u201cdifferent\u201d: authored thought accent."
+    },
+    {
+      "id": "yeah_nope",
+      "at": 96.07,
+      "intent": "Paragraph 7, measured word \u201cnope\u201d: authored thought accent."
+    },
+    {
+      "id": "do_not_like",
+      "at": 97.15,
+      "intent": "Paragraph 7, measured word \u201cnot\u201d: authored thought accent."
+    },
+    {
+      "id": "romantic_nonsense",
+      "at": 99.79,
+      "intent": "Paragraph 8, measured word \u201cromantic\u201d: authored thought accent."
+    },
+    {
+      "id": "unexpected_happened",
+      "at": 102.33,
+      "intent": "Paragraph 8, measured word \u201cunexpected\u201d: authored thought accent."
+    },
+    {
+      "id": "months_before",
+      "at": 104.61,
+      "intent": "Paragraph 8, measured word \u201cmonths\u201d: authored thought accent."
+    },
+    {
+      "id": "talking_again",
+      "at": 107.31,
+      "intent": "Paragraph 8, measured word \u201ctalking\u201d: authored thought accent."
+    },
+    {
+      "id": "no_tension",
+      "at": 108.87,
+      "intent": "Paragraph 8, measured word \u201ctension\u201d: authored thought accent."
+    },
+    {
+      "id": "genuine_friends",
+      "at": 112.93,
+      "intent": "Paragraph 8, measured word \u201cgenuine\u201d: authored thought accent."
+    },
+    {
+      "id": "graduated",
+      "at": 115.69,
+      "intent": "Paragraph 9, measured word \u201cgraduated\u201d: authored thought accent."
+    },
+    {
+      "id": "went_to_college",
+      "at": 118.91,
+      "intent": "Paragraph 9, measured word \u201ccollege\u201d: authored thought accent."
+    },
+    {
+      "id": "met_girlfriend",
+      "at": 122.61,
+      "intent": "Paragraph 9, measured word \u201cgirlfriend\u201d: authored thought accent."
+    },
+    {
+      "id": "nemi_love",
+      "at": 123.57,
+      "intent": "Paragraph 9, measured word \u201cnemi\u201d: authored thought accent."
+    },
+    {
+      "id": "worked_out",
+      "at": 126.53,
+      "intent": "Paragraph 9, measured word \u201cworked\u201d: authored thought accent."
+    }
+  ],
+  "actors": [
+    {
+      "id": "adb",
+      "author": "adb",
+      "performances": [
+        {
+          "at": 0,
+          "recipe": "explaining",
+          "duration": 0.42,
+          "gaze": [
+            -0.2,
+            0
+          ],
+          "hands": {
+            "right": "open_palm",
+            "left": "relaxed"
+          }
+        },
+        {
+          "at": 4.25,
+          "recipe": "uncertain",
+          "duration": 0.42,
+          "gaze": [
+            0.3,
+            -0.2
+          ],
+          "face": {
+            "brow_left_height": 2,
+            "brow_right_height": -1
+          },
+          "event": "didnt_stop",
+          "event_offset": 0
+        },
+        {
+          "at": 6.61,
+          "recipe": "nervous_answer",
+          "duration": 0.42,
+          "hands": {
+            "right": "pointing",
+            "left": "relaxed"
+          },
+          "face": {
+            "sweat_intensity": 0.3,
+            "brow_left_height": -2,
+            "brow_right_height": -2
+          },
+          "event": "banter_class",
+          "event_offset": 0
+        },
+        {
+          "at": 7.81,
+          "recipe": "weight_shift",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0.3
+          ],
+          "event": "homework_notes",
+          "event_offset": 0
+        },
+        {
+          "at": 11.93,
+          "recipe": "soft_shrug",
+          "duration": 0.42,
+          "hands": {
+            "right": "shrug_open",
+            "left": "relaxed"
+          },
+          "event": "surprisingly_normal",
+          "event_offset": 0
+        },
+        {
+          "at": 12.94,
+          "recipe": "uncertain",
+          "duration": 0.42,
+          "gaze": [
+            -0.3,
+            0.2
+          ],
+          "event": "until_one_day",
+          "event_offset": 0
+        },
+        {
+          "at": 16.96,
+          "recipe": "quiet_recoil",
+          "duration": 0.42,
+          "gaze": [
+            0.4,
+            0
+          ],
+          "face": {
+            "eye_openness_left": 1.2,
+            "eye_openness_right": 1.2
+          },
+          "event": "hallway_fight",
+          "event_offset": 0
+        },
+        {
+          "at": 18.94,
+          "recipe": "nervous_wait",
+          "duration": 0.42,
+          "face": {
+            "sweat_intensity": 0.5,
+            "brow_left_height": 3,
+            "brow_right_height": 3,
+            "brow_left_angle": -8,
+            "brow_right_angle": -8
+          },
+          "event": "she_crying",
+          "event_offset": 0
+        },
+        {
+          "at": 22.4,
+          "recipe": "lean_in",
+          "duration": 0.42,
+          "hands": {
+            "right": "fist",
+            "left": "relaxed"
+          },
+          "gaze": [
+            0,
+            0
+          ],
+          "event": "savior_complex",
+          "event_offset": 0
+        },
+        {
+          "at": 24.94,
+          "recipe": "clue_point",
+          "duration": 0.42,
+          "hands": {
+            "right": "pointing",
+            "left": "relaxed"
+          },
+          "event": "overdrive",
+          "event_offset": 0
+        },
+        {
+          "at": 26.46,
+          "recipe": "hurt_composure",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0.3
+          ],
+          "face": {
+            "tear_intensity": 0.2,
+            "brow_left_angle": -10,
+            "brow_right_angle": -10
+          },
+          "event": "felt_terrible",
+          "event_offset": 0
+        },
+        {
+          "at": 29.08,
+          "recipe": "prop_present",
+          "duration": 0.42,
+          "hands": {
+            "right": "holding_cup",
+            "left": "relaxed"
+          },
+          "gaze": [
+            0,
+            0.3
+          ],
+          "event": "grabbed_phone",
+          "event_offset": 0
+        },
+        {
+          "at": 30.66,
+          "recipe": "nervous_answer",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0.3
+          ],
+          "face": {
+            "sweat_intensity": 0.4,
+            "brow_left_height": -3,
+            "brow_right_height": -3
+          },
+          "event": "badmouthing_bf",
+          "event_offset": 0
+        },
+        {
+          "at": 32.88,
+          "recipe": "quiet_recoil",
+          "duration": 0.42,
+          "face": {
+            "eye_openness_left": 1.25,
+            "eye_openness_right": 1.25
+          },
+          "event": "big_mistake",
+          "event_offset": 0
+        },
+        {
+          "at": 34.3,
+          "recipe": "dry_annoyance",
+          "duration": 0.42,
+          "face": {
+            "brow_left_angle": 12,
+            "brow_right_angle": 12,
+            "eye_openness_left": 0.82,
+            "eye_openness_right": 0.82
+          },
+          "event": "she_furious",
+          "event_offset": 0
+        },
+        {
+          "at": 37.8,
+          "recipe": "deadpan",
+          "duration": 0.05,
+          "motion": "snap",
+          "face": {
+            "eye_openness_left": 1.3,
+            "eye_openness_right": 1.3
+          },
+          "event": "blocked_again",
+          "event_offset": 0
+        },
+        {
+          "at": 41.94,
+          "recipe": "hurt_composure",
+          "duration": 0.42,
+          "face": {
+            "blush_intensity": 0.45,
+            "tear_intensity": 0.4,
+            "brow_left_angle": -14,
+            "brow_right_angle": -14
+          },
+          "event": "broke_me",
+          "event_offset": 0
+        },
+        {
+          "at": 45.28,
+          "recipe": "weight_shift",
+          "duration": 0.42,
+          "event": "second_year_end",
+          "event_offset": 0
+        },
+        {
+          "at": 47.86,
+          "recipe": "realization",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "eye_openness_left": 1.15,
+            "eye_openness_right": 1.15
+          },
+          "event": "news_dropped",
+          "event_offset": 0
+        },
+        {
+          "at": 50.2,
+          "recipe": "soft_shrug",
+          "duration": 0.42,
+          "hands": {
+            "right": "shrug_open",
+            "left": "relaxed"
+          },
+          "event": "broke_up",
+          "event_offset": 0
+        },
+        {
+          "at": 51.34,
+          "recipe": "skeptical",
+          "duration": 0.42,
+          "face": {
+            "brow_left_height": 4,
+            "eye_openness_left": 0.85,
+            "eye_openness_right": 0.85
+          },
+          "event": "five_years",
+          "event_offset": 0
+        },
+        {
+          "at": 56.14,
+          "recipe": "hurt_composure",
+          "duration": 0.42,
+          "gaze": [
+            0.2,
+            0.2
+          ],
+          "face": {
+            "brow_left_angle": -8,
+            "brow_right_angle": -8
+          },
+          "event": "felt_bad_bf",
+          "event_offset": 0
+        },
+        {
+          "at": 58.44,
+          "recipe": "listening",
+          "duration": 0.42,
+          "gaze": [
+            0.2,
+            0.1
+          ],
+          "event": "good_friend",
+          "event_offset": 0
+        },
+        {
+          "at": 61.63,
+          "recipe": "realization",
+          "duration": 0.42,
+          "event": "she_single",
+          "event_offset": 0
+        },
+        {
+          "at": 62.71,
+          "recipe": "nervous_wait",
+          "duration": 0.42,
+          "face": {
+            "sweat_intensity": 0.45
+          },
+          "event": "squad_work",
+          "event_offset": 0
+        },
+        {
+          "at": 64.63,
+          "recipe": "clue_point",
+          "duration": 0.42,
+          "hands": {
+            "right": "pointing",
+            "left": "relaxed"
+          },
+          "event": "matchmaking_mode",
+          "event_offset": 0
+        },
+        {
+          "at": 66.09,
+          "recipe": "nervous_answer",
+          "duration": 0.42,
+          "face": {
+            "brow_left_height": -2,
+            "brow_right_height": -2
+          },
+          "event": "hyped_me_up",
+          "event_offset": 0
+        },
+        {
+          "at": 70.89,
+          "recipe": "realization",
+          "duration": 0.05,
+          "motion": "snap",
+          "face": {
+            "eye_openness_left": 1.25,
+            "eye_openness_right": 1.25
+          },
+          "event": "unblocked_me",
+          "event_offset": 0
+        },
+        {
+          "at": 73.48,
+          "recipe": "explaining",
+          "duration": 0.42,
+          "event": "senior_year",
+          "event_offset": 0
+        },
+        {
+          "at": 75.16,
+          "recipe": "weight_shift",
+          "duration": 0.42,
+          "event": "walk_in",
+          "event_offset": 0
+        },
+        {
+          "at": 77.76,
+          "recipe": "self_impressed",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            -0.2
+          ],
+          "face": {
+            "brow_left_height": 3
+          },
+          "event": "universe_setting_up",
+          "event_offset": 0
+        },
+        {
+          "at": 80.24,
+          "recipe": "quiet_recoil",
+          "duration": 0.42,
+          "event": "find_out",
+          "event_offset": 0
+        },
+        {
+          "at": 81.72,
+          "recipe": "deadpan",
+          "duration": 0.05,
+          "motion": "snap",
+          "face": {
+            "eye_openness_left": 1.4,
+            "eye_openness_right": 1.4,
+            "brow_left_height": 6,
+            "brow_right_height": 6
+          },
+          "event": "dating_again",
+          "event_offset": 0
+        },
+        {
+          "at": 82.44,
+          "recipe": "dry_annoyance",
+          "duration": 0.42,
+          "face": {
+            "eye_openness_left": 0.75,
+            "eye_openness_right": 0.75,
+            "brow_left_angle": 10,
+            "brow_right_angle": 10
+          },
+          "event": "someone_else",
+          "event_offset": 0
+        },
+        {
+          "at": 86.03,
+          "recipe": "realization",
+          "duration": 0.05,
+          "motion": "snap",
+          "event": "switch_flipped",
+          "event_offset": 0
+        },
+        {
+          "at": 88.49,
+          "recipe": "deadpan",
+          "duration": 0.42,
+          "hands": {
+            "right": "open_palm",
+            "left": "relaxed"
+          },
+          "face": {
+            "eye_openness_left": 0.85,
+            "eye_openness_right": 0.85
+          },
+          "event": "feelings_vanished",
+          "event_offset": 0
+        },
+        {
+          "at": 90.51,
+          "recipe": "skeptical",
+          "duration": 0.42,
+          "face": {
+            "brow_left_height": 4,
+            "eye_openness_left": 0.8,
+            "eye_openness_right": 0.8
+          },
+          "event": "pedestal_shattered",
+          "event_offset": 0
+        },
+        {
+          "at": 93.81,
+          "recipe": "dry_annoyance",
+          "duration": 0.42,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "face": {
+            "eye_openness_left": 0.8,
+            "eye_openness_right": 0.8
+          },
+          "event": "different_way",
+          "event_offset": 0
+        },
+        {
+          "at": 96.07,
+          "recipe": "deadpan",
+          "duration": 0.05,
+          "motion": "snap",
+          "face": {
+            "eye_openness_left": 0.85,
+            "eye_openness_right": 0.85
+          },
+          "event": "yeah_nope",
+          "event_offset": 0
+        },
+        {
+          "at": 97.15,
+          "recipe": "soft_shrug",
+          "duration": 0.42,
+          "hands": {
+            "right": "shrug_open",
+            "left": "relaxed"
+          },
+          "event": "do_not_like",
+          "event_offset": 0
+        },
+        {
+          "at": 99.79,
+          "recipe": "weight_shift",
+          "duration": 0.42,
+          "event": "romantic_nonsense",
+          "event_offset": 0
+        },
+        {
+          "at": 102.33,
+          "recipe": "uncertain",
+          "duration": 0.42,
+          "event": "unexpected_happened",
+          "event_offset": 0
+        },
+        {
+          "at": 104.61,
+          "recipe": "listening",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0
+          ],
+          "event": "months_before",
+          "event_offset": 0
+        },
+        {
+          "at": 107.31,
+          "recipe": "explaining",
+          "duration": 0.42,
+          "hands": {
+            "right": "open_palm",
+            "left": "relaxed"
+          },
+          "event": "talking_again",
+          "event_offset": 0
+        },
+        {
+          "at": 108.87,
+          "recipe": "open_shrug",
+          "duration": 0.42,
+          "event": "no_tension",
+          "event_offset": 0
+        },
+        {
+          "at": 112.93,
+          "recipe": "listening",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0
+          ],
+          "event": "genuine_friends",
+          "event_offset": 0
+        },
+        {
+          "at": 115.69,
+          "recipe": "weight_shift",
+          "duration": 0.42,
+          "hands": {
+            "right": "pointing",
+            "left": "relaxed"
+          },
+          "event": "graduated",
+          "event_offset": 0
+        },
+        {
+          "at": 118.91,
+          "recipe": "explaining",
+          "duration": 0.42,
+          "event": "went_to_college",
+          "event_offset": 0
+        },
+        {
+          "at": 122.61,
+          "recipe": "shy_confession",
+          "duration": 0.42,
+          "face": {
+            "blush_intensity": 0.6
+          },
+          "event": "met_girlfriend",
+          "event_offset": 0
+        },
+        {
+          "at": 123.57,
+          "recipe": "pleased",
+          "duration": 0.42,
+          "face": {
+            "blush_intensity": 0.65
+          },
+          "event": "nemi_love",
+          "event_offset": 0
+        },
+        {
+          "at": 126.53,
+          "recipe": "recover",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0
+          ],
+          "event": "worked_out",
+          "event_offset": 0
+        }
+      ],
+      "mouths": [
+        {
+          "start": 0.35,
+          "end": 0.485,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 0.485,
+          "end": 0.65,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 0.65,
+          "end": 0.767,
+          "shape": "talk_open"
+        },
+        {
+          "start": 0.767,
+          "end": 0.91,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 0.91,
+          "end": 1.018,
+          "shape": "talk_open"
+        },
+        {
+          "start": 1.018,
+          "end": 1.15,
+          "shape": "talk_round"
+        },
+        {
+          "start": 1.15,
+          "end": 1.402,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 1.402,
+          "end": 1.71,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 1.71,
+          "end": 2.106,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 2.106,
+          "end": 2.59,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 2.59,
+          "end": 2.842,
+          "shape": "talk_round"
+        },
+        {
+          "start": 2.842,
+          "end": 3.15,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 3.83,
+          "end": 3.87,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 3.87,
+          "end": 4.041,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 4.041,
+          "end": 4.25,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 4.25,
+          "end": 4.358,
+          "shape": "talk_round"
+        },
+        {
+          "start": 4.358,
+          "end": 4.49,
+          "shape": "talk_round"
+        },
+        {
+          "start": 4.49,
+          "end": 4.679,
+          "shape": "talk_open"
+        },
+        {
+          "start": 4.679,
+          "end": 4.91,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 5.61,
+          "end": 5.7,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 5.7,
+          "end": 5.81,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 5.81,
+          "end": 5.891,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 5.891,
+          "end": 5.99,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 5.99,
+          "end": 6.215,
+          "shape": "talk_open"
+        },
+        {
+          "start": 6.215,
+          "end": 6.49,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 6.49,
+          "end": 6.544,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 6.544,
+          "end": 6.61,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 6.61,
+          "end": 6.826,
+          "shape": "talk_open"
+        },
+        {
+          "start": 6.826,
+          "end": 7.09,
+          "shape": "talk_round"
+        },
+        {
+          "start": 7.45,
+          "end": 7.612,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 7.612,
+          "end": 7.81,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 7.81,
+          "end": 8.026,
+          "shape": "talk_round"
+        },
+        {
+          "start": 8.026,
+          "end": 8.29,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 8.29,
+          "end": 8.524,
+          "shape": "talk_round"
+        },
+        {
+          "start": 8.524,
+          "end": 8.81,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 9.05,
+          "end": 9.09,
+          "shape": "talk_open"
+        },
+        {
+          "start": 9.09,
+          "end": 9.315,
+          "shape": "talk_round"
+        },
+        {
+          "start": 9.315,
+          "end": 9.59,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 9.59,
+          "end": 9.788,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 9.788,
+          "end": 10.03,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 10.75,
+          "end": 10.921,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 10.921,
+          "end": 11.13,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 11.13,
+          "end": 11.22,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 11.22,
+          "end": 11.33,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 11.33,
+          "end": 11.6,
+          "shape": "talk_round"
+        },
+        {
+          "start": 11.6,
+          "end": 11.93,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 11.93,
+          "end": 12.137,
+          "shape": "talk_round"
+        },
+        {
+          "start": 12.137,
+          "end": 12.39,
+          "shape": "talk_round"
+        },
+        {
+          "start": 12.94,
+          "end": 13.093,
+          "shape": "talk_round"
+        },
+        {
+          "start": 13.093,
+          "end": 13.28,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 13.28,
+          "end": 13.406,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 13.406,
+          "end": 13.56,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 13.56,
+          "end": 13.695,
+          "shape": "talk_open"
+        },
+        {
+          "start": 13.695,
+          "end": 13.86,
+          "shape": "talk_round"
+        },
+        {
+          "start": 14.38,
+          "end": 14.425,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 14.425,
+          "end": 14.48,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 14.48,
+          "end": 14.552,
+          "shape": "talk_open"
+        },
+        {
+          "start": 14.552,
+          "end": 14.64,
+          "shape": "talk_round"
+        },
+        {
+          "start": 14.64,
+          "end": 14.793,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 14.793,
+          "end": 14.98,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 14.98,
+          "end": 15.088,
+          "shape": "talk_open"
+        },
+        {
+          "start": 15.088,
+          "end": 15.22,
+          "shape": "talk_round"
+        },
+        {
+          "start": 15.22,
+          "end": 15.283,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 15.283,
+          "end": 15.36,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 15.36,
+          "end": 15.522,
+          "shape": "talk_round"
+        },
+        {
+          "start": 15.522,
+          "end": 15.72,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 15.72,
+          "end": 15.882,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 15.882,
+          "end": 16.08,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 16.08,
+          "end": 16.17,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 16.17,
+          "end": 16.28,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 16.28,
+          "end": 16.361,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 16.361,
+          "end": 16.46,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 16.46,
+          "end": 16.685,
+          "shape": "talk_open"
+        },
+        {
+          "start": 16.685,
+          "end": 16.96,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 16.96,
+          "end": 17.122,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 17.122,
+          "end": 17.32,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 17.32,
+          "end": 17.401,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 17.401,
+          "end": 17.5,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 17.5,
+          "end": 17.54,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 17.54,
+          "end": 17.711,
+          "shape": "talk_open"
+        },
+        {
+          "start": 17.711,
+          "end": 17.92,
+          "shape": "talk_round"
+        },
+        {
+          "start": 18.56,
+          "end": 18.668,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 18.668,
+          "end": 18.8,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 18.8,
+          "end": 18.863,
+          "shape": "talk_open"
+        },
+        {
+          "start": 18.863,
+          "end": 18.94,
+          "shape": "talk_round"
+        },
+        {
+          "start": 18.94,
+          "end": 19.147,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 19.147,
+          "end": 19.4,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 20.12,
+          "end": 20.291,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 20.291,
+          "end": 20.5,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 20.5,
+          "end": 20.761,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 20.761,
+          "end": 21.08,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 21.78,
+          "end": 21.86,
+          "shape": "talk_open"
+        },
+        {
+          "start": 21.86,
+          "end": 21.905,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 21.905,
+          "end": 21.96,
+          "shape": "talk_round"
+        },
+        {
+          "start": 21.96,
+          "end": 22.158,
+          "shape": "talk_round"
+        },
+        {
+          "start": 22.158,
+          "end": 22.4,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 22.4,
+          "end": 22.634,
+          "shape": "talk_open"
+        },
+        {
+          "start": 22.634,
+          "end": 22.92,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 22.92,
+          "end": 23.154,
+          "shape": "talk_round"
+        },
+        {
+          "start": 23.154,
+          "end": 23.44,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 23.44,
+          "end": 23.809,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 23.809,
+          "end": 24.26,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 24.26,
+          "end": 24.449,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 24.449,
+          "end": 24.68,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 24.68,
+          "end": 24.797,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 24.797,
+          "end": 24.94,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 24.94,
+          "end": 25.21,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 25.21,
+          "end": 25.54,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.06,
+          "end": 26.159,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.159,
+          "end": 26.28,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.28,
+          "end": 26.361,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.361,
+          "end": 26.46,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.46,
+          "end": 26.649,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.649,
+          "end": 26.88,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.88,
+          "end": 27.024,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 27.024,
+          "end": 27.2,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 27.2,
+          "end": 27.29,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 27.29,
+          "end": 27.4,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 27.4,
+          "end": 27.562,
+          "shape": "talk_round"
+        },
+        {
+          "start": 27.562,
+          "end": 27.76,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 28.34,
+          "end": 28.385,
+          "shape": "talk_round"
+        },
+        {
+          "start": 28.385,
+          "end": 28.44,
+          "shape": "talk_round"
+        },
+        {
+          "start": 28.44,
+          "end": 28.485,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 28.485,
+          "end": 28.54,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 28.54,
+          "end": 28.666,
+          "shape": "talk_open"
+        },
+        {
+          "start": 28.666,
+          "end": 28.82,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 28.82,
+          "end": 28.937,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 28.937,
+          "end": 29.08,
+          "shape": "talk_round"
+        },
+        {
+          "start": 29.08,
+          "end": 29.26,
+          "shape": "talk_round"
+        },
+        {
+          "start": 29.26,
+          "end": 29.48,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 29.48,
+          "end": 29.579,
+          "shape": "talk_open"
+        },
+        {
+          "start": 29.579,
+          "end": 29.7,
+          "shape": "talk_round"
+        },
+        {
+          "start": 29.7,
+          "end": 29.853,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 29.853,
+          "end": 30.04,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 30.04,
+          "end": 30.256,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 30.256,
+          "end": 30.52,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 30.66,
+          "end": 30.957,
+          "shape": "talk_open"
+        },
+        {
+          "start": 30.957,
+          "end": 31.32,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 31.32,
+          "end": 31.392,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 31.392,
+          "end": 31.48,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 31.48,
+          "end": 31.687,
+          "shape": "talk_round"
+        },
+        {
+          "start": 31.687,
+          "end": 31.94,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 32.74,
+          "end": 32.803,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 32.803,
+          "end": 32.88,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 32.88,
+          "end": 33.051,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 33.051,
+          "end": 33.26,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 34.04,
+          "end": 34.094,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 34.094,
+          "end": 34.16,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 34.16,
+          "end": 34.223,
+          "shape": "talk_round"
+        },
+        {
+          "start": 34.223,
+          "end": 34.3,
+          "shape": "talk_round"
+        },
+        {
+          "start": 34.3,
+          "end": 34.516,
+          "shape": "talk_round"
+        },
+        {
+          "start": 34.516,
+          "end": 34.78,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 35.22,
+          "end": 35.346,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 35.346,
+          "end": 35.5,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 35.5,
+          "end": 35.662,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 35.662,
+          "end": 35.86,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 36.24,
+          "end": 36.294,
+          "shape": "talk_open"
+        },
+        {
+          "start": 36.294,
+          "end": 36.36,
+          "shape": "talk_round"
+        },
+        {
+          "start": 36.36,
+          "end": 36.522,
+          "shape": "talk_open"
+        },
+        {
+          "start": 36.522,
+          "end": 36.72,
+          "shape": "talk_round"
+        },
+        {
+          "start": 37.54,
+          "end": 37.594,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 37.594,
+          "end": 37.66,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 37.66,
+          "end": 37.723,
+          "shape": "talk_round"
+        },
+        {
+          "start": 37.723,
+          "end": 37.8,
+          "shape": "talk_round"
+        },
+        {
+          "start": 37.8,
+          "end": 37.944,
+          "shape": "talk_round"
+        },
+        {
+          "start": 37.944,
+          "end": 38.12,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 39.0,
+          "end": 39.153,
+          "shape": "talk_open"
+        },
+        {
+          "start": 39.153,
+          "end": 39.34,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 40.1,
+          "end": 40.163,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 40.163,
+          "end": 40.24,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 40.24,
+          "end": 40.384,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 40.384,
+          "end": 40.56,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 40.56,
+          "end": 40.614,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 40.614,
+          "end": 40.68,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 40.68,
+          "end": 40.734,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 40.734,
+          "end": 40.8,
+          "shape": "talk_round"
+        },
+        {
+          "start": 40.8,
+          "end": 41.007,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 41.007,
+          "end": 41.26,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 41.8,
+          "end": 41.863,
+          "shape": "talk_open"
+        },
+        {
+          "start": 41.863,
+          "end": 41.94,
+          "shape": "talk_round"
+        },
+        {
+          "start": 41.94,
+          "end": 42.111,
+          "shape": "talk_round"
+        },
+        {
+          "start": 42.111,
+          "end": 42.32,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 42.32,
+          "end": 42.437,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 42.437,
+          "end": 42.58,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 42.58,
+          "end": 42.67,
+          "shape": "talk_open"
+        },
+        {
+          "start": 42.67,
+          "end": 42.78,
+          "shape": "talk_round"
+        },
+        {
+          "start": 43.54,
+          "end": 43.729,
+          "shape": "talk_open"
+        },
+        {
+          "start": 43.729,
+          "end": 43.96,
+          "shape": "talk_round"
+        },
+        {
+          "start": 43.96,
+          "end": 44.077,
+          "shape": "talk_round"
+        },
+        {
+          "start": 44.077,
+          "end": 44.22,
+          "shape": "talk_round"
+        },
+        {
+          "start": 44.22,
+          "end": 44.337,
+          "shape": "talk_round"
+        },
+        {
+          "start": 44.337,
+          "end": 44.48,
+          "shape": "talk_round"
+        },
+        {
+          "start": 44.48,
+          "end": 44.543,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 44.543,
+          "end": 44.62,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 44.62,
+          "end": 44.755,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 44.755,
+          "end": 44.92,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 44.92,
+          "end": 44.983,
+          "shape": "talk_round"
+        },
+        {
+          "start": 44.983,
+          "end": 45.06,
+          "shape": "talk_round"
+        },
+        {
+          "start": 45.06,
+          "end": 45.159,
+          "shape": "talk_round"
+        },
+        {
+          "start": 45.159,
+          "end": 45.28,
+          "shape": "talk_round"
+        },
+        {
+          "start": 45.28,
+          "end": 45.46,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 45.46,
+          "end": 45.68,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 45.68,
+          "end": 45.878,
+          "shape": "talk_open"
+        },
+        {
+          "start": 45.878,
+          "end": 46.12,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 46.68,
+          "end": 46.734,
+          "shape": "talk_round"
+        },
+        {
+          "start": 46.734,
+          "end": 46.8,
+          "shape": "talk_round"
+        },
+        {
+          "start": 46.8,
+          "end": 46.872,
+          "shape": "talk_round"
+        },
+        {
+          "start": 46.872,
+          "end": 46.96,
+          "shape": "talk_round"
+        },
+        {
+          "start": 46.96,
+          "end": 47.095,
+          "shape": "talk_round"
+        },
+        {
+          "start": 47.095,
+          "end": 47.26,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 47.76,
+          "end": 47.805,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 47.805,
+          "end": 47.86,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 47.86,
+          "end": 47.941,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 47.941,
+          "end": 48.04,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 48.04,
+          "end": 48.211,
+          "shape": "talk_round"
+        },
+        {
+          "start": 48.211,
+          "end": 48.42,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 48.9,
+          "end": 48.972,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 48.972,
+          "end": 49.06,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 49.06,
+          "end": 49.14,
+          "shape": "talk_open"
+        },
+        {
+          "start": 49.14,
+          "end": 49.22,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 49.22,
+          "end": 49.4,
+          "shape": "talk_round"
+        },
+        {
+          "start": 49.4,
+          "end": 49.62,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 49.62,
+          "end": 49.881,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 49.881,
+          "end": 50.2,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 50.2,
+          "end": 50.335,
+          "shape": "talk_round"
+        },
+        {
+          "start": 50.335,
+          "end": 50.5,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 50.5,
+          "end": 50.653,
+          "shape": "talk_round"
+        },
+        {
+          "start": 50.653,
+          "end": 50.84,
+          "shape": "talk_round"
+        },
+        {
+          "start": 51.34,
+          "end": 51.484,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 51.484,
+          "end": 51.66,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 51.66,
+          "end": 51.921,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 51.921,
+          "end": 52.24,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 52.24,
+          "end": 52.465,
+          "shape": "talk_open"
+        },
+        {
+          "start": 52.465,
+          "end": 52.74,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 52.74,
+          "end": 52.947,
+          "shape": "talk_round"
+        },
+        {
+          "start": 52.947,
+          "end": 53.2,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 53.48,
+          "end": 53.66,
+          "shape": "talk_round"
+        },
+        {
+          "start": 53.66,
+          "end": 53.88,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 53.88,
+          "end": 54.105,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 54.105,
+          "end": 54.38,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 54.98,
+          "end": 55.133,
+          "shape": "talk_round"
+        },
+        {
+          "start": 55.133,
+          "end": 55.32,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 55.86,
+          "end": 55.914,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 55.914,
+          "end": 55.98,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 55.98,
+          "end": 56.052,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 56.052,
+          "end": 56.14,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 56.14,
+          "end": 56.257,
+          "shape": "talk_open"
+        },
+        {
+          "start": 56.257,
+          "end": 56.4,
+          "shape": "talk_round"
+        },
+        {
+          "start": 56.4,
+          "end": 56.481,
+          "shape": "talk_round"
+        },
+        {
+          "start": 56.481,
+          "end": 56.58,
+          "shape": "talk_round"
+        },
+        {
+          "start": 56.58,
+          "end": 56.679,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 56.679,
+          "end": 56.8,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 56.8,
+          "end": 56.89,
+          "shape": "talk_round"
+        },
+        {
+          "start": 56.89,
+          "end": 57.0,
+          "shape": "talk_round"
+        },
+        {
+          "start": 57.5,
+          "end": 57.554,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 57.554,
+          "end": 57.62,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 57.62,
+          "end": 57.674,
+          "shape": "talk_open"
+        },
+        {
+          "start": 57.674,
+          "end": 57.74,
+          "shape": "talk_round"
+        },
+        {
+          "start": 57.74,
+          "end": 57.902,
+          "shape": "talk_open"
+        },
+        {
+          "start": 57.902,
+          "end": 58.1,
+          "shape": "talk_round"
+        },
+        {
+          "start": 58.1,
+          "end": 58.172,
+          "shape": "talk_open"
+        },
+        {
+          "start": 58.172,
+          "end": 58.26,
+          "shape": "talk_round"
+        },
+        {
+          "start": 58.26,
+          "end": 58.341,
+          "shape": "talk_round"
+        },
+        {
+          "start": 58.341,
+          "end": 58.44,
+          "shape": "talk_round"
+        },
+        {
+          "start": 58.44,
+          "end": 58.584,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 58.584,
+          "end": 58.76,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 58.76,
+          "end": 58.841,
+          "shape": "talk_round"
+        },
+        {
+          "start": 58.841,
+          "end": 58.94,
+          "shape": "talk_round"
+        },
+        {
+          "start": 58.94,
+          "end": 59.021,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 59.021,
+          "end": 59.12,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 59.67,
+          "end": 59.751,
+          "shape": "talk_round"
+        },
+        {
+          "start": 59.751,
+          "end": 59.85,
+          "shape": "talk_round"
+        },
+        {
+          "start": 59.85,
+          "end": 59.895,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 59.895,
+          "end": 59.95,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 59.95,
+          "end": 60.04,
+          "shape": "talk_round"
+        },
+        {
+          "start": 60.04,
+          "end": 60.15,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 60.15,
+          "end": 60.258,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 60.258,
+          "end": 60.39,
+          "shape": "talk_round"
+        },
+        {
+          "start": 60.39,
+          "end": 60.48,
+          "shape": "talk_round"
+        },
+        {
+          "start": 60.48,
+          "end": 60.59,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 60.59,
+          "end": 60.788,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 60.788,
+          "end": 61.03,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 61.03,
+          "end": 61.147,
+          "shape": "talk_open"
+        },
+        {
+          "start": 61.147,
+          "end": 61.29,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 61.29,
+          "end": 61.38,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 61.38,
+          "end": 61.49,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 61.49,
+          "end": 61.553,
+          "shape": "talk_open"
+        },
+        {
+          "start": 61.553,
+          "end": 61.63,
+          "shape": "talk_round"
+        },
+        {
+          "start": 61.63,
+          "end": 61.801,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 61.801,
+          "end": 62.01,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 62.59,
+          "end": 62.644,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 62.644,
+          "end": 62.71,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 62.71,
+          "end": 62.836,
+          "shape": "talk_round"
+        },
+        {
+          "start": 62.836,
+          "end": 62.99,
+          "shape": "talk_round"
+        },
+        {
+          "start": 62.99,
+          "end": 63.098,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 63.098,
+          "end": 63.23,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 63.23,
+          "end": 63.302,
+          "shape": "talk_round"
+        },
+        {
+          "start": 63.302,
+          "end": 63.39,
+          "shape": "talk_round"
+        },
+        {
+          "start": 63.39,
+          "end": 63.507,
+          "shape": "talk_round"
+        },
+        {
+          "start": 63.507,
+          "end": 63.65,
+          "shape": "talk_round"
+        },
+        {
+          "start": 64.21,
+          "end": 64.399,
+          "shape": "talk_round"
+        },
+        {
+          "start": 64.399,
+          "end": 64.63,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 64.63,
+          "end": 64.882,
+          "shape": "talk_open"
+        },
+        {
+          "start": 64.882,
+          "end": 65.19,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 65.19,
+          "end": 65.37,
+          "shape": "talk_round"
+        },
+        {
+          "start": 65.37,
+          "end": 65.59,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 65.93,
+          "end": 66.002,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 66.002,
+          "end": 66.09,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 66.09,
+          "end": 66.18,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 66.18,
+          "end": 66.29,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 66.29,
+          "end": 66.389,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 66.389,
+          "end": 66.51,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 66.51,
+          "end": 66.708,
+          "shape": "talk_round"
+        },
+        {
+          "start": 66.708,
+          "end": 66.95,
+          "shape": "talk_round"
+        },
+        {
+          "start": 67.19,
+          "end": 67.442,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 67.442,
+          "end": 67.75,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 67.75,
+          "end": 67.813,
+          "shape": "talk_round"
+        },
+        {
+          "start": 67.813,
+          "end": 67.89,
+          "shape": "talk_round"
+        },
+        {
+          "start": 67.89,
+          "end": 67.971,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 67.971,
+          "end": 68.07,
+          "shape": "talk_round"
+        },
+        {
+          "start": 68.07,
+          "end": 68.268,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 68.268,
+          "end": 68.51,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 69.05,
+          "end": 69.122,
+          "shape": "talk_open"
+        },
+        {
+          "start": 69.122,
+          "end": 69.21,
+          "shape": "talk_round"
+        },
+        {
+          "start": 69.21,
+          "end": 69.399,
+          "shape": "talk_round"
+        },
+        {
+          "start": 69.399,
+          "end": 69.63,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 69.63,
+          "end": 69.954,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 69.954,
+          "end": 70.35,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 70.35,
+          "end": 70.593,
+          "shape": "talk_open"
+        },
+        {
+          "start": 70.593,
+          "end": 70.89,
+          "shape": "talk_round"
+        },
+        {
+          "start": 70.89,
+          "end": 71.196,
+          "shape": "talk_round"
+        },
+        {
+          "start": 71.196,
+          "end": 71.57,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 71.57,
+          "end": 71.642,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 71.642,
+          "end": 71.73,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 72.28,
+          "end": 72.442,
+          "shape": "talk_round"
+        },
+        {
+          "start": 72.442,
+          "end": 72.64,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 72.64,
+          "end": 72.829,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 72.829,
+          "end": 73.06,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 73.48,
+          "end": 73.57,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 73.57,
+          "end": 73.68,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 73.68,
+          "end": 73.815,
+          "shape": "talk_open"
+        },
+        {
+          "start": 73.815,
+          "end": 73.98,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 73.98,
+          "end": 74.187,
+          "shape": "talk_open"
+        },
+        {
+          "start": 74.187,
+          "end": 74.44,
+          "shape": "talk_round"
+        },
+        {
+          "start": 75.1,
+          "end": 75.16,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 75.16,
+          "end": 75.241,
+          "shape": "talk_open"
+        },
+        {
+          "start": 75.241,
+          "end": 75.34,
+          "shape": "talk_round"
+        },
+        {
+          "start": 75.34,
+          "end": 75.43,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 75.43,
+          "end": 75.54,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 75.54,
+          "end": 75.684,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 75.684,
+          "end": 75.86,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 76.38,
+          "end": 76.587,
+          "shape": "talk_open"
+        },
+        {
+          "start": 76.587,
+          "end": 76.84,
+          "shape": "talk_round"
+        },
+        {
+          "start": 77.42,
+          "end": 77.51,
+          "shape": "talk_open"
+        },
+        {
+          "start": 77.51,
+          "end": 77.62,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 77.62,
+          "end": 77.683,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 77.683,
+          "end": 77.76,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 77.76,
+          "end": 77.949,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 77.949,
+          "end": 78.18,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 78.18,
+          "end": 78.324,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 78.324,
+          "end": 78.5,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 78.5,
+          "end": 78.626,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 78.626,
+          "end": 78.78,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 78.78,
+          "end": 78.906,
+          "shape": "talk_round"
+        },
+        {
+          "start": 78.906,
+          "end": 79.06,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 79.06,
+          "end": 79.222,
+          "shape": "talk_round"
+        },
+        {
+          "start": 79.222,
+          "end": 79.42,
+          "shape": "talk_round"
+        },
+        {
+          "start": 79.94,
+          "end": 80.02,
+          "shape": "talk_open"
+        },
+        {
+          "start": 80.02,
+          "end": 80.074,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 80.074,
+          "end": 80.14,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 80.14,
+          "end": 80.185,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 80.185,
+          "end": 80.24,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 80.24,
+          "end": 80.366,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 80.366,
+          "end": 80.52,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 80.52,
+          "end": 80.673,
+          "shape": "talk_round"
+        },
+        {
+          "start": 80.673,
+          "end": 80.86,
+          "shape": "talk_round"
+        },
+        {
+          "start": 80.86,
+          "end": 81.13,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 81.13,
+          "end": 81.46,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 81.46,
+          "end": 81.577,
+          "shape": "talk_open"
+        },
+        {
+          "start": 81.577,
+          "end": 81.72,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 81.72,
+          "end": 81.873,
+          "shape": "talk_open"
+        },
+        {
+          "start": 81.873,
+          "end": 82.06,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 82.06,
+          "end": 82.231,
+          "shape": "talk_round"
+        },
+        {
+          "start": 82.231,
+          "end": 82.44,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 82.44,
+          "end": 82.629,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 82.629,
+          "end": 82.86,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 83.32,
+          "end": 83.41,
+          "shape": "talk_open"
+        },
+        {
+          "start": 83.41,
+          "end": 83.52,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 84.45,
+          "end": 84.594,
+          "shape": "talk_open"
+        },
+        {
+          "start": 84.594,
+          "end": 84.77,
+          "shape": "talk_round"
+        },
+        {
+          "start": 84.77,
+          "end": 84.869,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 84.869,
+          "end": 84.99,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 84.99,
+          "end": 85.152,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 85.152,
+          "end": 85.35,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 85.89,
+          "end": 85.953,
+          "shape": "talk_open"
+        },
+        {
+          "start": 85.953,
+          "end": 86.03,
+          "shape": "talk_round"
+        },
+        {
+          "start": 86.03,
+          "end": 86.156,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 86.156,
+          "end": 86.31,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 86.31,
+          "end": 86.517,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 86.517,
+          "end": 86.77,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 87.31,
+          "end": 87.526,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 87.526,
+          "end": 87.79,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 87.79,
+          "end": 88.042,
+          "shape": "talk_open"
+        },
+        {
+          "start": 88.042,
+          "end": 88.35,
+          "shape": "talk_round"
+        },
+        {
+          "start": 88.35,
+          "end": 88.413,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 88.413,
+          "end": 88.49,
+          "shape": "talk_round"
+        },
+        {
+          "start": 88.49,
+          "end": 88.661,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 88.661,
+          "end": 88.87,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 88.87,
+          "end": 89.104,
+          "shape": "talk_open"
+        },
+        {
+          "start": 89.104,
+          "end": 89.39,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 89.95,
+          "end": 90.004,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 90.004,
+          "end": 90.07,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 90.07,
+          "end": 90.124,
+          "shape": "talk_open"
+        },
+        {
+          "start": 90.124,
+          "end": 90.19,
+          "shape": "talk_round"
+        },
+        {
+          "start": 90.19,
+          "end": 90.271,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 90.271,
+          "end": 90.37,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 90.37,
+          "end": 90.433,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 90.433,
+          "end": 90.51,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 90.51,
+          "end": 90.726,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 90.726,
+          "end": 90.99,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 90.99,
+          "end": 91.287,
+          "shape": "talk_round"
+        },
+        {
+          "start": 91.287,
+          "end": 91.65,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 91.65,
+          "end": 91.848,
+          "shape": "talk_open"
+        },
+        {
+          "start": 91.848,
+          "end": 92.09,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 92.67,
+          "end": 92.724,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 92.724,
+          "end": 92.79,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 92.79,
+          "end": 92.88,
+          "shape": "talk_open"
+        },
+        {
+          "start": 92.88,
+          "end": 92.99,
+          "shape": "talk_round"
+        },
+        {
+          "start": 92.99,
+          "end": 93.08,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 93.08,
+          "end": 93.19,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 93.19,
+          "end": 93.244,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 93.244,
+          "end": 93.31,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 93.31,
+          "end": 93.355,
+          "shape": "talk_open"
+        },
+        {
+          "start": 93.355,
+          "end": 93.41,
+          "shape": "talk_round"
+        },
+        {
+          "start": 93.41,
+          "end": 93.59,
+          "shape": "talk_round"
+        },
+        {
+          "start": 93.59,
+          "end": 93.81,
+          "shape": "talk_round"
+        },
+        {
+          "start": 93.81,
+          "end": 93.981,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 93.981,
+          "end": 94.19,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 94.19,
+          "end": 94.298,
+          "shape": "talk_open"
+        },
+        {
+          "start": 94.298,
+          "end": 94.43,
+          "shape": "talk_round"
+        },
+        {
+          "start": 94.43,
+          "end": 94.502,
+          "shape": "talk_open"
+        },
+        {
+          "start": 94.502,
+          "end": 94.59,
+          "shape": "talk_round"
+        },
+        {
+          "start": 94.59,
+          "end": 94.707,
+          "shape": "talk_round"
+        },
+        {
+          "start": 94.707,
+          "end": 94.85,
+          "shape": "talk_round"
+        },
+        {
+          "start": 95.41,
+          "end": 95.518,
+          "shape": "talk_open"
+        },
+        {
+          "start": 95.518,
+          "end": 95.65,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 96.07,
+          "end": 96.205,
+          "shape": "talk_round"
+        },
+        {
+          "start": 96.205,
+          "end": 96.37,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 96.93,
+          "end": 96.993,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 96.993,
+          "end": 97.07,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 97.07,
+          "end": 97.106,
+          "shape": "talk_round"
+        },
+        {
+          "start": 97.106,
+          "end": 97.15,
+          "shape": "talk_round"
+        },
+        {
+          "start": 97.15,
+          "end": 97.249,
+          "shape": "talk_round"
+        },
+        {
+          "start": 97.249,
+          "end": 97.37,
+          "shape": "talk_round"
+        },
+        {
+          "start": 97.37,
+          "end": 97.469,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 97.469,
+          "end": 97.59,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 97.59,
+          "end": 97.653,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 97.653,
+          "end": 97.73,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 97.73,
+          "end": 97.802,
+          "shape": "talk_open"
+        },
+        {
+          "start": 97.802,
+          "end": 97.89,
+          "shape": "talk_round"
+        },
+        {
+          "start": 97.89,
+          "end": 97.953,
+          "shape": "talk_open"
+        },
+        {
+          "start": 97.953,
+          "end": 98.03,
+          "shape": "talk_round"
+        },
+        {
+          "start": 98.03,
+          "end": 98.21,
+          "shape": "talk_open"
+        },
+        {
+          "start": 98.21,
+          "end": 98.43,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 99.19,
+          "end": 99.307,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 99.307,
+          "end": 99.45,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 99.45,
+          "end": 99.522,
+          "shape": "talk_open"
+        },
+        {
+          "start": 99.522,
+          "end": 99.61,
+          "shape": "talk_round"
+        },
+        {
+          "start": 99.61,
+          "end": 99.691,
+          "shape": "talk_open"
+        },
+        {
+          "start": 99.691,
+          "end": 99.79,
+          "shape": "talk_round"
+        },
+        {
+          "start": 99.79,
+          "end": 99.997,
+          "shape": "talk_round"
+        },
+        {
+          "start": 99.997,
+          "end": 100.25,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 100.25,
+          "end": 100.502,
+          "shape": "talk_round"
+        },
+        {
+          "start": 100.502,
+          "end": 100.81,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 100.81,
+          "end": 100.954,
+          "shape": "talk_round"
+        },
+        {
+          "start": 100.954,
+          "end": 101.13,
+          "shape": "talk_round"
+        },
+        {
+          "start": 101.13,
+          "end": 101.175,
+          "shape": "talk_round"
+        },
+        {
+          "start": 101.175,
+          "end": 101.23,
+          "shape": "talk_round"
+        },
+        {
+          "start": 101.23,
+          "end": 101.275,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 101.275,
+          "end": 101.33,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 101.33,
+          "end": 101.456,
+          "shape": "talk_open"
+        },
+        {
+          "start": 101.456,
+          "end": 101.61,
+          "shape": "talk_round"
+        },
+        {
+          "start": 102.01,
+          "end": 102.154,
+          "shape": "talk_round"
+        },
+        {
+          "start": 102.154,
+          "end": 102.33,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 102.33,
+          "end": 102.582,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 102.582,
+          "end": 102.89,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 102.89,
+          "end": 103.142,
+          "shape": "talk_open"
+        },
+        {
+          "start": 103.142,
+          "end": 103.45,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 104.01,
+          "end": 104.118,
+          "shape": "talk_open"
+        },
+        {
+          "start": 104.118,
+          "end": 104.25,
+          "shape": "talk_round"
+        },
+        {
+          "start": 104.25,
+          "end": 104.412,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 104.412,
+          "end": 104.61,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 104.61,
+          "end": 104.727,
+          "shape": "talk_round"
+        },
+        {
+          "start": 104.727,
+          "end": 104.87,
+          "shape": "talk_round"
+        },
+        {
+          "start": 104.87,
+          "end": 105.023,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 105.023,
+          "end": 105.21,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 105.21,
+          "end": 105.435,
+          "shape": "talk_open"
+        },
+        {
+          "start": 105.435,
+          "end": 105.71,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 106.21,
+          "end": 106.264,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 106.264,
+          "end": 106.33,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 106.33,
+          "end": 106.555,
+          "shape": "talk_open"
+        },
+        {
+          "start": 106.555,
+          "end": 106.83,
+          "shape": "talk_round"
+        },
+        {
+          "start": 106.83,
+          "end": 107.046,
+          "shape": "talk_open"
+        },
+        {
+          "start": 107.046,
+          "end": 107.31,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 107.31,
+          "end": 107.454,
+          "shape": "talk_open"
+        },
+        {
+          "start": 107.454,
+          "end": 107.63,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 107.63,
+          "end": 107.846,
+          "shape": "talk_open"
+        },
+        {
+          "start": 107.846,
+          "end": 108.11,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 108.71,
+          "end": 108.782,
+          "shape": "talk_round"
+        },
+        {
+          "start": 108.782,
+          "end": 108.87,
+          "shape": "talk_round"
+        },
+        {
+          "start": 108.87,
+          "end": 109.077,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 109.077,
+          "end": 109.33,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 109.77,
+          "end": 109.869,
+          "shape": "talk_round"
+        },
+        {
+          "start": 109.869,
+          "end": 109.99,
+          "shape": "talk_round"
+        },
+        {
+          "start": 109.99,
+          "end": 110.359,
+          "shape": "talk_open"
+        },
+        {
+          "start": 110.359,
+          "end": 110.81,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 111.19,
+          "end": 111.253,
+          "shape": "talk_round"
+        },
+        {
+          "start": 111.253,
+          "end": 111.33,
+          "shape": "talk_round"
+        },
+        {
+          "start": 111.33,
+          "end": 111.456,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 111.456,
+          "end": 111.61,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 111.61,
+          "end": 111.79,
+          "shape": "talk_round"
+        },
+        {
+          "start": 111.79,
+          "end": 112.01,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 112.75,
+          "end": 112.831,
+          "shape": "talk_round"
+        },
+        {
+          "start": 112.831,
+          "end": 112.93,
+          "shape": "talk_round"
+        },
+        {
+          "start": 112.93,
+          "end": 113.218,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 113.218,
+          "end": 113.57,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 114.09,
+          "end": 114.234,
+          "shape": "talk_round"
+        },
+        {
+          "start": 114.234,
+          "end": 114.41,
+          "shape": "talk_round"
+        },
+        {
+          "start": 114.41,
+          "end": 114.599,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 114.599,
+          "end": 114.83,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 115.43,
+          "end": 115.547,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 115.547,
+          "end": 115.69,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 115.69,
+          "end": 115.924,
+          "shape": "talk_open"
+        },
+        {
+          "start": 115.924,
+          "end": 116.21,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 116.21,
+          "end": 116.39,
+          "shape": "talk_round"
+        },
+        {
+          "start": 116.39,
+          "end": 116.61,
+          "shape": "talk_round"
+        },
+        {
+          "start": 116.61,
+          "end": 116.709,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 116.709,
+          "end": 116.83,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 116.83,
+          "end": 117.091,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 117.091,
+          "end": 117.41,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 117.85,
+          "end": 117.949,
+          "shape": "talk_open"
+        },
+        {
+          "start": 117.949,
+          "end": 118.07,
+          "shape": "talk_round"
+        },
+        {
+          "start": 118.07,
+          "end": 118.16,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 118.16,
+          "end": 118.27,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 118.27,
+          "end": 118.342,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 118.342,
+          "end": 118.43,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 118.43,
+          "end": 118.493,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 118.493,
+          "end": 118.57,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 118.57,
+          "end": 118.669,
+          "shape": "talk_round"
+        },
+        {
+          "start": 118.669,
+          "end": 118.79,
+          "shape": "talk_round"
+        },
+        {
+          "start": 118.79,
+          "end": 118.844,
+          "shape": "talk_round"
+        },
+        {
+          "start": 118.844,
+          "end": 118.91,
+          "shape": "talk_round"
+        },
+        {
+          "start": 118.91,
+          "end": 119.099,
+          "shape": "talk_round"
+        },
+        {
+          "start": 119.099,
+          "end": 119.33,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 119.95,
+          "end": 120.094,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 120.094,
+          "end": 120.27,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 120.63,
+          "end": 120.882,
+          "shape": "talk_open"
+        },
+        {
+          "start": 120.882,
+          "end": 121.19,
+          "shape": "talk_round"
+        },
+        {
+          "start": 121.19,
+          "end": 121.28,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 121.28,
+          "end": 121.39,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 121.39,
+          "end": 121.507,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 121.507,
+          "end": 121.65,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 121.65,
+          "end": 121.785,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 121.785,
+          "end": 121.95,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 121.95,
+          "end": 122.058,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 122.058,
+          "end": 122.19,
+          "shape": "talk_round"
+        },
+        {
+          "start": 122.19,
+          "end": 122.379,
+          "shape": "talk_open"
+        },
+        {
+          "start": 122.379,
+          "end": 122.61,
+          "shape": "talk_round"
+        },
+        {
+          "start": 122.61,
+          "end": 122.889,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 122.889,
+          "end": 123.23,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 123.57,
+          "end": 123.633,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 123.633,
+          "end": 123.71,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 124.4,
+          "end": 124.468,
+          "shape": "talk_round"
+        },
+        {
+          "start": 124.468,
+          "end": 124.55,
+          "shape": "talk_round"
+        },
+        {
+          "start": 125.17,
+          "end": 125.26,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 125.26,
+          "end": 125.37,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 125.37,
+          "end": 125.424,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 125.424,
+          "end": 125.49,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 125.49,
+          "end": 125.661,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 125.661,
+          "end": 125.87,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 126.25,
+          "end": 126.322,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 126.322,
+          "end": 126.41,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 126.41,
+          "end": 126.464,
+          "shape": "talk_open"
+        },
+        {
+          "start": 126.464,
+          "end": 126.53,
+          "shape": "talk_round"
+        },
+        {
+          "start": 126.53,
+          "end": 126.638,
+          "shape": "talk_round"
+        },
+        {
+          "start": 126.638,
+          "end": 126.77,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 126.77,
+          "end": 126.887,
+          "shape": "talk_round"
+        },
+        {
+          "start": 126.887,
+          "end": 127.03,
+          "shape": "talk_round"
+        },
+        {
+          "start": 127.03,
+          "end": 127.12,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 127.12,
+          "end": 127.23,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 127.23,
+          "end": 127.401,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 127.401,
+          "end": 127.61,
+          "shape": "talk_wide"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "p0_classroom_intro",
+      "start": 0.0,
+      "end": 6.61,
+      "background": "school_day_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            800,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          800,
+          550
+        ],
+        "zoom": 1.2,
+        "path": [
+          {
+            "at": 0.0,
+            "center": [
+              800,
+              550
+            ],
+            "zoom": 1.18
+          },
+          {
+            "at": 6.61,
+            "center": [
+              800,
+              538
+            ],
+            "zoom": 1.28
+          }
+        ]
+      }
+    },
+    {
+      "id": "p0_classroom_notes",
+      "start": 6.61,
+      "end": 12.94,
+      "background": "school_day_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            800,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          800,
+          545
+        ],
+        "zoom": 1.3
+      }
+    },
+    {
+      "id": "p1_corridor_fight",
+      "start": 12.94,
+      "end": 22.4,
+      "background": "school_corridor_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          560
+        ],
+        "zoom": 1.15
+      }
+    },
+    {
+      "id": "p1_corridor_savior",
+      "start": 22.4,
+      "end": 26.06,
+      "background": "school_corridor_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            780,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          780,
+          535
+        ],
+        "zoom": 1.35,
+        "path": [
+          {
+            "at": 22.4,
+            "center": [
+              780,
+              535
+            ],
+            "zoom": 1.35
+          },
+          {
+            "at": 26.06,
+            "center": [
+              780,
+              525
+            ],
+            "zoom": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2_bedroom_texting",
+      "start": 26.06,
+      "end": 32.88,
+      "background": "bedroom_evening_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          550
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "p2_bedroom_blocked",
+      "start": 32.88,
+      "end": 41.94,
+      "background": "bedroom_evening_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          535
+        ],
+        "zoom": 1.45
+      }
+    },
+    {
+      "id": "p2_bedroom_broke_me",
+      "start": 41.94,
+      "end": 43.54,
+      "background": "bedroom_evening_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          530
+        ],
+        "zoom": 1.55,
+        "path": [
+          {
+            "at": 41.94,
+            "center": [
+              750,
+              530
+            ],
+            "zoom": 1.55
+          },
+          {
+            "at": 43.54,
+            "center": [
+              750,
+              520
+            ],
+            "zoom": 1.65
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3_courtyard_news",
+      "start": 43.54,
+      "end": 51.34,
+      "background": "school_courtyard_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            780,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          780,
+          555
+        ],
+        "zoom": 1.15
+      }
+    },
+    {
+      "id": "p3_courtyard_sympathy",
+      "start": 51.34,
+      "end": 59.67,
+      "background": "school_courtyard_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            780,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          780,
+          540
+        ],
+        "zoom": 1.3,
+        "path": [
+          {
+            "at": 51.34,
+            "center": [
+              780,
+              540
+            ],
+            "zoom": 1.3
+          },
+          {
+            "at": 59.67,
+            "center": [
+              780,
+              530
+            ],
+            "zoom": 1.42
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4_street_squad",
+      "start": 59.67,
+      "end": 66.09,
+      "background": "school_street_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          555
+        ],
+        "zoom": 1.18
+      }
+    },
+    {
+      "id": "p4_street_unblocked",
+      "start": 66.09,
+      "end": 72.28,
+      "background": "school_street_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          538
+        ],
+        "zoom": 1.38,
+        "path": [
+          {
+            "at": 66.09,
+            "center": [
+              750,
+              538
+            ],
+            "zoom": 1.38
+          },
+          {
+            "at": 72.28,
+            "center": [
+              750,
+              526
+            ],
+            "zoom": 1.52
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5_senior_classroom",
+      "start": 72.28,
+      "end": 80.24,
+      "background": "school_day_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            800,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          800,
+          550
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "p5_dating_again_shock",
+      "start": 80.24,
+      "end": 84.45,
+      "background": "thought",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          535
+        ],
+        "zoom": 1.55,
+        "path": [
+          {
+            "at": 80.24,
+            "center": [
+              750,
+              535
+            ],
+            "zoom": 1.55
+          },
+          {
+            "at": 84.45,
+            "center": [
+              750,
+              522
+            ],
+            "zoom": 1.68
+          }
+        ]
+      }
+    },
+    {
+      "id": "p6_switch_flipped",
+      "start": 84.45,
+      "end": 93.81,
+      "background": "thought",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          545
+        ],
+        "zoom": 1.3
+      }
+    },
+    {
+      "id": "p6_yeah_nope",
+      "start": 93.81,
+      "end": 99.19,
+      "background": "thought",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.45,
+        "path": [
+          {
+            "at": 93.81,
+            "center": [
+              960,
+              540
+            ],
+            "zoom": 1.45
+          },
+          {
+            "at": 99.19,
+            "center": [
+              960,
+              528
+            ],
+            "zoom": 1.6
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7_classroom_friends",
+      "start": 99.19,
+      "end": 107.31,
+      "background": "school_day_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            800,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          800,
+          550
+        ],
+        "zoom": 1.22
+      }
+    },
+    {
+      "id": "p7_classroom_genuine",
+      "start": 107.31,
+      "end": 115.43,
+      "background": "school_day_r4",
+      "actors": {
+        "adb": {
+          "position": [
+            800,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          800,
+          540
+        ],
+        "zoom": 1.32,
+        "path": [
+          {
+            "at": 107.31,
+            "center": [
+              800,
+              540
+            ],
+            "zoom": 1.32
+          },
+          {
+            "at": 115.43,
+            "center": [
+              800,
+              528
+            ],
+            "zoom": 1.45
+          }
+        ]
+      }
+    },
+    {
+      "id": "p8_graduation_studio",
+      "start": 115.43,
+      "end": 122.61,
+      "background": "adb_studio_ep02",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          550
+        ],
+        "zoom": 1.2
+      }
+    },
+    {
+      "id": "p8_college_nemi",
+      "start": 122.61,
+      "end": 126.53,
+      "background": "adb_studio_ep02",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          538
+        ],
+        "zoom": 1.38
+      }
+    },
+    {
+      "id": "p8_final_payoff",
+      "start": 126.53,
+      "end": 128.73333333333332,
+      "background": "adb_studio_ep02",
+      "actors": {
+        "adb": {
+          "position": [
+            960,
+            686.64
+          ],
+          "scale": 1.08
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          545
+        ],
+        "zoom": 1.35,
+        "path": [
+          {
+            "at": 126.53,
+            "center": [
+              960,
+              545
+            ],
+            "zoom": 1.35
+          },
+          {
+            "at": 128.73333333333332,
+            "center": [
+              960,
+              535
+            ],
+            "zoom": 1.5
+          }
+        ]
+      }
+    }
+  ],
+  "drawings": [
+    {
+      "author": "adb",
+      "kind": "post_confession_chat",
+      "at": 6.61,
+      "end": 12.94,
+      "position": [
+        1280,
+        520
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "shots": [
+        "p0_classroom_notes"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "homework_notes",
+      "at": 7.81,
+      "end": 12.94,
+      "position": [
+        1100,
+        680
+      ],
+      "scale": [
+        0.9,
+        0.9
+      ],
+      "mode": "hold",
+      "shots": [
+        "p0_classroom_notes"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "underline",
+      "at": 2.59,
+      "duration": 0.45,
+      "end": 6.61,
+      "position": [
+        800,
+        780
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p0_classroom_intro"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "circle",
+      "at": 6.61,
+      "duration": 0.4,
+      "end": 7.81,
+      "position": [
+        800,
+        420
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "live",
+      "shots": [
+        "p0_classroom_notes"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "question",
+      "at": 11.93,
+      "duration": 0.4,
+      "end": 12.94,
+      "position": [
+        800,
+        320
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "live",
+      "shots": [
+        "p0_classroom_notes"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "hallway_fight_doodle",
+      "at": 16.96,
+      "end": 22.4,
+      "position": [
+        1260,
+        480
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "hold",
+      "shots": [
+        "p1_corridor_fight"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "action_burst_mistake",
+      "at": 18.94,
+      "end": 22.4,
+      "position": [
+        1260,
+        340
+      ],
+      "scale": [
+        0.9,
+        0.9
+      ],
+      "mode": "hold",
+      "shots": [
+        "p1_corridor_fight"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "scratch",
+      "at": 16.96,
+      "duration": 0.4,
+      "end": 18.94,
+      "position": [
+        1260,
+        480
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p1_corridor_fight"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "arrow",
+      "at": 22.4,
+      "duration": 0.45,
+      "end": 24.94,
+      "position": [
+        780,
+        400
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "live",
+      "shots": [
+        "p1_corridor_savior"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "circle",
+      "at": 24.94,
+      "duration": 0.45,
+      "end": 26.06,
+      "position": [
+        780,
+        350
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "live",
+      "shots": [
+        "p1_corridor_savior"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "school_chat_phone",
+      "at": 29.08,
+      "end": 37.8,
+      "position": [
+        1260,
+        520
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "p2_bedroom_texting"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "blocked_again_screen",
+      "at": 37.8,
+      "end": 41.94,
+      "position": [
+        1260,
+        520
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "shots": [
+        "p2_bedroom_blocked"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "blocked_stamp",
+      "at": 37.8,
+      "end": 41.94,
+      "position": [
+        1260,
+        500
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "hold",
+      "shots": [
+        "p2_bedroom_blocked"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "broken_heart_doodle",
+      "at": 41.94,
+      "end": 43.54,
+      "position": [
+        1260,
+        500
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "hold",
+      "shots": [
+        "p2_bedroom_broke_me"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "scratch",
+      "at": 30.66,
+      "duration": 0.4,
+      "end": 32.88,
+      "position": [
+        1260,
+        500
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p2_bedroom_texting"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "arrow",
+      "at": 32.88,
+      "duration": 0.4,
+      "end": 34.3,
+      "position": [
+        750,
+        400
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "live",
+      "shots": [
+        "p2_bedroom_blocked"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "circle",
+      "at": 37.8,
+      "duration": 0.4,
+      "end": 41.94,
+      "position": [
+        1260,
+        520
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p2_bedroom_blocked"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "five_year_breakup_timeline",
+      "at": 50.2,
+      "end": 56.14,
+      "position": [
+        1280,
+        500
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "hold",
+      "shots": [
+        "p3_courtyard_news"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "rival_boyfriend_diagram",
+      "at": 56.14,
+      "end": 59.67,
+      "position": [
+        1280,
+        510
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "p3_courtyard_sympathy"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "underline",
+      "at": 50.2,
+      "duration": 0.45,
+      "end": 51.34,
+      "position": [
+        780,
+        780
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p3_courtyard_news"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "scratch",
+      "at": 51.34,
+      "duration": 0.4,
+      "end": 56.14,
+      "position": [
+        1280,
+        500
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p3_courtyard_news"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "arrow",
+      "at": 58.44,
+      "duration": 0.4,
+      "end": 59.67,
+      "position": [
+        780,
+        420
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "live",
+      "shots": [
+        "p3_courtyard_sympathy"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "wingmen_matchmaking_board",
+      "at": 64.63,
+      "end": 66.09,
+      "position": [
+        1280,
+        490
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "shots": [
+        "p4_street_squad"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "friend_group_doodle",
+      "at": 62.71,
+      "end": 64.63,
+      "position": [
+        1280,
+        510
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "p4_street_squad"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "unblocked_notification",
+      "at": 70.89,
+      "end": 72.28,
+      "position": [
+        1280,
+        500
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "hold",
+      "shots": [
+        "p4_street_unblocked"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "arrow",
+      "at": 62.71,
+      "duration": 0.45,
+      "end": 64.63,
+      "position": [
+        750,
+        420
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p4_street_squad"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "circle",
+      "at": 64.63,
+      "duration": 0.45,
+      "end": 66.09,
+      "position": [
+        1280,
+        490
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "live",
+      "shots": [
+        "p4_street_squad"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "spark",
+      "at": 70.89,
+      "duration": 0.4,
+      "end": 72.28,
+      "position": [
+        1280,
+        400
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p4_street_unblocked"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "dating_again_announcement",
+      "at": 81.72,
+      "end": 84.45,
+      "position": [
+        1280,
+        500
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "hold",
+      "shots": [
+        "p5_dating_again_shock"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "confusion_marks",
+      "at": 80.24,
+      "end": 81.72,
+      "position": [
+        750,
+        340
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "p5_dating_again_shock"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "question",
+      "at": 80.24,
+      "duration": 0.45,
+      "end": 81.72,
+      "position": [
+        750,
+        320
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "live",
+      "shots": [
+        "p5_dating_again_shock"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "circle",
+      "at": 81.72,
+      "duration": 0.4,
+      "end": 82.44,
+      "position": [
+        1280,
+        500
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p5_dating_again_shock"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "scratch",
+      "at": 82.44,
+      "duration": 0.4,
+      "end": 84.45,
+      "position": [
+        750,
+        400
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p5_dating_again_shock"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "pedestal_shattered",
+      "at": 90.51,
+      "end": 96.07,
+      "position": [
+        1280,
+        500
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "hold",
+      "shots": [
+        "p6_switch_flipped"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "scratch",
+      "at": 86.03,
+      "duration": 0.4,
+      "end": 88.49,
+      "position": [
+        750,
+        420
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p6_switch_flipped"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "arrow",
+      "at": 90.51,
+      "duration": 0.4,
+      "end": 93.81,
+      "position": [
+        1280,
+        500
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p6_switch_flipped"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "underline",
+      "at": 97.15,
+      "duration": 0.45,
+      "end": 99.19,
+      "position": [
+        960,
+        780
+      ],
+      "scale": [
+        1.3,
+        1.3
+      ],
+      "mode": "live",
+      "shots": [
+        "p6_yeah_nope"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "real_friends_desk",
+      "at": 104.61,
+      "end": 115.43,
+      "position": [
+        1280,
+        540
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "shots": [
+        "p7_classroom_genuine"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "homework_notes",
+      "at": 107.31,
+      "end": 115.43,
+      "position": [
+        1120,
+        680
+      ],
+      "scale": [
+        0.9,
+        0.9
+      ],
+      "mode": "hold",
+      "shots": [
+        "p7_classroom_genuine"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "circle",
+      "at": 107.31,
+      "duration": 0.45,
+      "end": 108.87,
+      "position": [
+        800,
+        420
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "live",
+      "shots": [
+        "p7_classroom_genuine"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "underline",
+      "at": 112.93,
+      "duration": 0.45,
+      "end": 115.43,
+      "position": [
+        800,
+        780
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p7_classroom_genuine"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "college_nemi_cameo",
+      "at": 122.61,
+      "end": 126.53,
+      "position": [
+        1280,
+        500
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "hold",
+      "shots": [
+        "p8_college_nemi"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "heart_doodle",
+      "at": 123.57,
+      "end": 126.53,
+      "position": [
+        1280,
+        360
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "shots": [
+        "p8_college_nemi"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "spark",
+      "at": 122.61,
+      "duration": 0.4,
+      "end": 123.57,
+      "position": [
+        960,
+        380
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p8_college_nemi"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "circle",
+      "at": 123.57,
+      "duration": 0.45,
+      "end": 126.53,
+      "position": [
+        1280,
+        500
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p8_college_nemi"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "underline",
+      "at": 126.53,
+      "duration": 0.45,
+      "end": 128.733333,
+      "position": [
+        960,
+        780
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "shots": [
+        "p8_final_payoff"
+      ]
+    }
+  ],
+  "props": [
+    {
+      "author": "adb",
+      "kind": "japanese_classroom_desk",
+      "at": 0.0,
+      "end": 12.94,
+      "position": [
+        800,
+        894
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "p0_classroom_intro",
+        "p0_classroom_notes"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "japanese_classroom_desk",
+      "at": 72.28,
+      "end": 80.24,
+      "position": [
+        800,
+        894
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "p5_senior_classroom"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "classroom_double_desk",
+      "at": 99.19,
+      "end": 115.43,
+      "position": [
+        800,
+        894
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "p7_classroom_friends",
+        "p7_classroom_genuine"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "desk",
+      "at": 115.43,
+      "end": 128.733333,
+      "position": [
+        960,
+        894
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "shots": [
+        "p8_graduation_studio",
+        "p8_college_nemi",
+        "p8_final_payoff"
+      ]
+    }
+  ],
+  "vfx": [
+    {
+      "kind": "sweat",
+      "author": "adb",
+      "at": 6.61,
+      "end": 8.11,
+      "actor": "adb",
+      "offset": [
+        -25,
+        -280
+      ]
+    },
+    {
+      "kind": "sweat",
+      "author": "adb",
+      "at": 18.94,
+      "end": 20.44,
+      "actor": "adb",
+      "offset": [
+        -25,
+        -280
+      ]
+    },
+    {
+      "kind": "realization",
+      "author": "adb",
+      "at": 22.4,
+      "end": 23.6,
+      "actor": "adb",
+      "offset": [
+        0,
+        -290
+      ]
+    },
+    {
+      "kind": "impact",
+      "author": "adb",
+      "at": 37.8,
+      "end": 39.0,
+      "actor": "adb",
+      "offset": [
+        0,
+        -250
+      ]
+    },
+    {
+      "kind": "tears",
+      "author": "adb",
+      "at": 41.94,
+      "end": 43.44,
+      "actor": "adb",
+      "offset": [
+        0,
+        -260
+      ]
+    },
+    {
+      "kind": "realization",
+      "author": "adb",
+      "at": 70.89,
+      "end": 72.09,
+      "actor": "adb",
+      "offset": [
+        0,
+        -290
+      ]
+    },
+    {
+      "kind": "impact",
+      "author": "adb",
+      "at": 81.72,
+      "end": 82.92,
+      "actor": "adb",
+      "offset": [
+        0,
+        -250
+      ]
+    },
+    {
+      "kind": "relief",
+      "author": "adb",
+      "at": 88.49,
+      "end": 89.69,
+      "actor": "adb",
+      "offset": [
+        0,
+        -280
+      ]
+    },
+    {
+      "kind": "focus",
+      "author": "adb",
+      "at": 96.07,
+      "end": 97.27,
+      "actor": "adb",
+      "offset": [
+        0,
+        -280
+      ]
+    },
+    {
+      "kind": "relief",
+      "author": "adb",
+      "at": 108.87,
+      "end": 110.07,
+      "actor": "adb",
+      "offset": [
+        0,
+        -280
+      ]
+    },
+    {
+      "kind": "relief",
+      "author": "adb",
+      "at": 123.57,
+      "end": 125.07,
+      "actor": "adb",
+      "offset": [
+        0,
+        -280
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_turn_crisp_01.wav",
+      "at": 0.1,
+      "duration": 0.8,
+      "gain_db": -10.0
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_01.ogg",
+      "at": 2.59,
+      "duration": 0.45,
+      "gain_db": -11.0,
+      "event": "confession_aftermath"
+    },
+    {
+      "file": "res://common/audio/sfx/cartoon/cartoon_pop_bubble_alert_01.wav",
+      "at": 6.61,
+      "duration": 0.5,
+      "gain_db": -9.0,
+      "event": "banter_class"
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_02.ogg",
+      "at": 6.71,
+      "duration": 0.4,
+      "gain_db": -12.0
+    },
+    {
+      "file": "res://common/audio/sfx/ui/ui_blip_comic_01.wav",
+      "at": 11.93,
+      "duration": 0.4,
+      "gain_db": -10.0,
+      "event": "surprisingly_normal"
+    },
+    {
+      "file": "res://common/audio/sfx/whooshes/whoosh_fast_transition_01.wav",
+      "at": 12.94,
+      "duration": 0.6,
+      "gain_db": -11.0
+    },
+    {
+      "file": "res://common/audio/sfx/suspense/suspense_glass_hit_cinematic_01.wav",
+      "at": 16.96,
+      "duration": 1.2,
+      "gain_db": -9.0,
+      "event": "hallway_fight"
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_03.ogg",
+      "at": 17.06,
+      "duration": 0.4,
+      "gain_db": -11.0
+    },
+    {
+      "file": "res://common/audio/sfx/cartoon/cartoon_zap_blip_01.ogg",
+      "at": 22.4,
+      "duration": 0.4,
+      "gain_db": -9.0,
+      "event": "savior_complex"
+    },
+    {
+      "file": "res://common/audio/sfx/whooshes/whoosh_arrow_passby_01.wav",
+      "at": 24.94,
+      "duration": 0.5,
+      "gain_db": -11.0,
+      "event": "overdrive"
+    },
+    {
+      "file": "res://common/audio/sfx/phone/phone_smartphone_typing_01.wav",
+      "at": 29.08,
+      "duration": 1.0,
+      "gain_db": -10.0,
+      "event": "grabbed_phone"
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_04.ogg",
+      "at": 30.66,
+      "duration": 0.4,
+      "gain_db": -11.0,
+      "event": "badmouthing_bf"
+    },
+    {
+      "file": "res://common/audio/sfx/whooshes/whoosh_small_sweep_01.wav",
+      "at": 32.88,
+      "duration": 0.5,
+      "gain_db": -10.0,
+      "event": "big_mistake"
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_slap_snap_01.wav",
+      "at": 37.8,
+      "duration": 0.6,
+      "gain_db": -7.0,
+      "event": "blocked_again"
+    },
+    {
+      "file": "res://common/audio/sfx/bruh.mp3",
+      "at": 41.94,
+      "duration": 0.8,
+      "gain_db": -9.0,
+      "event": "broke_me"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_book_open_01.ogg",
+      "at": 43.64,
+      "duration": 0.6,
+      "gain_db": -11.0
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_wood_tap_01.ogg",
+      "at": 50.2,
+      "duration": 0.5,
+      "gain_db": -9.0,
+      "event": "broke_up"
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_05.ogg",
+      "at": 51.34,
+      "duration": 0.4,
+      "gain_db": -11.0,
+      "event": "five_years"
+    },
+    {
+      "file": "res://common/audio/sfx/whooshes/whoosh_air_clean_01.wav",
+      "at": 58.44,
+      "duration": 0.6,
+      "gain_db": -12.0,
+      "event": "good_friend"
+    },
+    {
+      "file": "res://common/audio/sfx/whooshes/whoosh_gesture_fast_01.wav",
+      "at": 62.71,
+      "duration": 0.5,
+      "gain_db": -10.0,
+      "event": "squad_work"
+    },
+    {
+      "file": "res://common/audio/sfx/ui/ui_confirm_chime_01.ogg",
+      "at": 64.63,
+      "duration": 0.8,
+      "gain_db": -9.0,
+      "event": "matchmaking_mode"
+    },
+    {
+      "file": "res://common/audio/sfx/stings/sting_achievement_bell_01.wav",
+      "at": 70.89,
+      "duration": 1.0,
+      "gain_db": -8.0,
+      "event": "unblocked_me"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_flip_01.ogg",
+      "at": 72.38,
+      "duration": 0.5,
+      "gain_db": -11.0
+    },
+    {
+      "file": "res://common/audio/sfx/whooshes/whoosh_camera_punch_03.wav",
+      "at": 80.24,
+      "duration": 0.5,
+      "gain_db": -10.0,
+      "event": "find_out"
+    },
+    {
+      "file": "res://common/audio/sfx/comedic/comedic_record_scratch_01.wav",
+      "at": 81.72,
+      "duration": 0.9,
+      "gain_db": -7.0,
+      "event": "dating_again"
+    },
+    {
+      "file": "res://common/audio/sfx/cartoon/cartoon_bong_accent_01.ogg",
+      "at": 82.44,
+      "duration": 0.6,
+      "gain_db": -9.0,
+      "event": "someone_else"
+    },
+    {
+      "file": "res://common/audio/sfx/ui/ui_button_snap_01.ogg",
+      "at": 86.03,
+      "duration": 0.4,
+      "gain_db": -9.0,
+      "event": "switch_flipped"
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_01.ogg",
+      "at": 86.13,
+      "duration": 0.4,
+      "gain_db": -11.0
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_glass_clink_01.ogg",
+      "at": 90.51,
+      "duration": 0.8,
+      "gain_db": -8.0,
+      "event": "pedestal_shattered"
+    },
+    {
+      "file": "res://common/audio/sfx/ui/ui_blip_comic_01.wav",
+      "at": 96.07,
+      "duration": 0.5,
+      "gain_db": -9.0,
+      "event": "yeah_nope"
+    },
+    {
+      "file": "res://common/audio/sfx/food/food_glasses_clinking_01.wav",
+      "at": 104.61,
+      "duration": 0.8,
+      "gain_db": -10.0,
+      "event": "months_before"
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_02.ogg",
+      "at": 107.31,
+      "duration": 0.45,
+      "gain_db": -11.0,
+      "event": "talking_again"
+    },
+    {
+      "file": "res://common/audio/sfx/stings/sting_happy_bells_01.wav",
+      "at": 112.93,
+      "duration": 1.0,
+      "gain_db": -9.0,
+      "event": "genuine_friends"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_turn_crisp_01.wav",
+      "at": 115.69,
+      "duration": 0.8,
+      "gain_db": -10.0,
+      "event": "graduated"
+    },
+    {
+      "file": "res://common/audio/sfx/stings/sting_fairy_sparkle_arcade_01.wav",
+      "at": 122.61,
+      "duration": 1.2,
+      "gain_db": -8.0,
+      "event": "met_girlfriend"
+    },
+    {
+      "file": "res://common/audio/sfx/stings/sting_sparkle_whoosh_01.wav",
+      "at": 123.57,
+      "duration": 1.0,
+      "gain_db": -8.0,
+      "event": "nemi_love"
+    },
+    {
+      "file": "res://common/audio/sfx/ui/ui_confirm_chime_02.ogg",
+      "at": 126.53,
+      "duration": 1.0,
+      "gain_db": -9.0,
+      "event": "worked_out"
+    }
+  ],
+  "script": [
+    {
+      "actor": "adb",
+      "start": 0.35,
+      "end": 12.59,
+      "text": "Even after that legendary 'I know' confession, we didn't stop talking. We'd still banter in class, exchange homework notes, and occasionally text. Things were surprisingly normal."
+    },
+    {
+      "actor": "adb",
+      "start": 12.94,
+      "end": 25.66,
+      "text": "Until one day... I saw her and her boyfriend get into this massive fight in the hallway. She was crying, visibly devastated, and my foolish savior complex immediately kicked into overdrive."
+    },
+    {
+      "actor": "adb",
+      "start": 26.06,
+      "end": 42.94,
+      "text": "I felt terrible seeing her upset. So I grabbed my phone and texted her, badmouthing her boyfriend. Big mistake. She got furious, defended him, and BAM... I got blocked. Again. Second time in my life. That broke me, man."
+    },
+    {
+      "actor": "adb",
+      "start": 43.54,
+      "end": 59.22,
+      "text": "Flash forward to the end of our second year. Out of nowhere, the news dropped: she and her boyfriend finally broke up. Five entire years together, officially over. Honestly, I felt bad for him too\u2014he was actually a good friend of mine."
+    },
+    {
+      "actor": "adb",
+      "start": 59.67,
+      "end": 71.83,
+      "text": "But the moment my other friends heard she was single? The squad went to work. Full-time matchmaking mode. They hyped me up, intervened on my behalf, and somehow... she actually unblocked me."
+    },
+    {
+      "actor": "adb",
+      "start": 72.28,
+      "end": 83.8,
+      "text": "Summer ends. Senior year starts. I walk in thinking, 'Okay, maybe the universe is setting something up.' ...And then I find out: she's already dating someone else. Again."
+    },
+    {
+      "actor": "adb",
+      "start": 84.45,
+      "end": 98.69,
+      "text": "And right there? A switch flipped. Instantly, all my feelings vanished. It was like the pedestal completely shattered. I saw her in a totally different way and thought, 'Yeah, nope. I do not like her at all anymore.'"
+    },
+    {
+      "actor": "adb",
+      "start": 99.19,
+      "end": 115.03,
+      "text": "With all that romantic nonsense out of the way, something unexpected happened. About five months before graduation, we naturally started talking again. No tension, no awkwardness, no hidden motives. Just genuine, normal friends."
+    },
+    {
+      "actor": "adb",
+      "start": 115.43,
+      "end": 127.83,
+      "text": "We graduated on great terms. And when I went off to college? Well... that's where I met my actual girlfriend, Nemi. So in the end, it all worked out pretty nicely."
+    }
+  ],
+  "captions": [
+    {
+      "actor": "adb",
+      "words": [
+        0,
+        4
+      ],
+      "start": 0.35,
+      "end": 2.59,
+      "text": "Even after that legendary I-know"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        5,
+        5
+      ],
+      "start": 2.59,
+      "end": 3.19,
+      "text": "confession,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        6,
+        9
+      ],
+      "start": 3.83,
+      "end": 4.95,
+      "text": "we didn't stop talking."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        10,
+        14
+      ],
+      "start": 5.61,
+      "end": 7.13,
+      "text": "We'd still banter in class,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        15,
+        19
+      ],
+      "start": 7.45,
+      "end": 9.59,
+      "text": "exchange homework notes, and occasionally"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        20,
+        20
+      ],
+      "start": 9.59,
+      "end": 10.07,
+      "text": "text."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        21,
+        24
+      ],
+      "start": 10.75,
+      "end": 12.43,
+      "text": "Things were surprisingly normal."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        25,
+        27
+      ],
+      "start": 12.94,
+      "end": 13.9,
+      "text": "Until one day,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        28,
+        29
+      ],
+      "start": 14.38,
+      "end": 14.64,
+      "text": "I saw"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        30,
+        34
+      ],
+      "start": 14.64,
+      "end": 16.08,
+      "text": "her and her boyfriend get"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        35,
+        39
+      ],
+      "start": 16.08,
+      "end": 17.5,
+      "text": "into this massive fight in"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        40,
+        41
+      ],
+      "start": 17.5,
+      "end": 17.96,
+      "text": "the hallway."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        42,
+        44
+      ],
+      "start": 18.56,
+      "end": 19.44,
+      "text": "She was crying,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        45,
+        46
+      ],
+      "start": 20.12,
+      "end": 21.12,
+      "text": "visibly devastated,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        47,
+        51
+      ],
+      "start": 21.78,
+      "end": 23.44,
+      "text": "and my foolish savior complex"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        52,
+        55
+      ],
+      "start": 23.44,
+      "end": 25.58,
+      "text": "immediately kicked into overdrive."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        56,
+        60
+      ],
+      "start": 26.06,
+      "end": 27.4,
+      "text": "I felt terrible seeing her"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        61,
+        61
+      ],
+      "start": 27.4,
+      "end": 27.8,
+      "text": "upset,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        62,
+        65
+      ],
+      "start": 28.34,
+      "end": 29.08,
+      "text": "so I grabbed my"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        66,
+        70
+      ],
+      "start": 29.08,
+      "end": 31.32,
+      "text": "phone and texted her, bad-mouthing"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        71,
+        72
+      ],
+      "start": 31.32,
+      "end": 31.98,
+      "text": "her boyfriend."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        73,
+        74
+      ],
+      "start": 32.74,
+      "end": 33.3,
+      "text": "Big mistake."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        75,
+        77
+      ],
+      "start": 34.04,
+      "end": 34.82,
+      "text": "She got furious,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        78,
+        79
+      ],
+      "start": 35.22,
+      "end": 35.9,
+      "text": "defended him,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        80,
+        81
+      ],
+      "start": 36.24,
+      "end": 36.76,
+      "text": "and bam."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        82,
+        84
+      ],
+      "start": 37.54,
+      "end": 38.16,
+      "text": "I got blocked."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        85,
+        85
+      ],
+      "start": 39.0,
+      "end": 39.38,
+      "text": "Again."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        86,
+        90
+      ],
+      "start": 40.1,
+      "end": 41.3,
+      "text": "Second time in my life,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        91,
+        94
+      ],
+      "start": 41.8,
+      "end": 42.82,
+      "text": "that broke me, man."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        95,
+        99
+      ],
+      "start": 43.54,
+      "end": 44.92,
+      "text": "Flash forward to the end"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        100,
+        103
+      ],
+      "start": 44.92,
+      "end": 46.16,
+      "text": "of our second year."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        104,
+        106
+      ],
+      "start": 46.68,
+      "end": 47.3,
+      "text": "Out of nowhere,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        107,
+        108
+      ],
+      "start": 47.76,
+      "end": 48.04,
+      "text": "the news"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        109,
+        109
+      ],
+      "start": 48.04,
+      "end": 48.46,
+      "text": "dropped."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        110,
+        114
+      ],
+      "start": 48.9,
+      "end": 50.2,
+      "text": "She and her boyfriend finally"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        115,
+        116
+      ],
+      "start": 50.2,
+      "end": 50.88,
+      "text": "broke up."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        117,
+        121
+      ],
+      "start": 51.34,
+      "end": 53.88,
+      "text": "Five entire years together, officially"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        122,
+        122
+      ],
+      "start": 53.88,
+      "end": 54.42,
+      "text": "over."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        123,
+        123
+      ],
+      "start": 54.98,
+      "end": 55.36,
+      "text": "Honestly,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        124,
+        127
+      ],
+      "start": 55.86,
+      "end": 56.58,
+      "text": "I felt bad for"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        128,
+        129
+      ],
+      "start": 56.58,
+      "end": 57.04,
+      "text": "him too."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        130,
+        134
+      ],
+      "start": 57.5,
+      "end": 58.44,
+      "text": "He was actually a good"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        135,
+        137
+      ],
+      "start": 58.44,
+      "end": 59.16,
+      "text": "friend of mine."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        138,
+        142
+      ],
+      "start": 59.67,
+      "end": 60.59,
+      "text": "But the moment my other"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        143,
+        147
+      ],
+      "start": 60.59,
+      "end": 62.05,
+      "text": "friends heard she was single,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        148,
+        152
+      ],
+      "start": 62.59,
+      "end": 63.69,
+      "text": "the squad went to work."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        153,
+        157
+      ],
+      "start": 64.21,
+      "end": 66.29,
+      "text": "Full-time matchmaking mode, they hyped"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        158,
+        162
+      ],
+      "start": 66.29,
+      "end": 68.07,
+      "text": "me up, intervened on my"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        163,
+        163
+      ],
+      "start": 68.07,
+      "end": 68.55,
+      "text": "behalf,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        164,
+        167
+      ],
+      "start": 69.05,
+      "end": 70.89,
+      "text": "and somehow she actually"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        168,
+        169
+      ],
+      "start": 70.89,
+      "end": 71.77,
+      "text": "unblocked me."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        170,
+        171
+      ],
+      "start": 72.28,
+      "end": 73.1,
+      "text": "Summer ends,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        172,
+        174
+      ],
+      "start": 73.48,
+      "end": 74.48,
+      "text": "senior year starts."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        175,
+        178
+      ],
+      "start": 75.1,
+      "end": 75.9,
+      "text": "I walk in thinking,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        179,
+        179
+      ],
+      "start": 76.38,
+      "end": 76.88,
+      "text": "okay,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        180,
+        184
+      ],
+      "start": 77.42,
+      "end": 78.78,
+      "text": "maybe the universe is setting"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        185,
+        186
+      ],
+      "start": 78.78,
+      "end": 79.46,
+      "text": "something up,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        187,
+        189
+      ],
+      "start": 79.94,
+      "end": 80.24,
+      "text": "and then I"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        190,
+        194
+      ],
+      "start": 80.24,
+      "end": 82.06,
+      "text": "find out she's already dating"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        195,
+        196
+      ],
+      "start": 82.06,
+      "end": 82.9,
+      "text": "someone else."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        197,
+        197
+      ],
+      "start": 83.32,
+      "end": 83.56,
+      "text": "Again."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        198,
+        200
+      ],
+      "start": 84.45,
+      "end": 85.39,
+      "text": "And right there,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        201,
+        202
+      ],
+      "start": 85.89,
+      "end": 86.31,
+      "text": "a switch"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        203,
+        203
+      ],
+      "start": 86.31,
+      "end": 86.81,
+      "text": "flipped,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        204,
+        207
+      ],
+      "start": 87.31,
+      "end": 88.87,
+      "text": "instantly all my feelings"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        208,
+        208
+      ],
+      "start": 88.87,
+      "end": 89.43,
+      "text": "vanished."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        209,
+        213
+      ],
+      "start": 89.95,
+      "end": 90.99,
+      "text": "It was like the pedestal"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        214,
+        215
+      ],
+      "start": 90.99,
+      "end": 92.13,
+      "text": "completely shattered."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        216,
+        220
+      ],
+      "start": 92.67,
+      "end": 93.41,
+      "text": "I saw her in a"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        221,
+        225
+      ],
+      "start": 93.41,
+      "end": 94.89,
+      "text": "totally different way and thought,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        226,
+        226
+      ],
+      "start": 95.41,
+      "end": 95.69,
+      "text": "yeah,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        227,
+        227
+      ],
+      "start": 96.07,
+      "end": 96.41,
+      "text": "nope,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        228,
+        230
+      ],
+      "start": 96.93,
+      "end": 97.37,
+      "text": "I do not"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        231,
+        235
+      ],
+      "start": 97.37,
+      "end": 98.47,
+      "text": "like her at all anymore."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        236,
+        240
+      ],
+      "start": 99.19,
+      "end": 100.81,
+      "text": "With all that romantic nonsense"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        241,
+        244
+      ],
+      "start": 100.81,
+      "end": 101.65,
+      "text": "out of the way,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        245,
+        245
+      ],
+      "start": 102.01,
+      "end": 102.33,
+      "text": "something"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        246,
+        247
+      ],
+      "start": 102.33,
+      "end": 103.49,
+      "text": "unexpected happened."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        248,
+        252
+      ],
+      "start": 104.01,
+      "end": 105.75,
+      "text": "About five months before graduation,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        253,
+        257
+      ],
+      "start": 106.21,
+      "end": 108.15,
+      "text": "we naturally started talking again."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        258,
+        259
+      ],
+      "start": 108.71,
+      "end": 109.37,
+      "text": "No tension,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        260,
+        261
+      ],
+      "start": 109.77,
+      "end": 110.85,
+      "text": "no awkwardness,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        262,
+        262
+      ],
+      "start": 111.19,
+      "end": 111.33,
+      "text": "no"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        263,
+        264
+      ],
+      "start": 111.33,
+      "end": 112.05,
+      "text": "hidden motives."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        265,
+        266
+      ],
+      "start": 112.75,
+      "end": 113.61,
+      "text": "Just genuine,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        267,
+        268
+      ],
+      "start": 114.09,
+      "end": 114.87,
+      "text": "normal friends."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        269,
+        273
+      ],
+      "start": 115.43,
+      "end": 117.45,
+      "text": "We graduated on great terms,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        274,
+        278
+      ],
+      "start": 117.85,
+      "end": 118.79,
+      "text": "and when I went off"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        279,
+        280
+      ],
+      "start": 118.79,
+      "end": 119.37,
+      "text": "to college,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        281,
+        281
+      ],
+      "start": 119.95,
+      "end": 120.31,
+      "text": "well,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        282,
+        283
+      ],
+      "start": 120.63,
+      "end": 121.39,
+      "text": "that's where"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        284,
+        288
+      ],
+      "start": 121.39,
+      "end": 123.27,
+      "text": "I met my actual girlfriend,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        289,
+        289
+      ],
+      "start": 123.57,
+      "end": 123.75,
+      "text": "Nemi."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        290,
+        290
+      ],
+      "start": 124.4,
+      "end": 124.59,
+      "text": "So,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        291,
+        293
+      ],
+      "start": 125.17,
+      "end": 125.91,
+      "text": "in the end,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        294,
+        294
+      ],
+      "start": 126.25,
+      "end": 126.41,
+      "text": "it"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        295,
+        299
+      ],
+      "start": 126.41,
+      "end": 127.65,
+      "text": "all worked out pretty nicely."
+    }
+  ],
+  "mix": {
+    "master_gain_db": 3.6,
+    "target_lufs": -18.0,
+    "peak_dbfs": -1.5
+  }
+}

@@ -1,7 +1,7 @@
 {
   "cues": [
     {
-      "event": "lifetime_contract_underline",
+      "event": "contract",
       "story_line": 1,
       "story_line_index": 0,
       "exact_word": "contract",
@@ -28,10 +28,12 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": -5.312
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 7.137037
+      "at": 7.137037,
+      "source_palette_event": "lifetime_contract_underline",
+      "event_offset": 0
     },
     {
-      "event": "reunion_daydream_reveal",
+      "event": "reunion",
       "story_line": 1,
       "story_line_index": 0,
       "exact_word": "reunion",
@@ -58,10 +60,12 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": 0.198
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 12.877778
+      "at": 12.877778,
+      "source_palette_event": "reunion_daydream_reveal",
+      "event_offset": 0
     },
     {
-      "event": "city_location_reveal",
+      "event": "city",
       "story_line": 2,
       "story_line_index": 1,
       "exact_word": "city",
@@ -88,10 +92,12 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": -2.549
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 15.388889
+      "at": 15.388889,
+      "source_palette_event": "city_location_reveal",
+      "event_offset": 0
     },
     {
-      "event": "city_invitation_send",
+      "event": "invite",
       "story_line": 3,
       "story_line_index": 2,
       "exact_word": "meet",
@@ -118,10 +124,12 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": -7.242
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 25.87037
+      "at": 25.87037,
+      "source_palette_event": "city_invitation_send",
+      "event_offset": 0
     },
     {
-      "event": "city_busy_reply",
+      "event": "busy",
       "story_line": 4,
       "story_line_index": 3,
       "exact_word": "busy",
@@ -148,10 +156,12 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": -6.413
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 38.68
+      "at": 38.68,
+      "source_palette_event": "city_busy_reply",
+      "event_offset": 0
     },
     {
-      "event": "school_excited_typing",
+      "event": "typing",
       "story_line": 7,
       "story_line_index": 6,
       "exact_word": "text",
@@ -178,10 +188,12 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": -2.719
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 80.147407
+      "at": 80.147407,
+      "source_palette_event": "school_excited_typing",
+      "event_offset": 0
     },
     {
-      "event": "school_small_reply",
+      "event": "small_reply",
       "story_line": 7,
       "story_line_index": 6,
       "exact_word": "small",
@@ -208,10 +220,12 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": -7.758
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 89.499259
+      "at": 89.499259,
+      "source_palette_event": "school_small_reply",
+      "event_offset": 0
     },
     {
-      "event": "reread_excitement_correction",
+      "event": "mistake",
       "story_line": 8,
       "story_line_index": 7,
       "exact_word": "fix",
@@ -238,10 +252,12 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": -3.667
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 98.597778
+      "at": 98.597778,
+      "source_palette_event": "reread_excitement_correction",
+      "event_offset": 0
     },
     {
-      "event": "remember_people_card",
+      "event": "remember",
       "story_line": 10,
       "story_line_index": 9,
       "exact_word": "remember",
@@ -268,10 +284,12 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": -5.776
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 119.017778
+      "at": 119.017778,
+      "source_palette_event": "remember_people_card",
+      "event_offset": 0
     },
     {
-      "event": "storage_plan_comic_aside",
+      "event": "storage",
       "story_line": 10,
       "story_line_index": 9,
       "exact_word": "plan",
@@ -298,10 +316,12 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": -2.806
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 131.417778
+      "at": 131.417778,
+      "source_palette_event": "storage_plan_comic_aside",
+      "event_offset": 0.98
     },
     {
-      "event": "self_worth_live_correction",
+      "event": "less",
       "story_line": 11,
       "story_line_index": 10,
       "exact_word": "proof",
@@ -311,7 +331,7 @@
       "file": "res://common/audio/sfx/drawing/drawing_pencil_sketch_01.wav",
       "source_sha256": "d12d2f74087fd2aae52e83e5aab812bec44ac282ca63397ad1915eccb7425745",
       "source_excerpt_start_seconds": 0,
-      "duration": 1.868,
+      "duration": 1.2,
       "gain_db": -18,
       "purpose": "A purposeful finite drawing/correction sound accompanies rejecting the false self-worth equation.",
       "placement_notes": "Align to the actual live revision; protect the words matter less and the pause following them.",
@@ -328,10 +348,12 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": -7.979
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 143.687778
+      "at": 143.687778,
+      "source_palette_event": "self_worth_live_correction",
+      "event_offset": 0.65
     },
     {
-      "event": "phone_resting_contact",
+      "event": "phone_down",
       "story_line": 12,
       "story_line_index": 11,
       "exact_word": "down",
@@ -358,7 +380,9 @@
         "active_rms_delta_vs_reference_voice_after_fixed_minus2_db": -1.982
       },
       "clock_status": "word-anchored proposal; root must assign final seconds and event_offset against final narration",
-      "at": 147.157778
+      "at": 147.157778,
+      "source_palette_event": "phone_resting_contact",
+      "event_offset": 0
     }
   ],
   "intentional_silence": [

@@ -1,0 +1,33 @@
+{
+  "scope": "Drawing-world field-contract fragments to merge into an authored complete episode; not a standalone episode, rendered proof or approval",
+  "timeline_fragment": {
+    "world_renderer": "drawing",
+    "preview_choice_turns": true,
+    "preview_goal": "Get Nemi through the tear and out to the solid desk.",
+    "preview_handoffs": [
+      {"at": 24, "yaw": -90, "duration": 0.8},
+      {"at": 48, "yaw": 90, "duration": 1.1}
+    ]
+  },
+  "held_object_fragments": [
+    {
+      "id": "real_tear",
+      "author": "nemi",
+      "kind": "page_tear",
+      "x": 500,
+      "y": 610,
+      "text": "2 TAKE THE TEAR",
+      "opened": true
+    },
+    {
+      "id": "loose_tab",
+      "author": "nemi",
+      "kind": "paper_tab",
+      "x": 1100,
+      "y": 720,
+      "text": "5 FOLD THE TAB",
+      "folded": true
+    }
+  ],
+  "dependencies": "The complete timeline needs existing scene starts at24 and48seconds, each following scene longer than the corresponding handoff. Held flags describe completed material on entry; omit/false to use finite environment events. Place objects on authored walls with consistent actor, landmark, floor and contact geometry. The local handoffs do not alter an uploaded MP4 or add native YouTube callbacks."
+}

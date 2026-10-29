@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "source_take_count": 15,
+  "selected_take": 2,
+  "source_duration_sum": 146.08,
+  "final_duration": 155.13333333333333,
+  "tempo": 1.0,
+  "source_bounds_policy": "Full source takes; no silence trimming.",
+  "speaker": "aiden",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+  "identity_prompt": "Cool, relaxed young adult male around 24, calm conversational speech, confident, subtle dry wit, understated and natural.",
+  "audio_sha256": "e1713ad77f49c477cc8a9954918cd9f2a5898d83ec0dee0ab5d0346a31d665fb",
+  "voice_plan_sha256": "7b4483a1a94327e1015647a5bd22dbf3a3d9e802b8459015b0bca6c547c25f7f",
+  "text_tokens_verified": true,
+  "source_hashes_verified": true,
+  "ordered_positive_word_intervals_verified": true,
+  "word_count": 418,
+  "alignment_repairs": [
+    {
+      "paragraph": 0,
+      "action": "Merge split 'world' + 'view' into 'worldview'",
+      "evidence": "source_words_take2.json"
+    },
+    {
+      "paragraph": 9,
+      "action": "Restore 0.10s duration for article 'a'",
+      "evidence": "source_words_take2.json"
+    },
+    {
+      "paragraph": 12,
+      "action": "Apportion 0.10s to 'the' from preceding preposition boundary",
+      "evidence": "source_words_take2.json"
+    }
+  ],
+  "low_confidence_words": [
+    {
+      "paragraph": 2,
+      "word": "it",
+      "start": 0.44,
+      "end": 0.96,
+      "probability": 0.403564453125
+    },
+    {
+      "paragraph": 2,
+      "word": "And",
+      "start": 4.66,
+      "end": 4.72,
+      "probability": 0.3291015625
+    },
+    {
+      "paragraph": 2,
+      "word": "Nemi.",
+      "start": 7.78,
+      "end": 8.04,
+      "probability": 0.14599609375
+    },
+    {
+      "paragraph": 2,
+      "word": "eight",
+      "start": 8.86,
+      "end": 9.22,
+      "probability": 0.47119140625
+    },
+    {
+      "paragraph": 3,
+      "word": "by",
+      "start": 5.02,
+      "end": 5.2,
+      "probability": 0.634765625
+    },
+    {
+      "paragraph": 4,
+      "word": "line",
+      "start": 3.68,
+      "end": 4.08,
+      "probability": 0.3720703125
+    },
+    {
+      "paragraph": 5,
+      "word": "someone...",
+      "start": 2.62,
+      "end": 3.52,
+      "probability": 0.5078125
+    },
+    {
+      "paragraph": 5,
+      "word": "sharing",
+      "start": 3.52,
+      "end": 3.8,
+      "probability": 0.220947265625
+    },
+    {
+      "paragraph": 5,
+      "word": "borders",
+      "start": 8.1,
+      "end": 8.44,
+      "probability": 0.6123046875
+    },
+    {
+      "paragraph": 6,
+      "word": "third-grade",
+      "start": 3.54,
+      "end": 4.16,
+      "probability": 0.51171875,
+      "alignment_note": "Hyphen compound merged using measured outer bounds."
+    },
+    {
+      "paragraph": 6,
+      "word": "realized...",
+      "start": 5.68,
+      "end": 6.8,
+      "probability": 0.5205078125
+    },
+    {
+      "paragraph": 7,
+      "word": "eight",
+      "start": 4.16,
+      "end": 4.46,
+      "probability": 0.6025390625
+    },
+    {
+      "paragraph": 7,
+      "word": "quietly",
+      "start": 5.34,
+      "end": 5.68,
+      "probability": 0.347900390625
+    },
+    {
+      "paragraph": 8,
+      "word": "reshuffled.",
+      "start": 5.56,
+      "end": 6.2,
+      "probability": 0.6025390625
+    },
+    {
+      "paragraph": 9,
+      "word": "One",
+      "start": 0.0,
+      "end": 0.24,
+      "probability": 0.6044921875
+    },
+    {
+      "paragraph": 9,
+      "word": "Bro,",
+      "start": 3.84,
+      "end": 4.02,
+      "probability": 0.162109375
+    },
+    {
+      "paragraph": 11,
+      "word": "this",
+      "start": 1.68,
+      "end": 1.72,
+      "probability": 0.37548828125
+    },
+    {
+      "paragraph": 11,
+      "word": "to",
+      "start": 5.86,
+      "end": 5.96,
+      "probability": 0.0869140625
+    },
+    {
+      "paragraph": 11,
+      "word": "too.",
+      "start": 10.7,
+      "end": 10.92,
+      "probability": 0.238037109375
+    },
+    {
+      "paragraph": 13,
+      "word": "And",
+      "start": 0.0,
+      "end": 0.24,
+      "probability": 0.50244140625
+    },
+    {
+      "paragraph": 13,
+      "word": "ALSO",
+      "start": 5.1,
+      "end": 5.62,
+      "probability": 0.49072265625
+    },
+    {
+      "paragraph": 13,
+      "word": "liked",
+      "start": 5.62,
+      "end": 5.94,
+      "probability": 0.64990234375
+    },
+    {
+      "paragraph": 13,
+      "word": "and",
+      "start": 10.12,
+      "end": 10.34,
+      "probability": 0.276611328125
+    },
+    {
+      "paragraph": 14,
+      "word": "yeah,",
+      "start": 0.42,
+      "end": 0.98,
+      "probability": 0.64111328125
+    },
+    {
+      "paragraph": 14,
+      "word": "now...",
+      "start": 3.54,
+      "end": 4.46,
+      "probability": 0.51123046875
+    },
+    {
+      "paragraph": 14,
+      "word": "at",
+      "start": 4.46,
+      "end": 4.5,
+      "probability": 0.24560546875
+    },
+    {
+      "paragraph": 14,
+      "word": "at",
+      "start": 5.16,
+      "end": 5.36,
+      "probability": 0.615234375
+    },
+    {
+      "paragraph": 14,
+      "word": "age",
+      "start": 5.36,
+      "end": 5.62,
+      "probability": 0.5498046875
+    },
+    {
+      "paragraph": 14,
+      "word": "eight",
+      "start": 5.62,
+      "end": 5.9,
+      "probability": 0.53955078125
+    },
+    {
+      "paragraph": 14,
+      "word": "never",
+      "start": 5.9,
+      "end": 6.56,
+      "probability": 0.1851806640625
+    }
+  ],
+  "listening_performed": false,
+  "listening_limitation": "Attempted audio-content inspection returned: audio content omitted because you do not support audio input. Transcript verification does not constitute listening.",
+  "pending": [
+    "Subjective Aiden delivery, breaths and thought-gap pacing listening.",
+    "Important spoken-word and mouth-boundary review against final audio.",
+    "Final episode narration/SFX mix audition after sound direction."
+  ]
+}

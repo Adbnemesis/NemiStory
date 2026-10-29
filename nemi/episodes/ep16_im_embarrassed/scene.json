@@ -1,0 +1,4294 @@
+{
+  "version": 2,
+  "title": "Nemi EP16 \u2014 I'm Embarrassed",
+  "duration": 106.4,
+  "fps": 30,
+  "caption_size": 52,
+  "audio": "res://nemi/episodes/ep16_im_embarrassed/voice/narration_r1.wav",
+  "audio_metadata": "res://nemi/episodes/ep16_im_embarrassed/timing_reference_r1.json",
+  "direction": {
+    "promise": "Nemi honestly confesses the embarrassment of admitting $0 income from creative content, and finds grounded peace to keep drawing.",
+    "want": "To be seen as doing real, meaningful labor even when the revenue and views have not caught up.",
+    "choice": "Admit the full financial and social truth without defensive excuses.",
+    "consequence": "Confronts late-night algorithm dread and imposter syndrome.",
+    "payoff": "Chooses to sit down and draw the next frame with quiet, serene determination.",
+    "beats": [
+      {
+        "start": 0.0,
+        "end": 8.5,
+        "thought": "The dreaded social question in the cafe.",
+        "focus": "Cafe setting and speech bubble",
+        "visual": "Nemi frozen beside the career question bubble.",
+        "intent": "Establish core social tension."
+      },
+      {
+        "start": 8.5,
+        "end": 23.7,
+        "thought": "Contrasting corporate jobs with internet cartoons.",
+        "focus": "Briefcase vs derpy cartoon",
+        "visual": "Corporate symbols contrasted with funny cartoon doodle.",
+        "intent": "Humorous self-deprecating honesty."
+      },
+      {
+        "start": 23.7,
+        "end": 34.0,
+        "thought": "The polite nod and UNEMPLOYED stamp.",
+        "focus": "Polite nod card and stamp",
+        "visual": "Deadpan smile card stamped UNEMPLOYED.",
+        "intent": "Highlight social awkwardness."
+      },
+      {
+        "start": 34.0,
+        "end": 45.1,
+        "thought": "Admitting the financial truth ($0.00).",
+        "focus": "$0.00 earnings card and slump",
+        "visual": "Studio desk, defeated posture beside zero statement.",
+        "intent": "Total transparency."
+      },
+      {
+        "start": 45.1,
+        "end": 57.4,
+        "thought": "The empty Ko-fi tip jar.",
+        "focus": "Ko-fi jar and zero donations",
+        "visual": "Tip jar with zero donations, embarrassed hold.",
+        "intent": "Gentle vulnerable comedy."
+      },
+      {
+        "start": 57.4,
+        "end": 72.5,
+        "thought": "The grueling invisible labor of animation.",
+        "focus": "Tablet timeline & 40h clock",
+        "visual": "Nemi at drawing desk, frame counter and spinning clock.",
+        "intent": "Validating creative effort."
+      },
+      {
+        "start": 72.5,
+        "end": 88.7,
+        "thought": "Late night algorithmic panic.",
+        "focus": "Flatline stats card and algorithm monster",
+        "visual": "Cool evening canvas, flat view graph, doubt storm.",
+        "intent": "Honest emotional depth."
+      },
+      {
+        "start": 88.7,
+        "end": 99.1,
+        "thought": "Deep existential imposter syndrome.",
+        "focus": "Intimate portrait of self-doubt",
+        "visual": "Close portrait, quiet brow asymmetry.",
+        "intent": "Confronting core creative fear."
+      },
+      {
+        "start": 99.1,
+        "end": 106.4,
+        "thought": "Choosing to draw anyway.",
+        "focus": "Heart spark and next frame paper",
+        "visual": "Small warm smile, stylus poised on peg sheet.",
+        "intent": "Grounded quiet resolve."
+      }
+    ]
+  },
+  "actors": [
+    {
+      "id": "nemi",
+      "author": "nemi",
+      "performances": [
+        {
+          "at": 0.0,
+          "recipe": "school_confide",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "face": {
+            "eye_openness": 0.95
+          }
+        },
+        {
+          "at": 1.403846,
+          "recipe": "school_question",
+          "duration": 0.35,
+          "gaze": [
+            0.2,
+            -0.05
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "question",
+          "blinks": [
+            2.604
+          ]
+        },
+        {
+          "at": 4.192308,
+          "recipe": "quiet_recoil",
+          "duration": 0.0,
+          "gaze": [
+            0.1,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "motion": "snap",
+          "event": "soul_leaves"
+        },
+        {
+          "at": 7.926923,
+          "recipe": "school_explain",
+          "duration": 0.35,
+          "gaze": [
+            0.25,
+            0
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 9.46396,
+          "recipe": "school_present",
+          "duration": 0.35,
+          "gaze": [
+            0.35,
+            0.05
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "real_jobs",
+          "blinks": [
+            10.664
+          ]
+        },
+        {
+          "at": 20.797293,
+          "recipe": "embarrassed",
+          "duration": 0.35,
+          "gaze": [
+            -0.2,
+            0.15
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "face": {
+            "eye_openness": 0.9
+          },
+          "event": "cartoons"
+        },
+        {
+          "at": 22.775071,
+          "recipe": "school_question",
+          "duration": 0.35,
+          "gaze": [
+            0.25,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 24.698881,
+          "recipe": "pleased",
+          "duration": 0.35,
+          "gaze": [
+            0.3,
+            0.05
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "polite_nod",
+          "blinks": [
+            25.899
+          ]
+        },
+        {
+          "at": 30.298881,
+          "recipe": "deadpan",
+          "duration": 0.0,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "motion": "snap",
+          "event": "unemployed"
+        },
+        {
+          "at": 31.956024,
+          "recipe": "school_shame",
+          "duration": 0.35,
+          "gaze": [
+            -0.25,
+            0.2
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            33.156
+          ]
+        },
+        {
+          "at": 37.594119,
+          "recipe": "overwhelmed",
+          "duration": 0.35,
+          "gaze": [
+            -0.1,
+            0.25
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "zero_dollars",
+          "blinks": [
+            38.794
+          ]
+        },
+        {
+          "at": 41.875071,
+          "recipe": "school_explain",
+          "duration": 0.35,
+          "gaze": [
+            0.35,
+            0.05
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "open_palm_up"
+          }
+        },
+        {
+          "at": 43.06375,
+          "recipe": "soft_shrug",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "open_palm_up",
+            "right": "open_palm_up"
+          },
+          "event": "kofi_jar",
+          "blinks": [
+            44.264
+          ]
+        },
+        {
+          "at": 48.837335,
+          "recipe": "deadpan",
+          "duration": 0.0,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "motion": "snap",
+          "event": "hardly_donates"
+        },
+        {
+          "at": 51.430732,
+          "recipe": "school_explain",
+          "duration": 0.35,
+          "gaze": [
+            0.2,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            52.631
+          ]
+        },
+        {
+          "at": 56.282584,
+          "recipe": "prop_present",
+          "duration": 0.35,
+          "gaze": [
+            0.3,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "open_palm_up"
+          },
+          "event": "tablet_work"
+        },
+        {
+          "at": 58.004806,
+          "recipe": "school_resolve",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "fist",
+            "right": "relaxed"
+          },
+          "event": "clock_40h",
+          "blinks": [
+            59.205
+          ]
+        },
+        {
+          "at": 66.056658,
+          "recipe": "uncertain",
+          "duration": 0.35,
+          "gaze": [
+            -0.15,
+            0.1
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "at": 67.675706,
+          "recipe": "quiet_recoil",
+          "duration": 0.35,
+          "gaze": [
+            0.2,
+            0.15
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "scary_night",
+          "blinks": [
+            68.876
+          ]
+        },
+        {
+          "at": 75.789991,
+          "recipe": "overwhelmed",
+          "duration": 0.35,
+          "gaze": [
+            -0.2,
+            0.2
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "event": "flat_stats",
+          "blinks": [
+            76.99
+          ]
+        },
+        {
+          "at": 81.842372,
+          "recipe": "school_shame",
+          "duration": 0.35,
+          "gaze": [
+            -0.2,
+            0.15
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            83.042
+          ]
+        },
+        {
+          "at": 90.13649,
+          "recipe": "school_confide",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "face": {
+            "eye_openness": 0.92
+          },
+          "event": "growing_up"
+        },
+        {
+          "at": 91.505117,
+          "recipe": "recover",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "blinks": [
+            92.705
+          ]
+        },
+        {
+          "at": 99.428194,
+          "recipe": "school_relief",
+          "duration": 0.35,
+          "gaze": [
+            0.2,
+            0.0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          },
+          "face": {
+            "eye_openness": 1.05
+          },
+          "event": "care_anyway",
+          "blinks": [
+            100.628
+          ]
+        },
+        {
+          "at": 103.678194,
+          "recipe": "school_resolve",
+          "duration": 0.35,
+          "gaze": [
+            0,
+            0
+          ],
+          "hands": {
+            "left": "relaxed",
+            "right": "open_palm_up"
+          },
+          "event": "next_frame",
+          "blinks": [
+            104.878
+          ]
+        }
+      ],
+      "mouths": [
+        {
+          "start": 0.5,
+          "end": 0.849615,
+          "shape": "small_open"
+        },
+        {
+          "start": 0.849615,
+          "end": 0.884615,
+          "shape": "closed"
+        },
+        {
+          "start": 0.884615,
+          "end": 1.368846,
+          "shape": "small_open"
+        },
+        {
+          "start": 1.368846,
+          "end": 1.403846,
+          "shape": "closed"
+        },
+        {
+          "start": 1.403846,
+          "end": 1.772692,
+          "shape": "ae"
+        },
+        {
+          "start": 1.772692,
+          "end": 1.807692,
+          "shape": "closed"
+        },
+        {
+          "start": 1.807692,
+          "end": 1.842692,
+          "shape": "closed"
+        },
+        {
+          "start": 1.842692,
+          "end": 2.157308,
+          "shape": "small_open"
+        },
+        {
+          "start": 2.157308,
+          "end": 2.192308,
+          "shape": "closed"
+        },
+        {
+          "start": 2.192308,
+          "end": 2.330385,
+          "shape": "ae"
+        },
+        {
+          "start": 2.330385,
+          "end": 2.365385,
+          "shape": "closed"
+        },
+        {
+          "start": 2.365385,
+          "end": 2.484231,
+          "shape": "small_open"
+        },
+        {
+          "start": 2.484231,
+          "end": 2.519231,
+          "shape": "closed"
+        },
+        {
+          "start": 2.519231,
+          "end": 2.695769,
+          "shape": "small_open"
+        },
+        {
+          "start": 2.695769,
+          "end": 2.730769,
+          "shape": "closed"
+        },
+        {
+          "start": 2.730769,
+          "end": 2.926538,
+          "shape": "small_open"
+        },
+        {
+          "start": 2.926538,
+          "end": 2.961538,
+          "shape": "closed"
+        },
+        {
+          "start": 2.961538,
+          "end": 3.426538,
+          "shape": "small_open"
+        },
+        {
+          "start": 3.426538,
+          "end": 3.461538,
+          "shape": "closed"
+        },
+        {
+          "start": 4.076923,
+          "end": 4.111923,
+          "shape": "closed"
+        },
+        {
+          "start": 4.111923,
+          "end": 4.157308,
+          "shape": "small_open"
+        },
+        {
+          "start": 4.157308,
+          "end": 4.192308,
+          "shape": "closed"
+        },
+        {
+          "start": 4.192308,
+          "end": 4.465,
+          "shape": "o_u"
+        },
+        {
+          "start": 4.465,
+          "end": 4.5,
+          "shape": "closed"
+        },
+        {
+          "start": 4.5,
+          "end": 4.984231,
+          "shape": "small_open"
+        },
+        {
+          "start": 4.984231,
+          "end": 5.019231,
+          "shape": "closed"
+        },
+        {
+          "start": 5.019231,
+          "end": 5.349615,
+          "shape": "ae"
+        },
+        {
+          "start": 5.349615,
+          "end": 5.384615,
+          "shape": "closed"
+        },
+        {
+          "start": 5.384615,
+          "end": 5.419615,
+          "shape": "closed"
+        },
+        {
+          "start": 5.419615,
+          "end": 5.599615,
+          "shape": "small_open"
+        },
+        {
+          "start": 5.599615,
+          "end": 5.634615,
+          "shape": "closed"
+        },
+        {
+          "start": 5.634615,
+          "end": 5.669615,
+          "shape": "closed"
+        },
+        {
+          "start": 5.669615,
+          "end": 5.907308,
+          "shape": "small_open"
+        },
+        {
+          "start": 5.907308,
+          "end": 5.942308,
+          "shape": "closed"
+        },
+        {
+          "start": 5.942308,
+          "end": 6.291923,
+          "shape": "small_open"
+        },
+        {
+          "start": 6.291923,
+          "end": 6.326923,
+          "shape": "closed"
+        },
+        {
+          "start": 6.326923,
+          "end": 6.522692,
+          "shape": "o_u"
+        },
+        {
+          "start": 6.522692,
+          "end": 6.557692,
+          "shape": "closed"
+        },
+        {
+          "start": 6.557692,
+          "end": 6.849615,
+          "shape": "o_u"
+        },
+        {
+          "start": 6.849615,
+          "end": 6.884615,
+          "shape": "closed"
+        },
+        {
+          "start": 6.884615,
+          "end": 7.291923,
+          "shape": "small_open"
+        },
+        {
+          "start": 7.291923,
+          "end": 7.326923,
+          "shape": "closed"
+        },
+        {
+          "start": 7.926923,
+          "end": 7.961923,
+          "shape": "closed"
+        },
+        {
+          "start": 7.961923,
+          "end": 8.243775,
+          "shape": "ae"
+        },
+        {
+          "start": 8.243775,
+          "end": 8.278775,
+          "shape": "closed"
+        },
+        {
+          "start": 8.278775,
+          "end": 8.614145,
+          "shape": "ae"
+        },
+        {
+          "start": 8.614145,
+          "end": 8.649145,
+          "shape": "closed"
+        },
+        {
+          "start": 8.649145,
+          "end": 8.684145,
+          "shape": "closed"
+        },
+        {
+          "start": 8.684145,
+          "end": 9.077108,
+          "shape": "small_open"
+        },
+        {
+          "start": 9.077108,
+          "end": 9.112108,
+          "shape": "closed"
+        },
+        {
+          "start": 9.112108,
+          "end": 9.42896,
+          "shape": "ae"
+        },
+        {
+          "start": 9.42896,
+          "end": 9.46396,
+          "shape": "closed"
+        },
+        {
+          "start": 9.46396,
+          "end": 9.817849,
+          "shape": "ae"
+        },
+        {
+          "start": 9.817849,
+          "end": 9.852849,
+          "shape": "closed"
+        },
+        {
+          "start": 9.852849,
+          "end": 10.391923,
+          "shape": "small_open"
+        },
+        {
+          "start": 10.391923,
+          "end": 10.426923,
+          "shape": "closed"
+        },
+        {
+          "start": 10.945442,
+          "end": 11.169701,
+          "shape": "small_open"
+        },
+        {
+          "start": 11.169701,
+          "end": 11.204701,
+          "shape": "closed"
+        },
+        {
+          "start": 11.204701,
+          "end": 11.42896,
+          "shape": "small_open"
+        },
+        {
+          "start": 11.42896,
+          "end": 11.46396,
+          "shape": "closed"
+        },
+        {
+          "start": 11.46396,
+          "end": 11.49896,
+          "shape": "closed"
+        },
+        {
+          "start": 11.49896,
+          "end": 12.05859,
+          "shape": "ae"
+        },
+        {
+          "start": 12.05859,
+          "end": 12.09359,
+          "shape": "closed"
+        },
+        {
+          "start": 12.09359,
+          "end": 12.410442,
+          "shape": "small_open"
+        },
+        {
+          "start": 12.410442,
+          "end": 12.445442,
+          "shape": "closed"
+        },
+        {
+          "start": 12.445442,
+          "end": 13.021553,
+          "shape": "ae"
+        },
+        {
+          "start": 13.021553,
+          "end": 13.056553,
+          "shape": "closed"
+        },
+        {
+          "start": 13.056553,
+          "end": 13.336367,
+          "shape": "small_open"
+        },
+        {
+          "start": 13.336367,
+          "end": 13.371367,
+          "shape": "closed"
+        },
+        {
+          "start": 13.371367,
+          "end": 13.44896,
+          "shape": "small_open"
+        },
+        {
+          "start": 13.44896,
+          "end": 13.46396,
+          "shape": "closed"
+        },
+        {
+          "start": 13.46396,
+          "end": 13.688219,
+          "shape": "small_open"
+        },
+        {
+          "start": 13.688219,
+          "end": 13.723219,
+          "shape": "closed"
+        },
+        {
+          "start": 13.723219,
+          "end": 14.243775,
+          "shape": "small_open"
+        },
+        {
+          "start": 14.243775,
+          "end": 14.278775,
+          "shape": "closed"
+        },
+        {
+          "start": 15.223219,
+          "end": 15.540071,
+          "shape": "ae"
+        },
+        {
+          "start": 15.540071,
+          "end": 15.575071,
+          "shape": "closed"
+        },
+        {
+          "start": 15.575071,
+          "end": 15.873404,
+          "shape": "small_open"
+        },
+        {
+          "start": 15.873404,
+          "end": 15.908404,
+          "shape": "closed"
+        },
+        {
+          "start": 15.908404,
+          "end": 16.280812,
+          "shape": "small_open"
+        },
+        {
+          "start": 16.280812,
+          "end": 16.315812,
+          "shape": "closed"
+        },
+        {
+          "start": 16.315812,
+          "end": 16.350812,
+          "shape": "closed"
+        },
+        {
+          "start": 16.350812,
+          "end": 16.391923,
+          "shape": "small_open"
+        },
+        {
+          "start": 16.391923,
+          "end": 16.426923,
+          "shape": "closed"
+        },
+        {
+          "start": 16.426923,
+          "end": 16.762293,
+          "shape": "small_open"
+        },
+        {
+          "start": 16.762293,
+          "end": 16.797293,
+          "shape": "closed"
+        },
+        {
+          "start": 16.797293,
+          "end": 17.077108,
+          "shape": "ae"
+        },
+        {
+          "start": 17.077108,
+          "end": 17.112108,
+          "shape": "closed"
+        },
+        {
+          "start": 17.112108,
+          "end": 17.189701,
+          "shape": "small_open"
+        },
+        {
+          "start": 17.189701,
+          "end": 17.204701,
+          "shape": "closed"
+        },
+        {
+          "start": 17.204701,
+          "end": 17.354886,
+          "shape": "ae"
+        },
+        {
+          "start": 17.354886,
+          "end": 17.389886,
+          "shape": "closed"
+        },
+        {
+          "start": 17.389886,
+          "end": 17.484516,
+          "shape": "small_open"
+        },
+        {
+          "start": 17.484516,
+          "end": 17.519516,
+          "shape": "closed"
+        },
+        {
+          "start": 17.519516,
+          "end": 17.706738,
+          "shape": "o_u"
+        },
+        {
+          "start": 17.706738,
+          "end": 17.741738,
+          "shape": "closed"
+        },
+        {
+          "start": 17.741738,
+          "end": 17.873404,
+          "shape": "ae"
+        },
+        {
+          "start": 17.873404,
+          "end": 17.908404,
+          "shape": "closed"
+        },
+        {
+          "start": 17.908404,
+          "end": 18.188219,
+          "shape": "ae"
+        },
+        {
+          "start": 18.188219,
+          "end": 18.223219,
+          "shape": "closed"
+        },
+        {
+          "start": 18.223219,
+          "end": 18.577108,
+          "shape": "small_open"
+        },
+        {
+          "start": 18.577108,
+          "end": 18.612108,
+          "shape": "closed"
+        },
+        {
+          "start": 18.612108,
+          "end": 18.671182,
+          "shape": "small_open"
+        },
+        {
+          "start": 18.671182,
+          "end": 18.686182,
+          "shape": "closed"
+        },
+        {
+          "start": 18.686182,
+          "end": 19.021553,
+          "shape": "small_open"
+        },
+        {
+          "start": 19.021553,
+          "end": 19.056553,
+          "shape": "closed"
+        },
+        {
+          "start": 19.056553,
+          "end": 19.262293,
+          "shape": "ae"
+        },
+        {
+          "start": 19.262293,
+          "end": 19.297293,
+          "shape": "closed"
+        },
+        {
+          "start": 19.297293,
+          "end": 19.762293,
+          "shape": "ae"
+        },
+        {
+          "start": 19.762293,
+          "end": 19.797293,
+          "shape": "closed"
+        },
+        {
+          "start": 20.241738,
+          "end": 20.540071,
+          "shape": "small_open"
+        },
+        {
+          "start": 20.540071,
+          "end": 20.575071,
+          "shape": "closed"
+        },
+        {
+          "start": 20.575071,
+          "end": 20.762293,
+          "shape": "ae"
+        },
+        {
+          "start": 20.762293,
+          "end": 20.797293,
+          "shape": "closed"
+        },
+        {
+          "start": 20.797293,
+          "end": 21.280812,
+          "shape": "o_u"
+        },
+        {
+          "start": 21.280812,
+          "end": 21.315812,
+          "shape": "closed"
+        },
+        {
+          "start": 21.315812,
+          "end": 21.55859,
+          "shape": "small_open"
+        },
+        {
+          "start": 21.55859,
+          "end": 21.59359,
+          "shape": "closed"
+        },
+        {
+          "start": 21.59359,
+          "end": 21.671182,
+          "shape": "small_open"
+        },
+        {
+          "start": 21.671182,
+          "end": 21.686182,
+          "shape": "closed"
+        },
+        {
+          "start": 21.686182,
+          "end": 21.873404,
+          "shape": "small_open"
+        },
+        {
+          "start": 21.873404,
+          "end": 21.908404,
+          "shape": "closed"
+        },
+        {
+          "start": 22.775071,
+          "end": 23.063881,
+          "shape": "ae"
+        },
+        {
+          "start": 23.063881,
+          "end": 23.098881,
+          "shape": "closed"
+        },
+        {
+          "start": 23.098881,
+          "end": 23.940071,
+          "shape": "ae"
+        },
+        {
+          "start": 23.940071,
+          "end": 23.975071,
+          "shape": "closed"
+        },
+        {
+          "start": 23.975071,
+          "end": 24.225785,
+          "shape": "small_open"
+        },
+        {
+          "start": 24.225785,
+          "end": 24.260785,
+          "shape": "closed"
+        },
+        {
+          "start": 24.260785,
+          "end": 24.359119,
+          "shape": "small_open"
+        },
+        {
+          "start": 24.359119,
+          "end": 24.394119,
+          "shape": "closed"
+        },
+        {
+          "start": 24.394119,
+          "end": 24.492452,
+          "shape": "o_u"
+        },
+        {
+          "start": 24.492452,
+          "end": 24.527452,
+          "shape": "closed"
+        },
+        {
+          "start": 24.527452,
+          "end": 24.663881,
+          "shape": "ae"
+        },
+        {
+          "start": 24.663881,
+          "end": 24.698881,
+          "shape": "closed"
+        },
+        {
+          "start": 24.698881,
+          "end": 24.733881,
+          "shape": "closed"
+        },
+        {
+          "start": 24.733881,
+          "end": 25.063881,
+          "shape": "small_open"
+        },
+        {
+          "start": 25.063881,
+          "end": 25.098881,
+          "shape": "closed"
+        },
+        {
+          "start": 25.098881,
+          "end": 25.444833,
+          "shape": "small_open"
+        },
+        {
+          "start": 25.444833,
+          "end": 25.479833,
+          "shape": "closed"
+        },
+        {
+          "start": 25.479833,
+          "end": 25.825785,
+          "shape": "small_open"
+        },
+        {
+          "start": 25.825785,
+          "end": 25.860785,
+          "shape": "closed"
+        },
+        {
+          "start": 26.813166,
+          "end": 26.892452,
+          "shape": "small_open"
+        },
+        {
+          "start": 26.892452,
+          "end": 26.927452,
+          "shape": "closed"
+        },
+        {
+          "start": 26.927452,
+          "end": 27.063881,
+          "shape": "small_open"
+        },
+        {
+          "start": 27.063881,
+          "end": 27.098881,
+          "shape": "closed"
+        },
+        {
+          "start": 27.098881,
+          "end": 27.235309,
+          "shape": "ae"
+        },
+        {
+          "start": 27.235309,
+          "end": 27.270309,
+          "shape": "closed"
+        },
+        {
+          "start": 27.270309,
+          "end": 27.305309,
+          "shape": "closed"
+        },
+        {
+          "start": 27.305309,
+          "end": 27.768642,
+          "shape": "ae"
+        },
+        {
+          "start": 27.768642,
+          "end": 27.803642,
+          "shape": "closed"
+        },
+        {
+          "start": 28.717928,
+          "end": 29.101976,
+          "shape": "small_open"
+        },
+        {
+          "start": 29.101976,
+          "end": 29.136976,
+          "shape": "closed"
+        },
+        {
+          "start": 29.803642,
+          "end": 29.997214,
+          "shape": "small_open"
+        },
+        {
+          "start": 29.997214,
+          "end": 30.032214,
+          "shape": "closed"
+        },
+        {
+          "start": 30.032214,
+          "end": 30.263881,
+          "shape": "o_u"
+        },
+        {
+          "start": 30.263881,
+          "end": 30.298881,
+          "shape": "closed"
+        },
+        {
+          "start": 30.298881,
+          "end": 30.644833,
+          "shape": "small_open"
+        },
+        {
+          "start": 30.644833,
+          "end": 30.679833,
+          "shape": "closed"
+        },
+        {
+          "start": 31.956024,
+          "end": 32.378167,
+          "shape": "ae"
+        },
+        {
+          "start": 32.378167,
+          "end": 32.413167,
+          "shape": "closed"
+        },
+        {
+          "start": 32.413167,
+          "end": 32.625786,
+          "shape": "small_open"
+        },
+        {
+          "start": 32.625786,
+          "end": 32.660786,
+          "shape": "closed"
+        },
+        {
+          "start": 32.660786,
+          "end": 33.063881,
+          "shape": "ae"
+        },
+        {
+          "start": 33.063881,
+          "end": 33.098881,
+          "shape": "closed"
+        },
+        {
+          "start": 33.098881,
+          "end": 33.133881,
+          "shape": "closed"
+        },
+        {
+          "start": 33.133881,
+          "end": 33.482929,
+          "shape": "ae"
+        },
+        {
+          "start": 33.482929,
+          "end": 33.517929,
+          "shape": "closed"
+        },
+        {
+          "start": 33.517929,
+          "end": 34.321024,
+          "shape": "small_open"
+        },
+        {
+          "start": 34.321024,
+          "end": 34.356024,
+          "shape": "closed"
+        },
+        {
+          "start": 34.87031,
+          "end": 34.9315,
+          "shape": "small_open"
+        },
+        {
+          "start": 34.9315,
+          "end": 34.9465,
+          "shape": "closed"
+        },
+        {
+          "start": 34.9465,
+          "end": 34.9815,
+          "shape": "closed"
+        },
+        {
+          "start": 34.9815,
+          "end": 35.368643,
+          "shape": "ae"
+        },
+        {
+          "start": 35.368643,
+          "end": 35.403643,
+          "shape": "closed"
+        },
+        {
+          "start": 35.841738,
+          "end": 36.073405,
+          "shape": "small_open"
+        },
+        {
+          "start": 36.073405,
+          "end": 36.108405,
+          "shape": "closed"
+        },
+        {
+          "start": 36.108405,
+          "end": 36.378167,
+          "shape": "small_open"
+        },
+        {
+          "start": 36.378167,
+          "end": 36.413167,
+          "shape": "closed"
+        },
+        {
+          "start": 36.984595,
+          "end": 37.019595,
+          "shape": "closed"
+        },
+        {
+          "start": 37.019595,
+          "end": 37.273405,
+          "shape": "small_open"
+        },
+        {
+          "start": 37.273405,
+          "end": 37.308405,
+          "shape": "closed"
+        },
+        {
+          "start": 37.308405,
+          "end": 37.559119,
+          "shape": "ae"
+        },
+        {
+          "start": 37.559119,
+          "end": 37.594119,
+          "shape": "closed"
+        },
+        {
+          "start": 37.594119,
+          "end": 38.03531,
+          "shape": "ae"
+        },
+        {
+          "start": 38.03531,
+          "end": 38.07031,
+          "shape": "closed"
+        },
+        {
+          "start": 38.07031,
+          "end": 38.416262,
+          "shape": "small_open"
+        },
+        {
+          "start": 38.416262,
+          "end": 38.451262,
+          "shape": "closed"
+        },
+        {
+          "start": 38.451262,
+          "end": 38.486262,
+          "shape": "closed"
+        },
+        {
+          "start": 38.486262,
+          "end": 38.759119,
+          "shape": "small_open"
+        },
+        {
+          "start": 38.759119,
+          "end": 38.794119,
+          "shape": "closed"
+        },
+        {
+          "start": 39.232214,
+          "end": 39.730548,
+          "shape": "small_open"
+        },
+        {
+          "start": 39.730548,
+          "end": 39.765548,
+          "shape": "closed"
+        },
+        {
+          "start": 39.765548,
+          "end": 40.5115,
+          "shape": "small_open"
+        },
+        {
+          "start": 40.5115,
+          "end": 40.5465,
+          "shape": "closed"
+        },
+        {
+          "start": 41.875071,
+          "end": 42.217429,
+          "shape": "small_open"
+        },
+        {
+          "start": 42.217429,
+          "end": 42.252429,
+          "shape": "closed"
+        },
+        {
+          "start": 42.252429,
+          "end": 42.538184,
+          "shape": "small_open"
+        },
+        {
+          "start": 42.538184,
+          "end": 42.573184,
+          "shape": "closed"
+        },
+        {
+          "start": 42.573184,
+          "end": 42.745731,
+          "shape": "small_open"
+        },
+        {
+          "start": 42.745731,
+          "end": 42.780731,
+          "shape": "closed"
+        },
+        {
+          "start": 42.780731,
+          "end": 42.915543,
+          "shape": "small_open"
+        },
+        {
+          "start": 42.915543,
+          "end": 42.950543,
+          "shape": "closed"
+        },
+        {
+          "start": 42.950543,
+          "end": 43.02875,
+          "shape": "ae"
+        },
+        {
+          "start": 43.02875,
+          "end": 43.06375,
+          "shape": "closed"
+        },
+        {
+          "start": 43.06375,
+          "end": 43.274033,
+          "shape": "small_open"
+        },
+        {
+          "start": 43.274033,
+          "end": 43.309033,
+          "shape": "closed"
+        },
+        {
+          "start": 43.309033,
+          "end": 43.344033,
+          "shape": "closed"
+        },
+        {
+          "start": 43.344033,
+          "end": 43.896675,
+          "shape": "ae"
+        },
+        {
+          "start": 43.896675,
+          "end": 43.931675,
+          "shape": "closed"
+        },
+        {
+          "start": 44.573184,
+          "end": 44.726863,
+          "shape": "small_open"
+        },
+        {
+          "start": 44.726863,
+          "end": 44.761863,
+          "shape": "closed"
+        },
+        {
+          "start": 44.761863,
+          "end": 44.877807,
+          "shape": "ae"
+        },
+        {
+          "start": 44.877807,
+          "end": 44.912807,
+          "shape": "closed"
+        },
+        {
+          "start": 44.912807,
+          "end": 45.066486,
+          "shape": "small_open"
+        },
+        {
+          "start": 45.066486,
+          "end": 45.101486,
+          "shape": "closed"
+        },
+        {
+          "start": 45.101486,
+          "end": 45.292901,
+          "shape": "small_open"
+        },
+        {
+          "start": 45.292901,
+          "end": 45.327901,
+          "shape": "closed"
+        },
+        {
+          "start": 45.327901,
+          "end": 45.57592,
+          "shape": "ae"
+        },
+        {
+          "start": 45.57592,
+          "end": 45.61092,
+          "shape": "closed"
+        },
+        {
+          "start": 45.61092,
+          "end": 45.745731,
+          "shape": "small_open"
+        },
+        {
+          "start": 45.745731,
+          "end": 45.780731,
+          "shape": "closed"
+        },
+        {
+          "start": 45.780731,
+          "end": 46.047618,
+          "shape": "ae"
+        },
+        {
+          "start": 46.047618,
+          "end": 46.082618,
+          "shape": "closed"
+        },
+        {
+          "start": 46.082618,
+          "end": 46.311769,
+          "shape": "ae"
+        },
+        {
+          "start": 46.311769,
+          "end": 46.346769,
+          "shape": "closed"
+        },
+        {
+          "start": 46.346769,
+          "end": 46.689128,
+          "shape": "ae"
+        },
+        {
+          "start": 46.689128,
+          "end": 46.724128,
+          "shape": "closed"
+        },
+        {
+          "start": 46.724128,
+          "end": 46.840071,
+          "shape": "small_open"
+        },
+        {
+          "start": 46.840071,
+          "end": 46.875071,
+          "shape": "closed"
+        },
+        {
+          "start": 46.875071,
+          "end": 47.085354,
+          "shape": "small_open"
+        },
+        {
+          "start": 47.085354,
+          "end": 47.120354,
+          "shape": "closed"
+        },
+        {
+          "start": 47.120354,
+          "end": 47.155354,
+          "shape": "closed"
+        },
+        {
+          "start": 47.155354,
+          "end": 47.292901,
+          "shape": "small_open"
+        },
+        {
+          "start": 47.292901,
+          "end": 47.327901,
+          "shape": "closed"
+        },
+        {
+          "start": 47.327901,
+          "end": 47.632524,
+          "shape": "small_open"
+        },
+        {
+          "start": 47.632524,
+          "end": 47.667524,
+          "shape": "closed"
+        },
+        {
+          "start": 48.761863,
+          "end": 48.796863,
+          "shape": "closed"
+        },
+        {
+          "start": 48.796863,
+          "end": 48.822335,
+          "shape": "small_open"
+        },
+        {
+          "start": 48.822335,
+          "end": 48.837335,
+          "shape": "closed"
+        },
+        {
+          "start": 48.837335,
+          "end": 49.141958,
+          "shape": "ae"
+        },
+        {
+          "start": 49.141958,
+          "end": 49.176958,
+          "shape": "closed"
+        },
+        {
+          "start": 49.176958,
+          "end": 49.57592,
+          "shape": "ae"
+        },
+        {
+          "start": 49.57592,
+          "end": 49.61092,
+          "shape": "closed"
+        },
+        {
+          "start": 49.61092,
+          "end": 50.009882,
+          "shape": "ae"
+        },
+        {
+          "start": 50.009882,
+          "end": 50.044882,
+          "shape": "closed"
+        },
+        {
+          "start": 50.044882,
+          "end": 50.538184,
+          "shape": "ae"
+        },
+        {
+          "start": 50.538184,
+          "end": 50.573184,
+          "shape": "closed"
+        },
+        {
+          "start": 51.430732,
+          "end": 51.747584,
+          "shape": "ae"
+        },
+        {
+          "start": 51.747584,
+          "end": 51.782584,
+          "shape": "closed"
+        },
+        {
+          "start": 51.782584,
+          "end": 51.988325,
+          "shape": "small_open"
+        },
+        {
+          "start": 51.988325,
+          "end": 52.023325,
+          "shape": "closed"
+        },
+        {
+          "start": 52.023325,
+          "end": 52.284621,
+          "shape": "small_open"
+        },
+        {
+          "start": 52.284621,
+          "end": 52.319621,
+          "shape": "closed"
+        },
+        {
+          "start": 52.319621,
+          "end": 52.354621,
+          "shape": "closed"
+        },
+        {
+          "start": 52.354621,
+          "end": 53.358695,
+          "shape": "ae"
+        },
+        {
+          "start": 53.358695,
+          "end": 53.393695,
+          "shape": "closed"
+        },
+        {
+          "start": 53.393695,
+          "end": 53.766102,
+          "shape": "small_open"
+        },
+        {
+          "start": 53.766102,
+          "end": 53.801102,
+          "shape": "closed"
+        },
+        {
+          "start": 53.801102,
+          "end": 53.969806,
+          "shape": "small_open"
+        },
+        {
+          "start": 53.969806,
+          "end": 54.004806,
+          "shape": "closed"
+        },
+        {
+          "start": 54.004806,
+          "end": 54.340176,
+          "shape": "ae"
+        },
+        {
+          "start": 54.340176,
+          "end": 54.375176,
+          "shape": "closed"
+        },
+        {
+          "start": 54.375176,
+          "end": 54.858695,
+          "shape": "small_open"
+        },
+        {
+          "start": 54.858695,
+          "end": 54.893695,
+          "shape": "closed"
+        },
+        {
+          "start": 55.70851,
+          "end": 55.914251,
+          "shape": "small_open"
+        },
+        {
+          "start": 55.914251,
+          "end": 55.949251,
+          "shape": "closed"
+        },
+        {
+          "start": 55.949251,
+          "end": 56.247584,
+          "shape": "small_open"
+        },
+        {
+          "start": 56.247584,
+          "end": 56.282584,
+          "shape": "closed"
+        },
+        {
+          "start": 56.282584,
+          "end": 56.617954,
+          "shape": "small_open"
+        },
+        {
+          "start": 56.617954,
+          "end": 56.652954,
+          "shape": "closed"
+        },
+        {
+          "start": 56.652954,
+          "end": 56.932769,
+          "shape": "o_u"
+        },
+        {
+          "start": 56.932769,
+          "end": 56.967769,
+          "shape": "closed"
+        },
+        {
+          "start": 56.967769,
+          "end": 57.099436,
+          "shape": "ae"
+        },
+        {
+          "start": 57.099436,
+          "end": 57.134436,
+          "shape": "closed"
+        },
+        {
+          "start": 57.134436,
+          "end": 57.247584,
+          "shape": "small_open"
+        },
+        {
+          "start": 57.247584,
+          "end": 57.282584,
+          "shape": "closed"
+        },
+        {
+          "start": 57.282584,
+          "end": 57.654991,
+          "shape": "small_open"
+        },
+        {
+          "start": 57.654991,
+          "end": 57.689991,
+          "shape": "closed"
+        },
+        {
+          "start": 57.689991,
+          "end": 57.803139,
+          "shape": "small_open"
+        },
+        {
+          "start": 57.803139,
+          "end": 57.838139,
+          "shape": "closed"
+        },
+        {
+          "start": 57.838139,
+          "end": 57.873139,
+          "shape": "closed"
+        },
+        {
+          "start": 57.873139,
+          "end": 57.969806,
+          "shape": "small_open"
+        },
+        {
+          "start": 57.969806,
+          "end": 58.004806,
+          "shape": "closed"
+        },
+        {
+          "start": 58.004806,
+          "end": 58.395732,
+          "shape": "ae"
+        },
+        {
+          "start": 58.395732,
+          "end": 58.430732,
+          "shape": "closed"
+        },
+        {
+          "start": 58.430732,
+          "end": 58.969806,
+          "shape": "ae"
+        },
+        {
+          "start": 58.969806,
+          "end": 59.004806,
+          "shape": "closed"
+        },
+        {
+          "start": 59.004806,
+          "end": 59.266102,
+          "shape": "ae"
+        },
+        {
+          "start": 59.266102,
+          "end": 59.301102,
+          "shape": "closed"
+        },
+        {
+          "start": 59.301102,
+          "end": 59.67351,
+          "shape": "ae"
+        },
+        {
+          "start": 59.67351,
+          "end": 59.70851,
+          "shape": "closed"
+        },
+        {
+          "start": 59.70851,
+          "end": 59.74351,
+          "shape": "closed"
+        },
+        {
+          "start": 59.74351,
+          "end": 59.914251,
+          "shape": "small_open"
+        },
+        {
+          "start": 59.914251,
+          "end": 59.949251,
+          "shape": "closed"
+        },
+        {
+          "start": 59.949251,
+          "end": 60.358695,
+          "shape": "ae"
+        },
+        {
+          "start": 60.358695,
+          "end": 60.393695,
+          "shape": "closed"
+        },
+        {
+          "start": 61.671473,
+          "end": 61.706473,
+          "shape": "closed"
+        },
+        {
+          "start": 61.706473,
+          "end": 61.988325,
+          "shape": "small_open"
+        },
+        {
+          "start": 61.988325,
+          "end": 62.023325,
+          "shape": "closed"
+        },
+        {
+          "start": 62.023325,
+          "end": 62.136473,
+          "shape": "small_open"
+        },
+        {
+          "start": 62.136473,
+          "end": 62.171473,
+          "shape": "closed"
+        },
+        {
+          "start": 62.171473,
+          "end": 62.247584,
+          "shape": "small_open"
+        },
+        {
+          "start": 62.247584,
+          "end": 62.282584,
+          "shape": "closed"
+        },
+        {
+          "start": 62.282584,
+          "end": 62.562399,
+          "shape": "o_u"
+        },
+        {
+          "start": 62.562399,
+          "end": 62.597399,
+          "shape": "closed"
+        },
+        {
+          "start": 62.597399,
+          "end": 63.099436,
+          "shape": "small_open"
+        },
+        {
+          "start": 63.099436,
+          "end": 63.134436,
+          "shape": "closed"
+        },
+        {
+          "start": 63.282584,
+          "end": 63.469806,
+          "shape": "small_open"
+        },
+        {
+          "start": 63.469806,
+          "end": 63.504806,
+          "shape": "closed"
+        },
+        {
+          "start": 63.504806,
+          "end": 63.654991,
+          "shape": "small_open"
+        },
+        {
+          "start": 63.654991,
+          "end": 63.689991,
+          "shape": "closed"
+        },
+        {
+          "start": 63.689991,
+          "end": 63.932769,
+          "shape": "o_u"
+        },
+        {
+          "start": 63.932769,
+          "end": 63.967769,
+          "shape": "closed"
+        },
+        {
+          "start": 63.967769,
+          "end": 64.192028,
+          "shape": "small_open"
+        },
+        {
+          "start": 64.192028,
+          "end": 64.227028,
+          "shape": "closed"
+        },
+        {
+          "start": 64.227028,
+          "end": 64.304621,
+          "shape": "small_open"
+        },
+        {
+          "start": 64.304621,
+          "end": 64.319621,
+          "shape": "closed"
+        },
+        {
+          "start": 64.319621,
+          "end": 64.525362,
+          "shape": "ae"
+        },
+        {
+          "start": 64.525362,
+          "end": 64.560362,
+          "shape": "closed"
+        },
+        {
+          "start": 64.560362,
+          "end": 64.595362,
+          "shape": "closed"
+        },
+        {
+          "start": 64.595362,
+          "end": 64.821658,
+          "shape": "small_open"
+        },
+        {
+          "start": 64.821658,
+          "end": 64.856658,
+          "shape": "closed"
+        },
+        {
+          "start": 64.856658,
+          "end": 65.192028,
+          "shape": "small_open"
+        },
+        {
+          "start": 65.192028,
+          "end": 65.227028,
+          "shape": "closed"
+        },
+        {
+          "start": 66.056658,
+          "end": 66.840706,
+          "shape": "ae"
+        },
+        {
+          "start": 66.840706,
+          "end": 66.875706,
+          "shape": "closed"
+        },
+        {
+          "start": 66.875706,
+          "end": 67.640706,
+          "shape": "ae"
+        },
+        {
+          "start": 67.640706,
+          "end": 67.675706,
+          "shape": "closed"
+        },
+        {
+          "start": 67.675706,
+          "end": 68.040706,
+          "shape": "ae"
+        },
+        {
+          "start": 68.040706,
+          "end": 68.075706,
+          "shape": "closed"
+        },
+        {
+          "start": 68.075706,
+          "end": 69.145468,
+          "shape": "small_open"
+        },
+        {
+          "start": 69.145468,
+          "end": 69.180468,
+          "shape": "closed"
+        },
+        {
+          "start": 69.180468,
+          "end": 71.488325,
+          "shape": "ae"
+        },
+        {
+          "start": 71.488325,
+          "end": 71.523325,
+          "shape": "closed"
+        },
+        {
+          "start": 71.523325,
+          "end": 71.697848,
+          "shape": "ae"
+        },
+        {
+          "start": 71.697848,
+          "end": 71.732848,
+          "shape": "closed"
+        },
+        {
+          "start": 71.732848,
+          "end": 72.32642,
+          "shape": "small_open"
+        },
+        {
+          "start": 72.32642,
+          "end": 72.36142,
+          "shape": "closed"
+        },
+        {
+          "start": 72.609039,
+          "end": 72.707372,
+          "shape": "small_open"
+        },
+        {
+          "start": 72.707372,
+          "end": 72.742372,
+          "shape": "closed"
+        },
+        {
+          "start": 72.742372,
+          "end": 72.935944,
+          "shape": "small_open"
+        },
+        {
+          "start": 72.935944,
+          "end": 72.970944,
+          "shape": "closed"
+        },
+        {
+          "start": 72.970944,
+          "end": 73.164515,
+          "shape": "small_open"
+        },
+        {
+          "start": 73.164515,
+          "end": 73.199515,
+          "shape": "closed"
+        },
+        {
+          "start": 73.199515,
+          "end": 73.374039,
+          "shape": "small_open"
+        },
+        {
+          "start": 73.374039,
+          "end": 73.409039,
+          "shape": "closed"
+        },
+        {
+          "start": 73.409039,
+          "end": 73.678801,
+          "shape": "small_open"
+        },
+        {
+          "start": 73.678801,
+          "end": 73.713801,
+          "shape": "closed"
+        },
+        {
+          "start": 75.104277,
+          "end": 75.335944,
+          "shape": "o_u"
+        },
+        {
+          "start": 75.335944,
+          "end": 75.370944,
+          "shape": "closed"
+        },
+        {
+          "start": 75.370944,
+          "end": 75.52642,
+          "shape": "small_open"
+        },
+        {
+          "start": 75.52642,
+          "end": 75.56142,
+          "shape": "closed"
+        },
+        {
+          "start": 75.56142,
+          "end": 75.754991,
+          "shape": "small_open"
+        },
+        {
+          "start": 75.754991,
+          "end": 75.789991,
+          "shape": "closed"
+        },
+        {
+          "start": 75.789991,
+          "end": 76.574039,
+          "shape": "small_open"
+        },
+        {
+          "start": 76.574039,
+          "end": 76.609039,
+          "shape": "closed"
+        },
+        {
+          "start": 77.580468,
+          "end": 77.92642,
+          "shape": "small_open"
+        },
+        {
+          "start": 77.92642,
+          "end": 77.96142,
+          "shape": "closed"
+        },
+        {
+          "start": 77.96142,
+          "end": 78.097848,
+          "shape": "ae"
+        },
+        {
+          "start": 78.097848,
+          "end": 78.132848,
+          "shape": "closed"
+        },
+        {
+          "start": 78.132848,
+          "end": 78.935944,
+          "shape": "o_u"
+        },
+        {
+          "start": 78.935944,
+          "end": 78.970944,
+          "shape": "closed"
+        },
+        {
+          "start": 79.16142,
+          "end": 79.564515,
+          "shape": "ae"
+        },
+        {
+          "start": 79.564515,
+          "end": 79.599515,
+          "shape": "closed"
+        },
+        {
+          "start": 79.599515,
+          "end": 79.634515,
+          "shape": "closed"
+        },
+        {
+          "start": 79.634515,
+          "end": 79.774039,
+          "shape": "small_open"
+        },
+        {
+          "start": 79.774039,
+          "end": 79.809039,
+          "shape": "closed"
+        },
+        {
+          "start": 79.809039,
+          "end": 79.844039,
+          "shape": "closed"
+        },
+        {
+          "start": 79.844039,
+          "end": 80.135944,
+          "shape": "small_open"
+        },
+        {
+          "start": 80.135944,
+          "end": 80.170944,
+          "shape": "closed"
+        },
+        {
+          "start": 80.170944,
+          "end": 80.516896,
+          "shape": "small_open"
+        },
+        {
+          "start": 80.516896,
+          "end": 80.551896,
+          "shape": "closed"
+        },
+        {
+          "start": 80.551896,
+          "end": 80.669277,
+          "shape": "small_open"
+        },
+        {
+          "start": 80.669277,
+          "end": 80.704277,
+          "shape": "closed"
+        },
+        {
+          "start": 80.704277,
+          "end": 81.012134,
+          "shape": "ae"
+        },
+        {
+          "start": 81.012134,
+          "end": 81.047134,
+          "shape": "closed"
+        },
+        {
+          "start": 81.842372,
+          "end": 82.042666,
+          "shape": "ae"
+        },
+        {
+          "start": 82.042666,
+          "end": 82.077666,
+          "shape": "closed"
+        },
+        {
+          "start": 82.077666,
+          "end": 82.199529,
+          "shape": "small_open"
+        },
+        {
+          "start": 82.199529,
+          "end": 82.234529,
+          "shape": "closed"
+        },
+        {
+          "start": 82.234529,
+          "end": 82.395607,
+          "shape": "small_open"
+        },
+        {
+          "start": 82.395607,
+          "end": 82.430607,
+          "shape": "closed"
+        },
+        {
+          "start": 82.430607,
+          "end": 82.465607,
+          "shape": "closed"
+        },
+        {
+          "start": 82.465607,
+          "end": 82.611294,
+          "shape": "o_u"
+        },
+        {
+          "start": 82.611294,
+          "end": 82.646294,
+          "shape": "closed"
+        },
+        {
+          "start": 82.646294,
+          "end": 83.081882,
+          "shape": "ae"
+        },
+        {
+          "start": 83.081882,
+          "end": 83.116882,
+          "shape": "closed"
+        },
+        {
+          "start": 83.116882,
+          "end": 83.454431,
+          "shape": "small_open"
+        },
+        {
+          "start": 83.454431,
+          "end": 83.489431,
+          "shape": "closed"
+        },
+        {
+          "start": 83.489431,
+          "end": 83.82698,
+          "shape": "small_open"
+        },
+        {
+          "start": 83.82698,
+          "end": 83.86198,
+          "shape": "closed"
+        },
+        {
+          "start": 83.86198,
+          "end": 84.121097,
+          "shape": "ae"
+        },
+        {
+          "start": 84.121097,
+          "end": 84.156097,
+          "shape": "closed"
+        },
+        {
+          "start": 84.156097,
+          "end": 84.454431,
+          "shape": "small_open"
+        },
+        {
+          "start": 84.454431,
+          "end": 84.489431,
+          "shape": "closed"
+        },
+        {
+          "start": 84.489431,
+          "end": 84.524431,
+          "shape": "closed"
+        },
+        {
+          "start": 84.524431,
+          "end": 84.807372,
+          "shape": "ae"
+        },
+        {
+          "start": 84.807372,
+          "end": 84.842372,
+          "shape": "closed"
+        },
+        {
+          "start": 84.842372,
+          "end": 85.081882,
+          "shape": "small_open"
+        },
+        {
+          "start": 85.081882,
+          "end": 85.116882,
+          "shape": "closed"
+        },
+        {
+          "start": 86.13649,
+          "end": 86.199921,
+          "shape": "ae"
+        },
+        {
+          "start": 86.199921,
+          "end": 86.214921,
+          "shape": "closed"
+        },
+        {
+          "start": 86.214921,
+          "end": 86.356392,
+          "shape": "small_open"
+        },
+        {
+          "start": 86.356392,
+          "end": 86.391392,
+          "shape": "closed"
+        },
+        {
+          "start": 86.391392,
+          "end": 86.532862,
+          "shape": "small_open"
+        },
+        {
+          "start": 86.532862,
+          "end": 86.567862,
+          "shape": "closed"
+        },
+        {
+          "start": 86.567862,
+          "end": 86.768156,
+          "shape": "small_open"
+        },
+        {
+          "start": 86.768156,
+          "end": 86.803156,
+          "shape": "closed"
+        },
+        {
+          "start": 86.803156,
+          "end": 87.179921,
+          "shape": "ae"
+        },
+        {
+          "start": 87.179921,
+          "end": 87.214921,
+          "shape": "closed"
+        },
+        {
+          "start": 87.214921,
+          "end": 87.591686,
+          "shape": "small_open"
+        },
+        {
+          "start": 87.591686,
+          "end": 87.626686,
+          "shape": "closed"
+        },
+        {
+          "start": 87.626686,
+          "end": 87.866196,
+          "shape": "small_open"
+        },
+        {
+          "start": 87.866196,
+          "end": 87.901196,
+          "shape": "closed"
+        },
+        {
+          "start": 87.901196,
+          "end": 88.219137,
+          "shape": "ae"
+        },
+        {
+          "start": 88.219137,
+          "end": 88.254137,
+          "shape": "closed"
+        },
+        {
+          "start": 88.254137,
+          "end": 88.572078,
+          "shape": "small_open"
+        },
+        {
+          "start": 88.572078,
+          "end": 88.607078,
+          "shape": "closed"
+        },
+        {
+          "start": 88.607078,
+          "end": 89.160313,
+          "shape": "ae"
+        },
+        {
+          "start": 89.160313,
+          "end": 89.195313,
+          "shape": "closed"
+        },
+        {
+          "start": 89.195313,
+          "end": 89.572078,
+          "shape": "ae"
+        },
+        {
+          "start": 89.572078,
+          "end": 89.607078,
+          "shape": "closed"
+        },
+        {
+          "start": 89.607078,
+          "end": 89.787764,
+          "shape": "small_open"
+        },
+        {
+          "start": 89.787764,
+          "end": 89.822764,
+          "shape": "closed"
+        },
+        {
+          "start": 89.822764,
+          "end": 90.10149,
+          "shape": "ae"
+        },
+        {
+          "start": 90.10149,
+          "end": 90.13649,
+          "shape": "closed"
+        },
+        {
+          "start": 90.13649,
+          "end": 90.415215,
+          "shape": "o_u"
+        },
+        {
+          "start": 90.415215,
+          "end": 90.450215,
+          "shape": "closed"
+        },
+        {
+          "start": 90.450215,
+          "end": 90.650509,
+          "shape": "small_open"
+        },
+        {
+          "start": 90.650509,
+          "end": 90.685509,
+          "shape": "closed"
+        },
+        {
+          "start": 91.505117,
+          "end": 91.643194,
+          "shape": "small_open"
+        },
+        {
+          "start": 91.643194,
+          "end": 91.678194,
+          "shape": "closed"
+        },
+        {
+          "start": 91.678194,
+          "end": 91.777809,
+          "shape": "small_open"
+        },
+        {
+          "start": 91.777809,
+          "end": 91.812809,
+          "shape": "closed"
+        },
+        {
+          "start": 91.812809,
+          "end": 91.931655,
+          "shape": "ae"
+        },
+        {
+          "start": 91.931655,
+          "end": 91.966655,
+          "shape": "closed"
+        },
+        {
+          "start": 91.966655,
+          "end": 92.047809,
+          "shape": "ae"
+        },
+        {
+          "start": 92.047809,
+          "end": 92.062809,
+          "shape": "closed"
+        },
+        {
+          "start": 92.062809,
+          "end": 92.316271,
+          "shape": "ae"
+        },
+        {
+          "start": 92.316271,
+          "end": 92.351271,
+          "shape": "closed"
+        },
+        {
+          "start": 92.351271,
+          "end": 92.816271,
+          "shape": "ae"
+        },
+        {
+          "start": 92.816271,
+          "end": 92.851271,
+          "shape": "closed"
+        },
+        {
+          "start": 93.08204,
+          "end": 93.29704,
+          "shape": "small_open"
+        },
+        {
+          "start": 93.29704,
+          "end": 93.33204,
+          "shape": "closed"
+        },
+        {
+          "start": 93.33204,
+          "end": 93.508579,
+          "shape": "small_open"
+        },
+        {
+          "start": 93.508579,
+          "end": 93.543579,
+          "shape": "closed"
+        },
+        {
+          "start": 93.543579,
+          "end": 94.008579,
+          "shape": "small_open"
+        },
+        {
+          "start": 94.008579,
+          "end": 94.043579,
+          "shape": "closed"
+        },
+        {
+          "start": 95.274348,
+          "end": 95.309348,
+          "shape": "closed"
+        },
+        {
+          "start": 95.309348,
+          "end": 95.393194,
+          "shape": "small_open"
+        },
+        {
+          "start": 95.393194,
+          "end": 95.428194,
+          "shape": "closed"
+        },
+        {
+          "start": 95.428194,
+          "end": 95.585502,
+          "shape": "small_open"
+        },
+        {
+          "start": 95.585502,
+          "end": 95.620502,
+          "shape": "closed"
+        },
+        {
+          "start": 95.620502,
+          "end": 95.893194,
+          "shape": "small_open"
+        },
+        {
+          "start": 95.893194,
+          "end": 95.928194,
+          "shape": "closed"
+        },
+        {
+          "start": 95.928194,
+          "end": 96.258579,
+          "shape": "small_open"
+        },
+        {
+          "start": 96.258579,
+          "end": 96.293579,
+          "shape": "closed"
+        },
+        {
+          "start": 96.293579,
+          "end": 96.739348,
+          "shape": "small_open"
+        },
+        {
+          "start": 96.739348,
+          "end": 96.774348,
+          "shape": "closed"
+        },
+        {
+          "start": 96.774348,
+          "end": 97.027809,
+          "shape": "ae"
+        },
+        {
+          "start": 97.027809,
+          "end": 97.062809,
+          "shape": "closed"
+        },
+        {
+          "start": 97.062809,
+          "end": 97.354732,
+          "shape": "small_open"
+        },
+        {
+          "start": 97.354732,
+          "end": 97.389732,
+          "shape": "closed"
+        },
+        {
+          "start": 97.389732,
+          "end": 98.066271,
+          "shape": "ae"
+        },
+        {
+          "start": 98.066271,
+          "end": 98.101271,
+          "shape": "closed"
+        },
+        {
+          "start": 99.043579,
+          "end": 99.123963,
+          "shape": "small_open"
+        },
+        {
+          "start": 99.123963,
+          "end": 99.158963,
+          "shape": "closed"
+        },
+        {
+          "start": 99.158963,
+          "end": 99.393194,
+          "shape": "small_open"
+        },
+        {
+          "start": 99.393194,
+          "end": 99.428194,
+          "shape": "closed"
+        },
+        {
+          "start": 99.428194,
+          "end": 99.681655,
+          "shape": "ae"
+        },
+        {
+          "start": 99.681655,
+          "end": 99.716655,
+          "shape": "closed"
+        },
+        {
+          "start": 99.716655,
+          "end": 99.950886,
+          "shape": "o_u"
+        },
+        {
+          "start": 99.950886,
+          "end": 99.985886,
+          "shape": "closed"
+        },
+        {
+          "start": 99.985886,
+          "end": 100.450886,
+          "shape": "small_open"
+        },
+        {
+          "start": 100.450886,
+          "end": 100.485886,
+          "shape": "closed"
+        },
+        {
+          "start": 101.389732,
+          "end": 101.931655,
+          "shape": "small_open"
+        },
+        {
+          "start": 101.931655,
+          "end": 101.966655,
+          "shape": "closed"
+        },
+        {
+          "start": 102.620502,
+          "end": 102.912425,
+          "shape": "small_open"
+        },
+        {
+          "start": 102.912425,
+          "end": 102.947425,
+          "shape": "closed"
+        },
+        {
+          "start": 102.947425,
+          "end": 103.123963,
+          "shape": "small_open"
+        },
+        {
+          "start": 103.123963,
+          "end": 103.158963,
+          "shape": "closed"
+        },
+        {
+          "start": 103.158963,
+          "end": 103.258579,
+          "shape": "small_open"
+        },
+        {
+          "start": 103.258579,
+          "end": 103.293579,
+          "shape": "closed"
+        },
+        {
+          "start": 103.293579,
+          "end": 103.489348,
+          "shape": "ae"
+        },
+        {
+          "start": 103.489348,
+          "end": 103.524348,
+          "shape": "closed"
+        },
+        {
+          "start": 103.524348,
+          "end": 103.643194,
+          "shape": "small_open"
+        },
+        {
+          "start": 103.643194,
+          "end": 103.678194,
+          "shape": "closed"
+        },
+        {
+          "start": 103.678194,
+          "end": 103.912425,
+          "shape": "small_open"
+        },
+        {
+          "start": 103.912425,
+          "end": 103.947425,
+          "shape": "closed"
+        },
+        {
+          "start": 103.947425,
+          "end": 104.239348,
+          "shape": "ae"
+        },
+        {
+          "start": 104.239348,
+          "end": 104.274348,
+          "shape": "closed"
+        },
+        {
+          "start": 104.274348,
+          "end": 104.662425,
+          "shape": "ae"
+        },
+        {
+          "start": 104.662425,
+          "end": 104.697425,
+          "shape": "closed"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "cafe_hook",
+      "start": 0.0,
+      "end": 4.0,
+      "background": "attachment_cafe_r5",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.05,
+        "path": [
+          {
+            "at": 0.0,
+            "center": [
+              960,
+              540
+            ],
+            "zoom": 1.05
+          },
+          {
+            "at": 3.5,
+            "center": [
+              800,
+              520
+            ],
+            "zoom": 1.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "cafe_soul_freeze",
+      "start": 4.0,
+      "end": 7.8,
+      "background": "attachment_cafe_r5",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          540,
+          410
+        ],
+        "zoom": 1.65
+      }
+    },
+    {
+      "id": "career_compare",
+      "start": 7.8,
+      "end": 18.5,
+      "background": "attachment_cafe_r5",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.15,
+        "path": [
+          {
+            "at": 7.8,
+            "center": [
+              960,
+              540
+            ],
+            "zoom": 1.15
+          },
+          {
+            "at": 15.0,
+            "center": [
+              960,
+              530
+            ],
+            "zoom": 1.15
+          }
+        ]
+      }
+    },
+    {
+      "id": "cartoons_admission",
+      "start": 18.5,
+      "end": 22.7,
+      "background": "attachment_cafe_r5",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          880,
+          530
+        ],
+        "zoom": 1.2
+      }
+    },
+    {
+      "id": "polite_nod_card",
+      "start": 22.7,
+      "end": 29.0,
+      "background": "attachment_cafe_r5",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.15
+      }
+    },
+    {
+      "id": "unemployed_stamp",
+      "start": 29.0,
+      "end": 31.9,
+      "background": "attachment_cafe_r5",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          860,
+          440
+        ],
+        "zoom": 1.35,
+        "path": [
+          {
+            "at": 29.0,
+            "center": [
+              860,
+              440
+            ],
+            "zoom": 1.35
+          },
+          {
+            "at": 31.5,
+            "center": [
+              860,
+              430
+            ],
+            "zoom": 1.45
+          }
+        ]
+      }
+    },
+    {
+      "id": "studio_earnings",
+      "start": 31.9,
+      "end": 41.8,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.1,
+        "path": [
+          {
+            "at": 31.9,
+            "center": [
+              960,
+              540
+            ],
+            "zoom": 1.1
+          },
+          {
+            "at": 38.0,
+            "center": [
+              980,
+              520
+            ],
+            "zoom": 1.18
+          }
+        ]
+      }
+    },
+    {
+      "id": "kofi_confession",
+      "start": 41.8,
+      "end": 51.4,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          530
+        ],
+        "zoom": 1.15
+      }
+    },
+    {
+      "id": "tablet_grind",
+      "start": 51.4,
+      "end": 66.0,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.12,
+        "path": [
+          {
+            "at": 51.4,
+            "center": [
+              960,
+              540
+            ],
+            "zoom": 1.12
+          },
+          {
+            "at": 62.0,
+            "center": [
+              980,
+              510
+            ],
+            "zoom": 1.18
+          }
+        ]
+      }
+    },
+    {
+      "id": "night_algorithm",
+      "start": 66.0,
+      "end": 81.8,
+      "background": "thought",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.15,
+        "path": [
+          {
+            "at": 66.0,
+            "center": [
+              960,
+              540
+            ],
+            "zoom": 1.15
+          },
+          {
+            "at": 74.0,
+            "center": [
+              980,
+              520
+            ],
+            "zoom": 1.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "doubt_storm",
+      "start": 81.8,
+      "end": 87.5,
+      "background": "thought",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          540,
+          400
+        ],
+        "zoom": 1.65,
+        "path": [
+          {
+            "at": 81.8,
+            "center": [
+              540,
+              400
+            ],
+            "zoom": 1.65
+          },
+          {
+            "at": 86.0,
+            "center": [
+              540,
+              380
+            ],
+            "zoom": 1.75
+          }
+        ]
+      }
+    },
+    {
+      "id": "existential_hold",
+      "start": 87.5,
+      "end": 91.5,
+      "background": "thought",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          540,
+          380
+        ],
+        "zoom": 1.75
+      }
+    },
+    {
+      "id": "care_heart",
+      "start": 91.5,
+      "end": 101.0,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          880,
+          530
+        ],
+        "zoom": 1.18
+      }
+    },
+    {
+      "id": "draw_next_frame",
+      "start": 101.0,
+      "end": 106.4,
+      "background": "nemi_creator_studio",
+      "actors": {
+        "nemi": {
+          "position": [
+            540,
+            560
+          ],
+          "scale": 1.75
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          530
+        ],
+        "zoom": 1.15,
+        "path": [
+          {
+            "at": 101.0,
+            "center": [
+              960,
+              530
+            ],
+            "zoom": 1.15
+          },
+          {
+            "at": 106.0,
+            "center": [
+              960,
+              540
+            ],
+            "zoom": 1.08
+          }
+        ]
+      }
+    }
+  ],
+  "drawings": [
+    {
+      "author": "nemi",
+      "kind": "embarrassed_question_bubble",
+      "at": 1.403846,
+      "end": 7.3,
+      "position": [
+        1240,
+        420
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "live",
+      "duration": 0.6,
+      "event": "question"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_normal_jobs",
+      "at": 9.46396,
+      "end": 20.0,
+      "position": [
+        1280,
+        460
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "duration": 0.5,
+      "event": "real_jobs"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_derpy_cartoon",
+      "at": 20.797293,
+      "end": 22.7,
+      "position": [
+        1250,
+        450
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "live",
+      "duration": 0.7,
+      "event": "cartoons"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_polite_smile",
+      "at": 24.698881,
+      "end": 29.5,
+      "position": [
+        1260,
+        460
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "duration": 0.5,
+      "event": "polite_nod"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_unemployed_stamp",
+      "at": 30.298881,
+      "end": 31.9,
+      "position": [
+        1160,
+        420
+      ],
+      "scale": [
+        1.25,
+        1.25
+      ],
+      "mode": "live",
+      "duration": 0.4,
+      "event": "unemployed"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_zero_earnings",
+      "at": 37.594119,
+      "end": 41.8,
+      "position": [
+        1250,
+        460
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "live",
+      "duration": 0.8,
+      "event": "zero_dollars"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_kofi_jar",
+      "at": 43.06375,
+      "end": 51.4,
+      "position": [
+        1240,
+        480
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "duration": 0.7,
+      "event": "kofi_jar"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_tablet_work",
+      "at": 56.282584,
+      "end": 66.0,
+      "position": [
+        1260,
+        530
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "duration": 0.5,
+      "event": "tablet_work"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_clock_40h",
+      "at": 58.004806,
+      "end": 66.0,
+      "position": [
+        1260,
+        260
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "live",
+      "duration": 0.6,
+      "event": "clock_40h"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_youtube_stats",
+      "at": 75.789991,
+      "end": 81.8,
+      "position": [
+        1250,
+        490
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "duration": 0.5,
+      "event": "flat_stats"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_algorithm_monster",
+      "at": 75.789991,
+      "end": 81.8,
+      "position": [
+        1250,
+        230
+      ],
+      "scale": [
+        1.05,
+        1.05
+      ],
+      "mode": "live",
+      "duration": 0.8,
+      "event": "flat_stats"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_doubt_cloud",
+      "at": 67.675706,
+      "end": 91.5,
+      "position": [
+        540,
+        140
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "mode": "live",
+      "duration": 0.9,
+      "event": "scary_night"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_spark_heart",
+      "at": 99.428194,
+      "end": 106.4,
+      "position": [
+        1180,
+        430
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "live",
+      "duration": 0.6,
+      "event": "care_anyway"
+    },
+    {
+      "author": "nemi",
+      "kind": "embarrassed_next_frame",
+      "at": 103.678194,
+      "end": 106.4,
+      "position": [
+        1250,
+        470
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "live",
+      "duration": 0.8,
+      "event": "next_frame"
+    }
+  ],
+  "props": [],
+  "vfx": [
+    {
+      "kind": "sweat",
+      "author": "nemi",
+      "actor": "nemi",
+      "at": 1.403846,
+      "end": 2.903846,
+      "strength": 0.8,
+      "offset": [
+        80,
+        -30
+      ],
+      "event": "question"
+    },
+    {
+      "kind": "impact",
+      "author": "nemi",
+      "actor": "nemi",
+      "at": 30.298881,
+      "end": 31.498881,
+      "strength": 0.9,
+      "offset": [
+        0,
+        -50
+      ],
+      "event": "unemployed"
+    },
+    {
+      "kind": "tension",
+      "author": "nemi",
+      "actor": "nemi",
+      "at": 67.675706,
+      "end": 69.175706,
+      "strength": 0.85,
+      "offset": [
+        0,
+        -40
+      ],
+      "event": "scary_night"
+    },
+    {
+      "kind": "relief",
+      "author": "nemi",
+      "actor": "nemi",
+      "at": 99.428194,
+      "end": 100.928194,
+      "strength": 0.9,
+      "offset": [
+        80,
+        -30
+      ],
+      "event": "care_anyway"
+    }
+  ],
+  "sfx": [
+    {
+      "at": 4.192308,
+      "file": "res://common/audio/sfx/comedic/comedic_fail_low_tone_01.wav",
+      "gain_db": -6.0,
+      "duration": 1.2,
+      "event": "soul_leaves"
+    },
+    {
+      "at": 9.46396,
+      "file": "res://common/audio/sfx/paper/paper_page_flip_02.ogg",
+      "gain_db": -8.0,
+      "duration": 0.8,
+      "event": "real_jobs"
+    },
+    {
+      "at": 30.298881,
+      "file": "res://common/audio/sfx/comedic/comedic_record_scratch_01.wav",
+      "gain_db": -6.0,
+      "duration": 0.9,
+      "event": "unemployed"
+    },
+    {
+      "at": 37.594119,
+      "file": "res://common/audio/sfx/error.mp3",
+      "gain_db": -6.0,
+      "duration": 1.0,
+      "event": "zero_dollars"
+    },
+    {
+      "at": 43.06375,
+      "file": "res://common/audio/sfx/ping.mp3",
+      "gain_db": -7.0,
+      "duration": 0.7,
+      "event": "kofi_jar"
+    },
+    {
+      "at": 58.004806,
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_01.ogg",
+      "gain_db": -7.0,
+      "duration": 1.2,
+      "event": "clock_40h"
+    },
+    {
+      "at": 75.789991,
+      "file": "res://common/audio/sfx/ambience/ambience_suspense_drone_01.wav",
+      "gain_db": -9.0,
+      "duration": 2.0,
+      "event": "flat_stats"
+    },
+    {
+      "at": 99.428194,
+      "file": "res://common/audio/sfx/chime.mp3",
+      "gain_db": -7.0,
+      "duration": 0.8,
+      "event": "care_anyway"
+    },
+    {
+      "at": 103.678194,
+      "file": "res://common/audio/sfx/drawing/drawing_pencil_sketch_01.wav",
+      "gain_db": -6.0,
+      "duration": 1.0,
+      "event": "next_frame"
+    }
+  ],
+  "events": [
+    {
+      "id": "question",
+      "at": 1.403846,
+      "intent": "Off-screen speech bubble asks the career question."
+    },
+    {
+      "id": "soul_leaves",
+      "at": 4.192308,
+      "intent": "Nemi freezes in internal panic."
+    },
+    {
+      "id": "real_jobs",
+      "at": 9.46396,
+      "intent": "Briefcase and corporate career symbols appear."
+    },
+    {
+      "id": "cartoons",
+      "at": 20.797293,
+      "intent": "Nemi admits drawing cartoons with a sheepish shrug."
+    },
+    {
+      "id": "polite_nod",
+      "at": 24.698881,
+      "intent": "The awkward polite nod card appears."
+    },
+    {
+      "id": "unemployed",
+      "at": 30.298881,
+      "intent": "Deadpan freeze on the brutal translation."
+    },
+    {
+      "id": "zero_dollars",
+      "at": 37.594119,
+      "intent": "Big $0.00 earnings card appears."
+    },
+    {
+      "id": "kofi_jar",
+      "at": 43.06375,
+      "intent": "Hand-drawn Ko-fi tip jar appears."
+    },
+    {
+      "id": "hardly_donates",
+      "at": 48.837335,
+      "intent": "Emphasis that hardly anyone donates."
+    },
+    {
+      "id": "tablet_work",
+      "at": 56.282584,
+      "intent": "Drawing tablet timeline appears."
+    },
+    {
+      "id": "clock_40h",
+      "at": 58.004806,
+      "intent": "Clock spinning 40 hours appears."
+    },
+    {
+      "id": "scary_night",
+      "at": 67.675706,
+      "intent": "Evening transition as late-night doubt takes over."
+    },
+    {
+      "id": "flat_stats",
+      "at": 75.789991,
+      "intent": "YouTube flatline stats card appears."
+    },
+    {
+      "id": "growing_up",
+      "at": 90.13649,
+      "intent": "Intimate portrait questioning her entire path."
+    },
+    {
+      "id": "care_anyway",
+      "at": 99.428194,
+      "intent": "Small warm smile as she reconnects with her craft."
+    },
+    {
+      "id": "next_frame",
+      "at": 103.678194,
+      "intent": "Clean animation paper and pen ready for the next step."
+    }
+  ],
+  "script": [
+    {
+      "actor": "nemi",
+      "start": 0.5,
+      "end": 7.326923,
+      "text": "Whenever someone asks me what I do for work, my soul quietly leaves my body for about four seconds."
+    },
+    {
+      "actor": "nemi",
+      "start": 7.926923,
+      "end": 21.908404,
+      "text": "Because normal people have real jobs. They do marketing, or finance, or they fix things. And then it's my turn, and I have to look an adult in the eyes and say... I draw cartoons on the internet."
+    },
+    {
+      "actor": "nemi",
+      "start": 22.775071,
+      "end": 30.679833,
+      "text": "And immediately, they give you that polite little nod. The one that means: 'Oh... so you're unemployed.'"
+    },
+    {
+      "actor": "nemi",
+      "start": 31.956024,
+      "end": 40.5465,
+      "text": "And the embarrassing part is... on paper, they're right. My total earnings this month? Zero dollars and zero cents."
+    },
+    {
+      "actor": "nemi",
+      "start": 41.875071,
+      "end": 50.573184,
+      "text": "I even set up a Ko-fi page. Just a little tip jar in case anyone wanted to support my work. But hardly anyone actually donates."
+    },
+    {
+      "actor": "nemi",
+      "start": 51.430732,
+      "end": 65.227028,
+      "text": "And it hurts, because I'm not slacking off. I spend forty hours a week hunched over my tablet, animating frame by frame. But to the outside world, it just looks like I'm wasting my time."
+    },
+    {
+      "actor": "nemi",
+      "start": 66.056658,
+      "end": 81.047134,
+      "text": "And what's scary is... late at night, I wonder if they're right. YouTube is getting stricter, views are low, and people move on so fast."
+    },
+    {
+      "actor": "nemi",
+      "start": 81.842372,
+      "end": 90.685509,
+      "text": "What if I pour years into this and never make it? What if this whole dream is just a very elaborate way to avoid growing up?"
+    },
+    {
+      "actor": "nemi",
+      "start": 91.505117,
+      "end": 104.697425,
+      "text": "I don't have a grand answer. I'm still terrified. But even with zero views and zero dollars... I still care about this. So I'm going to draw the next frame anyway."
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.5,
+      "end": 2.192308,
+      "text": "Whenever someone asks me",
+      "actor": "nemi"
+    },
+    {
+      "start": 2.192308,
+      "end": 2.961538,
+      "text": "what I do for",
+      "actor": "nemi"
+    },
+    {
+      "start": 2.961538,
+      "end": 5.019231,
+      "text": "work, my soul quietly",
+      "actor": "nemi"
+    },
+    {
+      "start": 5.019231,
+      "end": 6.326923,
+      "text": "leaves my body for",
+      "actor": "nemi"
+    },
+    {
+      "start": 6.326923,
+      "end": 7.326923,
+      "text": "about four seconds.",
+      "actor": "nemi"
+    },
+    {
+      "start": 7.926923,
+      "end": 9.46396,
+      "text": "Because normal people have",
+      "actor": "nemi"
+    },
+    {
+      "start": 9.46396,
+      "end": 11.46396,
+      "text": "real jobs. They do",
+      "actor": "nemi"
+    },
+    {
+      "start": 11.46396,
+      "end": 13.371367,
+      "text": "marketing or finance or",
+      "actor": "nemi"
+    },
+    {
+      "start": 13.371367,
+      "end": 15.575071,
+      "text": "they fix things. And",
+      "actor": "nemi"
+    },
+    {
+      "start": 15.575071,
+      "end": 16.797293,
+      "text": "then it's my turn",
+      "actor": "nemi"
+    },
+    {
+      "start": 16.797293,
+      "end": 17.519516,
+      "text": "and I have to",
+      "actor": "nemi"
+    },
+    {
+      "start": 17.519516,
+      "end": 18.612108,
+      "text": "look and adult in",
+      "actor": "nemi"
+    },
+    {
+      "start": 18.612108,
+      "end": 19.797293,
+      "text": "the eyes and say,",
+      "actor": "nemi"
+    },
+    {
+      "start": 20.241738,
+      "end": 21.59359,
+      "text": "I draw cartoons on",
+      "actor": "nemi"
+    },
+    {
+      "start": 21.59359,
+      "end": 21.908404,
+      "text": "the internet.",
+      "actor": "nemi"
+    },
+    {
+      "start": 22.775071,
+      "end": 24.394119,
+      "text": "And immediately they give",
+      "actor": "nemi"
+    },
+    {
+      "start": 24.394119,
+      "end": 25.479833,
+      "text": "you that polite little",
+      "actor": "nemi"
+    },
+    {
+      "start": 25.479833,
+      "end": 27.270309,
+      "text": "nod. The one that",
+      "actor": "nemi"
+    },
+    {
+      "start": 27.270309,
+      "end": 30.298881,
+      "text": "means, oh, so you're",
+      "actor": "nemi"
+    },
+    {
+      "start": 30.298881,
+      "end": 30.679833,
+      "text": "unemployed.",
+      "actor": "nemi"
+    },
+    {
+      "start": 31.956024,
+      "end": 33.517929,
+      "text": "and the embarrassing part",
+      "actor": "nemi"
+    },
+    {
+      "start": 33.517929,
+      "end": 36.108405,
+      "text": "is, on paper, the",
+      "actor": "nemi"
+    },
+    {
+      "start": 36.108405,
+      "end": 38.07031,
+      "text": "right. My total earnings",
+      "actor": "nemi"
+    },
+    {
+      "start": 38.07031,
+      "end": 40.5465,
+      "text": "this month, $0 .0.",
+      "actor": "nemi"
+    },
+    {
+      "start": 41.875071,
+      "end": 42.950543,
+      "text": "I even set up",
+      "actor": "nemi"
+    },
+    {
+      "start": 42.950543,
+      "end": 44.761863,
+      "text": "a coffee page. Just",
+      "actor": "nemi"
+    },
+    {
+      "start": 44.761863,
+      "end": 45.61092,
+      "text": "a little tip jar",
+      "actor": "nemi"
+    },
+    {
+      "start": 45.61092,
+      "end": 46.724128,
+      "text": "in case anyone wanted",
+      "actor": "nemi"
+    },
+    {
+      "start": 46.724128,
+      "end": 47.667524,
+      "text": "to support my work.",
+      "actor": "nemi"
+    },
+    {
+      "start": 48.761863,
+      "end": 50.044882,
+      "text": "But hardly anyone actually",
+      "actor": "nemi"
+    },
+    {
+      "start": 50.044882,
+      "end": 50.573184,
+      "text": "donates.",
+      "actor": "nemi"
+    },
+    {
+      "start": 51.430732,
+      "end": 53.393695,
+      "text": "and it hurts because",
+      "actor": "nemi"
+    },
+    {
+      "start": 53.393695,
+      "end": 54.893695,
+      "text": "I'm not slacking off.",
+      "actor": "nemi"
+    },
+    {
+      "start": 55.70851,
+      "end": 56.967769,
+      "text": "I spend 40 hours",
+      "actor": "nemi"
+    },
+    {
+      "start": 56.967769,
+      "end": 57.838139,
+      "text": "a week hunched over",
+      "actor": "nemi"
+    },
+    {
+      "start": 57.838139,
+      "end": 59.301102,
+      "text": "my tablet and amating",
+      "actor": "nemi"
+    },
+    {
+      "start": 59.301102,
+      "end": 62.023325,
+      "text": "frame by frame. But",
+      "actor": "nemi"
+    },
+    {
+      "start": 62.023325,
+      "end": 63.134436,
+      "text": "to the outside world,",
+      "actor": "nemi"
+    },
+    {
+      "start": 63.282584,
+      "end": 64.227028,
+      "text": "it just looks like",
+      "actor": "nemi"
+    },
+    {
+      "start": 64.227028,
+      "end": 65.227028,
+      "text": "I'm wasting my time.",
+      "actor": "nemi"
+    },
+    {
+      "start": 66.056658,
+      "end": 69.180468,
+      "text": "And what scary is",
+      "actor": "nemi"
+    },
+    {
+      "start": 69.180468,
+      "end": 72.742372,
+      "text": "late at night, I",
+      "actor": "nemi"
+    },
+    {
+      "start": 72.742372,
+      "end": 73.713801,
+      "text": "wonder if they're right.",
+      "actor": "nemi"
+    },
+    {
+      "start": 75.104277,
+      "end": 76.609039,
+      "text": "YouTube is getting stricter,",
+      "actor": "nemi"
+    },
+    {
+      "start": 77.580468,
+      "end": 79.599515,
+      "text": "views are low, and",
+      "actor": "nemi"
+    },
+    {
+      "start": 79.599515,
+      "end": 80.704277,
+      "text": "people move on so",
+      "actor": "nemi"
+    },
+    {
+      "start": 80.704277,
+      "end": 81.047134,
+      "text": "fast.",
+      "actor": "nemi"
+    },
+    {
+      "start": 81.842372,
+      "end": 82.646294,
+      "text": "What if I pour",
+      "actor": "nemi"
+    },
+    {
+      "start": 82.646294,
+      "end": 84.156097,
+      "text": "years into this and",
+      "actor": "nemi"
+    },
+    {
+      "start": 84.156097,
+      "end": 86.214921,
+      "text": "never make it? What",
+      "actor": "nemi"
+    },
+    {
+      "start": 86.214921,
+      "end": 87.214921,
+      "text": "if this whole dream",
+      "actor": "nemi"
+    },
+    {
+      "start": 87.214921,
+      "end": 88.607078,
+      "text": "is just a very",
+      "actor": "nemi"
+    },
+    {
+      "start": 88.607078,
+      "end": 90.13649,
+      "text": "elaborate way to avoid",
+      "actor": "nemi"
+    },
+    {
+      "start": 90.13649,
+      "end": 90.685509,
+      "text": "growing up?",
+      "actor": "nemi"
+    },
+    {
+      "start": 91.505117,
+      "end": 92.062809,
+      "text": "I don't have a",
+      "actor": "nemi"
+    },
+    {
+      "start": 92.062809,
+      "end": 93.543579,
+      "text": "grand answer, I'm still",
+      "actor": "nemi"
+    },
+    {
+      "start": 93.543579,
+      "end": 95.928194,
+      "text": "terrified. But even with",
+      "actor": "nemi"
+    },
+    {
+      "start": 95.928194,
+      "end": 97.389732,
+      "text": "zero views and zero",
+      "actor": "nemi"
+    },
+    {
+      "start": 97.389732,
+      "end": 99.716655,
+      "text": "dollars, I still care",
+      "actor": "nemi"
+    },
+    {
+      "start": 99.716655,
+      "end": 102.947425,
+      "text": "about this. So, I'm",
+      "actor": "nemi"
+    },
+    {
+      "start": 102.947425,
+      "end": 103.678194,
+      "text": "going to draw the",
+      "actor": "nemi"
+    },
+    {
+      "start": 103.678194,
+      "end": 104.697425,
+      "text": "next frame anyway.",
+      "actor": "nemi"
+    }
+  ],
+  "mix": {
+    "master_gain_db": 6.4,
+    "target_lufs": -18.0,
+    "peak_dbfs": -1.5
+  }
+}

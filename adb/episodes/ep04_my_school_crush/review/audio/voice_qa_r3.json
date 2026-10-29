@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "source_take_count": 11,
+  "selected_take": 3,
+  "source_duration_sum": 95.92,
+  "final_duration": 103.1,
+  "tempo": 1.0,
+  "source_bounds_policy": "Full source takes; no silence trimming.",
+  "speaker": "aiden",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+  "identity_prompt": "Cool, relaxed young adult male around 24, calm conversational speech, confident, subtle dry wit, understated and natural.",
+  "audio_sha256": "4577fa4e004cfbeed1559b91dcbe092b8a7f99d319cd638388fb96a0c992c2bc",
+  "voice_plan_sha256": "0bea56151a7a8ce1b57aaacfc52065b760171f410184b73c7934a130f347da21",
+  "text_tokens_verified": true,
+  "source_hashes_verified": true,
+  "ordered_positive_word_intervals_verified": true,
+  "word_count": 284,
+  "alignment_repairs": [],
+  "low_confidence_words": [
+    {
+      "paragraph": 1,
+      "word": "Back",
+      "start": 0.0,
+      "end": 0.3,
+      "probability": 0.63525390625
+    },
+    {
+      "paragraph": 1,
+      "word": "Nemi.",
+      "start": 8.48,
+      "end": 8.74,
+      "probability": 0.420654296875
+    },
+    {
+      "paragraph": 2,
+      "word": "line",
+      "start": 4.44,
+      "end": 4.8,
+      "probability": 0.62890625
+    },
+    {
+      "paragraph": 3,
+      "word": "But",
+      "start": 0.0,
+      "end": 0.3,
+      "probability": 0.57421875
+    },
+    {
+      "paragraph": 3,
+      "word": "third-grade",
+      "start": 6.94,
+      "end": 7.56,
+      "probability": 0.58203125,
+      "alignment_note": "Hyphen compound merged using measured outer bounds."
+    },
+    {
+      "paragraph": 3,
+      "word": "realized...",
+      "start": 8.94,
+      "end": 10.02,
+      "probability": 0.53125
+    },
+    {
+      "paragraph": 5,
+      "word": "reshuffled.",
+      "start": 2.9,
+      "end": 3.4,
+      "probability": 0.6044921875
+    },
+    {
+      "paragraph": 5,
+      "word": "Bro,",
+      "start": 7.14,
+      "end": 7.34,
+      "probability": 0.0293426513671875
+    },
+    {
+      "paragraph": 5,
+      "word": "I",
+      "start": 11.6,
+      "end": 11.84,
+      "probability": 0.290283203125
+    },
+    {
+      "paragraph": 7,
+      "word": "too.",
+      "start": 6.66,
+      "end": 6.9,
+      "probability": 0.41650390625
+    },
+    {
+      "paragraph": 9,
+      "word": "ALSO",
+      "start": 2.9,
+      "end": 3.26,
+      "probability": 0.483642578125
+    },
+    {
+      "paragraph": 9,
+      "word": "two",
+      "start": 4.66,
+      "end": 5.26,
+      "probability": 0.0430908203125
+    },
+    {
+      "paragraph": 9,
+      "word": "and",
+      "start": 6.82,
+      "end": 7.02,
+      "probability": 0.5478515625
+    },
+    {
+      "paragraph": 10,
+      "word": "sad.",
+      "start": 1.08,
+      "end": 1.5,
+      "probability": 0.62890625
+    },
+    {
+      "paragraph": 10,
+      "word": "at",
+      "start": 3.24,
+      "end": 3.42,
+      "probability": 0.59130859375
+    },
+    {
+      "paragraph": 10,
+      "word": "eight",
+      "start": 3.68,
+      "end": 3.92,
+      "probability": 0.350341796875
+    },
+    {
+      "paragraph": 10,
+      "word": "never",
+      "start": 3.92,
+      "end": 4.18,
+      "probability": 0.56494140625
+    }
+  ],
+  "listening_performed": false,
+  "listening_limitation": "Attempted audio-content inspection returned: audio content omitted because you do not support audio input. Transcript verification does not constitute listening.",
+  "pending": [
+    "Subjective Aiden delivery, breaths and thought-gap pacing listening.",
+    "Important spoken-word and mouth-boundary review against final audio.",
+    "Final episode narration/SFX mix audition after sound direction."
+  ]
+}

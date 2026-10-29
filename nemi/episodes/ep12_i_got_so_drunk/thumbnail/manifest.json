@@ -1,0 +1,49 @@
+{
+  "episode": "Nemi EP12 — I Got So Drunk",
+  "workflow": "image-generation",
+  "status": "Two distinct generated thumbnail concepts; full/mobile review passed; user selection pending",
+  "selected": null,
+  "approved_by_user": false,
+  "recommended": "a",
+  "candidates": [
+    {
+      "id": "a",
+      "headline": "NEVER AGAIN...",
+      "proposed_title": "I Got So Drunk",
+      "native": "revisions/r1_a_never_again/thumbnail.png",
+      "upload": "revisions/r1_a_never_again/thumbnail.jpg",
+      "prompt": "revisions/r1_a_never_again/PROMPT.md",
+      "qa": "revisions/r1_a_never_again/QA.json",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "upload_dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "3273f8b326deecf856e054dc1f67fcf3bf6268ad989e08040a47b64d6eb5f290"
+    },
+    {
+      "id": "b",
+      "headline": "THAT'S A HORSE?!",
+      "proposed_title": "Our Chill Night Went Completely Wrong",
+      "native": "revisions/r1_b_horse/thumbnail.png",
+      "upload": "revisions/r1_b_horse/thumbnail.jpg",
+      "prompt": "revisions/r1_b_horse/PROMPT.md",
+      "qa": "revisions/r1_b_horse/QA.json",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "upload_dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "232b519652b62ea722d6de6c1851a5ff6d4addfd265ec49fd0035ce6077176cd"
+    }
+  ],
+  "canonical_promotion": "After user selection, copy chosen native PNG and upload JPG to thumbnail.png and thumbnail.jpg; preserve both candidate folders.",
+  "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail references",
+  "review": "REVIEW.md"
+}

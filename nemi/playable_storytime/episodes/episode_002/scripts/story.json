@@ -1,0 +1,1961 @@
+{
+  "title": "Please Get Me Out of My Own Drawing — Playable Storytime",
+  "episode_id": "episode_002",
+  "revision": "r9_visibility_pace",
+  "media_basename": "NEMI_Playable_EP002_r9_2160x1080_360_REVIEW.mp4",
+  "world_renderer": "drawing",
+  "preview_choice_turns": true,
+  "duration": 220,
+  "fps": 30,
+  "direction": {
+    "promise": "The eraser is removing the drawn ground. Help Nemi reach the same real desk outside the book.",
+    "want": "She wants the ordinary solid desk beyond the page.",
+    "choice": "Keep following one physical escape route; inspect the next obstruction and choose an action.",
+    "consequence": "Ink shortcuts vanish; real paper holds; the same solid eraser carries her over the ink it removes.",
+    "payoff": "She gets off the drawing onto the real desk, where she is safe from being rubbed out."
+  },
+  "chapters": [
+    {
+      "id": "the_floor_is_disappearing",
+      "name": "Get me off the page",
+      "start": 0.0,
+      "end": 22.0,
+      "location": "page_room",
+      "continuity_group": "page_room",
+      "actor_wall": 0,
+      "review_yaw": 0,
+      "review_fov": 68,
+      "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+      "focus": "Get me off the page",
+      "drawing": null,
+      "prop": null,
+      "lines": [
+        {
+          "id": "drawing_hook",
+          "text": "I drew this place, and that eraser is eating the floor. I'm on that floor. Click and drag to look around, or swipe on your phone. Find the door to your left or the tear to your right, then press one for the door, or two for the tear.",
+          "at": 0.320833,
+          "window_end": 16.408333,
+          "tempo": 1.08,
+          "recipe": "quiet_recoil",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "id": "phone_chapter_hint",
+          "text": "On phones, tap the matching chapter. You can pause to look.",
+          "at": 16.591667,
+          "window_end": 21.770833,
+          "tempo": 1.08,
+          "recipe": "explaining",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "environment_events": [
+        {
+          "id": "eraser_cut_world",
+          "kind": "erase_sweep",
+          "object": "giant_eraser",
+          "at": 0.0,
+          "end": 1.0,
+          "event": "eraser_cut"
+        }
+      ],
+      "camera_beats": [
+        {
+          "clip_id": "drawing_hook",
+          "word": "I",
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "drawing_hook",
+          "word": "door",
+          "yaw": -76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "drawing_hook",
+          "word": "tear",
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "drawing_hook",
+          "word": "press",
+          "yaw": 0,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_position": [
+        960,
+        620
+      ]
+    },
+    {
+      "id": "the_door_was_only_ink",
+      "name": "The door is only ink",
+      "start": 22.0,
+      "end": 44.0,
+      "location": "page_room",
+      "continuity_group": "page_room",
+      "actor_wall": 3,
+      "review_yaw": -76,
+      "review_fov": 68,
+      "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+      "focus": "The door is only ink",
+      "drawing": null,
+      "prop": null,
+      "lines": [
+        {
+          "id": "door_admission",
+          "text": "Oh, of course. It's a drawing of a door. I gave it a doorknob and absolutely no depth.",
+          "at": 22.366667,
+          "window_end": 30.25,
+          "tempo": 1.08,
+          "recipe": "realization",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "id": "door_recovery",
+          "text": "The little keyhole was ambitious. Let's put that back. Try two for the tear; I can be embarrassed somewhere with an actual opening.",
+          "at": 31.166667,
+          "window_end": 40.2875,
+          "tempo": 1.1,
+          "recipe": "explaining",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "id": "door_pursuit",
+          "text": "That eraser is still coming. Keep going.",
+          "at": 40.333333,
+          "window_end": 43.816667,
+          "tempo": 1.12,
+          "recipe": "school_brace",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "environment_events": [
+        {
+          "id": "door_flat_world",
+          "kind": "door_flatten",
+          "object": "ink_door",
+          "at": 22.0,
+          "end": 23.0,
+          "event": "door_flat"
+        },
+        {
+          "id": "door_rewind_world",
+          "kind": "rewind",
+          "object": "ink_door",
+          "at": 22.0,
+          "end": 23.1,
+          "event": "door_rewind"
+        }
+      ],
+      "camera_beats": [
+        {
+          "clip_id": "door_admission",
+          "word": "Oh",
+          "yaw": -76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "door_admission",
+          "word": "absolutely",
+          "yaw": -92,
+          "pitch": 0,
+          "fov": 50,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "door_recovery",
+          "word": "put",
+          "yaw": -76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "door_recovery",
+          "word": "two",
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_position": [
+        900,
+        620
+      ]
+    },
+    {
+      "id": "there_is_space_beyond",
+      "name": "A real opening",
+      "start": 44.0,
+      "end": 66.0,
+      "location": "page_room",
+      "continuity_group": "page_room",
+      "actor_wall": 1,
+      "review_yaw": 76,
+      "review_fov": 68,
+      "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+      "focus": "A real opening",
+      "drawing": null,
+      "prop": null,
+      "lines": [
+        {
+          "id": "tear_discovery",
+          "text": "Wait, there's actual space behind the paper. We can get through that! My best exit is the bit I didn't draw.",
+          "at": 44.275,
+          "window_end": 52.708333,
+          "tempo": 1.08,
+          "recipe": "realization",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "id": "desk_beyond",
+          "text": "And there's my real desk beyond it. Once I'm on that desk, I'm outside the drawing, where the eraser can't reach me. But there's a gap before I get there.",
+          "at": 53.166667,
+          "window_end": 65.816667,
+          "tempo": 1.12,
+          "recipe": "explaining",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "environment_events": [
+        {
+          "id": "tear_open_world",
+          "kind": "tear_open",
+          "object": "real_tear",
+          "at": 44.0,
+          "end": 45.2,
+          "event": "tear_open"
+        }
+      ],
+      "camera_beats": [
+        {
+          "clip_id": "tear_discovery",
+          "word": "Wait",
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "tear_discovery",
+          "word": "best",
+          "yaw": 92,
+          "pitch": 0,
+          "fov": 56,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "desk_beyond",
+          "word": "desk",
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_position": [
+        1000,
+        620
+      ]
+    },
+    {
+      "id": "the_missing_bridge",
+      "name": "The unfinished bridge",
+      "start": 66.0,
+      "end": 88.0,
+      "location": "gap_room",
+      "continuity_group": "gap_room",
+      "actor_wall": 1,
+      "review_yaw": 90,
+      "review_fov": 68,
+      "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+      "focus": "The unfinished bridge",
+      "drawing": null,
+      "prop": null,
+      "lines": [
+        {
+          "id": "bridge_choice",
+          "text": "Oh. I stopped drawing the bridge halfway across. Apparently I thought Future Me would deal with it. Look underneath the left route, then at that loose paper tab on the right. Four to run across, or five to fold the tab.",
+          "at": 66.366667,
+          "window_end": 87.541667,
+          "tempo": 1.15,
+          "recipe": "embarrassed",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "environment_events": [],
+      "camera_beats": [
+        {
+          "clip_id": "bridge_choice",
+          "word": "Oh",
+          "yaw": 76,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "bridge_choice",
+          "word": "underneath",
+          "yaw": 14,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "bridge_choice",
+          "word": "tab",
+          "yaw": 166,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "bridge_choice",
+          "word": "Four",
+          "yaw": 90,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_position": [
+        1000,
+        620
+      ]
+    },
+    {
+      "id": "the_bridge_gives_way",
+      "name": "Before the first step",
+      "start": 88.0,
+      "end": 110.0,
+      "location": "gap_room",
+      "continuity_group": "gap_room",
+      "actor_wall": 0,
+      "review_yaw": 14,
+      "review_fov": 68,
+      "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+      "focus": "Before the first step",
+      "drawing": null,
+      "prop": null,
+      "lines": [
+        {
+          "id": "bridge_failure",
+          "text": "I was going to take a very confident first step. The bridge has taken it for me. Right into the hole. That's useful information to get before the rest of me follows. Back it up. Five for the paper tab, please.",
+          "at": 88.366667,
+          "window_end": 104.729167,
+          "tempo": 1.1,
+          "recipe": "school_brace",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "id": "bridge_pursuit",
+          "text": "We still need that desk. The eraser hasn't stopped, and neither can we.",
+          "at": 104.775,
+          "window_end": 109.816667,
+          "tempo": 1.08,
+          "recipe": "school_resolve",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "environment_events": [
+        {
+          "id": "bridge_falls_world",
+          "kind": "bridge_break",
+          "object": "unfinished_bridge",
+          "at": 88.0,
+          "end": 89.2,
+          "event": "bridge_falls"
+        },
+        {
+          "id": "bridge_rewind_world",
+          "kind": "rewind",
+          "object": "unfinished_bridge",
+          "at": 88.0,
+          "end": 89.1,
+          "event": "bridge_rewind"
+        }
+      ],
+      "camera_beats": [
+        {
+          "clip_id": "bridge_failure",
+          "word": "I",
+          "yaw": 14,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "bridge_failure",
+          "word": "useful",
+          "yaw": -2,
+          "pitch": 0,
+          "fov": 52,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "bridge_failure",
+          "word": "Back",
+          "yaw": 14,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_position": [
+        900,
+        620
+      ]
+    },
+    {
+      "id": "the_paper_holds",
+      "name": "A supported paper fold",
+      "start": 110.0,
+      "end": 132.0,
+      "location": "gap_room",
+      "continuity_group": "gap_room",
+      "actor_wall": 2,
+      "review_yaw": 166,
+      "review_fov": 68,
+      "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+      "focus": "A supported paper fold",
+      "drawing": null,
+      "prop": null,
+      "lines": [
+        {
+          "id": "fold_cross",
+          "text": "There, that fold reaches the other side, and the crease is holding. Okay, small steps. I'm trusting paper with my entire existence, which feels like a fairly normal day in animation. There, both feet are across. I think I'm allowed to breathe now.",
+          "at": 110.366667,
+          "window_end": 130.029167,
+          "tempo": 1.12,
+          "recipe": "uncertain",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "id": "paper_safety",
+          "text": "It can't erase paper.",
+          "at": 130.075,
+          "window_end": 131.954167,
+          "tempo": 1.05,
+          "recipe": "school_relief",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "environment_events": [
+        {
+          "id": "tab_opens_world",
+          "kind": "tab_fold",
+          "object": "loose_tab",
+          "at": 110.0,
+          "end": 111.5,
+          "event": "tab_opens"
+        }
+      ],
+      "camera_beats": [
+        {
+          "clip_id": "fold_cross",
+          "word": "There",
+          "yaw": 166,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "fold_cross",
+          "word": "trusting",
+          "yaw": -179,
+          "pitch": 0,
+          "fov": 56,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "fold_cross",
+          "word": "across",
+          "yaw": 166,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_position": [
+        1000,
+        620
+      ]
+    },
+    {
+      "id": "where_is_the_eraser",
+      "name": "The eraser is going there",
+      "start": 132.0,
+      "end": 154.0,
+      "location": "edge_choice",
+      "continuity_group": "edge_choice",
+      "actor_wall": 2,
+      "review_yaw": -180,
+      "review_fov": 68,
+      "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+      "focus": "The eraser is going there",
+      "drawing": null,
+      "prop": null,
+      "lines": [
+        {
+          "id": "eraser_choice",
+          "text": "Look to our right. It's the same eraser, still heading toward my desk and wiping out the ink path. The ground won't last much longer. But that solid top isn't made of ink, so we could use it as a lift. Seven to race it, or eight to ride it straight onto that desk.",
+          "at": 132.733333,
+          "window_end": 153.954167,
+          "tempo": 1.1,
+          "recipe": "school_question",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "environment_events": [
+        {
+          "id": "eraser_reappears_world",
+          "kind": "eraser_pass",
+          "object": "escape_vehicle",
+          "at": 132.0,
+          "end": 140.0,
+          "event": "eraser_reappears"
+        }
+      ],
+      "camera_beats": [
+        {
+          "clip_id": "eraser_choice",
+          "word": "Look",
+          "yaw": 166,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Keep Nemi on her completed paper before following her named cue."
+        },
+        {
+          "clip_id": "eraser_choice",
+          "word": "right",
+          "yaw": -104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.7,
+          "intent": "Reveal the same single eraser removing the ink route."
+        },
+        {
+          "clip_id": "eraser_choice",
+          "word": "top",
+          "yaw": -90,
+          "pitch": 0,
+          "fov": 62,
+          "duration": 0.5,
+          "intent": "Inspect the physical top that makes riding a causal solution."
+        },
+        {
+          "clip_id": "eraser_choice",
+          "word": "Seven",
+          "yaw": 104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.6,
+          "intent": "Show the fragile ink race route."
+        },
+        {
+          "clip_id": "eraser_choice",
+          "word": "eight",
+          "yaw": -104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.6,
+          "intent": "Return to the same eraser and the desk route it offers."
+        }
+      ],
+      "actor_position": [
+        320,
+        620
+      ]
+    },
+    {
+      "id": "the_path_is_gone",
+      "name": "The erased shortcut",
+      "start": 154.0,
+      "end": 176.0,
+      "location": "edge_failure",
+      "continuity_group": "edge_failure",
+      "actor_wall": 1,
+      "review_yaw": 104,
+      "review_fov": 68,
+      "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+      "focus": "The erased shortcut",
+      "drawing": null,
+      "prop": null,
+      "lines": [
+        {
+          "id": "race_failure",
+          "text": "I had a whole escape route a second ago. Now it's a very clean drawing of absolutely nothing. Excellent work, eraser. Terrible timing. I'm staying right here until that bit comes back. Okay, eight. Let's use the thing that's already going there.",
+          "at": 154.366667,
+          "window_end": 173.570833,
+          "tempo": 1.12,
+          "recipe": "quiet_recoil",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "id": "ride_commit",
+          "text": "The solid top won't disappear.",
+          "at": 173.616667,
+          "window_end": 175.954167,
+          "tempo": 1.0,
+          "recipe": "school_resolve",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "environment_events": [
+        {
+          "id": "path_erased_world",
+          "kind": "bridge_break",
+          "object": "race_path",
+          "at": 154.0,
+          "end": 155.5,
+          "event": "path_erased"
+        },
+        {
+          "id": "path_rewind_world",
+          "kind": "rewind",
+          "object": "race_path",
+          "at": 154.0,
+          "end": 155.1,
+          "event": "path_rewind"
+        }
+      ],
+      "camera_beats": [
+        {
+          "clip_id": "race_failure",
+          "word": "I",
+          "yaw": 104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "race_failure",
+          "word": "Excellent",
+          "yaw": 88,
+          "pitch": 0,
+          "fov": 54,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "race_failure",
+          "word": "eight",
+          "yaw": -104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_position": [
+        900,
+        620
+      ]
+    },
+    {
+      "id": "the_eraser_lift",
+      "name": "The ridiculous vehicle",
+      "start": 176.0,
+      "end": 198.0,
+      "location": "edge_ride",
+      "continuity_group": "edge_ride",
+      "actor_wall": 3,
+      "review_yaw": -104,
+      "review_fov": 68,
+      "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+      "focus": "The ridiculous vehicle",
+      "drawing": null,
+      "prop": null,
+      "lines": [
+        {
+          "id": "eraser_ride",
+          "text": "Okay, I'm on. This is a ridiculous vehicle, but it does have a better route than I do. Just keep going toward the desk. No sudden turns. I am being surprisingly polite to something that nearly deleted my shoes. There's the edge. Ready?",
+          "at": 176.366667,
+          "window_end": 193.920833,
+          "tempo": 1.1,
+          "recipe": "school_brace",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        },
+        {
+          "id": "ride_land",
+          "text": "Straight onto the desk. Then we're off the page.",
+          "at": 193.966667,
+          "window_end": 197.954167,
+          "tempo": 1.08,
+          "recipe": "school_brace",
+          "duration": 0.35,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "environment_events": [
+        {
+          "id": "ride_travel_world",
+          "kind": "eraser_pass",
+          "object": "escape_vehicle",
+          "at": 176.0,
+          "end": 184.0,
+          "event": "ride_travel"
+        }
+      ],
+      "camera_beats": [
+        {
+          "clip_id": "eraser_ride",
+          "word": "Okay",
+          "yaw": -104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "eraser_ride",
+          "word": "going",
+          "yaw": -104,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "eraser_ride",
+          "word": "edge",
+          "yaw": -88,
+          "pitch": 0,
+          "fov": 64,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_position": [
+        650,
+        620
+      ]
+    },
+    {
+      "id": "a_solid_desk",
+      "name": "Outside the drawing",
+      "start": 198.0,
+      "end": 220.0,
+      "location": "studio",
+      "continuity_group": "studio",
+      "actor_wall": 3,
+      "review_yaw": -90,
+      "review_fov": 68,
+      "framing": "Continue the same escape with a stable actor, floor and material landmark.",
+      "focus": "Outside the drawing",
+      "drawing": null,
+      "prop": null,
+      "lines": [
+        {
+          "id": "studio_ending",
+          "text": "A desk. A boring, solid desk. I've never appreciated furniture this much. Thank you for getting me out of that. I'm going to fix the drawing now, starting with a proper exit. Actually, no. First, that eraser is staying out here.",
+          "at": 198.366667,
+          "window_end": 219.541667,
+          "tempo": 1.08,
+          "recipe": "school_relief",
+          "duration": 0.45,
+          "hands": {
+            "left": "relaxed",
+            "right": "relaxed"
+          }
+        }
+      ],
+      "environment_events": [
+        {
+          "id": "studio_arrival_world",
+          "kind": "escape_reveal",
+          "object": "destination_desk",
+          "at": 198.0,
+          "end": 199.0,
+          "event": "studio_arrival"
+        }
+      ],
+      "camera_beats": [
+        {
+          "clip_id": "studio_ending",
+          "word": "A",
+          "yaw": -88,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "studio_ending",
+          "word": "Thank",
+          "yaw": -79,
+          "pitch": 0,
+          "fov": 48,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        },
+        {
+          "clip_id": "studio_ending",
+          "word": "eraser",
+          "yaw": -65,
+          "pitch": 0,
+          "fov": 68,
+          "duration": 0.4,
+          "intent": "Follow the named thought and its actual spatial evidence"
+        }
+      ],
+      "actor_position": [
+        1150,
+        620
+      ]
+    }
+  ],
+  "acting_beats": [
+    {
+      "id": "drawing_hook_place0",
+      "clip_id": "drawing_hook",
+      "word": "place",
+      "recipe": "embarrassed",
+      "duration": 0.35,
+      "intent": "Approved opening thought",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "drawing_hook_floor1",
+      "clip_id": "drawing_hook",
+      "word": "floor",
+      "recipe": "quiet_recoil",
+      "duration": 0.35,
+      "intent": "Approved opening thought",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "drawing_hook_click2",
+      "clip_id": "drawing_hook",
+      "word": "Click",
+      "recipe": "explaining",
+      "duration": 0.35,
+      "intent": "Approved opening thought",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "drawing_hook_left3",
+      "clip_id": "drawing_hook",
+      "word": "left",
+      "recipe": "explaining",
+      "duration": 0.35,
+      "intent": "Approved opening thought",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        -0.7,
+        0
+      ]
+    },
+    {
+      "id": "drawing_hook_right4",
+      "clip_id": "drawing_hook",
+      "word": "right",
+      "recipe": "uncertain",
+      "duration": 0.35,
+      "intent": "Approved opening thought",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0.7,
+        0
+      ]
+    },
+    {
+      "id": "drawing_hook_press5",
+      "clip_id": "drawing_hook",
+      "word": "press",
+      "recipe": "explaining",
+      "duration": 0.35,
+      "intent": "Approved opening thought",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      },
+      "gaze": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "phone_chapter_hint_phones6",
+      "clip_id": "phone_chapter_hint",
+      "word": "phones",
+      "recipe": "explaining",
+      "duration": 0.35,
+      "intent": "One clear thought change: phones",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "door_admission_drawing7",
+      "clip_id": "door_admission",
+      "word": "drawing",
+      "recipe": "embarrassed",
+      "duration": 0.35,
+      "intent": "One clear thought change: drawing",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "door_admission_absolutely8",
+      "clip_id": "door_admission",
+      "word": "absolutely",
+      "recipe": "deadpan",
+      "duration": 0.35,
+      "intent": "One clear thought change: absolutely",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "door_recovery_ambitious9",
+      "clip_id": "door_recovery",
+      "word": "ambitious",
+      "recipe": "skeptical",
+      "duration": 0.35,
+      "intent": "One clear thought change: ambitious",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "door_recovery_two10",
+      "clip_id": "door_recovery",
+      "word": "two",
+      "recipe": "explaining",
+      "duration": 0.35,
+      "intent": "One clear thought change: two",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "tear_discovery_space11",
+      "clip_id": "tear_discovery",
+      "word": "space",
+      "recipe": "realization",
+      "duration": 0.35,
+      "intent": "One clear thought change: space",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "tear_discovery_through12",
+      "clip_id": "tear_discovery",
+      "word": "through",
+      "recipe": "school_relief",
+      "duration": 0.35,
+      "intent": "One clear thought change: through",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "tear_discovery_best13",
+      "clip_id": "tear_discovery",
+      "word": "best",
+      "recipe": "deadpan",
+      "duration": 0.35,
+      "intent": "One clear thought change: best",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "desk_beyond_desk14",
+      "clip_id": "desk_beyond",
+      "word": "desk",
+      "recipe": "pleased",
+      "duration": 0.35,
+      "intent": "One clear thought change: desk",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "desk_beyond_stop15",
+      "clip_id": "desk_beyond",
+      "word": "gap",
+      "recipe": "quiet_recoil",
+      "duration": 0.35,
+      "intent": "One clear thought change: stop",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "bridge_choice_halfway16",
+      "clip_id": "bridge_choice",
+      "word": "halfway",
+      "recipe": "embarrassed",
+      "duration": 0.35,
+      "intent": "One clear thought change: halfway",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "bridge_choice_future17",
+      "clip_id": "bridge_choice",
+      "word": "Future",
+      "recipe": "deadpan",
+      "duration": 0.35,
+      "intent": "One clear thought change: Future",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "bridge_choice_underneath18",
+      "clip_id": "bridge_choice",
+      "word": "underneath",
+      "recipe": "explaining",
+      "duration": 0.35,
+      "intent": "One clear thought change: underneath",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "bridge_choice_four19",
+      "clip_id": "bridge_choice",
+      "word": "Four",
+      "recipe": "uncertain",
+      "duration": 0.35,
+      "intent": "One clear thought change: Four",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "bridge_failure_confident20",
+      "clip_id": "bridge_failure",
+      "word": "confident",
+      "recipe": "pleased",
+      "duration": 0.35,
+      "intent": "One clear thought change: confident",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "bridge_failure_hole21",
+      "clip_id": "bridge_failure",
+      "word": "hole",
+      "recipe": "quiet_recoil",
+      "duration": 0.35,
+      "intent": "One clear thought change: hole",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "bridge_failure_useful22",
+      "clip_id": "bridge_failure",
+      "word": "useful",
+      "recipe": "deadpan",
+      "duration": 0.35,
+      "intent": "One clear thought change: useful",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "bridge_failure_five23",
+      "clip_id": "bridge_failure",
+      "word": "Five",
+      "recipe": "explaining",
+      "duration": 0.35,
+      "intent": "One clear thought change: Five",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "fold_cross_holding24",
+      "clip_id": "fold_cross",
+      "word": "holding",
+      "recipe": "school_relief",
+      "duration": 0.35,
+      "intent": "One clear thought change: holding",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "fold_cross_trusting25",
+      "clip_id": "fold_cross",
+      "word": "trusting",
+      "recipe": "uncertain",
+      "duration": 0.35,
+      "intent": "One clear thought change: trusting",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "fold_cross_normal26",
+      "clip_id": "fold_cross",
+      "word": "normal",
+      "recipe": "deadpan",
+      "duration": 0.35,
+      "intent": "One clear thought change: normal",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "fold_cross_across27",
+      "clip_id": "fold_cross",
+      "word": "across",
+      "recipe": "school_relief",
+      "duration": 0.35,
+      "intent": "One clear thought change: across",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "fold_cross_breathe28",
+      "clip_id": "fold_cross",
+      "word": "breathe",
+      "recipe": "recover",
+      "duration": 0.35,
+      "intent": "One clear thought change: breathe",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "eraser_choice_where29",
+      "clip_id": "eraser_choice",
+      "word": "right",
+      "recipe": "school_question",
+      "duration": 0.35,
+      "intent": "One clear thought change: where",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "eraser_choice_behind30",
+      "clip_id": "eraser_choice",
+      "word": "same",
+      "recipe": "uncertain",
+      "duration": 0.35,
+      "intent": "One clear thought change: behind",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "eraser_choice_path31",
+      "clip_id": "eraser_choice",
+      "word": "path",
+      "recipe": "quiet_recoil",
+      "duration": 0.35,
+      "intent": "One clear thought change: path",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "eraser_choice_lift32",
+      "clip_id": "eraser_choice",
+      "word": "lift",
+      "recipe": "realization",
+      "duration": 0.35,
+      "intent": "One clear thought change: lift",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "eraser_choice_seven33",
+      "clip_id": "eraser_choice",
+      "word": "Seven",
+      "recipe": "explaining",
+      "duration": 0.35,
+      "intent": "One clear thought change: Seven",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "race_failure_nothing34",
+      "clip_id": "race_failure",
+      "word": "nothing",
+      "recipe": "deadpan",
+      "duration": 0.35,
+      "intent": "One clear thought change: nothing",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "race_failure_excellent35",
+      "clip_id": "race_failure",
+      "word": "Excellent",
+      "recipe": "skeptical",
+      "duration": 0.35,
+      "intent": "One clear thought change: Excellent",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "race_failure_staying36",
+      "clip_id": "race_failure",
+      "word": "staying",
+      "recipe": "school_brace",
+      "duration": 0.35,
+      "intent": "One clear thought change: staying",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "race_failure_eight37",
+      "clip_id": "race_failure",
+      "word": "eight",
+      "recipe": "school_resolve",
+      "duration": 0.35,
+      "intent": "One clear thought change: eight",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "eraser_ride_ridiculous38",
+      "clip_id": "eraser_ride",
+      "word": "ridiculous",
+      "recipe": "skeptical",
+      "duration": 0.35,
+      "intent": "One clear thought change: ridiculous",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "eraser_ride_going39",
+      "clip_id": "eraser_ride",
+      "word": "going",
+      "recipe": "school_brace",
+      "duration": 0.35,
+      "intent": "One clear thought change: going",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "eraser_ride_polite40",
+      "clip_id": "eraser_ride",
+      "word": "polite",
+      "recipe": "deadpan",
+      "duration": 0.35,
+      "intent": "One clear thought change: polite",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "eraser_ride_shoes41",
+      "clip_id": "eraser_ride",
+      "word": "shoes",
+      "recipe": "quiet_recoil",
+      "duration": 0.35,
+      "intent": "One clear thought change: shoes",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "eraser_ride_edge42",
+      "clip_id": "eraser_ride",
+      "word": "edge",
+      "recipe": "realization",
+      "duration": 0.35,
+      "intent": "One clear thought change: edge",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "studio_ending_solid43",
+      "clip_id": "studio_ending",
+      "word": "solid",
+      "recipe": "school_relief",
+      "duration": 0.35,
+      "intent": "One clear thought change: solid",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "studio_ending_thank44",
+      "clip_id": "studio_ending",
+      "word": "Thank",
+      "recipe": "pleased",
+      "duration": 0.35,
+      "intent": "One clear thought change: Thank",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "studio_ending_proper45",
+      "clip_id": "studio_ending",
+      "word": "proper",
+      "recipe": "school_resolve",
+      "duration": 0.35,
+      "intent": "One clear thought change: proper",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "studio_ending_actually46",
+      "clip_id": "studio_ending",
+      "word": "Actually",
+      "recipe": "deadpan",
+      "duration": 0.35,
+      "intent": "One clear thought change: Actually",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "studio_ending_here47",
+      "clip_id": "studio_ending",
+      "word": "here",
+      "recipe": "pleased",
+      "duration": 0.35,
+      "intent": "One clear thought change: here",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "door_pursuit_thought",
+      "clip_id": "door_pursuit",
+      "word": "That",
+      "recipe": "school_brace",
+      "duration": 0.3,
+      "intent": "Carry the same eraser/desk escape through the former silent boundary.",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "bridge_pursuit_thought",
+      "clip_id": "bridge_pursuit",
+      "word": "We",
+      "recipe": "school_resolve",
+      "duration": 0.3,
+      "intent": "Carry the same eraser/desk escape through the former silent boundary.",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "paper_safety_thought",
+      "clip_id": "paper_safety",
+      "word": "It",
+      "recipe": "school_relief",
+      "duration": 0.3,
+      "intent": "Carry the same eraser/desk escape through the former silent boundary.",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "ride_commit_thought",
+      "clip_id": "ride_commit",
+      "word": "solid",
+      "recipe": "school_resolve",
+      "duration": 0.3,
+      "intent": "Carry the same eraser/desk escape through the former silent boundary.",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    },
+    {
+      "id": "ride_land_thought",
+      "clip_id": "ride_land",
+      "word": "Straight",
+      "recipe": "school_brace",
+      "duration": 0.3,
+      "intent": "Carry the same eraser/desk escape through the former silent boundary.",
+      "hands": {
+        "left": "relaxed",
+        "right": "relaxed"
+      }
+    }
+  ],
+  "sound_cues": [
+    {
+      "id": "eraser_cut",
+      "clip_id": "drawing_hook",
+      "word": "eraser",
+      "offset": -0.15,
+      "asset_id": "paper_slide_desk_01",
+      "duration": 1.0,
+      "gain_db": -8,
+      "intent": "eraser cut uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "door_flat",
+      "clip_id": "door_admission",
+      "word": "course",
+      "offset": 0.3,
+      "asset_id": "paper_page_turn_crisp_01",
+      "duration": 1.0,
+      "gain_db": -7,
+      "intent": "door flat uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "door_rewind",
+      "clip_id": "door_recovery",
+      "word": "put",
+      "offset": 0,
+      "asset_id": "comedic_record_scratch_fast_01",
+      "duration": 1.1,
+      "gain_db": -10,
+      "intent": "door rewind uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "tear_open",
+      "clip_id": "tear_discovery",
+      "word": "space",
+      "offset": 0,
+      "asset_id": "paper_page_turn_crisp_01",
+      "duration": 1.1,
+      "gain_db": -6,
+      "intent": "tear open uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "bridge_falls",
+      "clip_id": "bridge_failure",
+      "word": "bridge",
+      "offset": 0,
+      "asset_id": "impact_wood_hard_hit_01",
+      "duration": 1.1,
+      "gain_db": -13,
+      "intent": "bridge falls uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "bridge_rewind",
+      "clip_id": "bridge_failure",
+      "word": "Back",
+      "offset": 0,
+      "asset_id": "comedic_record_scratch_fast_01",
+      "duration": 1.1,
+      "gain_db": -10,
+      "intent": "bridge rewind uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "tab_opens",
+      "clip_id": "fold_cross",
+      "word": "fold",
+      "offset": 0,
+      "asset_id": "paper_book_paging_single_01",
+      "duration": 1.1,
+      "gain_db": -7,
+      "intent": "tab opens uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "eraser_reappears",
+      "clip_id": "eraser_choice",
+      "word": "right",
+      "offset": 0,
+      "asset_id": "paper_slide_desk_01",
+      "duration": 1.1,
+      "gain_db": -7,
+      "intent": "eraser reappears uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "path_erased",
+      "clip_id": "race_failure",
+      "word": "nothing",
+      "offset": 0,
+      "asset_id": "paper_slide_desk_01",
+      "duration": 1.1,
+      "gain_db": -7,
+      "intent": "path erased uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "path_rewind",
+      "clip_id": "race_failure",
+      "word": "back",
+      "offset": 0,
+      "asset_id": "comedic_record_scratch_fast_01",
+      "duration": 1.1,
+      "gain_db": -10,
+      "intent": "path rewind uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "ride_travel",
+      "clip_id": "eraser_ride",
+      "word": "going",
+      "offset": 0,
+      "asset_id": "paper_slide_desk_01",
+      "duration": 1.1,
+      "gain_db": -9,
+      "intent": "ride travel uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "studio_arrival",
+      "clip_id": "studio_ending",
+      "word": "desk",
+      "offset": 0,
+      "asset_id": "paper_slide_desk_01",
+      "duration": 1.0,
+      "gain_db": -10,
+      "intent": "studio arrival uses an existing recorded source tied to this authored physical action"
+    },
+    {
+      "id": "eraser_still_coming",
+      "clip_id": "bridge_pursuit",
+      "word": "eraser",
+      "asset_id": "paper_slide_desk_01",
+      "duration": 1.1,
+      "gain_db": -9,
+      "intent": "Existing recorded scrape keeps the same offscreen eraser threat present during the crossing."
+    }
+  ],
+  "reaction_cues": [],
+  "additional_drawings": [],
+  "additional_props": [],
+  "navigation": {
+    "mode": "youtube_digits",
+    "key_targets": [
+      {
+        "key": 0,
+        "chapter": "the_floor_is_disappearing"
+      },
+      {
+        "key": 1,
+        "chapter": "the_door_was_only_ink"
+      },
+      {
+        "key": 2,
+        "chapter": "there_is_space_beyond"
+      },
+      {
+        "key": 3,
+        "chapter": "the_missing_bridge"
+      },
+      {
+        "key": 4,
+        "chapter": "the_bridge_gives_way"
+      },
+      {
+        "key": 5,
+        "chapter": "the_paper_holds"
+      },
+      {
+        "key": 6,
+        "chapter": "where_is_the_eraser"
+      },
+      {
+        "key": 7,
+        "chapter": "the_path_is_gone"
+      },
+      {
+        "key": 8,
+        "chapter": "the_eraser_lift"
+      },
+      {
+        "key": 9,
+        "chapter": "a_solid_desk"
+      }
+    ]
+  },
+  "interaction_scenes": [
+    {
+      "id": "the_floor_is_disappearing",
+      "start": 0.0,
+      "end": 22.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Look for the two exits. Choose the one you trust.",
+      "choices": [
+        {
+          "key": 1,
+          "label": "Try the door",
+          "chapter": "the_door_was_only_ink"
+        },
+        {
+          "key": 2,
+          "label": "Take the tear",
+          "chapter": "there_is_space_beyond"
+        }
+      ]
+    },
+    {
+      "id": "the_door_was_only_ink",
+      "start": 22.0,
+      "end": 44.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Let the door attempt play out; the rewind points you to the tear.",
+      "choices": [
+        {
+          "key": 2,
+          "label": "Take the tear",
+          "chapter": "there_is_space_beyond"
+        }
+      ]
+    },
+    {
+      "id": "there_is_space_beyond",
+      "start": 44.0,
+      "end": 66.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "The desk is outside the drawing. Keep following the opening toward safety.",
+      "choices": []
+    },
+    {
+      "id": "the_missing_bridge",
+      "start": 66.0,
+      "end": 88.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "The eraser is still coming. Choose how to cross the gap on the way to the desk.",
+      "choices": [
+        {
+          "key": 4,
+          "label": "Run across",
+          "chapter": "the_bridge_gives_way"
+        },
+        {
+          "key": 5,
+          "label": "Fold the tab",
+          "chapter": "the_paper_holds"
+        }
+      ]
+    },
+    {
+      "id": "the_bridge_gives_way",
+      "start": 88.0,
+      "end": 110.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Let the attempt finish. The paper tab is still available after the rewind.",
+      "choices": [
+        {
+          "key": 5,
+          "label": "Fold the tab",
+          "chapter": "the_paper_holds"
+        }
+      ]
+    },
+    {
+      "id": "the_paper_holds",
+      "start": 110.0,
+      "end": 132.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Real paper holds while the ink disappears. Stay with Nemi toward the desk.",
+      "choices": []
+    },
+    {
+      "id": "where_is_the_eraser",
+      "start": 132.0,
+      "end": 154.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "One eraser, one destination: race along the ink, or ride its solid top to the desk.",
+      "choices": [
+        {
+          "key": 7,
+          "label": "Race it",
+          "chapter": "the_path_is_gone"
+        },
+        {
+          "key": 8,
+          "label": "Ride it",
+          "chapter": "the_eraser_lift"
+        }
+      ]
+    },
+    {
+      "id": "the_path_is_gone",
+      "start": 154.0,
+      "end": 176.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Wait for the rewind, then use the eraser as a lift.",
+      "choices": [
+        {
+          "key": 8,
+          "label": "Ride it",
+          "chapter": "the_eraser_lift"
+        }
+      ]
+    },
+    {
+      "id": "the_eraser_lift",
+      "start": 176.0,
+      "end": 198.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Stay aboard with Nemi. The ride continues into the ending.",
+      "choices": []
+    },
+    {
+      "id": "a_solid_desk",
+      "start": 198.0,
+      "end": 220.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "You reached the desk. Press 0 only if you want to play again.",
+      "choices": [
+        {
+          "key": 0,
+          "label": "Play again",
+          "chapter": "the_floor_is_disappearing"
+        }
+      ]
+    }
+  ],
+  "preview_goal": "Get Nemi to the desk beyond the page.",
+  "natural_continuity": [
+    {
+      "at": 66.0,
+      "from_scene": "there_is_space_beyond",
+      "to_scene": "the_missing_bridge",
+      "actor_wall": 1,
+      "position": [
+        1000,
+        620
+      ],
+      "landmark": "real_tear"
+    },
+    {
+      "at": 132.0,
+      "from_scene": "the_paper_holds",
+      "to_scene": "where_is_the_eraser",
+      "actor_wall": 2,
+      "position": [
+        320,
+        620
+      ],
+      "landmark": "loose_tab"
+    },
+    {
+      "at": 198.0,
+      "from_scene": "the_eraser_lift",
+      "to_scene": "a_solid_desk",
+      "actor_wall": 3,
+      "position": [
+        1150,
+        620
+      ],
+      "landmark": "destination_desk"
+    }
+  ],
+  "preview_handoffs": [
+    {
+      "at": 22.0,
+      "yaw": -76,
+      "duration": 0.9
+    },
+    {
+      "at": 44.0,
+      "yaw": 76,
+      "duration": 1.2
+    },
+    {
+      "at": 88.0,
+      "yaw": 14,
+      "duration": 0.9
+    },
+    {
+      "at": 110.0,
+      "yaw": 166,
+      "duration": 1.2
+    },
+    {
+      "at": 154.0,
+      "yaw": 104,
+      "duration": 0.9
+    },
+    {
+      "at": 176.0,
+      "yaw": -104,
+      "duration": 1.2
+    }
+  ]
+}

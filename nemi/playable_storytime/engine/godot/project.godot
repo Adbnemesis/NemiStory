@@ -1,0 +1,21 @@
+config_version=5
+
+[application]
+config/name="Nemi Playable Storytime — Isolated Production"
+
+[display]
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=960
+window/size/window_height_override=540
+window/vsync/vsync_mode=0
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.98,0.969,0.945,1)
+
+[editor]
+movie_writer/fps=30
+movie_writer/disable_vsync=true
+movie_writer/mjpeg_quality=0.85

@@ -1,0 +1,9 @@
+# Full R3 visual review — Part B
+
+Inspected actual full-movie contact sheets 09–13 (100.758–160.300 seconds), plus full-resolution stills at 100.758, 107.028 and 145.258 seconds. This records still inspection only. It does not claim playback or acoustic listening.
+
+Material fault: the school_day_r4 desks visibly float. At 100.758 seconds, the desk legs end near screen y840 while the clear wall/floor boundary is near y999, leaving about 159 screen pixels of blank wall beneath both desks. The floor perspective begins below that boundary, so this does not read as distant furniture resting on a floor. The earlier source-only suggestion that these could be interpreted as upstage desks was too generous. Existing school_corridor_r4 is an available recognizable school set without these desks if the production chooses a revision; no source was changed by this review.
+
+The reviewed home furniture has plausible scale against Nemi. Neeko is recognizable as the warm cream/ginger, sage-eyed cat memory, with left face and back patches, coral nose and pink inner ears consistent with the current character source. The cat is an illustration rather than a newly animated replacement rig. Second-half sampled arms, cuffs, wrists and crossed/open-hand poses remain continuous, with no empty phone grip or leaked wrist angle identified.
+
+Held heart/thread art and the memory stack stay readable with one main focus. The completed live correction at 145.258 seconds reads “still me” below the crossed-out “i matter less” and clears the tabletop. The closing simple phone rests on the actual desk; it introduces no floating second desk or residual gripping hand. The final face holds are clear. No further material fault found in the inspected Part B stills. Motion, sound and exact lifetime boundaries remain for the root production's full playback check.

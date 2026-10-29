@@ -1,0 +1,5889 @@
+{
+  "version": 2,
+  "title": "My School Crush",
+  "duration": 155.13333333333333,
+  "fps": 30,
+  "caption_size": 52,
+  "audio": "res://renders/adb_school_crush/audio_r2/narration.wav",
+  "audio_metadata": "res://renders/adb_school_crush/audio_r2/timeline.json",
+  "direction": {
+    "promise": "An eight-year-old classroom seating rule turns an assigned desk partner into ADB\u2019s first crush.",
+    "want": "Keep his innocent childhood crush confidential as middle school reshuffles approach.",
+    "choice": "Confide in a persistent friend who swears on his life to keep it safe.",
+    "consequence": "The friend immediately betrays the secret to their whole group and the girl directly.",
+    "payoff": "Humiliation doubles when another friend reveals he liked the same girl; ends on mutual deadpan heartbreak.",
+    "beats": [
+      {
+        "start": 0.0,
+        "end": 8.7,
+        "thought": "I transferred to a new school at age eight.",
+        "focus": "New primary school classroom",
+        "visual": "Grounded classroom and desk evidence",
+        "intent": "Establish the childhood setting and transfer anxiety."
+      },
+      {
+        "start": 8.7,
+        "end": 22.99,
+        "thought": "Teachers forced opposite genders to sit together.",
+        "focus": "Policy and classroom rows",
+        "visual": "Wide classroom layout and alternating seating",
+        "intent": "Explain the classroom rule and flawed logic."
+      },
+      {
+        "start": 22.99,
+        "end": 34.75,
+        "thought": "I was seated with a girl \u2014 NOT Nemi.",
+        "focus": "Girl desk partner and fourth wall break",
+        "visual": "Desk partner reveal then direct-to-camera studio",
+        "intent": "Clarify lore boundaries with dry humor."
+      },
+      {
+        "start": 34.75,
+        "end": 44.03,
+        "thought": "We shared a wooden double desk every day.",
+        "focus": "Double desk and shared space",
+        "visual": "Held double desk illustration and close framing",
+        "intent": "Ground the physical environment where the crush began."
+      },
+      {
+        "start": 44.03,
+        "end": 53.97,
+        "thought": "It began with a classic pencil border dispute.",
+        "focus": "Pencil dividing line down desk",
+        "visual": "Desk divider prop and elbow collision incident",
+        "intent": "Show how childhood desks define territory."
+      },
+      {
+        "start": 53.97,
+        "end": 64.47,
+        "thought": "Sharing supplies made borders disappear.",
+        "focus": "Erasers, sharpeners, homework",
+        "visual": "Subtle shift in distance and shared items",
+        "intent": "Show the natural progression from strangers to friends."
+      },
+      {
+        "start": 64.47,
+        "end": 73.66,
+        "thought": "I realized I had a crush on my desk partner.",
+        "focus": "Sudden realization and blush",
+        "visual": "Realization VFX and warm blushing portrait",
+        "intent": "Mark the emotional turn honestly and gently."
+      },
+      {
+        "start": 73.66,
+        "end": 82.02,
+        "thought": "It was completely innocent with no master plan.",
+        "focus": "Contented primary school child",
+        "visual": "Quiet reflective portrait and stable setting",
+        "intent": "Preserve the sweetness of an 8-year-old crush."
+      },
+      {
+        "start": 82.02,
+        "end": 92.18,
+        "thought": "The next year, classes were getting reshuffled.",
+        "focus": "School corridor and moving peers",
+        "visual": "Hallway transition and separation dread",
+        "intent": "Introduce the stakes: imminent separation."
+      },
+      {
+        "start": 92.18,
+        "end": 102.07,
+        "thought": "A friend pestered me with vows of secrecy.",
+        "focus": "Friend inquisition and note",
+        "visual": "Secret note prop and solemn promise",
+        "intent": "The choice that causes the disaster."
+      },
+      {
+        "start": 102.07,
+        "end": 110.16,
+        "thought": "I was stupid enough to whisper her name.",
+        "focus": "Naive confession and whisper",
+        "visual": "Leaning in, then naive vault reassurance",
+        "intent": "The fateful disclosure."
+      },
+      {
+        "start": 110.16,
+        "end": 121.9,
+        "thought": "He immediately told everyone and the girl directly.",
+        "focus": "Gossip tree exploding and betrayal",
+        "visual": "Branching gossip diagram and direct approach",
+        "intent": "The catastrophic consequence unfolds."
+      },
+      {
+        "start": 121.9,
+        "end": 132.33,
+        "thought": "I was paralyzed in the hallway as my soul left.",
+        "focus": "Spotlight paralysis and laughing crowd",
+        "visual": "Hallway paralysis prop, sweat VFX, deadpan freeze",
+        "intent": "Capture the peak second-hand embarrassment."
+      },
+      {
+        "start": 132.33,
+        "end": 145.69,
+        "thought": "Another friend ALSO liked the same girl.",
+        "focus": "Cherry on top twin-crush disaster",
+        "visual": "Twin crush diagram and shared mourning",
+        "intent": "The comedic plot twist and mutual heartbreak."
+      },
+      {
+        "start": 145.69,
+        "end": 155.13333333333333,
+        "thought": "Never trust a friend with a secret.",
+        "focus": "Adult narrator and final wisdom",
+        "visual": "Studio return and final deadpan hold to camera",
+        "intent": "Land the dry lesson and comedic ending."
+      }
+    ]
+  },
+  "actors": [
+    {
+      "id": "adb",
+      "author": "adb",
+      "performances": [
+        {
+          "at": 0,
+          "recipe": "explaining",
+          "duration": 0.42,
+          "gaze": [
+            0.35,
+            0
+          ],
+          "hands": {
+            "right": "open_palm",
+            "left": "relaxed"
+          }
+        },
+        {
+          "at": 7.75,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap",
+          "event": "recess",
+          "event_offset": 0,
+          "blinks": [
+            8.39
+          ]
+        },
+        {
+          "at": 8.7,
+          "recipe": "explaining",
+          "duration": 0.42,
+          "gaze": [
+            0.4,
+            -0.05
+          ],
+          "hands": {
+            "right": "pointing",
+            "left": "relaxed"
+          }
+        },
+        {
+          "at": 15.3,
+          "recipe": "skeptical",
+          "duration": 0.42,
+          "gaze": [
+            0.6,
+            -0.05
+          ],
+          "event": "boy_girl",
+          "event_offset": 0
+        },
+        {
+          "at": 20.12,
+          "recipe": "uncertain",
+          "duration": 0.42,
+          "gaze": [
+            -0.25,
+            0.2
+          ],
+          "event": "awkward",
+          "event_offset": 0
+        },
+        {
+          "at": 21.72,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap",
+          "event": "flawless",
+          "event_offset": 0,
+          "blinks": [
+            22.58
+          ]
+        },
+        {
+          "at": 22.99,
+          "recipe": "prop_present",
+          "duration": 0.42,
+          "gaze": [
+            0.5,
+            0
+          ],
+          "hands": {
+            "right": "open_palm",
+            "left": "relaxed"
+          }
+        },
+        {
+          "at": 30.77,
+          "recipe": "open_shrug",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "blush_intensity": 0.25
+          },
+          "event": "not_nemi",
+          "event_offset": 0
+        },
+        {
+          "at": 33.65,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap",
+          "event": "relax",
+          "event_offset": 0,
+          "blinks": [
+            34.39
+          ]
+        },
+        {
+          "at": 34.75,
+          "recipe": "listening",
+          "duration": 0.42,
+          "gaze": [
+            0.45,
+            -0.08
+          ]
+        },
+        {
+          "at": 38.09,
+          "recipe": "lean_in",
+          "duration": 0.42,
+          "gaze": [
+            0.5,
+            0
+          ],
+          "event": "wooden_desk",
+          "event_offset": 0
+        },
+        {
+          "at": 40.91,
+          "recipe": "weight_shift",
+          "duration": 0.42,
+          "gaze": [
+            0.35,
+            -0.02
+          ],
+          "event": "six_hours",
+          "event_offset": 0,
+          "blinks": [
+            43.67
+          ]
+        },
+        {
+          "at": 44.03,
+          "recipe": "clue_point",
+          "duration": 0.42,
+          "gaze": [
+            0.5,
+            -0.04
+          ],
+          "hands": {
+            "right": "pointing",
+            "left": "relaxed"
+          }
+        },
+        {
+          "at": 45.55,
+          "recipe": "skeptical",
+          "duration": 0.42,
+          "gaze": [
+            0.6,
+            0
+          ],
+          "event": "border_dispute",
+          "event_offset": 0
+        },
+        {
+          "at": 52.91,
+          "recipe": "quiet_recoil",
+          "duration": 0,
+          "motion": "snap",
+          "face": {
+            "sweat_intensity": 0.25
+          },
+          "event": "incident",
+          "event_offset": 0,
+          "blinks": [
+            53.51
+          ]
+        },
+        {
+          "at": 53.97,
+          "recipe": "recover",
+          "duration": 0.42,
+          "gaze": [
+            0.4,
+            0
+          ],
+          "hands": {
+            "right": "open_palm",
+            "left": "relaxed"
+          }
+        },
+        {
+          "at": 57.49,
+          "recipe": "pleased",
+          "duration": 0.42,
+          "gaze": [
+            0.35,
+            -0.05
+          ],
+          "event": "sharing_erasers",
+          "event_offset": 0
+        },
+        {
+          "at": 62.07,
+          "recipe": "soft_shrug",
+          "duration": 0.42,
+          "gaze": [
+            0.2,
+            0.1
+          ],
+          "face": {
+            "blush_intensity": 0.2
+          },
+          "event": "borders_fade",
+          "event_offset": 0,
+          "blinks": [
+            64.01
+          ]
+        },
+        {
+          "at": 64.47,
+          "recipe": "uncertain",
+          "duration": 0.42,
+          "gaze": [
+            -0.2,
+            -0.1
+          ]
+        },
+        {
+          "at": 67.57,
+          "recipe": "lean_in",
+          "duration": 0.42,
+          "gaze": [
+            0.4,
+            0
+          ],
+          "event": "between_math",
+          "event_offset": 0
+        },
+        {
+          "at": 70.15,
+          "recipe": "shy_confession",
+          "duration": 0.42,
+          "face": {
+            "blush_intensity": 0.65
+          },
+          "gaze": [
+            -0.25,
+            0.25
+          ],
+          "event": "realized_crush",
+          "event_offset": 0
+        },
+        {
+          "at": 73.66,
+          "recipe": "pleased",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "blush_intensity": 0.25
+          }
+        },
+        {
+          "at": 74.52,
+          "recipe": "soft_shrug",
+          "duration": 0.42,
+          "gaze": [
+            0.3,
+            0
+          ],
+          "event": "innocent_kid",
+          "event_offset": 0
+        },
+        {
+          "at": 79.0,
+          "recipe": "shy_confession",
+          "duration": 0.42,
+          "face": {
+            "blush_intensity": 0.3
+          },
+          "event": "quietly_happy",
+          "event_offset": 0,
+          "blinks": [
+            81.46
+          ]
+        },
+        {
+          "at": 82.02,
+          "recipe": "explaining",
+          "duration": 0.42,
+          "gaze": [
+            0.45,
+            -0.02
+          ]
+        },
+        {
+          "at": 84.52,
+          "recipe": "weight_shift",
+          "duration": 0.42,
+          "gaze": [
+            0.3,
+            0.1
+          ],
+          "event": "middle_school",
+          "event_offset": 0
+        },
+        {
+          "at": 87.58,
+          "recipe": "hurt_composure",
+          "duration": 0.42,
+          "gaze": [
+            -0.2,
+            0.3
+          ],
+          "event": "reshuffled",
+          "event_offset": 0,
+          "blinks": [
+            91.82
+          ]
+        },
+        {
+          "at": 92.18,
+          "recipe": "listening",
+          "duration": 0.42,
+          "gaze": [
+            0.55,
+            0
+          ]
+        },
+        {
+          "at": 95.1,
+          "recipe": "nervous_wait",
+          "duration": 0.42,
+          "face": {
+            "sweat_intensity": 0.25
+          },
+          "event": "friend_drilling",
+          "event_offset": 0
+        },
+        {
+          "at": 98.2,
+          "recipe": "skeptical",
+          "duration": 0.42,
+          "gaze": [
+            0.65,
+            -0.05
+          ],
+          "event": "swear_vow",
+          "event_offset": 0,
+          "blinks": [
+            101.66
+          ]
+        },
+        {
+          "at": 102.07,
+          "recipe": "embarrassed",
+          "duration": 0.42,
+          "gaze": [
+            -0.2,
+            0.3
+          ],
+          "face": {
+            "blush_intensity": 0.4
+          }
+        },
+        {
+          "at": 102.69,
+          "recipe": "lean_in",
+          "duration": 0.42,
+          "hands": {
+            "right": "hand_to_chin",
+            "left": "relaxed"
+          },
+          "event": "stupid_believe",
+          "event_offset": 0
+        },
+        {
+          "at": 109.27,
+          "recipe": "pleased",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0
+          ],
+          "face": {
+            "blush_intensity": 0.15
+          },
+          "event": "locked_vault",
+          "event_offset": 0,
+          "blinks": [
+            109.55
+          ]
+        },
+        {
+          "at": 110.16,
+          "recipe": "realization",
+          "duration": 0.38,
+          "gaze": [
+            0.5,
+            0
+          ],
+          "face": {
+            "sweat_intensity": 0.4
+          }
+        },
+        {
+          "at": 113.9,
+          "recipe": "quiet_recoil",
+          "duration": 0,
+          "motion": "snap",
+          "face": {
+            "sweat_intensity": 0.55,
+            "blush_intensity": 0.45
+          },
+          "event": "told_group",
+          "event_offset": 0
+        },
+        {
+          "at": 116.6,
+          "recipe": "hurt_composure",
+          "duration": 0.42,
+          "gaze": [
+            -0.3,
+            0.4
+          ],
+          "face": {
+            "blush_intensity": 0.6
+          },
+          "event": "extinguish_soul",
+          "event_offset": 0
+        },
+        {
+          "at": 120.86,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap",
+          "face": {
+            "blush_intensity": 0.65
+          },
+          "event": "told_the_girl",
+          "event_offset": 0,
+          "blinks": [
+            121.24
+          ]
+        },
+        {
+          "at": 121.9,
+          "recipe": "nervous_answer",
+          "duration": 0.42,
+          "gaze": [
+            0.2,
+            0.2
+          ],
+          "face": {
+            "sweat_intensity": 0.6,
+            "blush_intensity": 0.7
+          }
+        },
+        {
+          "at": 124.16,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap",
+          "face": {
+            "sweat_intensity": 0.6,
+            "blush_intensity": 0.65
+          },
+          "event": "paralyzed_hallway",
+          "event_offset": 0
+        },
+        {
+          "at": 127.22,
+          "recipe": "hurt_composure",
+          "duration": 0.42,
+          "gaze": [
+            -0.35,
+            0.35
+          ],
+          "face": {
+            "blush_intensity": 0.7
+          },
+          "event": "she_knew",
+          "event_offset": 0
+        },
+        {
+          "at": 131.22,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap",
+          "face": {
+            "eye_openness_left": 0.75,
+            "eye_openness_right": 0.75,
+            "blush_intensity": 0.5
+          },
+          "event": "soul_departure",
+          "event_offset": 0,
+          "blinks": [
+            131.62
+          ]
+        },
+        {
+          "at": 132.33,
+          "recipe": "dry_annoyance",
+          "duration": 0.42,
+          "gaze": [
+            0.4,
+            -0.05
+          ]
+        },
+        {
+          "at": 133.67,
+          "recipe": "skeptical",
+          "duration": 0.42,
+          "gaze": [
+            0.6,
+            -0.05
+          ],
+          "event": "cherry_on_top",
+          "event_offset": 0
+        },
+        {
+          "at": 137.43,
+          "recipe": "realization",
+          "duration": 0.35,
+          "face": {
+            "blush_intensity": 0.3
+          },
+          "event": "also_liked",
+          "event_offset": 0
+        },
+        {
+          "at": 140.37,
+          "recipe": "soft_shrug",
+          "duration": 0.42,
+          "hands": {
+            "right": "open_palm",
+            "left": "open_palm"
+          },
+          "event": "two_exposed",
+          "event_offset": 0
+        },
+        {
+          "at": 142.67,
+          "recipe": "hurt_composure",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0.3
+          ],
+          "event": "mourning_romance",
+          "event_offset": 0,
+          "blinks": [
+            144.93
+          ]
+        },
+        {
+          "at": 145.69,
+          "recipe": "recover",
+          "duration": 0.42,
+          "gaze": [
+            0,
+            0
+          ]
+        },
+        {
+          "at": 147.23,
+          "recipe": "soft_shrug",
+          "duration": 0.42,
+          "hands": {
+            "right": "open_palm",
+            "left": "relaxed"
+          },
+          "event": "that_was_sad",
+          "event_offset": 0
+        },
+        {
+          "at": 148.45,
+          "recipe": "pleased",
+          "duration": 0.42,
+          "gaze": [
+            0.35,
+            -0.05
+          ],
+          "event": "looking_back",
+          "event_offset": 0
+        },
+        {
+          "at": 151.59,
+          "recipe": "deadpan",
+          "duration": 0,
+          "motion": "snap",
+          "face": {
+            "blush_intensity": 0.1
+          },
+          "event": "never_trust",
+          "event_offset": 0,
+          "blinks": [
+            153.97
+          ]
+        }
+      ],
+      "mouths": [
+        {
+          "start": 0.358,
+          "end": 0.538,
+          "shape": "talk_open"
+        },
+        {
+          "start": 0.558,
+          "end": 0.678,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 0.698,
+          "end": 0.758,
+          "shape": "talk_open"
+        },
+        {
+          "start": 0.778,
+          "end": 0.938,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 0.958,
+          "end": 1.158,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 1.178,
+          "end": 1.498,
+          "shape": "talk_open"
+        },
+        {
+          "start": 1.758,
+          "end": 1.838,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 1.858,
+          "end": 2.198,
+          "shape": "talk_open"
+        },
+        {
+          "start": 2.218,
+          "end": 2.518,
+          "shape": "talk_round"
+        },
+        {
+          "start": 2.538,
+          "end": 2.578,
+          "shape": "talk_open"
+        },
+        {
+          "start": 2.598,
+          "end": 2.698,
+          "shape": "talk_open"
+        },
+        {
+          "start": 2.718,
+          "end": 2.743,
+          "shape": "neutral"
+        },
+        {
+          "start": 2.743,
+          "end": 3.038,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 3.058,
+          "end": 3.558,
+          "shape": "talk_round"
+        },
+        {
+          "start": 4.038,
+          "end": 4.138,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 4.158,
+          "end": 4.258,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 4.278,
+          "end": 4.618,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 4.638,
+          "end": 4.663,
+          "shape": "neutral"
+        },
+        {
+          "start": 4.663,
+          "end": 4.978,
+          "shape": "talk_open"
+        },
+        {
+          "start": 4.998,
+          "end": 5.458,
+          "shape": "talk_open"
+        },
+        {
+          "start": 5.478,
+          "end": 5.798,
+          "shape": "talk_open"
+        },
+        {
+          "start": 5.818,
+          "end": 5.938,
+          "shape": "talk_round"
+        },
+        {
+          "start": 5.958,
+          "end": 6.358,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 6.378,
+          "end": 6.958,
+          "shape": "talk_round"
+        },
+        {
+          "start": 6.978,
+          "end": 7.258,
+          "shape": "talk_open"
+        },
+        {
+          "start": 7.278,
+          "end": 7.738,
+          "shape": "talk_round"
+        },
+        {
+          "start": 7.758,
+          "end": 8.038,
+          "shape": "talk_open"
+        },
+        {
+          "start": 8.708,
+          "end": 8.733,
+          "shape": "neutral"
+        },
+        {
+          "start": 8.733,
+          "end": 8.948,
+          "shape": "talk_open"
+        },
+        {
+          "start": 8.968,
+          "end": 9.368,
+          "shape": "talk_open"
+        },
+        {
+          "start": 9.648,
+          "end": 9.848,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 9.868,
+          "end": 10.128,
+          "shape": "talk_open"
+        },
+        {
+          "start": 10.148,
+          "end": 10.288,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 10.308,
+          "end": 10.333,
+          "shape": "neutral"
+        },
+        {
+          "start": 10.333,
+          "end": 10.788,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 10.808,
+          "end": 10.988,
+          "shape": "talk_round"
+        },
+        {
+          "start": 11.008,
+          "end": 11.2,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 11.2,
+          "end": 11.228,
+          "shape": "neutral"
+        },
+        {
+          "start": 11.248,
+          "end": 11.648,
+          "shape": "talk_open"
+        },
+        {
+          "start": 11.668,
+          "end": 12.148,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 12.668,
+          "end": 12.788,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 12.808,
+          "end": 13.028,
+          "shape": "talk_round"
+        },
+        {
+          "start": 13.048,
+          "end": 13.508,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 13.528,
+          "end": 13.928,
+          "shape": "talk_open"
+        },
+        {
+          "start": 13.948,
+          "end": 14.208,
+          "shape": "talk_round"
+        },
+        {
+          "start": 14.228,
+          "end": 14.368,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 14.388,
+          "end": 14.748,
+          "shape": "talk_round"
+        },
+        {
+          "start": 15.308,
+          "end": 15.333,
+          "shape": "neutral"
+        },
+        {
+          "start": 15.333,
+          "end": 15.488,
+          "shape": "talk_open"
+        },
+        {
+          "start": 15.568,
+          "end": 15.828,
+          "shape": "talk_round"
+        },
+        {
+          "start": 15.868,
+          "end": 15.893,
+          "shape": "neutral"
+        },
+        {
+          "start": 15.893,
+          "end": 16.128,
+          "shape": "talk_open"
+        },
+        {
+          "start": 16.148,
+          "end": 16.448,
+          "shape": "talk_round"
+        },
+        {
+          "start": 16.508,
+          "end": 16.888,
+          "shape": "talk_open"
+        },
+        {
+          "start": 16.908,
+          "end": 17.248,
+          "shape": "talk_open"
+        },
+        {
+          "start": 17.268,
+          "end": 17.568,
+          "shape": "talk_round"
+        },
+        {
+          "start": 18.348,
+          "end": 18.468,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 18.488,
+          "end": 18.868,
+          "shape": "talk_round"
+        },
+        {
+          "start": 18.888,
+          "end": 19.148,
+          "shape": "talk_open"
+        },
+        {
+          "start": 19.168,
+          "end": 19.368,
+          "shape": "talk_open"
+        },
+        {
+          "start": 19.388,
+          "end": 19.648,
+          "shape": "talk_open"
+        },
+        {
+          "start": 19.668,
+          "end": 19.693,
+          "shape": "neutral"
+        },
+        {
+          "start": 19.693,
+          "end": 19.828,
+          "shape": "talk_open"
+        },
+        {
+          "start": 19.848,
+          "end": 20.108,
+          "shape": "talk_round"
+        },
+        {
+          "start": 20.128,
+          "end": 20.488,
+          "shape": "talk_open"
+        },
+        {
+          "start": 20.508,
+          "end": 20.668,
+          "shape": "talk_round"
+        },
+        {
+          "start": 20.688,
+          "end": 20.988,
+          "shape": "talk_open"
+        },
+        {
+          "start": 21.728,
+          "end": 22.088,
+          "shape": "talk_open"
+        },
+        {
+          "start": 22.108,
+          "end": 22.408,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 22.998,
+          "end": 23.418,
+          "shape": "talk_open"
+        },
+        {
+          "start": 23.438,
+          "end": 23.938,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 23.958,
+          "end": 24.098,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 24.118,
+          "end": 24.218,
+          "shape": "talk_open"
+        },
+        {
+          "start": 24.238,
+          "end": 24.578,
+          "shape": "talk_open"
+        },
+        {
+          "start": 24.598,
+          "end": 25.078,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 25.578,
+          "end": 25.603,
+          "shape": "neutral"
+        },
+        {
+          "start": 25.603,
+          "end": 25.838,
+          "shape": "talk_open"
+        },
+        {
+          "start": 25.858,
+          "end": 25.938,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 25.958,
+          "end": 26.098,
+          "shape": "talk_open"
+        },
+        {
+          "start": 26.118,
+          "end": 26.378,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.398,
+          "end": 26.638,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.658,
+          "end": 26.818,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 26.838,
+          "end": 27.098,
+          "shape": "talk_round"
+        },
+        {
+          "start": 27.658,
+          "end": 27.698,
+          "shape": "talk_open"
+        },
+        {
+          "start": 27.718,
+          "end": 27.958,
+          "shape": "talk_open"
+        },
+        {
+          "start": 28.198,
+          "end": 28.223,
+          "shape": "neutral"
+        },
+        {
+          "start": 28.223,
+          "end": 28.498,
+          "shape": "talk_round"
+        },
+        {
+          "start": 28.518,
+          "end": 28.878,
+          "shape": "talk_open"
+        },
+        {
+          "start": 28.898,
+          "end": 29.158,
+          "shape": "talk_open"
+        },
+        {
+          "start": 29.178,
+          "end": 29.378,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 29.438,
+          "end": 29.878,
+          "shape": "talk_open"
+        },
+        {
+          "start": 30.358,
+          "end": 30.438,
+          "shape": "talk_open"
+        },
+        {
+          "start": 30.458,
+          "end": 30.758,
+          "shape": "talk_open"
+        },
+        {
+          "start": 30.778,
+          "end": 31.018,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 31.438,
+          "end": 31.678,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 31.698,
+          "end": 31.838,
+          "shape": "talk_open"
+        },
+        {
+          "start": 31.858,
+          "end": 32.198,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 32.218,
+          "end": 32.498,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 32.518,
+          "end": 32.838,
+          "shape": "talk_open"
+        },
+        {
+          "start": 32.978,
+          "end": 33.138,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 33.658,
+          "end": 33.918,
+          "shape": "talk_open"
+        },
+        {
+          "start": 34.758,
+          "end": 35.078,
+          "shape": "talk_open"
+        },
+        {
+          "start": 35.098,
+          "end": 35.278,
+          "shape": "talk_open"
+        },
+        {
+          "start": 35.298,
+          "end": 35.378,
+          "shape": "talk_open"
+        },
+        {
+          "start": 35.398,
+          "end": 35.638,
+          "shape": "talk_open"
+        },
+        {
+          "start": 36.238,
+          "end": 36.418,
+          "shape": "talk_round"
+        },
+        {
+          "start": 36.438,
+          "end": 36.858,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 36.858,
+          "end": 37.138,
+          "shape": "talk_open"
+        },
+        {
+          "start": 37.158,
+          "end": 37.398,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 37.418,
+          "end": 37.578,
+          "shape": "talk_open"
+        },
+        {
+          "start": 37.598,
+          "end": 37.718,
+          "shape": "talk_open"
+        },
+        {
+          "start": 37.738,
+          "end": 38.078,
+          "shape": "talk_open"
+        },
+        {
+          "start": 38.098,
+          "end": 38.418,
+          "shape": "talk_round"
+        },
+        {
+          "start": 38.438,
+          "end": 38.718,
+          "shape": "talk_round"
+        },
+        {
+          "start": 38.738,
+          "end": 39.158,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 39.558,
+          "end": 39.758,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 39.778,
+          "end": 39.803,
+          "shape": "neutral"
+        },
+        {
+          "start": 39.803,
+          "end": 39.938,
+          "shape": "talk_open"
+        },
+        {
+          "start": 39.958,
+          "end": 40.338,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 40.818,
+          "end": 40.898,
+          "shape": "talk_round"
+        },
+        {
+          "start": 40.918,
+          "end": 41.298,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 41.318,
+          "end": 41.578,
+          "shape": "talk_round"
+        },
+        {
+          "start": 41.598,
+          "end": 41.738,
+          "shape": "talk_open"
+        },
+        {
+          "start": 41.758,
+          "end": 42.058,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 42.578,
+          "end": 42.938,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 42.958,
+          "end": 43.218,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 43.238,
+          "end": 43.398,
+          "shape": "talk_open"
+        },
+        {
+          "start": 43.418,
+          "end": 43.538,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 44.038,
+          "end": 44.258,
+          "shape": "talk_open"
+        },
+        {
+          "start": 44.278,
+          "end": 44.578,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 44.738,
+          "end": 44.818,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 44.838,
+          "end": 44.958,
+          "shape": "talk_open"
+        },
+        {
+          "start": 44.978,
+          "end": 45.098,
+          "shape": "talk_open"
+        },
+        {
+          "start": 45.118,
+          "end": 45.538,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 45.558,
+          "end": 45.583,
+          "shape": "neutral"
+        },
+        {
+          "start": 45.583,
+          "end": 45.858,
+          "shape": "talk_round"
+        },
+        {
+          "start": 45.878,
+          "end": 46.378,
+          "shape": "talk_round"
+        },
+        {
+          "start": 47.018,
+          "end": 47.118,
+          "shape": "talk_round"
+        },
+        {
+          "start": 47.138,
+          "end": 47.338,
+          "shape": "talk_open"
+        },
+        {
+          "start": 47.358,
+          "end": 47.478,
+          "shape": "talk_open"
+        },
+        {
+          "start": 47.498,
+          "end": 47.523,
+          "shape": "neutral"
+        },
+        {
+          "start": 47.523,
+          "end": 47.698,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 47.718,
+          "end": 48.098,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 48.118,
+          "end": 48.278,
+          "shape": "talk_round"
+        },
+        {
+          "start": 48.298,
+          "end": 48.458,
+          "shape": "talk_open"
+        },
+        {
+          "start": 48.478,
+          "end": 48.698,
+          "shape": "talk_open"
+        },
+        {
+          "start": 48.718,
+          "end": 48.878,
+          "shape": "talk_open"
+        },
+        {
+          "start": 48.898,
+          "end": 48.978,
+          "shape": "talk_open"
+        },
+        {
+          "start": 48.998,
+          "end": 49.338,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 49.778,
+          "end": 49.998,
+          "shape": "talk_open"
+        },
+        {
+          "start": 50.018,
+          "end": 50.098,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 50.118,
+          "end": 50.518,
+          "shape": "talk_open"
+        },
+        {
+          "start": 50.538,
+          "end": 50.698,
+          "shape": "talk_round"
+        },
+        {
+          "start": 50.718,
+          "end": 51.098,
+          "shape": "talk_open"
+        },
+        {
+          "start": 51.118,
+          "end": 51.458,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 51.838,
+          "end": 52.158,
+          "shape": "talk_open"
+        },
+        {
+          "start": 52.178,
+          "end": 52.218,
+          "shape": "talk_open"
+        },
+        {
+          "start": 52.238,
+          "end": 52.634,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 52.634,
+          "end": 52.898,
+          "shape": "talk_open"
+        },
+        {
+          "start": 52.918,
+          "end": 53.278,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 53.978,
+          "end": 54.003,
+          "shape": "neutral"
+        },
+        {
+          "start": 54.003,
+          "end": 54.278,
+          "shape": "talk_open"
+        },
+        {
+          "start": 54.298,
+          "end": 54.578,
+          "shape": "talk_open"
+        },
+        {
+          "start": 54.598,
+          "end": 54.718,
+          "shape": "talk_round"
+        },
+        {
+          "start": 54.738,
+          "end": 55.018,
+          "shape": "talk_open"
+        },
+        {
+          "start": 55.038,
+          "end": 55.498,
+          "shape": "talk_open"
+        },
+        {
+          "start": 55.518,
+          "end": 55.898,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 55.918,
+          "end": 56.118,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 56.138,
+          "end": 56.438,
+          "shape": "talk_open"
+        },
+        {
+          "start": 56.458,
+          "end": 56.578,
+          "shape": "talk_round"
+        },
+        {
+          "start": 56.598,
+          "end": 57.126,
+          "shape": "talk_open"
+        },
+        {
+          "start": 57.126,
+          "end": 57.478,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 57.498,
+          "end": 57.758,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 57.778,
+          "end": 58.21,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 58.21,
+          "end": 58.498,
+          "shape": "talk_open"
+        },
+        {
+          "start": 58.678,
+          "end": 58.703,
+          "shape": "neutral"
+        },
+        {
+          "start": 58.703,
+          "end": 58.958,
+          "shape": "talk_round"
+        },
+        {
+          "start": 58.978,
+          "end": 59.482,
+          "shape": "talk_open"
+        },
+        {
+          "start": 59.482,
+          "end": 59.818,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 59.858,
+          "end": 60.318,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 60.338,
+          "end": 60.678,
+          "shape": "talk_round"
+        },
+        {
+          "start": 60.698,
+          "end": 61.514,
+          "shape": "talk_round"
+        },
+        {
+          "start": 61.514,
+          "end": 62.058,
+          "shape": "talk_open"
+        },
+        {
+          "start": 62.078,
+          "end": 62.103,
+          "shape": "neutral"
+        },
+        {
+          "start": 62.103,
+          "end": 62.398,
+          "shape": "talk_round"
+        },
+        {
+          "start": 62.418,
+          "end": 62.814,
+          "shape": "talk_open"
+        },
+        {
+          "start": 62.814,
+          "end": 63.078,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 63.098,
+          "end": 63.658,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 64.478,
+          "end": 64.678,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 64.698,
+          "end": 64.818,
+          "shape": "talk_round"
+        },
+        {
+          "start": 64.838,
+          "end": 64.998,
+          "shape": "talk_round"
+        },
+        {
+          "start": 65.018,
+          "end": 65.438,
+          "shape": "talk_open"
+        },
+        {
+          "start": 65.458,
+          "end": 65.698,
+          "shape": "talk_round"
+        },
+        {
+          "start": 65.718,
+          "end": 65.978,
+          "shape": "talk_round"
+        },
+        {
+          "start": 65.998,
+          "end": 66.098,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 66.118,
+          "end": 66.498,
+          "shape": "talk_open"
+        },
+        {
+          "start": 66.938,
+          "end": 66.963,
+          "shape": "neutral"
+        },
+        {
+          "start": 66.963,
+          "end": 67.078,
+          "shape": "talk_open"
+        },
+        {
+          "start": 67.098,
+          "end": 67.558,
+          "shape": "talk_open"
+        },
+        {
+          "start": 67.578,
+          "end": 67.603,
+          "shape": "neutral"
+        },
+        {
+          "start": 67.603,
+          "end": 67.998,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 68.018,
+          "end": 68.618,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 68.638,
+          "end": 68.663,
+          "shape": "neutral"
+        },
+        {
+          "start": 68.663,
+          "end": 68.998,
+          "shape": "talk_open"
+        },
+        {
+          "start": 69.018,
+          "end": 69.138,
+          "shape": "talk_open"
+        },
+        {
+          "start": 69.158,
+          "end": 69.538,
+          "shape": "talk_open"
+        },
+        {
+          "start": 70.078,
+          "end": 70.138,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 70.158,
+          "end": 70.818,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 70.818,
+          "end": 71.258,
+          "shape": "talk_open"
+        },
+        {
+          "start": 71.318,
+          "end": 71.418,
+          "shape": "talk_open"
+        },
+        {
+          "start": 71.438,
+          "end": 71.518,
+          "shape": "talk_open"
+        },
+        {
+          "start": 71.538,
+          "end": 71.818,
+          "shape": "talk_round"
+        },
+        {
+          "start": 71.838,
+          "end": 71.978,
+          "shape": "talk_open"
+        },
+        {
+          "start": 71.998,
+          "end": 72.023,
+          "shape": "neutral"
+        },
+        {
+          "start": 72.023,
+          "end": 72.138,
+          "shape": "talk_open"
+        },
+        {
+          "start": 72.158,
+          "end": 72.538,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 72.558,
+          "end": 72.583,
+          "shape": "neutral"
+        },
+        {
+          "start": 72.583,
+          "end": 72.918,
+          "shape": "talk_open"
+        },
+        {
+          "start": 73.668,
+          "end": 73.848,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 73.868,
+          "end": 73.968,
+          "shape": "talk_open"
+        },
+        {
+          "start": 73.988,
+          "end": 74.508,
+          "shape": "talk_open"
+        },
+        {
+          "start": 74.528,
+          "end": 74.868,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 75.468,
+          "end": 75.568,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 75.588,
+          "end": 75.768,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 75.788,
+          "end": 75.908,
+          "shape": "talk_open"
+        },
+        {
+          "start": 75.928,
+          "end": 76.028,
+          "shape": "talk_open"
+        },
+        {
+          "start": 76.048,
+          "end": 76.073,
+          "shape": "neutral"
+        },
+        {
+          "start": 76.073,
+          "end": 76.328,
+          "shape": "talk_open"
+        },
+        {
+          "start": 76.348,
+          "end": 76.373,
+          "shape": "neutral"
+        },
+        {
+          "start": 76.373,
+          "end": 76.768,
+          "shape": "talk_open"
+        },
+        {
+          "start": 77.388,
+          "end": 77.488,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 77.508,
+          "end": 77.628,
+          "shape": "talk_open"
+        },
+        {
+          "start": 77.648,
+          "end": 77.808,
+          "shape": "talk_open"
+        },
+        {
+          "start": 77.828,
+          "end": 78.108,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 78.128,
+          "end": 78.388,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 78.408,
+          "end": 78.748,
+          "shape": "talk_open"
+        },
+        {
+          "start": 79.008,
+          "end": 79.328,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 79.348,
+          "end": 79.748,
+          "shape": "talk_open"
+        },
+        {
+          "start": 79.768,
+          "end": 79.948,
+          "shape": "talk_open"
+        },
+        {
+          "start": 79.968,
+          "end": 80.068,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 80.088,
+          "end": 80.228,
+          "shape": "talk_open"
+        },
+        {
+          "start": 80.248,
+          "end": 80.608,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 80.628,
+          "end": 80.848,
+          "shape": "talk_round"
+        },
+        {
+          "start": 80.868,
+          "end": 81.048,
+          "shape": "talk_open"
+        },
+        {
+          "start": 81.068,
+          "end": 81.328,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 82.028,
+          "end": 82.328,
+          "shape": "talk_open"
+        },
+        {
+          "start": 82.348,
+          "end": 82.708,
+          "shape": "talk_round"
+        },
+        {
+          "start": 82.728,
+          "end": 82.968,
+          "shape": "talk_round"
+        },
+        {
+          "start": 82.988,
+          "end": 83.068,
+          "shape": "talk_open"
+        },
+        {
+          "start": 83.088,
+          "end": 83.288,
+          "shape": "talk_open"
+        },
+        {
+          "start": 83.308,
+          "end": 83.628,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 83.988,
+          "end": 84.088,
+          "shape": "talk_open"
+        },
+        {
+          "start": 84.108,
+          "end": 84.168,
+          "shape": "talk_open"
+        },
+        {
+          "start": 84.188,
+          "end": 84.508,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 84.528,
+          "end": 84.553,
+          "shape": "neutral"
+        },
+        {
+          "start": 84.553,
+          "end": 84.728,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 84.748,
+          "end": 85.248,
+          "shape": "talk_round"
+        },
+        {
+          "start": 85.608,
+          "end": 85.708,
+          "shape": "talk_open"
+        },
+        {
+          "start": 85.728,
+          "end": 86.188,
+          "shape": "talk_open"
+        },
+        {
+          "start": 86.208,
+          "end": 86.488,
+          "shape": "talk_open"
+        },
+        {
+          "start": 86.508,
+          "end": 86.608,
+          "shape": "talk_open"
+        },
+        {
+          "start": 86.628,
+          "end": 87.048,
+          "shape": "talk_open"
+        },
+        {
+          "start": 87.068,
+          "end": 87.288,
+          "shape": "talk_open"
+        },
+        {
+          "start": 87.308,
+          "end": 87.568,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 87.588,
+          "end": 88.208,
+          "shape": "talk_open"
+        },
+        {
+          "start": 88.688,
+          "end": 89.028,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 89.048,
+          "end": 89.528,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 89.788,
+          "end": 90.028,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 90.048,
+          "end": 90.508,
+          "shape": "talk_round"
+        },
+        {
+          "start": 90.828,
+          "end": 91.168,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 91.188,
+          "end": 91.488,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 92.188,
+          "end": 92.408,
+          "shape": "talk_open"
+        },
+        {
+          "start": 92.428,
+          "end": 92.868,
+          "shape": "talk_round"
+        },
+        {
+          "start": 93.368,
+          "end": 93.448,
+          "shape": "talk_open"
+        },
+        {
+          "start": 93.468,
+          "end": 93.668,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 93.688,
+          "end": 93.968,
+          "shape": "talk_open"
+        },
+        {
+          "start": 93.988,
+          "end": 94.208,
+          "shape": "talk_open"
+        },
+        {
+          "start": 94.228,
+          "end": 94.388,
+          "shape": "talk_round"
+        },
+        {
+          "start": 94.408,
+          "end": 94.433,
+          "shape": "neutral"
+        },
+        {
+          "start": 94.433,
+          "end": 94.528,
+          "shape": "talk_open"
+        },
+        {
+          "start": 94.548,
+          "end": 94.668,
+          "shape": "talk_open"
+        },
+        {
+          "start": 94.688,
+          "end": 95.088,
+          "shape": "talk_open"
+        },
+        {
+          "start": 95.108,
+          "end": 95.428,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 95.448,
+          "end": 95.473,
+          "shape": "neutral"
+        },
+        {
+          "start": 95.473,
+          "end": 95.828,
+          "shape": "talk_open"
+        },
+        {
+          "start": 96.028,
+          "end": 96.053,
+          "shape": "neutral"
+        },
+        {
+          "start": 96.053,
+          "end": 96.188,
+          "shape": "talk_open"
+        },
+        {
+          "start": 96.508,
+          "end": 96.668,
+          "shape": "talk_round"
+        },
+        {
+          "start": 96.688,
+          "end": 96.748,
+          "shape": "talk_round"
+        },
+        {
+          "start": 96.768,
+          "end": 96.808,
+          "shape": "talk_round"
+        },
+        {
+          "start": 96.828,
+          "end": 97.088,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 97.408,
+          "end": 97.628,
+          "shape": "talk_open"
+        },
+        {
+          "start": 97.648,
+          "end": 97.673,
+          "shape": "neutral"
+        },
+        {
+          "start": 97.673,
+          "end": 97.808,
+          "shape": "talk_open"
+        },
+        {
+          "start": 98.128,
+          "end": 98.188,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 98.208,
+          "end": 98.308,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 98.328,
+          "end": 98.468,
+          "shape": "talk_open"
+        },
+        {
+          "start": 98.488,
+          "end": 98.568,
+          "shape": "talk_open"
+        },
+        {
+          "start": 98.588,
+          "end": 98.808,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 98.828,
+          "end": 98.928,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 98.948,
+          "end": 99.148,
+          "shape": "talk_open"
+        },
+        {
+          "start": 99.168,
+          "end": 99.308,
+          "shape": "talk_open"
+        },
+        {
+          "start": 99.328,
+          "end": 99.728,
+          "shape": "talk_open"
+        },
+        {
+          "start": 100.088,
+          "end": 100.228,
+          "shape": "talk_round"
+        },
+        {
+          "start": 100.248,
+          "end": 100.448,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 100.468,
+          "end": 100.688,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 100.708,
+          "end": 101.168,
+          "shape": "talk_open"
+        },
+        {
+          "start": 101.188,
+          "end": 101.528,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 102.078,
+          "end": 102.278,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 102.298,
+          "end": 102.418,
+          "shape": "talk_open"
+        },
+        {
+          "start": 102.438,
+          "end": 102.678,
+          "shape": "talk_open"
+        },
+        {
+          "start": 102.698,
+          "end": 103.058,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 103.078,
+          "end": 103.318,
+          "shape": "talk_round"
+        },
+        {
+          "start": 103.338,
+          "end": 103.363,
+          "shape": "neutral"
+        },
+        {
+          "start": 103.363,
+          "end": 103.578,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 103.598,
+          "end": 104.03,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 104.03,
+          "end": 104.058,
+          "shape": "neutral"
+        },
+        {
+          "start": 104.518,
+          "end": 104.638,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 104.658,
+          "end": 104.918,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 104.938,
+          "end": 105.318,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 105.398,
+          "end": 105.778,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 105.838,
+          "end": 106.178,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 106.618,
+          "end": 106.758,
+          "shape": "talk_open"
+        },
+        {
+          "start": 106.778,
+          "end": 107.198,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 107.218,
+          "end": 107.738,
+          "shape": "talk_round"
+        },
+        {
+          "start": 107.758,
+          "end": 108.038,
+          "shape": "talk_open"
+        },
+        {
+          "start": 108.058,
+          "end": 108.338,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 108.358,
+          "end": 108.618,
+          "shape": "talk_open"
+        },
+        {
+          "start": 108.638,
+          "end": 108.978,
+          "shape": "talk_open"
+        },
+        {
+          "start": 108.998,
+          "end": 109.198,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 109.218,
+          "end": 109.258,
+          "shape": "talk_open"
+        },
+        {
+          "start": 109.278,
+          "end": 109.398,
+          "shape": "talk_open"
+        },
+        {
+          "start": 110.168,
+          "end": 110.428,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 110.448,
+          "end": 110.808,
+          "shape": "talk_round"
+        },
+        {
+          "start": 110.828,
+          "end": 110.853,
+          "shape": "neutral"
+        },
+        {
+          "start": 110.853,
+          "end": 111.268,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 111.888,
+          "end": 112.108,
+          "shape": "talk_open"
+        },
+        {
+          "start": 112.128,
+          "end": 112.388,
+          "shape": "talk_open"
+        },
+        {
+          "start": 112.408,
+          "end": 112.728,
+          "shape": "talk_open"
+        },
+        {
+          "start": 112.748,
+          "end": 112.948,
+          "shape": "talk_round"
+        },
+        {
+          "start": 112.968,
+          "end": 113.488,
+          "shape": "talk_open"
+        },
+        {
+          "start": 113.508,
+          "end": 113.888,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 113.908,
+          "end": 114.288,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 114.308,
+          "end": 114.548,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 114.568,
+          "end": 114.768,
+          "shape": "talk_round"
+        },
+        {
+          "start": 114.788,
+          "end": 115.12,
+          "shape": "talk_round"
+        },
+        {
+          "start": 115.12,
+          "end": 115.148,
+          "shape": "neutral"
+        },
+        {
+          "start": 115.848,
+          "end": 116.008,
+          "shape": "talk_open"
+        },
+        {
+          "start": 116.028,
+          "end": 116.108,
+          "shape": "talk_round"
+        },
+        {
+          "start": 116.128,
+          "end": 116.588,
+          "shape": "talk_open"
+        },
+        {
+          "start": 116.608,
+          "end": 117.04,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 117.04,
+          "end": 117.328,
+          "shape": "talk_open"
+        },
+        {
+          "start": 117.348,
+          "end": 117.373,
+          "shape": "neutral"
+        },
+        {
+          "start": 117.373,
+          "end": 117.608,
+          "shape": "talk_open"
+        },
+        {
+          "start": 117.628,
+          "end": 117.928,
+          "shape": "talk_round"
+        },
+        {
+          "start": 118.388,
+          "end": 118.488,
+          "shape": "talk_open"
+        },
+        {
+          "start": 118.508,
+          "end": 118.728,
+          "shape": "talk_open"
+        },
+        {
+          "start": 118.748,
+          "end": 119.068,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 119.088,
+          "end": 119.2,
+          "shape": "talk_open"
+        },
+        {
+          "start": 119.2,
+          "end": 119.228,
+          "shape": "neutral"
+        },
+        {
+          "start": 119.248,
+          "end": 119.388,
+          "shape": "talk_round"
+        },
+        {
+          "start": 119.408,
+          "end": 119.448,
+          "shape": "talk_open"
+        },
+        {
+          "start": 119.468,
+          "end": 119.728,
+          "shape": "talk_round"
+        },
+        {
+          "start": 119.748,
+          "end": 120.288,
+          "shape": "talk_open"
+        },
+        {
+          "start": 120.308,
+          "end": 120.608,
+          "shape": "talk_round"
+        },
+        {
+          "start": 120.628,
+          "end": 120.848,
+          "shape": "talk_open"
+        },
+        {
+          "start": 120.868,
+          "end": 121.068,
+          "shape": "talk_round"
+        },
+        {
+          "start": 121.908,
+          "end": 122.108,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 122.128,
+          "end": 122.268,
+          "shape": "talk_open"
+        },
+        {
+          "start": 122.288,
+          "end": 122.608,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 122.628,
+          "end": 122.848,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 122.868,
+          "end": 122.948,
+          "shape": "talk_open"
+        },
+        {
+          "start": 122.968,
+          "end": 123.328,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 123.508,
+          "end": 124.148,
+          "shape": "talk_open"
+        },
+        {
+          "start": 124.168,
+          "end": 124.193,
+          "shape": "neutral"
+        },
+        {
+          "start": 124.193,
+          "end": 124.688,
+          "shape": "talk_open"
+        },
+        {
+          "start": 125.368,
+          "end": 125.488,
+          "shape": "talk_open"
+        },
+        {
+          "start": 125.508,
+          "end": 125.648,
+          "shape": "talk_round"
+        },
+        {
+          "start": 125.668,
+          "end": 125.92,
+          "shape": "talk_round"
+        },
+        {
+          "start": 125.92,
+          "end": 125.948,
+          "shape": "neutral"
+        },
+        {
+          "start": 125.968,
+          "end": 126.148,
+          "shape": "talk_open"
+        },
+        {
+          "start": 126.168,
+          "end": 126.508,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 127.028,
+          "end": 127.208,
+          "shape": "talk_open"
+        },
+        {
+          "start": 127.228,
+          "end": 127.608,
+          "shape": "talk_open"
+        },
+        {
+          "start": 127.988,
+          "end": 128.108,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 128.128,
+          "end": 128.328,
+          "shape": "talk_open"
+        },
+        {
+          "start": 128.348,
+          "end": 128.548,
+          "shape": "talk_open"
+        },
+        {
+          "start": 128.568,
+          "end": 128.908,
+          "shape": "talk_open"
+        },
+        {
+          "start": 129.468,
+          "end": 129.528,
+          "shape": "talk_open"
+        },
+        {
+          "start": 129.548,
+          "end": 129.648,
+          "shape": "talk_open"
+        },
+        {
+          "start": 129.668,
+          "end": 130.088,
+          "shape": "talk_round"
+        },
+        {
+          "start": 130.108,
+          "end": 130.133,
+          "shape": "neutral"
+        },
+        {
+          "start": 130.133,
+          "end": 130.588,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 130.608,
+          "end": 130.928,
+          "shape": "talk_open"
+        },
+        {
+          "start": 130.948,
+          "end": 130.973,
+          "shape": "neutral"
+        },
+        {
+          "start": 130.973,
+          "end": 131.208,
+          "shape": "talk_open"
+        },
+        {
+          "start": 131.228,
+          "end": 131.253,
+          "shape": "neutral"
+        },
+        {
+          "start": 131.253,
+          "end": 131.448,
+          "shape": "talk_round"
+        },
+        {
+          "start": 132.338,
+          "end": 132.558,
+          "shape": "talk_open"
+        },
+        {
+          "start": 132.578,
+          "end": 132.678,
+          "shape": "talk_open"
+        },
+        {
+          "start": 132.698,
+          "end": 132.958,
+          "shape": "talk_open"
+        },
+        {
+          "start": 132.978,
+          "end": 133.178,
+          "shape": "talk_open"
+        },
+        {
+          "start": 133.198,
+          "end": 133.658,
+          "shape": "talk_open"
+        },
+        {
+          "start": 133.678,
+          "end": 134.038,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 134.058,
+          "end": 134.298,
+          "shape": "talk_open"
+        },
+        {
+          "start": 134.318,
+          "end": 134.61,
+          "shape": "talk_round"
+        },
+        {
+          "start": 134.61,
+          "end": 134.638,
+          "shape": "neutral"
+        },
+        {
+          "start": 135.358,
+          "end": 135.458,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 135.478,
+          "end": 135.678,
+          "shape": "talk_round"
+        },
+        {
+          "start": 135.698,
+          "end": 135.918,
+          "shape": "talk_round"
+        },
+        {
+          "start": 135.938,
+          "end": 135.978,
+          "shape": "talk_open"
+        },
+        {
+          "start": 135.998,
+          "end": 136.238,
+          "shape": "talk_open"
+        },
+        {
+          "start": 136.258,
+          "end": 136.698,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 136.718,
+          "end": 136.878,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 136.898,
+          "end": 137.058,
+          "shape": "talk_round"
+        },
+        {
+          "start": 137.078,
+          "end": 137.39,
+          "shape": "talk_round"
+        },
+        {
+          "start": 137.39,
+          "end": 137.418,
+          "shape": "neutral"
+        },
+        {
+          "start": 137.438,
+          "end": 137.938,
+          "shape": "talk_open"
+        },
+        {
+          "start": 137.958,
+          "end": 138.258,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 138.278,
+          "end": 138.438,
+          "shape": "talk_open"
+        },
+        {
+          "start": 138.458,
+          "end": 138.638,
+          "shape": "talk_open"
+        },
+        {
+          "start": 138.658,
+          "end": 138.898,
+          "shape": "talk_round"
+        },
+        {
+          "start": 139.798,
+          "end": 139.858,
+          "shape": "talk_open"
+        },
+        {
+          "start": 139.878,
+          "end": 140.078,
+          "shape": "talk_round"
+        },
+        {
+          "start": 140.098,
+          "end": 140.218,
+          "shape": "talk_open"
+        },
+        {
+          "start": 140.238,
+          "end": 140.358,
+          "shape": "talk_open"
+        },
+        {
+          "start": 140.378,
+          "end": 140.578,
+          "shape": "talk_round"
+        },
+        {
+          "start": 140.598,
+          "end": 140.718,
+          "shape": "talk_open"
+        },
+        {
+          "start": 140.738,
+          "end": 141.098,
+          "shape": "talk_open"
+        },
+        {
+          "start": 141.418,
+          "end": 141.443,
+          "shape": "neutral"
+        },
+        {
+          "start": 141.443,
+          "end": 141.818,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 141.838,
+          "end": 142.438,
+          "shape": "talk_open"
+        },
+        {
+          "start": 142.458,
+          "end": 142.658,
+          "shape": "talk_open"
+        },
+        {
+          "start": 142.678,
+          "end": 142.703,
+          "shape": "neutral"
+        },
+        {
+          "start": 142.703,
+          "end": 142.958,
+          "shape": "talk_round"
+        },
+        {
+          "start": 142.978,
+          "end": 143.258,
+          "shape": "talk_round"
+        },
+        {
+          "start": 143.278,
+          "end": 143.798,
+          "shape": "talk_round"
+        },
+        {
+          "start": 143.818,
+          "end": 144.278,
+          "shape": "talk_open"
+        },
+        {
+          "start": 144.298,
+          "end": 144.658,
+          "shape": "talk_round"
+        },
+        {
+          "start": 145.698,
+          "end": 146.098,
+          "shape": "talk_open"
+        },
+        {
+          "start": 146.118,
+          "end": 146.658,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 146.998,
+          "end": 147.078,
+          "shape": "talk_open"
+        },
+        {
+          "start": 147.098,
+          "end": 147.218,
+          "shape": "talk_open"
+        },
+        {
+          "start": 147.238,
+          "end": 147.718,
+          "shape": "talk_open"
+        },
+        {
+          "start": 148.358,
+          "end": 148.438,
+          "shape": "talk_open"
+        },
+        {
+          "start": 148.458,
+          "end": 148.678,
+          "shape": "talk_round"
+        },
+        {
+          "start": 148.698,
+          "end": 148.723,
+          "shape": "neutral"
+        },
+        {
+          "start": 148.723,
+          "end": 148.958,
+          "shape": "talk_open"
+        },
+        {
+          "start": 148.978,
+          "end": 149.098,
+          "shape": "talk_open"
+        },
+        {
+          "start": 149.118,
+          "end": 149.218,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 149.238,
+          "end": 149.778,
+          "shape": "talk_round"
+        },
+        {
+          "start": 149.778,
+          "end": 150.138,
+          "shape": "talk_open"
+        },
+        {
+          "start": 150.198,
+          "end": 150.318,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 150.338,
+          "end": 150.518,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 150.538,
+          "end": 150.838,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 150.858,
+          "end": 151.038,
+          "shape": "talk_open"
+        },
+        {
+          "start": 151.058,
+          "end": 151.298,
+          "shape": "talk_open"
+        },
+        {
+          "start": 151.318,
+          "end": 151.578,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 151.598,
+          "end": 152.238,
+          "shape": "talk_open"
+        },
+        {
+          "start": 152.258,
+          "end": 152.418,
+          "shape": "talk_round"
+        },
+        {
+          "start": 152.438,
+          "end": 152.718,
+          "shape": "talk_open"
+        },
+        {
+          "start": 152.738,
+          "end": 152.898,
+          "shape": "talk_open"
+        },
+        {
+          "start": 152.918,
+          "end": 153.178,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 153.198,
+          "end": 153.338,
+          "shape": "talk_wide"
+        },
+        {
+          "start": 153.358,
+          "end": 153.518,
+          "shape": "talk_open"
+        },
+        {
+          "start": 153.538,
+          "end": 153.758,
+          "shape": "talk_wide"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "p0_transfer_school",
+      "start": 0.0,
+      "end": 7.75,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1060,
+          570
+        ],
+        "zoom": 1.0
+      }
+    },
+    {
+      "id": "p0_recess_portrait",
+      "start": 7.75,
+      "end": 8.7,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          510
+        ],
+        "zoom": 1.95
+      }
+    },
+    {
+      "id": "p1_policy_wide",
+      "start": 8.7,
+      "end": 15.3,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1080,
+          575
+        ],
+        "zoom": 0.98
+      }
+    },
+    {
+      "id": "p1_boy_girl_seats",
+      "start": 15.3,
+      "end": 21.72,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1030,
+          560
+        ],
+        "zoom": 1.15
+      }
+    },
+    {
+      "id": "p1_flawless_deadpan",
+      "start": 21.72,
+      "end": 22.99,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          510
+        ],
+        "zoom": 2.05
+      }
+    },
+    {
+      "id": "p2_desk_partner_reveal",
+      "start": 22.99,
+      "end": 30.77,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1090,
+          580
+        ],
+        "zoom": 1.06
+      }
+    },
+    {
+      "id": "p2_fourth_wall_relax",
+      "start": 30.77,
+      "end": 34.75,
+      "background": "adb_studio_ep02",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.35
+      }
+    },
+    {
+      "id": "p3_double_desk_wide",
+      "start": 34.75,
+      "end": 40.91,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1080,
+          590
+        ],
+        "zoom": 0.97
+      }
+    },
+    {
+      "id": "p3_side_by_side_closer",
+      "start": 40.91,
+      "end": 44.03,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1040,
+          565
+        ],
+        "zoom": 1.18
+      }
+    },
+    {
+      "id": "p4_border_pencil_line",
+      "start": 44.03,
+      "end": 52.91,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1060,
+          570
+        ],
+        "zoom": 1.12
+      }
+    },
+    {
+      "id": "p4_incident_standoff",
+      "start": 52.91,
+      "end": 53.97,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          510
+        ],
+        "zoom": 1.95
+      }
+    },
+    {
+      "id": "p5_sharing_supplies",
+      "start": 53.97,
+      "end": 62.07,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1050,
+          565
+        ],
+        "zoom": 1.08
+      }
+    },
+    {
+      "id": "p5_borders_dissolve",
+      "start": 62.07,
+      "end": 64.47,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          980,
+          550
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "p6_third_grade_math",
+      "start": 64.47,
+      "end": 70.15,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1040,
+          570
+        ],
+        "zoom": 1.05
+      }
+    },
+    {
+      "id": "p6_crush_realization_portrait",
+      "start": 70.15,
+      "end": 73.66,
+      "background": "thought",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          510
+        ],
+        "zoom": 2.1
+      }
+    },
+    {
+      "id": "p7_innocent_classroom",
+      "start": 73.66,
+      "end": 79.0,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1060,
+          575
+        ],
+        "zoom": 1.02
+      }
+    },
+    {
+      "id": "p7_quietly_happy_portrait",
+      "start": 79.0,
+      "end": 82.02,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          510
+        ],
+        "zoom": 1.9
+      }
+    },
+    {
+      "id": "p8_reshuffle_corridor",
+      "start": 82.02,
+      "end": 87.58,
+      "background": "school_corridor",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1070,
+          575
+        ],
+        "zoom": 0.98
+      }
+    },
+    {
+      "id": "p8_different_sections",
+      "start": 87.58,
+      "end": 92.18,
+      "background": "school_corridor",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1020,
+          560
+        ],
+        "zoom": 1.15
+      }
+    },
+    {
+      "id": "p9_friend_inquisition",
+      "start": 92.18,
+      "end": 98.2,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1060,
+          580
+        ],
+        "zoom": 1.05
+      }
+    },
+    {
+      "id": "p9_swear_on_life",
+      "start": 98.2,
+      "end": 102.07,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1010,
+          550
+        ],
+        "zoom": 1.25
+      }
+    },
+    {
+      "id": "p10_stupid_confession",
+      "start": 102.07,
+      "end": 109.27,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1040,
+          570
+        ],
+        "zoom": 1.12
+      }
+    },
+    {
+      "id": "p10_locked_in_vault",
+      "start": 109.27,
+      "end": 110.16,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          510
+        ],
+        "zoom": 1.95
+      }
+    },
+    {
+      "id": "p11_four_minutes_gossip",
+      "start": 110.16,
+      "end": 116.6,
+      "background": "school_corridor",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1100,
+          580
+        ],
+        "zoom": 0.95
+      }
+    },
+    {
+      "id": "p11_told_the_girl_direct",
+      "start": 116.6,
+      "end": 121.9,
+      "background": "school_corridor",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1050,
+          560
+        ],
+        "zoom": 1.2
+      }
+    },
+    {
+      "id": "p12_hallway_spotlight",
+      "start": 121.9,
+      "end": 126.16,
+      "background": "school_corridor",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1080,
+          585
+        ],
+        "zoom": 0.96
+      }
+    },
+    {
+      "id": "p12_soul_departure_portrait",
+      "start": 126.16,
+      "end": 132.33,
+      "background": "school_corridor",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          510
+        ],
+        "zoom": 2.15
+      }
+    },
+    {
+      "id": "p13_cherry_on_top",
+      "start": 132.33,
+      "end": 137.43,
+      "background": "school_corridor",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1020,
+          565
+        ],
+        "zoom": 1.08
+      }
+    },
+    {
+      "id": "p13_twin_crush_diagram",
+      "start": 137.43,
+      "end": 140.37,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          1060,
+          560
+        ],
+        "zoom": 1.15
+      }
+    },
+    {
+      "id": "p13_mutual_mourning",
+      "start": 140.37,
+      "end": 145.69,
+      "background": "school_classroom",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          510
+        ],
+        "zoom": 1.98
+      }
+    },
+    {
+      "id": "p14_that_was_sad",
+      "start": 145.69,
+      "end": 148.45,
+      "background": "adb_studio_ep02",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          960,
+          540
+        ],
+        "zoom": 1.3
+      }
+    },
+    {
+      "id": "p14_life_lesson_wisdom",
+      "start": 148.45,
+      "end": 151.59,
+      "background": "adb_studio_ep02",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          980,
+          545
+        ],
+        "zoom": 1.2
+      }
+    },
+    {
+      "id": "p14_final_deadpan_hold",
+      "start": 151.59,
+      "end": 155.133333,
+      "background": "adb_studio_ep02",
+      "actors": {
+        "adb": {
+          "position": [
+            750,
+            634.8
+          ],
+          "scale": 1.35
+        }
+      },
+      "camera": {
+        "center": [
+          750,
+          510
+        ],
+        "zoom": 2.05
+      }
+    }
+  ],
+  "drawings": [
+    {
+      "author": "adb",
+      "kind": "arrow",
+      "at": 45.55,
+      "end": 53.97,
+      "position": [
+        1180,
+        520
+      ],
+      "scale": [
+        0.85,
+        0.85
+      ],
+      "mode": "live",
+      "shots": [
+        "p4_border_pencil_line"
+      ],
+      "duration": 0.5,
+      "event": "border_dispute",
+      "event_offset": 0
+    },
+    {
+      "author": "adb",
+      "kind": "arrow",
+      "at": 116.6,
+      "end": 121.9,
+      "position": [
+        1280,
+        720
+      ],
+      "scale": [
+        0.9,
+        0.9
+      ],
+      "mode": "live",
+      "shots": [
+        "p11_told_the_girl_direct"
+      ],
+      "duration": 0.45,
+      "event": "extinguish_soul",
+      "event_offset": 0
+    },
+    {
+      "author": "adb",
+      "kind": "arrow",
+      "at": 137.43,
+      "end": 145.69,
+      "position": [
+        1180,
+        750
+      ],
+      "scale": [
+        0.95,
+        0.95
+      ],
+      "mode": "live",
+      "shots": [
+        "p13_twin_crush_diagram"
+      ],
+      "duration": 0.5,
+      "event": "also_liked",
+      "event_offset": 0
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 0.0,
+      "end": 7.75,
+      "position": [
+        1080,
+        310
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "size": 42,
+      "text": "8 yo",
+      "shots": [
+        "p0_transfer_school"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 15.3,
+      "end": 21.72,
+      "position": [
+        1120,
+        270
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "size": 38,
+      "text": "boy girl boy girl",
+      "shots": [
+        "p1_boy_girl_seats"
+      ],
+      "event": "boy_girl",
+      "event_offset": 0
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 30.77,
+      "end": 34.75,
+      "position": [
+        960,
+        260
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "size": 44,
+      "text": "not nemi",
+      "shots": [
+        "p2_fourth_wall_relax"
+      ],
+      "event": "not_nemi",
+      "event_offset": 0
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 45.55,
+      "end": 53.97,
+      "position": [
+        1180,
+        360
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "size": 40,
+      "text": "border",
+      "shots": [
+        "p4_border_pencil_line"
+      ],
+      "event": "border_dispute",
+      "event_offset": 0
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 98.2,
+      "end": 102.07,
+      "position": [
+        1150,
+        370
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "size": 42,
+      "text": "secret",
+      "shots": [
+        "p9_swear_on_life"
+      ],
+      "event": "swear_vow",
+      "event_offset": 0
+    },
+    {
+      "author": "adb",
+      "kind": "text",
+      "at": 116.6,
+      "end": 121.9,
+      "position": [
+        1250,
+        300
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "mode": "hold",
+      "size": 42,
+      "text": "told everyone",
+      "shots": [
+        "p11_told_the_girl_direct"
+      ],
+      "event": "extinguish_soul",
+      "event_offset": 0
+    }
+  ],
+  "props": [
+    {
+      "author": "adb",
+      "kind": "classroom_double_desk",
+      "at": 0,
+      "end": 82.02,
+      "position": [
+        1180,
+        894
+      ],
+      "scale": [
+        1.05,
+        1.05
+      ],
+      "mode": "hold",
+      "layer": 1,
+      "shots": [
+        "p0_transfer_school",
+        "p1_policy_wide",
+        "p1_boy_girl_seats",
+        "p2_desk_partner_reveal",
+        "p3_double_desk_wide",
+        "p3_side_by_side_closer",
+        "p4_border_pencil_line",
+        "p4_incident_standoff",
+        "p5_sharing_supplies",
+        "p5_borders_dissolve",
+        "p6_third_grade_math",
+        "p7_innocent_classroom"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "crush_desk_partner",
+      "at": 22.99,
+      "end": 82.02,
+      "position": [
+        1350,
+        820
+      ],
+      "scale": [
+        1.12,
+        1.12
+      ],
+      "mode": "hold",
+      "layer": 2,
+      "shots": [
+        "p2_desk_partner_reveal",
+        "p3_double_desk_wide",
+        "p3_side_by_side_closer",
+        "p4_border_pencil_line",
+        "p5_sharing_supplies",
+        "p6_third_grade_math",
+        "p7_innocent_classroom"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "border_line_dispute",
+      "at": 44.03,
+      "end": 53.97,
+      "position": [
+        1180,
+        680
+      ],
+      "scale": [
+        0.95,
+        0.95
+      ],
+      "mode": "hold",
+      "layer": 3,
+      "shots": [
+        "p4_border_pencil_line",
+        "p4_incident_standoff"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "confession_paper_note",
+      "at": 92.18,
+      "end": 110.16,
+      "position": [
+        1150,
+        680
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "mode": "hold",
+      "layer": 3,
+      "shots": [
+        "p9_friend_inquisition",
+        "p9_swear_on_life",
+        "p10_stupid_confession",
+        "p10_locked_in_vault"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "gossip_betrayal_tree",
+      "at": 110.16,
+      "end": 121.9,
+      "position": [
+        1250,
+        580
+      ],
+      "scale": [
+        1.05,
+        1.05
+      ],
+      "mode": "hold",
+      "layer": 2,
+      "shots": [
+        "p11_four_minutes_gossip",
+        "p11_told_the_girl_direct"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "hallway_paralysis",
+      "at": 121.9,
+      "end": 132.33,
+      "position": [
+        1080,
+        750
+      ],
+      "scale": [
+        1.15,
+        1.15
+      ],
+      "mode": "hold",
+      "layer": 2,
+      "shots": [
+        "p12_hallway_spotlight",
+        "p12_soul_departure_portrait"
+      ]
+    },
+    {
+      "author": "adb",
+      "kind": "twin_crush_disaster",
+      "at": 132.33,
+      "end": 145.69,
+      "position": [
+        1180,
+        620
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "mode": "hold",
+      "layer": 2,
+      "shots": [
+        "p13_cherry_on_top",
+        "p13_twin_crush_diagram",
+        "p13_mutual_mourning"
+      ]
+    }
+  ],
+  "vfx": [
+    {
+      "author": "adb",
+      "kind": "realization",
+      "at": 70.15,
+      "end": 70.9,
+      "actor": "adb",
+      "offset": [
+        65,
+        -20
+      ],
+      "strength": 0.7,
+      "event": "realized_crush"
+    },
+    {
+      "author": "adb",
+      "kind": "impact",
+      "at": 52.91,
+      "end": 53.41,
+      "actor": "adb",
+      "offset": [
+        65,
+        -20
+      ],
+      "strength": 0.6,
+      "event": "incident"
+    },
+    {
+      "author": "adb",
+      "kind": "sweat",
+      "at": 113.9,
+      "end": 114.8,
+      "actor": "adb",
+      "offset": [
+        65,
+        -20
+      ],
+      "strength": 0.65,
+      "event": "told_group"
+    },
+    {
+      "author": "adb",
+      "kind": "tension",
+      "at": 124.16,
+      "end": 125.16,
+      "actor": "adb",
+      "offset": [
+        65,
+        -20
+      ],
+      "strength": 0.75,
+      "event": "paralyzed_hallway"
+    },
+    {
+      "author": "adb",
+      "kind": "realization",
+      "at": 137.43,
+      "end": 138.08,
+      "actor": "adb",
+      "offset": [
+        65,
+        -20
+      ],
+      "strength": 0.7,
+      "event": "also_liked"
+    },
+    {
+      "author": "adb",
+      "kind": "relief",
+      "at": 148.45,
+      "end": 149.25,
+      "actor": "adb",
+      "offset": [
+        65,
+        -20
+      ],
+      "strength": 0.6,
+      "event": "looking_back"
+    }
+  ],
+  "sfx": [
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_turn_crisp_01.wav",
+      "at": 1.85,
+      "duration": 0.452,
+      "gain_db": -6,
+      "event": "transferred"
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_wood_tap_01.ogg",
+      "at": 21.72,
+      "duration": 0.266,
+      "gain_db": -13.6,
+      "event": "flawless"
+    },
+    {
+      "file": "res://common/audio/sfx/cartoon/cartoon_pop_dry_01.wav",
+      "at": 26.83,
+      "duration": 0.305,
+      "gain_db": -6.3,
+      "event": "seated_girl"
+    },
+    {
+      "file": "res://common/audio/sfx/comedic/comedic_record_scratch_fast_01.wav",
+      "at": 30.77,
+      "duration": 0.528,
+      "gain_db": -15.1,
+      "event": "not_nemi"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_slide_desk_01.wav",
+      "at": 38.09,
+      "duration": 1.094,
+      "gain_db": -6,
+      "event": "wooden_desk"
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_05.ogg",
+      "at": 45.55,
+      "duration": 0.325,
+      "gain_db": -18.9,
+      "event": "border_dispute"
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_wood_tap_01.ogg",
+      "at": 52.91,
+      "duration": 0.266,
+      "gain_db": -14.8,
+      "event": "incident"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_flip_02.ogg",
+      "at": 57.49,
+      "duration": 0.43,
+      "gain_db": -6,
+      "event": "sharing_erasers"
+    },
+    {
+      "file": "res://common/audio/sfx/ui/ui_confirm_chime_01.ogg",
+      "at": 70.15,
+      "duration": 0.29,
+      "gain_db": -20,
+      "event": "realized_crush"
+    },
+    {
+      "file": "res://common/audio/sfx/paper/paper_page_turn_crisp_01.wav",
+      "at": 84.52,
+      "duration": 0.452,
+      "gain_db": -6,
+      "event": "middle_school"
+    },
+    {
+      "file": "res://common/audio/sfx/cartoon/cartoon_pop_bubble_alert_01.wav",
+      "at": 95.1,
+      "duration": 0.45,
+      "gain_db": -10.0,
+      "event": "friend_drilling"
+    },
+    {
+      "file": "res://common/audio/sfx/ui/ui_confirm_chime_02.ogg",
+      "at": 98.2,
+      "duration": 0.539,
+      "gain_db": -12.8,
+      "event": "swear_vow"
+    },
+    {
+      "file": "res://common/audio/sfx/drawing/drawing_scratch_scribble_04.ogg",
+      "at": 105.39,
+      "duration": 0.325,
+      "gain_db": -10.1,
+      "event": "whispered_name"
+    },
+    {
+      "file": "res://common/audio/sfx/cartoon/cartoon_pop_cluster_01.wav",
+      "at": 113.9,
+      "duration": 0.65,
+      "gain_db": -8.9,
+      "event": "told_group"
+    },
+    {
+      "file": "res://common/audio/sfx/cartoon/cartoon_zap_blip_01.ogg",
+      "at": 120.86,
+      "duration": 0.38,
+      "gain_db": -20,
+      "event": "told_the_girl"
+    },
+    {
+      "file": "res://common/audio/sfx/bruh.mp3",
+      "at": 131.54,
+      "duration": 0.816979,
+      "gain_db": -18.7,
+      "event": "paralysis_bruh"
+    },
+    {
+      "file": "res://common/audio/sfx/click.mp3",
+      "at": 133.67,
+      "duration": 0.365688,
+      "gain_db": -6,
+      "event": "cherry_on_top"
+    },
+    {
+      "file": "res://common/audio/sfx/comedic/comedic_record_scratch_01.wav",
+      "at": 137.43,
+      "duration": 0.838,
+      "gain_db": -11.3,
+      "event": "also_liked"
+    },
+    {
+      "file": "res://common/audio/sfx/impacts/impact_wood_tap_01.ogg",
+      "at": 142.67,
+      "duration": 0.266,
+      "gain_db": -12.2,
+      "event": "mourning_romance"
+    },
+    {
+      "file": "res://common/audio/sfx/ui/ui_confirm_chime_01.ogg",
+      "at": 150.53,
+      "duration": 0.29,
+      "gain_db": -15.8,
+      "event": "learned_lesson"
+    }
+  ],
+  "events": [
+    {
+      "id": "transferred",
+      "at": 1.85,
+      "intent": "Paragraph 1, measured word \u201ctransferred\u201d: authored thought accent."
+    },
+    {
+      "id": "recess",
+      "at": 7.75,
+      "intent": "Paragraph 1, measured word \u201crecess\u201d: authored thought accent."
+    },
+    {
+      "id": "policy",
+      "at": 10.3,
+      "intent": "Paragraph 2, measured word \u201cpolicy\u201d: authored thought accent."
+    },
+    {
+      "id": "boy_girl",
+      "at": 15.3,
+      "intent": "Paragraph 2, measured word \u201cboy\u201d: authored thought accent."
+    },
+    {
+      "id": "awkward",
+      "at": 20.12,
+      "intent": "Paragraph 2, measured word \u201cawkward\u201d: authored thought accent."
+    },
+    {
+      "id": "flawless",
+      "at": 21.72,
+      "intent": "Paragraph 2, measured word \u201cflawless\u201d: authored thought accent."
+    },
+    {
+      "id": "seated_girl",
+      "at": 26.83,
+      "intent": "Paragraph 3, measured word \u201cgirl\u201d: authored thought accent."
+    },
+    {
+      "id": "not_nemi",
+      "at": 30.77,
+      "intent": "Paragraph 3, measured word \u201cnemi\u201d: authored thought accent."
+    },
+    {
+      "id": "relax",
+      "at": 33.65,
+      "intent": "Paragraph 3, measured word \u201crelax\u201d: authored thought accent."
+    },
+    {
+      "id": "wooden_desk",
+      "at": 38.09,
+      "intent": "Paragraph 4, measured word \u201cwooden\u201d: authored thought accent."
+    },
+    {
+      "id": "six_hours",
+      "at": 40.91,
+      "intent": "Paragraph 4, measured word \u201csix\u201d: authored thought accent."
+    },
+    {
+      "id": "border_dispute",
+      "at": 45.55,
+      "intent": "Paragraph 5, measured word \u201cborder\u201d: authored thought accent."
+    },
+    {
+      "id": "pencil_line",
+      "at": 47.49,
+      "intent": "Paragraph 5, measured word \u201cpencil\u201d: authored thought accent."
+    },
+    {
+      "id": "incident",
+      "at": 52.91,
+      "intent": "Paragraph 5, measured word \u201cincident\u201d: authored thought accent."
+    },
+    {
+      "id": "sharing_erasers",
+      "at": 57.49,
+      "intent": "Paragraph 6, measured word \u201csharing\u201d: authored thought accent."
+    },
+    {
+      "id": "borders_fade",
+      "at": 62.07,
+      "intent": "Paragraph 6, measured word \u201cborders\u201d: authored thought accent."
+    },
+    {
+      "id": "between_math",
+      "at": 67.57,
+      "intent": "Paragraph 7, measured word \u201cbetween\u201d: authored thought accent."
+    },
+    {
+      "id": "realized_crush",
+      "at": 70.15,
+      "intent": "Paragraph 7, measured word \u201crealized\u201d: authored thought accent."
+    },
+    {
+      "id": "crush_partner",
+      "at": 71.53,
+      "intent": "Paragraph 7, measured word \u201ccrush\u201d: authored thought accent."
+    },
+    {
+      "id": "innocent_kid",
+      "at": 74.52,
+      "intent": "Paragraph 8, measured word \u201cinnocent\u201d: authored thought accent."
+    },
+    {
+      "id": "quietly_happy",
+      "at": 79.0,
+      "intent": "Paragraph 8, measured word \u201cquietly\u201d: authored thought accent."
+    },
+    {
+      "id": "next_year",
+      "at": 83.08,
+      "intent": "Paragraph 9, measured word \u201cnext\u201d: authored thought accent."
+    },
+    {
+      "id": "middle_school",
+      "at": 84.52,
+      "intent": "Paragraph 9, measured word \u201cmiddle\u201d: authored thought accent."
+    },
+    {
+      "id": "reshuffled",
+      "at": 87.58,
+      "intent": "Paragraph 9, measured word \u201creshuffled\u201d: authored thought accent."
+    },
+    {
+      "id": "friend_drilling",
+      "at": 95.1,
+      "intent": "Paragraph 10, measured word \u201cdrilling\u201d: authored thought accent."
+    },
+    {
+      "id": "swear_vow",
+      "at": 98.2,
+      "intent": "Paragraph 10, measured word \u201cswear\u201d: authored thought accent."
+    },
+    {
+      "id": "secret_safe",
+      "at": 101.18,
+      "intent": "Paragraph 10, measured word \u201csafe\u201d: authored thought accent."
+    },
+    {
+      "id": "stupid_believe",
+      "at": 102.69,
+      "intent": "Paragraph 11, measured word \u201cstupid\u201d: authored thought accent."
+    },
+    {
+      "id": "whispered_name",
+      "at": 105.39,
+      "intent": "Paragraph 11, measured word \u201cwhispered\u201d: authored thought accent."
+    },
+    {
+      "id": "locked_vault",
+      "at": 109.27,
+      "intent": "Paragraph 11, measured word \u201cvault\u201d: authored thought accent."
+    },
+    {
+      "id": "four_minutes",
+      "at": 110.82,
+      "intent": "Paragraph 12, measured word \u201cminutes\u201d: authored thought accent."
+    },
+    {
+      "id": "told_group",
+      "at": 113.9,
+      "intent": "Paragraph 12, measured word \u201cfriend\u201d: authored thought accent."
+    },
+    {
+      "id": "extinguish_soul",
+      "at": 116.6,
+      "intent": "Paragraph 12, measured word \u201cextinguish\u201d: authored thought accent."
+    },
+    {
+      "id": "told_the_girl",
+      "at": 120.86,
+      "intent": "Paragraph 12, measured word \u201ctoo\u201d: authored thought accent."
+    },
+    {
+      "id": "paralyzed_hallway",
+      "at": 124.16,
+      "intent": "Paragraph 13, measured word \u201cparalyzed\u201d: authored thought accent."
+    },
+    {
+      "id": "group_laughing",
+      "at": 126.16,
+      "intent": "Paragraph 13, measured word \u201claughing\u201d: authored thought accent."
+    },
+    {
+      "id": "she_knew",
+      "at": 127.22,
+      "intent": "Paragraph 13, measured word \u201cknew\u201d: authored thought accent."
+    },
+    {
+      "id": "soul_departure",
+      "at": 131.22,
+      "intent": "Paragraph 13, measured word \u201cbody\u201d: authored thought accent."
+    },
+    {
+      "id": "cherry_on_top",
+      "at": 133.67,
+      "intent": "Paragraph 14, measured word \u201ccherry\u201d: authored thought accent."
+    },
+    {
+      "id": "another_friend",
+      "at": 135.99,
+      "intent": "Paragraph 14, measured word \u201canother\u201d: authored thought accent."
+    },
+    {
+      "id": "also_liked",
+      "at": 137.43,
+      "intent": "Paragraph 14, measured word \u201calso\u201d: authored thought accent."
+    },
+    {
+      "id": "two_exposed",
+      "at": 140.37,
+      "intent": "Paragraph 14, measured word \u201ctwo\u201d: authored thought accent."
+    },
+    {
+      "id": "mourning_romance",
+      "at": 142.67,
+      "intent": "Paragraph 14, measured word \u201cmourning\u201d: authored thought accent."
+    },
+    {
+      "id": "that_was_sad",
+      "at": 147.23,
+      "intent": "Paragraph 15, measured word \u201csad\u201d: authored thought accent."
+    },
+    {
+      "id": "looking_back",
+      "at": 148.45,
+      "intent": "Paragraph 15, measured word \u201clooking\u201d: authored thought accent."
+    },
+    {
+      "id": "learned_lesson",
+      "at": 150.53,
+      "intent": "Paragraph 15, measured word \u201clearned\u201d: authored thought accent."
+    },
+    {
+      "id": "never_trust",
+      "at": 151.59,
+      "intent": "Paragraph 15, measured word \u201cnever\u201d: authored thought accent."
+    },
+    {
+      "id": "paralysis_bruh",
+      "at": 131.54,
+      "intent": "Hallway paralysis after soul leaves body: dry comedic pause accent."
+    }
+  ],
+  "script": [
+    {
+      "actor": "adb",
+      "start": 0.35,
+      "end": 8.35,
+      "text": "When I was eight years old, I transferred to a new primary school. Which is already pretty stressful when your entire worldview revolves around recess."
+    },
+    {
+      "actor": "adb",
+      "start": 8.7,
+      "end": 22.54,
+      "text": "Back then, teachers had this policy to keep classes quiet: they forced opposite genders to sit together. Boy, girl, boy, girl, across every row. Their theory was that we'd be too awkward to talk. Flawless logic."
+    },
+    {
+      "actor": "adb",
+      "start": 22.99,
+      "end": 34.35,
+      "text": "Except it did the exact opposite. Because I got seated with this girl. And no, before anyone types in the comments: she wasn't Nemi. I was eight years old, okay? Relax."
+    },
+    {
+      "actor": "adb",
+      "start": 34.75,
+      "end": 43.63,
+      "text": "So there we were. Two eight-year-olds sitting at the same wooden double desk, side by side, for six hours a day, five days a week."
+    },
+    {
+      "actor": "adb",
+      "start": 44.03,
+      "end": 53.47,
+      "text": "At first, it was the classic border dispute. You draw a pencil line down the center of the desk, and if someone's elbow crosses it, that's an international incident."
+    },
+    {
+      "actor": "adb",
+      "start": 53.97,
+      "end": 63.97,
+      "text": "But when you spend every day right next to someone... sharing erasers, borrowing sharpeners, complaining about homework... borders start disappearing."
+    },
+    {
+      "actor": "adb",
+      "start": 64.47,
+      "end": 73.11,
+      "text": "I don't know when or how it happened, but somewhere between third-grade math and lunch, I realized... I had a crush on my desk partner."
+    },
+    {
+      "actor": "adb",
+      "start": 73.66,
+      "end": 81.42,
+      "text": "It was completely innocent. I didn't have a master plan. I was just eight years old, quietly happy that I got assigned to that desk."
+    },
+    {
+      "actor": "adb",
+      "start": 82.02,
+      "end": 91.78,
+      "text": "Fast forward to the next year. We were nearing middle school, and everyone knew the classes were getting reshuffled. Different sections, different rooms, different seats."
+    },
+    {
+      "actor": "adb",
+      "start": 92.18,
+      "end": 101.62,
+      "text": "One afternoon, a friend sat next to me and started drilling me: \"Bro, who do you like? Tell me! I swear on my life I won't tell anyone, your secret is completely safe.\""
+    },
+    {
+      "actor": "adb",
+      "start": 102.07,
+      "end": 109.51,
+      "text": "I was so stupid to believe him. I leaned in, whispered her name, and genuinely thought that secret was locked in a vault."
+    },
+    {
+      "actor": "adb",
+      "start": 110.16,
+      "end": 121.2,
+      "text": "Within four minutes, this guy went and told every single friend in our group. And just to completely extinguish my soul, he walked right up to the girl and told her too."
+    },
+    {
+      "actor": "adb",
+      "start": 121.9,
+      "end": 131.58,
+      "text": "I was standing in the hallway, completely paralyzed. The whole group was laughing, she knew, I knew she knew, and my soul basically left my body."
+    },
+    {
+      "actor": "adb",
+      "start": 132.33,
+      "end": 144.89,
+      "text": "And then came the absolute cherry on top: I found out that another friend in our group ALSO liked the same girl. So now there were two of us, publicly exposed and mourning our childhood romance together."
+    },
+    {
+      "actor": "adb",
+      "start": 145.69,
+      "end": 153.93,
+      "text": "So yeah. That was sad. But looking back on it now... at least I learned at age eight never to trust a friend with a secret."
+    }
+  ],
+  "captions": [
+    {
+      "actor": "adb",
+      "words": [
+        0,
+        4
+      ],
+      "start": 0.35,
+      "end": 1.17,
+      "text": "When I was eight years"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        5,
+        9
+      ],
+      "start": 1.17,
+      "end": 2.59,
+      "text": "old, I transferred to a"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        10,
+        12
+      ],
+      "start": 2.59,
+      "end": 3.57,
+      "text": "new primary school."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        13,
+        17
+      ],
+      "start": 4.03,
+      "end": 5.47,
+      "text": "Which is already pretty stressful"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        18,
+        22
+      ],
+      "start": 5.47,
+      "end": 7.27,
+      "text": "when your entire worldview revolves"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        23,
+        24
+      ],
+      "start": 7.27,
+      "end": 8.05,
+      "text": "around recess."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        25,
+        29
+      ],
+      "start": 8.7,
+      "end": 10.3,
+      "text": "Back then, teachers had this"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        30,
+        34
+      ],
+      "start": 10.3,
+      "end": 12.16,
+      "text": "policy to keep classes quiet."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        35,
+        39
+      ],
+      "start": 12.66,
+      "end": 14.22,
+      "text": "They forced opposite genders to"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        40,
+        41
+      ],
+      "start": 14.22,
+      "end": 14.76,
+      "text": "sit together."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        42,
+        46
+      ],
+      "start": 15.3,
+      "end": 16.9,
+      "text": "Boy, girl, boy, girl, across"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        47,
+        48
+      ],
+      "start": 16.9,
+      "end": 17.58,
+      "text": "every row."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        49,
+        53
+      ],
+      "start": 18.34,
+      "end": 19.66,
+      "text": "Their theory was that we'd"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        54,
+        58
+      ],
+      "start": 19.66,
+      "end": 21.0,
+      "text": "be too awkward to talk."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        59,
+        60
+      ],
+      "start": 21.72,
+      "end": 22.42,
+      "text": "Flawless logic."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        61,
+        65
+      ],
+      "start": 22.99,
+      "end": 24.59,
+      "text": "Except it did the exact"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        66,
+        66
+      ],
+      "start": 24.59,
+      "end": 25.09,
+      "text": "opposite."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        67,
+        71
+      ],
+      "start": 25.57,
+      "end": 26.65,
+      "text": "Because I got seated with"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        72,
+        73
+      ],
+      "start": 26.65,
+      "end": 27.11,
+      "text": "this girl."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        74,
+        78
+      ],
+      "start": 27.65,
+      "end": 29.17,
+      "text": "And no, before anyone types"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        79,
+        81
+      ],
+      "start": 29.17,
+      "end": 29.89,
+      "text": "in the comments,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        82,
+        83
+      ],
+      "start": 30.35,
+      "end": 30.77,
+      "text": "she wasn't"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        84,
+        84
+      ],
+      "start": 30.77,
+      "end": 31.03,
+      "text": "Nemi."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        85,
+        89
+      ],
+      "start": 31.43,
+      "end": 32.85,
+      "text": "I was eight years old,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        90,
+        90
+      ],
+      "start": 32.97,
+      "end": 33.15,
+      "text": "okay?"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        91,
+        91
+      ],
+      "start": 33.65,
+      "end": 33.93,
+      "text": "Relax."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        92,
+        95
+      ],
+      "start": 34.75,
+      "end": 35.65,
+      "text": "So there we were."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        96,
+        100
+      ],
+      "start": 36.23,
+      "end": 37.73,
+      "text": "Two eight-year-olds sitting at the"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        101,
+        104
+      ],
+      "start": 37.73,
+      "end": 39.17,
+      "text": "same wooden double desk,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        105,
+        105
+      ],
+      "start": 39.55,
+      "end": 39.77,
+      "text": "side"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        106,
+        107
+      ],
+      "start": 39.77,
+      "end": 40.35,
+      "text": "by side,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        108,
+        110
+      ],
+      "start": 40.81,
+      "end": 41.59,
+      "text": "for six hours"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        111,
+        112
+      ],
+      "start": 41.59,
+      "end": 42.07,
+      "text": "a day,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        113,
+        115
+      ],
+      "start": 42.57,
+      "end": 43.41,
+      "text": "five days a"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        116,
+        116
+      ],
+      "start": 43.41,
+      "end": 43.55,
+      "text": "week."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        117,
+        121
+      ],
+      "start": 44.03,
+      "end": 45.11,
+      "text": "At first, it was the"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        122,
+        124
+      ],
+      "start": 45.11,
+      "end": 46.39,
+      "text": "classic border dispute."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        125,
+        129
+      ],
+      "start": 47.01,
+      "end": 48.11,
+      "text": "You draw a pencil line"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        130,
+        134
+      ],
+      "start": 48.11,
+      "end": 48.99,
+      "text": "down the center of the"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        135,
+        135
+      ],
+      "start": 48.99,
+      "end": 49.35,
+      "text": "desk,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        136,
+        139
+      ],
+      "start": 49.77,
+      "end": 50.71,
+      "text": "and if someone's elbow"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        140,
+        141
+      ],
+      "start": 50.71,
+      "end": 51.47,
+      "text": "crosses it,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        142,
+        144
+      ],
+      "start": 51.83,
+      "end": 52.91,
+      "text": "that's an international"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        145,
+        145
+      ],
+      "start": 52.91,
+      "end": 53.29,
+      "text": "incident."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        146,
+        150
+      ],
+      "start": 53.97,
+      "end": 55.51,
+      "text": "But when you spend every"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        151,
+        155
+      ],
+      "start": 55.51,
+      "end": 57.49,
+      "text": "day right next to someone..."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        156,
+        160
+      ],
+      "start": 57.49,
+      "end": 60.33,
+      "text": "sharing erasers, borrowing sharpeners, complaining"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        161,
+        162
+      ],
+      "start": 60.33,
+      "end": 62.07,
+      "text": "about homework..."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        163,
+        165
+      ],
+      "start": 62.07,
+      "end": 63.67,
+      "text": "borders start disappearing."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        166,
+        170
+      ],
+      "start": 64.47,
+      "end": 65.71,
+      "text": "I don't know when or"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        171,
+        173
+      ],
+      "start": 65.71,
+      "end": 66.51,
+      "text": "how it happened,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        174,
+        175
+      ],
+      "start": 66.93,
+      "end": 67.57,
+      "text": "but somewhere"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        176,
+        180
+      ],
+      "start": 67.57,
+      "end": 69.55,
+      "text": "between third-grade math and lunch,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        181,
+        182
+      ],
+      "start": 70.07,
+      "end": 71.27,
+      "text": "I realized..."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        183,
+        187
+      ],
+      "start": 71.27,
+      "end": 71.99,
+      "text": "I had a crush on"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        188,
+        190
+      ],
+      "start": 71.99,
+      "end": 72.93,
+      "text": "my desk partner."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        191,
+        194
+      ],
+      "start": 73.66,
+      "end": 74.88,
+      "text": "It was completely innocent."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        195,
+        199
+      ],
+      "start": 75.46,
+      "end": 76.34,
+      "text": "I didn't have a master"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        200,
+        200
+      ],
+      "start": 76.34,
+      "end": 76.78,
+      "text": "plan."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        201,
+        205
+      ],
+      "start": 77.38,
+      "end": 78.4,
+      "text": "I was just eight years"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        206,
+        210
+      ],
+      "start": 78.4,
+      "end": 80.08,
+      "text": "old, quietly happy that I"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        211,
+        215
+      ],
+      "start": 80.08,
+      "end": 81.34,
+      "text": "got assigned to that desk."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        216,
+        220
+      ],
+      "start": 82.02,
+      "end": 83.3,
+      "text": "Fast forward to the next"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        221,
+        221
+      ],
+      "start": 83.3,
+      "end": 83.64,
+      "text": "year."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        222,
+        226
+      ],
+      "start": 83.98,
+      "end": 85.26,
+      "text": "We were nearing middle school,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        227,
+        231
+      ],
+      "start": 85.6,
+      "end": 87.06,
+      "text": "and everyone knew the classes"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        232,
+        234
+      ],
+      "start": 87.06,
+      "end": 88.22,
+      "text": "were getting reshuffled."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        235,
+        239
+      ],
+      "start": 88.68,
+      "end": 91.18,
+      "text": "Different sections, different rooms, different"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        240,
+        240
+      ],
+      "start": 91.18,
+      "end": 91.5,
+      "text": "seats."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        241,
+        242
+      ],
+      "start": 92.18,
+      "end": 92.88,
+      "text": "One afternoon,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        243,
+        245
+      ],
+      "start": 93.36,
+      "end": 93.98,
+      "text": "a friend sat"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        246,
+        250
+      ],
+      "start": 93.98,
+      "end": 95.1,
+      "text": "next to me and started"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        251,
+        252
+      ],
+      "start": 95.1,
+      "end": 95.84,
+      "text": "drilling me."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        253,
+        257
+      ],
+      "start": 96.02,
+      "end": 97.1,
+      "text": "Bro, who do you like?"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        258,
+        259
+      ],
+      "start": 97.4,
+      "end": 97.82,
+      "text": "Tell me!"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        260,
+        264
+      ],
+      "start": 98.12,
+      "end": 98.82,
+      "text": "I swear on my life"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        265,
+        269
+      ],
+      "start": 98.82,
+      "end": 100.24,
+      "text": "I won't tell anyone, your"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        270,
+        273
+      ],
+      "start": 100.24,
+      "end": 101.54,
+      "text": "secret is completely safe."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        274,
+        278
+      ],
+      "start": 102.07,
+      "end": 103.33,
+      "text": "I was so stupid to"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        279,
+        280
+      ],
+      "start": 103.33,
+      "end": 104.07,
+      "text": "believe him."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        281,
+        285
+      ],
+      "start": 104.51,
+      "end": 105.83,
+      "text": "I leaned in, whispered her"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        286,
+        286
+      ],
+      "start": 105.83,
+      "end": 106.19,
+      "text": "name,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        287,
+        290
+      ],
+      "start": 106.61,
+      "end": 108.05,
+      "text": "and genuinely thought that"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        291,
+        295
+      ],
+      "start": 108.05,
+      "end": 109.27,
+      "text": "secret was locked in a"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        296,
+        296
+      ],
+      "start": 109.27,
+      "end": 109.41,
+      "text": "vault."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        297,
+        299
+      ],
+      "start": 110.16,
+      "end": 111.28,
+      "text": "Within four minutes,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        300,
+        301
+      ],
+      "start": 111.84,
+      "end": 112.12,
+      "text": "this guy"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        302,
+        306
+      ],
+      "start": 112.12,
+      "end": 113.9,
+      "text": "went and told every single"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        307,
+        310
+      ],
+      "start": 113.9,
+      "end": 115.16,
+      "text": "friend in our group."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        311,
+        315
+      ],
+      "start": 115.8,
+      "end": 117.34,
+      "text": "And just to completely extinguish"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        316,
+        317
+      ],
+      "start": 117.34,
+      "end": 117.94,
+      "text": "my soul,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        318,
+        320
+      ],
+      "start": 118.38,
+      "end": 119.08,
+      "text": "he walked right"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        321,
+        325
+      ],
+      "start": 119.08,
+      "end": 120.3,
+      "text": "up to the girl and"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        326,
+        328
+      ],
+      "start": 120.3,
+      "end": 121.08,
+      "text": "told her too."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        329,
+        333
+      ],
+      "start": 121.9,
+      "end": 122.96,
+      "text": "I was standing in the"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        334,
+        336
+      ],
+      "start": 122.96,
+      "end": 124.7,
+      "text": "hallway, completely paralyzed."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        337,
+        341
+      ],
+      "start": 125.36,
+      "end": 126.52,
+      "text": "The whole group was laughing,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        342,
+        343
+      ],
+      "start": 127.02,
+      "end": 127.62,
+      "text": "she knew,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        344,
+        346
+      ],
+      "start": 127.98,
+      "end": 128.56,
+      "text": "I knew she"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        347,
+        347
+      ],
+      "start": 128.56,
+      "end": 128.92,
+      "text": "knew,"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        348,
+        351
+      ],
+      "start": 129.46,
+      "end": 130.6,
+      "text": "and my soul basically"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        352,
+        354
+      ],
+      "start": 130.6,
+      "end": 131.46,
+      "text": "left my body."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        355,
+        359
+      ],
+      "start": 132.33,
+      "end": 133.67,
+      "text": "And then came the absolute"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        360,
+        362
+      ],
+      "start": 133.67,
+      "end": 134.65,
+      "text": "cherry on top."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        363,
+        367
+      ],
+      "start": 135.35,
+      "end": 136.25,
+      "text": "I found out that another"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        368,
+        372
+      ],
+      "start": 136.25,
+      "end": 137.95,
+      "text": "friend in our group ALSO"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        373,
+        376
+      ],
+      "start": 137.95,
+      "end": 138.91,
+      "text": "liked the same girl."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        377,
+        381
+      ],
+      "start": 139.79,
+      "end": 140.59,
+      "text": "So now there were two"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        382,
+        386
+      ],
+      "start": 140.59,
+      "end": 142.67,
+      "text": "of us, publicly exposed and"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        387,
+        391
+      ],
+      "start": 142.67,
+      "end": 144.67,
+      "text": "mourning our childhood romance together."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        392,
+        396
+      ],
+      "start": 145.69,
+      "end": 147.73,
+      "text": "So yeah, that was sad."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        397,
+        401
+      ],
+      "start": 148.35,
+      "end": 149.23,
+      "text": "But looking back on it"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        402,
+        402
+      ],
+      "start": 149.23,
+      "end": 150.15,
+      "text": "now..."
+    },
+    {
+      "actor": "adb",
+      "words": [
+        403,
+        407
+      ],
+      "start": 150.15,
+      "end": 151.05,
+      "text": "at least I learned at"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        408,
+        412
+      ],
+      "start": 151.05,
+      "end": 152.73,
+      "text": "age eight never to trust"
+    },
+    {
+      "actor": "adb",
+      "words": [
+        413,
+        417
+      ],
+      "start": 152.73,
+      "end": 153.77,
+      "text": "a friend with a secret."
+    }
+  ],
+  "mix": {
+    "master_gain_db": 3.5,
+    "target_lufs": -18.0,
+    "peak_dbfs": -1.5
+  }
+}

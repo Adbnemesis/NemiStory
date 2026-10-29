@@ -1,0 +1,5 @@
+# Candidate A review
+
+Native, 320×180 and 160×90 outputs viewed by the primary and independent reviewer. No material revision required. See [the full pair review](../../REVIEW.md).
+
+Exact headline, thick BLACK/RED/BLACK outlines, recognizable Nemi identity, clear aftermath emotion, coherent hands/toilet contact, crop safety and lower-right duration area all reviewed. Tight uncropped typography and partially hidden ahoge are recorded minor layout notes. Selection pending.

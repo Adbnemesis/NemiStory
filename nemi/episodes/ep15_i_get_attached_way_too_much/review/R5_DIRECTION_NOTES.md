@@ -1,0 +1,19 @@
+# EP15 R5 direction revision
+
+The user found R4 slow and asked for more doodles, props, backgrounds and fewer large pauses. R5 keeps the complete story and canonical voice, saves10.2seconds through11 authored silent source cuts and shorter selected holds, and finishes at150.2seconds. It does not accelerate emotional passages.
+
+The visit has a grounded guest-room corner, luggage and city-window context. The anticipated reunion becomes a whole imagined café: three cups settle/develop in sequence and conversation arcs appear, then rest. Its empty chairs return for the missed-too admission. A years-apart calendar, journey to two anonymous friends, separate busy replies and one-day/calendar thought develop the visit without inventing friends' motives.
+
+The school memory has a distinct nook, bench and bag. Two excited outgoing messages build, a send accent lands, and the tiny reply follows. Rereading uses a separate excited draft, exclamation-mark correction and eraser motif. The café invitation drawing is not reused as a school message. Neeko has canonical cream/ginger geometry with a bounded cushion/bowl care memory. A drawer emerges at remember; recognizable photo/chat/cat keepsakes follow at carry, then one storage overflow. Quiet replies and worth are separated through an authored live correction. The phone is set on a real reachable console, releases continuously, and stays still while the hand withdraws and Nemi turns outward.
+
+Each thought has one primary audience focus. Live ink develops or revises that focus; completed strokes hold. Portraits preserve hurt, wanted-to-feel-missed, Neeko warmth and the ending. Four new settings keep cream paper, neutral/sage soft washes, canonical character colors and dark ink, guided by the actual EP06 comparison. Furniture, feet, hands and captions have been inspected in the mechanism proofs.
+
+The fresh first café proof exposed a phone hidden by crossed wrists. The city section now uses an isolated instance of the same unchanged Nemi rig with a bounded right-hand path; only one Nemi is visible. The final putdown retains its separate authored contact path. The first contact proof exposed captions over shoes; camera framing now clears the caption band. An independent4506-frame Stage scan verifies one visible instance, all700 city-phone frames and the final release boundaries. These numeric checks accompany visual proofs and do not certify acoustic listening.
+
+Proofs are preserved in workspace renders/nemi_ep15. Their actual capture hashes are recorded in stamps; later changes outside a proof window do not turn that proof into a full-cut approval. R5b mechanism proofs verify the corrected grip/caption staging. The first48s integrated movie is unchanged by the final drawer/worth layout edits outside its time window. The mandatory both-author48s shared review was freshly rendered and sampled. Root exercised normal-speed playback from0 to48 for both integrated movies; acoustic perception remains unclaimed.
+
+Full current1080p review remains the required deliverable. No4K, approval receipt or cleanup of older movies is authorized until explicit user satisfaction with this exact cut. R3 andR4 remain preserved.
+
+## Compressed-audio correction
+
+The first full normal export completed4506 picture frames but rejected the compressed AAC peak. No full movie was saved. The diagnostic capture log is preserved. Exact shared PCM16mix/AAC audio-only trials showed master3.7dB passes at−2.9dBTP; the builder now calibrates to−2.5dB PCM truepeak. All picture, original narration, speech/word/caption/mouth timing, SFX timing and relative levels are byte-for-value unchanged after removing the mix object. Current scene SHA256 is6b9a5c5b8b17f1cd87294a0e7247f961ad426507655e7c64341603e76640a88b. The whole movie is rendered again through the normal exporter; no old picture stream is remuxed and no validator is bypassed.

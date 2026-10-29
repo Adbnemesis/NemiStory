@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "episode": "ep04_my_school_crush",
+  "approved_master": {
+    "path": "adb/episodes/ep04_my_school_crush/renders/ADB_EP04_My_School_Crush_4K.mp4",
+    "sha256": "71f8b53758dbbf3c21dfc06b3446acf774a1b9e67bf20cbeefbd0e996345cf05",
+    "size": 35245360,
+    "resolution": [
+      3840,
+      2160
+    ],
+    "fps": 30.0,
+    "duration": 103.1
+  },
+  "deleted_superseded_renders": [
+    {
+      "path": "adb/episodes/ep04_my_school_crush/renders/proof_still_8s.png",
+      "sha256": "4b79e04559d2d97ace1f79f0dc2050ab37beb119930e69b1b8c013541aa07ef9",
+      "size": 275905,
+      "reason": "superseded by approved final 4K master"
+    },
+    {
+      "path": "adb/episodes/ep04_my_school_crush/renders/ADB_EP04_My_School_Crush_r1_1080p.mp4",
+      "sha256": "7b673715c9bbfaafc5831bfa8a02ac23995b1226897163b305abf994984f9f38",
+      "size": 9006673,
+      "reason": "superseded by approved final 4K master"
+    },
+    {
+      "path": "adb/episodes/ep04_my_school_crush/renders/proof_still_5s.png",
+      "sha256": "0629759008eca6a08d499798713bc73a4da1d9147429deb7133bd34ede89663a",
+      "size": 361102,
+      "reason": "superseded by approved final 4K master"
+    },
+    {
+      "path": "adb/episodes/ep04_my_school_crush/renders/proof_still_2s.png",
+      "sha256": "6c14c7f9be98690ba8edfa7dd7ae1d23ea757a96f7704837038f2f259b1daaaa",
+      "size": 396123,
+      "reason": "superseded by approved final 4K master"
+    },
+    {
+      "path": "adb/episodes/ep04_my_school_crush/renders/proof_integrated_30s.mp4",
+      "sha256": "943576123ba70df705d97c276d866d0e3c346aa7b752c47fccbaf8d227385f1c",
+      "size": 1905523,
+      "reason": "superseded by approved final 4K master"
+    },
+    {
+      "path": "adb/episodes/ep04_my_school_crush/renders/proof_10s.mp4",
+      "sha256": "40f27a9bc18f3412975914bff8fe8e6321baa21f41422fbdda44db793bef2ac2",
+      "size": 461527,
+      "reason": "superseded by approved final 4K master"
+    },
+    {
+      "path": "adb/episodes/ep04_my_school_crush/renders/ADB_EP04_My_School_Crush_r2_1080p.mp4",
+      "sha256": "c4fd321be7eed5ad45f9f38c3b20551f58f56a418743be33d7cbaa007c3db00e",
+      "size": 34070123,
+      "reason": "superseded by approved final 4K master"
+    },
+    {
+      "path": "adb/episodes/ep04_my_school_crush/renders/proof_10s_r2.mp4",
+      "sha256": "f33c941d09d11f31f51af8ad86e834eb31d90a000f38fa435b440c1bbe56ecb6",
+      "size": 3638307,
+      "reason": "superseded by approved final 4K master"
+    },
+    {
+      "path": "renders/ADB_EP04_My_School_Crush_r3_1080p.mp4",
+      "sha256": "ae73a491e023bd230c8529d3059be9d3ab2506d9e2907978278b690475002aaf",
+      "size": 18448685,
+      "reason": "superseded intermediate render"
+    },
+    {
+      "path": "renders/ADB_EP04_My_School_Crush_r4_1080p.mp4",
+      "sha256": "47e64cdb216d96adb0d7c469c281c42cc86947c0d1d22fe44b83ba7054666d85",
+      "size": 19390954,
+      "reason": "superseded intermediate render"
+    }
+  ],
+  "cleanup_policy": "User retention preference applied: episode renders directory contains exclusively the final 4K video. All intermediate/superseded renders removed. Records preserved under review/render_records/."
+}

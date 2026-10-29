@@ -1,0 +1,59 @@
+{
+  "status": "1080p review; user acceptance pending",
+  "movie": "res://nemi/episodes/ep13_please_support_me/renders/NEMI_EP13_Please_Support_Me_r3_1080p.mp4",
+  "sha256": "9208410832f6730c31352fd37d937cde100ff4cfbb0a0ed86a3527ba36a16122",
+  "spec_sha256": "0e503be19d90411360cd71ca2a2d71c6409bbc2ac8cb93a750249b82bf6a0801",
+  "duration_seconds": 65.0,
+  "hard_cap_seconds": 100.0,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "65.000000",
+        "nb_read_frames": "1950"
+      }
+    ],
+    "format": {
+      "duration": "65.000000"
+    }
+  },
+  "full_decode_passed": true,
+  "audio": {
+    "integrated_lufs": -18.0,
+    "true_peak_dbfs": -2.4
+  },
+  "stills": [
+    3.2,
+    6.4,
+    9.6,
+    12.8,
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    41.6,
+    44.8,
+    48.0,
+    51.2,
+    54.4,
+    57.6,
+    60.8,
+    64.0,
+    64.5
+  ],
+  "caption_count": 44,
+  "all_caption_cards_at_most_five_words": true,
+  "voice_identity": "Canonical Sohee CustomVoice; unchanged identity prompt, original Sohee recordings with selected pitch-preserving tempo 1.08\u20131.12 and explicit phrase-pause edits; retained originals",
+  "alignment": "Measured Whisper word times plus authored existing mouth shapes and consonant closures",
+  "sfx_provenance_checked": true,
+  "rigs_edited": false,
+  "user_4k_approval": false
+}

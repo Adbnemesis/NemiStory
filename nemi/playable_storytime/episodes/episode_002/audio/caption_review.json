@@ -1,0 +1,58 @@
+{
+  "safe_same_unit_spelling_corrections": [
+    {
+      "word_index": 91,
+      "from": "tier.",
+      "to": "tear."
+    },
+    {
+      "word_index": 180,
+      "from": "root.",
+      "to": "route."
+    },
+    {
+      "word_index": 190,
+      "from": "for",
+      "to": "Four"
+    },
+    {
+      "word_index": 247,
+      "from": "racer",
+      "to": "eraser"
+    },
+    {
+      "word_index": 285,
+      "from": "They're",
+      "to": "There,"
+    },
+    {
+      "word_index": 402,
+      "from": "OK,",
+      "to": "Okay,"
+    }
+  ],
+  "note": "R9 current-index spelling/display review on independently aligned processed recordings. Raw audio/timeline/alignments remain unchanged; no inserted/merged word or invented time. Current Seven/eight already match. No actual listening available.",
+  "unresolved_alignment_review": [
+    {
+      "clip_id": "door_admission",
+      "word_indices": [
+        72,
+        73
+      ],
+      "raw": "door knob",
+      "authored": "a doorknob",
+      "handling": "Retain raw two-unit segmentation; do not merge or insert an a into guessed timing.",
+      "listening_review": "pending"
+    },
+    {
+      "clip_id": "ride_commit",
+      "word_indices": [
+        397
+      ],
+      "raw": "A",
+      "authored": "The",
+      "handling": "Retain raw hypothesis; changing an article is not a safe same-unit spelling correction.",
+      "listening_review": "pending"
+    }
+  ]
+}

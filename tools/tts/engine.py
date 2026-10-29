@@ -56,6 +56,9 @@ class QwenVoiceDesignEngine:
         lang = language or self.config.language
         chosen_speaker = speaker or getattr(self.config, "speaker", None)
 
+        # Dynamic token limit based on word count to prevent endless silence loops
+        dyn_max_tokens = min(4096, max(256, int(len(cleaned_text.split()) * 25)))
+
         # 1. CustomVoice model generation (predefined voice actor)
         if getattr(self.model.config, "tts_model_type", "") == "custom_voice":
             effective_speaker = chosen_speaker or "sohee"
@@ -68,7 +71,7 @@ class QwenVoiceDesignEngine:
                 top_k=50,
                 top_p=0.95,
                 repetition_penalty=1.05,
-                max_tokens=4096,
+                max_tokens=dyn_max_tokens,
                 verbose=False,
                 stream=False
             ))
@@ -103,7 +106,7 @@ class QwenVoiceDesignEngine:
                     top_k=50,
                     top_p=0.95,
                     repetition_penalty=1.05,
-                    max_tokens=4096,
+                    max_tokens=dyn_max_tokens,
                     verbose=False,
                     stream=False
                 ))
@@ -131,6 +134,13 @@ class QwenVoiceDesignEngine:
             audio_np = audio_np.mean(axis=-1)
             
         audio_np = audio_np.astype(np.float32)
+
+        # Trim trailing silence exceeding 0.35s to prevent ghost silence loops
+        energy = np.where(np.abs(audio_np) > 0.005)[0]
+        if len(energy) > 0:
+            last_active = energy[-1]
+            cutoff = min(len(audio_np), last_active + int(self.config.sample_rate * 0.35))
+            audio_np = audio_np[:cutoff]
         
         # Peak normalization if clipping occurs, leaving 0.5 dB headroom
         peak = np.max(np.abs(audio_np))

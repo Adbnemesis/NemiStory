@@ -1,0 +1,37 @@
+{
+  "movie": "nemi/episodes/ep15_i_get_attached_way_too_much/renders/NEMI_EP15_I_Get_Attached_Way_Too_Much_r5_1080p_REVIEW.mp4",
+  "movie_sha256": "4cb4c036a52e032dd037babdd703d2175cbe1762bfcfc99faa0331ddfa6412b6",
+  "scene_sha256": "6b9a5c5b8b17f1cd87294a0e7247f961ad426507655e7c64341603e76640a88b",
+  "duration_seconds": 150.2,
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 4506
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "integrated_lufs": -23.3,
+    "true_peak_dbfs": -2.9
+  },
+  "full_decode": {
+    "returncode": 0,
+    "errors": []
+  },
+  "waveform": {
+    "encoded_vs_fresh_shared_float_mix_correlation": 0.9992301121023517,
+    "normalized_rms_error": 0.039284316576068144,
+    "voice_only_mask_samples": 3875470,
+    "encoded_vs_r5_voice_correlation": 0.9994079560208821,
+    "fitted_source_to_export_gain_db": 1.6736535614792412,
+    "voice_only_normalized_rms_error": 0.034426967549829754,
+    "voice_sha256": "d0f344c6575bc5201688db498b37fa49dcbad6dcce83716b599fba11ceb677d6",
+    "timing_metadata_audio_sha256": "d0f344c6575bc5201688db498b37fa49dcbad6dcce83716b599fba11ceb677d6",
+    "source_hash_matches": true
+  },
+  "review_status": "Numeric encoded QA passed; no perceptual listening claimed.",
+  "method": "FFprobe full frame count; FFmpeg full video/audio decode and EBU R128 truepeak. Mono48k float decode compared with fresh unchanged shared mix; voice-only comparison excludes everySFX interval\u00b1padding and uses abs(source)>0.001. AAC lossy waveform differences expected. Hash pins exact R5 narration; no media rewritten."
+}

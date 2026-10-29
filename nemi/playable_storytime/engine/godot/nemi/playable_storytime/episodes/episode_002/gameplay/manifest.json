@@ -1,0 +1,360 @@
+{
+  "duration": 220,
+  "automatic_state": false,
+  "challenges": [
+    {
+      "id": "real_exit",
+      "narrative_purpose": "Find a real way off the page.",
+      "start": 0.0,
+      "end": 22.0,
+      "objective": "Find a real way off the page.",
+      "instructions": "Mouse: click and drag to look. Phone: swipe, then choose the matching numbered chapter. Desktop: press the displayed number.",
+      "clue_id": "real_tear",
+      "inputs": [
+        "mouse drag",
+        "desktop WASD",
+        "YouTube app swipe",
+        "pause",
+        "desktop number keys",
+        "numbered chapters"
+      ],
+      "solution": "2  TAKE THE TEAR",
+      "solution_key": 2,
+      "retry_key": 0,
+      "alternative_keys": [
+        1
+      ],
+      "valid_destinations": [
+        44.0
+      ],
+      "alternative_outcomes": [
+        22.0
+      ],
+      "hints": [],
+      "visual_change": "View rotation reveals physical evidence. Native digit seeks select authored outcomes at exact whole-video percentages.",
+      "success": "The material choice creates a supported route and the story continues.",
+      "retry_method": "Press 0 to inspect this choice again, or press 2 for the physical route.",
+      "do_nothing": "The failed attempt, authored rewind and better attempt play as a coherent linear story; no automatic choice detection.",
+      "wrong_answer": "An entertaining physical failure and rewind names the safe next number.",
+      "state_tracking": false,
+      "desktop": true,
+      "mobile": "Swipe to look and select the matching numbered chapter, when available; use description timestamps as recovery.",
+      "device_limitations": [
+        "Desktop player must have focus. Digits seek time and preserve pause/view state.",
+        "Mobile chapter and actual upload behavior need channel/device verification.",
+        "Local automatic viewpoint steering is optional and not part of the uploaded movie."
+      ]
+    },
+    {
+      "id": "missing_floor",
+      "narrative_purpose": "Inspect the unfinished bridge and the loose paper tab.",
+      "start": 66.0,
+      "end": 88.0,
+      "objective": "Inspect the unfinished bridge and the loose paper tab.",
+      "instructions": "Mouse: click and drag to look. Phone: swipe, then choose the matching numbered chapter. Desktop: press the displayed number.",
+      "clue_id": "loose_tab",
+      "inputs": [
+        "mouse drag",
+        "desktop WASD",
+        "YouTube app swipe",
+        "pause",
+        "desktop number keys",
+        "numbered chapters"
+      ],
+      "solution": "5 FOLD THE TAB",
+      "solution_key": 5,
+      "retry_key": 3,
+      "alternative_keys": [
+        4
+      ],
+      "valid_destinations": [
+        110.0
+      ],
+      "alternative_outcomes": [
+        88.0
+      ],
+      "hints": [],
+      "visual_change": "View rotation reveals physical evidence. Native digit seeks select authored outcomes at exact whole-video percentages.",
+      "success": "The material choice creates a supported route and the story continues.",
+      "retry_method": "Press 3 to inspect this choice again, or press 5 for the physical route.",
+      "do_nothing": "The failed attempt, authored rewind and better attempt play as a coherent linear story; no automatic choice detection.",
+      "wrong_answer": "An entertaining physical failure and rewind names the safe next number.",
+      "state_tracking": false,
+      "desktop": true,
+      "mobile": "Swipe to look and select the matching numbered chapter, when available; use description timestamps as recovery.",
+      "device_limitations": [
+        "Desktop player must have focus. Digits seek time and preserve pause/view state.",
+        "Mobile chapter and actual upload behavior need channel/device verification.",
+        "Local automatic viewpoint steering is optional and not part of the uploaded movie."
+      ]
+    },
+    {
+      "id": "eraser_escape",
+      "narrative_purpose": "Find the eraser, then choose how to reach the page edge.",
+      "start": 132.0,
+      "end": 154.0,
+      "objective": "Find the eraser, then choose how to reach the page edge.",
+      "instructions": "Mouse: click and drag to look. Phone: swipe, then choose the matching numbered chapter. Desktop: press the displayed number.",
+      "clue_id": "escape_vehicle",
+      "inputs": [
+        "mouse drag",
+        "desktop WASD",
+        "YouTube app swipe",
+        "pause",
+        "desktop number keys",
+        "numbered chapters"
+      ],
+      "solution": "8 RIDE IT",
+      "solution_key": 8,
+      "retry_key": 6,
+      "alternative_keys": [
+        7
+      ],
+      "valid_destinations": [
+        176.0
+      ],
+      "alternative_outcomes": [
+        154.0
+      ],
+      "hints": [],
+      "visual_change": "View rotation reveals physical evidence. Native digit seeks select authored outcomes at exact whole-video percentages.",
+      "success": "The material choice creates a supported route and the story continues.",
+      "retry_method": "Press 6 to inspect this choice again, or press 8 for the physical route.",
+      "do_nothing": "The failed attempt, authored rewind and better attempt play as a coherent linear story; no automatic choice detection.",
+      "wrong_answer": "An entertaining physical failure and rewind names the safe next number.",
+      "state_tracking": false,
+      "desktop": true,
+      "mobile": "Swipe to look and select the matching numbered chapter, when available; use description timestamps as recovery.",
+      "device_limitations": [
+        "Desktop player must have focus. Digits seek time and preserve pause/view state.",
+        "Mobile chapter and actual upload behavior need channel/device verification.",
+        "Local automatic viewpoint steering is optional and not part of the uploaded movie."
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "passive",
+      "times": [
+        0.0,
+        22.0,
+        44.0,
+        66.0,
+        88.0,
+        110.0,
+        132.0,
+        154.0,
+        176.0,
+        198.0
+      ]
+    },
+    {
+      "id": "main",
+      "times": [
+        0.0,
+        44.0,
+        110.0,
+        176.0
+      ]
+    },
+    {
+      "id": "all_failures",
+      "times": [
+        0.0,
+        22.0,
+        44.0,
+        66.0,
+        88.0,
+        110.0,
+        132.0,
+        154.0,
+        176.0,
+        198.0
+      ]
+    }
+  ],
+  "navigation": {
+    "mode": "youtube_digits",
+    "key_targets": [
+      {
+        "key": 0,
+        "chapter": "the_floor_is_disappearing"
+      },
+      {
+        "key": 1,
+        "chapter": "the_door_was_only_ink"
+      },
+      {
+        "key": 2,
+        "chapter": "there_is_space_beyond"
+      },
+      {
+        "key": 3,
+        "chapter": "the_missing_bridge"
+      },
+      {
+        "key": 4,
+        "chapter": "the_bridge_gives_way"
+      },
+      {
+        "key": 5,
+        "chapter": "the_paper_holds"
+      },
+      {
+        "key": 6,
+        "chapter": "where_is_the_eraser"
+      },
+      {
+        "key": 7,
+        "chapter": "the_path_is_gone"
+      },
+      {
+        "key": 8,
+        "chapter": "the_eraser_lift"
+      },
+      {
+        "key": 9,
+        "chapter": "a_solid_desk"
+      }
+    ]
+  },
+  "interaction_scenes": [
+    {
+      "id": "the_floor_is_disappearing",
+      "start": 0.0,
+      "end": 22.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Look for the two exits. Choose the one you trust.",
+      "choices": [
+        {
+          "key": 1,
+          "label": "Try the door",
+          "chapter": "the_door_was_only_ink"
+        },
+        {
+          "key": 2,
+          "label": "Take the tear",
+          "chapter": "there_is_space_beyond"
+        }
+      ]
+    },
+    {
+      "id": "the_door_was_only_ink",
+      "start": 22.0,
+      "end": 44.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Let the door attempt play out; the rewind points you to the tear.",
+      "choices": [
+        {
+          "key": 2,
+          "label": "Take the tear",
+          "chapter": "there_is_space_beyond"
+        }
+      ]
+    },
+    {
+      "id": "there_is_space_beyond",
+      "start": 44.0,
+      "end": 66.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "The desk is outside the drawing. Keep following the opening toward safety.",
+      "choices": []
+    },
+    {
+      "id": "the_missing_bridge",
+      "start": 66.0,
+      "end": 88.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "The eraser is still coming. Choose how to cross the gap on the way to the desk.",
+      "choices": [
+        {
+          "key": 4,
+          "label": "Run across",
+          "chapter": "the_bridge_gives_way"
+        },
+        {
+          "key": 5,
+          "label": "Fold the tab",
+          "chapter": "the_paper_holds"
+        }
+      ]
+    },
+    {
+      "id": "the_bridge_gives_way",
+      "start": 88.0,
+      "end": 110.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Let the attempt finish. The paper tab is still available after the rewind.",
+      "choices": [
+        {
+          "key": 5,
+          "label": "Fold the tab",
+          "chapter": "the_paper_holds"
+        }
+      ]
+    },
+    {
+      "id": "the_paper_holds",
+      "start": 110.0,
+      "end": 132.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Real paper holds while the ink disappears. Stay with Nemi toward the desk.",
+      "choices": []
+    },
+    {
+      "id": "where_is_the_eraser",
+      "start": 132.0,
+      "end": 154.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "One eraser, one destination: race along the ink, or ride its solid top to the desk.",
+      "choices": [
+        {
+          "key": 7,
+          "label": "Race it",
+          "chapter": "the_path_is_gone"
+        },
+        {
+          "key": 8,
+          "label": "Ride it",
+          "chapter": "the_eraser_lift"
+        }
+      ]
+    },
+    {
+      "id": "the_path_is_gone",
+      "start": 154.0,
+      "end": 176.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Wait for the rewind, then use the eraser as a lift.",
+      "choices": [
+        {
+          "key": 8,
+          "label": "Ride it",
+          "chapter": "the_eraser_lift"
+        }
+      ]
+    },
+    {
+      "id": "the_eraser_lift",
+      "start": 176.0,
+      "end": 198.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "Stay aboard with Nemi. The ride continues into the ending.",
+      "choices": []
+    },
+    {
+      "id": "a_solid_desk",
+      "start": 198.0,
+      "end": 220.0,
+      "objective": "Get Nemi to the desk beyond the page.",
+      "feedback": "You reached the desk. Press 0 only if you want to play again.",
+      "choices": [
+        {
+          "key": 0,
+          "label": "Play again",
+          "chapter": "the_floor_is_disappearing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "movie": "res://renders/nemi_ep15/EP15_shared_system_r5_48s_1080p.mp4",
+  "sha256": "1382b39e0e8245999679df3b3c40582d38d626e53983f9bfd4b5d8254051e24f",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "48.000000",
+        "nb_read_frames": "1440"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "48.000000",
+        "nb_read_frames": "2250"
+      }
+    ],
+    "format": {
+      "duration": "48.000000"
+    }
+  },
+  "full_decode_passed": true,
+  "full_decode_stderr": "",
+  "stills_seconds": [
+    2,
+    7,
+    13,
+    18,
+    22,
+    26,
+    30,
+    35,
+    40,
+    45,
+    47
+  ],
+  "subjective_visual_review": {
+    "status": "11 requested decoded stills inspected",
+    "full_body": "Nemi and ADB silhouettes, feet and hands remain visible in wide shots at2,7,13,18,22,26,30,35,40,45,47 seconds. Both authors visible at45/47.",
+    "prop_contact": "ADB holds mug with the existing handle grip at26s; resting hand and desk state visible at22s. Eleven stills do not establish all pickup/release boundaries or continuous motion.",
+    "dual_pen": "Nemi rounded/loose handwriting visible at2/7/18/30/35; ADB compact print visible at13/22/40/47.",
+    "art_and_environment": "Notebook, laptop, mug, drawn circle and evening payoff remain readable with restrained background detail. This technical fixture does not exercise all new EP15 art kinds.",
+    "sampled_visual_blockers": []
+  },
+  "playback_review": "not performed: child computer-use tool returned Browser is not available: iab when opening the supplied local review URL",
+  "acoustic_listening": "not performed; no direct acoustic quality claim",
+  "user_satisfaction": "not an episode approval; current full EP15 1080p review remains pending",
+  "four_k_rendered": false,
+  "sound_scope": {
+    "encoded_audio_stream_present": true,
+    "declared_fixture_sfx": 5,
+    "declared_event_links": [
+      "first_line",
+      "eyes",
+      "mug_down"
+    ],
+    "direct_acoustic_audibility_claim": false,
+    "limitation": "An encoded audio stream and declared event cues do not prove perceptual SFX prominence, mix quality, voice quality or lip-sync. No acoustic listening performed."
+  }
+}

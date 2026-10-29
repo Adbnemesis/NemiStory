@@ -1,0 +1,48 @@
+{
+  "status": "awaiting_user_selection",
+  "selected": null,
+  "recommended": "play_in_youtube_b",
+  "headline": "PLAY IN YOUTUBE!",
+  "proposed_title": "Can You Get Me Out of My Own Drawing? (Playable 360° Story)",
+  "candidates": [
+    {
+      "id": "play_in_youtube_a",
+      "concept": "Rescue from the drawing",
+      "image": "revisions/play_in_youtube_concepts/concept_a/thumbnail.png",
+      "upload": "revisions/play_in_youtube_concepts/concept_a/thumbnail.jpg",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "upload_dimensions": [
+        1280,
+        720
+      ],
+      "qa": "revisions/play_in_youtube_concepts/concept_a/QA.json"
+    },
+    {
+      "id": "play_in_youtube_b",
+      "concept": "Your key chooses the exit",
+      "image": "revisions/play_in_youtube_concepts/concept_b/thumbnail.png",
+      "upload": "revisions/play_in_youtube_concepts/concept_b/thumbnail.jpg",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "upload_dimensions": [
+        1280,
+        720
+      ],
+      "qa": "revisions/play_in_youtube_concepts/concept_b/QA.json"
+    }
+  ],
+  "review": "concepts_mobile.png",
+  "recommendation_reason": "B makes the realnumber-keychoice legible at a glance;A puts strongeremphasis onpersonalrescue/urgency. No performanceprediction.",
+  "preserved_alternatives": [
+    "revisions/concept_a",
+    "revisions/concept_b",
+    "revisions/concept_b_initial",
+    "revisions/before_play_in_youtube"
+  ],
+  "provenance": "Built-in image generation; originalcacheandnativePNGs retained, uploadJPEGs downsampled. No movie/audio/rig/episode source changed. No upload or userselection inferred."
+}

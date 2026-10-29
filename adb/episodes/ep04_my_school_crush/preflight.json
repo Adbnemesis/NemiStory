@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "folder": "adb/episodes/ep04_my_school_crush",
+  "authors": [
+    "adb"
+  ],
+  "features": [
+    "live_ink",
+    "props",
+    "sfx"
+  ],
+  "documents": {
+    "docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md": {
+      "sha256": "1bc5459889e30103574f6542f40b9829a5e5228fc0e0306783640681e3181511",
+      "parts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "note": "ADB recounts his 8yo primary school crush and desk partner betrayal with dry Aiden delivery, structured via five clear direction beats (promise/want/choice/consequence/payoff), sequentially developing classroom desk props and evidence without visual clutter, delivering full 1080p cut first before 4K gate."
+    },
+    "docs/animation/STORYTIME_DIRECTION_WORKFLOW.md": {
+      "sha256": "555032d315f9ef84d91bf8cd60a7e18ed11b8c2a9ce61a8d7e552fb7f9f57547",
+      "parts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "note": "EP04 will author version-2 scene JSON adhering strictly to schema: continuous shots covering full duration, Aiden actor using canonical performance recipes ('explaining', 'embarrassed', 'uncertain', 'deadpan', 'weight_shift', 'soft_shrug'), classroom desks/partner seating art, bounded hand paths maintaining 58/55 arm lengths, event-anchored SFX and live doodles, and strict 1080p satisfaction gate."
+    },
+    "docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md": {
+      "sha256": "4bbf3a7dbf9d877636fca6fae064f77e1a323d01a313a0ff6c912a438f76a645",
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "note": "All illustrations and marks in EP04 will specify author: 'adb', using compact print, squared turns, slate/muted brown ink, and straight-stroke accents; ADB actor will use canonical mouth shapes ('talk_open', 'talk_wide', 'talk_round', 'neutral', 'smile') with measured phoneme/phrase alignment."
+    },
+    "adb/docs/ADB_ACTING_GUIDE.md": {
+      "sha256": "c8e4d5c012758bd80b84d04f8a8e7161b92c86e9ffded1be313285978d256860",
+      "parts": [
+        1,
+        2
+      ],
+      "note": "ADB will use composed, restrained acting: calm conversational explanation of the 8yo seating rule, disarmed sheepish embarrassment (blush 0.65, head tilt) admitting the childhood crush, sudden shock freeze at the friend's betrayal, and absolute deadpan comedic hold when discovering his other friend liked her too."
+    },
+    "adb/docs/ADB_CHARACTER_GUIDE.md": {
+      "sha256": "16c076406a6e662dade0c36e391b44927eda459dedbd93dbd65c79ab7544d72b",
+      "parts": [
+        1,
+        2
+      ],
+      "note": "EP04 maintains ADB's canonical Aiden voice, oatmeal knit sweater/dark trousers silhouette, and 24yo narrator perspective looking back on an 8-year-old primary school memory. The childhood desk partner is explicitly kept as a random school classmate (not Nemi, not his girlfriend), strictly honoring lore boundaries."
+    },
+    "adb/docs/ADB_LIP_SYNC_GUIDE.md": {
+      "sha256": "05dd8f139ad9a32337163135408923d73a3463e8e2f05565711a632d211301e6",
+      "parts": [
+        1
+      ],
+      "note": "Mouth cues in EP04 will exclusively use valid ADB phoneme shapes ('talk_open', 'talk_wide', 'talk_round', 'small_o', 'smile', 'smirk', 'neutral', 'deadpan'), snapping sharply across 0.03-0.05s, clamping shut on pauses >= 0.10s, and snapping to 'deadpan' on the betrayal reveal and sad ending."
+    },
+    "common/storytime/profiles/adb.json": {
+      "sha256": "ca5a41a8b41ec55aca8d8e0e0653bfaa8cd612ca215cae3659cc4f21fb8d431d",
+      "parts": [
+        1
+      ],
+      "note": "EP04 will render live and held ink using ADB's exact pen profile (#303944 slate ink, #8a6245 accent, 0.045 width, 0.022 baseline, 0.025s pen lifts) and his angular, measured mark geometries (arrow, question, scratch, circle)."
+    },
+    "common/storytime/examples/story_review_48s/REVIEW.md": {
+      "sha256": "170f43ce0a66e54e218beb345e1206f2525aa811624033a192936d70af57745c",
+      "parts": [
+        1
+      ],
+      "note": "EP04 will incorporate lessons from the 48s review: framing medium/wide classroom shots keeping planted feet and hands visible, strictly scoping hand paths with hand_path_window, and checking full silhouette posture and arm ownership across the entire story."
+    },
+    "docs/animation/STORYTIME_EPISODE_COLOUR_THEME.md": {
+      "sha256": "580c657a381ac938ada88e9204b005a1776caf252705d82088d8ed9f040e03be",
+      "parts": [
+        1
+      ],
+      "note": "EP04 will follow the EP06 cream paper colour reference: warm cream background (#faf7f2), dark readable ink, pale wood/sepia classroom desk surfaces, canonical oatmeal sweater and dark slate trousers for ADB, with selective warm rose and muted red accents for the crush and betrayal notes rather than fully saturated room fills."
+    },
+    "docs/animation/COMMON_ANIMATION_QA.md": {
+      "sha256": "f7158dc651a4f28e090434f43ffc143a7b0a4a9bd27172d2b41f9652d414c73b",
+      "parts": [
+        1
+      ],
+      "note": "EP04 will strictly pass all four QA gates: Gate 1 (grounded classroom desks, 10-layer depth, clean paper inking), Gate 2 (organic body acting, anticipation, 0-velocity comedic deadpan holds), Gate 3 (Aiden voice dominance, <=5 words per caption, clearing on pauses >=0.35s, no BGM, audible event SFX), Gate 4 (no procedural idle sway, no repeating stock loops)."
+    },
+    "tools/tts/config.py": {
+      "sha256": "e40065f248800836e45e48b95af92a745bf1564c17552c1a2eb4a87956223e66",
+      "parts": [
+        1
+      ],
+      "note": "EP04 will strictly use ADBVoiceConfig: speaker 'aiden', 24kHz WAV, 24yo male conversational tone with dry wit, 1.00-1.12x pitch-preserving tempo, and calibrated pause policies (0.20s short, 0.35s medium, 0.45s thought, 1.40s deadpan freeze)."
+    },
+    "docs/animation/COMMON_CAMERA_STAGING.md": {
+      "sha256": "8fc971efd15373998a419ecbcfd837af62ca21099749d8e11a52937ed098d823",
+      "parts": [
+        1
+      ],
+      "note": "EP04 will save camera_plan.json and author purposeful camera reframing: medium portrait conversational opening, wide shot establishing classroom desk geography, medium punch on admitting the 8yo crush, sharp cut on the friend's group-wide betrayal, and a steady deadpan hold for the final sad realization."
+    },
+    "docs/animation/COMMON_SFX_SYSTEM.md": {
+      "sha256": "dc8efd43b08e6aef5503c3e8c51462baec23b8b1c45ce5acb1c16ec8b9f12f12",
+      "parts": [
+        1
+      ],
+      "note": "EP04 will author a dedicated sound_plan.json using indexed root clips (e.g. 'pop.mp3', 'bruh.mp3') and library desk/drawing sounds, set to audible gains (-6 to -14 dB) below Aiden's narration, verified with sfx_assets.py, leaving intentional silence during deadpan holds."
+    },
+    "docs/animation/LIVE_DOODLING_WORKFLOW.md": {
+      "sha256": "584200fb037a1fa298c6b399b47aec91545e63c447911fa240926090a687be55",
+      "parts": [
+        1
+      ],
+      "note": "EP04 will employ live doodling for dramatic beats: revealing the classroom desk seating arrangement, drawing a secret crush arrow, and slashing it out with a two-stroke correction when the secret is blabbed, keeping all completed ink still after reveal."
+    },
+    "docs/animation/COMMON_PROP_SYSTEM.md": {
+      "sha256": "ae99ae1cb2061ff3e2cf2523dd2e22d2080a84a1108a7d0b9bce60be06d84ccf",
+      "parts": [
+        1
+      ],
+      "note": "EP04 will structure classroom props and furniture according to the 10-layer z-hierarchy (paper backdrop L1, chairs L2, desks L4/5, ADB body L7, held notes/pencil L8, annotations L10) with firm surface contact and organic tapered ink."
+    },
+    "docs/audio/SFX_System_Guide.md": {
+      "sha256": "2973052c494db7d2788666d73ae9f428b229f0cf106a709dad085009c6f3427f",
+      "parts": [
+        1
+      ],
+      "note": "EP04 will classify SFX strictly as punctual event sounds (<3s) linked to specific story beats (pencil scribble, desk tap, shock sting on betrayal), with zero continuous BGM/ambience beds, preserving Aiden's vocal priority and comedic deadpan silence."
+    },
+    "docs/audio/SFX_License_Registry.md": {
+      "sha256": "b2c33a96c5eb6bcc80f45f0c3d77d93f3d72c42920eef9f53eae0cd5a57676e2",
+      "parts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "EP04 will exclusively select sound assets from the verified 172-asset license ledger (Kenney CC0, Mixkit commercial, MIT bespoke) and indexed root MP3 clips, strictly maintaining copyright hygiene and provenance records."
+    }
+  }
+}

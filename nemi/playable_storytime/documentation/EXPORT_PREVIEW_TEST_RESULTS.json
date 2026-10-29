@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-25",
+  "scope": "Spatial metadata exporter and local preview infrastructure; not Episode 001 YouTube validation",
+  "spatial_metadata_unittests": {
+    "passed": 8,
+    "failed": 0,
+    "actual_ffmpeg_fixtures": true,
+    "faststart_and_end_moov_tested": true,
+    "decoded_video_framemd5_unchanged": true,
+    "mdat_audio_and_video_payloads_identical": true,
+    "ffprobe_spherical_side_data_detected": true
+  },
+  "preview_http_handler_unittests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "actual_loopback_http_requests": [
+    {
+      "path": "/previews/",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/previews/fixtures/projection_chart.mp4",
+      "range": "bytes=0-31",
+      "status": 206,
+      "bytes": 32
+    },
+    {
+      "path": "/previews/fixtures/projection_chart.mp4",
+      "range": "bytes=-32",
+      "status": 206,
+      "bytes": 32
+    },
+    {
+      "path": "/../../AGENTS.md",
+      "status": 404
+    }
+  ],
+  "browser_preview_visual_and_input_test": "pending parent agent review; child browser inventory unavailable",
+  "youtube_reference_tests": {
+    "firerama_maze_A_rotation_at_paused_18s": "passed; viewpoint changed and time stayed 00:18",
+    "lagarto_numeric_3_seek": "passed; 10-minute upload moved to 03:00 chapter 3 - PINK"
+  },
+  "episode_youtube_upload_and_playthrough": "not performed",
+  "real_mobile_device_test": "not performed"
+}

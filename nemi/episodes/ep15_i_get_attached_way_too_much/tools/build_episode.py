@@ -87,11 +87,11 @@ cuts = [
  (key(4,'stop'),'still_hurts','attachment_city','portrait','Quiet sadness, without mocking the friends.'),
  (starts[5]-.12,'empty_afternoon','attachment_city','medium','The same empty cafe chairs now mean disappointment.'),
  (key(5,'id missed'),'missed_too','attachment_city','portrait','Leave the vulnerable admission on the face.'),
- (starts[6]-.12,'school_memory','school_day_r4','wide','Establish the earlier classroom and its furniture.'),
- (E['typing'],'school_messages','school_day_r4','medium','Compare enthusiastic outgoing lines to a short reply.'),
- (starts[7]-.12,'feeling_silly','school_day_r4','portrait','Embarrassed down-right glance.'),
- (key(7,'read my'),'editing_excitement','school_day_r4','medium','The excitement becomes an imagined spelling correction.'),
- (key(7,'maybe'),'said_less','school_day_r4','portrait','Hold the doubt after the illustration clears.'),
+ (starts[6]-.12,'school_memory','school_corridor_r4','wide','Establish the earlier school corridor with grounded lockers and a door.'),
+ (E['typing'],'school_messages','school_corridor_r4','medium','Compare enthusiastic outgoing lines to a short reply.'),
+ (starts[7]-.12,'feeling_silly','school_corridor_r4','portrait','Embarrassed down-right glance.'),
+ (key(7,'read my'),'editing_excitement','school_corridor_r4','medium','The excitement becomes an imagined spelling correction.'),
+ (key(7,'maybe'),'said_less','school_corridor_r4','portrait','Hold the doubt after the illustration clears.'),
  (starts[8]-.12,'animal_attachment','attachment_home','medium','Neeko memory has its own warm space.'),
  (key(8,'cared'),'neeko_care','attachment_home','portrait','Read the warmth rather than decorating the cat.'),
  (key(8,'even after'),'neeko_memory','attachment_home','medium','Keep the cat portrait after the adoption reference.'),
@@ -224,8 +224,9 @@ art('text',E['storage'],end('storage_aside'),pos=(1070,660),text='storage full',
 art('text',cut('worth_revision')['start'],end('worth_revision'),pos=(1010,400),text='i matter less',size=50,accent=True)
 revision=art('scratch',E['less']+.65,end('worth_revision'),pos=(1200,440),scale=2.5,mode='live',draw_duration=.5,event_id='less')
 revision['event_offset']=.65
-art('text',E['less']+1.2,end('worth_revision'),pos=(1070,580),text='still me',size=56,mode='live',draw_duration=.75)
-art('attachment_phone_rest',E['phone_down'],end('own_day'),pos=(1210,610),scale=1.0,event_id='phone_down')
+art('text',E['less']+1.2,end('worth_revision'),pos=(1070,535),text='still me',size=56,mode='live',draw_duration=.75)
+resting_phone=art('phone',E['phone_down'],end('own_day'),pos=(1430,612),scale=1.1,event_id='phone_down')
+resting_phone['tilt']=90
 
 # A phone is already in Nemi's hand on the invitation cut. The grip is continuous
 # through the city reply, then is cleared with the next cut; no false pickup.
@@ -284,7 +285,9 @@ for pick in palette['cues']:
     cue=dict(file=pick['file'],at=r(at),duration=1.2 if name=='less' else pick['duration'],gain_db=pick['gain_db'],event=name)
     if delta:cue['event_offset']=delta
     sfx.append(cue)
-    sound_plan.append(dict(**pick,at=r(at)))
+    record=dict(pick)
+    record.update(at=r(at),event=name,source_palette_event=pick['event'],duration=cue['duration'],event_offset=delta)
+    sound_plan.append(record)
 
 vfx=[dict(author='nemi',kind='realization',actor='nemi',offset=[100,-80],at=E['contract'],end=r(E['contract']+.65),strength=.55,event='contract'),
      dict(author='nemi',kind='tension',actor='nemi',offset=[100,-60],at=E['busy'],end=r(E['busy']+.6),strength=.55,event='busy'),
@@ -297,7 +300,7 @@ thoughts=[
  ('Both friends are busy.','Reply evidence then hurt reaction','Two replies replace the imagined day; face then suitcase wide.','Respect the disappointment without inventing motives.'),
  ('Understanding other lives does not erase hurt.','Quiet face and open hands','Release the phone at a cut, acknowledge their plans, settle.','Keep emotional complexity.'),
  ('She wanted to feel missed too.','Empty chairs then portrait','Cafe callback changes meaning, quiet admission.','Let the central hurt land.'),
- ('The same unequal energy happened in school.','Outgoing versus incoming message','Classroom wide then message evidence, small underline.','Connect the present to the older pattern.'),
+ ('The same unequal energy happened in school.','Outgoing versus incoming message','School corridor wide then message evidence, small underline.','Connect the present to the older pattern.'),
  ('She edits her own excitement in her head.','Embarrassed face then imagined correction','Down-right glance, text revision metaphor, clear it.','Keep the comedy on her overthinking.'),
  ('Neeko mattered beyond the time they shared.','Neeko portrait and warm face','Canonical cream/ginger cat memory; no tragedy claim.','Show the caring side of attachment.'),
  ('Memories stay after life moves forward.','Heart thread then one storage aside','Held warm metaphor then compact dry joke.','Release tension without trivializing care.'),

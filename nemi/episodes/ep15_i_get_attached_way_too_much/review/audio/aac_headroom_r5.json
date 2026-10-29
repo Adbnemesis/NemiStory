@@ -1,0 +1,40 @@
+{
+  "scene_sha256": "881d034f25fc1989c223ad9dec5fe3b687d2054b64d6c9892370066fa6dd27e1",
+  "purpose": "Normal renderer rejected first R5 encoded peak; exact shared PCM16 mix then defaultAAC tests, no picturestream reuse or movie bypass.",
+  "trials": [
+    {
+      "master_gain_db": 4.7,
+      "wav": {
+        "integrated_lufs": -22.2,
+        "true_peak_dbfs": -1.5
+      },
+      "aac_default128k": {
+        "integrated_lufs": -22.3,
+        "true_peak_dbfs": 0.8
+      }
+    },
+    {
+      "master_gain_db": 3.7,
+      "wav": {
+        "integrated_lufs": -23.2,
+        "true_peak_dbfs": -2.5
+      },
+      "aac_default128k": {
+        "integrated_lufs": -23.3,
+        "true_peak_dbfs": -2.9
+      }
+    },
+    {
+      "master_gain_db": 2.7,
+      "wav": {
+        "integrated_lufs": -24.2,
+        "true_peak_dbfs": -3.5
+      },
+      "aac_default128k": {
+        "integrated_lufs": -24.3,
+        "true_peak_dbfs": -4.0
+      }
+    }
+  ],
+  "voice_source_unchanged": true
+}

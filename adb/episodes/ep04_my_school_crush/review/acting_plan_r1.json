@@ -1,0 +1,656 @@
+{
+  "version": 1,
+  "cues": [
+    {
+      "at": 0,
+      "recipe": "explaining",
+      "intent": "Composed opening explaining transfer to primary school.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.35,
+          0
+        ],
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 7.75,
+      "recipe": "deadpan",
+      "intent": "Freeze on recess being entire worldview.",
+      "event": "recess",
+      "detail": {
+        "motion": "snap"
+      }
+    },
+    {
+      "at": 8.7,
+      "recipe": "explaining",
+      "intent": "Explain the opposite-gender seating policy.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.4,
+          -0.05
+        ],
+        "hands": {
+          "right": "pointing",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 15.3,
+      "recipe": "skeptical",
+      "intent": "Alternating boy-girl desk layout skepticism.",
+      "event": "boy_girl",
+      "detail": {
+        "gaze": [
+          0.6,
+          -0.05
+        ]
+      }
+    },
+    {
+      "at": 20.12,
+      "recipe": "uncertain",
+      "intent": "Too awkward to talk hypothesis.",
+      "event": "awkward",
+      "detail": {
+        "gaze": [
+          -0.25,
+          0.2
+        ]
+      }
+    },
+    {
+      "at": 21.72,
+      "recipe": "deadpan",
+      "intent": "Flawless logic deadpan lock.",
+      "event": "flawless",
+      "detail": {
+        "motion": "snap"
+      }
+    },
+    {
+      "at": 22.99,
+      "recipe": "prop_present",
+      "intent": "Present the desk partner.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.5,
+          0
+        ],
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 30.77,
+      "recipe": "open_shrug",
+      "intent": "Fourth wall break: She was not Nemi!",
+      "event": "not_nemi",
+      "detail": {
+        "gaze": [
+          0,
+          0
+        ],
+        "face": {
+          "blush_intensity": 0.25
+        }
+      }
+    },
+    {
+      "at": 33.65,
+      "recipe": "deadpan",
+      "intent": "Relax command directly to chat/viewer.",
+      "event": "relax",
+      "detail": {
+        "motion": "snap"
+      }
+    },
+    {
+      "at": 34.75,
+      "recipe": "listening",
+      "intent": "Two eight year olds at the wooden double desk.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.45,
+          -0.08
+        ]
+      }
+    },
+    {
+      "at": 38.09,
+      "recipe": "lean_in",
+      "intent": "Side by side wooden desk routine.",
+      "event": "wooden_desk",
+      "detail": {
+        "gaze": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "at": 40.91,
+      "recipe": "weight_shift",
+      "intent": "Six hours a day, five days a week permanence.",
+      "event": "six_hours",
+      "detail": {
+        "gaze": [
+          0.35,
+          -0.02
+        ]
+      }
+    },
+    {
+      "at": 44.03,
+      "recipe": "clue_point",
+      "intent": "Point to classic border dispute.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.5,
+          -0.04
+        ],
+        "hands": {
+          "right": "pointing",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 45.55,
+      "recipe": "skeptical",
+      "intent": "Pencil dividing line down center.",
+      "event": "border_dispute",
+      "detail": {
+        "gaze": [
+          0.6,
+          0
+        ]
+      }
+    },
+    {
+      "at": 52.91,
+      "recipe": "quiet_recoil",
+      "intent": "International incident shock freeze.",
+      "event": "incident",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "sweat_intensity": 0.25
+        }
+      }
+    },
+    {
+      "at": 53.97,
+      "recipe": "recover",
+      "intent": "Sharing erasers and borrowing sharpeners.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.4,
+          0
+        ],
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 57.49,
+      "recipe": "pleased",
+      "intent": "Warmth of daily shared supplies.",
+      "event": "sharing_erasers",
+      "detail": {
+        "gaze": [
+          0.35,
+          -0.05
+        ]
+      }
+    },
+    {
+      "at": 62.07,
+      "recipe": "soft_shrug",
+      "intent": "Borders start disappearing.",
+      "event": "borders_fade",
+      "detail": {
+        "gaze": [
+          0.2,
+          0.1
+        ],
+        "face": {
+          "blush_intensity": 0.2
+        }
+      }
+    },
+    {
+      "at": 64.47,
+      "recipe": "uncertain",
+      "intent": "Don\u2019t know when or how it happened.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          -0.2,
+          -0.1
+        ]
+      }
+    },
+    {
+      "at": 67.57,
+      "recipe": "lean_in",
+      "intent": "Between third-grade math and lunch.",
+      "event": "between_math",
+      "detail": {
+        "gaze": [
+          0.4,
+          0
+        ]
+      }
+    },
+    {
+      "at": 70.15,
+      "recipe": "shy_confession",
+      "intent": "I had a crush on my desk partner.",
+      "event": "realized_crush",
+      "detail": {
+        "face": {
+          "blush_intensity": 0.65
+        },
+        "gaze": [
+          -0.25,
+          0.25
+        ]
+      }
+    },
+    {
+      "at": 73.66,
+      "recipe": "pleased",
+      "intent": "Completely innocent childhood crush.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0,
+          0
+        ],
+        "face": {
+          "blush_intensity": 0.25
+        }
+      }
+    },
+    {
+      "at": 74.52,
+      "recipe": "soft_shrug",
+      "intent": "No master plan.",
+      "event": "innocent_kid",
+      "detail": {
+        "gaze": [
+          0.3,
+          0
+        ]
+      }
+    },
+    {
+      "at": 79.0,
+      "recipe": "shy_confession",
+      "intent": "Quietly happy to be assigned to that desk.",
+      "event": "quietly_happy",
+      "detail": {
+        "face": {
+          "blush_intensity": 0.3
+        }
+      }
+    },
+    {
+      "at": 82.02,
+      "recipe": "explaining",
+      "intent": "Fast forward to next year nearing middle school.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.45,
+          -0.02
+        ]
+      }
+    },
+    {
+      "at": 84.52,
+      "recipe": "weight_shift",
+      "intent": "Classes getting reshuffled.",
+      "event": "middle_school",
+      "detail": {
+        "gaze": [
+          0.3,
+          0.1
+        ]
+      }
+    },
+    {
+      "at": 87.58,
+      "recipe": "hurt_composure",
+      "intent": "Different sections, different rooms, different seats.",
+      "event": "reshuffled",
+      "detail": {
+        "gaze": [
+          -0.2,
+          0.3
+        ]
+      }
+    },
+    {
+      "at": 92.18,
+      "recipe": "listening",
+      "intent": "Friend sits next to ADB and starts drilling.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.55,
+          0
+        ]
+      }
+    },
+    {
+      "at": 95.1,
+      "recipe": "nervous_wait",
+      "intent": "Bro, who do you like? Tell me!",
+      "event": "friend_drilling",
+      "detail": {
+        "face": {
+          "sweat_intensity": 0.25
+        }
+      }
+    },
+    {
+      "at": 98.2,
+      "recipe": "skeptical",
+      "intent": "I swear on my life your secret is safe.",
+      "event": "swear_vow",
+      "detail": {
+        "gaze": [
+          0.65,
+          -0.05
+        ]
+      }
+    },
+    {
+      "at": 102.07,
+      "recipe": "embarrassed",
+      "intent": "I was so stupid to believe him.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          -0.2,
+          0.3
+        ],
+        "face": {
+          "blush_intensity": 0.4
+        }
+      }
+    },
+    {
+      "at": 102.69,
+      "recipe": "lean_in",
+      "intent": "Leaning in to whisper her name.",
+      "event": "stupid_believe",
+      "detail": {
+        "hands": {
+          "right": "hand_to_chin",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 109.27,
+      "recipe": "pleased",
+      "intent": "Genuinely thought it was locked in a vault.",
+      "event": "locked_vault",
+      "detail": {
+        "gaze": [
+          0,
+          0
+        ],
+        "face": {
+          "blush_intensity": 0.15
+        }
+      }
+    },
+    {
+      "at": 110.16,
+      "recipe": "realization",
+      "intent": "Within four minutes: immediate betrayal!",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.5,
+          0
+        ],
+        "face": {
+          "sweat_intensity": 0.4
+        }
+      }
+    },
+    {
+      "at": 113.9,
+      "recipe": "quiet_recoil",
+      "intent": "Told every single friend in our group.",
+      "event": "told_group",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "sweat_intensity": 0.55,
+          "blush_intensity": 0.45
+        }
+      }
+    },
+    {
+      "at": 116.6,
+      "recipe": "hurt_composure",
+      "intent": "Completely extinguish my soul.",
+      "event": "extinguish_soul",
+      "detail": {
+        "gaze": [
+          -0.3,
+          0.4
+        ],
+        "face": {
+          "blush_intensity": 0.6
+        }
+      }
+    },
+    {
+      "at": 120.86,
+      "recipe": "deadpan",
+      "intent": "Walked right up to the girl and told her too.",
+      "event": "told_the_girl",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "blush_intensity": 0.65
+        }
+      }
+    },
+    {
+      "at": 121.9,
+      "recipe": "nervous_answer",
+      "intent": "Standing in the hallway completely paralyzed.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.2,
+          0.2
+        ],
+        "face": {
+          "sweat_intensity": 0.6,
+          "blush_intensity": 0.7
+        }
+      }
+    },
+    {
+      "at": 124.16,
+      "recipe": "deadpan",
+      "intent": "The whole group was laughing.",
+      "event": "paralyzed_hallway",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "sweat_intensity": 0.6,
+          "blush_intensity": 0.65
+        }
+      }
+    },
+    {
+      "at": 127.22,
+      "recipe": "hurt_composure",
+      "intent": "She knew, I knew she knew.",
+      "event": "she_knew",
+      "detail": {
+        "gaze": [
+          -0.35,
+          0.35
+        ],
+        "face": {
+          "blush_intensity": 0.7
+        }
+      }
+    },
+    {
+      "at": 131.22,
+      "recipe": "deadpan",
+      "intent": "My soul basically left my body.",
+      "event": "soul_departure",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "eye_openness_left": 0.75,
+          "eye_openness_right": 0.75,
+          "blush_intensity": 0.5
+        }
+      }
+    },
+    {
+      "at": 132.33,
+      "recipe": "dry_annoyance",
+      "intent": "And then came the absolute cherry on top.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0.4,
+          -0.05
+        ]
+      }
+    },
+    {
+      "at": 133.67,
+      "recipe": "skeptical",
+      "intent": "Another friend ALSO liked the same girl.",
+      "event": "cherry_on_top",
+      "detail": {
+        "gaze": [
+          0.6,
+          -0.05
+        ]
+      }
+    },
+    {
+      "at": 137.43,
+      "recipe": "realization",
+      "intent": "Two of us publicly exposed.",
+      "event": "also_liked",
+      "detail": {
+        "face": {
+          "blush_intensity": 0.3
+        }
+      }
+    },
+    {
+      "at": 140.37,
+      "recipe": "soft_shrug",
+      "intent": "Two of us publicly exposed.",
+      "event": "two_exposed",
+      "detail": {
+        "hands": {
+          "right": "open_palm",
+          "left": "open_palm"
+        }
+      }
+    },
+    {
+      "at": 142.67,
+      "recipe": "hurt_composure",
+      "intent": "Mourning our childhood romance together.",
+      "event": "mourning_romance",
+      "detail": {
+        "gaze": [
+          0,
+          0.3
+        ]
+      }
+    },
+    {
+      "at": 145.69,
+      "recipe": "recover",
+      "intent": "So yeah. That was sad.",
+      "event": null,
+      "detail": {
+        "gaze": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "at": 147.23,
+      "recipe": "soft_shrug",
+      "intent": "Small shrug for sad childhood memory.",
+      "event": "that_was_sad",
+      "detail": {
+        "hands": {
+          "right": "open_palm",
+          "left": "relaxed"
+        }
+      }
+    },
+    {
+      "at": 148.45,
+      "recipe": "pleased",
+      "intent": "Looking back on it now with humor.",
+      "event": "looking_back",
+      "detail": {
+        "gaze": [
+          0.35,
+          -0.05
+        ]
+      }
+    },
+    {
+      "at": 151.59,
+      "recipe": "deadpan",
+      "intent": "Final deadpan lock: never trust a friend with a secret.",
+      "event": "never_trust",
+      "detail": {
+        "motion": "snap",
+        "face": {
+          "blush_intensity": 0.1
+        }
+      }
+    }
+  ],
+  "mouth_method": "Measured word-bounded broad vowel choices with conservative M/B/P closures; not phoneme-perfect. Auditory review pending.",
+  "contact": "No pickup/release or forced grip. Narrator indicates classroom sets, double desk, and diagrams.",
+  "geometry": {
+    "actor_scale": 1.35,
+    "actor_root_y": 634.8,
+    "floor_y": 894,
+    "feet": "Planted existing actor-local cuff y178; unchanged shoe tread fill y192 lands at 894"
+  }
+}

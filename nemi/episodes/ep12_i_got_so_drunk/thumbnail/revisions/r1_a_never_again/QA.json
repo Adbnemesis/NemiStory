@@ -1,0 +1,67 @@
+{
+  "status": "Reviewed candidate; user selection pending",
+  "headline": "NEVER AGAIN...",
+  "proposed_title": "I Got So Drunk",
+  "tool": "built-in image_gen.imagegen",
+  "provenance": "AI-generated raster illustration using canonical episode art and supplied thumbnail references; not a Godot rig export",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "upload_dimensions": [
+    1280,
+    720
+  ],
+  "conversion": "Original native PNG copied byte-for-byte. JPG and mobile PNGs resampled to exact 16:9 sizes without upscaling; source ratio differs slightly from exact 16:9.",
+  "original_tool_output": "/Users/talus/.codex/generated_images/01a13641-0c61-7302-8688-959e0174a273/exec-10c06a40-9c2e-4375-b538-c3b37c65ac58.png",
+  "sha256": {
+    "thumbnail.png": "3273f8b326deecf856e054dc1f67fcf3bf6268ad989e08040a47b64d6eb5f290",
+    "thumbnail.jpg": "01286daba9e1d7cfa2b525491456cc7512e12edc7335011d3382d77742f17e87",
+    "review/phone.png": "fca5e562fc5e97d152918499e8501b8a1e2c37b07f725b6b08b13614f1922e55",
+    "review/tiny.png": "c2f37f8ee7b6ae2055aec6dd3cae20937ce15fec0312ff73eb8c8920e5cd6f71"
+  },
+  "references": [
+    {
+      "path": "/Users/talus/Documents/adb/references/thumbnail_ref/thumbnail_set_raora.png",
+      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e",
+      "role": "Typography/background/graphic hierarchy only"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "role": "User-approved illustrated finish and BLACK/RED/BLACK outlines"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep11_i_really_need_your_help/thumbnail/revisions/r2_a_im_scared/thumbnail.png",
+      "sha256": "794c14c58131b84cc80e52c1d463e75455d9ed4c4f329abd4148d383f7a2050c",
+      "role": "Recent typography continuity; EP11 selection not asserted"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep12_i_got_so_drunk/review/1080p_stills/beat00_hook_3.5s.png",
+      "sha256": "e30da04bbca2db91cd84be65347ffe931f3a033c34525b820d0f2ddb2b2b63ad",
+      "role": "Actual EP12 Nemi identity"
+    }
+  ],
+  "approved_by_user": false,
+  "full_output_viewed": true,
+  "mobile_viewed": true,
+  "visual_review_status": "Passed full/mobile review; no material revision needed",
+  "reviewed_on": "2026-10-13",
+  "review_sizes": [
+    [
+      320,
+      180
+    ],
+    [
+      160,
+      90
+    ]
+  ],
+  "visual_findings": "Clear exhausted aftermath; recognizable Nemi; correct exact headline and outline layers; coherent temple hand and toilet-rim contact; duration area covers only arm/hair. Tight uncropped typography; ahoge partly hidden by headline.",
+  "spelling_checked": true,
+  "character_recognizable_against_episode_reference": true,
+  "hands_and_prop_contacts_reviewed": true,
+  "crop_and_duration_area_reviewed": true,
+  "independent_review": "Native, phone and tiny outputs reviewed independently against episode/story and style references; no material revision required.",
+  "prompt_sha256": "019080185ec2d66266ed8ec31dcdded93619425ceadc86f639715a1831b4edc5"
+}

@@ -42,7 +42,7 @@ Focus: Empty chairs then portrait. Cafe callback changes meaning, quiet admissio
 
 And this wasn't new. Even in school, I'd text my friends all excited, hoping they'd reply with that same energy. I'd have so much to say. Then the reply would feel so small.
 
-Focus: Outgoing versus incoming message. Classroom wide then message evidence, small underline. Connect the present to the older pattern.
+Focus: Outgoing versus incoming message. School corridor wide then message evidence, small underline. Connect the present to the older pattern.
 
 ## 8. 91.098–104.038s — She edits her own excitement in her head.
 

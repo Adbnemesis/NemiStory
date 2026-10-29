@@ -1,0 +1,53 @@
+{
+  "recommended": "concept_a",
+  "canonical_status": "Agent-recommended working package; user selection pending",
+  "concepts": [
+    {
+      "concept": "concept_a",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "d6aba872811a46e8ff3e44da79bf5c81b53be881551f02b5bf8af5078e6d3f1e",
+      "headline": "YOU CAN MOVE?!",
+      "provenance": "Built-in image generation; reference-guided Nemi raster illustration; not an exact rig render",
+      "user_selected": false
+    },
+    {
+      "concept": "concept_b",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "fa91d8e61ecc1b417b5b8b7f572b39a6f9167a6e016dc5a9f2ee3d986d3b1a08",
+      "headline": "SAVE MY SCHOOL DAY!",
+      "provenance": "Built-in image generation; reference-guided Nemi raster illustration; not an exact rig render",
+      "user_selected": false
+    }
+  ],
+  "references": [
+    {
+      "path": "/Users/talus/Documents/adb/references/thumbnail_ref/thumbnail_set_raora.png",
+      "sha256": "cc97cf9d49982cfde8773efc2ac026c864f8b64499c773fe1874e80bbd45aa5e",
+      "role": "Typography/background only"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/episodes/ep10_my_teacher_used_to_stalk_me/thumbnail/thumbnail.png",
+      "sha256": "e7902ce7b1090b60c31edec44d097177ec74a020e56307f0eb29cb20df38fed8",
+      "role": "Approved illustrated finish"
+    },
+    {
+      "path": "/Users/talus/Documents/adb/nemi/playable_storytime/episodes/episode_001/review/reference/ep06_colour.jpg",
+      "sha256": "407825617731682ddb46e9b93a51b5e01c415be81b427762cab2aaef12938c0e",
+      "role": "Canonical Nemi character/color identity"
+    }
+  ],
+  "tool": "Built-in image_gen.imagegen",
+  "actual_viewed": [
+    "Both native outputs",
+    "Concept A320\u00d7180",
+    "Concept B160\u00d790"
+  ],
+  "selection": "Agent recommendation; no user selection received",
+  "uploaded": false
+}

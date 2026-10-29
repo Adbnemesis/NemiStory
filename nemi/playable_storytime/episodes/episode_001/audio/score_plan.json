@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "title": "A Small Bribe",
+  "narration_sha256": "c12d75dec313942e3535121534dda87a31ffc5562313693bfa230a7e18bf37e0",
+  "phrases": [
+    {
+      "id": "pudding_temptation",
+      "at": 1.84,
+      "anchor": {
+        "clip_id": "r8_0_0",
+        "word": "free",
+        "offset": 0.15
+      },
+      "intent": "A small rising hopeful thought while Nemi remembers the free pudding.",
+      "notes": [
+        {
+          "offset": 0,
+          "midi": 62,
+          "duration": 1.2,
+          "velocity": 0.38,
+          "pan": -0.08
+        },
+        {
+          "offset": 0.65,
+          "midi": 66,
+          "duration": 1.0,
+          "velocity": 0.32,
+          "pan": 0.08
+        },
+        {
+          "offset": 1.2,
+          "midi": 69,
+          "duration": 1.1,
+          "velocity": 0.34,
+          "pan": -0.04
+        },
+        {
+          "offset": 1.95,
+          "midi": 71,
+          "duration": 1.4,
+          "velocity": 0.29,
+          "pan": 0.06
+        }
+      ]
+    },
+    {
+      "id": "sandwich_confidence",
+      "at": 51.23,
+      "anchor": {
+        "clip_id": "r8_2_0",
+        "word": "layers",
+        "offset": 0
+      },
+      "intent": "Brief mock confidence for the sandwich as the better-qualified volunteer.",
+      "notes": [
+        {
+          "offset": 0,
+          "midi": 69,
+          "duration": 0.85,
+          "velocity": 0.32,
+          "pan": 0.06
+        },
+        {
+          "offset": 0.55,
+          "midi": 66,
+          "duration": 0.85,
+          "velocity": 0.29,
+          "pan": -0.06
+        },
+        {
+          "offset": 1.15,
+          "midi": 62,
+          "duration": 1.1,
+          "velocity": 0.27,
+          "pan": 0
+        }
+      ]
+    },
+    {
+      "id": "rehearsal_relief",
+      "at": 172.95,
+      "anchor": {
+        "clip_id": "r8_7_0",
+        "word": "rehearsal",
+        "offset": 0.2
+      },
+      "intent": "Warm descending relief after discovering the audience is only toys.",
+      "notes": [
+        {
+          "offset": 0,
+          "midi": 66,
+          "duration": 1.0,
+          "velocity": 0.34,
+          "pan": -0.06
+        },
+        {
+          "offset": 0.52,
+          "midi": 64,
+          "duration": 1.0,
+          "velocity": 0.3,
+          "pan": 0.06
+        },
+        {
+          "offset": 1.1,
+          "midi": 62,
+          "duration": 1.45,
+          "velocity": 0.28,
+          "pan": 0
+        }
+      ]
+    },
+    {
+      "id": "warm_thank_you",
+      "at": 228.65,
+      "anchor": {
+        "clip_id": "r8_9_0",
+        "word": "Thank",
+        "offset": 0
+      },
+      "intent": "A compact warm cadence for thanking the viewer; finish before the pudding date joke.",
+      "notes": [
+        {
+          "offset": 0,
+          "midi": 69,
+          "duration": 0.45,
+          "velocity": 0.28,
+          "pan": 0.05
+        },
+        {
+          "offset": 0.38,
+          "midi": 66,
+          "duration": 0.45,
+          "velocity": 0.25,
+          "pan": -0.05
+        },
+        {
+          "offset": 0.78,
+          "midi": 62,
+          "duration": 0.56,
+          "velocity": 0.24,
+          "pan": 0
+        }
+      ]
+    }
+  ],
+  "silent_ranges": [
+    {
+      "start": 72,
+      "end": 96,
+      "reason": "Let the HOST shock and enthusiastic-box reactions play dry with recorded event SFX."
+    },
+    {
+      "start": 120,
+      "end": 144,
+      "reason": "Keep the pencil discovery and failed pudding investigation dry."
+    },
+    {
+      "start": 192,
+      "end": 216,
+      "reason": "Protect the school-furniture freeze and duck staring contest."
+    },
+    {
+      "start": 230.1,
+      "end": 240,
+      "reason": "Let last Friday and the final invitation land without music."
+    }
+  ]
+}

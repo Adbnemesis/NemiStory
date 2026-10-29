@@ -1,0 +1,12 @@
+{
+  "purpose": "Expected whole-file percentage clock; planning example, not a production scene or completed media check",
+  "duration": 220,
+  "fps": 30,
+  "expected_decoded_frames": 6600,
+  "slot_seconds": 22,
+  "digit_destinations_seconds": [0, 22, 44, 66, 88, 110, 132, 154, 176, 198],
+  "digit_destinations_frames": [0, 660, 1320, 1980, 2640, 3300, 3960, 4620, 5280, 5940],
+  "successful_natural_joins_seconds": [66, 132, 198],
+  "automatic_state": false,
+  "verification": "Recompute and compare all destinations against the actual final encoded duration before delivery"
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "Drawing-world field-contract example; not a standalone rendered episode or approval",
+  "world_renderer": "drawing",
+  "scene_fragment": {
+    "start": 24,
+    "end": 48,
+    "actor_wall": 3,
+    "entry_card": {
+      "duration": 3,
+      "title": "1 DOOR",
+      "subtitle": "The chosen action is in this direction"
+    },
+    "walls": [
+      {
+        "index": 0,
+        "objects": [
+          {
+            "id": "recovery_front",
+            "author": "nemi",
+            "kind": "paper_exit",
+            "x": 960,
+            "y": 330,
+            "text": "2 TAKE THE TEAR",
+            "visible_from_event": "door_rewind"
+          }
+        ]
+      }
+    ],
+    "environment_events": [
+      {
+        "id": "door_rewind_world",
+        "object": "ink_door",
+        "kind": "rewind",
+        "at": 37.2,
+        "end": 38.3,
+        "event": "door_rewind"
+      }
+    ]
+  },
+  "dependencies": "Complete scene also needs all four walls and the existing ink_door object. The canonical production event door_rewind must have the same 37.2-second anchor."
+}

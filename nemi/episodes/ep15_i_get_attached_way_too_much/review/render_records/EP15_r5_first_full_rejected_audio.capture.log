@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+Movie Maker mode enabled, recording movie in 1920×1080 @ 30 FPS...
+STORYTIME COMPLETE: 4506 authored frames
+--------------------------------------------------------------------------------
+Done recording movie at path: /var/folders/ys/tggf0syn5jg95cjmgd9jk2gr0000gn/T/storytime-fa742pp9/scene.avi
+4507 frames at 30 FPS (movie length: 00:02:30:07), recorded in 00:04:50 (51% of real-time speed).
+CPU render time: 89.00 seconds (average: 19.75 ms/frame)
+GPU render time: 0.00 seconds (average: 0.00 ms/frame)
+Encoding time: 53.52 seconds (average: 11.87 ms/frame)
+--------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/talus/.codex/worktrees/nemi-ep15-review/adb/tools/storytime/render_scene.py", line 134, in <module>
+    main()
+    ~~~~^^
+  File "/Users/talus/.codex/worktrees/nemi-ep15-review/adb/tools/storytime/render_scene.py", line 119, in main
+    raise RuntimeError('Encoded audio exceeds -1 dB true peak; reduce master gain and render again')
+RuntimeError: Encoded audio exceeds -1 dB true peak; reduce master gain and render again

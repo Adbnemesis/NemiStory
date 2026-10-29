@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "folder": "adb/episodes/ep06_my_crush_said_i_know",
+  "authors": [
+    "adb"
+  ],
+  "features": [
+    "live_ink",
+    "props",
+    "sfx"
+  ],
+  "documents": {
+    "docs/animation/STORYTIME_REFINEMENT_WORKFLOW.md": {
+      "sha256": "1bc5459889e30103574f6542f40b9829a5e5228fc0e0306783640681e3181511",
+      "parts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "note": "Keep canonical Aiden voice with conversational pacing, maintain upper-middle balance through sequential school classroom and text message developments, enforce full 1080p review gate prior to 4K, and preserve ADB's restrained acting across the Japanese class reshuffle, math exam tension, and 'I know' text payoff."
+    },
+    "docs/animation/STORYTIME_DIRECTION_WORKFLOW.md": {
+      "sha256": "555032d315f9ef84d91bf8cd60a7e18ed11b8c2a9ce61a8d7e552fb7f9f57547",
+      "parts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "note": "Structure the episode with version-2 scene JSON under adb/episodes/ep06_my_crush_said_i_know, dividing the high school Japanese class story into distinct thought beats (reshuffle realization, classmates grouping, friendship building, asking about the block, math exam tension, texting confession, 'I know' deadpan payoff). Link props (classroom desks, blackboard, phone, chat bubbles, math exam paper) and SFX to named events, maintain ADB's planted feet and restrained 14 recipes with exact arm length preservation, and stage with consistent 1920x1080 world coordinates."
+    },
+    "docs/animation/CHARACTER_DRAWING_PRODUCTION_KIT.md": {
+      "sha256": "4bbf3a7dbf9d877636fca6fae064f77e1a323d01a313a0ff6c912a438f76a645",
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "note": "Adopt ADB's compact, print-style pen profile with slate/muted ink and measured strokes for all notebook/chalkboard/text annotations, avoiding loose loops. Use ADB's specific mouth shapes (neutral, smile, talk_open, talk_wide, talk_round) and recipe transition times (0.42s baseline) for his restrained deadpan humor across the crush reunion beats."
+    },
+    "adb/docs/ADB_ACTING_GUIDE.md": {
+      "sha256": "c8e4d5c012758bd80b84d04f8a8e7161b92c86e9ffded1be313285978d256860",
+      "parts": [
+        1,
+        2
+      ],
+      "note": "Direct ADB with composed confidence and authentic vulnerability: use calm baseline gestures during high school explanation, sheepish blush and chin rub when confessing he still liked her, shocked frozen lock when she says she doesn't remember blocking him, and an absolute deadpan freeze stamp with a delayed blink upon receiving her two-word reply 'I know'."
+    },
+    "adb/docs/ADB_CHARACTER_GUIDE.md": {
+      "sha256": "16c076406a6e662dade0c36e391b44927eda459dedbd93dbd65c79ab7544d72b",
+      "parts": [
+        1,
+        2
+      ],
+      "note": "Preserve ADB's distinct character silhouette, oatmeal knit half-zip sweater, dark slate curtain bangs, and almond anime eyes. Ensure his canonical backstory (24yo, former table tennis player, dry humor, locked girlfriend mystery) and Aiden voice identity remain intact without caricature or female Nemi characteristics during this high school crush memory."
+    },
+    "adb/docs/ADB_LIP_SYNC_GUIDE.md": {
+      "sha256": "05dd8f139ad9a32337163135408923d73a3463e8e2f05565711a632d211301e6",
+      "parts": [
+        1
+      ],
+      "note": "Author ADB's independent mouth track with clean phoneme intervals (neutral, talk_open, talk_wide, talk_round, small_o, deadpan, smile), snapping transitions between 0.03-0.05s, clamping to neutral during all sentence pauses, and locking to deadpan dash on the final 'I know' text reaction."
+    },
+    "common/storytime/profiles/adb.json": {
+      "sha256": "ca5a41a8b41ec55aca8d8e0e0653bfaa8cd612ca215cae3659cc4f21fb8d431d",
+      "parts": [
+        1
+      ],
+      "note": "Apply ADB's exact pen profile parameters: primary ink #303944, accent #8a6245, line width 0.045, with angular arrows, double slash scratches, and measured technical print for on-screen doodles and math exam diagrams."
+    },
+    "common/storytime/examples/story_review_48s/REVIEW.md": {
+      "sha256": "170f43ce0a66e54e218beb345e1206f2525aa811624033a192936d70af57745c",
+      "parts": [
+        1
+      ],
+      "note": "Verify broad staging standards from the 48s review: keep feet planted and resting hands cleanly posed, enforce hand_path_window bounds during any phone interaction so arm paths do not leak, and check full-body silhouette and prop scale across the classroom and study environments."
+    },
+    "docs/animation/STORYTIME_EPISODE_COLOUR_THEME.md": {
+      "sha256": "580c657a381ac938ada88e9204b005a1776caf252705d82088d8ed9f040e03be",
+      "parts": [
+        1
+      ],
+      "note": "Adhere to the approved storytime colour theme: cream paper canvas (#faf7f2), warm neutral floor, dark readable contour ink, canonical ADB colors (oatmeal sweater, slate trousers, white sneakers), and restrained accent washes on the Japanese chalkboard, phone screen, math exam paper, and text bubbles rather than saturated full-room wall fills."
+    },
+    "docs/animation/COMMON_ANIMATION_QA.md": {
+      "sha256": "f7158dc651a4f28e090434f43ffc143a7b0a4a9bd27172d2b41f9652d414c73b",
+      "parts": [
+        1
+      ],
+      "note": "Enforce all 4 QA gates for EP06: zero limb clipping and solid foot baseline grounding on classroom floors, asymmetric body acting with comedic deadpan holds, strictly <=5 words per subtitle card with clean removal during pauses, voice dominance without background music, and zero procedural bobbing or stock pose recycling."
+    },
+    "tools/tts/config.py": {
+      "sha256": "e40065f248800836e45e48b95af92a745bf1564c17552c1a2eb4a87956223e66",
+      "parts": [
+        1
+      ],
+      "note": "Configure speech synthesis using ADB's canonical voice configuration: Qwen3-TTS speaker Aiden with unchanged 24kHz sampling rate, canonical voice prompt ('Cool, relaxed young adult male around 24, calm conversational speech...'), default speed 1.0, and contextual pause policies tailored for deadpan comedic timing on punchlines."
+    },
+    "docs/animation/COMMON_CAMERA_STAGING.md": {
+      "sha256": "8fc971efd15373998a419ecbcfd837af62ca21099749d8e11a52937ed098d823",
+      "parts": [
+        1
+      ],
+      "note": "Save an exact-word camera_plan.json for EP06: balance establishing wides for the high school Japanese classroom reshuffle, medium portraits for personal reflection and peer eavesdropping, tight punches (1.35-1.55x zoom) on the shocked realization that she forgot blocking him, phone insert framing for outgoing/incoming texts, and a centered deadpan portrait holding the 'I know' aftermath."
+    },
+    "docs/animation/COMMON_SFX_SYSTEM.md": {
+      "sha256": "dc8efd43b08e6aef5503c3e8c51462baec23b8b1c45ce5acb1c16ec8b9f12f12",
+      "parts": [
+        1
+      ],
+      "note": "Author an event-linked sound_plan.json using existing root MP3 and library SFX: viral_whoosh / paper turns for classroom transitions, viral_notification / phone typing for the text messages, comedic record scratch or cartoon alert for 'she doesn't remember', and viral_bruh or comedic fail tone for the 'I know' text revelation, with calibrated gains between -6dB and -14dB to ensure audibility beneath voice."
+    },
+    "docs/animation/LIVE_DOODLING_WORKFLOW.md": {
+      "sha256": "584200fb037a1fa298c6b399b47aec91545e63c447911fa240926090a687be55",
+      "parts": [
+        1
+      ],
+      "note": "Direct live doodling for key narrative beats: live stroke reveal of kanji characters on the Japanese chalkboard, live arrow linking ADB to his crush and the rival boyfriend, a scratched-out 'FRIEND' note, and a live math exam score/paper sketch, ensuring completed ink holds completely still after drawing."
+    },
+    "docs/animation/COMMON_PROP_SYSTEM.md": {
+      "sha256": "ae99ae1cb2061ff3e2cf2523dd2e22d2080a84a1108a7d0b9bce60be06d84ccf",
+      "parts": [
+        1
+      ],
+      "note": "Author story-specific props with hand-drawn aesthetic and correct 10-layer depth hierarchy: high school classroom desks, Japanese text blackboard, smartphone with outgoing chat bubbles, half-yearly math exam paper with red grade marks, and incoming text notification card, ensuring crisp finger grips and zero mid-air hovering."
+    },
+    "docs/audio/SFX_System_Guide.md": {
+      "sha256": "2973052c494db7d2788666d73ae9f428b229f0cf106a709dad085009c6f3427f",
+      "parts": [
+        1
+      ],
+      "note": "Select audio from the indexed event SFX catalog: paper turns for classroom tests, pencil scribbles for math calculations and live doodles, tactile clicks/notifications for texting, and comic stings/silence for punchline landings while keeping voice narration cleanly dominant."
+    },
+    "docs/audio/SFX_License_Registry.md": {
+      "sha256": "b2c33a96c5eb6bcc80f45f0c3d77d93f3d72c42920eef9f53eae0cd5a57676e2",
+      "parts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "Verify all referenced audio assets against the license registry and root inventory, utilizing verified CC0/Mixkit assets (paper_page_turn_crisp_01, drawing_scratch_scribble_01, phone_smartphone_typing_01, comedic_record_scratch_01) and documenting exact file paths and hashes in sound_plan.json."
+    }
+  }
+}
